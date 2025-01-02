@@ -301,7 +301,7 @@ checksum = "37909eebbb50d72f9059c3b6d82c0463f2ff062c9e95845c43a6c9c0355411be"
 
 [[package]]
 name = "file_type"
-version = "0.0.0"
+version = "0.0.1"
 dependencies = [
  "anyhow",
  "criterion",
@@ -1100,7 +1100,7 @@ dependencies = [
 
 [[package]]
 name = "pronom_export"
-version = "0.0.0"
+version = "0.0.1"
 dependencies = [
  "anyhow",
  "file_type",
