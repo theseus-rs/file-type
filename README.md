@@ -1,11 +1,11 @@
 # File Type
 
 [![ci](https://github.com/theseus-rs/file-type/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/theseus-rs/file-type/actions/workflows/ci.yml)
-[![Documentation](https://docs.rs/file-type/badge.svg)](https://docs.rs/file-type)
+[![Documentation](https://docs.rs/file_type/badge.svg)](https://docs.rs/file_type)
 [![Code Coverage](https://codecov.io/gh/theseus-rs/file-type/branch/main/graph/badge.svg)](https://codecov.io/gh/theseus-rs/file-type)
 [![Benchmarks](https://img.shields.io/badge/%F0%9F%90%B0_bencher-enabled-6ec241)](https://bencher.dev/perf/theseus-rs-file-type)
-[![Latest version](https://img.shields.io/crates/v/file-type.svg)](https://crates.io/crates/file-type)
-[![License](https://img.shields.io/crates/l/file-type)](https://github.com/theseus-rs/file-type#license)
+[![Latest version](https://img.shields.io/crates/v/file_type.svg)](https://crates.io/crates/file_type)
+[![License](https://img.shields.io/crates/l/file_type)](https://github.com/theseus-rs/file-type#license)
 [![Semantic Versioning](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F_SemVer-2.0.0-blue)](https://semver.org/spec/v2.0.0.html)
 
 File Type is a library that uses file signatures and file extensions to determine the type of file.

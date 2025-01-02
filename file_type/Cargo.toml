@@ -1,7 +1,7 @@
 [package]
 authors.workspace = true
 categories.workspace = true
-description = "File type dector"
+description = "File type detector"
 edition.workspace = true
 keywords = ["file", "file-type", "format"]
 license.workspace = true
