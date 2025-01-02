@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" id="oranda" class="dark">
+  <head>
+    <title>My Oranda Project</title>
+    
+    
+      <link rel="icon" href="/favicon.ico" />
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="My Oranda Project" />
+    
+    
+    
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+    <link rel="stylesheet" href="/oranda-v0.6.1.css" />
+    
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-body">
+        
+
+        <main>
+          <header>
+            
+            <h1 class="title">My Oranda Project</h1>
+            
+  <nav class="nav">
+    <ul>
+      <li><a href="/">Home</a></li>
+
+      
+
+      
+
+      
+
+      
+        <li><a href="/funding/">Funding</a></li>
+      
+
+      
+    </ul>
+  </nav>
+
+          </header>
+
+          
+
+
+    <h1>File Type</h1>
+<p><a href="https://github.com/theseus-rs/file-type/actions/workflows/ci.yml" rel="noopener noreferrer"><img src="https://github.com/theseus-rs/file-type/actions/workflows/ci.yml/badge.svg?branch=main" alt="ci"></a>
+<a href="https://docs.rs/file_type" rel="noopener noreferrer"><img src="https://docs.rs/file_type/badge.svg" alt="Documentation"></a>
+<a href="https://codecov.io/gh/theseus-rs/file-type" rel="noopener noreferrer"><img src="https://codecov.io/gh/theseus-rs/file-type/branch/main/graph/badge.svg" alt="Code Coverage"></a>
+<a href="https://bencher.dev/perf/theseus-rs-file-type" rel="noopener noreferrer"><img src="https://img.shields.io/badge/%F0%9F%90%B0_bencher-enabled-6ec241" alt="Benchmarks"></a>
+<a href="https://crates.io/crates/file_type" rel="noopener noreferrer"><img src="https://img.shields.io/crates/v/file_type.svg" alt="Latest version"></a>
+<a href="https://github.com/theseus-rs/file-type#license" rel="noopener noreferrer"><img src="https://img.shields.io/crates/l/file_type" alt="License"></a>
+<a href="https://semver.org/spec/v2.0.0.html" rel="noopener noreferrer"><img src="https://img.shields.io/badge/%E2%9A%99%EF%B8%8F_SemVer-2.0.0-blue" alt="Semantic Versioning"></a></p>
+<p>File Type is a library that uses file signatures and file extensions to determine the type of file.</p>
+<h2>Getting Started</h2>
+<p>Detect a Java class file from bytes:</p>
+<pre style="background-color:#263238;"><span style="color:#c792ea;">use </span><span style="color:#eeffff;">file_type</span><span style="color:#89ddff;">::</span><span style="color:#eeffff;">FileType</span><span style="color:#89ddff;">;
+</span><span style="color:#eeffff;">
+</span><span style="font-style:italic;color:#c792ea;">let</span><span style="color:#eeffff;"> file_type </span><span style="color:#89ddff;">= </span><span style="color:#eeffff;">FileType</span><span style="color:#89ddff;">::</span><span style="color:#eeffff;">from_bytes</span><span style="color:#89ddff;">(</span><span style="font-style:italic;color:#c792ea;">b</span><span style="color:#89ddff;">"\xCA\xFE\xBA\xBE");
+</span><span style="color:#eeffff;">assert_eq!</span><span style="color:#89ddff;">(</span><span style="color:#eeffff;">file_type.</span><span style="color:#82aaff;">name</span><span style="color:#89ddff;">(), "</span><span style="color:#c3e88d;">Java Class File</span><span style="color:#89ddff;">");
+</span><span style="color:#eeffff;">assert_eq!</span><span style="color:#89ddff;">(</span><span style="color:#eeffff;">file_type.</span><span style="color:#82aaff;">media_type</span><span style="color:#89ddff;">(), </span><span style="color:#ffcb6b;">Vec</span><span style="color:#89ddff;">::&lt;</span><span style="color:#eeffff;">String</span><span style="color:#89ddff;">&gt;::</span><span style="color:#eeffff;">new</span><span style="color:#89ddff;">());
+</span><span style="color:#eeffff;">assert_eq!</span><span style="color:#89ddff;">(</span><span style="color:#eeffff;">file_type.</span><span style="color:#82aaff;">extensions</span><span style="color:#89ddff;">(), </span><span style="color:#eeffff;">vec!</span><span style="color:#89ddff;">["</span><span style="color:#c3e88d;">class</span><span style="color:#89ddff;">"</span><span style="color:#eeffff;">.</span><span style="color:#82aaff;">to_string</span><span style="color:#89ddff;">()]);
+</span></pre>
+
+<p>Detect text from bytes:</p>
+<pre style="background-color:#263238;"><span style="color:#c792ea;">use </span><span style="color:#eeffff;">file_type</span><span style="color:#89ddff;">::</span><span style="color:#eeffff;">FileType</span><span style="color:#89ddff;">;
+</span><span style="color:#eeffff;">
+</span><span style="font-style:italic;color:#c792ea;">let</span><span style="color:#eeffff;"> file_type </span><span style="color:#89ddff;">= </span><span style="color:#eeffff;">FileType</span><span style="color:#89ddff;">::</span><span style="color:#eeffff;">from_bytes</span><span style="color:#89ddff;">(</span><span style="font-style:italic;color:#c792ea;">b</span><span style="color:#89ddff;">"</span><span style="color:#c3e88d;">hello, world</span><span style="color:#89ddff;">\n");
+</span><span style="color:#eeffff;">assert_eq!</span><span style="color:#89ddff;">(</span><span style="color:#eeffff;">file_type.</span><span style="color:#82aaff;">name</span><span style="color:#89ddff;">(), "</span><span style="color:#c3e88d;">Text</span><span style="color:#89ddff;">");
+</span><span style="color:#eeffff;">assert_eq!</span><span style="color:#89ddff;">(</span><span style="color:#eeffff;">file_type.</span><span style="color:#82aaff;">media_types</span><span style="color:#89ddff;">(), </span><span style="color:#eeffff;">vec!</span><span style="color:#89ddff;">["</span><span style="color:#c3e88d;">text/plain</span><span style="color:#89ddff;">"</span><span style="color:#eeffff;">.</span><span style="color:#82aaff;">to_string</span><span style="color:#89ddff;">()]);
+</span><span style="color:#eeffff;">assert_eq!</span><span style="color:#89ddff;">(</span><span style="color:#eeffff;">file_type.</span><span style="color:#82aaff;">extensions</span><span style="color:#89ddff;">(), </span><span style="color:#ffcb6b;">Vec</span><span style="color:#89ddff;">::&lt;</span><span style="color:#eeffff;">String</span><span style="color:#89ddff;">&gt;::</span><span style="color:#eeffff;">new</span><span style="color:#89ddff;">());
+</span></pre>
+
+<h2>Safety</h2>
+<p>These crates use <code>#![forbid(unsafe_code)]</code> to ensure everything is implemented in 100% safe Rust.</p>
+<h2>License</h2>
+<p>Licensed under either of</p>
+<ul>
+<li>Apache License, Version 2.0, (<a href="LICENSE-APACHE" rel="noopener noreferrer">LICENSE-APACHE</a> or <a href="https://www.apache.org/licenses/LICENSE-2.0" rel="noopener noreferrer">https://www.apache.org/licenses/LICENSE-2.0</a>)</li>
+<li>MIT license (<a href="LICENSE-MIT" rel="noopener noreferrer">LICENSE-MIT</a> or <a href="https://opensource.org/licenses/MIT" rel="noopener noreferrer">https://opensource.org/licenses/MIT</a>)</li>
+</ul>
+<p>AND</p>
+<p>The PRONOM definitions are provided by The National Archives (UK) under the
+<a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="noopener noreferrer">Open Government Licence</a>.</p>
+<h2>Contribution</h2>
+<p>Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any
+additional terms or conditions.</p>
+<a href="https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/theseus-rs/file-type" rel="noopener noreferrer">
+<img src="https://img.shields.io/static/v1?label=VSCode%20Development%20Container&amp;logo=visualstudiocode&amp;message=Open&amp;color=orange" alt="VSCode Development Container">
+</a>
+<br>
+<a href="https://github.dev/theseus-rs/file-type" rel="noopener noreferrer">
+<img src="https://img.shields.io/static/v1?label=GitHub%20Codespaces&amp;logo=github&amp;message=Open&amp;color=orange" alt="GitHub Codespaces">
+</a>
+
+
+
+        </main>
+      </div>
+
+      <footer>
+        
+        <span>
+          My Oranda Project
+        </span>
+      </footer>
+    </div>
+
+    
+    
+
+    
+
+
+  </body>
+</html>
