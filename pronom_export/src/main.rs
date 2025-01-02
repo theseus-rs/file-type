@@ -12,6 +12,8 @@ use quick_xml::se::Serializer;
 use rayon::prelude::*;
 use reqwest::blocking::Client;
 use serde::Serialize;
+use std::collections::HashMap;
+use std::env;
 use std::fs::{self, File};
 use std::io::Write;
 use std::path::PathBuf;
@@ -24,10 +26,31 @@ const CRATE_NAME: &str = env!("CARGO_PKG_NAME");
 const CRATE_VERSION: &str = env!("CARGO_PKG_VERSION");
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
 const BASE_URL: &str = "https://www.nationalarchives.gov.uk/PRONOM/";
-const PUID_TYPES: [(&str, i64); 2] = [("fmt", 2009), ("x-fmt", 455)];
 
 /// Downloads PRONOM data and saves it to the data directory.
 fn main() {
+    initialize_tracing();
+
+    let mut max_fmt_puid = 2009;
+    if let Ok(fmt_puid) = env::var("MAX_FMT_PUID") {
+        if let Ok(fmt_puid) = fmt_puid.parse::<i64>() {
+            max_fmt_puid = fmt_puid;
+        }
+    }
+
+    let mut max_x_fmt_puid = 455;
+    if let Ok(x_fmt_puid) = env::var("MAX_X_FMT_PUID") {
+        if let Ok(x_fmt_puid) = x_fmt_puid.parse::<i64>() {
+            max_x_fmt_puid = x_fmt_puid;
+        }
+    }
+
+    let puid_ids = HashMap::from([("fmt", max_fmt_puid), ("x-fmt", max_x_fmt_puid)]);
+
+    export_data(puid_ids);
+}
+
+fn initialize_tracing() {
     let format = tracing_subscriber::fmt::format()
         .with_level(true)
         .with_target(false)
@@ -44,14 +67,12 @@ fn main() {
         .fmt_fields(fmt::format::DefaultFields::new())
         .event_format(format)
         .init();
-
-    export_data();
 }
 
-fn export_data() {
+fn export_data(puid_types: HashMap<&str, i64>) {
     let client = Client::new();
 
-    for (puid_type, puid_range) in PUID_TYPES {
+    for (puid_type, puid_range) in puid_types {
         let puid_type_url = format!("{BASE_URL}{puid_type}/");
         let new_dir = PathBuf::from(CRATE_DIR)
             .join("..")
@@ -140,5 +161,17 @@ fn download_and_save_puid(client: &Client, puid_url: &String, file_name: &PathBu
             "Failed to write file {}: {error}",
             file_name.to_string_lossy()
         );
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_main() {
+        env::set_var("MAX_FMT_PUID", "1");
+        env::set_var("MAX_X_FMT_PUID", "1");
+        main();
     }
 }

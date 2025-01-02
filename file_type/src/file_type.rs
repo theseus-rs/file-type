@@ -176,6 +176,7 @@ mod tests {
         assert_eq!(file_type.name(), "Portable Network Graphics");
         assert_eq!(file_type.media_types(), vec!["image/png".to_string()]);
         assert_eq!(file_type.extensions(), vec!["png".to_string()]);
+        assert_eq!(file_type.file_format().id(), 664);
     }
 
     #[test]
@@ -195,6 +196,12 @@ mod tests {
     }
 
     #[test]
+    fn test_from_extension_not_found() {
+        let file_types = FileType::from_extension("foo");
+        assert_eq!(0, file_types.len());
+    }
+
+    #[test]
     fn test_from_media_type() {
         let file_types = FileType::from_media_type("text/markdown");
         assert_eq!(1, file_types.len());
@@ -205,6 +212,12 @@ mod tests {
             vec!["md".to_string(), "markdown".to_string()]
         );
         assert_eq!(file_type.name(), "Markdown");
+    }
+
+    #[test]
+    fn test_from_media_type_not_found() {
+        let file_types = FileType::from_media_type("foo/bar");
+        assert_eq!(0, file_types.len());
     }
 
     #[test]
