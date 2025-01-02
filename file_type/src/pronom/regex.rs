@@ -110,6 +110,7 @@ impl Display for Token {
 /// The value of the byte sequence is defined as a sequence of hexadecimal values, optionally
 /// incorporating any of the following regular expressions:
 ///
+/// ```none
 /// • ??: wildcard matching any pair of hexadecimal values (i.e. a single byte).
 /// e.g.: 0x0A FF ?? FE would match 0x0A FF 6C FE or 0x0A FF 11 FE.
 ///
@@ -142,6 +143,7 @@ impl Display for Token {
 /// containing no wildcards, and where a is less than b).
 /// e.g. 0xFF [!01:02] FF would match 0xFF 00 FF and 0xFF 03 FF, but not 0xFF 01
 /// FF or 0xFF 02 FF.
+/// ```
 #[derive(Clone, Debug, Default, PartialEq)]
 pub struct Regex {
     tokens: Vec<Token>,
@@ -473,7 +475,9 @@ impl Regex {
 }
 
 /// Convert a byte array of hexadecimal values to a byte array
+/// ```none
 /// e.g. [0x30, 0x31] -> [0x01]
+/// ```
 fn hex_to_bytes(hex: &[u8]) -> Vec<u8> {
     hex.chunks_exact(2)
         .filter_map(|chunk| {
