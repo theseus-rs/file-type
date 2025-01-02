@@ -1,0 +1,50 @@
+<FileFormat>
+  <FormatID>40</FormatID>
+  <FormatName>Tab-separated Values</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Dataset</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>A tab-separated values file is a simple text format for storing data in a tabular structure (e.g. database or spreadsheet data). Each record in the table is one line of the text file. Each field value of a record is separated from the next by a tab stop character – it is a form of the more general delimiter-separated values format.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>25 Apr 2023</LastUpdatedDate>
+  <FormatNote>https://en.wikipedia.org/wiki/Tab-separated_values
+
+https://www.loc.gov/preservation/digital/formats/fdd/fdd000533.shtml</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fdd000533</Identifier>
+    <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>Q3513566</Identifier>
+    <IdentifierType>Wikidata QID Identifier</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/tab-separated-values</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/13</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>836</ExternalSignatureID>
+    <Signature>tsv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>3333</ExternalSignatureID>
+    <Signature>tab</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

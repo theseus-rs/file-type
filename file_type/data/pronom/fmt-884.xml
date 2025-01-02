@@ -1,0 +1,31 @@
+<FileFormat>
+  <FormatID>1688</FormatID>
+  <FormatName>AXD HTTP Handler File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Text (Structured)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>AXD Handler Files are used by ASP.NET applications for handling embedded resource requests.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>06 Jun 2016</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>06 Jun 2016</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/884</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1815</ExternalSignatureID>
+    <Signature>axd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

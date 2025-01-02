@@ -1,0 +1,51 @@
+<FileFormat>
+  <FormatID>1683</FormatID>
+  <FormatName>Fortran</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Text (Structured)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Fortran (formerly FORTRAN, derived from "Formula Translation") is a programming language suited to numeric and scientific computing. Fortran was originally developed by IBM in the 1950s for use in the scientific and engineering sectors.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>18 May 2016</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>18 May 2016</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/879</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1807</ExternalSignatureID>
+    <Signature>f90</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1808</ExternalSignatureID>
+    <Signature>f95</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1809</ExternalSignatureID>
+    <Signature>f03</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1810</ExternalSignatureID>
+    <Signature>f</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1811</ExternalSignatureID>
+    <Signature>for</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

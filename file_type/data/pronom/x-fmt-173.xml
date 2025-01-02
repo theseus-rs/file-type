@@ -1,0 +1,73 @@
+<FileFormat>
+  <FormatID>246</FormatID>
+  <FormatName>PageMaker PC Document</FormatName>
+  <FormatVersion>5.0</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Word Processor</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>PageMaker is a discontinued desktop publishing program created by Aldus Corporation in 1985. Originally created for Macintosh computers the PC version was released in 1987. It was purchased alongside other Aldus software such as FreeHand in 1994. File extensions begin with either pm or pt, for the PageMaker file or for PageMaker template, followed by the version number.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>10 Oct 2003</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>28 Jun 2022</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.pagemaker</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/173</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>240</ExternalSignatureID>
+    <Signature>pm5</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>3105</ExternalSignatureID>
+    <Signature>pt5</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>2017</SignatureID>
+    <SignatureName>PageMaker PC Document Version 5</SignatureName>
+    <SignatureNote>BOF; Offset: 6; Magic Bytes: FF99 followed by 4D500005 100 bytes after..</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>2343</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>6</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>FF99{100}4D500005</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Equivalent to</RelationshipType>
+    <RelatedFormatID>2523</RelatedFormatID>
+    <RelatedFormatName>PageMaker Mac Document</RelatedFormatName>
+    <RelatedFormatVersion>5.0</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>247</RelatedFormatID>
+    <RelatedFormatName>PageMaker PC Document</RelatedFormatName>
+    <RelatedFormatVersion>6.0</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>516</RelatedFormatID>
+    <RelatedFormatName>PageMaker PC Document</RelatedFormatName>
+    <RelatedFormatVersion>4.0</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

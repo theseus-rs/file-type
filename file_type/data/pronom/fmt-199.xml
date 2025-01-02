@@ -1,0 +1,104 @@
+<FileFormat>
+  <FormatID>924</FormatID>
+  <FormatName>MPEG-4 Media File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Audio, Video</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Container format that can contain any of a number of audio and video codecs. It may also contain subtitle data or file metadata. This family of container can be used with several different file extensions.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>27 Oct 2009</ProvenanceSourceDate>
+  <ProvenanceDescription>08/2023 (v.113) - Priority added over fmt/1616 (BibTeX Database File). Internally researched; 04/2024 (v.118): Description added as part of PRONOM Research Week 2023. Submitted by The Church of Jesus Christ of Latter-day Saints</ProvenanceDescription>
+  <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/mp4</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>fmt/199</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>video/mp4</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>907</ExternalSignatureID>
+    <Signature>mp4</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>994</ExternalSignatureID>
+    <Signature>m4v</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>995</ExternalSignatureID>
+    <Signature>m4a</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>996</ExternalSignatureID>
+    <Signature>f4v</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>997</ExternalSignatureID>
+    <Signature>f4a</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>278</SignatureID>
+    <SignatureName>MP4 Media File</SignatureName>
+    <SignatureNote>Represents the following character sequence: {4}ftyp{0-64}(mp42|mp41|isom|iso2)*moov</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>357</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>4</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness>Little-endian</Endianness>
+      <ByteSequenceValue>66747970{0-64}(6D703432|6D703431|69736F6D|69736F32)*6D6F6F76</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>1103</RelatedFormatID>
+    <RelatedFormatName>3GPP Audio/Video File</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>1388</RelatedFormatID>
+    <RelatedFormatName>Apple Lossless Audio Codec</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>2422</RelatedFormatID>
+    <RelatedFormatName>Canon Raw</RelatedFormatName>
+    <RelatedFormatVersion>3.0</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>658</RelatedFormatID>
+    <RelatedFormatName>Quicktime</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>2443</RelatedFormatID>
+    <RelatedFormatName>BibTeX Database File</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+</FileFormat>

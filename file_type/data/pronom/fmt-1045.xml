@@ -1,0 +1,60 @@
+<FileFormat>
+  <FormatID>1850</FormatID>
+  <FormatName>Q&amp;A Word Processor Document</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Word Processor</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Q&amp;A was a database and word processing software program for IBM PC-compatible computers published by Symantec and partners from 1985 to 1998. Due to their age, Q&amp;A files may lack an extension.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>11 Apr 2017</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>11 Apr 2017</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1045</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <InternalSignature>
+    <SignatureID>1404</SignatureID>
+    <SignatureName>Q&amp;A Write Word Processor (WP)</SignatureName>
+    <SignatureNote>BOF: TBWP or TBTX, followed by null. TB stands for TouchBase, Symantec's original internal name for the product. WP = Word Processor including header/footer. TX = Text only.
+Format is described here:
+https://books.google.co.uk/books?id=YfkUKcyI7KIC&amp;pg=PT439</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1675</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>5442575000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <InternalSignature>
+    <SignatureID>1405</SignatureID>
+    <SignatureName>Q&amp;A Write Word Processor (TX)</SignatureName>
+    <SignatureNote>BOF: TBWP or TBTX, followed by null. TB stands for TouchBase, Symantec's original internal name for the product. WP = Word Processor including header/footer. TX = Text only.
+Format is described here:
+https://books.google.co.uk/books?id=YfkUKcyI7KIC&amp;pg=PT439</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1676</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>5442545800</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

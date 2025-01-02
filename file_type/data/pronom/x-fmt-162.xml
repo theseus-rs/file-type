@@ -1,0 +1,50 @@
+<FileFormat>
+  <FormatID>229</FormatID>
+  <FormatName>Adobe FrameMaker Interchange Format</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Presentation</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Adobe FrameMaker Interchange Format is an alternative representation of an Adobe FrameMaker document as a text file, using ASCII statements to convey its contents, graphics and formatting. It allows FrameMaker and other applications, or different versions of FrameMaker, to exchange information.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription>04/2024 (v.118): Description and links added. Archives nationales (French National Archives).</ProvenanceDescription>
+  <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
+  <FormatNote>https://help.adobe.com/en_US/framemaker/mifreference/mifref.pdf</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.mif</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/162</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>223</ExternalSignatureID>
+    <Signature>mif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>396</SignatureID>
+    <SignatureName>Framemaker Interchange Format Document</SignatureName>
+    <SignatureNote>MIFFile statement followed by a comment</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>502</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>3C4D494646696C6520{4}3E2023</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

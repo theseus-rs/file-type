@@ -1,0 +1,74 @@
+<FileFormat>
+  <FormatID>1207</FormatID>
+  <FormatName>Video Object File (MPEG-2 subset)</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Video</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>A Video Object File (or VOB) is a strict subset of the MPEG-2 Program Stream, primarily used within DVD video. A VOB will contain an extended private stream containing both 'Packet Control Information', and 'Data Search Information'.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
+  <ProvenanceDescription>11/2023 (v.115)- Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.</ProvenanceDescription>
+  <LastUpdatedDate>15 Nov 2023</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/425</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1213</ExternalSignatureID>
+    <Signature>vob</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>636</SignatureID>
+    <SignatureName>Video Object File</SignatureName>
+    <SignatureNote>Same as BOF sequence for MPEG 1 &amp; 2 but variation on last byte. VAR is seeking presence of Private Stream with ‘Packet Control Information’, then ‘Data Search Information’ respectively</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>787</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>000001BA{8-11}000001(BB|BD|BE|E0)</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>1007</ByteSequenceID>
+      <PositionType>Variable</PositionType>
+      <Offset/>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>000001BF03D400{979}000001BF03FA01</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>659</RelatedFormatID>
+    <RelatedFormatName>MPEG-1 Program Stream</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>660</RelatedFormatID>
+    <RelatedFormatName>MPEG-2 Program Stream</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is subtype of</RelationshipType>
+    <RelatedFormatID>660</RelatedFormatID>
+    <RelatedFormatName>MPEG-2 Program Stream</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+</FileFormat>

@@ -1,0 +1,66 @@
+<FileFormat>
+  <FormatID>139</FormatID>
+  <FormatName>Adobe Photoshop</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Image (Raster)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Adobe Photoshop is a raster graphics editor developed and published by Adobe Systems for Windows and OS X. Files natively produced by Adobe PhotoDeluxe (extension pdd) also appear to be based upon the Adobe Photoshop file format.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>23 Sep 2003</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>com.adobe.photoshop-image</Identifier>
+    <IdentifierType>Apple Uniform Type Identifier</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/vnd.adobe.photoshop</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/92</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>133</ExternalSignatureID>
+    <Signature>psd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>2477</ExternalSignatureID>
+    <Signature>pdd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>277</SignatureID>
+    <SignatureName>Adobe Photoshop PSD</SignatureName>
+    <SignatureNote>BOF: '8BPS', version 1 (0x0001), 6 reserved null bytes
+https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>356</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness>Little-endian</Endianness>
+      <ByteSequenceValue>38425053000100000000000000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>1801</RelatedFormatID>
+    <RelatedFormatName>Adobe Photoshop Large Document Format</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+</FileFormat>

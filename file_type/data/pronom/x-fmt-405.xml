@@ -1,0 +1,26 @@
+<FileFormat>
+  <FormatID>759</FormatID>
+  <FormatName>StarOffice Impress</FormatName>
+  <FormatVersion>5.2</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Presentation</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>This PUID is now deprecated in favour of x-fmt/360 - StarImpress 5.x</FormatDescription>
+  <BinaryFileFormat>Binary</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/405</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+</FileFormat>

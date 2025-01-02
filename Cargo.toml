@@ -1,0 +1,52 @@
+[workspace]
+default-members = [
+    "file_type",
+    "pronom_export",
+]
+members = [
+    "file_type",
+    "pronom_export",
+]
+resolver = "2"
+
+[workspace.package]
+authors = ["Brian Heineman <brian.heineman@gmail.com>"]
+categories = ["filesystem"]
+edition = "2021"
+keywords = ["file", "file-type", "format"]
+license = "(Apache-2.0 OR MIT) AND OGL-UK-3.0"
+repository = "https://github.com/theseus-rs/file-type"
+rust-version = "1.83.0"
+version = "0.0.0"
+
+[workspace.dependencies]
+anyhow = "1.0.95"
+criterion = "0.5.1"
+include_dir = "0.7.4"
+indoc = "2.0.5"
+jiff = "0.1.16"
+quick-xml = "0.37.1"
+rayon = "1.5.1"
+reqwest = "0.12.11"
+serde = "1.0.217"
+thiserror = "2.0.9"
+tokio = { version = "1.42.0", default-features = false, features = ["macros", "rt", "sync"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
+walkdir = "2.5.0"
+
+[workspace.metadata.release]
+shared-version = true
+dependent-version = "upgrade"
+tag-name = "v{{version}}"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "z"
+panic = "abort"
+
+# The profile that 'cargo dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"

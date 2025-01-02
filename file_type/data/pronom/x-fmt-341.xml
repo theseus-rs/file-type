@@ -1,0 +1,55 @@
+<FileFormat>
+  <FormatID>505</FormatID>
+  <FormatName>Macromedia Director</FormatName>
+  <FormatVersion>PC</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Presentation</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>18 Jan 2011</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/x-director</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/341</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>492</ExternalSignatureID>
+    <Signature>dir</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1064</ExternalSignatureID>
+    <Signature>dxr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>409</SignatureID>
+    <SignatureName>Macromedia Director PC</SignatureName>
+    <SignatureNote>Header ASCII: RIFX</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>515</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>52494658{4}4D563933696D617000000018000000010000002C</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

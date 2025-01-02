@@ -1,0 +1,36 @@
+<FileFormat>
+  <FormatID>1466</FormatID>
+  <FormatName>Photoshop Curve File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>Within Adobe Photoshop, curves allow you to adjust the entire tonal range of an image. Curve files can be saved and stored as presets.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
+  <ProvenanceDescription>A curve file begins with 0x0001 or 0x0004 depending on the version in use (http://www.adobe.com/devnet-apps/photoshop/fileformatashtml/). A signature based on these sequences would be highly prone to clashing with other formats, so identification is currently based on extension only.</ProvenanceDescription>
+  <LastUpdatedDate>23 Sep 2014</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/667</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1530</ExternalSignatureID>
+    <Signature>acv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1531</ExternalSignatureID>
+    <Signature>atf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,36 @@
+<FileFormat>
+  <FormatID>2445</FormatID>
+  <FormatName>SGML/XML Entity File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Text (Mark-up)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>SGML/XML entity files are plain text files, often found alongside, and referenced by, xml and sgml files. Ent files list the parameters and entity declarations for a specific set of tags defined in a Document Type Definition.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
+  <ProvenanceSourceDate>03 Feb 2022</ProvenanceSourceDate>
+  <ProvenanceDescription>11/2023 (v.115)- internal signature removed for extension only identification. Submitted by Preservica.</ProvenanceDescription>
+  <LastUpdatedDate>15 Nov 2023</LastUpdatedDate>
+  <FormatNote>https://www.w3.org/TR/REC-html40/sgml/entities.html
+https://www.w3.org/TR/REC-html40/sgml/intro.html</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/xml-external-parsed-entity</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1618</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>2908</ExternalSignatureID>
+    <Signature>ent</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

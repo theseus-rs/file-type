@@ -1,0 +1,26 @@
+<FileFormat>
+  <FormatID>966</FormatID>
+  <FormatName>Microsoft Works Word Processor for Windows</FormatName>
+  <FormatVersion>4.0</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Word Processor</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>PUID deprecated. Please see fmt/233: Microsoft Works Word Processor 3-4 for Windows.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>19 Nov 2009</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>18 Dec 2012</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/236</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+</FileFormat>

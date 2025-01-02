@@ -1,0 +1,26 @@
+<FileFormat>
+  <FormatID>991</FormatID>
+  <FormatName>Microsoft Works Spreadsheet for Windows</FormatName>
+  <FormatVersion>4.5a</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>PUID deprecated. Please see fmt/166: Microsoft Works Spreadsheet 1-5</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>08 Jan 2010</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>08 Jan 2010</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/253</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+</FileFormat>

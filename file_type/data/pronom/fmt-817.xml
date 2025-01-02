@@ -1,0 +1,41 @@
+<FileFormat>
+  <FormatID>1617</FormatID>
+  <FormatName>JSON Data Interchange Format</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>JavaScript Object Notation (JSON) is an open standard format that uses human-readable text to transmit data objects consisting of attribute–value pairs. It is used for asynchronous browser/server communication (AJAJ). While it is originally derived from JavaScript scripting language, JSON is language independent while using conventions that match with the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and others.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>11 Dec 2015</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>11 Dec 2015</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>fmt/817</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1710</ExternalSignatureID>
+    <Signature>json</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>2129</RelatedFormatID>
+    <RelatedFormatName>Tweet JSON</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+</FileFormat>

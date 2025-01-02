@@ -1,0 +1,61 @@
+<FileFormat>
+  <FormatID>803</FormatID>
+  <FormatName>BinHex Binary Text</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Aggregate</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>BinHex or Binary to Hexadecimal is a text encoded system primary used for Macintosh Classic systems when transferring over email and for transferring online. The file can include the data and resource fork of a file along with original names, type, and creator. It can be combined with MacBinary, Stuffit and others. Encoding uses a 16-bit CRC for validation.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Dec 2010</ProvenanceSourceDate>
+  <ProvenanceDescription>04/2024 (v.118)- Signature modified to increase max-offset by 4k, beginning and ending colon added for conformance to specification. Description, notefield and MIME type updated. Submitted by Brigham Young University.</ProvenanceDescription>
+  <LastUpdatedDate>15 Apr 2024</LastUpdatedDate>
+  <FormatNote>http://fileformats.archiveteam.org/wiki/BinHex
+https://preservation.tylerthorsted.com/2023/09/29/binhex/</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/mac-binhex40</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/416</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>809</ExternalSignatureID>
+    <Signature>hqx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>339</SignatureID>
+    <SignatureName>BinHex Binary Text</SignatureName>
+    <SignatureNote>BOF; Offset:0-4084; Magic Bytes: '(This file must be converted with BinHex' and in 6-9 bytes 0x3A; EOF; Offset: 64; Magic Bytes: 0x3A</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>437</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>4084</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>28546869732066696C65206D75737420626520636F6E76657274656420776974682042696E486578{6-9}3A</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>2704</ByteSequenceID>
+      <PositionType>Absolute from EOF</PositionType>
+      <Offset>64</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>3A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

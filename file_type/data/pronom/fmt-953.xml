@@ -1,0 +1,57 @@
+<FileFormat>
+  <FormatID>1758</FormatID>
+  <FormatName>True Audio</FormatName>
+  <FormatVersion>2</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Audio</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>True Audio is a lossless audio compression format for multichannel 8, 16 and 24 bits audio data.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>14 Sep 2016</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>14 Sep 2016</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>audio/tta</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>fmt/953</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1918</ExternalSignatureID>
+    <Signature>tta</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1310</SignatureID>
+    <SignatureName>True Audio 2</SignatureName>
+    <SignatureNote>BOF: TTA2
+Specification: http://tausoft.org/wiki/True_Audio_Codec_Format</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1585</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>54544132</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>1757</RelatedFormatID>
+    <RelatedFormatName>True Audio</RelatedFormatName>
+    <RelatedFormatVersion>1</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

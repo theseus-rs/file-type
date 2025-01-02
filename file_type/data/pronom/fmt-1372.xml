@@ -1,0 +1,37 @@
+<FileFormat>
+  <FormatID>2190</FormatID>
+  <FormatName>OmniPage Document</FormatName>
+  <FormatVersion>12</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>OnmiPage is Optical Character Recognition (OCR) software for harvesting text from scanned documents and images.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
+  <ProvenanceSourceDate>15 Sep 2020</ProvenanceSourceDate>
+  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6.5 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
+  <LastUpdatedDate>15 Sep 2020</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1372</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>2549</ExternalSignatureID>
+    <Signature>opd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>2189</RelatedFormatID>
+    <RelatedFormatName>OmniPage Pro Document</RelatedFormatName>
+    <RelatedFormatVersion>10</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

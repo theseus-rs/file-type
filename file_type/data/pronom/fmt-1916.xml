@@ -1,0 +1,41 @@
+<FileFormat>
+  <FormatID>2774</FormatID>
+  <FormatName>Autodesk Alias Wire Format</FormatName>
+  <FormatVersion>7</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Model</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>The proprietary file format used by Autodesk Alias products, a family of computer-aided industrial design (CAID) software predominantly used in automotive and industrial design. Files of this type lack an extension.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
+  <ProvenanceSourceDate>21 Sep 2023</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>21 Sep 2023</LastUpdatedDate>
+  <FormatNote>https://www.autodesk.com/products/alias-products/overview?term=1-YEAR&amp;tab=subscription&amp;plc=ALSCPT</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1916</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <InternalSignature>
+    <SignatureID>2266</SignatureID>
+    <SignatureName>Autodesk Alias Wire Format v.7</SignatureName>
+    <SignatureNote>BOF, offset 12, magic bytes: Alias PowerAnimator…..07.</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>2641</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>12</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>416C69617320506F776572416E696D61746F72000000000030372E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,46 @@
+<FileFormat>
+  <FormatID>1911</FormatID>
+  <FormatName>AutoCAD Hatch Pattern</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Image (Raster)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>A hatch pattern consists of a repeating pattern of lines, dashes, and dots, and is used within AutoCAD to represent materials to be used within the manufacture of the object defined in the CAD drawing</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>27 Sep 2017</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>27 Sep 2017</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1103</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>2116</ExternalSignatureID>
+    <Signature>pat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1485</SignatureID>
+    <SignatureName>AutoCAD Hatch Pattern</SignatureName>
+    <SignatureNote>Top line: asterisk, then a filename (up to 31 characters) that will start with a minimum of one letter or number, followed by an optional description then a line-ending. Second line: A minimum of 5 numeric (integer or floating point) values, representing Angle, X-origin, Y-origin, Delta-x, Delta-y (further values may represent optional dashes). Origins and Deltas may be negative or positive. A comma will follow each numeric value and each line will be terminated with a line ending.</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1747</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>2A([30:39]|[41:5A]|[61:7A]){0-80}0D0A{0-10}[30:39]2C20{0-10}[30:39]2C([30:39]|2D[30:39]|2E[30:39]){0-10}2C20{0-10}[30:39]2C([30:39]|2D[30:39]|2E[30:39]){0-128}0D0A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

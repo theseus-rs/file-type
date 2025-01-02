@@ -1,0 +1,46 @@
+<FileFormat>
+  <FormatID>514</FormatID>
+  <FormatName>OmniPage Pro Document</FormatName>
+  <FormatVersion>5-9</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>OnmiPage is Optical Character Recognition (OCR) software for harvesting text from scanned documents and images. .met was the file format in use by versions 5-9 of the OmniPage software.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>15 Sep 2020</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/350</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>501</ExternalSignatureID>
+    <Signature>met</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1750</SignatureID>
+    <SignatureName>OmniPage MET</SignatureName>
+    <SignatureNote>BOF: 'CCMET'</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>2028</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>43434D4554</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

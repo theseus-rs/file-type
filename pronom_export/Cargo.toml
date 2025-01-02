@@ -1,0 +1,19 @@
+[package]
+edition.workspace = true
+name = "pronom_export"
+publish = false
+license.workspace = true
+version.workspace = true
+
+[dependencies]
+file_type = { path = "../file_type", version = "0.0.0" }
+rayon = { workspace = true }
+reqwest = { workspace = true, features = ["blocking"] }
+quick-xml = { workspace = true, features = ["serde", "serialize"] }
+serde = { workspace = true, features = ["derive"] }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true, features = ["env-filter"] }
+
+[dev-dependencies]
+anyhow = { workspace = true }
+indoc = { workspace = true }

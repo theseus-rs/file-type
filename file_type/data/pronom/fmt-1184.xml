@@ -1,0 +1,35 @@
+<FileFormat>
+  <FormatID>1994</FormatID>
+  <FormatName>InDesign Markup Language Package</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Presentation</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>IDML is an XML representation of an Adobe InDesign Document. The package format is conformant with the Universal Container Format and identification is based on the contents of the mimetype file with the zip container.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>09 Aug 2018</ProvenanceSourceDate>
+  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
+  <LastUpdatedDate>24 Feb 2022</LastUpdatedDate>
+  <FormatNote>http://fileformats.archiveteam.org/wiki/IDML</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.adobe.indesign-idml-package</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1184</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>2213</ExternalSignatureID>
+    <Signature>idml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,47 @@
+<FileFormat>
+  <FormatID>1415</FormatID>
+  <FormatName>GeoGebra</FormatName>
+  <FormatVersion>1.x</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Image (Vector)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>GeoGebra is a mathematics software package.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>KULeuven - LIBIS / KULeuven - LIBIS</ProvenanceName>
+  <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
+  <ProvenanceDescription>This format is identifiable via a container signature in DROID 6 and later.</ProvenanceDescription>
+  <LastUpdatedDate>14 Feb 2014</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.geogebra.file</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>fmt/619</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1461</ExternalSignatureID>
+    <Signature>ggb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>1413</RelatedFormatID>
+    <RelatedFormatName>GeoGebra</RelatedFormatName>
+    <RelatedFormatVersion>2</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>1414</RelatedFormatID>
+    <RelatedFormatName>GeoGebra</RelatedFormatName>
+    <RelatedFormatVersion>1.0</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

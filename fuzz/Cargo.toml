@@ -1,0 +1,22 @@
+[package]
+edition = "2021"
+name = "file_type_fuzz"
+publish = false
+version = "0.0.0"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+
+[dependencies.file_type]
+path = "../file_type"
+
+# Prevent this from interfering with workspaces
+[workspace]
+members = ["."]
+
+[[bin]]
+name = "file_type_bytes"
+path = "fuzz_targets/file_type_bytes.rs"

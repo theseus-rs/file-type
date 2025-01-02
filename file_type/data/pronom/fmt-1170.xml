@@ -1,0 +1,47 @@
+<FileFormat>
+  <FormatID>1980</FormatID>
+  <FormatName>Alias Studio Wire File</FormatName>
+  <FormatVersion>8.5</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Model</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Alias Studio is a Computer Aided Industrial Design software suite originally created by Alias Systems and now published by Autodesk. Files of this type may lack an extension.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
+  <ProvenanceSourceDate>01 Aug 2018</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>01 Aug 2018</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1170</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <InternalSignature>
+    <SignatureID>1551</SignatureID>
+    <SignatureName>Alias Studio Wire 8.5</SignatureName>
+    <SignatureNote>Offset 12: 'Alias Studio'{13}8.5</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1818</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>12</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>416C6961732053747564696F{13}382E35</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>1985</RelatedFormatID>
+    <RelatedFormatName>Alias Studio Wire File</RelatedFormatName>
+    <RelatedFormatVersion>9.0</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

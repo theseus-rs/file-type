@@ -1,0 +1,35 @@
+<FileFormat>
+  <FormatID>2185</FormatID>
+  <FormatName>GeoJSON</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>GIS</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>GeoJSON is an open standard format designed for representing geographical features, and is based on the JSON format. It is described within IETF RFC7946: https://tools.ietf.org/html/rfc7946. The format cannot currently be identified by a PRONOM signature.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
+  <ProvenanceSourceDate>04 Sep 2020</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>04 Sep 2020</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/geo+json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1367</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>2544</ExternalSignatureID>
+    <Signature>geojson</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

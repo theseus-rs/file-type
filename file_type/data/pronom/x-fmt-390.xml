@@ -1,0 +1,135 @@
+<FileFormat>
+  <FormatID>675</FormatID>
+  <FormatName>Exchangeable Image File Format (Compressed)</FormatName>
+  <FormatVersion>2.1</FormatVersion>
+  <FormatAliases>Exif Compressed Image (2.1)</FormatAliases>
+  <FormatFamilies/>
+  <FormatTypes>Image (Raster)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Exchangeable image file format (Exif) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras.</FormatDescription>
+  <BinaryFileFormat>Binary</BinaryFileFormat>
+  <ByteOrders>Little-endian (Intel) and Big-endian (Motorola)</ByteOrders>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>image/jpeg</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/390</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <Document>
+    <DocumentID>19</DocumentID>
+    <DisplayText>Japan Electronic Industry Development Association, 1998, JEIDA-49-1998 - Digital Still Camera Image File Format Standard (Exchangeable image file format for Digital Still Cameras: Exif), Version 2.1</DisplayText>
+    <DocumentType>Authoritative</DocumentType>
+    <AvailabilityDescription>Public</AvailabilityDescription>
+    <AvailabilityNote/>
+    <PublicationDate>01 Dec 1998</PublicationDate>
+    <TitleText>JEIDA-49-1998 - Digital Still Camera Image File Format Standard (Exchangeable image file format for Digital Still Cameras: Exif), Version 2.1</TitleText>
+    <DocumentIpr/>
+    <DocumentNote/>
+    <DocumentIdentifier>
+      <Identifier>www.exif.org/dcf-exif.PDF</Identifier>
+      <IdentifierType>URL</IdentifierType>
+    </DocumentIdentifier>
+    <Author>
+      <AuthorID>105</AuthorID>
+      <AuthorName/>
+      <OrganisationName>Japan Electronic Industry Development Association</OrganisationName>
+      <AuthorCompoundName>Japan Electronic Industry Development Association</AuthorCompoundName>
+    </Author>
+    <Publisher>
+      <PublisherID>105</PublisherID>
+      <PublisherName/>
+      <OrganisationName>Japan Electronic Industry Development Association</OrganisationName>
+      <PublisherCompoundName>Japan Electronic Industry Development Association</PublisherCompoundName>
+    </Publisher>
+  </Document>
+  <ExternalSignature>
+    <ExternalSignatureID>688</ExternalSignatureID>
+    <Signature>jpg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>2262</ExternalSignatureID>
+    <Signature>jpeg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>147</SignatureID>
+    <SignatureName>EXIF Compressed Image 2.1 (big-endian)</SignatureName>
+    <SignatureNote>SOI and APP1, EXIF IFD (EXIF ver=2.1), EOI marker</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>93</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>FFD8FFE1{2}4578696600004D4D002A*900000070000000430323130</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>105</ByteSequenceID>
+      <PositionType>Absolute from EOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>16000</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>FFD9</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <InternalSignature>
+    <SignatureID>150</SignatureID>
+    <SignatureName>EXIF Compressed Image 2.1 (little-endian)</SignatureName>
+    <SignatureNote>SOI and APP1, EXIF IFD (EXIF ver=2.1), EOI marker</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>94</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>FFD8FFE1{2}45786966000049492A00*009007000400000030323130</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>106</ByteSequenceID>
+      <PositionType>Absolute from EOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>16000</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>FFD9</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>670</RelatedFormatID>
+    <RelatedFormatName>Raw JPEG Stream</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>676</RelatedFormatID>
+    <RelatedFormatName>Exchangeable Image File Format (Compressed)</RelatedFormatName>
+    <RelatedFormatVersion>2.2</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>751</RelatedFormatID>
+    <RelatedFormatName>Exchangeable Image File Format (Compressed)</RelatedFormatName>
+    <RelatedFormatVersion>2.0</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

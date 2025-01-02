@@ -1,0 +1,70 @@
+<FileFormat>
+  <FormatID>774</FormatID>
+  <FormatName>MS-DOS Executable</FormatName>
+  <FormatVersion/>
+  <FormatAliases>EXE</FormatAliases>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>An MS-DOS executable is synonymous with a program or application that can potentially be run on MS-DOS. An executable is a file-format object that is "compiled" from source code files written in languages such as C or C++. An MS-DOS executable is native to MS-DOS and early Windows versions, and like other executables or programs, provided a means of distributing applications that performed certain task(s). Executables are compiled to a certain register width, e.g. 8-bit, or 16-bit; which impacts the size of variables in memory, and may impact compatibilty on older or newer versions of an operating system respectively. Executables might require external libraries or configuration to function, and so the technical environment needed to run an executable should be documented and understood in order to preserve functionality over time and to protect future potential users of these files.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>17 Feb 2006</ProvenanceSourceDate>
+  <ProvenanceDescription>04/2024 (v.118): Description added as part of PRONOM Research Week 2023. Submitted by Ross Spencer.</ProvenanceDescription>
+  <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/409</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>772</ExternalSignatureID>
+    <Signature>exe</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>196</SignatureID>
+    <SignatureName>MS-DOS Executable</SignatureName>
+    <SignatureNote>Header</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>254</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>4D5A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>775</RelatedFormatID>
+    <RelatedFormatName>Windows New Executable</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>776</RelatedFormatID>
+    <RelatedFormatName>Windows Portable Executable</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>1704</RelatedFormatID>
+    <RelatedFormatName>Windows Portable Executable</RelatedFormatName>
+    <RelatedFormatVersion>32 bit</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>1705</RelatedFormatID>
+    <RelatedFormatName>Windows Portable Executable</RelatedFormatName>
+    <RelatedFormatVersion>64 bit</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

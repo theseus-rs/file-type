@@ -1,0 +1,46 @@
+<FileFormat>
+  <FormatID>2576</FormatID>
+  <FormatName>PowerGraphics Image File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Image (Raster)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>PowerGraphics is a graphics program for the Atari line of computers. PowerGraphics Image is a raster image file created using this program.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
+  <ProvenanceSourceDate>19 Jul 2022</ProvenanceSourceDate>
+  <ProvenanceDescription>11/2023: Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched.</ProvenanceDescription>
+  <LastUpdatedDate>14 Nov 2023</LastUpdatedDate>
+  <FormatNote>http://fileformats.archiveteam.org/wiki/PowerGraphics</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1731</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>3122</ExternalSignatureID>
+    <Signature>pgr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>2069</SignatureID>
+    <SignatureName>PowerGraphics Image File</SignatureName>
+    <SignatureNote>BOF:Offset of 8 followed by 'PowerGFX'</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>2394</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>8</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>506F776572474658</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

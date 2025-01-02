@@ -1,0 +1,58 @@
+<FileFormat>
+  <FormatID>1398</FormatID>
+  <FormatName>Statistical Analysis System Catalog (Unix)</FormatName>
+  <FormatVersion>9.1</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Dataset</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>SAS (Statistical Analysis System) is a statistical analysis software suite developed by SAS Institute. SAS catalogs store many different kinds of information in smaller units called catalog entries. Each entry has an entry type that identifies its purpose to SAS. A single SAS catalog can contain several types of catalog entries.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Tessella / Tessella</ProvenanceName>
+  <ProvenanceSourceDate>12 Nov 2013</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>27 Mar 2017</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/606</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1443</ExternalSignatureID>
+    <Signature>sas7bcat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1444</ExternalSignatureID>
+    <Signature>sc7</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>943</SignatureID>
+    <SignatureName>SAS Catalog (Unix) 9.1</SignatureName>
+    <SignatureNote>BOF: 32 byte binary magic {7} 0x31 = Unix {116} 'CATALOG' {53-61} '9.01'. 
+Signature based extensively on unofficial description of DATA format, plus a wide variety of format samples: https://cran.r-project.org/web/packages/sas7bdat/vignettes/sas7bdat.pdf</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1168</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>000000000000000000000000C2EA8163B31411CFBD92080009C7318C181F1011{7}31{116}434154414C4F47{53-61}392E3031</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>1829</RelatedFormatID>
+    <RelatedFormatName>Statistical Analysis System Catalog (Unix)</RelatedFormatName>
+    <RelatedFormatVersion>Generic</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

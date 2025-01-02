@@ -1,0 +1,67 @@
+<FileFormat>
+  <FormatID>1598</FormatID>
+  <FormatName>The Neuroimaging Informatics Technology Initiative File Format</FormatName>
+  <FormatVersion>1</FormatVersion>
+  <FormatAliases>NIfTI-1 Data Format</FormatAliases>
+  <FormatFamilies/>
+  <FormatTypes>Dataset</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>A Neuroimaging format commonly used in medical industry for the analysis of MRI data.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>University of Edinburgh / University of Edinburgh</ProvenanceName>
+  <ProvenanceSourceDate>26 Nov 2015</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>11 Aug 2020</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/798</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>2106</ExternalSignatureID>
+    <Signature>nii</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1164</SignatureID>
+    <SignatureName>The Neuroimaging Informatics Technology Initiative File Format V1 variant1</SignatureName>
+    <SignatureNote>Offset 344: ni1.</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1408</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>344</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>6E693100</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <InternalSignature>
+    <SignatureID>1174</SignatureID>
+    <SignatureName>The Neuroimaging Informatics Technology Initiative File Format V1 variant2</SignatureName>
+    <SignatureNote>Offset 344: n+1.</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1426</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>344</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>6E2B3100</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>1902</RelatedFormatID>
+    <RelatedFormatName>The Neuroimaging Informatics Technology Initiative File Format</RelatedFormatName>
+    <RelatedFormatVersion>2</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

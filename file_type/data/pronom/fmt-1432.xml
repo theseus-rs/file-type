@@ -1,0 +1,31 @@
+<FileFormat>
+  <FormatID>2250</FormatID>
+  <FormatName>Minitab Worksheet</FormatName>
+  <FormatVersion>12</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Dataset</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Minitab is a statistical analysis package originally developed at the Pennsylvania State University. A worksheet file contains an exported worksheet, while a project file contains all project-related data including all worksheets, settings, graphs and history.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
+  <ProvenanceSourceDate>29 Sep 2020</ProvenanceSourceDate>
+  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
+  <LastUpdatedDate>29 Sep 2020</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1432</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>2623</ExternalSignatureID>
+    <Signature>mtw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

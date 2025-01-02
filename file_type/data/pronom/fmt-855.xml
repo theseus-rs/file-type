@@ -1,0 +1,58 @@
+<FileFormat>
+  <FormatID>1656</FormatID>
+  <FormatName>Personal Ancestral File (PAF)</FormatName>
+  <FormatVersion>4</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Dataset</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Personal Ancestral File was the name a genealogy software program made available by The Church of Jesus Christ of Latter-day Saints. PAF is the native data format of the software, which was discontinued in 2013.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>07 Jan 2016</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>07 Jan 2016</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/855</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1772</ExternalSignatureID>
+    <Signature>paf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1212</SignatureID>
+    <SignatureName>PAF 4</SignatureName>
+    <SignatureNote>BOF: PAF.300.400</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1487</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>5041460033303000343030</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>1657</RelatedFormatID>
+    <RelatedFormatName>Personal Ancestral File (PAF)</RelatedFormatName>
+    <RelatedFormatVersion>5</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>1655</RelatedFormatID>
+    <RelatedFormatName>Personal Ancestral File (PAF)</RelatedFormatName>
+    <RelatedFormatVersion>3</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

@@ -1,0 +1,32 @@
+<FileFormat>
+  <FormatID>1898</FormatID>
+  <FormatName>Exclude File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>This entry aims to describe Exclude files that don't have a formal header or mandatory elements that can be used for automatic identification within PRONOM. The purpose of an Exclude file may be application-specific.
+In Visual Studio for example, the .exclude extension is added to files that are to be ignored or not included within a project. In this instance the extension .exclude is simply appended to the file and doesn't alter the internal structure of the file in any way.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>National Library of Scotland / National Library of Scotland</ProvenanceName>
+  <ProvenanceSourceDate>21 Aug 2017</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>21 Aug 2017</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1090</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>2101</ExternalSignatureID>
+    <Signature>exclude</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

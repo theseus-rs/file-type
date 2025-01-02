@@ -1,0 +1,52 @@
+<FileFormat>
+  <FormatID>1548</FormatID>
+  <FormatName>AppleWorks Word Processor</FormatName>
+  <FormatVersion>6</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Word Processor</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>AppleWorks was a productivity suite developed by the Apple subsidiary, Claris, that was originally called ClarisWorks and was renamed AppleWorks as of version 5.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>27 Mar 2015</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/749</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1634</ExternalSignatureID>
+    <Signature>cwk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1076</SignatureID>
+    <SignatureName>CWK 6 Word Processor</SignatureName>
+    <SignatureNote>(Version){3}BOBO{270}(format type 0x01 = word processor document)</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1324</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>06{3}424F424F{270}01</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>1543</RelatedFormatID>
+    <RelatedFormatName>ClarisWorks/AppleWorks Word Processor</RelatedFormatName>
+    <RelatedFormatVersion>5</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

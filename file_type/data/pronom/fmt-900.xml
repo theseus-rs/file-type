@@ -1,0 +1,105 @@
+<FileFormat>
+  <FormatID>1705</FormatID>
+  <FormatName>Windows Portable Executable</FormatName>
+  <FormatVersion>64 bit</FormatVersion>
+  <FormatAliases>Common Object File Format, COFF, EXE</FormatAliases>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>A Windows Portable Executable (PE) 64-bit is synonymous with a program or application that can potentially be run on Microsoft Windows. An executable is a file-format object that is compiled from source code files written in languages such as C, C++, Golang, or Rust among others. A PE is native to Windows and like other executables or programs, provided a means of distributing applications that performed a certain task or tasks for a specific operating system. Executables are compiled to a certain register width, e.g. 8-bit, 16-bit, 32-bit or 64-bit; which impacts the size of variables in memory, and may impact compatibilty on older or newer versions of an operating system, respectively. A PE 64-bit is compiled to a 64-bit architecture and so will not run on 32-bit architectures or less. Executables might require external libraries or configuration to function and so the technical environment needed to run an executable should be documented and understood in order to preserve functionality over time and to protect future potential users of these files. The Windows Portable Executable format is used for the 'executable' component of a program, as well as external libraries such as dynamic link libraries (DLLs) other potential extensions are listed as '.acm, .ax, .cpl, .dll, .drv, .efi, .exe, .mui, .ocx, .scr, .sys, .tsp, .mun') (https://en.wikipedia.org/w/index.php?title=Portable_Executable&amp;oldid=1182679182). Despite the name, PE files will not run on other operating systems such as MacOS and Linux. Application programs must be compiled to a specific operating system architecture to run on different environments.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Archives New Zealand / Archives New Zealand</ProvenanceName>
+  <ProvenanceSourceDate>21 Jun 2016</ProvenanceSourceDate>
+  <ProvenanceDescription>04/2024 (v.118): Description added as part of PRONOM Research Week 2023. Submitted by Ross Spencer.</ProvenanceDescription>
+  <LastUpdatedDate>22 Apr 2024</LastUpdatedDate>
+  <FormatNote>This specification describes the structure of executable (image) files and object files under the Windows family of operating systems. These files are referred to as Portable Executable (PE) and Common Object File Format (COFF) files, respectively- https://learn.microsoft.com/en-us/windows/win32/debug/pe-format</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.microsoft.portable-executable</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>com.microsoft.windows-executable</Identifier>
+    <IdentifierType>Apple Uniform Type Identifier</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>fmt/900</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <Document>
+    <DocumentID>94</DocumentID>
+    <DisplayText>Portable Executable Format</DisplayText>
+    <DocumentType>Authoritative</DocumentType>
+    <AvailabilityDescription>Public</AvailabilityDescription>
+    <AvailabilityNote>https://learn.microsoft.com/en-us/windows/win32/debug/pe-format</AvailabilityNote>
+    <PublicationDate>25 Feb 2023</PublicationDate>
+    <TitleText>Portable Executable Format</TitleText>
+    <DocumentIpr/>
+    <DocumentNote>This specification describes the structure of executable (image) files and object files under the Windows family of operating systems. These files are referred to as Portable Executable (PE) and Common Object File Format (COFF) files, respectively.</DocumentNote>
+    <DocumentIdentifier>
+      <Identifier/>
+      <IdentifierType/>
+    </DocumentIdentifier>
+    <Publisher>
+      <PublisherID>0</PublisherID>
+      <PublisherName/>
+      <OrganisationName/>
+      <PublisherCompoundName/>
+    </Publisher>
+  </Document>
+  <ExternalSignature>
+    <ExternalSignatureID>1841</ExternalSignatureID>
+    <Signature>exe</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1842</ExternalSignatureID>
+    <Signature>dll</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1843</ExternalSignatureID>
+    <Signature>sys</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1251</SignatureID>
+    <SignatureName>Windows Portable Executable 64 bit</SignatureName>
+    <SignatureNote>DWORD Signature; 
+IMAGE_FILE_HEADER FileHeader;
+IMAGE_OPTIONAL_HEADER OptionalHeader;</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1521</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>4D5A{126-128500}50450000{20}0B02{66}[0000:1000]</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>774</RelatedFormatID>
+    <RelatedFormatName>MS-DOS Executable</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>775</RelatedFormatID>
+    <RelatedFormatName>Windows New Executable</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>776</RelatedFormatID>
+    <RelatedFormatName>Windows Portable Executable</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+</FileFormat>

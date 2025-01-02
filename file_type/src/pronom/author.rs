@@ -1,0 +1,71 @@
+use serde::{Deserialize, Serialize};
+
+#[derive(Clone, Debug, Default, Deserialize, Serialize)]
+#[serde(default, rename_all = "PascalCase")]
+pub struct Author {
+    #[serde(rename = "AuthorID")]
+    id: usize,
+    #[serde(rename = "AuthorName")]
+    name: String,
+    organisation_name: String,
+    #[serde(rename = "AuthorCompoundName")]
+    compound_name: String,
+}
+
+impl Author {
+    /// Get the author ID
+    #[must_use]
+    pub fn id(&self) -> usize {
+        self.id
+    }
+
+    /// Get the author name
+    #[must_use]
+    pub fn name(&self) -> &str {
+        &self.name
+    }
+
+    /// Get the organisation name
+    #[must_use]
+    pub fn organisation_name(&self) -> &str {
+        &self.organisation_name
+    }
+
+    /// Get the compound name
+    #[must_use]
+    pub fn compound_name(&self) -> &str {
+        &self.compound_name
+    }
+}
+
+#[cfg(test)]
+mod test {
+    use super::*;
+    use anyhow::Result;
+    use indoc::indoc;
+    use quick_xml::de::from_str;
+    use quick_xml::se::to_string;
+
+    #[test]
+    fn test_serde() -> Result<()> {
+        let xml = indoc! {r"
+          <Author>
+            <AuthorID>1</AuthorID>
+            <AuthorName>Author</AuthorName>
+            <OrganisationName>Organization</OrganisationName>
+            <AuthorCompoundName>Compound</AuthorCompoundName>
+          </Author>
+        "};
+        let author: Author = from_str(xml)?;
+
+        // Test serialization
+        let xml = to_string(&author)?;
+        let author: Author = from_str(xml.as_str())?;
+
+        assert_eq!(author.id(), 1);
+        assert_eq!(author.name(), "Author");
+        assert_eq!(author.organisation_name(), "Organization");
+        assert_eq!(author.compound_name(), "Compound");
+        Ok(())
+    }
+}

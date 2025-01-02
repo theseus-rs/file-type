@@ -1,0 +1,81 @@
+<FileFormat>
+  <FormatID>107</FormatID>
+  <FormatName>Microsoft Access Database File</FormatName>
+  <FormatVersion>2.0</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Database</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Microsoft Access Database File, formerly known as Jet MDB Database format, is propriatory file format developed and used by Microsoft as a native format for its Microsoft Access (formerly Microsoft Jet Database Engine) desktop database management system. First released in 1992, starting with version 1.0 the earlier versions of the database used the Jet Database Engine, with version 1.0 having a maximum size of 128 megabytes, then increasing to 1 gigabyte with versions 1.1 and 2.0. This entry records the version 2.0 of MDB file format, for a full list of versions please follow the links provided in the Notes section.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>02 May 2023</LastUpdatedDate>
+  <FormatNote>https://web.archive.org/web/20220711181532/http://fileformats.archiveteam.org/wiki/Access
+
+https://web.archive.org/web/20220901011824/https://en.wikipedia.org/wiki/Microsoft_Access
+
+https://web.archive.org/web/20220825195028/https://www.loc.gov/preservation/digital/formats/fdd/fdd000462.shtml</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fdd000462</Identifier>
+    <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>Q48004607</Identifier>
+    <IdentifierType>Wikidata QID Identifier</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/66</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>101</ExternalSignatureID>
+    <Signature>mdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>3301</ExternalSignatureID>
+    <Signature>mda</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>270</SignatureID>
+    <SignatureName>Microsoft Access Database File 2.0</SignatureName>
+    <SignatureNote>BOF; Offset: 0; Magic Bytes: Access database header 0x01000000, then an exact gap of 1026 bytes followed by 0x5269636809</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>344</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness>Little-endian</Endianness>
+      <ByteSequenceValue>01000000{1026}5269636809</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>350</RelatedFormatID>
+    <RelatedFormatName>Microsoft Access Database File</RelatedFormatName>
+    <RelatedFormatVersion>95</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>2657</RelatedFormatID>
+    <RelatedFormatName>Microsoft Access Database File</RelatedFormatName>
+    <RelatedFormatVersion>1.1</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is supertype of</RelationshipType>
+    <RelatedFormatID>2660</RelatedFormatID>
+    <RelatedFormatName>Microsoft Access Encrypted Database File</RelatedFormatName>
+    <RelatedFormatVersion>2.0</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

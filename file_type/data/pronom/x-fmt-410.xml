@@ -1,0 +1,74 @@
+<FileFormat>
+  <FormatID>775</FormatID>
+  <FormatName>Windows New Executable</FormatName>
+  <FormatVersion/>
+  <FormatAliases>EXE</FormatAliases>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>The New Executable (abbreviated NE or NewEXE) is a 16-bit .exe file format, a successor to the DOS MZ executable format. It is used by 16-bit Microsoft Windows, and by some versions of OS/2 and MS-DOS.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>17 Feb 2006</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>17 Feb 2006</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>com.microsoft.windows-executable</Identifier>
+    <IdentifierType>Apple Uniform Type Identifier</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/410</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>773</ExternalSignatureID>
+    <Signature>exe</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>197</SignatureID>
+    <SignatureName>Windows New Executable</SignatureName>
+    <SignatureNote>Header</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>255</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>4D5A*4E45</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>776</RelatedFormatID>
+    <RelatedFormatName>Windows Portable Executable</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>1704</RelatedFormatID>
+    <RelatedFormatName>Windows Portable Executable</RelatedFormatName>
+    <RelatedFormatVersion>32 bit</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>1705</RelatedFormatID>
+    <RelatedFormatName>Windows Portable Executable</RelatedFormatName>
+    <RelatedFormatVersion>64 bit</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>774</RelatedFormatID>
+    <RelatedFormatName>MS-DOS Executable</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+</FileFormat>

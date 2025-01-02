@@ -1,0 +1,49 @@
+<FileFormat>
+  <FormatID>2822</FormatID>
+  <FormatName>Program Embroidery Stitch (PES) File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>A PES file, 'Program Embroidery Stitch' is a digital file format created for embroidery. It combines embroidery design and embroidery command and was created mainly for Brother Industries and Bernina International series of embroidery machines. It stores information on stitch patterns and colour sequences.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>23 Apr 2024</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>23 Apr 2024</LastUpdatedDate>
+  <FormatNote>https://edutechwiki.unige.ch/en/Embroidery_format_PES#File_Format
+
+https://torvalds-family.blogspot.com/2010/01/embroidery-gaah.html
+http://fileformats.archiveteam.org/wiki/PES</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1957</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>3469</ExternalSignatureID>
+    <Signature>pes</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>2364</SignatureID>
+    <SignatureName>Program Embroidery Stitch (PES) File</SignatureName>
+    <SignatureNote>Absolute from beginning of file, magic bytes:	 #PES</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>2742</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>23504553</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,54 @@
+<FileFormat>
+  <FormatID>1496</FormatID>
+  <FormatName>Additive Manufacturing File Format</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Text (Mark-up)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Additive Manufacturing File Format (AMF) is an open standard for describing objects for additive manufacturing processes such as 3D printing.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>11 Feb 2015</ProvenanceSourceDate>
+  <ProvenanceDescription>http://amf.wikispaces.com/</ProvenanceDescription>
+  <LastUpdatedDate>09 Feb 2022</LastUpdatedDate>
+  <FormatNote>http://amf.wikispaces.com/
+
+https://web.archive.org/web/20120218025346/http://en.wikipedia.org/wiki/Additive_Manufacturing_File_Format#Meta-data</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/697</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1570</ExternalSignatureID>
+    <Signature>amf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1026</SignatureID>
+    <SignatureName>Additive Manufacturing File Format</SignatureName>
+    <SignatureNote>&lt;?xml version=('|")1.0('|") {1-256} &lt;amf</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1268</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){1-256}3C616D66</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>638</RelatedFormatID>
+    <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
+    <RelatedFormatVersion>1.0</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

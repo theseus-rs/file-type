@@ -1,0 +1,42 @@
+<FileFormat>
+  <FormatID>425</FormatID>
+  <FormatName>MPEG 1/2 Audio Layer 3 Streaming</FormatName>
+  <FormatVersion/>
+  <FormatAliases>MP3</FormatAliases>
+  <FormatFamilies/>
+  <FormatTypes>Text (Unstructured)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>A plain-text playlist of one or more media files and their location.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription>04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. The Church of Jesus Christ of Latter-day Saints.</ProvenanceDescription>
+  <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
+  <FormatNote>https://fileinfo.com/extension/m3u
+https://dotwhat.net/file/extension/m3u/505</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>audio/mpeg</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/279</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>412</ExternalSignatureID>
+    <Signature>m3u</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>923</RelatedFormatID>
+    <RelatedFormatName>MPEG Audio Stream Layer II</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+</FileFormat>

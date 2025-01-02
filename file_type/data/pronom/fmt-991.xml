@@ -1,0 +1,31 @@
+<FileFormat>
+  <FormatID>1796</FormatID>
+  <FormatName>SHA256 File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Text (Structured)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>SHA256 is part of the family of SHA-2 (Secure Hash Algorithm 2) hash functions which are designed by the United States National Security Agency. SHA256 prodcues a 256-but (32-byte) hash value. It can be used as a checksum to verify data integrity. The SHA256 file is a text document which contains single or multiple SHA1 values.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>15 Feb 2017</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>15 Feb 2017</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/991</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1968</ExternalSignatureID>
+    <Signature>sha256</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

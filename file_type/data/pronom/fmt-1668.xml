@@ -1,0 +1,66 @@
+<FileFormat>
+  <FormatID>2504</FormatID>
+  <FormatName>Roxio Easy Media Creator Layout</FormatName>
+  <FormatVersion>8-10</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Text (Structured)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Roxio Easy Media Creator Layout version 8 with extension ROXIO is a part of Roxio disc project formats. ROXIO files are formed Roxio Easy Media Creator software (previously named as Easy CD Creator and Roxio Easy CD Creator), originally published by Adaptec in 1996, this version follows the rebranding of the software to Roxio and was published around 2006. This format is a proprietary binary file just as its predecessor version 7 with extension RCL. The ROXIO file contains saved project, that stores information about audio, video or data disk compilation intended to be burned to disc. Roxio Easy Media Creator software allowed the user to create data or audio CD layout, it allowed for files to be saved for later use with references to files that will be included on the disc as well as other settings, but this format did not include the files themselves, only the information regarding these files. All versions up to version 10 and Roxio Creator 2009-2010 of layout format on Roxio Easy Media Creator software, saved their 'layout' files in ROXIO format. Corel then bought the Roxio products in 2012.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
+  <ProvenanceSourceDate>19 Apr 2022</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>19 Apr 2022</LastUpdatedDate>
+  <FormatNote>http://fileformats.archiveteam.org/wiki/ROXIO
+
+https://www.file-extensions.org/roxio-file-extension</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1668</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>3022</ExternalSignatureID>
+    <Signature>roxio</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>2002</SignatureID>
+    <SignatureName>Roxio Easy Media Creator Layout v8-10</SignatureName>
+    <SignatureNote>BOF; Offset: 0; Magic Bytes: 0x 00BB00BB01</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>2326</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>00BB00BB01</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>2505</RelatedFormatID>
+    <RelatedFormatName>Roxio Data Project File</RelatedFormatName>
+    <RelatedFormatVersion>11</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>2506</RelatedFormatID>
+    <RelatedFormatName>Roxio Audio Project File</RelatedFormatName>
+    <RelatedFormatVersion>11</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>2502</RelatedFormatID>
+    <RelatedFormatName>Roxio Easy Media Creator Layout</RelatedFormatName>
+    <RelatedFormatVersion>7</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

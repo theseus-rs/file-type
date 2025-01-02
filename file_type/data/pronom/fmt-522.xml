@@ -1,0 +1,46 @@
+<FileFormat>
+  <FormatID>1309</FormatID>
+  <FormatName>Open Project File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Database</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>The .pod format was originally used by the OpenProj project management suite. Development on OpenProj has discontinued and has been superceded by ProjectLibre.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>01 May 2013</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>01 May 2013</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/522</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1339</ExternalSignatureID>
+    <Signature>pod</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>815</SignatureID>
+    <SignatureName>POD project file</SignatureName>
+    <SignatureNote>offset 16, BOF: com.projity.server.data.ProjectData</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1020</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>16</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>636F6D2E70726F6A6974792E7365727665722E646174612E50726F6A65637444617461</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

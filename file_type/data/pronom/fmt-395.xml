@@ -1,0 +1,85 @@
+<FileFormat>
+  <FormatID>1143</FormatID>
+  <FormatName>vCard</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>vCard is a file format standard for electronic business cards. vCards are often attached to e-mail messages, but can be exchanged in other ways, such as on the World Wide Web or instant messaging.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
+  <ProvenanceSourceDate>16 Mar 2012</ProvenanceSourceDate>
+  <ProvenanceDescription>08/2023 (v.113)- Extension vcard added and specification added to note field. Researched internally.</ProvenanceDescription>
+  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
+  <FormatNote>Specification: https://tools.ietf.org/html/rfc6350
+http://en.wikipedia.org/wiki/Vcard</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/395</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/vcard</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1208</ExternalSignatureID>
+    <Signature>vcf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>3386</ExternalSignatureID>
+    <Signature>vcard</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>634</SignatureID>
+    <SignatureName>vCard</SignatureName>
+    <SignatureNote>BOF: 'begin:vcard'..'version:'  EOF: 'end:vcard'
+Internet standard: https://tools.ietf.org/html/rfc6350</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>783</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>424547494E3A5643415244{1-3}56455253494F4E3A</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>784</ByteSequenceID>
+      <PositionType>Absolute from EOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>4</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>454E443A5643415244</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>2733</RelatedFormatID>
+    <RelatedFormatName>vCard</RelatedFormatName>
+    <RelatedFormatVersion>2.1</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>2734</RelatedFormatID>
+    <RelatedFormatName>vCard</RelatedFormatName>
+    <RelatedFormatVersion>3</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has lower priority than</RelationshipType>
+    <RelatedFormatID>2735</RelatedFormatID>
+    <RelatedFormatName>vCard</RelatedFormatName>
+    <RelatedFormatVersion>4</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

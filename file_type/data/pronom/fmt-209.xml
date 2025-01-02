@@ -1,0 +1,32 @@
+<FileFormat>
+  <FormatID>935</FormatID>
+  <FormatName>Sound Designer II Audio File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Audio</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Audio format developed for the Sound Designer II digital audio software for Macintosh.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>28 Oct 2009</ProvenanceSourceDate>
+  <ProvenanceDescription>04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. The Church of Jesus Christ of Latter-day Saints.</ProvenanceDescription>
+  <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
+  <FormatNote>http://fileformats.archiveteam.org/wiki/SoundDesigner_II
+https://fileinfo.com/extension/sd2</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/209</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>921</ExternalSignatureID>
+    <Signature>sd2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

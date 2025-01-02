@@ -1,0 +1,45 @@
+<FileFormat>
+  <FormatID>934</FormatID>
+  <FormatName>Binary File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Aggregate</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>This entry records generic Binary File format. A binary file is a computer file that is not a text file, the term itself is often used to describe a "non-text file". Due to multiple varieties of this format, this file format entry does not include a file format signature. Although binary file is not a text-based file format, some files stored as binary can contain parts that can be interpreted as text; for example, some computer document files containing formatted text, such as older Microsoft Word document files, contain the text of the document but also contain formatting information in binary form.
+
+The .bin extension is also used for the 'Binary Text (BIN)' graphics format, a method of creating images using ANSI character encoding. This format has no distinctive name, file extension, or a signature, and is different than a text-based file, which can be edited in a text editor. More information about BIN (Binary Text) format can be found using the reference links provided. The newer version to BIN format which has a clear file format signiture is XBIN [fmt/1612].</FormatDescription>
+  <BinaryFileFormat>Binary</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>28 Oct 2009</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>27 Jan 2022</LastUpdatedDate>
+  <FormatNote>https://en.wikipedia.org/wiki/Binary_file
+
+http://fileformats.archiveteam.org/wiki/BIN_(Binary_Text)
+
+http://www.acid.org/images/0896/XBIN.TXT
+
+https://fileinfo.com/extension/bin</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/208</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>920</ExternalSignatureID>
+    <Signature>bin</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>2439</RelatedFormatID>
+    <RelatedFormatName>XBIN (eXtended BIN)</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+</FileFormat>

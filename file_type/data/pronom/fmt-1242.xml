@@ -1,0 +1,35 @@
+<FileFormat>
+  <FormatID>2060</FormatID>
+  <FormatName>ZFO (Form) File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Aggregate</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>ZFO file is a ZIP archive file containing the FO electronic form. The FO electronic form is a XML data file containing an electronic form intended for usage in the 602XML applications. The form is a composure of the layout structure using XSL-FO, data instance and data model using generic XML elements defined in the 602XML framework. The whole electronic form structure is always embedded into a digital signature represented by XML elements of the XML Signature standard. ZFO file can be password protected.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
+  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
+  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
+  <LastUpdatedDate>11 Oct 2022</LastUpdatedDate>
+  <FormatNote>http://www.iana.org/assignments/media-types/application/vnd.software602.filler.form-xml-zip</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.software602.filler.form-xml-zip</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1242</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>2298</ExternalSignatureID>
+    <Signature>zfo</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

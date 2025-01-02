@@ -1,0 +1,41 @@
+<FileFormat>
+  <FormatID>44</FormatID>
+  <FormatName>Microsoft Excel Template</FormatName>
+  <FormatVersion>97-2003</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Spreadsheet</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>A template document that forms a basis for Microsoft Excel workbooks.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription>This format is identifiable via a container signature in DROID 6 and later.</ProvenanceDescription>
+  <LastUpdatedDate>13 Sep 2018</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-excel</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/17</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>40</ExternalSignatureID>
+    <Signature>xlt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>684</RelatedFormatID>
+    <RelatedFormatName>Microsoft Excel 97 Workbook (xls)</RelatedFormatName>
+    <RelatedFormatVersion>8</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

@@ -1,0 +1,72 @@
+<FileFormat>
+  <FormatID>343</FormatID>
+  <FormatName>WordStar for MS-DOS Document</FormatName>
+  <FormatVersion>6.0</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Word Processor</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>The WordStar format is the default proprietary plain text format for the word processing application of the same name. It was created in 1978 by MicroPro, originally for the CP/M operating system but later was used on other operating systems such as PC/MS-DOS. It was the first word processor to render the doument on screen as it would appear when printed. WordStar files often have the extension ws or ws follwed by their version number but it is also common for them to have no extension.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>29 Jul 2022</LastUpdatedDate>
+  <FormatNote>http://justsolve.archiveteam.org/wiki/WordStar
+https://www.loc.gov/preservation/digital/formats/fdd/fdd000552</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fdd000552</Identifier>
+    <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>Q105856544</Identifier>
+    <IdentifierType>Wikidata QID Identifier</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/237</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>330</ExternalSignatureID>
+    <Signature>ws</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>532</ExternalSignatureID>
+    <Signature>ws6</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>612</SignatureID>
+    <SignatureName>WordStar for DOS Document 6.0</SignatureName>
+    <SignatureNote>Header symmetrical sequence 0f 128 bytes: first thee bytes, 0x1D 0x7D00, sequence type header = 0x00, version =0x60,  last three bytes 0x7D00 0X1D</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>757</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>1D7D000060{120}7D001D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>379</RelatedFormatID>
+    <RelatedFormatName>WordStar for MS-DOS Document</RelatedFormatName>
+    <RelatedFormatVersion>7.0</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>342</RelatedFormatID>
+    <RelatedFormatName>WordStar for MS-DOS Document</RelatedFormatName>
+    <RelatedFormatVersion>5.5</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

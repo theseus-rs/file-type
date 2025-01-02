@@ -1,0 +1,46 @@
+<FileFormat>
+  <FormatID>2012</FormatID>
+  <FormatName>Guymager Acquisition Info File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Text (Structured)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>The Guymager Acquisition Info File is produced by the Guymager digital forensics imaging tool, and contains logging information about the imaging process.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
+  <ProvenanceSourceDate>16 Aug 2018</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>16 Aug 2018</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1202</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>2229</ExternalSignatureID>
+    <Signature>info</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1580</SignatureID>
+    <SignatureName>Guymager Acquisition Info File</SignatureName>
+    <SignatureNote>BOF, offset 1-2: GUYMAGER ACQUISITION INFO FILE</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1851</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>1</Offset>
+      <MaxOffset>2</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>4755594D41474552204143515549534954494F4E20494E464F2046494C45</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

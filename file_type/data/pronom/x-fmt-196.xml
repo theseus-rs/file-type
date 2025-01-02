@@ -1,0 +1,26 @@
+<FileFormat>
+  <FormatID>269</FormatID>
+  <FormatName>NeXt Sound</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Audio</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>PUID deprecated. Please see x-fmt/139 for information on NeXT/Sun sound.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription>Research by Georgia Tech Research Institute revealed this format is the same as the NeXT/Sun sound file format (x-fmt/139).</ProvenanceDescription>
+  <LastUpdatedDate>17 Mar 2012</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/196</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+</FileFormat>

@@ -1,0 +1,46 @@
+<FileFormat>
+  <FormatID>2765</FormatID>
+  <FormatName>TibetDoc Word Document</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Word Processor</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>This format is created by the TibetDoc word-processing software for Windows. It was developed by the Padma Karpo Translation Committee, and was created specifically to support the Tibetan language and fonts within a word processor, but also supports multiple other languages and fonts, for example Sanskrit and English.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Buddhist Digital Resource Center / Buddhist Digital Resource Center</ProvenanceName>
+  <ProvenanceSourceDate>25 Aug 2023</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>25 Aug 2023</LastUpdatedDate>
+  <FormatNote>https://pktc.org/tibetan-software/tibetdoc-wordprocessor/</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1909</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>3398</ExternalSignatureID>
+    <Signature>dct</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>2255</SignatureID>
+    <SignatureName>TibetDoc</SignatureName>
+    <SignatureNote>BOF; Offset: 1; Magic Bytes: 'PKTC' with a 3 byte gap and then 'TibetDoc'</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>2626</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>1</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>504B5443{3}5469626574446F63</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

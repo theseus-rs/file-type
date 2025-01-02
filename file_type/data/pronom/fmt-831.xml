@@ -1,0 +1,46 @@
+<FileFormat>
+  <FormatID>1632</FormatID>
+  <FormatName>Polygon File Format</FormatName>
+  <FormatVersion/>
+  <FormatAliases>Stanford Triangle Format</FormatAliases>
+  <FormatFamilies/>
+  <FormatTypes>Model</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Also known as the Stanford Triangle Format, PLY is a format for storing graphical objects that are described as a collection of polygons. PLY can be represented in ASCII or binary.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>21 Dec 2015</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>21 Dec 2015</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/831</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1738</ExternalSignatureID>
+    <Signature>ply</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1188</SignatureID>
+    <SignatureName>PLY</SignatureName>
+    <SignatureNote>BOF: ply [line break] format (ascii|binary_little_endian|binary_big_endian) 1.0</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1463</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>706C79(0A|0D|0D0A)666F726D617420(6173636969|62696E6172795F6C6974746C655F656E6469616E|62696E6172795F6269675F656E6469616E)20312E30</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

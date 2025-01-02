@@ -1,0 +1,51 @@
+<FileFormat>
+  <FormatID>207</FormatID>
+  <FormatName>Scitex Continuous Tone Bitmap</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Image (Raster)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>07 Nov 2022</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/146</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>201</ExternalSignatureID>
+    <Signature>ct</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>3304</ExternalSignatureID>
+    <Signature>sct</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>595</SignatureID>
+    <SignatureName>Scitex Continuous Tone Bitmap</SignatureName>
+    <SignatureNote>Offset for file name (80), “CT”, BlockSize (12), Count (1); Padding/reserved field (50), Units of measurement (0=MM,1=INCH) + Color Model (7=RGB, 8=GREYSCALE, 15=0xFF=CMYK)</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>737</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>80</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness>Big-endian</Endianness>
+      <ByteSequenceValue>4354000000000000000000000000??0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000{879}(00|01)??00(07|08|FF)</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,47 @@
+<FileFormat>
+  <FormatID>1903</FormatID>
+  <FormatName>PEA Archive Format</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Aggregate</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>PEA (an acronym of Pack Encrypt Authenticate) is the native format of PeaZip, an open source file archiver created by Giorgio Tani.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>19 Sep 2017</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>19 Sep 2017</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1095</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>2108</ExternalSignatureID>
+    <Signature>pea</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1476</SignatureID>
+    <SignatureName>PEA Archive</SignatureName>
+    <SignatureNote>BOF: Magic 0xEA, 9 bytes include major/minor version which may be desirable to distinguish in the future. Stream Header 0x0000 'POD' 0x00
+https://hwiegman.home.xs4all.nl/fileformats/pea/pea_file_format.pdf</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1736</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>EA{9}0000504F4400</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

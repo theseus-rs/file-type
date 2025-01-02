@@ -1,0 +1,56 @@
+<FileFormat>
+  <FormatID>1492</FormatID>
+  <FormatName>Mach-O</FormatName>
+  <FormatVersion>64bit</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>Mach-O is a standard used to store programs and libraries on disk in the Apple Mac app binary interface. Mach-O files generally lack a format extension.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>11 Feb 2015</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>11 Feb 2015</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/693</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <InternalSignature>
+    <SignatureID>1021</SignatureID>
+    <SignatureName>Mach-O 64 bit 1</SignatureName>
+    <SignatureNote>BOF: þíúÏ (0xFEEDFACF)</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1263</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>FEEDFACF</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <InternalSignature>
+    <SignatureID>1022</SignatureID>
+    <SignatureName>Mach-O 64 bit 2</SignatureName>
+    <SignatureNote>BOF: Ïúíþ (0xCFFAEDFE)</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1264</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>CFFAEDFE</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

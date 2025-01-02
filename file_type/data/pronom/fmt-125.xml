@@ -1,0 +1,131 @@
+<FileFormat>
+  <FormatID>134</FormatID>
+  <FormatName>Microsoft Powerpoint Presentation</FormatName>
+  <FormatVersion>95</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Presentation</FormatTypes>
+  <FormatDisclosure>None</FormatDisclosure>
+  <FormatDescription>Powerpoint format is a presentation format developed by Microsoft. Powerpoint 95 format is the native format of Powerpoint 95. The format is proprietary and Microsoft does not make details of its structure public. The information here is derived primarily from OpenOffice.org's reverse-engineered documentation of the format and should not therefore be regarded as definitive. Powerpoint 95 is based on Microsoft’s generic OLE2 Compound Document Format. A Powerpoint presentation is stored as a ‘PowerPoint Document’ stream within a Compound Document Format file.</FormatDescription>
+  <BinaryFileFormat>Binary</BinaryFileFormat>
+  <ByteOrders>Little-endian (Intel)</ByteOrders>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription>This format is identifiable via a container signature in DROID 6 and later.</ProvenanceDescription>
+  <LastUpdatedDate>30 Sep 2020</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-powerpoint</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>com.microsoft.powerpoint.ppt</Identifier>
+    <IdentifierType>Apple Uniform Type Identifier</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>fmt/125</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <Document>
+    <DocumentID>11</DocumentID>
+    <DisplayText>OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Compound Document file format</DisplayText>
+    <DocumentType>Speculative</DocumentType>
+    <AvailabilityDescription>Public</AvailabilityDescription>
+    <AvailabilityNote/>
+    <PublicationDate>15 Sep 2004</PublicationDate>
+    <TitleText>OpenOffice.org's documentation of the Microsoft Compound Document file format</TitleText>
+    <DocumentIpr/>
+    <DocumentNote/>
+    <DocumentIdentifier>
+      <Identifier>sc.openoffice.org/compdocfileformat.pdf</Identifier>
+      <IdentifierType>URL</IdentifierType>
+    </DocumentIdentifier>
+    <Author>
+      <AuthorID>103</AuthorID>
+      <AuthorName/>
+      <OrganisationName>OpenOffice.org</OrganisationName>
+      <AuthorCompoundName>OpenOffice.org</AuthorCompoundName>
+    </Author>
+    <Publisher>
+      <PublisherID>103</PublisherID>
+      <PublisherName/>
+      <OrganisationName>OpenOffice.org</OrganisationName>
+      <PublisherCompoundName>OpenOffice.org</PublisherCompoundName>
+    </Publisher>
+  </Document>
+  <ExternalSignature>
+    <ExternalSignatureID>128</ExternalSignatureID>
+    <Signature>ppt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>171</SignatureID>
+    <SignatureName>Powerpoint 95</SignatureName>
+    <SignatureNote>Compound Document Header + PowerPoint Document user stream + ‘Microsoft ® PowerPoint ® Windows’ statement.</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>201</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>D0CF11E0A1B11AE1{20}FEFF</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>202</ByteSequenceID>
+      <PositionType>Variable</PositionType>
+      <Offset/>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>50006F0077006500720050006F0069006E007400200044006F00630075006D0065006E007400</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>217</ByteSequenceID>
+      <PositionType>Variable</PositionType>
+      <Offset/>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>4D6963726F736F66742028522920506F776572506F696E74202852292057696E646F777320200007(00|01)0000F00300005F</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>135</RelatedFormatID>
+    <RelatedFormatName>Microsoft Powerpoint Presentation</RelatedFormatName>
+    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>767</RelatedFormatID>
+    <RelatedFormatName>OLE2 Compound Document Format</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>135</RelatedFormatID>
+    <RelatedFormatName>Microsoft Powerpoint Presentation</RelatedFormatName>
+    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>133</RelatedFormatID>
+    <RelatedFormatName>Microsoft PowerPoint Presentation</RelatedFormatName>
+    <RelatedFormatVersion>4.x</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is subtype of</RelationshipType>
+    <RelatedFormatID>767</RelatedFormatID>
+    <RelatedFormatName>OLE2 Compound Document Format</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+</FileFormat>

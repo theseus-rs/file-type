@@ -1,0 +1,62 @@
+<FileFormat>
+  <FormatID>1446</FormatID>
+  <FormatName>Microsoft Expression Media</FormatName>
+  <FormatVersion>2</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Presentation</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Proprietary cataloguing program to manage photo and video assets.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>14 Jul 2014</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>14 Jul 2014</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/647</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1496</ExternalSignatureID>
+    <Signature>ivc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>975</SignatureID>
+    <SignatureName>Microsoft Expression Media 2</SignatureName>
+    <SignatureNote>BOF: 025i (Offset 4)                                                                                                                              EOF: Svar{8-54}025i(Max Offset 8)</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1199</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>4</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>30323569</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>1200</ByteSequenceID>
+      <PositionType>Absolute from EOF</PositionType>
+      <Offset>4</Offset>
+      <MaxOffset/>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>53566172{8-54}30323569</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>1447</RelatedFormatID>
+    <RelatedFormatName>Media View Pro</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+</FileFormat>

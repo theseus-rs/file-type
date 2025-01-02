@@ -1,0 +1,35 @@
+<FileFormat>
+  <FormatID>163</FormatID>
+  <FormatName>Plain Text File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>Plain text files (also known by the extension 'TXT') consists of human-readable characters encoded sequentially in a particular "character encoding". The plain-text description in PRONOM provides a baseline identifier for all TXT (*.txt) files that may be identified by tools such as DROID. Plain text (x-fmt/111) cannot have a file format signature associated with it where other formats with 'txt' extensions will tend to. The character encoding of plain-text files may not be known upfront and is rarely indicated inline (in the file itself), but can be identified using additional tooling such as using the '-i' encoding flag in the UNIX/Linux 'file' command. Many human readable file-formats are built using plain-text as its foundation, and source code files, such as those written in Python, C++, or Java; or data structures saved to file, such as YAML or JSON, can be opened in text editors just as easily as .txt files. The primary difference between these structured files and plain-text is the structure that is may be encoded in the file and the format as implied by the file format extension.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription>04/2024 (v.118)- Description and documentation links added. Submitted by Ross Spencer as part of PRONOM Research Week 2023.</ProvenanceDescription>
+  <LastUpdatedDate>15 Apr 2024</LastUpdatedDate>
+  <FormatNote>Further information and description credits can be found here: http://fileformats.archiveteam.org/wiki/Plain_text</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/111</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>929</ExternalSignatureID>
+    <Signature>txt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

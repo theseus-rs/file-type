@@ -1,0 +1,36 @@
+<FileFormat>
+  <FormatID>158</FormatID>
+  <FormatName>Scalable Vector Graphics Compressed</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Image (Vector)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>A Scalable Vector Graphics file, which has been compressed with gzip compression.</FormatDescription>
+  <BinaryFileFormat>Text</BinaryFileFormat>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
+  <ProvenanceDescription>04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. The Church of Jesus Christ of Latter-day Saints.</ProvenanceDescription>
+  <LastUpdatedDate>22 Apr 2024</LastUpdatedDate>
+  <FormatNote>https://fileinfo.com/extension/svgz
+https://filext.com/file-extension/SVGZ</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>image/svg+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-fmt/109</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>152</ExternalSignatureID>
+    <Signature>svgz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,37 @@
+<FileFormat>
+  <FormatID>2795</FormatID>
+  <FormatName>CorelDraw Drawing</FormatName>
+  <FormatVersion>2023</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Image (Vector)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>CorelDraw (styled CorelDRAW) is a vector graphics editor developed and marketed by Corel Corporation of Ottawa, Canada. It is also the name of Corel's Graphics Suite, which bundles CorelDraw with bitmap-image editor Corel Photo-Paint as well as other graphics-related programs.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
+  <ProvenanceSourceDate>12 Oct 2023</ProvenanceSourceDate>
+  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
+  <LastUpdatedDate>12 Oct 2023</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1934</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>3429</ExternalSignatureID>
+    <Signature>cdr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>2794</RelatedFormatID>
+    <RelatedFormatName>CorelDraw Drawing</RelatedFormatName>
+    <RelatedFormatVersion>2022</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

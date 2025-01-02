@@ -1,0 +1,69 @@
+<FileFormat>
+  <FormatID>1606</FormatID>
+  <FormatName>MATLAB Mat File</FormatName>
+  <FormatVersion>Level 5</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>A Mat-file stores data in binary form. You can read and write Mat-files using MATLAB. Level 5 MAT-file formats are compatible with MATLAB version 5 and upwards.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>27 Nov 2015</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>09 Dec 2021</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/806</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1699</ExternalSignatureID>
+    <Signature>mat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1793</ExternalSignatureID>
+    <Signature>fig</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1171</SignatureID>
+    <SignatureName>MATLAB Mat file 5</SignatureName>
+    <SignatureNote>MATLAB 5.0{114}(..MI|..IM)</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1424</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>4D41544C414220352E30{114}(0001494D|01004D49)</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>2375</RelatedFormatID>
+    <RelatedFormatName>MATLAB Mat File</RelatedFormatName>
+    <RelatedFormatVersion>Level 4</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>1629</RelatedFormatID>
+    <RelatedFormatName>MATLAB Mat File</RelatedFormatName>
+    <RelatedFormatVersion>Level 7.3</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>2375</RelatedFormatID>
+    <RelatedFormatName>MATLAB Mat File</RelatedFormatName>
+    <RelatedFormatVersion>Level 4</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

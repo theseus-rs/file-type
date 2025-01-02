@@ -1,0 +1,54 @@
+<FileFormat>
+  <FormatID>1813</FormatID>
+  <FormatName>DSS Pro</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Audio</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Digital Speech Standard is a proprietary audio file format for the storage of digital speech recordings, which was jointly developed and introduced by Olympus, Grundig and Philips. 
+
+The DSS Pro (.ds2) format supports improved sound quality over the original Digital Speech Standard format, and also supports file encryption.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>22 Mar 2017</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>22 Mar 2017</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/1008</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1987</ExternalSignatureID>
+    <Signature>ds2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>1366</SignatureID>
+    <SignatureName>Digital Speech Standard DSS Pro</SignatureName>
+    <SignatureNote>BOF: 0x03 'DS2'</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1635</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>03647332</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>1812</RelatedFormatID>
+    <RelatedFormatName>Digital Speech Standard</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+</FileFormat>

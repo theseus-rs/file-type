@@ -1,0 +1,37 @@
+[package]
+authors.workspace = true
+categories.workspace = true
+description = "File type dector"
+edition.workspace = true
+keywords = ["file", "file-type", "format"]
+license.workspace = true
+name = "file_type"
+repository.workspace = true
+rust-version.workspace = true
+version.workspace = true
+
+[dependencies]
+include_dir = { workspace = true }
+jiff = { workspace = true, features = ["serde"] }
+quick-xml = { workspace = true, features = ["serde", "serialize"] }
+rayon = { workspace = true }
+serde = { workspace = true, features = ["derive"] }
+thiserror = { workspace = true }
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+tokio = { workspace = true }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+tokio = { workspace = true, features = ["fs", "io-util"] }
+
+[dev-dependencies]
+anyhow = { workspace = true }
+criterion = { workspace = true }
+indoc = { workspace = true }
+quick-xml = { workspace = true, features = ["serde", "serialize"] }
+tokio = { workspace = true, features = ["full"] }
+walkdir = { workspace = true }
+
+[[bench]]
+harness = false
+name = "file_type"

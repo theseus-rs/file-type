@@ -1,0 +1,49 @@
+<FileFormat>
+  <FormatID>1653</FormatID>
+  <FormatName>Serif DrawPlus Drawing</FormatName>
+  <FormatVersion>4</FormatVersion>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Image (Vector)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Serif DrawPlus is a vector image creation application. This format is based on the OLE2 Compound Document Format and can be identified in DROID 6 and later via a container signature. At this time the signature identification is baed upon the version number of the generating software as shown in the 'SummaryInformation' file within the OLE2 compound container. This may be improved with a better understanding of the format.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>07 Jan 2016</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>15 Nov 2021</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/852</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1769</ExternalSignatureID>
+    <Signature>dpp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>2352</RelatedFormatID>
+    <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
+    <RelatedFormatVersion>Generic</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is previous version of</RelationshipType>
+    <RelatedFormatID>1654</RelatedFormatID>
+    <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
+    <RelatedFormatVersion>5</RelatedFormatVersion>
+  </RelatedFormat>
+  <RelatedFormat>
+    <RelationshipType>Is subsequent version of</RelationshipType>
+    <RelatedFormatID>1628</RelatedFormatID>
+    <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
+    <RelatedFormatVersion>3</RelatedFormatVersion>
+  </RelatedFormat>
+</FileFormat>

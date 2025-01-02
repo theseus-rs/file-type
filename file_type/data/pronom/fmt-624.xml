@@ -1,0 +1,53 @@
+<FileFormat>
+  <FormatID>1420</FormatID>
+  <FormatName>RIFF Palette Format</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription>A colour palette format which is shared in a resource interchange file format (RIFF).</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
+  <ProvenanceDescription>08/2023 (v.113) - Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica.</ProvenanceDescription>
+  <LastUpdatedDate>14 Aug 2023</LastUpdatedDate>
+  <FormatNote>http://www.tactilemedia.com/info/MCI_Control_Info.html
+http://www.daubnet.com/en/file-format-riff</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/624</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1466</ExternalSignatureID>
+    <Signature>pal</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>955</SignatureID>
+    <SignatureName>RIFF Palette Format</SignatureName>
+    <SignatureNote>BOF: RIFF{4}PAL data</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>1180</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>52494646{4}50414C2064617461</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+  <RelatedFormat>
+    <RelationshipType>Has priority over</RelationshipType>
+    <RelatedFormatID>2741</RelatedFormatID>
+    <RelatedFormatName>Resource Interchange File Format (RIFF)</RelatedFormatName>
+    <RelatedFormatVersion/>
+  </RelatedFormat>
+</FileFormat>

@@ -1,0 +1,46 @@
+<FileFormat>
+  <FormatID>1076</FormatID>
+  <FormatName>Autorun Configuration File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Text (Unstructured)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>Autorun.inf is the primary instruction file associated with the Autorun function. Autorun.inf itself is a simple text-based configuration file that tells the operating system which executable to start, which icon to use, and which additional menu commands to make available.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>30 Mar 2011</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>30 Mar 2011</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/331</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1084</ExternalSignatureID>
+    <Signature>inf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>430</SignatureID>
+    <SignatureName>Autorun Configuration File</SignatureName>
+    <SignatureNote>ASCII: [autorun]..open= or [autorun]..icon. Open and icon can be upper or lowercase.</SignatureNote>
+    <ByteSequence>
+      <ByteSequenceID>537</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <MaxOffset>0</MaxOffset>
+      <IndirectOffsetLocation/>
+      <IndirectOffsetLength/>
+      <Endianness/>
+      <ByteSequenceValue>5B6175746F72756E5D{2-4}(4F50454E|6F70656E|49434F4E|69636F6E){0-1}3D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

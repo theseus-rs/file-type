@@ -1,0 +1,31 @@
+<FileFormat>
+  <FormatID>1743</FormatID>
+  <FormatName>Python Source Code File</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes>Text (Structured)</FormatTypes>
+  <FormatDisclosure/>
+  <FormatDescription>A source code file written in Python that can be run by a Python interpreter. Python is a multi-paradigm, high-level general-purpose programming language which was conceived in the late 1980s as a successor to the ABC programming language. Its extensive standard library, as well as a steadily growing number of third-party modules, provides functions, classes and more for a wide range of tasks, including scientific computing, machine learning and web scraping.</FormatDescription>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
+  <ProvenanceSourceDate>13 Jul 2016</ProvenanceSourceDate>
+  <ProvenanceDescription>Description was submitted by Stadtarchiv Hof (Municipal Archives of Hof, Free State of Bavaria, Germany) in v112 of PRONOM signature file.</ProvenanceDescription>
+  <LastUpdatedDate>21 Mar 2023</LastUpdatedDate>
+  <FormatNote>Official documentation can be accessed at https://www.python.org/doc/</FormatNote>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>fmt/938</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>1894</ExternalSignatureID>
+    <Signature>py</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>
