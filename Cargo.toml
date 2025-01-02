@@ -27,7 +27,7 @@ indoc = "2.0.5"
 jiff = "0.1.16"
 quick-xml = "0.37.1"
 rayon = "1.5.1"
-reqwest = "0.12.11"
+reqwest = "0.12.12"
 serde = "1.0.217"
 thiserror = "2.0.9"
 tokio = { version = "1.42.0", default-features = false, features = ["macros", "rt", "sync"] }
