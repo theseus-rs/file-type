@@ -128,11 +128,8 @@ impl FileType {
     ///
     /// # Errors
     /// if the file type is unknown
-    pub fn try_from_reader_sync<R: Read + Seek>(mut reader: R) -> Result<Self> {
-        let mut buffer = Vec::new();
-        reader.read_to_end(&mut buffer)?;
-        let bytes = buffer.as_slice();
-        let file_format = file_formats::from_bytes(bytes, None);
+    pub fn try_from_reader_sync<R: Read + Seek>(reader: R) -> Result<Self> {
+        let file_format = file_formats::try_from_reader_sync(reader, None)?;
         Ok(FileType { file_format })
     }
 
@@ -141,11 +138,8 @@ impl FileType {
     /// # Errors
     /// if the file type is unknown
     pub fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<Self> {
-        let runtime = Builder::new_current_thread().enable_all().build()?;
-        runtime.block_on(async {
-            let file_format = file_formats::try_from_file(path).await?;
-            Ok(FileType { file_format })
-        })
+        let file_format = file_formats::try_from_file_sync(path)?;
+        Ok(FileType { file_format })
     }
 }
 

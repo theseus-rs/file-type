@@ -1,14 +1,15 @@
 use crate::pronom::FileFormat;
-use crate::Result;
+use crate::{file_formats, FileType, Result};
 use include_dir::{include_dir, Dir, DirEntry};
 use quick_xml::de::from_str;
 use rayon::prelude::*;
 use std::collections::HashMap;
 use std::fs::read_to_string;
+use std::io::{Read, Seek};
 use std::path::Path;
 use std::sync::LazyLock;
-use tokio::fs::File;
-use tokio::io::{AsyncRead, AsyncReadExt, AsyncSeek, BufReader};
+use tokio::io::{AsyncRead, AsyncReadExt, AsyncSeek};
+use tokio::runtime::Builder;
 
 static FILE_FORMATS: LazyLock<HashMap<String, FileFormat>> = LazyLock::new(file_formats);
 static EXTENSION_MAP: LazyLock<HashMap<String, Vec<String>>> = LazyLock::new(extension_map);
@@ -168,12 +169,44 @@ where
 /// # Errors
 /// if the there is an issue reading the file
 pub async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<FileFormat> {
+    #[cfg(target_arch = "wasm32")]
+    let file_format = try_from_file_sync(path);
+    #[cfg(not(target_arch = "wasm32"))]
+    let file_format = {
+        let path = path.as_ref();
+        let extension = path.extension().and_then(|ext| ext.to_str());
+        let file = tokio::fs::File::open(path).await?;
+        let reader = tokio::io::BufReader::new(file);
+        try_from_reader(reader, extension).await
+    };
+    file_format
+}
+
+/// Attempt to determine the `FileFormat` from a reader synchronously.
+///
+/// # Errors
+/// if the file type is unknown
+pub fn try_from_reader_sync<R>(mut reader: R, extension: Option<&str>) -> Result<FileFormat>
+where
+    R: Read + Seek,
+{
+    let mut buffer = Vec::new();
+    reader.read_to_end(&mut buffer)?;
+    let bytes = buffer.as_slice();
+    let file_format = from_bytes(bytes, extension);
+    Ok(file_format)
+}
+
+/// Attempt to determine the `FileFormat` from a file synchronously.
+///
+/// # Errors
+/// if the file type is unknown
+pub fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<FileFormat> {
     let path = path.as_ref();
     let extension = path.extension().and_then(|ext| ext.to_str());
-    let file = File::open(path).await?;
-    let reader = BufReader::new(file);
-    let file_format = try_from_reader(reader, extension).await?;
-    Ok(file_format)
+    let file = std::fs::File::open(path)?;
+    let reader = std::io::BufReader::new(file);
+    try_from_reader_sync(reader, extension)
 }
 
 #[cfg(test)]
@@ -267,8 +300,8 @@ mod tests {
     #[tokio::test]
     async fn test_try_from_reader() -> Result<()> {
         let file_path = test_file_path();
-        let file = File::open(file_path).await?;
-        let reader = BufReader::new(file);
+        let file = tokio::fs::File::open(file_path).await?;
+        let reader = tokio::io::BufReader::new(file);
         let file_format = try_from_reader(reader, None).await?;
         assert_eq!(file_format.puid(), "fmt/11");
         assert_eq!(file_format.name(), "Portable Network Graphics");
@@ -281,6 +314,30 @@ mod tests {
     async fn test_try_from_file() -> Result<()> {
         let file_path = test_file_path();
         let file_format = try_from_file(file_path).await?;
+        assert_eq!(file_format.puid(), "fmt/11");
+        assert_eq!(file_format.name(), "Portable Network Graphics");
+        assert_eq!(file_format.media_types(), vec!["image/png".to_string()]);
+        assert_eq!(file_format.extensions(), vec!["png".to_string()]);
+        Ok(())
+    }
+
+    #[test]
+    fn test_try_from_reader_sync() -> Result<()> {
+        let file_path = test_file_path();
+        let file = std::fs::File::open(file_path)?;
+        let reader = std::io::BufReader::new(file);
+        let file_format = try_from_reader_sync(reader, None)?;
+        assert_eq!(file_format.puid(), "fmt/11");
+        assert_eq!(file_format.name(), "Portable Network Graphics");
+        assert_eq!(file_format.media_types(), vec!["image/png".to_string()]);
+        assert_eq!(file_format.extensions(), vec!["png".to_string()]);
+        Ok(())
+    }
+
+    #[test]
+    fn test_try_from_file_sync() -> Result<()> {
+        let file_path = test_file_path();
+        let file_format = try_from_file_sync(file_path)?;
         assert_eq!(file_format.puid(), "fmt/11");
         assert_eq!(file_format.name(), "Portable Network Graphics");
         assert_eq!(file_format.media_types(), vec!["image/png".to_string()]);
