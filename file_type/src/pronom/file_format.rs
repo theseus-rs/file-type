@@ -292,11 +292,11 @@ impl FileFormat {
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+    use crate::pronom::Author;
     use indoc::indoc;
     use quick_xml::de::from_str;
     use quick_xml::se::to_string;
-    use crate::pronom::Author;
-    use super::*;
 
     #[expect(clippy::too_many_lines)]
     #[test]
@@ -417,12 +417,18 @@ mod tests {
             file_format.provenance_name(),
             "The National Archives and Records Administration / The National Archives and Records Administration"
         );
-        assert_eq!(file_format.provenance_source_date(), &Date::new(2005, 3, 11).expect("Invalid date"));
+        assert_eq!(
+            file_format.provenance_source_date(),
+            &Date::new(2005, 3, 11).expect("Invalid date")
+        );
         assert_eq!(
             file_format.provenance_description(),
             "Specifications link: http://tools.ietf.org/pdf/rfc2083.pdf"
         );
-        assert_eq!(file_format.last_updated_date(), &Date::new(2012, 6, 11).expect("Invalid date"));
+        assert_eq!(
+            file_format.last_updated_date(),
+            &Date::new(2012, 6, 11).expect("Invalid date")
+        );
         assert_eq!(file_format.note(), "");
         assert_eq!(file_format.risk(), "");
         assert_eq!(file_format.technical_environment(), "");
@@ -434,5 +440,4 @@ mod tests {
         assert_eq!(file_format.compression_types().len(), 0);
         Ok(())
     }
-
 }
