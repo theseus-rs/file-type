@@ -274,6 +274,12 @@ mod tests {
     }
 
     #[test]
+    fn test_from_extension_not_found() {
+        let file_formats = from_extension("foo");
+        assert!(file_formats.is_empty());
+    }
+
+    #[test]
     fn test_from_media_type() {
         let file_formats = from_media_type("text/markdown");
         assert_eq!(1, file_formats.len());
@@ -285,6 +291,12 @@ mod tests {
             file_format.extensions(),
             vec!["md".to_string(), "markdown".to_string()]
         );
+    }
+
+    #[test]
+    fn test_from_media_type_not_found() {
+        let file_formats = from_media_type("foo/bar");
+        assert!(file_formats.is_empty());
     }
 
     #[test]

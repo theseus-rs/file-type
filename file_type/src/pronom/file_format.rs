@@ -289,3 +289,150 @@ impl FileFormat {
             .any(|signature| signature.is_match(bytes))
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use indoc::indoc;
+    use quick_xml::de::from_str;
+    use quick_xml::se::to_string;
+    use crate::pronom::Author;
+    use super::*;
+
+    #[expect(clippy::too_many_lines)]
+    #[test]
+    fn test_serde() -> anyhow::Result<()> {
+        let xml = indoc! {r"
+            <FileFormat>
+              <FormatID>664</FormatID>
+              <FormatName>Portable Network Graphics</FormatName>
+              <FormatVersion>1.0</FormatVersion>
+              <FormatAliases>PNG (1.0)</FormatAliases>
+              <FormatFamilies/>
+              <FormatTypes>Image (Raster)</FormatTypes>
+              <FormatDisclosure/>
+              <FormatDescription>Portable Network Graphics (PNG) was designed for the lossless, portable, compressed storage of raster images.  PNG provides a patent-free replacement for GIF and can also replace many common uses of TIFF. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits. PNG is designed to work in online viewing applications, so it is fully streamable.  It can store gamma and chromaticity.  PNG also detects file corruption.</FormatDescription>
+              <BinaryFileFormat>Binary</BinaryFileFormat>
+              <ByteOrders>Big-endian (Motorola)</ByteOrders>
+              <ReleaseDate/>
+              <WithdrawnDate/>
+              <ProvenanceSourceId>0</ProvenanceSourceId>
+              <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
+              <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
+              <ProvenanceDescription>Specifications link: http://tools.ietf.org/pdf/rfc2083.pdf</ProvenanceDescription>
+              <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
+              <FormatNote/>
+              <FormatRisk/>
+              <TechnicalEnvironment/>
+              <FileFormatIdentifier>
+                <Identifier>fmt/11</Identifier>
+                <IdentifierType>PUID</IdentifierType>
+              </FileFormatIdentifier>
+              <FileFormatIdentifier>
+                <Identifier>image/png</Identifier>
+                <IdentifierType>MIME</IdentifierType>
+              </FileFormatIdentifier>
+              <FileFormatIdentifier>
+                <Identifier>public.png</Identifier>
+                <IdentifierType>Apple Uniform Type Identifier</IdentifierType>
+              </FileFormatIdentifier>
+              <ExternalSignature>
+                <ExternalSignatureID>761</ExternalSignatureID>
+                <Signature>png</Signature>
+                <SignatureType>File extension</SignatureType>
+              </ExternalSignature>
+              <InternalSignature>
+                <SignatureID>58</SignatureID>
+                <SignatureName>PNG 1.0</SignatureName>
+                <SignatureNote>Signature + IHDR chunk at BOF, IEND chunk at EOF</SignatureNote>
+                <ByteSequence>
+                  <ByteSequenceID>161</ByteSequenceID>
+                  <PositionType>Absolute from BOF</PositionType>
+                  <Offset>0</Offset>
+                  <MaxOffset>0</MaxOffset>
+                  <IndirectOffsetLocation/>
+                  <IndirectOffsetLength/>
+                  <Endianness/>
+                  <ByteSequenceValue>89504E470D0A1A0A0000000D49484452</ByteSequenceValue>
+                </ByteSequence>
+                <ByteSequence>
+                  <ByteSequenceID>162</ByteSequenceID>
+                  <PositionType>Absolute from EOF</PositionType>
+                  <Offset>0</Offset>
+                  <MaxOffset>4</MaxOffset>
+                  <IndirectOffsetLocation/>
+                  <IndirectOffsetLength/>
+                  <Endianness/>
+                  <ByteSequenceValue>0000000049454E44AE426082</ByteSequenceValue>
+                </ByteSequence>
+              </InternalSignature>
+              <RelatedFormat>
+                <RelationshipType>Has lower priority than</RelationshipType>
+                <RelatedFormatID>665</RelatedFormatID>
+                <RelatedFormatName>Portable Network Graphics</RelatedFormatName>
+                <RelatedFormatVersion>1.1</RelatedFormatVersion>
+              </RelatedFormat>
+              <RelatedFormat>
+                <RelationshipType>Has lower priority than</RelationshipType>
+                <RelatedFormatID>666</RelatedFormatID>
+                <RelatedFormatName>Portable Network Graphics</RelatedFormatName>
+                <RelatedFormatVersion>1.2</RelatedFormatVersion>
+              </RelatedFormat>
+              <RelatedFormat>
+                <RelationshipType>Has lower priority than</RelationshipType>
+                <RelatedFormatID>1740</RelatedFormatID>
+                <RelatedFormatName>Animated Portable Network Graphics</RelatedFormatName>
+                <RelatedFormatVersion/>
+              </RelatedFormat>
+              <RelatedFormat>
+                <RelationshipType>Is previous version of</RelationshipType>
+                <RelatedFormatID>665</RelatedFormatID>
+                <RelatedFormatName>Portable Network Graphics</RelatedFormatName>
+                <RelatedFormatVersion>1.1</RelatedFormatVersion>
+              </RelatedFormat>
+            </FileFormat>
+        "};
+        let file_format: FileFormat = from_str(xml)?;
+
+        // Test serialization
+        let xml = to_string(&file_format)?;
+        let file_format: FileFormat = from_str(xml.as_str())?;
+        assert_eq!(file_format.id(), 664);
+        assert_eq!(file_format.puid(), "fmt/11");
+        assert_eq!(file_format.name(), "Portable Network Graphics");
+        assert_eq!(file_format.version(), "1.0");
+        assert_eq!(file_format.aliases(), "PNG (1.0)");
+        assert_eq!(file_format.families(), "");
+        assert_eq!(file_format.types(), "Image (Raster)");
+        assert_eq!(file_format.disclosure(), "");
+        assert_eq!(
+            file_format.description(),
+            "Portable Network Graphics (PNG) was designed for the lossless, portable, compressed storage of raster images.  PNG provides a patent-free replacement for GIF and can also replace many common uses of TIFF. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits. PNG is designed to work in online viewing applications, so it is fully streamable.  It can store gamma and chromaticity.  PNG also detects file corruption."
+        );
+        assert_eq!(file_format.binary_file_format(), "Binary");
+        assert_eq!(file_format.byte_orders(), "Big-endian (Motorola)");
+        assert_eq!(file_format.release_date(), &None);
+        assert_eq!(file_format.withdrawn_date(), &None);
+        assert_eq!(file_format.provenance_source_id(), 0);
+        assert_eq!(
+            file_format.provenance_name(),
+            "The National Archives and Records Administration / The National Archives and Records Administration"
+        );
+        assert_eq!(file_format.provenance_source_date(), &Date::new(2005, 3, 11).expect("Invalid date"));
+        assert_eq!(
+            file_format.provenance_description(),
+            "Specifications link: http://tools.ietf.org/pdf/rfc2083.pdf"
+        );
+        assert_eq!(file_format.last_updated_date(), &Date::new(2012, 6, 11).expect("Invalid date"));
+        assert_eq!(file_format.note(), "");
+        assert_eq!(file_format.risk(), "");
+        assert_eq!(file_format.technical_environment(), "");
+        assert_eq!(file_format.file_format_identifiers().len(), 3);
+        assert_eq!(file_format.documents().len(), 0);
+        assert_eq!(file_format.external_signatures().len(), 1);
+        assert_eq!(file_format.internal_signatures().len(), 1);
+        assert_eq!(file_format.related_formats().len(), 4);
+        assert_eq!(file_format.compression_types().len(), 0);
+        Ok(())
+    }
+
+}

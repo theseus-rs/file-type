@@ -159,7 +159,7 @@ mod test {
         assert_eq!(document.document_type(), "Speculative");
         assert_eq!(document.availability_description(), "Public");
         assert_eq!(document.availability_note(), "");
-        assert_eq!(document.publication_date(), Date::new(2004, 9, 15).ok(),);
+        assert_eq!(document.publication_date(), Date::new(2004, 9, 15).ok());
         assert_eq!(
             document.title_text(),
             "OpenOffice.org's documentation of the Microsoft Compound Document file format"
