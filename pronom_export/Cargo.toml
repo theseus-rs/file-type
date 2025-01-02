@@ -6,7 +6,7 @@ license.workspace = true
 version.workspace = true
 
 [dependencies]
-file_type = { path = "../file_type", version = "0.0.0" }
+file_type = { path = "../file_type", version = "0.0.1" }
 rayon = { workspace = true }
 reqwest = { workspace = true, features = ["blocking"] }
 quick-xml = { workspace = true, features = ["serde", "serialize"] }
