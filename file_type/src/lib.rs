@@ -10,8 +10,10 @@
 //! A file type.  The file type is determined by examining the file or bytes against known file
 //! signatures and file extensions.
 //!
-//! Additional information on PRONOM file types can be found at
-//! [The National Archives](https://www.nationalarchives.gov.uk/pronom/)
+//! Signatures, extensions and media type data are provided by:
+//! [The National Archives PRONOM](https://www.nationalarchives.gov.uk/pronom/)
+//! [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types)
+//! [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml)
 //!
 //! # Example
 //!

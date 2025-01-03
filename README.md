@@ -10,6 +10,11 @@
 
 File Type is a library that uses file signatures and file extensions to determine the type of file.
 
+Signatures, extensions and media type data are provided by:
+[The National Archives PRONOM](https://www.nationalarchives.gov.uk/pronom/)
+[Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types)
+[Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml)
+
 ## Getting Started
 
 Detect a Java class file from bytes:
