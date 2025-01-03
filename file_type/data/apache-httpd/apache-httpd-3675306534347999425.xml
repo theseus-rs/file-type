@@ -1,0 +1,20 @@
+<FileFormat>
+  <FormatID>3675306534347999425</FormatID>
+  <FormatName>application/vnd.mynfc</FormatName>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <FileFormatIdentifier>
+    <Identifier>apache-httpd/3675306534347999425</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.mynfc</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>taglet</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

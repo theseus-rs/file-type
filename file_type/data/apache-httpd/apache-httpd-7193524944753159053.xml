@@ -1,0 +1,20 @@
+<FileFormat>
+  <FormatID>7193524944753159053</FormatID>
+  <FormatName>application/vnd.ms-excel.addin.macroenabled.12</FormatName>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <FileFormatIdentifier>
+    <Identifier>apache-httpd/7193524944753159053</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-excel.addin.macroenabled.12</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xlam</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,85 @@
+<FileFormat>
+  <FormatID>369</FormatID>
+  <FormatName>TeX</FormatName>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <FileFormatIdentifier>
+    <Identifier>linguist/369</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-stex</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>.tex</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1</ExternalSignatureID>
+    <Signature>.aux</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>2</ExternalSignatureID>
+    <Signature>.bbx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>3</ExternalSignatureID>
+    <Signature>.cbx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>4</ExternalSignatureID>
+    <Signature>.cls</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>5</ExternalSignatureID>
+    <Signature>.dtx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>6</ExternalSignatureID>
+    <Signature>.ins</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>7</ExternalSignatureID>
+    <Signature>.lbx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>8</ExternalSignatureID>
+    <Signature>.ltx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>9</ExternalSignatureID>
+    <Signature>.mkii</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>10</ExternalSignatureID>
+    <Signature>.mkiv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>11</ExternalSignatureID>
+    <Signature>.mkvi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>12</ExternalSignatureID>
+    <Signature>.sty</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>13</ExternalSignatureID>
+    <Signature>.toc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

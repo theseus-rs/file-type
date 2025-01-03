@@ -1,0 +1,20 @@
+<FileFormat>
+  <FormatID>12986059742410892224</FormatID>
+  <FormatName>application/xaml+xml</FormatName>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <FileFormatIdentifier>
+    <Identifier>apache-httpd/12986059742410892224</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/xaml+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xaml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

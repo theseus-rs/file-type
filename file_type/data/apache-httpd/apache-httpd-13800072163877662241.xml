@@ -1,0 +1,20 @@
+<FileFormat>
+  <FormatID>13800072163877662241</FormatID>
+  <FormatName>application/vnd.crick.clicker.template</FormatName>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <FileFormatIdentifier>
+    <Identifier>apache-httpd/13800072163877662241</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.crick.clicker.template</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>clkt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

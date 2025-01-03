@@ -117,10 +117,10 @@ fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Result<Vec<Fi
     let mut file_formats = Vec::new();
 
     for (mime_type, extensions) in mime_types {
-        let add = extensions
+        let exists = extensions
             .iter()
             .any(|extension| mime_type_exists(&mime_type, extension));
-        if !add {
+        if exists {
             continue;
         }
 
