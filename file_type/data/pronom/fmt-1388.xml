@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2206</FormatID>
   <FormatName>Muvee Reveal Project File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Video</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>RVL is the native file format of the video editing software Muvee Reveal, a successor product to Muvee autoProducer.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>24 Sep 2020</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>24 Sep 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1388</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>40</Offset>
       <MaxOffset>168</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C6D7576656550726F6A6563743E3C76</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

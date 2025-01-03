@@ -1,20 +1,11 @@
 <FileFormat>
   <FormatID>2605</FormatID>
   <FormatName>Apple Partition Map - ISO 9660 - UDF Hybrid Disk Image</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Apple Partition Map - ISO 9660 - UDF Hybrid Disk Image, describes the contents and structure of optical disc media of Apple Partition Map (APM) partition scheme with ISO9660 and Universal Disk Format (UDF) file systems attached. Since all three schemes reside on the same optical disc this is most likely to be on DVD media type of file. APM partition scheme can be thought of as a container format for multiple file system image files, and in this entry together UDF file system developed for optical media by the Optical Storage Technology Association (OSTA) and ISO 9660 International Organization for Standardization (ISO), the hybrid system acts as a support for all three schemes and allows for disc to be rendered on various operating systems. A disk image is a uncompressed copy of the contents of a disk or a folder, it can facilitate certain types of backup and recovery strategies. Please see ID: fdd000348 from Library of Congress and other links attached to this entry for further information.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>25 Aug 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>25 Aug 2022</LastUpdatedDate>
   <FormatNote>http://fileformats.archiveteam.org/wiki/Apple_Partition_Map
 
@@ -27,8 +18,6 @@ https://en.wikipedia.org/wiki/Optical_disc_image
 https://en.wikipedia.org/wiki/ISO_9660
 
 http://fileformats.archiveteam.org/wiki/Universal_Disk_Format</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1757</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -61,9 +50,6 @@ BOF; Offset: 32768; Max Offset: 69632; Magic Bytes:  0x00424541303101, then an e
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>{0-16}45520200{508}504D</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -71,9 +57,6 @@ BOF; Offset: 32768; Max Offset: 69632; Magic Bytes:  0x00424541303101, then an e
       <PositionType>Absolute from BOF</PositionType>
       <Offset>32768</Offset>
       <MaxOffset>103236</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4344303031{1-16384}FF4344303031</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -81,9 +64,6 @@ BOF; Offset: 32768; Max Offset: 69632; Magic Bytes:  0x00424541303101, then an e
       <PositionType>Absolute from BOF</PositionType>
       <Offset>32768</Offset>
       <MaxOffset>69632</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>00424541303101{2041}004E535230(32|33)01</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -100,9 +80,6 @@ BOF; Offset: 32768; Max Offset: 69632; Magic Bytes:  0x00424541303101, then an e
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>{0-16}45520800{2044}504D</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -110,9 +87,6 @@ BOF; Offset: 32768; Max Offset: 69632; Magic Bytes:  0x00424541303101, then an e
       <PositionType>Absolute from BOF</PositionType>
       <Offset>32768</Offset>
       <MaxOffset>103236</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4344303031{1-16384}FF4344303031</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -120,9 +94,6 @@ BOF; Offset: 32768; Max Offset: 69632; Magic Bytes:  0x00424541303101, then an e
       <PositionType>Absolute from BOF</PositionType>
       <Offset>32768</Offset>
       <MaxOffset>69632</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>00424541303101{2041}004E535230(32|33)01</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -130,18 +101,15 @@ BOF; Offset: 32768; Max Offset: 69632; Magic Bytes:  0x00424541303101, then an e
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2584</RelatedFormatID>
     <RelatedFormatName>UDF Disc Image</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2585</RelatedFormatID>
     <RelatedFormatName>UDF-ISO 9660 Bridge Disc</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2586</RelatedFormatID>
     <RelatedFormatName>Apple Partition Map Disk Image</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

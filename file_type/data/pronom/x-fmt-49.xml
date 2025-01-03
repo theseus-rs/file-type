@@ -2,10 +2,7 @@
   <FormatID>80</FormatID>
   <FormatName>AutoCAD Design Web Format</FormatName>
   <FormatVersion>6.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Model</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>AutoCAD Design Web Format (DWF) version 6 is the publishing format of Autodesk software, especially design data, such as 2D vector data, 3D vector data, animations, and metadata.  It uses the ZIP file format as the backing store mechanism.  The content can be roughly divided into:
 •        DWF metadata files – XML files that contain information pertaining to metadata and structure (author, title, creation time, section dependencies, section ordering, resource file descriptions, roles, MIME types, etc.) and pertaining to the section (page information, design metadata, etc.).  The structural metadata is used to create logical objects (collections of files to represent a part or page, etc.).
 •        Resource files – media or other content files that are referenced from the package/section metadata and are usually presentations of design data in various formats (ZGL, W2D, JPG, PNG, AVI, XML, TXT, DOC, etc.)
@@ -16,17 +13,11 @@ A DWF package must meet the following requirements:
 •        At least one resource file.
 •        The manifest must contain an &lt;Interfaces&gt; element containing at least one &lt;Interface&gt; sub element that indicates a document interface supported by the DWF package.  An example would be the ‘ePlot’ document interface, which implies that the DWF contains at least one valid ePlot page.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
   <ProvenanceDescription>File format information supplied by NARA Information Services/Applied Research Division, The National Archives and Records Administration.</ProvenanceDescription>
   <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/dwf</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -68,10 +59,6 @@ A DWF package must meet the following requirements:
       <ByteSequenceID>492</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>28445746205630??2E????29</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

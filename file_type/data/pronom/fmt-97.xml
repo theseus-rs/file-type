@@ -3,22 +3,15 @@
   <FormatName>Hypertext Markup Language</FormatName>
   <FormatVersion>2.0</FormatVersion>
   <FormatAliases>HTML (2.0)</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>The HyperText Markup Language (HTML) is a markup language designed for the rendering of information via a web browser. It was originally defined as a highly simplified subset of SGML, but is now an international standard, and is maintained by the World Wide Web Consortium (W3C). A HTML document consists of nested elements, each of which may have attributes and content. It begins with an HTML Document Type declaration, defining the HTML version and Document Type Definition (DTD) to which it conforms. HTML 2.0 represents the first formal specification of the language.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
   <ReleaseDate>01 Nov 1995</ReleaseDate>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/97</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -36,24 +29,19 @@
     <DisplayText>World Wide Web Consortium, 1995, W3C Recommendation: Hypertext Markup Language - 2.0</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>22 Sep 1995</PublicationDate>
     <TitleText>W3C Recommendation: Hypertext Markup Language - 2.0</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>www.w3.org/MarkUp/html-spec/</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>106</AuthorID>
-      <AuthorName/>
       <OrganisationName>World Wide Web Consortium</OrganisationName>
       <AuthorCompoundName>World Wide Web Consortium</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>106</PublisherID>
-      <PublisherName/>
       <OrganisationName>World Wide Web Consortium</OrganisationName>
       <PublisherCompoundName>World Wide Web Consortium</PublisherCompoundName>
     </Publisher>
@@ -77,9 +65,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>1024</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C21(444F4354595045|646F6374797065)20(48544D4C|68746D6C)20(5055424C4943|7075626C6963)20222D2F2F{1-16}2F2F(445444|647464)20{0-64}(48544D4C|68746D6C)20322E30</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -99,7 +84,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1029</RelatedFormatID>
     <RelatedFormatName>WARC</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -111,25 +95,21 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1269</RelatedFormatID>
     <RelatedFormatName>Apple iBook format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1270</RelatedFormatID>
     <RelatedFormatName>ePub format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1287</RelatedFormatID>
     <RelatedFormatName>Internet Explorer for Mac cache file</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1670</RelatedFormatID>
     <RelatedFormatName>Apple Safari Webarchive</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -147,7 +127,6 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>645</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>

@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1801</FormatID>
   <FormatName>Adobe Photoshop Large Document Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Adobe Photoshop is a raster graphics editor developed and published by Adobe Systems. The Large Document Format supports documents of up to 300,000 pixels in any dimension as opposed to the PSD limit of 30,000 pixels.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>21 Mar 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>21 Mar 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/996</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -42,9 +30,6 @@ https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/</SignatureNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>384250530002000000000000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -52,6 +37,5 @@ https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/</SignatureNote>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>139</RelatedFormatID>
     <RelatedFormatName>Adobe Photoshop</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

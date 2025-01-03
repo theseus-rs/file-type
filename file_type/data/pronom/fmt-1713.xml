@@ -2,23 +2,12 @@
   <FormatID>2549</FormatID>
   <FormatName>Calc602 Project File</FormatName>
   <FormatVersion>1.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Unstructured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Binary format used by spreadsheet programme Calc602 containing information about all currently open files, layout on the screen, macros loaded into memory etc.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
   <ProvenanceSourceDate>14 Jun 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>28 Oct 2022</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1713</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,9 +27,6 @@ Calc602 v.1.00 WorkSpace</SignatureNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>536F6674776172653630320D0A43616C6336303220762E312E303020576F726B5370616365</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -48,6 +34,5 @@ Calc602 v.1.00 WorkSpace</SignatureNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2625</RelatedFormatID>
     <RelatedFormatName>Calc602 Project File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

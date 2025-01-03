@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2007</FormatID>
   <FormatName>MyISAM Indexes File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Database</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>MyISAM was the default storage engine for the MySQL relational database management system versions prior to 5.5. The MYI file stores the table's indexes for a MyISAM table.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Borthwick Institute for Archives / The Borthwick Institute for Archives</ProvenanceName>
   <ProvenanceSourceDate>14 Aug 2018</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>14 Aug 2018</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1197</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>FEFE0701{19}00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

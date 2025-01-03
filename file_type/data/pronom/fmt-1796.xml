@@ -2,23 +2,14 @@
   <FormatID>2647</FormatID>
   <FormatName>Wireless Markup Language (WML) Document</FormatName>
   <FormatVersion>1.1</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Mark-up)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Wireless Markup Language (wml) is an XML-based markup language created by the WAP (Wireless Application Protocol) Forum in the late 1990s. It was intended for mobile devices which were limited by bandwidth, memory and CPU capabilities, such as mobile phones, providing text and image presentation, forms, data input and hyperlinks, much like html. WAP died out in the early 2000s. It had been developed and supported by the WAP forum, which no longer exists, and has been subsumed by the Open Mobile Alliance.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Stadtarchiv Hof / Stadtarchiv Hof</ProvenanceName>
   <ProvenanceSourceDate>22 Nov 2022</ProvenanceSourceDate>
   <ProvenanceDescription>08/2023 (v.113)- Offset and signature modified for the EOF byte sequence to remove floating curly brackets from the signature for consistency.</ProvenanceDescription>
   <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
   <FormatNote>Specification: http://www.wapforum.org/what/technical.htmandhttp://www.wapforum.org/what/technical/wml-30-apr-98.pdf</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1796</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -42,9 +33,6 @@ EOF, offset 0-6, magic bytes: &lt;/card&gt;{0-6}&lt;/wml&gt;{0-2}</SignatureNote
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C3F786D6C2076657273696F6E3D22312E3022{0-75}3C21444F435459504520776D6C205055424C494320222D2F2F574150464F52554D2F2F44544420574D4C{20-200}3C776D6C3E</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -52,9 +40,6 @@ EOF, offset 0-6, magic bytes: &lt;/card&gt;{0-6}&lt;/wml&gt;{0-2}</SignatureNote
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>5</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C2F636172643E{0-6}3C2F776D6C3E</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

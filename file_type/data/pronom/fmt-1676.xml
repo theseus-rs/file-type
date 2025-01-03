@@ -1,20 +1,12 @@
 <FileFormat>
   <FormatID>2512</FormatID>
   <FormatName>Covox ADPCM Audio Files</FormatName>
-  <FormatVersion/>
   <FormatAliases>Covox 8-bit audio</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Covox ADPCM Audio Files (also known as Covox 8-bit audio) is a title for a family of Adaptive Differential Pulse Code Modulation (ADPCM) formats, used for compressing 8-bit unsigned pulse code modulation. They were invented by Covox for use with Covox sound output devices. ADPCM is a lossy compression format containing audio data that are optimized for storing digitally recorded or sampled voice data.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>26 Apr 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>26 Apr 2022</LastUpdatedDate>
   <FormatNote>https://wiki.multimedia.cx/index.php/Covox_ADPCM
 
@@ -25,8 +17,6 @@ https://www.file-extensions.org/vmf-file-extension-covox-speech-thing-sample
 https://en.wikipedia.org/wiki/Covox_Speech_Thing
 
 https://www.online-convert.com/file-format/adpcm</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1676</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -70,9 +60,6 @@ https://www.online-convert.com/file-format/adpcm</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>FF55FFAAFF55FFAA</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>929</FormatID>
   <FormatName>Ogg Vorbis Codec Compressed Multimedia File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Ogg is a open container format maintained by the Xiph.Org Foundation. Vorbis is a free and open-source software project headed by the Xiph.Org Foundation and produces an audio coding format and software reference encoder/decoder (codec) for lossy audio compression.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>27 Oct 2009</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>03 Aug 2015</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>audio/ogg</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -40,10 +29,6 @@
       <ByteSequenceID>625</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4F6767530002{23}766F7262697300000000{19}4F676753</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -51,12 +36,10 @@
     <RelationshipType>Can be contained by</RelationshipType>
     <RelatedFormatID>1749</RelatedFormatID>
     <RelatedFormatName>Ogg Multimedia Container</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1749</RelatedFormatID>
     <RelatedFormatName>Ogg Multimedia Container</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

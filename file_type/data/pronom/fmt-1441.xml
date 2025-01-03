@@ -2,23 +2,13 @@
   <FormatID>2259</FormatID>
   <FormatName>Apple iWork Document</FormatName>
   <FormatVersion>14</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation, Spreadsheet, Word Processor</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Apple iWork is a productivity suite for the Apple Macintosh. With iWork 14 Keynote, Pages and Numbers documents share an underlying structure. Please contact the PRONOM team if you can assist with distinguishing between each format type.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>30 Sep 2020</ProvenanceSourceDate>
   <ProvenanceDescription>This format is identifiable via a container signature in DROID 6 and later.</ProvenanceDescription>
   <LastUpdatedDate>30 Sep 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1441</Identifier>
     <IdentifierType>PUID</IdentifierType>

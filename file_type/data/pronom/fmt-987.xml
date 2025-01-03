@@ -1,24 +1,11 @@
 <FileFormat>
   <FormatID>1792</FormatID>
   <FormatName>Microsoft OneNote Package File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>Microsoft OneNote is a computer program for information gathering and multi-user collaboration. OneNote package files are compressed container formats which allow users to share OneNote files across computers. The OneNote File Format is a persistence format for storing digital notes as hierarchical sets of sections and pages. Pages can contain text, images, tables, note tags and other types of user-defined content.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>06 Feb 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>06 Feb 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/987</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +24,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D534346{20}0301{1-2048}6F6E65746F63</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -47,6 +31,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>801</RelatedFormatID>
     <RelatedFormatName>Windows Cabinet File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

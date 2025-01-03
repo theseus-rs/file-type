@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>1878</FormatID>
   <FormatName>Apple Disk Image</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Apple Disk Image is a disk image format commonly used by the macOS operating system, and is distinct from the earlier 	Apple Disk Copy Image 4.2. Please contact the PRONOM team if you are able to provide a more thorough description of this format.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Datable / Datable</ProvenanceName>
   <ProvenanceSourceDate>17 Jul 2017</ProvenanceSourceDate>
   <ProvenanceDescription>11/2023 (v.115)- Max-offset modified from null to 0. Internally researched.</ProvenanceDescription>
   <LastUpdatedDate>14 Nov 2023</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/x-apple-diskimage</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -45,9 +34,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>500</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>6B6F6C790000000400000200</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -55,12 +41,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>388</RelatedFormatID>
     <RelatedFormatName>BZIP2 Compressed Archive</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2586</RelatedFormatID>
     <RelatedFormatName>Apple Partition Map Disk Image</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

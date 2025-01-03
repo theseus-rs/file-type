@@ -2,23 +2,12 @@
   <FormatID>1473</FormatID>
   <FormatName>Serif PagePlus Publication</FormatName>
   <FormatVersion>6</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Word Processor</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Serif PagePlus is a desktop publishing application. This format is based on the OLE2 Compound Document Format and can be identified in DROID 6 and later via a container signature. At this time the signature identification is baed upon the version number of the generating software as shown in the 'SummaryInformation' file within the OLE2 compound container. This may be improved with a better understanding of the format.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
   <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>15 Nov 2021</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/674</Identifier>
     <IdentifierType>PUID</IdentifierType>

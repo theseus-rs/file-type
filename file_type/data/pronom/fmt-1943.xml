@@ -2,23 +2,13 @@
   <FormatID>2804</FormatID>
   <FormatName>Digital Negative Format (DNG)</FormatName>
   <FormatVersion>1.7</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Digital Negative (DNG) specification describes a non-proprietary file format for storing camera raw files that can be used by a wide range of hardware and software vendors. DNG is an extension of the TIFF format, and is compatible with the TIFF-EP standard. This version was published in May 2023.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
   <ProvenanceSourceDate>07 Nov 2023</ProvenanceSourceDate>
   <ProvenanceDescription>04/2024 (v.118)- Signature modified to identify 1.7.0 and 1.7.1 versions. Submitted by Brigham Young University.</ProvenanceDescription>
   <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1943</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,9 +31,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>49492A00{0-4080}12C60100040000000107</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -56,9 +43,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D4D002A{0-4080}C6120001000000040107</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -71,9 +55,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>49492A00</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -81,9 +62,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>128000</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>12C60100040000000107</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -96,9 +74,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D4D002A</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -106,9 +81,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>128000</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>C6120001000000040107</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -134,13 +106,11 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>797</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format for Electronic Photography (TIFF/EP)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1099</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>

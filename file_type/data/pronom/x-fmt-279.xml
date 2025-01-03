@@ -1,16 +1,10 @@
 <FileFormat>
   <FormatID>425</FormatID>
   <FormatName>MPEG 1/2 Audio Layer 3 Streaming</FormatName>
-  <FormatVersion/>
   <FormatAliases>MP3</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Text (Unstructured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>A plain-text playlist of one or more media files and their location.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
@@ -18,8 +12,6 @@
   <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
   <FormatNote>https://fileinfo.com/extension/m3u
 https://dotwhat.net/file/extension/m3u/505</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>audio/mpeg</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -37,6 +29,5 @@ https://dotwhat.net/file/extension/m3u/505</FormatNote>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>923</RelatedFormatID>
     <RelatedFormatName>MPEG Audio Stream Layer II</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

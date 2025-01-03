@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>2418</FormatID>
   <FormatName>ESRI ArcInfo Coverage Annotation File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Files which form part of an ArcInfo Coverage, which is a data model whose purpose is to store georelational data such as spatial location and descriptive data. Each ArcInfo Coverage resides in an ArcInfo workspace, a directory which contains two or more folders. These packages are generated using ArcGIS software, produced by Esri (https://www.esri.com/en-us/arcgis/about-arcgis/overview.) Files with the .txt extension contain text strings describing a geographic feature, formatted in user defined tables.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
   <ProvenanceSourceDate>06 Jan 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>06 Jan 2022</LastUpdatedDate>
   <FormatNote>https://www.loc.gov/preservation/digital/formats/fdd/fdd000284.shtml</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1591</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0000270AFFFFFFBD</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -3,22 +3,12 @@
   <FormatName>The Neuroimaging Informatics Technology Initiative File Format</FormatName>
   <FormatVersion>2</FormatVersion>
   <FormatAliases>NIfTI-2</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Dataset</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>A Neuroimaging format commonly used in medical industry for the analysis of MRI data. Version 2 is an extended version of NIfTI allowing 64 bit storage and addressing.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Bodleian Library, University of Oxford / Bodleian Library, University of Oxford</ProvenanceName>
   <ProvenanceSourceDate>19 Sep 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>11 Aug 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1094</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,10 +27,6 @@ https://www.nitrc.org/forum/forum.php?thread_id=2148&amp;forum_id=1941</Signatur
       <ByteSequenceID>1735</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>4</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>6E6932000D0A1A0A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -53,10 +39,6 @@ https://www.nitrc.org/forum/forum.php?thread_id=2148&amp;forum_id=1941</Signatur
       <ByteSequenceID>1734</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>4</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>6E2B32000D0A1A0A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -31,47 +31,54 @@ pub struct FileFormat {
     id: usize,
     #[serde(rename = "FormatName")]
     name: String,
-    #[serde(rename = "FormatVersion")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatVersion")]
     version: String,
-    #[serde(rename = "FormatAliases")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatAliases")]
     aliases: String,
-    #[serde(rename = "FormatFamilies")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatFamilies")]
     families: String,
-    #[serde(rename = "FormatTypes")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatTypes")]
     types: String,
-    #[serde(rename = "FormatDisclosure")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatDisclosure")]
     disclosure: String,
-    #[serde(rename = "FormatDescription")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatDescription")]
     description: String,
+    #[serde(skip_serializing_if = "String::is_empty")]
     binary_file_format: String,
+    #[serde(skip_serializing_if = "String::is_empty")]
     byte_orders: String,
     #[serde(
+        skip_serializing_if = "Option::is_none",
         deserialize_with = "deserialize_option_naive_date",
-        serialize_with = "serialize_option_naive_date"
+        serialize_with = "serialize_option_naive_date",
     )]
     release_date: Option<Date>,
     #[serde(
+        skip_serializing_if = "Option::is_none",
         deserialize_with = "deserialize_option_naive_date",
-        serialize_with = "serialize_option_naive_date"
+        serialize_with = "serialize_option_naive_date",
     )]
     withdrawn_date: Option<Date>,
     provenance_source_id: usize,
+    #[serde(skip_serializing_if = "String::is_empty")]
     provenance_name: String,
     #[serde(
         deserialize_with = "deserialize_naive_date",
         serialize_with = "serialize_naive_date"
     )]
     provenance_source_date: Date,
+    #[serde(skip_serializing_if = "String::is_empty")]
     provenance_description: String,
     #[serde(
         deserialize_with = "deserialize_naive_date",
         serialize_with = "serialize_naive_date"
     )]
     last_updated_date: Date,
-    #[serde(rename = "FormatNote")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatNote")]
     note: String,
-    #[serde(rename = "FormatRisk")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatRisk")]
     risk: String,
+    #[serde(skip_serializing_if = "String::is_empty")]
     technical_environment: String,
     #[serde(rename = "FileFormatIdentifier")]
     file_format_identifiers: Vec<DocumentIdentifier>,

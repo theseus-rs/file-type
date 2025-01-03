@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>221</FormatID>
   <FormatName>Interchange File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>x-fmt/157</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -36,10 +25,6 @@
       <ByteSequenceID>572</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>(464F524D|4C495354|43415420)00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -47,25 +32,21 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>195</RelatedFormatID>
     <RelatedFormatName>Audio Interchange File Format (compressed)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1083</RelatedFormatID>
     <RelatedFormatName>Interchange File Format Interleaved Bitmap</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1084</RelatedFormatID>
     <RelatedFormatName>Interchange File Format 8-bit Sampled Voice</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1192</RelatedFormatID>
     <RelatedFormatName>Audio Interchange File Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -77,30 +58,25 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2015</RelatedFormatID>
     <RelatedFormatName>LightWave 3D Object</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2016</RelatedFormatID>
     <RelatedFormatName>Impulse 3D Data Description Object</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2831</RelatedFormatID>
     <RelatedFormatName>Final Writer Document</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1083</RelatedFormatID>
     <RelatedFormatName>Interchange File Format Interleaved Bitmap</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1084</RelatedFormatID>
     <RelatedFormatName>Interchange File Format 8-bit Sampled Voice</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

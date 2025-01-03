@@ -2,25 +2,15 @@
   <FormatID>851</FormatID>
   <FormatName>CATIA Model (Part Description)</FormatName>
   <FormatVersion>5</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Model</FormatTypes>
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>CATIA is a 3D modelling software created by Dassault Systèmes, widely used across many industries for computer aided design, manufacture and engineering.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Library Research Group / MIT Libraries</ProvenanceName>
   <ProvenanceSourceDate>06 Apr 2009</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>11 Feb 2022</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
-    <Identifier/>
     <IdentifierType>Other</IdentifierType>
   </FileFormatIdentifier>
   <FileFormatIdentifier>
@@ -40,9 +30,6 @@
       <ByteSequenceID>312</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>56355F434656320000*2E43415450617274</ByteSequenceValue>
     </ByteSequence>

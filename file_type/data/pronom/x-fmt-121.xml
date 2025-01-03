@@ -2,23 +2,13 @@
   <FormatID>176</FormatID>
   <FormatName>Quattro Pro Spreadsheet for DOS</FormatName>
   <FormatVersion>1-4</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Spreadsheet</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Quattro Pro is a spreadsheet program originally developed by Borland and now part of Corel's WordPerfect Office suite.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Museum of London / Museum of London</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>x-fmt/121</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -42,20 +32,12 @@ EOF: ....</SignatureNote>
       <ByteSequenceID>913</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>000002002051</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>914</ByteSequenceID>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>01000000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

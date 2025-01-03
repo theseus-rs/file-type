@@ -2,24 +2,14 @@
   <FormatID>1194</FormatID>
   <FormatName>Cinema 4D</FormatName>
   <FormatVersion>4.x</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Model</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>CINEMA 4D is a 3D modeling, animation and rendering application developed by MAXON Computer GmbH.  CINEMA 4D as a file format can contain elements of animation, modeling, texturing and rendering.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
   <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
   <ProvenanceDescription>Specification Link: http://paulbourke.net/dataformats/cinema4d/cinema4d.pdf
 As quoted by Wikipedia Cinema 4D Version 1.0 was released in 1993.</ProvenanceDescription>
   <LastUpdatedDate>13 Sep 2018</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/415</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,9 +28,6 @@ As quoted by Wikipedia Cinema 4D Version 1.0 was released in 1993.</ProvenanceDe
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>464F524D{4}4D433444</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -48,7 +35,6 @@ As quoted by Wikipedia Cinema 4D Version 1.0 was released in 1993.</ProvenanceDe
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>221</RelatedFormatID>
     <RelatedFormatName>Interchange File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>

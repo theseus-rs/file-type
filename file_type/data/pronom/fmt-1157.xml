@@ -2,23 +2,13 @@
   <FormatID>1967</FormatID>
   <FormatName>Folio Infobase File</FormatName>
   <FormatVersion>2</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Database</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Folio Infobase format consists of a information database, primarily used by the Folio Views software application.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>26 Jul 2018</ProvenanceSourceDate>
   <ProvenanceDescription>11/2023 (v.116)- Priority over fmt/101 Extensible Markup Language 1.0. Internally researched.</ProvenanceDescription>
   <LastUpdatedDate>26 Jul 2018</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1157</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +27,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>1292</Offset>
       <MaxOffset>2623</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>466F6C696F</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -47,9 +34,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>1292</Offset>
       <MaxOffset>2623</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>76323030</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

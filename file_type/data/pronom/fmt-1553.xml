@@ -1,27 +1,16 @@
 <FileFormat>
   <FormatID>2378</FormatID>
   <FormatName>Septentrio Binary Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Dataset</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Septentrio Binary Format (SBF) is the binary output format of Septentrio receivers, with data are arranged in binary blocks referred to as SBF blocks. Each block consists of a sequence of numeric or alphanumeric fields of different types and sizes. The total block size is always a multiple of 4 bytes. 
 This format is used in conjunction with the Septentrio PolaRxS PRO GNSS receiver, that performs over multiple frequencies and constellations. It is used for ionospheric monitoring and space weather observations.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>18 Nov 2021</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 Nov 2021</LastUpdatedDate>
   <FormatNote>http://www.terrisgps.com/product/septentrio-polarxs-pro/
 
 http://chain.physics.unb.ca/docs/septentrio/PolaRxS-Firmware-v2.9.0-SBF-Reference-Guide.pdf</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1553</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -40,9 +29,6 @@ http://chain.physics.unb.ca/docs/septentrio/PolaRxS-Firmware-v2.9.0-SBF-Referenc
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>460</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>2440{460-3000}506F6C615278535F50524F</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

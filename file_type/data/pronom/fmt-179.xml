@@ -2,23 +2,14 @@
   <FormatID>885</FormatID>
   <FormatName>Microsoft PowerPoint for Macintosh</FormatName>
   <FormatVersion>4.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Microsoft PowerPoint Presentation is a proprietary binary file format developed by Microsoft Corporation used to store presentation files created in the Microsoft PowerPoint presentation system. This record describes version 4 of .ppt file format for Macintosh, released in October 1994. Versions prior to version 4 of Microsoft PowerPoint also use .ppt as extension, however they are not compatible with each other. Microsoft made backwards compatibility an optional add-on after Office 2003 and appears to have removed it altogether in Office 2010.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>28 Sep 2009</ProvenanceSourceDate>
   <ProvenanceDescription>08/2023 (v.113) - Description updated and MIME Type added. Internally researched.</ProvenanceDescription>
   <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-powerpoint</Identifier>
     <IdentifierType>MIME</IdentifierType>

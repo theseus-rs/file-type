@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1910</FormatID>
   <FormatName>Uuencoded File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Uuencoding, (Unix-to-Unix encoding) is a binary to text encoding mechanism created by Mary Ann Horton for encoding binary data for transmission in email systems.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>27 Sep 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>27 Sep 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1102</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,9 +26,6 @@ EOF, max offset 2: newline character 'end'</SignatureNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>626567696E20[30:37][30:37][30:37]20{1-256}0A</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -48,9 +33,6 @@ EOF, max offset 2: newline character 'end'</SignatureNote>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>2</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0A656E64</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

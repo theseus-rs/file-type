@@ -1,16 +1,9 @@
 <FileFormat>
   <FormatID>798</FormatID>
   <FormatName>Geographic Tagged Image File Format (GeoTIFF)</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>GIS, Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>GeoTIFF is a metadata standard, within the public domain, which allows georeferenceing information to be embedded within the TIFF file. GeoTIFF format can contain geospatial data such as aerial photography and satellite imagery which can be used in GIS applications. GeoTIFF files can be read by normal TIFF utilities, though they may unintentionally strip out the geospatial data in the process. GeoTIFF was originally created by Dr. Niles Ritter whilst working at NASA Jet Propulsion Laboratory, and published. In 2019 by the Open Geospatial Consortium publihsed the OGC GeoTIFF standard.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Feb 2007</ProvenanceSourceDate>
@@ -19,8 +12,6 @@
   <FormatNote>https://en.wikipedia.org/wiki/GeoTIFF
 http://www.remotesensing.org/geotiff/spec/geotiffhome.html
 http://justsolve.archiveteam.org/wiki/GeoTIFF</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fdd000279</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -52,8 +43,6 @@ http://justsolve.archiveteam.org/wiki/GeoTIFF</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>49492A00{4-4080}AF870300??000000</ByteSequenceValue>
     </ByteSequence>
@@ -67,8 +56,6 @@ http://justsolve.archiveteam.org/wiki/GeoTIFF</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>49492A00</ByteSequenceValue>
     </ByteSequence>
@@ -77,8 +64,6 @@ http://justsolve.archiveteam.org/wiki/GeoTIFF</FormatNote>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>4</Offset>
       <MaxOffset>5000</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>AF870300??000000</ByteSequenceValue>
     </ByteSequence>
@@ -92,8 +77,6 @@ http://justsolve.archiveteam.org/wiki/GeoTIFF</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Big-endian</Endianness>
       <ByteSequenceValue>4D4D002A{4-4080}87AF0003000000</ByteSequenceValue>
     </ByteSequence>
@@ -107,8 +90,6 @@ http://justsolve.archiveteam.org/wiki/GeoTIFF</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Big-endian</Endianness>
       <ByteSequenceValue>4D4D002A</ByteSequenceValue>
     </ByteSequence>
@@ -117,9 +98,6 @@ http://justsolve.archiveteam.org/wiki/GeoTIFF</FormatNote>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>5</Offset>
       <MaxOffset>5000</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>87AF0003000000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -145,12 +123,10 @@ http://justsolve.archiveteam.org/wiki/GeoTIFF</FormatNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1099</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>1099</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

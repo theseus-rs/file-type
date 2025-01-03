@@ -2,23 +2,12 @@
   <FormatID>1263</FormatID>
   <FormatName>Acrobat PDF/A - Portable Document Format</FormatName>
   <FormatVersion>2a</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Page Description</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Portable Document Format/Archive is a format designed for long term preservation by Adobe Systems. PDF/A is an ISO standardised version of PDF, with all of the features from PDF that would impede long term preservation removed. A major principle of PDF/A is that it is self contained and not reliant on externalities thus all font and colour information is encoded into the file. PDF/A files are larger than other types of PDF files due to the need for embedded information. PDF/A2 supports three levels of compliance: PDF/A-2a (Accessible), PDF/A-2b (Basic). and PDF/A-2u (Unicode). The PDF/A-2 standard is a constrained subset of ISO 32000-1 (PDF 1.7), which includes PDF 1.0-1.7 and is defined by ISO 19005-2:2011, which has the formal name 'Document management – Electronic document file format for long-term preservation – Part 2: Use of ISO 32000-1 (PDF/A-2)'.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>25 Oct 2012</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>25 Oct 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/pdf</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -42,19 +31,11 @@ VAR: Identifies the byte sequence which equals - xmlns:pdfaid="http://www.aiim.o
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>144</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>255044462D312E[30:37]</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>940</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A70617274(3D22|3D27|3E)32(22|27|3C2F7064666169643A706172743E){0-120}7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)41(22|27|3C2F7064666169643A636F6E666F726D616E63653E)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -67,19 +48,11 @@ VAR: Identifies the byte sequence which equals - xmlns:pdfaid="http://www.aiim.o
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>144</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>255044462D312E[30:37]</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>2268</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)41(22|27|3C2F7064666169643A636F6E666F726D616E63653E){0-120}7064666169643A70617274(3D22|3D27|3E)32(22|27|3C2F7064666169643A706172743E)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -129,7 +102,6 @@ VAR: Identifies the byte sequence which equals - xmlns:pdfaid="http://www.aiim.o
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>869</RelatedFormatID>
     <RelatedFormatName>TrueType Font</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

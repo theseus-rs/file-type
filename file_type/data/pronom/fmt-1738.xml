@@ -1,16 +1,8 @@
 <FileFormat>
   <FormatID>2584</FormatID>
   <FormatName>UDF Disc Image</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>UDF Disc Image is a format that stores contents and structure of an optical disc which can be transferred on the other media. It uses Universal Disk Format (UDF) file system developed for optical media by the Optical Storage Technology Association (OSTA). It is a portable format that is recognized by several operating systems, and considered to be a successor of ISO 9660 capable to manage read/write media in better capacity. UDF is used for computer data storage for a broad range of media, including DVDs and Blu-Ray disks. A disk image is a uncompressed copy of the contents of a disk or a folder, it can facilitate certain types of backup and recovery strategies. Please see ID: fdd000348 from Library of Congress and other links attached to this entry for further information.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>17 Aug 2022</ProvenanceSourceDate>
@@ -23,8 +15,6 @@ https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml
 https://en.wikipedia.org/wiki/Optical_disc_image
 
 https://docs.microsoft.com/en-us/windows/win32/imapi/disc-formats</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1738</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -58,9 +48,6 @@ https://docs.microsoft.com/en-us/windows/win32/imapi/disc-formats</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>32768</Offset>
       <MaxOffset>4096</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>00424541303101{2041}004E535230(32|33)01</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -68,24 +55,20 @@ https://docs.microsoft.com/en-us/windows/win32/imapi/disc-formats</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2585</RelatedFormatID>
     <RelatedFormatName>UDF-ISO 9660 Bridge Disc</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2605</RelatedFormatID>
     <RelatedFormatName>Apple Partition Map - ISO 9660 - UDF Hybrid Disk Image</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>2585</RelatedFormatID>
     <RelatedFormatName>UDF-ISO 9660 Bridge Disc</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1255</RelatedFormatID>
     <RelatedFormatName>ISO 9660 Disk Image File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

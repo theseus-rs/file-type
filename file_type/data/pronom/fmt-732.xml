@@ -2,23 +2,12 @@
   <FormatID>1531</FormatID>
   <FormatName>Bink Video Format</FormatName>
   <FormatVersion>2</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Video</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Bink is a proprietary video file format developed by RAD Game Tools.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>27 Mar 2015</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/732</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -46,9 +35,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4B4232(61|64|66|67|68|69)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -2,15 +2,9 @@
   <FormatID>1015</FormatID>
   <FormatName>Microsoft Access Database File</FormatName>
   <FormatVersion>2007</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Database</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Microsoft Access ACCDB Database File is proprietary file format developed and used by Microsoft as a native format for its Microsoft Access desktop database management system. The format was introduced with Microsoft Access 2007 version of database system, replacing the MDB file format. First released in 1992, starting with version 1.0 the earlier versions of the database used the Jet Database Engine. For a full list of versions please follow the links provided in the Notes section.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>17 Mar 2010</ProvenanceSourceDate>
@@ -21,8 +15,6 @@
 https://web.archive.org/web/20220901011824/https://en.wikipedia.org/wiki/Microsoft_Access
 
 https://www.loc.gov/preservation/digital/formats/fdd/fdd000463.shtml</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fdd000463</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -48,19 +40,12 @@ https://www.loc.gov/preservation/digital/formats/fdd/fdd000463.shtml</FormatNote
       <ByteSequenceID>354</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>000100005374616E64617264204143452044420002000000</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>355</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>410063006300650073007300560065007200730069006F006E{0-2048}300039002E00[30:39]00[30:39]</ByteSequenceValue>
     </ByteSequence>

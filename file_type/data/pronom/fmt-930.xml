@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1735</FormatID>
   <FormatName>Magick Image File Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Magick Image File Format (MIFF) is ImageMagick's own format for storing bitmap images. It stores all metadata known to ImageMagick.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>08 Jul 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>08 Jul 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/930</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,9 +26,6 @@ Specification: http://www.imagemagick.org/script/miff.php</SignatureNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>256</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>69643D496D6167654D616769636B{0-256}3A0A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

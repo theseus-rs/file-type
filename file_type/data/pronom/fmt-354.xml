@@ -2,26 +2,19 @@
   <FormatID>1100</FormatID>
   <FormatName>Acrobat PDF/A - Portable Document Format</FormatName>
   <FormatVersion>1b</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Page Description</FormatTypes>
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>The Portable Document Format/ Archive is a format designed for long term preservation by Adobe Systems. PDF/A is a simplified version of PDF 1.4, with all of the features from PDF 1.4 that would impede long term preservation removed. Removed features include Javascript, Audio/Visual content, LZW compression and encryption. A major principle of PDF/A is that it is self contained and not reliant on externalities thus all font and colour information is encoded into the file. PDF/A files are larger than other types of PDF files due to the need for embedded information.
 PDF/A supports two levels of compliance PDF/A1-a (Accessible) and PDF/A1-b (Basic). PDF/A1-a is fully ISO 19005-1:2005 (PDF/A-1) compliant whereas PDF/A1-b is less stringent and not compliant. PDF/A1-a requires tagged PDF and Unicode whereas PDF/A1-b does not.
 The signature identification proposed for PDF/A 1b has been tested against a number of PDF/A and PDF files for verification. However, PDF itself is a complex format, and while the PDF/A 1b signature contained in PRONOM will identify many PDF/A 1b files, DROID can only identify what a file asserts itself to be. As there are a number of ways in which PDF/A 1b files can violate the PDF/A 1b conformance, which can not be spotted until the file is parsed, it is recommended that PDF files are tested against validation software when attempting to confirm identification. Further information concerning PDF/A violations, and a test suite of PDF items which fail to conform to PDF/A standards, can be found at http://www.pdfa.org/2011/08/isartor-test-suite/</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ByteOrders/>
   <ReleaseDate>01 Oct 2005</ReleaseDate>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>11 Jul 2011</ProvenanceSourceDate>
   <ProvenanceDescription>Additional information regarding violations of PDF/A 1b conformance added November 2011.
 Additional information regarding violations of PDF/A 1b conformance added February 2014.</ProvenanceDescription>
   <LastUpdatedDate>11 Feb 2022</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/pdf</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -39,24 +32,19 @@ Additional information regarding violations of PDF/A 1b conformance added Februa
     <DisplayText>ISO 19005-1:2005 - Document management - Electronic document file format for long-term preservation - Part 1: Use of PDF 1.4 (PDF/A-1)</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Oct 2005</PublicationDate>
     <TitleText>ISO 19005-1:2005 - Document management - Electronic document file format for long-term preservation - Part 1: Use of PDF 1.4 (PDF/A-1)</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>0 580 46855 0</Identifier>
       <IdentifierType>ISBN</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>112</AuthorID>
-      <AuthorName/>
       <OrganisationName>International Standards Organisation</OrganisationName>
       <AuthorCompoundName>International Standards Organisation</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>112</PublisherID>
-      <PublisherName/>
       <OrganisationName>International Standards Organisation</OrganisationName>
       <PublisherCompoundName>International Standards Organisation</PublisherCompoundName>
     </Publisher>
@@ -75,19 +63,11 @@ Additional information regarding violations of PDF/A 1b conformance added Februa
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>144</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>255044462D312E[30:37]</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>643</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E){0-120}7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -100,19 +80,11 @@ Additional information regarding violations of PDF/A 1b conformance added Februa
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>144</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>255044462D312E[30:37]</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>1187</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>786D6C6E733A7064666169643D(22|27)687474703A2F2F7777772E6169696D2E6F72672F706466612F6E732F6964*7064666169643A636F6E666F726D616E6365(3E|3D22|3D27)42(22|27|3C2F7064666169643A636F6E666F726D616E63653E){0-120}7064666169643A70617274(3D22|3D27|3E)31(22|27|3C2F7064666169643A706172743E)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -120,13 +92,11 @@ Additional information regarding violations of PDF/A 1b conformance added Februa
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>818</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/X - Portable Document Format - Exchange 1a:2001</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>819</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/X - Portable Document Format - Exchange 3:2002</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -156,7 +126,6 @@ Additional information regarding violations of PDF/A 1b conformance added Februa
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>869</RelatedFormatID>
     <RelatedFormatName>TrueType Font</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

@@ -2,23 +2,13 @@
   <FormatID>2178</FormatID>
   <FormatName>Picture Publisher Bitmap</FormatName>
   <FormatVersion>6-10</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Picture Publisher Bitmap files are the native raster graphics format of Picture Publisher, a Micrografx graphics application. The software was originally purchased from Astral in 1991 and later purchased by Corel in 2001. It was superseded by Corel Photo-Paint.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>20 Jul 2020</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>20 Jul 2020</LastUpdatedDate>
   <FormatNote>http://justsolve.archiveteam.org/wiki/Picture_Publisher</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1360</Identifier>
     <IdentifierType>PUID</IdentifierType>

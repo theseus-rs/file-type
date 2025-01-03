@@ -1,24 +1,9 @@
 <FileFormat>
   <FormatID>7152264101637064257</FormatID>
   <FormatName>text/vcard</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
-  <FormatDescription/>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName/>
   <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>apache-httpd/7152264101637064257</Identifier>
     <IdentifierType>PUID</IdentifierType>

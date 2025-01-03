@@ -1,25 +1,13 @@
 <FileFormat>
   <FormatID>2827</FormatID>
   <FormatName>SolidWorks Material Database File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>SolidWorks is a CAD program that engineers and product designers use to prototype manufactured products, such as vehicle parts, tools, and other instruments. After creating a 3D representation of a part or product in SolidWorks, users can export a 2D drawing of that part or product. The drawing usually contains multiple 2D views of the part, as well as measurements, noted tolerances, and other annotations.
 The sldmat file stores material database used by SolidWorks.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
   <ProvenanceSourceDate>15 Apr 2024</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>15 Apr 2024</LastUpdatedDate>
   <FormatNote>https://www.file-extensions.org/sldmat-file-extension</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1962</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,9 +26,6 @@ The sldmat file stores material database used by SolidWorks.</FormatDescription>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>3</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){3-24}3C6D73746E733A6D6174657269616C7320786D6C6E733A6D73746E733D(22|27)687474703A2F2F7777772E736F6C6964776F726B732E636F6D2F736C646D6174657269616C73</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

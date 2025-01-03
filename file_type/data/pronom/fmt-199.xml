@@ -1,24 +1,14 @@
 <FileFormat>
   <FormatID>924</FormatID>
   <FormatName>MPEG-4 Media File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio, Video</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Container format that can contain any of a number of audio and video codecs. It may also contain subtitle data or file metadata. This family of container can be used with several different file extensions.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>27 Oct 2009</ProvenanceSourceDate>
   <ProvenanceDescription>08/2023 (v.113) - Priority added over fmt/1616 (BibTeX Database File). Internally researched; 04/2024 (v.118): Description added as part of PRONOM Research Week 2023. Submitted by The Church of Jesus Christ of Latter-day Saints</ProvenanceDescription>
   <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/mp4</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -64,9 +54,6 @@
       <ByteSequenceID>357</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>4</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>66747970{0-64}(6D703432|6D703431|69736F6D|69736F32)*6D6F6F76</ByteSequenceValue>
     </ByteSequence>
@@ -75,13 +62,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1103</RelatedFormatID>
     <RelatedFormatName>3GPP Audio/Video File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1388</RelatedFormatID>
     <RelatedFormatName>Apple Lossless Audio Codec</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -93,12 +78,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>658</RelatedFormatID>
     <RelatedFormatName>Quicktime</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2443</RelatedFormatID>
     <RelatedFormatName>BibTeX Database File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

@@ -2,23 +2,12 @@
   <FormatID>1547</FormatID>
   <FormatName>AppleWorks Drawing</FormatName>
   <FormatVersion>6</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>AppleWorks was a productivity suite developed by the Apple subsidiary, Claris, that was originally called ClarisWorks and was renamed AppleWorks as of version 5.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>27 Mar 2015</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/748</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>06{3}424F424F{270}00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

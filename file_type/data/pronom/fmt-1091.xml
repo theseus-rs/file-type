@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1899</FormatID>
   <FormatName>Scribus Document</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Scribus is an open source desktop publishing application originally created by Franz Schmid. Scribus document files may be compressed within a GZIP container. It may be desirable to distinguish between different versions of Scribus Document.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>23 Aug 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>23 Aug 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.scribus</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -46,9 +34,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C53435249425553</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -61,9 +46,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E(0D|0A|0D0A)3C53435249425553555446384E4557</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

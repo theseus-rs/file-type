@@ -10,7 +10,7 @@ pub struct InternalSignature {
     id: usize,
     #[serde(rename = "SignatureName")]
     name: String,
-    #[serde(rename = "SignatureNote")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "SignatureNote")]
     note: String,
     #[serde(rename = "ByteSequence")]
     byte_sequences: Vec<ByteSequence>,

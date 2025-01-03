@@ -1,16 +1,8 @@
 <FileFormat>
   <FormatID>2394</FormatID>
   <FormatName>Bitstream Speedo Fonts</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Font</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Speedo fonts are a type of scalable font, created by Bitstream, Inc. The font was widely used in the disk operating system (DOS) era of computers, but has since became obsolete and is not used by any current software. Speedo was used on Atari ST, Falcon, in the XyWrite word processor, and in very early versions of WordPerfect and Microsoft Windows. It was then replaced by more popular font types like Type 1 fonts. Before Speedo was considered obsolete it was supported by the X Window System through the speedo module, and most Linux distributions had a Speedo font package, but support was removed from X in the X11R7.0 release in 2005. Speedo fonts include large international character set (over six hundred characters) and they are able to adapt their "pixels", "points", "horiz", "vert", and "avgwidth" XLFD values to match whatever value is requested by the X server.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>06 Dec 2021</ProvenanceSourceDate>
@@ -25,8 +17,6 @@ http://www.columbia.edu/~em36/wpdos/speedo.html
 http://www.netsweng.com/~anderson/talks/xclass/fonts.html
 
 https://web.archive.org/web/20091108153822/http://www.bitstream.com/fonts/support/speedo_fonts.html</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1569</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -45,9 +35,6 @@ https://web.archive.org/web/20091108153822/http://www.bitstream.com/fonts/suppor
       <PositionType>Absolute from BOF</PositionType>
       <Offset>100</Offset>
       <MaxOffset>200</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>436F7079726967687420313938392D313939312062792042697473747265616D20496E632E20416C6C207269676874732072657365727665642E</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

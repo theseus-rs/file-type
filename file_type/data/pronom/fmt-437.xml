@@ -2,24 +2,14 @@
   <FormatID>1224</FormatID>
   <FormatName>Digital Negative Format (DNG)</FormatName>
   <FormatVersion>1.2</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>The Digital Negative (DNG) Specification describes a non-proprietary file format for storing camera raw files that can be used by a wide range of hardware and software vendors.  DNG is an extension of the TIFF 6.0 format, and is compatible with the TIFF-EP standard.  
 This version, published May 2008, was based on experience and feedback from other companies about DNG since its launch. It introduced many new features, especially several new options for colour specification under the general heading of "Camera Profiles". These are mainly of value to software products wanting their own flavour of colour handling. This version permits administrative control of Camera Profiles, including calibration signatures and copyright information.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName/>
   <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
   <ProvenanceDescription>11/2023 (v.116)- New MIME type identifier 'image/dng' added and max offset of EOF internal signatures increased to 128000. Submitted by Brigham Young University.</ProvenanceDescription>
   <LastUpdatedDate>16 Nov 2023</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/437</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -42,8 +32,6 @@ This version, published May 2008, was based on experience and feedback from othe
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>49492A00{0-4080}12C601000400000001020000</ByteSequenceValue>
     </ByteSequence>
@@ -57,8 +45,6 @@ This version, published May 2008, was based on experience and feedback from othe
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>49492A00</ByteSequenceValue>
     </ByteSequence>
@@ -67,8 +53,6 @@ This version, published May 2008, was based on experience and feedback from othe
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>128000</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>12C601000400000001020000</ByteSequenceValue>
     </ByteSequence>
@@ -82,8 +66,6 @@ This version, published May 2008, was based on experience and feedback from othe
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Big-endian</Endianness>
       <ByteSequenceValue>4D4D002A{0-4080}C61200010000000401020000</ByteSequenceValue>
     </ByteSequence>
@@ -97,8 +79,6 @@ This version, published May 2008, was based on experience and feedback from othe
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Big-endian</Endianness>
       <ByteSequenceValue>4D4D002A</ByteSequenceValue>
     </ByteSequence>
@@ -107,8 +87,6 @@ This version, published May 2008, was based on experience and feedback from othe
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>128000</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Big-endian</Endianness>
       <ByteSequenceValue>C61200010000000401020000</ByteSequenceValue>
     </ByteSequence>
@@ -135,19 +113,16 @@ This version, published May 2008, was based on experience and feedback from othe
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>797</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format for Electronic Photography (TIFF/EP)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>927</RelatedFormatID>
     <RelatedFormatName>Nikon Digital SLR Camera Raw Image File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1099</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
@@ -165,6 +140,5 @@ This version, published May 2008, was based on experience and feedback from othe
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>1099</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

@@ -3,18 +3,15 @@
   <FormatName>JPEG File Interchange Format</FormatName>
   <FormatVersion>1.02</FormatVersion>
   <FormatAliases>JFIF (1.02)</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>The JPEG File Interchange Format (JFIF) is a file format for storing JPEG-compressed raster images. It was developed by the Independent JPEG Group and C-Cube Microsystems, in the absence of any such format being defined in the JPEG standard, and rapidly became a de facto standard. A JFIF file comprises a JPEG data stream together with a JFIF marker. It begins with a Start of Image (SOI) marker, immediately followed by a JFIF Application (APP0) marker and one or more optional application extension markers. This is followed by the JPEG image data, which is terminated by an End of Image (EOI) marker. JFIF supports up to 24-bit colour and uses lossy compression (based on the Discrete Cosine Transform algorithm). Other types of compression are available through JPEG extensions, including progressive image buildup, arithmetic encoding, variable quantization, selective refinement, image tiling, and lossless compression, but these may not be supported by all JFIF readers and writers.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Big-endian (Motorola)</ByteOrders>
   <ReleaseDate>01 Sep 1992</ReleaseDate>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>20 Oct 2022</LastUpdatedDate>
   <FormatNote>https://www.loc.gov/preservation/digital/formats/fdd/fdd000018.shtml
 
@@ -23,8 +20,6 @@ https://en.wikipedia.org/wiki/JPEG_File_Interchange_Format
 https://web.archive.org/web/20220624201809/https://www.adobe.com/creativecloud/file-types/image/raster/jpeg-file.html
 
 https://web.archive.org/web/20221015163305/https://en.wikipedia.org/wiki/JPEG</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fdd000018</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -46,15 +41,9 @@ https://web.archive.org/web/20221015163305/https://en.wikipedia.org/wiki/JPEG</F
     <DisplayText>Hamilton, E, 1992, JPEG File Interchange Format, Version 1.02, C-Cube Microsystems</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Sep 1992</PublicationDate>
     <TitleText>JPEG File Interchange Format, Version 1.02, C-Cube Microsystems</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
-    <DocumentIdentifier>
-      <Identifier/>
-      <IdentifierType/>
-    </DocumentIdentifier>
+    <DocumentIdentifier/>
     <Author>
       <AuthorID>119</AuthorID>
       <AuthorName>Eric Hamilton</AuthorName>
@@ -63,7 +52,6 @@ https://web.archive.org/web/20221015163305/https://en.wikipedia.org/wiki/JPEG</F
     </Author>
     <Publisher>
       <PublisherID>120</PublisherID>
-      <PublisherName/>
       <OrganisationName>C-Cube Microsystems</OrganisationName>
       <PublisherCompoundName>C-Cube Microsystems</PublisherCompoundName>
     </Publisher>
@@ -106,10 +94,6 @@ https://web.archive.org/web/20221015163305/https://en.wikipedia.org/wiki/JPEG</F
       <ByteSequenceID>172</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>FFD8FFE0{2}4A464946000102(00|01|02)</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -117,9 +101,6 @@ https://web.archive.org/web/20221015163305/https://en.wikipedia.org/wiki/JPEG</F
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>65536</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>FFD9</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -127,7 +108,6 @@ https://web.archive.org/web/20221015163305/https://en.wikipedia.org/wiki/JPEG</F
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>670</RelatedFormatID>
     <RelatedFormatName>Raw JPEG Stream</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
@@ -138,16 +118,11 @@ https://web.archive.org/web/20221015163305/https://en.wikipedia.org/wiki/JPEG</F
   <CompressionType>
     <CompressionID>11</CompressionID>
     <CompressionName>Baseline JPEG</CompressionName>
-    <CompressionVersion/>
     <CompressionAliases>Discrete Cosine Transform, DCT, JPEG</CompressionAliases>
-    <CompressionFamilies/>
     <Description>The JPEG compression algorithm was developed in 1990 by the Joint Photographic Experts Group of ISO and CCITT, for the transmission of colour and greyscale images. It is a lossy technique which provides best compression rates with complex 24-bit (True Colour) images. It achieves its effect by discarding image data which is imperceptible to the human eye, using a technique called Discrete Cosine Transform (DCT). It then applies Huffman encoding to achieve further compression. The JPEG specification allows users to set the degree of compression, using an abstract Quality Setting. This provides a trade-off between compression rate and image quality. It is important to note that the Quality Setting is not an absolute value, with different JPEG encoders use different scales, and that even the maximum quality setting for baseline JPEG involves some loss. JPEG compression is most commonly used in the JPEG File Interchange Format (JFIF), SPIFF and TIFF.</Description>
     <Lossiness>Lossy</Lossiness>
     <ReleaseDate>01 Jan 1994</ReleaseDate>
-    <WithdrawnDate/>
     <CompressionDocumentation>ISO/IEC 10918-1: 1994, Information technology - Digital compression and coding of continuous-tone still images: Requirements and guidelines</CompressionDocumentation>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>x-cmp/11</Identifier>
       <IdentifierType>PUID</IdentifierType>

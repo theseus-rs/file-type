@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>2568</FormatID>
   <FormatName>LegalDocML Document</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Mark-up)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>LegalDocML is an open standard maintained by the LegalDocML Technical Committee under the OASIS Standards body. It is an XML-based standard for describing the structure of legal documents.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Preservica / Preservica</ProvenanceName>
   <ProvenanceSourceDate>15 Jul 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>15 Jul 2022</LastUpdatedDate>
   <FormatNote>http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part1-vocabulary/akn-core-v1.0-os-part1-vocabulary.html</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1724</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-1024}3C616B6F6D614E746F736F20{0-1024}786D6C6E733D22687474703A2F2F646F63732E6F617369732D6F70656E2E6F72672F6C6567616C646F636D6C2F6E732F616B6E2F332E30</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1955</FormatID>
   <FormatName>Maxwell Render Material File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Model</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Maxwell Render is a 3D render engine developed by Next Limit Technologies. The Material file defines material properties for 3D objects for use within a Maxwell 3D Scene.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
   <ProvenanceSourceDate>23 Jul 2018</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>23 Jul 2018</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1145</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D584D{4-64}000000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

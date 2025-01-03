@@ -1,16 +1,9 @@
 <FileFormat>
   <FormatID>322</FormatID>
   <FormatName>MIDI Audio</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>A format that utilizes the cxcal Instrument Digital Interface (MIDI) protocol to record, store, and read sound event instructions such as pitch, tempo, velocity, and sustain. As the file does not contain actual recorded audio, the file size is greatly reduced.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
@@ -18,8 +11,6 @@
   <LastUpdatedDate>22 Apr 2024</LastUpdatedDate>
   <FormatNote>https://en.wikipedia.org/wiki/MIDI#MIDI_file_format
 https://fileinfo.com/extension/midi</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>audio/midi</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -36,12 +27,7 @@ https://fileinfo.com/extension/midi</FormatNote>
     <AvailabilityNote>http://duskblue.org/proj/toymidi/midiformat.pdf</AvailabilityNote>
     <PublicationDate>01 May 2006</PublicationDate>
     <TitleText>Standard MIDI-File Fomat Spec. 1.1</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
-    <DocumentIdentifier>
-      <Identifier/>
-      <IdentifierType/>
-    </DocumentIdentifier>
+    <DocumentIdentifier/>
     <Author>
       <AuthorID>166</AuthorID>
       <AuthorName>International MIDI Association</AuthorName>
@@ -50,9 +36,6 @@ https://fileinfo.com/extension/midi</FormatNote>
     </Author>
     <Publisher>
       <PublisherID>0</PublisherID>
-      <PublisherName/>
-      <OrganisationName/>
-      <PublisherCompoundName/>
     </Publisher>
   </Document>
   <ExternalSignature>
@@ -73,10 +56,6 @@ https://fileinfo.com/extension/midi</FormatNote>
       <ByteSequenceID>504</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D5468640000000600[00:02]{4}4D54726B</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

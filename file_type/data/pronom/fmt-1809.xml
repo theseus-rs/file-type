@@ -2,27 +2,17 @@
   <FormatID>2660</FormatID>
   <FormatName>Microsoft Access Encrypted Database File</FormatName>
   <FormatVersion>2.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Database</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Microsoft Access Database File, formerly known as Jet MDB Database format, is propriatory file format developed and used by Microsoft as a native format for its Microsoft Access (formerly Microsoft Jet Database Engine) desktop database management system. First released in 1992, starting with version 1.0 the earlier versions of the database used the Jet Database Engine, with version 1.0 having a maximum size of 128 megabytes, then increasing to 1 gigabyte with versions 1.1 and 2.0. Microsoft Access also allowed for "encrypting" a database, described as: "Encrypting a database compacts the database file and makes it indecipherable by a utility program or word processor. Decrypting a database reverses the encryption." Encrypted files have a common header with a version byte at the same offset as unencrypted files. This entry records the encrypted files of version 2.0 of MDB file format. For a full list of versions please follow the links provided in the Notes section.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>05 Jan 2023</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 May 2023</LastUpdatedDate>
   <FormatNote>https://web.archive.org/web/20220711181532/http://fileformats.archiveteam.org/wiki/Access
 
 https://web.archive.org/web/20220901011824/https://en.wikipedia.org/wiki/Microsoft_Access
 
 https://web.archive.org/web/20220825195028/https://www.loc.gov/preservation/digital/formats/fdd/fdd000462.shtml</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fdd000462</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -54,9 +44,6 @@ https://web.archive.org/web/20220825195028/https://www.loc.gov/preservation/digi
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>772C5320{1030}68</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

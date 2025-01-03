@@ -1,30 +1,19 @@
 <FileFormat>
   <FormatID>2432</FormatID>
   <FormatName>True Colour Sprites [Spooky Sprites] (Atari Falcon)</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>True Colour Sprites files are part of raster image graphics associated with Spooky Sprites, a graphics editor for Atari Falcon. 
 
 The Atari Falcon030 (usually shortened to Atari Falcon), released in 1992, was the final personal computer product from Atari Corporation. A high-end model of the Atari ST line, the machine is based on a Motorola 68030 CPU and a Motorola 56000 digital signal processor, a feature which distinguishes it from most other microcomputers of the era. It included a VIDEL programmable graphics system which greatly improved graphics capabilities.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>24 Jan 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>24 Jan 2022</LastUpdatedDate>
   <FormatNote>http://fileformats.archiveteam.org/wiki/Spooky_Sprites
 
 http://cd.textfiles.com/atarilibrary/atari_cd07/GRAPHICS/PAINT/SPOOKY4/SPOOKY.TXT
 
 https://temlib.org/AtariForumWiki/index.php/Spooky_Sprites_file_format</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1605</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -43,9 +32,6 @@ https://temlib.org/AtariForumWiki/index.php/Spooky_Sprites_file_format</FormatNo
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>54435346</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -53,6 +39,5 @@ https://temlib.org/AtariForumWiki/index.php/Spooky_Sprites_file_format</FormatNo
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>2433</RelatedFormatID>
     <RelatedFormatName>Packed-Ice True Colour Sprites [Spooky Sprites] (Atari Falcon)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

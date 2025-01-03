@@ -2,19 +2,12 @@
   <FormatID>771</FormatID>
   <FormatName>PostScript</FormatName>
   <FormatVersion>2.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>PostScript (.ps) file format is a type of vector graphic file, it is saved by PostScript general-purpose page description language. Developed in the 1980s by Adobe Systems, its main focus was to turn digital graphics and text ready to print, it allowed for users to more easily turn their text and graphics into printed copies.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>11 Feb 2006</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>17 Jun 2022</LastUpdatedDate>
   <FormatNote>https://www.adobe.com/creativecloud/file-types/image/vector/ps-file.html#:~:text=frequently%20asked%20questions-,What%20is%20a%20PS%20file%3F,open%20it%20in%20an%20application.
 
@@ -23,8 +16,6 @@ https://en.wikipedia.org/wiki/PostScript
 https://docs.fileformat.com/page-description-language/ps/
 
 https://fileinfo.com/extension/ps</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/postscript</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -50,10 +41,6 @@ https://fileinfo.com/extension/ps</FormatNote>
       <ByteSequenceID>245</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>252150532D41646F62652D322E30</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -127,13 +114,11 @@ https://fileinfo.com/extension/ps</FormatNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1073</RelatedFormatID>
     <RelatedFormatName>EndNote Import File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2443</RelatedFormatID>
     <RelatedFormatName>BibTeX Database File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>

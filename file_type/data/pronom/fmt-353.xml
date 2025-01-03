@@ -1,20 +1,15 @@
 <FileFormat>
   <FormatID>1099</FormatID>
   <FormatName>Tagged Image File Format</FormatName>
-  <FormatVersion/>
   <FormatAliases>TIFF</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>The Tagged Image File Format (TIFF) is a raster image format originally developed by the Aldus Corporation, primarily for use in scanning and desktop publishing. When Adobe Systems Incorporated purchased Aldus in 1994, they acquired the rights to the TIFF format and have maintained it since then. TIFF files comprise three sections: an Image File Header (IFH), an Image File Directory (IFD), and the image data. TIFF files can contain multiple images (multi-page TIFF), and each image has a separate IFD. The IFH always appears at the beginning of the file, and is immediately followed by a pointer to the first IFD. The IFD contains metadata which describes the associated image, stored as a series of tags. The IFD also contains a pointer to the actual image data. TIFF supports colour depths from 1 bit to 24 bit (e.g. monochrome to true colour), and a wide range of compression types (RLE, LZW, CCITT Group 3 and Group 4, and JPEG), as well as uncompressed data.</FormatDescription>
-  <BinaryFileFormat/>
   <ByteOrders>Little-endian (Intel) and Big-endian (Motorola)</ByteOrders>
   <ReleaseDate>01 Aug 1986</ReleaseDate>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>07 Jul 2011</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>09 Dec 2021</LastUpdatedDate>
   <FormatNote>PUID created for the TIFF format in response to the difficulties we have been having with multiple identification of the format and a consensus on a new interpretation of the standard from within The National Archives and outside with external stakeholders.
 
@@ -25,8 +20,6 @@ https://www.itu.int/itudoc/itu-t/com16/tiff-fx/docs/tiff6.pdf
 http://www.alternatiff.com/resources/TIFFPM6.pdf 
 
 http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/353</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -44,24 +37,19 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
     <DisplayText>Adobe Systems Incorporated, 1992, TIFF Revision 6.0</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>03 Jun 1992</PublicationDate>
     <TitleText>TIFF Revision 6.0</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>https://web.archive.org/web/20211031081158/https://www.adobe.io/content/dam/udp/en/open/standards/tiff/TIFF6.pdf</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>7</AuthorID>
-      <AuthorName/>
       <OrganisationName>Adobe Systems Incorporated</OrganisationName>
       <AuthorCompoundName>Adobe Systems Incorporated</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>7</PublisherID>
-      <PublisherName/>
       <OrganisationName>Adobe Systems Incorporated</OrganisationName>
       <PublisherCompoundName>Adobe Systems Incorporated</PublisherCompoundName>
     </Publisher>
@@ -71,10 +59,8 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
     <DisplayText>Adobe Systems Incorporated, 1995, TIFF Technical Note #2 (draft)</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Jan 1995</PublicationDate>
     <TitleText>TIFF Technical Note #2 (draft)</TitleText>
-    <DocumentIpr/>
     <DocumentNote>The implementation of JPEG compression described in Revision 6.0 is flawed: a revised design was issued as TIFF Technical Note #2, which should be followed instead.</DocumentNote>
     <DocumentIdentifier>
       <Identifier>www.remotesensing.org/libtiff/TIFFTechNote2.html</Identifier>
@@ -82,13 +68,11 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
     </DocumentIdentifier>
     <Author>
       <AuthorID>7</AuthorID>
-      <AuthorName/>
       <OrganisationName>Adobe Systems Incorporated</OrganisationName>
       <AuthorCompoundName>Adobe Systems Incorporated</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>7</PublisherID>
-      <PublisherName/>
       <OrganisationName>Adobe Systems Incorporated</OrganisationName>
       <PublisherCompoundName>Adobe Systems Incorporated</PublisherCompoundName>
     </Publisher>
@@ -98,24 +82,19 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
     <DisplayText>Adobe Systems Incorporated, 1995, Adobe PageMaker 6.0: TIFF Technical Notes</DisplayText>
     <DocumentType>Informative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Jan 1995</PublicationDate>
     <TitleText>Adobe PageMaker 6.0: TIFF Technical Notes</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>https://www.adobe.io/content/dam/udp/en/open/standards/tiff/TIFFPM6.pdf</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>7</AuthorID>
-      <AuthorName/>
       <OrganisationName>Adobe Systems Incorporated</OrganisationName>
       <AuthorCompoundName>Adobe Systems Incorporated</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>7</PublisherID>
-      <PublisherName/>
       <OrganisationName>Adobe Systems Incorporated</OrganisationName>
       <PublisherCompoundName>Adobe Systems Incorporated</PublisherCompoundName>
     </Publisher>
@@ -125,24 +104,19 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
     <DisplayText>Adobe Systems Incorporated, 2002, Adobe Photoshop: TIFF Technical Notes</DisplayText>
     <DocumentType>Informative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Jan 2002</PublicationDate>
     <TitleText>Adobe Photoshop: TIFF Technical Notes</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>https://www.adobe.io/content/dam/udp/en/open/standards/tiff/TIFFphotoshop.pdf</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>7</AuthorID>
-      <AuthorName/>
       <OrganisationName>Adobe Systems Incorporated</OrganisationName>
       <AuthorCompoundName>Adobe Systems Incorporated</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>7</PublisherID>
-      <PublisherName/>
       <OrganisationName>Adobe Systems Incorporated</OrganisationName>
       <PublisherCompoundName>Adobe Systems Incorporated</PublisherCompoundName>
     </Publisher>
@@ -165,10 +139,6 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
       <ByteSequenceID>183</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>49492A00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -180,10 +150,6 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
       <ByteSequenceID>184</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D4D002A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -215,19 +181,16 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>797</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format for Electronic Photography (TIFF/EP)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>798</RelatedFormatID>
     <RelatedFormatName>Geographic Tagged Image File Format (GeoTIFF)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>799</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format for Internet Fax (TIFF-FX)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -239,13 +202,11 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>917</RelatedFormatID>
     <RelatedFormatName>Kodak Digital Camera Raw Image File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>927</RelatedFormatID>
     <RelatedFormatName>Nikon Digital SLR Camera Raw Image File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -275,7 +236,6 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1440</RelatedFormatID>
     <RelatedFormatName>Epson Raw Image Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -287,25 +247,21 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1867</RelatedFormatID>
     <RelatedFormatName>Phase One IIQ Raw Image</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1868</RelatedFormatID>
     <RelatedFormatName>Hasselblad 3FR Raw Image</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1870</RelatedFormatID>
     <RelatedFormatName>Leaf Mosaic Raw Image</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1936</RelatedFormatID>
     <RelatedFormatName>Sony SR2 RAW Image File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -341,7 +297,6 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2631</RelatedFormatID>
     <RelatedFormatName>Pentax PEF Image File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -365,13 +320,11 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>687</RelatedFormatID>
     <RelatedFormatName>MPEG 1/2 Audio Layer 3</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>798</RelatedFormatID>
     <RelatedFormatName>Geographic Tagged Image File Format (GeoTIFF)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
@@ -412,16 +365,11 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
   <CompressionType>
     <CompressionID>11</CompressionID>
     <CompressionName>Baseline JPEG</CompressionName>
-    <CompressionVersion/>
     <CompressionAliases>Discrete Cosine Transform, DCT, JPEG</CompressionAliases>
-    <CompressionFamilies/>
     <Description>The JPEG compression algorithm was developed in 1990 by the Joint Photographic Experts Group of ISO and CCITT, for the transmission of colour and greyscale images. It is a lossy technique which provides best compression rates with complex 24-bit (True Colour) images. It achieves its effect by discarding image data which is imperceptible to the human eye, using a technique called Discrete Cosine Transform (DCT). It then applies Huffman encoding to achieve further compression. The JPEG specification allows users to set the degree of compression, using an abstract Quality Setting. This provides a trade-off between compression rate and image quality. It is important to note that the Quality Setting is not an absolute value, with different JPEG encoders use different scales, and that even the maximum quality setting for baseline JPEG involves some loss. JPEG compression is most commonly used in the JPEG File Interchange Format (JFIF), SPIFF and TIFF.</Description>
     <Lossiness>Lossy</Lossiness>
     <ReleaseDate>01 Jan 1994</ReleaseDate>
-    <WithdrawnDate/>
     <CompressionDocumentation>ISO/IEC 10918-1: 1994, Information technology - Digital compression and coding of continuous-tone still images: Requirements and guidelines</CompressionDocumentation>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>x-cmp/11</Identifier>
       <IdentifierType>PUID</IdentifierType>
@@ -430,16 +378,11 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
   <CompressionType>
     <CompressionID>12</CompressionID>
     <CompressionName>Lempel-Ziv-Welch</CompressionName>
-    <CompressionVersion/>
     <CompressionAliases>LZW</CompressionAliases>
-    <CompressionFamilies/>
     <Description>The Lempel-Ziv-Welch compression algorithm was developed by Terry Welch in 1984, as a modification of the LZ78 compressor. It is a lossless technique which can be applied to almost any type of data, but is most commonly used for image compression. LZW compression is effective on images with colour depths from 1-bit (monochrome) to 24-bit (True Colour). LZW compression is encountered in a range of common graphics file formats, including TIFF and GIF.</Description>
     <Lossiness>Lossless</Lossiness>
     <ReleaseDate>01 Jan 1984</ReleaseDate>
-    <WithdrawnDate/>
     <CompressionDocumentation>Welch, T A, 1984, A technique for high performance data compression, IEEE Computer, 17: 6</CompressionDocumentation>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>x-cmp/12</Identifier>
       <IdentifierType>PUID</IdentifierType>
@@ -448,16 +391,9 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
   <CompressionType>
     <CompressionID>13</CompressionID>
     <CompressionName>Run Length Encoding</CompressionName>
-    <CompressionVersion/>
     <CompressionAliases>RLE</CompressionAliases>
-    <CompressionFamilies/>
     <Description>Run length encoding (RLE) is perhaps the simplest image compression technique in common use. RLE algorithms are lossless, and work by searching for runs of bits, bytes, or pixels of the same value, and encoding the length and value of the run. As such, RLE achieves best results with images containing large areas of contiguous colour, and especially monochrome images. Complex colour images, such as photographs, do not compress well – in some cases, RLE can actually increase the file size. There are a number of RLE variants in common use, which are encountered in the TIFF, PCX and BMP graphics formats.</Description>
     <Lossiness>Lossless</Lossiness>
-    <ReleaseDate/>
-    <WithdrawnDate/>
-    <CompressionDocumentation/>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>x-cmp/13</Identifier>
       <IdentifierType>PUID</IdentifierType>
@@ -466,16 +402,11 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
   <CompressionType>
     <CompressionID>14</CompressionID>
     <CompressionName>CCITT T.4</CompressionName>
-    <CompressionVersion/>
     <CompressionAliases>CCITT Group 3</CompressionAliases>
-    <CompressionFamilies/>
     <Description>Officially known as CCITT T.4, Group 3 is a compression algorithm developed by the International Telegraph and Telephone Consultative Committee in 1985 for encoding and compressing 1-bit (monochrome) image data. Its primary use has been in fax transmission, and it is optimised for scanned printed or handwritten documents. Group 3 is a lossless algorithm, of which two forms exist: one-dimensional (which is a modified version of Huffman encoding) and two-dimensional, which offers superior compression rates. Due to its origin as a data transmission protocol, Group 3 encoding incorporates error detection codes. Group 3 compression is most commonly used in the TIFF file format.</Description>
     <Lossiness>Lossless</Lossiness>
     <ReleaseDate>01 Jan 1985</ReleaseDate>
-    <WithdrawnDate/>
     <CompressionDocumentation>CCITT Blue Book, 1989, Volume VII, Fascicle VII.3: Terminal equipment and protocols for telematic services, recommendations T.0 - T.63</CompressionDocumentation>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>x-cmp/14</Identifier>
       <IdentifierType>PUID</IdentifierType>
@@ -484,16 +415,11 @@ http://www.alternatiff.com/resources/TIFFphotoshop.pd</FormatNote>
   <CompressionType>
     <CompressionID>15</CompressionID>
     <CompressionName>CCITT T.6</CompressionName>
-    <CompressionVersion/>
     <CompressionAliases>CCITT Group 4</CompressionAliases>
-    <CompressionFamilies/>
     <Description>Officially known as CCITT T.6, Group 4 is a compression algorithm developed by the International Telegraph and Telephone Consultative Committee as a development of the two-dimensional Group 3 standard for encoding and compressing 1-bit (monochrome) image data. It is faster, and offers compression rates which are typically double those of Group 3. Like Group 3, it is lossless and designed for 1-bit images. However, being designed as a storage rather than transmission format, it does not incorporate the error detection and correction functions of Group 3 compression. Group 4 compression is most commonly used in the TIFF file format.</Description>
     <Lossiness>Lossless</Lossiness>
     <ReleaseDate>01 Jan 1989</ReleaseDate>
-    <WithdrawnDate/>
     <CompressionDocumentation>CCITT Blue Book, 1989, Volume VII, Fascicle VII.3: Terminal equipment and protocols for telematic services, recommendations T.0 - T.63</CompressionDocumentation>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>x-cmp/15</Identifier>
       <IdentifierType>PUID</IdentifierType>

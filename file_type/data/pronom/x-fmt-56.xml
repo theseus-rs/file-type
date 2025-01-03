@@ -1,16 +1,9 @@
 <FileFormat>
   <FormatID>90</FormatID>
   <FormatName>Kodak FlashPix Image</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The FlashPix format is a raster based image format that builds on features of previous formats, including Kodak Image Pac, Live Picture IVUE, Hewlett-Packard JPEG, TIFF, and TIFF/EP. The FlashPix format is a cooperative endeavor that includes the Eastman Kodak Company, Microsoft Corporation, the Hewlett-Packard Company, and Live Picture, Inc.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
@@ -18,9 +11,6 @@
 
 The file format specification is available: http://graphcomp.com/info/specs/livepicture/fpx.pdf</ProvenanceDescription>
   <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>com.kodak.flashpix.image</Identifier>
     <IdentifierType>Apple Uniform Type Identifier</IdentifierType>

@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1687</FormatID>
   <FormatName>Siegfried Signature File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Dataset</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Siegfried signature file is used by Siegfried, a file format identification tool created by Richard Lehane that uses PRONOM, and freedesktop.org's MIME-info file format signatures.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>06 Jun 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>06 Jun 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/883</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>736600FF</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

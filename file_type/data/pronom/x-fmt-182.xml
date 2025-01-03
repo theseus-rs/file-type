@@ -1,16 +1,9 @@
 <FileFormat>
   <FormatID>255</FormatID>
   <FormatName>QuarkXPress Data File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>QuarkXPress is desktop publishing software for creating and editing page layouts that can be run on Mac and Windows operating systems. It was first released in 1987. It can be used to creating a variety of layouts, from single-page flyers to multi-media projects required for magazines, newspapers and catalogues. Versions 1-3 were available on Macintosh only, from version 3.1 a common signature is used.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
@@ -25,9 +18,6 @@ QXP - QuarkXPress Project (Version 6 onwards)
 QPT - QuarkXPress Project Template (Version 6 onwards)
 QCD - QuarkXPress Article</ProvenanceDescription>
   <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.Quark.QuarkXPress</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -90,9 +80,6 @@ QCD - QuarkXPress Article</ProvenanceDescription>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>00004D4D585052</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -105,9 +92,6 @@ QCD - QuarkXPress Article</ProvenanceDescription>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>00004949585052</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

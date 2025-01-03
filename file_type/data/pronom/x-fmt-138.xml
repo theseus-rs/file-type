@@ -1,24 +1,15 @@
 <FileFormat>
   <FormatID>198</FormatID>
   <FormatName>Active Server Page</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Active Server Pages are dynamic Web pages created using Microsoft Active Server Pages. An ASP page is an HTML page containing script commands that are processed by the Web server (server-side script code) before the page is sent to the client’s browser.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
   <ProvenanceDescription>04/2024 (v.118)- Description created. Submitted by Archives nationales (French National Archives) as part of PRONOM Research Week 2023.</ProvenanceDescription>
   <LastUpdatedDate>16 Apr 2024</LastUpdatedDate>
   <FormatNote>https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524929(v=vs.90)</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>x-fmt/138</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -2,27 +2,17 @@
   <FormatID>2542</FormatID>
   <FormatName>Persuasion Windows Document</FormatName>
   <FormatVersion>2.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Persuasion Windows Document format is part of Adulus Persuasion format family. The format is created using the Aldus Persuasion (now discontinued) presentation program software developed by Peter Polash in 1988 originally for the Macintosh platform by Aldus Corporation. Following a merger of Adobe Systems and Adulus Corporation in 1994, the software was re-branded to Adobe Persuasion and a Microsoft Windows version was released. There were two versions released for Macintosh only, then starting with version 2.x, a version for Windows was released with each new release up to version 4. Adobe discontinued production of the software in September 1997. This format entry describes the variation of the format released with version 2.x of Adulus Persuasion for Microsoft Windows.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>14 Jun 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>14 Jun 2022</LastUpdatedDate>
   <FormatNote>https://en.wikipedia.org/wiki/Adobe_Persuasion
 
 http://fileformats.archiveteam.org/wiki/Persuasion
 
 https://adobe.fandom.com/wiki/Adobe_Persuasion</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1706</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -46,9 +36,6 @@ https://adobe.fandom.com/wiki/Adobe_Persuasion</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>000000000000FF99{100}5350050002</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

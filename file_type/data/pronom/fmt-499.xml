@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1286</FormatID>
   <FormatName>VivoActive</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Video</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>VivoActive is an audio/video format created by Vivo Software, acquired by RealNetworks in 1997. It uses H.263 video and G.723 ADPCM audio. VivoActive uses inter-frame coding, but does not insert any key frames, except at the beginning of the clip, which effectively disables the possibility of seeking to specific locations in the stream. The VivoActive technology was integrated to the RealMedia, the .viv format was replaced by .rm (RealMedia).</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>l'Institut national de l' Audiovisuel / l'Institut national de l' Audiovisuel</ProvenanceName>
   <ProvenanceSourceDate>26 Feb 2013</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/499</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -40,10 +28,6 @@
       <ByteSequenceID>975</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>3</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0D0A56657273696F6E3A5669766F2F312E3030</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -55,10 +39,6 @@
       <ByteSequenceID>976</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>3</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0D0A56657273696F6E3A5669766F2F322E3030</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

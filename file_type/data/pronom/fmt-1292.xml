@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>2110</FormatID>
   <FormatName>EIOffice Document</FormatName>
-  <FormatVersion/>
   <FormatAliases>Yozo Office Document</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Presentation, Spreadsheet, Word Processor</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>EIOffice is an office productivity suite developed by Evermore Software. The suite was renamed to Yozo Office as of 2010. Word Processed documents, Spreadsheets, and Presentation formats share the same extension. It may be possible to distinguish between the different format types with further research.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1292</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>00000FFFFFFFFFFF010045005600450052004D004F0052004500200053004F00460054005700410052004500200049004E0043002E00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

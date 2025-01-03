@@ -34,7 +34,7 @@ pub struct RelatedFormat {
     id: usize,
     #[serde(rename = "RelatedFormatName")]
     name: String,
-    #[serde(rename = "RelatedFormatVersion")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "RelatedFormatVersion")]
     version: String,
 }
 

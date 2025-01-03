@@ -2,23 +2,12 @@
   <FormatID>1424</FormatID>
   <FormatName>Apple Disk Copy Image</FormatName>
   <FormatVersion>4.2</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Disk Copy 4.2 (DC42) is the common name used to refer to disk images of floppy disks created by the 4.2 version of Disk Copy provided by the Mac Operating System.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Yale University Library / Yale University Library</ProvenanceName>
   <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>14 Feb 2014</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/625</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -51,10 +40,6 @@
       <ByteSequenceID>1181</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>64</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>(00064000|000C8000|000B4000|00168000)(00002580|00004B00|00000000){8}(00|01|02|03)(02|12|22|24|96)0100</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

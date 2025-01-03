@@ -1,16 +1,8 @@
 <FileFormat>
   <FormatID>2383</FormatID>
   <FormatName>SelF-eXtracting LHA/LZH Compressed Files</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>SelF-eXtracting LHA/LZH compressed files is an archive format for the Commodore 64 and 128 consisting of files compressed in the LHA format and appended to a program to extract them, so that the archive and its extractor is self-contained and no other program needs to be downloaded or installed in order to extract the archive. It is a sucessor of SDA format with an addition of the extractor is cross-compatible between both Commodore platforms (C-64 and C-128).</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>23 Nov 2021</ProvenanceSourceDate>
@@ -21,8 +13,6 @@
 https://fileinfo.com/extension/son
 
 https://wiki.multimedia.cx/index.php/SIFF</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1558</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,9 +31,6 @@ https://wiki.multimedia.cx/index.php/SIFF</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>3000</Offset>
       <MaxOffset>700</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4336342F433132382053454C462045585452414354494E47204C4841524348495645</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

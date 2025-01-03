@@ -2,23 +2,12 @@
   <FormatID>878</FormatID>
   <FormatName>Microsoft Excel for Macintosh</FormatName>
   <FormatVersion>4.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>PUID deprecated. Please see fmt/57: Microsoft Excel 4 Worksheet</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>28 Sep 2009</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>28 Sep 2009</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/173</Identifier>
     <IdentifierType>PUID</IdentifierType>

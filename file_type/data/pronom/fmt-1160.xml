@@ -2,23 +2,12 @@
   <FormatID>1970</FormatID>
   <FormatName>Folio Shadow File</FormatName>
   <FormatVersion>3</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Database</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Folio Shadow file is a feature of the Folio Views software application, allowing multiple uses to work on 'shadow' copies of a master Folio Infobase. Users will see the content of the master Infobase, and their peronal annotated shadow content. Updates to the master content would be reflected in the shadow copy, but changes to the shadow file will not alter the master Infobase in any way.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>26 Jul 2018</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>26 Jul 2018</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1160</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,10 +26,6 @@ EFCDAB8901000300</SignatureNote>
       <ByteSequenceID>1807</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>212</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>EFCDAB8901000300</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

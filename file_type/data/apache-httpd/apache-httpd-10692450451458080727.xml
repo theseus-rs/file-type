@@ -1,24 +1,9 @@
 <FileFormat>
   <FormatID>10692450451458080727</FormatID>
   <FormatName>audio/basic</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
-  <FormatDescription/>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName/>
   <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>apache-httpd/10692450451458080727</Identifier>
     <IdentifierType>PUID</IdentifierType>

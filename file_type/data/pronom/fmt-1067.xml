@@ -2,23 +2,11 @@
   <FormatID>1874</FormatID>
   <FormatName>Silo</FormatName>
   <FormatVersion>PDB Variant</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>Silo is a scientific data library created by the Lawrence Livermore National Laboratory. Silo can produce files based on the Portable Database format, or HDF5.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>14 Jul 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>14 Jul 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1067</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,19 +27,11 @@ https://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf</SignatureNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>213C3E3C5044423E3C3E21</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>1700</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>5F73696C6F6C6962696E666F</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -66,19 +46,11 @@ https://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf</SignatureNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>213C3C5044423A49493E3E21</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>1702</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>5F73696C6F6C6962696E666F</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

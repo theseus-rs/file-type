@@ -2,23 +2,12 @@
   <FormatID>1470</FormatID>
   <FormatName>Serif PagePlus Publication</FormatName>
   <FormatVersion>Generic</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Word Processor</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Serif PagePlus is a desktop publishing application. This is a generic 'catchall' to provide extension-based identification of Serif PagePlus Publication files where a signature for a particular format version has not yet been developed. If you encounter such a file, please contact pronom@nationalarchives.gsi.gov.uk</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
   <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>15 Nov 2021</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/671</Identifier>
     <IdentifierType>PUID</IdentifierType>

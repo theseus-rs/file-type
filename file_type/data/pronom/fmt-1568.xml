@@ -2,17 +2,10 @@
   <FormatID>2393</FormatID>
   <FormatName>ISDOCX Information System Document</FormatName>
   <FormatVersion>5.x</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>ISDOCX is a type of ZIP container file for transferring ISDOC documents and other material. Then content of this file format varies, but it should always contain ISDOC file format, and usually does contain a Portable Document Format (PDF). This signiture records a general ISDOCX file format, however there are several versions of this format which can be found here: http://www.isdoc.cz/index.php?id=1316. Versions 6.0.1 must also contain 'manifest.xml' namespace file, this signiture records all versions prior to 6.0.1 without a 'manifest.xml' namespace file.
 
 ISDOC format is a type of Extensible Markup Language (XML) file format specific for transfer of financial, as well as other documents. It allows paperless exchanging of invoices and other documents, processing and portability among companies, public administration authorities and individuals. It was defined by “A Working group for Electronic Standards of data exchanging” in ICT Union (formerly SPIS). The “Declaration on common approach in the area of electronic invoicing in the Czech Republic” was signed on 16th October 2008. It represents a Czech customization of UBL standard https://www.iso.org/standard/66370.html. ISDOC file enables enveloped signatures including advanced IETF/W3C XML digital signatures conforming to the ETSI XAdES specification.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
   <ProvenanceSourceDate>06 Dec 2021</ProvenanceSourceDate>
@@ -21,8 +14,6 @@ ISDOC format is a type of Extensible Markup Language (XML) file format specific 
   <FormatNote>http://www.isdoc.org/
 
 http://www.isdoc.cz/fileadmin/isdoc/6.0/readme-en.html</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1568</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,9 +32,6 @@ http://www.isdoc.cz/fileadmin/isdoc/6.0/readme-en.html</FormatNote>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>12</Offset>
       <MaxOffset>988</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>2E6973646F63</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -51,9 +39,6 @@ http://www.isdoc.cz/fileadmin/isdoc/6.0/readme-en.html</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>504B0304140002</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -73,7 +58,6 @@ http://www.isdoc.cz/fileadmin/isdoc/6.0/readme-en.html</FormatNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>382</RelatedFormatID>
     <RelatedFormatName>ZIP Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

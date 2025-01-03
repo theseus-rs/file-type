@@ -2,10 +2,7 @@
   <FormatID>2297</FormatID>
   <FormatName>TEI P4 XML - Single Text File</FormatName>
   <FormatVersion>P4</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Mark-up)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Text Encoding Initiative Guidelines provide a methodology for encoding textual content for a wide variety of academic and publishing purposes and repurposes. P4 is serialised as XML. 
 
 Conceptually, TEI is a sibling of HTML which focuses on textual semantics rather than display. 
@@ -17,20 +14,13 @@ Note that TEI permits customisations and some may mean that the file no longer m
 Information on how to convert TEI P4 to TEI P5 can be found at https://www.tei-c.org/Vault/P4/migrate.html and a script at https://www.tei-c.org/Vault/P4/p4top5.xsl Such automated conversion is not guaranteed to be lossless, particularly when the TEI has been customised. 
 
 P4 differs from the proceeding P3 version by being in XML rather than in SGML</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Victoria University of Wellington / Victoria University of Wellington</ProvenanceName>
   <ProvenanceSourceDate>19 Oct 2021</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>19 Oct 2021</LastUpdatedDate>
   <FormatNote>https://tei-c.org/Vault/P4/
 
 https://teibyexample.org/tutorials/TBED00v00.htm?target=teihistory#teip4</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/tei+xml</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -63,9 +53,6 @@ https://teibyexample.org/tutorials/TBED00v00.htm?target=teihistory#teip4</Format
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>3</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-512}5445492E32</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

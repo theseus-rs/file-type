@@ -1,24 +1,14 @@
 <FileFormat>
   <FormatID>2176</FormatID>
   <FormatName>MicroStation Base File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>These files, which always end with the file extension .bse, consist of the line drawing layer in Microstation from c.2000. MicroStation CAD software was developed and sold by Bentley Systems and which is used for 2D and 3D design, and is mainly used in the architectural and engineering industries.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
   <ProvenanceSourceDate>05 Mar 2020</ProvenanceSourceDate>
   <ProvenanceDescription>11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched</ProvenanceDescription>
   <LastUpdatedDate>14 Nov 2023</LastUpdatedDate>
   <FormatNote>https://www.bentley.com/en/products/product-line/modeling-and-visualization-software/microstation</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1358</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,9 +28,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>824</Offset>
       <MaxOffset>2792</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4850545F44445F494744533A464F4E544C4942{32600-33200}44474E2D5469746C6573</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -48,6 +35,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2374</RelatedFormatID>
     <RelatedFormatName>Bentley Microstation Hidden Line File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

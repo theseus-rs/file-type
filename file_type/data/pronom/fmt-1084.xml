@@ -2,23 +2,13 @@
   <FormatID>1892</FormatID>
   <FormatName>Hangul Word Processor Document</FormatName>
   <FormatVersion>5</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Word Processor</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Hangul is a Word Processor application created by South Korean software company Hancom. HWP is the native format. A link to the file format specification can be found here: https://www.hancom.com/etc/hwpDownload.do.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>18 Aug 2017</ProvenanceSourceDate>
   <ProvenanceDescription>This format is based on the OLE2 Compound Document Format and can be identified in DROID 6 and later via a container signature.</ProvenanceDescription>
   <LastUpdatedDate>18 Aug 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1084</Identifier>
     <IdentifierType>PUID</IdentifierType>

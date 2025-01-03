@@ -4,8 +4,9 @@ use serde::{Deserialize, Serialize};
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
 #[serde(default, rename_all = "PascalCase")]
 pub struct DocumentIdentifier {
+    #[serde(skip_serializing_if = "String::is_empty")]
     identifier: String,
-    #[serde(rename = "IdentifierType")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "IdentifierType")]
     r#type: String,
 }
 

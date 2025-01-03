@@ -1,26 +1,15 @@
 <FileFormat>
   <FormatID>1740</FormatID>
   <FormatName>Animated Portable Network Graphics</FormatName>
-  <FormatVersion/>
   <FormatAliases>APNG</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>APNG is an extension of the PNG format, adding support for animated images. It is intended to be a replacement for simple animated images that have traditionally used the GIF format, while adding support for 24-bit images and 8-bit transparency. APNG is intended as a simpler alternative to MNG.
 
 APNG is backwards-compatible with PNG; any PNG decoder should be able to ignore the APNG-specific chunks and display a single image.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>11 Jul 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>11 Jul 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/935</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -49,9 +38,6 @@ Specification: https://wiki.mozilla.org/APNG_Specification</SignatureNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>89504E470D0A1A0A0000000D49484452*6163544C</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -59,9 +45,6 @@ Specification: https://wiki.mozilla.org/APNG_Specification</SignatureNote>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0000000049454E44AE426082</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

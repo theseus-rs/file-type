@@ -1,16 +1,8 @@
 <FileFormat>
   <FormatID>1469</FormatID>
   <FormatName>PKCS #7 Cryptographic Message File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>PKCS #7 Cryptographic Message File is a form of electronic signature used to secure messages that can only be read by the intended recipient. PKCS #7 describes a general syntax for data that may have cryptography applied to it, such as digital signatures and digital envelopes. PKCS #7 is one of the family of standards called Public-Key Cryptography Standards (PKCS) devised and published by RSA Security Inc, starting in the early 1990s; storing signed and/or encrypted data, usually attached to an email message that includes an S/MIME (Secure/Multipurpose Internet Mail Extensions) digital signature. The extension .p7s usually refers to PKCS #7 Signature Files; .p7m usually refers to PKCS #7 MIME Files; and .p7b usually refers to PKCS #7 Certificate Files. The research of this format is still ongoing, please contact the PRONOM team if you how any more information regarding this format.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
@@ -25,8 +17,6 @@ https://en.wikipedia.org/wiki/S/MIME
 https://www.cryptomathic.com/news-events/blog/introduction-to-digital-signatures-and-pkcs-7
 
 https://comodosslstore.com/resources/what-is-an-smime-p7s-file-attachment-and-how-do-i-open-it/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/pkcs7-mime</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -63,9 +53,6 @@ https://comodosslstore.com/resources/what-is-an-smime-p7s-file-attachment-and-ho
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>30{1-5}06092A864886F7</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -73,19 +60,16 @@ https://comodosslstore.com/resources/what-is-an-smime-p7s-file-attachment-and-ho
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2061</RelatedFormatID>
     <RelatedFormatName>ZFO (Message) File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2062</RelatedFormatID>
     <RelatedFormatName>ZFO (Sent Message) File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2063</RelatedFormatID>
     <RelatedFormatName>ZFO (Proof of Delivery) File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

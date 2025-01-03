@@ -2,27 +2,18 @@
   <FormatID>133</FormatID>
   <FormatName>Microsoft PowerPoint Presentation</FormatName>
   <FormatVersion>4.x</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Microsoft PowerPoint Presentation is a proprietary binary file format developed by Microsoft Corporation used to store presentation files created in the Microsoft PowerPoint presentation software. This record describes version 4 of .ppt file format released in February 1994 for Windows, and included in the 4.2 version of Microsoft Office for Windows released in the same year. Versions up to version 4 of Microsoft PowerPoint use .ppt as extension however, they are not compatible with each other. Microsoft made backwards compatibility an optional add-on after Office 2003 and appears to have removed it altogether in Office 2010. Please follow the links attached to this entry for more information.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>24 Aug 2022</LastUpdatedDate>
   <FormatNote>https://www.loc.gov/preservation/digital/formats/fdd/fdd000511.shtml
 
 http://justsolve.archiveteam.org/wiki/PPT
 
 https://web.archive.org/web/20220329174106/https://en.wikipedia.org/wiki/Microsoft_PowerPoint</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-powerpoint</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -48,30 +39,16 @@ https://web.archive.org/web/20220329174106/https://en.wikipedia.org/wiki/Microso
       <ByteSequenceID>218</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>D0CF11E0A1B11AE1{20}FEFF</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>219</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>5000500034003000</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>220</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D6963726F736F667420506F776572506F696E74</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -85,7 +62,6 @@ https://web.archive.org/web/20220329174106/https://en.wikipedia.org/wiki/Microso
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>767</RelatedFormatID>
     <RelatedFormatName>OLE2 Compound Document Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>

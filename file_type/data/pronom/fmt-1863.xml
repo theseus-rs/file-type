@@ -2,19 +2,11 @@
   <FormatID>2717</FormatID>
   <FormatName>Adobe Illustrator CC 2020 Artwork</FormatName>
   <FormatVersion>24-24.1</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The documents (files) created by Adobe Illustrator are PostScript language documents. A PostScript language document description that minimally conforms to the Document Structuring Conventions has two main parts: a prolog and a script. The prolog encapsulates information needed by other programs to interpret the file. The script describes the graphic elements on the page. Beginning with version 9, the Adobe Illustrated ai file format included both a pdf copy of the illustration and a postscript copy. Beginning with Adobe Illustrator 13.0. the PDF that Illustrator embeds in the file so that other apps can read the file is PDF 1.5. The PDF 1.5 header is included in the file structure.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
   <ProvenanceSourceDate>24 May 2023</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>24 May 2023</LastUpdatedDate>
   <FormatNote>http://justsolve.archiveteam.org/wiki/Adobe_Illustrator_Artwork
 
@@ -23,8 +15,6 @@ https://en.wikipedia.org/wiki/Adobe_Illustrator_Artwork
 https://www.adobe.com/creativecloud/file-types/image/vector/ai-file.html
 
 https://preservation.tylerthorsted.com/2023/04/07/adobe-illustrator-and-pdf/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1863</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -48,9 +38,6 @@ https://preservation.tylerthorsted.com/2023/04/07/adobe-illustrator-and-pdf/</Fo
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>255044462D312E35*3C696C6C7573747261746F723A547970653E446F63756D656E743C2F696C6C7573747261746F723A547970653E*252150532D41646F62652D332E30*254149355F46696C65466F726D6174203134</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -12,16 +12,18 @@ pub struct Document {
     display_text: String,
     document_type: String,
     availability_description: String,
+    #[serde(skip_serializing_if = "String::is_empty")]
     availability_note: String,
     #[serde(
+        skip_serializing_if = "Option::is_none",
         deserialize_with = "deserialize_option_naive_date",
         serialize_with = "serialize_option_naive_date"
     )]
     publication_date: Option<Date>,
     title_text: String,
-    #[serde(rename = "DocumentIpr")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "DocumentIpr")]
     ipr: String,
-    #[serde(rename = "DocumentNote")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "DocumentNote")]
     note: String,
     #[serde(rename = "DocumentIdentifier")]
     identifier: DocumentIdentifier,

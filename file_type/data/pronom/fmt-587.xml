@@ -1,24 +1,14 @@
 <FileFormat>
   <FormatID>1375</FormatID>
   <FormatName>LifeTechnologies ABIF</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Dataset</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The ABIF file format is a binary file format for storing data. Elements of data stored in the file are associated with tags, which are analogous to the keys in a (key, value) mapping.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
   <ReleaseDate>28 Aug 2013</ReleaseDate>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Tessella / Tessella</ProvenanceName>
   <ProvenanceSourceDate>28 Aug 2013</ProvenanceSourceDate>
   <ProvenanceDescription>http://www.lifetechnologies.com/uk/en/home/about-us.html</ProvenanceDescription>
   <LastUpdatedDate>28 Aug 2013</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/587</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +27,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>414249460065</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

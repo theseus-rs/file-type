@@ -3,22 +3,14 @@
   <FormatName>Acrobat PDF/A - Portable Document Format</FormatName>
   <FormatVersion>4e</FormatVersion>
   <FormatAliases>PDF/A-4e</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Page Description</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>PDF/A-4 is the file format described by ISO 19005-4:2020 “Document management — Electronic document file format for long-term preservation — Part 4: Use of ISO 32000-2 (PDF/A-4)”. It is the first of the PDF-Archival format family to be based on PDF 2.0. PDF/A-4e is aimed at engineering use-cases that allows for rich media such as interactive 3D elements to be embedded.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Preservica / Preservica</ProvenanceName>
   <ProvenanceSourceDate>25 Aug 2023</ProvenanceSourceDate>
   <ProvenanceDescription>04/2024 (v.118)- Spelling mistake corrected in MIME Type. Submitted by Archives New Zealand and Brigham Young University.</ProvenanceDescription>
   <LastUpdatedDate>15 Apr 2024</LastUpdatedDate>
   <FormatNote>https://www.iso.org/standard/71832.html</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/pdf</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -41,19 +33,11 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>255044462D322E[30:39]</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>2630</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C7064666169643A706172743E343C2F7064666169643A706172743E*3C7064666169643A636F6E666F726D616E63653E453C2F7064666169643A636F6E666F726D616E63653E</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -66,19 +50,11 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>255044462D322E[30:39]</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>2632</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C7064666169643A636F6E666F726D616E63653E453C2F7064666169643A636F6E666F726D616E63653E*3C7064666169643A706172743E343C2F7064666169643A706172743E</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

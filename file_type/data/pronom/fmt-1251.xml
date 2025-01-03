@@ -1,16 +1,8 @@
 <FileFormat>
   <FormatID>2069</FormatID>
   <FormatName>Electronically Certified Document (EDOC)</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>EDOC is an electronically certified document. A format used to protect and verify identity for sensitive files. It contains a document, maybe with additional attached files and one or more digital signatures. The file can also store metadata about the document such as creator, creation time, last modification and the format version.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives of Latvia / The National Archives of Latvia</ProvenanceName>
   <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
@@ -19,8 +11,6 @@
   <FormatNote>https://www.iana.org/assignments/media-types/application/vnd.etsi.asic-e+zip
 
 https://www.eparaksts.lv/en/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.etsi.asic-e+zip</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -38,12 +28,10 @@ https://www.eparaksts.lv/en/</FormatNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2389</RelatedFormatID>
     <RelatedFormatName>Associated Signature Container Extended (ASiC-E)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>2389</RelatedFormatID>
     <RelatedFormatName>Associated Signature Container Extended (ASiC-E)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

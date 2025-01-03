@@ -1,28 +1,18 @@
 <FileFormat>
   <FormatID>2701</FormatID>
   <FormatName>General Purpose RAW</FormatName>
-  <FormatVersion/>
   <FormatAliases>GoPro GPR</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>GoPro action camera's since the HERO5 model have the ability to capture a RAW image along with a JPG. The GPR format is a 12-bit raw image coding format, based on Adobe DNG but uses a VC-5 compression making the files much smaller than a typical DNG.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>21 Apr 2023</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>21 Apr 2023</LastUpdatedDate>
   <FormatNote>https://github.com/gopro/gpr
 
 http://fileformats.archiveteam.org/wiki/GoPro_GPR
 
 https://www.wikidata.org/wiki/Q111147971</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1849</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -45,9 +35,6 @@ https://www.wikidata.org/wiki/Q111147971</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>49492A00{0-4080}12C601000400000001030000*56432D35</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

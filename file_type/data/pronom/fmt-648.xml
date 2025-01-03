@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1447</FormatID>
   <FormatName>Media View Pro</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Proprietary cataloguing program to manage photo and video assets.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>14 Jul 2014</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>14 Jul 2014</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/648</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,20 +25,12 @@ EOF: Svar {8-34} 030i (offset 8)</SignatureNote>
       <ByteSequenceID>1202</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>4</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>30333069</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>1203</ByteSequenceID>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>8</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>53566172{8-34}30333069</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

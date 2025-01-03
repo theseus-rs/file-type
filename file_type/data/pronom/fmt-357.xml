@@ -1,16 +1,8 @@
 <FileFormat>
   <FormatID>1103</FormatID>
   <FormatName>3GPP Audio/Video File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio, Video</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>An audiovisual container typically associated with 3G mobile phones and is developed by the Third Generation Partnership Project. May contain video/audio or audio only.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>21 Jun 2011</ProvenanceSourceDate>
@@ -20,8 +12,6 @@
 https://fileinfo.com/extension/3gpp https://en.wikipedia.org/wiki/3GP_and_3G2
 http://3gpp.org/
 http://www.3gpp.org/ftp/Specs/html-info/26244.htm</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>audio/3gpp</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -52,10 +42,6 @@ http://www.3gpp.org/ftp/Specs/html-info/26244.htm</FormatNote>
       <ByteSequenceID>648</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>4</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>667479703367(65|67|68|70|72|73|74)[34:39]0000[00:03]00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -63,12 +49,10 @@ http://www.3gpp.org/ftp/Specs/html-info/26244.htm</FormatNote>
     <RelationshipType>Can contain</RelationshipType>
     <RelatedFormatID>1102</RelatedFormatID>
     <RelatedFormatName>Adaptive Multi-Rate Audio</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>924</RelatedFormatID>
     <RelatedFormatName>MPEG-4 Media File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

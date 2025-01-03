@@ -1,25 +1,15 @@
 <FileFormat>
   <FormatID>1456</FormatID>
   <FormatName>Open XML Paper Specification</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Mark-up)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Open XML Paper Specification (also referred to as OpenXPS) is an open specification for a page description 
 language and a fixed-document format.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Walker Art Center / Walker Art Center</ProvenanceName>
   <ProvenanceSourceDate>14 Jul 2014</ProvenanceSourceDate>
   <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures; 08/2023 (v.113)- Added extension oxps. Submitted by Preservica.</ProvenanceDescription>
   <LastUpdatedDate>14 Aug 2023</LastUpdatedDate>
   <FormatNote>http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-388.pdf</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/oxps</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -42,12 +32,10 @@ language and a fixed-document format.</FormatDescription>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1630</RelatedFormatID>
     <RelatedFormatName>3MF 3D Manufacturing Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1782</RelatedFormatID>
     <RelatedFormatName>AutoCAD Design Web Format(DWFx)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

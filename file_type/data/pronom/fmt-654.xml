@@ -2,23 +2,13 @@
   <FormatID>1453</FormatID>
   <FormatName>INTERLIS Model File</FormatName>
   <FormatVersion>2.3</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Model</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>INTERLIS is a description and transfer mechanism for spatial data. INTERLIS 2 Model files contain the the geodata and can be converted to XML Schema (XSD) files (by using a software called INTERLIS compiler). Such models are described using a Modula-like language, which can be thought of as a superset of UML.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Swiss Federal Office of Topography / Federal Office of Topography</ProvenanceName>
   <ProvenanceSourceDate>14 Jul 2014</ProvenanceSourceDate>
   <ProvenanceDescription>http://www.interlis.ch; 11/2023 (v.116)- Priority over fmt/101 Extensible Markup Language 1.0. Internally researched.</ProvenanceDescription>
   <LastUpdatedDate>16 Nov 2023</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/654</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +27,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>4096</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>494E5445524C495320322E333B0D{1-1024}4D4F44454C{1-64}4154{1-64}56455253494F4E</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

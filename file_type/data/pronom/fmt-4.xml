@@ -3,22 +3,16 @@
   <FormatName>Graphics Interchange Format</FormatName>
   <FormatVersion>89a</FormatVersion>
   <FormatAliases>GIF (1989a)</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>The Graphics Interchange Format (GIF) is a raster image format developed by Compuserve, primarily for use on the internet. A GIF file begins with a Header section and a Logical Screen Descriptor section. This is followed by one or more Image sections, and the file is terminated by a Trailer. GIF supports bit depths between 1 and 8 bits (i.e. up to 256 colours) and supports features such as interlacing and transparency. Images are always stored using lossless LZW compression. GIF 89a introduced a number of new features, including a series of optional Control Extensions, which can be used to control the rendering of images within a file.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
   <ReleaseDate>31 Jul 1990</ReleaseDate>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>com.compuserve.gif</Identifier>
     <IdentifierType>Apple Uniform Type Identifier</IdentifierType>
@@ -36,24 +30,19 @@
     <DisplayText>Compuserve Incorporated, 1990, Graphics Interchange Format: Version 1989a</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Jan 1990</PublicationDate>
     <TitleText>Graphics Interchange Format: Version 1989a</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>www.w3.org/Graphics/GIF/spec-gif89a.txt</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>108</AuthorID>
-      <AuthorName/>
       <OrganisationName>Compuserve Incorporated</OrganisationName>
       <AuthorCompoundName>Compuserve Incorporated</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>108</PublisherID>
-      <PublisherName/>
       <OrganisationName>Compuserve Incorporated</OrganisationName>
       <PublisherCompoundName>Compuserve Incorporated</PublisherCompoundName>
     </Publisher>
@@ -72,9 +61,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>474946383961</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -82,9 +68,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>4</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3B</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -97,16 +80,11 @@
   <CompressionType>
     <CompressionID>12</CompressionID>
     <CompressionName>Lempel-Ziv-Welch</CompressionName>
-    <CompressionVersion/>
     <CompressionAliases>LZW</CompressionAliases>
-    <CompressionFamilies/>
     <Description>The Lempel-Ziv-Welch compression algorithm was developed by Terry Welch in 1984, as a modification of the LZ78 compressor. It is a lossless technique which can be applied to almost any type of data, but is most commonly used for image compression. LZW compression is effective on images with colour depths from 1-bit (monochrome) to 24-bit (True Colour). LZW compression is encountered in a range of common graphics file formats, including TIFF and GIF.</Description>
     <Lossiness>Lossless</Lossiness>
     <ReleaseDate>01 Jan 1984</ReleaseDate>
-    <WithdrawnDate/>
     <CompressionDocumentation>Welch, T A, 1984, A technique for high performance data compression, IEEE Computer, 17: 6</CompressionDocumentation>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>x-cmp/12</Identifier>
       <IdentifierType>PUID</IdentifierType>

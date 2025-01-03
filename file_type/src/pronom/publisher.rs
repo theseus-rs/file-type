@@ -5,10 +5,11 @@ use serde::{Deserialize, Serialize};
 pub struct Publisher {
     #[serde(rename = "PublisherID")]
     id: usize,
-    #[serde(rename = "PublisherName")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "PublisherName")]
     name: String,
+    #[serde(skip_serializing_if = "String::is_empty")]
     organisation_name: String,
-    #[serde(rename = "PublisherCompoundName")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "PublisherCompoundName")]
     compound_name: String,
 }
 

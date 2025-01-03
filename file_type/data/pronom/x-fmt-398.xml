@@ -3,22 +3,14 @@
   <FormatName>Exchangeable Image File Format (Compressed)</FormatName>
   <FormatVersion>2.0</FormatVersion>
   <FormatAliases>Exif Compressed Image (2.0)</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Exchangeable image file format (Exif) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel) and Big-endian (Motorola)</ByteOrders>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>image/jpeg</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -45,10 +37,6 @@
       <ByteSequenceID>91</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>FFD8FFE1{2}4578696600004D4D002A*900000070000000430323030</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -56,9 +44,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>65536</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>FFD9</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -70,10 +55,6 @@
       <ByteSequenceID>92</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>FFD8FFE1{2}45786966000049492A00*009007000400000030323030</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -81,9 +62,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>16000</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>FFD9</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -91,7 +69,6 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>670</RelatedFormatID>
     <RelatedFormatName>Raw JPEG Stream</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>

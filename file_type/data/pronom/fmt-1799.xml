@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>2650</FormatID>
   <FormatName>FLExText Interlinear XML Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Mark-up)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The FLExText Interlinear XML format is used in the field of linguistics study. FlExText is produced by SIL International’s FieldWorks software, and can be imported to other programs such as ELAN and SayMore.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Preservica / Preservica</ProvenanceName>
   <ProvenanceSourceDate>23 Nov 2022</ProvenanceSourceDate>
   <ProvenanceDescription>04/2024 (v.118)- Offset from BOF changed from 0 to 0-3 to provide flexibility for the XML 1.0 declaration. Submitted by Preservica based on samples provided by The Endanagered Languages Archive.</ProvenanceDescription>
   <LastUpdatedDate>16 Apr 2024</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1799</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>3</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E{0-3}3C646F63756D656E74{1-256}3C696E7465726C696E6561722D74657874{1-1024}3C70617261677261706873</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

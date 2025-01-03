@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2567</FormatID>
   <FormatName>Wordcraft Chapter Files</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Word Processor</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Files from Wordcraft word processing software from the 1980s, which was made for IBM XT and Commodore 64. Documents created with this software contained at least 2 files, an 'index' file with extension .doc and chapter file(s) with extension .001.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>07 Jul 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>07 Jul 2022</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1723</Identifier>
     <IdentifierType>PUID</IdentifierType>

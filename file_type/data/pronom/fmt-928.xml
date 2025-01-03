@@ -2,23 +2,13 @@
   <FormatID>1733</FormatID>
   <FormatName>Microsoft Visio Macro-Enabled Stencil</FormatName>
   <FormatVersion>2013</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector), Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Microsoft Visio is a diagramming and vector graphics application and is part of the Microsoft Office family. Visio 2013 introduced file formats based upon Open Packaging Conventions and XML. Further information about these formats can be found here: https://msdn.microsoft.com/en-us/library/office/jj228622.aspx</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>08 Jul 2016</ProvenanceSourceDate>
   <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
   <LastUpdatedDate>08 Jul 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-visio.stencil.macroEnabled.main+xml</Identifier>
     <IdentifierType>MIME</IdentifierType>

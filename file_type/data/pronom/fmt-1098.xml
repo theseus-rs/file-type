@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1907</FormatID>
   <FormatName>XZ File Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The XZ file format is intended as a single-file compression format, similar in utility to Gzip.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>19 Sep 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>19 Sep 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1098</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,9 +27,6 @@ https://tukaani.org/xz/xz-file-format.txt</SignatureNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>FD377A585A00</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -49,9 +34,6 @@ https://tukaani.org/xz/xz-file-format.txt</SignatureNote>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>595A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -1,26 +1,15 @@
 <FileFormat>
   <FormatID>2500</FormatID>
   <FormatName>RED Thumbnail File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>RED Digital Cinema is an American company manufacturing professional digital cinematography cameras and accessories, established in 2005. RED Thumbnail files are created by some models of RED digital cameras while shooting in an R3D + Apple ProRes, R3D + DNxHD/HR and in Avid DNxHD/HR only modes. These files bear the same root filename as the R3D file clip they are associated with and contain a randomly selected frame image to represent the clip in software.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>27 May 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>27 May 2022</LastUpdatedDate>
   <FormatNote>https://docs.red.com/955-0181/DSMC2_DRAGON-X_Operation_Guide_v7_1.pdf
 
 https://docs.red.com/955-0184_v7.3/RED_RANGER_MONSTRO_Operation_Guide_v7_3.pdf</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1664</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,9 +28,6 @@ https://docs.red.com/955-0184_v7.3/RED_RANGER_MONSTRO_Operation_Guide_v7_3.pdf</
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>5245445448554D424E41494C0318{3}72646901{6}18{3}0C58110203E8{2}61A8</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

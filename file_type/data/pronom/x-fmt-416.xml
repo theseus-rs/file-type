@@ -1,16 +1,9 @@
 <FileFormat>
   <FormatID>803</FormatID>
   <FormatName>BinHex Binary Text</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>BinHex or Binary to Hexadecimal is a text encoded system primary used for Macintosh Classic systems when transferring over email and for transferring online. The file can include the data and resource fork of a file along with original names, type, and creator. It can be combined with MacBinary, Stuffit and others. Encoding uses a 16-bit CRC for validation.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Dec 2010</ProvenanceSourceDate>
@@ -18,8 +11,6 @@
   <LastUpdatedDate>15 Apr 2024</LastUpdatedDate>
   <FormatNote>http://fileformats.archiveteam.org/wiki/BinHex
 https://preservation.tylerthorsted.com/2023/09/29/binhex/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/mac-binhex40</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -42,9 +33,6 @@ https://preservation.tylerthorsted.com/2023/09/29/binhex/</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>4084</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>28546869732066696C65206D75737420626520636F6E76657274656420776974682042696E486578{6-9}3A</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -52,9 +40,6 @@ https://preservation.tylerthorsted.com/2023/09/29/binhex/</FormatNote>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>64</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

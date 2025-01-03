@@ -2,24 +2,15 @@
   <FormatID>203</FormatID>
   <FormatName>Computer Graphics Metafile ASCII</FormatName>
   <FormatVersion>1</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster), Image (Vector), Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Computer Graphics Metafile (CGM) is a standardized platform-independent format used for the interchange of raster and vector data. CGM was developed under the auspices of the International Standards Organization (ISO) and the American Standards National Institute (ANSI). It is also used in conjunction with a variety of input and output devices. Although CGM incorporates extensions designed to support raster data storage, files in CGM format are used primarily to store vector information. CGM files typically contain either bitmap or vector data, but rarely both. It uses Clear Text Encoding.
 File format specifications available at http://standards.iso.org/ittf/PubliclyAvailableStandards/c044114_ISO_IEC_8632-1_1999_Cor_1_2006%28E%29.pdf</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Dec 2010</ProvenanceSourceDate>
   <ProvenanceDescription>File format information supplied by NARA Information Services/Applied Research Division, The National Archives and Records Administration.</ProvenanceDescription>
   <LastUpdatedDate>29 Nov 2011</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>image/cgm</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -41,10 +32,6 @@ File format specifications available at http://standards.iso.org/ittf/PubliclyAv
       <ByteSequenceID>445</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>42(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}31</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -52,9 +39,6 @@ File format specifications available at http://standards.iso.org/ittf/PubliclyAv
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>2048</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>45(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -66,10 +50,6 @@ File format specifications available at http://standards.iso.org/ittf/PubliclyAv
       <ByteSequenceID>447</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>42(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}31</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -77,9 +57,6 @@ File format specifications available at http://standards.iso.org/ittf/PubliclyAv
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>2048</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>65(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -91,10 +68,6 @@ File format specifications available at http://standards.iso.org/ittf/PubliclyAv
       <ByteSequenceID>449</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>62(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}31</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -102,9 +75,6 @@ File format specifications available at http://standards.iso.org/ittf/PubliclyAv
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>2048</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>45(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -116,10 +86,6 @@ File format specifications available at http://standards.iso.org/ittf/PubliclyAv
       <ByteSequenceID>451</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>62(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}31</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -127,9 +93,6 @@ File format specifications available at http://standards.iso.org/ittf/PubliclyAv
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>2048</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>65(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

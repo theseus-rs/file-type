@@ -1,24 +1,15 @@
 <FileFormat>
   <FormatID>776</FormatID>
   <FormatName>Windows Portable Executable</FormatName>
-  <FormatVersion/>
   <FormatAliases>Common Object File Format, COFF, EXE</FormatAliases>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>A Windows Portable Executable (PE) is synonymous with a program or application that can potentially be run on Microsoft Windows. An executable is a file-format object that is compiled from source code files written in languages such as C, C++, Golang, or Rust among others. A PE is native to Windows and like other executables or programs, provided a means of distributing applications that performed a certain task or tasks for a specific operating system. Executables are compiled to a certain register width, e.g. 8-bit, 16-bit, 32-bit or 64-bit; which impacts the size of variables in memory, and may impact compatibilty on older or newer versions of an operating system, respectively. Executables might require external libraries or configuration to function and so the technical environment needed to run an executable should be documented and understood in order to preserve functionality over time and to protect future potential users of these files. The Windows Portable Executable format is used for the 'executable' component of a program, as well as external libraries such as dynamic link libraries (DLLs) other potential extensions are listed as '.acm, .ax, .cpl, .dll, .drv, .efi, .exe, .mui, .ocx, .scr, .sys, .tsp, .mun') (https://en.wikipedia.org/w/index.php?title=Portable_Executable&amp;oldid=1182679182). Despite the name, PE files will not run on other operating systems such as MacOS and Linux. Application programs must be compiled to a specific operating system architecture to run on different environments, and PE files will have been compiled to a specific Windows architecture, e.g. 32-bit (fmt-899) or 64-bit (fmt-900).</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>17 Feb 2006</ProvenanceSourceDate>
   <ProvenanceDescription>04/2024 (v.118): Description added as part of PRONOM Research Week 2023. Submitted by Ross Spencer.</ProvenanceDescription>
   <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
   <FormatNote>This specification describes the structure of executable (image) files and object files under the Windows family of operating systems. These files are referred to as Portable Executable (PE) and Common Object File Format (COFF) files, respectively- https://learn.microsoft.com/en-us/windows/win32/debug/pe-format</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.microsoft.portable-executable</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -36,24 +27,19 @@
     <DisplayText>Microsoft Corporation, 1999, Microsoft Portable Executable and Common Object File Format, Revision 6.0</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Feb 1999</PublicationDate>
     <TitleText>Microsoft Portable Executable and Common Object File Format, Revision 6.0</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>93</AuthorID>
-      <AuthorName/>
       <OrganisationName>Microsoft Corporation</OrganisationName>
       <AuthorCompoundName>Microsoft Corporation</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>93</PublisherID>
-      <PublisherName/>
       <OrganisationName>Microsoft Corporation</OrganisationName>
       <PublisherCompoundName>Microsoft Corporation</PublisherCompoundName>
     </Publisher>
@@ -66,17 +52,10 @@
     <AvailabilityNote>https://learn.microsoft.com/en-us/windows/win32/debug/pe-format</AvailabilityNote>
     <PublicationDate>25 Feb 2023</PublicationDate>
     <TitleText>Portable Executable Format</TitleText>
-    <DocumentIpr/>
     <DocumentNote>This specification describes the structure of executable (image) files and object files under the Windows family of operating systems. These files are referred to as Portable Executable (PE) and Common Object File Format (COFF) files, respectively.</DocumentNote>
-    <DocumentIdentifier>
-      <Identifier/>
-      <IdentifierType/>
-    </DocumentIdentifier>
+    <DocumentIdentifier/>
     <Publisher>
       <PublisherID>0</PublisherID>
-      <PublisherName/>
-      <OrganisationName/>
-      <PublisherCompoundName/>
     </Publisher>
   </Document>
   <ExternalSignature>
@@ -102,10 +81,6 @@
       <ByteSequenceID>256</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D5A*50450000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -125,12 +100,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>774</RelatedFormatID>
     <RelatedFormatName>MS-DOS Executable</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>775</RelatedFormatID>
     <RelatedFormatName>Windows New Executable</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

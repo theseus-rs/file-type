@@ -2,25 +2,15 @@
   <FormatID>1111</FormatID>
   <FormatName>National Imagery Transmission Format</FormatName>
   <FormatVersion>1.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster), Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The National Imagery Transmission Format Standard (NITFS) is the standard for formatting
 digital imagery and imagery-related products and exchanging them among members of the US Intelligence
 Community (IC) and other departments and agencies of the United States Government. The NITF provides a common basis for storage and digital interchange of images and associated data. The NITF can be used as a standard message format for dissemination of images and associated data (text, symbols, labels) via digital communications.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>19 Aug 2011</ProvenanceSourceDate>
   <ProvenanceDescription>Ongoing DROID signature research.</ProvenanceDescription>
   <LastUpdatedDate>19 Aug 2011</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.nitf</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -42,10 +32,6 @@ Community (IC) and other departments and agencies of the United States Governmen
       <ByteSequenceID>663</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4E49544630312E3130{16}[30:33][30:39][30:32][30:39][30:35][30:39][30:35][30:39]5A{3}[30:39][30:39]{80}(43|52|53|54|55)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

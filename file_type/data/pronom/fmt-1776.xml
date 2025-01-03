@@ -3,14 +3,10 @@
   <FormatName>Extensible Markup Language</FormatName>
   <FormatVersion>1.1</FormatVersion>
   <FormatAliases>XML (1.1)</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Text (Mark-up)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Extensible Markup Language (XML) version 1.1 was developed by World Wide Web Consortium (W3C) in 2004. It is a general purpose markup language for creating other special purpose markup languages, it derived from SGML (ISO 8879). XML 1.1 was designed to be used when features of XML 1.0 [fmt/101] do not permit certain functionalities. It is structured to use any version of Unicode, in basic terms, whereas XML 1.0 provided a rigid definition of names, wherein everything that was not permitted was forbidden, XML 1.1 names are designed so that everything that is not forbidden (for a specific reason) is permitted. It also adds checking of normalization, and follows the Unicode line ending rules more closely. Authors are encouraged to generate XML 1.0 documents if the added flexibility is not required. XML Parsers are expected to understand both XML 1.0 and XML 1.1. It typically begins with an XML declaration, defining the XML version and character set used. This may be followed by a Document Type declaration, containing or pointing to a markup declaration for the class of document. An XML document is said to be well-formed if it conforms to the XML specification; it is said to be valid if it additionally complies with a defined markup declaration. The formatting and transformation of XML documents can be controlled using the Extensible Stylesheet Language (XSL).</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
   <ReleaseDate>04 Feb 2004</ReleaseDate>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Stadtarchiv Hof / Stadtarchiv Hof</ProvenanceName>
   <ProvenanceSourceDate>04 Oct 2022</ProvenanceSourceDate>
@@ -21,8 +17,6 @@
 https://www.loc.gov/preservation/digital/formats/fdd/fdd000264.shtml
 
 https://web.archive.org/web/20210517154945/https://developer.apple.com/documentation/uniformtypeidentifiers/uttype/3551601-xml</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/xml</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -57,9 +51,6 @@ https://web.archive.org/web/20210517154945/https://developer.apple.com/documenta
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>3</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C3F786D6C(20|09|0A|0D){0-1}76657273696F6E{0-1}3D{0-1}(22|27)312E31(22|27)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -73,6 +64,5 @@ https://web.archive.org/web/20210517154945/https://developer.apple.com/documenta
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>931</RelatedFormatID>
     <RelatedFormatName>Synchronized Multimedia Integration Language (Generic)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

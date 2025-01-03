@@ -2,15 +2,8 @@
   <FormatID>2472</FormatID>
   <FormatName>Roxio Label Creator Project File</FormatName>
   <FormatVersion>6-7</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Roxio Label Creator Project File is format used for storing project files produced by Roxio's Label Creator software, a software used for creating designs intended for jewel cases and disc labels. There are several known versions of this format with earlier versions being stored as OLE2 container format, such as the one this record describes.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Esri / Esri</ProvenanceName>
   <ProvenanceSourceDate>25 Feb 2022</ProvenanceSourceDate>
@@ -19,8 +12,6 @@
   <FormatNote>https://archive.org/details/roxio_label_creator/04_roxio_cd_label_creator.jpeg
 
 http://fileformats.archiveteam.org/wiki/JWL</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1645</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,7 +25,6 @@ http://fileformats.archiveteam.org/wiki/JWL</FormatNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>767</RelatedFormatID>
     <RelatedFormatName>OLE2 Compound Document Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>

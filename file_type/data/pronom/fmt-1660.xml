@@ -1,26 +1,15 @@
 <FileFormat>
   <FormatID>2487</FormatID>
   <FormatName>Arts &amp; Letters Clip Art Library</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Arts &amp; Letters Clip Art Library format is a multi-image vector graphics format associated with the Arts &amp; Letters  application. Arts &amp; Letters is a computer software for editing vector graphics. It was created by Computer Support Corporation and uses technology born on mainframes that migrated to the DOS platform in the 1980's.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>29 Mar 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>04 Apr 2022</LastUpdatedDate>
   <FormatNote>http://fileformats.archiveteam.org/wiki/Arts_%26_Letters_clip_art_library
 
 https://www.arts-letters.com/about/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1660</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,9 +30,6 @@ EOF; Offset: 0; Magic Bytes; 'ÿÿ'</SignatureNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>435553544F4D00</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -51,9 +37,6 @@ EOF; Offset: 0; Magic Bytes; 'ÿÿ'</SignatureNote>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>FFFF</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

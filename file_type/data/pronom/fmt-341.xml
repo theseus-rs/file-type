@@ -2,23 +2,14 @@
   <FormatID>1086</FormatID>
   <FormatName>Macintosh PICT Image</FormatName>
   <FormatVersion>2.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>A graphics format native to Macintosh computers encapsulating the functionality of QuickDraw 2 which supports monochrome and 8 bit color bitmaps.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
   <ProvenanceSourceDate>21 Apr 2011</ProvenanceSourceDate>
   <ProvenanceDescription>04/2024 (v.118)- Description created and links added as part of PRONOM Research Week 2023. Submitted by Brigham Young University.</ProvenanceDescription>
   <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
   <FormatNote>http://justsolve.archiveteam.org/wiki/PICT</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>com.apple.pict</Identifier>
     <IdentifierType>Apple Uniform Type Identifier</IdentifierType>
@@ -54,10 +45,6 @@
       <ByteSequenceID>584</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>522</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>001102FF0C00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

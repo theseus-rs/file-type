@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2285</FormatID>
   <FormatName>Comic Book Archive</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Comic Book Archive (or comic book reader) files are zipped/compressed folders containing a number image files (although folders may be used to group images), for the purpose of the sequential viewing of these images, usually for comic books. They use a naming system which allows them to be displayed in order when used with a comic book reader, such as CD display. Comic book archive files are not a distinct file format; only the file extension differentiates them from the compressed file type they use. Comic book archive files use the following compression: .cb7 (7z), .cba (ACE), .cbr (RAR), .cbt (TAR), .cbz ( ZIP).</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1462</Identifier>
     <IdentifierType>PUID</IdentifierType>

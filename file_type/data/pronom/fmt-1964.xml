@@ -1,26 +1,17 @@
 <FileFormat>
   <FormatID>2829</FormatID>
   <FormatName>JPH (JPEG 2000 part 15)</FormatName>
-  <FormatVersion/>
   <FormatAliases>JPEG HTJ2K, High-Throughput JPEG 2000</FormatAliases>
   <FormatFamilies>JPEG 2000</FormatFamilies>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Defined in ISO/IEC 15444-15:2019, JPH/HTJ2K is an extension to JPEG 2000 intended as a royalty-free format for high-throughput, lossless image encoding.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Preservica / Preservica</ProvenanceName>
   <ProvenanceSourceDate>08 Feb 2024</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>08 Feb 2024</LastUpdatedDate>
   <FormatNote>https://www.iana.org/assignments/media-types/image/jph
 https://www.iso.org/standard/76621.html
 https://loc.gov/preservation/digital/formats/fdd/fdd000566.shtm</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fdd000566</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -47,9 +38,6 @@ https://loc.gov/preservation/digital/formats/fdd/fdd000566.shtm</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0000000C6A5020200D0A870A{4}667479706A706820</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

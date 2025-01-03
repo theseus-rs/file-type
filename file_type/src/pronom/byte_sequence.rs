@@ -32,15 +32,16 @@ pub struct ByteSequence {
     #[serde(rename = "ByteSequenceID")]
     id: usize,
     position_type: PositionType,
-    #[serde(deserialize_with = "deserialize_option_usize")]
+    #[serde(skip_serializing_if = "Option::is_none", deserialize_with = "deserialize_option_usize")]
     offset: Option<usize>,
-    #[serde(deserialize_with = "deserialize_option_usize")]
+    #[serde(skip_serializing_if = "Option::is_none", deserialize_with = "deserialize_option_usize")]
     max_offset: Option<usize>,
-    #[serde(deserialize_with = "deserialize_option_usize")]
+    #[serde(skip_serializing_if = "Option::is_none", deserialize_with = "deserialize_option_usize")]
     indirect_offset_location: Option<usize>,
-    #[serde(deserialize_with = "deserialize_option_usize")]
+    #[serde(skip_serializing_if = "Option::is_none", deserialize_with = "deserialize_option_usize")]
     indirect_offset_length: Option<usize>,
     #[serde(
+        skip_serializing_if = "Option::is_none",
         deserialize_with = "deserialize_endianness",
         serialize_with = "serialize_endianness"
     )]

@@ -2,23 +2,14 @@
   <FormatID>555</FormatID>
   <FormatName>Paint Shop Pro Image</FormatName>
   <FormatVersion>4.00</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Paint Shop Pro (PSP) file format is an extremely rich graphics file format that is capable of describing a multi-layered image document in minute detail. The format facilitates the retention of a great deal of information, including layer bitmaps, layer masks, layer vector data, layer adjustment data, layer grouping information, multiple sample thumbnails, multiple sample composite images, image dimension, image resolution, creator name, copyright owner, image description, masks, selections, alpha channels, etc. The PSP format supports storing image bitmaps in an uncompressed format or, to reduce the size of the file, in either Run Length Encoding (RLE) or LZ77 compressed format. As each of these is a lossless storage method, the PSP format always maintains the original quality of stored image documents. Finally, the PSP format supports storing image bitmaps at a variety of bit depths, including 24-bit colour (16.7 million colours), 8-bit colour (256 colour), 8-bit greyscale (256 greys), 4-bit colour (16 colours), and 1-bit colour (2 colours).</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>10 Oct 2003</ProvenanceSourceDate>
   <ProvenanceDescription>Specifications link: http://www.telegraphics.com.au/svn/pspformat/trunk/psp6spec.pdf</ProvenanceDescription>
   <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>x-fmt/377</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -36,10 +27,6 @@
       <ByteSequenceID>630</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>5061696E742053686F702050726F20496D6167652046696C650A1A00000000000400</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

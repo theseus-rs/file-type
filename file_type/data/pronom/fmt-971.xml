@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>1776</FormatID>
   <FormatName>Microsoft Windows Movie Maker File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Video</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Windows Movie Maker is video editing software by Microsoft. A .mswmm file won't typically contain any source audio or video data, rather it will contain references or pointers to the source data. For this reason extracting a .mswmm file from its context may result in the movie being unable to play. A movie exported to a video format from within the application will contain the appropriate data for portable playback.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>22 Sep 2016</ProvenanceSourceDate>
   <ProvenanceDescription>This format is identifiable via a container signature in DROID 6 and later.</ProvenanceDescription>
   <LastUpdatedDate>22 Sep 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/971</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2483</FormatID>
   <FormatName>Microsoft Help Contents File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Microsoft Help Contents Files store topics for a corresponding help document, which has file extension .hlp. They are found within applications which use Microsoft Help.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
   <ProvenanceSourceDate>24 Mar 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>24 Mar 2022</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1656</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3A42617365{1-259}2E(484C50|686C70)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

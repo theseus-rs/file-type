@@ -19,29 +19,32 @@ pub struct CompressionType {
     id: usize,
     #[serde(rename = "CompressionName")]
     name: String,
-    #[serde(rename = "CompressionVersion")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionVersion")]
     version: String,
-    #[serde(rename = "CompressionAliases")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionAliases")]
     aliases: String,
-    #[serde(rename = "CompressionFamilies")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionFamilies")]
     families: String,
+    #[serde(skip_serializing_if = "String::is_empty")]
     description: String,
     lossiness: Lossiness,
     #[serde(
+        skip_serializing_if = "Option::is_none",
         deserialize_with = "deserialize_option_naive_date",
         serialize_with = "serialize_option_naive_date"
     )]
     release_date: Option<Date>,
     #[serde(
+        skip_serializing_if = "Option::is_none",
         deserialize_with = "deserialize_option_naive_date",
         serialize_with = "serialize_option_naive_date"
     )]
     withdrawn_date: Option<Date>,
-    #[serde(rename = "CompressionDocumentation")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionDocumentation")]
     documentation: String,
-    #[serde(rename = "CompressionIpr")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionIpr")]
     ipr: String,
-    #[serde(rename = "CompressionNote")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionNote")]
     note: String,
     #[serde(rename = "CompressionIdentifier")]
     identifiers: Vec<DocumentIdentifier>,

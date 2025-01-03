@@ -2,15 +2,8 @@
   <FormatID>2448</FormatID>
   <FormatName>AHX-Module Format (formerly THX module format)</FormatName>
   <FormatVersion>0-2</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Music files created using AHX (Abyss' Highest Experience) software, which is used to create synthesised music similar to that played on Commodore 64 systems. The software was previously known as THX, but was changed after a legal dispute with LucasFilm.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>17 Feb 2022</ProvenanceSourceDate>
@@ -19,8 +12,6 @@
   <FormatNote>Specification:  http://ftp.modland.com/pub/documents/format_documentation/Abyss%27%20Highest%20eXperience%20(.ahx).txt
 
 http://fileformats.archiveteam.org/wiki/AHX_(Abyss)</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1621</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,8 +30,6 @@ http://fileformats.archiveteam.org/wiki/AHX_(Abyss)</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>544858</ByteSequenceValue>
     </ByteSequence>

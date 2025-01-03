@@ -1,20 +1,11 @@
 <FileFormat>
   <FormatID>2587</FormatID>
   <FormatName>Apple Partition Map ISO 9660 Hybrid</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Apple Partition Map ISO 9660 Hybrid is a hybrid to describing the contents and structure of Apple Partition Map (APM) partition scheme and ISO9660 file system for optical disc media. The hybrid system allows for ISO9660 as a primary volume descriptor and an Apple Partition Map, allowing the disc to work on different types of computers. Apple Partition Map was developed by Apple in around 1988 with the introduction of Macintosh II. ISO 9660 was written by International Organization for Standardization (ISO) and considered an international technical standard available for many operating systems. A disk image is a uncompressed copy of the contents of a disk or a folder, it can facilitate certain types of backup and recovery strategies. Please see ID: fdd000348 from Library of Congress and other links attached to this entry for further information.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>17 Aug 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>17 Aug 2022</LastUpdatedDate>
   <FormatNote>http://fileformats.archiveteam.org/wiki/Apple_Partition_Map
 
@@ -25,8 +16,6 @@ https://en.wikipedia.org/wiki/Apple_Disk_Image
 https://en.wikipedia.org/wiki/Optical_disc_image
 
 https://en.wikipedia.org/wiki/ISO_9660</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1741</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -55,9 +44,6 @@ https://en.wikipedia.org/wiki/ISO_9660</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>32768</Offset>
       <MaxOffset>70468</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>{0-16}45520200{508}504D4344303031{1-16384}FF4344303031</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -70,9 +56,6 @@ https://en.wikipedia.org/wiki/ISO_9660</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>32768</Offset>
       <MaxOffset>70468</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>{0-16}45520800{2044}504D4344303031{1-16384}FF4344303031</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -80,12 +63,10 @@ https://en.wikipedia.org/wiki/ISO_9660</FormatNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1255</RelatedFormatID>
     <RelatedFormatName>ISO 9660 Disk Image File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2586</RelatedFormatID>
     <RelatedFormatName>Apple Partition Map Disk Image</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>1986</FormatID>
   <FormatName>Nullsoft Streaming Video</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Video</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Nullsoft Streaming Video (NSV) format is a multimedia container format designed to enable streaming of video and audio.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2018</ProvenanceSourceDate>
   <ProvenanceDescription>04/2024 (v.118)- Signature named 'Nullsoft Video with optional header' updated to extend byte range between two strings. Submitted by Preservica.</ProvenanceDescription>
   <LastUpdatedDate>18 Apr 2024</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1176</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4E535666{24-16384}4E535673</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -52,9 +38,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4E535673</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -62,6 +45,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>687</RelatedFormatID>
     <RelatedFormatName>MPEG 1/2 Audio Layer 3</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

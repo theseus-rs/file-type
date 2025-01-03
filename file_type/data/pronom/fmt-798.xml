@@ -3,22 +3,12 @@
   <FormatName>The Neuroimaging Informatics Technology Initiative File Format</FormatName>
   <FormatVersion>1</FormatVersion>
   <FormatAliases>NIfTI-1 Data Format</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Dataset</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>A Neuroimaging format commonly used in medical industry for the analysis of MRI data.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>University of Edinburgh / University of Edinburgh</ProvenanceName>
   <ProvenanceSourceDate>26 Nov 2015</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>11 Aug 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/798</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +27,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>344</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>6E693100</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -52,9 +39,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>344</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>6E2B3100</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

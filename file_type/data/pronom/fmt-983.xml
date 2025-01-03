@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>1788</FormatID>
   <FormatName>NIB File Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Mark-up)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The NIB file format is used by Interface Builder, a software development application for Apple's Mac OS X operating system. The NIB objects are stored as an XML property list, they are unpackaged upon running an application.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>06 Feb 2017</ProvenanceSourceDate>
   <ProvenanceDescription>Versions prior to DROID 6.3 may not identify this format correctly</ProvenanceDescription>
   <LastUpdatedDate>06 Feb 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/983</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){8-256}3C706C6973742076657273696F6E3D22312E30223E</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -47,9 +33,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>8</Offset>
       <MaxOffset>256</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>494253797374656D2056657273696F6E</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -63,6 +46,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1784</RelatedFormatID>
     <RelatedFormatName>XML Property List</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

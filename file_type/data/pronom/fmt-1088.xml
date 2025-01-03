@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1896</FormatID>
   <FormatName>Visual Basic (VB) File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>A .vb file is typically a source file written in the Visual Basic programming Language. It contains Visual Basic code but doesn't have a header or mandatory elements that can be used by PRONOM for identification purposes.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of Scotland / National Library of Scotland</ProvenanceName>
   <ProvenanceSourceDate>21 Aug 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>21 Aug 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1088</Identifier>
     <IdentifierType>PUID</IdentifierType>

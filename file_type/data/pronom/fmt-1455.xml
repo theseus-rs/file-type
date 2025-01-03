@@ -1,25 +1,14 @@
 <FileFormat>
   <FormatID>2278</FormatID>
   <FormatName>Primavera P6 Project Management XER File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Database</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>An ASCII based file used to store project information with accompanying tables and fields. Primavera P6 is a project management software which replaced the older P3 software in 2007. It has been supported by Oracle since 2008. This is the XER format however projects can also be saved in XML.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
   <FormatNote>https://ippm.dk/ikke-kategoriseret/crash-course-to-the-primavera-xer-format
 http://fileformats.archiveteam.org/wiki/Primavera_P6</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1455</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,9 +27,6 @@ http://fileformats.archiveteam.org/wiki/Primavera_P6</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>45524D484452</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -48,9 +34,6 @@ http://fileformats.archiveteam.org/wiki/Primavera_P6</FormatNote>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0D0A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

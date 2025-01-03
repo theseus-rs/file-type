@@ -2,19 +2,11 @@
   <FormatID>2371</FormatID>
   <FormatName>Daisy-Dot Font File</FormatName>
   <FormatVersion>I and II</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Font</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Daisy-Dot is a text processing program written by Roy Goldman for the Atari line of computers enabling dot-matrix printers to utilise near letter quality (NLQ) printing technology. Three versions of Daisy-Dot were released between 1987 and 1990. A number of Daisy-Dot font files are pre-packaged with the text processor while others can be user-generated using the Daisy-Dot font editor. Daisy-Dot I and II fonts can be identified by the ASCII signature 'DAISY-DOT NLQ FONT'.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>08 Nov 2021</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>08 Nov 2021</LastUpdatedDate>
   <FormatNote>http://fileformats.archiveteam.org/wiki/Daisy-Dot_font
 
@@ -27,8 +19,6 @@ https://inverseatascii.files.wordpress.com/2018/08/s4e11-prt-dd1-manual-sanserif
 https://ia803009.us.archive.org/7/items/daisydotii/Daisy%20Dot%20II%20manual.pdf
 
 http://85.11.68.68/stuff/collections/PoolDisk%20Too/CD2/UMICH/TEXT/PRINTING/DDOT2/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1546</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -47,9 +37,6 @@ http://85.11.68.68/stuff/collections/PoolDisk%20Too/CD2/UMICH/TEXT/PRINTING/DDOT
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>44414953592D444F54204E4C5120464F4E54</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

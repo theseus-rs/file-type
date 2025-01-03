@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>1960</FormatID>
   <FormatName>4X Movie File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Video</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The 4X Movie format is a proprietary video format developed by 4X Technologies, primarily used for full motion video within computer and console video games.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>26 Jul 2018</ProvenanceSourceDate>
   <ProvenanceDescription>08/2023 (v.113) - Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica.</ProvenanceDescription>
   <LastUpdatedDate>14 Aug 2023</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1150</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -42,9 +31,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>52494646{4}34584D564C495354{4}48454144</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -52,6 +38,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2741</RelatedFormatID>
     <RelatedFormatName>Resource Interchange File Format (RIFF)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>
