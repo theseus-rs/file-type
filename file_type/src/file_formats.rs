@@ -389,22 +389,23 @@ mod tests {
 
         let file_formats = file_formats
             .iter()
-            .enumerate()
-            .map(|(index, file_format)| {
-                let index = index + 1;
+            .map(|file_format| {
                 let id = file_format.puid();
                 let name = file_format.name();
                 let media_types = file_format.media_types().join(", ");
                 let extensions = file_format.extensions().join(", ");
-                format!("| {index} | {id} | {name} | {extensions} | {media_types} |")
+                format!("| {id} | {name} | {extensions} | {media_types} |")
             })
             .collect::<Vec<String>>();
 
         let file_formats = file_formats.join("\n");
-        let supported_formats = format!(
-            "| | id | Name | Extensions | Media Types |\n| ---- | ---- | ---- | ----------- | ---------- |\n{file_formats}"
-        );
-        // Read the existing file contents
+        let supported_formats = [
+            format!("File Types: {}\n", FILE_FORMATS.len()),
+            "| id | Name | Extensions | Media Types |".to_string(),
+            "| ---- | ---- | ----------- | ---------- |".to_string(),
+            file_formats,
+        ]
+        .join("\n");
         let readme = read_to_string(file_name.clone())?;
         let readme = replace_file_types(&readme, &supported_formats);
         std::fs::write(file_name, readme)?;
