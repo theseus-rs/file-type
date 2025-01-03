@@ -1,0 +1,20 @@
+[workspace]
+git_release_enable = false
+dependencies_update = true # run `cargo update` in the release PR
+
+git_release_body = """
+{{ changelog }}
+{% if remote.contributors %}
+### Contributors
+{% for contributor in remote.contributors %}
+* @{{ contributor.username }}
+{% endfor %}
+{% endif %}
+"""
+
+[[package]]
+name = "file_type"
+changelog_include = []
+changelog_path = "./CHANGELOG.md"
+changelog_update = true
+git_release_enable = true
