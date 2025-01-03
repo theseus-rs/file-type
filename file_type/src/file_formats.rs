@@ -356,4 +356,33 @@ mod tests {
         assert_eq!(file_format.extensions(), vec!["png".to_string()]);
         Ok(())
     }
+
+    #[test]
+    fn create_supported_formats() -> Result<()> {
+        let file_name = PathBuf::from(CRATE_DIR)
+            .join("..")
+            .join("../../FILE_TYPES.md");
+        let mut file_formats = FILE_FORMATS.values().collect::<Vec<_>>();
+        file_formats.sort_by_key(|a| a.name().to_lowercase());
+
+        let file_formats = file_formats
+            .iter()
+            .enumerate()
+            .map(|(index, file_format)| {
+                let index = index + 1;
+                let id = file_format.puid();
+                let name = file_format.name();
+                let media_types = file_format.media_types().join(", ");
+                let extensions = file_format.extensions().join(", ");
+                format!("| {index} | {id} | {name} | {extensions} | {media_types} |")
+            })
+            .collect::<Vec<String>>();
+
+        let file_formats = file_formats.join("\n");
+        let supported_formats = format!(
+            "| | id | Name | Extensions | Media Types |\n| ---- | ---- | ---- | ----------- | ---------- |\n{file_formats}"
+        );
+        std::fs::write(file_name, supported_formats)?;
+        Ok(())
+    }
 }

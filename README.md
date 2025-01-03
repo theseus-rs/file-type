@@ -1,3 +1,7 @@
+<script>
+import file_types from './FILE_TYPES.md'
+</script>
+
 # File Type
 
 [![ci](https://github.com/theseus-rs/file-type/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/theseus-rs/file-type/actions/workflows/ci.yml)
@@ -36,6 +40,10 @@ assert_eq!(file_type.name(), "Text");
 assert_eq!(file_type.media_types(), vec!["text/plain"]);
 assert_eq!(file_type.extensions(), Vec::<String>::new());
 ```
+
+# Supported File Types
+
+<!--@include:./FILE_TYPES.md-->
 
 ## Safety
 
