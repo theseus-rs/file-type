@@ -1,0 +1,35 @@
+<FileFormat>
+  <FormatID>792706532513235753</FormatID>
+  <FormatName>application/rdf+xml</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription/>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName/>
+  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>apache-httpd/792706532513235753</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/rdf+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

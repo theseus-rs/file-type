@@ -1,0 +1,40 @@
+<FileFormat>
+  <FormatID>10466185904492655952</FormatID>
+  <FormatName>model/vrml</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription/>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName/>
+  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>apache-httpd/10466185904492655952</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>model/vrml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wrl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1</ExternalSignatureID>
+    <Signature>vrml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

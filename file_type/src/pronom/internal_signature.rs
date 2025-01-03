@@ -17,6 +17,21 @@ pub struct InternalSignature {
 }
 
 impl InternalSignature {
+    /// Create a new internal signature.
+    pub fn new<S: AsRef<str>>(
+        id: usize,
+        name: S,
+        note: S,
+        byte_sequences: Vec<ByteSequence>,
+    ) -> Self {
+        Self {
+            id,
+            name: name.as_ref().to_string(),
+            note: note.as_ref().to_string(),
+            byte_sequences,
+        }
+    }
+
     /// Get the ID of the internal signature.
     #[must_use]
     pub fn id(&self) -> usize {
@@ -84,5 +99,22 @@ mod test {
         let byte_sequences = internal_signature.byte_sequences();
         assert_eq!(byte_sequences.len(), 0);
         Ok(())
+    }
+
+    #[test]
+    fn test_new() {
+        let internal_signature = InternalSignature::new(
+            1687,
+            "Tweet JSON (Raw JSON)",
+            "The signature assumes a starting { character",
+            vec![],
+        );
+        assert_eq!(internal_signature.id(), 1687);
+        assert_eq!(internal_signature.name(), "Tweet JSON (Raw JSON)");
+        assert_eq!(
+            internal_signature.note(),
+            "The signature assumes a starting { character"
+        );
+        assert_eq!(internal_signature.byte_sequences().len(), 0);
     }
 }

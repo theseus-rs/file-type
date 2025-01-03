@@ -10,6 +10,14 @@ pub struct DocumentIdentifier {
 }
 
 impl DocumentIdentifier {
+    /// Create a new document identifier
+    pub fn new<S: AsRef<str>>(identifier: S, r#type: S) -> Self {
+        Self {
+            identifier: identifier.as_ref().to_string(),
+            r#type: r#type.as_ref().to_string(),
+        }
+    }
+
     /// Get the identifier
     #[must_use]
     pub fn identifier(&self) -> &str {
@@ -47,5 +55,12 @@ mod test {
         assert_eq!(document_identifier.identifier, "application/json");
         assert_eq!(document_identifier.r#type(), "MIME");
         Ok(())
+    }
+
+    #[test]
+    fn test_new() {
+        let document_identifier = DocumentIdentifier::new("application/json", "MIME");
+        assert_eq!(document_identifier.identifier, "application/json");
+        assert_eq!(document_identifier.r#type, "MIME");
     }
 }

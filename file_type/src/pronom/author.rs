@@ -13,6 +13,16 @@ pub struct Author {
 }
 
 impl Author {
+    /// Create a new author
+    pub fn new<S: AsRef<str>>(id: usize, name: S, organisation_name: S, compound_name: S) -> Self {
+        Self {
+            id,
+            name: name.as_ref().to_string(),
+            organisation_name: organisation_name.as_ref().to_string(),
+            compound_name: compound_name.as_ref().to_string(),
+        }
+    }
+
     /// Get the author ID
     #[must_use]
     pub fn id(&self) -> usize {
@@ -67,5 +77,14 @@ mod test {
         assert_eq!(author.organisation_name(), "Organization");
         assert_eq!(author.compound_name(), "Compound");
         Ok(())
+    }
+
+    #[test]
+    fn test_new() {
+        let author = Author::new(1, "Author", "Organization", "Compound");
+        assert_eq!(author.id(), 1);
+        assert_eq!(author.name(), "Author");
+        assert_eq!(author.organisation_name(), "Organization");
+        assert_eq!(author.compound_name(), "Compound");
     }
 }

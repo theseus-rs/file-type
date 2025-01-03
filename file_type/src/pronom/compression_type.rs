@@ -48,6 +48,40 @@ pub struct CompressionType {
 }
 
 impl CompressionType {
+    /// Create a new compression type
+    #[expect(clippy::too_many_arguments)]
+    pub fn new<S: AsRef<str>>(
+        id: usize,
+        name: S,
+        version: S,
+        aliases: S,
+        families: S,
+        description: S,
+        lossiness: Lossiness,
+        release_date: Option<Date>,
+        withdrawn_date: Option<Date>,
+        documentation: S,
+        ipr: S,
+        note: S,
+        identifiers: Vec<DocumentIdentifier>,
+    ) -> Self {
+        Self {
+            id,
+            name: name.as_ref().to_string(),
+            version: version.as_ref().to_string(),
+            aliases: aliases.as_ref().to_string(),
+            families: families.as_ref().to_string(),
+            description: description.as_ref().to_string(),
+            lossiness,
+            release_date,
+            withdrawn_date,
+            documentation: documentation.as_ref().to_string(),
+            ipr: ipr.as_ref().to_string(),
+            note: note.as_ref().to_string(),
+            identifiers,
+        }
+    }
+
     /// Get the compression ID
     #[must_use]
     pub fn id(&self) -> usize {
@@ -188,5 +222,42 @@ mod test {
         assert_eq!(identifier.identifier(), "x-cmp/3");
         assert_eq!(identifier.r#type(), "PUID");
         Ok(())
+    }
+
+    #[test]
+    fn test_new() {
+        let compression_types = CompressionType::new(
+            3,
+            "Pulse Code Modulation",
+            "",
+            "",
+            "",
+            "Uncompressed audio encoding method, which uses linear sampling at a wide range of sampling frequencies and resolutions.",
+            Lossiness::Lossless,
+            Date::new(2001, 7, 4).ok(),
+            None,
+            "",
+            "",
+            "",
+            vec![DocumentIdentifier::new("x-cmp/3", "PUID")],
+        );
+        assert_eq!(compression_types.id(), 3);
+        assert_eq!(compression_types.name(), "Pulse Code Modulation");
+        assert_eq!(compression_types.version(), "");
+        assert_eq!(compression_types.aliases(), "");
+        assert_eq!(compression_types.families(), "");
+        assert_eq!(compression_types.description(), "Uncompressed audio encoding method, which uses linear sampling at a wide range of sampling frequencies and resolutions.");
+        assert!(matches!(compression_types.lossiness(), Lossiness::Lossless));
+        assert_eq!(compression_types.release_date(), Date::new(2001, 7, 4).ok());
+        assert!(compression_types.withdrawn_date().is_none());
+        assert_eq!(compression_types.documentation(), "");
+        assert_eq!(compression_types.ipr(), "");
+        assert_eq!(compression_types.note(), "");
+
+        let identifiers = compression_types.identifiers();
+        assert_eq!(identifiers.len(), 1);
+        let identifier = &identifiers[0];
+        assert_eq!(identifier.identifier(), "x-cmp/3");
+        assert_eq!(identifier.r#type(), "PUID");
     }
 }

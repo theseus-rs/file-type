@@ -1,0 +1,60 @@
+<FileFormat>
+  <FormatID>13365785193952526073</FormatID>
+  <FormatName>audio/mpeg</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription/>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName/>
+  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>apache-httpd/13365785193952526073</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/mpeg</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mpga</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1</ExternalSignatureID>
+    <Signature>mp2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>2</ExternalSignatureID>
+    <Signature>mp2a</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>3</ExternalSignatureID>
+    <Signature>mp3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>4</ExternalSignatureID>
+    <Signature>m2a</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>5</ExternalSignatureID>
+    <Signature>m3a</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

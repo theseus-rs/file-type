@@ -7,6 +7,7 @@ mod pronom_report;
 mod report_format_detail;
 
 use crate::pronom_report::PronomReport;
+use anyhow::Result;
 use quick_xml::de::from_str;
 use quick_xml::se::Serializer;
 use rayon::prelude::*;
@@ -27,8 +28,8 @@ const CRATE_VERSION: &str = env!("CARGO_PKG_VERSION");
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
 const BASE_URL: &str = "https://www.nationalarchives.gov.uk/PRONOM/";
 
-/// Downloads PRONOM data and saves it to the data directory.
-fn main() {
+/// Downloads PRONOM data and saves it to the `file_type` crate data directory.
+fn main() -> Result<()> {
     initialize_tracing();
 
     let mut max_fmt_puid = 2009;
@@ -47,7 +48,8 @@ fn main() {
 
     let puid_ids = HashMap::from([("fmt", max_fmt_puid), ("x-fmt", max_x_fmt_puid)]);
 
-    export_data(puid_ids);
+    export_data(puid_ids)?;
+    Ok(())
 }
 
 fn initialize_tracing() {
@@ -69,24 +71,18 @@ fn initialize_tracing() {
         .init();
 }
 
-fn export_data(puid_types: HashMap<&str, i64>) {
+fn export_data(puid_types: HashMap<&str, i64>) -> Result<()> {
     let client = Client::new();
 
     for (puid_type, puid_range) in puid_types {
         let puid_type_url = format!("{BASE_URL}{puid_type}/");
         let new_dir = PathBuf::from(CRATE_DIR)
             .join("..")
+            .join("..")
             .join("file_type")
             .join("data")
             .join("pronom");
-
-        if let Err(e) = fs::create_dir_all(&new_dir) {
-            error!(
-                "Failed to create directory {}: {e}",
-                new_dir.to_string_lossy()
-            );
-            continue;
-        }
+        fs::create_dir_all(&new_dir)?;
 
         let tasks: Vec<_> = (1..=puid_range)
             .map(|index| {
@@ -97,35 +93,25 @@ fn export_data(puid_types: HashMap<&str, i64>) {
             .collect();
 
         tasks.par_iter().for_each(|(puid_url, file_name)| {
-            download_and_save_puid(&client, puid_url, file_name);
+            download_and_save_puid(&client, puid_url, file_name).unwrap_or_else(|error| {
+                error!("Failed to download and save {puid_url}: {error}");
+            });
         });
     }
+
+    Ok(())
 }
 
-fn download_and_save_puid(client: &Client, puid_url: &String, file_name: &PathBuf) {
+fn download_and_save_puid(client: &Client, puid_url: &String, file_name: &PathBuf) -> Result<()> {
     info!("{puid_url}");
 
-    let response = match client
+    let response = client
         .get(puid_url)
         .header("Accept", "text/xml")
         .header("User-Agent", format!("{CRATE_NAME}/{CRATE_VERSION}"))
         .timeout(Duration::from_secs(30))
-        .send()
-    {
-        Ok(response) => response,
-        Err(error) => {
-            error!("Failed to download {puid_url}: {error}");
-            return;
-        }
-    };
-
-    let xml = match response.text() {
-        Ok(text) => text,
-        Err(error) => {
-            error!("Failed to get text from response {puid_url}: {error}");
-            return;
-        }
-    };
+        .send()?;
+    let xml = response.text()?;
 
     let pronom_report: PronomReport = match from_str(&xml) {
         Ok(report) => report,
@@ -134,7 +120,7 @@ fn download_and_save_puid(client: &Client, puid_url: &String, file_name: &PathBu
                 "Not writing record {}: ({error})",
                 file_name.to_string_lossy()
             );
-            return;
+            return Ok(());
         }
     };
 
@@ -143,25 +129,9 @@ fn download_and_save_puid(client: &Client, puid_url: &String, file_name: &PathBu
     let mut buffer = String::new();
     let mut serializer = Serializer::new(&mut buffer);
     serializer.indent(' ', 2);
-
-    let xml = match file_format.serialize(serializer) {
-        Ok(_) => buffer,
-        Err(error) => {
-            error!(
-                "Failed to serialize file format {}: {error}",
-                file_name.to_string_lossy()
-            );
-            return;
-        }
-    };
-
-    if let Err(error) = File::create(file_name).and_then(|mut file| file.write_all(xml.as_bytes()))
-    {
-        error!(
-            "Failed to write file {}: {error}",
-            file_name.to_string_lossy()
-        );
-    }
+    file_format.serialize(serializer)?;
+    File::create(file_name).and_then(|mut file| file.write_all(buffer.as_bytes()))?;
+    Ok(())
 }
 
 #[cfg(test)]
@@ -172,6 +142,7 @@ mod tests {
     fn test_main() {
         env::set_var("MAX_FMT_PUID", "1");
         env::set_var("MAX_X_FMT_PUID", "1");
-        main();
+        let result = main();
+        assert!(result.is_ok());
     }
 }

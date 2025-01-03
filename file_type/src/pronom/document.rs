@@ -31,6 +31,38 @@ pub struct Document {
 }
 
 impl Document {
+    /// Create a new document
+    #[expect(clippy::too_many_arguments)]
+    pub fn new<S: AsRef<str>>(
+        id: usize,
+        display_text: S,
+        document_type: S,
+        availability_description: S,
+        availability_note: S,
+        publication_date: Option<Date>,
+        title_text: S,
+        ipr: S,
+        note: S,
+        identifier: DocumentIdentifier,
+        authors: Vec<Author>,
+        publisher: Publisher,
+    ) -> Self {
+        Self {
+            id,
+            display_text: display_text.as_ref().to_string(),
+            document_type: document_type.as_ref().to_string(),
+            availability_description: availability_description.as_ref().to_string(),
+            availability_note: availability_note.as_ref().to_string(),
+            publication_date,
+            title_text: title_text.as_ref().to_string(),
+            ipr: ipr.as_ref().to_string(),
+            note: note.as_ref().to_string(),
+            identifier,
+            authors,
+            publisher,
+        }
+    }
+
     /// Get the ID of the document
     #[must_use]
     pub fn id(&self) -> usize {
@@ -188,5 +220,56 @@ mod test {
         assert_eq!(publisher.organisation_name(), "OpenOffice.org");
         assert_eq!(publisher.compound_name(), "OpenOffice.org");
         Ok(())
+    }
+
+    #[test]
+    fn test_new() {
+        let document = Document::new(
+            11,
+            "OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Compound Document file format",
+            "Speculative",
+            "Public",
+            "",
+            Date::new(2004, 9, 15).ok(),
+            "OpenOffice.org's documentation of the Microsoft Compound Document file format",
+            "",
+            "",
+            DocumentIdentifier::new("sc.openoffice.org/compdocfileformat.pdf", "URL"),
+            vec![Author::new(103, "", "OpenOffice.org", "OpenOffice.org")],
+            Publisher::new(103, "", "OpenOffice.org", "OpenOffice.org"),
+        );
+        assert_eq!(document.id(), 11);
+        assert_eq!(document.display_text(), "OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Compound Document file format");
+        assert_eq!(document.document_type(), "Speculative");
+        assert_eq!(document.availability_description(), "Public");
+        assert_eq!(document.availability_note(), "");
+        assert_eq!(document.publication_date(), Date::new(2004, 9, 15).ok());
+        assert_eq!(
+            document.title_text(),
+            "OpenOffice.org's documentation of the Microsoft Compound Document file format"
+        );
+        assert_eq!(document.ipr(), "");
+        assert_eq!(document.note(), "");
+
+        let identifier = document.identifier();
+        assert_eq!(
+            identifier.identifier(),
+            "sc.openoffice.org/compdocfileformat.pdf"
+        );
+        assert_eq!(identifier.r#type(), "URL");
+
+        let authors = document.authors();
+        assert_eq!(authors.len(), 1);
+        let author = &authors[0];
+        assert_eq!(author.id(), 103);
+        assert_eq!(author.name(), "");
+        assert_eq!(author.organisation_name(), "OpenOffice.org");
+        assert_eq!(author.compound_name(), "OpenOffice.org");
+
+        let publisher = document.publisher();
+        assert_eq!(publisher.id(), 103);
+        assert_eq!(publisher.name(), "");
+        assert_eq!(publisher.organisation_name(), "OpenOffice.org");
+        assert_eq!(publisher.compound_name(), "OpenOffice.org");
     }
 }

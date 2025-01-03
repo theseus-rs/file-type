@@ -1,0 +1,60 @@
+<FileFormat>
+  <FormatID>16669843789120121892</FormatID>
+  <FormatName>application/vnd.ms-excel</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription/>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName/>
+  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>apache-httpd/16669843789120121892</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-excel</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xls</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1</ExternalSignatureID>
+    <Signature>xlm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>2</ExternalSignatureID>
+    <Signature>xla</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>3</ExternalSignatureID>
+    <Signature>xlc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>4</ExternalSignatureID>
+    <Signature>xlt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>5</ExternalSignatureID>
+    <Signature>xlw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

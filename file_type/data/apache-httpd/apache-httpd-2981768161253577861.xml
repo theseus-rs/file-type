@@ -1,0 +1,35 @@
+<FileFormat>
+  <FormatID>2981768161253577861</FormatID>
+  <FormatName>application/java-archive</FormatName>
+  <FormatVersion/>
+  <FormatAliases/>
+  <FormatFamilies/>
+  <FormatTypes/>
+  <FormatDisclosure/>
+  <FormatDescription/>
+  <BinaryFileFormat/>
+  <ByteOrders/>
+  <ReleaseDate/>
+  <WithdrawnDate/>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceName/>
+  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
+  <ProvenanceDescription/>
+  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <FormatNote/>
+  <FormatRisk/>
+  <TechnicalEnvironment/>
+  <FileFormatIdentifier>
+    <Identifier>apache-httpd/2981768161253577861</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/java-archive</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jar</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

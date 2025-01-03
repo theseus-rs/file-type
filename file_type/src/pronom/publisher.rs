@@ -13,6 +13,16 @@ pub struct Publisher {
 }
 
 impl Publisher {
+    /// Create a new publisher
+    pub fn new<S: AsRef<str>>(id: usize, name: S, organisation_name: S, compound_name: S) -> Self {
+        Self {
+            id,
+            name: name.as_ref().to_string(),
+            organisation_name: organisation_name.as_ref().to_string(),
+            compound_name: compound_name.as_ref().to_string(),
+        }
+    }
+
     /// Get the publisher ID
     #[must_use]
     pub fn id(&self) -> usize {
@@ -67,5 +77,14 @@ mod test {
         assert_eq!(publisher.organisation_name(), "Organization");
         assert_eq!(publisher.compound_name(), "Compound");
         Ok(())
+    }
+
+    #[test]
+    fn test_new() {
+        let publisher = Publisher::new(1, "Publisher", "Organization", "Compound");
+        assert_eq!(publisher.id(), 1);
+        assert_eq!(publisher.name(), "Publisher");
+        assert_eq!(publisher.organisation_name(), "Organization");
+        assert_eq!(publisher.compound_name(), "Compound");
     }
 }

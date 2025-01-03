@@ -53,13 +53,13 @@ impl FileType {
 
     /// Get the [Media Type](https://www.rfc-editor.org/rfc/rfc2046.html)
     #[must_use]
-    pub fn media_types(&self) -> Vec<String> {
+    pub fn media_types(&self) -> Vec<&str> {
         self.file_format.media_types()
     }
 
     /// Get the file type extensions
     #[must_use]
-    pub fn extensions(&self) -> Vec<String> {
+    pub fn extensions(&self) -> Vec<&str> {
         self.file_format.extensions()
     }
 
@@ -71,14 +71,14 @@ impl FileType {
 
     /// Get the file type for an identifier.
     #[must_use]
-    pub fn from_id(id: &str) -> Option<Self> {
+    pub fn from_id<S: AsRef<str>>(id: S) -> Option<Self> {
         let file_format = file_formats::from_id(id)?;
         Some(FileType { file_format })
     }
 
     /// Get the file types for a given extension.
     #[must_use]
-    pub fn from_extension(extension: &str) -> Vec<Self> {
+    pub fn from_extension<S: AsRef<str>>(extension: S) -> Vec<Self> {
         file_formats::from_extension(extension)
             .into_iter()
             .map(|file_format| FileType { file_format })
@@ -87,7 +87,7 @@ impl FileType {
 
     /// Get the file types for a given media type.
     #[must_use]
-    pub fn from_media_type(media_type: &str) -> Vec<Self> {
+    pub fn from_media_type<S: AsRef<str>>(media_type: S) -> Vec<Self> {
         file_formats::from_media_type(media_type)
             .into_iter()
             .map(|file_format| FileType { file_format })

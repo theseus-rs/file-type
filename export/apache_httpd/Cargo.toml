@@ -1,0 +1,17 @@
+[package]
+edition.workspace = true
+name = "apache_httpd"
+publish = false
+license.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+file_type = { path = "../../file_type", version = "0.0.1" }
+jiff = { workspace = true, features = ["serde"] }
+reqwest = { workspace = true }
+quick-xml = { workspace = true, features = ["serde", "serialize"] }
+serde = { workspace = true, features = ["derive"] }
+tokio = { workspace = true, features = ["full"]}
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true, features = ["env-filter"] }
