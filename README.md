@@ -50,11 +50,11 @@ File Types: 3839
 | x-fmt/102 | 3D Studio (DOS) 2D Shape File | shp |  |
 | fmt/1830 | 3D Studio (DOS) 2D/3D Loft Object File | lft |  |
 | fmt/1831 | 3D Studio (DOS) Project File | prj |  |
-| x-fmt/433 | 3DM | 3dm |  |
-| x-fmt/435 | 3DM | 3dm |  |
 | x-fmt/432 | 3DM | 3dm |  |
 | fmt/864 | 3DM | 3dm |  |
+| x-fmt/435 | 3DM | 3dm |  |
 | x-fmt/434 | 3DM | 3dm |  |
+| x-fmt/433 | 3DM | 3dm |  |
 | apache-httpd/12470378540611442998 | 3ds | 3ds | image/x-3ds |
 | fmt/978 | 3DS Max | max, chr |  |
 | fmt/357 | 3GPP Audio/Video File | 3gp, 3gpp | audio/3gpp, video/3gpp |
@@ -106,16 +106,16 @@ File Types: 3839
 | fmt/20 | Acrobat PDF 1.6 - Portable Document Format | pdf | application/pdf |
 | fmt/276 | Acrobat PDF 1.7 - Portable Document Format | pdf | application/pdf |
 | fmt/1910 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| fmt/1912 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| fmt/481 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| fmt/478 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| fmt/476 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
 | fmt/477 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| fmt/479 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| fmt/480 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
 | fmt/1911 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
 | fmt/95 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| fmt/480 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| fmt/478 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
 | fmt/354 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| fmt/1912 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| fmt/476 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| fmt/481 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| fmt/479 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
 | fmt/493 | Acrobat PDF/E - Portable Document Format for Engineering PDF/E-1 | pdf | application/pdf |
 | fmt/144 | Acrobat PDF/X - Portable Document Format - Exchange 1:1999 | pdf | application/pdf |
 | fmt/145 | Acrobat PDF/X - Portable Document Format - Exchange 1:2001 | pdf | application/pdf |
@@ -143,106 +143,106 @@ File Types: 3839
 | x-fmt/217 | Adobe ACD | acd |  |
 | fmt/1500 | Adobe Acrobat Forms Data Format | fdf | application/vnd.fdf |
 | fmt/796 | Adobe After Effects | aep |  |
-| fmt/943 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
-| fmt/937 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
 | fmt/1859 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
+| fmt/937 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
+| fmt/943 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
 | fmt/942 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
 | fmt/1053 | Adobe Audio Waveform | pek |  |
 | fmt/1499 | Adobe Audition Session File | sesx |  |
 | fmt/1814 | Adobe Color Book for Windows | acb |  |
 | fmt/1815 | Adobe Color Swatch | aco |  |
 | fmt/871 | Adobe Content Server Message File | acsm | application/vnd.adobe.adept+xml |
-| fmt/760 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/757 | Adobe Flash | swf | application/x-shockwave-flash |
 | fmt/762 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/761 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/507 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/506 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/767 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/764 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/768 | Adobe Flash | swf | application/x-shockwave-flash |
 | fmt/773 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/761 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/769 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/505 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/766 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/772 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/770 | Adobe Flash | swf | application/x-shockwave-flash |
 | fmt/759 | Adobe Flash | swf | application/x-shockwave-flash |
 | fmt/763 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/505 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/772 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/757 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/776 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/774 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/764 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/758 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/768 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/771 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/770 | Adobe Flash | swf | application/x-shockwave-flash |
 | fmt/775 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/506 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/760 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/507 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/774 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/771 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/758 | Adobe Flash | swf | application/x-shockwave-flash |
+| fmt/776 | Adobe Flash | swf | application/x-shockwave-flash |
 | fmt/765 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/766 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/767 | Adobe Flash | swf | application/x-shockwave-flash |
-| fmt/769 | Adobe Flash | swf | application/x-shockwave-flash |
 | fmt/526 | Adobe Font List | lst |  |
 | linguist/147198098 | Adobe Font Metrics | .afm |  |
 | apache-httpd/7116538921685197509 | adobe formscentral fcdt | fcdt | application/vnd.adobe.formscentral.fcdt |
-| fmt/535 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
 | fmt/190 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| fmt/533 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| fmt/538 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| fmt/536 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| fmt/539 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| x-fmt/302 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| fmt/534 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
 | fmt/537 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| fmt/533 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| fmt/536 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| fmt/535 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| fmt/534 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| x-fmt/302 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| fmt/538 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| fmt/539 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
 | x-fmt/162 | Adobe FrameMaker Interchange Format | mif | application/vnd.mif |
 | apache-httpd/2260535582776616 | adobe fxp | fxp, fxpl | application/vnd.adobe.fxp |
-| fmt/565 | Adobe Illustrator | ai, pdf | application/postscript |
-| fmt/562 | Adobe Illustrator | ai, pdf | application/postscript |
-| fmt/560 | Adobe Illustrator | ai, pdf | application/postscript |
+| fmt/564 | Adobe Illustrator | ai, pdf | application/postscript |
+| fmt/558 | Adobe Illustrator | ai, pdf | application/postscript |
 | fmt/422 | Adobe Illustrator | ai, eps | application/postscript |
-| fmt/563 | Adobe Illustrator | ai, pdf | application/postscript |
-| fmt/417 | Adobe Illustrator | ai | application/postscript |
-| fmt/421 | Adobe Illustrator | ai | application/postscript |
+| fmt/565 | Adobe Illustrator | ai, pdf | application/postscript |
+| x-fmt/20 | Adobe Illustrator | ai | application/postscript |
+| fmt/419 | Adobe Illustrator | ai | application/postscript |
 | fmt/423 | Adobe Illustrator | ai | application/postscript |
+| fmt/421 | Adobe Illustrator | ai | application/postscript |
 | fmt/559 | Adobe Illustrator | ai, pdf | application/postscript |
 | fmt/557 | Adobe Illustrator | ai, eps | application/postscript |
-| fmt/418 | Adobe Illustrator | ai | application/postscript |
-| fmt/564 | Adobe Illustrator | ai, pdf | application/postscript |
-| x-fmt/20 | Adobe Illustrator | ai | application/postscript |
-| fmt/558 | Adobe Illustrator | ai, pdf | application/postscript |
-| fmt/419 | Adobe Illustrator | ai | application/postscript |
-| fmt/420 | Adobe Illustrator | ai | application/postscript |
 | fmt/561 | Adobe Illustrator | ai, pdf | application/postscript |
-| fmt/1863 | Adobe Illustrator CC 2020 Artwork | ai, ait |  |
+| fmt/418 | Adobe Illustrator | ai | application/postscript |
+| fmt/562 | Adobe Illustrator | ai, pdf | application/postscript |
+| fmt/417 | Adobe Illustrator | ai | application/postscript |
+| fmt/563 | Adobe Illustrator | ai, pdf | application/postscript |
+| fmt/420 | Adobe Illustrator | ai | application/postscript |
+| fmt/560 | Adobe Illustrator | ai, pdf | application/postscript |
 | fmt/1864 | Adobe Illustrator CC 2020 Artwork | ai, ait |  |
+| fmt/1863 | Adobe Illustrator CC 2020 Artwork | ai, ait |  |
 | fmt/1862 | Adobe Illustrator CC Artwork | ai, ait |  |
 | fmt/1191 | Adobe InDesign Book | indb |  |
-| fmt/1635 | Adobe InDesign Document | indd, ind, indt |  |
-| fmt/552 | Adobe InDesign Document | ind, indd, indt |  |
-| fmt/1638 | Adobe InDesign Document | indd, ind, indt |  |
-| fmt/1629 | Adobe InDesign Document | indd, ind, indt |  |
-| fmt/1637 | Adobe InDesign Document | indd, ind, indt |  |
-| fmt/550 | Adobe InDesign Document | ind, indd, indt |  |
 | fmt/1941 | Adobe InDesign Document | indd, ind, indt |  |
-| fmt/551 | Adobe InDesign Document | ind, indd, indt |  |
-| fmt/1633 | Adobe InDesign Document | indd, ind, indt |  |
 | fmt/1628 | Adobe InDesign Document | indd, ind |  |
-| fmt/196 | Adobe InDesign Document | indd, ind, indt |  |
-| fmt/1636 | Adobe InDesign Document | indd, ind, indt |  |
-| fmt/1631 | Adobe InDesign Document | indd, ind, indt |  |
-| fmt/549 | Adobe InDesign Document | ind, indd, indt |  |
-| fmt/1630 | Adobe InDesign Document | indd, ind, indt |  |
-| fmt/548 | Adobe InDesign Document | ind, indd, indt |  |
-| x-fmt/450 | Adobe InDesign Document | ind, indd, indt | application/octet-stream |
 | fmt/1640 | Adobe InDesign Document | indd, ind, indt |  |
-| fmt/1639 | Adobe InDesign Document | indd, ind, indt |  |
 | fmt/1632 | Adobe InDesign Document | indd, ind, indt |  |
 | fmt/1634 | Adobe InDesign Document | indd, ind, indt |  |
+| fmt/1631 | Adobe InDesign Document | indd, ind, indt |  |
+| fmt/196 | Adobe InDesign Document | indd, ind, indt |  |
+| x-fmt/450 | Adobe InDesign Document | ind, indd, indt | application/octet-stream |
+| fmt/1630 | Adobe InDesign Document | indd, ind, indt |  |
+| fmt/551 | Adobe InDesign Document | ind, indd, indt |  |
+| fmt/1638 | Adobe InDesign Document | indd, ind, indt |  |
+| fmt/550 | Adobe InDesign Document | ind, indd, indt |  |
+| fmt/1637 | Adobe InDesign Document | indd, ind, indt |  |
+| fmt/1636 | Adobe InDesign Document | indd, ind, indt |  |
+| fmt/549 | Adobe InDesign Document | ind, indd, indt |  |
+| fmt/1639 | Adobe InDesign Document | indd, ind, indt |  |
 | fmt/1942 | Adobe InDesign Document | indd, ind, indt |  |
+| fmt/1629 | Adobe InDesign Document | indd, ind, indt |  |
+| fmt/548 | Adobe InDesign Document | ind, indd, indt |  |
+| fmt/1635 | Adobe InDesign Document | indd, ind, indt |  |
+| fmt/1633 | Adobe InDesign Document | indd, ind, indt |  |
+| fmt/552 | Adobe InDesign Document | ind, indd, indt |  |
 | fmt/1641 | Adobe InDesign Interchange Document | inx |  |
-| fmt/1642 | Adobe InDesign Library | indl |  |
 | fmt/1192 | Adobe InDesign Library | indl |  |
+| fmt/1642 | Adobe InDesign Library | indl |  |
 | fmt/521 | Adobe Multiple Master Metrics font file | mmm |  |
 | x-fmt/167 | Adobe PhotoDeluxe | pdd |  |
 | x-fmt/92 | Adobe Photoshop | psd, pdd | image/vnd.adobe.photoshop |
 | fmt/996 | Adobe Photoshop Large Document Format | psb | image/vnd.adobe.photoshop |
-| fmt/449 | Adobe Portable Document Catalog Index File | pdx |  |
 | fmt/446 | Adobe Portable Document Catalog Index File | pdx |  |
 | fmt/448 | Adobe Portable Document Catalog Index File | pdx |  |
 | fmt/447 | Adobe Portable Document Catalog Index File | pdx |  |
+| fmt/449 | Adobe Portable Document Catalog Index File | pdx |  |
 | fmt/509 | Adobe PostScript Font Metrics file | pfm |  |
 | fmt/525 | Adobe Printer Font Binary | pfb |  |
 | fmt/1816 | Adobe Swatch Exchange | ase |  |
@@ -272,8 +272,8 @@ File Types: 3839
 | linguist/658971832 | AL | .al |  |
 | fmt/1449 | Aldus FreeHand Drawing |  |  |
 | x-fmt/303 | Aldus Freehand Drawing | fh3 |  |
-| x-fmt/304 | Aldus Freehand Drawing | fh4 |  |
 | fmt/1450 | Aldus FreeHand Drawing |  |  |
+| x-fmt/304 | Aldus Freehand Drawing | fh4 |  |
 | fmt/1092 | Alias Pix Image File | pix, ico |  |
 | fmt/1171 | Alias PowerAnimator File |  |  |
 | fmt/1093 | Alias Scene Description Language | sdl |  |
@@ -290,9 +290,9 @@ File Types: 3839
 | apache-httpd/18255916549466049934 | amiga ami | ami | application/vnd.amiga.ami |
 | fmt/1361 | Amiga Disk File | adf |  |
 | fmt/917 | AmiraMesh | am, amiramesh, hx |  |
+| fmt/920 | AmiraMesh | am, amiramesh, hx |  |
 | fmt/918 | AmiraMesh | am, amiramesh, hx |  |
 | fmt/921 | AmiraMesh | am, amiramesh, hx |  |
-| fmt/920 | AmiraMesh | am, amiramesh, hx |  |
 | fmt/919 | AmiraMesh | am, amiramesh, hx |  |
 | linguist/3 | AMPL | .ampl, .mod |  |
 | apache-httpd/17267421299241784478 | andrew inset | ez | application/andrew-inset |
@@ -370,9 +370,9 @@ File Types: 3839
 | fmt/1082 | ASP WebService Directive File | asmx |  |
 | linguist/564186416 | ASP.NET | .asax, .ascx, .ashx, .asmx, .aspx, .axd | application/x-aspx |
 | linguist/23 | AspectJ | .aj |  |
+| fmt/368 | ASPRS Lidar Data Exchange Format | las, laz |  |
 | fmt/370 | ASPRS Lidar Data Exchange Format | las, laz |  |
 | fmt/369 | ASPRS Lidar Data Exchange Format | las, laz |  |
-| fmt/368 | ASPRS Lidar Data Exchange Format | las, laz |  |
 | linguist/24 | Assembly | .asm, .a51, .i, .inc, .nas, .nasm |  |
 | fmt/1564 | Associated Signature Container Extended (ASiC-E) | asice, sce | application/vnd.etsi.asic-e+zip |
 | fmt/1341 | Associated Signature Container Simple (ASiC-S) | asics, scs | application/vnd.etsi.asic-s+zip |
@@ -382,8 +382,8 @@ File Types: 3839
 | fmt/1622 | Asylum Music Format | amf |  |
 | fmt/1693 | Asymetrix Compel Presentation | cpl, art |  |
 | fmt/1694 | Asymetrix Compel Presentation | cpl, art |  |
-| fmt/470 | Asymetrix Toolbook File | tbk, sbk |  |
 | fmt/1795 | Asymetrix Toolbook File | tbk, sbk |  |
+| fmt/470 | Asymetrix Toolbook File | tbk, sbk |  |
 | linguist/591605007 | Asymptote | .asy | text/x-kotlin |
 | fmt/495 | ATCO-CIF | cif |  |
 | apache-httpd/3641799221620537973 | atom xml | atom | application/atom+xml |
@@ -392,10 +392,10 @@ File Types: 3839
 | fmt/1968 | Atrac Codec File | aea |  |
 | linguist/9 | ATS | .dats, .hats, .sats |  |
 | fmt/1822 | Audacity Audio Block File | au |  |
-| fmt/1825 | Audacity Project File | aup |  |
 | fmt/1824 | Audacity Project File | aup |  |
-| fmt/1826 | Audacity Project File | aup3 |  |
+| fmt/1825 | Audacity Project File | aup |  |
 | fmt/1823 | Audacity Project File | aup |  |
+| fmt/1826 | Audacity Project File | aup3 |  |
 | fmt/1812 | Audio Data Transport Stream | aac, adts | audio/aac, audio/vnd.dlna.adts |
 | fmt/414 | Audio Interchange File Format | aif, aiff |  |
 | x-fmt/135 | Audio Interchange File Format |  |  |
@@ -408,8 +408,8 @@ File Types: 3839
 | apache-httpd/7946561646438379956 | authorware seg | aas | application/x-authorware-seg |
 | fmt/1939 | Auto FX PhotoGraphic Edges Image File | afx |  |
 | x-fmt/98 | AutoCAD ACIS Export File | sat |  |
-| x-fmt/26 | AutoCAD Batch Plot File | bp2, bpl |  |
 | x-fmt/27 | AutoCAD Batch Plot File | bp3 |  |
+| x-fmt/26 | AutoCAD Batch Plot File | bp2, bpl |  |
 | x-fmt/24 | AutoCAD Block Attribute Template | blk |  |
 | x-fmt/37 | AutoCAD Colour-Dependant Plot Style Table | ctb |  |
 | x-fmt/68 | AutoCAD Compiled Menu | mnc |  |
@@ -422,26 +422,26 @@ File Types: 3839
 | fmt/977 | AutoCAD Design Web Format(DWFx) | dwfx |  |
 | x-fmt/134 | AutoCAD Device-Independent Binary Plotter File | adi |  |
 | fmt/1456 | Autocad DMP File | dmp |  |
-| x-fmt/455 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| fmt/27 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| fmt/28 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| fmt/21 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| fmt/23 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| fmt/531 | AutoCAD Drawing | dwg | image/vnd.dwg |
 | fmt/1395 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| fmt/22 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| fmt/27 | AutoCAD Drawing | dwg | image/vnd.dwg |
 | fmt/434 | AutoCAD Drawing | dwg | image/vnd.dwg |
 | fmt/30 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| fmt/24 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| fmt/29 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| fmt/25 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| fmt/36 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| fmt/33 | AutoCAD Drawing | dwg | image/vnd.dwg |
 | fmt/35 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| fmt/22 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| fmt/31 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| fmt/23 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| fmt/531 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| fmt/36 | AutoCAD Drawing | dwg | image/vnd.dwg |
 | fmt/34 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| x-fmt/455 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| fmt/28 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| fmt/25 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| fmt/33 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| fmt/24 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| fmt/21 | AutoCAD Drawing | dwg | image/vnd.dwg |
 | fmt/32 | AutoCAD Drawing | dwg | image/vnd.dwg |
 | fmt/26 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| fmt/31 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| fmt/29 | AutoCAD Drawing | dwg | image/vnd.dwg |
 | x-fmt/50 | AutoCAD Drawing Standards File | dws |  |
 | x-fmt/51 | AutoCAD Drawing Template | dwt |  |
 | x-fmt/112 | AutoCAD External Database Configuration File | udl |  |
@@ -453,9 +453,9 @@ File Types: 3839
 | x-fmt/60 | AutoCAD Linetype Definition File | lin |  |
 | x-fmt/70 | AutoCAD Menu Resource File | mnr, mnt |  |
 | x-fmt/107 | AutoCAD Named Plot Style Table | stb |  |
+| x-fmt/78 | AutoCAD Plot Configuration File | pc3 |  |
 | x-fmt/77 | AutoCAD Plot Configuration File | pc2 |  |
 | x-fmt/79 | AutoCAD Plot Configuration File | pcp |  |
-| x-fmt/78 | AutoCAD Plot Configuration File | pc3 |  |
 | x-fmt/100 | AutoCAD Script | scr |  |
 | x-fmt/105 | AutoCAD Slide | sld | application/sld, application/x-sld, image/x-sld |
 | x-fmt/104 | AutoCAD Slide Library | slb |  |
@@ -536,8 +536,8 @@ File Types: 3839
 | apache-httpd/8096259863664211066 | bittorrent | torrent | application/x-bittorrent |
 | fmt/1052 | BKNAS Seismic Data Format | bknas |  |
 | linguist/33 | Blade | .blade, .blade.php |  |
-| fmt/903 | Blender 3D | blend |  |
 | fmt/902 | Blender 3D | blend |  |
+| fmt/903 | Blender 3D | blend |  |
 | fmt/1182 | Blitz3D File Format | b3d |  |
 | linguist/34 | BlitzBasic | .bb, .decls |  |
 | linguist/35 | BlitzMax | .bmx |  |
@@ -557,20 +557,20 @@ File Types: 3839
 | linguist/39 | Brightscript | .brs |  |
 | fmt/1836 | Brio Query File | bqy |  |
 | fmt/518 | Broad Band eBook | lrf |  |
-| fmt/1 | Broadcast WAVE | wav | audio/x-wav |
-| fmt/2 | Broadcast WAVE | wav | audio/x-wav |
+| fmt/704 | Broadcast WAVE | wav | audio/x-wav |
+| fmt/527 | Broadcast WAVE | wav | audio/x-wav |
 | fmt/708 | Broadcast WAVE | wav | audio/x-wav |
+| fmt/705 | Broadcast WAVE | wav | audio/x-wav |
+| fmt/1 | Broadcast WAVE | wav | audio/x-wav |
+| fmt/703 | Broadcast WAVE | wav | audio/x-wav |
 | fmt/709 | Broadcast WAVE | wav, rf64 | audio/x-wav |
+| fmt/2 | Broadcast WAVE | wav | audio/x-wav |
+| fmt/706 | Broadcast WAVE | wav | audio/x-wav |
 | fmt/707 | Broadcast WAVE | wav | audio/x-wav |
 | fmt/710 | Broadcast WAVE | wav, rf64 | audio/x-wav |
 | fmt/711 | Broadcast WAVE | wav | audio/x-wav |
-| fmt/527 | Broadcast WAVE | wav | audio/x-wav |
-| fmt/704 | Broadcast WAVE | wav | audio/x-wav |
-| fmt/703 | Broadcast WAVE | wav | audio/x-wav |
-| fmt/706 | Broadcast WAVE | wav | audio/x-wav |
-| fmt/705 | Broadcast WAVE | wav | audio/x-wav |
-| fmt/1299 | Broderbund Print Shop Deluxe | pdb, pds, pcb, pdc, pcc, pce, pdg, pdl, pso, pdp, pho, pcp, ppi, pda |  |
 | x-fmt/168 | Broderbund Print Shop Deluxe | pcc, pdb, pdc, pda, pdl, pds, pdg |  |
+| fmt/1299 | Broderbund Print Shop Deluxe | pdb, pds, pcb, pdc, pcc, pce, pdg, pdl, pso, pdp, pho, pcp, ppi, pda |  |
 | fmt/1300 | Broderbund The Print Shop/PrintMaster/American Greetings Project | ban, bro, biz, cal, car, cer, env, fax, sig, cft, hcr, lbl, let, nws, not, pcr, php, tsh, web, sti |  |
 | linguist/153503348 | Browserslist |  |  |
 | fmt/1385 | Bruker PDZ | pdz, xpdz |  |
@@ -599,19 +599,19 @@ File Types: 3839
 | linguist/891399890 | Cairo Zero | .cairo |  |
 | fmt/1214 | Cakewalk WRK Project | wrk |  |
 | fmt/1712 | Calc602 Macro File | mc6 |  |
+| fmt/1775 | Calc602 Project File | pc6 |  |
 | fmt/1767 | Calc602 Project File | pc6 |  |
 | fmt/1713 | Calc602 Project File | pc6 |  |
-| fmt/1775 | Calc602 Project File | pc6 |  |
-| fmt/1773 | Calc602 Spreadsheet File | bak, tc6 |  |
-| fmt/1698 | Calc602 Spreadsheet file | bak, tc6 |  |
 | fmt/1697 | Calc602 Spreadsheet file | bak, tc6 |  |
+| fmt/1698 | Calc602 Spreadsheet file | bak, tc6 |  |
+| fmt/1773 | Calc602 Spreadsheet File | bak, tc6 |  |
 | fmt/1295 | Calendar Creator Event | ce3 |  |
 | fmt/1297 | Calendar Creator File | cc5 |  |
-| fmt/1298 | Calendar Creator File | bcc |  |
 | fmt/1296 | Calendar Creator File | cc3 |  |
+| fmt/1298 | Calendar Creator File | bcc |  |
 | x-fmt/141 | Calendar Creator Plus Data File | cce |  |
-| fmt/913 | Caligari trueSpace File Format | cob, scn |  |
 | fmt/914 | Caligari trueSpace File Format | cob, scn |  |
+| fmt/913 | Caligari trueSpace File Format | cob, scn |  |
 | x-fmt/28 | CALS Compressed Bitmap | cal |  |
 | linguist/829207807 | CameLIGO | .mligo | text/x-ocaml |
 | fmt/1852 | Camtasia Recording File | camrec |  |
@@ -665,18 +665,18 @@ File Types: 3839
 | fmt/333 | Chemical Markup Language | cml |  |
 | apache-httpd/14847441681126817338 | chess pgn | pgn | application/x-chess-pgn |
 | apache-httpd/14672958157522374745 | chipnuts karaoke mmd | mmd | application/vnd.chipnuts.karaoke-mmd |
-| fmt/300 | ChiWriter Document | chi |  |
 | x-fmt/309 | ChiWriter Document | chi |  |
+| fmt/300 | ChiWriter Document | chi |  |
 | linguist/57 | ChucK | .ck | text/x-java |
 | apache-httpd/1407925950950459349 | cif | cif | chemical/x-cif |
 | linguist/29176339 | CIL | .cil |  |
 | apache-httpd/10930648055820933480 | cinderella | cdy | application/vnd.cinderella |
 | fmt/1279 | Cindex Document | ucdx, utpl |  |
-| fmt/1277 | Cindex Document | cdx, tpl |  |
 | fmt/1278 | Cindex Document | ucdx, utpl |  |
+| fmt/1277 | Cindex Document | cdx, tpl |  |
 | fmt/1180 | Cinema 4D | c4d |  |
-| fmt/540 | Cinema 4D | c4d |  |
 | fmt/415 | Cinema 4D | c4d |  |
+| fmt/540 | Cinema 4D | c4d |  |
 | fmt/1716 | Cintel Raw Image/DaVinci Resolve Image | cri, dvcc |  |
 | linguist/1042332086 | Circom | .circom |  |
 | linguist/58 | Cirru | .cirru |  |
@@ -687,12 +687,12 @@ File Types: 3839
 | fmt/741 | ClarisWorks Database | cwk |  |
 | fmt/845 | ClarisWorks Drawing | cwk |  |
 | fmt/738 | ClarisWorks Drawing | cwk |  |
-| fmt/742 | ClarisWorks Painting | cwk |  |
 | fmt/849 | ClarisWorks Painting | cwk |  |
+| fmt/742 | ClarisWorks Painting | cwk |  |
 | fmt/740 | ClarisWorks Spreadsheet | cwk |  |
 | fmt/847 | ClarisWorks Spreadsheet | cwk |  |
-| fmt/846 | ClarisWorks Word Processor | cwk |  |
 | fmt/739 | ClarisWorks Word Processor | cwk |  |
+| fmt/846 | ClarisWorks Word Processor | cwk |  |
 | fmt/746 | ClarisWorks/AppleWorks Database | cwk |  |
 | fmt/743 | ClarisWorks/AppleWorks Drawing | cwk |  |
 | fmt/747 | ClarisWorks/AppleWorks Painting | cwk |  |
@@ -732,8 +732,8 @@ File Types: 3839
 | fmt/1462 | Comic Book Archive | cb7, cba, cbr, cbt, cbz |  |
 | x-fmt/18 | Comma Separated Values | csv | text/csv |
 | fmt/1948 | Common Data Format dotCDF | cdf |  |
-| fmt/1949 | Common Data Format dotCDF | cdf |  |
 | fmt/1950 | Common Data Format dotCDF | cdf |  |
+| fmt/1949 | Common Data Format dotCDF | cdf |  |
 | fmt/1888 | Common Instrument File (CIF) | ci2 |  |
 | fmt/1887 | Common Instrument File (CIF) | ci1 |  |
 | fmt/1871 | Common Interface File | cif, mca |  |
@@ -748,13 +748,13 @@ File Types: 3839
 | fmt/897 | Compressed MusicXML | mxl | application/vnd.recordare.musicxml |
 | fmt/1538 | CompuServe RLE | rle |  |
 | fmt/1144 | CompuServe WinCIM Message Format | plx, msg |  |
-| fmt/305 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=3 |
 | fmt/304 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=2 |
-| fmt/303 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=1 |
+| fmt/305 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=3 |
 | fmt/306 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=4 |
-| x-fmt/142 | Computer Graphics Metafile ASCII | cgm | image/cgm |
-| fmt/302 | Computer Graphics Metafile ASCII | cgm | image/cgm |
+| fmt/303 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=1 |
 | fmt/301 | Computer Graphics Metafile ASCII | cgm | image/cgm |
+| fmt/302 | Computer Graphics Metafile ASCII | cgm | image/cgm |
+| x-fmt/142 | Computer Graphics Metafile ASCII | cgm | image/cgm |
 | apache-httpd/4068569377388053849 | conference | nsc | application/x-conference |
 | linguist/421026389 | CoNLL-U | .conllu, .conll |  |
 | apache-httpd/17784298339216295779 | contact cmsg | cdbcmsg | application/vnd.contact.cmsg |
@@ -765,60 +765,60 @@ File Types: 3839
 | fmt/1413 | Corel Gallery Clipart | bmf |  |
 | fmt/1422 | Corel Photo House Image | cps |  |
 | x-fmt/144 | Corel Photo-Paint Image | cpt |  |
-| fmt/878 | Corel Presentation | shw |  |
 | fmt/877 | Corel Presentation | shw |  |
-| x-fmt/35 | Corel Presentation Exchange File | cmx |  |
+| fmt/878 | Corel Presentation | shw |  |
 | x-fmt/34 | Corel Presentation Exchange File | cmx |  |
+| x-fmt/35 | Corel Presentation Exchange File | cmx |  |
 | fmt/1418 | Corel Print House Document | cph, cpd |  |
 | fmt/1417 | Corel Print House Document | cph, cpd |  |
 | fmt/1421 | Corel Print House/Print Office Document | cph, cpd, cpo |  |
 | fmt/1420 | Corel Print House/Print Office Document | cph, cpd, cpo |  |
 | fmt/1419 | Corel Print House/Print Office Document | cph, cpd, cpo |  |
-| fmt/431 | Corel R.A.V.E. | clk |  |
-| x-fmt/33 | Corel R.A.V.E. | clk |  |
 | fmt/432 | Corel R.A.V.E. | clk |  |
+| x-fmt/33 | Corel R.A.V.E. | clk |  |
+| fmt/431 | Corel R.A.V.E. | clk |  |
 | x-fmt/202 | Corel Wavelet Compressed Bitmap | wi, wvl |  |
+| fmt/1312 | CorelCHART Document | cch |  |
 | x-fmt/310 | CorelCHART Document | cch |  |
 | fmt/1313 | CorelCHART Document | cch |  |
-| fmt/1312 | CorelCHART Document | cch |  |
-| x-fmt/36 | CorelDraw Compressed Drawing | cpx |  |
 | x-fmt/31 | CorelDraw Compressed Drawing | cdx, cjw |  |
-| x-fmt/291 | CorelDraw Drawing | cdr |  |
-| fmt/427 | CorelDraw Drawing | cdr |  |
-| x-fmt/379 | CorelDraw Drawing | cdr |  |
-| fmt/1924 | CorelDraw Drawing | cdr |  |
-| fmt/1929 | CorelDraw Drawing | cdr |  |
-| fmt/1931 | CorelDraw Drawing | cdr |  |
-| fmt/465 | CorelDraw Drawing | cdr |  |
-| fmt/1928 | CorelDraw Drawing | cdr |  |
-| x-fmt/292 | CorelDraw Drawing | cdr |  |
-| fmt/1927 | CorelDraw Drawing | cdr |  |
-| x-fmt/375 | CorelDraw Drawing | cdr |  |
-| fmt/1930 | CorelDraw Drawing | cdr |  |
-| fmt/429 | CorelDraw Drawing | cdr |  |
-| fmt/467 | CorelDraw Drawing | cdr |  |
-| fmt/430 | CorelDraw Drawing | cdr |  |
-| x-fmt/29 | CorelDraw Drawing | cdr |  |
-| fmt/464 | CorelDraw Drawing | cdr |  |
-| fmt/1925 | CorelDraw Drawing | cdr |  |
-| fmt/1932 | CorelDraw Drawing | cdr |  |
-| fmt/428 | CorelDraw Drawing | cdr |  |
-| x-fmt/378 | CorelDraw Drawing | cdr |  |
+| x-fmt/36 | CorelDraw Compressed Drawing | cpx |  |
 | fmt/466 | CorelDraw Drawing | cdr |  |
+| x-fmt/291 | CorelDraw Drawing | cdr |  |
+| fmt/429 | CorelDraw Drawing | cdr |  |
+| fmt/1927 | CorelDraw Drawing | cdr |  |
+| x-fmt/379 | CorelDraw Drawing | cdr |  |
 | fmt/1926 | CorelDraw Drawing | cdr |  |
 | fmt/1934 | CorelDraw Drawing | cdr |  |
+| fmt/1924 | CorelDraw Drawing | cdr |  |
+| x-fmt/375 | CorelDraw Drawing | cdr |  |
+| fmt/428 | CorelDraw Drawing | cdr |  |
+| fmt/430 | CorelDraw Drawing | cdr |  |
+| fmt/1930 | CorelDraw Drawing | cdr |  |
+| x-fmt/378 | CorelDraw Drawing | cdr |  |
+| fmt/1925 | CorelDraw Drawing | cdr |  |
 | fmt/1933 | CorelDraw Drawing | cdr |  |
+| fmt/465 | CorelDraw Drawing | cdr |  |
+| x-fmt/29 | CorelDraw Drawing | cdr |  |
+| x-fmt/292 | CorelDraw Drawing | cdr |  |
+| fmt/467 | CorelDraw Drawing | cdr |  |
+| fmt/1932 | CorelDraw Drawing | cdr |  |
+| fmt/1928 | CorelDraw Drawing | cdr |  |
+| fmt/427 | CorelDraw Drawing | cdr |  |
 | x-fmt/374 | CorelDraw Drawing | cdr |  |
+| fmt/464 | CorelDraw Drawing | cdr |  |
+| fmt/1929 | CorelDraw Drawing | cdr |  |
+| fmt/1931 | CorelDraw Drawing | cdr |  |
 | x-fmt/76 | CorelDraw Pattern | pat |  |
 | x-fmt/30 | CorelDraw Template | cdt |  |
 | apache-httpd/13844007418067567392 | cosmocaller | cmc | application/vnd.cosmocaller |
 | fmt/1676 | Covox ADPCM Audio Files | v8, cvx, v2s, v3s, v4s, vmf |  |
-| fmt/635 | CPIO | cpio |  |
 | apache-httpd/12237965542013894657 | cpio | cpio | application/x-cpio |
+| fmt/635 | CPIO | cpio |  |
 | linguist/70 | Cpp-ObjDump | .cppobjdump, .c++-objdump, .c++objdump, .cpp-objdump, .cxx-objdump |  |
 | fmt/909 | CRAM File Format | cram |  |
-| fmt/910 | CRAM File Format | cram |  |
 | fmt/911 | CRAM File Format | cram |  |
+| fmt/910 | CRAM File Format | cram |  |
 | fmt/1736 | Creative Voice File | voc |  |
 | linguist/71 | Creole | .creole |  |
 | apache-httpd/16268303164982887344 | crick clicker | clkx | application/vnd.crick.clicker |
@@ -867,12 +867,12 @@ File Types: 3839
 | linguist/81 | D-ObjDump | .d-objdump |  |
 | linguist/37531557 | D2 | .d2 |  |
 | linguist/969323346 | Dafny | .dfy |  |
-| fmt/1546 | Daisy-Dot Font File | nlq |  |
 | fmt/1547 | Daisy-Dot Font File | nlq |  |
+| fmt/1546 | Daisy-Dot Font File | nlq |  |
 | fmt/694 | Dalvik Executable Format | dex |  |
 | linguist/86 | Darcs Patch | .darcspatch, .dpatch |  |
-| linguist/87 | Dart | .dart | application/dart |
 | apache-httpd/5541150871595351962 | dart | dart | application/vnd.dart |
+| linguist/87 | Dart | .dart | application/dart |
 | fmt/1730 | Data File | dat |  |
 | x-fmt/41 | Data Interchange Format | dif |  |
 | apache-httpd/18329094975064823008 | data vision rdz | rdz | application/vnd.data-vision.rdz |
@@ -880,10 +880,10 @@ File Types: 3839
 | linguist/974514097 | DataWeave | .dwl |  |
 | fmt/1851 | DAV Video Format | dav |  |
 | apache-httpd/10465296028727937591 | davmount xml | davmount | application/davmount+xml |
-| x-fmt/272 | dBASE Database | dbf |  |
-| x-fmt/10 | dBASE Database | dbf | application/dbase |
 | x-fmt/271 | dBASE Database | dbf |  |
 | x-fmt/9 | dBASE Database | dbf |  |
+| x-fmt/10 | dBASE Database | dbf | application/dbase |
+| x-fmt/272 | dBASE Database | dbf |  |
 | x-fmt/8 | dBASE Database | dbf |  |
 | x-fmt/380 | dBASE for Windows database | dbf |  |
 | fmt/1860 | dBASE Report Form Definition File | frm |  |
@@ -920,21 +920,21 @@ File Types: 3839
 | linguist/88 | Diff | .diff, .patch | text/x-diff |
 | fmt/1121 | DIFFRACplus Raw Data File Format | raw |  |
 | fmt/1120 | DIFFRACplus Raw Data File Format | raw |  |
-| fmt/1231 | DIGIDOC-XML | ddoc |  |
 | fmt/1232 | DIGIDOC-XML | ddoc |  |
 | fmt/1233 | DIGIDOC-XML | ddoc |  |
+| fmt/1231 | DIGIDOC-XML | ddoc |  |
 | linguist/82 | DIGITAL Command Language | .com |  |
 | fmt/574 | Digital Imaging and Communications in Medicine File Format | dcm | application/dicom |
 | fmt/193 | Digital Moving Picture Exchange Bitmap | dpx |  |
 | fmt/541 | Digital Moving Picture Exchange Bitmap | dpx |  |
-| fmt/438 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
-| fmt/1943 | Digital Negative Format (DNG) | dng | image/dng |
-| fmt/436 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
-| fmt/437 | Digital Negative Format (DNG) | dng | image/dng |
-| fmt/1841 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
-| fmt/152 | Digital Negative Format (DNG) | dng, tif, tiff | image/dng, image/tiff |
-| fmt/1842 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
 | fmt/730 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
+| fmt/152 | Digital Negative Format (DNG) | dng, tif, tiff | image/dng, image/tiff |
+| fmt/1841 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
+| fmt/1943 | Digital Negative Format (DNG) | dng | image/dng |
+| fmt/437 | Digital Negative Format (DNG) | dng | image/dng |
+| fmt/436 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
+| fmt/1842 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
+| fmt/438 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
 | fmt/1007 | Digital Speech Standard | dss |  |
 | x-fmt/314 | Digital Terrain Elevation Data | dted, dt0, dt1, dt2, avg, min, max |  |
 | x-fmt/152 | Digital Video | dv | video/dv |
@@ -975,38 +975,38 @@ File Types: 3839
 | fmt/1046 | Draco File Format | drc |  |
 | fmt/1946 | Draw.io Diagram (XML) File | drawio, xml |  |
 | fmt/54 | Drawing Interchange Binary Format | dxb |  |
-| fmt/76 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/63 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/67 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/79 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/71 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/66 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/68 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/72 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
 | fmt/75 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/435 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/68 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/76 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
 | fmt/77 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/74 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/433 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/78 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/64 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/66 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/69 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/72 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
 | fmt/532 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
 | fmt/73 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/67 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/79 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/435 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
 | fmt/70 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| fmt/69 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
 | fmt/65 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/71 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/74 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/64 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/433 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/78 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/63 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| fmt/81 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
 | fmt/85 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
 | fmt/80 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
 | fmt/84 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
-| fmt/82 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
 | fmt/83 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
-| fmt/81 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
+| fmt/82 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
 | fmt/1389 | Drawing Interchange Format (ASCII) | dxf | image/vnd.dxf |
 | fmt/1394 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
-| fmt/1392 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
-| fmt/1390 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
 | fmt/1393 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
 | fmt/1391 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
+| fmt/1392 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
+| fmt/1390 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
 | x-fmt/52 | Drawing Interchange Format Style Extract | dxx |  |
 | apache-httpd/2476393985808283697 | dreamfactory | dfac | application/vnd.dreamfactory |
 | fmt/335 | Dreamweaver Lock File | lck |  |
@@ -1027,8 +1027,8 @@ File Types: 3839
 | apache-httpd/5012686256345022475 | dvb ait | ait | application/vnd.dvb.ait |
 | apache-httpd/8181634439404576904 | dvb file | dvb | video/vnd.dvb.file |
 | apache-httpd/14648134999256152995 | dvb service | svc | application/vnd.dvb.service |
-| apache-httpd/14440920598703145864 | dvb subtitle | sub | text/vnd.dvb.subtitle |
 | apache-httpd/2327811077702530899 | dvb subtitle | sub | image/vnd.dvb.subtitle |
+| apache-httpd/14440920598703145864 | dvb subtitle | sub | text/vnd.dvb.subtitle |
 | x-fmt/419 | DVD data file and backup data file | ifo, bup |  |
 | linguist/91 | Dylan | .dylan, .dyl, .intr, .lid | text/x-dylan |
 | apache-httpd/14560088302329463820 | dynageo | geo | application/vnd.dynageo |
@@ -1074,29 +1074,29 @@ File Types: 3839
 | linguist/452025714 | Elvish Transcript |  |  |
 | linguist/102 | Emacs Lisp | .el, .emacs, .emacs.desktop | text/x-common-lisp |
 | fmt/1383 | Embedded OpenType (EOT) File Format | eot | application/vnd.ms-fontobject |
-| fmt/1384 | Embedded OpenType (EOT) File Format | eot | application/vnd.ms-fontobject |
 | fmt/1382 | Embedded OpenType (EOT) File Format | eot | application/vnd.ms-fontobject |
+| fmt/1384 | Embedded OpenType (EOT) File Format | eot | application/vnd.ms-fontobject |
 | linguist/103 | EmberScript | .em, .emberscript | text/x-coffeescript |
 | apache-httpd/759975750900967096 | emma xml | emma | application/emma+xml |
-| fmt/122 | Encapsulated PostScript File Format | eps, epsf | application/postscript |
-| fmt/123 | Encapsulated PostScript File Format | eps, epsf | application/postscript |
 | fmt/124 | Encapsulated PostScript File Format | eps, epsf, ps | application/postscript |
 | fmt/1884 | Encapsulated PostScript File Format | eps, epsf | application/postscript |
+| fmt/123 | Encapsulated PostScript File Format | eps, epsf | application/postscript |
+| fmt/122 | Encapsulated PostScript File Format | eps, epsf | application/postscript |
 | fmt/803 | Encase Image File/Expert Witness Compression File | e01 | application/encase |
-| fmt/1683 | EndNote Compressed Library | enlx |  |
 | fmt/1685 | EndNote Compressed Library | enlx |  |
+| fmt/1683 | EndNote Compressed Library | enlx |  |
 | fmt/326 | EndNote Connection File | enz | application/x-endnote-connect, application/x-endnote-connection |
 | fmt/327 | EndNote Filter File | enf |  |
 | fmt/328 | EndNote Import File | enw, enr | application/x-endnote-refer |
+| fmt/1684 | EndNote Library | enl |  |
 | fmt/325 | EndNote Library | enl |  |
 | fmt/1682 | EndNote Library | enl |  |
-| fmt/1684 | EndNote Library | enl |  |
 | fmt/324 | EndNote Style File | ens | application/x-endnote-style |
 | fmt/371 | Enhanced Compression Wavelet | ecw |  |
 | fmt/1856 | Enhanced Image Package | eip |  |
-| fmt/397 | Enigma Binary File (Finale) | mus |  |
-| fmt/1972 | Enigma Binary File (Finale) | mus |  |
 | fmt/1971 | Enigma Binary File (Finale) | mus |  |
+| fmt/1972 | Enigma Binary File (Finale) | mus |  |
+| fmt/397 | Enigma Binary File (Finale) | mus |  |
 | fmt/398 | Enigma Transportable File (Finale) | etf |  |
 | apache-httpd/9077911870478152775 | enliven | nml | application/vnd.enliven |
 | fmt/1580 | Envision Publisher File | evp |  |
@@ -1152,28 +1152,28 @@ File Types: 3839
 | linguist/880693982 | Euphoria | .e, .ex |  |
 | apache-httpd/3083675910552425676 | eva | eva | application/x-eva |
 | fmt/60 | Excel 95 Workbook (xls) |  |  |
-| x-fmt/396 | Exchangeable Image File Format (Audio) | wav | audio/x-wav |
 | x-fmt/397 | Exchangeable Image File Format (Audio) | wav | audio/x-wav |
+| x-fmt/396 | Exchangeable Image File Format (Audio) | wav | audio/x-wav |
 | x-fmt/389 | Exchangeable Image File Format (Audio) | wav | audio/x-wav |
-| x-fmt/398 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
-| fmt/1507 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
-| fmt/645 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
 | x-fmt/391 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
+| x-fmt/398 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
+| fmt/645 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
 | x-fmt/390 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
+| fmt/1507 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
+| x-fmt/399 | Exchangeable Image File Format (Uncompressed) | tif, tiff | image/tiff |
 | x-fmt/387 | Exchangeable Image File Format (Uncompressed) | tif, tiff | image/tiff |
 | x-fmt/388 | Exchangeable Image File Format (Uncompressed) | tif, tiff | image/tiff |
-| x-fmt/399 | Exchangeable Image File Format (Uncompressed) | tif, tiff | image/tiff |
 | fmt/1090 | Exclude File | exclude |  |
-| fmt/688 | Executable and Linkable Format | elf, o |  |
 | fmt/691 | Executable and Linkable Format | elf, o |  |
-| fmt/689 | Executable and Linkable Format | elf, o |  |
 | fmt/690 | Executable and Linkable Format | elf, o |  |
+| fmt/689 | Executable and Linkable Format | elf, o |  |
+| fmt/688 | Executable and Linkable Format | elf, o |  |
 | fmt/1609 | exFAT (Extensible File Allocation Table) Disc Image | img |  |
 | apache-httpd/3404069067379740569 | exi | exi | application/exi |
 | fmt/323 | Extended Module Audio File | xm | audio/xm |
 | fmt/600 | eXtensible ARchive format | xar |  |
-| fmt/102 | Extensible Hypertext Markup Language | html, htm | application/xhtml+xml |
 | fmt/103 | Extensible Hypertext Markup Language | htm, html | application/xhtml+xml |
+| fmt/102 | Extensible Hypertext Markup Language | html, htm | application/xhtml+xml |
 | fmt/101 | Extensible Markup Language | xml | application/xml, text/xml |
 | fmt/1776 | Extensible Markup Language | xml | application/xml, text/xml |
 | fmt/986 | Extensible Metadata Platform Format | xmp |  |
@@ -1186,8 +1186,8 @@ File Types: 3839
 | linguist/336943375 | F* | .fst, .fsti |  |
 | apache-httpd/1451447924574456576 | f4v | f4v | video/x-f4v |
 | linguist/108 | Factor | .factor | text/x-factor |
-| fmt/1352 | FamilyTree Maker Database | ftw, fbk |  |
 | fmt/1353 | FamilyTree Maker Database | ftw, fbk |  |
+| fmt/1352 | FamilyTree Maker Database | ftw, fbk |  |
 | linguist/109 | Fancy | .fy, .fancypack |  |
 | linguist/110 | Fantom | .fan |  |
 | fmt/723 | Farandole Composer Module | far |  |
@@ -1206,14 +1206,14 @@ File Types: 3839
 | linguist/686129783 | FIGlet Font | .flf |  |
 | linguist/111 | Filebench WML | .f |  |
 | fmt/194 | FileMaker Pro Database | fp7 |  |
-| fmt/1072 | FileMaker Pro Database |  |  |
 | x-fmt/319 | FileMaker Pro Database | fp5, fmp, fp, fm |  |
-| x-fmt/318 | FileMaker Pro Database | fp3, fmp, fp, fm | application/x-filemaker |
 | fmt/1059 | FileMaker Pro Database | fm |  |
+| fmt/1072 | FileMaker Pro Database |  |  |
+| x-fmt/318 | FileMaker Pro Database | fp3, fmp, fp, fm | application/x-filemaker |
 | fmt/1237 | FileMaker Pro Database | fmp12 |  |
 | linguist/112 | Filterscript | .fs |  |
-| fmt/964 | Final Draft Document | fdr |  |
 | fmt/1845 | Final Draft Document | fdx |  |
+| fmt/964 | Final Draft Document | fdr |  |
 | fmt/1966 | Final Writer Document | fw |  |
 | fmt/1974 | Finale Notation File | musx | application/vnd.makemusic.notation |
 | fmt/1973 | Finale Performance Assessment | fpa |  |
@@ -1228,12 +1228,12 @@ File Types: 3839
 | fmt/1799 | FLExText Interlinear XML Format | flextext |  |
 | apache-httpd/7213489331355052709 | fli | fli | video/x-fli |
 | apache-httpd/12678262227344080642 | flographit | gph | application/vnd.flographit |
-| fmt/1411 | Flow Charting | pdq |  |
 | fmt/1408 | Flow Charting | gfc |  |
-| fmt/1410 | Flow Charting | fcx |  |
-| fmt/1406 | Flow Charting | cht |  |
-| fmt/1407 | Flow Charting | fcd |  |
+| fmt/1411 | Flow Charting | pdq |  |
 | fmt/1409 | Flow Charting | fc5 |  |
+| fmt/1410 | Flow Charting | fcx |  |
+| fmt/1407 | Flow Charting | fcd |  |
+| fmt/1406 | Flow Charting | cht |  |
 | fmt/1412 | Flow Charting Graphic Flowcharting Image | gfi |  |
 | fmt/1737 | Flow Cytometry Standard File | fcs | application/vnd.isac.fcs |
 | fmt/1785 | FLR Database File | flr |  |
@@ -1245,11 +1245,11 @@ File Types: 3839
 | fmt/1241 | FO File | fo | application/vnd.software602.filler.form+xml |
 | fmt/1163 | Folio Definition File | def |  |
 | fmt/1162 | Folio Flat File | fff |  |
-| fmt/1158 | Folio Infobase File | nfo |  |
 | fmt/1159 | Folio Infobase File | nfo |  |
+| fmt/1158 | Folio Infobase File | nfo |  |
 | fmt/1157 | Folio Infobase File | nfo |  |
-| fmt/1161 | Folio Shadow File | sdw |  |
 | fmt/1160 | Folio Shadow File | sdw |  |
+| fmt/1161 | Folio Shadow File | sdw |  |
 | apache-httpd/17640913485785347964 | font bdf | bdf | application/x-font-bdf |
 | apache-httpd/17699946521673092095 | font ghostscript | gsf | application/x-font-ghostscript |
 | apache-httpd/16860774818483330147 | font linux psf | psf | application/x-font-linux-psf |
@@ -1260,23 +1260,23 @@ File Types: 3839
 | x-fmt/442 | form*Z Project File | fmz | application/octet-stream |
 | linguist/113 | Formatted | .for, .eam.fs |  |
 | linguist/114 | Forth | .fth, .4th, .f, .for, .forth, .fr, .frt, .fs | text/x-forth |
+| fmt/879 | Fortran | f90, f95, f03, f, for |  |
 | linguist/107 | Fortran | .f, .f77, .for, .fpp | text/x-fortran |
 | apache-httpd/14275005348846661619 | fortran | f, for, f77, f90 | text/x-fortran |
-| fmt/879 | Fortran | f90, f95, f03, f, for |  |
 | linguist/761352333 | Fortran Free Form | .f90, .f03, .f08, .f95 | text/x-fortran |
 | fmt/1846 | Fountain Markup Language File | spmd, fountain |  |
 | fmt/375 | FoxPro Compound Index File | cdx |  |
+| fmt/373 | FoxPro Database | dbf |  |
 | x-fmt/6 | FoxPro Database | dbf |  |
 | x-fmt/7 | FoxPro Database | dbf |  |
-| fmt/373 | FoxPro Database | dbf |  |
 | fmt/381 | FoxPro Project | pjx |  |
 | fmt/376 | FoxPro Report | frx |  |
 | x-fmt/320 | Fractal Image | fif |  |
 | x-fmt/55 | Frame Vector Metafile | fmv |  |
 | fmt/1173 | FrameMD5 | framemd5, md5 |  |
-| x-fmt/323 | Framework Database | fw4 |  |
-| x-fmt/321 | Framework Database | fw, fw2 |  |
 | x-fmt/322 | Framework Database | fw3 |  |
+| x-fmt/321 | Framework Database | fw, fw2 |  |
+| x-fmt/323 | Framework Database | fw4 |  |
 | fmt/872 | Free Lossless Image Format (FLIF) | flif | image/flif |
 | apache-httpd/2127115815514234195 | freearc | arc | application/x-freearc |
 | fmt/1096 | FreeArc Archive Format | arc |  |
@@ -1325,9 +1325,9 @@ File Types: 3839
 | linguist/123 | GDScript | .gd |  |
 | linguist/459577965 | GEDCOM | .ged |  |
 | x-fmt/159 | GEM Image | img |  |
+| fmt/543 | GEM Metafile Format | gem |  |
 | fmt/542 | GEM Metafile Format | gem |  |
 | x-fmt/215 | GEM Metafile Format | gem |  |
-| fmt/543 | GEM Metafile Format | gem |  |
 | linguist/907065713 | Gemfile.lock |  |  |
 | linguist/310828396 | Gemini | .gmi |  |
 | fmt/1770 | GenBank Flat File | gb, gbk |  |
@@ -1341,12 +1341,12 @@ File Types: 3839
 | linguist/126 | Genshi | .kid | text/xml |
 | linguist/127 | Gentoo Ebuild | .ebuild | text/x-sh |
 | linguist/128 | Gentoo Eclass | .eclass | text/x-sh |
-| fmt/619 | GeoGebra | ggb | application/vnd.geogebra.file |
-| fmt/621 | GeoGebra | ggb | application/vnd.geogebra.file |
-| fmt/618 | GeoGebra | geo | application/vnd.geogebra.file |
 | fmt/620 | GeoGebra | ggb | application/vnd.geogebra.file |
-| fmt/617 | GeoGebra | ggb | application/vnd.geogebra.file |
+| fmt/619 | GeoGebra | ggb | application/vnd.geogebra.file |
 | fmt/622 | GeoGebra | ggb | application/vnd.geogebra.file |
+| fmt/617 | GeoGebra | ggb | application/vnd.geogebra.file |
+| fmt/618 | GeoGebra | geo | application/vnd.geogebra.file |
+| fmt/621 | GeoGebra | ggb | application/vnd.geogebra.file |
 | apache-httpd/12975698861315840269 | geogebra slides | ggs | application/vnd.geogebra.slides |
 | apache-httpd/5451843174200806045 | geogebra tool | ggt | application/vnd.geogebra.tool |
 | fmt/155 | Geographic Tagged Image File Format (GeoTIFF) | tif, tiff | image/tiff |
@@ -1401,10 +1401,10 @@ File Types: 3839
 | apache-httpd/17061360333974647667 | gramps xml | gramps | application/x-gramps-xml |
 | linguist/138 | Graph Modeling Language | .gml |  |
 | fmt/336 | Graphic Workshop for Windows Thumbnail File | thn |  |
-| fmt/4 | Graphics Interchange Format | gif | image/gif |
 | fmt/3 | Graphics Interchange Format | gif | image/gif |
-| fmt/1955 | Graphisoft Archicad Project | pla, pln |  |
+| fmt/4 | Graphics Interchange Format | gif | image/gif |
 | fmt/1913 | Graphisoft Archicad Project | pln, pla |  |
+| fmt/1955 | Graphisoft Archicad Project | pla, pln |  |
 | fmt/1914 | Graphisoft BIMx Hyper-Model | bimx |  |
 | fmt/575 | GraphPad Prism | pzm |  |
 | fmt/576 | GraphPad Prism | pzf |  |
@@ -1426,8 +1426,8 @@ File Types: 3839
 | fmt/362 | GSSI SIR-10 RADAN data file | dzt |  |
 | fmt/1877 | GST Art File | art |  |
 | fmt/1878 | GST Art File | art |  |
-| fmt/1415 | GST Publisher File | dtp |  |
 | fmt/1416 | GST Publisher File | dtp |  |
+| fmt/1415 | GST Publisher File | dtp |  |
 | apache-httpd/9798185628672492787 | gtar | gtar | application/x-gtar |
 | apache-httpd/18176455083221241937 | gtw | gtw | model/vnd.gtw |
 | fmt/1872 | Guitar Pro File | gtp |  |
@@ -1446,15 +1446,15 @@ File Types: 3839
 | linguist/154 | Haml | .haml, .haml.deface | text/x-haml |
 | apache-httpd/3355380472191294597 | handheld entertainment xml | zmm | application/vnd.handheld-entertainment+xml |
 | linguist/155 | Handlebars | .handlebars, .hbs |  |
-| fmt/1084 | Hangul Word Processor Document | hwp |  |
 | fmt/1083 | Hangul Word Processor Document | hwp |  |
+| fmt/1084 | Hangul Word Processor Document | hwp |  |
 | linguist/366607477 | HAProxy | .cfg |  |
 | linguist/156 | Harbour | .hb |  |
 | linguist/463518941 | Hare | .ha |  |
 | fmt/426 | Harris Matrix | hm |  |
 | x-fmt/32 | Harvard Graphics Chart | ch3 |  |
-| fmt/1492 | Harvard Graphics Presentation | pr4 |  |
 | fmt/1491 | Harvard Graphics Presentation | prs |  |
+| fmt/1492 | Harvard Graphics Presentation | pr4 |  |
 | x-fmt/101 | Harvard Graphics Show | sh3 |  |
 | x-fmt/324 | Harvard Graphics Show | shw |  |
 | x-fmt/325 | Harvard Graphics Vector Graphics | cht |  |
@@ -1463,15 +1463,15 @@ File Types: 3839
 | linguist/158 | Haxe | .hx, .hxsl | text/x-haxe |
 | apache-httpd/921806164785967428 | hbci | hbci | application/vnd.hbci |
 | linguist/144 | HCL | .hcl, .nomad, .tf, .tfvars, .workflow | text/x-ruby |
-| fmt/1041 | HDF | hdf, h4 |  |
 | apache-httpd/16035530569936599317 | hdf | hdf | application/x-hdf |
+| fmt/1041 | HDF | hdf, h4 |  |
 | fmt/807 | HDF5 | h5, hdf, hdf5, nc |  |
-| fmt/287 | HDF5 | hdf5, h5, hdf, nc |  |
 | fmt/286 | HDF5 | hdf, h5, hdf5, nc |  |
+| fmt/287 | HDF5 | hdf5, h5, hdf, nc |  |
 | fmt/1790 | Help Librarian File | hlp, dat, dta |  |
 | x-fmt/326 | Hewlett Packard AdvanceWrite Text File | aw |  |
-| x-fmt/293 | Hewlett Packard Graphics Language | hpgl | application/vnd.hp-HPGL |
 | fmt/1174 | Hewlett Packard Graphics Language | 000 | application/vnd.hp-HPGL |
+| x-fmt/293 | Hewlett Packard Graphics Language | hpgl | application/vnd.hp-HPGL |
 | x-fmt/83 | Hewlett Packard Vector Graphic Plotter File | plt |  |
 | apache-httpd/5614076178321165217 | hhe lesson player | les | application/vnd.hhe.lesson-player |
 | fmt/1105 | Hierarchical File System | img |  |
@@ -1513,12 +1513,12 @@ File Types: 3839
 | apache-httpd/3133176646220210526 | hydrostatix sof data | sfd-hdstx | application/vnd.hydrostatix.sof-data |
 | fmt/1490 | HyperCard Stack |  |  |
 | apache-httpd/2482147210414887812 | hyperstudio | stk | application/hyperstudio |
-| fmt/97 | Hypertext Markup Language | htm, html | text/html |
-| fmt/99 | Hypertext Markup Language | htm, html | text/html |
 | fmt/471 | Hypertext Markup Language | htm, html | text/html |
 | fmt/100 | Hypertext Markup Language | htm, html | text/html |
-| fmt/98 | Hypertext Markup Language | htm, html | text/html |
+| fmt/99 | Hypertext Markup Language | htm, html | text/html |
 | fmt/96 | Hypertext Markup Language | htm, html | text/html |
+| fmt/97 | Hypertext Markup Language | htm, html | text/html |
+| fmt/98 | Hypertext Markup Language | htm, html | text/html |
 | linguist/160 | HyPhy | .bf |  |
 | fmt/893 | i2 Analysts Notebook | anb |  |
 | x-fmt/148 | IBM DisplayWrite DCA Text File | dca |  |
@@ -1531,9 +1531,9 @@ File Types: 3839
 | apache-httpd/4568607398768371283 | ibm rights management | irm | application/vnd.ibm.rights-management |
 | apache-httpd/2128091057912424249 | ibm secure container | sc | application/vnd.ibm.secure-container |
 | linguist/98384424 | iCalendar | .ics, .ical | text/x-properties |
-| fmt/1977 | ICC Profile | icc, icm | application/vnd.iccprofile |
 | fmt/1975 | ICC Profile | icc, icm | application/vnd.iccprofile |
 | fmt/1976 | ICC Profile | icc, icm | application/vnd.iccprofile |
+| fmt/1977 | ICC Profile | icc, icm | application/vnd.iccprofile |
 | fmt/1793 | ICDRAW Group Icon File | ib3 |  |
 | fmt/1792 | ICDRAW Single Icon File | ibi |  |
 | fmt/1400 | Ichitaro Document | jtd, jtt, $td | application/x-js-taro |
@@ -1560,9 +1560,9 @@ File Types: 3839
 | apache-httpd/7954558507145459927 | in3d 3dml | 3dml | text/vnd.in3d.3dml |
 | apache-httpd/14440943984996457076 | in3d spot | spot | text/vnd.in3d.spot |
 | fmt/1184 | InDesign Markup Language Package | idml | application/vnd.adobe.indesign-idml-package |
-| fmt/700 | Industry Foundation Classes | ifc |  |
 | fmt/659 | Industry Foundation Classes | ifc |  |
 | fmt/699 | Industry Foundation Classes | ifc |  |
+| fmt/700 | Industry Foundation Classes | ifc |  |
 | fmt/663 | Industry Foundation Classes XML | ifcXML |  |
 | linguist/166 | Inform 7 | .ni, .i7x |  |
 | fmt/212 | Information or Setup File | inf |  |
@@ -1591,12 +1591,12 @@ File Types: 3839
 | x-fmt/229 | Intergraph Raster Image | ing |  |
 | x-fmt/329 | Interleaf Document | doc |  |
 | fmt/841 | Interleaved ADX Audio Format (AIX) | aix |  |
+| fmt/1012 | INTERLIS Model File | ili |  |
 | fmt/654 | INTERLIS Model File | ili |  |
 | fmt/1014 | INTERLIS Model File | ili |  |
-| fmt/1012 | INTERLIS Model File | ili |  |
+| fmt/1013 | INTERLIS Transfer File | itf |  |
 | fmt/653 | INTERLIS Transfer File | xtf |  |
 | fmt/1011 | INTERLIS Transfer File | xml, xtf |  |
-| fmt/1013 | INTERLIS Transfer File | itf |  |
 | fmt/410 | Internet Archive | arc |  |
 | x-fmt/219 | Internet Archive | arc | application/x-internet-archive |
 | fmt/388 | Internet Calendar and Scheduling format | ics | text/calendar |
@@ -1641,8 +1641,8 @@ File Types: 3839
 | apache-httpd/774788408177624151 | java source | java | text/x-java-source |
 | linguist/599494012 | Java Template Engine | .jte |  |
 | apache-httpd/16922485787373200833 | java vm | class | application/java-vm |
-| linguist/183 | JavaScript | .js, ._js, .bones, .cjs, .es, .es6, .frag, .gs, .jake, .javascript, .jsb, .jscad, .jsfl, .jslib, .jsm, .jspre, .jss, .jsx, .mjs, .njs, .pac, .sjs, .ssjs, .xsjs, .xsjslib | text/javascript |
 | apache-httpd/9053165588289940551 | javascript | js, mjs | text/javascript |
+| linguist/183 | JavaScript | .js, ._js, .bones, .cjs, .es, .es6, .frag, .gs, .jake, .javascript, .jsb, .jscad, .jsfl, .jslib, .jsm, .jspre, .jss, .jsx, .mjs, .njs, .pac, .sjs, .ssjs, .xsjs, .xsjslib | text/javascript |
 | x-fmt/423 | JavaScript file | js | application/javascript |
 | linguist/914318960 | JavaScript+ERB | .js.erb | application/javascript |
 | linguist/316620079 | JCL | .jcl |  |
@@ -1662,9 +1662,9 @@ File Types: 3839
 | apache-httpd/7742985520819096109 | jpeg | jpgv | video/jpeg |
 | fmt/1794 | JPEG 2000 Codestream | j2k, jpc, j2c | image/jp2 |
 | fmt/590 | JPEG Extended Range | wdp, jxr | image/jxr |
+| fmt/42 | JPEG File Interchange Format | jpeg, jpe, jpg, jif, jfif, jfi | image/jpeg |
 | fmt/43 | JPEG File Interchange Format | jpg, jpe, jpeg, jif, jfif, jfi | image/jpeg |
 | fmt/44 | JPEG File Interchange Format | jpg, jpe, jpeg, jif, jfif, jfi | image/jpeg |
-| fmt/42 | JPEG File Interchange Format | jpeg, jpe, jpg, jif, jfif, jfi | image/jpeg |
 | fmt/529 | JPEG Network Graphics | jng | image/x-jng |
 | fmt/1485 | JPEG XL | jxl | image/jxl |
 | fmt/1484 | JPEG XL Codestream | jxl | image/jxl |
@@ -1724,8 +1724,8 @@ File Types: 3839
 | linguist/189 | Kotlin | .kt, .ktm, .kts | text/x-kotlin |
 | fmt/999 | Krita Document Format | kra | application/x-krita |
 | linguist/186 | KRL | .krl |  |
-| fmt/655 | KryoFlux | raw |  |
 | fmt/656 | KryoFlux | raw |  |
+| fmt/655 | KryoFlux | raw |  |
 | linguist/225697190 | Kusto | .csl, .kql |  |
 | linguist/970675279 | kvlang | .kv |  |
 | linguist/194 | LabVIEW | .lvproj, .lvclass, .lvlib | text/xml |
@@ -1756,12 +1756,12 @@ File Types: 3839
 | fmt/587 | LifeTechnologies ABIF | abif |  |
 | fmt/586 | LifeTechnologies SDS | sds |  |
 | fmt/1205 | LightWave 3D Object | lw |  |
-| fmt/1152 | Lightwright Show File | lw2 |  |
 | fmt/1151 | Lightwright Show File | lw1, lw |  |
-| fmt/1155 | Lightwright Show File | lw5 |  |
-| fmt/1156 | Lightwright Show File | lw6 |  |
-| fmt/1154 | Lightwright Show File | lw4 |  |
+| fmt/1152 | Lightwright Show File | lw2 |  |
 | fmt/1153 | Lightwright Show File | lw3 |  |
+| fmt/1154 | Lightwright Show File | lw4 |  |
+| fmt/1156 | Lightwright Show File | lw6 |  |
+| fmt/1155 | Lightwright Show File | lw5 |  |
 | linguist/1040646257 | LigoLANG | .ligo | text/x-pascal |
 | linguist/200 | LilyPond | .ly, .ily |  |
 | linguist/201 | Limbo | .b, .m |  |
@@ -1782,14 +1782,14 @@ File Types: 3839
 | apache-httpd/5029791183561743911 | llamagraphics life balance exchange xml | lbe | application/vnd.llamagraphics.life-balance.exchange+xml |
 | linguist/191 | LLVM | .ll |  |
 | fmt/1310 | LocoFile |  |  |
-| fmt/1307 | LocoScript Document |  |  |
+| fmt/1305 | LocoScript Document |  |  |
 | fmt/1306 | LocoScript Document |  |  |
 | fmt/1304 | LocoScript Document |  |  |
-| fmt/1305 | LocoScript Document |  |  |
+| fmt/1307 | LocoScript Document |  |  |
 | fmt/1308 | LocoScript PC |  |  |
 | fmt/1309 | LocoScript Professional |  |  |
-| fmt/389 | Log ASCII Standard Format | las |  |
 | fmt/391 | Log ASCII Standard Format | las |  |
+| fmt/389 | Log ASCII Standard Format | las |  |
 | fmt/390 | Log ASCII Standard Format | las |  |
 | x-fmt/62 | Log File | log |  |
 | fmt/804 | Logical File Evidence Format | l01 |  |
@@ -1800,22 +1800,22 @@ File Types: 3839
 | linguist/212 | LoomScript | .ls |  |
 | apache-httpd/5927135927038744495 | lost xml | lostxml | application/lost+xml |
 | x-fmt/82 | Lotus 1-2-3 Chart | pic |  |
-| x-fmt/331 | Lotus 1-2-3 Spreadsheet Formatting File | fm1, fmt |  |
 | x-fmt/332 | Lotus 1-2-3 Spreadsheet Formatting File | fm3 |  |
-| x-fmt/117 | Lotus 1-2-3 Worksheet | wks | application/vnd.lotus-1-2-3, application/x-123 |
-| x-fmt/116 | Lotus 1-2-3 Worksheet | wk4 | application/lotus123, application/vnd.lotus-1-2-3 |
+| x-fmt/331 | Lotus 1-2-3 Spreadsheet Formatting File | fm1, fmt |  |
 | x-fmt/115 | Lotus 1-2-3 Worksheet | wk3 | application/lotus123, application/vnd.lotus-1-2-3 |
-| fmt/1452 | Lotus 1-2-3 Worksheet | 123 | application/vnd.lotus-1-2-3, application/x-123 |
-| fmt/1453 | Lotus 1-2-3 Worksheet | 123 | application/vnd.lotus-1-2-3, application/x-123 |
+| x-fmt/116 | Lotus 1-2-3 Worksheet | wk4 | application/lotus123, application/vnd.lotus-1-2-3 |
 | x-fmt/212 | Lotus 1-2-3 Worksheet |  |  |
 | x-fmt/114 | Lotus 1-2-3 Worksheet | wk1, wk2 | application/vnd.lotus-1-2-3, application/x-123 |
+| x-fmt/117 | Lotus 1-2-3 Worksheet | wks | application/vnd.lotus-1-2-3, application/x-123 |
+| fmt/1452 | Lotus 1-2-3 Worksheet | 123 | application/vnd.lotus-1-2-3, application/x-123 |
+| fmt/1453 | Lotus 1-2-3 Worksheet | 123 | application/vnd.lotus-1-2-3, application/x-123 |
 | x-fmt/333 | Lotus Approach View File | apr | application/vnd.lotus-approach |
 | x-fmt/334 | Lotus Approach View File | apt | application/vnd.lotus-approach |
 | apache-httpd/5593557214741015173 | lotus freelance | pre | application/vnd.lotus-freelance |
 | fmt/1216 | Lotus Freelance Show | prz | application/vnd.lotus-freelance |
 | x-fmt/335 | Lotus Freelance Smartmaster Graphics | mas | application/vnd.lotus-freelance |
-| x-fmt/336 | Lotus Notes Database | ns2, nsf | application/vnd.lotus-notes |
 | x-fmt/338 | Lotus Notes Database | ns4, nsf | application/vnd.lotus-notes |
+| x-fmt/336 | Lotus Notes Database | ns2, nsf | application/vnd.lotus-notes |
 | x-fmt/337 | Lotus Notes Database | ns3, nsf | application/vnd.lotus-notes |
 | x-fmt/339 | Lotus Notes File | box |  |
 | apache-httpd/12260496078258194652 | lotus organizer | org | application/vnd.lotus-organizer |
@@ -1835,42 +1835,42 @@ File Types: 3839
 | apache-httpd/6948131469390528991 | m4v | m4v | video/x-m4v |
 | apache-httpd/7253703184866025307 | mac compactpro | cpt | application/mac-compactpro |
 | linguist/34167825 | Macaulay2 | .m2 |  |
-| fmt/1762 | MacBinary | bin |  |
 | fmt/1761 | MacBinary |  |  |
 | fmt/1763 | MacBinary | bin |  |
-| fmt/1819 | MacCaption File | mcc |  |
+| fmt/1762 | MacBinary | bin |  |
 | fmt/1820 | MacCaption File | mcc |  |
+| fmt/1819 | MacCaption File | mcc |  |
 | fmt/1821 | MacCaption Project | cca |  |
-| fmt/1428 | MacDraw |  |  |
 | fmt/1426 | MacDraw |  |  |
+| fmt/1428 | MacDraw |  |  |
 | fmt/1427 | MacDraw |  |  |
 | fmt/1425 | MacDraw |  |  |
 | fmt/693 | Mach-O |  |  |
 | fmt/692 | Mach-O |  |  |
-| x-fmt/80 | Macintosh PICT Image | pct, pict | image/x-pict |
 | fmt/341 | Macintosh PICT Image | pct, pict, pic | image/x-pict |
+| x-fmt/80 | Macintosh PICT Image | pct, pict | image/x-pict |
 | x-fmt/14 | Macintosh Text File |  | text/plain |
 | x-fmt/175 | MacPaint Graphics | pnt |  |
-| fmt/1429 | MacPaint Image |  |  |
 | x-fmt/161 | MacPaint Image | mac |  |
+| fmt/1429 | MacPaint Image |  |  |
 | apache-httpd/5659107803445623294 | macports portpkg | portpkg | application/vnd.macports.portpkg |
 | fmt/487 | Macro Enabled Microsoft Powerpoint | pptm | application/vnd.ms-powerpoint.presentation.macroEnabled.12 |
 | fmt/523 | Macro enabled Microsoft Word Document OOXML | docm | application/vnd.ms-word.document.macroEnabled.12 |
 | fmt/486 | Macromedia (Adobe) Director Compressed Resource file | dcr |  |
 | x-fmt/341 | Macromedia Director | dir, dxr | application/x-director |
 | fmt/317 | Macromedia Director | dir, dxr | application/x-director |
-| fmt/108 | Macromedia Flash | swf | application/x-shockwave-flash |
-| fmt/110 | Macromedia Flash | swf | application/x-shockwave-flash |
-| fmt/106 | Macromedia Flash | swf | application/x-shockwave-flash |
-| fmt/104 | Macromedia Flash | swf | application/x-shockwave-flash |
+| fmt/105 | Macromedia Flash | swf | application/x-shockwave-flash |
 | fmt/109 | Macromedia Flash | swf | application/x-shockwave-flash |
 | fmt/107 | Macromedia Flash | swf | application/x-shockwave-flash |
-| fmt/105 | Macromedia Flash | swf | application/x-shockwave-flash |
+| fmt/104 | Macromedia Flash | swf | application/x-shockwave-flash |
+| fmt/110 | Macromedia Flash | swf | application/x-shockwave-flash |
+| fmt/108 | Macromedia Flash | swf | application/x-shockwave-flash |
+| fmt/106 | Macromedia Flash | swf | application/x-shockwave-flash |
 | x-fmt/382 | Macromedia FLV | flv | video/x-flv |
-| fmt/545 | Macromedia FreeHand | fh8 |  |
-| fmt/547 | Macromedia FreeHand | fh10 |  |
-| fmt/546 | Macromedia FreeHand | fh9 |  |
 | x-fmt/53 | Macromedia Freehand | fh5, fh4 |  |
+| fmt/547 | Macromedia FreeHand | fh10 |  |
+| fmt/545 | Macromedia FreeHand | fh8 |  |
+| fmt/546 | Macromedia FreeHand | fh9 |  |
 | fmt/544 | Macromedia FreeHand | fh7 |  |
 | fmt/400 | Macromedia FreeHand MX | fh11 |  |
 | apache-httpd/13249549495329969252 | mads xml | mads | application/mads+xml |
@@ -1893,29 +1893,29 @@ File Types: 3839
 | linguist/932782397 | Marko | .marko | text/html |
 | linguist/223 | Mask | .mask |  |
 | fmt/1900 | Mass Spectrometry Markup Language | mxml |  |
-| fmt/785 | Material Exchange Format | mxf | application/mxf |
 | fmt/787 | Material Exchange Format | mxf | application/mxf |
+| fmt/784 | Material Exchange Format | mxf | application/mxf |
 | fmt/786 | Material Exchange Format | mxf | application/mxf |
+| fmt/783 | Material Exchange Format | mxf | application/mxf |
 | fmt/790 | Material Exchange Format | mxf | application/mxf |
-| fmt/791 | Material Exchange Format | mxf | application/mxf |
 | fmt/789 | Material Exchange Format | mxf | application/mxf |
 | fmt/788 | Material Exchange Format | mxf | application/mxf |
-| fmt/783 | Material Exchange Format | mxf | application/mxf |
-| fmt/784 | Material Exchange Format | mxf | application/mxf |
 | fmt/200 | Material Exchange Format | mxf | application/mxf |
-| fmt/931 | Mathcad Document | mcd |  |
+| fmt/785 | Material Exchange Format | mxf | application/mxf |
+| fmt/791 | Material Exchange Format | mxf | application/mxf |
 | fmt/932 | Mathcad Document | xmcd |  |
+| fmt/931 | Mathcad Document | mcd |  |
 | linguist/224 | Mathematica | .mathematica, .cdf, .m, .ma, .mt, .nb, .nbp, .wl, .wlt | text/x-mathematica |
 | fmt/201 | Mathematica Notebook | nb | application/mathematica |
 | apache-httpd/3699261783011718340 | mathml xml | mathml | application/mathml+xml |
 | linguist/225 | MATLAB | .matlab, .m | text/x-octave |
 | fmt/828 | MATLAB Mat File | mat, fig |  |
-| fmt/1550 | MATLAB Mat File | mat |  |
 | fmt/806 | MATLAB Mat File | mat, fig |  |
+| fmt/1550 | MATLAB Mat File | mat |  |
 | fmt/1678 | MATLAB Script File | m |  |
-| apache-httpd/4395470199143842936 | matroska | mkv, mk3d, mks | video/x-matroska |
-| apache-httpd/5069105610641688063 | matroska | mka | audio/x-matroska |
 | fmt/569 | Matroska | mkv, mk3d, mka, mks |  |
+| apache-httpd/5069105610641688063 | matroska | mka | audio/x-matroska |
+| apache-httpd/4395470199143842936 | matroska | mkv, mk3d, mks | video/x-matroska |
 | linguist/226 | Maven POM |  | text/xml |
 | linguist/227 | Max | .maxpat, .maxhelp, .maxproj, .mxt, .pat | application/json |
 | linguist/217 | MAXScript | .ms, .mcr |  |
@@ -1955,26 +1955,26 @@ File Types: 3839
 | apache-httpd/12340112869033537762 | mfer | mwf | application/vnd.mfer |
 | apache-httpd/10582393778901387068 | mfmp | mfm | application/vnd.mfmp |
 | x-fmt/429 | MHTML | mht, mhtml | multipart/related |
-| x-fmt/151 | Micrografx Designer | dsf |  |
 | x-fmt/296 | Micrografx Designer | drw |  |
+| x-fmt/151 | Micrografx Designer | dsf |  |
+| x-fmt/47 | Micrografx Draw | drw |  |
 | x-fmt/294 | Micrografx Draw | drw |  |
 | x-fmt/295 | Micrografx Draw | drw, drt |  |
-| x-fmt/47 | Micrografx Draw | drw |  |
 | apache-httpd/6898984041858146169 | micrografx flo | flo | application/vnd.micrografx.flo |
 | fmt/1907 | Micrografx Icon File | icn |  |
 | apache-httpd/15630303916909994538 | micrografx igx | igx | application/vnd.micrografx.igx |
 | fmt/1481 | Micrografx In-A-Vision Drawing | pic |  |
-| x-fmt/239 | Microsoft Access Database File | mdb, mda, mdt, mde |  |
-| fmt/275 | Microsoft Access Database File | accdb |  |
-| fmt/1806 | Microsoft Access Database File | mdb, mda |  |
-| x-fmt/238 | Microsoft Access Database File | mdb, mda, mde, mdt |  |
 | x-fmt/241 | Microsoft Access Database File | mdb, mde |  |
-| x-fmt/240 | Microsoft Access Database File | mdb, mde |  |
 | fmt/1805 | Microsoft Access Database File | mdb, mda |  |
+| fmt/1806 | Microsoft Access Database File | mdb, mda |  |
+| x-fmt/239 | Microsoft Access Database File | mdb, mda, mdt, mde |  |
+| x-fmt/238 | Microsoft Access Database File | mdb, mda, mde, mdt |  |
+| x-fmt/240 | Microsoft Access Database File | mdb, mde |  |
 | x-fmt/66 | Microsoft Access Database File | mdb, mda |  |
-| fmt/1808 | Microsoft Access Encrypted Database File | mdb, mda |  |
-| fmt/1807 | Microsoft Access Encrypted Database File | mdb, mda |  |
+| fmt/275 | Microsoft Access Database File | accdb |  |
 | fmt/1809 | Microsoft Access Encrypted Database File | mdb, mda |  |
+| fmt/1807 | Microsoft Access Encrypted Database File | mdb, mda |  |
+| fmt/1808 | Microsoft Access Encrypted Database File | mdb, mda |  |
 | fmt/1258 | Microsoft Access Workgroup Information File | mdw |  |
 | fmt/1893 | Microsoft Agent File | acs |  |
 | fmt/386 | Microsoft Animated Cursor Format | ani |  |
@@ -1990,20 +1990,20 @@ File Types: 3839
 | fmt/61 | Microsoft Excel 97 Workbook (xls) | xls, xlw | application/vnd.ms-excel |
 | x-fmt/124 | Microsoft Excel Add-In | xla, xll |  |
 | x-fmt/23 | Microsoft Excel Backup | xlk |  |
-| fmt/554 | Microsoft Excel Chart | xlc | application/vnd.ms-excel |
 | fmt/553 | Microsoft Excel Chart | xlc | application/vnd.ms-excel |
 | x-fmt/126 | Microsoft Excel Chart | xlc |  |
-| fmt/172 | Microsoft Excel for Macintosh |  |  |
-| fmt/173 | Microsoft Excel for Macintosh |  |  |
+| fmt/554 | Microsoft Excel Chart | xlc | application/vnd.ms-excel |
+| fmt/176 | Microsoft Excel for Macintosh |  |  |
 | fmt/178 | Microsoft Excel for Macintosh |  |  |
 | fmt/175 | Microsoft Excel for Macintosh |  |  |
 | fmt/177 | Microsoft Excel for Macintosh |  |  |
+| fmt/172 | Microsoft Excel for Macintosh |  |  |
 | fmt/174 | Microsoft Excel for Macintosh |  |  |
-| fmt/176 | Microsoft Excel for Macintosh |  |  |
+| fmt/173 | Microsoft Excel for Macintosh |  |  |
 | fmt/214 | Microsoft Excel for Windows | xlsx | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
+| fmt/556 | Microsoft Excel Macro | xlm | application/vnd.ms-excel |
 | fmt/555 | Microsoft Excel Macro | xlm | application/vnd.ms-excel |
 | x-fmt/123 | Microsoft Excel Macro | xla, xlm | application/vnd.ms-excel |
-| fmt/556 | Microsoft Excel Macro | xlm | application/vnd.ms-excel |
 | fmt/445 | Microsoft Excel Macro-Enabled | xlsm | application/vnd.ms-excel.sheet.macroEnabled.12 |
 | fmt/628 | Microsoft Excel Macro-Enabled Add-In | xlam | application/vnd.ms-excel.addin.macroEnabled.12 |
 | fmt/627 | Microsoft Excel Macro-Enabled Template | xltm | application/vnd.ms-excel.template.macroEnabled.12 |
@@ -2015,8 +2015,8 @@ File Types: 3839
 | x-fmt/17 | Microsoft Excel Template | xlt | application/vnd.ms-excel |
 | x-fmt/125 | Microsoft Excel Toolbar | xlb |  |
 | x-fmt/58 | Microsoft Excel Web Query | iqy |  |
-| x-fmt/128 | Microsoft Excel Workspace File | xlw |  |
 | fmt/1858 | Microsoft Excel Workspace File | xlw | application/vnd.ms-excel |
+| x-fmt/128 | Microsoft Excel Workspace File | xlw |  |
 | fmt/647 | Microsoft Expression Media | ivc |  |
 | x-fmt/242 | Microsoft FoxPro Database | dbf |  |
 | x-fmt/172 | Microsoft FoxPro Library | plb |  |
@@ -2029,8 +2029,8 @@ File Types: 3839
 | fmt/475 | Microsoft Management Console Snap-in Control file | msc |  |
 | fmt/1362 | Microsoft MapPoint Document | ptm |  |
 | fmt/162 | Microsoft Multiplan | mod |  |
-| fmt/778 | Microsoft Network Monitor Packet Capture | cap |  |
 | fmt/777 | Microsoft Network Monitor Packet Capture | cap |  |
+| fmt/778 | Microsoft Network Monitor Packet Capture | cap |  |
 | fmt/240 | Microsoft Office Binder File for Windows | obd |  |
 | fmt/237 | Microsoft Office Binder File for Windows | obd |  |
 | fmt/238 | Microsoft Office Binder Template for Windows | obt |  |
@@ -2051,17 +2051,17 @@ File Types: 3839
 | x-fmt/251 | Microsoft Outlook Personal Folders |  |  |
 | x-fmt/248 | Microsoft Outlook Personal Folders (ANSI) | pst |  |
 | x-fmt/249 | Microsoft Outlook Personal Folders (Unicode) | pst |  |
-| fmt/912 | Microsoft Paint | msp |  |
 | x-fmt/214 | Microsoft Paint | msp |  |
+| fmt/912 | Microsoft Paint | msp |  |
 | fmt/594 | Microsoft PhotoDraw | mix | image/vnd.mix |
 | fmt/936 | Microsoft Picture It! Image File | mix | image/vnd.mix |
 | x-fmt/86 | Microsoft Powerpoint Add-In | ppa |  |
 | x-fmt/84 | Microsoft Powerpoint Design Template | pot |  |
-| fmt/180 | Microsoft PowerPoint for Macintosh |  |  |
-| fmt/1867 | Microsoft Powerpoint for Macintosh | ppt | application/vnd.ms-PowerPoint |
 | fmt/182 | Microsoft PowerPoint for Macintosh |  |  |
-| fmt/179 | Microsoft PowerPoint for Macintosh | ppt | application/vnd.ms-powerpoint |
+| fmt/180 | Microsoft PowerPoint for Macintosh |  |  |
 | fmt/1866 | Microsoft Powerpoint for Macintosh | ppt | application/vnd.ms-PowerPoint |
+| fmt/179 | Microsoft PowerPoint for Macintosh | ppt | application/vnd.ms-powerpoint |
+| fmt/1867 | Microsoft Powerpoint for Macintosh | ppt | application/vnd.ms-PowerPoint |
 | fmt/181 | Microsoft PowerPoint for Macintosh | ppt | application/vnd.ms-powerpoint |
 | fmt/215 | Microsoft Powerpoint for Windows | pptx | application/vnd.openxmlformats-officedocument.presentationml.presentation |
 | x-fmt/177 | Microsoft PowerPoint Graphics File | ppi |  |
@@ -2070,53 +2070,53 @@ File Types: 3839
 | fmt/636 | Microsoft PowerPoint Macro-Enabled Slide | sldm | application/vnd.ms-powerpoint.slide.macroEnabled.12 |
 | fmt/632 | Microsoft PowerPoint Macro-Enabled Template | potm | application/vnd.ms-powerpoint.template.macroEnabled.12 |
 | x-fmt/216 | Microsoft Powerpoint Packaged Presentation | ppz |  |
-| fmt/126 | Microsoft Powerpoint Presentation | ppt | application/vnd.ms-powerpoint |
-| x-fmt/88 | Microsoft PowerPoint Presentation | ppt | application/vnd.ms-powerpoint |
-| fmt/1747 | Microsoft PowerPoint Presentation | ppt | application/vnd.ms-PowerPoint |
 | fmt/1748 | Microsoft PowerPoint Presentation | ppt | application/vnd.ms-PowerPoint |
 | fmt/125 | Microsoft Powerpoint Presentation | ppt | application/vnd.ms-powerpoint |
+| x-fmt/88 | Microsoft PowerPoint Presentation | ppt | application/vnd.ms-powerpoint |
+| fmt/1747 | Microsoft PowerPoint Presentation | ppt | application/vnd.ms-PowerPoint |
+| fmt/126 | Microsoft Powerpoint Presentation | ppt | application/vnd.ms-powerpoint |
 | x-fmt/87 | Microsoft Powerpoint Presentation Show | pps | application/vnd.ms-powerpoint |
 | fmt/629 | Microsoft PowerPoint Show | ppsx | application/vnd.openxmlformats-officedocument.presentationml.slideshow |
 | fmt/631 | Microsoft PowerPoint Template | potx | application/vnd.openxmlformats-officedocument.presentationml.template |
 | x-fmt/90 | Microsoft Print File | prn |  |
-| fmt/1079 | Microsoft Program Database | pdb |  |
 | fmt/1078 | Microsoft Program Database | pdb |  |
-| x-fmt/245 | Microsoft Project | mpp | application/vnd.ms-project |
+| fmt/1079 | Microsoft Program Database | pdb |  |
 | x-fmt/246 | Microsoft Project |  |  |
+| x-fmt/245 | Microsoft Project | mpp | application/vnd.ms-project |
 | fmt/440 | Microsoft Project | mpp | application/vnd.ms-project |
-| fmt/725 | Microsoft Project | mpp | application/vnd.ms-project |
-| x-fmt/247 | Microsoft Project | mpp | application/vnd.ms-project |
-| x-fmt/244 | Microsoft Project | mpp | application/vnd.ms-project |
 | x-fmt/243 | Microsoft Project | mpp | application/vnd.ms-project |
-| fmt/343 | Microsoft Project Export File | mpx | application/x-project |
+| fmt/725 | Microsoft Project | mpp | application/vnd.ms-project |
+| x-fmt/244 | Microsoft Project | mpp | application/vnd.ms-project |
+| x-fmt/247 | Microsoft Project | mpp | application/vnd.ms-project |
 | fmt/342 | Microsoft Project Export File | mpx | application/x-project |
 | x-fmt/232 | Microsoft Project Export File | mpx | application/x-project |
+| fmt/343 | Microsoft Project Export File | mpx | application/x-project |
 | fmt/1043 | Microsoft PRX File | prx |  |
-| fmt/1511 | Microsoft Publisher | pub | application/x-mspublisher |
-| fmt/1515 | Microsoft Publisher | pub | application/x-mspublisher |
+| x-fmt/253 | Microsoft Publisher | pub | application/x-mspublisher |
+| x-fmt/252 | Microsoft Publisher | pub | application/x-mspublisher |
+| x-fmt/256 | Microsoft Publisher | pub | application/x-mspublisher |
 | x-fmt/257 | Microsoft Publisher | pub | application/x-mspublisher |
 | x-fmt/254 | Microsoft Publisher | pub | application/x-mspublisher |
 | fmt/1513 | Microsoft Publisher | pub | application/x-mspublisher |
+| fmt/1511 | Microsoft Publisher | pub | application/x-mspublisher |
 | fmt/1514 | Microsoft Publisher | pub | application/x-mspublisher |
-| x-fmt/253 | Microsoft Publisher | pub | application/x-mspublisher |
-| x-fmt/255 | Microsoft Publisher | pub | application/x-mspublisher |
 | fmt/1516 | Microsoft Publisher | pub | application/x-mspublisher |
-| x-fmt/256 | Microsoft Publisher | pub | application/x-mspublisher |
+| fmt/1515 | Microsoft Publisher | pub | application/x-mspublisher |
 | fmt/1512 | Microsoft Publisher | pub | application/x-mspublisher |
-| x-fmt/252 | Microsoft Publisher | pub | application/x-mspublisher |
+| x-fmt/255 | Microsoft Publisher | pub | application/x-mspublisher |
 | fmt/1839 | Microsoft Publisher Packaged Document | puz |  |
 | fmt/867 | Microsoft Reader eBook | lit |  |
 | fmt/1303 | Microsoft Shell Scrap Object File | shs |  |
 | x-fmt/106 | Microsoft Symbolic Link (SYLK) File | slk |  |
 | fmt/442 | Microsoft Visio (generic) | vsd | application/vnd.visio |
-| fmt/1509 | Microsoft Visio Drawing | vsd, vst, vss | application/vnd.visio |
-| fmt/443 | Microsoft Visio Drawing | vsd | application/vnd.visio |
-| fmt/1510 | Microsoft Visio Drawing | vsd, vst, vss, vsw | application/vnd.visio |
 | x-fmt/259 | Microsoft Visio Drawing |  |  |
+| fmt/443 | Microsoft Visio Drawing | vsd | application/vnd.visio |
 | x-fmt/113 | Microsoft Visio Drawing | vsd, vst, vss | application/vnd.visio |
-| fmt/1508 | Microsoft Visio Drawing | vsd, vst, vss | application/vnd.visio |
-| fmt/924 | Microsoft Visio Drawing | vsdx | application/vnd.ms-visio.drawing.main+xml |
 | x-fmt/258 | Microsoft Visio Drawing | vsd, vss, vst | application/vnd.visio |
+| fmt/1509 | Microsoft Visio Drawing | vsd, vst, vss | application/vnd.visio |
+| fmt/924 | Microsoft Visio Drawing | vsdx | application/vnd.ms-visio.drawing.main+xml |
+| fmt/1510 | Microsoft Visio Drawing | vsd, vst, vss, vsw | application/vnd.visio |
+| fmt/1508 | Microsoft Visio Drawing | vsd, vst, vss | application/vnd.visio |
 | fmt/927 | Microsoft Visio Macro-Enabled Drawing | vsdm | application/vnd.ms-visio.drawing.macroEnabled.main+xml |
 | fmt/928 | Microsoft Visio Macro-Enabled Stencil | vssm | application/vnd.ms-visio.stencil.macroEnabled.main+xml |
 | fmt/929 | Microsoft Visio Macro-Enabled Template | vstm | application/vnd.ms-visio.template.macroEnabled.main+xml |
@@ -2133,96 +2133,96 @@ File Types: 3839
 | x-fmt/179 | Microsoft Visual Modeller Petal file (ASCII) | ptl |  |
 | linguist/849523096 | Microsoft Visual Studio Solution | .sln |  |
 | fmt/385 | Microsoft Windows Cursor | cur | image/x-win-bitmap |
+| fmt/344 | Microsoft Windows Enhanced Metafile | emf | image/emf |
 | fmt/345 | Microsoft Windows Enhanced Metafile | emf | image/emf |
 | x-fmt/153 | Microsoft Windows Enhanced Metafile | emf | image/emf |
-| fmt/344 | Microsoft Windows Enhanced Metafile | emf | image/emf |
 | fmt/971 | Microsoft Windows Movie Maker File | mswmm |  |
 | x-fmt/428 | Microsoft Windows Shortcut | lnk |  |
 | fmt/609 | Microsoft Word (Generic) | doc | application/msword |
-| fmt/40 | Microsoft Word Document | doc, wbk | application/msword |
 | fmt/39 | Microsoft Word Document | doc | application/msword |
+| fmt/40 | Microsoft Word Document | doc, wbk | application/msword |
 | fmt/754 | Microsoft Word Document (Password Protected) | wbk, doc | application/msword |
 | x-fmt/45 | Microsoft Word Document Template | dot |  |
 | fmt/755 | Microsoft Word Document Template (Password Protected) | dot | application/msword |
+| x-fmt/129 | Microsoft Word for Macintosh Document |  |  |
+| x-fmt/2 | Microsoft Word for Macintosh Document |  |  |
+| x-fmt/65 | Microsoft Word for Macintosh Document | mcw | application/msword |
 | fmt/346 | Microsoft Word for Macintosh Document | mcw | application/msword |
 | x-fmt/1 | Microsoft Word for Macintosh Document | mcw | application/msword |
 | x-fmt/64 | Microsoft Word for Macintosh Document | mcw | application/msword |
-| x-fmt/65 | Microsoft Word for Macintosh Document | mcw | application/msword |
-| x-fmt/2 | Microsoft Word for Macintosh Document |  |  |
-| x-fmt/129 | Microsoft Word for Macintosh Document |  |  |
 | x-fmt/276 | Microsoft Word for MS-DOS Document | doc | application/msword |
 | x-fmt/273 | Microsoft Word for MS-DOS Document |  |  |
+| x-fmt/274 | Microsoft Word for MS-DOS Document | doc | application/msword |
 | fmt/1688 | Microsoft Word for MS-DOS Document | doc | application/msword |
 | x-fmt/275 | Microsoft Word for MS-DOS Document | doc | application/msword |
-| x-fmt/274 | Microsoft Word for MS-DOS Document | doc | application/msword |
 | fmt/1689 | Microsoft Word for MS-DOS Glossary File | gly | application/msword |
 | fmt/1691 | Microsoft Word for MS-DOS Printer Description File | prd | application/msword |
 | fmt/1690 | Microsoft Word for MS-DOS Style Sheet File | sty | application/msword |
 | fmt/412 | Microsoft Word for Windows | docx, wbk | application/vnd.openxmlformats-officedocument.wordprocessingml.document |
-| fmt/37 | Microsoft Word for Windows Document | doc | application/msword |
 | fmt/38 | Microsoft Word for Windows Document | doc | application/msword |
+| fmt/37 | Microsoft Word for Windows Document | doc | application/msword |
 | x-fmt/204 | Microsoft Word for Windows Macro | wpm |  |
 | fmt/599 | Microsoft Word Macro-Enabled Document Template | dotm | application/vnd.ms-word.template.macroEnabled.12 |
 | fmt/597 | Microsoft Word Template | dotx | application/vnd.openxmlformats-officedocument.wordprocessingml.template |
 | x-fmt/344 | Microsoft Works Database | bdb |  |
+| fmt/259 | Microsoft Works Database for DOS | wdb |  |
+| fmt/170 | Microsoft Works Database for DOS | wdb |  |
+| fmt/261 | Microsoft Works Database for DOS | wdb |  |
 | fmt/171 | Microsoft Works Database for DOS | wdb |  |
 | fmt/260 | Microsoft Works Database for DOS | wdb |  |
-| fmt/261 | Microsoft Works Database for DOS | wdb |  |
 | fmt/169 | Microsoft Works Database for DOS | wdb |  |
-| fmt/170 | Microsoft Works Database for DOS | wdb |  |
-| fmt/259 | Microsoft Works Database for DOS | wdb |  |
-| fmt/268 | Microsoft Works Database for Macintosh | wdb |  |
 | fmt/269 | Microsoft Works Database for Macintosh | wdb |  |
-| fmt/222 | Microsoft Works Database for Windows | wdb |  |
-| fmt/223 | Microsoft Works Database for Windows | wdb |  |
-| fmt/225 | Microsoft Works Database for Windows | wdb |  |
-| fmt/252 | Microsoft Works Database for Windows | wdb |  |
-| fmt/219 | Microsoft Works Database for Windows | wdb |  |
+| fmt/268 | Microsoft Works Database for Macintosh | wdb |  |
 | fmt/256 | Microsoft Works Database for Windows | wdb |  |
+| fmt/224 | Microsoft Works Database for Windows | wdb |  |
+| fmt/219 | Microsoft Works Database for Windows | wdb |  |
+| fmt/252 | Microsoft Works Database for Windows | wdb |  |
+| fmt/223 | Microsoft Works Database for Windows | wdb |  |
+| fmt/222 | Microsoft Works Database for Windows | wdb |  |
+| fmt/225 | Microsoft Works Database for Windows | wdb |  |
 | fmt/226 | Microsoft Works Database for Windows | wdb |  |
 | fmt/246 | Microsoft Works Database for Windows | wdb |  |
 | fmt/249 | Microsoft Works Database for Windows | wdb |  |
-| fmt/224 | Microsoft Works Database for Windows | wdb |  |
 | x-fmt/345 | Microsoft Works Document | bps |  |
 | x-fmt/120 | Microsoft Works for Windows |  |  |
+| fmt/166 | Microsoft Works Spreadsheet | wks |  |
 | fmt/901 | Microsoft Works Spreadsheet | xlr |  |
 | x-fmt/118 | Microsoft Works Spreadsheet |  |  |
-| fmt/166 | Microsoft Works Spreadsheet | wks |  |
-| fmt/167 | Microsoft Works Spreadsheet for DOS |  |  |
-| fmt/168 | Microsoft Works Spreadsheet for DOS |  |  |
-| fmt/264 | Microsoft Works Spreadsheet for DOS |  |  |
 | fmt/263 | Microsoft Works Spreadsheet for DOS |  |  |
+| fmt/264 | Microsoft Works Spreadsheet for DOS |  |  |
+| fmt/168 | Microsoft Works Spreadsheet for DOS |  |  |
 | fmt/262 | Microsoft Works Spreadsheet for DOS |  |  |
-| fmt/270 | Microsoft Works Spreadsheet for Macintosh | wks |  |
+| fmt/167 | Microsoft Works Spreadsheet for DOS |  |  |
 | fmt/271 | Microsoft Works Spreadsheet for Macintosh | wks |  |
-| fmt/229 | Microsoft Works Spreadsheet for Windows |  |  |
-| fmt/227 | Microsoft Works Spreadsheet for Windows |  |  |
+| fmt/270 | Microsoft Works Spreadsheet for Macintosh | wks |  |
+| fmt/250 | Microsoft Works Spreadsheet for Windows |  |  |
+| fmt/257 | Microsoft Works Spreadsheet for Windows |  |  |
 | fmt/230 | Microsoft Works Spreadsheet for Windows |  |  |
 | fmt/220 | Microsoft Works Spreadsheet for Windows |  |  |
-| fmt/247 | Microsoft Works Spreadsheet for Windows |  |  |
-| fmt/257 | Microsoft Works Spreadsheet for Windows |  |  |
-| fmt/231 | Microsoft Works Spreadsheet for Windows |  |  |
-| fmt/250 | Microsoft Works Spreadsheet for Windows |  |  |
-| fmt/228 | Microsoft Works Spreadsheet for Windows |  |  |
+| fmt/227 | Microsoft Works Spreadsheet for Windows |  |  |
 | fmt/253 | Microsoft Works Spreadsheet for Windows |  |  |
+| fmt/231 | Microsoft Works Spreadsheet for Windows |  |  |
+| fmt/228 | Microsoft Works Spreadsheet for Windows |  |  |
+| fmt/229 | Microsoft Works Spreadsheet for Windows |  |  |
+| fmt/247 | Microsoft Works Spreadsheet for Windows |  |  |
 | fmt/163 | Microsoft Works Word Processor 1-3 for DOS and 2 for Windows | wps |  |
 | fmt/233 | Microsoft Works Word Processor 3-4 for Windows | wps |  |
 | fmt/258 | Microsoft Works Word Processor 5-6 | wps |  |
-| fmt/265 | Microsoft Works Word Processor DOS |  |  |
-| fmt/267 | Microsoft Works Word Processor DOS |  |  |
 | fmt/266 | Microsoft Works Word Processor DOS |  |  |
+| fmt/267 | Microsoft Works Word Processor DOS |  |  |
+| fmt/265 | Microsoft Works Word Processor DOS |  |  |
 | fmt/165 | Microsoft Works Word Processor for DOS |  |  |
 | fmt/164 | Microsoft Works Word Processor for DOS |  |  |
-| fmt/221 | Microsoft Works Word Processor for Windows |  |  |
 | fmt/232 | Microsoft Works Word Processor for Windows |  |  |
-| fmt/236 | Microsoft Works Word Processor for Windows |  |  |
 | fmt/235 | Microsoft Works Word Processor for Windows |  |  |
+| fmt/236 | Microsoft Works Word Processor for Windows |  |  |
 | fmt/234 | Microsoft Works Word Processor for Windows |  |  |
+| fmt/221 | Microsoft Works Word Processor for Windows |  |  |
 | fmt/272 | Microsoft Works Word Processor Macintosh | wps |  |
 | fmt/273 | Microsoft Works Word Processor Macintosh | wps |  |
 | fmt/251 | Microsoft Works Word Processor Windows |  |  |
-| fmt/254 | Microsoft Works Word Processor Windows |  |  |
 | fmt/248 | Microsoft Works Word Processor Windows |  |  |
+| fmt/254 | Microsoft Works Word Processor Windows |  |  |
 | fmt/923 | Microsoft xWMA | xwma |  |
 | fmt/1358 | MicroStation Base File | bse |  |
 | x-fmt/346 | Microstation CAD Drawing | dgn |  |
@@ -2241,11 +2241,11 @@ File Types: 3839
 | fmt/1436 | Minitab Project | mpj |  |
 | fmt/1438 | Minitab Project | mpj |  |
 | fmt/1434 | Minitab Project | mpj |  |
-| fmt/1430 | Minitab Worksheet | mtw |  |
-| fmt/1437 | Minitab Worksheet | mtw |  |
-| fmt/1435 | Minitab Worksheet | mtw |  |
 | fmt/1433 | Minitab Worksheet | mtw |  |
+| fmt/1430 | Minitab Worksheet | mtw |  |
+| fmt/1435 | Minitab Worksheet | mtw |  |
 | fmt/1432 | Minitab Worksheet | mtw |  |
+| fmt/1437 | Minitab Worksheet | mtw |  |
 | linguist/4896465 | MiniYAML | .yaml, .yml | text/x-yaml |
 | fmt/669 | Minolta RAW | mrw |  |
 | linguist/968740319 | Mint | .mint |  |
@@ -2367,8 +2367,8 @@ File Types: 3839
 | apache-httpd/14549417581595720487 | musician | mus | application/vnd.musician |
 | fmt/896 | MusicXML | xml, musicxml | application/vnd.recordare.musicxml+xml |
 | linguist/638334590 | Mustache | .mustache | text/x-smarty |
-| fmt/1386 | Muvee autoProducer Project File | mve |  |
 | fmt/1387 | Muvee autoProducer Project File | mvex |  |
+| fmt/1386 | Muvee autoProducer Project File | mve |  |
 | fmt/1388 | Muvee Reveal Project File | rvl |  |
 | apache-httpd/6940775733493568946 | muvee style | msty | application/vnd.muvee.style |
 | linguist/239 | Myghty | .myt |  |
@@ -2379,20 +2379,20 @@ File Types: 3839
 | x-fmt/163 | NAP Metafile | nap |  |
 | linguist/178322513 | Nasal | .nas |  |
 | linguist/171666519 | NASL | .nasl, .inc |  |
-| fmt/366 | National Imagery Transmission Format | ntf | application/vnd.nitf |
 | fmt/364 | National Imagery Transmission Format | ntf | application/vnd.nitf |
+| fmt/366 | National Imagery Transmission Format | ntf | application/vnd.nitf |
 | fmt/365 | National Imagery Transmission Format | ntf | application/vnd.nitf |
 | fmt/858 | Navisworks Document | nwd, nwc |  |
-| fmt/857 | Navisworks Document | nwd, nwc |  |
 | fmt/860 | Navisworks Document | nwd, nwc |  |
 | fmt/859 | Navisworks Document | nwd, nwc |  |
+| fmt/857 | Navisworks Document | nwd, nwc |  |
 | fmt/1280 | NCH Dictation Audio File | dct |  |
 | linguist/240 | NCL | .ncl |  |
 | linguist/521429430 | Nearley | .ne, .nearley |  |
 | fmt/1006 | Nearly Raw Raster Data | nrrd |  |
-| fmt/1002 | Nearly Raw Raster Data | nrrd |  |
 | fmt/1003 | Nearly Raw Raster Data | nrrd |  |
 | fmt/1004 | Nearly Raw Raster Data | nrrd |  |
+| fmt/1002 | Nearly Raw Raster Data | nrrd |  |
 | fmt/1005 | Nearly Raw Raster Data | nrrd |  |
 | fmt/1963 | NEC Thermo Tracer Image File | tmp |  |
 | linguist/243 | Nemerle | .n |  |
@@ -2513,51 +2513,51 @@ File Types: 3839
 | linguist/664100008 | omnetpp-msg | .msg |  |
 | linguist/924868392 | omnetpp-ned | .ned |  |
 | fmt/963 | OMNIC Spectral Data File | spa |  |
-| fmt/1373 | OmniPage Document | opd |  |
 | fmt/1372 | OmniPage Document | opd |  |
-| fmt/1371 | OmniPage Pro Document | opd |  |
+| fmt/1373 | OmniPage Document | opd |  |
 | x-fmt/350 | OmniPage Pro Document | met |  |
+| fmt/1371 | OmniPage Pro Document | opd |  |
 | apache-httpd/13615448736560673113 | onenote | onetoc, onetoc2, onetmp, onepkg | application/onenote |
 | x-fmt/3 | Online Description Tool Format | odt |  |
 | linguist/418 | ooc | .ooc |  |
 | linguist/261 | Opa | .opa |  |
 | linguist/262 | Opal | .opal |  |
 | fmt/1889 | Open Access III Document | ext |  |
-| fmt/309 | Open Financial Exchange | ofx, qfx | application/x-ofx |
+| fmt/310 | Open Financial Exchange | ofx, qfx | application/x-ofx |
 | fmt/311 | Open Financial Exchange | ofx, qfx | application/x-ofx |
 | fmt/313 | Open Financial Exchange | ofx, qfx | application/x-ofx |
+| fmt/309 | Open Financial Exchange | ofx, qfx | application/x-ofx |
 | fmt/312 | Open Financial Exchange | ofx, qfx | application/x-ofx |
-| fmt/310 | Open Financial Exchange | ofx, qfx | application/x-ofx |
 | fmt/832 | Open Inventor File Format | iv |  |
 | fmt/833 | Open Inventor File Format | iv |  |
-| fmt/1855 | Open Media Framework Interchange | omf |  |
 | fmt/1854 | Open Media Framework Interchange | omf |  |
+| fmt/1855 | Open Media Framework Interchange | omf |  |
 | linguist/840483232 | Open Policy Agent | .rego |  |
 | fmt/522 | Open Project File | pod |  |
 | fmt/657 | Open XML Paper Specification | xps, oxps | application/oxps |
 | linguist/848295328 | OpenAPI Specification v2 |  |  |
 | linguist/557959099 | OpenAPI Specification v3 |  |  |
 | linguist/263 | OpenCL | .cl, .opencl | text/x-csrc |
-| fmt/140 | OpenDocument Database Format | odb |  |
 | fmt/424 | OpenDocument Database Format | odb |  |
 | fmt/1752 | OpenDocument Database Format | odb | application/vnd.oasis.opendocument.base |
+| fmt/140 | OpenDocument Database Format | odb |  |
 | fmt/444 | OpenDocument Database Format | odb |  |
 | fmt/135 | OpenDocument Format |  |  |
-| fmt/139 | OpenDocument Graphics | odg, otg | application/vnd.oasis.opendocument.graphics |
-| fmt/296 | OpenDocument Graphics | odg, otg | application/vnd.oasis.opendocument.graphics |
 | fmt/1753 | OpenDocument Graphics | odg | application/vnd.oasis.opendocument.graphics |
 | fmt/297 | OpenDocument Graphics | odg, otg | application/vnd.oasis.opendocument.graphics |
-| fmt/293 | OpenDocument Presentation | odp, otp | application/vnd.oasis.opendocument.presentation |
+| fmt/296 | OpenDocument Graphics | odg, otg | application/vnd.oasis.opendocument.graphics |
+| fmt/139 | OpenDocument Graphics | odg, otg | application/vnd.oasis.opendocument.graphics |
 | fmt/1754 | OpenDocument Presentation | odp | application/vnd.oasis.opendocument.presentation |
-| fmt/138 | OpenDocument Presentation | odp, otp | application/vnd.oasis.opendocument.presentation |
+| fmt/293 | OpenDocument Presentation | odp, otp | application/vnd.oasis.opendocument.presentation |
 | fmt/292 | OpenDocument Presentation | odp, otp | application/vnd.oasis.opendocument.presentation |
+| fmt/138 | OpenDocument Presentation | odp, otp | application/vnd.oasis.opendocument.presentation |
 | fmt/137 | OpenDocument Spreadsheet | ods, ots | application/vnd.oasis.opendocument.spreadsheet |
-| fmt/295 | OpenDocument Spreadsheet | ods, ots | application/vnd.oasis.opendocument.spreadsheet |
 | fmt/294 | OpenDocument Spreadsheet | ods, ots | application/vnd.oasis.opendocument.spreadsheet |
 | fmt/1755 | OpenDocument Spreadsheet | ods | application/vnd.oasis.opendocument.spreadsheet |
-| fmt/1756 | OpenDocument Text | odt | application/vnd.oasis.opendocument.text |
-| fmt/136 | OpenDocument Text | odt, ott | application/vnd.oasis.opendocument.text |
+| fmt/295 | OpenDocument Spreadsheet | ods, ots | application/vnd.oasis.opendocument.spreadsheet |
 | fmt/290 | OpenDocument Text | odt, ott | application/vnd.oasis.opendocument.text |
+| fmt/136 | OpenDocument Text | odt, ott | application/vnd.oasis.opendocument.text |
+| fmt/1756 | OpenDocument Text | odt | application/vnd.oasis.opendocument.text |
 | fmt/291 | OpenDocument Text | odt, ott | application/vnd.oasis.opendocument.text |
 | linguist/264 | OpenEdge ABL | .p, .cls, .w |  |
 | fmt/1001 | OpenEXR | exr | image/x-exr |
@@ -2586,8 +2586,8 @@ File Types: 3839
 | fmt/1457 | OrgPlus File | opx, opxt, ops |  |
 | fmt/1124 | Origin Project Format | opju, oggu, ogmu, ogwu |  |
 | fmt/1123 | Origin Project Format | opj, ogg, ogm, ogw |  |
-| x-fmt/25 | OS/2 Bitmap |  |  |
 | x-fmt/270 | OS/2 Bitmap | bmp | image/bmp |
+| x-fmt/25 | OS/2 Bitmap |  |  |
 | x-fmt/143 | OS/2 Change Control File | cin |  |
 | x-fmt/67 | OS/2 Presentation Manager Metafile (MET) | met |  |
 | apache-httpd/5150666565402240513 | osgeo mapguide package | mgp | application/vnd.osgeo.mapguide.package |
@@ -2608,23 +2608,23 @@ File Types: 3839
 | fmt/876 | Pagemaker Document (Generic) | p65, pmd, pmt | application/vnd.pagemaker |
 | fmt/1718 | PageMaker Mac Document | p65, t65, pmd, pmt | application/vnd.pagemaker |
 | fmt/1686 | PageMaker Mac Document |  | application/vnd.pagemaker |
-| fmt/1719 | PageMaker Mac Document | pm6, pt6 | application/vnd.pagemaker |
 | fmt/1687 | PageMaker Mac Document |  | application/vnd.pagemaker |
-| x-fmt/174 | PageMaker PC Document | pm6, pt6 | application/vnd.pagemaker |
-| x-fmt/181 | PageMaker PC Document | p65, t65, pmd, pmt | application/vnd.pagemaker |
-| x-fmt/173 | PageMaker PC Document | pm5, pt5 | application/vnd.pagemaker |
+| fmt/1719 | PageMaker Mac Document | pm6, pt6 | application/vnd.pagemaker |
 | x-fmt/352 | PageMaker PC Document | pm4, pt4 | application/vnd.pagemaker |
+| x-fmt/174 | PageMaker PC Document | pm6, pt6 | application/vnd.pagemaker |
+| x-fmt/173 | PageMaker PC Document | pm5, pt5 | application/vnd.pagemaker |
+| x-fmt/181 | PageMaker PC Document | p65, t65, pmd, pmt | application/vnd.pagemaker |
 | x-fmt/198 | Pagemaker TableEditor Graphics | tbl |  |
 | fmt/1597 | PageMaker Template File | pt5 |  |
 | x-fmt/200 | PageMaker Time Stamp File | tym |  |
-| x-fmt/233 | Paint Shop Pro Image | psp |  |
-| fmt/348 | Paint Shop Pro Image | pspimage |  |
 | x-fmt/376 | Paint Shop Pro Image | pspimage |  |
-| fmt/349 | Paint Shop Pro Image | pspimage |  |
-| x-fmt/234 | Paint Shop Pro Image | psp |  |
-| x-fmt/297 | Paint Shop Pro Image | psp, pspimage |  |
-| x-fmt/298 | Paint Shop Pro Image | psp, pspimage |  |
 | x-fmt/377 | Paint Shop Pro Image | psp |  |
+| x-fmt/297 | Paint Shop Pro Image | psp, pspimage |  |
+| fmt/349 | Paint Shop Pro Image | pspimage |  |
+| fmt/348 | Paint Shop Pro Image | pspimage |  |
+| x-fmt/233 | Paint Shop Pro Image | psp |  |
+| x-fmt/234 | Paint Shop Pro Image | psp |  |
+| x-fmt/298 | Paint Shop Pro Image | psp, pspimage |  |
 | x-fmt/187 | Painter RIFF Image File | rif |  |
 | fmt/1733 | PaintShop Plus Compressed Format | psc, da4 |  |
 | fmt/217 | PaintShop Pro Browser Cache File | jbf |  |
@@ -2632,22 +2632,22 @@ File Types: 3839
 | fmt/1654 | Palm Database ImageViewer Format | pdb |  |
 | linguist/276 | Pan | .pan |  |
 | fmt/662 | Panasonic Raw | rw2 |  |
-| fmt/1339 | PaperPort MAX | max |  |
 | fmt/1223 | PaperPort MAX | max |  |
-| fmt/1224 | PaperPort MAX | max |  |
 | fmt/1225 | PaperPort MAX | max |  |
+| fmt/1339 | PaperPort MAX | max |  |
+| fmt/1224 | PaperPort MAX | max |  |
 | linguist/277 | Papyrus | .psc |  |
 | fmt/1965 | Papyrus Document | pap, pav, pbf |  |
 | x-fmt/307 | Paradox Database Memo Field (Binary Large Object) | dbq, mb |  |
-| fmt/350 | Paradox Database Table | db |  |
 | fmt/352 | Paradox Database Table | db |  |
+| fmt/350 | Paradox Database Table | db |  |
 | fmt/351 | Paradox Database Table | db |  |
 | x-fmt/147 | Paradox Database Table | db |  |
 | linguist/278 | Parrot | .parrot |  |
 | linguist/279 | Parrot Assembly | .pasm |  |
 | linguist/280 | Parrot Internal Representation | .pir |  |
-| linguist/281 | Pascal | .pas, .dfm, .dpr, .inc, .lpr, .pascal, .pp | text/x-pascal |
 | apache-httpd/4555007942525437763 | pascal | p, pas | text/x-pascal |
+| linguist/281 | Pascal | .pas, .dfm, .dpr, .inc, .lpr, .pascal, .pp | text/x-pascal |
 | fmt/1619 | Pascal Source Code | pas |  |
 | fmt/1904 | Pasti Floppy Disk Image | stx |  |
 | apache-httpd/11260398242129167003 | patch ops error xml | xer | application/patch-ops-error+xml |
@@ -2657,12 +2657,12 @@ File Types: 3839
 | fmt/780 | pcap Next Generation Packet Capture | pcapng | application/vnd.tcpdump.pcap |
 | fmt/779 | pcap Packet Capture | pcap, cap, dmp | application/vnd.tcpdump.pcap |
 | fmt/1936 | PCRaster | csf, map |  |
-| fmt/87 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
-| fmt/86 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
-| fmt/88 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
-| fmt/90 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
-| apache-httpd/1383629243372609493 | pcx | pcx | image/x-pcx |
 | fmt/89 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
+| fmt/87 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
+| apache-httpd/1383629243372609493 | pcx | pcx | image/x-pcx |
+| fmt/86 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
+| fmt/90 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
+| fmt/88 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
 | linguist/736235603 | PDDL | .pddl |  |
 | fmt/1129 | PDF 2.0 - Portable Document Format | pdf | application/pdf |
 | fmt/1451 | PDF Portfolio | pdf |  |
@@ -2675,22 +2675,22 @@ File Types: 3839
 | fmt/1898 | Perfect ZX Tape (PZX) Image Format | pzx |  |
 | linguist/282 | Perl | .pl, .al, .cgi, .fcgi, .perl, .ph, .plx, .pm, .psgi, .t | text/x-perl |
 | fmt/870 | Perl Script | pl |  |
-| fmt/854 | Personal Ancestral File (PAF) | paf |  |
 | fmt/855 | Personal Ancestral File (PAF) | paf |  |
 | fmt/856 | Personal Ancestral File (PAF) | paf |  |
+| fmt/854 | Personal Ancestral File (PAF) | paf |  |
 | fmt/1710 | Persuasion Auto-Template Interchange File | atf |  |
-| fmt/1702 | Persuasion Mac Document | pr2 |  |
-| fmt/1703 | Persuasion Mac Document | pr2 |  |
-| fmt/1701 | Persuasion Mac Document | pr1 |  |
 | fmt/1704 | Persuasion Mac Document | pr3 |  |
+| fmt/1701 | Persuasion Mac Document | pr1 |  |
+| fmt/1703 | Persuasion Mac Document | pr2 |  |
+| fmt/1702 | Persuasion Mac Document | pr2 |  |
 | fmt/1705 | Persuasion Mac Document | pn4 |  |
 | fmt/1708 | Persuasion Player File | ppf |  |
 | fmt/1709 | Persuasion Presentation Interchange File | prf |  |
-| fmt/1706 | Persuasion Windows Document | pr2, at2 |  |
 | fmt/1707 | Persuasion Windows Document | pr3, at3, pn4, at4 |  |
+| fmt/1706 | Persuasion Windows Document | pr2, at2 |  |
 | fmt/1284 | PFS:First Choice Database | fol |  |
-| fmt/1283 | PFS:First Choice Document | doc |  |
 | fmt/1282 | PFS:First Choice Document | doc |  |
+| fmt/1283 | PFS:First Choice Document | doc |  |
 | fmt/1285 | PFS:First Choice Graph | gra |  |
 | fmt/1414 | PFS:Write Document | pfs |  |
 | apache-httpd/3445346377631037340 | pg format | str | application/vnd.pg.format |
@@ -2711,8 +2711,8 @@ File Types: 3839
 | apache-httpd/13788567070806270645 | pics rules | prf | application/pics-rules |
 | apache-httpd/18162782278582436098 | picsel | efif | application/vnd.picsel |
 | fmt/1360 | Picture Publisher Bitmap | ppf |  |
-| x-fmt/176 | Picture Publisher Bitmap | pp4 |  |
 | x-fmt/85 | Picture Publisher Bitmap | pp5 |  |
+| x-fmt/176 | Picture Publisher Bitmap | pp4 |  |
 | linguist/286 | PigLatin | .pig |  |
 | linguist/287 | Pike | .pike, .pmod |  |
 | linguist/684385621 | Pip Requirements |  |  |
@@ -2754,24 +2754,24 @@ File Types: 3839
 | x-fmt/164 | Portable Bitmap Image - ASCII | pbm | image/x-portable-bitmap |
 | fmt/409 | Portable Bitmap Image - Binary | pbmb, pnm |  |
 | fmt/1720 | Portable Compiled Format | pcf |  |
-| fmt/1066 | Portable Database | pdb |  |
-| fmt/1065 | Portable Database | pdb |  |
 | fmt/1064 | Portable Database | pdb |  |
+| fmt/1065 | Portable Database | pdb |  |
+| fmt/1066 | Portable Database | pdb |  |
 | fmt/322 | Portable Form File | pff |  |
 | apache-httpd/3427479898683859874 | portable graymap | pgm | image/x-portable-graymap |
 | fmt/407 | Portable Grey Map - ASCII | pgma, pgm |  |
 | fmt/406 | Portable Grey Map - Binary | pgmb, pgm |  |
 | fmt/11 | Portable Network Graphics | png | image/png |
-| fmt/12 | Portable Network Graphics | png | image/png |
 | fmt/13 | Portable Network Graphics | png | image/png |
+| fmt/12 | Portable Network Graphics | png | image/png |
 | x-fmt/178 | Portable Pixel Map - ASCII | ppm | image/x-portable-pixmap |
 | fmt/408 | Portable Pixel Map - Binary | ppm, ppmb |  |
 | fmt/959 | Portable Sound Format | psf, psf1, psflib, minipsf, minipsf1, gsf, gsflib, minigsf |  |
 | fmt/1734 | Portfolio Graphics Compressed File | pgc |  |
 | linguist/832391833 | Portugol | .por |  |
 | linguist/262764437 | PostCSS | .pcss, .postcss |  |
-| x-fmt/406 | PostScript | ps | application/postscript |
 | x-fmt/407 | PostScript | ps | application/postscript |
+| x-fmt/406 | PostScript | ps | application/postscript |
 | fmt/501 | PostScript | ps | application/postscript |
 | linguist/291 | PostScript | .ps, .eps, .epsi, .pfa |  |
 | x-fmt/408 | PostScript | ps | application/postscript |
@@ -2783,13 +2783,13 @@ File Types: 3839
 | fmt/1201 | PowerCADD |  |  |
 | fmt/1200 | PowerDraw |  |  |
 | fmt/1731 | PowerGraphics Image File | pgr |  |
-| fmt/513 | PowerProject | pp |  |
-| fmt/516 | PowerProject | pp |  |
-| fmt/514 | PowerProject | pp |  |
-| fmt/512 | PowerProject | pp |  |
 | fmt/511 | PowerProject | pp |  |
+| fmt/513 | PowerProject | pp |  |
+| fmt/512 | PowerProject | pp |  |
 | fmt/515 | PowerProject | pp |  |
+| fmt/516 | PowerProject | pp |  |
 | fmt/517 | PowerProject | pp |  |
+| fmt/514 | PowerProject | pp |  |
 | fmt/510 | PowerProject Teamplan | pdb |  |
 | linguist/293 | PowerShell | .ps1, .psd1, .psm1 | application/x-powershell |
 | fmt/782 | PowerVR Object Data | pod |  |
@@ -2802,16 +2802,16 @@ File Types: 3839
 | apache-httpd/16902732272208064392 | previewsystems box | box | application/vnd.previewsystems.box |
 | fmt/1455 | Primavera P6 Project Management XER File | xer |  |
 | fmt/185 | Prime OCR | pro |  |
+| fmt/186 | PrimeOCR | pro |  |
 | fmt/184 | PrimeOCR | pro |  |
+| fmt/188 | PrimeOCR | pro |  |
 | fmt/187 | PrimeOCR | pro |  |
 | fmt/183 | PrimeOCR | pro |  |
-| fmt/186 | PrimeOCR | pro |  |
-| fmt/188 | PrimeOCR | pro |  |
 | fmt/1302 | PrintMaster Gold Project | ban, cal, car, let, sig |  |
 | fmt/1732 | Prism Paint Bitmap | pnt, tpi |  |
 | linguist/499933428 | Prisma | .prisma |  |
-| fmt/1951 | Pro Tools Session File | ptf, pts |  |
 | fmt/1727 | Pro Tools Session File | ptx |  |
+| fmt/1951 | Pro Tools Session File | ptf, pts |  |
 | linguist/294 | Processing | .pde |  |
 | fmt/701 | Processing Development Environment | pde |  |
 | linguist/305313959 | Procfile |  |  |
@@ -2846,20 +2846,20 @@ File Types: 3839
 | apache-httpd/18177019580753205670 | pvi ptid1 | ptid | application/vnd.pvi.ptid1 |
 | linguist/252961827 | Pyret | .arr |  |
 | linguist/303 | Python | .py, .cgi, .fcgi, .gyp, .gypi, .lmi, .py3, .pyde, .pyi, .pyp, .pyt, .pyw, .rpy, .spec, .tac, .wsgi, .xpy | text/x-python |
-| fmt/1112 | Python Compiled File | pyc |  |
 | fmt/1108 | Python Compiled File | pyc |  |
-| fmt/939 | Python Compiled File | pyc |  |
-| fmt/1114 | Python Compiled File | pyc |  |
-| fmt/1106 | Python Compiled File | pyc |  |
-| fmt/1116 | Python Compiled File | pyc |  |
-| fmt/1113 | Python Compiled File | pyc |  |
-| fmt/940 | Python Compiled File | pyc |  |
-| fmt/1111 | Python Compiled File | pyc |  |
-| fmt/1109 | Python Compiled File | pyc |  |
-| fmt/1117 | Python Compiled File | pyc |  |
-| fmt/1115 | Python Compiled File | pyc |  |
-| fmt/1110 | Python Compiled File | pyc |  |
 | fmt/1118 | Python Compiled File | pyc |  |
+| fmt/1111 | Python Compiled File | pyc |  |
+| fmt/1117 | Python Compiled File | pyc |  |
+| fmt/1106 | Python Compiled File | pyc |  |
+| fmt/940 | Python Compiled File | pyc |  |
+| fmt/1113 | Python Compiled File | pyc |  |
+| fmt/1115 | Python Compiled File | pyc |  |
+| fmt/1114 | Python Compiled File | pyc |  |
+| fmt/939 | Python Compiled File | pyc |  |
+| fmt/1110 | Python Compiled File | pyc |  |
+| fmt/1112 | Python Compiled File | pyc |  |
+| fmt/1116 | Python Compiled File | pyc |  |
+| fmt/1109 | Python Compiled File | pyc |  |
 | fmt/1107 | Python Compiled File | pyc |  |
 | linguist/428 | Python console |  |  |
 | fmt/938 | Python Source Code File | py |  |
@@ -2876,39 +2876,39 @@ File Types: 3839
 | linguist/375265331 | Quake |  |  |
 | apache-httpd/18202258566732886046 | quark quarkxpress | qxd, qxt, qwd, qwt, qxl, qxb | application/vnd.quark.quarkxpress |
 | x-fmt/182 | QuarkXPress Data File | qxd, qxt, qxp, qcd, qxl, qxb, qwd, qwt, qpt | application/vnd.Quark.QuarkXPress |
-| fmt/1320 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
 | fmt/1444 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
-| fmt/1317 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
-| fmt/1443 | QuarkXPress Document |  | application/vnd.Quark.QuarkXPress |
-| fmt/1442 | QuarkXPress Document |  | application/vnd.Quark.QuarkXPress |
-| fmt/1319 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
 | fmt/1318 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
-| fmt/1324 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| fmt/1322 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| fmt/1495 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
-| fmt/1323 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| fmt/1325 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| fmt/2008 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
-| fmt/685 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
-| fmt/1326 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| fmt/651 | QuarkXPress Project | qpt, qwd, qxp | application/vnd.Quark.QuarkXPress |
-| fmt/2006 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
+| fmt/1442 | QuarkXPress Document |  | application/vnd.Quark.QuarkXPress |
+| fmt/1320 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
+| fmt/1317 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
+| fmt/1319 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
+| fmt/1443 | QuarkXPress Document |  | application/vnd.Quark.QuarkXPress |
 | fmt/2007 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
-| fmt/1328 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| fmt/1324 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
 | fmt/1445 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| fmt/1446 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| fmt/1327 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| fmt/1494 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
 | fmt/652 | QuarkXPress Project | qpt, qwd, qxp | application/vnd.Quark.QuarkXPress |
+| fmt/1494 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| fmt/1327 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| fmt/685 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
+| fmt/1446 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| fmt/2006 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
+| fmt/651 | QuarkXPress Project | qpt, qwd, qxp | application/vnd.Quark.QuarkXPress |
+| fmt/1328 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| fmt/2008 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
+| fmt/1495 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
+| fmt/1325 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| fmt/1323 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
 | fmt/1321 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| fmt/1322 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| fmt/1326 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
 | fmt/650 | QuarkXPress Report File | qxp report, xtg, qxp%20report | application/vnd.Quark.QuarkXPress |
 | fmt/508 | Quarter Inch Cartridge Host Interchange Format | qic |  |
 | fmt/837 | Quattro Pro Spreadsheet | qpw |  |
 | fmt/836 | Quattro Pro Spreadsheet | wb3 |  |
-| x-fmt/122 | Quattro Pro Spreadsheet for DOS | wq2, wkq |  |
 | x-fmt/121 | Quattro Pro Spreadsheet for DOS | wq1, wkq |  |
-| fmt/835 | Quattro Pro Spreadsheet for Windows | wb2 |  |
+| x-fmt/122 | Quattro Pro Spreadsheet for DOS | wq2, wkq |  |
 | fmt/834 | Quattro Pro Spreadsheet for Windows | wb1 |  |
+| fmt/835 | Quattro Pro Spreadsheet for Windows | wb2 |  |
 | linguist/593107205 | QuickBASIC | .bas | text/x-vb |
 | fmt/1354 | QuickBooks Backup File | qbb |  |
 | fmt/1049 | QuickDraw 3D Metafile (ASCII) | 3dmf |  |
@@ -2924,13 +2924,13 @@ File Types: 3839
 | linguist/316 | Racket | .rkt, .rktd, .rktl, .scrbl |  |
 | fmt/591 | Radiance RGBE Image Format | hdr, pic, rgbe, xyze | image/vnd.radiance |
 | linguist/317 | Ragel | .rl |  |
-| fmt/1894 | RagTime Document File |  |  |
 | fmt/1895 | RagTime Document File | rtd, rtt |  |
+| fmt/1894 | RagTime Document File |  |  |
 | linguist/283 | Raku | .6pl, .6pm, .nqp, .p6, .p6l, .p6m, .pl, .pl6, .pm, .pm6, .raku, .rakumod, .t | text/x-perl |
 | linguist/308 | RAML | .raml | text/x-yaml |
-| fmt/613 | RAR Archive | rar | application/vnd.rar |
-| x-fmt/264 | RAR Archive | rar | application/vnd.rar |
 | fmt/411 | RAR Archive | rar | application/vnd.rar |
+| x-fmt/264 | RAR Archive | rar | application/vnd.rar |
+| fmt/613 | RAR Archive | rar | application/vnd.rar |
 | apache-httpd/16410212459293594184 | rar compressed | rar | application/x-rar-compressed |
 | linguist/173616037 | Rascal | .rsc |  |
 | fmt/1539 | Raster Matrix Format | rsw |  |
@@ -2940,15 +2940,15 @@ File Types: 3839
 | fmt/1810 | Raw PIMA SWIR Reflectance Spectral File | fos |  |
 | linguist/318 | Raw token data | .raw |  |
 | linguist/899227493 | RBS | .rbs | text/x-ruby |
-| fmt/1199 | RData | rdata |  |
 | fmt/1198 | RData | rdata |  |
+| fmt/1199 | RData | rdata |  |
 | fmt/875 | RDF/XML | rdf | application/rdf+xml |
 | linguist/309 | RDoc | .rdoc |  |
 | linguist/538732839 | Readline Config |  |  |
 | fmt/316 | Real SID Audio | sid | audio/prs.sid |
 | x-fmt/277 | Real Video | rv | video/vnd.rn-realvideo |
-| fmt/404 | RealAudio | ra |  |
 | x-fmt/278 | RealAudio | ra | audio/vnd.rn-realaudio |
+| fmt/404 | RealAudio | ra |  |
 | x-fmt/183 | RealAudio Metafile | ram | audio/vnd.rn-realaudio, audio/x-pn-realaudio |
 | linguist/310 | REALbasic | .rbbas, .rbfrm, .rbmnu, .rbres, .rbtbar, .rbuistate |  |
 | fmt/728 | RealLegal E-Transcript | ptx |  |
@@ -2976,8 +2976,8 @@ File Types: 3839
 | fmt/1886 | Resource Interchange File Format (RIFF) |  |  |
 | apache-httpd/6901913721037133475 | resource lists diff xml | rld | application/resource-lists-diff+xml |
 | apache-httpd/47530549795300406 | resource lists xml | rl | application/resource-lists+xml |
-| linguist/419 | reStructuredText | .rst, .rest, .rest.txt, .rst.txt | text/x-rst |
 | fmt/1565 | reStructuredText | rst |  |
+| linguist/419 | reStructuredText | .rst, .rest, .rest.txt, .rst.txt | text/x-rst |
 | x-fmt/11 | Revisable-Form-Text Document Content Architecture |  |  |
 | x-fmt/446 | Revit External Group | rvg | application/octet-stream |
 | x-fmt/443 | Revit Family File | rfa | application/octet-stream |
@@ -2990,22 +2990,22 @@ File Types: 3839
 | linguist/498022874 | Rez | .r |  |
 | fmt/712 | RF64 | wav, rf64 |  |
 | fmt/713 | RF64 Multichannel Broadcast Wave format | wav, rf64 |  |
-| fmt/1291 | RFFlow Chart | flo |  |
-| fmt/1290 | RFFlow Chart | flo |  |
 | fmt/1289 | RFFlow Chart | flo |  |
+| fmt/1290 | RFFlow Chart | flo |  |
+| fmt/1291 | RFFlow Chart | flo |  |
 | apache-httpd/9581195091460280608 | rgb | rgb | image/x-rgb |
-| fmt/355 | Rich Text Format | rtf | application/rtf, text/rtf |
-| fmt/52 | Rich Text Format | rtf | application/rtf, text/rtf |
-| linguist/51601661 | Rich Text Format | .rtf |  |
-| fmt/45 | Rich Text Format | rtf | application/rtf, text/rtf |
 | fmt/53 | Rich Text Format | rtf | application/rtf, text/rtf |
-| fmt/49 | Rich Text Format |  |  |
-| fmt/50 | Rich Text Format | rtf | application/rtf, text/rtf |
-| fmt/51 | Rich Text Format |  |  |
-| fmt/46 | Rich Text Format |  |  |
+| linguist/51601661 | Rich Text Format | .rtf |  |
+| fmt/355 | Rich Text Format | rtf | application/rtf, text/rtf |
 | fmt/47 | Rich Text Format |  |  |
+| fmt/52 | Rich Text Format | rtf | application/rtf, text/rtf |
 | fmt/969 | Rich Text Format | rtf | application/rtf |
+| fmt/45 | Rich Text Format | rtf | application/rtf, text/rtf |
+| fmt/49 | Rich Text Format |  |  |
+| fmt/51 | Rich Text Format |  |  |
 | fmt/48 | Rich Text Format |  |  |
+| fmt/50 | Rich Text Format | rtf | application/rtf, text/rtf |
+| fmt/46 | Rich Text Format |  |  |
 | apache-httpd/14552983977238544941 | richtext | rtx | text/richtext |
 | fmt/624 | RIFF Palette Format | pal |  |
 | fmt/956 | RIFF-based MIDI | rmi |  |
@@ -3033,19 +3033,19 @@ File Types: 3839
 | fmt/1670 | Roxio Audio Project File | rox |  |
 | fmt/1669 | Roxio Data Project File | rox |  |
 | fmt/1667 | Roxio Easy Media Creator - Classic Creator File | rcl |  |
-| fmt/1666 | Roxio Easy Media Creator Layout | rcl |  |
 | fmt/1668 | Roxio Easy Media Creator Layout | roxio |  |
+| fmt/1666 | Roxio Easy Media Creator Layout | rcl |  |
 | fmt/1644 | Roxio Label Creator Project File | jwl |  |
-| fmt/1645 | Roxio Label Creator Project File | jwl |  |
 | fmt/1646 | Roxio Label Creator Project File | jwl |  |
+| fmt/1645 | Roxio Label Creator Project File | jwl |  |
 | linguist/1031374237 | RPC | .x |  |
 | linguist/609977990 | RPGLE | .rpgle, .sqlrpgle |  |
 | apache-httpd/12296210021193523472 | rpki ghostbusters | gbr | application/rpki-ghostbusters |
 | apache-httpd/16270552558721564289 | rpki manifest | mft | application/rpki-manifest |
 | apache-httpd/3224209250085143021 | rpki roa | roa | application/rpki-roa |
 | fmt/795 | RPM Package Manager file | rpm, src.rpm |  |
-| fmt/793 | RPM Package Manager file | rpm, src.rpm |  |
 | fmt/794 | RPM Package Manager file | rpm, src.rpm |  |
+| fmt/793 | RPM Package Manager file | rpm, src.rpm |  |
 | linguist/314 | RPM Spec | .spec | text/x-rpm-spec |
 | apache-httpd/5789844385051418491 | rsd xml | rsd | application/rsd+xml |
 | apache-httpd/12753032465493873976 | rss xml | rss | application/rss+xml |
@@ -3080,8 +3080,8 @@ File Types: 3839
 | linguist/343 | Scheme | .scm, .sch, .sld, .sls, .sps, .ss | text/x-scheme |
 | linguist/344 | Scilab | .sci, .sce, .tst |  |
 | x-fmt/146 | Scitex Continuous Tone Bitmap | ct, sct |  |
-| fmt/718 | Scream Tracker Module | s3m |  |
 | fmt/717 | Scream Tracker Module | stm |  |
+| fmt/718 | Scream Tracker Module | s3m |  |
 | fmt/1091 | Scribus Document | sla, scd | application/vnd.scribus |
 | fmt/826 | Scriptware Script Format | sw3 |  |
 | linguist/329 | SCSS | .scss | text/x-scss |
@@ -3105,39 +3105,39 @@ File Types: 3839
 | apache-httpd/7766891016013321425 | semd | semd | application/vnd.semd |
 | apache-httpd/605004890228926996 | semf | semf | application/vnd.semf |
 | fmt/1553 | Septentrio Binary Format | sbf |  |
-| fmt/1525 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| fmt/1521 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| fmt/827 | Serif DrawPlus Drawing | dpp |  |
-| fmt/1519 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| fmt/852 | Serif DrawPlus Drawing | dpp |  |
-| fmt/1522 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
 | fmt/1520 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| fmt/1528 | Serif DrawPlus Drawing | dpp, dpa |  |
 | fmt/1524 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| fmt/1519 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| fmt/827 | Serif DrawPlus Drawing | dpp |  |
+| fmt/1521 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
 | fmt/1526 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| fmt/852 | Serif DrawPlus Drawing | dpp |  |
 | fmt/1527 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| fmt/1522 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| fmt/1525 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
 | fmt/853 | Serif DrawPlus Drawing | dpp |  |
 | fmt/1523 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| fmt/674 | Serif PagePlus Publication | ppp |  |
-| fmt/1534 | Serif PagePlus Publication | ppp, ppb, ppx |  |
+| fmt/1528 | Serif DrawPlus Drawing | dpp, dpa |  |
 | fmt/1530 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| fmt/1535 | Serif PagePlus Publication | ppp, ppb, ppx |  |
 | fmt/1532 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| fmt/1536 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| fmt/681 | Serif PagePlus Publication | ppp |  |
-| fmt/678 | Serif PagePlus Publication | ppp |  |
-| fmt/1533 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| fmt/1529 | Serif PagePlus Publication | ppp, ppb, ppx |  |
 | fmt/672 | Serif PagePlus Publication | ppp |  |
+| fmt/1533 | Serif PagePlus Publication | ppp, ppb, ppx |  |
 | fmt/677 | Serif PagePlus Publication | ppp |  |
-| fmt/1537 | Serif PagePlus Publication | ppp, ppt |  |
+| fmt/676 | Serif PagePlus Publication | ppp |  |
 | fmt/680 | Serif PagePlus Publication | ppp |  |
+| fmt/1535 | Serif PagePlus Publication | ppp, ppb, ppx |  |
+| fmt/673 | Serif PagePlus Publication | ppp |  |
+| fmt/1534 | Serif PagePlus Publication | ppp, ppb, ppx |  |
 | fmt/679 | Serif PagePlus Publication | ppp |  |
 | fmt/1531 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| fmt/676 | Serif PagePlus Publication | ppp |  |
-| fmt/673 | Serif PagePlus Publication | ppp |  |
+| fmt/1536 | Serif PagePlus Publication | ppp, ppb, ppx |  |
+| fmt/674 | Serif PagePlus Publication | ppp |  |
 | fmt/671 | Serif PagePlus Publication | ppp |  |
+| fmt/681 | Serif PagePlus Publication | ppp |  |
 | fmt/675 | Serif PagePlus Publication | ppp |  |
+| fmt/1529 | Serif PagePlus Publication | ppp, ppb, ppx |  |
+| fmt/1537 | Serif PagePlus Publication | ppp, ppt |  |
+| fmt/678 | Serif PagePlus Publication | ppp |  |
 | fmt/1518 | Serif PhotoPlus Image | spp |  |
 | fmt/1517 | Serif PhotoPlus Image | spp |  |
 | apache-httpd/10045809873570187998 | set payment initiation | setpay | application/set-payment-initiation |
@@ -3164,28 +3164,28 @@ File Types: 3839
 | linguist/348 | Shen | .shen |  |
 | apache-httpd/12821240876237287409 | shf xml | shf | application/shf+xml |
 | fmt/1961 | Shorten (codec) | shn |  |
-| fmt/161 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
-| fmt/1777 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
 | fmt/995 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
+| fmt/161 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
 | fmt/1196 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
+| fmt/1777 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
 | fmt/696 | Sibelius | sib |  |
 | fmt/1994 | Sibelius Scorch | sco |  |
-| fmt/1992 | Sibelius Score | sib | application/x-sibelius-score |
-| fmt/1987 | Sibelius Score | sib | application/x-sibelius-score |
-| fmt/1981 | Sibelius Score | sib | application/x-sibelius-score |
+| fmt/1984 | Sibelius Score | sib | application/x-sibelius-score |
 | fmt/1988 | Sibelius Score | sib | application/x-sibelius-score |
-| fmt/1982 | Sibelius Score | sib | application/x-sibelius-score |
-| fmt/1986 | Sibelius Score | sib | application/x-sibelius-score |
+| fmt/1983 | Sibelius Score | sib | application/x-sibelius-score |
 | fmt/1980 | Sibelius Score | sib | application/x-sibelius-score |
-| fmt/1978 | Sibelius Score | sib | application/x-sibelius-score |
 | fmt/1990 | Sibelius Score | sib | application/x-sibelius-score |
+| fmt/1987 | Sibelius Score | sib | application/x-sibelius-score |
+| fmt/1992 | Sibelius Score | sib | application/x-sibelius-score |
+| fmt/1979 | Sibelius Score | sib | application/x-sibelius-score |
+| fmt/1986 | Sibelius Score | sib | application/x-sibelius-score |
 | fmt/1991 | Sibelius Score | sib | application/x-sibelius-score |
 | fmt/1993 | Sibelius Score | sib | application/x-sibelius-score |
+| fmt/1978 | Sibelius Score | sib | application/x-sibelius-score |
+| fmt/1982 | Sibelius Score | sib | application/x-sibelius-score |
+| fmt/1981 | Sibelius Score | sib | application/x-sibelius-score |
 | fmt/1989 | Sibelius Score | sib | application/x-sibelius-score |
-| fmt/1984 | Sibelius Score | sib | application/x-sibelius-score |
 | fmt/1985 | Sibelius Score | sib | application/x-sibelius-score |
-| fmt/1983 | Sibelius Score | sib | application/x-sibelius-score |
-| fmt/1979 | Sibelius Score | sib | application/x-sibelius-score |
 | fmt/1229 | Sibelius Sound Set Definition | set |  |
 | fmt/1148 | SIDOUN WinAVA Format | swa |  |
 | fmt/883 | Siegfried Signature File | sig |  |
@@ -3199,28 +3199,28 @@ File Types: 3839
 | fmt/1068 | Silo | silo |  |
 | apache-httpd/6212653248367935630 | silverlight app | xap | application/x-silverlight-app |
 | linguist/735623761 | Simple File Verification | .sfv | text/x-properties |
-| fmt/934 | Simple Vector Format | svf | image/vnd-svf |
 | fmt/933 | Simple Vector Format | svf | image/vnd-svf |
+| fmt/934 | Simple Vector Format | svf | image/vnd-svf |
 | apache-httpd/10132205750207181206 | simtech mindmapper | twd, twds | application/vnd.simtech-mindmapper |
 | linguist/987024632 | Singularity |  |  |
 | fmt/1230 | SK-XML | ddoc |  |
-| fmt/1262 | SketchUp Document | skp, skb |  |
-| fmt/1269 | SketchUp Document | skp, skb |  |
-| fmt/1273 | SketchUp Document | skp, skb |  |
-| fmt/1264 | SketchUp Document | skp, skb |  |
-| fmt/1272 | SketchUp Document | skp, skb |  |
-| fmt/1260 | SketchUp Document | skp, skb |  |
-| fmt/1265 | SketchUp Document | skp, skb |  |
-| fmt/1263 | SketchUp Document | skp, skb |  |
-| fmt/1270 | SketchUp Document | skp, skb |  |
-| fmt/1261 | SketchUp Document | skp, skb |  |
-| fmt/1267 | SketchUp Document | skp, skb |  |
-| x-fmt/452 | SketchUp Document |  |  |
 | fmt/1271 | SketchUp Document | skp, skb |  |
 | fmt/1259 | SketchUp Document | skb, skp |  |
+| fmt/1263 | SketchUp Document | skp, skb |  |
+| fmt/1260 | SketchUp Document | skp, skb |  |
 | fmt/1268 | SketchUp Document | skp, skb |  |
-| fmt/1266 | SketchUp Document | skp, skb |  |
+| x-fmt/452 | SketchUp Document |  |  |
 | x-fmt/451 | SketchUp Document | skb, skp |  |
+| fmt/1266 | SketchUp Document | skp, skb |  |
+| fmt/1273 | SketchUp Document | skp, skb |  |
+| fmt/1269 | SketchUp Document | skp, skb |  |
+| fmt/1272 | SketchUp Document | skp, skb |  |
+| fmt/1264 | SketchUp Document | skp, skb |  |
+| fmt/1267 | SketchUp Document | skp, skb |  |
+| fmt/1261 | SketchUp Document | skp, skb |  |
+| fmt/1270 | SketchUp Document | skp, skb |  |
+| fmt/1265 | SketchUp Document | skp, skb |  |
+| fmt/1262 | SketchUp Document | skp, skb |  |
 | linguist/349 | Slash | .sl |  |
 | linguist/894641667 | Slice | .ice |  |
 | linguist/350 | Slim | .slim | text/x-slim |
@@ -3262,10 +3262,10 @@ File Types: 3839
 | fmt/1766 | Sony SML File | sml |  |
 | fmt/1126 | Sony SR2 RAW Image File | sr2 |  |
 | linguist/222900098 | Soong |  |  |
-| fmt/1250 | SOSI | sos | text/vnd.sosi |
-| fmt/1247 | SOSI | sos | text/vnd.sosi |
 | fmt/1248 | SOSI | sos | text/vnd.sosi |
+| fmt/1247 | SOSI | sos | text/vnd.sosi |
 | fmt/1246 | SOSI | sos | text/vnd.sosi |
+| fmt/1250 | SOSI | sos | text/vnd.sosi |
 | fmt/1249 | SOSI | sos | text/vnd.sosi |
 | fmt/209 | Sound Designer II Audio File | sd2 |  |
 | linguist/354 | SourcePawn | .sp, .inc |  |
@@ -3274,8 +3274,8 @@ File Types: 3839
 | apache-httpd/11948227751138753910 | sparql query | rq | application/sparql-query |
 | apache-httpd/3123908653018764713 | sparql results xml | srx | application/sparql-results+xml |
 | fmt/1575 | Spectrum 512 Compressed | Spectrum 512 Smooshed | spc, sps |  |
-| fmt/1577 | Spectrum 512 Extended | spx |  |
 | fmt/1578 | Spectrum 512 Extended | spx |  |
+| fmt/1577 | Spectrum 512 Extended | spx |  |
 | fmt/1576 | Spectrum 512 Uncompressed | Spectrum 512 Uncompressed Enhanced | spu |  |
 | x-fmt/132 | Speller Custom Dictionary | dic |  |
 | x-fmt/133 | Speller Exclude Dictionary | dic |  |
@@ -3317,64 +3317,64 @@ File Types: 3839
 | apache-httpd/2615400360932218329 | stardivision writer global | sgl | application/vnd.stardivision.writer-global |
 | linguist/960266174 | Starlark | .bzl, .star | text/x-python |
 | fmt/1556 | Starlink Data Format | sdf |  |
-| x-fmt/404 | StarOffice Calc |  |  |
 | fmt/809 | StarOffice Calc | sdc |  |
+| x-fmt/404 | StarOffice Calc |  |  |
 | x-fmt/359 | StarOffice Calc | sdc |  |
 | fmt/808 | StarOffice Calc | sdc |  |
-| x-fmt/401 | StarOffice Draw | sda | application/vnd.stardivision.draw |
-| fmt/811 | StarOffice Draw | sdd |  |
 | x-fmt/402 | StarOffice Draw |  |  |
+| fmt/811 | StarOffice Draw | sdd |  |
+| x-fmt/401 | StarOffice Draw | sda | application/vnd.stardivision.draw |
 | fmt/810 | StarOffice Draw | sdd |  |
 | x-fmt/405 | StarOffice Impress |  |  |
-| fmt/814 | StarOffice Impress | sdd |  |
 | x-fmt/360 | StarOffice Impress | sdd |  |
+| fmt/814 | StarOffice Impress | sdd |  |
 | fmt/815 | StarOffice Impress | sdd |  |
+| fmt/813 | StarOffice Writer | sdw |  |
 | x-fmt/403 | StarOffice Writer |  |  |
 | fmt/812 | StarOffice Writer | sdw |  |
 | x-fmt/400 | StarOffice Writer | sdw | application/vnd.stardivision.writer |
-| fmt/813 | StarOffice Writer | sdw |  |
 | linguist/358 | Stata | .do, .ado, .doh, .ihlp, .mata, .matah, .sthlp |  |
 | fmt/1598 | Stata .do Command File | do |  |
-| fmt/1029 | Stata Data (DTA) Format | dta |  |
-| fmt/1037 | Stata Data (DTA) Format | dta |  |
 | fmt/1033 | Stata Data (DTA) Format | dta |  |
 | fmt/1035 | Stata Data (DTA) Format | dta |  |
-| fmt/1030 | Stata Data (DTA) Format | dta |  |
+| fmt/1037 | Stata Data (DTA) Format | dta |  |
 | fmt/1031 | Stata Data (DTA) Format | dta |  |
+| fmt/1030 | Stata Data (DTA) Format | dta |  |
+| fmt/1036 | Stata Data (DTA) Format | dta |  |
 | fmt/1034 | Stata Data (DTA) Format | dta |  |
 | fmt/1032 | Stata Data (DTA) Format | dta |  |
-| fmt/1036 | Stata Data (DTA) Format | dta |  |
+| fmt/1029 | Stata Data (DTA) Format | dta |  |
 | x-fmt/361 | StatGraphics Data File | aws |  |
 | x-fmt/131 | Stationery for Mac OS X | doc |  |
 | fmt/210 | Statistica Report File | str |  |
-| fmt/1028 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
+| fmt/1024 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
 | fmt/606 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
 | fmt/1026 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
-| fmt/1024 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
-| fmt/1025 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
-| fmt/605 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
+| fmt/1028 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
 | fmt/1027 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
 | fmt/1023 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
+| fmt/605 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
+| fmt/1025 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
 | fmt/602 | Statistical Analysis System Catalogue XPT (Unix) | xpt |  |
 | fmt/601 | Statistical Analysis System Catalogue XPT (Windows) | xpt |  |
 | fmt/1018 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
-| fmt/1022 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
-| fmt/1020 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
-| fmt/608 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
 | fmt/1016 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
-| fmt/1021 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
+| fmt/1020 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
+| fmt/1022 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
+| fmt/608 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
 | fmt/607 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
 | fmt/1015 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
 | fmt/1017 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
 | fmt/1019 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
+| fmt/1021 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
 | fmt/604 | Statistical Analysis System Data XPT (Unix) | xpt |  |
 | fmt/603 | Statistical Analysis System Data XPT (Windows) | xpt |  |
 | x-fmt/145 | Stats+ Data File |  |  |
 | x-fmt/449 | Steel Detailing Neutral Format | sdn | text/plain |
 | apache-httpd/6070408414635237449 | stepmania package | smzip | application/vnd.stepmania.package |
 | apache-httpd/12775287888660207002 | stepmania stepchart | sm | application/vnd.stepmania.stepchart |
-| fmt/113 | Still Picture Interchange File Format |  | image/jpeg |
 | fmt/112 | Still Picture Interchange File Format | spf, jpg | image/jpeg |
+| fmt/113 | Still Picture Interchange File Format |  | image/jpeg |
 | linguist/455361735 | STL | .stl |  |
 | x-fmt/108 | STL (Standard Tessellation Language) ASCII | stl |  |
 | fmt/865 | STL (Standard Tessellation Language) Binary | stl |  |
@@ -3390,9 +3390,9 @@ File Types: 3839
 | fmt/1404 | Student Writing Center Newsletter | nl, nlt |  |
 | fmt/1401 | Student Writing Center Report | rp, rpt |  |
 | fmt/1403 | Student Writing Center Sign | sg, sgt |  |
+| fmt/1459 | Stuffit Archive File | sit | application/x-stuffit |
 | fmt/1460 | Stuffit Archive File | sit | application/x-stuffit |
 | fmt/639 | Stuffit Archive File | sit | application/x-stuffit |
-| fmt/1459 | Stuffit Archive File | sit | application/x-stuffit |
 | fmt/399 | Stuffit X Archive File | sitx |  |
 | apache-httpd/1762984859953048466 | stuffitx | sitx | application/x-stuffitx |
 | linguist/359 | Stylus | .styl |  |
@@ -3439,9 +3439,9 @@ File Types: 3839
 | x-fmt/13 | Tab-separated Values | tsv, tab | text/tab-separated-values |
 | linguist/606708469 | Tact | .tact |  |
 | apache-httpd/2705387182677033387 | tads | gam | application/x-tads |
+| fmt/10 | Tagged Image File Format |  |  |
 | fmt/8 | Tagged Image File Format |  |  |
 | fmt/9 | Tagged Image File Format |  |  |
-| fmt/10 | Tagged Image File Format |  |  |
 | fmt/7 | Tagged Image File Format |  |  |
 | fmt/353 | Tagged Image File Format | tif, tiff | image/tiff |
 | fmt/154 | Tagged Image File Format for Electronic Photography (TIFF/EP) | tif, tiff | image/tiff |
@@ -3470,8 +3470,8 @@ File Types: 3839
 | x-fmt/365 | TeX Binary File | dvi | application/x-dvi |
 | apache-httpd/17620094873161353617 | tex tfm | tfm | application/x-tex-tfm |
 | fmt/160 | TeX/LaTeX Device Independent Document | dvi | application/x-dvi |
-| apache-httpd/11775578050658360080 | texinfo | texinfo, texi | application/x-texinfo |
 | linguist/988020015 | Texinfo | .texinfo, .texi, .txi |  |
+| apache-httpd/11775578050658360080 | texinfo | texinfo, texi | application/x-texinfo |
 | linguist/372 | Text | .txt, .fr, .nb, .ncl, .no |  |
 | default/1 | Text |  | text/plain |
 | x-fmt/421 | Text Configuration file | ini |  |
@@ -3481,11 +3481,11 @@ File Types: 3839
 | apache-httpd/6911424546062404041 | tga | tga | image/x-tga |
 | apache-httpd/4451768154165309081 | tgif | obj | application/x-tgif |
 | fmt/1588 | TGIF File Format | tgif, obj |  |
-| fmt/798 | The Neuroimaging Informatics Technology Initiative File Format | nii |  |
 | fmt/1094 | The Neuroimaging Informatics Technology Initiative File Format | nii |  |
+| fmt/798 | The Neuroimaging Informatics Technology Initiative File Format | nii |  |
 | fmt/1301 | The Print Shop Project | psproj |  |
-| fmt/1783 | The Spectral Geologist Dataset | tsg |  |
 | fmt/1782 | The Spectral Geologist Dataset | tsg |  |
+| fmt/1783 | The Spectral Geologist Dataset | tsg |  |
 | fmt/1586 | TheDraw Save File | td |  |
 | apache-httpd/16755885106588162713 | thraud xml | tfi | application/thraud+xml |
 | linguist/374 | Thrift | .thrift |  |
@@ -3508,8 +3508,8 @@ File Types: 3839
 | fmt/1085 | TRIM Context Reference File | tr5, txt |  |
 | apache-httpd/11556186021095517549 | triscape mxs | mxs | application/vnd.triscape.mxs |
 | apache-httpd/15474808736122015508 | troff | t, tr, roff, man, me, ms | text/troff |
-| fmt/953 | True Audio | tta | audio/tta |
 | fmt/952 | True Audio | tta | audio/tta |
+| fmt/953 | True Audio | tta | audio/tta |
 | fmt/1607 | True Colour Picture [Spooky Sprites] (Atari Falcon) | trp, tru |  |
 | fmt/1605 | True Colour Sprites [Spooky Sprites] (Atari Falcon) | trs |  |
 | apache-httpd/918813325830249825 | trueapp | tra | application/vnd.trueapp |
@@ -3530,10 +3530,10 @@ File Types: 3839
 | linguist/377 | Twig | .twig | text/x-twig |
 | linguist/366 | TXL | .txl |  |
 | linguist/632765617 | Type Language | .tl |  |
-| fmt/1601 | Type Library | tlb |  |
 | fmt/1602 | Type Library | tlb |  |
-| fmt/1652 | Typescript | ts, tsx |  |
+| fmt/1601 | Type Library | tlb |  |
 | linguist/378 | TypeScript | .ts, .cts, .mts | application/typescript |
+| fmt/1652 | Typescript | ts, tsx |  |
 | linguist/952272597 | TypeSpec | .tsp |  |
 | linguist/704730682 | Typst | .typ |  |
 | fmt/1000 | TZX Format | tzx |  |
@@ -3567,10 +3567,10 @@ File Types: 3839
 | linguist/544060961 | Valve Data Format | .vdf |  |
 | fmt/985 | Valve Texture Format | vtf | image/vnd.valve.source.texture |
 | fmt/1122 | VAMAS Surface Chemical Analysis Standard Data Transfer Format | vms |  |
-| fmt/906 | Variant Call Format | vcf |  |
-| fmt/908 | Variant Call Format | vcf |  |
-| fmt/905 | Variant Call Format | vcf |  |
 | fmt/907 | Variant Call Format | vcf |  |
+| fmt/908 | Variant Call Format | vcf |  |
+| fmt/906 | Variant Call Format | vcf |  |
+| fmt/905 | Variant Call Format | vcf |  |
 | fmt/1381 | VariCAD Drawing | dwb |  |
 | linguist/399230729 | VBA | .bas, .cls, .frm, .vba | text/x-vb |
 | fmt/1906 | VBM (VDC BitMap) File | vbm |  |
@@ -3579,21 +3579,21 @@ File Types: 3839
 | apache-httpd/3360421230686974468 | vcalendar | vcs | text/x-vcalendar |
 | fmt/387 | VCalendar format | vcs | text/x-vCalendar |
 | fmt/1880 | vCard | vcf, vcard | text/vcard |
-| apache-httpd/2856549286746833970 | vcard | vcf | text/x-vcard |
-| linguist/851476558 | vCard | .vcf | text/x-properties |
-| fmt/1881 | vCard | vcf, vcard | text/vcard |
-| fmt/1879 | vCard | vcf, vcard | text/vcard |
 | fmt/395 | vCard | vcf, vcard | text/vcard |
+| linguist/851476558 | vCard | .vcf | text/x-properties |
+| fmt/1879 | vCard | vcf, vcard | text/vcard |
+| apache-httpd/2856549286746833970 | vcard | vcf | text/x-vcard |
+| fmt/1881 | vCard | vcf, vcard | text/vcard |
 | linguist/384 | VCL | .vcl |  |
 | apache-httpd/16181652763127625250 | vcx | vcx | application/vnd.vcx |
 | fmt/583 | Vector Markup Language | vml, html, htm |  |
-| fmt/1140 | VectorWorks | vwx | application/vnd.vectorworks |
-| fmt/684 | Vectorworks | vwx | application/vnd.vectorworks |
-| fmt/1139 | VectorWorks | vwx | application/vnd.vectorworks |
 | fmt/686 | Vectorworks | vwx | application/vnd.vectorworks |
-| fmt/1141 | VectorWorks | vwx | application/vnd.vectorworks |
-| fmt/450 | VectorWorks | vwx | application/vnd.vectorworks |
 | fmt/451 | VectorWorks | vwx | application/vnd.vectorworks |
+| fmt/1140 | VectorWorks | vwx | application/vnd.vectorworks |
+| fmt/450 | VectorWorks | vwx | application/vnd.vectorworks |
+| fmt/684 | Vectorworks | vwx | application/vnd.vectorworks |
+| fmt/1141 | VectorWorks | vwx | application/vnd.vectorworks |
+| fmt/1139 | VectorWorks | vwx | application/vnd.vectorworks |
 | fmt/1142 | VectorWorks Plugin or Script | vso, vst, vsm | application/vnd.vectorworks |
 | linguist/292377326 | Velocity Template Language | .vtl | text/velocity |
 | x-fmt/156 | Ventura Publisher | gen |  |
@@ -3630,8 +3630,8 @@ File Types: 3839
 | linguist/389 | Visual Basic .NET | .vb, .vbhtml | text/x-vb |
 | linguist/679594952 | Visual Basic 6.0 | .bas, .cls, .ctl, .Dsr, .frm | text/x-vb |
 | fmt/1590 | Visual Basic Binary Form File | frx |  |
-| fmt/1542 | Visual Basic Form File | frm |  |
 | fmt/1541 | Visual Basic Form File | frm |  |
+| fmt/1542 | Visual Basic Form File | frm |  |
 | x-fmt/48 | Visual Basic Macro | dvb |  |
 | fmt/1573 | Visual Basic Project File | vbp |  |
 | fmt/1574 | Visual Basic Project Workspace File | vbw |  |
@@ -3654,8 +3654,8 @@ File Types: 3839
 | apache-httpd/5953949104867887994 | wap wmlscript | wmls | text/vnd.wap.wmlscript |
 | apache-httpd/15817187641996057495 | wap wmlscriptc | wmlsc | application/vnd.wap.wmlscriptc |
 | fmt/289 | WARC | warc | application/warc |
-| fmt/1355 | WARC | warc | application/warc |
 | fmt/1281 | WARC | warc | application/warc |
+| fmt/1355 | WARC | warc | application/warc |
 | apache-httpd/4399502372078247101 | wasm | wasm | application/wasm |
 | fmt/6 | Waveform Audio | wav | audio/x-wav |
 | fmt/141 | Waveform Audio (PCMWAVEFORMAT) | wav, wave | audio/x-wav |
@@ -3687,11 +3687,11 @@ File Types: 3839
 | linguist/228 | Wikitext | .mediawiki, .wiki, .wikitext |  |
 | linguist/950967261 | Win32 Message File | .mc | text/x-properties |
 | fmt/1255 | Windows Address Book | wab |  |
-| fmt/114 | Windows Bitmap | ddb, bmp | image/bmp |
 | fmt/117 | Windows Bitmap | dib, bmp | image/bmp |
-| fmt/115 | Windows Bitmap | bmp, dib | image/bmp |
-| fmt/118 | Windows Bitmap | bmp, dib | image/bmp |
 | fmt/119 | Windows Bitmap | bmp, dib | image/bmp |
+| fmt/115 | Windows Bitmap | bmp, dib | image/bmp |
+| fmt/114 | Windows Bitmap | ddb, bmp | image/bmp |
+| fmt/118 | Windows Bitmap | bmp, dib | image/bmp |
 | fmt/116 | Windows Bitmap | dib, bmp | image/bmp |
 | x-fmt/414 | Windows Cabinet File | cab | application/vnd.ms-cab-compressed |
 | fmt/474 | Windows Help File | hlp |  |
@@ -3705,8 +3705,8 @@ File Types: 3839
 | x-fmt/119 | Windows Metafile Image | wmf | image/wmf |
 | x-fmt/410 | Windows New Executable | exe |  |
 | fmt/900 | Windows Portable Executable | exe, dll, sys | application/vnd.microsoft.portable-executable |
-| x-fmt/411 | Windows Portable Executable | exe, dll, sys | application/vnd.microsoft.portable-executable |
 | fmt/899 | Windows Portable Executable | exe, dll, sys | application/vnd.microsoft.portable-executable |
+| x-fmt/411 | Windows Portable Executable | exe, dll, sys | application/vnd.microsoft.portable-executable |
 | linguist/969674868 | Windows Registry Entries | .reg | text/x-properties |
 | x-fmt/420 | Windows Setup File | inf | application/inf |
 | fmt/1995 | WinFax Fax Image | fxr, fxm, fxs |  |
@@ -3720,26 +3720,26 @@ File Types: 3839
 | fmt/1723 | Wordcraft Chapter Files | 001 |  |
 | fmt/949 | WordPerfect | wp4, wpd | application/vnd.wordperfect |
 | fmt/1424 | WordPerfect Encrypted Document | wp | application/vnd.wordperfect |
-| fmt/1221 | WordPerfect for Macintosh Document |  | application/vnd.wordperfect |
-| fmt/1222 | WordPerfect for Macintosh Document |  | application/vnd.wordperfect |
 | fmt/1220 | WordPerfect for Macintosh Document |  | application/vnd.wordperfect |
+| fmt/1222 | WordPerfect for Macintosh Document |  | application/vnd.wordperfect |
+| fmt/1221 | WordPerfect for Macintosh Document |  | application/vnd.wordperfect |
 | x-fmt/393 | WordPerfect for MS-DOS Document | wp, wp5, wpd, w50, doc | application/vnd.wordperfect |
-| x-fmt/44 | WordPerfect for MS-DOS/Windows Document | doc, wpd, wp6, wp, w60, w61, w62 | application/vnd.wordperfect |
 | x-fmt/394 | WordPerfect for MS-DOS/Windows Document | wp5, wpd, w51, wp, doc | application/vnd.wordperfect |
+| x-fmt/44 | WordPerfect for MS-DOS/Windows Document | doc, wpd, wp6, wp, w60, w61, w62 | application/vnd.wordperfect |
 | x-fmt/203 | WordPerfect for Windows Document | w52, wp, wpd, wp5 | application/vnd.wordperfect |
 | fmt/1042 | WordPerfect Graphics Metafile | wpg |  |
 | x-fmt/395 | WordPerfect Graphics Metafile | wpg |  |
 | fmt/1850 | WordPerfect Macro File | wpm, wcm |  |
 | fmt/1837 | WordPerfect Presentations | shw |  |
-| x-fmt/43 | Wordperfect Secondary File | doc |  |
 | x-fmt/42 | Wordperfect Secondary File | doc |  |
+| x-fmt/43 | Wordperfect Secondary File | doc |  |
 | fmt/882 | Wordstar 2000 |  |  |
-| x-fmt/237 | WordStar for MS-DOS Document | ws, ws6 |  |
-| x-fmt/205 | WordStar for MS-DOS Document | ws, ws5 |  |
+| x-fmt/261 | WordStar for MS-DOS Document | ws, ws7 |  |
 | x-fmt/236 | WordStar for MS-DOS Document | ws |  |
+| x-fmt/205 | WordStar for MS-DOS Document | ws, ws5 |  |
 | x-fmt/260 | WordStar for MS-DOS Document | ws, ws4 |  |
 | x-fmt/370 | WordStar for MS-DOS Document | ws3, ws |  |
-| x-fmt/261 | WordStar for MS-DOS Document | ws, ws7 |  |
+| x-fmt/237 | WordStar for MS-DOS Document | ws, ws6 |  |
 | x-fmt/206 | WordStar for Windows Document | wsd, ws, wsw |  |
 | x-fmt/262 | WordStar for Windows Document | ws, wsw |  |
 | x-fmt/5 | Works for Macintosh Document |  |  |
@@ -3747,8 +3747,8 @@ File Types: 3839
 | apache-httpd/17504618014497501474 | wqd | wqd | application/vnd.wqd |
 | fmt/1611 | WRAptor Compressed File | wra, wr3 |  |
 | linguist/713580619 | Wren | .wren |  |
-| x-fmt/12 | Write for Windows Document | wri |  |
 | x-fmt/4 | Write for Windows Document | wri |  |
+| x-fmt/12 | Write for Windows Document | wri |  |
 | fmt/799 | WriteNow |  |  |
 | apache-httpd/2487306939359366350 | wsdl xml | wsdl | application/wsdl+xml |
 | apache-httpd/269849346801687012 | wspolicy xml | wspolicy | application/wspolicy+xml |
@@ -3762,10 +3762,10 @@ File Types: 3839
 | fmt/401 | X-Windows Screen Dump | xwd, xdm |  |
 | x-fmt/300 | X-Windows Screen Dump File | xdm, xwd | image/x-xwindowdump |
 | linguist/397 | X10 | .x10 |  |
-| fmt/579 | X3D | x3d |  |
+| fmt/580 | X3D | x3d |  |
 | fmt/582 | X3D | x3d |  |
 | fmt/581 | X3D | x3d |  |
-| fmt/580 | X3D | x3d |  |
+| fmt/579 | X3D | x3d |  |
 | apache-httpd/6898497964742600926 | x3d binary | x3db, x3dbz | model/x3d+binary |
 | apache-httpd/13507959258524992275 | x3d vrml | x3dv, x3dvz | model/x3d+vrml |
 | apache-httpd/2323420538982214786 | x3d xml | x3d, x3dz | model/x3d+xml |
@@ -3781,12 +3781,12 @@ File Types: 3839
 | linguist/225167241 | XCompose |  |  |
 | fmt/1379 | xdomea | xml |  |
 | fmt/1813 | xdomea | xml |  |
+| fmt/1375 | xdomea | xml |  |
 | fmt/1374 | xdomea | xml |  |
-| fmt/1378 | xdomea | xml |  |
+| fmt/1377 | xdomea | xml |  |
 | fmt/1380 | xdomea |  |  |
 | fmt/1376 | xdomea | xml |  |
-| fmt/1375 | xdomea | xml |  |
-| fmt/1377 | xdomea | xml |  |
+| fmt/1378 | xdomea | xml |  |
 | apache-httpd/5638618832123976135 | xenc xml | xenc | application/xenc+xml |
 | apache-httpd/16561078434078613689 | xfdl | xfdl | application/vnd.xfdl |
 | apache-httpd/10075710292268051668 | xfig | fig | application/x-xfig |
@@ -3822,10 +3822,10 @@ File Types: 3839
 | linguist/406 | Xtend | .xtend |  |
 | fmt/1497 | XV Thumbnail | p7 |  |
 | apache-httpd/1427004451618818651 | xv xml | mxml, xhvml, xvml, xvm | application/xv+xml |
-| x-fmt/210 | XYWrite Document | xy |  |
-| x-fmt/372 | XYWrite Document | xyp |  |
-| x-fmt/373 | XYWrite Document | xy4 |  |
 | x-fmt/211 | XYWrite Document | xy3 |  |
+| x-fmt/210 | XYWrite Document | xy |  |
+| x-fmt/373 | XYWrite Document | xy4 |  |
+| x-fmt/372 | XYWrite Document | xyp |  |
 | x-fmt/371 | XYWrite for Windows Document | xyw |  |
 | apache-httpd/235929493062174822 | xyz | xyz | chemical/x-xyz |
 | apache-httpd/4433712085291521474 | xz | xz | application/x-xz |
@@ -3869,8 +3869,8 @@ File Types: 3839
 | x-fmt/263 | ZIP Format | zip | application/zip |
 | fmt/1143 | ZISRAW (CZI) File Format | czi |  |
 | apache-httpd/17719390468068402583 | zmachine | z1, z2, z3, z4, z5, z6, z7, z8 | application/x-zmachine |
-| fmt/1194 | ZModeler Z3D | z3d |  |
 | fmt/1195 | ZModeler Z3D | z3d |  |
+| fmt/1194 | ZModeler Z3D | z3d |  |
 | fmt/1193 | ZModeler Z3D | z3d |  |
 | fmt/1213 | Zoner Callisto Metafile | zmf |  |
 | x-fmt/269 | ZOO Compressed Archive | zoo |  |

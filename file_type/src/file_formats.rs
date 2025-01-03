@@ -383,7 +383,6 @@ mod tests {
 
     #[test]
     fn create_supported_formats() -> Result<()> {
-        let file_name = PathBuf::from(CRATE_DIR).join("..").join("README.md");
         let mut file_formats = FILE_FORMATS.values().collect::<Vec<_>>();
         file_formats.sort_by_key(|a| a.name().to_lowercase());
 
@@ -406,9 +405,16 @@ mod tests {
             file_formats,
         ]
         .join("\n");
-        let readme = read_to_string(file_name.clone())?;
-        let readme = replace_file_types(&readme, &supported_formats);
-        std::fs::write(file_name, readme)?;
+
+        let files_names = [
+            PathBuf::from(CRATE_DIR).join("README.md"),
+            PathBuf::from(CRATE_DIR).join("..").join("README.md"),
+        ];
+        for file_name in files_names {
+            let readme = read_to_string(file_name.clone())?;
+            let readme = replace_file_types(&readme, &supported_formats);
+            std::fs::write(file_name, readme)?;
+        }
         Ok(())
     }
 }
