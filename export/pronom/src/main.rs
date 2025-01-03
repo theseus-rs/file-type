@@ -19,7 +19,7 @@ use std::fs::{self, File};
 use std::io::Write;
 use std::path::PathBuf;
 use std::time::Duration;
-use tracing::{error, info, warn};
+use tracing::{error, info};
 use tracing_subscriber::filter::LevelFilter;
 use tracing_subscriber::{fmt, EnvFilter};
 
@@ -112,18 +112,7 @@ fn download_and_save_puid(client: &Client, puid_url: &String, file_name: &PathBu
         .timeout(Duration::from_secs(30))
         .send()?;
     let xml = response.text()?;
-
-    let pronom_report: PronomReport = match from_str(&xml) {
-        Ok(report) => report,
-        Err(error) => {
-            warn!(
-                "Not writing record {}: ({error})",
-                file_name.to_string_lossy()
-            );
-            return Ok(());
-        }
-    };
-
+    let pronom_report: PronomReport = from_str(&xml)?;
     let detail = pronom_report.detail();
     let file_format = detail.file_format();
     let mut buffer = String::new();
