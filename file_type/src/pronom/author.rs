@@ -9,7 +9,10 @@ pub struct Author {
     name: String,
     #[serde(skip_serializing_if = "String::is_empty")]
     organisation_name: String,
-    #[serde(skip_serializing_if = "String::is_empty", rename = "AuthorCompoundName")]
+    #[serde(
+        skip_serializing_if = "String::is_empty",
+        rename = "AuthorCompoundName"
+    )]
     compound_name: String,
 }
 

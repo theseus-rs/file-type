@@ -50,13 +50,13 @@ pub struct FileFormat {
     #[serde(
         skip_serializing_if = "Option::is_none",
         deserialize_with = "deserialize_option_naive_date",
-        serialize_with = "serialize_option_naive_date",
+        serialize_with = "serialize_option_naive_date"
     )]
     release_date: Option<Date>,
     #[serde(
         skip_serializing_if = "Option::is_none",
         deserialize_with = "deserialize_option_naive_date",
-        serialize_with = "serialize_option_naive_date",
+        serialize_with = "serialize_option_naive_date"
     )]
     withdrawn_date: Option<Date>,
     provenance_source_id: usize,

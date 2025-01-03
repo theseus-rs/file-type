@@ -19,11 +19,20 @@ pub struct CompressionType {
     id: usize,
     #[serde(rename = "CompressionName")]
     name: String,
-    #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionVersion")]
+    #[serde(
+        skip_serializing_if = "String::is_empty",
+        rename = "CompressionVersion"
+    )]
     version: String,
-    #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionAliases")]
+    #[serde(
+        skip_serializing_if = "String::is_empty",
+        rename = "CompressionAliases"
+    )]
     aliases: String,
-    #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionFamilies")]
+    #[serde(
+        skip_serializing_if = "String::is_empty",
+        rename = "CompressionFamilies"
+    )]
     families: String,
     #[serde(skip_serializing_if = "String::is_empty")]
     description: String,
@@ -40,7 +49,10 @@ pub struct CompressionType {
         serialize_with = "serialize_option_naive_date"
     )]
     withdrawn_date: Option<Date>,
-    #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionDocumentation")]
+    #[serde(
+        skip_serializing_if = "String::is_empty",
+        rename = "CompressionDocumentation"
+    )]
     documentation: String,
     #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionIpr")]
     ipr: String,
