@@ -136,9 +136,14 @@ fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Result<Vec<Fi
         mime_type.hash(&mut hasher);
         let hash = usize::try_from(hasher.finish())?;
         let puid = format!("apache-httpd/{hash}");
+        let name = mime_type.as_str().split_once('/').unwrap_or_default().1;
+        let name = name
+            .trim_start_matches("vnd.")
+            .trim_start_matches("x-")
+            .replace(['-', '+', '.'], " ");
         let file_format = FileFormat::new(
             hash,
-            mime_type.as_str(),
+            name.as_str(),
             "",
             "",
             "",
