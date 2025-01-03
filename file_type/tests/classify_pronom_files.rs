@@ -5,7 +5,7 @@ use walkdir::WalkDir;
 
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
 
-fn pronom_data_dir() -> PathBuf {
+fn data_dir() -> PathBuf {
     PathBuf::from(CRATE_DIR)
         .join("..")
         .join("testdata")
@@ -14,9 +14,9 @@ fn pronom_data_dir() -> PathBuf {
 
 #[tokio::test]
 async fn test_file_classification() -> Result<()> {
-    let pronom_data_dir = pronom_data_dir();
+    let data_dir = data_dir();
 
-    for entry in WalkDir::new(pronom_data_dir) {
+    for entry in WalkDir::new(data_dir) {
         let entry = entry?;
         let path = entry.path();
         if path.is_dir() {

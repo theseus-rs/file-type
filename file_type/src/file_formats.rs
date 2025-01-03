@@ -127,23 +127,38 @@ where
         file_formats.remove("default/2");
     }
 
-    if file_formats.len() > 1 {
-        if let Some(extension) = extension {
-            let extension_file_formats = file_formats
-                .par_iter()
-                .filter(|(_id, file_format)| file_format.extensions().contains(&extension))
-                .map(|(id, file_format)| (id.clone(), file_format.clone()))
-                .collect::<HashMap<String, FileFormat>>();
-            if !extension_file_formats.is_empty() {
-                file_formats = extension_file_formats;
+    if let Some(extension) = extension {
+        match file_formats.len() {
+            0 => {
+                let extension_map = &*EXTENSION_MAP;
+                if let Some(ids) = extension_map.get(extension) {
+                    file_formats = ids
+                        .iter()
+                        .filter_map(|id| FILE_FORMATS.get(id))
+                        .map(|file_format| (file_format.puid().to_string(), file_format.clone()))
+                        .collect::<HashMap<String, FileFormat>>();
+                };
+            }
+            1 => {}
+            _ => {
+                let extension_file_formats = file_formats
+                    .par_iter()
+                    .filter(|(_id, file_format)| file_format.extensions().contains(&extension))
+                    .map(|(id, file_format)| (id.clone(), file_format.clone()))
+                    .collect::<HashMap<String, FileFormat>>();
+                if !extension_file_formats.is_empty() {
+                    file_formats = extension_file_formats;
+                }
             }
         }
     }
+    let mut file_formats = file_formats.values().cloned().collect::<Vec<FileFormat>>();
+    file_formats.sort_by_key(FileFormat::id);
 
     let file_format = if file_formats.is_empty() {
         FILE_FORMATS.get("default/1")
     } else {
-        file_formats.values().next()
+        file_formats.first()
     };
 
     file_format.cloned().unwrap_or_default()
@@ -174,7 +189,7 @@ pub async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<FileFormat> {
     #[cfg(not(target_arch = "wasm32"))]
     let file_format = {
         let path = path.as_ref();
-        let extension = path.extension().and_then(|ext| ext.to_str());
+        let extension = path.extension().and_then(|extension| extension.to_str());
         let file = tokio::fs::File::open(path).await?;
         let reader = tokio::io::BufReader::new(file);
         try_from_reader(reader, extension).await
@@ -225,19 +240,19 @@ mod tests {
     #[test]
     fn test_file_formats() {
         let file_formats = &*FILE_FORMATS;
-        assert_eq!(3839, file_formats.len());
+        assert_eq!(3844, file_formats.len());
     }
 
     #[test]
     fn test_extensions() {
         let extensions = &*EXTENSION_MAP;
-        assert_eq!(3603, extensions.len());
+        assert_eq!(3608, extensions.len());
     }
 
     #[test]
     fn test_media_types() {
         let media_types = &*MEDIA_TYPE_MAP;
-        assert_eq!(1020, media_types.len());
+        assert_eq!(1025, media_types.len());
         assert!(media_types.contains_key("text/plain"));
         assert!(media_types.contains_key("application/octet-stream"));
     }
