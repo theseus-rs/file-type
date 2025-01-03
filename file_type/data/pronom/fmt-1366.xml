@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>2184</FormatID>
   <FormatName>ESRI Published Map Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>GIS</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The PMF file is a read-only map file created with ArcMap, an application included with ESRI Desktop GIS. It can be viewed with the ArcReader application. PMF files allow the protecting of data and confidentiality by enabling the creator to limit the data views, printing, zooming and other features of a map.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
   <ProvenanceSourceDate>03 Sep 2020</ProvenanceSourceDate>
   <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
   <LastUpdatedDate>03 Sep 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1366</Identifier>
     <IdentifierType>PUID</IdentifierType>

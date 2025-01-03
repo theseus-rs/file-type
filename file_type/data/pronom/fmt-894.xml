@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1698</FormatID>
   <FormatName>Gaussian Input Data File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Gaussian Input Data files are created by the Gaussian computer program for computational chemistry.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>16 Jun 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>16 Jun 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/894</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,9 +27,6 @@ The 'Route Section' describes the 'Basis Set' used, as listed here: http://www.g
       <PositionType>Absolute from BOF</PositionType>
       <Offset>1</Offset>
       <MaxOffset>128</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>(414D31|504D33|53544F2D3347|332D323147|332D323167|362D333147|362D333167|6175672D63632D7076747A){0-128}0A(2D31|30|31)(20|2C)[31:39]{1-128}[30:39]2E[30:39]{0-24}[30:39]2E[30:39]{0-24}[30:39]2E[30:39]</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -49,9 +34,6 @@ The 'Route Section' describes the 'Basis Set' used, as listed here: http://www.g
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>128</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>23</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

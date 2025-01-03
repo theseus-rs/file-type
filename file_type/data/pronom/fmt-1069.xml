@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1876</FormatID>
   <FormatName>Cue Sheet</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>A cue sheet file is used to describe how the tracks within optical media are laid out and may contain further metadata. They are plain text files.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>17 Jul 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>17 Jul 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1069</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>1024</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>46494C45{0-1024}2020545241434B203031{0-1024}494E44455820303120[30:39][30:39]3A[30:35][30:39]3A[30:37][30:39]</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

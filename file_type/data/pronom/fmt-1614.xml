@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2441</FormatID>
   <FormatName>Esri ArcExplorer Project File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>ArcExplorer is a viewer and organiser for maps, which enables the user to access information about an area including GIS (Geographic Information System) data. The .aep project file is used to save user projects, including custom maps, comments, sketches and other GIS data. ArcExplorer has been superseded by ArcGIS Explorer.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
   <ProvenanceSourceDate>03 Feb 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>03 Feb 2022</LastUpdatedDate>
   <FormatNote>https://www.esri.com/en-us/arcgis/products/arcgis-field-maps/overview</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1614</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>5B4152434558504C4F5245525D</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1642</FormatID>
   <FormatName>Interleaved ADX Audio Format (AIX)</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>ADX is a proprietary audio storage and compression format developed by CRI Middleware. An AIX interleaves multiple ADX files.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
   <ProvenanceSourceDate>23 Dec 2015</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>23 Dec 2015</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/841</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>41495846000017F80100001400000800</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

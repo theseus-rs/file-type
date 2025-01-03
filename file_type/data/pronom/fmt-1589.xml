@@ -1,22 +1,13 @@
 <FileFormat>
   <FormatID>2414</FormatID>
   <FormatName>Taquart Interlace Picture</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Taquart Interlace Picture is a graphics format developed for ATARI 400, 800, 130 XE and XL, all part of Atari 8-bit family.
 
 The Atari 8-bit family is a series of 8-bit home computers introduced by Atari, Inc. in 1979 as the Atari 400 and Atari 800 and manufactured until 1992. All of the machines in the family are technically similar and differ primarily in packaging. They are based on the MOS Technology 6502 CPU running at 1.79 MHz, and were the first home computers designed with custom coprocessor chips.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>04 Jan 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>04 Jan 2022</LastUpdatedDate>
   <FormatNote>https://www.wikidata.org/wiki/Q105859115
 
@@ -25,8 +16,6 @@ https://www.file-extensions.org/tip-file-extension-taquart-interlace-picture-for
 http://fileformats.archiveteam.org/wiki/Taquart_Interlace_Picture
 
 https://en.wikipedia.org/wiki/Atari_8-bit_family</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1589</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -45,9 +34,6 @@ https://en.wikipedia.org/wiki/Atari_8-bit_family</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>54495001</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -3,22 +3,13 @@
   <FormatName>Truevision TGA Bitmap</FormatName>
   <FormatVersion>1.0</FormatVersion>
   <FormatAliases>TGA, Targa Bitmap</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>16 Mar 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>com.truevision.tga-image</Identifier>
     <IdentifierType>Apple Uniform Type Identifier</IdentifierType>
@@ -65,10 +56,6 @@
       <ByteSequenceID>748</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>1</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>01(01|09){4}(0F|10|18|20){8}(08|0F|10|18|20)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -80,10 +67,6 @@
       <ByteSequenceID>774</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>1</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>00(02|03|0A|0B)0000000000{8}(08|0F|10|18|20)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -97,6 +80,5 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1672</RelatedFormatID>
     <RelatedFormatName>MySQL Table Definition Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

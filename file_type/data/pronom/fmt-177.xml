@@ -2,23 +2,13 @@
   <FormatID>883</FormatID>
   <FormatName>Microsoft Excel for Macintosh</FormatName>
   <FormatVersion>2004</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Spreadsheet</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>This PUID has been deprecated in favour of another entry. Please see fmt/62: Microsoft Excel 2000-2003 Workbook.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>28 Sep 2009</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>21 Apr 2023</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/177</Identifier>
     <IdentifierType>PUID</IdentifierType>

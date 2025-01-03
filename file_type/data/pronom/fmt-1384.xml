@@ -2,23 +2,12 @@
   <FormatID>2202</FormatID>
   <FormatName>Embedded OpenType (EOT) File Format</FormatName>
   <FormatVersion>0x00020002</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Font</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Embedded OpenType File Format (EOT) was developed by Microsoft to enable TrueType and OpenType fonts to be linked to web pages for download to render the web page with the font the author desired - https://www.w3.org/Submission/2008/SUBM-EOT-20080305/</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover</ProvenanceName>
   <ProvenanceSourceDate>23 Sep 2020</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>23 Sep 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-fontobject</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -40,10 +29,6 @@
       <ByteSequenceID>2040</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>8</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>02000200{22}4C50{36}0000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

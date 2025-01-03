@@ -2,19 +2,12 @@
   <FormatID>352</FormatID>
   <FormatName>Microsoft Access Database File</FormatName>
   <FormatVersion>2000</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Database</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Microsoft Access Database File, formerly known as Jet Maseas Database format, is proprietary file format developed and used by Microsoft as a native format for its Microsoft Access (formerly Microsoft Jet Database Engine) desktop database management system. First released in 1992, starting with version 1.0 the earlier versions of the database used the Jet Database Engine, with version Microsoft Access 2000 utiliooing the Jet 4.0 database engine. The page size of the Jet 4.0 database engine is 4096 bytes. The .mde extension refers to protected Access database file with compiled VBA and macros. This entry records the version 2000 of MDB file format, for a full list of versions please follow the links provided in the Notes section.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>23 Sep 2003</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 May 2023</LastUpdatedDate>
   <FormatNote>https://web.archive.org/web/20220711181532/http://fileformats.archiveteam.org/wiki/Access
 
@@ -23,8 +16,6 @@ https://web.archive.org/web/20220901011824/https://en.wikipedia.org/wiki/Microso
 https://web.archive.org/web/20220825195028/https://www.loc.gov/preservation/digital/formats/fdd/fdd000462.shtml
 
 http://web.archive.org/web/20111115230803/http://support.microsoft.com/kb/178882</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fdd000462</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -55,19 +46,12 @@ http://web.archive.org/web/20111115230803/http://support.microsoft.com/kb/178882
       <ByteSequenceID>350</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>000100005374616E64617264204A65742044420001000000</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>351</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>410063006300650073007300560065007200730069006F006E{0-2048}300038002E00[30:39]00[30:39]</ByteSequenceValue>
     </ByteSequence>

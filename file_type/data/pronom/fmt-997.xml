@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1802</FormatID>
   <FormatName>SPSS Portable Data Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Dataset</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>SPSS (Statistical Package for the Social Sciences) is a software package used for statistical analysis in the social sciences. The portable data format is designed for data transfer between differing operating systems and versions of SPSS.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>21 Mar 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>21 Mar 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/997</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>C1E2C3C9C940E2D7E2E240D7D6D9E340C6C9D3C540404040404040404040404040404040404040404153434949205350535320504F52542046494C4520202020202020202020202020202020202020200D0A30303030302D303030302D303030302D303030302D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2133232929303330333330302F32343026292C2530303030303030303030303030303030303030300D0A303230303030322732323027262933303030233030303030303030303030303030303030</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

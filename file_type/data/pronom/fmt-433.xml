@@ -2,23 +2,12 @@
   <FormatID>1220</FormatID>
   <FormatName>Drawing Interchange File Format (ASCII)</FormatName>
   <FormatVersion>2007/2008/2009</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>ASCII DXF format is the ASCII encoded variant of the Drawing Interchange File Format, an exchange format for vector graphics developed by AutoDesk. They are probably the widely-used formats for exchanging vector data, and have become a de-facto industry standard. The format is owned by AutoDesk and typically changes with each release of their AutoCAD family of products. DXF files contain a tagged representation of the vector data. The structure comprises a Header section, followed by sections containing data on Classes, Tables, Blocks, Entities and, optionally, thumbnail images. Each section contains a series of data elements. each preceded by a group code tag, which indicates the type of data element. ASCII DXF version 2007-2009 is the version of the format associated with Releases 2007, 2008 and 2009 of the AutoCAD family of software products</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Museum of London / Museum of London</ProvenanceName>
   <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>28 Sep 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/433</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,11 +28,6 @@
     <ByteSequence>
       <ByteSequenceID>853</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>30(0D0A|0A|0D)53454354494F4E(0D0A|0A|0D)202032(0D0A|0A|0D)484541444552(0D0A|0A|0D)*39(0D0A|0A|0D)2441434144564552(0D0A|0A|0D)202031(0D0A|0A|0D)414331303231(0D0A|0A|0D)*30(0D0A|0A|0D)454E44534543(0D0A|0A|0D)</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -51,9 +35,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>2</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>30(0D0A|0A|0D)454F46</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

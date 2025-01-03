@@ -2,23 +2,13 @@
   <FormatID>755</FormatID>
   <FormatName>StarOffice Draw</FormatName>
   <FormatVersion>5.x</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>StarDraw is part of StarOffice, a proprietary office suite. StarDraw a vector graphics editor. StarOffice originated in 1985 as StarWriter by StarDivision, which was acquired by Sun Microsystems in 1999. Sun was itself acquired by Oracle Corporation in 2010. StarOffice was known briefly as Oracle Open Office before being discontinued in 2011.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.stardivision.draw</Identifier>
     <IdentifierType>MIME</IdentifierType>

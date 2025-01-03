@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2772</FormatID>
   <FormatName>Graphisoft BIMx Hyper-Model</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>BIMx is a proprietary Building Information Modelling (BIM) format produced by Graphisoft architectural software applications such as Archicad. BIMx is referred to as a ‘hyper-model’ that can contain 3D models, along with views, layouts, camera paths and project documentation. It is intended as an interactive, presentational format rather than a creative or editorial one. Graphisoft provide a standalone viewer desktop and mobile application.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Preservica / Preservica</ProvenanceName>
   <ProvenanceSourceDate>25 Aug 2023</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>25 Aug 2023</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1914</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>42494D78</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -47,9 +32,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4B505842</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

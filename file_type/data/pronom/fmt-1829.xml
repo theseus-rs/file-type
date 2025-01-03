@@ -2,23 +2,14 @@
   <FormatID>2681</FormatID>
   <FormatName>PPTX Strict OOXML Presentation</FormatName>
   <FormatVersion>2007 onwards</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>PPTX Strict is the implementation of the Office Open XML presentation format that strictly conforms to the ISO 29500-1: 2008-2016 standard.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Danish National Archives / Danish National Archives</ProvenanceName>
   <ProvenanceSourceDate>14 Feb 2023</ProvenanceSourceDate>
   <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
   <LastUpdatedDate>14 Feb 2023</LastUpdatedDate>
   <FormatNote>https://www.loc.gov/preservation/digital/formats/fdd/fdd000402.shtml</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.openxmlformats-officedocument.presentationml.presentation</Identifier>
     <IdentifierType>MIME</IdentifierType>

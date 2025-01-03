@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>1433</FormatID>
   <FormatName>Microsoft Compiled HTML Help</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
   <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
   <ProvenanceDescription>This format is identifiable via a container signature in DROID 6 and later.</ProvenanceDescription>
   <LastUpdatedDate>14 Feb 2014</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-htmlhelp</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -46,9 +35,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>49545346</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

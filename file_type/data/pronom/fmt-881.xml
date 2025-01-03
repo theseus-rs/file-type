@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1685</FormatID>
   <FormatName>Microsoft Document Imaging File Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>This is a proprietary file format created by Microsoft Document Imaging, a program which enables the editing and annotation of documents scanned by Microsoft Office Document Scanning. It was introduced in Office XP and was included in Office 2003 and 2007. This format is a variant of TIFF.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>18 May 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 May 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/881</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,9 +29,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>45502A00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

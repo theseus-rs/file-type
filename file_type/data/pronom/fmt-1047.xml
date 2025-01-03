@@ -2,24 +2,14 @@
   <FormatID>1852</FormatID>
   <FormatName>Geography Markup Language</FormatName>
   <FormatVersion>3.2</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>GIS, Text (Mark-up)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Geography Markup Language (GML) is the XML grammar defined by the Open Geospatial Consortium (OGC) to express geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet.
 Version 3.2 introduced a new GML XML namespace and represents ISO standard 19136. Full specifications can be found at http://www.opengeospatial.org/standards/gml</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Archaeology Data Service / Archaeology Data Service</ProvenanceName>
   <ProvenanceSourceDate>18 May 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 May 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/gml+xml</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -42,9 +32,6 @@ Version 3.2 introduced a new GML XML namespace and represents ISO standard 19136
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C3F786D6C2076657273696F6E3D(22|27)312E30(22|27){0-320}786D6C6E733A676D6C3D(22|27)687474703A2F2F7777772E6F70656E6769732E6E65742F676D6C2F332E3222</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -52,13 +39,11 @@ Version 3.2 introduced a new GML XML namespace and represents ISO standard 19136
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>429</RelatedFormatID>
     <RelatedFormatName>XML Schema Definition</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>319</RelatedFormatID>
     <RelatedFormatName>Geography Markup Language</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -70,7 +55,6 @@ Version 3.2 introduced a new GML XML namespace and represents ISO standard 19136
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>319</RelatedFormatID>
     <RelatedFormatName>Geography Markup Language</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>

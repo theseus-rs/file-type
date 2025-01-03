@@ -2,25 +2,16 @@
   <FormatID>843</FormatID>
   <FormatName>CATIA Model</FormatName>
   <FormatVersion>4</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Model</FormatTypes>
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>CATIA is a 3D modelling software created by Dassault Systèmes, widely used across many industries for computer aided design, manufacture and engineering. Model files store representations of mechanical structures, or parts of structures.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Library Research Group / MIT Libraries</ProvenanceName>
   <ProvenanceSourceDate>06 Apr 2009</ProvenanceSourceDate>
   <ProvenanceDescription>11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched. 04/2024 (v.118) changed first range of bytes from {2024} to *. Submitted by the J. Paul Getty Trust.</ProvenanceDescription>
   <LastUpdatedDate>22 Apr 2024</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
-    <Identifier/>
     <IdentifierType>Other</IdentifierType>
   </FileFormatIdentifier>
   <FileFormatIdentifier>
@@ -46,9 +37,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>80</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4341544941202020*434154494120534F4C5554494F4E53205634{6}52454C4541534520</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

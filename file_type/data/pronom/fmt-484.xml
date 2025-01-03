@@ -1,16 +1,8 @@
 <FileFormat>
   <FormatID>1271</FormatID>
   <FormatName>7Zip format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>An archive format associated with the 7-Zip application. Its default compression method is LZMA, but it supports other compression methods as well.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>18 Dec 2012</ProvenanceSourceDate>
@@ -19,8 +11,6 @@
   <FormatNote>https://7-zip.org/7z.html
 https://filext.com/file-extension/7Z
 https://fileinfo.com/extension/7z</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/484</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,10 +28,6 @@ https://fileinfo.com/extension/7z</FormatNote>
       <ByteSequenceID>951</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>377ABCAF271C</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

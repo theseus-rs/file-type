@@ -2,23 +2,12 @@
   <FormatID>896</FormatID>
   <FormatName>Microsoft Works Spreadsheet for DOS</FormatName>
   <FormatVersion>2.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>PUID deprecated. Please see fmt/166: Microsoft Works Spreadsheet 1-5</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>28 Sep 2009</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>28 Sep 2009</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/168</Identifier>
     <IdentifierType>PUID</IdentifierType>

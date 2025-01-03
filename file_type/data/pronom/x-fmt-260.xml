@@ -2,10 +2,7 @@
   <FormatID>378</FormatID>
   <FormatName>WordStar for MS-DOS Document</FormatName>
   <FormatVersion>4.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Word Processor</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The WordStar format is the default proprietary plain text format for the word processing application of the same name. It was created in 1978 by MicroPro, originally for the CP/M operating system but later was used on other operating systems such as PC/MS-DOS. It was the first word processor to render the doument on screen as it would appear when printed. WordStar files often have the extension ws or ws follwed by their version number but it is also common for them to have no extension. 
 
 WS4 files currently cannot by identified though a PRONOM identification signature. 
@@ -14,18 +11,12 @@ On the surface it's a plain text file, however the format 'shifts' the last byte
 
 It should be possible to write a simple decoder application for WS4 files, however note that the conjecture above is based on observation of a limited pool of files, and there may be additional subtleties yet to be encountered and understood. Please contact the PRONOM team if you have any further information about this format.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>29 Jul 2022</LastUpdatedDate>
   <FormatNote>http://justsolve.archiveteam.org/wiki/WordStar
 https://www.loc.gov/preservation/digital/formats/fdd/fdd000552</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fdd000552</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>

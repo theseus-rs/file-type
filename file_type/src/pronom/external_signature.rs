@@ -12,6 +12,15 @@ pub struct ExternalSignature {
 }
 
 impl ExternalSignature {
+    /// Create a new external signature.
+    pub fn new<S: AsRef<str>>(id: usize, signature: S, r#type: S) -> Self {
+        Self {
+            id,
+            signature: signature.as_ref().to_string(),
+            r#type: r#type.as_ref().to_string(),
+        }
+    }
+
     /// Get the ID of the external signature.
     #[must_use]
     pub fn id(&self) -> usize {
@@ -59,5 +68,13 @@ mod test {
         assert_eq!(external_signature.signature(), "json");
         assert_eq!(external_signature.r#type(), "File extension");
         Ok(())
+    }
+
+    #[test]
+    fn test_new() {
+        let external_signature = ExternalSignature::new(2421, "json", "File extension");
+        assert_eq!(external_signature.id(), 2421);
+        assert_eq!(external_signature.signature(), "json");
+        assert_eq!(external_signature.r#type(), "File extension");
     }
 }

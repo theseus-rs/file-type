@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1260</FormatID>
   <FormatName>Microsoft Office Owner File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Page Description</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>When a previously saved Word document is opened for editing, for printing, or for review, Word creates a temporary file that has a .doc file name extension. This file name extension begins with a tilde (~) that is followed by a dollar sign ($) that is followed by the remainder of the original file name. This temporary file holds the logon name of person who opens the file. This temporary file is called the "owner file."</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>25 Oct 2012</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>30 Jun 2022</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/473</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,10 +29,6 @@
       <ByteSequenceID>927</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>06{52}000600</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -56,10 +40,6 @@
       <ByteSequenceID>928</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>07{52}000700</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -71,10 +51,6 @@
       <ByteSequenceID>929</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>08{52}000800</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -86,10 +62,6 @@
       <ByteSequenceID>930</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>09{52}000900</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -101,10 +73,6 @@
       <ByteSequenceID>931</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0A{52}000A00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -116,10 +84,6 @@
       <ByteSequenceID>932</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0B{52}000B00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -131,10 +95,6 @@
       <ByteSequenceID>933</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0C{52}000C00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -146,10 +106,6 @@
       <ByteSequenceID>934</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0D{52}000D00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -161,10 +117,6 @@
       <ByteSequenceID>935</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0E{52}000E00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -176,10 +128,6 @@
       <ByteSequenceID>936</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0F{52}000F00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -192,9 +140,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>01{52}000100</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -207,9 +152,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>02{52}000200</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -222,9 +164,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>03{52}000300</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -237,9 +176,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>04{52}000400</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -252,9 +188,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>05{52}000500</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -267,9 +200,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>14{52}001400</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -282,9 +212,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>10{52}001000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -297,9 +224,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>11{52}001100</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -312,9 +236,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>12{52}001200</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -327,9 +248,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>13{52}001300</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -341,10 +259,6 @@
       <ByteSequenceID>2379</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>15{52}001500</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -356,10 +270,6 @@
       <ByteSequenceID>2380</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>16{52}001600</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -371,10 +281,6 @@
       <ByteSequenceID>2381</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>17{52}001700</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -386,10 +292,6 @@
       <ByteSequenceID>2382</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>18{52}001800</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -401,10 +303,6 @@
       <ByteSequenceID>2383</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>19{52}001900</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -412,6 +310,5 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2870</RelatedFormatID>
     <RelatedFormatName>SPIR-V</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

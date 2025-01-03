@@ -1,25 +1,12 @@
 <FileFormat>
   <FormatID>1246</FormatID>
   <FormatName>Verity Collection Word List Descriptor Style Set</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>A Verity collection is the fundamental structure underlying the search capabilities of Verity applications. A collection consists of information about a particular set of documents that are available for searching and viewing. The specific information stored for a collection includes a word index and various other indexes, plus a document table containing document field information and logical pointers to the document files. The Verity Collection Document Index Descriptor Style Set configures a word index that includes
 all partitions of the collection. The spanning word list is an optional index that aids fast searching.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>28 Aug 2012</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/459</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,20 +25,12 @@ EOF: }..}..$$..</SignatureNote>
       <ByteSequenceID>896</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>23207374796C652E776C6409312E35202D20312F31312F39340D0A232040282329</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>897</ByteSequenceID>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>7D0D0A7D0D0A24240D0A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -3,22 +3,14 @@
   <FormatName>Exchangeable Image File Format (Uncompressed)</FormatName>
   <FormatVersion>2.2</FormatVersion>
   <FormatAliases>Exif Uncompressed Image (2.2)</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Exchangeable image file format (Exif) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel) and Big-endian (Motorola)</ByteOrders>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>image/tiff</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -32,24 +24,19 @@
     <DisplayText>Japan Electronic Industry Development Association, 2002, JEITA CP-3451 - Exchangeable image file format for digital still cameras: Exif Version 2.2</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Apr 2002</PublicationDate>
     <TitleText>JEITA CP-3451 - Exchangeable image file format for digital still cameras: Exif Version 2.2</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>www.exif.org/Exif2-2.PDF</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>105</AuthorID>
-      <AuthorName/>
       <OrganisationName>Japan Electronic Industry Development Association</OrganisationName>
       <AuthorCompoundName>Japan Electronic Industry Development Association</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>105</PublisherID>
-      <PublisherName/>
       <OrganisationName>Japan Electronic Industry Development Association</OrganisationName>
       <PublisherCompoundName>Japan Electronic Industry Development Association</PublisherCompoundName>
     </Publisher>
@@ -72,10 +59,6 @@
       <ByteSequenceID>101</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D4D002A</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -83,9 +66,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>131072</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>900000070000000430323230</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -97,10 +77,6 @@
       <ByteSequenceID>102</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>49492A00</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -108,9 +84,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>131072</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>009007000400000030323230</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -122,10 +95,6 @@
       <ByteSequenceID>373</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D4D002A</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -133,9 +102,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>10</Offset>
       <MaxOffset>131072</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>900000070000000430323230</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -147,10 +113,6 @@
       <ByteSequenceID>379</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>49492A00</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -158,9 +120,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>10</Offset>
       <MaxOffset>131072</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>009007000400000030323230</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -174,19 +133,16 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>797</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format for Electronic Photography (TIFF/EP)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>798</RelatedFormatID>
     <RelatedFormatName>Geographic Tagged Image File Format (GeoTIFF)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>799</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format for Internet Fax (TIFF-FX)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -216,13 +172,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1867</RelatedFormatID>
     <RelatedFormatName>Phase One IIQ Raw Image</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1868</RelatedFormatID>
     <RelatedFormatName>Hasselblad 3FR Raw Image</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -270,7 +224,6 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1099</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>

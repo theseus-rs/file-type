@@ -1,26 +1,15 @@
 <FileFormat>
   <FormatID>2071</FormatID>
   <FormatName>ESRI Code Page File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Unstructured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>An ESRI Code Page file is an optional file that can be used to specify the code page for identifying the character set to be used, for example UTF-8. It is part of the ESRI shapefiles used in the ArcGIS software, which stores the geometric location and attribute information of geographic features. Shapefiles are a spatial data format that can work with and be edited in ArcGIS.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
   <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FormatNote>http://webhelp.esri.com/arcgisdesktop/9.3/index.cfm?TopicName=Shapefile_file_extensions
 https://gisgeography.com/arcgis-shapefile-files-types-extensions/
 https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1253</Identifier>
     <IdentifierType>PUID</IdentifierType>

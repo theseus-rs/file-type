@@ -1,11 +1,7 @@
 <FileFormat>
   <FormatID>1959</FormatID>
   <FormatName>Markdown</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Mark-up)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Markdown was created by John Gruber and Aaron Swartz circa 2004. The purpose of Markdown is to let users write clean text-based documents that do not suffer from the legibility issues of other 'markup' formats. 
 
 Markdown uses combinations of characters, for example, hashes (pound-sign), asterisks, and combination of square- and rounded- brackets to prefix or suffix parts of text. The symbols provide instructions to an interpreter. A single hash '#' for example, that prefixes a line of text is an instruction to make that line a top-level header in a formatted document. Two hashes '##' is an instruction to render, or output, a secondary header. And so on.
@@ -17,10 +13,6 @@ There is no single specification for Markdown, nor is there a single canonical o
 Further descriptions of the background of Markdown and a list of Markdown 'flavors' can be found on the Archiveteam Just Solve It File Formats Wiki: http://fileformats.archiveteam.org/wiki/Markdown
 
 Wikipedia also provides a thorough description of Markdown and its syntax: https://en.wikipedia.org/wiki/Markdown#Standardization</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
   <ProvenanceSourceDate>23 Jul 2018</ProvenanceSourceDate>
@@ -31,8 +23,6 @@ Wikipedia also provides a thorough description of Markdown and its syntax: https
 http://fileformats.archiveteam.org/wiki/Markdown
 
 https://daringfireball.net/projects/markdown/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1149</Identifier>
     <IdentifierType>PUID</IdentifierType>

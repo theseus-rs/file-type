@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1425</FormatID>
   <FormatName>LHA File Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>LHA is a freeware compression utility and associated file format. It was created in 1988 by Haruyasu Yoshizaki, and originally named LHarc.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
   <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>14 Feb 2014</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/626</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,10 +29,6 @@
       <ByteSequenceID>1182</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>2</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>2D6C68(30|31|34|35|36|37|64)2D</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

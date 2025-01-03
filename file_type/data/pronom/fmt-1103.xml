@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1911</FormatID>
   <FormatName>AutoCAD Hatch Pattern</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>A hatch pattern consists of a repeating pattern of lines, dashes, and dots, and is used within AutoCAD to represent materials to be used within the manufacture of the object defined in the CAD drawing</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>27 Sep 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>27 Sep 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1103</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>2A([30:39]|[41:5A]|[61:7A]){0-80}0D0A{0-10}[30:39]2C20{0-10}[30:39]2C([30:39]|2D[30:39]|2E[30:39]){0-10}2C20{0-10}[30:39]2C([30:39]|2D[30:39]|2E[30:39]){0-128}0D0A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

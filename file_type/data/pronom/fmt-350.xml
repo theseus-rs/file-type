@@ -2,23 +2,14 @@
   <FormatID>1095</FormatID>
   <FormatName>Paradox Database Table</FormatName>
   <FormatVersion>3.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Database</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
   <ProvenanceSourceDate>21 Apr 2011</ProvenanceSourceDate>
   <ProvenanceDescription>Submitted by Georgia Tech Research Institute</ProvenanceDescription>
   <LastUpdatedDate>21 Apr 2011</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/350</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -36,10 +27,6 @@
       <ByteSequenceID>638</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>2</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0008(00|02)[01:04]{31}00000000{16}[03:04]</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

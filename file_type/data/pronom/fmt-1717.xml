@@ -1,25 +1,14 @@
 <FileFormat>
   <FormatID>2553</FormatID>
   <FormatName>Time Stamp Token</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Unstructured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Time Stamp Tokens contain a hash of data which is being time stamped, electronically signed by a Timestamping Authority. For example, tst files might be generated to prove a digital signature was created before a given time. The hash refers to data objects carried in ASiC containers.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
   <ProvenanceSourceDate>14 Jun 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>14 Jun 2022</LastUpdatedDate>
   <FormatNote>https://www.iana.org/assignments/media-types/application/vnd.etsi.timestamp-token
 Specification: https://www.etsi.org/deliver/etsi_ts/102900_102999/102918/01.03.01_60/ts_102918v010301p.pdf</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.etsi.timestamp-token</Identifier>
     <IdentifierType>MIME</IdentifierType>

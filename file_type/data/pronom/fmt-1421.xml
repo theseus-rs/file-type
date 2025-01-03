@@ -2,23 +2,13 @@
   <FormatID>2239</FormatID>
   <FormatName>Corel Print House/Print Office Document</FormatName>
   <FormatVersion>5</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Corel Print House is a desktop publishing application. A software product called Corel Print Office shared the same underlying format.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>27 Sep 2020</ProvenanceSourceDate>
   <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
   <LastUpdatedDate>27 Sep 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1421</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>927</FormatID>
   <FormatName>Nikon Digital SLR Camera Raw Image File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Nikon Digital SLR RAW Image files are produced by the Nikon DSLR family of digital cameras.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
   <ProvenanceSourceDate>27 Oct 2009</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>12 Feb 2015</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/202</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -43,9 +32,6 @@ TIFF Magic, Makernote Tag, Makernote ID, Byte Order, Subfile Type, Compression</
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D4D002A*927C{0-35536}4E696B6F6E00(0200|0210|0211)00004D4D002A00000008{0-999999}00FE00040000000100000000{36}0103000300000001(0001|8799)0000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -59,9 +45,6 @@ TIFF Magic, Makernote Tag, Makernote ID, Byte Order, Subfile Type, Compression</
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>49492A00*7C92{0-35536}4E696B6F6E00(0200|0210|0211)000049492A0008000000{0-999999}00FE00040001000000000000{36}000301030001000000(0100|9987)00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -75,9 +58,6 @@ TIFF Magic, Makernote Tag, Subfile Type, Compression, Makernote ID, Byte Order</
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D4D002A*927C{0-35536}00FE00040000000100000000{36}0103000300000001(0001|8799)0000{0-999999}4E696B6F6E00(0200|0210|0211)00004D4D002A00000008</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -91,9 +71,6 @@ TIFF Magic, Makernote Tag, Subfile Type, Compression, Makernote ID, Byte Order</
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>49492A00*7C92{0-35536}00FE00040001000000000000{36}000301030001000000(0100|9987)00{0-999999}4E696B6F6E00(0200|0210|0211)000049492A0008000000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -107,9 +84,6 @@ TIFF Magic, Subfile Type, Compression, Makernote Tag, Makernote ID, Byte Order</
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D4D002A*00FE00040000000100000000{36}0103000300000001(0001|8799)0000{0-999999}927C{0-2046}4E696B6F6E00(0200|0210|0211)00004D4D002A00000008</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -123,9 +97,6 @@ TIFF Magic, Subfile Type, Compression, Makernote Tag, Makernote ID, Byte Order</
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>49492A00*00FE00040001000000000000{36}000301030001000000(0100|9987)00{0-999999}7C92{0-2046}4E696B6F6E00(0200|0210|0211)000049492A0008000000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -138,9 +109,6 @@ TIFF Magic, Subfile Type, Compression, Makernote Tag, Makernote ID, Byte Order</
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D4D002A*4E494B4F4E20434F52504F524154494F4E004E494B4F4E2044312000{1-16384}927C{0-512}524157</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -153,9 +121,6 @@ TIFF Magic, Subfile Type, Compression, Makernote Tag, Makernote ID, Byte Order</
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>49492A00*4E494B4F4E20434F52504F524154494F4E004E494B4F4E2044312000{1-16384}7C92{0-512}524157</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -205,12 +170,10 @@ TIFF Magic, Subfile Type, Compression, Makernote Tag, Makernote ID, Byte Order</
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>797</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format for Electronic Photography (TIFF/EP)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1099</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

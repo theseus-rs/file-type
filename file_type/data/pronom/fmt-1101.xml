@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1909</FormatID>
   <FormatName>High Efficiency Image File Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The High Efficiency Image File Format (HEIF) is an image format standard defined in ISO/IEC 23008-12 - MPEG-H Part 12. HEIF can store images, image properties, thumbnails and other derivatives, plus image metadata. It can support individual images and image sequences At this time the PRONOM identification signature does not distinguish between individual images and image sequences although this may be desirable.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>26 Sep 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>26 Sep 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1101</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -40,10 +28,6 @@
       <ByteSequenceID>1744</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>4</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>66747970(6D696631|6D736631|68656963|68656978|68657663|68657678)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

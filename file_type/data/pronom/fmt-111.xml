@@ -1,24 +1,15 @@
 <FileFormat>
   <FormatID>767</FormatID>
   <FormatName>OLE2 Compound Document Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDisclosure>None</FormatDisclosure>
   <FormatDescription>The OLE2 Compound Document Format is a generic document format developed by Microsoft as the underlying native binary format for many of its Office applications. The format is proprietary and Microsoft does not make details of its structure public. The information here is derived primarily from OpenOffice.org's reverse-engineered documentation of the format and should not therefore be regarded as definitive. A Compound Document acts as a file system in which independent data streams are organised within a hierarchy of containers, called storages. All storages and streams are contained within a parent Root Storage. A Directory Stream indexes every stream and storage in the file. A Compound Document begins with the Compound Document Header, including pointers to the location of the Directory Stream and Master Sector Allocation Table. The remainder of the file is organised into Sectors, the positions of which are defined in the Sector Allocation Table and Master Sector Allocation Table.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel) and Big-endian (Motorola)</ByteOrders>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>24 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>24 Aug 2005</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/111</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -28,24 +19,19 @@
     <DisplayText>OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Compound Document file format</DisplayText>
     <DocumentType>Speculative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>15 Sep 2004</PublicationDate>
     <TitleText>OpenOffice.org's documentation of the Microsoft Compound Document file format</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>sc.openoffice.org/compdocfileformat.pdf</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>103</AuthorID>
-      <AuthorName/>
       <OrganisationName>OpenOffice.org</OrganisationName>
       <AuthorCompoundName>OpenOffice.org</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>103</PublisherID>
-      <PublisherName/>
       <OrganisationName>OpenOffice.org</OrganisationName>
       <PublisherCompoundName>OpenOffice.org</PublisherCompoundName>
     </Publisher>
@@ -58,10 +44,6 @@
       <ByteSequenceID>200</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>D0CF11E0A1B11AE1{20}FEFF</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -141,7 +123,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1229</RelatedFormatID>
     <RelatedFormatName>Microsoft Visio (generic)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -225,31 +206,26 @@
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>857</RelatedFormatID>
     <RelatedFormatName>Revit Family File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>858</RelatedFormatID>
     <RelatedFormatName>Revit Family Template</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>859</RelatedFormatID>
     <RelatedFormatName>Revit Template</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>861</RelatedFormatID>
     <RelatedFormatName>Revit External Group</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>862</RelatedFormatID>
     <RelatedFormatName>Revit Project</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>

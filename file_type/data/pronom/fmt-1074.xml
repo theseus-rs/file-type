@@ -1,24 +1,11 @@
 <FileFormat>
   <FormatID>1881</FormatID>
   <FormatName>AVCHD Playlist File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>AVCHD (Advanced Video Coding High Definition) is a file-based format for the digital recording and playback of high-definition video. The Playlist File may be created by some AVCHD video recorders and contains an ordered list of references to associated AVCHD streams.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>21 Jul 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>21 Jul 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1074</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -42,9 +29,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D504C5330313030</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -57,9 +41,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D504C5330323030</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

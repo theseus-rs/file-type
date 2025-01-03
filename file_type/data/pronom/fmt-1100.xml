@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1908</FormatID>
   <FormatName>yEnc Encoded File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>yEnc is a binary-to-text encoding mechanism initially developed by Jürgen Helbing for transferring binary files in messages, such as via Usenet or email.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>19 Sep 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>19 Sep 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1100</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,9 +26,6 @@ http://www.yenc.org/yEnc-draft-1.txt</SignatureNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3D79626567696E206C696E653D</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -2,10 +2,7 @@
   <FormatID>1754</FormatID>
   <FormatName>WordPerfect</FormatName>
   <FormatVersion>4.0/4.1/4.2</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Word Processor</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>WordPerfect is a Word Processing application currently owned by Corel Corporation. The original version of WordPerfect 4.0 was released in 1984. 4.1 followed in 1985 and 4.2 
 in 1986, with versions released on various platforms up to 1988 when version 5.0 was originally released for DOS.
 
@@ -20,18 +17,10 @@ A free C++ library called libwpd is available: http://libwpd.sourceforge.net/ an
 in LibreOffice, Koffice, and AbiWord among others, so these applications can be used to open and render WordPerfect 4.2 files, and potentially WP4.0 and WP4.1.
 
 Due to the age of the format, WP4.x files may lack a format extension, however .wp4 and .wpd are known to be associated with the format.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>21 Jul 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>21 Jul 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.wordperfect</Identifier>
     <IdentifierType>MIME</IdentifierType>

@@ -2,23 +2,13 @@
   <FormatID>610</FormatID>
   <FormatName>Tagged Image File Format</FormatName>
   <FormatVersion>4</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>PUID deprecated. Please see fmt/353 for information on Tagged Image File Format.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>07 Jul 2011</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/8</Identifier>
     <IdentifierType>PUID</IdentifierType>

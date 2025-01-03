@@ -2,24 +2,14 @@
   <FormatID>2807</FormatID>
   <FormatName>Common Loudspeaker Format (CLF)</FormatName>
   <FormatVersion>2</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Dataset</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Common Loudspeaker Format or CLF is an open file format designed for louspeaker manufacturers to supply data to end users in the professional sound community. It has been created to make louspeaker performance and polar data available in an open but secure format.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
   <ProvenanceSourceDate>15 Nov 2023</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>15 Nov 2023</LastUpdatedDate>
   <FormatNote>http://fileformats.archiveteam.org/wiki/Common_Loudspeaker_Format
 http://www.clfgroup.org/index.htm</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1945</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,9 +28,6 @@ http://www.clfgroup.org/index.htm</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>41BD0A0001{15}76(31|32)2E30{12}00000000000000000000000000000000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

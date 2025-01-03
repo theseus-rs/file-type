@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>2453</FormatID>
   <FormatName>MicroStation Symbology Resource File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>MicroStation Symbology Resource Files contain fonts and line styles, and are preinstalled with Bentley Microstation CAD software. When a Microstation Design is used with LISCAD software, the .rsc files match Microstation fonts and line styles with equivalent LISCAD ones.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
   <ProvenanceSourceDate>18 Feb 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 Feb 2022</LastUpdatedDate>
   <FormatNote>https://www.bentley.com/en/products/brands/microstation</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1626</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D6963726F53746174696F6E205265736F757263652046696C65202D</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

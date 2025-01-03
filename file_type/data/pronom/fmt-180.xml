@@ -2,23 +2,12 @@
   <FormatID>886</FormatID>
   <FormatName>Microsoft PowerPoint for Macintosh</FormatName>
   <FormatVersion>98</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>PUID deprecated. Please see fmt/126: Microsoft PowerPoint 97-2002</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>28 Sep 2009</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>28 Sep 2009</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/180</Identifier>
     <IdentifierType>PUID</IdentifierType>

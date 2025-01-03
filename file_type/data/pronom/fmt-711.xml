@@ -5,20 +5,11 @@
   <FormatAliases>BWAVE (2), BWF (2)</FormatAliases>
   <FormatFamilies>WAVE</FormatFamilies>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Broadcast WAVE is a chunk-based audio format developed by the European Broadcasting Union, and based on the Microsoft WAVE format, which is in turn based on the generic Resource Interchange File Format (RIFF) specification developed by Microsoft and IBM. Structurally, a BWAVE file is composed of a number of chunks, each comprising a four character code chunk identifier, the chunk size, and the chunk data. It comprises a RIFF header with a WAVE data type identifier, followed by a series of chunks. Every file must include a Broadcast Audio Extension chunk, containing metadata required for exchange of information between broadcasters, a Format chunk, which describes the format of the audio data, and a Data chunk, containing the audio data itself. BWAVE files which contain MPEG-encoded audio data must also include a Fact chunk, containing file-dependent information about the audio data, and an MPEG Audio Extension chunk, containing extra information required to describe the MPEG encoding.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
   <ProvenanceSourceDate>11 Feb 2015</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>11 Feb 2015</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>audio/x-wav</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -41,9 +32,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>52494646{4}57415645*666D7420{4}FEFF*62657874{350}0200</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -56,9 +44,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>52494646{4}57415645*62657874{350}0200*666D7420{4}FEFF</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -66,13 +51,11 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>654</RelatedFormatID>
     <RelatedFormatName>Waveform Audio</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>786</RelatedFormatID>
     <RelatedFormatName>Waveform Audio (WAVEFORMATEXTENSIBLE)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>801</FormatID>
   <FormatName>Windows Cabinet File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>An archive format native to Microsoft Windows that contains compressed data.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Feb 2007</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 Feb 2007</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-cab-compressed</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -40,10 +28,6 @@
       <ByteSequenceID>564</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D534346{20}0301</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -51,24 +35,20 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>306</RelatedFormatID>
     <RelatedFormatName>Microsoft Powerpoint Packaged Presentation</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1792</RelatedFormatID>
     <RelatedFormatName>Microsoft OneNote Package File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2305</RelatedFormatID>
     <RelatedFormatName>Access Report Snapshot</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2691</RelatedFormatID>
     <RelatedFormatName>Microsoft Publisher Packaged Document</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

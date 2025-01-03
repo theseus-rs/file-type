@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>1463</FormatID>
   <FormatName>Gerber Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Gerber format is an open 2D bi-level vector image file format.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
   <ProvenanceDescription>http://www.artwork.com/gerber/274x/rs274x.htm; 04/2024 (v.118)- Signature added, internally researched.</ProvenanceDescription>
   <LastUpdatedDate>23 Apr 2024</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.gerber</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -41,9 +30,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>512</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>2546534C41</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

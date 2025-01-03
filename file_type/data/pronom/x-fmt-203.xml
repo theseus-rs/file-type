@@ -2,23 +2,14 @@
   <FormatID>281</FormatID>
   <FormatName>WordPerfect for Windows Document</FormatName>
   <FormatVersion>5.2</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Word Processor</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
   <ReleaseDate>30 Nov 1992</ReleaseDate>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.wordperfect</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -32,24 +23,19 @@
     <DisplayText>Born, G, 1995, The file formats handbook, International Thompson Computer Press</DisplayText>
     <DocumentType>Informative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Jan 1995</PublicationDate>
     <TitleText>The file formats handbook</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>1-85032-117-5</Identifier>
       <IdentifierType>ISBN</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>115</AuthorID>
-      <AuthorName/>
       <OrganisationName>Gunter Born</OrganisationName>
       <AuthorCompoundName>Gunter Born</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>117</PublisherID>
-      <PublisherName/>
       <OrganisationName>International Thompson Computer Press</OrganisationName>
       <PublisherCompoundName>International Thompson Computer Press</PublisherCompoundName>
     </Publisher>

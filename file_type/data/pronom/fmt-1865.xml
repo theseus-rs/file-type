@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>2719</FormatID>
   <FormatName>SWiSH Movie File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Video</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Swi files produced by SWiSH/ SWiSH Max, software which enabled the easy creation of basic Flash animations and presentations. SWiSH Max was considered simpler and cheaper than Adobe Flash, but did not support as many features as the latter. It was developed by Australian company Swishzone.com Pty Ltd, but the company folded in 2016.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
   <ProvenanceSourceDate>24 May 2023</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>24 May 2023</LastUpdatedDate>
   <FormatNote>https://fileinfo.com/extension/swi; https://en.wikipedia.org/wiki/SWiSH_Max; https://filext.com/file-extension/SWI</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1865</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>512</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>435363656E654F626A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -47,6 +33,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>687</RelatedFormatID>
     <RelatedFormatName>MPEG 1/2 Audio Layer 3</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

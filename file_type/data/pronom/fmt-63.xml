@@ -8,17 +8,10 @@
   <FormatDisclosure>None</FormatDisclosure>
   <FormatDescription>ASCII DXF format is the ASCII encoded variant of the Drawing Interchange File Format, an exchange format for vector graphics developed by AutoDesk. They are probably the widely-used formats for exchanging vector data, and have become a de-facto industry standard. The format is owned by AutoDesk and typically changes with each release of their AutoCAD family of products. DXF files contain a tagged representation of the vector data. The structure comprises a Header section, followed by sections containing data on Classes, Tables, Blocks, Entities and, optionally, thumbnail images. Each section contains a series of data elements. each preceded by a group code tag, which indicates the type of data element. It is not mandatory for ASCII DXF files to include a version identifier - some DXF files may therefore be identifiable only as generic DXF.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>22 Apr 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>28 Sep 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/63</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,11 +32,6 @@
     <ByteSequence>
       <ByteSequenceID>17</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>30(0D0A|0A|0D)53454354494F4E(0D0A|0A|0D){0-5}32(0D0A|0A|0D)*30(0D0A|0A|0D)454E44534543</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -51,9 +39,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>5</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>30(0D0A|0A|0D)454F46</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

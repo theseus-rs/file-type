@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1958</FormatID>
   <FormatName>Maxwell Render Scene File Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Model</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Maxwell Render is a 3D render engine developed by Next Limit Technologies. The Maxwell Scene contains all the geometry in a Maxwell Render scene, as well as cameras and their settings, materials and material assignments.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
   <ProvenanceSourceDate>23 Jul 2018</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>23 Jul 2018</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1147</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>F9B22AD1{4-32}6D787374</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

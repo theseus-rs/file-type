@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>323</FormatID>
   <FormatName>ESRI MapInfo Export File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>GIS</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>x-fmt/231</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>10</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>56(45|65)(52|72)(53|73)(49|69)??(4E|6E){5-9}(43|63)(48|68)(41|61)(52|72)(53|73)(45|65)(54|74)*43(4F|6F)(4C|6C)(55|75)(4D|6D)(4E|6E)(53|73)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -51,10 +37,6 @@
       <ByteSequenceID>497</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>56(45|65)(52|72)(53|73)(49|69)??(4E|6E){5-9}(43|63)(48|68)(41|61)(52|72)(53|73)(45|65)(54|74)*63(4F|6F)(4C|6C)(55|75)(4D|6D)(4E|6E)(53|73)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -66,10 +48,6 @@
       <ByteSequenceID>498</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>76(45|65)(52|72)(53|73)(49|69)??(4E|6E){5-9}(43|63)(48|68)(41|61)(52|72)(53|73)(45|65)(54|74)*43(4F|6F)(4C|6C)(55|75)(4D|6D)(4E|6E)(53|73)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -81,10 +59,6 @@
       <ByteSequenceID>499</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>76(45|65)(52|72)(53|73)(49|69)??(4E|6E){5-9}(43|63)(48|68)(41|61)(52|72)(53|73)(45|65)(54|74)*63(4F|6F)(4C|6C)(55|75)(4D|6D)(4E|6E)(53|73)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

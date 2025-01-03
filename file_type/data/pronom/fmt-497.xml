@@ -1,16 +1,8 @@
 <FileFormat>
   <FormatID>1284</FormatID>
   <FormatName>Wireless Bitmap</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Wireless Application Protocol Bitmap format, or Wireless Bitmap, is a monochrome image format optimised for use on the mobile web.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>26 Feb 2013</ProvenanceSourceDate>
@@ -20,9 +12,6 @@ The file format specification is available here: http://web.archive.org/web/2001
 
 It is not possible to create a strong binary signature for this format, since the only constant bytes are the first two, both '00', which would cause an identification clash with many other formats.</ProvenanceDescription>
   <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/497</Identifier>
     <IdentifierType>PUID</IdentifierType>

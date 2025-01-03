@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2152</FormatID>
   <FormatName>Sony PictureGear Studio PrintStudio</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>PictureGear Studio is a creativity package published by Sony. .LMU is the native format of PrintStudio, for creating postcards, calendars and labels. LMD is a PrintStudio template.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1334</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -42,9 +30,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4C4D554400000100</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

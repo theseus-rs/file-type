@@ -2,23 +2,13 @@
   <FormatID>138</FormatID>
   <FormatName>Postscript</FormatName>
   <FormatVersion>1.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Page Description</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Postscript is a computer language for creating vector graphics.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/postscript</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -44,10 +34,6 @@
       <ByteSequenceID>244</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>252150532D41646F62652D312E30</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -55,9 +41,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>2525454F46(0D|0A|0D0A|0A0A)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -83,7 +66,6 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1073</RelatedFormatID>
     <RelatedFormatName>EndNote Import File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>

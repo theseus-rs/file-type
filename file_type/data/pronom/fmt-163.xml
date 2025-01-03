@@ -1,16 +1,9 @@
 <FileFormat>
   <FormatID>890</FormatID>
   <FormatName>Microsoft Works Word Processor 1-3 for DOS and 2 for Windows</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Word Processor</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Microsoft Works Word Processor is a proprietory file of a word processor component of the Microsoft Works office suite. The format is a predecessor of Microsoft Office .doc file format. It support rich text, tables, and images, but lacks some of the more advanced formatting features supported with .doc file format. Microsoft Works is now discontinued productivity software suite developed by Microsoft and sold from 1987 to 2009. Its core functionality included a word processor, a spreadsheet and a database management system. To see the full list of versions please follow the links provided in the notes.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>28 Sep 2009</ProvenanceSourceDate>
@@ -20,8 +13,6 @@
 https://en.wikipedia.org/wiki/Microsoft_Works
 http://fileformats.archiveteam.org/wiki/Microsoft_Works_Word_Processor
 https://docs.fileformat.com/word-processing/wps/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/163</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,9 +32,6 @@ There is no published specification. These bytes are common to Works Word Proces
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>01FE{18}(D0|C4)02</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

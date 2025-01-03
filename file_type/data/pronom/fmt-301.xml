@@ -2,23 +2,12 @@
   <FormatID>1045</FormatID>
   <FormatName>Computer Graphics Metafile ASCII</FormatName>
   <FormatVersion>3</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster), Image (Vector), Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
   <ProvenanceSourceDate>02 Dec 2010</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 Dec 2010</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/301</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -40,10 +29,6 @@
       <ByteSequenceID>456</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>42(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}33</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -51,9 +36,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>2048</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>45(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -65,10 +47,6 @@
       <ByteSequenceID>457</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>42(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}33</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -76,9 +54,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>2048</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>65(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -90,10 +65,6 @@
       <ByteSequenceID>458</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>62(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}33</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -101,9 +72,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>2048</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>45(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -115,10 +83,6 @@
       <ByteSequenceID>459</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>62(45|65)(47|67)(4D|6D)(46|66)*(4D|6D)(46|66)(56|76)(65|45)(52|72)(53|73)(49|69)(4F|6F)(4E|6E){1}33</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -126,9 +90,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>2048</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>65(4E|6E)(44|64)(4D|6D)(46|66){0-1}3B</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

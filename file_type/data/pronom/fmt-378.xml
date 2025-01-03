@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>1125</FormatID>
   <FormatName>Chemical Draw Exchange Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Chemical Draw Exchange Format is the native format of ChemDraw software, a molecule editor developed by  CambridgeSoft for use on Macintosh and Windows platforms. The format is used to store accurate chemical drawings and molecular data in a tagged binary format.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>08 Nov 2011</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>08 Nov 2011</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>chemical/x-cdx</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -40,10 +29,6 @@
       <ByteSequenceID>693</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>566A4344303130300403020100000000000000000000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

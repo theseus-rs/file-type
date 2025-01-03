@@ -32,15 +32,28 @@ pub struct ByteSequence {
     #[serde(rename = "ByteSequenceID")]
     id: usize,
     position_type: PositionType,
-    #[serde(deserialize_with = "deserialize_option_usize")]
+    #[serde(
+        skip_serializing_if = "Option::is_none",
+        deserialize_with = "deserialize_option_usize"
+    )]
     offset: Option<usize>,
-    #[serde(deserialize_with = "deserialize_option_usize")]
+    #[serde(
+        skip_serializing_if = "Option::is_none",
+        deserialize_with = "deserialize_option_usize"
+    )]
     max_offset: Option<usize>,
-    #[serde(deserialize_with = "deserialize_option_usize")]
+    #[serde(
+        skip_serializing_if = "Option::is_none",
+        deserialize_with = "deserialize_option_usize"
+    )]
     indirect_offset_location: Option<usize>,
-    #[serde(deserialize_with = "deserialize_option_usize")]
+    #[serde(
+        skip_serializing_if = "Option::is_none",
+        deserialize_with = "deserialize_option_usize"
+    )]
     indirect_offset_length: Option<usize>,
     #[serde(
+        skip_serializing_if = "Option::is_none",
         deserialize_with = "deserialize_endianness",
         serialize_with = "serialize_endianness"
     )]
@@ -54,6 +67,31 @@ pub struct ByteSequence {
 }
 
 impl ByteSequence {
+    /// Create a new byte sequence
+    #[expect(clippy::too_many_arguments)]
+    #[must_use]
+    pub fn new(
+        id: usize,
+        position_type: PositionType,
+        offset: Option<usize>,
+        max_offset: Option<usize>,
+        indirect_offset_location: Option<usize>,
+        indirect_offset_length: Option<usize>,
+        endianness: Option<Endianness>,
+        regex: Regex,
+    ) -> Self {
+        Self {
+            id,
+            position_type,
+            offset,
+            max_offset,
+            indirect_offset_location,
+            indirect_offset_length,
+            endianness,
+            regex,
+        }
+    }
+
     /// Get the ID of the byte sequence
     #[must_use]
     pub fn id(&self) -> usize {
@@ -233,5 +271,34 @@ mod test {
         let regex = format!("{}", byte_sequence.regex());
         assert_eq!(regex, "7B*2269645F737472223A*22726574776565746564223A");
         Ok(())
+    }
+
+    #[test]
+    fn test_new() {
+        let regex =
+            Regex::new("7B*2269645F737472223A*22726574776565746564223A").expect("Invalid regex");
+        let byte_sequence = ByteSequence::new(
+            1955,
+            PositionType::AbsoluteFromBOF,
+            Some(0),
+            Some(0),
+            None,
+            None,
+            Some(Endianness::BigEndian),
+            regex,
+        );
+        assert_eq!(byte_sequence.id(), 1955);
+        assert!(matches!(
+            byte_sequence.position_type(),
+            PositionType::AbsoluteFromBOF
+        ));
+        assert_eq!(byte_sequence.offset(), Some(0));
+        assert_eq!(byte_sequence.max_offset(), Some(0));
+        assert!(byte_sequence.indirect_offset_location().is_none());
+        assert!(byte_sequence.indirect_offset_length().is_none());
+        let endianness = byte_sequence.endianness().expect("Endianness is None");
+        assert!(matches!(endianness, Endianness::BigEndian));
+        let regex = format!("{}", byte_sequence.regex());
+        assert_eq!(regex, "7B*2269645F737472223A*22726574776565746564223A");
     }
 }

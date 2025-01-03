@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1641</FormatID>
   <FormatName>ADX Audio Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>ADX is a proprietary audio storage and compression format developed by CRI Middleware. PRONOM currently holds one PUID for all known version numbers, with separate identification signatures for each.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
   <ProvenanceSourceDate>23 Dec 2015</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>23 Dec 2015</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/840</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>8000{16}0300{0-65535}286329435249</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -52,9 +37,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>8000{16}0400{0-65535}286329435249</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -67,9 +49,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>8000{16}0500{0-65535}286329435249</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -82,9 +61,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>8000{16}0408{0-65535}286329435249</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -97,9 +73,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>8000{16}0409{0-65535}286329435249</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

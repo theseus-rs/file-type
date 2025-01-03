@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>2597</FormatID>
   <FormatName>Canon SIF File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>A Canon SIF file is present in the Canon XF folder structure that is used by media cards associated with cameras such as XF205 and C300. It is created whenever a video file is shot and exceeds the 2GB file size limit imposed by the FAT32 filesystem. In this case, an SIF file is created for each corresponding MXF file. It is found within the CANON XF/CLIPS 001/AAxxxx directory, where xxxx is an automatically generated number beginning with 0001. Although little official documentation exists, SIF likely stands for Shot/Segment/Span Information File. The precise contents of the file format have not yet been established, but its existence is necessary in order to import spanned clips into Canon media apps.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>24 Aug 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>24 Aug 2022</LastUpdatedDate>
   <FormatNote>http://www.premierepro.org/2016/10/canon-xf-c300-xf305-folder-structure-and-file-naming-explained/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1751</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>01000200</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -47,6 +33,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>687</RelatedFormatID>
     <RelatedFormatName>MPEG 1/2 Audio Layer 3</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

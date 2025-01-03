@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1699</FormatID>
   <FormatName>JEOL NMR Spectroscopy</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Dataset</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Nuclear magnetic resonance spectroscopy (NMR spectroscopy) data files produced by with JEOL's NMR Spectrometers.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>16 Jun 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>16 Jun 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/895</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4A454F4C2E4E4D52</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -52,9 +37,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>524D4E2E4C4F454A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

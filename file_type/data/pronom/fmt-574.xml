@@ -1,16 +1,9 @@
 <FileFormat>
   <FormatID>1362</FormatID>
   <FormatName>Digital Imaging and Communications in Medicine File Format</FormatName>
-  <FormatVersion/>
   <FormatAliases>DICOM</FormatAliases>
-  <FormatFamilies/>
   <FormatTypes>Dataset</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Digital Imaging and Communications in Medicine (DICOM) is a standard for handling, storing, printing, and transmitting information in medical imaging. It includes a file format definition and a network communications protocol. The communication protocol is an application protocol that uses TCP/IP to communicate between systems. DICOM files can be exchanged between two entities that are capable of receiving image and patient data in DICOM format. The National Electrical Manufacturers Association (NEMA) holds the copyright to this standard. It was developed by the DICOM Standards Committee, whose members are also partly members of NEMA.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Tessella / Tessella</ProvenanceName>
   <ProvenanceSourceDate>28 Aug 2013</ProvenanceSourceDate>
@@ -21,8 +14,6 @@
 https://dicom.nema.org/medical/dicom/current/output/pdf/part12.pdf
 
 https://www.dicomstandard.org/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/dicom</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -47,9 +38,6 @@ Please see the specification attached with this entry, which states that any for
       <PositionType>Absolute from BOF</PositionType>
       <Offset>128</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4449434D</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -14,11 +14,7 @@
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>19 Jul 2013</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>audio/x-wav</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -32,24 +28,19 @@
     <DisplayText>European Broadcasting Union, 2001, Technical Specification 3285: BWF - a format for audio data files in broadcasting, Version 1</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Jul 2001</PublicationDate>
     <TitleText>Technical Specification 3285: BWF - a format for audio data files in broadcasting, Version 1</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>www.ebu.ch/CMSimages/en/tec_doc_t3285_tcm6-10544.pdf</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>104</AuthorID>
-      <AuthorName/>
       <OrganisationName>European Broadcasting Union</OrganisationName>
       <AuthorCompoundName>European Broadcasting Union</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>104</PublisherID>
-      <PublisherName/>
       <OrganisationName>European Broadcasting Union</OrganisationName>
       <PublisherCompoundName>European Broadcasting Union</PublisherCompoundName>
     </Publisher>
@@ -59,24 +50,19 @@
     <DisplayText>European Broadcasting Union, 1997, Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 1 - MPEG audio</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Jul 1997</PublicationDate>
     <TitleText>Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 1 - MPEG audio</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>www.ebu.ch/CMSimages/en/tec_doc_t3285_s1_tcm6-10545.pdf</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>104</AuthorID>
-      <AuthorName/>
       <OrganisationName>European Broadcasting Union</OrganisationName>
       <AuthorCompoundName>European Broadcasting Union</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>104</PublisherID>
-      <PublisherName/>
       <OrganisationName>European Broadcasting Union</OrganisationName>
       <PublisherCompoundName>European Broadcasting Union</PublisherCompoundName>
     </Publisher>
@@ -86,24 +72,19 @@
     <DisplayText>European Broadcasting Union, 2001, Technical Specification 3285: BWF - a format for audio data files in broadcasting, Supplement 2 - Capturing Report</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Jul 2001</PublicationDate>
     <TitleText>Technical Specification 3285: BWF - a format for audio data files in broadcasting, Supplement 2 - capturing report</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>www.ebu.ch/CMSimages/en/tec_doc_t3285_s2_tcm6-10482.pdf</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>104</AuthorID>
-      <AuthorName/>
       <OrganisationName>European Broadcasting Union</OrganisationName>
       <AuthorCompoundName>European Broadcasting Union</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>104</PublisherID>
-      <PublisherName/>
       <OrganisationName>European Broadcasting Union</OrganisationName>
       <PublisherCompoundName>European Broadcasting Union</PublisherCompoundName>
     </Publisher>
@@ -113,24 +94,19 @@
     <DisplayText>European Broadcasting Union, 2001, Technical Specification 3285: BWF - a format for audio data files in broadcasting, Supplement 3 - Peak Envelope Chunk</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Jul 2001</PublicationDate>
     <TitleText>Technical Specification 3285: BWF - a format for audio data files in broadcasting, Supplement 3 - Peak Envelope Chunk</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>www.ebu.ch/CMSimages/en/tec_doc_t3285_s3_tcm6-10483.pdf</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>104</AuthorID>
-      <AuthorName/>
       <OrganisationName>European Broadcasting Union</OrganisationName>
       <AuthorCompoundName>European Broadcasting Union</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>104</PublisherID>
-      <PublisherName/>
       <OrganisationName>European Broadcasting Union</OrganisationName>
       <PublisherCompoundName>European Broadcasting Union</PublisherCompoundName>
     </Publisher>
@@ -140,24 +116,19 @@
     <DisplayText>European Broadcasting Union, 2003, Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 4 - &lt;link&gt; Chunk</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Apr 2003</PublicationDate>
     <TitleText>Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 4 - &lt;link&gt; Chunk</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>www.ebu.ch/CMSimages/en/tec_doc_t3285_s4_tcm6-10484.pdf</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>104</AuthorID>
-      <AuthorName/>
       <OrganisationName>European Broadcasting Union</OrganisationName>
       <AuthorCompoundName>European Broadcasting Union</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>104</PublisherID>
-      <PublisherName/>
       <OrganisationName>European Broadcasting Union</OrganisationName>
       <PublisherCompoundName>European Broadcasting Union</PublisherCompoundName>
     </Publisher>
@@ -167,24 +138,19 @@
     <DisplayText>European Broadcasting Union, 2003, Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 5 - &lt;axml&gt; Chunk</DisplayText>
     <DocumentType>Authoritative</DocumentType>
     <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote/>
     <PublicationDate>01 Jul 2003</PublicationDate>
     <TitleText>Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 5 - &lt;axml&gt; Chunk</TitleText>
-    <DocumentIpr/>
-    <DocumentNote/>
     <DocumentIdentifier>
       <Identifier>www.ebu.ch/CMSimages/en/tec_doc_t3285_s5_tcm6-10485.pdf</Identifier>
       <IdentifierType>URL</IdentifierType>
     </DocumentIdentifier>
     <Author>
       <AuthorID>104</AuthorID>
-      <AuthorName/>
       <OrganisationName>European Broadcasting Union</OrganisationName>
       <AuthorCompoundName>European Broadcasting Union</AuthorCompoundName>
     </Author>
     <Publisher>
       <PublisherID>104</PublisherID>
-      <PublisherName/>
       <OrganisationName>European Broadcasting Union</OrganisationName>
       <PublisherCompoundName>European Broadcasting Union</PublisherCompoundName>
     </Publisher>
@@ -203,9 +169,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>52494646{4}57415645*62657874{350}0000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -231,19 +194,16 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>654</RelatedFormatID>
     <RelatedFormatName>Waveform Audio</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>784</RelatedFormatID>
     <RelatedFormatName>Waveform Audio (PCMWAVEFORMAT)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>786</RelatedFormatID>
     <RelatedFormatName>Waveform Audio (WAVEFORMATEXTENSIBLE)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
@@ -254,16 +214,8 @@
   <CompressionType>
     <CompressionID>3</CompressionID>
     <CompressionName>Pulse Code Modulation</CompressionName>
-    <CompressionVersion/>
-    <CompressionAliases/>
-    <CompressionFamilies/>
     <Description>Uncompressed audio encoding method, which uses linear sampling at a wide range of sampling frequencies and resolutions.</Description>
     <Lossiness>Lossless</Lossiness>
-    <ReleaseDate/>
-    <WithdrawnDate/>
-    <CompressionDocumentation/>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>WAVE_FORMAT_PCM</Identifier>
       <IdentifierType>WAVE Format GUID</IdentifierType>
@@ -276,16 +228,8 @@
   <CompressionType>
     <CompressionID>4</CompressionID>
     <CompressionName>MPEG-1 Audio Layer 1</CompressionName>
-    <CompressionVersion/>
-    <CompressionAliases/>
-    <CompressionFamilies/>
     <Description>Compressed audio encoding method which supports bitrates of 32-448 kbits/sec, and sampling frequencies of 32, 44.1 and 48 kHz.</Description>
     <Lossiness>Lossy</Lossiness>
-    <ReleaseDate/>
-    <WithdrawnDate/>
-    <CompressionDocumentation/>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>WAVE_FORMAT_MPEG</Identifier>
       <IdentifierType>WAVE Format GUID</IdentifierType>
@@ -298,16 +242,8 @@
   <CompressionType>
     <CompressionID>5</CompressionID>
     <CompressionName>MPEG-1 Audio Layer 2</CompressionName>
-    <CompressionVersion/>
-    <CompressionAliases/>
-    <CompressionFamilies/>
     <Description>Compressed audio encoding method which supports bitrates of 32-384 kbits/sec, and sampling frequencies of 32, 44.1 and 48 kHz.</Description>
     <Lossiness>Lossy</Lossiness>
-    <ReleaseDate/>
-    <WithdrawnDate/>
-    <CompressionDocumentation/>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>WAVE_FORMAT_MPEG</Identifier>
       <IdentifierType>WAVE Format GUID</IdentifierType>
@@ -320,16 +256,8 @@
   <CompressionType>
     <CompressionID>6</CompressionID>
     <CompressionName>MPEG-1 Audio Layer 3</CompressionName>
-    <CompressionVersion/>
-    <CompressionAliases/>
-    <CompressionFamilies/>
     <Description>Compressed audio encoding method which supports bitrates of 32-320 kbits/sec, and sampling frequencies of 32, 44.1 and 48 kHz.</Description>
     <Lossiness>Lossy</Lossiness>
-    <ReleaseDate/>
-    <WithdrawnDate/>
-    <CompressionDocumentation/>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>WAVE_FORMAT_MPEG</Identifier>
       <IdentifierType>WAVE Format GUID</IdentifierType>
@@ -342,16 +270,8 @@
   <CompressionType>
     <CompressionID>7</CompressionID>
     <CompressionName>MPEG-2 Audio Layer 1</CompressionName>
-    <CompressionVersion/>
-    <CompressionAliases/>
-    <CompressionFamilies/>
     <Description>Compressed audio encoding method which supports bitrates of 32-448 kbits/sec, and sampling frequencies of 8, 16, 22.05, 24, 32, 44.1 and 48 kHz.</Description>
     <Lossiness>Lossy</Lossiness>
-    <ReleaseDate/>
-    <WithdrawnDate/>
-    <CompressionDocumentation/>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>WAVE_FORMAT_MPEG</Identifier>
       <IdentifierType>WAVE Format GUID</IdentifierType>
@@ -364,16 +284,8 @@
   <CompressionType>
     <CompressionID>8</CompressionID>
     <CompressionName>MPEG-2 Audio Layer 2</CompressionName>
-    <CompressionVersion/>
-    <CompressionAliases/>
-    <CompressionFamilies/>
     <Description>Compressed audio encoding method which supports bitrates of 32-384 kbits/sec, and sampling frequencies of 8, 16, 22.05, 24, 32, 44.1 and 48 kHz.</Description>
     <Lossiness>Lossy</Lossiness>
-    <ReleaseDate/>
-    <WithdrawnDate/>
-    <CompressionDocumentation/>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>WAVE_FORMAT_MPEG</Identifier>
       <IdentifierType>WAVE Format GUID</IdentifierType>
@@ -386,16 +298,8 @@
   <CompressionType>
     <CompressionID>9</CompressionID>
     <CompressionName>MPEG-2 Audio Layer 3</CompressionName>
-    <CompressionVersion/>
-    <CompressionAliases/>
-    <CompressionFamilies/>
     <Description>Compressed audio encoding method which supports bitrates of 8-320 kbits/sec, and sampling frequencies of 8, 16, 22.05, 24, 32, 44.1 and 48 kHz.</Description>
     <Lossiness>Lossy</Lossiness>
-    <ReleaseDate/>
-    <WithdrawnDate/>
-    <CompressionDocumentation/>
-    <CompressionIpr/>
-    <CompressionNote/>
     <CompressionIdentifier>
       <Identifier>WAVE_FORMAT_MPEG</Identifier>
       <IdentifierType>WAVE Format GUID</IdentifierType>

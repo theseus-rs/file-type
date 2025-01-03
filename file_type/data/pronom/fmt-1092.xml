@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1900</FormatID>
   <FormatName>Alias Pix Image File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Alias is a Computer Aided Design software family owned by Autodesk. The Pix Image file is a raster image format produced produced by Alias. Files of this type may lack a file extension.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
   <ProvenanceSourceDate>18 Sep 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>13 Sep 2018</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1092</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,10 +29,6 @@
       <ByteSequenceID>1733</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>4</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>0000{2}0018[!00]</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -52,6 +36,5 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>802</RelatedFormatID>
     <RelatedFormatName>Java Class File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

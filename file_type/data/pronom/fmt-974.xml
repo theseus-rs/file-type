@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1779</FormatID>
   <FormatName>Notation Interchange File Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Notation Interchange File Format (NIFF) is a music notation file format used primarily for transferring music notation between different scorewriters.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>26 Sep 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>26 Sep 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.music-niff</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -42,9 +30,6 @@ C header file from format SDK: http://www.music-notation.info/niffsdk/niff.h</Si
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>52494658{4}4E494646</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

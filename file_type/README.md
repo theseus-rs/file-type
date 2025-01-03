@@ -26,7 +26,7 @@ let file_type = FileType::from_bytes(b"\xCA\xFE\xBA\xBE");
 assert_eq!(file_type.id(), "x-fmt/415");
 assert_eq!(file_type.name(), "Java Class File");
 assert_eq!(file_type.media_types(), Vec::<String>::new());
-assert!(file_type.extensions(), vec!["class".to_string()]);
+assert_eq!(file_type.extensions(), vec!["class"]);
 ```
 
 Detect text from bytes:
@@ -34,9 +34,9 @@ Detect text from bytes:
 use file_type::FileType;
 
 let file_type = FileType::from_bytes(b"hello, world\n");
-assert_eq!(file_type.id(), "custom/1");
+assert_eq!(file_type.id(), "default/1");
 assert_eq!(file_type.name(), "Text");
-assert_eq!(file_type.media_types(), Some("text/plain"));
+assert_eq!(file_type.media_types(), vec!["text/plain"]);
 assert_eq!(file_type.extensions(), Vec::<String>::new());
 ```
 

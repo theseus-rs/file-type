@@ -2,23 +2,12 @@
   <FormatID>1950</FormatID>
   <FormatName>VectorWorks</FormatName>
   <FormatVersion>10</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Model</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Vectorworks is a proprietary Computer Aided Design and Building Information Modelling software program for both Mac and Windows operating systems. This software was previously called MiniCAD from 1985 - 1998 and  Vectorworks from 1999.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Datable / Datable</ProvenanceName>
   <ProvenanceSourceDate>20 Jul 2018</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>20 Jul 2018</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.vectorworks</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -40,10 +29,6 @@
       <ByteSequenceID>1785</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>14</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>566563746F72576F726B73203130</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

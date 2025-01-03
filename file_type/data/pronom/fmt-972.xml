@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1777</FormatID>
   <FormatName>Dolby MLP Lossless Audio</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>MLP "Meridian Lossless Packing" is the standard lossless compression format for DVD-Audio content. It was originally developed by Meridian Audio, Ltd.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>22 Sep 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>22 Sep 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>audio/vnd.dolby.mlp</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -41,9 +29,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>4</Offset>
       <MaxOffset>4</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>F8726F(BA|BB)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

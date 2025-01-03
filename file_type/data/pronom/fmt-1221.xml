@@ -2,23 +2,12 @@
   <FormatID>2031</FormatID>
   <FormatName>WordPerfect for Macintosh Document</FormatName>
   <FormatVersion>3.x</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Word Processor</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>WordPerfect is a word processor application currently owned by Corel. Applications implementing the libwpd library should be able to render older WordPerfect documents. WordPerfect documents created within a Macintosh environment are likely to lack a format extension.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>18 Feb 2019</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 Feb 2019</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.wordperfect</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -36,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>FF575043{4}012C03</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

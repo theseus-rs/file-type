@@ -2,23 +2,14 @@
   <FormatID>2158</FormatID>
   <FormatName>BDOC</FormatName>
   <FormatVersion>1</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>BDOC is a digital signature format developed in 2014 to replace the old DDOC (DigiDoc) digital signature format in Estonia. Compared to DDOC, an important modification is that a .bdoc file is in fact a ZIP container with the signed files, the signatures and the protocol control information and can be opened by any program that recognises the ZIP format.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives of Estonia / The National Archives of Estonia</ProvenanceName>
   <ProvenanceSourceDate>20 Jan 2020</ProvenanceSourceDate>
   <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
   <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
   <FormatNote>https://www.id.ee/?lang=en&amp;id=34336. Standard: EVS 821:2009 BDOC - Format for Digital Signatures https://www.evs.ee/products/evs-821-2009</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.bdoc-1.0</Identifier>
     <IdentifierType>MIME</IdentifierType>

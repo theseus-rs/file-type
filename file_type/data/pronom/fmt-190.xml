@@ -2,24 +2,15 @@
   <FormatID>912</FormatID>
   <FormatName>Adobe FrameMaker Document</FormatName>
   <FormatVersion>5.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation, Word Processor</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Adobe FrameMaker format is a desktop publishing and word processing format originally developed by Frame Technology Corp. Frame Technology Corp was bought by Adobe Systems in 1995, who continued to develop and support FrameMaker. This version of FrameMaker was used by professional designers and technical writers for writing documents that require’ substantial, standardised and structured content. FrameMaker 5.0 uses XML and SGML concepts. 
 Documentation for FrameMaker 5.0 was integrated into the user manual that was bundled with the software. FrameMaker 5.0 introduced online help, long filename support in Windows 95, OLE support, save to HTML and import text by reference. This information has been derived from third party sources and should be considered speculative.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
   <ReleaseDate>01 Jan 1995</ReleaseDate>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
   <ProvenanceSourceDate>22 Oct 2009</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>19 Jul 2013</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.framemaker</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -42,9 +33,6 @@ Documentation for FrameMaker 5.0 was integrated into the user manual that was bu
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C4D616B657246696C6520352E30593E</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

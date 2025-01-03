@@ -2,23 +2,12 @@
   <FormatID>2009</FormatID>
   <FormatName>RData</FormatName>
   <FormatVersion>ASCII</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Dataset</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The RData format is created by the R development environment for statistical computing. The format serialises the entire workspace and can include data frames and other objects that can later be loaded back in to the R environment. By default the RData format is compressed within a GZip container.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Borthwick Institute for Archives / The Borthwick Institute for Archives</ProvenanceName>
   <ProvenanceSourceDate>15 Aug 2018</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>15 Aug 2018</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fdd000470</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -41,9 +30,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>524441320A410A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -51,6 +37,5 @@
     <RelationshipType>Can be contained by</RelationshipType>
     <RelatedFormatID>386</RelatedFormatID>
     <RelatedFormatName>GZIP Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

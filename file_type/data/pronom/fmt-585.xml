@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1373</FormatID>
   <FormatName>MPEG-2 Transport Stream</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Video</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>MPEG-2 is a lossy compression standard (an improvement and expansion of the MPEG-1 standard) designed for the generic coding of video and audio and intended to cover a wide scope of application, including: video production, broadcast and editing. Streams are at potentially higher bitrates than MPEG-1 but more efficient compression making it suited to High Definition video. MPEG-2 Video supports both 'progressive' and 'interlaced' frame video. An MPEG-2 'Transport' stream file (TS) file (*.ts, *.m2ts) is designed for low-latency, real-time transmission and is used in broadcasting. It can contain multiple programmes, not necessarily intended for synchronised playback. TS incorporates features that can allow flexible access to and playback of stream content.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of Wales / National Library of Wales</ProvenanceName>
   <ProvenanceSourceDate>28 Aug 2013</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>07 Jul 2014</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/585</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -47,9 +35,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>47{187}47{187}47{187}47{187}47{187}47{187}47{187}47</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

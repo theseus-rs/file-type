@@ -2,23 +2,12 @@
   <FormatID>1737</FormatID>
   <FormatName>Mathcad Document</FormatName>
   <FormatVersion>XML</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Dataset</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Mathcad is a proprietary application intended for the verification, validation, documentation and reuse of engineering calculations.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>08 Jul 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>08 Jul 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/932</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C3F786D6C2076657273696F6E3D22312E3022*786D6C6E733D22687474703A2F2F736368656D61732E6D617468736F66742E636F6D</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

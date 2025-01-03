@@ -1,28 +1,17 @@
 <FileFormat>
   <FormatID>2385</FormatID>
   <FormatName>Sample Vision Audio File Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The SampleVision format is native to the Turtle Beach SampleVision program. The format supports  mono 16-bit audio and loop points.The Format was developed for use with the SampleVision software program, which was designed to send and receive samples via the MIDI interface on a PC. It consists of a variable-length header followed by a contiguous block of binary data representing the sound samples.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>23 Nov 2021</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>23 Nov 2021</LastUpdatedDate>
   <FormatNote>https://help.adobe.com/archive/en_US/audition/3/audition_3_help.pdf#page=255 
 
 http://sox.sourceforge.net/AudioFormats-11.html
 
 https://nixdoc.net/man-pages/IRIX/man4/smp.4.html</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1560</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,9 +30,6 @@ https://nixdoc.net/man-pages/IRIX/man4/smp.4.html</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>534F554E442053414D504C452044415441</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

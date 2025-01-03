@@ -2,23 +2,12 @@
   <FormatID>1230</FormatID>
   <FormatName>Microsoft Visio Drawing</FormatName>
   <FormatVersion>2003-2010</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>Microsoft Visio is a diagramming and vector graphics application and is part of the Microsoft Office family.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
   <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
   <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.visio</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -36,13 +25,11 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>767</RelatedFormatID>
     <RelatedFormatName>OLE2 Compound Document Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1229</RelatedFormatID>
     <RelatedFormatName>Microsoft Visio (generic)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>

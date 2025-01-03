@@ -1,16 +1,9 @@
 <FileFormat>
   <FormatID>382</FormatID>
   <FormatName>ZIP Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>A popular archive format supported by most modern operating systems. It can contain one or more files and can utilize any of a number of compression methods.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
@@ -18,8 +11,6 @@
   <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FormatNote>http://fileformats.archiveteam.org/wiki/ZIP
 https://fileinfo.com/extension/zip</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/zip</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -46,18 +37,12 @@ https://fileinfo.com/extension/zip</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>4</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>504B0304</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>338</ByteSequenceID>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>504B01{43-65531}504B0506{18-65531}</ByteSequenceValue>
     </ByteSequence>
@@ -71,9 +56,6 @@ https://fileinfo.com/extension/zip</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>504B05060000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -105,7 +87,6 @@ https://fileinfo.com/extension/zip</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>777</RelatedFormatID>
     <RelatedFormatName>Java Archive Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -207,13 +188,11 @@ https://fileinfo.com/extension/zip</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1269</RelatedFormatID>
     <RelatedFormatName>Apple iBook format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1270</RelatedFormatID>
     <RelatedFormatName>ePub format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>

@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>2316</FormatID>
   <FormatName>NTI JewelCase Maker</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>JewelCase Maker was design software included in the Newtech Infosystem's CD &amp; DVD Maker Software.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>24 Oct 2021</ProvenanceSourceDate>
   <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
   <LastUpdatedDate>24 Oct 2021</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1493</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1383</FormatID>
   <FormatName>Radiance RGBE Image Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Radiance defined an image format for storing HDR images, now described as RGBE image format. RGBE stores pixels as one byte each for RGB (red, green, and blue) values with a one byte shared exponent. Thus it stores four bytes per pixel.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>12 Nov 2013</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>12 Nov 2013</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/591</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -56,9 +44,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>233F52414449414E43450A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>1084</FormatID>
   <FormatName>Interchange File Format 8-bit Sampled Voice</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
   <ProvenanceSourceDate>21 Apr 2011</ProvenanceSourceDate>
   <ProvenanceDescription>Submitted by Georgia Tech Research Institute</ProvenanceDescription>
   <LastUpdatedDate>21 Apr 2011</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/339</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,10 +30,6 @@
       <ByteSequenceID>574</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>464F524D{4}3853565856484452</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -52,12 +37,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>221</RelatedFormatID>
     <RelatedFormatName>Interchange File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>221</RelatedFormatID>
     <RelatedFormatName>Interchange File</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

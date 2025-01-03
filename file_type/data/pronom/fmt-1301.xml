@@ -2,23 +2,13 @@
   <FormatID>2119</FormatID>
   <FormatName>The Print Shop Project</FormatName>
   <FormatVersion>2-5</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Print Shop is a desktop publishing application published by Broderbund. This format version post-dates the earlier The Print Shop Deluxe product range. More information about the format family can be found here: http://fileformats.archiveteam.org/wiki/The_Print_Shop.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1301</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +27,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>12</Offset>
       <MaxOffset>12</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>5053443552444F43</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

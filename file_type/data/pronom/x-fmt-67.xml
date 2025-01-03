@@ -1,24 +1,14 @@
 <FileFormat>
   <FormatID>108</FormatID>
   <FormatName>OS/2 Presentation Manager Metafile (MET)</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster), Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Presentation Manager Metafile format is a raster and vector image format originating from IBM’s OS/2 operating system.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>29 Jul 2022</LastUpdatedDate>
   <FormatNote>https://www.afpcinc.org/modca-l-the-os2-presentation-manager-metafile-met-format/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>x-fmt/67</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +27,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>2</Offset>
       <MaxOffset>2</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>D3A8A8</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

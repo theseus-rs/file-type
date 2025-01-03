@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1533</FormatID>
   <FormatName>SuperScape Virtual Reality Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Model</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>SuperScape was a company that created virtual 3D modelling software. .svr was the native, proprietary format for the software, and it can be viewed with the SuperScape Viscape viewer browser plugin.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>27 Mar 2015</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/734</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>5356520800000001EC</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

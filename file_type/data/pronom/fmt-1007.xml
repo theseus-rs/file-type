@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1812</FormatID>
   <FormatName>Digital Speech Standard</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Digital Speech Standard is a proprietary audio file format for the storage of digital speech recordings, which was jointly developed and introduced by Olympus, Grundig and Philips.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>22 Mar 2017</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>22 Mar 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1007</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>02647373</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -47,6 +32,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1813</RelatedFormatID>
     <RelatedFormatName>DSS Pro</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2029</FormatID>
   <FormatName>Gnumeric</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Spreadsheet</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Gnumeric is an open source spreadsheet application. The native format is an XML-based format, that is typically compressed within a GZIP container. It may be desirable to distinguish between different versions of Gnumeric spreadsheet documents. Please contact the PRONOM team if this is the case.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>SLUB Dresden / Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</ProvenanceName>
   <ProvenanceSourceDate>11 Feb 2019</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>11 Feb 2019</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/x-gnumeric</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -41,9 +29,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C3F786D6C2076657273696F6E3D22312E30{2-32}3C676E6D3A576F726B626F6F6B20786D6C6E733A676E6D3D22687474703A2F2F7777772E676E756D657269632E6F7267</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -56,9 +41,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C3F786D6C2076657273696F6E3D22312E30{2-32}3C676D723A576F726B626F6F6B20786D6C6E733A676D723D22687474703A2F2F7777772E676E6F6D652E6F72672F676E756D657269632F</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -66,7 +48,6 @@
     <RelationshipType>Can be contained by</RelationshipType>
     <RelatedFormatID>386</RelatedFormatID>
     <RelatedFormatName>GZIP Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

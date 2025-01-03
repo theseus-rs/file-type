@@ -2,25 +2,17 @@
   <FormatID>1357</FormatID>
   <FormatName>Matroska</FormatName>
   <FormatVersion>1-4</FormatVersion>
-  <FormatAliases/>
   <FormatFamilies>EBML</FormatFamilies>
   <FormatTypes>Video</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Matroska Multimedia Container is an open standard free container format, based on the Extensible Binary Meta Language (EBML). Matroska file extensions are .MKV for video (with subtitles and audio), .MK3D for stereoscopic video, .MKA for audio-only files, and .MKS for subtitles only. The Internet Engineering Task Force (IETF) Working Group: Codec Encoding for LossLess Archiving and Realtime transmission (cellar) is tasked with the standardisation of Matroska.
 
 The EBML specifications are work-in-progress, and can be found here: https://github.com/Matroska-Org/ebml-specification/blob/master/specification.markdown</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
   <ReleaseDate>06 Dec 2002</ReleaseDate>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Axiell / Axiell</ProvenanceName>
   <ProvenanceSourceDate>19 Jul 2013</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>03 Feb 2022</LastUpdatedDate>
   <FormatNote>Format specification: https://matroska.org/technical/specs/index.html</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/569</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -54,8 +46,6 @@ The EBML specifications are work-in-progress, and can be found here: https://git
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>1024</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
       <Endianness>Big-endian</Endianness>
       <ByteSequenceValue>1A45DFA3{0-32}4282886D6174726F736B614287</ByteSequenceValue>
     </ByteSequence>
@@ -64,6 +54,5 @@ The EBML specifications are work-in-progress, and can be found here: https://git
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>687</RelatedFormatID>
     <RelatedFormatName>MPEG 1/2 Audio Layer 3</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

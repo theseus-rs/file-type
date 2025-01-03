@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2052</FormatID>
   <FormatName>Smacker Video</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Video</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Smacker video is a video file format developed by RAD Game Tools, and primarily used for full-motion video in video games.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
   <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1234</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,9 +29,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>534D4B32{96}00000000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

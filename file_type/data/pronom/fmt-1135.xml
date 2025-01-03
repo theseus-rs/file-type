@@ -2,23 +2,12 @@
   <FormatID>1945</FormatID>
   <FormatName>SQLite Database File Format</FormatName>
   <FormatVersion>2</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Database</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>SQLite is a relational database management system. SQLite does not define a formal file extension, but .sqlite, and .db are commonly used.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen</ProvenanceName>
   <ProvenanceSourceDate>19 Jul 2018</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>19 Jul 2018</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1135</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -42,9 +31,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>2A2A20546869732066696C6520636F6E7461696E7320616E2053514C69746520322E??206461746162617365202A2A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>69</FormatID>
   <FormatName>AutoCAD Custom Dictionary</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>AutoCAD is 2D and 3D computer-aided design software used by professionals such as architects, engineers and city planners to prepare technical drawings. Developed by Autodesk. It was first released in 1982, and is now very widely used. AutoCAD comes with a main dictionary which is used for spell checking, but also one or more custom dictionaries can be installed. Words can be added to these by the user. The default custom dictionary is called SAMPLE.CUS, and is found in the in the ‘support’ folder of an AutoCAD installation.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
   <ProvenanceDescription>04/2024 (v.118): Added internal signature. Submitted by the National Archives and Records Administration.</ProvenanceDescription>
   <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>x-fmt/38</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>414341440D0A414349530D0A4175746F4341440D0A4175746F43444D0D0A4175746F6465736B0D0A4175746F45444D0D0A4175746F466C69780D0A4175746F4C617468650D0A4175746F4C4953500D0A4175746F53686164650D0A4175746F536B657463680D0A4175746F536F6C69640D0A4175746F537572660D0A4175746F566973696F6E0D0A</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

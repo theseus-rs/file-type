@@ -1,20 +1,11 @@
 <FileFormat>
   <FormatID>2410</FormatID>
   <FormatName>TurboCalc Document</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Spreadsheet</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>TurboCalc Document is a spreadsheet application developed by Gregory R. Schmalhofer and published by Stefan Ossowski's Schatztruhe (better known as Aminet) for the Commodore 64 used on Amiga operating system. The system is very similar to Microsoft Excel. There were several vesions of TurboCalc published in the years of 1980 - 1999.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>04 Jan 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>04 Jan 2022</LastUpdatedDate>
   <FormatNote>https://www.file-extensions.org/tcd-file-extension-turbocalc-spreadsheet-file
 
@@ -27,8 +18,6 @@ https://blog.alb42.de/2019/06/10/turbocalc-functions/
 https://commodore.software/downloads/category/13-spreadsheets
 
 http://istilladoremy64.byethost24.com/doku.php?id=reviews:turbocalc</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1585</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -47,9 +36,6 @@ http://istilladoremy64.byethost24.com/doku.php?id=reviews:turbocalc</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>01000C545552424F43414C43</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

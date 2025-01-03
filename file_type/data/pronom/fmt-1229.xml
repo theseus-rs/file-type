@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2041</FormatID>
   <FormatName>Sibelius Sound Set Definition</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>A text-based file used by Sibelius music composition software to list the file system locations of sound files in use within a composition.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
   <ProvenanceSourceDate>18 Feb 2019</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 Feb 2019</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1229</Identifier>
     <IdentifierType>PUID</IdentifierType>

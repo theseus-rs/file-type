@@ -2,25 +2,15 @@
   <FormatID>848</FormatID>
   <FormatName>CATIA Project</FormatName>
   <FormatVersion>4</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>CATIA is a 3D modelling software created by Dassault Systèmes, widely used across many industries for computer aided design, manufacture and engineering. Model files store representations of mechanical structures, or parts of structures.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Library Research Group / MIT Libraries</ProvenanceName>
   <ProvenanceSourceDate>06 Apr 2009</ProvenanceSourceDate>
   <ProvenanceDescription>02/2024 (v.118) changed first range of bytes from {2024} to *.</ProvenanceDescription>
   <LastUpdatedDate>16 Feb 2024</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
-    <Identifier/>
     <IdentifierType>Other</IdentifierType>
   </FileFormatIdentifier>
   <FileFormatIdentifier>

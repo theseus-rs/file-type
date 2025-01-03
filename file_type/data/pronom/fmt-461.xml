@@ -1,24 +1,11 @@
 <FileFormat>
   <FormatID>1248</FormatID>
   <FormatName>Verity Collection Index Descriptor File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>A Verity collection is the fundamental structure underlying the search capabilities of Verity applications. A collection consists of information about a particular set of documents that are available for searching and viewing. The specific information stored for a collection includes a word index and various other indexes, plus a document table containing document field information and logical pointers to the document files.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>28 Aug 2012</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/461</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -51,10 +38,6 @@
       <ByteSequenceID>901</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>74576263{60}242424{57}24246600</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -2,23 +2,13 @@
   <FormatID>1386</FormatID>
   <FormatName>Microsoft PhotoDraw</FormatName>
   <FormatVersion>1.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Microsoft PhotoDraw 2000 is a vector graphics and raster imaging software package developed by Microsoft.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>12 Nov 2013</ProvenanceSourceDate>
   <ProvenanceDescription>This file format is identified by container signature.</ProvenanceDescription>
   <LastUpdatedDate>12 Nov 2013</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/594</Identifier>
     <IdentifierType>PUID</IdentifierType>

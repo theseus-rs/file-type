@@ -31,47 +31,54 @@ pub struct FileFormat {
     id: usize,
     #[serde(rename = "FormatName")]
     name: String,
-    #[serde(rename = "FormatVersion")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatVersion")]
     version: String,
-    #[serde(rename = "FormatAliases")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatAliases")]
     aliases: String,
-    #[serde(rename = "FormatFamilies")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatFamilies")]
     families: String,
-    #[serde(rename = "FormatTypes")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatTypes")]
     types: String,
-    #[serde(rename = "FormatDisclosure")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatDisclosure")]
     disclosure: String,
-    #[serde(rename = "FormatDescription")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatDescription")]
     description: String,
+    #[serde(skip_serializing_if = "String::is_empty")]
     binary_file_format: String,
+    #[serde(skip_serializing_if = "String::is_empty")]
     byte_orders: String,
     #[serde(
+        skip_serializing_if = "Option::is_none",
         deserialize_with = "deserialize_option_naive_date",
         serialize_with = "serialize_option_naive_date"
     )]
     release_date: Option<Date>,
     #[serde(
+        skip_serializing_if = "Option::is_none",
         deserialize_with = "deserialize_option_naive_date",
         serialize_with = "serialize_option_naive_date"
     )]
     withdrawn_date: Option<Date>,
     provenance_source_id: usize,
+    #[serde(skip_serializing_if = "String::is_empty")]
     provenance_name: String,
     #[serde(
         deserialize_with = "deserialize_naive_date",
         serialize_with = "serialize_naive_date"
     )]
     provenance_source_date: Date,
+    #[serde(skip_serializing_if = "String::is_empty")]
     provenance_description: String,
     #[serde(
         deserialize_with = "deserialize_naive_date",
         serialize_with = "serialize_naive_date"
     )]
     last_updated_date: Date,
-    #[serde(rename = "FormatNote")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatNote")]
     note: String,
-    #[serde(rename = "FormatRisk")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatRisk")]
     risk: String,
+    #[serde(skip_serializing_if = "String::is_empty")]
     technical_environment: String,
     #[serde(rename = "FileFormatIdentifier")]
     file_format_identifiers: Vec<DocumentIdentifier>,
@@ -88,6 +95,66 @@ pub struct FileFormat {
 }
 
 impl FileFormat {
+    /// Create a new file format
+    #[expect(clippy::too_many_arguments)]
+    pub fn new<S: AsRef<str>>(
+        id: usize,
+        name: S,
+        version: S,
+        aliases: S,
+        families: S,
+        types: S,
+        disclosure: S,
+        description: S,
+        binary_file_format: S,
+        byte_orders: S,
+        release_date: Option<Date>,
+        withdrawn_date: Option<Date>,
+        provenance_source_id: usize,
+        provenance_name: S,
+        provenance_source_date: Date,
+        provenance_description: S,
+        last_updated_date: Date,
+        note: S,
+        risk: S,
+        technical_environment: S,
+        file_format_identifiers: Vec<DocumentIdentifier>,
+        documents: Vec<Document>,
+        external_signatures: Vec<ExternalSignature>,
+        internal_signatures: Vec<InternalSignature>,
+        related_formats: Vec<RelatedFormat>,
+        compression_types: Vec<CompressionType>,
+    ) -> Self {
+        Self {
+            id,
+            name: name.as_ref().to_string(),
+            version: version.as_ref().to_string(),
+            aliases: aliases.as_ref().to_string(),
+            families: families.as_ref().to_string(),
+            types: types.as_ref().to_string(),
+            disclosure: disclosure.as_ref().to_string(),
+            description: description.as_ref().to_string(),
+            binary_file_format: binary_file_format.as_ref().to_string(),
+            byte_orders: byte_orders.as_ref().to_string(),
+            release_date,
+            withdrawn_date,
+            provenance_source_id,
+            provenance_name: provenance_name.as_ref().to_string(),
+            provenance_source_date,
+            provenance_description: provenance_description.as_ref().to_string(),
+            last_updated_date,
+            note: note.as_ref().to_string(),
+            risk: risk.as_ref().to_string(),
+            technical_environment: technical_environment.as_ref().to_string(),
+            file_format_identifiers,
+            documents,
+            external_signatures,
+            internal_signatures,
+            related_formats,
+            compression_types,
+        }
+    }
+
     /// Get the format ID
     #[must_use]
     pub fn id(&self) -> usize {
@@ -259,21 +326,21 @@ impl FileFormat {
 
     /// Get extensions
     #[must_use]
-    pub fn extensions(&self) -> Vec<String> {
+    pub fn extensions(&self) -> Vec<&str> {
         self.external_signatures
             .iter()
-            .map(|signature| signature.signature().to_string())
+            .map(ExternalSignature::signature)
             .collect()
     }
 
     /// Get media types
     #[must_use]
-    pub fn media_types(&self) -> Vec<String> {
+    pub fn media_types(&self) -> Vec<&str> {
         self.file_format_identifiers
             .iter()
             .filter_map(|identifier| {
                 if identifier.r#type() == "MIME" {
-                    Some(identifier.identifier().to_string())
+                    Some(identifier.identifier())
                 } else {
                     None
                 }
@@ -293,7 +360,7 @@ impl FileFormat {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::pronom::Author;
+    use crate::pronom::{Author, ByteSequence, Endianness, PositionType};
     use indoc::indoc;
     use quick_xml::de::from_str;
     use quick_xml::se::to_string;
@@ -439,5 +506,88 @@ mod tests {
         assert_eq!(file_format.related_formats().len(), 4);
         assert_eq!(file_format.compression_types().len(), 0);
         Ok(())
+    }
+
+    #[test]
+    fn test_new() {
+        let file_format = FileFormat::new(
+            664,
+            "Portable Network Graphics",
+            "1.0",
+            "PNG (1.0)",
+            "",
+            "Image (Raster)",
+            "",
+            "Portable Network Graphics (PNG) was designed for the lossless, portable, compressed storage of raster images.  PNG provides a patent-free replacement for GIF and can also replace many common uses of TIFF. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits. PNG is designed to work in online viewing applications, so it is fully streamable.  It can store gamma and chromaticity.  PNG also detects file corruption.",
+            "Binary",
+            "Big-endian (Motorola)",
+            None,
+            None,
+            0,
+            "The National Archives and Records Administration / The National Archives and Records Administration",
+            Date::new(2005, 3, 11).expect("Invalid date"),
+            "Specifications link: http://tools.ietf.org/pdf/rfc2083.pdf",
+            Date::new(2012, 6, 11).expect("Invalid date"),
+            "",
+            "",
+            "",
+            vec![
+                DocumentIdentifier::new("fmt/11", "PUID"),
+                DocumentIdentifier::new("image/png", "MIME"),
+                DocumentIdentifier::new("public.png", "Apple Uniform Type Identifier"),
+            ],
+            vec![],
+            vec![
+                ExternalSignature::new(761, "png", "File extension"),
+            ],
+            vec![],
+            vec![],
+            vec![],
+        );
+
+        assert_eq!(file_format.id(), 664);
+        assert_eq!(file_format.puid(), "fmt/11");
+        assert_eq!(file_format.name(), "Portable Network Graphics");
+        assert_eq!(file_format.version(), "1.0");
+        assert_eq!(file_format.aliases(), "PNG (1.0)");
+        assert_eq!(file_format.families(), "");
+        assert_eq!(file_format.types(), "Image (Raster)");
+        assert_eq!(file_format.disclosure(), "");
+        assert_eq!(
+            file_format.description(),
+            "Portable Network Graphics (PNG) was designed for the lossless, portable, compressed storage of raster images.  PNG provides a patent-free replacement for GIF and can also replace many common uses of TIFF. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits. PNG is designed to work in online viewing applications, so it is fully streamable.  It can store gamma and chromaticity.  PNG also detects file corruption."
+        );
+        assert_eq!(file_format.binary_file_format(), "Binary");
+        assert_eq!(file_format.byte_orders(), "Big-endian (Motorola)");
+        assert_eq!(file_format.release_date(), &None);
+        assert_eq!(file_format.withdrawn_date(), &None);
+        assert_eq!(file_format.provenance_source_id(), 0);
+        assert_eq!(
+            file_format.provenance_name(),
+            "The National Archives and Records Administration / The National Archives and Records Administration"
+        );
+        assert_eq!(
+            file_format.provenance_source_date(),
+            &Date::new(2005, 3, 11).expect("Invalid date")
+        );
+        assert_eq!(
+            file_format.provenance_description(),
+            "Specifications link: http://tools.ietf.org/pdf/rfc2083.pdf"
+        );
+        assert_eq!(
+            file_format.last_updated_date(),
+            &Date::new(2012, 6, 11).expect("Invalid date")
+        );
+        assert_eq!(file_format.note(), "");
+        assert_eq!(file_format.risk(), "");
+        assert_eq!(file_format.technical_environment(), "");
+        assert_eq!(file_format.file_format_identifiers().len(), 3);
+        assert_eq!(file_format.documents().len(), 0);
+        assert_eq!(file_format.external_signatures().len(), 1);
+        assert_eq!(file_format.internal_signatures().len(), 0);
+        assert_eq!(file_format.related_formats().len(), 0);
+        assert_eq!(file_format.compression_types().len(), 0);
+        assert_eq!(file_format.extensions(), vec!["png"]);
+        assert_eq!(file_format.media_types(), vec!["image/png"]);
     }
 }

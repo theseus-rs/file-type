@@ -2,23 +2,12 @@
   <FormatID>1682</FormatID>
   <FormatName>Corel Presentation</FormatName>
   <FormatVersion>3</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Presentations is a presentation program that was formerly available as part of Novell's PerfectOffice productivity suite, and is now part of the Corel's WordPerfect Office suite.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>18 May 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 May 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/878</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>FF575043{4}0F0F01</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2570</FormatID>
   <FormatName>Geosoft Map Description File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>File format developed by Geosoft to integrate all graphics elements such as polygons, lines and text and layers (images, data, basemaps, plots and grids) constructed in Oasis montaj software.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
   <ProvenanceSourceDate>07 Jul 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>07 Jul 2022</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1726</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>56</Offset>
       <MaxOffset>56</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>2F2078732C79732C6D622C6D722C6D742C6D6C</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

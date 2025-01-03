@@ -2,23 +2,12 @@
   <FormatID>1661</FormatID>
   <FormatName>Navisworks Document</FormatName>
   <FormatVersion>2012</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Model</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Navisworks (known for a while as JetStream) is a 3D design review package, currently developed and maintanced by Autodesk.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>09 Jan 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>09 Jan 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/860</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -43,9 +32,6 @@ EOF, max offset 1024: #LcUStream-V1.1 binary double release utf8 navisworks:238<
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>234C635553747265616D2D56312E312062696E61727920646F75626C652072656C656173652043206C696368756E6B2D303038</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -53,9 +39,6 @@ EOF, max offset 1024: #LcUStream-V1.1 binary double release utf8 navisworks:238<
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>1024</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>234C635553747265616D2D56312E312062696E61727920646F75626C652072656C656173652075746638206E61766973776F726B733A323338</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -2,24 +2,16 @@
   <FormatID>222</FormatID>
   <FormatName>Initial Graphics Exchange Specification (IGES)</FormatName>
   <FormatVersion>5.x</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Model</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Initial Graphics Exchange Specification, or IGES, establishes information structures for the digital representation and exchange of product definition data. It supports exchanging this data among Computer-Aided Design and Computer-Aided Manufacturing (CAD and CAM, respectively) systems.  IGES defines file structure and language formats to represent geometric, topographical, and non-geometric product definition data.  These formats are independent of the modeling method used, and they support data exchange using physical media or electronic communication protocols.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
   <ReleaseDate>01 Dec 1999</ReleaseDate>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
   <ProvenanceDescription>Further information about this file format can be obtained at 
 http://www.wiz-worx.com/iges5x/version5x/version5x.pdf</ProvenanceDescription>
   <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>model/iges</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -46,10 +38,6 @@ http://www.wiz-worx.com/iges5x/version5x/version5x.pdf</ProvenanceDescription>
       <ByteSequenceID>575</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>72</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>53(202020202020|303030303030)31(0D0A|0D|0A){72}(5320202020202032|5330303030303032|4720202020202031|4730303030303031)</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

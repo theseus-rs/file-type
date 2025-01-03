@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>799</FormatID>
   <FormatName>Tagged Image File Format for Internet Fax (TIFF-FX)</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Tagged Image File for Fax Extended (TIFF-FX) format is an extension of the TIFF format.  New TIFF tags are defined to allow the mapping of Fax-specific attributes commonly associated with black and white fax and colour fax files.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Feb 2007</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>01 May 2013</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/156</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -64,7 +53,6 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1099</RelatedFormatID>
     <RelatedFormatName>Tagged Image File Format</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>

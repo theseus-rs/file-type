@@ -1,16 +1,8 @@
 <FileFormat>
   <FormatID>2481</FormatID>
   <FormatName>Palm Database ImageViewer Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Palm Database ImageViewer format is a type of Palm OS Database file. It contains a bitmap image and is associated with the Image Viewer III application. It is also known as FireViewer format and possibly also as TinyViewer format. It supports at least greyscale images with 2, 4 or 16 gray shades. Images may be uncompressed or use RLE compression.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>16 Mar 2022</ProvenanceSourceDate>
@@ -19,8 +11,6 @@
   <FormatNote>http://fileformats.archiveteam.org/wiki/Palm_Database_ImageViewer
 
 http://cd.textfiles.com/pdasoftware/PILOT/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1654</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,9 +29,6 @@ http://cd.textfiles.com/pdasoftware/PILOT/</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>60</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>76494D4756696577</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

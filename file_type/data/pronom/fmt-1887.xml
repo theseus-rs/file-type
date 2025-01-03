@@ -2,23 +2,11 @@
   <FormatID>2742</FormatID>
   <FormatName>Common Instrument File (CIF)</FormatName>
   <FormatVersion>1</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>The Common Instrument File (CIF) format is a file format designed to distribute sound data, similar to the CLF format. It follows the same principles as the CLF format, but its focus is on the directivities of natural sources like musical instruments, talkers, singers, and noise sources instead of loudspeakers. The CIF format was officially released on October 27, 2020.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2023</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>02 Aug 2023</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1887</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>42BD0A0001{15}76312E306100{10}00000000000000000000000000000000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

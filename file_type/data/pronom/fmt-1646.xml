@@ -2,15 +2,8 @@
   <FormatID>2473</FormatID>
   <FormatName>Roxio Label Creator Project File</FormatName>
   <FormatVersion>8-11</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Roxio Label Creator Project File is format used for storing project files produced by Roxio's Label Creator software, a software used for creating designs intended for jewel cases and disc labels. There are several known versions of this format with earlier versions being stored as OLE2 container format. This record describes the later versions of this format which has a binary signature.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
   <ProvenanceSourceDate>25 Feb 2022</ProvenanceSourceDate>
@@ -19,8 +12,6 @@
   <FormatNote>https://archive.org/details/roxio_label_creator/04_roxio_cd_label_creator.jpeg
 
 http://fileformats.archiveteam.org/wiki/JWL</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1646</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,9 +32,6 @@ EOF; Offset: 109 - 120; Magic bytes; 'ÿþÿ.A.r.i.a.l'</SignatureNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>52004F005800490020</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -51,9 +39,6 @@ EOF; Offset: 109 - 120; Magic bytes; 'ÿþÿ.A.r.i.a.l'</SignatureNote>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>109</Offset>
       <MaxOffset>11</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>02FFFEFF0541007200690061006C</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

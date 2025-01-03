@@ -1,12 +1,13 @@
 [package]
 edition.workspace = true
-name = "pronom_export"
+name = "pronom"
 publish = false
 license.workspace = true
 version.workspace = true
 
 [dependencies]
-file_type = { path = "../file_type", version = "0.0.1" }
+anyhow = { workspace = true }
+file_type = { path = "../../file_type", version = "0.0.1" }
 rayon = { workspace = true }
 reqwest = { workspace = true, features = ["blocking"] }
 quick-xml = { workspace = true, features = ["serde", "serialize"] }
@@ -15,5 +16,4 @@ tracing = { workspace = true }
 tracing-subscriber = { workspace = true, features = ["env-filter"] }
 
 [dev-dependencies]
-anyhow = { workspace = true }
 indoc = { workspace = true }

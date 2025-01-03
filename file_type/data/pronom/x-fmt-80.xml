@@ -2,23 +2,16 @@
   <FormatID>122</FormatID>
   <FormatName>Macintosh PICT Image</FormatName>
   <FormatVersion>1.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster), Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>A graphics format native to Macintosh computers encapsulating the functionality of QuickDraw 1 which supports monochrome bitmaps up to 32k in size.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
   <ByteOrders>Big-endian (Motorola)</ByteOrders>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
   <ProvenanceDescription>04/2024 (v.118)- Description created and links added as part of PRONOM Research Week 2023. Submitted by Brigham Young University.</ProvenanceDescription>
   <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
   <FormatNote>http://justsolve.archiveteam.org/wiki/PICT</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>com.apple.pict</Identifier>
     <IdentifierType>Apple Uniform Type Identifier</IdentifierType>
@@ -50,9 +43,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>44525747(4D44|4432){516}1101</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -65,9 +55,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>000000000000{516}1101</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

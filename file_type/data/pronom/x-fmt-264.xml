@@ -2,23 +2,12 @@
   <FormatID>384</FormatID>
   <FormatName>RAR Archive</FormatName>
   <FormatVersion>2.0</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>RAR is a proprietary archive file format that supports data compression, error recovery and file spanning.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>16 Mar 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.rar</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -40,10 +29,6 @@
       <ByteSequenceID>732</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>526172211A0700{2}73{34}14</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

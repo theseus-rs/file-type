@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>1753</FormatID>
   <FormatName>Ogg Speex Codec Multimedia File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Ogg is a open container format maintained by the Xiph.Org Foundation. The Speex codec is a lossy codec aimed at handling low bitrate audio, particularly speech.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>21 Jul 2016</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>21 Jul 2016</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>audio/ogg</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -50,9 +39,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4F6767530002{22}5370656578202020{72}4F676753</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -60,12 +46,10 @@
     <RelationshipType>Can be contained by</RelationshipType>
     <RelatedFormatID>1749</RelatedFormatID>
     <RelatedFormatName>Ogg Multimedia Container</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1749</RelatedFormatID>
     <RelatedFormatName>Ogg Multimedia Container</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

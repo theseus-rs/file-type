@@ -2,29 +2,20 @@
   <FormatID>1019</FormatID>
   <FormatName>FLAC (Free Lossless Audio Codec)</FormatName>
   <FormatVersion>1.2.1</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>FLAC stands for Free Lossless Audio Codec, an audio format similar to MP3, but lossless, meaning that audio is compressed in FLAC without any loss in quality. 
 The basic structure of a FLAC stream is: •The four byte string "fLaC"
 •The STREAMINFO metadata block
 •Zero or more other metadata blocks
 •One or more audio frames
  The first four bytes are to identify the FLAC stream. The metadata that follows contains all the information about the stream except for the audio data itself. After the metadata comes the encoded audio data.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
   <ReleaseDate>17 Sep 2007</ReleaseDate>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>29 Jul 2010</ProvenanceSourceDate>
   <ProvenanceDescription>Further information about this file format can be obtained at:
 http://flac.sourceforge.net/documentation_format_overview.html</ProvenanceDescription>
   <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>audio/flac</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -47,9 +38,6 @@ http://flac.sourceforge.net/documentation_format_overview.html</ProvenanceDescri
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>4</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>664C6143(80|00)000022</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

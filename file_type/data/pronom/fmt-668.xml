@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>1467</FormatID>
   <FormatName>Olympus RAW</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Olympus raw format (.orf) is a raw image format used by models of Olympus digital cameras.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Sebastian Lasse / Redaktor CMS</ProvenanceName>
   <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
   <ProvenanceDescription>http://en.wikipedia.org/wiki/ORF_format</ProvenanceDescription>
   <LastUpdatedDate>23 Sep 2014</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/668</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +26,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4D4D4F5200000008</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -52,9 +38,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4949524F08000000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -67,9 +50,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4949525308000000</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

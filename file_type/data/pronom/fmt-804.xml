@@ -1,24 +1,11 @@
 <FileFormat>
   <FormatID>1604</FormatID>
   <FormatName>Logical File Evidence Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
-  <FormatTypes/>
-  <FormatDisclosure/>
   <FormatDescription>Logical FIle Evidence Format was introduced in EnCase version 5. They are form of Encase Image files, this format is used to store media images for forensic purposes. They are a type of disk image containing the contents and structure of an entire data storage device, disk volume or even a computer's physical memory. The logical version of this format is used to create an image of the original files as they existed on the media but also documents other ifnormation. This includes the assigned file name and extension, datetime of creation, modified date, and date last accessed, the logical and physical size, an MD5 hash value, permissions and original path. This format creates segments which have different file extensions, the first will have the extension '.l01'. this increases first numerically upto '.l99' the next extension will be '.laa' increasing to an estimated limit of '.zzz'.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>27 Nov 2015</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>27 Nov 2015</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/804</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +24,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4C5646090D0AFF00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

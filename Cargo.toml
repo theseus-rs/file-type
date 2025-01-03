@@ -1,11 +1,13 @@
 [workspace]
 default-members = [
+    "export/apache_httpd",
+    "export/pronom",
     "file_type",
-    "pronom_export",
 ]
 members = [
+    "export/apache_httpd",
+    "export/pronom",
     "file_type",
-    "pronom_export",
 ]
 resolver = "2"
 

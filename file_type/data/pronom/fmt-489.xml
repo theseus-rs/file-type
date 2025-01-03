@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>1276</FormatID>
   <FormatName>Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4p</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Presentation</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>PDF/X was developed by the Committee for Graphics Arts Technologies Standards (CGATS) and Adobe. This 'exchange standard' format is based on Adobe's PDF specification and includes additional notes specifically to facilitate graphics exchange. PDF/X is a subset of the PDF specification, and is an application standard as well as a file format standard. There are several versions of the standard, which address specific issues.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>18 Dec 2012</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>18 Dec 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/pdf</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -42,19 +30,11 @@ VAR: &lt;pdfxid:GTS_PDFXVersion&gt;PDF/X-4p&lt;/pdfxid:GTS_PDFXVersion&gt;</Sign
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>255044462D312E[30:37]</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
       <ByteSequenceID>961</ByteSequenceID>
       <PositionType>Variable</PositionType>
-      <Offset/>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C7064667869643A4754535F5044465856657273696F6E3E5044462F582D34703C2F7064667869643A4754535F5044465856657273696F6E3E</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -104,7 +84,6 @@ VAR: &lt;pdfxid:GTS_PDFXVersion&gt;PDF/X-4p&lt;/pdfxid:GTS_PDFXVersion&gt;</Sign
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>869</RelatedFormatID>
     <RelatedFormatName>TrueType Font</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

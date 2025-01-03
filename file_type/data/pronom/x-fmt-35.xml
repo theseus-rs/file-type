@@ -2,23 +2,14 @@
   <FormatID>66</FormatID>
   <FormatName>Corel Presentation Exchange File</FormatName>
   <FormatVersion>6 and Later</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The Corel Presentation Exchange file format is the presentation format of the CorelSuite applications. It is a recording of the display primitives of an application to a display interface. The CMX format supports Intel and Motorola binary formats.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
   <ProvenanceDescription>08/2023 (v.113) - Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica.</ProvenanceDescription>
   <LastUpdatedDate>14 Aug 2023</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>x-fmt/35</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -36,10 +27,6 @@
       <ByteSequenceID>920</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>524946(46|58){4}434D5831{62}32</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -47,6 +34,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2741</RelatedFormatID>
     <RelatedFormatName>Resource Interchange File Format (RIFF)</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

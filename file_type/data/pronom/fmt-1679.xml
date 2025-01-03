@@ -1,24 +1,12 @@
 <FileFormat>
   <FormatID>2515</FormatID>
   <FormatName>Garmin track log file</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Gmn files are used within Garmin Forerunner watches, which track GPS and heart rate data when work by the user during exercise. Gmn files store data relating to the exercise session, which can include heart rate, altitude, timestamp and position (latitude and longitude).</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>28 Apr 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>28 Apr 2022</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1679</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +25,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>3C406741724D694E403E</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

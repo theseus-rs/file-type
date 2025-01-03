@@ -2,23 +2,13 @@
   <FormatID>919</FormatID>
   <FormatName>FileMaker Pro Database</FormatName>
   <FormatVersion>7+</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Database</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>FileMaker Pro is a cross-platform relational database application from FileMaker Inc.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
   <ProvenanceSourceDate>27 Oct 2009</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>27 Oct 2009</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/194</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,9 +27,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>14</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>C04842414D37{505}4842414D323130314F43543939C102480750726F20372E30C0C0</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

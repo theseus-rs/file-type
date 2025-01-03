@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>2755</FormatID>
   <FormatName>RIS Citation</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Structured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The RIS file format is a standardised tag format created by Research Information Systems, Incorporated to facilitate the exchange of data between citation programs. This file format is widely supported by numerous reference managers, digital libraries and online library catalogs. The RIS format is also used by citation management applications for the import and export of citations. There exist two major versions of the RIS format, and the format has a file size limit of 1MB.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
   <ProvenanceSourceDate>08 Aug 2023</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>08 Aug 2023</LastUpdatedDate>
   <FormatNote>http://fileformats.archiveteam.org/wiki/RefMan</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/x-research-info-systems</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -41,9 +30,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>128</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>545920</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
@@ -51,9 +37,6 @@
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>32</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>455220202D</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>2619</FormatID>
   <FormatName>C++ Source Code File</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Text (Unstructured)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>File written in the general-purpose programming language C++, which was created as an extension of the C programming language that developed into a language in its own right. C++ is standardised by the International Organisation for Standardization (ISO), who first standardised it in 1998.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Stadtarchiv Hof / Stadtarchiv Hof</ProvenanceName>
   <ProvenanceSourceDate>20 Sep 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>20 Sep 2022</LastUpdatedDate>
   <FormatNote>https://cplusplus.com/ , https://cplusplus.com/articles/Gw6AC542/</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1769</Identifier>
     <IdentifierType>PUID</IdentifierType>

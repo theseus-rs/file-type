@@ -2,24 +2,14 @@
   <FormatID>1203</FormatID>
   <FormatName>Adobe Illustrator</FormatName>
   <FormatVersion>Japan</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Vector)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>The documents (files) created by Adobe Illustrator are PostScript language
 documents. A PostScript language document description that minimally conforms to the Document Structuring Conventions has two main parts: a prolog and a script. The prolog encapsulates information needed by other programs to interpret the file. The script describes the graphic elements on the page.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
   <ProvenanceDescription>Specifications link: http://mercator.elte.hu/~saman/hu/okt/AI7FileFormat.pdf</ProvenanceDescription>
   <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/postscript</Identifier>
     <IdentifierType>MIME</IdentifierType>

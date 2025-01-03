@@ -48,9 +48,10 @@ fn extension_map() -> HashMap<String, Vec<String>> {
     for file_format in file_formats.values() {
         for extension in file_format.extensions() {
             let id = file_format.puid();
+            let extension = extension.to_string();
             let mut ids = extension_map.get(&extension).unwrap_or(&vec![]).clone();
             ids.push(id.to_string());
-            extension_map.insert(extension.to_string(), ids);
+            extension_map.insert(extension, ids);
         }
     }
 
@@ -64,9 +65,10 @@ fn media_type_map() -> HashMap<String, Vec<String>> {
     for file_format in file_formats.values() {
         for media_type in file_format.media_types() {
             let id = file_format.puid();
+            let media_type = media_type.to_string();
             let mut ids = media_type_map.get(&media_type).unwrap_or(&vec![]).clone();
             ids.push(id.to_string());
-            media_type_map.insert(media_type.to_string(), ids);
+            media_type_map.insert(media_type, ids);
         }
     }
     media_type_map
@@ -129,9 +131,7 @@ where
         if let Some(extension) = extension {
             let extension_file_formats = file_formats
                 .par_iter()
-                .filter(|(_id, file_format)| {
-                    file_format.extensions().contains(&extension.to_string())
-                })
+                .filter(|(_id, file_format)| file_format.extensions().contains(&extension))
                 .map(|(id, file_format)| (id.clone(), file_format.clone()))
                 .collect::<HashMap<String, FileFormat>>();
             if !extension_file_formats.is_empty() {
@@ -225,13 +225,13 @@ mod tests {
     #[test]
     fn test_file_formats() {
         let file_formats = &*FILE_FORMATS;
-        assert_eq!(2464, file_formats.len());
+        assert_eq!(2608, file_formats.len());
     }
 
     #[test]
     fn test_extensions() {
         let extensions = &*EXTENSION_MAP;
-        assert_eq!(1658, extensions.len());
+        assert_eq!(1690, extensions.len());
     }
 
     #[test]

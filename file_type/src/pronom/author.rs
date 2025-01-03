@@ -5,14 +5,28 @@ use serde::{Deserialize, Serialize};
 pub struct Author {
     #[serde(rename = "AuthorID")]
     id: usize,
-    #[serde(rename = "AuthorName")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "AuthorName")]
     name: String,
+    #[serde(skip_serializing_if = "String::is_empty")]
     organisation_name: String,
-    #[serde(rename = "AuthorCompoundName")]
+    #[serde(
+        skip_serializing_if = "String::is_empty",
+        rename = "AuthorCompoundName"
+    )]
     compound_name: String,
 }
 
 impl Author {
+    /// Create a new author
+    pub fn new<S: AsRef<str>>(id: usize, name: S, organisation_name: S, compound_name: S) -> Self {
+        Self {
+            id,
+            name: name.as_ref().to_string(),
+            organisation_name: organisation_name.as_ref().to_string(),
+            compound_name: compound_name.as_ref().to_string(),
+        }
+    }
+
     /// Get the author ID
     #[must_use]
     pub fn id(&self) -> usize {
@@ -67,5 +81,14 @@ mod test {
         assert_eq!(author.organisation_name(), "Organization");
         assert_eq!(author.compound_name(), "Compound");
         Ok(())
+    }
+
+    #[test]
+    fn test_new() {
+        let author = Author::new(1, "Author", "Organization", "Compound");
+        assert_eq!(author.id(), 1);
+        assert_eq!(author.name(), "Author");
+        assert_eq!(author.organisation_name(), "Organization");
+        assert_eq!(author.compound_name(), "Compound");
     }
 }

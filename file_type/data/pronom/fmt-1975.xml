@@ -2,24 +2,13 @@
   <FormatID>2842</FormatID>
   <FormatName>ICC Profile</FormatName>
   <FormatVersion>2</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Dataset</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>An ICC Profile is a data set designed for color management information. It is used to describe how a peripheral renders colours, according to standards created by the International Color Consortium (ICC). This can be used to convert image files from one colour space to another or correct the colours of your images dependent on device. The file can appear by itself or embedded in certain graphics file formats. Prior to 1995 the ICC was known as the InterColor Consortium and the format was known as InterColor Profile.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName/>
   <ProvenanceSourceDate>17 Apr 2024</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
   <FormatNote>Specifications available at https://color.org/icc_specs2.xalter
 Examples available at https://www.color.org/profiles2.xalter</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>application/vnd.iccprofile</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -47,9 +36,6 @@ Examples available at https://www.color.org/profiles2.xalter</FormatNote>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>8</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>02{27}61637370</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

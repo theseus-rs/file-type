@@ -1,24 +1,13 @@
 <FileFormat>
   <FormatID>1913</FormatID>
   <FormatName>Hierarchical File System</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Aggregate</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Hierarchical File System (HFS) is a file system developed by Apple primarily for Mac OS. Within HFS a storage volume is divided into logical blocks of 512 bytes. The Hierarchical File System groups these logical blocks into allocation blocks, which can contain one or more logical blocks, depending on the total size of the volume.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
   <ProvenanceSourceDate>07 Nov 2017</ProvenanceSourceDate>
   <ProvenanceDescription>This entry and identification for Hierarchical File System was a collaborative effort involving the Open Preservation Foundation, Artefactual Systems, New York Public Libraries, The University of California, Los Angeles and The National Archives.</ProvenanceDescription>
   <LastUpdatedDate>07 Nov 2017</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1105</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -36,10 +25,6 @@
       <ByteSequenceID>1749</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>1024</Offset>
-      <MaxOffset/>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4244{12}0003{6}[!]00</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>

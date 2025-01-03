@@ -2,23 +2,12 @@
   <FormatID>2488</FormatID>
   <FormatName>Yamaha Wave Audio</FormatName>
   <FormatVersion>Generic</FormatVersion>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Audio</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Yamaha Wave Audio signature describes formats relevant to Yamaha Wave files, these formats are proprietary and created by Yamaha. There are several versions of these file formats with a numerous examples of extensions. This entry describes generic Yamaha wave format, and PRONOM holds a separate entry on Yamaha TX Wave Audio. Please contact the PRONOM team if you have more information regarding Yamaha Wave formats.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>29 Mar 2022</ProvenanceSourceDate>
-  <ProvenanceDescription/>
   <LastUpdatedDate>29 Mar 2022</LastUpdatedDate>
-  <FormatNote/>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1661</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -52,9 +41,6 @@
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>4C4D3839353300</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
@@ -62,6 +48,5 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2498</RelatedFormatID>
     <RelatedFormatName>Yamaha TX Wave Audio</RelatedFormatName>
-    <RelatedFormatVersion/>
   </RelatedFormat>
 </FileFormat>

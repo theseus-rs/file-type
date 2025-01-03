@@ -1,16 +1,8 @@
 <FileFormat>
   <FormatID>2634</FormatID>
   <FormatName>Animatic Film Format</FormatName>
-  <FormatVersion/>
-  <FormatAliases/>
-  <FormatFamilies/>
   <FormatTypes>Image (Raster)</FormatTypes>
-  <FormatDisclosure/>
   <FormatDescription>Animatic Film is an Atari animation format associated with the Animatic Animation System software by Kinetic Microsystems.</FormatDescription>
-  <BinaryFileFormat/>
-  <ByteOrders/>
-  <ReleaseDate/>
-  <WithdrawnDate/>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
   <ProvenanceSourceDate>25 Oct 2022</ProvenanceSourceDate>
@@ -19,8 +11,6 @@
   <FormatNote>http://fileformats.archiveteam.org/wiki/Animatic_Film
 
 https://temlib.org/AtariForumWiki/index.php/Animatic_Film_file_format</FormatNote>
-  <FormatRisk/>
-  <TechnicalEnvironment/>
   <FileFormatIdentifier>
     <Identifier>fmt/1784</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,9 +29,6 @@ https://temlib.org/AtariForumWiki/index.php/Animatic_Film_file_format</FormatNot
       <PositionType>Absolute from BOF</PositionType>
       <Offset>48</Offset>
       <MaxOffset>0</MaxOffset>
-      <IndirectOffsetLocation/>
-      <IndirectOffsetLength/>
-      <Endianness/>
       <ByteSequenceValue>27182818</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
