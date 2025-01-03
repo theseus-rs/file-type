@@ -357,11 +357,33 @@ mod tests {
         Ok(())
     }
 
+    fn replace_file_types(input: &str, replacement: &str) -> String {
+        let mut result = String::new();
+        let mut in_replacement_section = false;
+
+        for line in input.lines() {
+            if line.starts_with("<!--FILE_TYPES_BEGIN-->") {
+                in_replacement_section = true;
+                result.push_str(line);
+                result.push('\n');
+                result.push_str(replacement);
+                result.push('\n');
+            } else if line.ends_with("<!--FILE_TYPES_END-->") {
+                in_replacement_section = false;
+            }
+
+            if !in_replacement_section {
+                result.push_str(line);
+                result.push('\n');
+            }
+        }
+
+        result
+    }
+
     #[test]
     fn create_supported_formats() -> Result<()> {
-        let file_name = PathBuf::from(CRATE_DIR)
-            .join("..")
-            .join("../../FILE_TYPES.md");
+        let file_name = PathBuf::from(CRATE_DIR).join("..").join("README.md");
         let mut file_formats = FILE_FORMATS.values().collect::<Vec<_>>();
         file_formats.sort_by_key(|a| a.name().to_lowercase());
 
@@ -382,7 +404,10 @@ mod tests {
         let supported_formats = format!(
             "| | id | Name | Extensions | Media Types |\n| ---- | ---- | ---- | ----------- | ---------- |\n{file_formats}"
         );
-        std::fs::write(file_name, supported_formats)?;
+        // Read the existing file contents
+        let readme = read_to_string(file_name.clone())?;
+        let readme = replace_file_types(&readme, &supported_formats);
+        std::fs::write(file_name, readme)?;
         Ok(())
     }
 }
