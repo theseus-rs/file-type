@@ -4,6 +4,7 @@ use serde::{Deserialize, Deserializer};
 
 const DATE_FORMAT: &str = "%d %b %Y";
 
+/// Deserializer for a naive date
 pub fn deserialize_naive_date<'de, D>(deserializer: D) -> Result<Date, D::Error>
 where
     D: Deserializer<'de>,
@@ -13,6 +14,7 @@ where
     Ok(date)
 }
 
+/// Serializer for a naive date
 pub fn serialize_naive_date<S>(date: &Date, serializer: S) -> Result<S::Ok, S::Error>
 where
     S: serde::Serializer,
@@ -37,6 +39,7 @@ where
     }
 }
 
+/// Serializer for an optional naive date
 #[expect(clippy::ref_option)]
 pub fn serialize_option_naive_date<S>(date: &Option<Date>, serializer: S) -> Result<S::Ok, S::Error>
 where

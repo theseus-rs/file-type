@@ -51,7 +51,7 @@ impl ExternalSignature {
 #[cfg(test)]
 mod test {
     use super::*;
-    use crate::pronom::ByteSequence;
+    use crate::format::ByteSequence;
     use anyhow::Result;
     use indoc::indoc;
     use quick_xml::de::from_str;

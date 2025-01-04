@@ -1,4 +1,4 @@
-use crate::pronom::regex::Regex;
+use crate::format::regex::Regex;
 use serde::de::Error;
 use serde::{Deserialize, Deserializer, Serialize};
 use std::str::FromStr;

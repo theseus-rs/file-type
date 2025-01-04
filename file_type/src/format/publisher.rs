@@ -1,23 +1,24 @@
 use serde::{Deserialize, Serialize};
 
+/// The publisher of a record
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
 #[serde(default, rename_all = "PascalCase")]
-pub struct Author {
-    #[serde(rename = "AuthorID")]
+pub struct Publisher {
+    #[serde(rename = "PublisherID")]
     id: usize,
-    #[serde(skip_serializing_if = "String::is_empty", rename = "AuthorName")]
+    #[serde(skip_serializing_if = "String::is_empty", rename = "PublisherName")]
     name: String,
     #[serde(skip_serializing_if = "String::is_empty")]
     organisation_name: String,
     #[serde(
         skip_serializing_if = "String::is_empty",
-        rename = "AuthorCompoundName"
+        rename = "PublisherCompoundName"
     )]
     compound_name: String,
 }
 
-impl Author {
-    /// Create a new author
+impl Publisher {
+    /// Create a new publisher
     pub fn new<S: AsRef<str>>(id: usize, name: S, organisation_name: S, compound_name: S) -> Self {
         Self {
             id,
@@ -27,13 +28,13 @@ impl Author {
         }
     }
 
-    /// Get the author ID
+    /// Get the publisher ID
     #[must_use]
     pub fn id(&self) -> usize {
         self.id
     }
 
-    /// Get the author name
+    /// Get the publisher name
     #[must_use]
     pub fn name(&self) -> &str {
         &self.name
@@ -63,32 +64,32 @@ mod test {
     #[test]
     fn test_serde() -> Result<()> {
         let xml = indoc! {r"
-          <Author>
-            <AuthorID>1</AuthorID>
-            <AuthorName>Author</AuthorName>
+          <Publisher>
+            <PublisherID>1</PublisherID>
+            <PublisherName>Publisher</PublisherName>
             <OrganisationName>Organization</OrganisationName>
-            <AuthorCompoundName>Compound</AuthorCompoundName>
-          </Author>
+            <PublisherCompoundName>Compound</PublisherCompoundName>
+          </Publisher>
         "};
-        let author: Author = from_str(xml)?;
+        let publisher: Publisher = from_str(xml)?;
 
         // Test serialization
-        let xml = to_string(&author)?;
-        let author: Author = from_str(xml.as_str())?;
+        let xml = to_string(&publisher)?;
+        let publisher: Publisher = from_str(xml.as_str())?;
 
-        assert_eq!(author.id(), 1);
-        assert_eq!(author.name(), "Author");
-        assert_eq!(author.organisation_name(), "Organization");
-        assert_eq!(author.compound_name(), "Compound");
+        assert_eq!(publisher.id(), 1);
+        assert_eq!(publisher.name(), "Publisher");
+        assert_eq!(publisher.organisation_name(), "Organization");
+        assert_eq!(publisher.compound_name(), "Compound");
         Ok(())
     }
 
     #[test]
     fn test_new() {
-        let author = Author::new(1, "Author", "Organization", "Compound");
-        assert_eq!(author.id(), 1);
-        assert_eq!(author.name(), "Author");
-        assert_eq!(author.organisation_name(), "Organization");
-        assert_eq!(author.compound_name(), "Compound");
+        let publisher = Publisher::new(1, "Publisher", "Organization", "Compound");
+        assert_eq!(publisher.id(), 1);
+        assert_eq!(publisher.name(), "Publisher");
+        assert_eq!(publisher.organisation_name(), "Organization");
+        assert_eq!(publisher.compound_name(), "Compound");
     }
 }

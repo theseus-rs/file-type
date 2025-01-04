@@ -1,5 +1,5 @@
-use crate::pronom::external_signature::ExternalSignature;
-use crate::pronom::ByteSequence;
+use crate::format::external_signature::ExternalSignature;
+use crate::format::ByteSequence;
 use serde::{Deserialize, Serialize};
 
 /// An internal signature.
@@ -69,7 +69,7 @@ impl InternalSignature {
 #[cfg(test)]
 mod test {
     use super::*;
-    use crate::pronom::ByteSequence;
+    use crate::format::ByteSequence;
     use anyhow::Result;
     use indoc::indoc;
     use quick_xml::de::from_str;

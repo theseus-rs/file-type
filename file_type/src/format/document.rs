@@ -1,9 +1,10 @@
-use crate::pronom::serde::{deserialize_option_naive_date, serialize_option_naive_date};
-use crate::pronom::{Author, DocumentIdentifier, Publisher};
+use crate::format::serde::{deserialize_option_naive_date, serialize_option_naive_date};
+use crate::format::{Author, DocumentIdentifier, Publisher};
 use jiff::civil::Date;
 use serde::de::Error;
 use serde::{Deserialize, Deserializer, Serialize};
 
+/// A document providing information about a file format
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
 #[serde(default, rename_all = "PascalCase")]
 pub struct Document {

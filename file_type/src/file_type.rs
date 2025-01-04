@@ -1,4 +1,4 @@
-use crate::pronom::FileFormat;
+use crate::format::FileFormat;
 use crate::Error::UnknownFileType;
 use crate::{file_types, Result};
 use std::io::{Read, Seek};
@@ -21,7 +21,7 @@ use tokio::runtime::Builder;
 /// let file_type = FileType::from_bytes(b"\xCA\xFE\xBA\xBE");
 /// assert_eq!(file_type.name(), "Java Class File");
 /// assert_eq!(file_type.media_types(), Vec::<String>::new());
-/// assert_eq!(file_type.extensions(), vec!["class".to_string()]);
+/// assert_eq!(file_type.extensions(), vec!["class"]);
 /// ```
 ///
 /// Detect text from bytes:
@@ -30,7 +30,7 @@ use tokio::runtime::Builder;
 ///
 /// let file_type = FileType::from_bytes(b"hello, world\n");
 /// assert_eq!(file_type.name(), "Text");
-/// assert_eq!(file_type.media_types(), vec!["text/plain".to_string()]);
+/// assert_eq!(file_type.media_types(), vec!["text/plain"]);
 /// assert_eq!(file_type.extensions(), Vec::<String>::new());
 /// ```
 #[derive(Clone, Debug)]
@@ -45,42 +45,103 @@ impl FileType {
     }
 
     /// Get the file type identifier.
+    ///
+    /// # Example
+    /// ```
+    /// use file_type::FileType;
+    ///
+    /// let file_type = FileType::from_id("fmt/11").expect("file type not found");
+    /// assert_eq!(file_type.id(), "fmt/11");
+    /// ```
     #[must_use]
     pub fn id(&self) -> &str {
         self.file_format.puid()
     }
 
     /// Get the human-readable name of the file type
+    ///
+    /// # Example
+    /// ```
+    /// use file_type::FileType;
+    ///
+    /// let file_type = FileType::from_id("fmt/11").expect("file type not found");
+    /// assert_eq!(file_type.name(), "Portable Network Graphics");
+    /// ```
     #[must_use]
     pub fn name(&self) -> &str {
         self.file_format.name()
     }
 
-    /// Get the [Media Type](https://www.rfc-editor.org/rfc/rfc2046.html)
-    #[must_use]
-    pub fn media_types(&self) -> Vec<&str> {
-        self.file_format.media_types()
-    }
-
     /// Get the file type extensions
+    ///
+    /// # Example
+    /// ```
+    /// use file_type::FileType;
+    ///
+    /// let file_type = FileType::from_id("fmt/11").expect("file type not found");
+    /// assert_eq!(file_type.extensions(), vec!["png"]);
+    /// ```
     #[must_use]
     pub fn extensions(&self) -> Vec<&str> {
         self.file_format.extensions()
     }
 
-    /// Get the file format
+    /// Get the [Media Type](https://www.rfc-editor.org/rfc/rfc2046.html)
+    ///
+    /// # Example
+    /// ```
+    /// use file_type::FileType;
+    ///
+    /// let file_type = FileType::from_id("fmt/11").expect("file type not found");
+    /// assert_eq!(file_type.media_types(), vec!["image/png"]);
+    /// ```
+    #[must_use]
+    pub fn media_types(&self) -> Vec<&str> {
+        self.file_format.media_types()
+    }
+
+    /// Get the detailed file format information for this file type.
+    ///
+    /// # Example
+    /// ```
+    /// use file_type::FileType;
+    ///
+    /// let file_type = FileType::from_id("fmt/11").expect("file type not found");
+    /// assert_eq!(file_type.file_format().version(), "1.0");
+    /// ```
     #[must_use]
     pub fn file_format(&self) -> &FileFormat {
         &self.file_format
     }
 
     /// Get the file type for an identifier.
+    ///
+    /// # Example
+    /// ```
+    /// use file_type::FileType;
+    ///
+    /// let file_type = FileType::from_id("fmt/11").expect("file type not found");
+    /// assert_eq!(file_type.name(), "Portable Network Graphics");
+    /// assert_eq!(file_type.extensions(), vec!["png"]);
+    /// assert_eq!(file_type.media_types(), vec!["image/png"]);
+    /// ```
     #[must_use]
     pub fn from_id<S: AsRef<str>>(id: S) -> Option<&'static Self> {
         file_types::from_id(id)
     }
 
     /// Get the file types for a given extension.
+    ///
+    /// # Example
+    /// ```
+    /// use file_type::FileType;
+    ///
+    /// let file_types = FileType::from_extension("md");
+    /// assert_eq!(1, file_types.len());
+    /// let file_type = file_types.first().expect("file format");
+    /// assert_eq!(file_type.name(), "Markdown");
+    /// assert_eq!(file_type.media_types(), vec!["text/markdown"]);
+    /// ```
     #[must_use]
     pub fn from_extension<S: AsRef<str>>(extension: S) -> &'static Vec<&'static Self> {
         file_types::from_extension(extension)
@@ -89,12 +150,33 @@ impl FileType {
     const EMPTY_MEDIA_TYPES: Vec<&'static FileType> = Vec::new();
 
     /// Get the file types for a given media type.
+    ///
+    /// # Example
+    /// ```
+    /// use file_type::FileType;
+    ///
+    /// let file_types = FileType::from_media_type("text/markdown");
+    /// assert_eq!(1, file_types.len());
+    /// let file_type = file_types.first().expect("file format");
+    /// assert_eq!(file_type.name(), "Markdown");
+    /// assert_eq!(file_type.extensions(), vec!["md", "markdown"]);
+    /// ```
     #[must_use]
     pub fn from_media_type<S: AsRef<str>>(media_type: S) -> &'static Vec<&'static Self> {
         file_types::from_media_type(media_type)
     }
 
     /// Attempt to determine the `FileType` from a byte slice.
+    ///
+    /// # Example
+    /// ```
+    /// use file_type::FileType;
+    ///
+    /// let file_type = FileType::from_bytes(b"\xCA\xFE\xBA\xBE");
+    /// assert_eq!(file_type.name(), "Java Class File");
+    /// assert_eq!(file_type.media_types(), Vec::<String>::new());
+    /// assert_eq!(file_type.extensions(), vec!["class"]);
+    /// ```
     pub fn from_bytes<B: AsRef<[u8]>>(bytes: B) -> &'static Self {
         file_types::from_bytes(bytes, None)
     }
@@ -103,9 +185,26 @@ impl FileType {
     ///
     /// # Errors
     /// if the file type is unknown
+    ///
+    /// # Example
+    /// ```
+    /// use file_type::FileType;
+    /// use tokio::io::BufReader;
+    ///
+    /// #[tokio::main]
+    /// async fn main() {
+    ///     let bytes = b"\xCA\xFE\xBA\xBE";
+    ///     let reader = BufReader::new(&bytes[..]);
+    ///     let file_type = FileType::try_from_reader(reader).await.expect("file type not found");
+    ///     assert_eq!(file_type.id(), "x-fmt/415");
+    ///     assert_eq!(file_type.name(), "Java Class File");
+    ///     assert_eq!(file_type.extensions(), vec!["class"]);
+    ///     assert_eq!(file_type.media_types(), Vec::<String>::new());
+    /// }
+    /// ```
     pub async fn try_from_reader<R>(reader: R) -> Result<&'static Self>
     where
-        R: AsyncRead + AsyncSeek + Unpin,
+        R: AsyncRead + Unpin,
     {
         file_types::try_from_reader(reader, None).await
     }
@@ -114,6 +213,22 @@ impl FileType {
     ///
     /// # Errors
     /// if the file type is unknown
+    ///
+    /// # Example
+    /// ```no_run
+    /// use file_type::FileType;
+    /// use std::path::Path;
+    ///
+    /// #[tokio::main]
+    /// async fn main() {
+    ///     let file_path = Path::new("image.png");
+    ///     let file_type = FileType::try_from_file(file_path).await.expect("file type not found");
+    ///     assert_eq!(file_type.id(), "fmt/11");
+    ///     assert_eq!(file_type.name(), "Portable Network Graphics");
+    ///     assert_eq!(file_type.extensions(), vec!["png"]);
+    ///     assert_eq!(file_type.media_types(), vec!["image/png"]);
+    /// }
+    /// ```
     pub async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static Self> {
         file_types::try_from_file(path).await
     }
@@ -122,7 +237,21 @@ impl FileType {
     ///
     /// # Errors
     /// if the file type is unknown
-    pub fn try_from_reader_sync<R: Read + Seek>(reader: R) -> Result<&'static Self> {
+    ///
+    /// # Example
+    /// ```
+    /// use file_type::FileType;
+    /// use std::io::BufReader;
+    ///
+    /// let bytes = b"\xCA\xFE\xBA\xBE";
+    /// let reader = BufReader::new(&bytes[..]);
+    /// let file_type = FileType::try_from_reader_sync(reader).expect("file type not found");
+    /// assert_eq!(file_type.id(), "x-fmt/415");
+    /// assert_eq!(file_type.name(), "Java Class File");
+    /// assert_eq!(file_type.extensions(), vec!["class"]);
+    /// assert_eq!(file_type.media_types(), Vec::<String>::new());
+    /// ```
+    pub fn try_from_reader_sync<R: Read>(reader: R) -> Result<&'static Self> {
         file_types::try_from_reader_sync(reader, None)
     }
 
@@ -130,6 +259,19 @@ impl FileType {
     ///
     /// # Errors
     /// if the file type is unknown
+    ///
+    /// # Example
+    /// ```no_run
+    /// use file_type::FileType;
+    /// use std::path::Path;
+    ///
+    /// let file_path = Path::new("image.png");
+    /// let file_type = FileType::try_from_file_sync(file_path).expect("file type not found");
+    /// assert_eq!(file_type.id(), "fmt/11");
+    /// assert_eq!(file_type.name(), "Portable Network Graphics");
+    /// assert_eq!(file_type.extensions(), vec!["png"]);
+    /// assert_eq!(file_type.media_types(), vec!["image/png"]);
+    /// ```
     pub fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<&'static Self> {
         file_types::try_from_file_sync(path)
     }
@@ -153,8 +295,8 @@ mod tests {
         let file_type = FileType::from_id("fmt/11").expect("file type not found");
         assert_eq!(file_type.id(), "fmt/11");
         assert_eq!(file_type.name(), "Portable Network Graphics");
-        assert_eq!(file_type.media_types(), vec!["image/png".to_string()]);
-        assert_eq!(file_type.extensions(), vec!["png".to_string()]);
+        assert_eq!(file_type.extensions(), vec!["png"]);
+        assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.file_format().id(), 664);
     }
 
@@ -170,8 +312,8 @@ mod tests {
         assert_eq!(1, file_types.len());
         let file_type = file_types.first().expect("file format");
         assert_eq!(file_type.id(), "fmt/1149");
-        assert_eq!(file_type.media_types(), vec!["text/markdown".to_string()]);
         assert_eq!(file_type.name(), "Markdown");
+        assert_eq!(file_type.media_types(), vec!["text/markdown"]);
     }
 
     #[test]
@@ -186,11 +328,8 @@ mod tests {
         assert_eq!(1, file_types.len());
         let file_type = file_types.first().expect("file format");
         assert_eq!(file_type.id(), "fmt/1149");
-        assert_eq!(
-            file_type.extensions(),
-            vec!["md".to_string(), "markdown".to_string()]
-        );
         assert_eq!(file_type.name(), "Markdown");
+        assert_eq!(file_type.extensions(), vec!["md", "markdown"]);
     }
 
     #[test]
@@ -205,20 +344,19 @@ mod tests {
         let file_type = FileType::from_bytes(value.as_slice());
         assert_eq!(file_type.id(), "default/1");
         assert_eq!(file_type.name(), "Text");
-        assert_eq!(file_type.media_types(), vec!["text/plain".to_string()]);
         assert_eq!(file_type.extensions(), Vec::<String>::new());
+        assert_eq!(file_type.media_types(), vec!["text/plain"]);
     }
 
     #[tokio::test]
     async fn test_try_from_reader() -> Result<()> {
-        let file_path = test_file_path();
-        let file = tokio::fs::File::open(file_path).await?;
-        let reader = tokio::io::BufReader::new(file);
+        let bytes = b"\xCA\xFE\xBA\xBE";
+        let reader = tokio::io::BufReader::new(&bytes[..]);
         let file_type = FileType::try_from_reader(reader).await?;
-        assert_eq!(file_type.id(), "fmt/11");
-        assert_eq!(file_type.name(), "Portable Network Graphics");
-        assert_eq!(file_type.media_types(), vec!["image/png".to_string()]);
-        assert_eq!(file_type.extensions(), vec!["png".to_string()]);
+        assert_eq!(file_type.id(), "x-fmt/415");
+        assert_eq!(file_type.name(), "Java Class File");
+        assert_eq!(file_type.extensions(), vec!["class"]);
+        assert_eq!(file_type.media_types(), Vec::<String>::new());
         Ok(())
     }
 
@@ -228,21 +366,20 @@ mod tests {
         let file_type = FileType::try_from_file(file_path).await?;
         assert_eq!(file_type.id(), "fmt/11");
         assert_eq!(file_type.name(), "Portable Network Graphics");
-        assert_eq!(file_type.media_types(), vec!["image/png".to_string()]);
-        assert_eq!(file_type.extensions(), vec!["png".to_string()]);
+        assert_eq!(file_type.extensions(), vec!["png"]);
+        assert_eq!(file_type.media_types(), vec!["image/png"]);
         Ok(())
     }
 
     #[test]
     fn test_try_from_reader_sync() -> Result<()> {
-        let file_path = test_file_path();
-        let file = std::fs::File::open(file_path)?;
-        let reader = std::io::BufReader::new(file);
+        let bytes = b"\xCA\xFE\xBA\xBE";
+        let reader = std::io::BufReader::new(&bytes[..]);
         let file_type = FileType::try_from_reader_sync(reader)?;
-        assert_eq!(file_type.id(), "fmt/11");
-        assert_eq!(file_type.name(), "Portable Network Graphics");
-        assert_eq!(file_type.media_types(), vec!["image/png".to_string()]);
-        assert_eq!(file_type.extensions(), vec!["png".to_string()]);
+        assert_eq!(file_type.id(), "x-fmt/415");
+        assert_eq!(file_type.name(), "Java Class File");
+        assert_eq!(file_type.extensions(), vec!["class"]);
+        assert_eq!(file_type.media_types(), Vec::<String>::new());
         Ok(())
     }
 
@@ -252,8 +389,8 @@ mod tests {
         let file_type = FileType::try_from_file_sync(file_path)?;
         assert_eq!(file_type.id(), "fmt/11");
         assert_eq!(file_type.name(), "Portable Network Graphics");
-        assert_eq!(file_type.media_types(), vec!["image/png".to_string()]);
-        assert_eq!(file_type.extensions(), vec!["png".to_string()]);
+        assert_eq!(file_type.extensions(), vec!["png"]);
+        assert_eq!(file_type.media_types(), vec!["image/png"]);
         Ok(())
     }
 }

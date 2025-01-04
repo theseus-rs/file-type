@@ -1,14 +1,15 @@
-use crate::pronom::serde::{
+use crate::format::serde::{
     deserialize_naive_date, deserialize_option_naive_date, serialize_naive_date,
     serialize_option_naive_date,
 };
-use crate::pronom::{
+use crate::format::{
     CompressionType, Document, DocumentIdentifier, ExternalSignature, InternalSignature,
     RelatedFormat,
 };
 use jiff::civil::Date;
 use serde::{Deserialize, Serialize};
 
+/// The types of file formats
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
 pub enum FormatTypes {
     Aggregate,
@@ -24,6 +25,7 @@ pub enum FormatTypes {
     Presentation,
 }
 
+/// A file format and its associated information
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
 #[serde(default, rename_all = "PascalCase")]
 pub struct FileFormat {
@@ -360,8 +362,8 @@ impl FileFormat {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::pronom::external_signature::SignatureType;
-    use crate::pronom::{Author, ByteSequence, Endianness, PositionType};
+    use crate::format::external_signature::SignatureType;
+    use crate::format::{Author, ByteSequence, Endianness, PositionType};
     use indoc::indoc;
     use quick_xml::de::from_str;
     use quick_xml::se::to_string;
