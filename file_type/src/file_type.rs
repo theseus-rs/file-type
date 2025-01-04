@@ -1,6 +1,6 @@
 use crate::pronom::FileFormat;
 use crate::Error::UnknownFileType;
-use crate::{file_formats, Result};
+use crate::{file_types, Result};
 use std::io::{Read, Seek};
 use std::path::Path;
 use tokio::io::{AsyncRead, AsyncSeek};
@@ -35,10 +35,15 @@ use tokio::runtime::Builder;
 /// ```
 #[derive(Clone, Debug)]
 pub struct FileType {
-    file_format: &'static FileFormat,
+    file_format: FileFormat,
 }
 
 impl FileType {
+    /// Create a new `FileType` from a `FileFormat`.
+    pub(crate) fn new(file_format: FileFormat) -> Self {
+        FileType { file_format }
+    }
+
     /// Get the file type identifier.
     #[must_use]
     pub fn id(&self) -> &str {
@@ -65,100 +70,74 @@ impl FileType {
 
     /// Get the file format
     #[must_use]
-    pub fn file_format(&self) -> &'static FileFormat {
-        self.file_format
+    pub fn file_format(&self) -> &FileFormat {
+        &self.file_format
     }
 
     /// Get the file type for an identifier.
     #[must_use]
-    pub fn from_id<S: AsRef<str>>(id: S) -> Option<Self> {
-        let file_format = file_formats::from_id(id)?;
-        Some(FileType { file_format })
+    pub fn from_id<S: AsRef<str>>(id: S) -> Option<&'static Self> {
+        file_types::from_id(id)
     }
 
     /// Get the file types for a given extension.
     #[must_use]
-    pub fn from_extension<S: AsRef<str>>(extension: S) -> Vec<Self> {
-        file_formats::from_extension(extension)
-            .into_iter()
-            .map(|file_format| FileType { file_format })
-            .collect()
+    pub fn from_extension<S: AsRef<str>>(extension: S) -> &'static Vec<&'static Self> {
+        file_types::from_extension(extension)
     }
+
+    const EMPTY_MEDIA_TYPES: Vec<&'static FileType> = Vec::new();
 
     /// Get the file types for a given media type.
     #[must_use]
-    pub fn from_media_type<S: AsRef<str>>(media_type: S) -> Vec<Self> {
-        file_formats::from_media_type(media_type)
-            .into_iter()
-            .map(|file_format| FileType { file_format })
-            .collect()
+    pub fn from_media_type<S: AsRef<str>>(media_type: S) -> &'static Vec<&'static Self> {
+        file_types::from_media_type(media_type)
     }
 
     /// Attempt to determine the `FileType` from a byte slice.
-    ///
-    /// # Errors
-    /// if the file type is unknown
-    pub fn from_bytes<B: AsRef<[u8]>>(bytes: B) -> Self {
-        let file_format = file_formats::from_bytes(bytes, None);
-        FileType { file_format }
+    pub fn from_bytes<B: AsRef<[u8]>>(bytes: B) -> &'static Self {
+        file_types::from_bytes(bytes, None)
     }
 
     /// Attempt to determine the `FileType` from a reader.
     ///
     /// # Errors
     /// if the file type is unknown
-    pub async fn try_from_reader<R>(reader: R) -> Result<Self>
+    pub async fn try_from_reader<R>(reader: R) -> Result<&'static Self>
     where
         R: AsyncRead + AsyncSeek + Unpin,
     {
-        let file_format = file_formats::try_from_reader(reader, None).await?;
-        Ok(FileType { file_format })
+        file_types::try_from_reader(reader, None).await
     }
 
     /// Attempt to determine the `FileType` from a file.
     ///
     /// # Errors
     /// if the file type is unknown
-    pub async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<Self> {
-        let file_format = file_formats::try_from_file(path).await?;
-        Ok(FileType { file_format })
+    pub async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static Self> {
+        file_types::try_from_file(path).await
     }
 
     /// Attempt to determine the `FileType` from a reader synchronously.
     ///
     /// # Errors
     /// if the file type is unknown
-    pub fn try_from_reader_sync<R: Read + Seek>(reader: R) -> Result<Self> {
-        let file_format = file_formats::try_from_reader_sync(reader, None)?;
-        Ok(FileType { file_format })
+    pub fn try_from_reader_sync<R: Read + Seek>(reader: R) -> Result<&'static Self> {
+        file_types::try_from_reader_sync(reader, None)
     }
 
     /// Attempt to determine the `FileType` from a file synchronously.
     ///
     /// # Errors
     /// if the file type is unknown
-    pub fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<Self> {
-        let file_format = file_formats::try_from_file_sync(path)?;
-        Ok(FileType { file_format })
-    }
-}
-
-impl TryFrom<&[u8]> for FileType {
-    type Error = crate::Error;
-
-    /// Attempt to determine the `FileType` from a byte slice.
-    ///
-    /// # Errors
-    /// if the file type is unknown.
-    fn try_from(bytes: &[u8]) -> Result<Self, Self::Error> {
-        Ok(FileType::from_bytes(bytes))
+    pub fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<&'static Self> {
+        file_types::try_from_file_sync(path)
     }
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::file_formats::{from_extension, from_media_type};
     use std::path::PathBuf;
 
     const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
@@ -275,17 +254,6 @@ mod tests {
         assert_eq!(file_type.name(), "Portable Network Graphics");
         assert_eq!(file_type.media_types(), vec!["image/png".to_string()]);
         assert_eq!(file_type.extensions(), vec!["png".to_string()]);
-        Ok(())
-    }
-
-    #[test]
-    fn test_try_from() -> Result<()> {
-        let value = Vec::new();
-        let file_type = FileType::try_from(value.as_slice())?;
-        assert_eq!(file_type.id(), "default/1");
-        assert_eq!(file_type.name(), "Text");
-        assert_eq!(file_type.media_types(), vec!["text/plain".to_string()]);
-        assert_eq!(file_type.extensions(), Vec::<String>::new());
         Ok(())
     }
 }
