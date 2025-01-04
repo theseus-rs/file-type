@@ -1,5 +1,13 @@
 use serde::{Deserialize, Serialize};
 
+/// The type of signature.
+#[derive(Clone, Debug, Default, Deserialize, Serialize)]
+pub enum SignatureType {
+    #[default]
+    #[serde(rename = "File extension")]
+    FileExtension,
+}
+
 /// An external signature.
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
 #[serde(default, rename_all = "PascalCase")]
@@ -8,16 +16,16 @@ pub struct ExternalSignature {
     id: usize,
     signature: String,
     #[serde(rename = "SignatureType")]
-    r#type: String,
+    r#type: SignatureType,
 }
 
 impl ExternalSignature {
     /// Create a new external signature.
-    pub fn new<S: AsRef<str>>(id: usize, signature: S, r#type: S) -> Self {
+    pub fn new<S: AsRef<str>>(id: usize, signature: S, r#type: SignatureType) -> Self {
         Self {
             id,
             signature: signature.as_ref().to_string(),
-            r#type: r#type.as_ref().to_string(),
+            r#type,
         }
     }
 
@@ -35,7 +43,7 @@ impl ExternalSignature {
 
     /// Get the type of the signature.
     #[must_use]
-    pub fn r#type(&self) -> &str {
+    pub fn r#type(&self) -> &SignatureType {
         &self.r#type
     }
 }
@@ -65,16 +73,22 @@ mod test {
         let external_signature: ExternalSignature = from_str(xml.as_str())?;
 
         assert_eq!(external_signature.id(), 2421);
+        assert!(matches!(
+            external_signature.r#type(),
+            SignatureType::FileExtension
+        ));
         assert_eq!(external_signature.signature(), "json");
-        assert_eq!(external_signature.r#type(), "File extension");
         Ok(())
     }
 
     #[test]
     fn test_new() {
-        let external_signature = ExternalSignature::new(2421, "json", "File extension");
+        let external_signature = ExternalSignature::new(2421, "json", SignatureType::FileExtension);
         assert_eq!(external_signature.id(), 2421);
+        assert!(matches!(
+            external_signature.r#type(),
+            SignatureType::FileExtension
+        ));
         assert_eq!(external_signature.signature(), "json");
-        assert_eq!(external_signature.r#type(), "File extension");
     }
 }

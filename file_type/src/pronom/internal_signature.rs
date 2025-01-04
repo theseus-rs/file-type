@@ -59,9 +59,10 @@ impl InternalSignature {
     /// Check if this internal signature is a match for the given bytes
     #[must_use]
     pub fn is_match(&self, bytes: &[u8]) -> bool {
+        // All byte sequences must match in order for the internal signature to match
         self.byte_sequences
             .iter()
-            .any(|byte_sequence| byte_sequence.is_match(bytes))
+            .all(|byte_sequence| byte_sequence.is_match(bytes))
     }
 }
 

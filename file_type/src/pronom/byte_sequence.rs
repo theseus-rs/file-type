@@ -149,7 +149,10 @@ impl ByteSequence {
             }
             PositionType::AbsoluteFromEOF => {
                 let offset = self.offset.unwrap_or_default();
-                let offset = usize::checked_sub(bytes.len(), offset).unwrap_or(0);
+                let value = self.regex.to_string();
+                let regex_len = value.len() / 2;
+                let offset = usize::checked_add(regex_len, offset).unwrap_or(regex_len);
+                let offset = usize::checked_sub(bytes.len(), offset).unwrap_or(bytes.len());
                 self.regex.is_match_at(bytes, offset)
             }
             PositionType::Variable => {

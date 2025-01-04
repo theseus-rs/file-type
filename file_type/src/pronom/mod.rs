@@ -16,7 +16,7 @@ pub use byte_sequence::{ByteSequence, Endianness, PositionType};
 pub use compression_type::{CompressionType, Lossiness};
 pub use document::Document;
 pub use document_identifier::DocumentIdentifier;
-pub use external_signature::ExternalSignature;
+pub use external_signature::{ExternalSignature, SignatureType};
 pub use file_format::FileFormat;
 pub use internal_signature::InternalSignature;
 pub use publisher::Publisher;
