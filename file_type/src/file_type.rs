@@ -35,7 +35,7 @@ use tokio::runtime::Builder;
 /// ```
 #[derive(Clone, Debug)]
 pub struct FileType {
-    file_format: FileFormat,
+    file_format: &'static FileFormat,
 }
 
 impl FileType {
@@ -65,8 +65,8 @@ impl FileType {
 
     /// Get the file format
     #[must_use]
-    pub fn file_format(&self) -> &FileFormat {
-        &self.file_format
+    pub fn file_format(&self) -> &'static FileFormat {
+        self.file_format
     }
 
     /// Get the file type for an identifier.
