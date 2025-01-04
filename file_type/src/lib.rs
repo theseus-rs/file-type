@@ -50,8 +50,8 @@
 #![deny(clippy::unwrap_used)]
 
 mod error;
-mod file_formats;
 mod file_type;
+mod file_types;
 pub mod pronom;
 
 pub use error::{Error, Result};
