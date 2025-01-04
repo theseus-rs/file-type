@@ -4,7 +4,7 @@
 #![deny(clippy::unwrap_used)]
 
 use anyhow::Result;
-use file_type::pronom::{DocumentIdentifier, ExternalSignature, FileFormat};
+use file_type::pronom::{DocumentIdentifier, ExternalSignature, FileFormat, SignatureType};
 use file_type::FileType;
 use jiff::civil::Date;
 use jiff::tz::TimeZone;
@@ -128,7 +128,7 @@ fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Result<Vec<Fi
             .iter()
             .enumerate()
             .map(|(index, extension)| {
-                ExternalSignature::new(index, extension.as_str(), "File extension")
+                ExternalSignature::new(index, extension.as_str(), SignatureType::FileExtension)
             })
             .collect::<Vec<ExternalSignature>>();
 

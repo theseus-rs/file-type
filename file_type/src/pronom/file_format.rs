@@ -360,6 +360,7 @@ impl FileFormat {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::pronom::external_signature::SignatureType;
     use crate::pronom::{Author, ByteSequence, Endianness, PositionType};
     use indoc::indoc;
     use quick_xml::de::from_str;
@@ -538,7 +539,7 @@ mod tests {
             ],
             vec![],
             vec![
-                ExternalSignature::new(761, "png", "File extension"),
+                ExternalSignature::new(761, "png", SignatureType::FileExtension),
             ],
             vec![],
             vec![],
