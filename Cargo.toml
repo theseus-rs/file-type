@@ -21,7 +21,7 @@ keywords = ["file", "file-type", "format"]
 license = "(Apache-2.0 OR MIT) AND OGL-UK-3.0"
 repository = "https://github.com/theseus-rs/file-type"
 rust-version = "1.83.0"
-version = "0.0.3"
+version = "0.0.4"
 
 [workspace.dependencies]
 anyhow = "1.0.95"
