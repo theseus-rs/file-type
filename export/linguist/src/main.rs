@@ -4,7 +4,7 @@
 #![deny(clippy::unwrap_used)]
 
 use anyhow::Result;
-use file_type::pronom::{DocumentIdentifier, ExternalSignature, FileFormat, SignatureType};
+use file_type::format::{DocumentIdentifier, ExternalSignature, FileFormat, SignatureType};
 use file_type::FileType;
 use jiff::civil::Date;
 use jiff::tz::TimeZone;

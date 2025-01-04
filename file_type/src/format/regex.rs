@@ -6,8 +6,9 @@ use std::fmt::Display;
 use std::io::{self, BufRead, BufReader, Read};
 use std::str::from_utf8;
 
+/// A token to match against a byte stream
 #[derive(Clone, Debug, PartialEq)]
-pub enum Token {
+enum Token {
     Any(Vec<Vec<Token>>),
     AnyWildcard,
     Literal(Vec<u8>),

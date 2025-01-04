@@ -1,4 +1,4 @@
-use file_type::pronom::FileFormat;
+use file_type::format::FileFormat;
 use serde::{Deserialize, Serialize};
 
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]

@@ -1,9 +1,10 @@
-use crate::pronom::serde::{deserialize_option_naive_date, serialize_option_naive_date};
-use crate::pronom::DocumentIdentifier;
+use crate::format::serde::{deserialize_option_naive_date, serialize_option_naive_date};
+use crate::format::DocumentIdentifier;
 use jiff::civil::Date;
 use serde::de::Error;
 use serde::{Deserialize, Deserializer, Serialize};
 
+/// The lossiness of a compression type
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
 pub enum Lossiness {
     Lossy,

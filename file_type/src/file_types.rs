@@ -1,4 +1,4 @@
-use crate::pronom::FileFormat;
+use crate::format::FileFormat;
 use crate::{file_types, FileType, Result};
 use include_dir::{include_dir, Dir, DirEntry};
 use quick_xml::de::from_str;
@@ -167,7 +167,7 @@ pub(crate) async fn try_from_reader<R>(
     extension: Option<&str>,
 ) -> Result<&'static FileType>
 where
-    R: AsyncRead + AsyncSeek + Unpin,
+    R: AsyncRead + Unpin,
 {
     let mut buffer = Vec::new();
     reader.read_to_end(&mut buffer).await?;
@@ -198,13 +198,10 @@ pub(crate) async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static Fi
 ///
 /// # Errors
 /// if the file type is unknown
-pub(crate) fn try_from_reader_sync<R>(
+pub(crate) fn try_from_reader_sync<R: Read>(
     mut reader: R,
     extension: Option<&str>,
-) -> Result<&'static FileType>
-where
-    R: Read + Seek,
-{
+) -> Result<&'static FileType> {
     let mut buffer = Vec::new();
     reader.read_to_end(&mut buffer)?;
     let bytes = buffer.as_slice();
@@ -262,8 +259,8 @@ mod tests {
         let file_type = from_id("fmt/11").expect("file format");
         assert_eq!(file_type.id(), "fmt/11");
         assert_eq!(file_type.name(), "Portable Network Graphics");
-        assert_eq!(file_type.media_types(), vec!["image/png".to_string()]);
-        assert_eq!(file_type.extensions(), vec!["png".to_string()]);
+        assert_eq!(file_type.media_types(), vec!["image/png"]);
+        assert_eq!(file_type.extensions(), vec!["png"]);
     }
 
     #[test]
@@ -279,11 +276,8 @@ mod tests {
         let file_type = file_types.first().expect("file format");
         assert_eq!(file_type.id(), "fmt/1149");
         assert_eq!(file_type.name(), "Markdown");
-        assert_eq!(file_type.media_types(), vec!["text/markdown".to_string()]);
-        assert_eq!(
-            file_type.extensions(),
-            vec!["md".to_string(), "markdown".to_string()]
-        );
+        assert_eq!(file_type.media_types(), vec!["text/markdown"]);
+        assert_eq!(file_type.extensions(), vec!["md", "markdown"]);
     }
 
     #[test]
@@ -299,11 +293,8 @@ mod tests {
         let file_type = file_types.first().expect("file format");
         assert_eq!(file_type.id(), "fmt/1149");
         assert_eq!(file_type.name(), "Markdown");
-        assert_eq!(file_type.media_types(), vec!["text/markdown".to_string()]);
-        assert_eq!(
-            file_type.extensions(),
-            vec!["md".to_string(), "markdown".to_string()]
-        );
+        assert_eq!(file_type.media_types(), vec!["text/markdown"]);
+        assert_eq!(file_type.extensions(), vec!["md", "markdown"]);
     }
 
     #[test]
@@ -313,7 +304,7 @@ mod tests {
         assert_eq!(file_type.id(), "x-fmt/415");
         assert_eq!(file_type.name(), "Java Class File");
         assert_eq!(file_type.media_types(), Vec::<String>::new());
-        assert_eq!(file_type.extensions(), vec!["class".to_string()]);
+        assert_eq!(file_type.extensions(), vec!["class"]);
     }
 
     #[tokio::test]
@@ -324,8 +315,8 @@ mod tests {
         let file_type = try_from_reader(reader, None).await?;
         assert_eq!(file_type.id(), "fmt/11");
         assert_eq!(file_type.name(), "Portable Network Graphics");
-        assert_eq!(file_type.media_types(), vec!["image/png".to_string()]);
-        assert_eq!(file_type.extensions(), vec!["png".to_string()]);
+        assert_eq!(file_type.media_types(), vec!["image/png"]);
+        assert_eq!(file_type.extensions(), vec!["png"]);
         Ok(())
     }
 
@@ -335,8 +326,8 @@ mod tests {
         let file_type = try_from_file(file_path).await?;
         assert_eq!(file_type.id(), "fmt/11");
         assert_eq!(file_type.name(), "Portable Network Graphics");
-        assert_eq!(file_type.media_types(), vec!["image/png".to_string()]);
-        assert_eq!(file_type.extensions(), vec!["png".to_string()]);
+        assert_eq!(file_type.media_types(), vec!["image/png"]);
+        assert_eq!(file_type.extensions(), vec!["png"]);
         Ok(())
     }
 
@@ -348,8 +339,8 @@ mod tests {
         let file_type = try_from_reader_sync(reader, None)?;
         assert_eq!(file_type.id(), "fmt/11");
         assert_eq!(file_type.name(), "Portable Network Graphics");
-        assert_eq!(file_type.media_types(), vec!["image/png".to_string()]);
-        assert_eq!(file_type.extensions(), vec!["png".to_string()]);
+        assert_eq!(file_type.media_types(), vec!["image/png"]);
+        assert_eq!(file_type.extensions(), vec!["png"]);
         Ok(())
     }
 
@@ -359,8 +350,8 @@ mod tests {
         let file_type = try_from_file_sync(file_path)?;
         assert_eq!(file_type.id(), "fmt/11");
         assert_eq!(file_type.name(), "Portable Network Graphics");
-        assert_eq!(file_type.media_types(), vec!["image/png".to_string()]);
-        assert_eq!(file_type.extensions(), vec!["png".to_string()]);
+        assert_eq!(file_type.media_types(), vec!["image/png"]);
+        assert_eq!(file_type.extensions(), vec!["png"]);
         Ok(())
     }
 
