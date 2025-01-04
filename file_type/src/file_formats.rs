@@ -415,7 +415,7 @@ mod tests {
         let file_formats = file_formats.join("\n");
         let supported_formats = [
             format!("File Types: {}\n", FILE_FORMATS.len()),
-            "| id | Name | Extensions | Media Types |".to_string(),
+            "| Id | Name | Extensions | Media Types |".to_string(),
             "| ---- | ---- | ----------- | ---------- |".to_string(),
             file_formats,
         ]

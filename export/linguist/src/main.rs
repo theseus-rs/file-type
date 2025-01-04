@@ -5,6 +5,7 @@
 
 use anyhow::Result;
 use file_type::pronom::{DocumentIdentifier, ExternalSignature, FileFormat};
+use file_type::FileType;
 use jiff::civil::Date;
 use jiff::tz::TimeZone;
 use jiff::Timestamp;
@@ -131,12 +132,14 @@ fn process_languages(languages: Vec<Language>) -> Vec<FileFormat> {
     let mut file_formats = Vec::new();
 
     for language in languages {
+        let puid = format!("linguist/{}", language.id);
+        if FileType::from_id(&puid).is_some() {
+            continue;
+        }
+
         let mime_type = &language.mime_type;
         let extensions = &language.extensions;
-        let mut file_format_identifiers = vec![DocumentIdentifier::new(
-            format!("linguist/{}", language.id),
-            "PUID".to_string(),
-        )];
+        let mut file_format_identifiers = vec![DocumentIdentifier::new(puid, "PUID".to_string())];
 
         if !mime_type.is_empty() {
             file_format_identifiers.push(DocumentIdentifier::new(mime_type.as_str(), "MIME"));
