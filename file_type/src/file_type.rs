@@ -1,6 +1,7 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, RelationshipType};
 use crate::Error::UnknownFileType;
 use crate::{file_types, Result};
+use std::cmp::Ordering;
 use std::io::{Read, Seek};
 use std::path::Path;
 use tokio::io::{AsyncRead, AsyncSeek};
@@ -277,6 +278,44 @@ impl FileType {
     }
 }
 
+impl Eq for FileType {}
+
+impl PartialEq<Self> for FileType {
+    fn eq(&self, other: &Self) -> bool {
+        self.file_format.id() == other.file_format.id()
+    }
+}
+
+impl PartialOrd<Self> for FileType {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        Some(self.cmp(other))
+    }
+}
+
+impl Ord for FileType {
+    fn cmp(&self, other: &Self) -> Ordering {
+        let other_id = other.file_format.id();
+        for related_format in self.file_format.related_formats() {
+            if other_id != related_format.id() {
+                continue;
+            }
+
+            match related_format.relationship_type() {
+                RelationshipType::HasLowerPriorityThan => {
+                    return Ordering::Greater;
+                }
+                RelationshipType::HasPriorityOver => {
+                    return Ordering::Less;
+                }
+                _ => {}
+            }
+        }
+
+        let self_id = self.file_format.id();
+        self_id.cmp(&other_id)
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -392,5 +431,19 @@ mod tests {
         assert_eq!(file_type.extensions(), vec!["png"]);
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         Ok(())
+    }
+
+    #[test]
+    fn test_cmp() {
+        let fmt6 = FileType::from_id("fmt/6").expect("file type not found");
+        let fmt527 = FileType::from_id("fmt/527").expect("file type not found");
+        let fmt708 = FileType::from_id("fmt/708").expect("file type not found");
+        let mut file_types = [fmt6, fmt527, fmt708];
+
+        file_types.sort();
+
+        assert_eq!(file_types[0].id(), "fmt/708");
+        assert_eq!(file_types[1].id(), "fmt/527");
+        assert_eq!(file_types[2].id(), "fmt/6");
     }
 }

@@ -144,7 +144,7 @@ where
         }
     }
 
-    file_types.sort_by_key(|file_type| file_type.file_format().id());
+    file_types.sort();
 
     let file_type = if file_types.is_empty() {
         FILE_TYPES.get("default/1")

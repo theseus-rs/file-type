@@ -71,9 +71,9 @@ async fn test_file_classification() -> Result<()> {
     Ok(())
 }
 
-// #[tokio::test]
-// async fn test_single_file_classification() -> Result<()> {
-//     let (id, file_type) = test_file("fmt-708-signature-id-831.wav").await?;
-//     assert_eq!(file_type.id(), id);
-//     Ok(())
-// }
+#[tokio::test]
+async fn test_single_file_classification() -> Result<()> {
+    let (id, file_type) = test_file("fmt-708-signature-id-831.wav").await?;
+    assert_eq!(file_type.id(), id);
+    Ok(())
+}
