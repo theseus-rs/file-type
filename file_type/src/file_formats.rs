@@ -11,13 +11,15 @@ use std::sync::LazyLock;
 use tokio::io::{AsyncRead, AsyncReadExt, AsyncSeek};
 use tokio::runtime::Builder;
 
-static FILE_FORMATS: LazyLock<HashMap<String, FileFormat>> = LazyLock::new(file_formats);
-static EXTENSION_MAP: LazyLock<HashMap<String, Vec<String>>> = LazyLock::new(extension_map);
-static MEDIA_TYPE_MAP: LazyLock<HashMap<String, Vec<String>>> = LazyLock::new(media_type_map);
+static FILE_FORMATS: LazyLock<HashMap<String, FileFormat>> = LazyLock::new(initialize_file_formats);
+static EXTENSION_MAP: LazyLock<HashMap<String, Vec<&'static FileFormat>>> =
+    LazyLock::new(initialize_extension_map);
+static MEDIA_TYPE_MAP: LazyLock<HashMap<String, Vec<&'static FileFormat>>> =
+    LazyLock::new(initialize_media_type_map);
 static DATA_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/");
 
 /// Deserialize the PRONOM XML file format data into a map.
-fn file_formats() -> HashMap<String, FileFormat> {
+fn initialize_file_formats() -> HashMap<String, FileFormat> {
     let mut file_formats = HashMap::new();
 
     for directory in DATA_DIR.dirs() {
@@ -41,17 +43,16 @@ fn file_formats() -> HashMap<String, FileFormat> {
 }
 
 /// Create a map of file extensions to file format ids.
-fn extension_map() -> HashMap<String, Vec<String>> {
+fn initialize_extension_map() -> HashMap<String, Vec<&'static FileFormat>> {
     let mut extension_map = HashMap::new();
     let file_formats = &*FILE_FORMATS;
 
     for file_format in file_formats.values() {
         for extension in file_format.extensions() {
-            let id = file_format.puid();
             let extension = extension.to_string();
-            let mut ids = extension_map.get(&extension).unwrap_or(&vec![]).clone();
-            ids.push(id.to_string());
-            extension_map.insert(extension, ids);
+            let mut formats = extension_map.get(&extension).unwrap_or(&vec![]).clone();
+            formats.push(file_format);
+            extension_map.insert(extension, formats);
         }
     }
 
@@ -59,67 +60,58 @@ fn extension_map() -> HashMap<String, Vec<String>> {
 }
 
 /// Create a map of media types to file format ids.
-fn media_type_map() -> HashMap<String, Vec<String>> {
+fn initialize_media_type_map() -> HashMap<String, Vec<&'static FileFormat>> {
     let mut media_type_map = HashMap::new();
     let file_formats = &*FILE_FORMATS;
     for file_format in file_formats.values() {
         for media_type in file_format.media_types() {
-            let id = file_format.puid();
             let media_type = media_type.to_string();
-            let mut ids = media_type_map.get(&media_type).unwrap_or(&vec![]).clone();
-            ids.push(id.to_string());
-            media_type_map.insert(media_type, ids);
+            let mut formats = media_type_map.get(&media_type).unwrap_or(&vec![]).clone();
+            formats.push(file_format);
+            media_type_map.insert(media_type, formats);
         }
     }
     media_type_map
 }
 
 /// Get the file formats for an id.
-pub fn from_id<S: AsRef<str>>(id: S) -> Option<FileFormat> {
+pub fn from_id<S: AsRef<str>>(id: S) -> Option<&'static FileFormat> {
     let id = id.as_ref();
     let file_formats = &*FILE_FORMATS;
-    file_formats.get(id).cloned()
+    file_formats.get(id)
 }
 
 /// Get the file formats for a given extension.
-pub fn from_extension<S: AsRef<str>>(extension: S) -> Vec<FileFormat> {
+pub fn from_extension<S: AsRef<str>>(extension: S) -> Vec<&'static FileFormat> {
     let extension = extension.as_ref();
     let extension_map = &*EXTENSION_MAP;
-    let Some(ids) = extension_map.get(extension) else {
+    let Some(file_formats) = extension_map.get(extension) else {
         return vec![];
     };
-    let file_formats = &*FILE_FORMATS;
-    ids.iter()
-        .filter_map(|id| file_formats.get(id))
-        .cloned()
-        .collect()
+    file_formats.clone()
 }
 
 /// Get the file formats for a given media type.
-pub fn from_media_type<S: AsRef<str>>(media_type: S) -> Vec<FileFormat> {
+pub fn from_media_type<S: AsRef<str>>(media_type: S) -> Vec<&'static FileFormat> {
     let media_type = media_type.as_ref();
     let media_type_map = &*MEDIA_TYPE_MAP;
-    let Some(ids) = media_type_map.get(media_type) else {
+    let Some(file_formats) = media_type_map.get(media_type) else {
         return vec![];
     };
-    let file_formats = &*FILE_FORMATS;
-    ids.iter()
-        .filter_map(|id| file_formats.get(id))
-        .cloned()
-        .collect()
+    file_formats.clone()
 }
 
 /// Attempt to determine the `FileFormat` from a byte slice.
-pub fn from_bytes<B>(bytes: B, extension: Option<&str>) -> FileFormat
+pub fn from_bytes<B>(bytes: B, extension: Option<&str>) -> &'static FileFormat
 where
     B: AsRef<[u8]>,
 {
     let bytes = bytes.as_ref();
-    let mut file_formats = FILE_FORMATS
+    let mut file_formats: HashMap<&str, &'static FileFormat> = FILE_FORMATS
         .par_iter()
         .filter(|(_id, file_format)| file_format.is_match(bytes))
-        .map(|(id, file_format)| (id.clone(), file_format.clone()))
-        .collect::<HashMap<String, FileFormat>>();
+        .map(|(id, file_format)| (id.as_str(), file_format))
+        .collect();
 
     // If there is more than one file format, remove the default formats
     if file_formats.len() > 1 {
@@ -127,48 +119,58 @@ where
         file_formats.remove("default/2");
     }
 
+    let mut file_formats = file_formats
+        .into_values()
+        .collect::<Vec<&'static FileFormat>>();
+
     if let Some(extension) = extension {
         match file_formats.len() {
             0 => {
                 let extension_map = &*EXTENSION_MAP;
-                if let Some(ids) = extension_map.get(extension) {
-                    file_formats = ids
-                        .iter()
-                        .filter_map(|id| FILE_FORMATS.get(id))
-                        .map(|file_format| (file_format.puid().to_string(), file_format.clone()))
-                        .collect::<HashMap<String, FileFormat>>();
+                if let Some(formats) = extension_map.get(extension) {
+                    file_formats = Vec::new();
+                    for file_format in formats {
+                        file_formats.push(file_format);
+                    }
                 };
             }
             1 => {}
             _ => {
-                let extension_file_formats = file_formats
-                    .par_iter()
-                    .filter(|(_id, file_format)| file_format.extensions().contains(&extension))
-                    .map(|(id, file_format)| (id.clone(), file_format.clone()))
-                    .collect::<HashMap<String, FileFormat>>();
-                if !extension_file_formats.is_empty() {
-                    file_formats = extension_file_formats;
+                let mut formats = Vec::new();
+                for file_format in &file_formats {
+                    if file_format.extensions().contains(&extension) {
+                        formats.push(*file_format);
+                    }
+                }
+                if !formats.is_empty() {
+                    file_formats = formats;
                 }
             }
         }
     }
-    let mut file_formats = file_formats.values().cloned().collect::<Vec<FileFormat>>();
-    file_formats.sort_by_key(FileFormat::id);
+
+    file_formats.sort_by_key(|file_format| file_format.id());
 
     let file_format = if file_formats.is_empty() {
         FILE_FORMATS.get("default/1")
     } else {
-        file_formats.first()
+        file_formats.into_iter().next()
     };
 
-    file_format.cloned().unwrap_or_default()
+    let Some(file_format) = file_format else {
+        unreachable!("No file format found");
+    };
+    file_format
 }
 
 /// Attempt to determine the `FileFormat` from a reader.
 ///
 /// # Errors
 /// if the there is an issue processing the reader
-pub async fn try_from_reader<R>(mut reader: R, extension: Option<&str>) -> Result<FileFormat>
+pub async fn try_from_reader<R>(
+    mut reader: R,
+    extension: Option<&str>,
+) -> Result<&'static FileFormat>
 where
     R: AsyncRead + AsyncSeek + Unpin,
 {
@@ -183,7 +185,7 @@ where
 ///
 /// # Errors
 /// if the there is an issue reading the file
-pub async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<FileFormat> {
+pub async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static FileFormat> {
     #[cfg(target_arch = "wasm32")]
     let file_format = try_from_file_sync(path);
     #[cfg(not(target_arch = "wasm32"))]
@@ -201,7 +203,10 @@ pub async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<FileFormat> {
 ///
 /// # Errors
 /// if the file type is unknown
-pub fn try_from_reader_sync<R>(mut reader: R, extension: Option<&str>) -> Result<FileFormat>
+pub fn try_from_reader_sync<R>(
+    mut reader: R,
+    extension: Option<&str>,
+) -> Result<&'static FileFormat>
 where
     R: Read + Seek,
 {
@@ -216,7 +221,7 @@ where
 ///
 /// # Errors
 /// if the file type is unknown
-pub fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<FileFormat> {
+pub fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<&'static FileFormat> {
     let path = path.as_ref();
     let extension = path.extension().and_then(|ext| ext.to_str());
     let file = std::fs::File::open(path)?;
@@ -399,7 +404,7 @@ mod tests {
     #[test]
     fn create_supported_formats() -> Result<()> {
         let mut file_formats = FILE_FORMATS.values().collect::<Vec<_>>();
-        file_formats.sort_by_key(|a| a.name().to_lowercase());
+        file_formats.sort_by_key(|a| format!("{}|{}", a.name().to_lowercase(), a.puid()));
 
         let file_formats = file_formats
             .iter()
