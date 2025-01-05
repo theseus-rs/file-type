@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## `file_type` - [0.0.6](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.5...file_type-v0.0.6) - 2025-01-05
+
+### Fixed
+- update default/1 to be binary, default/2 to be text and attempt to detect the default when no other file type could be determined
+
+### Other
+- correct lint error
+- update documentation
+
 ## `file_type` - [0.0.5](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.4...file_type-v0.0.5) - 2025-01-04
 
 ### Fixed
