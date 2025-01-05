@@ -4,7 +4,7 @@ use std::path::PathBuf;
 use walkdir::WalkDir;
 
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
-const IGNORED: [&str; 44] = [
+const IGNORED: [&str; 45] = [
     "fmt/161",
     "fmt/276",
     "fmt/301",
@@ -33,6 +33,7 @@ const IGNORED: [&str; 44] = [
     "fmt/79",
     "fmt/96",
     "fmt/950",
+    "fmt/1039",
     "fmt/1062",
     "fmt/1105",
     "fmt/1157",
