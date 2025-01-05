@@ -57,3 +57,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - update example documentation
 - improve test coverage
 - add file format tests
+
+## `file_type` - [0.0.1](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.0...file_type-v0.0.1) - 2025-01-02
+
+### Other
+- update builds to use ubuntu-latest
+- update crate docs
+- correct wasm32 builds
+- correct crate docs
+- correct badge links
+
+## `file_type` - [0.0.0](https://github.com/theseus-rs/file-type/compare/1994670af4e90cad19e5768817d41f9d24b8f445...file_type-v0.0.0) - 2025-01-02
+
+### Added
+- initial commit
+
+### Other
+- update dependencies and remove unnecessary build actions
+- correct deny.toml configuration
+- update sync functions to use current thread
+- remove release drafter
+- update pronom_export readme
+- add CHANGELOG.md
