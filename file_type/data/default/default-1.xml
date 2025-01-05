@@ -1,13 +1,12 @@
 <FileFormat>
   <FormatID>1</FormatID>
-  <FormatName>Text</FormatName>
-  <FormatTypes>Text (Unstructured)</FormatTypes>
-  <FormatDescription>Plain Text file</FormatDescription>
+  <FormatName>Binary</FormatName>
+  <FormatDescription>Binary file</FormatDescription>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceSourceDate>01 Jan 2025</ProvenanceSourceDate>
   <LastUpdatedDate>01 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
-    <Identifier>text/plain</Identifier>
+    <Identifier>application/octet-stream</Identifier>
     <IdentifierType>MIME</IdentifierType>
   </FileFormatIdentifier>
   <FileFormatIdentifier>
@@ -16,12 +15,13 @@
   </FileFormatIdentifier>
   <InternalSignature>
     <SignatureID>1</SignatureID>
-    <SignatureName>Text</SignatureName>
+    <SignatureName>Binary</SignatureName>
+    <SignatureNote/>
     <ByteSequence>
       <ByteSequenceID>1</ByteSequenceID>
       <PositionType>Variable</PositionType>
       <Offset>0</Offset>
-      <ByteSequenceValue>([!00:09]|[!14:31])</ByteSequenceValue>
+      <ByteSequenceValue>([00:09]|[14:31])</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
 </FileFormat>
