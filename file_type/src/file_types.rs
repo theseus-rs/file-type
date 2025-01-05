@@ -1,8 +1,9 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, RelationshipType};
 use crate::{file_types, FileType, Result};
 use include_dir::{include_dir, Dir, DirEntry};
 use quick_xml::de::from_str;
 use rayon::prelude::*;
+use std::cmp::Ordering;
 use std::collections::HashMap;
 use std::fs::read_to_string;
 use std::io::{Read, Seek};
@@ -98,6 +99,51 @@ pub(crate) fn from_media_type<S: AsRef<str>>(media_type: S) -> &'static Vec<&'st
     MEDIA_TYPE_MAP.get(media_type).unwrap_or(EMPTY_MEDIA_TYPES)
 }
 
+/// Sort the file types based on their priority; this is used to determine the most appropriate file
+/// type for a given file.  The order of the file types is determined by the relationship between
+/// the file formats.  The standard sort method cannot be used because the comparison function
+/// does not support a total order.
+pub(crate) fn sort_file_types(file_types: &mut Vec<&FileType>) {
+    let len = file_types.len();
+    for i in 0..len {
+        for j in 0..len - i - 1 {
+            if cmp_file_types(file_types[j], file_types[j + 1]) == Ordering::Greater {
+                file_types.swap(j, j + 1);
+            }
+        }
+    }
+}
+
+fn cmp_file_types(a: &FileType, b: &FileType) -> Ordering {
+    let other_id = b.file_format().id();
+    for related_format in a.file_format().related_formats() {
+        if other_id != related_format.id() {
+            continue;
+        }
+
+        match related_format.relationship_type() {
+            RelationshipType::HasLowerPriorityThan => {
+                return Ordering::Greater;
+            }
+            RelationshipType::HasPriorityOver => {
+                return Ordering::Less;
+            }
+            _ => {}
+        }
+    }
+
+    let self_id = a.file_format().id();
+    self_id.cmp(&other_id)
+}
+
+/// Determines if a byte slice is binary or text data.
+fn is_binary(bytes: &[u8]) -> bool {
+    bytes.is_empty()
+        || bytes
+            .iter()
+            .any(|byte| *byte < 32 && ![b'\n', b'\r', b'\t'].contains(byte))
+}
+
 /// Attempt to determine the `FileType` from a byte slice.
 pub(crate) fn from_bytes<B>(bytes: B, extension: Option<&str>) -> &'static FileType
 where
@@ -110,27 +156,31 @@ where
         .map(|(id, file_type)| (id.as_str(), file_type))
         .collect();
 
-    // If there is more than one file format, remove the default formats
-    if file_types.len() > 1 {
-        file_types.remove("default/1");
-        file_types.remove("default/2");
-    }
+    // Remove the default file formats as they should only be used as a last resort
+    file_types.remove("default/1");
+    file_types.remove("default/2");
 
     let mut file_types = file_types.into_values().collect::<Vec<&'static FileType>>();
 
-    if let Some(extension) = extension {
-        match file_types.len() {
-            0 => {
+    match file_types.len() {
+        0 => {
+            if let Some(extension) = extension {
                 let extension_map = &*EXTENSION_MAP;
                 if let Some(types) = extension_map.get(extension) {
                     file_types = Vec::new();
                     for file_type in types {
                         file_types.push(file_type);
                     }
+                    // If no file formats were found, sort the file types in reverse order in order
+                    // to prioritize the most generic file type
+                    sort_file_types(&mut file_types);
+                    file_types.reverse();
                 };
             }
-            1 => {}
-            _ => {
+        }
+        1 => {}
+        _ => {
+            if let Some(extension) = extension {
                 let mut types = Vec::new();
                 for file_type in &file_types {
                     if file_type.extensions().contains(&extension) {
@@ -141,13 +191,16 @@ where
                     file_types = types;
                 }
             }
+            sort_file_types(&mut file_types);
         }
     }
 
-    file_types.sort_by_key(|file_type| file_type.file_format().id());
-
     let file_type = if file_types.is_empty() {
-        FILE_TYPES.get("default/1")
+        if is_binary(bytes) {
+            FILE_TYPES.get("default/1")
+        } else {
+            FILE_TYPES.get("default/2")
+        }
     } else {
         file_types.into_iter().next()
     };

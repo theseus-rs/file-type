@@ -1,6 +1,7 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, RelationshipType};
 use crate::Error::UnknownFileType;
 use crate::{file_types, Result};
+use std::cmp::Ordering;
 use std::io::{Read, Seek};
 use std::path::Path;
 use tokio::io::{AsyncRead, AsyncSeek};
@@ -280,6 +281,7 @@ impl FileType {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::file_types::sort_file_types;
     use std::path::PathBuf;
 
     const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
@@ -339,10 +341,30 @@ mod tests {
     }
 
     #[test]
-    fn test_from_bytes() {
+    fn test_from_bytes_empty_default() {
         let value = Vec::new();
         let file_type = FileType::from_bytes(value.as_slice());
         assert_eq!(file_type.id(), "default/1");
+        assert_eq!(file_type.name(), "Binary");
+        assert_eq!(file_type.extensions(), Vec::<String>::new());
+        assert_eq!(file_type.media_types(), vec!["application/octet-stream"]);
+    }
+
+    #[test]
+    fn test_from_bytes_binary_default() {
+        let value = b"\x00\x01\x02\x03";
+        let file_type = FileType::from_bytes(value.as_slice());
+        assert_eq!(file_type.id(), "default/1");
+        assert_eq!(file_type.name(), "Binary");
+        assert_eq!(file_type.extensions(), Vec::<String>::new());
+        assert_eq!(file_type.media_types(), vec!["application/octet-stream"]);
+    }
+
+    #[test]
+    fn test_from_bytes_text_default() {
+        let value = b"hello, world\n";
+        let file_type = FileType::from_bytes(value.as_slice());
+        assert_eq!(file_type.id(), "default/2");
         assert_eq!(file_type.name(), "Text");
         assert_eq!(file_type.extensions(), Vec::<String>::new());
         assert_eq!(file_type.media_types(), vec!["text/plain"]);
@@ -392,5 +414,19 @@ mod tests {
         assert_eq!(file_type.extensions(), vec!["png"]);
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         Ok(())
+    }
+
+    #[test]
+    fn test_cmp() {
+        let fmt6 = FileType::from_id("fmt/6").expect("file type not found");
+        let fmt527 = FileType::from_id("fmt/527").expect("file type not found");
+        let fmt708 = FileType::from_id("fmt/708").expect("file type not found");
+        let file_types = &mut vec![fmt6, fmt527, fmt708];
+
+        sort_file_types(file_types);
+
+        assert_eq!(file_types[0].id(), "fmt/708");
+        assert_eq!(file_types[1].id(), "fmt/527");
+        assert_eq!(file_types[2].id(), "fmt/6");
     }
 }

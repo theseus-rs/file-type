@@ -529,7 +529,7 @@ File Types: 3844
 | fmt/1722 | BIM Metadata File | bim |  |
 | fmt/208 | Binary File | bin |  |
 | fmt/984 | Binary Property List | plist, nib, aae, iMovieProj, ezdraw |  |
-| default/2 | Binary |  | application/octet-stream |
+| default/1 | Binary |  | application/octet-stream |
 | x-fmt/416 | BinHex Binary Text | hqx | application/mac-binhex40 |
 | fmt/731 | Bink Video Format | bik |  |
 | fmt/732 | Bink Video Format | bik2, bk2 | video/vnd.radgamettools.bink |
@@ -3479,7 +3479,7 @@ File Types: 3844
 | linguist/965696054 | TextGrid | .TextGrid |  |
 | linguist/373 | Textile | .textile | text/x-textile |
 | linguist/981795023 | TextMate Properties |  | text/x-properties |
-| default/1 | Text |  | text/plain |
+| default/2 | Text |  | text/plain |
 | linguist/372 | Text | .txt, .fr, .nb, .ncl, .no |  |
 | apache-httpd/3876443208898332249 | tex | tex | application/x-tex |
 | linguist/369 | TeX | .tex, .aux, .bbx, .cbx, .cls, .dtx, .ins, .lbx, .ltx, .mkii, .mkiv, .mkvi, .sty, .toc | text/x-stex |
