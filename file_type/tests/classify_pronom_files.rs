@@ -4,6 +4,52 @@ use std::path::PathBuf;
 use walkdir::WalkDir;
 
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
+const IGNORED: [&str; 44] = [
+    "fmt/161",
+    "fmt/276",
+    "fmt/301",
+    "fmt/302",
+    "fmt/433",
+    "fmt/435",
+    "fmt/532",
+    "fmt/558",
+    "fmt/62",
+    "fmt/63",
+    "fmt/64",
+    "fmt/65",
+    "fmt/66",
+    "fmt/67",
+    "fmt/68",
+    "fmt/69",
+    "fmt/70",
+    "fmt/71",
+    "fmt/72",
+    "fmt/73",
+    "fmt/74",
+    "fmt/75",
+    "fmt/76",
+    "fmt/77",
+    "fmt/78",
+    "fmt/79",
+    "fmt/96",
+    "fmt/950",
+    "fmt/1062",
+    "fmt/1105",
+    "fmt/1157",
+    "fmt/1389",
+    "fmt/1451",
+    "fmt/1739",
+    "fmt/1757",
+    "fmt/1796",
+    "fmt/1854",
+    "fmt/1871",
+    "fmt/2008",
+    "fmt/2009",
+    "x-fmt/91",
+    "x-fmt/142",
+    "x-fmt/178",
+    "x-fmt/280",
+];
 
 fn data_dir() -> PathBuf {
     PathBuf::from(CRATE_DIR)
@@ -37,7 +83,7 @@ async fn test_file(file_name: &str) -> Result<(String, &FileType)> {
 async fn test_file_classification() -> Result<()> {
     let data_dir = data_dir();
     let mut passed_tests = 0;
-    let mut failed_tests = 0;
+    let mut ignored_tests = 0;
 
     for entry in WalkDir::new(data_dir) {
         let entry = entry?;
@@ -53,21 +99,21 @@ async fn test_file_classification() -> Result<()> {
             .to_string();
         let (id, file_type) = test_file(&file_name).await?;
 
-        if file_type.id() == id {
-            assert_eq!(file_type.id(), id);
-            passed_tests += 1;
-        } else {
+        if IGNORED.contains(&id.as_str()) {
             eprintln!(
                 "[ERROR] file_type.id()={}, id={}: {file_name}",
                 file_type.id(),
                 id
             );
-            failed_tests += 1;
+            ignored_tests += 1;
+            continue;
         }
+        assert_eq!(file_type.id(), id);
+        passed_tests += 1;
     }
 
     println!("Passed: {passed_tests}");
-    println!("Failed: {failed_tests}");
+    println!("Ignored: {ignored_tests}");
     Ok(())
 }
 
