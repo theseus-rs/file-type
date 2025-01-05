@@ -1,5 +1,4 @@
 use crate::format::{FileFormat, RelationshipType};
-use crate::Error::UnknownFileType;
 use crate::{file_types, Result};
 use std::cmp::Ordering;
 use std::io::{Read, Seek};
