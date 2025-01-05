@@ -10,7 +10,4 @@ pub enum Error {
     /// An error occurred when parsing a byte sequence regex
     #[error("{0}")]
     Syntax(String),
-    /// The file type is unknown
-    #[error("The file type is unknown")]
-    UnknownFileType,
 }
