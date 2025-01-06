@@ -35,7 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - update apache name format
 
 ### Other
-- add supported file types to file_type crate reamde
+- add supported file types to file_type crate readme
 
 ## `file_type` - [0.0.3](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.2...file_type-v0.0.3) - 2025-01-03
 
