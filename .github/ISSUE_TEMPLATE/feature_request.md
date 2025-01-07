@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+If you need a format that is not supported, please provide your submission to the
+[PRONOM](https://www.nationalarchives.gov.uk/pronom/submitinfo.htm) database and include the provided the reference id.
+
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
