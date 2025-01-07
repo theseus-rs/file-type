@@ -430,6 +430,16 @@ mod tests {
                 let name = file_type.name();
                 let media_types = file_type.media_types().join(", ");
                 let extensions = file_type.extensions().join(", ");
+                let format_type = match id.split_once('/') {
+                    Some((format, _)) => if format.ends_with("fmt") {
+                        "pronom"
+                    } else {
+                        format
+                    },
+                    None => "",
+                };
+                let file_name = id.replace('/', "-");
+                let id = format!("[{id}](https://github.com/theseus-rs/file-type/blob/main/file_type/data/{format_type}/{file_name}.xml)");
                 format!("| {id} | {name} | {extensions} | {media_types} |")
             })
             .collect::<Vec<String>>();
