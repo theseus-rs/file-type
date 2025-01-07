@@ -382,22 +382,15 @@ mod tests {
               <FormatName>Portable Network Graphics</FormatName>
               <FormatVersion>1.0</FormatVersion>
               <FormatAliases>PNG (1.0)</FormatAliases>
-              <FormatFamilies/>
               <FormatTypes>Image (Raster)</FormatTypes>
-              <FormatDisclosure/>
               <FormatDescription>Portable Network Graphics (PNG) was designed for the lossless, portable, compressed storage of raster images.  PNG provides a patent-free replacement for GIF and can also replace many common uses of TIFF. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits. PNG is designed to work in online viewing applications, so it is fully streamable.  It can store gamma and chromaticity.  PNG also detects file corruption.</FormatDescription>
               <BinaryFileFormat>Binary</BinaryFileFormat>
               <ByteOrders>Big-endian (Motorola)</ByteOrders>
-              <ReleaseDate/>
-              <WithdrawnDate/>
               <ProvenanceSourceId>0</ProvenanceSourceId>
               <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
               <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
               <ProvenanceDescription>Specifications link: http://tools.ietf.org/pdf/rfc2083.pdf</ProvenanceDescription>
               <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
-              <FormatNote/>
-              <FormatRisk/>
-              <TechnicalEnvironment/>
               <FileFormatIdentifier>
                 <Identifier>fmt/11</Identifier>
                 <IdentifierType>PUID</IdentifierType>
@@ -424,9 +417,6 @@ mod tests {
                   <PositionType>Absolute from BOF</PositionType>
                   <Offset>0</Offset>
                   <MaxOffset>0</MaxOffset>
-                  <IndirectOffsetLocation/>
-                  <IndirectOffsetLength/>
-                  <Endianness/>
                   <ByteSequenceValue>89504E470D0A1A0A0000000D49484452</ByteSequenceValue>
                 </ByteSequence>
                 <ByteSequence>
@@ -434,9 +424,6 @@ mod tests {
                   <PositionType>Absolute from EOF</PositionType>
                   <Offset>0</Offset>
                   <MaxOffset>4</MaxOffset>
-                  <IndirectOffsetLocation/>
-                  <IndirectOffsetLength/>
-                  <Endianness/>
                   <ByteSequenceValue>0000000049454E44AE426082</ByteSequenceValue>
                 </ByteSequence>
               </InternalSignature>
@@ -456,7 +443,6 @@ mod tests {
                 <RelationshipType>Has lower priority than</RelationshipType>
                 <RelatedFormatID>1740</RelatedFormatID>
                 <RelatedFormatName>Animated Portable Network Graphics</RelatedFormatName>
-                <RelatedFormatVersion/>
               </RelatedFormat>
               <RelatedFormat>
                 <RelationshipType>Is previous version of</RelationshipType>

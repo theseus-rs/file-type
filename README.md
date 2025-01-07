@@ -21,7 +21,7 @@ a feature request for this project.
 
 ## Getting Started
 
-Detect a Java class file from bytes:
+Detect the file type from bytes:
 ```rust
 use file_type::FileType;
 

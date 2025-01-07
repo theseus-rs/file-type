@@ -20,7 +20,7 @@ Signature, extension and media type data are provided by:
 
 # Example
 
-Detect a Java class file from bytes:
+Detect the file type from bytes:
 ```rust
 use file_type::FileType;
 
