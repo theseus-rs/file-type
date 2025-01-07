@@ -56,6 +56,10 @@
 //! assert_eq!(file_type.media_types(), vec!["image/png"]);
 //! ```
 //!
+//! ## Supported File Types
+//!
+//! [List of supported file types](https://github.com/theseus-rs/file-type/blob/main/FILETYPES.md)
+//!
 //! ## Safety
 //!
 //! This crate uses `#![forbid(unsafe_code)]` to ensure everything is implemented in 100% safe Rust.
