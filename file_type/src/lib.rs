@@ -1,4 +1,4 @@
-//! # `FileType`
+//! # `file_type`
 //!
 //! [![Code Coverage](https://codecov.io/gh/theseus-rs/file-type/branch/main/graph/badge.svg)](https://codecov.io/gh/theseus-rs/file-type)
 //! [![Benchmarks](https://img.shields.io/badge/%F0%9F%90%B0_bencher-enabled-6ec241)](https://bencher.dev/perf/theseus-rs-file-type)
@@ -11,9 +11,9 @@
 //! signatures and file extensions.
 //!
 //! Signature, extension and media type data are provided by:
-//! [The National Archives PRONOM](https://www.nationalarchives.gov.uk/pronom/)
-//! [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types)
-//! [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml)
+//! * [The National Archives PRONOM](https://www.nationalarchives.gov.uk/pronom/)
+//! * [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types)
+//! * [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml)
 //!
 //! # Example
 //!
