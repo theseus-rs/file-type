@@ -6,6 +6,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## `file_type` - [0.2.0](https://github.com/theseus-rs/file-type/compare/file_type-v0.1.0...file_type-v0.2.0) - 2025-01-07
+
+### Fixed
+- remove unused UnknownFileType
+
+### Other
+- minor readme update
+- add links from the file type id to the format file
+- optimize variable byte sequence matching by performing BOF/EOF matches first
+- optimize signature classification
+- Merge pull request [#29](https://github.com/theseus-rs/file-type/pull/29) from theseus-rs/optimize-classification
+- minor refactor
+- add xml and yaml tests
+- update example documentation
+- ignore tests failing on Windows
+- ignore failing pronom classification tests
+- add ignored test cases for pronom file classification failures
+- add ignored test cases for pronom file classification failures
+
 ## `file_type` - [0.1.0](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.5...file_type-v0.1.0) - 2025-01-05
 
 ### Fixed
