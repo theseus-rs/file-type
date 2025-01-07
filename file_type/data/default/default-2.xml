@@ -14,14 +14,4 @@
     <Identifier>default/2</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <InternalSignature>
-    <SignatureID>1</SignatureID>
-    <SignatureName>Text</SignatureName>
-    <ByteSequence>
-      <ByteSequenceID>1</ByteSequenceID>
-      <PositionType>Variable</PositionType>
-      <Offset>0</Offset>
-      <ByteSequenceValue>([!00:09]|[!14:31])</ByteSequenceValue>
-    </ByteSequence>
-  </InternalSignature>
 </FileFormat>
