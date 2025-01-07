@@ -13,9 +13,11 @@ use tokio::io::{AsyncRead, AsyncReadExt, AsyncSeek};
 use tokio::runtime::Builder;
 
 static FILE_TYPES: LazyLock<HashMap<String, FileType>> = LazyLock::new(initialize_file_formats);
-static EXTENSION_MAP: LazyLock<HashMap<String, Vec<&'static FileType>>> =
+static SIGNATURE_MAP: LazyLock<HashMap<&'static str, &'static FileType>> =
+    LazyLock::new(initialize_signature_map);
+static EXTENSION_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_extension_map);
-static MEDIA_TYPE_MAP: LazyLock<HashMap<String, Vec<&'static FileType>>> =
+static MEDIA_TYPE_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_media_type_map);
 static DATA_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/");
 const EMPTY_EXTENSIONS: &Vec<&'static FileType> = &Vec::new();
@@ -52,14 +54,34 @@ fn initialize_file_formats() -> HashMap<String, FileType> {
     file_types
 }
 
+/// Create a listfile types with signatures
+fn initialize_signature_map() -> HashMap<&'static str, &'static FileType> {
+    let mut signatures = HashMap::new();
+    let file_types = &*FILE_TYPES;
+
+    for file_type in file_types.values() {
+        let id = file_type.id();
+        if SLOW_FILE_TYPES.contains(&id) {
+            continue;
+        }
+
+        let file_format = file_type.file_format();
+        let internal_signatures = file_format.internal_signatures();
+        if !internal_signatures.is_empty() {
+            signatures.insert(id, file_type);
+        }
+    }
+
+    signatures
+}
+
 /// Create a map of file extensions to file types.
-fn initialize_extension_map() -> HashMap<String, Vec<&'static FileType>> {
+fn initialize_extension_map() -> HashMap<&'static str, Vec<&'static FileType>> {
     let mut extension_map = HashMap::new();
     let file_types = &*FILE_TYPES;
 
     for file_type in file_types.values() {
         for extension in file_type.extensions() {
-            let extension = extension.to_string();
             let mut types = extension_map.get(&extension).unwrap_or(&vec![]).clone();
             types.push(file_type);
             extension_map.insert(extension, types);
@@ -70,12 +92,11 @@ fn initialize_extension_map() -> HashMap<String, Vec<&'static FileType>> {
 }
 
 /// Create a map of media types to file types.
-fn initialize_media_type_map() -> HashMap<String, Vec<&'static FileType>> {
+fn initialize_media_type_map() -> HashMap<&'static str, Vec<&'static FileType>> {
     let mut media_type_map = HashMap::new();
     let file_types = &*FILE_TYPES;
     for file_type in file_types.values() {
         for media_type in file_type.media_types() {
-            let media_type = media_type.to_string();
             let mut types = media_type_map.get(&media_type).unwrap_or(&vec![]).clone();
             types.push(file_type);
             media_type_map.insert(media_type, types);
@@ -154,16 +175,11 @@ where
     B: AsRef<[u8]>,
 {
     let bytes = bytes.as_ref();
-    let mut file_types: HashMap<&str, &'static FileType> = FILE_TYPES
+    let file_types: HashMap<&str, &'static FileType> = SIGNATURE_MAP
         .par_iter()
-        .filter(|(id, _)| !SLOW_FILE_TYPES.contains(&id.as_str()))
         .filter(|(_id, file_type)| file_type.file_format().is_match(bytes))
-        .map(|(id, file_type)| (id.as_str(), file_type))
+        .map(|(id, file_type)| (*id, *file_type))
         .collect();
-
-    // Remove the default file formats as they should only be used as a last resort
-    file_types.remove("default/1");
-    file_types.remove("default/2");
 
     let mut file_types = file_types.into_values().collect::<Vec<&'static FileType>>();
 
