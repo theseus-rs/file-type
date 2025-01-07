@@ -22,12 +22,6 @@ static MEDIA_TYPE_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
 static DATA_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/");
 const EMPTY_EXTENSIONS: &Vec<&'static FileType> = &Vec::new();
 const EMPTY_MEDIA_TYPES: &Vec<&'static FileType> = &Vec::new();
-// The following file types are slow to process and should be skipped when determining the file type
-const SLOW_FILE_TYPES: [&str; 20] = [
-    "fmt/63", "fmt/64", "fmt/65", "fmt/66", "fmt/67", "fmt/68", "fmt/69", "fmt/70", "fmt/71",
-    "fmt/72", "fmt/73", "fmt/74", "fmt/75", "fmt/76", "fmt/77", "fmt/78", "fmt/79", "fmt/433",
-    "fmt/435", "fmt/1389",
-];
 
 /// Deserialize the PRONOM XML file format data into a map of puid to `FileType`.
 fn initialize_file_formats() -> HashMap<String, FileType> {
@@ -60,15 +54,10 @@ fn initialize_signature_map() -> HashMap<&'static str, &'static FileType> {
     let file_types = &*FILE_TYPES;
 
     for file_type in file_types.values() {
-        let id = file_type.id();
-        if SLOW_FILE_TYPES.contains(&id) {
-            continue;
-        }
-
         let file_format = file_type.file_format();
         let internal_signatures = file_format.internal_signatures();
         if !internal_signatures.is_empty() {
-            signatures.insert(id, file_type);
+            signatures.insert(file_type.id(), file_type);
         }
     }
 

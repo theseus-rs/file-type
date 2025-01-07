@@ -1,6 +1,6 @@
 use crate::format::external_signature::ExternalSignature;
-use crate::format::ByteSequence;
-use serde::{Deserialize, Serialize};
+use crate::format::{ByteSequence, PositionType};
+use serde::{Deserialize, Deserializer, Serialize};
 
 /// An internal signature.
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
@@ -12,7 +12,10 @@ pub struct InternalSignature {
     name: String,
     #[serde(skip_serializing_if = "String::is_empty", rename = "SignatureNote")]
     note: String,
-    #[serde(rename = "ByteSequence")]
+    #[serde(
+        rename = "ByteSequence",
+        deserialize_with = "deserialize_and_sort_byte_sequences"
+    )]
     byte_sequences: Vec<ByteSequence>,
 }
 
@@ -64,6 +67,24 @@ impl InternalSignature {
             .iter()
             .all(|byte_sequence| byte_sequence.is_match(bytes))
     }
+}
+
+fn deserialize_and_sort_byte_sequences<'de, D>(
+    deserializer: D,
+) -> Result<Vec<ByteSequence>, D::Error>
+where
+    D: Deserializer<'de>,
+{
+    let mut byte_sequences: Vec<ByteSequence> = Vec::deserialize(deserializer)?;
+    // Sort byte sequences by position type such that Variable comes last.  All current uses of
+    // Variable byte sequences also include a BOF/EOF sequence.  This is an optimization
+    // to check BOF/EOF sequences first to avoid checking Variable sequences when possible.
+    byte_sequences.sort_by_key(|byte_sequence| match byte_sequence.position_type() {
+        PositionType::AbsoluteFromBOF => 0,
+        PositionType::AbsoluteFromEOF => 1,
+        PositionType::Variable => 2,
+    });
+    Ok(byte_sequences)
 }
 
 #[cfg(test)]
