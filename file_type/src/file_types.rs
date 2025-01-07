@@ -408,30 +408,6 @@ mod tests {
         Ok(())
     }
 
-    fn replace_file_types(input: &str, replacement: &str) -> String {
-        let mut result = String::new();
-        let mut in_replacement_section = false;
-
-        for line in input.lines() {
-            if line.starts_with("<!--FILE_TYPES_BEGIN-->") {
-                in_replacement_section = true;
-                result.push_str(line);
-                result.push('\n');
-                result.push_str(replacement);
-                result.push('\n');
-            } else if line.ends_with("<!--FILE_TYPES_END-->") {
-                in_replacement_section = false;
-            }
-
-            if !in_replacement_section {
-                result.push_str(line);
-                result.push('\n');
-            }
-        }
-
-        result
-    }
-
     #[test]
     fn create_supported_formats() -> Result<()> {
         let mut file_types = FILE_TYPES.values().collect::<Vec<_>>();
@@ -449,23 +425,16 @@ mod tests {
             .collect::<Vec<String>>();
 
         let file_types = file_types.join("\n");
-        let supported_formats = [
-            format!("File Types: {}\n", FILE_TYPES.len()),
+        let file_types = [
+            format!("# File Types ({})\n", FILE_TYPES.len()),
             "| Id | Name | Extensions | Media Types |".to_string(),
             "| ---- | ---- | ----------- | ---------- |".to_string(),
             file_types,
         ]
         .join("\n");
 
-        let files_names = [
-            PathBuf::from(CRATE_DIR).join("README.md"),
-            PathBuf::from(CRATE_DIR).join("..").join("README.md"),
-        ];
-        for file_name in files_names {
-            let readme = read_to_string(file_name.clone())?;
-            let readme = replace_file_types(&readme, &supported_formats);
-            std::fs::write(file_name, readme)?;
-        }
+        let file_name = PathBuf::from(CRATE_DIR).join("..").join("FILETYPES.md");
+        std::fs::write(file_name, file_types)?;
         Ok(())
     }
 }
