@@ -353,9 +353,14 @@ impl FileFormat {
     /// Check if this file format is a match for the given bytes
     #[must_use]
     pub fn is_match(&self, bytes: &[u8]) -> bool {
-        self.internal_signatures()
+        // let start_time = std::time::Instant::now();
+        let matched = self
+            .internal_signatures()
             .iter()
-            .any(|signature| signature.is_match(bytes))
+            .any(|signature| signature.is_match(bytes));
+        // let elapsed = start_time.elapsed();
+        // println!("{},{:?},{}", self.puid(), elapsed, elapsed.as_nanos());
+        matched
     }
 }
 
