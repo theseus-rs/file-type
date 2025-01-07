@@ -10,6 +10,20 @@ fn benchmarks(criterion: &mut Criterion) {
     bench_lifecycle(criterion).ok();
 }
 
+fn large_bytes() -> Vec<u8> {
+    let length = 1 << 31;
+    let mut bytes = vec![0; length];
+    bytes[0] = 0xFD;
+    bytes[1] = 0x37;
+    bytes[2] = 0x7A;
+    bytes[3] = 0x58;
+    bytes[4] = 0x5A;
+    bytes[5] = 0x00;
+    bytes[length - 2] = 0x59;
+    bytes[length - 1] = 0x5A;
+    bytes
+}
+
 fn bench_lifecycle(criterion: &mut Criterion) -> Result<()> {
     let runtime = Runtime::new()?;
     let file = PathBuf::from(CRATE_DIR)
@@ -18,6 +32,7 @@ fn bench_lifecycle(criterion: &mut Criterion) -> Result<()> {
         .join("pronom")
         .join("x-fmt-263-signature-id-200.zip");
     let bytes = fs::read(&file)?;
+    let large_bytes = large_bytes();
 
     criterion.bench_function("from_id", |bencher| {
         bencher.iter(|| {
@@ -48,6 +63,12 @@ fn bench_lifecycle(criterion: &mut Criterion) -> Result<()> {
             runtime.block_on(async {
                 from_file(&file).await.ok();
             });
+        });
+    });
+
+    criterion.bench_function("from_bytes (2GiB)", |bencher| {
+        bencher.iter(|| {
+            let _ = FileType::from_bytes(&large_bytes);
         });
     });
 

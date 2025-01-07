@@ -166,8 +166,6 @@ impl FileType {
         file_types::from_extension(extension)
     }
 
-    const EMPTY_MEDIA_TYPES: Vec<&'static FileType> = Vec::new();
-
     /// Get the file types for a given media type.
     ///
     /// # Example
@@ -446,5 +444,29 @@ mod tests {
         assert_eq!(file_types[0].id(), "fmt/708");
         assert_eq!(file_types[1].id(), "fmt/527");
         assert_eq!(file_types[2].id(), "fmt/6");
+    }
+
+    fn large_bytes() -> Vec<u8> {
+        let length = 1 << 31;
+        let mut bytes = vec![0; length];
+        bytes[0] = 0xFD;
+        bytes[1] = 0x37;
+        bytes[2] = 0x7A;
+        bytes[3] = 0x58;
+        bytes[4] = 0x5A;
+        bytes[5] = 0x00;
+        bytes[length - 2] = 0x59;
+        bytes[length - 1] = 0x5A;
+        bytes
+    }
+
+    #[test]
+    fn test_from_bytes_large() {
+        let bytes = large_bytes();
+        let file_type = FileType::from_bytes(&bytes);
+        assert_eq!(file_type.id(), "fmt/1098");
+        assert_eq!(file_type.name(), "XZ File Format");
+        assert_eq!(file_type.extensions(), vec!["xz"]);
+        assert_eq!(file_type.media_types(), Vec::<String>::new());
     }
 }

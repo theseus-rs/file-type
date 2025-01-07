@@ -18,6 +18,14 @@ static EXTENSION_MAP: LazyLock<HashMap<String, Vec<&'static FileType>>> =
 static MEDIA_TYPE_MAP: LazyLock<HashMap<String, Vec<&'static FileType>>> =
     LazyLock::new(initialize_media_type_map);
 static DATA_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/");
+const EMPTY_EXTENSIONS: &Vec<&'static FileType> = &Vec::new();
+const EMPTY_MEDIA_TYPES: &Vec<&'static FileType> = &Vec::new();
+// The following file types are slow to process and should be skipped when determining the file type
+const SLOW_FILE_TYPES: [&str; 20] = [
+    "fmt/63", "fmt/64", "fmt/65", "fmt/66", "fmt/67", "fmt/68", "fmt/69", "fmt/70", "fmt/71",
+    "fmt/72", "fmt/73", "fmt/74", "fmt/75", "fmt/76", "fmt/77", "fmt/78", "fmt/79", "fmt/433",
+    "fmt/435", "fmt/1389",
+];
 
 /// Deserialize the PRONOM XML file format data into a map of puid to `FileType`.
 fn initialize_file_formats() -> HashMap<String, FileType> {
@@ -83,15 +91,11 @@ pub(crate) fn from_id<S: AsRef<str>>(id: S) -> Option<&'static FileType> {
     file_formats.get(id)
 }
 
-const EMPTY_EXTENSIONS: &Vec<&'static FileType> = &Vec::new();
-
 /// Get the file types for a given extension.
 pub(crate) fn from_extension<S: AsRef<str>>(extension: S) -> &'static Vec<&'static FileType> {
     let extension = extension.as_ref();
     EXTENSION_MAP.get(extension).unwrap_or(EMPTY_EXTENSIONS)
 }
-
-const EMPTY_MEDIA_TYPES: &Vec<&'static FileType> = &Vec::new();
 
 /// Get the file types for a given media type.
 pub(crate) fn from_media_type<S: AsRef<str>>(media_type: S) -> &'static Vec<&'static FileType> {
@@ -152,6 +156,7 @@ where
     let bytes = bytes.as_ref();
     let mut file_types: HashMap<&str, &'static FileType> = FILE_TYPES
         .par_iter()
+        .filter(|(id, _)| !SLOW_FILE_TYPES.contains(&id.as_str()))
         .filter(|(_id, file_type)| file_type.file_format().is_match(bytes))
         .map(|(id, file_type)| (id.as_str(), file_type))
         .collect();
