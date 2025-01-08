@@ -20,12 +20,13 @@ async fn test_file(
     let path = data_dir.join(file_name);
     let file_type = FileType::try_from_file(path).await?;
     assert_eq!(file_type.id(), expected_id);
+    let media_types = file_type.media_types();
     match expected_media_type {
         Some(expected_media_type) => {
-            assert!(file_type.media_types().contains(&expected_media_type));
+            assert!(media_types.contains(&expected_media_type));
         }
         None => {
-            assert!(file_type.media_types().is_empty());
+            assert!(media_types.is_empty());
         }
     }
     Ok(())
@@ -77,6 +78,16 @@ async fn test_jsonl_file() -> Result<()> {
 }
 
 #[tokio::test]
+async fn test_ods_file() -> Result<()> {
+    test_file(
+        "users.ods",
+        "fmt/294",
+        Some("application/vnd.oasis.opendocument.spreadsheet"),
+    )
+    .await
+}
+
+#[tokio::test]
 async fn test_parquet_file() -> Result<()> {
     test_file(
         "users.parquet",
@@ -94,6 +105,16 @@ async fn test_sqlite3_file() -> Result<()> {
 #[tokio::test]
 async fn test_tsv_file() -> Result<()> {
     test_file("users.tsv", "x-fmt/13", Some("text/tab-separated-values")).await
+}
+
+#[tokio::test]
+async fn test_xlsx_file() -> Result<()> {
+    test_file(
+        "users.xlsx",
+        "fmt/214",
+        Some("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"),
+    )
+    .await
 }
 
 #[tokio::test]

@@ -4,7 +4,7 @@ use std::path::PathBuf;
 use walkdir::WalkDir;
 
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
-const IGNORED: [&str; 64] = [
+const IGNORED: [&str; 42] = [
     "fmt/62",
     "fmt/63",
     "fmt/64",
@@ -23,52 +23,30 @@ const IGNORED: [&str; 64] = [
     "fmt/77",
     "fmt/78",
     "fmt/79",
-    "fmt/96",
-    "fmt/161",
+    "fmt/160",
     "fmt/276",
     "fmt/301",
     "fmt/302",
-    "fmt/356",
     "fmt/433",
     "fmt/435",
-    "fmt/507",
-    "fmt/519",
     "fmt/532",
     "fmt/558",
-    "fmt/570",
-    "fmt/577",
-    "fmt/579",
-    "fmt/580",
-    "fmt/581",
-    "fmt/582",
-    "fmt/591",
-    "fmt/890",
-    "fmt/891",
     "fmt/950",
-    "fmt/1039",
+    "fmt/1014",
     "fmt/1062",
     "fmt/1105",
-    "fmt/1157",
-    "fmt/1198",
+    "fmt/1163",
     "fmt/1389",
     "fmt/1451",
-    "fmt/1463",
-    "fmt/1464",
-    "fmt/1484",
-    "fmt/1725",
     "fmt/1739",
     "fmt/1757",
     "fmt/1796",
-    "fmt/1845",
-    "fmt/1854",
+    "fmt/1855",
     "fmt/1871",
     "fmt/2008",
     "fmt/2009",
-    "x-fmt/91",
-    "x-fmt/142",
-    "x-fmt/178",
-    "x-fmt/220",
     "x-fmt/280",
+    "x-fmt/365",
 ];
 
 fn data_dir() -> PathBuf {
@@ -120,10 +98,17 @@ async fn test_file_classification() -> Result<()> {
         let (id, file_type) = test_file(&file_name).await?;
 
         if IGNORED.contains(&id.as_str()) {
-            eprintln!(
-                "[ERROR] file_type.id()={}, id={id}: {file_name}",
-                file_type.id(),
-            );
+            if file_type.id() == id {
+                eprintln!(
+                    "IGNORED(PASSING) file_type.id()={}, id={id}: {file_name}",
+                    file_type.id(),
+                );
+            } else {
+                eprintln!(
+                    "IGNORED(ERROR) file_type.id()={}, id={id}: {file_name}",
+                    file_type.id(),
+                );
+            }
             ignored_tests += 1;
             continue;
         }

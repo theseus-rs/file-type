@@ -113,25 +113,31 @@ pub(crate) fn from_media_type<S: AsRef<str>>(media_type: S) -> &'static Vec<&'st
     MEDIA_TYPE_MAP.get(media_type).unwrap_or(EMPTY_MEDIA_TYPES)
 }
 
-/// Sort the file types based on their priority; this is used to determine the most appropriate file
-/// type for a given file.  The order of the file types is determined by the relationship between
-/// the file formats.  The standard sort method cannot be used because the comparison function
-/// does not support a total order.
-pub(crate) fn sort_file_types(file_types: &mut Vec<&FileType>) {
-    let len = file_types.len();
-    for i in 0..len {
-        for j in 0..len - i - 1 {
-            if cmp_file_types(file_types[j], file_types[j + 1]) == Ordering::Greater {
-                file_types.swap(j, j + 1);
-            }
+/// Sort the file types without requiring a total order.
+fn sort_by<F, T>(file_types: &mut [&T], mut compare: F)
+where
+    F: FnMut(&T, &T) -> Ordering,
+{
+    for i in 1..file_types.len() {
+        let mut j = i;
+        while j > 0 && compare(file_types[j - 1], file_types[j]) == Ordering::Greater {
+            file_types.swap(j - 1, j);
+            j -= 1;
         }
     }
 }
 
+/// Compare the file types based on their priority; this is used to determine the most appropriate
+/// file type for a given file.  The order of the file types is determined by the relationship
+/// between the file formats.
 fn cmp_file_types(a: &FileType, b: &FileType) -> Ordering {
-    let other_id = b.file_format().id();
-    for related_format in a.file_format().related_formats() {
-        if other_id != related_format.id() {
+    let a_file_format = a.file_format();
+    let b_file_format = b.file_format();
+    let a_id = a_file_format.id();
+    let b_id = b_file_format.id();
+
+    for related_format in a_file_format.related_formats() {
+        if b_id != related_format.id() {
             continue;
         }
 
@@ -146,8 +152,67 @@ fn cmp_file_types(a: &FileType, b: &FileType) -> Ordering {
         }
     }
 
-    let self_id = a.file_format().id();
-    self_id.cmp(&other_id)
+    for related_format in b_file_format.related_formats() {
+        if a_id != related_format.id() {
+            continue;
+        }
+
+        match related_format.relationship_type() {
+            RelationshipType::HasLowerPriorityThan => {
+                return Ordering::Less;
+            }
+            RelationshipType::HasPriorityOver => {
+                return Ordering::Greater;
+            }
+            _ => {}
+        }
+    }
+
+    a_id.cmp(&b_id)
+}
+
+/// Compare the file types based on their priority and id.  The most general file type should be
+/// sorted first since these file types were not identified by signature. The order of the file
+/// types is determined by the relationship between the file formats.
+fn cmp_file_type_extensions(a: &FileType, b: &FileType) -> Ordering {
+    let a_file_format = a.file_format();
+    let b_file_format = b.file_format();
+    let a_id = a_file_format.id();
+    let b_id = b_file_format.id();
+
+    for related_format in a_file_format.related_formats() {
+        if b_id != related_format.id() {
+            continue;
+        }
+
+        match related_format.relationship_type() {
+            RelationshipType::HasLowerPriorityThan => {
+                return Ordering::Less;
+            }
+            RelationshipType::HasPriorityOver => {
+                return Ordering::Greater;
+            }
+            _ => {}
+        }
+    }
+
+    for related_format in b_file_format.related_formats() {
+        if a_id != related_format.id() {
+            continue;
+        }
+
+        match related_format.relationship_type() {
+            RelationshipType::HasLowerPriorityThan => {
+                return Ordering::Greater;
+            }
+            RelationshipType::HasPriorityOver => {
+                return Ordering::Less;
+            }
+            _ => {}
+        }
+    }
+
+    a_id.cmp(&b_id)
 }
 
 /// Determines if a byte slice is binary or text data.
@@ -181,10 +246,7 @@ where
                     for file_type in types {
                         file_types.push(file_type);
                     }
-                    // If no file formats were found, sort the file types in reverse order in order
-                    // to prioritize the most generic file type
-                    sort_file_types(&mut file_types);
-                    file_types.reverse();
+                    sort_by(&mut file_types, cmp_file_type_extensions);
                 };
             }
         }
@@ -201,7 +263,7 @@ where
                     file_types = types;
                 }
             }
-            sort_file_types(&mut file_types);
+            sort_by(&mut file_types, cmp_file_types);
         }
     }
 
@@ -416,6 +478,34 @@ mod tests {
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.extensions(), vec!["png"]);
         Ok(())
+    }
+
+    #[test]
+    fn test_cmp_file_types() {
+        let fmt6 = FileType::from_id("fmt/6").expect("file type not found");
+        let fmt527 = FileType::from_id("fmt/527").expect("file type not found");
+        let fmt708 = FileType::from_id("fmt/708").expect("file type not found");
+        let mut file_types = [fmt6, fmt527, fmt708];
+
+        sort_by(&mut file_types, cmp_file_types);
+
+        assert_eq!(file_types[0].id(), "fmt/708");
+        assert_eq!(file_types[1].id(), "fmt/527");
+        assert_eq!(file_types[2].id(), "fmt/6");
+    }
+
+    #[test]
+    fn test_cmp_file_type_extensions() {
+        let fmt214 = FileType::from_id("fmt/214").expect("file type not found");
+        let fmt494 = FileType::from_id("fmt/494").expect("file type not found");
+        let fmt1828 = FileType::from_id("fmt/1828").expect("file type not found");
+        let mut file_types = [fmt1828, fmt214, fmt494];
+
+        sort_by(&mut file_types, cmp_file_type_extensions);
+
+        assert_eq!(file_types[0].id(), "fmt/214");
+        assert_eq!(file_types[1].id(), "fmt/494");
+        assert_eq!(file_types[2].id(), "fmt/1828");
     }
 
     #[test]

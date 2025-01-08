@@ -297,7 +297,6 @@ impl FileType {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::file_types::sort_file_types;
     use std::path::PathBuf;
 
     const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
@@ -430,20 +429,6 @@ mod tests {
         assert_eq!(file_type.extensions(), vec!["png"]);
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         Ok(())
-    }
-
-    #[test]
-    fn test_cmp() {
-        let fmt6 = FileType::from_id("fmt/6").expect("file type not found");
-        let fmt527 = FileType::from_id("fmt/527").expect("file type not found");
-        let fmt708 = FileType::from_id("fmt/708").expect("file type not found");
-        let file_types = &mut vec![fmt6, fmt527, fmt708];
-
-        sort_file_types(file_types);
-
-        assert_eq!(file_types[0].id(), "fmt/708");
-        assert_eq!(file_types[1].id(), "fmt/527");
-        assert_eq!(file_types[2].id(), "fmt/6");
     }
 
     fn large_bytes() -> Vec<u8> {
