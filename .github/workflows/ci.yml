@@ -68,17 +68,6 @@ jobs:
           tool: cargo-llvm-cov
 
       - name: Build
-        if: ${{ !startsWith(matrix.platform, 'wasm32-') }}
-        env:
-          CARGO_TERM_COLOR: always
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          RUST_BACKTRACE: 1
-          RUST_LOG: info
-        run: |
-          rustup target install ${{ matrix.target }}
-          cargo build --workspace --target ${{ matrix.target }}
-
-      - name: Build
         if: ${{ startsWith(matrix.platform, 'wasm32-') }}
         env:
           CARGO_TERM_COLOR: always
@@ -89,7 +78,7 @@ jobs:
           rustup target install ${{ matrix.target }}
           cargo build --package file_type --target ${{ matrix.target }}
 
-      - name: Tests
+      - name: Test
         if: ${{ !startsWith(matrix.platform, 'linux-') && !startsWith(matrix.platform, 'wasm32-') }}
         env:
           CARGO_TERM_COLOR: always
@@ -99,7 +88,7 @@ jobs:
         run: |
           cargo test --workspace --all-features
 
-      - name: Tests
+      - name: Test
         if: ${{ startsWith(matrix.platform, 'linux-') }}
         env:
           CARGO_TERM_COLOR: always
