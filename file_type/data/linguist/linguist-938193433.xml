@@ -1,0 +1,16 @@
+<FileFormat>
+  <FormatID>938193433</FormatID>
+  <FormatName>MiniZinc Data</FormatName>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceSourceDate>08 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>08 Jan 2025</LastUpdatedDate>
+  <FileFormatIdentifier>
+    <Identifier>linguist/938193433</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>.dzn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>
