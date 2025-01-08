@@ -300,19 +300,19 @@ mod tests {
     #[test]
     fn test_file_formats() {
         let file_types = &*FILE_TYPES;
-        assert_eq!(3844, file_types.len());
+        assert_eq!(3851, file_types.len());
     }
 
     #[test]
     fn test_extensions() {
         let extensions = &*EXTENSION_MAP;
-        assert_eq!(3608, extensions.len());
+        assert_eq!(3613, extensions.len());
     }
 
     #[test]
     fn test_media_types() {
         let media_types = &*MEDIA_TYPE_MAP;
-        assert_eq!(1025, media_types.len());
+        assert_eq!(1026, media_types.len());
         assert!(media_types.contains_key("text/plain"));
         assert!(media_types.contains_key("application/octet-stream"));
     }

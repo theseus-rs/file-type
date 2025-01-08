@@ -1,4 +1,4 @@
-# File Types (3844)
+# File Types (3851)
 
 | Id | Name | Extensions | Media Types |
 | ---- | ---- | ----------- | ---------- |
@@ -260,6 +260,7 @@
 | [fmt/1784](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1784.xml) | Animatic Film Format | flm |  |
 | [apache-httpd/596873008912409075](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-596873008912409075.xml) | anser web certificate issue initiation | cii | application/vnd.anser-web-certificate-issue-initiation |
 | [apache-httpd/8243032856616937357](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-8243032856616937357.xml) | anser web funds transfer initiation | fti | application/vnd.anser-web-funds-transfer-initiation |
+| [linguist/433009171](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-433009171.xml) | Answer Set Programming | .lp |  |
 | [linguist/15](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-15.xml) | Ant Build System |  | application/xml |
 | [apache-httpd/858406622269959928](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-858406622269959928.xml) | antix game component | atx | application/vnd.antix.game-component |
 | [linguist/1067292663](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-1067292663.xml) | Antlers | .antlers.html, .antlers.php, .antlers.xml |  |
@@ -1665,6 +1666,7 @@
 | [apache-httpd/15363840241960418613](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-15363840241960418613.xml) | kde kpresenter | kpr, kpt | application/vnd.kde.kpresenter |
 | [apache-httpd/10622120689245270024](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-10622120689245270024.xml) | kde kspread | ksp | application/vnd.kde.kspread |
 | [apache-httpd/4053381207682315711](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-4053381207682315711.xml) | kde kword | kwd, kwt | application/vnd.kde.kword |
+| [linguist/931123626](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-931123626.xml) | KDL | .kdl | text/x-yacas |
 | [apache-httpd/5556381308704270204](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-5556381308704270204.xml) | kenameaapp | htke | application/vnd.kenameaapp |
 | [linguist/59716426](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-59716426.xml) | KerboScript | .ks |  |
 | [fmt/724](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-724.xml) | Keyhole Markup Language (Container) | kmz | application/vnd.google-earth.kmz |
@@ -1728,6 +1730,7 @@
 | [linguist/1040646257](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-1040646257.xml) | LigoLANG | .ligo | text/x-pascal |
 | [linguist/200](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-200.xml) | LilyPond | .ly, .ily |  |
 | [linguist/201](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-201.xml) | Limbo | .b, .m |  |
+| [linguist/377204539](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-377204539.xml) | Linear Programming | .lp |  |
 | [linguist/202](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-202.xml) | Linker Script | .ld, .lds, .x |  |
 | [linguist/203](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-203.xml) | Linux Kernel Module | .mod |  |
 | [fmt/1672](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1672.xml) | Linux/i386 Binary Executable File ZMAGIC | so, o |  |
@@ -1893,6 +1896,7 @@
 | [apache-httpd/1187713301663608044](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-1187713301663608044.xml) | mcd | mcd | application/vnd.mcd |
 | [linguist/462488745](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-462488745.xml) | mcfunction | .mcfunction |  |
 | [fmt/993](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-993.xml) | MD5 File | md5 |  |
+| [linguist/566198445](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-566198445.xml) | mdsvex | .svx | text/x-gfm |
 | [linguist/512838272](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-512838272.xml) | MDX | .mdx | text/x-gfm |
 | [apache-httpd/4072025194511321041](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-4072025194511321041.xml) | medcalcdata | mc1 | application/vnd.medcalcdata |
 | [fmt/1758](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1758.xml) | Media Descriptor File | mdf |  |
@@ -2209,6 +2213,8 @@
 | [fmt/1435](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1435.xml) | Minitab Worksheet | mtw |  |
 | [fmt/1437](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1437.xml) | Minitab Worksheet | mtw |  |
 | [linguist/4896465](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-4896465.xml) | MiniYAML | .yaml, .yml | text/x-yaml |
+| [linguist/938193433](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-938193433.xml) | MiniZinc Data | .dzn |  |
+| [linguist/238874535](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-238874535.xml) | MiniZinc | .mzn |  |
 | [fmt/669](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-669.xml) | Minolta RAW | mrw |  |
 | [linguist/968740319](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-968740319.xml) | Mint | .mint |  |
 | [linguist/232](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-232.xml) | Mirah | .druby, .duby, .mirah | text/x-ruby |
@@ -3378,6 +3384,7 @@
 | [fmt/734](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-734.xml) | SuperScape Virtual Reality Format | svr |  |
 | [fmt/1276](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1276.xml) | SureThing Project File | std |  |
 | [fmt/1552](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1552.xml) | Surprise! Adlib Tracker v2.0 | sa2 |  |
+| [linguist/24470517](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-24470517.xml) | Survex data | .svx |  |
 | [apache-httpd/10548945477827165241](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-10548945477827165241.xml) | sus calendar | sus, susp | application/vnd.sus-calendar |
 | [apache-httpd/7226557976762131676](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-7226557976762131676.xml) | sv4cpio | sv4cpio | application/x-sv4cpio |
 | [apache-httpd/17467597544118241061](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-17467597544118241061.xml) | sv4crc | sv4crc | application/x-sv4crc |
