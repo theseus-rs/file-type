@@ -15,7 +15,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Merge pull request [#35](https://github.com/theseus-rs/file-type/pull/35) from theseus-rs/update-linguist-file-formats
 - ignore tests failing on Windows
 - update crate documentation
-- update crate documentation
 
 ## `file_type` - [0.2.0](https://github.com/theseus-rs/file-type/compare/file_type-v0.1.0...file_type-v0.2.0) - 2025-01-07
 
