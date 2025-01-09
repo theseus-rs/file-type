@@ -362,13 +362,13 @@ mod tests {
     #[test]
     fn test_file_formats() {
         let file_types = &*FILE_TYPES;
-        assert_eq!(3851, file_types.len());
+        assert_eq!(3852, file_types.len());
     }
 
     #[test]
     fn test_extensions() {
         let extensions = &*EXTENSION_MAP;
-        assert_eq!(3613, extensions.len());
+        assert_eq!(3614, extensions.len());
     }
 
     #[test]
