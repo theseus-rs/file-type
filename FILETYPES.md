@@ -1,4 +1,4 @@
-# File Types (3851)
+# File Types (3852)
 
 | Id | Name | Extensions | Media Types |
 | ---- | ---- | ----------- | ---------- |
@@ -2564,6 +2564,7 @@
 | [apache-httpd/4956746657128679058](https://github.com/theseus-rs/file-type/blob/main/file_type/data/apache-httpd/apache-httpd-4956746657128679058.xml) | osgi subsystem | esa | application/vnd.osgi.subsystem |
 | [fmt/839](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-839.xml) | Outlook Express Folder Database | dbx |  |
 | [fmt/838](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-838.xml) | Outlook Express Message Database | dbx |  |
+| [linguist/689079655](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-689079655.xml) | OverpassQL | .overpassql |  |
 | [linguist/269](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-269.xml) | Oxygene | .oxygene |  |
 | [linguist/268](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-268.xml) | Ox | .ox, .oxh, .oxo |  |
 | [linguist/270](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-270.xml) | Oz | .oz | text/x-oz |
