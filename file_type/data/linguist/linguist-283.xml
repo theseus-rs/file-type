@@ -3,7 +3,7 @@
   <FormatName>Raku</FormatName>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>linguist/283</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -14,67 +14,67 @@
   </FileFormatIdentifier>
   <ExternalSignature>
     <ExternalSignatureID>0</ExternalSignatureID>
-    <Signature>.6pl</Signature>
+    <Signature>6pl</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>1</ExternalSignatureID>
-    <Signature>.6pm</Signature>
+    <Signature>6pm</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>2</ExternalSignatureID>
-    <Signature>.nqp</Signature>
+    <Signature>nqp</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>3</ExternalSignatureID>
-    <Signature>.p6</Signature>
+    <Signature>p6</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>4</ExternalSignatureID>
-    <Signature>.p6l</Signature>
+    <Signature>p6l</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>5</ExternalSignatureID>
-    <Signature>.p6m</Signature>
+    <Signature>p6m</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>6</ExternalSignatureID>
-    <Signature>.pl</Signature>
+    <Signature>pl</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>7</ExternalSignatureID>
-    <Signature>.pl6</Signature>
+    <Signature>pl6</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>8</ExternalSignatureID>
-    <Signature>.pm</Signature>
+    <Signature>pm</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>9</ExternalSignatureID>
-    <Signature>.pm6</Signature>
+    <Signature>pm6</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>10</ExternalSignatureID>
-    <Signature>.raku</Signature>
+    <Signature>raku</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>11</ExternalSignatureID>
-    <Signature>.rakumod</Signature>
+    <Signature>rakumod</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>12</ExternalSignatureID>
-    <Signature>.t</Signature>
+    <Signature>t</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
 </FileFormat>

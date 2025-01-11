@@ -3,7 +3,7 @@
   <FormatName>VHDL</FormatName>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>linguist/385</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -14,42 +14,42 @@
   </FileFormatIdentifier>
   <ExternalSignature>
     <ExternalSignatureID>0</ExternalSignatureID>
-    <Signature>.vhdl</Signature>
+    <Signature>vhdl</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>1</ExternalSignatureID>
-    <Signature>.vhd</Signature>
+    <Signature>vhd</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>2</ExternalSignatureID>
-    <Signature>.vhf</Signature>
+    <Signature>vhf</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>3</ExternalSignatureID>
-    <Signature>.vhi</Signature>
+    <Signature>vhi</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>4</ExternalSignatureID>
-    <Signature>.vho</Signature>
+    <Signature>vho</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>5</ExternalSignatureID>
-    <Signature>.vhs</Signature>
+    <Signature>vhs</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>6</ExternalSignatureID>
-    <Signature>.vht</Signature>
+    <Signature>vht</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>7</ExternalSignatureID>
-    <Signature>.vhw</Signature>
+    <Signature>vhw</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
 </FileFormat>

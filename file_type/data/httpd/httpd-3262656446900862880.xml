@@ -1,0 +1,20 @@
+<FileFormat>
+  <FormatID>3262656446900862880</FormatID>
+  <FormatName>chat</FormatName>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceSourceDate>11 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
+  <FileFormatIdentifier>
+    <Identifier>httpd/3262656446900862880</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-chat</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>chat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

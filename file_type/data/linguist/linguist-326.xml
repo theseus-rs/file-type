@@ -3,7 +3,7 @@
   <FormatName>Ruby</FormatName>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>linguist/326</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -14,112 +14,112 @@
   </FileFormatIdentifier>
   <ExternalSignature>
     <ExternalSignatureID>0</ExternalSignatureID>
-    <Signature>.rb</Signature>
+    <Signature>rb</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>1</ExternalSignatureID>
-    <Signature>.builder</Signature>
+    <Signature>builder</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>2</ExternalSignatureID>
-    <Signature>.eye</Signature>
+    <Signature>eye</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>3</ExternalSignatureID>
-    <Signature>.fcgi</Signature>
+    <Signature>fcgi</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>4</ExternalSignatureID>
-    <Signature>.gemspec</Signature>
+    <Signature>gemspec</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>5</ExternalSignatureID>
-    <Signature>.god</Signature>
+    <Signature>god</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>6</ExternalSignatureID>
-    <Signature>.jbuilder</Signature>
+    <Signature>jbuilder</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>7</ExternalSignatureID>
-    <Signature>.mspec</Signature>
+    <Signature>mspec</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>8</ExternalSignatureID>
-    <Signature>.pluginspec</Signature>
+    <Signature>pluginspec</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>9</ExternalSignatureID>
-    <Signature>.podspec</Signature>
+    <Signature>podspec</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>10</ExternalSignatureID>
-    <Signature>.prawn</Signature>
+    <Signature>prawn</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>11</ExternalSignatureID>
-    <Signature>.rabl</Signature>
+    <Signature>rabl</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>12</ExternalSignatureID>
-    <Signature>.rake</Signature>
+    <Signature>rake</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>13</ExternalSignatureID>
-    <Signature>.rbi</Signature>
+    <Signature>rbi</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>14</ExternalSignatureID>
-    <Signature>.rbuild</Signature>
+    <Signature>rbuild</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>15</ExternalSignatureID>
-    <Signature>.rbw</Signature>
+    <Signature>rbw</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>16</ExternalSignatureID>
-    <Signature>.rbx</Signature>
+    <Signature>rbx</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>17</ExternalSignatureID>
-    <Signature>.ru</Signature>
+    <Signature>ru</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>18</ExternalSignatureID>
-    <Signature>.ruby</Signature>
+    <Signature>ruby</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>19</ExternalSignatureID>
-    <Signature>.spec</Signature>
+    <Signature>spec</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>20</ExternalSignatureID>
-    <Signature>.thor</Signature>
+    <Signature>thor</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>21</ExternalSignatureID>
-    <Signature>.watchr</Signature>
+    <Signature>watchr</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
 </FileFormat>

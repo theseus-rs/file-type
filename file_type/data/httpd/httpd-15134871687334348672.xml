@@ -1,0 +1,20 @@
+<FileFormat>
+  <FormatID>15134871687334348672</FormatID>
+  <FormatName>spotfire dxp</FormatName>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceSourceDate>11 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
+  <FileFormatIdentifier>
+    <Identifier>httpd/15134871687334348672</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.spotfire.dxp</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dxp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

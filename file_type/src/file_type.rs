@@ -155,11 +155,11 @@ impl FileType {
     /// ```
     /// use file_type::FileType;
     ///
-    /// let file_types = FileType::from_extension("md");
+    /// let file_types = FileType::from_extension("sqlite3");
     /// assert_eq!(1, file_types.len());
     /// let file_type = file_types.first().expect("file format");
-    /// assert_eq!(file_type.name(), "Markdown");
-    /// assert_eq!(file_type.media_types(), vec!["text/markdown"]);
+    /// assert_eq!(file_type.name(), "SQLite Database File Format");
+    /// assert_eq!(file_type.media_types(), vec!["application/x-sqlite3"]);
     /// ```
     #[must_use]
     pub fn from_extension<S: AsRef<str>>(extension: S) -> &'static Vec<&'static Self> {
@@ -325,12 +325,16 @@ mod tests {
 
     #[test]
     fn test_from_extension() {
-        let file_types = FileType::from_extension("md");
+        let file_types = FileType::from_extension("sqlite3");
         assert_eq!(1, file_types.len());
         let file_type = file_types.first().expect("file format");
-        assert_eq!(file_type.id(), "fmt/1149");
-        assert_eq!(file_type.name(), "Markdown");
-        assert_eq!(file_type.media_types(), vec!["text/markdown"]);
+        assert_eq!(file_type.id(), "fmt/729");
+        assert_eq!(file_type.name(), "SQLite Database File Format");
+        assert_eq!(file_type.media_types(), vec!["application/x-sqlite3"]);
+        assert_eq!(
+            file_type.extensions(),
+            vec!["sqlite", "db", "db3", "sqlite3"]
+        );
     }
 
     #[test]

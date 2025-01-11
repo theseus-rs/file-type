@@ -3,7 +3,7 @@
   <FormatName>reStructuredText</FormatName>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>linguist/419</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -14,22 +14,22 @@
   </FileFormatIdentifier>
   <ExternalSignature>
     <ExternalSignatureID>0</ExternalSignatureID>
-    <Signature>.rst</Signature>
+    <Signature>rst</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>1</ExternalSignatureID>
-    <Signature>.rest</Signature>
+    <Signature>rest</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>2</ExternalSignatureID>
-    <Signature>.rest.txt</Signature>
+    <Signature>rest.txt</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>3</ExternalSignatureID>
-    <Signature>.rst.txt</Signature>
+    <Signature>rst.txt</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
 </FileFormat>

@@ -1,0 +1,25 @@
+<FileFormat>
+  <FormatID>13507959258524992275</FormatID>
+  <FormatName>x3d vrml</FormatName>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceSourceDate>11 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
+  <FileFormatIdentifier>
+    <Identifier>httpd/13507959258524992275</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>model/x3d+vrml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>x3dv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1</ExternalSignatureID>
+    <Signature>x3dvz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

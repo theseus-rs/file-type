@@ -1,0 +1,20 @@
+<FileFormat>
+  <FormatID>9814302341999196290</FormatID>
+  <FormatName>tao intent module archive</FormatName>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceSourceDate>11 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
+  <FileFormatIdentifier>
+    <Identifier>httpd/9814302341999196290</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.tao.intent-module-archive</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tao</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -3,7 +3,7 @@
   <FormatName>Erlang</FormatName>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>linguist/104</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -14,42 +14,42 @@
   </FileFormatIdentifier>
   <ExternalSignature>
     <ExternalSignatureID>0</ExternalSignatureID>
-    <Signature>.erl</Signature>
+    <Signature>erl</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>1</ExternalSignatureID>
-    <Signature>.app</Signature>
+    <Signature>app</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>2</ExternalSignatureID>
-    <Signature>.app.src</Signature>
+    <Signature>app.src</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>3</ExternalSignatureID>
-    <Signature>.es</Signature>
+    <Signature>es</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>4</ExternalSignatureID>
-    <Signature>.escript</Signature>
+    <Signature>escript</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>5</ExternalSignatureID>
-    <Signature>.hrl</Signature>
+    <Signature>hrl</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>6</ExternalSignatureID>
-    <Signature>.xrl</Signature>
+    <Signature>xrl</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>7</ExternalSignatureID>
-    <Signature>.yrl</Signature>
+    <Signature>yrl</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
 </FileFormat>

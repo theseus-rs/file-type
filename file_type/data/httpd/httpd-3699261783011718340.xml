@@ -1,0 +1,20 @@
+<FileFormat>
+  <FormatID>3699261783011718340</FormatID>
+  <FormatName>mathml xml</FormatName>
+  <ProvenanceSourceId>0</ProvenanceSourceId>
+  <ProvenanceSourceDate>11 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
+  <FileFormatIdentifier>
+    <Identifier>httpd/3699261783011718340</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/mathml+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mathml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

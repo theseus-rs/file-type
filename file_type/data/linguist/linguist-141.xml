@@ -3,7 +3,7 @@
   <FormatName>Roff</FormatName>
   <ProvenanceSourceId>0</ProvenanceSourceId>
   <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>linguist/141</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -14,142 +14,142 @@
   </FileFormatIdentifier>
   <ExternalSignature>
     <ExternalSignatureID>0</ExternalSignatureID>
-    <Signature>.roff</Signature>
+    <Signature>roff</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>1</ExternalSignatureID>
-    <Signature>.1</Signature>
+    <Signature>1</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>2</ExternalSignatureID>
-    <Signature>.1in</Signature>
+    <Signature>1in</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>3</ExternalSignatureID>
-    <Signature>.1m</Signature>
+    <Signature>1m</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>4</ExternalSignatureID>
-    <Signature>.1x</Signature>
+    <Signature>1x</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>5</ExternalSignatureID>
-    <Signature>.2</Signature>
+    <Signature>2</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>6</ExternalSignatureID>
-    <Signature>.3</Signature>
+    <Signature>3</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>7</ExternalSignatureID>
-    <Signature>.3in</Signature>
+    <Signature>3in</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>8</ExternalSignatureID>
-    <Signature>.3m</Signature>
+    <Signature>3m</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>9</ExternalSignatureID>
-    <Signature>.3p</Signature>
+    <Signature>3p</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>10</ExternalSignatureID>
-    <Signature>.3pm</Signature>
+    <Signature>3pm</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>11</ExternalSignatureID>
-    <Signature>.3qt</Signature>
+    <Signature>3qt</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>12</ExternalSignatureID>
-    <Signature>.3x</Signature>
+    <Signature>3x</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>13</ExternalSignatureID>
-    <Signature>.4</Signature>
+    <Signature>4</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>14</ExternalSignatureID>
-    <Signature>.5</Signature>
+    <Signature>5</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>15</ExternalSignatureID>
-    <Signature>.6</Signature>
+    <Signature>6</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>16</ExternalSignatureID>
-    <Signature>.7</Signature>
+    <Signature>7</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>17</ExternalSignatureID>
-    <Signature>.8</Signature>
+    <Signature>8</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>18</ExternalSignatureID>
-    <Signature>.9</Signature>
+    <Signature>9</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>19</ExternalSignatureID>
-    <Signature>.l</Signature>
+    <Signature>l</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>20</ExternalSignatureID>
-    <Signature>.man</Signature>
+    <Signature>man</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>21</ExternalSignatureID>
-    <Signature>.mdoc</Signature>
+    <Signature>mdoc</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>22</ExternalSignatureID>
-    <Signature>.me</Signature>
+    <Signature>me</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>23</ExternalSignatureID>
-    <Signature>.ms</Signature>
+    <Signature>ms</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>24</ExternalSignatureID>
-    <Signature>.n</Signature>
+    <Signature>n</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>25</ExternalSignatureID>
-    <Signature>.nr</Signature>
+    <Signature>nr</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>26</ExternalSignatureID>
-    <Signature>.rno</Signature>
+    <Signature>rno</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
   <ExternalSignature>
     <ExternalSignatureID>27</ExternalSignatureID>
-    <Signature>.tmac</Signature>
+    <Signature>tmac</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
 </FileFormat>

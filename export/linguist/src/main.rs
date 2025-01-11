@@ -111,7 +111,10 @@ fn parse_languages<S: AsRef<str>>(yaml: S) -> Result<Vec<Language>> {
         let extensions = match language.get("extensions") {
             Some(Value::Array(extensions)) => extensions
                 .iter()
-                .map(|extension| extension.as_str().expect("Invalid extension").to_string())
+                .map(|extension| {
+                    let extension = extension.as_str().expect("Invalid extension").to_string();
+                    extension.trim_start_matches('.').to_string()
+                })
                 .collect(),
             _ => Vec::new(),
         };
