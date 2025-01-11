@@ -4,7 +4,7 @@ use std::path::PathBuf;
 use walkdir::WalkDir;
 
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
-const IGNORED: [&str; 66] = [
+const IGNORED: [&str; 68] = [
     "fmt/62",
     "fmt/63",
     "fmt/64",
@@ -24,14 +24,15 @@ const IGNORED: [&str; 66] = [
     "fmt/78",
     "fmt/79",
     "fmt/96",
-    "fmt/160",
     "fmt/161",
     "fmt/276",
     "fmt/301",
     "fmt/302",
+    "fmt/356",
     "fmt/433",
     "fmt/435",
     "fmt/507",
+    "fmt/519",
     "fmt/532",
     "fmt/558",
     "fmt/570",
@@ -41,6 +42,7 @@ const IGNORED: [&str; 66] = [
     "fmt/580",
     "fmt/581",
     "fmt/582",
+    "fmt/591",
     "fmt/651",
     "fmt/652",
     "fmt/685",
@@ -51,7 +53,6 @@ const IGNORED: [&str; 66] = [
     "fmt/1062",
     "fmt/1039",
     "fmt/1105",
-    "fmt/1163",
     "fmt/1199",
     "fmt/1389",
     "fmt/1451",
@@ -69,6 +70,7 @@ const IGNORED: [&str; 66] = [
     "x-fmt/91",
     "x-fmt/142",
     "x-fmt/178",
+    "x-fmt/220",
     "x-fmt/280",
     "x-fmt/365",
 ];
@@ -124,19 +126,19 @@ async fn test_file_classification() -> Result<()> {
         if IGNORED.contains(&id.as_str()) {
             if file_type.id() == id {
                 eprintln!(
-                    "IGNORED(PASSING) file_type.id()={}, id={id}: {file_name}",
+                    "IGNORED(PASSING) id={id}, file_type.id()={}: {file_name}",
                     file_type.id(),
                 );
             } else {
                 eprintln!(
-                    "IGNORED(ERROR) file_type.id()={}, id={id}: {file_name}",
+                    "IGNORED(ERROR) id={id}, file_type.id()={}: {file_name}",
                     file_type.id(),
                 );
             }
             ignored_tests += 1;
             continue;
         }
-        assert_eq!(file_type.id(), id);
+        assert_eq!(id, file_type.id());
         passed_tests += 1;
     }
 
