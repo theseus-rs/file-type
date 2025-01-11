@@ -2,8 +2,8 @@
   <FormatID>931123626</FormatID>
   <FormatName>KDL</FormatName>
   <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceSourceDate>08 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>08 Jan 2025</LastUpdatedDate>
+  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>linguist/931123626</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -14,7 +14,7 @@
   </FileFormatIdentifier>
   <ExternalSignature>
     <ExternalSignatureID>0</ExternalSignatureID>
-    <Signature>.kdl</Signature>
+    <Signature>kdl</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
 </FileFormat>

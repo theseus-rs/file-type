@@ -2,15 +2,15 @@
   <FormatID>689079655</FormatID>
   <FormatName>OverpassQL</FormatName>
   <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceSourceDate>09 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>09 Jan 2025</LastUpdatedDate>
+  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
+  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>linguist/689079655</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
   <ExternalSignature>
     <ExternalSignatureID>0</ExternalSignatureID>
-    <Signature>.overpassql</Signature>
+    <Signature>overpassql</Signature>
     <SignatureType>File extension</SignatureType>
   </ExternalSignature>
 </FileFormat>

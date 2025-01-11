@@ -168,7 +168,7 @@ fn cmp_file_types(a: &FileType, b: &FileType) -> Ordering {
         }
     }
 
-    a_id.cmp(&b_id)
+    cmp_puids(a_file_format.puid(), b_file_format.puid())
 }
 
 /// Compare the file types based on their priority and id.  The most general file type should be
@@ -212,7 +212,32 @@ fn cmp_file_type_extensions(a: &FileType, b: &FileType) -> Ordering {
         }
     }
 
-    a_id.cmp(&b_id)
+    cmp_puids(a_file_format.puid(), b_file_format.puid())
+}
+
+/// Compare puids so that PRONOM ids are sorted first, followed by linguist, then httpd.
+fn cmp_puids(a: &str, b: &str) -> Ordering {
+    let (a_type, a_id) = a.split_once('/').unwrap_or_default();
+    let a_type = puid_type_order(a_type);
+    let (b_type, b_id) = b.split_once('/').unwrap_or_default();
+    let b_type = puid_type_order(b_type);
+
+    match a_type.cmp(&b_type) {
+        Ordering::Equal => a_id.cmp(b_id),
+        ordering => ordering,
+    }
+}
+
+/// Return the order of a puid type.
+fn puid_type_order(puid_type: &str) -> u8 {
+    match puid_type {
+        "custom" => 0,
+        "fmt" => 1,
+        "x-fmt" => 2,
+        "linguist" => 3,
+        "httpd" => 4,
+        _ => 5,
+    }
 }
 
 /// Determines if a byte slice is binary or text data.
@@ -362,13 +387,13 @@ mod tests {
     #[test]
     fn test_file_formats() {
         let file_types = &*FILE_TYPES;
-        assert_eq!(3852, file_types.len());
+        assert_eq!(3847, file_types.len());
     }
 
     #[test]
     fn test_extensions() {
         let extensions = &*EXTENSION_MAP;
-        assert_eq!(3614, extensions.len());
+        assert_eq!(3376, extensions.len());
     }
 
     #[test]
@@ -396,13 +421,16 @@ mod tests {
 
     #[test]
     fn test_from_extension() {
-        let file_types = from_extension("md");
+        let file_types = from_extension("sqlite3");
         assert_eq!(1, file_types.len());
         let file_type = file_types.first().expect("file format");
-        assert_eq!(file_type.id(), "fmt/1149");
-        assert_eq!(file_type.name(), "Markdown");
-        assert_eq!(file_type.media_types(), vec!["text/markdown"]);
-        assert_eq!(file_type.extensions(), vec!["md", "markdown"]);
+        assert_eq!(file_type.id(), "fmt/729");
+        assert_eq!(file_type.name(), "SQLite Database File Format");
+        assert_eq!(file_type.media_types(), vec!["application/x-sqlite3"]);
+        assert_eq!(
+            file_type.extensions(),
+            vec!["sqlite", "db", "db3", "sqlite3"]
+        );
     }
 
     #[test]
@@ -504,8 +532,8 @@ mod tests {
         sort_by(&mut file_types, cmp_file_type_extensions);
 
         assert_eq!(file_types[0].id(), "fmt/214");
-        assert_eq!(file_types[1].id(), "fmt/494");
-        assert_eq!(file_types[2].id(), "fmt/1828");
+        assert_eq!(file_types[1].id(), "fmt/1828");
+        assert_eq!(file_types[2].id(), "fmt/494");
     }
 
     #[test]
