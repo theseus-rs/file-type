@@ -11,14 +11,10 @@ fn data_dir() -> PathBuf {
         .join("custom")
 }
 
-async fn test_file(
-    file_name: &str,
-    expected_id: &str,
-    expected_media_type: Option<&str>,
-) -> Result<()> {
+fn test_file(file_name: &str, expected_id: &str, expected_media_type: Option<&str>) -> Result<()> {
     let data_dir = data_dir();
     let path = data_dir.join(file_name);
-    let file_type = FileType::try_from_file(path).await?;
+    let file_type = FileType::try_from_file_sync(path)?;
     assert_eq!(file_type.id(), expected_id);
     let media_types = file_type.media_types();
     match expected_media_type {
@@ -32,97 +28,91 @@ async fn test_file(
     Ok(())
 }
 
-#[tokio::test]
-async fn test_arrow_file() -> Result<()> {
+#[test]
+fn test_arrow_file() -> Result<()> {
     test_file(
         "users.arrow",
         "custom/1",
         Some("application/vnd.apache.arrow.file"),
     )
-    .await
 }
 
-#[tokio::test]
-async fn test_avro_file() -> Result<()> {
+#[test]
+fn test_avro_file() -> Result<()> {
     test_file(
         "users.avro",
         "custom/2",
         Some("application/vnd.apache.avro.file"),
     )
-    .await
 }
 
-#[tokio::test]
-async fn test_csv_file() -> Result<()> {
-    test_file("users.csv", "x-fmt/18", Some("text/csv")).await
+#[test]
+fn test_csv_file() -> Result<()> {
+    test_file("users.csv", "x-fmt/18", Some("text/csv"))
 }
 
-#[tokio::test]
-async fn test_duckdb_file() -> Result<()> {
+#[test]
+fn test_duckdb_file() -> Result<()> {
     test_file(
         "users.duckdb",
         "custom/3",
         Some("application/vnd.duckdb.file"),
     )
-    .await
 }
 
-#[tokio::test]
-async fn test_json_file() -> Result<()> {
-    test_file("users.json", "fmt/817", Some("application/json")).await
+#[test]
+fn test_json_file() -> Result<()> {
+    test_file("users.json", "fmt/817", Some("application/json"))
 }
 
-#[tokio::test]
-async fn test_jsonl_file() -> Result<()> {
-    test_file("users.jsonl", "custom/4", Some("application/jsonl")).await
+#[test]
+fn test_jsonl_file() -> Result<()> {
+    test_file("users.jsonl", "custom/4", Some("application/jsonl"))
 }
 
-#[tokio::test]
-async fn test_ods_file() -> Result<()> {
+#[test]
+fn test_ods_file() -> Result<()> {
     test_file(
         "users.ods",
         "fmt/294",
         Some("application/vnd.oasis.opendocument.spreadsheet"),
     )
-    .await
 }
 
-#[tokio::test]
-async fn test_parquet_file() -> Result<()> {
+#[test]
+fn test_parquet_file() -> Result<()> {
     test_file(
         "users.parquet",
         "custom/5",
         Some("application/vnd.apache.parquet"),
     )
-    .await
 }
 
-#[tokio::test]
-async fn test_sqlite3_file() -> Result<()> {
-    test_file("users.sqlite3", "fmt/729", Some("application/x-sqlite3")).await
+#[test]
+fn test_sqlite3_file() -> Result<()> {
+    test_file("users.sqlite3", "fmt/729", Some("application/x-sqlite3"))
 }
 
-#[tokio::test]
-async fn test_tsv_file() -> Result<()> {
-    test_file("users.tsv", "x-fmt/13", Some("text/tab-separated-values")).await
+#[test]
+fn test_tsv_file() -> Result<()> {
+    test_file("users.tsv", "x-fmt/13", Some("text/tab-separated-values"))
 }
 
-#[tokio::test]
-async fn test_xlsx_file() -> Result<()> {
+#[test]
+fn test_xlsx_file() -> Result<()> {
     test_file(
         "users.xlsx",
         "fmt/214",
         Some("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"),
     )
-    .await
 }
 
-#[tokio::test]
-async fn test_xml_file() -> Result<()> {
-    test_file("users.xml", "fmt/101", Some("text/xml")).await
+#[test]
+fn test_xml_file() -> Result<()> {
+    test_file("users.xml", "fmt/101", Some("text/xml"))
 }
 
-#[tokio::test]
-async fn test_yaml_file() -> Result<()> {
-    test_file("users.yaml", "fmt/818", None).await
+#[test]
+fn test_yaml_file() -> Result<()> {
+    test_file("users.yaml", "fmt/818", None)
 }

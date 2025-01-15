@@ -9,8 +9,8 @@ use std::fs::read_to_string;
 use std::io::{Read, Seek};
 use std::path::Path;
 use std::sync::LazyLock;
-use tokio::io::{AsyncRead, AsyncReadExt, AsyncSeek};
-use tokio::runtime::Builder;
+#[cfg(feature = "tokio")]
+use tokio::io::AsyncReadExt;
 
 static FILE_TYPES: LazyLock<HashMap<String, FileType>> = LazyLock::new(initialize_file_formats);
 static SIGNATURE_MAP: LazyLock<HashMap<&'static str, &'static FileType>> =
@@ -312,12 +312,13 @@ where
 ///
 /// # Errors
 /// if the there is an issue processing the reader
+#[cfg(feature = "tokio")]
 pub(crate) async fn try_from_reader<R>(
     mut reader: R,
     extension: Option<&str>,
 ) -> Result<&'static FileType>
 where
-    R: AsyncRead + Unpin,
+    R: tokio::io::AsyncRead + Unpin,
 {
     let mut buffer = Vec::new();
     reader.read_to_end(&mut buffer).await?;
@@ -330,6 +331,7 @@ where
 ///
 /// # Errors
 /// if the there is an issue reading the file
+#[cfg(feature = "tokio")]
 pub(crate) async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static FileType> {
     #[cfg(target_arch = "wasm32")]
     let file_type = try_from_file_sync(path);
@@ -387,7 +389,7 @@ mod tests {
     #[test]
     fn test_file_formats() {
         let file_types = &*FILE_TYPES;
-        assert_eq!(3847, file_types.len());
+        assert_eq!(3848, file_types.len());
     }
 
     #[test]
@@ -461,6 +463,7 @@ mod tests {
     }
 
     #[tokio::test]
+    #[cfg(feature = "tokio")]
     async fn test_try_from_reader() -> Result<()> {
         let file_path = test_file_path();
         let file = tokio::fs::File::open(file_path).await?;
@@ -474,6 +477,7 @@ mod tests {
     }
 
     #[tokio::test]
+    #[cfg(feature = "tokio")]
     async fn test_try_from_file() -> Result<()> {
         let file_path = test_file_path();
         let file_type = try_from_file(file_path).await?;

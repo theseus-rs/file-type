@@ -19,10 +19,10 @@ serde = { workspace = true, features = ["derive"] }
 thiserror = { workspace = true }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
-tokio = { workspace = true, features = ["io-util"] }
+tokio = { workspace = true, optional = true, features = ["io-util"] }
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
-tokio = { workspace = true, features = ["fs", "io-util"] }
+tokio = { workspace = true, optional = true, features = ["fs", "io-util"] }
 
 [dev-dependencies]
 anyhow = { workspace = true }
@@ -31,6 +31,12 @@ indoc = { workspace = true }
 quick-xml = { workspace = true, features = ["serde", "serialize"] }
 tokio = { workspace = true, features = ["full"] }
 walkdir = { workspace = true }
+
+[features]
+default = []
+tokio = [
+    "dep:tokio",
+]
 
 [[bench]]
 harness = false

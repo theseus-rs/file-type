@@ -2,7 +2,6 @@ use criterion::{criterion_group, criterion_main, Criterion};
 use file_type::{FileType, Result};
 use std::fs;
 use std::path::PathBuf;
-use tokio::runtime::Runtime;
 
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
 
@@ -25,7 +24,6 @@ fn large_bytes() -> Vec<u8> {
 }
 
 fn bench_lifecycle(criterion: &mut Criterion) -> Result<()> {
-    let runtime = Runtime::new()?;
     let file = PathBuf::from(CRATE_DIR)
         .join("..")
         .join("testdata")
@@ -60,9 +58,7 @@ fn bench_lifecycle(criterion: &mut Criterion) -> Result<()> {
 
     criterion.bench_function("try_from_file", |bencher| {
         bencher.iter(|| {
-            runtime.block_on(async {
-                from_file(&file).await.ok();
-            });
+            let _ = FileType::try_from_file_sync(&file);
         });
     });
 
@@ -72,11 +68,6 @@ fn bench_lifecycle(criterion: &mut Criterion) -> Result<()> {
         });
     });
 
-    Ok(())
-}
-
-async fn from_file(class_file: &PathBuf) -> Result<()> {
-    FileType::try_from_file(class_file).await?;
     Ok(())
 }
 

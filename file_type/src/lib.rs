@@ -28,7 +28,7 @@
 //! ```
 //!
 //! Detect the file type from a file:
-//! ```no_run
+//! ```rust,no_run
 //! use file_type::FileType;
 //! use std::path::Path;
 //!
