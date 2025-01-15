@@ -80,6 +80,14 @@ AND
 The PRONOM definitions are provided by The National Archives (UK) under the
 [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
+## Alternatives
+
+If this crate does not meet your requirements, you may want to consider the following alternatives:
+
+* [infer](https://crates.io/crates/infer)
+* [mime_guess](https://crates.io/crates/mime_guess)
+* [file-format](https://crates.io/crates/file-format)
+
 ## Contribution
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
