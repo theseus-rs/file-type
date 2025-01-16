@@ -82,7 +82,7 @@ fn data_dir() -> PathBuf {
         .join("pronom")
 }
 
-async fn test_file(file_name: &str) -> Result<(String, &FileType)> {
+fn test_file(file_name: &str) -> Result<(String, &FileType)> {
     let data_dir = data_dir();
     let path = data_dir.join(file_name);
     let file_name = path
@@ -99,12 +99,12 @@ async fn test_file(file_name: &str) -> Result<(String, &FileType)> {
         format!("{}/{}", parts[0], parts[1])
     };
 
-    let file_type = FileType::try_from_file(path).await?;
+    let file_type = FileType::try_from_file_sync(path)?;
     Ok((id, file_type))
 }
 
-#[tokio::test]
-async fn test_file_classification() -> Result<()> {
+#[test]
+fn test_file_classification() -> Result<()> {
     let data_dir = data_dir();
     let mut passed_tests = 0;
     let mut ignored_tests = 0;
@@ -121,7 +121,7 @@ async fn test_file_classification() -> Result<()> {
             .expect("file name")
             .to_string_lossy()
             .to_string();
-        let (id, file_type) = test_file(&file_name).await?;
+        let (id, file_type) = test_file(&file_name)?;
 
         if IGNORED.contains(&id.as_str()) {
             if file_type.id() == id {
@@ -147,9 +147,9 @@ async fn test_file_classification() -> Result<()> {
     Ok(())
 }
 
-#[tokio::test]
-async fn test_single_file_classification() -> Result<()> {
-    let (id, file_type) = test_file("fmt-708-signature-id-831.wav").await?;
+#[test]
+fn test_single_file_classification() -> Result<()> {
+    let (id, file_type) = test_file("fmt-708-signature-id-831.wav")?;
     assert_eq!(file_type.id(), id);
     Ok(())
 }

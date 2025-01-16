@@ -31,5 +31,8 @@ jobs:
         uses: dtolnay/rust-toolchain@nightly
       - name: Install cargo fuzz
         run: cargo install cargo-fuzz
-      - name: Fuzz Tests
-        run: cargo fuzz run ${{ matrix.target }} -- -max_total_time=120 -rss_limit_mb=8192 ${{ matrix.option }}
+# Temporarily disable Fuzz testing due to the following error:
+# error: the compiler unexpectedly panicked. this is a bug.
+#
+#      - name: Fuzz Tests
+#        run: cargo fuzz run ${{ matrix.target }} -- -max_total_time=120 -rss_limit_mb=8192 ${{ matrix.option }}

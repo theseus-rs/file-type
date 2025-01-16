@@ -3,8 +3,6 @@ use crate::{file_types, Result};
 use std::cmp::Ordering;
 use std::io::{Read, Seek};
 use std::path::Path;
-use tokio::io::{AsyncRead, AsyncSeek};
-use tokio::runtime::Builder;
 
 /// A file type.  The file type is determined by examining the file or bytes against known file
 /// signatures and file extensions.
@@ -25,7 +23,7 @@ use tokio::runtime::Builder;
 /// ```
 ///
 /// Detect the file type from a file:
-/// ```no_run
+/// ```rust,no_run
 /// use file_type::FileType;
 /// use std::path::Path;
 ///
@@ -219,9 +217,10 @@ impl FileType {
     ///     assert_eq!(file_type.media_types(), Vec::<String>::new());
     /// }
     /// ```
+    #[cfg(feature = "tokio")]
     pub async fn try_from_reader<R>(reader: R) -> Result<&'static Self>
     where
-        R: AsyncRead + Unpin,
+        R: tokio::io::AsyncRead + Unpin,
     {
         file_types::try_from_reader(reader, None).await
     }
@@ -246,6 +245,7 @@ impl FileType {
     ///     assert_eq!(file_type.media_types(), vec!["image/png"]);
     /// }
     /// ```
+    #[cfg(feature = "tokio")]
     pub async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static Self> {
         file_types::try_from_file(path).await
     }
@@ -390,6 +390,7 @@ mod tests {
     }
 
     #[tokio::test]
+    #[cfg(feature = "tokio")]
     async fn test_try_from_reader() -> Result<()> {
         let bytes = b"\xCA\xFE\xBA\xBE";
         let reader = tokio::io::BufReader::new(&bytes[..]);
@@ -402,6 +403,7 @@ mod tests {
     }
 
     #[tokio::test]
+    #[cfg(feature = "tokio")]
     async fn test_try_from_file() -> Result<()> {
         let file_path = test_file_path();
         let file_type = FileType::try_from_file(file_path).await?;

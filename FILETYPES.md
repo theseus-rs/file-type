@@ -1,4 +1,4 @@
-# File Types (3847)
+# File Types (3848)
 
 | Id | Name | Extensions | Media Types |
 | ---- | ---- | ----------- | ---------- |
@@ -3766,6 +3766,7 @@
 | [fmt/1448](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1448.xml) | XLD4 (Graphic Data Document) | q4d |  |
 | [httpd/3716723091890390689](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3716723091890390689.xml) | xliff xml | xlf | application/x-xliff+xml |
 | [fmt/1828](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1828.xml) | XLSX Strict OOXML Spreadsheet | xlsx | application/vnd.openxmlformats-officedocument.wordprocessingml.document |
+| [linguist/225223071](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-225223071.xml) | Xmake |  |  |
 | [httpd/3113384014745721199](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3113384014745721199.xml) | xml dtd | dtd | application/xml-dtd |
 | [fmt/1501](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1501.xml) | XML Forms Data Format | xfdf | application/vnd.adobe.xfdf |
 | [fmt/979](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-979.xml) | XML Property List | plist |  |
