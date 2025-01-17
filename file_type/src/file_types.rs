@@ -2,6 +2,7 @@ use crate::format::{FileFormat, RelationshipType};
 use crate::{file_types, FileType, Result};
 use include_dir::{include_dir, Dir, DirEntry};
 use quick_xml::de::from_str;
+#[cfg(feature = "rayon")]
 use rayon::prelude::*;
 use std::cmp::Ordering;
 use std::collections::HashMap;
@@ -28,9 +29,20 @@ fn initialize_file_formats() -> HashMap<String, FileType> {
     let mut file_types = HashMap::new();
 
     for directory in DATA_DIR.dirs() {
+        #[cfg(feature = "rayon")]
         let file_formats = directory
             .entries()
             .par_iter()
+            .filter_map(DirEntry::as_file)
+            .map(|file| {
+                let xml = file.contents_utf8().unwrap_or_default();
+                from_str(xml).unwrap_or_default()
+            })
+            .collect::<Vec<FileFormat>>();
+        #[cfg(not(feature = "rayon"))]
+        let file_formats = directory
+            .entries()
+            .iter()
             .filter_map(DirEntry::as_file)
             .map(|file| {
                 let xml = file.contents_utf8().unwrap_or_default();
@@ -254,8 +266,15 @@ where
     B: AsRef<[u8]>,
 {
     let bytes = bytes.as_ref();
+    #[cfg(feature = "rayon")]
     let file_types: HashMap<&str, &'static FileType> = SIGNATURE_MAP
         .par_iter()
+        .filter(|(_id, file_type)| file_type.file_format().is_match(bytes))
+        .map(|(id, file_type)| (*id, *file_type))
+        .collect();
+    #[cfg(not(feature = "rayon"))]
+    let file_types: HashMap<&str, &'static FileType> = SIGNATURE_MAP
+        .iter()
         .filter(|(_id, file_type)| file_type.file_format().is_match(bytes))
         .map(|(id, file_type)| (*id, *file_type))
         .collect();
