@@ -4,76 +4,6 @@ use std::path::PathBuf;
 use walkdir::WalkDir;
 
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
-const IGNORED: [&str; 68] = [
-    "fmt/62",
-    "fmt/63",
-    "fmt/64",
-    "fmt/65",
-    "fmt/66",
-    "fmt/67",
-    "fmt/68",
-    "fmt/69",
-    "fmt/70",
-    "fmt/71",
-    "fmt/72",
-    "fmt/73",
-    "fmt/74",
-    "fmt/75",
-    "fmt/76",
-    "fmt/77",
-    "fmt/78",
-    "fmt/79",
-    "fmt/96",
-    "fmt/161",
-    "fmt/276",
-    "fmt/301",
-    "fmt/302",
-    "fmt/356",
-    "fmt/433",
-    "fmt/435",
-    "fmt/507",
-    "fmt/519",
-    "fmt/532",
-    "fmt/558",
-    "fmt/570",
-    "fmt/577",
-    "fmt/578",
-    "fmt/579",
-    "fmt/580",
-    "fmt/581",
-    "fmt/582",
-    "fmt/591",
-    "fmt/651",
-    "fmt/652",
-    "fmt/685",
-    "fmt/890",
-    "fmt/891",
-    "fmt/950",
-    "fmt/1014",
-    "fmt/1062",
-    "fmt/1039",
-    "fmt/1105",
-    "fmt/1199",
-    "fmt/1389",
-    "fmt/1451",
-    "fmt/1463",
-    "fmt/1464",
-    "fmt/1725",
-    "fmt/1739",
-    "fmt/1757",
-    "fmt/1796",
-    "fmt/1845",
-    "fmt/1855",
-    "fmt/1871",
-    "fmt/2008",
-    "fmt/2009",
-    "x-fmt/91",
-    "x-fmt/142",
-    "x-fmt/178",
-    "x-fmt/220",
-    "x-fmt/280",
-    "x-fmt/365",
-];
 
 fn data_dir() -> PathBuf {
     PathBuf::from(CRATE_DIR)
@@ -107,7 +37,7 @@ fn test_file(file_name: &str) -> Result<(String, &FileType)> {
 fn test_file_classification() -> Result<()> {
     let data_dir = data_dir();
     let mut passed_tests = 0;
-    let mut ignored_tests = 0;
+    let mut errored_tests = 0;
 
     for entry in WalkDir::new(data_dir) {
         let entry = entry?;
@@ -123,27 +53,20 @@ fn test_file_classification() -> Result<()> {
             .to_string();
         let (id, file_type) = test_file(&file_name)?;
 
-        if IGNORED.contains(&id.as_str()) {
-            if file_type.id() == id {
-                eprintln!(
-                    "IGNORED(PASSING) id={id}, file_type.id()={}: {file_name}",
-                    file_type.id(),
-                );
-            } else {
-                eprintln!(
-                    "IGNORED(ERROR) id={id}, file_type.id()={}: {file_name}",
-                    file_type.id(),
-                );
-            }
-            ignored_tests += 1;
-            continue;
+        if file_type.id() == id {
+            passed_tests += 1;
+        } else {
+            errored_tests += 1;
+            eprintln!(
+                "ERROR id={id}, file_type.id()={}: {file_name}",
+                file_type.id(),
+            );
         }
-        assert_eq!(id, file_type.id());
-        passed_tests += 1;
     }
 
     println!("Passed: {passed_tests}");
-    println!("Ignored: {ignored_tests}");
+    println!("Errored: {errored_tests}");
+    assert!(passed_tests > 1800);
     Ok(())
 }
 

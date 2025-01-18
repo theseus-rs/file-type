@@ -163,6 +163,23 @@ impl Regex {
         Ok(Self { tokens })
     }
 
+    /// Calculate a key from the byte sequence.  The key is the first 8 bytes of the sequence
+    /// converted to a u64.
+    pub(crate) fn key_from_bytes(bytes: &[u8]) -> u64 {
+        let mut array = [0u8; 8];
+        let length = std::cmp::min(bytes.len(), 8);
+        array[..length].copy_from_slice(&bytes[..length]);
+        u64::from_be_bytes(array)
+    }
+
+    /// Get the key used to store the pattern in a map
+    pub(crate) fn key(&self) -> u64 {
+        match self.tokens.first() {
+            Some(Token::Literal(bytes)) => Regex::key_from_bytes(bytes),
+            _ => 0,
+        }
+    }
+
     /// Tokenize the pattern
     ///
     /// # Errors
@@ -579,6 +596,22 @@ mod tests {
     fn test_token_display_wildcard_count_range_max() {
         let token = Token::WildcardCountRange(1, usize::MAX);
         assert_eq!(token.to_string(), "{1-*}");
+    }
+
+    #[test]
+    fn test_regex_key() -> Result<()> {
+        assert_eq!(Regex::new("")?.key(), 0);
+        assert_eq!(Regex::new("00")?.key(), 0);
+        assert_eq!(Regex::new("0000000000000001")?.key(), 1);
+        assert_eq!(Regex::new("01")?.key(), 72_057_594_037_927_936);
+        assert_eq!(Regex::new("00000000000000FF")?.key(), u64::from(u8::MAX));
+        assert_eq!(Regex::new("FF")?.key(), 18_374_686_479_671_623_680);
+        assert_eq!(Regex::new("000000000000FFFF")?.key(), u64::from(u16::MAX));
+        assert_eq!(Regex::new("FFFF")?.key(), 18_446_462_598_732_840_960);
+        assert_eq!(Regex::new("00000000FFFFFFFF")?.key(), u64::from(u32::MAX));
+        assert_eq!(Regex::new("FFFFFFFF")?.key(), 18_446_744_069_414_584_320);
+        assert_eq!(Regex::new("FFFFFFFFFFFFFFFF")?.key(), u64::MAX);
+        Ok(())
     }
 
     #[test]

@@ -1,9 +1,7 @@
-use crate::format::{FileFormat, RelationshipType};
+use crate::format::{FileFormat, InternalSignature, Regex, RelationshipType};
 use crate::{file_types, FileType, Result};
 use include_dir::{include_dir, Dir, DirEntry};
 use quick_xml::de::from_str;
-#[cfg(feature = "rayon")]
-use rayon::prelude::*;
 use std::cmp::Ordering;
 use std::collections::HashMap;
 use std::fs::read_to_string;
@@ -14,13 +12,14 @@ use std::sync::LazyLock;
 use tokio::io::AsyncReadExt;
 
 static FILE_TYPES: LazyLock<HashMap<String, FileType>> = LazyLock::new(initialize_file_formats);
-static SIGNATURE_MAP: LazyLock<HashMap<&'static str, &'static FileType>> =
+static SIGNATURE_MAP: LazyLock<HashMap<u64, Vec<&'static FileType>>> =
     LazyLock::new(initialize_signature_map);
 static EXTENSION_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_extension_map);
 static MEDIA_TYPE_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_media_type_map);
 static DATA_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/");
+const EMPTY_SIGNATURES: &Vec<&'static FileType> = &Vec::new();
 const EMPTY_EXTENSIONS: &Vec<&'static FileType> = &Vec::new();
 const EMPTY_MEDIA_TYPES: &Vec<&'static FileType> = &Vec::new();
 
@@ -29,17 +28,6 @@ fn initialize_file_formats() -> HashMap<String, FileType> {
     let mut file_types = HashMap::new();
 
     for directory in DATA_DIR.dirs() {
-        #[cfg(feature = "rayon")]
-        let file_formats = directory
-            .entries()
-            .par_iter()
-            .filter_map(DirEntry::as_file)
-            .map(|file| {
-                let xml = file.contents_utf8().unwrap_or_default();
-                from_str(xml).unwrap_or_default()
-            })
-            .collect::<Vec<FileFormat>>();
-        #[cfg(not(feature = "rayon"))]
         let file_formats = directory
             .entries()
             .iter()
@@ -61,15 +49,20 @@ fn initialize_file_formats() -> HashMap<String, FileType> {
 }
 
 /// Create a listfile types with signatures
-fn initialize_signature_map() -> HashMap<&'static str, &'static FileType> {
+fn initialize_signature_map() -> HashMap<u64, Vec<&'static FileType>> {
     let mut signatures = HashMap::new();
-    let file_types = &*FILE_TYPES;
 
-    for file_type in file_types.values() {
+    for file_type in FILE_TYPES.values() {
         let file_format = file_type.file_format();
-        let internal_signatures = file_format.internal_signatures();
-        if !internal_signatures.is_empty() {
-            signatures.insert(file_type.id(), file_type);
+        let internal_signature_keys = file_format
+            .internal_signatures()
+            .iter()
+            .map(InternalSignature::key)
+            .collect::<Vec<u64>>();
+        for key in internal_signature_keys {
+            let mut file_types: Vec<&FileType> = signatures.remove(&key).unwrap_or_default();
+            file_types.push(file_type);
+            signatures.insert(key, file_types);
         }
     }
 
@@ -266,20 +259,22 @@ where
     B: AsRef<[u8]>,
 {
     let bytes = bytes.as_ref();
-    #[cfg(feature = "rayon")]
-    let file_types: HashMap<&str, &'static FileType> = SIGNATURE_MAP
-        .par_iter()
-        .filter(|(_id, file_type)| file_type.file_format().is_match(bytes))
-        .map(|(id, file_type)| (*id, *file_type))
-        .collect();
-    #[cfg(not(feature = "rayon"))]
-    let file_types: HashMap<&str, &'static FileType> = SIGNATURE_MAP
-        .iter()
-        .filter(|(_id, file_type)| file_type.file_format().is_match(bytes))
-        .map(|(id, file_type)| (*id, *file_type))
-        .collect();
+    let signature_key = Regex::key_from_bytes(bytes);
+    let mut file_types: Vec<&'static FileType> = Vec::new();
+    // Get all file types with a signature of 0; these are the file types that did not have a
+    // BOF literal signature.
+    if let Some(signatures) = SIGNATURE_MAP.get(&0) {
+        file_types.extend(signatures);
+    }
+    if let Some(signatures) = SIGNATURE_MAP.get(&signature_key) {
+        file_types.extend(signatures);
+    }
 
-    let mut file_types = file_types.into_values().collect::<Vec<&'static FileType>>();
+    let mut file_types: Vec<&'static FileType> = file_types
+        .iter()
+        .filter(|file_type| file_type.file_format().is_match(bytes))
+        .copied()
+        .collect();
 
     match file_types.len() {
         0 => {
