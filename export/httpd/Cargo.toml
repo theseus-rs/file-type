@@ -1,6 +1,6 @@
 [package]
 edition.workspace = true
-name = "apache_httpd"
+name = "httpd"
 publish = false
 license.workspace = true
 version.workspace = true

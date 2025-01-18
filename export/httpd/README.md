@@ -8,5 +8,5 @@ translates it to a PRONOM format in the `file_type` crate.
 To export the Apache HTTPD mime type data, run the following command:
 
 ```sh
-cargo run --bin apache_httpd
+cargo run --bin httpd
 ```
