@@ -309,7 +309,6 @@ dependencies = [
  "indoc",
  "jiff",
  "quick-xml",
- "rayon",
  "serde",
  "thiserror",
  "tokio",
