@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## `file_type` - [0.3.0](https://github.com/theseus-rs/file-type/compare/file_type-v0.2.4...file_type-v0.3.0) - 2025-01-18
+
+### Added
+- optimize signature matching
+
 ## `file_type` - [0.2.4](https://github.com/theseus-rs/file-type/compare/file_type-v0.2.3...file_type-v0.2.4) - 2025-01-17
 
 ### Added
