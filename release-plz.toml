@@ -10,6 +10,8 @@ git_release_body = """
 {% endfor %}
 {% endif %}
 """
+git_release_name = "v{{ version }}"
+git_tag_name = "v{{ version }}"
 
 [changelog]
 body = """
