@@ -403,13 +403,13 @@ mod tests {
     #[test]
     fn test_file_formats() {
         let file_types = &*FILE_TYPES;
-        assert_eq!(3848, file_types.len());
+        assert_eq!(3849, file_types.len());
     }
 
     #[test]
     fn test_extensions() {
         let extensions = &*EXTENSION_MAP;
-        assert_eq!(3376, extensions.len());
+        assert_eq!(3377, extensions.len());
     }
 
     #[test]

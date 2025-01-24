@@ -1,4 +1,4 @@
-# File Types (3848)
+# File Types (3849)
 
 | Id | Name | Extensions | Media Types |
 | ---- | ---- | ----------- | ---------- |
@@ -1584,6 +1584,7 @@
 | [fmt/1571](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1571.xml) | ISDOCX Information System Document | isdocx |  |
 | [fmt/468](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-468.xml) | ISO 9660 Disk Image File | iso, toast, cdr, dmg, bin |  |
 | [httpd/9945333620512882087](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9945333620512882087.xml) | iso9660 image | iso | application/x-iso9660-image |
+| [linguist/70127133](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-70127133.xml) | Jai | jai |  |
 | [fmt/975](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-975.xml) | Jamcracker Tracker Module | jam |  |
 | [httpd/13300239476686186637](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13300239476686186637.xml) | jam | jam | application/vnd.jam |
 | [linguist/1028705371](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-1028705371.xml) | Janet | janet | text/x-scheme |
