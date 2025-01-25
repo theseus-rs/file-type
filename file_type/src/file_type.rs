@@ -268,6 +268,7 @@ impl FileType {
     /// assert_eq!(file_type.extensions(), vec!["class"]);
     /// assert_eq!(file_type.media_types(), Vec::<String>::new());
     /// ```
+    #[cfg(feature = "std")]
     pub fn try_from_reader_sync<R: Read>(reader: R) -> Result<&'static Self> {
         file_types::try_from_reader_sync(reader, None)
     }
@@ -289,6 +290,7 @@ impl FileType {
     /// assert_eq!(file_type.extensions(), vec!["png"]);
     /// assert_eq!(file_type.media_types(), vec!["image/png"]);
     /// ```
+    #[cfg(feature = "std")]
     pub fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<&'static Self> {
         file_types::try_from_file_sync(path)
     }
