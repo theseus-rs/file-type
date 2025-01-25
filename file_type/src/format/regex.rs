@@ -1,5 +1,4 @@
-use crate::Error::Syntax;
-use crate::Result;
+use crate::{Error, Result};
 use std::cmp::Ordering;
 use std::collections::HashMap;
 use std::fmt::Display;
@@ -196,7 +195,7 @@ impl Regex {
                         .iter()
                         .position(|b| *b == b')')
                         .map(|pos| start + pos)
-                        .ok_or(Syntax(format!(
+                        .ok_or(Error::new(format!(
                             "Invalid pattern [{byte_index}]; expected ')' after '('"
                         )))?;
                     let values = bytes[start..end]
@@ -245,7 +244,7 @@ impl Regex {
                         }
                     }
                     if end == 0 {
-                        return Err(Syntax(format!(
+                        return Err(Error::new(format!(
                             "Invalid pattern [{byte_index}]; expected ']' after '['"
                         )));
                     }
@@ -269,7 +268,7 @@ impl Regex {
                         let end_range = hex_to_bytes(end_range);
                         tokens.push(Token::Range(start_range, end_range));
                     } else {
-                        return Err(Syntax(format!(
+                        return Err(Error::new(format!(
                             "Invalid pattern [{byte_index}]; expected two literals in range"
                         )));
                     }
@@ -277,7 +276,7 @@ impl Regex {
                 b'?' => {
                     byte_index += 1;
                     if byte_index >= bytes.len() || bytes[byte_index] != b'?' {
-                        return Err(Syntax(format!(
+                        return Err(Error::new(format!(
                             "Invalid pattern [{byte_index}]; expected '?' after '?'"
                         )));
                     }
@@ -298,7 +297,7 @@ impl Regex {
                         }
                     }
                     if end == 0 {
-                        return Err(Syntax(format!(
+                        return Err(Error::new(format!(
                             "Invalid pattern [{byte_index}]; expected '}}' after '{{'"
                         )));
                     }
@@ -308,13 +307,13 @@ impl Regex {
                         let min_range = &slice[0..separator];
                         let max_range = &slice[separator + 1..];
                         let min_value =
-                            from_utf8(min_range).map_err(|error| Syntax(error.to_string()))?;
+                            from_utf8(min_range).map_err(|error| Error::new(error.to_string()))?;
                         let max_value =
-                            from_utf8(max_range).map_err(|error| Syntax(error.to_string()))?;
+                            from_utf8(max_range).map_err(|error| Error::new(error.to_string()))?;
                         let min_count = min_value
                             .parse()
                             .map_err(|_| {
-                                Syntax(format!(
+                                Error::new(format!(
                                     "Invalid pattern [{byte_index}]; expected integer between '{{' and '}}'"
                                 ))
                             })?;
@@ -324,7 +323,7 @@ impl Regex {
                             let max_count = max_value
                                 .parse()
                                 .map_err(|_| {
-                                    Syntax(format!(
+                                    Error::new(format!(
                                         "Invalid pattern [{byte_index}]; expected integer between '{{' and '}}'"
                                     ))
                                 })?;
@@ -332,11 +331,11 @@ impl Regex {
                         }
                     } else {
                         let value = from_utf8(&bytes[start..end])
-                            .map_err(|error| Syntax(error.to_string()))?;
+                            .map_err(|error| Error::new(error.to_string()))?;
                         let count = value
                             .parse()
                             .map_err(|_| {
-                                Syntax(format!(
+                                Error::new(format!(
                                     "Invalid pattern [{byte_index}]; expected integer between '(' and ')'"
                                 ))
                             })?;
@@ -344,7 +343,7 @@ impl Regex {
                     }
                 }
                 _ => {
-                    return Err(Syntax(format!(
+                    return Err(Error::new(format!(
                         "Invalid pattern [{byte_index}]; unexpected character [{}]",
                         bytes[byte_index]
                     )));

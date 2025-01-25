@@ -1,5 +1,5 @@
 use criterion::{criterion_group, criterion_main, Criterion};
-use file_type::{FileType, Result};
+use file_type::FileType;
 use std::fs;
 use std::path::PathBuf;
 
@@ -23,7 +23,7 @@ fn large_bytes() -> Vec<u8> {
     bytes
 }
 
-fn bench_lifecycle(criterion: &mut Criterion) -> Result<()> {
+fn bench_lifecycle(criterion: &mut Criterion) -> anyhow::Result<()> {
     let file = PathBuf::from(CRATE_DIR)
         .join("..")
         .join("testdata")

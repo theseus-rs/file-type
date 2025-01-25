@@ -1,5 +1,5 @@
 use crate::format::{FileFormat, InternalSignature, Regex, RelationshipType};
-use crate::{file_types, FileType, Result};
+use crate::{file_types, Error, FileType, Result};
 use include_dir::{include_dir, Dir, DirEntry};
 use quick_xml::de::from_str;
 use std::cmp::Ordering;
@@ -335,7 +335,10 @@ where
     R: tokio::io::AsyncRead + Unpin,
 {
     let mut buffer = Vec::new();
-    reader.read_to_end(&mut buffer).await?;
+    reader
+        .read_to_end(&mut buffer)
+        .await
+        .map_err(|error| Error::new(error.to_string()))?;
     let bytes = buffer.as_slice();
     let file_type = from_bytes(bytes, extension);
     Ok(file_type)
@@ -353,7 +356,9 @@ pub(crate) async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static Fi
     let file_type = {
         let path = path.as_ref();
         let extension = path.extension().and_then(|extension| extension.to_str());
-        let file = tokio::fs::File::open(path).await?;
+        let file = tokio::fs::File::open(path)
+            .await
+            .map_err(|error| Error::new(error.to_string()))?;
         let reader = tokio::io::BufReader::new(file);
         try_from_reader(reader, extension).await
     };
@@ -364,12 +369,15 @@ pub(crate) async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static Fi
 ///
 /// # Errors
 /// if the file type is unknown
+#[cfg(feature = "std")]
 pub(crate) fn try_from_reader_sync<R: Read>(
     mut reader: R,
     extension: Option<&str>,
 ) -> Result<&'static FileType> {
     let mut buffer = Vec::new();
-    reader.read_to_end(&mut buffer)?;
+    reader
+        .read_to_end(&mut buffer)
+        .map_err(|error| Error::new(error.to_string()))?;
     let bytes = buffer.as_slice();
     let file_type = from_bytes(bytes, extension);
     Ok(file_type)
@@ -379,10 +387,11 @@ pub(crate) fn try_from_reader_sync<R: Read>(
 ///
 /// # Errors
 /// if the file type is unknown
+#[cfg(feature = "std")]
 pub(crate) fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<&'static FileType> {
     let path = path.as_ref();
     let extension = path.extension().and_then(|ext| ext.to_str());
-    let file = std::fs::File::open(path)?;
+    let file = std::fs::File::open(path).map_err(|error| Error::new(error.to_string()))?;
     let reader = std::io::BufReader::new(file);
     try_from_reader_sync(reader, extension)
 }
@@ -478,7 +487,7 @@ mod tests {
 
     #[tokio::test]
     #[cfg(feature = "tokio")]
-    async fn test_try_from_reader() -> Result<()> {
+    async fn test_try_from_reader() -> anyhow::Result<()> {
         let file_path = test_file_path();
         let file = tokio::fs::File::open(file_path).await?;
         let reader = tokio::io::BufReader::new(file);
@@ -503,7 +512,7 @@ mod tests {
     }
 
     #[test]
-    fn test_try_from_reader_sync() -> Result<()> {
+    fn test_try_from_reader_sync() -> anyhow::Result<()> {
         let file_path = test_file_path();
         let file = std::fs::File::open(file_path)?;
         let reader = std::io::BufReader::new(file);
@@ -555,7 +564,7 @@ mod tests {
     }
 
     #[test]
-    fn create_supported_formats() -> Result<()> {
+    fn create_supported_formats() -> anyhow::Result<()> {
         let mut file_types = FILE_TYPES.values().collect::<Vec<_>>();
         file_types.sort_by_key(|a| format!("{}|{}", a.name().to_lowercase(), a.id()));
 

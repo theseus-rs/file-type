@@ -2,12 +2,35 @@
 pub type Result<T, E = Error> = core::result::Result<T, E>;
 
 /// Errors that can occur when determining the file type
-#[derive(Debug, thiserror::Error)]
-pub enum Error {
-    /// An I/O error occurred
-    #[error(transparent)]
-    IoError(#[from] std::io::Error),
-    /// An error occurred when parsing a byte sequence regex
-    #[error("{0}")]
-    Syntax(String),
+#[derive(Clone, Debug, Eq, PartialEq)]
+pub struct Error {
+    message: String,
+}
+
+impl Error {
+    pub(crate) fn new<S: AsRef<str>>(message: S) -> Error {
+        Error {
+            message: message.as_ref().to_string(),
+        }
+    }
+}
+
+#[cfg(feature = "std")]
+impl std::error::Error for Error {}
+
+impl core::fmt::Display for Error {
+    fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {
+        write!(f, "{}", self.message)
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_error() {
+        let error = Error::new("test");
+        assert_eq!(error.to_string(), "test");
+    }
 }
