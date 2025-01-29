@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>114235996</FormatID>
+  <FormatName>SYBYL2 format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/114235996</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ml2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sm2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

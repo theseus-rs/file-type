@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28009448</FormatID>
+  <FormatName>ROM of Pokémon Mystery Dungeon Red Rescue Team</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28009448</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gba</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

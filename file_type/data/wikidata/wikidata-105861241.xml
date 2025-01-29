@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105861241</FormatID>
+  <FormatName>GtkSourceView language definition</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105861241</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lang</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

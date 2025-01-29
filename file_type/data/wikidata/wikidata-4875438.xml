@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>4875438</FormatID>
+  <FormatName>Be-Music Source</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/4875438</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bms</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

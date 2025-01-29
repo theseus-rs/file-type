@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105860126</FormatID>
+  <FormatName>RenderWare 3d model (with rem)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860126</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rwx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

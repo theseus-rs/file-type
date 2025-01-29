@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>67124021</FormatID>
+  <FormatName>Print Artist greeting card file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/67124021</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

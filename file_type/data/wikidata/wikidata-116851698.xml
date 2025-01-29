@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>116851698</FormatID>
+  <FormatName>VersaCheck Data File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116851698</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27863134</FormatID>
+  <FormatName>AutoCAD Drawing, version 2004-2005</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27863134</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/vnd.dwg</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dwg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

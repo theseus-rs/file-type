@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105858121</FormatID>
+  <FormatName>StarDict Info</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858121</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ifo</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>StarDict Info</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5374617244696374277320</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

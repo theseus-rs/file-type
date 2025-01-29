@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>111051396</FormatID>
+  <FormatName>WebAssembly text format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111051396</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wast</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

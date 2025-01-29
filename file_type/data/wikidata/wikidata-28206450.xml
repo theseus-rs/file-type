@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206450</FormatID>
+  <FormatName>KiSS CEL 8-bit</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206450</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cel</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

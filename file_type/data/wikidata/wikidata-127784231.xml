@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>127784231</FormatID>
+  <FormatName>Logtalk source file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/127784231</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-logtalk</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lgt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

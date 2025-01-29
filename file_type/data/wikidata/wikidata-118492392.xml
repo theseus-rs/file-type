@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>118492392</FormatID>
+  <FormatName>Quicken 3 Database File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/118492392</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>qst</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

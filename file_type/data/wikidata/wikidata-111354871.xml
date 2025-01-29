@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111354871</FormatID>
+  <FormatName>Steinberg LM-4 banks</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111354871</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>txt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

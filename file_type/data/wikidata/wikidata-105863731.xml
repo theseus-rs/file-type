@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105863731</FormatID>
+  <FormatName>Mapping Specification Language (ASCII)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105863731</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>msl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>116446680</FormatID>
+  <FormatName>Microsoft Works Spreadsheet</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116446680</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wks</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

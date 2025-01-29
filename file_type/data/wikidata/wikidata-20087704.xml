@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>20087704</FormatID>
+  <FormatName>TST</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/20087704</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tst</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

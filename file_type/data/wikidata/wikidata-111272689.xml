@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111272689</FormatID>
+  <FormatName>Farandoyle linear module format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111272689</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>f2r</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

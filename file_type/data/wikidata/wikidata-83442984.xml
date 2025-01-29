@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>83442984</FormatID>
+  <FormatName>Ducati Data Analyzer</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/83442984</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dda</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

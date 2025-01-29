@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>51922770</FormatID>
+  <FormatName>Adobe ACD</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51922770</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>acd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>109971781</FormatID>
+  <FormatName>PDF Portfolio file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109971781</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/pdf</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

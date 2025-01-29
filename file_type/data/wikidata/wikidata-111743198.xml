@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>111743198</FormatID>
+  <FormatName>Sony Virtual Expander File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111743198</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vem</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Sony Virtual Expander File</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4D5620564520464F524D4154</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

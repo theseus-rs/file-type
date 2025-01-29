@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>66686595</FormatID>
+  <FormatName>Microsoft Works Template file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66686595</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wpt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

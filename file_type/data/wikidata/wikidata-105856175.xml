@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856175</FormatID>
+  <FormatName>Area 51 game data archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856175</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dfs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Area 51 game data archive</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5346445803000000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>119846012</FormatID>
+  <FormatName>Quicken Data File (Macintosh)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/119846012</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>qdfm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>116859804</FormatID>
+  <FormatName>Peachtree Vendor List</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116859804</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>csv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

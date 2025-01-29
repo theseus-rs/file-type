@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>96034801</FormatID>
+  <FormatName>GXL</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/96034801</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gxl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

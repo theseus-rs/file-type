@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206419</FormatID>
+  <FormatName>LuraWave JPEG-2000 Code Stream Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206419</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jpc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

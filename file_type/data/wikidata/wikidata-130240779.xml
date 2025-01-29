@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130240779</FormatID>
+  <FormatName>Literate Haskell source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130240779</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-literate-haskell</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lhs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

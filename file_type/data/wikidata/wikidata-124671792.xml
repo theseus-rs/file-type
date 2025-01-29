@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>124671792</FormatID>
+  <FormatName>Archive eXchange Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/124671792</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>axf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

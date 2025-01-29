@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28692741</FormatID>
+  <FormatName>FAV File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28692741</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fav</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

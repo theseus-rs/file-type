@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>62571475</FormatID>
+  <FormatName>Online Description Tool Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/62571475</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>odt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

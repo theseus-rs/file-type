@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105857349</FormatID>
+  <FormatName>Qt Jambi User Interface</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857349</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jui</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>26211905</FormatID>
+  <FormatName>ZIP archive file format, version 6.2.2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/26211905</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/zip</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zip</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

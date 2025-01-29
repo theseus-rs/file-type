@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105850396</FormatID>
+  <FormatName>Programmer's Notepad text Clips</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850396</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>clips</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

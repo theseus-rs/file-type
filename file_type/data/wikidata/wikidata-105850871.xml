@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105850871</FormatID>
+  <FormatName>SSH Key Revocation List</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850871</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>krl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>SSH Key Revocation List</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5353484B524C0A00</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

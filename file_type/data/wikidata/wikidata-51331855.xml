@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>51331855</FormatID>
+  <FormatName>Microsoft Powerpoint Design Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51331855</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/mspowerpoint</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pot</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

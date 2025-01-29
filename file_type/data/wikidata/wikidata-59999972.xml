@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>59999972</FormatID>
+  <FormatName>Borland Reflex flat datafile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59999972</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rxd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

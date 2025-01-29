@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>61984341</FormatID>
+  <FormatName>Microsoft Visual FoxPro database container (memo files)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61984341</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dct</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

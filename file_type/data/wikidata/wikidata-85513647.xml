@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>85513647</FormatID>
+  <FormatName>Cindex Document, version 4</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/85513647</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ucdx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>utpl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

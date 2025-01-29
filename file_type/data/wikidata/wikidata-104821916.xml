@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>104821916</FormatID>
+  <FormatName>Renoise instrument</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/104821916</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rni</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xrni</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

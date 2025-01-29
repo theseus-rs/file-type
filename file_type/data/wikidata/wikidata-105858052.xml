@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105858052</FormatID>
+  <FormatName>Inkscape extension descriptor</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858052</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>inx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

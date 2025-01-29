@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111363669</FormatID>
+  <FormatName>Wusikstation V3 sound file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111363669</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wusiksnd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

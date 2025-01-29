@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>59821004</FormatID>
+  <FormatName>Exchangeable Image File Format (Audio)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59821004</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wav</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

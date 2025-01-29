@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860355</FormatID>
+  <FormatName>Farallon Replica document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860355</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rpl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Farallon Replica document</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>466172616C6C6F6E205265706C6963612028544D2920202000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105865261</FormatID>
+  <FormatName>NeoBook for DOS document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105865261</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pub</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>NeoBook for DOS document</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4E656F426F6F6B20446F63756D656E742046696C650D0A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

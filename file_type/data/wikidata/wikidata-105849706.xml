@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105849706</FormatID>
+  <FormatName>Carbide Create model</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105849706</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>c2d</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

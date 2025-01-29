@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27824053</FormatID>
+  <FormatName>ar, AIX small archive format variant</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27824053</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>a</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

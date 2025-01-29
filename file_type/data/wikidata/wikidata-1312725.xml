@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>1312725</FormatID>
+  <FormatName>local shared object</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1312725</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sol</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

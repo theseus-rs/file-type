@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27861474</FormatID>
+  <FormatName>Software Independent Archiving of Relational Databases, version 2.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27861474</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>siard</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117485571</FormatID>
+  <FormatName>Audacity Audio Block File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117485571</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>au</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

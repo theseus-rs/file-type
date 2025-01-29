@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29904498</FormatID>
+  <FormatName>Rayshade Heightfield</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29904498</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

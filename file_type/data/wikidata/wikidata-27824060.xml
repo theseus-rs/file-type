@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27824060</FormatID>
+  <FormatName>Internet Archive ARC, version 1.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27824060</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-internet-archive</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>arc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

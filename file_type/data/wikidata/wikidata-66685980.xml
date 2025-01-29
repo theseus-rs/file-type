@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>66685980</FormatID>
+  <FormatName>OR2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66685980</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>or2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

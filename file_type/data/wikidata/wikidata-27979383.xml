@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27979383</FormatID>
+  <FormatName>Heroglyph Project Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27979383</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hprj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

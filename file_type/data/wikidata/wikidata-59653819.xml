@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>59653819</FormatID>
+  <FormatName>Maya Binary File Format, 64 bit</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59653819</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

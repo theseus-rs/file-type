@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>59713556</FormatID>
+  <FormatName>Gaussian Input Data File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59713556</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>chemical/x-gaussian-input</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gjf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

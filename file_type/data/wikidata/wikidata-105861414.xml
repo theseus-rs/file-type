@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105861414</FormatID>
+  <FormatName>Frogans Short-cut</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105861414</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ltf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Frogans Short-cut</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C4C454150544F46524F47414E5320414444524553533D2266726F67616E732A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>47462131</FormatID>
+  <FormatName>Caligari TrueSpace file format (ASCII)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47462131</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cob</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>scn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

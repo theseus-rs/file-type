@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>123118382</FormatID>
+  <FormatName>PostScript 1.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123118382</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/postscript</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ps</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

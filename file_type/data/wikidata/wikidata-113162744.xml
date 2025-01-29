@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113162744</FormatID>
+  <FormatName>MyDeluxeInvoices &amp; Estimates file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113162744</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>inv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

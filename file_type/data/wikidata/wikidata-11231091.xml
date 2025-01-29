@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>11231091</FormatID>
+  <FormatName>MASL</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/11231091</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>Msl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111262844</FormatID>
+  <FormatName>AKAI S5000/S6000 program</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111262844</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>akai</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105858549</FormatID>
+  <FormatName>Mallard BASIC tokenized source (protected) (v1.11)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858549</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bas</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Mallard BASIC tokenized source (protected) (v1.11)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>FC0301</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

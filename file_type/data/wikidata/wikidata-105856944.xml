@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856944</FormatID>
+  <FormatName>Granite Devices Firmware (v300)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856944</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Granite Devices Firmware (v300)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>474446572C01</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

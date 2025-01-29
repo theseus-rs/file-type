@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>100166033</FormatID>
+  <FormatName>Drawing Interchange Format (Binary) (Generic)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/100166033</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/vnd.dxf</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dxf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

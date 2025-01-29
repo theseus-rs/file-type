@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105867624</FormatID>
+  <FormatName>Enemy Territory: Quake Wars demo</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105867624</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ndm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Enemy Territory: Quake Wars demo</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4E444D4F03000000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

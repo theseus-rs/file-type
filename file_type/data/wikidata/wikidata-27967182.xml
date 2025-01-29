@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>27967182</FormatID>
+  <FormatName>Farandole Composer sample</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967182</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fsm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>usm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

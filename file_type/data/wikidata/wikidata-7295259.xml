@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>7295259</FormatID>
+  <FormatName>Raster Document Object</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7295259</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rdo</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

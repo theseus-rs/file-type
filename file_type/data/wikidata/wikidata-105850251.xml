@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105850251</FormatID>
+  <FormatName>16bit DOS COM The WiZ Cryptor encrypted (v1.00a)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850251</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>com</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

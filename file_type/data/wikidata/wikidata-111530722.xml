@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>111530722</FormatID>
+  <FormatName>SGML/XML Entity File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111530722</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/xml-external-parsed-entity</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ent</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

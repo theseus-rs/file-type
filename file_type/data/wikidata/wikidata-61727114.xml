@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>61727114</FormatID>
+  <FormatName>PrimeOCR file format, version 3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61727114</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pro</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

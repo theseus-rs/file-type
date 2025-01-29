@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>99972444</FormatID>
+  <FormatName>Advanced Disk Catalog</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/99972444</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>adc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

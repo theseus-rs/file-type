@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>110039945</FormatID>
+  <FormatName>Phantom CINE Video File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110039945</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cin</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cine</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

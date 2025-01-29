@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>95985515</FormatID>
+  <FormatName>Affymetrix PSI file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/95985515</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>psi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>100235620</FormatID>
+  <FormatName>FARO WorkSpace File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/100235620</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fws</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

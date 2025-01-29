@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27487512</FormatID>
+  <FormatName>Shapefile header index</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27487512</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aih</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

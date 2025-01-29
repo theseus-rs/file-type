@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105855712</FormatID>
+  <FormatName>LightWave 3D exported object</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855712</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>obj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

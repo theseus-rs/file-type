@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>130642271</FormatID>
+  <FormatName>Roboconf graph file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130642271</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>graph</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

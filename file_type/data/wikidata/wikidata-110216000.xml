@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>110216000</FormatID>
+  <FormatName>Serif PagePlus Publication, version 1-3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110216000</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ppp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ppt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

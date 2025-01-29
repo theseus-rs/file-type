@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105858246</FormatID>
+  <FormatName>Executor Configuration File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858246</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ecf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Executor Configuration File</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2F2F205468697320436F6E66696775726174696F6E2066696C6520</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

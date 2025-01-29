@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105857716</FormatID>
+  <FormatName>QuarkImmedia Document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857716</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>imd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>QuarkImmedia Document</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4F444F43514F524E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>51839192</FormatID>
+  <FormatName>PHP Script Page</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51839192</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>php</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

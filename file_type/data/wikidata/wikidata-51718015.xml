@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>51718015</FormatID>
+  <FormatName>Microsoft Excel OLE DB Query</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51718015</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rqy</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

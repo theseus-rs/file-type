@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>126326662</FormatID>
+  <FormatName>slrn configuration file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/126326662</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>slrnrc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

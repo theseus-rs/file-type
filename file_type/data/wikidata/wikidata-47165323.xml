@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>47165323</FormatID>
+  <FormatName>Microsoft Project file format, version 2000-2003</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47165323</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-project</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mpp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

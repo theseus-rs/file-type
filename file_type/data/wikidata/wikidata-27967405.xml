@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967405</FormatID>
+  <FormatName>Master Tracker module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967405</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mtr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

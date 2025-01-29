@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>64763165</FormatID>
+  <FormatName>MapPoint Maps file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/64763165</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ptm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

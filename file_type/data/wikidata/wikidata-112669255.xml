@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>112669255</FormatID>
+  <FormatName>JSR-184 format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112669255</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>m3g</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

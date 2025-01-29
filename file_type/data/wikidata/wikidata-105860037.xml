@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105860037</FormatID>
+  <FormatName>MSHeli Vbar data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860037</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vbr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>MSHeli Vbar data</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C52454749535445523E0D0A202020203C56414C55452052656769737465723D22302220</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

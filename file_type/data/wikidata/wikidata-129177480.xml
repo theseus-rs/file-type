@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>129177480</FormatID>
+  <FormatName>Fennel source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129177480</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fnl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

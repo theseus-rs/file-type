@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>51333820</FormatID>
+  <FormatName>Microsoft Powerpoint Presentation Show</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51333820</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-powerpoint</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pps</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

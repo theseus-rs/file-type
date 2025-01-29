@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28600250</FormatID>
+  <FormatName>Oracle database backup format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28600250</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>arc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

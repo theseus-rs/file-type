@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>29960668</FormatID>
+  <FormatName>RenderWare binary stream file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29960668</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>txd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

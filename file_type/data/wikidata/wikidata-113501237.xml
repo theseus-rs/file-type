@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>113501237</FormatID>
+  <FormatName>Time Stamp Token</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113501237</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.etsi.timestamp-token</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tst</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

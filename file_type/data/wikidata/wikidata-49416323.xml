@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>49416323</FormatID>
+  <FormatName>CATIA Model (Part Description), version 5</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/49416323</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>catpart</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

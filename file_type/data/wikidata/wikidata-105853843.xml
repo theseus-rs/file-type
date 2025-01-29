@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105853843</FormatID>
+  <FormatName>Casio Pocket Viewer Add-in Data file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853843</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>adt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Casio Pocket Viewer Add-in Data file</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>434153494F20414444494E204441544146494C451A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>96081191</FormatID>
+  <FormatName>SystemModeler experiment format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/96081191</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sme</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

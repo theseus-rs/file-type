@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105859808</FormatID>
+  <FormatName>Var Bitmap Font (v2)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859808</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vbf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Var Bitmap Font (v2)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>7662662D322E302A2A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113621480</FormatID>
+  <FormatName>LoadRunner Analysis file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113621480</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lra</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860224</FormatID>
+  <FormatName>Roxio Easy CD Creator Layout/project (v7-)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860224</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rcl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Roxio Easy CD Creator Layout/project (v7-)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>FFFE2300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023002300230023000D000A00230023002300230020005700410052004E0049004E00470053003A00200050006C006500610073006500200064006F0020006E006F0074002000450044004900540020006F0072002000440045004C00450054004500200074006800690073002000660069006C006500200021</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

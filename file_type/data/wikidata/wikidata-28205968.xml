@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28205968</FormatID>
+  <FormatName>Digital Video Interactive Blue Channel</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28205968</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>imb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27826346</FormatID>
+  <FormatName>Reduced resolution dataset file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27826346</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rrd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

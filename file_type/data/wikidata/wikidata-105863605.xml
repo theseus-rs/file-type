@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105863605</FormatID>
+  <FormatName>Luigi's Mansion 3D model</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105863605</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mdl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Luigi's Mansion 3D model</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>04B40000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

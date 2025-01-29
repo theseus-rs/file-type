@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>28551228</FormatID>
+  <FormatName>Adobe Action File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28551228</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-photoshop</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>atn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

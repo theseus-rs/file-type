@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>61766587</FormatID>
+  <FormatName>Microsoft Works Database for Windows</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61766587</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-works</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

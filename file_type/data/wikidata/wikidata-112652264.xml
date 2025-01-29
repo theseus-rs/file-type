@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>112652264</FormatID>
+  <FormatName>Autodesk SketchBook Animation File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112652264</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>skba</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

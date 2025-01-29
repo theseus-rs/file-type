@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28207574</FormatID>
+  <FormatName>Zoomify PFF</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28207574</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

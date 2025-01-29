@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>120867895</FormatID>
+  <FormatName>Cumulus Record Exchange File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/120867895</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cre</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

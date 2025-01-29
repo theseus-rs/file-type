@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105864513</FormatID>
+  <FormatName>MATLAB Compiler Project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105864513</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>MATLAB Compiler Project</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C6465706C6F796D656E742D70726F6A65637420706C7567696E3D22706C7567696E2E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

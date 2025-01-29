@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860507</FormatID>
+  <FormatName>Ren'Py Archive (v3)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860507</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rpa</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Ren'Py Archive (v3)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5250412D332E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

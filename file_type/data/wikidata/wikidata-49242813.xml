@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>49242813</FormatID>
+  <FormatName>HTML Extension File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/49242813</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/html</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>htx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

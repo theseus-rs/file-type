@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105856737</FormatID>
+  <FormatName>Xilinx User Constraints File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856737</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ucf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105864772</FormatID>
+  <FormatName>ProPresenter 6 presentation (UTF-8)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105864772</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pro6</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>ProPresenter 6 presentation (UTF-8)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>EFBBBF3C</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>29650343</FormatID>
+  <FormatName>PEM encoded RSA private key</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29650343</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>key</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pem</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

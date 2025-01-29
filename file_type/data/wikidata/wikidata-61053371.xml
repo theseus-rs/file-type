@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>61053371</FormatID>
+  <FormatName>Drawing Interchange File Format (ASCII), version 1.4</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61053371</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/vnd.dxf</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dxf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

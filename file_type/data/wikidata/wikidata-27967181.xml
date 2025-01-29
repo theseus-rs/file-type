@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967181</FormatID>
+  <FormatName>Farandole Composer pattern</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967181</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fpt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

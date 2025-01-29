@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105857874</FormatID>
+  <FormatName>Applause II settings (v1.5)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857874</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ini</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Applause II settings (v1.5)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>417368746F6E2D54617465204150504C415553452049492076657273696F6E20312E3520494E492046696C651A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

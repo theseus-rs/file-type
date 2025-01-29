@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>118383473</FormatID>
+  <FormatName>Album Book file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/118383473</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>opf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123385570</FormatID>
+  <FormatName>Scene library file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123385570</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>scl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

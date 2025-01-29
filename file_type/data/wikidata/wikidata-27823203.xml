@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27823203</FormatID>
+  <FormatName>Synalysis grammar file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27823203</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>grammar</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

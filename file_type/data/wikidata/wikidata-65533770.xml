@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>65533770</FormatID>
+  <FormatName>Open Recipe Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/65533770</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>orf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

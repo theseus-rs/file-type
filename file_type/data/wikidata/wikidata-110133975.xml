@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>110133975</FormatID>
+  <FormatName>Microsoft Publisher file format, version 2013</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110133975</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-mspublisher</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pub</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

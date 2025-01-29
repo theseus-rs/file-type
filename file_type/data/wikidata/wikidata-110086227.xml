@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110086227</FormatID>
+  <FormatName>NTI JewelCase Maker format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110086227</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jwc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

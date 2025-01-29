@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>112821423</FormatID>
+  <FormatName>Minolta 3D Scanner Element File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112821423</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vvd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

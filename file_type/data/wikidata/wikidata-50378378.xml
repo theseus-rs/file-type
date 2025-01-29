@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>50378378</FormatID>
+  <FormatName>INTERLIS Model File, version 2.2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50378378</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ili</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

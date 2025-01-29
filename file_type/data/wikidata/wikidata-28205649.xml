@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28205649</FormatID>
+  <FormatName>AAI</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28205649</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aai</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -2,9 +2,6 @@
   <FormatID>1</FormatID>
   <FormatName>Binary</FormatName>
   <FormatDescription>Binary file</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceSourceDate>01 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>01 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/octet-stream</Identifier>
     <IdentifierType>MIME</IdentifierType>

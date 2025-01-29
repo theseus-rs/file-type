@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>111263309</FormatID>
+  <FormatName>Sound Designer I file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111263309</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dig</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

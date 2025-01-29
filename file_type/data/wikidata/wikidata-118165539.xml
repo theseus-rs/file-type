@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>118165539</FormatID>
+  <FormatName>FotoFinish Image Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/118165539</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sph</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

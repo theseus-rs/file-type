@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>113501142</FormatID>
+  <FormatName>Cintel Raw Image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113501142</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cri</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dvcc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

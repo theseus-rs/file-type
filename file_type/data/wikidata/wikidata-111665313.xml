@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>111665313</FormatID>
+  <FormatName>AbiWord Gzip Compressed Document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111665313</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/abiword</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zabw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

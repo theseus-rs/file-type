@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>52230534</FormatID>
+  <FormatName>Polynomial Texture Map</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/52230534</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ptm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

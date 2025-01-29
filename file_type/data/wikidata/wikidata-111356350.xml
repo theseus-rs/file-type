@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111356350</FormatID>
+  <FormatName>Turtle Beach WaveFront program format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111356350</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wfp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

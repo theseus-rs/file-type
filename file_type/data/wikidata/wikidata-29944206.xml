@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>29944206</FormatID>
+  <FormatName>OpenOffice Draw template, version 1.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29944206</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.sun.xml.draw.template</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>std</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

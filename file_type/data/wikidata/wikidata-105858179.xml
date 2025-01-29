@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105858179</FormatID>
+  <FormatName>EasyCrypto encrypted</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858179</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>encrypted</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>EasyCrypto encrypted</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5453020001456E637279707465642046696C652E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

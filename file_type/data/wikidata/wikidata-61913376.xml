@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>61913376</FormatID>
+  <FormatName>Microsoft Word for Macintosh Document, version 1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61913376</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/msword</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mcw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>61964300</FormatID>
+  <FormatName>GSSI SIR-10 RADAN data file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61964300</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dzt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

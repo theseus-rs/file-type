@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105860739</FormatID>
+  <FormatName>RemObjects Definition Language</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860739</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rodl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

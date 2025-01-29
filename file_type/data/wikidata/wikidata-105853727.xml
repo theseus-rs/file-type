@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105853727</FormatID>
+  <FormatName>CD Autorun Creator package</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853727</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>arn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>CD Autorun Creator package</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4344204155544F52554E2043524541544F52205041434B414745</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

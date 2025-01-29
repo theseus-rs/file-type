@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>62128473</FormatID>
+  <FormatName>CSV Schema</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/62128473</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/csv-schema</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>csvs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

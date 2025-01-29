@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>131453612</FormatID>
+  <FormatName>Zeek file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131453612</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bro</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zeek</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

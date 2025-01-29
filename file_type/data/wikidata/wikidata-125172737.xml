@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125172737</FormatID>
+  <FormatName>MyNotex file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125172737</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mnt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

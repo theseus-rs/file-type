@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105850648</FormatID>
+  <FormatName>Korg Trinity/Triton multisample</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850648</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kmp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Korg Trinity/Triton multisample</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4D535031</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

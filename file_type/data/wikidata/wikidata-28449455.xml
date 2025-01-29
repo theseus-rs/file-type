@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>28449455</FormatID>
+  <FormatName>TOML</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28449455</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/toml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>toml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

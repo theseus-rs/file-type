@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967388</FormatID>
+  <FormatName>Adlib Tracker instrument</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967388</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ins</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

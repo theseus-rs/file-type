@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>51034969</FormatID>
+  <FormatName>Paradox Database Table format, version 3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51034969</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>db</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

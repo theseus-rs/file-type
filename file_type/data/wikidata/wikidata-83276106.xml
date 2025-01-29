@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>83276106</FormatID>
+  <FormatName>Interleaf/Quicksilver file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/83276106</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ildoc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

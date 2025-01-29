@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28777714</FormatID>
+  <FormatName>NII</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28777714</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nii</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111009267</FormatID>
+  <FormatName>PrintMaster Newsletter File format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111009267</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nws</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

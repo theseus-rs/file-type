@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105863123</FormatID>
+  <FormatName>SawTeeth module (text format)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105863123</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>st</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>SawTeeth module (text format)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>535754540A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

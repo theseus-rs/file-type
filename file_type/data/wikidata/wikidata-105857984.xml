@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105857984</FormatID>
+  <FormatName>Adobe InDesign printing instructions report</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857984</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>txt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Adobe InDesign printing instructions report</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>41444F424520494E44455349474E205052494E54494E4720494E535452554354494F4E5320464F5220534552564943452050524F5649444552205245504F5254</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

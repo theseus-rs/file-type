@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105822756</FormatID>
+  <FormatName>AMDIS RI Calibration Data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105822756</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>CAL</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

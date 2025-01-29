@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>604279</FormatID>
+  <FormatName>Dirac</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/604279</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>drc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>7178768</FormatID>
+  <FormatName>Petri Net Markup Language</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7178768</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pnml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28731046</FormatID>
+  <FormatName>APL Transfer File format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28731046</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>atf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

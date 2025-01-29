@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105865022</FormatID>
+  <FormatName>PETSCII character graphics</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105865022</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>psci</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

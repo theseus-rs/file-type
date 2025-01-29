@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>122073134</FormatID>
+  <FormatName>MidiScan File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122073134</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mnd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

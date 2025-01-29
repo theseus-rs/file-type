@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856913</FormatID>
+  <FormatName>Bars and Pipes Guitar Player Chord</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856913</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gchone</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Bars and Pipes Guitar Player Chord</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>424C5545524942424F4E4743484F4E450001</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

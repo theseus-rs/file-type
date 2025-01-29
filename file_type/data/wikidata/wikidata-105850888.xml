@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105850888</FormatID>
+  <FormatName>KwikDraw drawing (v1.x)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850888</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kwk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>KwikDraw drawing (v1.x)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4B77696B447261772076312E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

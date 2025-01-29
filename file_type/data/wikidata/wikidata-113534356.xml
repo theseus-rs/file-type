@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113534356</FormatID>
+  <FormatName>Pro Tools Session File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113534356</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ptx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

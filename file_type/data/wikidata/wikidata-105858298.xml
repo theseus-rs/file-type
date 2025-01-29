@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105858298</FormatID>
+  <FormatName>eMemoPad Data File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858298</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>edf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>eMemoPad Data File</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>654D656D6F50616420446174612046696C650D0A56657273696F6E20</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

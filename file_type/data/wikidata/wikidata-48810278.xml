@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>48810278</FormatID>
+  <FormatName>DesignCAD Drawing</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/48810278</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dc2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

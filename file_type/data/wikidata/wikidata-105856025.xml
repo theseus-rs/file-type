@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105856025</FormatID>
+  <FormatName>SharePoint Portal Server Dashboard Web Part</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856025</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dwp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

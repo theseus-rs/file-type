@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>126817617</FormatID>
+  <FormatName>Eiffel Source Code File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/126817617</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-eiffel</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>e</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

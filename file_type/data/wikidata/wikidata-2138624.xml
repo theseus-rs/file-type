@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>2138624</FormatID>
+  <FormatName>registry file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/2138624</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>reg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

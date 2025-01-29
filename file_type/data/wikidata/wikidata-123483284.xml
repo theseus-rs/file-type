@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123483284</FormatID>
+  <FormatName>Python type stub file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123483284</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pyi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

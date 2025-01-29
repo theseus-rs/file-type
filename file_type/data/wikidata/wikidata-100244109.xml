@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>100244109</FormatID>
+  <FormatName>Student Writing Center Newsletter</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/100244109</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nlt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125019835</FormatID>
+  <FormatName>Sysex dump</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125019835</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>syx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

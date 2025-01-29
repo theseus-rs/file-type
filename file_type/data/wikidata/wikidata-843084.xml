@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>843084</FormatID>
+  <FormatName>Microsoft Document Imaging Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/843084</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/vnd.ms-modi</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mdi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>129167999</FormatID>
+  <FormatName>Factor source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129167999</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-factor</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>factor</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

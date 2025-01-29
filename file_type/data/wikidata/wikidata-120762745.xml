@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>120762745</FormatID>
+  <FormatName>Topo USA 4.0 File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/120762745</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tp4</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

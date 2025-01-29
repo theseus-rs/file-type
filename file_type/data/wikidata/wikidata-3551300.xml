@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>3551300</FormatID>
+  <FormatName>Universal Subtitle Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/3551300</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

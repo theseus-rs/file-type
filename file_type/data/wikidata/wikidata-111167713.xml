@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111167713</FormatID>
+  <FormatName>ACD/CNMR Calculated Spectrum file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111167713</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>csp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

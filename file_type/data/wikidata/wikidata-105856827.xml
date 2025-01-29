@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856827</FormatID>
+  <FormatName>GAPFile (v1.0)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856827</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gap</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>GAPFile (v1.0)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>212047415046696C652056657273696F6E20312E300D0A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

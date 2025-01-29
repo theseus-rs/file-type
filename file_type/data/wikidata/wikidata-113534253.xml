@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113534253</FormatID>
+  <FormatName>Geosoft Map Description File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113534253</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

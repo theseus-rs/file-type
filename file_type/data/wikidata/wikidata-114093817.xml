@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>114093817</FormatID>
+  <FormatName>Media Hash List</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/114093817</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mhl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

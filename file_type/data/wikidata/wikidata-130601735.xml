@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>130601735</FormatID>
+  <FormatName>R console transcript file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130601735</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rout</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

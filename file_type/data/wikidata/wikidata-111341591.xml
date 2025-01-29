@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111341591</FormatID>
+  <FormatName>EMU SoundFont v1.0 bank</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111341591</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sbk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

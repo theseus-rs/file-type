@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>121065979</FormatID>
+  <FormatName>Wizard Database</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/121065979</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

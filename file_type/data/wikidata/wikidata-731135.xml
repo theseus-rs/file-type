@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>731135</FormatID>
+  <FormatName>Microsoft Management Console</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/731135</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>msc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

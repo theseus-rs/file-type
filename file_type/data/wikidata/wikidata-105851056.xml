@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851056</FormatID>
+  <FormatName>DemoManiac Text</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851056</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>txt/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>txt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>DemoManiac Text</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5445585420</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

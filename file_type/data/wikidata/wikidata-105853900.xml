@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853900</FormatID>
+  <FormatName>ABC FlowCharter Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853900</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aft</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>ABC FlowCharter Template</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>0018004A464F000000000000000000001203000201000000000000015A0700000001</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

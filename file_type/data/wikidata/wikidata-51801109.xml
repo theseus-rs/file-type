@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>51801109</FormatID>
+  <FormatName>Microsoft Excel Toolbar</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51801109</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-excel</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xlb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

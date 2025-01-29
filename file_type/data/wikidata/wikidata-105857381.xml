@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105857381</FormatID>
+  <FormatName>JClic project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857381</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jclic</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>JClic project</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0D0A3C4A436C696350726F6A656374206E616D653D22</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

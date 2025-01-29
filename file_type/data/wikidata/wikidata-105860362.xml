@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860362</FormatID>
+  <FormatName>TNTmips Project (Windows)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860362</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rvc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>TNTmips Project (Windows)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>52564320446174612046696C65</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

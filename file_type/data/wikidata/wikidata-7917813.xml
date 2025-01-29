@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>7917813</FormatID>
+  <FormatName>Vector Product Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7917813</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vpf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

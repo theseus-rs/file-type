@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111355087</FormatID>
+  <FormatName>G.711 mu-law US telephony format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111355087</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ulw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

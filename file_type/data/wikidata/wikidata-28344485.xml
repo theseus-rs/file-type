@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28344485</FormatID>
+  <FormatName>HKI</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28344485</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hki</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

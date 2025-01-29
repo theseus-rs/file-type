@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>128123256</FormatID>
+  <FormatName>Stylus file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128123256</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>styl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

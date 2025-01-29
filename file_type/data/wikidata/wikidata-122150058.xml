@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>122150058</FormatID>
+  <FormatName>TaxAct 2007 Tax Return File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122150058</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ta7</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

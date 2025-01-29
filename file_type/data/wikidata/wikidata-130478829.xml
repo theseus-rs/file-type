@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>130478829</FormatID>
+  <FormatName>pkg-config file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130478829</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

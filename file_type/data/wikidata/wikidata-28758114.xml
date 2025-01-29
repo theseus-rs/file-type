@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>28758114</FormatID>
+  <FormatName>Internet Shortcut</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28758114</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-mswinurl</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>url</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

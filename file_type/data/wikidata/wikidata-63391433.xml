@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>63391433</FormatID>
+  <FormatName>Microsoft Works Database for DOS</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/63391433</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

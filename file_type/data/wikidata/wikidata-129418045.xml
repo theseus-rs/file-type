@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>129418045</FormatID>
+  <FormatName>GoodData-CL script file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129418045</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-gooddata-cl</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gdc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

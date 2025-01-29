@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105857512</FormatID>
+  <FormatName>Dalton's Disk Disintegrator Pro disk image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857512</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ddd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Dalton's Disk Disintegrator Pro disk image</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>03C9BFD0</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

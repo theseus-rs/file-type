@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105855305</FormatID>
+  <FormatName>Fritzing sketch</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855305</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>29167502</FormatID>
+  <FormatName>Open Web App Manifest</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29167502</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-web-app-manifest+json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>webapp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

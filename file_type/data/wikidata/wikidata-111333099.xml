@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111333099</FormatID>
+  <FormatName>Korg PA1X/PA800/PA2X samples</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111333099</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pcm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

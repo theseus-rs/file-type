@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>2375766</FormatID>
+  <FormatName>Synchronized Accessible Media Interchange</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/2375766</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sami</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>smi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

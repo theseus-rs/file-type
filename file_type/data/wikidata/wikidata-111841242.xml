@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>111841242</FormatID>
+  <FormatName>NDJSON</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111841242</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-ndjson</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ndjson</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

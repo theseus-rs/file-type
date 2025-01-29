@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>129643497</FormatID>
+  <FormatName>Icon file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129643497</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>icon</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

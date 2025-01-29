@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105865021</FormatID>
+  <FormatName>Photodex ProShow Workspace</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105865021</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ppr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Photodex ProShow Workspace</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>50686F746F6465782852292050726F53686F7728544D2920576F726B73706163652046696C652056657273696F6E3D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

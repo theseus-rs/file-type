@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>131417573</FormatID>
+  <FormatName>FRACT file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131417573</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>FRACT</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

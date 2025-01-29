@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>100324081</FormatID>
+  <FormatName>Corel Print House Document, version 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/100324081</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cpd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cph</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

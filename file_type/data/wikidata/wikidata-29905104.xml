@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>29905104</FormatID>
+  <FormatName>Statistical Analysis System data mining database file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29905104</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>s7m</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sas7bdmd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

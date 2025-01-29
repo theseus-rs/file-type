@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967101</FormatID>
+  <FormatName>Nintendo GameCube/Wii ADP</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967101</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>adp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

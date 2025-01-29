@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125040222</FormatID>
+  <FormatName>Syntorial file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125040222</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>syn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

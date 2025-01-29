@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105867027</FormatID>
+  <FormatName>LigPlot Non-Bonded contacts data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105867027</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nnb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>LigPlot Non-Bonded contacts data</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>6C6967706C6F742E6E6E62</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

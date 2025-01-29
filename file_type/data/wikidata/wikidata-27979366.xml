@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27979366</FormatID>
+  <FormatName>Flash Media Manifest</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27979366</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/f4m</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>f4m</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>49243748</FormatID>
+  <FormatName>Acrobat Language definition file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/49243748</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lng</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111392536</FormatID>
+  <FormatName>Bryce 5 File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111392536</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>br5</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

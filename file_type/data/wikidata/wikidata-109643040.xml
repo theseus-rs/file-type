@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>109643040</FormatID>
+  <FormatName>VJ file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109643040</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

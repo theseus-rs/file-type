@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111272308</FormatID>
+  <FormatName>Ensoniq KT instrument file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111272308</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>efk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

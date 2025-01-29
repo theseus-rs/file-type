@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>34312565</FormatID>
+  <FormatName>Macromedia Director, compressed PC variant</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/34312565</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-director</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dcr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

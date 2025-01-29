@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>101250905</FormatID>
+  <FormatName>.piskel</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/101250905</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/png+json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>piskel</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

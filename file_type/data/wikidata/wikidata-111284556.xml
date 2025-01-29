@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>111284556</FormatID>
+  <FormatName>GigaStudio/GigaSampler file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111284556</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gi!</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gig</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

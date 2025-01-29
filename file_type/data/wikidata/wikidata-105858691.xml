@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105858691</FormatID>
+  <FormatName>Berkeley Logic Interchange Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858691</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>blif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Berkeley Logic Interchange Format</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2E6D6F64656C20</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>5531823</FormatID>
+  <FormatName>General Data Format for Biomedical Signals</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/5531823</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

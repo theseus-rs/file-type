@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28207355</FormatID>
+  <FormatName>TrueVista</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28207355</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vst</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

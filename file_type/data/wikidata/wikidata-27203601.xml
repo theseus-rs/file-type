@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27203601</FormatID>
+  <FormatName>OpenDocument Text, version 1.2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27203601</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.oasis.opendocument.text</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>odt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

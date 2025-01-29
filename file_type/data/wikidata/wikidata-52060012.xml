@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>52060012</FormatID>
+  <FormatName>Paint Shop Pro Image, version 6</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/52060012</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>psp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pspimage</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

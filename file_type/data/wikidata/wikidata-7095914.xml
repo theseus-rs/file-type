@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>7095914</FormatID>
+  <FormatName>OpenXDF</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7095914</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

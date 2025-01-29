@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105854592</FormatID>
+  <FormatName>Opera Hotlist (v2.0) / bookmark</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854592</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>adr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Opera Hotlist (v2.0) / bookmark</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4F7065726120486F746C6973742076657273696F6E20322E30</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

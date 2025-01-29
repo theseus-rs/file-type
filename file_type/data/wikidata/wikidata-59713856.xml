@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>59713856</FormatID>
+  <FormatName>Microsoft Works Spreadsheet</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59713856</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xlr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

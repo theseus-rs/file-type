@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110098601</FormatID>
+  <FormatName>EinScan RGE 3D Range File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110098601</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rge</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

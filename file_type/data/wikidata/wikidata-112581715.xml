@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>112581715</FormatID>
+  <FormatName>WAN</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112581715</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wan</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27231654</FormatID>
+  <FormatName>Tag Image File Format, version 6.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27231654</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/tiff</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

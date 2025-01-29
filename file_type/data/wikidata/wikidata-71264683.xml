@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>71264683</FormatID>
+  <FormatName>Hippel module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/71264683</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hip</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

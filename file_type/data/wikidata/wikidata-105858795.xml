@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105858795</FormatID>
+  <FormatName>Photo Enote (Enot) external photo viewer settings</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858795</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bws</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Photo Enote (Enot) external photo viewer settings</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5B50484F544F56494557455253455454494E47535D0D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

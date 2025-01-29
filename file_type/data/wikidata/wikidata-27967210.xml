@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967210</FormatID>
+  <FormatName>Poly Tracker module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967210</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ptm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

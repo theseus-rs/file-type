@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105864418</FormatID>
+  <FormatName>Commodore 128 BASIC V7.0 program (graph mode on)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105864418</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Commodore 128 BASIC V7.0 program (graph mode on)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>0140</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

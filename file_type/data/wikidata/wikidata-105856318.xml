@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856318</FormatID>
+  <FormatName>ATK Data Flow Diagram</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856318</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dfd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>ATK Data Flow Diagram</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2A20446664205469746C65202A0D0A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

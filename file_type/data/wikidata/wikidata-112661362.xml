@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>112661362</FormatID>
+  <FormatName>Motion Analysis TRC File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112661362</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>trc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

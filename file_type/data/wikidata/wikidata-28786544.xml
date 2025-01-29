@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28786544</FormatID>
+  <FormatName>Netscape bookmarks</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28786544</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>htm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>html</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

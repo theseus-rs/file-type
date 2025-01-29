@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105857392</FormatID>
+  <FormatName>Java Web Start application descriptor</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857392</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text.xnk</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jnlp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

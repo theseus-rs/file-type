@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105862489</FormatID>
+  <FormatName>Fred Editor SoundTrack</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105862489</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>audio/x-mod</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Fred Editor SoundTrack</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4672656420456469746F7220</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123436321</FormatID>
+  <FormatName>DARC-F1 Query file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123436321</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>f1q</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

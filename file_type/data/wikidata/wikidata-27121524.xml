@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27121524</FormatID>
+  <FormatName>fixed width text file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27121524</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fwf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

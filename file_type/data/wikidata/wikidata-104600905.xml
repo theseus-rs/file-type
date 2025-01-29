@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>104600905</FormatID>
+  <FormatName>KDBX</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/104600905</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kdbx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

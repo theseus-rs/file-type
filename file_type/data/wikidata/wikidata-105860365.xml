@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105860365</FormatID>
+  <FormatName>File Crypt encrypted</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860365</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rzx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>File Crypt encrypted</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>B4B26F93E2A690076FC9CC2C1AEBB924</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105858682</FormatID>
+  <FormatName>Winlog Raster File bitmap</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858682</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wrf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Winlog Raster File bitmap</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>57524600</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

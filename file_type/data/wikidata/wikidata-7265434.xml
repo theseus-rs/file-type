@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>7265434</FormatID>
+  <FormatName>Quicken Financial Exchange</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7265434</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>qfx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

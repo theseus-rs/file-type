@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>47012425</FormatID>
+  <FormatName>Microsoft Visual FoxPro Table file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47012425</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dbx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

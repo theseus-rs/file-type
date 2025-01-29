@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105864132</FormatID>
+  <FormatName>OpenMPT Key Binding</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105864132</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mkb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>OpenMPT Key Binding</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2F2F2D2D2D2D2D2D2D2D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>52063276</FormatID>
+  <FormatName>SAP Document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/52063276</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ali</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

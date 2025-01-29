@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105858425</FormatID>
+  <FormatName>EazyDraw Library (binary)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858425</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ezdrawlibb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>EazyDraw Library (binary)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>040B73747265616D747970656481E803840140848484134E534D757461626C6544696374696F6E6172790084840C4E5344696374696F6E617279008484084E534F626A656374</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

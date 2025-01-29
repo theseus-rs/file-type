@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853031</FormatID>
+  <FormatName>Skyland's Star saved game</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853031</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sss</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Skyland's Star saved game</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D2257696E646F77732D31323532223F3E0D0A3C536B796C616E64446174613E0D0A202020203C437572526F6F6D4E756D3E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

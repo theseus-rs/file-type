@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>47916123</FormatID>
+  <FormatName>Frame Vector Metafile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47916123</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fmv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

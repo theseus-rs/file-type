@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28756168</FormatID>
+  <FormatName>FWKCS SRT file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28756168</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>srt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

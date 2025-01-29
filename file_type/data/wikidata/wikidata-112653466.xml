@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>112653466</FormatID>
+  <FormatName>Professional Draw 1.0 file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112653466</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pdw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

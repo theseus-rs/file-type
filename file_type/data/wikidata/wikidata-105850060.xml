@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105850060</FormatID>
+  <FormatName>BoomTracker 4.0 instrument</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850060</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>BoomTracker 4.0 instrument</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C4355442D464D2D496E737472756D656E743E1A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

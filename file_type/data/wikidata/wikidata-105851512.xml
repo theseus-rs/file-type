@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851512</FormatID>
+  <FormatName>MegaPaint printer driver</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851512</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>trb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>MegaPaint printer driver</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>0754524220</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

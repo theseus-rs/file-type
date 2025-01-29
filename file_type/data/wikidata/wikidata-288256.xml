@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>288256</FormatID>
+  <FormatName>ACE</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/288256</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-ace-compressed</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ace</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

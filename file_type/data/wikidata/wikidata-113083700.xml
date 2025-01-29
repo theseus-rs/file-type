@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113083700</FormatID>
+  <FormatName>Okino Transfer File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113083700</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

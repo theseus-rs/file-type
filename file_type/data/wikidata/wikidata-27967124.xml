@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967124</FormatID>
+  <FormatName>CM3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967124</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cm3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

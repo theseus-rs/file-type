@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27861482</FormatID>
+  <FormatName>Renoise Song, version 10</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27861482</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xrns</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

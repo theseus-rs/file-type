@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>7886963</FormatID>
+  <FormatName>Uniqueness Database File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7886963</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>udf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

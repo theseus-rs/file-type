@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111263298</FormatID>
+  <FormatName>Digilink format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111263298</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dig</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

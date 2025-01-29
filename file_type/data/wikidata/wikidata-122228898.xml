@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>122228898</FormatID>
+  <FormatName>Oracle Password Hash</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122228898</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>orc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

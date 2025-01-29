@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28207044</FormatID>
+  <FormatName>PM</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28207044</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

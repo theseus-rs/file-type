@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>21462816</FormatID>
+  <FormatName>Android Secure encrypted file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/21462816</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>asec</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

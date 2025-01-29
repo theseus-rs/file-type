@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>129823013</FormatID>
+  <FormatName>Inform 7 source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129823013</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>i7x</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ni</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

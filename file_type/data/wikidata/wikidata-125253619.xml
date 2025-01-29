@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125253619</FormatID>
+  <FormatName>Simple interaction file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125253619</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>112218888</FormatID>
+  <FormatName>Adobe Audition Peak File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112218888</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pkf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Adobe Audition Peak File</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>69242100</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

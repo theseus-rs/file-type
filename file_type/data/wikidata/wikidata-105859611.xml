@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105859611</FormatID>
+  <FormatName>VMware supplemental team member configuration</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859611</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vmxf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>VMware supplemental team member configuration</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C3F786D6C2076657273696F6E3D22312E30223F3E0A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

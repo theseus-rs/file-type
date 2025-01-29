@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>22097440</FormatID>
+  <FormatName>IPSW</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/22097440</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-itunes-ipsw</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ipsw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

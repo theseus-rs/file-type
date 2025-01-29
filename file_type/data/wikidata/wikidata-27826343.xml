@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27826343</FormatID>
+  <FormatName>Auxiliary file, AUX.XML variant</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27826343</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aux.xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

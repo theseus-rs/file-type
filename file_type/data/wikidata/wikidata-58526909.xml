@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>58526909</FormatID>
+  <FormatName>SuperCalc Spreadsheet, version 1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/58526909</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cal</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

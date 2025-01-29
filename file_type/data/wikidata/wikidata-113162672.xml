@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113162672</FormatID>
+  <FormatName>MyContactManager File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113162672</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mcm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

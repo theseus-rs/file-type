@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>116573999</FormatID>
+  <FormatName>CoffeeCup Google Site Mapper Profile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116573999</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>csm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

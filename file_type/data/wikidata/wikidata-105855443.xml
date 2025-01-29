@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105855443</FormatID>
+  <FormatName>Flasm disassembled Flash ActionScript bytecode</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855443</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>flm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Flasm disassembled Flash ActionScript bytecode</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>6D6F7669652027</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

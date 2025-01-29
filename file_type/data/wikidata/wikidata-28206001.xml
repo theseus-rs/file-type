@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206001</FormatID>
+  <FormatName>Digital Video Interactive Device-dependent Data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206001</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>i8</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

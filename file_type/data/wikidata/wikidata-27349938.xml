@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27349938</FormatID>
+  <FormatName>TOPSAR Digital Elevation Model</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27349938</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>demi2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

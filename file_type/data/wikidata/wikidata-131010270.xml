@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>131010270</FormatID>
+  <FormatName>Smarty template file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131010270</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-smarty</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tpl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

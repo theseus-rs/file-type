@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>55832374</FormatID>
+  <FormatName>Event Trace Log file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/55832374</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-ms-etl</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>etl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

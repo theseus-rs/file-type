@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>55378071</FormatID>
+  <FormatName>Marvin Document format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/55378071</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mrv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

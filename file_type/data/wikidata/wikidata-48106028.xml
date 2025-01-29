@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>48106028</FormatID>
+  <FormatName>Unisys (Sperry) System Data File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/48106028</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>50223749</FormatID>
+  <FormatName>compressed MusicXML</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50223749</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.recordare.musicxml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mxl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

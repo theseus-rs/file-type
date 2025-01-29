@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105860737</FormatID>
+  <FormatName>Rapport Script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860737</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rsp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Rapport Script</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5B56657273696F6E5D0D0A4E756D6265723D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

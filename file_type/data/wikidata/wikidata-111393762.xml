@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>111393762</FormatID>
+  <FormatName>Database Oasis Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111393762</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mkt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mktx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

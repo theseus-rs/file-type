@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117868568</FormatID>
+  <FormatName>Imavox TurboFax file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117868568</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tbf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

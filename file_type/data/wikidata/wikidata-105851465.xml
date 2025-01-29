@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105851465</FormatID>
+  <FormatName>Garmin Training Center Database XML (V2)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851465</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.garmin.tcx+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tcx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

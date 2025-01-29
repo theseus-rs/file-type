@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>4052556</FormatID>
+  <FormatName>Vector Quantized Animation</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/4052556</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vqa</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

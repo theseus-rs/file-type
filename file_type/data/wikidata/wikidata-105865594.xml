@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105865594</FormatID>
+  <FormatName>P64 NRZI flux pulse disk image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105865594</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>p64</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>P64 NRZI flux pulse disk image</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5036342D31353431</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

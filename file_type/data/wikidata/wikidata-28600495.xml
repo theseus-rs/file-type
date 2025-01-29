@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28600495</FormatID>
+  <FormatName>Dia</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28600495</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dia</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

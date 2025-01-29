@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>59608885</FormatID>
+  <FormatName>PKCS #7 Cryptographic message file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59608885</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/pkcs7-mime</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>p7m</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

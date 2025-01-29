@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>7311459</FormatID>
+  <FormatName>Relocatable Object Module Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7311459</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>obj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

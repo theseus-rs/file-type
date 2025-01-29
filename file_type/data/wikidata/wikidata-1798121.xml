@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>1798121</FormatID>
+  <FormatName>Microsoft Library</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1798121</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lib</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

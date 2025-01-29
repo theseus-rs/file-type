@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>7915770</FormatID>
+  <FormatName>Variant Call Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7915770</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vcf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

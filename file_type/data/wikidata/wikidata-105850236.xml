@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105850236</FormatID>
+  <FormatName>Syslinux COM32 module (v4)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850236</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-c32-comboot-syslinux-exec</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>c32</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Syslinux COM32 module (v4)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>B8FE4CCD21</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

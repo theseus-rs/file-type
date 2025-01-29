@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29167443</FormatID>
+  <FormatName>OME-TIFF</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29167443</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ome.tiff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

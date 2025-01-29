@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855311</FormatID>
+  <FormatName>Furcadia Art</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855311</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fox</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Furcadia Art</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>465348580100000014000000010000000000000000000000000000000000FFFF</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

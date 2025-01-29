@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>107649162</FormatID>
+  <FormatName>mzMLb</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/107649162</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-hdf5</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mzMLb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

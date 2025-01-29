@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>6158460</FormatID>
+  <FormatName>Video Recording Object file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/6158460</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vro</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

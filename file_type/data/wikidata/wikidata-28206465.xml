@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206465</FormatID>
+  <FormatName>KoalaPainter uncompressed</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206465</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>koa</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

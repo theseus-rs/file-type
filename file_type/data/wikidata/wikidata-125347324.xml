@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125347324</FormatID>
+  <FormatName>Binary Grid File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125347324</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>grb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

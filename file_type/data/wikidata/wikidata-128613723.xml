@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>128613723</FormatID>
+  <FormatName>AspectJ file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128613723</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-aspectj</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

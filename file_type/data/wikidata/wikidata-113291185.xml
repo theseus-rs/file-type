@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113291185</FormatID>
+  <FormatName>Serif Metafile Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113291185</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>smf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

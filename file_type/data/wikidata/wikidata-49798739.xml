@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>49798739</FormatID>
+  <FormatName>Adobe Portable Document Catalog Index File, version 3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/49798739</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pdx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

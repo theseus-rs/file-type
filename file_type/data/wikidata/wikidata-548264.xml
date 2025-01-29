@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>548264</FormatID>
+  <FormatName>XML Metadata Interchange</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/548264</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.xmi+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xmi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

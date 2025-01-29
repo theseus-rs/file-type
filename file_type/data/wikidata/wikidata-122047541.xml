@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>122047541</FormatID>
+  <FormatName>cc:Mail Archive Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122047541</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cca</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

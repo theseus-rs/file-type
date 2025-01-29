@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>49812221</FormatID>
+  <FormatName>Vectorworks file format, version 2009</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/49812221</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.vectorworks</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vwx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

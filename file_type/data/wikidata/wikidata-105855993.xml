@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855993</FormatID>
+  <FormatName>iGO Digital Elevation Map</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855993</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dem</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>iGO Digital Elevation Map</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>44454D50</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105866739</FormatID>
+  <FormatName>Pure Compound Data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105866739</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pcd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Pure Compound Data</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>00042F0808080000000808084368656D4C6962205075726520436F6D706F6E656E742044617461204C6962726172792E0D0A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

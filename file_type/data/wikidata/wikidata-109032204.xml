@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>109032204</FormatID>
+  <FormatName>Zeiss Vision Image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109032204</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/zvi</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zvi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

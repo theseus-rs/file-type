@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27966915</FormatID>
+  <FormatName>NES Sound Format Extended</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27966915</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nsfe</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

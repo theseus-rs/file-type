@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>61774372</FormatID>
+  <FormatName>WavPack Binary</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61774372</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

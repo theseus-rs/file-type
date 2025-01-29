@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105852077</FormatID>
+  <FormatName>Sandcastle Help File Builder project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105852077</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>shfb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Sandcastle Help File Builder project</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>EFBBBF3C70726F6A65637420736368656D6156657273696F6E3D22</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

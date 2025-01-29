@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27959817</FormatID>
+  <FormatName>Ableton Max for Live Device</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27959817</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>amxd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

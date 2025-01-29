@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28600476</FormatID>
+  <FormatName>DOS device driver</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28600476</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dos</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sys</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

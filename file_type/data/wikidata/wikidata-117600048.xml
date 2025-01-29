@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>117600048</FormatID>
+  <FormatName>Digital Negative, version 1.5</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117600048</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/tiff</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dng</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

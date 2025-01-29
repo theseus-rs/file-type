@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>43992376</FormatID>
+  <FormatName>ABIF file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/43992376</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>abif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

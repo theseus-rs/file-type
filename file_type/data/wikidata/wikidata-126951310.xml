@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>126951310</FormatID>
+  <FormatName>Haskell Script File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/126951310</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-haskell</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

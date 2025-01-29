@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117844031</FormatID>
+  <FormatName>Inset Systems IGF format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117844031</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>igf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

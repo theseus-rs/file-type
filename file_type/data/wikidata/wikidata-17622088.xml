@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>17622088</FormatID>
+  <FormatName>Speedo</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/17622088</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-font-speedo</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>spd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

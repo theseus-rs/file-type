@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856183</FormatID>
+  <FormatName>Diagram Designer Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856183</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ddt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Diagram Designer Template</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>03444474</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

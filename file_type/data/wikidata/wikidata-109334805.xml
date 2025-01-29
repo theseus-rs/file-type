@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>109334805</FormatID>
+  <FormatName>Advanced Comic Book Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109334805</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>acbf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

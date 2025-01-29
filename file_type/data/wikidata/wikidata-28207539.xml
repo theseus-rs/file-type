@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28207539</FormatID>
+  <FormatName>Xerox EDMICS-MMR</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28207539</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ed</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mmr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

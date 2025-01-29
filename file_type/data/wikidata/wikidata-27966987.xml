@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27966987</FormatID>
+  <FormatName>AMOS Music Bank</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27966987</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>abk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

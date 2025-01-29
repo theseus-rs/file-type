@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>1546911</FormatID>
+  <FormatName>Cross-Platform Installer Module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1546911</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-xpinstall</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xpi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

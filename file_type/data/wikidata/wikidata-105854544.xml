@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105854544</FormatID>
+  <FormatName>Adobe Digital Editions Adobe Content Server Message</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854544</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>acsm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

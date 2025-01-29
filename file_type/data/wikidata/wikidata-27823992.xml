@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27823992</FormatID>
+  <FormatName>Maptech BSB documentation file, version 3.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27823992</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bsb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

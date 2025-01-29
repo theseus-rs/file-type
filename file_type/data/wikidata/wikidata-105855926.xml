@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105855926</FormatID>
+  <FormatName>Klasik screen saver</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855926</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>drv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Klasik screen saver</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>452E542E204B6C6173696B202D2053637265656E2053617665721A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>118877820</FormatID>
+  <FormatName>Open Scripting Architecture binary script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/118877820</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>scpt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

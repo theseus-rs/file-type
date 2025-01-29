@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27487424</FormatID>
+  <FormatName>Shapefile projections definitions file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27487424</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

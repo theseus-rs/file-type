@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111180374</FormatID>
+  <FormatName>PressWriter File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111180374</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>psp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

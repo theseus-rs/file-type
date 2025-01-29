@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113521033</FormatID>
+  <FormatName>BIM Metadata File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113521033</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bim</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

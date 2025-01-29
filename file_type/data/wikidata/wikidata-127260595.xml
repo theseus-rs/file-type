@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>127260595</FormatID>
+  <FormatName>Abaqus/CAE model database</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/127260595</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cae</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>59961716</FormatID>
+  <FormatName>Sound Designer II Audio File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59961716</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sd2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Sound Designer II Audio File</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>00075858302E24242400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005364326653643261</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

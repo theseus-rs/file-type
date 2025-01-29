@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>51802172</FormatID>
+  <FormatName>Speller Custom Dictionary</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51802172</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dic</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

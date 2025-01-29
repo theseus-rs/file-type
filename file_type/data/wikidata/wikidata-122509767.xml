@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>122509767</FormatID>
+  <FormatName>Pretty Good Privacy (PGP) Groups Data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122509767</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pgr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

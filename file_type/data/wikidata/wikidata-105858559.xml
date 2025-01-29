@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105858559</FormatID>
+  <FormatName>Multipaint image (C64 hi-res)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858559</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bin</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Multipaint image (C64 hi-res)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>06FF00000F2800190000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

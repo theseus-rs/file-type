@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>21040799</FormatID>
+  <FormatName>MadTracker 2 format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/21040799</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mt2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

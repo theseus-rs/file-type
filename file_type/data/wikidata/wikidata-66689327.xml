@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>66689327</FormatID>
+  <FormatName>Access lock files</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66689327</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ldb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

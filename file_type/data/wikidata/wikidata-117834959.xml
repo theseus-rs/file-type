@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117834959</FormatID>
+  <FormatName>Brooktrout Fax-Mail 96 file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117834959</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>brk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

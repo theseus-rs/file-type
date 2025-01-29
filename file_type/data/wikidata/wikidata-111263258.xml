@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111263258</FormatID>
+  <FormatName>Soundcap/SoundEdit instrument</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111263258</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dewf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>48021588</FormatID>
+  <FormatName>Microsoft Access Database, version 2000</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/48021588</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

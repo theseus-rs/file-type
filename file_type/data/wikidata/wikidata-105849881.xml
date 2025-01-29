@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105849881</FormatID>
+  <FormatName>Comic Book Creator document (Unicode)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105849881</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cbcx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Comic Book Creator document (Unicode)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>FFFE3C003F0078006D006C002000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

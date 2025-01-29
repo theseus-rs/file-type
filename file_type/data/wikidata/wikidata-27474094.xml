@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27474094</FormatID>
+  <FormatName>BIL/BIP/BSQ Statistics File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27474094</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>stx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

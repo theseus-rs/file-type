@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123385314</FormatID>
+  <FormatName>Old material library file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123385314</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mlb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

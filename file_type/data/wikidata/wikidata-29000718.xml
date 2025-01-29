@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29000718</FormatID>
+  <FormatName>Unreal model aniv file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29000718</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>3d</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

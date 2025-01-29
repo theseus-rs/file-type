@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>59468329</FormatID>
+  <FormatName>Statistical Analysis System Data XPT (Unix)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59468329</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-sas-xport</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xpt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

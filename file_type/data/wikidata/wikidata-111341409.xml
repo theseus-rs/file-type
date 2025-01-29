@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111341409</FormatID>
+  <FormatName>Yamaha EX5 'all' format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111341409</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>s1a</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

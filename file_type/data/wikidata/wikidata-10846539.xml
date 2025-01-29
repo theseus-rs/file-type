@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>10846539</FormatID>
+  <FormatName>BNA</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/10846539</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bna</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

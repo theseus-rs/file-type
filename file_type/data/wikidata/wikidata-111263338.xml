@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111263338</FormatID>
+  <FormatName>DirectMusic Producer DLS file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111263338</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dlp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

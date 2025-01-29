@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27861323</FormatID>
+  <FormatName>Windows Prefetch File, version 23</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27861323</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>120731961</FormatID>
+  <FormatName>Amapi Pro file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/120731961</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>a3p</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

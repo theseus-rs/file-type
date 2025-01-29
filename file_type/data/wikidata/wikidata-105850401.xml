@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105850401</FormatID>
+  <FormatName>Poser character rigging</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850401</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cr2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

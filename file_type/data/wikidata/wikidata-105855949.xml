@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105855949</FormatID>
+  <FormatName>DMIS input data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855949</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dmi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

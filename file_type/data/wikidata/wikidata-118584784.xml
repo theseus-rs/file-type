@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>118584784</FormatID>
+  <FormatName>Cakewalk Bundle</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/118584784</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cwb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>1050471</FormatID>
+  <FormatName>Property list</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1050471</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-plist</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>plist</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

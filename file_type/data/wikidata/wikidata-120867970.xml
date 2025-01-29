@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>120867970</FormatID>
+  <FormatName>Cumulus Query Exchange File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/120867970</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cqe</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

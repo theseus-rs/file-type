@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>58959314</FormatID>
+  <FormatName>Microsoft Office Theme</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/58959314</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-officetheme</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>thmx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

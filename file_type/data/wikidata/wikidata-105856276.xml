@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856276</FormatID>
+  <FormatName>DAUB drawing (v2.x)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856276</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dob</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>DAUB drawing (v2.x)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4444424232</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

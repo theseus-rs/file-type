@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105850294</FormatID>
+  <FormatName>ColdFusion Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850294</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cfm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>ColdFusion Template</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>416C6C6169726520436F6C6420467573696F6E2054656D706C6174650A4865616465722053697A653A204E65772056657273696F6E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

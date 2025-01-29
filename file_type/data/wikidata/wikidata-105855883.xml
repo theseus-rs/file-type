@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105855883</FormatID>
+  <FormatName>Concurrent DOS Serial Terminal Configuration</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855883</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Concurrent DOS Serial Terminal Configuration</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>436F6E63757272656E7420444F532053657269616C205465726D696E616C20436F6E66696775726174696F6E2066696C650D0A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

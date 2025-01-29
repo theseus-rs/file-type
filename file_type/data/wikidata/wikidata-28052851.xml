@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>28052851</FormatID>
+  <FormatName>RePub</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28052851</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/epub+zip</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>epub</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

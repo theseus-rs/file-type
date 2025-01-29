@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>51954279</FormatID>
+  <FormatName>Autodesk Animator CEL File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51954279</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cel</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

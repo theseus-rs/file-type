@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28600399</FormatID>
+  <FormatName>Arma PBO</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28600399</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pbo</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

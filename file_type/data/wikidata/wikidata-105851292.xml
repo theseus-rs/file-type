@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851292</FormatID>
+  <FormatName>InterBase Table Definition (v1.0)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851292</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>InterBase Table Definition (v1.0)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>496E746572426173652056312C3030205444460A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

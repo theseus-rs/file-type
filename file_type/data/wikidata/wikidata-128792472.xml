@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>128792472</FormatID>
+  <FormatName>darcs patch format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128792472</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>darcspatch</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dpatch</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

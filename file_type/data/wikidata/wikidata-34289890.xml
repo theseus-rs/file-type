@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>34289890</FormatID>
+  <FormatName>SETI@Home data file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/34289890</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sah</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

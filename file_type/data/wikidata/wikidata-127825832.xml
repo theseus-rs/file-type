@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>127825832</FormatID>
+  <FormatName>Cinema DTS Subtitle file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/127825832</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sbt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Cinema DTS Subtitle file format</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>CA0001000000445453</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27925700</FormatID>
+  <FormatName>DTED Level 0 Minimum Terrain Elevation Value File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27925700</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>min</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

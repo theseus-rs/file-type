@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>25103897</FormatID>
+  <FormatName>Dynamic Text Document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/25103897</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dtxt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

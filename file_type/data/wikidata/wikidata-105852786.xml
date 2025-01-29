@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105852786</FormatID>
+  <FormatName>MoonShell2 skin</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105852786</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>skn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>MoonShell2 skin</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2A536B696E2066696C6573207061636B61676520666F72204D6F6F6E5368656C6C32</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

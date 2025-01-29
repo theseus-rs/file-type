@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>124843583</FormatID>
+  <FormatName>XTiger template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/124843583</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xtd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>99844735</FormatID>
+  <FormatName>GDAL Vector Virtual Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/99844735</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vrt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

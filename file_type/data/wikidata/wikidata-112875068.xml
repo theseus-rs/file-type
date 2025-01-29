@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>112875068</FormatID>
+  <FormatName>armored PGP public key block</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112875068</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>txt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>txt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

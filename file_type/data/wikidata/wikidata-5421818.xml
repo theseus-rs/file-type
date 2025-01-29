@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>5421818</FormatID>
+  <FormatName>Extended Log Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/5421818</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>log</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

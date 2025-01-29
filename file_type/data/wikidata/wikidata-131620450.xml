@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131620450</FormatID>
+  <FormatName>Ansys Fluent Data file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131620450</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

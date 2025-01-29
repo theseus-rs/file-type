@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105855200</FormatID>
+  <FormatName>PreForm 3D object container</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855200</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>form</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>PreForm 3D object container</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>F00DF00D0000000300000001000000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

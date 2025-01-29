@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>67384103</FormatID>
+  <FormatName>ArtMoney Table File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/67384103</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>amt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

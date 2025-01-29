@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967380</FormatID>
+  <FormatName>EVT</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967380</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>evt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

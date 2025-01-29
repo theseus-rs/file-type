@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>6505523</FormatID>
+  <FormatName>Layered Image File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/6505523</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>liff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

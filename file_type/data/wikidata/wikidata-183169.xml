@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>183169</FormatID>
+  <FormatName>Jakarta Server Pages</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/183169</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/jsp</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jsp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

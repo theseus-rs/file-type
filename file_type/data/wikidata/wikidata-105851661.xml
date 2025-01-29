@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851661</FormatID>
+  <FormatName>Crimson Fields level</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851661</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>src</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Crimson Fields level</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5B6D697373696F6E5D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>47167584</FormatID>
+  <FormatName>ClarisWorks Painting file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47167584</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cwk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

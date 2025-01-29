@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>112821378</FormatID>
+  <FormatName>Minolta 3D Scanner Camera File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112821378</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cam</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

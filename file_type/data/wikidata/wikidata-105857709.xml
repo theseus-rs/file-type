@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105857709</FormatID>
+  <FormatName>Image Spectrumizer Workspace (v4.0)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857709</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>isw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

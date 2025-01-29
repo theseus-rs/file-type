@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105852159</FormatID>
+  <FormatName>Visual Smalltalk Enterprise objects Library</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105852159</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sll</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Visual Smalltalk Enterprise objects Library</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>564F4C31303030</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

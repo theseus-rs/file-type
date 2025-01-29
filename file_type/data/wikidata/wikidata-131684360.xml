@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131684360</FormatID>
+  <FormatName>Sierra IO System file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131684360</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>exdg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105850287</FormatID>
+  <FormatName>CryEngine Project (v5)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850287</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cryproject</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

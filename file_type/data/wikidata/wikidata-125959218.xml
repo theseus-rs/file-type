@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>125959218</FormatID>
+  <FormatName>Sibelius Score 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125959218</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-sibelius-score</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sib</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

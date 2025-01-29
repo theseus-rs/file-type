@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>46118545</FormatID>
+  <FormatName>Lotus Approach View File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/46118545</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.lotus-approach</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>apt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

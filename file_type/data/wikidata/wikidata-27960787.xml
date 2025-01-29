@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27960787</FormatID>
+  <FormatName>HS2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27960787</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hs2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

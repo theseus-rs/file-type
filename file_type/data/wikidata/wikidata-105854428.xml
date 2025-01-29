@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105854428</FormatID>
+  <FormatName>Microsoft SQL Server Analysis Services database project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854428</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>asdatabase</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Microsoft SQL Server Analysis Services database project</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>EFBBBF3C446174616261736520786D6C6E733A7873643D22687474703A2F2F7777772E77332E6F72672F323030312F584D4C536368656D612220786D6C6E733A7873693D22687474703A2F2F7777772E77332E6F72672F323030312F584D4C536368656D612D696E7374616E63652220786D6C6E733A64646C323D22687474703A2F2F736368656D61732E6D6963726F736F66742E636F6D2F616E616C7973697373657276696365732F323030332F656E67696E652F322220786D6C6E733A64646C325F323D22687474703A2F2F736368656D61732E6D6963726F736F66742E636F6D2F616E616C7973697373657276696365732F323030332F656E67696E652F</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

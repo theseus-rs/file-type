@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>1035647</FormatID>
+  <FormatName>Card Verifiable Certificate</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1035647</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cvcert</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

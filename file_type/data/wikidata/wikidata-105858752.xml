@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105858752</FormatID>
+  <FormatName>PAX password protected bitmap</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858752</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pax</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>PAX password protected bitmap</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>504158</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

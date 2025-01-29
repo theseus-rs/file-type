@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>128612807</FormatID>
+  <FormatName>Abstract Syntax Notation One format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128612807</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>asn1</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

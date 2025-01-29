@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206584</FormatID>
+  <FormatName>MGR bitmap</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206584</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mgr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

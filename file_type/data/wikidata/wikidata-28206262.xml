@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28206262</FormatID>
+  <FormatName>HSI JPEG</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206262</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hsi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jpg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

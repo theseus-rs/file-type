@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>65533440</FormatID>
+  <FormatName>BigOven Recipe Box File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/65533440</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>crb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

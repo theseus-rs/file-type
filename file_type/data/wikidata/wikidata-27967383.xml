@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967383</FormatID>
+  <FormatName>RIFF MIDI</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967383</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rmi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

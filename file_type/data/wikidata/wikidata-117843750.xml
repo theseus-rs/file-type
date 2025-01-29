@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>117843750</FormatID>
+  <FormatName>IBM IOCA</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117843750</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/x-ioca</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ica</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

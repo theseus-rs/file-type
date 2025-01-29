@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>1970420</FormatID>
+  <FormatName>Simple file verification</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1970420</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-sfv</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sfv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

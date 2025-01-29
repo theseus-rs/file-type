@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>128612328</FormatID>
+  <FormatName>Arturo file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128612328</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>art</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>67126629</FormatID>
+  <FormatName>Print Artist sign file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/67126629</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sgn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

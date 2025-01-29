@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>21849093</FormatID>
+  <FormatName>DIMACS standard format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/21849093</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>col</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>col.b</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

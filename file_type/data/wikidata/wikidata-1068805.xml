@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>1068805</FormatID>
+  <FormatName>.properties</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1068805</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>properties</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

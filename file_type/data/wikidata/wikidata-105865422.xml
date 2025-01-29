@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105865422</FormatID>
+  <FormatName>Protein Databank (with HTML header)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105865422</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>52426038</FormatID>
+  <FormatName>WordStar for MS-DOS Document, version 3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/52426038</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ws</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ws3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

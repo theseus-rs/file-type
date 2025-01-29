@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>47018292</FormatID>
+  <FormatName>PageMaker Document file format, version 3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47018292</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pm3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

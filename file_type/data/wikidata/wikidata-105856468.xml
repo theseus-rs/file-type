@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105856468</FormatID>
+  <FormatName>Visual Studio Work Item Query</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856468</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wiq</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Visual Studio Work Item Query</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C576F726B4974656D51756572792056657273696F6E3D2231223E0D0A20203C5769716C3E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

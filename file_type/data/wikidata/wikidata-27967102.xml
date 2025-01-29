@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967102</FormatID>
+  <FormatName>Nintendo GameCube/Wii AST</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967102</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ast</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

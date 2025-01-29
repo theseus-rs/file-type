@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>100243915</FormatID>
+  <FormatName>Student Writing Center Journal</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/100243915</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jnt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

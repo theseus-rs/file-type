@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>47486948</FormatID>
+  <FormatName>Silo</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47486948</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>silo</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

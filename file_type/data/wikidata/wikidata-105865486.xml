@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105865486</FormatID>
+  <FormatName>Adobe Photoshop Pattern</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105865486</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Adobe Photoshop Pattern</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>384250540001000000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

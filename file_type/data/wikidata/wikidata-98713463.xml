@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>98713463</FormatID>
+  <FormatName>POV-Ray</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/98713463</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pov</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

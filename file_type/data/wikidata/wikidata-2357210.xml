@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>2357210</FormatID>
+  <FormatName>Structured Fax File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/2357210</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/x-sff</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Structured Fax File</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>53666666</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

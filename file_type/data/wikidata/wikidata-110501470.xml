@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>110501470</FormatID>
+  <FormatName>reStructuredText format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110501470</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-rst</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rst</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

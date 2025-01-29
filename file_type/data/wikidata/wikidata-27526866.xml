@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27526866</FormatID>
+  <FormatName>Write for Windows Document, version 3.1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27526866</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-mswrite</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wri</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

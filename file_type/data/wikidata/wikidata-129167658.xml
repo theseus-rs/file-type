@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>129167658</FormatID>
+  <FormatName>Ezhil file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129167658</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-ezhil</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>n</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

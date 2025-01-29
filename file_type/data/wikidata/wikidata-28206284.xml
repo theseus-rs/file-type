@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28206284</FormatID>
+  <FormatName>IBM KIPS palette</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206284</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kpl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pal</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

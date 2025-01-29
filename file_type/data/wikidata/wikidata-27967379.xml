@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967379</FormatID>
+  <FormatName>B00</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967379</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>b00</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>47197294</FormatID>
+  <FormatName>AppleWorks Word Processor file format version 6</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47197294</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cwk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cwk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

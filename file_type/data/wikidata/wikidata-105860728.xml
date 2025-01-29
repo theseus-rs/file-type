@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105860728</FormatID>
+  <FormatName>ProvideX Report</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860728</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rpt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>ProvideX Report</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5B5076787270745D0D0A557365723D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

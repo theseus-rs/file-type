@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>32097899</FormatID>
+  <FormatName>Fallout v2 DAT</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/32097899</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

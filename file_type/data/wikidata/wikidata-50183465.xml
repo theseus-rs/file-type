@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>50183465</FormatID>
+  <FormatName>AXD HTTP Handler File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50183465</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>axd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

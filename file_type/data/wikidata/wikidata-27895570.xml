@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27895570</FormatID>
+  <FormatName>ADX, version 5</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27895570</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>adx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

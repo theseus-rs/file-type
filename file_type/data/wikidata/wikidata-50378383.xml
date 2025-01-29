@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>50378383</FormatID>
+  <FormatName>INTERLIS Transfer File, version 1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50378383</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>itf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

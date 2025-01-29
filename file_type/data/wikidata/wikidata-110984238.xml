@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110984238</FormatID>
+  <FormatName>Ulead Image Sequence</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110984238</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>uis</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

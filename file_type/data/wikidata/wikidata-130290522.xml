@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130290522</FormatID>
+  <FormatName>Meson file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130290522</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-meson</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>meson.build</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

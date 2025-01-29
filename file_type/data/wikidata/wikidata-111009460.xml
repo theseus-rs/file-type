@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111009460</FormatID>
+  <FormatName>PrintMaster Calendar File format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111009460</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cal</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

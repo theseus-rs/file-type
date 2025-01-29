@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>47539298</FormatID>
+  <FormatName>AutoCAD Block Attribute Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47539298</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>blk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

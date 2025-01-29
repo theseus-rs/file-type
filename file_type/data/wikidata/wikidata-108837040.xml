@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>108837040</FormatID>
+  <FormatName>Nero DVD-Video Compilation File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/108837040</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nrd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

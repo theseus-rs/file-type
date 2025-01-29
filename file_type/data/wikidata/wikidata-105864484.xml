@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105864484</FormatID>
+  <FormatName>PLM XML</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105864484</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>plmxml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>PLM XML</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C3F786D6C2076657273696F6E3D22312E302220</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

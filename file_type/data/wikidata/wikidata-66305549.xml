@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>66305549</FormatID>
+  <FormatName>Splitted AVI File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66305549</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nvavi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

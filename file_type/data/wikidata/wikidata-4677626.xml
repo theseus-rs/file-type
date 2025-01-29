@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>4677626</FormatID>
+  <FormatName>Activity Streams</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/4677626</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/activity+json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>json</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

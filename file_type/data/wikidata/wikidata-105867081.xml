@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105867081</FormatID>
+  <FormatName>Faase Paint-by-Numbers puzzle format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105867081</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Faase Paint-by-Numbers puzzle format</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>776964746820</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

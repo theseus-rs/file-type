@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>47539144</FormatID>
+  <FormatName>AutoCAD Batch Plot File, version 2000-2005</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47539144</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bp3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

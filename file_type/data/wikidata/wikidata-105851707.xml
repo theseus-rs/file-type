@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851707</FormatID>
+  <FormatName>DVD Subtitles</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851707</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sub</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>DVD Subtitles</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>000001BA4402C48204A90189C3F8000001BD07EC81800521</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

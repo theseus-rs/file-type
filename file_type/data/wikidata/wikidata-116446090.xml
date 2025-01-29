@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>116446090</FormatID>
+  <FormatName>CoffeeCup Web JukeBox File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116446090</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

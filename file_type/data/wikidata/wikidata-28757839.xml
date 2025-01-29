@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28757839</FormatID>
+  <FormatName>Genecyst Backup RAM</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28757839</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gsv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

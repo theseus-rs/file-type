@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>1228359</FormatID>
+  <FormatName>Disc Description Protocol</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1228359</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ddp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

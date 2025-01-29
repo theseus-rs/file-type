@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851328</FormatID>
+  <FormatName>StarWriter for MS-DOS document (v6)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851328</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>txt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>StarWriter for MS-DOS document (v6)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2E5C5C5C205752495445522036</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

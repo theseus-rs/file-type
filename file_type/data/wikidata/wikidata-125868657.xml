@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125868657</FormatID>
+  <FormatName>Common Data Format dotCDF 2.0-2.5</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125868657</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

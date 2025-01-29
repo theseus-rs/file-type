@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>48815175</FormatID>
+  <FormatName>Framework Database, version 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/48815175</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fw2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

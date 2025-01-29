@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>621277</FormatID>
+  <FormatName>Apple Lossless</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/621277</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>caf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>m4a</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

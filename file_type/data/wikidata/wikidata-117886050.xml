@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>117886050</FormatID>
+  <FormatName>BZip3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117886050</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-bzip3</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bz3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

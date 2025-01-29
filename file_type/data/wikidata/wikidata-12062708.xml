@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>12062708</FormatID>
+  <FormatName>CDW file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/12062708</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/cdw</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cdw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

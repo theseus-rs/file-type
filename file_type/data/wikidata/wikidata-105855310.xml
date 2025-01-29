@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855310</FormatID>
+  <FormatName>FM-Kingtracker module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855310</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fmk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>FM-Kingtracker module</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>464D4B21</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

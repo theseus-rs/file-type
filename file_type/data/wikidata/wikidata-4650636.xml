@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>4650636</FormatID>
+  <FormatName>ACE file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/4650636</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ace</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

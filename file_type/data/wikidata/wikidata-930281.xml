@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>930281</FormatID>
+  <FormatName>Windows thumbnail cache</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/930281</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.microsoft.windows.thumbnail-cache</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>db</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

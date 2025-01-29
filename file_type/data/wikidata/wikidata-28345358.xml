@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28345358</FormatID>
+  <FormatName>Safari bookmarks</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28345358</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>plist</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

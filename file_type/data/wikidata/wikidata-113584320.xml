@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113584320</FormatID>
+  <FormatName>Viscosity file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113584320</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vsc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

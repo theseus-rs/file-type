@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855542</FormatID>
+  <FormatName>DB/TextWorks Database Terms and Words</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855542</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>occ</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>DB/TextWorks Database Terms and Words</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4F43432030303520</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

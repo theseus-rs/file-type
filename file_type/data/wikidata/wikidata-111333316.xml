@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111333316</FormatID>
+  <FormatName>WAVmaker program file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111333316</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

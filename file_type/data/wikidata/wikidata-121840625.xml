@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>121840625</FormatID>
+  <FormatName>Common Instrument File 1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/121840625</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ci1</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

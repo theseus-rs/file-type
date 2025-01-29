@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105849665</FormatID>
+  <FormatName>Polytron VCS logfile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105849665</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cpv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Polytron VCS logfile</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>506F6C7974726F6E20564353206C6F6766696C65</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>219763</FormatID>
+  <FormatName>MPEG-4</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/219763</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>video/mp4</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mp4</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

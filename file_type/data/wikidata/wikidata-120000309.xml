@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>120000309</FormatID>
+  <FormatName>ASAP WordPower Presentation</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/120000309</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>asp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

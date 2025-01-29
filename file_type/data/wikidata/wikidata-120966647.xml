@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>120966647</FormatID>
+  <FormatName>Microsoft Money 2000 data file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/120966647</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mn8</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

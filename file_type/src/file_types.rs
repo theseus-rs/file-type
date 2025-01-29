@@ -23,6 +23,7 @@ static DEFAULT_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/default/");
 static HTTPD_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/httpd/");
 static LINGUIST_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/linguist/");
 static PRONOM_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/pronom/");
+static WIKIDATA_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/wikidata/");
 const EMPTY_SIGNATURES: &Vec<&'static FileType> = &Vec::new();
 const EMPTY_EXTENSIONS: &Vec<&'static FileType> = &Vec::new();
 const EMPTY_MEDIA_TYPES: &Vec<&'static FileType> = &Vec::new();
@@ -40,6 +41,8 @@ fn initialize_file_formats() -> HashMap<String, FileType> {
         &LINGUIST_DIR,
         #[cfg(feature = "pronom")]
         &PRONOM_DIR,
+        #[cfg(feature = "wikidata")]
+        &WIKIDATA_DIR,
     ];
 
     for directory in data_directories {
@@ -461,16 +464,13 @@ mod tests {
 
     #[test]
     fn test_from_extension() {
-        let file_types = from_extension("sqlite3");
+        let file_types = from_extension("duckdb");
         assert_eq!(1, file_types.len());
         let file_type = file_types.first().expect("file format");
-        assert_eq!(file_type.id(), "fmt/729");
-        assert_eq!(file_type.name(), "SQLite Database File Format");
-        assert_eq!(file_type.media_types(), vec!["application/x-sqlite3"]);
-        assert_eq!(
-            file_type.extensions(),
-            vec!["sqlite", "db", "db3", "sqlite3"]
-        );
+        assert_eq!(file_type.id(), "custom/3");
+        assert_eq!(file_type.name(), "DuckDB");
+        assert_eq!(file_type.media_types(), vec!["application/vnd.duckdb.file"]);
+        assert_eq!(file_type.extensions(), vec!["duckdb"]);
     }
 
     #[test]

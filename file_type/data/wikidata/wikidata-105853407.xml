@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853407</FormatID>
+  <FormatName>Solace Virtual Helios disk image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853407</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>svh</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Solace Virtual Helios disk image</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5356443A536F6C616365205669727475616C204469736B2C2048656C696F7300</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

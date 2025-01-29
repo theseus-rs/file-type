@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>3841253</FormatID>
+  <FormatName>MDL Molfile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/3841253</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>chemical/x-mdl-molfile</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mol</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

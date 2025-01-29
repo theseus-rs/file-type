@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105853762</FormatID>
+  <FormatName>Sonarc compressed RAW PCM audio</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853762</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>snc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Sonarc compressed RAW PCM audio</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>536F6E6172632D73717565657A65642050434D2066696C65</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

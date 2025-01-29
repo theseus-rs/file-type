@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28919168</FormatID>
+  <FormatName>GHS Part Maker</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28919168</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

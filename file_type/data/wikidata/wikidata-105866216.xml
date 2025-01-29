@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105866216</FormatID>
+  <FormatName>Photodex ProShow Show file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105866216</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>psh</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Photodex ProShow Show file</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>50686F746F6465782852292050726F53686F7728544D2920</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>66424671</FormatID>
+  <FormatName>WordPerfect macro file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66424671</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wcm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wpm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

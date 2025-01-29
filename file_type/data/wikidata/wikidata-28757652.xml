@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28757652</FormatID>
+  <FormatName>G64</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28757652</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>g64</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

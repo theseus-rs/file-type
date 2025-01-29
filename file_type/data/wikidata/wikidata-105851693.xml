@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851693</FormatID>
+  <FormatName>Strong Name Key</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851693</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>snk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Strong Name Key</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>07020000002400005253413200040000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

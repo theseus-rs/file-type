@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28211416</FormatID>
+  <FormatName>Ability Write</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28211416</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>awp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aww</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

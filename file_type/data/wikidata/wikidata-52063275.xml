@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>52063275</FormatID>
+  <FormatName>Professional Write Text File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/52063275</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

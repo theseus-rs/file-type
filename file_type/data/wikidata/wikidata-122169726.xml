@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>122169726</FormatID>
+  <FormatName>crypt() Password Hash</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122169726</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>crypt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

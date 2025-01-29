@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>64859082</FormatID>
+  <FormatName>Family Tree Maker for DOS file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/64859082</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ftm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

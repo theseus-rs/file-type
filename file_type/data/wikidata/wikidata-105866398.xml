@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105866398</FormatID>
+  <FormatName>MetaWare Parse Table</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105866398</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>MetaWare Parse Table</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2D2D2D5041525345205441424C45532D2D2D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>28771221</FormatID>
+  <FormatName>MAT-file, Level 5, version 7.3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28771221</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-matlab-data</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

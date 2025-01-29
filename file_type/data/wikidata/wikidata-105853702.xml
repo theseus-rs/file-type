@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105853702</FormatID>
+  <FormatName>rzip compressed archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853702</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>rzip compressed archive</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>525A4950</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

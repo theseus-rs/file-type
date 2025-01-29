@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>72000076</FormatID>
+  <FormatName>File Express Index Header</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/72000076</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ixh</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

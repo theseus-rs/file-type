@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105852996</FormatID>
+  <FormatName>Caligari TrueSpace 3D object (v2.x)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105852996</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sobj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Caligari TrueSpace 3D object (v2.x)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>43414C42534F424A56455253</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

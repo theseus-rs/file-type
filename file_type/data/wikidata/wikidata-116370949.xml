@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>116370949</FormatID>
+  <FormatName>DFPWM</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116370949</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/dfpwm</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dfpwm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

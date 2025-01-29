@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856498</FormatID>
+  <FormatName>VP-Planner Plus spreadsheet</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856498</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wks</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>VP-Planner Plus spreadsheet</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>000002000404F300020000000600080000000000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

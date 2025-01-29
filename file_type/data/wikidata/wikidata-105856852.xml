@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856852</FormatID>
+  <FormatName>Genstat Theme</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856852</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/ini</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gth</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Genstat Theme</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5B47656E73746174205468656D655D0D0A5468656D654E616D653D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

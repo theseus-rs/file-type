@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130443951</FormatID>
+  <FormatName>Subsembly JSON</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130443951</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>json</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111009607</FormatID>
+  <FormatName>PrintMaster Letterhead File format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111009607</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>let</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

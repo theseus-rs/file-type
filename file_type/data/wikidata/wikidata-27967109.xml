@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>27967109</FormatID>
+  <FormatName>1tracker module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967109</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>1tm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>1tracker module</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5B31747261636B6572206D6F64756C655D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

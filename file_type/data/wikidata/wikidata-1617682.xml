@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>1617682</FormatID>
+  <FormatName>DVD BUP File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1617682</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>video/dvd</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bup</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

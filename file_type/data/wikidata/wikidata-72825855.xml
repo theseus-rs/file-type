@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>72825855</FormatID>
+  <FormatName>OpenCanvas Image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/72825855</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>oci</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

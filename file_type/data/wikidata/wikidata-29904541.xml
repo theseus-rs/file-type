@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>29904541</FormatID>
+  <FormatName>Statistical Analysis System audit file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29904541</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sas7baud</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>st7</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

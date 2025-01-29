@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105850832</FormatID>
+  <FormatName>Key Home Gourmet Cookbook</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850832</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kcf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Key Home Gourmet Cookbook</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4B657920486F6D6520476F75726D65742028544D2920436F6F6B626F6F6B2066696C652E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>66142150</FormatID>
+  <FormatName>ADE file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66142150</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ade</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>49988096</FormatID>
+  <FormatName>Apple iBooks format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/49988096</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-ibooks+zip</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ibooks</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

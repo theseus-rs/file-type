@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>3959179</FormatID>
+  <FormatName>shar</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/3959179</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sha</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>shar</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

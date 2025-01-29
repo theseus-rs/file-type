@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125348106</FormatID>
+  <FormatName>Regularly Sampled Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125348106</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rsf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

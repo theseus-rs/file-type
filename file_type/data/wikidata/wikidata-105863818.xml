@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105863818</FormatID>
+  <FormatName>Microsoft Help (old)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105863818</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hlp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Microsoft Help (old)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>6587</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

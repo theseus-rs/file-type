@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>130548774</FormatID>
+  <FormatName>Qlik file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130548774</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>qvs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>qvw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

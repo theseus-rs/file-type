@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>116957974</FormatID>
+  <FormatName>ICN AT&amp;T/Multigen</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116957974</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>icn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

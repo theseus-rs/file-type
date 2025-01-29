@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>47233829</FormatID>
+  <FormatName>L3B</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47233829</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>l3b</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

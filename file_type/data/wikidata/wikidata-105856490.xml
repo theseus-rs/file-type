@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105856490</FormatID>
+  <FormatName>Rigol waveform</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856490</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wfm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Rigol waveform</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>A5A5</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105858136</FormatID>
+  <FormatName>particleIllusion library</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858136</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>il3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>particleIllusion library</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>0C494C4C5553494F4E336C6962</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

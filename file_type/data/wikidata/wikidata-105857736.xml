@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105857736</FormatID>
+  <FormatName>imgdiff patch (v1)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857736</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>patch</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>imgdiff patch (v1)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>494D474449464631</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

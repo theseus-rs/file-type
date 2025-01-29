@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29000657</FormatID>
+  <FormatName>Polygon data file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29000657</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>poly</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

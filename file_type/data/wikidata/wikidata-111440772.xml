@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111440772</FormatID>
+  <FormatName>Ruby Script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111440772</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rbw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

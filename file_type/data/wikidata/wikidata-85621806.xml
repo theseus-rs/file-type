@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>85621806</FormatID>
+  <FormatName>PFS:First Choice Document 3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/85621806</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>doc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

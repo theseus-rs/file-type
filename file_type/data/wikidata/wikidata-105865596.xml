@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105865596</FormatID>
+  <FormatName>Eclipse Plugin list</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105865596</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>p2f</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Eclipse Plugin list</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C3F786D6C2076657273696F6E3D27312E302720656E636F64696E673D275554462D38273F3E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

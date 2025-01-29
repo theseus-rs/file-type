@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>4042481</FormatID>
+  <FormatName>LOGML</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/4042481</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

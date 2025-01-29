@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28755606</FormatID>
+  <FormatName>Exact Yearbook DAT file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28755606</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

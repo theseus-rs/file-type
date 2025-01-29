@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>52060319</FormatID>
+  <FormatName>JustWrite Text Document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/52060319</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jwt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

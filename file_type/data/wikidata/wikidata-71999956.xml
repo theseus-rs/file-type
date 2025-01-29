@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>71999956</FormatID>
+  <FormatName>iTunes Cover Flow Data file format, version 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/71999956</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>itc2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>126194534</FormatID>
+  <FormatName>MySQL View Definition Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/126194534</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>frm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

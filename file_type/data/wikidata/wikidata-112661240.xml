@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>112661240</FormatID>
+  <FormatName>Autodesk Inventor Part file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112661240</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ipt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

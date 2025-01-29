@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>119574681</FormatID>
+  <FormatName>Kid Pix File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/119574681</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kpx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

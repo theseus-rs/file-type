@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27902233</FormatID>
+  <FormatName>Amateur Data Interchange Format, ADX variant, version 3.0.3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27902233</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>adx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

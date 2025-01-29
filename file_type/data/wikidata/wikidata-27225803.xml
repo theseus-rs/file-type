@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27225803</FormatID>
+  <FormatName>OpenDocument Database, version 1.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27225803</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.oasis.opendocument.database</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>odb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

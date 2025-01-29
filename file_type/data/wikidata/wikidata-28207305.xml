@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28207305</FormatID>
+  <FormatName>True Colour Picture</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28207305</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>trp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tru</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

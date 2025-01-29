@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206306</FormatID>
+  <FormatName>Analyze IMG</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206306</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>img</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

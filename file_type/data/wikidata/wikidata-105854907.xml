@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105854907</FormatID>
+  <FormatName>Artificial Intelligence Markup Language</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854907</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aiml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855442</FormatID>
+  <FormatName>Cleanersoft Free Hide Folder data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855442</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fhf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Cleanersoft Free Hide Folder data</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>46726565204869646520466F6C64657220</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>130485173</FormatID>
+  <FormatName>Portugol file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130485173</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>alg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>portugol</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

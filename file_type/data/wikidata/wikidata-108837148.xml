@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>108837148</FormatID>
+  <FormatName>Quicken Data Backup</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/108837148</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>qdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

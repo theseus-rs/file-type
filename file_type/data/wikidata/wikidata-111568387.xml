@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111568387</FormatID>
+  <FormatName>Managed Object Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111568387</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mof</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

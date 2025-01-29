@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111341734</FormatID>
+  <FormatName>Sound Designer II data forks</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111341734</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sd2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>726218</FormatID>
+  <FormatName>XML User Interface Language</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/726218</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.mozilla.xul+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xul</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

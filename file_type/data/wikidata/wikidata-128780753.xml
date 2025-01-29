@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>128780753</FormatID>
+  <FormatName>crmsh configuration file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128780753</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>crmsh</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

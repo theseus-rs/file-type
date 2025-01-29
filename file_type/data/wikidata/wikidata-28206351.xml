@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206351</FormatID>
+  <FormatName>Inset PIX</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206351</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pix</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

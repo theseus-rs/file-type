@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>127433402</FormatID>
+  <FormatName>Smalltalk Source Code</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/127433402</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-smalltalk</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>st</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

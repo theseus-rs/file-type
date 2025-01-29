@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105862131</FormatID>
+  <FormatName>Emacs Muse project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105862131</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>muse</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

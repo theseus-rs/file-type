@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>66439286</FormatID>
+  <FormatName>DisplayWrite Document file format, version 5</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66439286</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>doc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

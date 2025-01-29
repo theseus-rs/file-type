@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>49989184</FormatID>
+  <FormatName>Macro Enabled Microsoft Powerpoint</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/49989184</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.openxmlformats</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pptm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

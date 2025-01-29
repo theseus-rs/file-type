@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855217</FormatID>
+  <FormatName>Fxpansion Uninstall Script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855217</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fus</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Fxpansion Uninstall Script</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>7B467870616E73696F6E496E7374616C6C53797374656D7D0D0A7B556E696E7374616C6C5363726970747D0D0A4150504C49434154494F4E5F4E414D452C</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

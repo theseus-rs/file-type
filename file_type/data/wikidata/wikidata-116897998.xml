@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>116897998</FormatID>
+  <FormatName>Minecraft resource pack</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116897998</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zip</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

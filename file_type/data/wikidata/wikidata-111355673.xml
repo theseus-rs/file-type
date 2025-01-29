@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111355673</FormatID>
+  <FormatName>Yamaha Motif (6/7/8) 'all' format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111355673</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>w2a</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

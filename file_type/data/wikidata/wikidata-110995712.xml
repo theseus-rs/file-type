@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110995712</FormatID>
+  <FormatName>VideoWave Production File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110995712</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sbd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

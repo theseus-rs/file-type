@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125925041</FormatID>
+  <FormatName>Papyrus Document Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125925041</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pav</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

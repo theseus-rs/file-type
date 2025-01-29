@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>112652459</FormatID>
+  <FormatName>Astound file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112652459</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-application/Astound</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>asd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

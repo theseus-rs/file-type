@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111284103</FormatID>
+  <FormatName>G.726 3-bit (24 kbps) ADPCM format data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111284103</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>g726-3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

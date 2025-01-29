@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105857621</FormatID>
+  <FormatName>Roxio CD Image format (v3)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857621</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>c2d</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Roxio CD Image format (v3)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>526F78696F20496D6167652046696C6520466F726D617420332E30</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

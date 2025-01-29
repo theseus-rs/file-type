@@ -3,9 +3,6 @@
   <FormatName>Apache Parquet</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Apache Parquet</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.apache.parquet</Identifier>
     <IdentifierType>MIME</IdentifierType>

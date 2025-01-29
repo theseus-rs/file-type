@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105849268</FormatID>
+  <FormatName>GameMaker Studio Project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105849268</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>yyp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

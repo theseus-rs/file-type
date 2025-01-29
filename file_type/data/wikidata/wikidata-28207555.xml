@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>28207555</FormatID>
+  <FormatName>eXtended Image File Format, version 3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28207555</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/vnd.xiff</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>eXtended Image File Format, version 3</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>49492A005C01000020655874656E646564</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

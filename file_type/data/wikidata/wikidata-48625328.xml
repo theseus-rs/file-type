@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>48625328</FormatID>
+  <FormatName>Encapsulated PostScript, v2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/48625328</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>eps</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>epsf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

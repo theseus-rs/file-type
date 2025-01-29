@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105857269</FormatID>
+  <FormatName>Horizon Project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857269</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hprj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

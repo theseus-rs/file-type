@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>131304603</FormatID>
+  <FormatName>Transact-SQL file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131304603</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-tsql</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sql</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

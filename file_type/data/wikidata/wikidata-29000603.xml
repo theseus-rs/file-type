@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29000603</FormatID>
+  <FormatName>Windows Registry policy file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29000603</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pol</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

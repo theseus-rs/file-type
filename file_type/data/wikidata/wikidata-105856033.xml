@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105856033</FormatID>
+  <FormatName>SPECCTRA Design</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856033</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dsn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

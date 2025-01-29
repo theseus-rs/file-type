@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105850807</FormatID>
+  <FormatName>KOM game data archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850807</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kom</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>KOM game data archive</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4B4F47204743205445414D204D41535346494C4520562E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

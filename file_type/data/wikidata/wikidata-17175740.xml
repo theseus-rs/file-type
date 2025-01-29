@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>17175740</FormatID>
+  <FormatName>comic book archive, tar container</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/17175740</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cbt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

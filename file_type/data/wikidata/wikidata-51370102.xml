@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>51370102</FormatID>
+  <FormatName>Microsoft Print File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51370102</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

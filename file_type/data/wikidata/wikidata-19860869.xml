@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>19860869</FormatID>
+  <FormatName>Itinerary file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/19860869</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/itn</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>itn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

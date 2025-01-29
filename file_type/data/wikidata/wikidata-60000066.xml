@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>60000066</FormatID>
+  <FormatName>Microsoft Office Owner File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/60000066</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>doc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

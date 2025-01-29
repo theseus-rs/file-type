@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>52063281</FormatID>
+  <FormatName>SAS Data File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/52063281</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ssd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

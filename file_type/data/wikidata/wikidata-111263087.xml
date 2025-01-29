@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>111263087</FormatID>
+  <FormatName>Yamaha DX100/DX21/DX27 voice SysEx dump</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111263087</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bn4</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>syx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

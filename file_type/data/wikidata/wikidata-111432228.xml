@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111432228</FormatID>
+  <FormatName>HTTP File Server Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111432228</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tpl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

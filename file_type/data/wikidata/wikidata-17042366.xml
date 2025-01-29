@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>17042366</FormatID>
+  <FormatName>id Software Music Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/17042366</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>imf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

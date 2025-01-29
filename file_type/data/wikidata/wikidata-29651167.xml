@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29651167</FormatID>
+  <FormatName>Personal Address Book</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29651167</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pab</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

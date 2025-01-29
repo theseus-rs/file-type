@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27866118</FormatID>
+  <FormatName>Adobe Illustrator Artwork, version 5.x Japenese Edition</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27866118</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/postscript</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ai</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

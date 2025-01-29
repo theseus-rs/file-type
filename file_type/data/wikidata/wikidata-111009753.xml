@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111009753</FormatID>
+  <FormatName>PrintMaster Web Page File format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111009753</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>web</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

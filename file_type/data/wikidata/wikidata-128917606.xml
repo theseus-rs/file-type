@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>128917606</FormatID>
+  <FormatName>Earl Grey source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128917606</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-earl-grey</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>eg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

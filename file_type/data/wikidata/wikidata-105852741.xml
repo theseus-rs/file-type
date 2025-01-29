@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105852741</FormatID>
+  <FormatName>Snagit Windows Profile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105852741</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>snagprof</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

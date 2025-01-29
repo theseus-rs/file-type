@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111166086</FormatID>
+  <FormatName>Songbase File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111166086</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sngbase</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

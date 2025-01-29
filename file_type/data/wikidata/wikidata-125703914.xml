@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125703914</FormatID>
+  <FormatName>StarWriter Graphics Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125703914</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sgf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

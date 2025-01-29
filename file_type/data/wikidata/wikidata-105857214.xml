@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105857214</FormatID>
+  <FormatName>HYSYS Simulation Case</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857214</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hsc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>HYSYS Simulation Case</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>53696D756C6174696F6E43617365</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

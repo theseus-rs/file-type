@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28049670</FormatID>
+  <FormatName>Autodesk 3D Studio ASCII format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28049670</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>asc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

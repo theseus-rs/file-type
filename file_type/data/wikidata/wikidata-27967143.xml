@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967143</FormatID>
+  <FormatName>DigiTrekker module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967143</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dtm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

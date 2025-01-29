@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28207553</FormatID>
+  <FormatName>XGA</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28207553</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xga</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

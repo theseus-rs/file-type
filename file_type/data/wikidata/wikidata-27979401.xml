@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27979401</FormatID>
+  <FormatName>JP2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27979401</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/jp2</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jp2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

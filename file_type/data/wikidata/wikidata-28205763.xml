@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28205763</FormatID>
+  <FormatName>Binary Information File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28205763</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

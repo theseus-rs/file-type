@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>129002196</FormatID>
+  <FormatName>EBNF file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129002196</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-ebnf</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ebnf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

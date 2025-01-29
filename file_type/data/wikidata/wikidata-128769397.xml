@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>128769397</FormatID>
+  <FormatName>Concise Data Definition Language file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128769397</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-cddl</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cddl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

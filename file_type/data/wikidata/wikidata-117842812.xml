@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117842812</FormatID>
+  <FormatName>EDMICS 5</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117842812</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ed5</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

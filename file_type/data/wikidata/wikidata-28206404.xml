@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28206404</FormatID>
+  <FormatName>JEDMICS C4</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206404</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>c4</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ct4</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

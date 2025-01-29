@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>84943071</FormatID>
+  <FormatName>Sony PictureGear Studio Binder</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/84943071</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bxt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bxu</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

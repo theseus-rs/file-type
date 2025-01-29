@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105849666</FormatID>
+  <FormatName>CPBackup Configuration (v9.x)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105849666</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cfg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>CPBackup Configuration (v9.x)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5B5043425349475D39</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

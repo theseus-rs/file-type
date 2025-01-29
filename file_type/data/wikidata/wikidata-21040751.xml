@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>21040751</FormatID>
+  <FormatName>Farandole Composer format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/21040751</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>far</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

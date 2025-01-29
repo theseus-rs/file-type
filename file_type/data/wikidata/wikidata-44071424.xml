@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>44071424</FormatID>
+  <FormatName>STATA Data File Format, version 117</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/44071424</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dta</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>STATA Data File Format, version 117</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C73746174615F6474613E3C6865616465723E3C72656C656173653E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

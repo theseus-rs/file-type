@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105849670</FormatID>
+  <FormatName>ArtCAM post processor Configuration (with rem)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105849670</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>con</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

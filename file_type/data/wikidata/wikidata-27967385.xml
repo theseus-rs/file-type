@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967385</FormatID>
+  <FormatName>Extended MIDI</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967385</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xmi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113557082</FormatID>
+  <FormatName>Creator Image format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113557082</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

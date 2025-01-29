@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>10397009</FormatID>
+  <FormatName>Arachne Plugin Manager file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/10397009</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>apm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

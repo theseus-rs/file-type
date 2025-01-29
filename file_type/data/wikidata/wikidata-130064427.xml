@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130064427</FormatID>
+  <FormatName>Koka file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130064427</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-koka</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

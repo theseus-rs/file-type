@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125297644</FormatID>
+  <FormatName>Scheme library source</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125297644</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sls</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

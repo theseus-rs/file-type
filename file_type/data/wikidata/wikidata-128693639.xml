@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>128693639</FormatID>
+  <FormatName>BBC Basic file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128693639</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bbc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

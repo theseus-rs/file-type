@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110039981</FormatID>
+  <FormatName>Phantom CINE Compressed Video File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110039981</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cci</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

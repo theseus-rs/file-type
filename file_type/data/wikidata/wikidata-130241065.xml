@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130241065</FormatID>
+  <FormatName>Literate Idris source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130241065</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-literate-idris</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lidr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

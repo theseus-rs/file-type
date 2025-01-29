@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>84087750</FormatID>
+  <FormatName>FamilyTree Maker Database 1-4</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/84087750</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fbk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ftw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

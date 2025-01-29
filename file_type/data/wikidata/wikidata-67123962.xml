@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>67123962</FormatID>
+  <FormatName>Print Artist calendar file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/67123962</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cal</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

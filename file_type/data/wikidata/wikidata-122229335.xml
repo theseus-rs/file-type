@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>122229335</FormatID>
+  <FormatName>WPA-PSK Export Hash</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122229335</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wph</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

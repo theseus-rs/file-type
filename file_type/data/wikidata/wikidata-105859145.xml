@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105859145</FormatID>
+  <FormatName>DuneGraph Uncompressed bitmap</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859145</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dgu</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>DuneGraph Uncompressed bitmap</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>44475501</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

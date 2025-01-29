@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28205760</FormatID>
+  <FormatName>Borland Graphics Interface image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28205760</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bgi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>icn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

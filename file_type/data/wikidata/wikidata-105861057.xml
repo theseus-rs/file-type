@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105861057</FormatID>
+  <FormatName>LPMD Molecular Data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105861057</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lpmd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>LPMD Molecular Data</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4C504D4420322E30204C0A4844522053594D205820</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105853393</FormatID>
+  <FormatName>Panda Signature file system</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853393</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sig</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Panda Signature file system</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5369676E61747572652066696C652073797374656D202863292050616E646120536F6674776172652E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

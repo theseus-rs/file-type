@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>128596042</FormatID>
+  <FormatName>Aheui file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128596042</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aheui</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>130240180</FormatID>
+  <FormatName>Liquid template file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130240180</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>liquid</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

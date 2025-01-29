@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>126087088</FormatID>
+  <FormatName>IMF Package Composition Playlist</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/126087088</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131860033</FormatID>
+  <FormatName>VPIC file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131860033</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vpc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

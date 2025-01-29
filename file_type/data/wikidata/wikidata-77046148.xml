@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>77046148</FormatID>
+  <FormatName>3ds Max XML Animation File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/77046148</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xaf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>3ds Max XML Animation File</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C4D6178416E696D6174696F6E2076657273696F6E3D22</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

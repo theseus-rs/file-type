@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>47539012</FormatID>
+  <FormatName>AutoCAD Drawing Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47539012</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-autocad</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dwt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125134301</FormatID>
+  <FormatName>YAM Addressbook</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125134301</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>addressbook</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

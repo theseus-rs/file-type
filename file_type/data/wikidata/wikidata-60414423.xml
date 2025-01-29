@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>60414423</FormatID>
+  <FormatName>TAP (Commodore 64)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/60414423</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tap</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>2043681</FormatID>
+  <FormatName>PAK</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/2043681</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pak</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

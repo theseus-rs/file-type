@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>110039733</FormatID>
+  <FormatName>Mar Archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110039733</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mac</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mar</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

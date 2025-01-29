@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206218</FormatID>
+  <FormatName>GRF</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206218</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>grf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

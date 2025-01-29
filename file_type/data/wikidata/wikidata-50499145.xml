@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>50499145</FormatID>
+  <FormatName>QuickDraw 3D Metafile (ASCII)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50499145</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>3dmf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

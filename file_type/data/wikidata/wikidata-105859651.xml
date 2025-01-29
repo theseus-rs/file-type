@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105859651</FormatID>
+  <FormatName>Visual CertExam Suite Exam file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859651</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vce</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Visual CertExam Suite Exam file</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>85A8010100</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

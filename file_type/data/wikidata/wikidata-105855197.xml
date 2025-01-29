@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855197</FormatID>
+  <FormatName>YS FLIGHT scenery field</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855197</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fld</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>YS FLIGHT scenery field</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4649454C440D0A474E4420</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>9200353</FormatID>
+  <FormatName>DigiBooster PRO v2.x / DigiBooster 3 module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/9200353</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dbm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105854984</FormatID>
+  <FormatName>ADX2 HCA Audio</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854984</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>awb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>ADX2 HCA Audio</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>41465332</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

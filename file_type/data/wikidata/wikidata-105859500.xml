@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105859500</FormatID>
+  <FormatName>VSIX Manifest (2011)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859500</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vsixmanifest</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

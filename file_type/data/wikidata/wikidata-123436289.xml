@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123436289</FormatID>
+  <FormatName>DARC-F1 file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123436289</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>f1d</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

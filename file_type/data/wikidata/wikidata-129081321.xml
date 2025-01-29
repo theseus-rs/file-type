@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>129081321</FormatID>
+  <FormatName>Elixir source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129081321</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-elixir</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ex</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

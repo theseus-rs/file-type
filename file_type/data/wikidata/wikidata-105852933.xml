@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105852933</FormatID>
+  <FormatName>Crimson Fields level (with rem)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105852933</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>src</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

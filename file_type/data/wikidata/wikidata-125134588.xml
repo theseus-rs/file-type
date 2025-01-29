@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125134588</FormatID>
+  <FormatName>YAM Unique ID Listing</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125134588</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>uidl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

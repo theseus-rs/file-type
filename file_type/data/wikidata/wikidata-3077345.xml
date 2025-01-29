@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>3077345</FormatID>
+  <FormatName>Polygon File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/3077345</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ply</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

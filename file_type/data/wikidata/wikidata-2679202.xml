@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>2679202</FormatID>
+  <FormatName>nds</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/2679202</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nds</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

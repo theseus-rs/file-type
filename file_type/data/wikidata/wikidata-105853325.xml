@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853325</FormatID>
+  <FormatName>Spring Engine Tile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853325</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>smt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Spring Engine Tile</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>737072696E672074696C6566696C6500</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

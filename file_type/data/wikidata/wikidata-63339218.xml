@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>63339218</FormatID>
+  <FormatName>Microsoft Works Database for Windows, version 4.5</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/63339218</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

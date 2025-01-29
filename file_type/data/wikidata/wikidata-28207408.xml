@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>28207408</FormatID>
+  <FormatName>Utah RLE</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28207408</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rle</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Utah RLE</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>52CC</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

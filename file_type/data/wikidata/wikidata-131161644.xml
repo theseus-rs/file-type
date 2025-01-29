@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131161644</FormatID>
+  <FormatName>SRCINFO file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131161644</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>SRCINFO</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

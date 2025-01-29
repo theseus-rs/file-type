@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>112819491</FormatID>
+  <FormatName>Acclaim mocap file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112819491</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>amc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

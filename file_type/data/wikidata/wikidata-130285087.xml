@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130285087</FormatID>
+  <FormatName>Minecraft Add-ons Data Schema File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130285087</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/mcschema</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mcschema</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

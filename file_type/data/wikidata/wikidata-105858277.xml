@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105858277</FormatID>
+  <FormatName>Entity Data Model</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858277</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>edmx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

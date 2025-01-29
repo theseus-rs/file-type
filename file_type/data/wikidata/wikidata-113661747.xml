@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113661747</FormatID>
+  <FormatName>SciFax file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113661747</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sci</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>110132623</FormatID>
+  <FormatName>Microsoft Publisher file format, version 2007</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110132623</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-mspublisher</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pub</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

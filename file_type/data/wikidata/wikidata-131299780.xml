@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131299780</FormatID>
+  <FormatName>ThingsDB file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131299780</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ti</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

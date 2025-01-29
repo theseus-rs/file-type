@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>27967185</FormatID>
+  <FormatName>Fuchs Tracker</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967185</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fchs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ft</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

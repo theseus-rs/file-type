@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>129188124</FormatID>
+  <FormatName>FreeFem++ source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129188124</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-freefem</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>edp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

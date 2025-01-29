@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111167729</FormatID>
+  <FormatName>ACD/HNMR Calculated Spectrum file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111167729</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hsp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

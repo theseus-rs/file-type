@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111333833</FormatID>
+  <FormatName>Signed 8-bit PCM data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111333833</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>raw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

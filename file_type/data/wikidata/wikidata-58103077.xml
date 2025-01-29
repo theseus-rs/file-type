@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>58103077</FormatID>
+  <FormatName>LifeTechnologies SDS</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/58103077</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sds</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

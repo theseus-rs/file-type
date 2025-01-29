@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>125868433</FormatID>
+  <FormatName>OpenWayback CDXJ File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125868433</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cdx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cdxj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

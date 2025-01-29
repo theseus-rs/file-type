@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105851382</FormatID>
+  <FormatName>TCruise codes and parameters</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851382</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tcc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>TCruise codes and parameters</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>544372756973655374616E646172644173636969436F646573506172616D65746572734578706F727446696C65566572332D350D0A3230300D0A3230300D0A31300D0A4C4F4220200D0A53484C20200D0A524F2020200D0A574F2020200D0A47554D20200D0A504F5020200D0A48494320200D0A4D484457200D0A4D50494E200D0A504F4C20200D0A7E7E7E7E7E0D0A7E7E7E7E7E0D0A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

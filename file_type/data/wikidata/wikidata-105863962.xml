@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105863962</FormatID>
+  <FormatName>Crytek XML Material</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105863962</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mtl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Crytek XML Material</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C4D6174657269616C204D746C466C6167733D22</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

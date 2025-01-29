@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>49619410</FormatID>
+  <FormatName>Revit Family File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/49619410</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rfa</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

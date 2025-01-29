@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>60342537</FormatID>
+  <FormatName>SmartDraw format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/60342537</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sdr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

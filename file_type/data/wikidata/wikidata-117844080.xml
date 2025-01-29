@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117844080</FormatID>
+  <FormatName>JetFax file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117844080</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jet</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

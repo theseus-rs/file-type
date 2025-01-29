@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111342746</FormatID>
+  <FormatName>Creamware STS-series sampler program</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111342746</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sts</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

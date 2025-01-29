@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105857213</FormatID>
+  <FormatName>HippoEDIT Workspace</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857213</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hewsp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>HippoEDIT Workspace</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C584D4C436F6E66696753657474696E67733E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

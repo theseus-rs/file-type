@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111512403</FormatID>
+  <FormatName>ESRI ArcInfo .dat file (external)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111512403</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

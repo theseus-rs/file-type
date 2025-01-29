@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>52063295</FormatID>
+  <FormatName>SAS for MS-DOS Database</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/52063295</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ssd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

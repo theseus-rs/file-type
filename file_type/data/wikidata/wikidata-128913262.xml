@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>128913262</FormatID>
+  <FormatName>DylanLID file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128913262</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-dylan-lid</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lid</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105864209</FormatID>
+  <FormatName>Panasonic SD Voice Editor file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105864209</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>plm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Panasonic SD Voice Editor file</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4D31000053442D564F494345</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

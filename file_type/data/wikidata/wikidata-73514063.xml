@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>73514063</FormatID>
+  <FormatName>PlayStation Archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/73514063</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>psarc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

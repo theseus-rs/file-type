@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>59468295</FormatID>
+  <FormatName>Statistical Analysis System Data XPT (Windows)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59468295</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xpt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

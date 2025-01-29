@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27823194</FormatID>
+  <FormatName>Binary Terrain, version 1.2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27823194</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

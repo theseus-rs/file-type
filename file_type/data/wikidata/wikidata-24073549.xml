@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>24073549</FormatID>
+  <FormatName>SFZ</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/24073549</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sfz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

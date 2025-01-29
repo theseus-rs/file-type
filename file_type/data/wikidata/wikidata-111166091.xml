@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111166091</FormatID>
+  <FormatName>Ludwig song file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111166091</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ludwig</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

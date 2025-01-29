@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130466597</FormatID>
+  <FormatName>Parsing Expression Grammar file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130466597</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-peg</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>peg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

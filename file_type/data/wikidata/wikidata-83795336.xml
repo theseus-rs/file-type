@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>83795336</FormatID>
+  <FormatName>ZFO (Sent Message) File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/83795336</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.software602.filler.form-xml-zip</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zfo</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

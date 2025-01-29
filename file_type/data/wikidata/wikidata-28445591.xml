@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28445591</FormatID>
+  <FormatName>AMOS BASIC tokenized file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28445591</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>amos</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

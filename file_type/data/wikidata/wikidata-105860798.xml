@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860798</FormatID>
+  <FormatName>Allods 2 Rage Of Mages game data archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860798</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>res</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Allods 2 Rage Of Mages game data archive</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>26594131</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

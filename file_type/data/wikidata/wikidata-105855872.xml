@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855872</FormatID>
+  <FormatName>Code::Blocks Dependencies</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855872</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>depend</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Code::Blocks Dependencies</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2320646570736C696220646570656E64656E63792066696C652076312E30</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

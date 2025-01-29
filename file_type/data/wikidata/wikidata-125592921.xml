@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125592921</FormatID>
+  <FormatName>Raw CMYK</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125592921</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cmyk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

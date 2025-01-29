@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>126811698</FormatID>
+  <FormatName>Booasm Compressed Archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/126811698</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>boo</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

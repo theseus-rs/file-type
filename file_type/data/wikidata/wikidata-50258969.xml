@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>50258969</FormatID>
+  <FormatName>Microsoft Visio Stencil, version 2013</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50258969</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-visio.stencil.main+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vssx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

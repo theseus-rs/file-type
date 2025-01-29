@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>59390889</FormatID>
+  <FormatName>GraphPad Prism file format, version 4</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59390889</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pzf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

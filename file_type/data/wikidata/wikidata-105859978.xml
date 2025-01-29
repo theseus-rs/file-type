@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105859978</FormatID>
+  <FormatName>Visual Studio Visual C++ Project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859978</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vcxproj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

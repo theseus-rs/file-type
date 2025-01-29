@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131519225</FormatID>
+  <FormatName>Stimulate Signal Data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131519225</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sdt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105851969</FormatID>
+  <FormatName>Sublime Text Mouse settings</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851969</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sublime-mousemap</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

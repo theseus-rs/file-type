@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>117459518</FormatID>
+  <FormatName>JWPUB</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117459518</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jwpub</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

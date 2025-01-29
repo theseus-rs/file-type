@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>122150098</FormatID>
+  <FormatName>TaxAct 2008 Tax Return Backup File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122150098</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ba8</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

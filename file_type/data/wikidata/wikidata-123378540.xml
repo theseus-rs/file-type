@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123378540</FormatID>
+  <FormatName>Light library file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123378540</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lgl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

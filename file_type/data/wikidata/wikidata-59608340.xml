@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>59608340</FormatID>
+  <FormatName>KryoFlux 2.2 format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59608340</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>raw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

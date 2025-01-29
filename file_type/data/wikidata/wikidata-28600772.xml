@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28600772</FormatID>
+  <FormatName>EnCase hash map</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28600772</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>EnMap</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

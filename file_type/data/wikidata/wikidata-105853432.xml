@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853432</FormatID>
+  <FormatName>ZEsarUX snapshot</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853432</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>ZEsarUX snapshot</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5A5800C00040</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

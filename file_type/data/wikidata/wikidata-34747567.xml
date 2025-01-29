@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>34747567</FormatID>
+  <FormatName>Stronghold GM1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/34747567</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gm1</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

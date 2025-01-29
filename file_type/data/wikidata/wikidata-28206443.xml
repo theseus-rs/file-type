@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28206443</FormatID>
+  <FormatName>Kt Interchange File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206443</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kiff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

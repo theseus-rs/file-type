@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125692808</FormatID>
+  <FormatName>Pocket Excel Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125692808</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pxl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

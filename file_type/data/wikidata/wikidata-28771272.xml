@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28771272</FormatID>
+  <FormatName>MVG</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28771272</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mvg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

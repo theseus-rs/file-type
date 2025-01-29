@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>47529212</FormatID>
+  <FormatName>VLW font file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47529212</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vlw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

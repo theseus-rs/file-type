@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>121913880</FormatID>
+  <FormatName>Memory Stick Voice File ADPCM Codec</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/121913880</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>msv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

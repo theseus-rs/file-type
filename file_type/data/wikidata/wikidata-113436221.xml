@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113436221</FormatID>
+  <FormatName>OBO Flat File Format 1.2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113436221</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>obo</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

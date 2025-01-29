@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>66686421</FormatID>
+  <FormatName>Microsoft Works Word Processor 1-3 for DOS and 2 for Windows</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66686421</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wps</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

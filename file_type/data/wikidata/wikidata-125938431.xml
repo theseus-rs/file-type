@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>125938431</FormatID>
+  <FormatName>Enigma Binary File 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125938431</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.makemusic.notation</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mus</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

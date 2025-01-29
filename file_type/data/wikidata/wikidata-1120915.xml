@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>1120915</FormatID>
+  <FormatName>Compact Disc Audio track</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1120915</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cda</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

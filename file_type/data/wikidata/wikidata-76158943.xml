@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>76158943</FormatID>
+  <FormatName>MegaPaint VPO</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/76158943</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vpo</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

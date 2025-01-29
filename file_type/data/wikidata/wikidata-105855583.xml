@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105855583</FormatID>
+  <FormatName>World Construction Set Object</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855583</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>obj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>World Construction Set Object</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>574353566563746F723F</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

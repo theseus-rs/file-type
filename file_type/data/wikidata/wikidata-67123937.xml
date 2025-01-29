@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>67123937</FormatID>
+  <FormatName>Print Artist business card file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/67123937</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

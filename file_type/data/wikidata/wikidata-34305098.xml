@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>34305098</FormatID>
+  <FormatName>Sassy Cascading Style Sheets</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/34305098</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-scss</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>scss</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

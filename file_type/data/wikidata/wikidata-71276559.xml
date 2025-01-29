@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>71276559</FormatID>
+  <FormatName>PESIM file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/71276559</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pes</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

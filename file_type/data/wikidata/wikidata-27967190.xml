@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967190</FormatID>
+  <FormatName>General Digital Music module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967190</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gdm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

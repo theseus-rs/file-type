@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110458664</FormatID>
+  <FormatName>ERDAS Imagine Large Raster Spill File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110458664</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ige</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

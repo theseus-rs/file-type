@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105856538</FormatID>
+  <FormatName>EViews Workfile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856538</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wf1</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>EViews Workfile</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4E6577204D6963726F54535020576F726B66696C6500</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

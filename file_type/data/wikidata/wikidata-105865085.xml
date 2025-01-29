@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105865085</FormatID>
+  <FormatName>ProSpace schematic</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105865085</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>psa</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>ProSpace schematic</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>50524F535041434520534348454D415449432046494C450D0A3B2056657273696F6E20</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

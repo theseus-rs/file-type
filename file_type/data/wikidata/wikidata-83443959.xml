@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>83443959</FormatID>
+  <FormatName>Terse Executable</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/83443959</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>efi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>te</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

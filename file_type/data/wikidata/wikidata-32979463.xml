@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>32979463</FormatID>
+  <FormatName>STATA DTA file format, version 119</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/32979463</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dta</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

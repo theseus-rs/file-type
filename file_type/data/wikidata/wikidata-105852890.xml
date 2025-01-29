@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105852890</FormatID>
+  <FormatName>JS Mocha Snapshot</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105852890</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>snp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>JS Mocha Snapshot</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4D533750394F646F7879446A377A6356443243424232385639316742423144714B755472373367756347633864614763613863</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

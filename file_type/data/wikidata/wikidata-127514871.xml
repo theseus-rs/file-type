@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>127514871</FormatID>
+  <FormatName>Text2tags file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/127514871</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>t2t</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

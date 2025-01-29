@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111432414</FormatID>
+  <FormatName>Lisp Program Source Code File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111432414</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lsp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

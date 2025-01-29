@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105850671</FormatID>
+  <FormatName>Google Earth placemark</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850671</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

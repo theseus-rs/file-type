@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29167442</FormatID>
+  <FormatName>OFIP</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29167442</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ofip</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

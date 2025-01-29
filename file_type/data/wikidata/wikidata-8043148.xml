@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>8043148</FormatID>
+  <FormatName>Xara Flare</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/8043148</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.xara</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xar</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

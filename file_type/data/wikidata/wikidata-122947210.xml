@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>122947210</FormatID>
+  <FormatName>Windows Enhanced Metafile, version 1.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122947210</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>emf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>emz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

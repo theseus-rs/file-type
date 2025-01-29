@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>59851506</FormatID>
+  <FormatName>DROID File Collection File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59851506</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

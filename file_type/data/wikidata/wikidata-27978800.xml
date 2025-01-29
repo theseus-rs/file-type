@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27978800</FormatID>
+  <FormatName>Spectrum 512 Smooshed</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27978800</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sps</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

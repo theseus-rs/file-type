@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105859072</FormatID>
+  <FormatName>AVG update package</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859072</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bin</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>AVG update package</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4D5A20415647</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

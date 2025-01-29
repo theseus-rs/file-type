@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>292565</FormatID>
+  <FormatName>vCalendar</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/292565</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-vcalendar</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vcs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

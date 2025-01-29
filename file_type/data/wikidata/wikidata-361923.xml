@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>361923</FormatID>
+  <FormatName>Lossless predictive audio compression</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/361923</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pac</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>128584392</FormatID>
+  <FormatName>ABNF file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128584392</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-abnf</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>abnf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105859580</FormatID>
+  <FormatName>ParaView VTK Unstructured grid</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859580</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vtu</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

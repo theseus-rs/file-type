@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>114093986</FormatID>
+  <FormatName>Sony SML File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/114093986</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

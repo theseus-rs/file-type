@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27473679</FormatID>
+  <FormatName>Band Sequential Image File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27473679</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bsq</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

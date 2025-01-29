@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111363709</FormatID>
+  <FormatName>Yamaha Motif XF 'voices' format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111363709</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>x3v</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

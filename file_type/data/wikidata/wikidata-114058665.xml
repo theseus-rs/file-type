@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>114058665</FormatID>
+  <FormatName>Canon SIF File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/114058665</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

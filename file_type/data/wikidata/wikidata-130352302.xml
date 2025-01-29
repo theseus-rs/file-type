@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>130352302</FormatID>
+  <FormatName>Monte file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130352302</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

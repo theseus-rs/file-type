@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27960099</FormatID>
+  <FormatName>Stems</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27960099</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>video/audio</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>stem.mp4</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

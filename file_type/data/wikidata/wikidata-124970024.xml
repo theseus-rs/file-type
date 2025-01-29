@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>124970024</FormatID>
+  <FormatName>MIX metadata file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/124970024</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mixmeta</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

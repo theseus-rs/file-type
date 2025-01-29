@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856301</FormatID>
+  <FormatName>Avogadro Drawlog</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856301</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>drawlog</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Avogadro Drawlog</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2241766F676164726F2076657273696F6E3A09</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

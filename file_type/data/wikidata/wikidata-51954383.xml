@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>51954383</FormatID>
+  <FormatName>WordStar for MS-DOS Document, version 5.5</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51954383</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ws</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

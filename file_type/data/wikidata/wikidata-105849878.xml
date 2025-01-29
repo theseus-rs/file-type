@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105849878</FormatID>
+  <FormatName>16bit DOS COM aPACK compressed (v0.96b)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105849878</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>com</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>16bit DOS COM aPACK compressed (v0.96b)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>BE0D01BF00708BCFFC57F3A4C3BF000157</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29435</FormatID>
+  <FormatName>Dolby TrueHD</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29435</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>thd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

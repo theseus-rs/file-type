@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105850541</FormatID>
+  <FormatName>Forte Agent Charmap</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850541</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cod</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Forte Agent Charmap</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4E616D653A20</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

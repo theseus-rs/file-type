@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29000664</FormatID>
+  <FormatName>Processed Volume</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29000664</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pvl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

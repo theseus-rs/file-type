@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117259797</FormatID>
+  <FormatName>TurboCAD 3D Model file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117259797</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mdl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

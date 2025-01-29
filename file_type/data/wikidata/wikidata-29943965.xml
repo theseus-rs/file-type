@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29943965</FormatID>
+  <FormatName>Statistical Package for the Social Sciences portable data format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29943965</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>por</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

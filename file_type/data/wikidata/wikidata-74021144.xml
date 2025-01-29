@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>74021144</FormatID>
+  <FormatName>PICS Rating System</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/74021144</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

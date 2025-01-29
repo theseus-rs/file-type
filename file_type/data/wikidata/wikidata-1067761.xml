@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>1067761</FormatID>
+  <FormatName>Windows Media Audio 9 Lossless</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1067761</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wma</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

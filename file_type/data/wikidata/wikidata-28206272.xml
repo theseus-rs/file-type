@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28206272</FormatID>
+  <FormatName>HTC splashscreen</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206272</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>img</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

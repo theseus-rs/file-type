@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28401268</FormatID>
+  <FormatName>XIP</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28401268</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xip</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

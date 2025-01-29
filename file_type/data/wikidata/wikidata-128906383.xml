@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>128906383</FormatID>
+  <FormatName>Dylan session file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128906383</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-dylan-console</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dylan-console</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

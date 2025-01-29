@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105867060</FormatID>
+  <FormatName>Daisy-Dot NLQ font</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105867060</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nlq</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Daisy-Dot NLQ font</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>44414953592D444F54204E4C5120464F4E54</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

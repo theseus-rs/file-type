@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>129922769</FormatID>
+  <FormatName>Jasmin file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129922769</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>j</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

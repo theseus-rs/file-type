@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105866788</FormatID>
+  <FormatName>PGN (Portable Gaming Notation) Compressed format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105866788</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pgc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

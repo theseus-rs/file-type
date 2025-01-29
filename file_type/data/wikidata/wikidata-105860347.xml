@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105860347</FormatID>
+  <FormatName>R documentation (with rem)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860347</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>131341382</FormatID>
+  <FormatName>Typst code</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131341382</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-typst</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>typ</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

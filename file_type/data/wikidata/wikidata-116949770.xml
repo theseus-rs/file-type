@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>116949770</FormatID>
+  <FormatName>Winfax File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116949770</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fxs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

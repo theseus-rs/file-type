@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105856440</FormatID>
+  <FormatName>Winbot Script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856440</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wbs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

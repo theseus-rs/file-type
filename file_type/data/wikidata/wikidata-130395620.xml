@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130395620</FormatID>
+  <FormatName>Octave source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130395620</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/octave</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>m</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

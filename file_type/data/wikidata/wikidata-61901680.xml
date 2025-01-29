@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>61901680</FormatID>
+  <FormatName>EndNote Connection File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61901680</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-endnote-connection</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>enz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

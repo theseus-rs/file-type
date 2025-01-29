@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105856919</FormatID>
+  <FormatName>Google Desktop Gadget manifest</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856919</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gmanifest</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

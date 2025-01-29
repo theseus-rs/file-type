@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105855708</FormatID>
+  <FormatName>Oric Raw Tape format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855708</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ort</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Oric Raw Tape format</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4F525400</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

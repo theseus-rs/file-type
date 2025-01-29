@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>50413749</FormatID>
+  <FormatName>Lightwright 4 Show File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50413749</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lw4</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

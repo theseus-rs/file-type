@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105858911</FormatID>
+  <FormatName>raw Group 3 FAX bitmap</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858911</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/g3fax</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>g3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>raw Group 3 FAX bitmap</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>0014</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

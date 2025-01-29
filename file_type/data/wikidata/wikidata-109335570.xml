@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>109335570</FormatID>
+  <FormatName>comic book archive, ZIP container</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109335570</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.comicbook+cbz</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cbz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105854323</FormatID>
+  <FormatName>Adobe Photoshop Lightroom template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854323</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>agtemplate</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Adobe Photoshop Lightroom template</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>73203D207B</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

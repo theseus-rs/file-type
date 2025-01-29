@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>25822458</FormatID>
+  <FormatName>OsmChange</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/25822458</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>osc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

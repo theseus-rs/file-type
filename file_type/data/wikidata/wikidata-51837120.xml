@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>51837120</FormatID>
+  <FormatName>Scitex Continuous Tone Bitmap</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51837120</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ct</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

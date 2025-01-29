@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105855045</FormatID>
+  <FormatName>Agros2D document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855045</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>a2d</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Agros2D document</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C646F63756D656E743E0A202020203C70726F626C656D733E0A20202020202020203C70726F626C656D20</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

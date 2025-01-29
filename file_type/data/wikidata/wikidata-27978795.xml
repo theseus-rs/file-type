@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27978795</FormatID>
+  <FormatName>Spectrum 512 Uncompressed</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27978795</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>spu</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

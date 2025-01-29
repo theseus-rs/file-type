@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>128622388</FormatID>
+  <FormatName>Augeas file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128622388</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aug</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

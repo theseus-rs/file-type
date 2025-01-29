@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>3888665</FormatID>
+  <FormatName>Package interchange format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/3888665</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

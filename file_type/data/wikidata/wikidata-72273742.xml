@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>72273742</FormatID>
+  <FormatName>TPN</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/72273742</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

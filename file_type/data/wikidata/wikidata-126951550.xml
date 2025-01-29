@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>126951550</FormatID>
+  <FormatName>J script file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/126951550</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-j</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ijs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

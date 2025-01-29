@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>50322163</FormatID>
+  <FormatName>RDF/JSON</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50322163</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/rdf+json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

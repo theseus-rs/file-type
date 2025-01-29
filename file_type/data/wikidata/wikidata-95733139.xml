@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>95733139</FormatID>
+  <FormatName>RealAudio version 3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/95733139</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/vnd.rn-realaudio</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ra</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

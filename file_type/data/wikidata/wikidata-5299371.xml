@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>5299371</FormatID>
+  <FormatName>dotXSI</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/5299371</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xsi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

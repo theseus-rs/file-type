@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>114876948</FormatID>
+  <FormatName>Quicken Home Inventory file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/114876948</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>idb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

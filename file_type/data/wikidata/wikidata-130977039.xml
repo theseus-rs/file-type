@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>130977039</FormatID>
+  <FormatName>Singularity definition file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130977039</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>Singularity</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>def</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

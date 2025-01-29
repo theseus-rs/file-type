@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>126960642</FormatID>
+  <FormatName>SystemVerilog Source Code File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/126960642</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-systemverilog</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

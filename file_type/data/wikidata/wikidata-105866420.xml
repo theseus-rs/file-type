@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105866420</FormatID>
+  <FormatName>Eclipse Preferences</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105866420</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prefs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Eclipse Preferences</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>65636C697073652E707265666572656E6365732E76657273696F6E3D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

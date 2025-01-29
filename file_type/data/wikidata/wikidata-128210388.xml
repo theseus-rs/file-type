@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>128210388</FormatID>
+  <FormatName>Xcode config</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128210388</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xcconfig</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>117448429</FormatID>
+  <FormatName>CHAT Transcription Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117448429</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-chat</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cha</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

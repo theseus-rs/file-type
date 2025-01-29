@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111665213</FormatID>
+  <FormatName>AbiWord Collaborative File Descriptor</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111665213</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>abicollab</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

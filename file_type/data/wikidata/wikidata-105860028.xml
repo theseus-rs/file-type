@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860028</FormatID>
+  <FormatName>CADVANCE drawing</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860028</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vwf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>CADVANCE drawing</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>46204920542C20496E632E20202020202020202020202020202020200D0A43414456414E43452064726177696E672066696C652076657273696F6E20</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

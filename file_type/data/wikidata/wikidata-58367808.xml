@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>58367808</FormatID>
+  <FormatName>BSDIFF</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/58367808</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bsdiff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

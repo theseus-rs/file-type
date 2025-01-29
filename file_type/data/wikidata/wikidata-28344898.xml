@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28344898</FormatID>
+  <FormatName>Axc</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28344898</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>axc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

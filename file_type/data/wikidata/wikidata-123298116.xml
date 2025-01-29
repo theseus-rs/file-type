@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123298116</FormatID>
+  <FormatName>To Do Archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123298116</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tda</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>29944551</FormatID>
+  <FormatName>OpenOffice Calc, version 1.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29944551</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.sun.xml.calc</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sxc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>
