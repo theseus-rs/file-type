@@ -2,11 +2,6 @@
   <FormatID>1107</FormatID>
   <FormatName>pulse EKKO data file</FormatName>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Archaeology Data Service / Archaeology Data Service</ProvenanceName>
-  <ProvenanceSourceDate>18 Aug 2011</ProvenanceSourceDate>
-  <ProvenanceDescription>Submitted by Archaeology Data Service</ProvenanceDescription>
-  <LastUpdatedDate>18 Aug 2011</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/360</Identifier>
     <IdentifierType>PUID</IdentifierType>

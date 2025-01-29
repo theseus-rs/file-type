@@ -4,11 +4,6 @@
   <FormatVersion>2</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>HDF5 is a data model, library, and file format for storing and managing data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 Nov 2010</ProvenanceSourceDate>
-  <LastUpdatedDate>01 Nov 2010</LastUpdatedDate>
-  <FormatNote>Following up external submission. Signature submitted by The Alfred Wegener Institute for Polar and Marine Research, Germany.</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/287</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -48,6 +43,5 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1875</RelatedFormatID>
     <RelatedFormatName>Silo</RelatedFormatName>
-    <RelatedFormatVersion>HDF5 Variant</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

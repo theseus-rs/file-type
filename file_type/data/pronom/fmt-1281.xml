@@ -5,10 +5,6 @@
   <FormatAliases>ISO 28500:2017, Web ARChive</FormatAliases>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>The WARC (Web ARChive) file format offers a convention for concatenating multiple resource records (data objects), each consisting of a set of simple text headers and an arbitrary data block into one long file. The WARC format is an extension of the ARC file format (ARC) that has traditionally been used to store "web crawls" as sequences of content blocks harvested from the World Wide Web (…) Besides the primary content recorded in ARCs, the extended WARC format accommodates related secondary content, such as assigned metadata, abbreviated duplicate detection events, later-date transformations, and segmentation of large resources”. WARC format has been written by the members of the IIPC (http://www.netpreserve.org/) grouped within the ISO/TC46/SC4/WG12.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/warc</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -38,37 +34,31 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>639</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>640</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>3.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>641</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>642</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.01</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>643</RelatedFormatID>
     <RelatedFormatName>Extensible Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>644</RelatedFormatID>
     <RelatedFormatName>Extensible Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -84,6 +74,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1258</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>5</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

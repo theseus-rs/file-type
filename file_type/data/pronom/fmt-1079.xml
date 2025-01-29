@@ -4,11 +4,6 @@
   <FormatVersion>7.00</FormatVersion>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>A Program Database File stores debugging information about a compiled executable, usually created at compile-time. It stores a list of all symbols in a module with their addresses and possibly the name of the file and the line on which the symbol was declared.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Scotland / National Library of Scotland</ProvenanceName>
-  <ProvenanceSourceDate>24 Jul 2017</ProvenanceSourceDate>
-  <ProvenanceDescription>An implementation can be found here: https://github.com/Microsoft/microsoft-pdb/blob/master/PDB/msf/msf.cpp</ProvenanceDescription>
-  <LastUpdatedDate>24 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1079</Identifier>
     <IdentifierType>PUID</IdentifierType>

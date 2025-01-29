@@ -4,10 +4,6 @@
   <FormatVersion>7+</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>DWB is the native format of VariCAD, 3D CAD software used in the field of mechanical engineering.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>23 Sep 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1381</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,11 +4,6 @@
   <FormatVersion>1.x</FormatVersion>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Audacity is free and open source audio editing, recording and post-processing software. The first version (0.8) was released in 2000 by Dominic Mazzoni and Roger Dannenberg at Carnegie Mellon University, Pennsylvania. It remains available today. An Audacity project consists of an aup project file, which is the name of the project followed by .aup . Next to the .aup file is a folder containing many .au files, each one being a segment of audio data. The aup file describes how audacity links the au files together to form the tracks in the project. This file is Audacity's new XML based project format, which is incompatible with version 2.x.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>07 Feb 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>07 Feb 2023</LastUpdatedDate>
-  <FormatNote>https://manual.audacityteam.org/man/audacity_2.html#aup</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1824</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,6 +29,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

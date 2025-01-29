@@ -3,11 +3,6 @@
   <FormatName>Extensible Metadata Platform Packet</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>The Extensible Metadata Platform (XMP) is an ISO standard, originally created by Adobe Systems Inc., for the creation, processing and interchange of standardized and custom metadata for all kinds of resources.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>19 Jul 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>07/2024 (v.119)- Internal signature updated to allow for both double and single quotation marks. Submitted by the Digital Research Alliance of Canada - Federated Research Data Repository / Alliance de recherche numérique du Canada - Dépôt fédéré de données de recherche.</ProvenanceDescription>
-  <LastUpdatedDate>30 May 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/570</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,14 +4,6 @@
   <FormatVersion>4 Channel Module</FormatVersion>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Aon files produced by ArtOfNoise music tracker software, freeware which was available on the Commodore Amiga. It was intended to be a soundtracker suited to synthetic songs, with a wider range of instruments and effects than comparable software. Originally made in 4 channel mode, a later 8 channel version was produced.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>17 Feb 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>17 Feb 2022</LastUpdatedDate>
-  <FormatNote>Specification: https://ftp.modland.com/pub/documents/format_documentation/Art%20Of%20Noise%20(.aon).txt
-
-Samples:
-https://ftp.modland.com/pub/modules/Art%20Of%20Noise/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1623</Identifier>
     <IdentifierType>PUID</IdentifierType>

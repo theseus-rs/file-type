@@ -3,12 +3,6 @@
   <FormatName>Microsoft OneNote</FormatName>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Microsoft OneNote is a computer program for information gathering and multi-user collaboration. The OneNote File Format is a persistence format for storing digital notes as hierarchical sets of sections and pages. Pages can contain text, images, tables, note tags and other types of user-defined content.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>25 Feb 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>http://msdn.microsoft.com/en-us/library/dd924743(v=office.12).aspx
-http://msdn.microsoft.com/en-us/library/dd951288(v=office.12).aspx</ProvenanceDescription>
-  <LastUpdatedDate>25 Feb 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/msonenote</Identifier>
     <IdentifierType>MIME</IdentifierType>

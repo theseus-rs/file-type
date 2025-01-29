@@ -3,11 +3,6 @@
   <FormatName>ActiveMime Object</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>ActiveMime is a Microsoft file format which can be used to encode Office Macros. It is undocumented but the file structure contains two parts. A header containing magic bytes and data about the file such as size and metadata. Followed by a zlib compressed data block.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>25 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Aug 2023</LastUpdatedDate>
-  <FormatNote>https://github.com/idiom/activemime-format</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1915</Identifier>
     <IdentifierType>PUID</IdentifierType>

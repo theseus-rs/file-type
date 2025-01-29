@@ -3,11 +3,6 @@
   <FormatName>Canon SIF File</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>A Canon SIF file is present in the Canon XF folder structure that is used by media cards associated with cameras such as XF205 and C300. It is created whenever a video file is shot and exceeds the 2GB file size limit imposed by the FAT32 filesystem. In this case, an SIF file is created for each corresponding MXF file. It is found within the CANON XF/CLIPS 001/AAxxxx directory, where xxxx is an automatically generated number beginning with 0001. Although little official documentation exists, SIF likely stands for Shot/Segment/Span Information File. The precise contents of the file format have not yet been established, but its existence is necessary in order to import spanned clips into Canon media apps.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>24 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Aug 2022</LastUpdatedDate>
-  <FormatNote>http://www.premierepro.org/2016/10/canon-xf-c300-xf305-folder-structure-and-file-naming-explained/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1751</Identifier>
     <IdentifierType>PUID</IdentifierType>

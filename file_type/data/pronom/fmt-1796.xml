@@ -4,12 +4,6 @@
   <FormatVersion>1.1</FormatVersion>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>Wireless Markup Language (wml) is an XML-based markup language created by the WAP (Wireless Application Protocol) Forum in the late 1990s. It was intended for mobile devices which were limited by bandwidth, memory and CPU capabilities, such as mobile phones, providing text and image presentation, forms, data input and hyperlinks, much like html. WAP died out in the early 2000s. It had been developed and supported by the WAP forum, which no longer exists, and has been subsumed by the Open Mobile Alliance.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Stadtarchiv Hof / Stadtarchiv Hof</ProvenanceName>
-  <ProvenanceSourceDate>22 Nov 2022</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113)- Offset and signature modified for the EOF byte sequence to remove floating curly brackets from the signature for consistency.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
-  <FormatNote>Specification: http://www.wapforum.org/what/technical.htmandhttp://www.wapforum.org/what/technical/wml-30-apr-98.pdf</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1796</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -47,6 +41,5 @@ EOF, offset 0-6, magic bytes: &lt;/card&gt;{0-6}&lt;/wml&gt;{0-2}</SignatureNote
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

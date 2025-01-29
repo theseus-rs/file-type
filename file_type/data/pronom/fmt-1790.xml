@@ -2,11 +2,6 @@
   <FormatID>2640</FormatID>
   <FormatName>Help Librarian File</FormatName>
   <FormatDescription>Help Librarian is a program by Custom Design Systems released in 1985 that produced 'help' files, predominantly with the .hlp extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Oct 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Help_Librarian</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1790</Identifier>
     <IdentifierType>PUID</IdentifierType>

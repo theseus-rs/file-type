@@ -3,11 +3,6 @@
   <FormatName>ESRI File Geodatabase</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>An ESRI file geodatabase is a collection of files in a folder on disk that can store, query, and manage both spatial and nonspatial data.The GeoDB is the primary data storage model for ArcGIS.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Feb 2017</ProvenanceSourceDate>
-  <ProvenanceDescription>Unfortunately we are currently unable to use PRONOM to be able to develop a signature to identify this format, hopefully in the future this functionality will be available.</ProvenanceDescription>
-  <LastUpdatedDate>06 Feb 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/990</Identifier>
     <IdentifierType>PUID</IdentifierType>

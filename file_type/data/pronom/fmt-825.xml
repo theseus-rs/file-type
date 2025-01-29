@@ -4,10 +4,6 @@
   <FormatVersion>Generic</FormatVersion>
   <FormatTypes>Spreadsheet</FormatTypes>
   <FormatDescription>Numbers is a spreadsheet application created by Apple as part of the iWork Productivity Suite. This entry is currently an extension-only entry to provide a default identification in the absence of a signature-based identification.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>16 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>30 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/825</Identifier>
     <IdentifierType>PUID</IdentifierType>

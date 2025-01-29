@@ -4,12 +4,6 @@
   <FormatVersion>X4</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>CorelDraw (styled CorelDRAW) is a vector graphics editor developed and marketed by Corel Corporation of Ottawa, Canada. It is also the name of Corel's Graphics Suite, which bundles CorelDraw with bitmap-image editor Corel Photo-Paint as well as other graphics-related programs.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Museum of London / Museum of London</ProvenanceName>
-  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified in DROID 6 and later via a container signature.
-11/2023 (v.115)- Container signature added. Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Submitted by Brigham Young University and internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>14 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/429</Identifier>
     <IdentifierType>PUID</IdentifierType>

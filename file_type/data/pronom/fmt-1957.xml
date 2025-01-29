@@ -2,14 +2,6 @@
   <FormatID>2822</FormatID>
   <FormatName>Program Embroidery Stitch (PES) File</FormatName>
   <FormatDescription>A PES file, 'Program Embroidery Stitch' is a digital file format created for embroidery. It combines embroidery design and embroidery command and was created mainly for Brother Industries and Bernina International series of embroidery machines. It stores information on stitch patterns and colour sequences.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://edutechwiki.unige.ch/en/Embroidery_format_PES#File_Format
-
-https://torvalds-family.blogspot.com/2010/01/embroidery-gaah.html
-http://fileformats.archiveteam.org/wiki/PES</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1957</Identifier>
     <IdentifierType>PUID</IdentifierType>

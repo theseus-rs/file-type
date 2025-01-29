@@ -3,18 +3,6 @@
   <FormatName>ISO 9660 Disk Image File</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>ISO 9660 Disk Image File is a virtual image of optical disk, storing content and structure of an optical disc which can be transferred on the other media. This format specifically uses ISO 9660, a so-called original standard for file system for optical disc media, written by International Organization for Standardization (ISO) and considered an international technical standard available for many operating systems. A disk image is a uncompressed copy of the contents of a disk or a folder, it can facilitate certain types of backup and recovery strategies. Please see ID: fdd000348 from Library of Congress and other the links attached to this entry for further information.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113)- Max-offset modified for the BOF signature to allow for more exact signature identification. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/ISO_image
-
-https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml
-
-https://en.wikipedia.org/wiki/Optical_disc_image
-
-https://docs.microsoft.com/en-us/windows/win32/imapi/disc-formats</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/468</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -81,7 +69,6 @@ Beginning at byte 32768, an ISO file will hold two-to-many volume descriptors, e
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2589</RelatedFormatID>
     <RelatedFormatName>Nero Burning ROM Image File</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>

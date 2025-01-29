@@ -4,10 +4,6 @@
   <FormatVersion>2.1</FormatVersion>
   <FormatTypes>Page Description</FormatTypes>
   <FormatDescription>Encapsulated Postscript (EPS) is a page description format, developed by Adobe Systems Incorporated. Version 2.0, of which this is an iteration, was the second version of the format, and developed in 1989. An EPS file comprises a header section followed by a PostScript document. An EPS can optionally include a preview raster image, in which case a binary header is prepended to the header.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>19 Jul 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Jul 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/postscript</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -46,18 +42,15 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>773</RelatedFormatID>
     <RelatedFormatName>PostScript</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>331</RelatedFormatID>
     <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>332</RelatedFormatID>
     <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

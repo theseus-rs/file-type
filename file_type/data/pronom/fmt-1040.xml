@@ -3,10 +3,6 @@
   <FormatName>DirectDraw Surface</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The DirectDraw Surface file format was introduced with DirectX 7 to store uncompressed and compressed textures. The file format supports mipmaps, cube maps, and volume maps.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>29 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>29 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1040</Identifier>
     <IdentifierType>PUID</IdentifierType>

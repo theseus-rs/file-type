@@ -5,10 +5,6 @@
   <FormatDescription>This file type which includes  '_INST32I.EX_ ' file in the title is included many Windows software distributions that use the InstallShield installation software.
 
 InstallShield is a proprietary software tool originally developed by The Stirling Group.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1466</Identifier>
     <IdentifierType>PUID</IdentifierType>

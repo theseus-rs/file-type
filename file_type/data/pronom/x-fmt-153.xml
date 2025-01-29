@@ -6,10 +6,6 @@
   <FormatDescription>The Enhanced Metafile format is a 32-bit format that can contain both vector information and bitmap information. This format contains extended features over the Windows Metafile Format, including built-in scaling information, and improvements in color palettes and device independence.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Jul 2011</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>image/emf</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -49,12 +45,10 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1089</RelatedFormatID>
     <RelatedFormatName>Microsoft Windows Enhanced Metafile</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1090</RelatedFormatID>
     <RelatedFormatName>Microsoft Windows Enhanced Metafile</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

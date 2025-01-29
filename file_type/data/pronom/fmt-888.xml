@@ -3,10 +3,6 @@
   <FormatName>QuadriSpace Format</FormatName>
   <FormatTypes>Page Description, Model</FormatTypes>
   <FormatDescription>QuadriSpace provide 3D Publishing and Documentation software. This entry currently covers each known QuadriSpace-specifc format, however it may be possible and necessary to separate different QuadriSpace formats into their own entries in the future.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Jun 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Jun 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/888</Identifier>
     <IdentifierType>PUID</IdentifierType>

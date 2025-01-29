@@ -4,10 +4,6 @@
   <FormatVersion>3.0</FormatVersion>
   <FormatDescription>PUID deprecated. Please see fmt/56: Microsoft Excel 3 Worksheet</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Sep 2009</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Sep 2009</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/172</Identifier>
     <IdentifierType>PUID</IdentifierType>

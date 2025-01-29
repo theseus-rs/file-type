@@ -4,10 +4,6 @@
   <FormatVersion>2.2</FormatVersion>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>INTERLIS is a description and transfer mechanism for spatial data. INTERLIS 2 Model files contain the geodata and can be converted to XML Schema (XSD) files (by using a software called INTERLIS compiler). Such models are described using a Modula-like language, which can be thought of as a superset of UML.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>24 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1012</Identifier>
     <IdentifierType>PUID</IdentifierType>

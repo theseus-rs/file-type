@@ -3,11 +3,6 @@
   <FormatName>Krita Document Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Krita is a free raster graphics editor. Krita's native document format is Krita Document (.kra), which is loosely based on the Open Document standard. The format is used for handling layered raster based graphics.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>22 Mar 2017</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>22 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/x-krita</Identifier>
     <IdentifierType>MIME</IdentifierType>

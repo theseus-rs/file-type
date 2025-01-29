@@ -4,10 +4,6 @@
   <FormatVersion>9</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Vectorworks is a proprietary Computer Aided Design and Building Information Modelling software program for both Mac and Windows operating systems. This software was previously called MiniCAD from 1985 - 1998 and  Vectorworks from 1999.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Datable / Datable</ProvenanceName>
-  <ProvenanceSourceDate>28 Aug 2012</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Nov 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.vectorworks</Identifier>
     <IdentifierType>MIME</IdentifierType>

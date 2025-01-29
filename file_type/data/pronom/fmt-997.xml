@@ -3,10 +3,6 @@
   <FormatName>SPSS Portable Data Format</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>SPSS (Statistical Package for the Social Sciences) is a software package used for statistical analysis in the social sciences. The portable data format is designed for data transfer between differing operating systems and versions of SPSS.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/997</Identifier>
     <IdentifierType>PUID</IdentifierType>

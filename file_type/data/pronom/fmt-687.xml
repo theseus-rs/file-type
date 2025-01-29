@@ -3,10 +3,6 @@
   <FormatName>Better Portable Graphics</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Better Portable Graphics (BPG) is a raster image format created by Fabrice Bellard. It is intended as a compression-efficient alternative to the JPEG image format. It is based on the intra-frame encoding of the High Efficiency Video Coding (HEVC) video compression standard, and various metadata profiles (such as EXIF, ICC profile, XMP) are supported.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/687</Identifier>
     <IdentifierType>PUID</IdentifierType>

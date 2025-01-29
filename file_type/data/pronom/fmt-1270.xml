@@ -4,11 +4,6 @@
   <FormatVersion>16</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>SketchUp is a 3D content creation tool.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Datable / Datable</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote>An .skp file is a SketchUp document. A SKB file is a backup document created by the Windows version of SketchUp only. SKB files appear as [filename].skb. The macOS version autosaves models with the ".skp" extension as [filename]~.skp. The file structure is not different from that of a regular.skp file, but to open it, it may be necessary to change the extension to .skp.</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1270</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -49,6 +44,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2077</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -4,12 +4,6 @@
   <FormatVersion>4.x</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>CINEMA 4D is a 3D modeling, animation and rendering application developed by MAXON Computer GmbH.  CINEMA 4D as a file format can contain elements of animation, modeling, texturing and rendering.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
-  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>Specification Link: http://paulbourke.net/dataformats/cinema4d/cinema4d.pdf
-As quoted by Wikipedia Cinema 4D Version 1.0 was released in 1993.</ProvenanceDescription>
-  <LastUpdatedDate>13 Sep 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/415</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -40,6 +34,5 @@ As quoted by Wikipedia Cinema 4D Version 1.0 was released in 1993.</ProvenanceDe
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1327</RelatedFormatID>
     <RelatedFormatName>Cinema 4D</RelatedFormatName>
-    <RelatedFormatVersion>5.x</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

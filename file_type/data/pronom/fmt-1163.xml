@@ -3,10 +3,6 @@
   <FormatName>Folio Definition File</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>The Folio Definition File is a companion to the Folio Flat File, and contains a definition of the structure of the Flat File.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>26 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1163</Identifier>
     <IdentifierType>PUID</IdentifierType>

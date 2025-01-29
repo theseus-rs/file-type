@@ -3,10 +3,6 @@
   <FormatName>VivoActive</FormatName>
   <FormatTypes>Video</FormatTypes>
   <FormatDescription>VivoActive is an audio/video format created by Vivo Software, acquired by RealNetworks in 1997. It uses H.263 video and G.723 ADPCM audio. VivoActive uses inter-frame coding, but does not insert any key frames, except at the beginning of the clip, which effectively disables the possibility of seeking to specific locations in the stream. The VivoActive technology was integrated to the RealMedia, the .viv format was replaced by .rm (RealMedia).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>l'Institut national de l' Audiovisuel / l'Institut national de l' Audiovisuel</ProvenanceName>
-  <ProvenanceSourceDate>26 Feb 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/499</Identifier>
     <IdentifierType>PUID</IdentifierType>

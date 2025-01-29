@@ -5,10 +5,6 @@
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>PUID deprecated. Please see fmt/163: Microsoft Works Word Processor 1-3 for DOS and 2 for Windows.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>25 Feb 2010</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Dec 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/266</Identifier>
     <IdentifierType>PUID</IdentifierType>

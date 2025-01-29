@@ -3,10 +3,6 @@
   <FormatName>PowerVR Object Data</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>The PowerVR Object Data format is a 3D modelling format developed by Imagination Technologies.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Nov 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Nov 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/782</Identifier>
     <IdentifierType>PUID</IdentifierType>

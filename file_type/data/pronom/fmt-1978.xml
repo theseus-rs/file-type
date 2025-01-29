@@ -4,14 +4,6 @@
   <FormatVersion>1.2</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>The Sibelius Score is a music notation format a digital representation of sheet music. Sibelius software is a WYSIWYG scorewriter program, it allows for the creation and editing of music scores and the .sib file is it's native format. Sibelius is the name of a series of applications for music typesetting, was originally developed for the Acorn system (RISC 0S) in 1986, then released on Windows and Macintosh in 1998-99. In 2006 it was purchased by AVID. The software is commonly used by composers, arrangers, performers, music publishers, teachers and students, particularly for writing classical, jazz, band, vocal, film and television music.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>18 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://preservation.tylerthorsted.com/2024/04/12/sibelius/
-https://wiki.dpconline.org/images/d/d9/Sibelius_Assessment_v1.0.pdf
-http://fileformats.archiveteam.org/wiki/Sibelius
-https://www.loc.gov/preservation/digital/formats/fdd/fdd000609.shtml</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/x-sibelius-score</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -50,7 +42,6 @@ https://www.loc.gov/preservation/digital/formats/fdd/fdd000609.shtml</FormatNote
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2849</RelatedFormatID>
     <RelatedFormatName>Sibelius Score</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>

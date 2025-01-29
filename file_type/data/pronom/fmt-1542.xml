@@ -4,10 +4,6 @@
   <FormatVersion>3 or earlier</FormatVersion>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>The .frm file format was created by early versions of Visual Basic to distinguish between different item types. First released in 1991, Visual Basic was declared legacy in 2008. It provided a GUI which allowed users to modify code by dragging and dropping objects and defining their behaviour and appearance.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>03 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Nov 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1542</Identifier>
     <IdentifierType>PUID</IdentifierType>

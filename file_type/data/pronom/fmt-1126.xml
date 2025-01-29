@@ -3,10 +3,6 @@
   <FormatName>Sony SR2 RAW Image File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>SR2 is a raw image format produced by some makes of Sony cameras. The format is based upon TIFF.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>KULeuven - LIBIS / KULeuven - LIBIS</ProvenanceName>
-  <ProvenanceSourceDate>28 Nov 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Nov 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1126</Identifier>
     <IdentifierType>PUID</IdentifierType>

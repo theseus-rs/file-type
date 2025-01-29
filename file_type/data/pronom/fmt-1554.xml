@@ -7,16 +7,6 @@
 
 The files contain the data for a single reading and includes: its trace sample points, its called sequence, the positions of the bases relative to the trace sample points, and numerical estimates of the accuracy of each base.
 The SCF format was designed to be easily compressed (using programs like WinRar or WinZip). This allows companies to store large amounts of chromatogram files.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>18 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Nov 2021</LastUpdatedDate>
-  <FormatNote>http://staden.sourceforge.net/manual/formats_unix_2.html
-http://staden.sourceforge.net/manual/formats_unix_2.html
-
-http://www.dnabaser.com/help/samples/what%20is%20a%20chromatogram.html
-
-http://fileformats.archiveteam.org/wiki/SCF</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1554</Identifier>
     <IdentifierType>PUID</IdentifierType>

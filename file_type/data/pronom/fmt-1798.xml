@@ -3,10 +3,6 @@
   <FormatName>CHAT Transcription Format</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>The CHAT Transcription Format provides a format for producing computerised transcripts of face-to-face conversations. ‘CHAT’ is an acronym for Codes for the Human Analysis of Transcripts. CHAT is the standard transcription system for the TalkBank and CHILDES (Child Language Data Exchange System) Projects. https://talkbank.org/manuals/CHAT.pdf</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Nov 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1798</Identifier>
     <IdentifierType>PUID</IdentifierType>

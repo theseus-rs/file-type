@@ -4,10 +4,6 @@
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>A comma-separated values (CSV) file file stores tabular data (numbers and text) in plain text. Plain text means that the file is interpreted a sequence of characters, so that it is human-readable with a standard text editor. Each line of the file is a data record.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Aug 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>text/csv</Identifier>
     <IdentifierType>MIME</IdentifierType>

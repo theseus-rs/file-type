@@ -3,10 +3,6 @@
   <FormatName>Phantom CINE Video File</FormatName>
   <FormatTypes>Video</FormatTypes>
   <FormatDescription>The Cine file format was designed for storing and retrieving the recordings made by Phantom high speed video cameras.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>20 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1488</Identifier>
     <IdentifierType>PUID</IdentifierType>

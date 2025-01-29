@@ -3,11 +3,6 @@
   <FormatName>ColdFusion Markup Language</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>ColdFusion Markup Language (CFML) is a scripting language used for writing web pages and dynamic PC applications. It was created in 1995 by corporation Allaire, but was acquired by Adobe in 2005. ColdFusion Markup Language tags have a similar format to html tags, (for example, they are enclosed in angle brackets.) These are text based files, which can be opened by any text editor, such as Notepad.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>02 Dec 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Dec 2021</LastUpdatedDate>
-  <FormatNote>Documentation (maintained by the community): https://helpx.adobe.com/coldfusion/developing-applications/the-cfml-programming-language.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1566</Identifier>
     <IdentifierType>PUID</IdentifierType>

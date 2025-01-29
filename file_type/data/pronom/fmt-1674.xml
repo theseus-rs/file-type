@@ -3,15 +3,6 @@
   <FormatName>ZyXEL Voice Format Audio</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>ZyXEL Voice Audio files were originally developed by Zyxel Communications for the Zyxel Z-Fax modem software application. These files are capable of digitizing speech to transfer data through software such as Z-Fax or VoiceConnect, using compression betweeen 19.2k CPS(ADPCM) and 9.6k CPS (CELP).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>22 Apr 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Apr 2022</LastUpdatedDate>
-  <FormatNote>http://www.fileformat.info/mirror/corion/index.htm#ZyXEL
-
-https://www.solvusoft.com/en/file-extensions/file-extension-zvd/
-
-https://www.wikidata.org/wiki/Q105854133</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1674</Identifier>
     <IdentifierType>PUID</IdentifierType>

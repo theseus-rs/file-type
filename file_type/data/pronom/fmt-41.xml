@@ -6,16 +6,6 @@
   <FormatDescription>Raw JPEG Stream represents JPEG bitstream sequence of digital objects. JPEG stands for Joint Photographic Experts Group, an international organization that standardized the concept of lossy compression during the late 1980s and early 1990s. It uses DCT (Discrete Cosine Transform) compression technique used for images and audio. The standard of lossy compression is able to remove some visual data invisible to human eye which averages out colour variation and reduces the file size. JPEG image consists of a sequence of segments, each beginning with a two-byte "marker", each of which begins with a 0xFF byte, followed by a byte indicating what kind of marker it is. The signature for this entry represents the first two bytes of every JPEG stream, which are the Start Of Image (SOI) marker with values of 0xFF and 0xD8 (indicating that the baseline is DCT-based) and the End of Image (EOI) marker with valued of 0xFF and 0xD9. The second signatures represents the "colour transform" field of the APP14 which is an "Adobe" segment, representing graphic files which may have been edited in Adobe applications such as Adobe Photoshop.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Big-endian (Motorola)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113) - Photoshop JPEG signature added 0 value to offset in EOF signature as null offset is causing max-offset to be ignored. Submitted by Preservica.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
-  <FormatNote>https://www.loc.gov/preservation/digital/formats/fdd/fdd000017.shtml#:~:text=The%20Library%20of%20Congress%20Recommended,specify%20a%20version%20of%20JPEG.
-
-https://web.archive.org/web/20220624201809/https://www.adobe.com/creativecloud/file-types/image/raster/jpeg-file.html
-
-https://web.archive.org/web/20221015163305/https://en.wikipedia.org/wiki/JPEG</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fdd000017</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -100,54 +90,45 @@ EOF: EOI marker (FF|D9) with a large offset due to the amount of photoshop metad
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>667</RelatedFormatID>
     <RelatedFormatName>JPEG File Interchange Format</RelatedFormatName>
-    <RelatedFormatVersion>1.00</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>668</RelatedFormatID>
     <RelatedFormatName>JPEG File Interchange Format</RelatedFormatName>
-    <RelatedFormatVersion>1.01</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>669</RelatedFormatID>
     <RelatedFormatName>JPEG File Interchange Format</RelatedFormatName>
-    <RelatedFormatVersion>1.02</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>671</RelatedFormatID>
     <RelatedFormatName>Still Picture Interchange File Format</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>675</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Compressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>676</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Compressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>751</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Compressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1444</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Compressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.21</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2330</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Compressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.3.x</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -3,10 +3,6 @@
   <FormatName>Maxwell Render Image Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Maxwell Render is a 3D render engine developed by Next Limit Technologies. The Maxwell Image Format is a high dynamic range format containing both image data and rendering calculations.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>23 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1146</Identifier>
     <IdentifierType>PUID</IdentifierType>

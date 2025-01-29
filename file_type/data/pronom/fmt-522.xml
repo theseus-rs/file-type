@@ -3,10 +3,6 @@
   <FormatName>Open Project File</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>The .pod format was originally used by the OpenProj project management suite. Development on OpenProj has discontinued and has been superceded by ProjectLibre.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 May 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>01 May 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/522</Identifier>
     <IdentifierType>PUID</IdentifierType>

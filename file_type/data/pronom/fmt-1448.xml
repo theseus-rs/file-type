@@ -3,11 +3,6 @@
   <FormatName>XLD4 (Graphic Data Document)</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>XLD4 is a raster graphics format, sometimes known as Q4 file, associated with PC-98 a lineup of 16 and 32 bit computers manufactured by NEC in Japan. Each image consists of two separate files, one with a q4 extension and another with a q4d extension. The q4 file contains the bitmap image and the q4d the text description. In PRONOM these have been given two separate PUIDs.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>13 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Oct 2021</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/XLD4</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1448</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>ZPAQ Archive Format</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>ZPAQ is an open source command line file archiver developed by Matt Mahoney.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>19 Sep 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Sep 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1097</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,11 +4,6 @@
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>SHP is the 3D Studio (DOS) shape file format. 3D Studio DOS was the original 3D Studio product, and was created for the DOS platform by the Yost Group, and published by Autodesk.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Feb 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/SHP</FormatNote>
   <FileFormatIdentifier>
     <Identifier>x-fmt/102</Identifier>
     <IdentifierType>PUID</IdentifierType>

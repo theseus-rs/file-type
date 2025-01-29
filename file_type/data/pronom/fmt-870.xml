@@ -3,10 +3,6 @@
   <FormatName>Perl Script</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>This is a script written in Perl that is composed and run using a Perl interpreter; it contains lines of Perl program code with variables, operations, functions, and comments.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>15 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>15 Jan 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/870</Identifier>
     <IdentifierType>PUID</IdentifierType>

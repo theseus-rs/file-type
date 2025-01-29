@@ -3,10 +3,6 @@
   <FormatName>Maya Icons or Swatches file</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Maya is a 3D graphics application published by Autodesk. Swatch files are created by Maya to provide preview thumbnail images of textures. Maya Icon files appear to use the same format mechanism. An unofficial description of the format layout can be found here: https://www.highend3d.com/t/renderwindoweditor-snm/3411</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>01 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>01 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1168</Identifier>
     <IdentifierType>PUID</IdentifierType>

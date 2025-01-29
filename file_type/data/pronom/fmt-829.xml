@@ -3,13 +3,6 @@
   <FormatName>3MF 3D Manufacturing Format</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>3MF is an XML-based data file format published by the 3MF Consortium for additive manufacturing (3D printing).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Dec 2015</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.
-
-http://3mf.io/what-is-3mf/3mf-specification/</ProvenanceDescription>
-  <LastUpdatedDate>21 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-3mfdocument</Identifier>
     <IdentifierType>MIME</IdentifierType>

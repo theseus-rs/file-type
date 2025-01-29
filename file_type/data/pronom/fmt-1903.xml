@@ -3,11 +3,6 @@
   <FormatName>Garmin Vehicle Images File</FormatName>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>Garmin Vehicle Images File, or SRF, is a raster graphics format associated with Garmin GPS devices. An SRF file contains images that comprise an avatar of a vehicle. An SRF file will often be distributed inside a ZIP file.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>18 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/SRF_(Garmin_vehicle)</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1903</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -2,10 +2,6 @@
   <FormatID>1881</FormatID>
   <FormatName>AVCHD Playlist File</FormatName>
   <FormatDescription>AVCHD (Advanced Video Coding High Definition) is a file-based format for the digital recording and playback of high-definition video. The Playlist File may be created by some AVCHD video recorders and contains an ordered list of references to associated AVCHD streams.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>21 Jul 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1074</Identifier>
     <IdentifierType>PUID</IdentifierType>

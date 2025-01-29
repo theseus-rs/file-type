@@ -1,9 +1,6 @@
 <FileFormat>
   <FormatID>10927828397113750156</FormatID>
   <FormatName>pkcs7 certificates</FormatName>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceSourceDate>11 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>httpd/10927828397113750156</Identifier>
     <IdentifierType>PUID</IdentifierType>

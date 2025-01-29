@@ -4,10 +4,6 @@
   <FormatVersion>1-3</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>Serif PagePlus is a desktop publishing application.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1537</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,6 +34,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1470</RelatedFormatID>
     <RelatedFormatName>Serif PagePlus Publication</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

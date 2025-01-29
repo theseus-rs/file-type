@@ -5,10 +5,6 @@
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Binary format for configuration, containing paths to printers and/ or dictionaries, used by Software602 programmes.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
-  <ProvenanceSourceDate>14 Jun 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Jun 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1711</Identifier>
     <IdentifierType>PUID</IdentifierType>

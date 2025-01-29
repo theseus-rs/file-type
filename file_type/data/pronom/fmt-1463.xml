@@ -4,10 +4,6 @@
   <FormatVersion>8.2.1 onwards</FormatVersion>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>Ableton Live Set (.als) files are created by Ableton Live, audio production software for Mac or Windows, which enables the recording and layout of live music sets. As of release 8.2.1, .als files appear to consist of a Gzipped XML file, but with the .als extension. Earlier version of .als files may vary. Please contact the PRONOM team if you are able to assist with identification of other versions.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Programme Vitam / Programme Vitam</ProvenanceName>
-  <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>30 Jun 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1463</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -45,6 +41,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

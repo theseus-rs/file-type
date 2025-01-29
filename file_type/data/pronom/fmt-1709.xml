@@ -3,15 +3,6 @@
   <FormatName>Persuasion Presentation Interchange File</FormatName>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Persuasion Presentation Interchange File is part of Aldus Persuasion format family. The format was created in 1995 following the merger of Adulus Corporation with Adobe Systems, re-branding the software to Adobe Persuasion and creating versions for Microsoft Windows. Since the file formats for Macintosh and Windows differ, the intechange format was introduced to allow for transfer between these platforms. Aldus Persuasion is now discontinued presentation program software first developed by Peter Polash in 1988 for the Macintosh.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>14 Jun 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Jun 2022</LastUpdatedDate>
-  <FormatNote>https://en.wikipedia.org/wiki/Adobe_Persuasion
-
-http://fileformats.archiveteam.org/wiki/Persuasion
-
-https://adobe.fandom.com/wiki/Adobe_Persuasion</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1709</Identifier>
     <IdentifierType>PUID</IdentifierType>

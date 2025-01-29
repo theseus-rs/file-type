@@ -6,10 +6,6 @@
   <FormatDescription>Lotus 1-2-3 Workbook is a spreadsheet program produced by the Lotus Software Group (later acquired by IBM). The original release was in 1983 and it has been discontinued since 2013.
 
 The original 1-2-3 files have .wks extensions. Version 2.0 originally used a .wk1 extension but this was changed quickly to .wk2 and after this the number in the extension corrolates with the version number. Some later versions have the extension .123</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Aarhus City Archives / Aarhus Stadsarkiv</ProvenanceName>
-  <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.lotus-1-2-3</Identifier>
     <IdentifierType>MIME</IdentifierType>

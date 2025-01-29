@@ -4,10 +4,6 @@
   <FormatVersion>3</FormatVersion>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Microsoft PowerPoint Presentation is a proprietary binary file format developed by Microsoft Corporation used to store presentation files created in the Microsoft PowerPoint presentation system. This record describes version 3 of .ppt file format for Macintosh, released in September 1992. Versions up to version 4 of Microsoft PowerPoint use .ppt as extension,  however they are not compatible with each other. Microsoft made backwards compatibility an optional add-on after Office 2003 and appears to have removed it altogether in Office 2010.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>24 May 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>24 May 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-PowerPoint</Identifier>
     <IdentifierType>MIME</IdentifierType>

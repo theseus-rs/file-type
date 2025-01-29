@@ -3,11 +3,6 @@
   <FormatName>Canon CIF File</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>A Canon CIF file is present in the Canon XF folder structure that is used by media cards associated with cameras such as XF205 and C300. It contains information identifying the clip and the camera used, including type, serial number and version. Additionally, it stores some information which can be seen and edited in the Canon XF Utility, such as the Clip Status (OK/Check/None). It is found within each CANON XF/CLIPS 001/AAxxxx directory, where xxxx is an automatically generated number beginning with 0001. A full copy of the file exists within the INDEX.MIF file (fmt/1749) found within the CANONXF/CLIPS001 directory. Although little official documentation exists, CIF likely stands for Clip Information File.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>24 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Aug 2022</LastUpdatedDate>
-  <FormatNote>http://www.premierepro.org/2016/10/canon-xf-c300-xf305-folder-structure-and-file-naming-explained/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1750</Identifier>
     <IdentifierType>PUID</IdentifierType>

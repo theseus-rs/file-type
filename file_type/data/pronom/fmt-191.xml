@@ -5,10 +5,6 @@
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>ARW is a raw image format produced by some makes of Sony cameras. The format is based upon TIFF.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Oct 2009</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Nov 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/191</Identifier>
     <IdentifierType>PUID</IdentifierType>

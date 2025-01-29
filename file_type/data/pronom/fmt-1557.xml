@@ -3,13 +3,6 @@
   <FormatName>Cyber Paint Sequence</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Cyber Paint Sequence is an animated raster graphics format associated with the Cyber Paint application created by Jim Kent for Atari ST computers. The aplication Cyber Paint was used with 2D animation program that brought together a wide variety of animation and paint functionality and the delta-compressed animation format developed for CAD-3D. Cyber Paint was one of the first consumer program that enabled the user to paint across time in a compressed digital video format. The programme was based on its predecessor Flicker, with Cyber Paint Sequence format being able to handle hundreds of frames rather than ten or twelve only.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Nov 2021</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Cyber_Paint_Sequence
-
-https://doudoroff.com/atari/cyberpaint.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1557</Identifier>
     <IdentifierType>PUID</IdentifierType>

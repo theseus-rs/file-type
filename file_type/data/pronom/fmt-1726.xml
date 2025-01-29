@@ -3,10 +3,6 @@
   <FormatName>Geosoft Map Description File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>File format developed by Geosoft to integrate all graphics elements such as polygons, lines and text and layers (images, data, basemaps, plots and grids) constructed in Oasis montaj software.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>07 Jul 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>07 Jul 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1726</Identifier>
     <IdentifierType>PUID</IdentifierType>

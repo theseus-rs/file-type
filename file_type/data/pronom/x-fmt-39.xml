@@ -3,11 +3,6 @@
   <FormatName>AutoCAD dbConnect Query Set</FormatName>
   <FormatDescription>AutoCAD is 2D and 3D computer-aided design software used by professionals such as architects, engineers and city planners to prepare technical drawings. Developed by Autodesk, it was first released in 1982, and is now very widely used. AutoCAD dbConnect Query Set files contain a set of SQL queries saved by AutoCAD, and usually created in the Query Editor.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118)- Added internal signature. Submitted by the National Archives and Records Administration; 07/2024 (v.119)- Format linked to wrong internal signature and error corrected. Submitted by Preservica.</ProvenanceDescription>
-  <LastUpdatedDate>08 Jul 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/39</Identifier>
     <IdentifierType>PUID</IdentifierType>

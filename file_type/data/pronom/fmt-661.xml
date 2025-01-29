@@ -3,11 +3,6 @@
   <FormatName>Sigma RAW Image</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The X3F file type is a RAW image format primarily associated with Sigma digital cameras.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>http://www.photofo.com/x3f-raw-format/</ProvenanceDescription>
-  <LastUpdatedDate>23 Sep 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/661</Identifier>
     <IdentifierType>PUID</IdentifierType>

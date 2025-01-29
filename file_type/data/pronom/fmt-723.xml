@@ -3,10 +3,6 @@
   <FormatName>Farandole Composer Module</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Farandole Composer is an audio sequencer. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>12 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/723</Identifier>
     <IdentifierType>PUID</IdentifierType>

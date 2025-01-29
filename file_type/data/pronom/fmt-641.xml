@@ -3,10 +3,6 @@
   <FormatName>Epson Raw Image Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>This format is the RAW image format used in Epsom cameras. RAW format images contain all the data that is taken directly from the camera's image sensor before the software in the camera applies things like white balance, sharpening etc. Storing photographs in a camera's RAW format allows you to alter those settings after the photograph has been taken.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
-  <ProvenanceSourceDate>31 Mar 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>31 Mar 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/641</Identifier>
     <IdentifierType>PUID</IdentifierType>

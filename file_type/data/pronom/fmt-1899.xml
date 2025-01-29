@@ -3,11 +3,6 @@
   <FormatName>RIS Citation</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>The RIS file format is a standardised tag format created by Research Information Systems, Incorporated to facilitate the exchange of data between citation programs. This file format is widely supported by numerous reference managers, digital libraries and online library catalogs. The RIS format is also used by citation management applications for the import and export of citations. There exist two major versions of the RIS format, and the format has a file size limit of 1MB.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>08 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>08 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/RefMan</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/x-research-info-systems</Identifier>
     <IdentifierType>MIME</IdentifierType>

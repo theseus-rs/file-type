@@ -3,10 +3,6 @@
   <FormatName>Lightwright Show File</FormatName>
   <FormatVersion>4</FormatVersion>
   <FormatDescription>Lightwright is software created by John McKernon for the management of theatrical lighting data and paperwork.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>New York Public Library / New York Public Library</ProvenanceName>
-  <ProvenanceSourceDate>26 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1154</Identifier>
     <IdentifierType>PUID</IdentifierType>

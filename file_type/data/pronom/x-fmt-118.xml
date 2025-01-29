@@ -4,10 +4,6 @@
   <FormatVersion>2.0</FormatVersion>
   <FormatDescription>PUID deprecated. Please see fmt/166: Microsoft Works Spreadsheet 1-5</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/118</Identifier>
     <IdentifierType>PUID</IdentifierType>

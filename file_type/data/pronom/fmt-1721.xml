@@ -3,13 +3,6 @@
   <FormatName>Pablo Paint Raster Image</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Pablo Paint is a raster image format originating from the Atari line of computers. It has two known extensions. The first is .ppp and is reserved for lower resolution images. The second is .pa3 and is associated with higher resolution images. Both are identified by the same internal signature.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>15 Jun 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>15 Jun 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/PabloPaint
-
-https://temlib.org/AtariForumWiki/index.php/Pablo_Paint_file_format</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1721</Identifier>
     <IdentifierType>PUID</IdentifierType>

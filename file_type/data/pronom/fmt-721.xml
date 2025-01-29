@@ -2,10 +2,6 @@
   <FormatID>1520</FormatID>
   <FormatName>VLW Font File</FormatName>
   <FormatDescription>VLW is a font file created by the Processing Development Environment. At this stage no identification signature exists, but this may be possible with further research.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Museum of London / Museum of London</ProvenanceName>
-  <ProvenanceSourceDate>12 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/721</Identifier>
     <IdentifierType>PUID</IdentifierType>

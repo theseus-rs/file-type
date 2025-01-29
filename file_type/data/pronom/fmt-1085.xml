@@ -3,10 +3,6 @@
   <FormatName>TRIM Context Reference File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>TRIM is an electronic document and records management system developed by Hewlett Packard. The TRIM Context Reference file contains metadata relating to a digital object and acts as a link to that object.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Public Record Office of Northern Ireland / Public Record Office of Northern Ireland</ProvenanceName>
-  <ProvenanceSourceDate>18 Aug 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Aug 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1085</Identifier>
     <IdentifierType>PUID</IdentifierType>

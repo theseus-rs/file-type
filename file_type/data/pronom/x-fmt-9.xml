@@ -6,14 +6,6 @@
   <FormatDescription>dBase is a database management systems for microcomputers.The dBase system includes the core database engine, a query system, a forms engine, and a programming language that ties all of these components together. dBase's underlying file format, the .dbf file, is widely used in applications needing a simple format to store structured data.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>10 Oct 2003</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Links and specifications added to note field. Submitted by The National Library of Australia.</ProvenanceDescription>
-  <LastUpdatedDate>15 Nov 2023</LastUpdatedDate>
-  <FormatNote>http://www.dbase.com/help/Design_Tables/IDH_TABLEDES_FIELD_TYPES.htm;http://www.dbase.com/KnowledgeBase/int/db7_file_fmt.htm
-
-https://www.promotic.eu/en/pmdoc/Subsystems/Db/dBase/DbfFormat.htm</FormatNote>
   <FileFormatIdentifier>
     <Identifier>x-fmt/9</Identifier>
     <IdentifierType>PUID</IdentifierType>

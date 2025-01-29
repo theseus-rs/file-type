@@ -15,11 +15,6 @@ SCENENAMES.SML - contains any entry and setting that has been made under the Set
 TRKANAME.SML - contains any entry and setting that has been made under the Track A selection of the Rec: Track Names Setup Menu option.
 
 TRKBNAME.SML - contains any entry and setting that has been made under the Track B selection of the Rec: Track Names Setup Menu option.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>26 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Aug 2022</LastUpdatedDate>
-  <FormatNote>https://www.sounddevices.com/sounddev-folder-in-7-series-storage-volumes/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1766</Identifier>
     <IdentifierType>PUID</IdentifierType>

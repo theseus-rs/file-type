@@ -4,11 +4,6 @@
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>ASEG-GDF2 (Australian Society of Exploration Geophysicists General Data Format Revision 2) is a data standard for the exchange and archive of geophysical data. Its primary purpose is to provide a consistent and self-documenting method for exchanging and archiving geophysical data between organisations with different hardware and software systems. 
 For data to comply with the standard, it must be stored as a set of related ASCII files, which must include the following four filetypes as a minimum: File1.DAT, survey.DES, survey.DFN and survey.MET.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>06 Jan 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Jan 2022</LastUpdatedDate>
-  <FormatNote>ttps://www.aseg.org.au/sites/default/files/pdf/ASEG-GDF2-REV4.pdf</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1592</Identifier>
     <IdentifierType>PUID</IdentifierType>

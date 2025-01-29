@@ -3,10 +3,6 @@
   <FormatName>Aero Studio Song</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>.aero files are song files produced by Aero Studio, software produced by ioNeo. The software enabled the user to edit songs with tracker style pattern editing, and use any number of inputs and outputs.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>16 Feb 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Feb 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1620</Identifier>
     <IdentifierType>PUID</IdentifierType>

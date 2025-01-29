@@ -4,11 +4,6 @@
   <FormatVersion>2007-2009</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>Binary DXF format is the binary encoded variant of the Drawing Interchange File Format, an exchange format for vector graphics developed by AutoDesk. They are probably the widely-used formats for exchanging vector data, and have become a de-facto industry standard. The format is owned by AutoDesk and typically changes with each release of their AutoCAD family of products. DXF files contain a tagged representation of the vector data. The structure comprises a Header section, followed by sections containing data on Classes, Tables, Blocks, Entities and, optionally, thumbnail images. Each section contains a series of data elements. each preceded by a group code tag, which indicates the type of data element. Binary DXF was first developed in AutoCAD Release 2007-2009. It should not be confused with the DXB format - this is an entirely separate AutoDesk format for binary encoding vector graphics.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>25 Sep 2020</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Modified the offset values from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>15 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1390</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -45,18 +40,15 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2212</RelatedFormatID>
     <RelatedFormatName>Drawing Interchange Format (Binary)</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2209</RelatedFormatID>
     <RelatedFormatName>Drawing Interchange Format (Binary)</RelatedFormatName>
-    <RelatedFormatVersion>2010-2012</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>744</RelatedFormatID>
     <RelatedFormatName>Drawing Interchange File Format (Binary)</RelatedFormatName>
-    <RelatedFormatVersion>2004-2006</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

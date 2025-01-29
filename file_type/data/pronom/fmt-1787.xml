@@ -3,13 +3,6 @@
   <FormatName>G9B Graphics Format Bitmap</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>G9B is a raster image graphics format associated with the GFX9000, a GFX9k library for MSX computers.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Oct 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/G9B
-
-https://www.teambomba.net/gfx9klib.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1787</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,19 +4,6 @@
   <FormatAliases>Covox 8-bit audio</FormatAliases>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Covox ADPCM Audio Files (also known as Covox 8-bit audio) is a title for a family of Adaptive Differential Pulse Code Modulation (ADPCM) formats, used for compressing 8-bit unsigned pulse code modulation. They were invented by Covox for use with Covox sound output devices. ADPCM is a lossy compression format containing audio data that are optimized for storing digitally recorded or sampled voice data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>26 Apr 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Apr 2022</LastUpdatedDate>
-  <FormatNote>https://wiki.multimedia.cx/index.php/Covox_ADPCM
-
-https://www.wikidata.org/wiki/Q105853888
-
-https://www.file-extensions.org/vmf-file-extension-covox-speech-thing-sample
-
-https://en.wikipedia.org/wiki/Covox_Speech_Thing
-
-https://www.online-convert.com/file-format/adpcm</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1676</Identifier>
     <IdentifierType>PUID</IdentifierType>

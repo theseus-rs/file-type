@@ -4,10 +4,6 @@
   <FormatAliases>EXE</FormatAliases>
   <FormatDescription>The New Executable (abbreviated NE or NewEXE) is a 16-bit .exe file format, a successor to the DOS MZ executable format. It is used by 16-bit Microsoft Windows, and by some versions of OS/2 and MS-DOS.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>17 Feb 2006</ProvenanceSourceDate>
-  <LastUpdatedDate>17 Feb 2006</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>com.microsoft.windows-executable</Identifier>
     <IdentifierType>Apple Uniform Type Identifier</IdentifierType>
@@ -41,13 +37,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1704</RelatedFormatID>
     <RelatedFormatName>Windows Portable Executable</RelatedFormatName>
-    <RelatedFormatVersion>32 bit</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1705</RelatedFormatID>
     <RelatedFormatName>Windows Portable Executable</RelatedFormatName>
-    <RelatedFormatVersion>64 bit</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

@@ -3,12 +3,6 @@
   <FormatName>InDesign Markup Language Package</FormatName>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>IDML is an XML representation of an Adobe InDesign Document. The package format is conformant with the Universal Container Format and identification is based on the contents of the mimetype file with the zip container.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>09 Aug 2018</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>24 Feb 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/IDML</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/vnd.adobe.indesign-idml-package</Identifier>
     <IdentifierType>MIME</IdentifierType>

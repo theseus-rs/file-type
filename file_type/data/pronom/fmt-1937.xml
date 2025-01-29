@@ -3,10 +3,6 @@
   <FormatName>Amazon Kindle eBook File</FormatName>
   <FormatTypes>Page Description</FormatTypes>
   <FormatDescription>Azw was a proprietary e-book file format, created by Amazon, which could be used on any device which had its kindle app, eg smartphones, tablets, computers and of course the Kindle. It is basically the mobi format (fmt/396), but can be distinguished from this by the presence of bytes 'kindle:'. It has been superseded by the EPUB format for Amazon Kindle use.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>30 Oct 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>30 Oct 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1937</Identifier>
     <IdentifierType>PUID</IdentifierType>

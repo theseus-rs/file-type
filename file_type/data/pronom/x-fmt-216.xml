@@ -4,10 +4,6 @@
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Microsoft Powerpoint had a feature which would compile the document along with all media used into a single file, using the Cabinet archive format, but with a ppz extension, rather than the typical cab extension.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Feb 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/216</Identifier>
     <IdentifierType>PUID</IdentifierType>

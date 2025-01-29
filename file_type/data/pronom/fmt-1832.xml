@@ -3,11 +3,6 @@
   <FormatName>ArcSoft PhotoStudio File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>ArcSoft PhotoStudio files (.psf) are bitmap images native to the ArcSoft suite of Photo editing tools, which include PhotoStudio and PhotoImpression.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>22 Feb 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Feb 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/PSF_(PhotoStudio)</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1832</Identifier>
     <IdentifierType>PUID</IdentifierType>

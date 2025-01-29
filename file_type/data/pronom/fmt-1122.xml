@@ -3,10 +3,6 @@
   <FormatName>VAMAS Surface Chemical Analysis Standard Data Transfer Format</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>The VAMAS Surface Chemical Analysis Standard Data Transfer Format is designed to facilitate interchange of chemical analysis data. The format is standaradised within ISO14976. Please contact the PRONOM team if you are able to provide a more detailed description.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>University of Edinburgh / University of Edinburgh</ProvenanceName>
-  <ProvenanceSourceDate>27 Nov 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Nov 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1122</Identifier>
     <IdentifierType>PUID</IdentifierType>

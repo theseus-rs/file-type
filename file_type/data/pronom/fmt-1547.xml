@@ -4,21 +4,6 @@
   <FormatVersion>III</FormatVersion>
   <FormatTypes>Font</FormatTypes>
   <FormatDescription>Daisy-Dot is a text processing program written by Roy Goldman for the Atari line of computers enabling dot-matrix printers to utilise near letter quality (NLQ) printing technology. Three versions of Daisy-Dot were released between 1987 and 1990. A number of Daisy-Dot font files are pre-packaged with the text processor while others can be user-generated using the Daisy-Dot font editor. Daisy-Dot I and II fonts can be identified by the ASCII signature '3' followed by 0x9B.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>08 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>08 Nov 2021</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Daisy-Dot_font
-
-https://atariage.com/forums/topic/291455-daisy-dot-source-code/
-
-http://infolab.stanford.edu/~royg/work/index.html
-
-http://85.11.68.68/stuff/collections/PoolDisk%20Too/CD2/UMICH/TEXT/PRINTING/DDOT2/
-
-https://ia601000.us.archive.org/20/items/DaisyDotIIIUsersGuide/Daisy_Dot_III_Users_Guide.pdf
-
-http://docplayer.net/210522943-Daisy-dot-iii-copyright-1990-by-roy-goldman.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1547</Identifier>
     <IdentifierType>PUID</IdentifierType>

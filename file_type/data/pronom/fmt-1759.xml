@@ -3,10 +3,6 @@
   <FormatName>Media Descriptor Sidecar File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Media Descriptor Sidecar File contains metadata and structural information about the Media Descriptor File. It is found alongside files with the extension .mdf. These files are created from the software Alcohol %120 which was developed by Alcohol Soft.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Royal Danish Library / The Royal Danish Library</ProvenanceName>
-  <ProvenanceSourceDate>26 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Aug 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1759</Identifier>
     <IdentifierType>PUID</IdentifierType>

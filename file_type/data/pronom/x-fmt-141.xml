@@ -5,10 +5,6 @@
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Calendar Creator is software published by Broderbund Software for the creation of personlised calendars.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>10 Oct 2003</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/141</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,6 +30,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2113</RelatedFormatID>
     <RelatedFormatName>Calendar Creator Event</RelatedFormatName>
-    <RelatedFormatVersion>3-4</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

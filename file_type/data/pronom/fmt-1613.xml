@@ -3,11 +3,6 @@
   <FormatName>XML Shareable Playlist Format</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>Xspf is a format for sharing playlists, supported by many applications. It uses xml, so is easily edited with a text editor. The official website gives useful information as to the structure of xspf files: https://www.xspf.org/quickstart</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>27 Jan 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Jan 2022</LastUpdatedDate>
-  <FormatNote>Specification: https://www.xspf.org/spec</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1613</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,6 +36,5 @@ EOF, offset 0-1: &lt;/playlist&gt;</SignatureNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

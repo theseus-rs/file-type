@@ -4,10 +4,6 @@
   <FormatAliases>Capture One Raw Image</FormatAliases>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Phase One is a camera manufacturer and Capture One is the accompanying software. This format contains the raw image data captured by the camera's image sensor.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Historic Environment Scotland / Historic Environment Scotland</ProvenanceName>
-  <ProvenanceSourceDate>12 Jul 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1060</Identifier>
     <IdentifierType>PUID</IdentifierType>

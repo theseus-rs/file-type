@@ -2,10 +2,6 @@
   <FormatID>1591</FormatID>
   <FormatName>Unified Emulator Format</FormatName>
   <FormatDescription>The Unified Emulator Format (UEF) was developed by Thomas Harte and is a format that is used to store audio tapes, ROMs, floppy discs and machine state snapshots for the 8-bit range of computers manufactured by Acorn Computers. UEF files can be created using an application called MakeUEF which converts audio samples into UEF files, MakeUEF claims to be the sole creator of UEF files available on websites prior to November 2004. From version 1.0 of MakeUEF the fidelity of the software was improved and an additional extension of .hq.uef (meaning high quality) was adopted for these files.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Nov 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/792</Identifier>
     <IdentifierType>PUID</IdentifierType>

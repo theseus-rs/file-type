@@ -4,11 +4,6 @@
   <FormatVersion>3.1</FormatVersion>
   <FormatTypes>Page Description</FormatTypes>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>26 Feb 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>Whilst format does not appear to currently have a publically available specification, it appears to be an extension to PostScript 3.0 (http://partners.adobe.com/public/developer/en/ps/5001.DSC_Spec.pdf)</ProvenanceDescription>
-  <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/postscript</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -38,7 +33,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>331</RelatedFormatID>
     <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -49,6 +43,5 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>773</RelatedFormatID>
     <RelatedFormatName>PostScript</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

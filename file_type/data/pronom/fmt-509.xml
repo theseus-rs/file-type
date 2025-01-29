@@ -3,11 +3,6 @@
   <FormatName>Adobe PostScript Font Metrics file</FormatName>
   <FormatDescription>Part of the PostScript Type 1 font format family. On Windows, Type 1 fonts consist of a PostScript Font Binary (.PFB) file, plus a corresponding PostScript Font Metrics (.PFM) file. (Some very old Type 1 fonts may ship with a .PFB, .AFM, and .INF file. Installing such fonts will create a .PFM file from the .AFM and .INF files.)</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Borthwick Institute for Archives / The Borthwick Institute for Archives</ProvenanceName>
-  <ProvenanceSourceDate>26 Feb 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>Descriptive text extracted from here: http://www.adobe.com/type/browser/info/formats.html</ProvenanceDescription>
-  <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/509</Identifier>
     <IdentifierType>PUID</IdentifierType>

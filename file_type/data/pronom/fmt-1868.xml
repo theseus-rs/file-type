@@ -3,11 +3,6 @@
   <FormatName>Leapfrog Geo 3D Scene Format</FormatName>
   <FormatTypes>GIS</FormatTypes>
   <FormatDescription>Leapfrog Geo is for a suite of 3D geological modelling software, which is used particularly by the mining industry. Users can generate 3D models by inputting large datasets.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>24 May 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>24 May 2023</LastUpdatedDate>
-  <FormatNote>https://www.seequent.com/products-solutions/leapfrog-geo/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1868</Identifier>
     <IdentifierType>PUID</IdentifierType>

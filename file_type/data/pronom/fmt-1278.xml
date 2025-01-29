@@ -3,10 +3,6 @@
   <FormatName>Cindex Document</FormatName>
   <FormatVersion>3</FormatVersion>
   <FormatDescription>Cindex is software developed by Indexing Research for creating indexes to books, newspapers and other periodical publications. The .UTPL variant is a template file, however it is structurally identical to .UCDX.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1278</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,12 +33,10 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2097</RelatedFormatID>
     <RelatedFormatName>Cindex Document</RelatedFormatName>
-    <RelatedFormatVersion>4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2095</RelatedFormatID>
     <RelatedFormatName>Cindex Document</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

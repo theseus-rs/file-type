@@ -4,11 +4,6 @@
   <FormatVersion>1.6</FormatVersion>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The Digital Negative (DNG) specification describes a non-proprietary file format for storing camera raw files that can be used by a wide range of hardware and software vendors. DNG is an extension of the TIFF format, and is compatible with the TIFF-EP standard. This version was published in December 2021 and includes support for large files (64-bit BigTIFF extension), semantic masks and triple-illuminant calibration profies.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>07 Mar 2023</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.116)- New MIME type identifier 'image/dng' added and max offset of EOF internal signatures increased to 128000. Submitted by Brigham Young University.</ProvenanceDescription>
-  <LastUpdatedDate>16 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1842</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -92,19 +87,16 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>672</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>673</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>752</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -125,13 +117,11 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2804</RelatedFormatID>
     <RelatedFormatName>Digital Negative Format (DNG)</RelatedFormatName>
-    <RelatedFormatVersion>1.7</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2693</RelatedFormatID>
     <RelatedFormatName>Digital Negative Format (DNG)</RelatedFormatName>
-    <RelatedFormatVersion>1.5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>

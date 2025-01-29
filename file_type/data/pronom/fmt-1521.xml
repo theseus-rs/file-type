@@ -4,11 +4,6 @@
   <FormatVersion>8</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>Serif DrawPlus is a vector image creation application.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2021</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>25 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1521</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -32,6 +27,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2352</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

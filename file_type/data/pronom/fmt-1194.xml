@@ -4,10 +4,6 @@
   <FormatVersion>2</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Z3D is the native format of the ZModeler 3D modelling application.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>13 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1194</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,12 +29,10 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2005</RelatedFormatID>
     <RelatedFormatName>ZModeler Z3D</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2003</RelatedFormatID>
     <RelatedFormatName>ZModeler Z3D</RelatedFormatName>
-    <RelatedFormatVersion>1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

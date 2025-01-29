@@ -3,10 +3,6 @@
   <FormatName>Peak Graphical Waveform File</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Peak files contain waveform information for audio files (e.g. wav or mp3). They allow some applications to generate a graphical representation of the waveform of the audio content of associated audio files, and can enable such audio files to be accessed more quickly by reducing the time it takes to draw the waveform of the audio content.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>30 Mar 2011</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Oct 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/330</Identifier>
     <IdentifierType>PUID</IdentifierType>

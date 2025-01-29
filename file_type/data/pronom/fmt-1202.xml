@@ -3,10 +3,6 @@
   <FormatName>Guymager Acquisition Info File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>The Guymager Acquisition Info File is produced by the Guymager digital forensics imaging tool, and contains logging information about the imaging process.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>16 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1202</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,10 +4,6 @@
   <FormatVersion>2.0</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>Adobe FrameMaker format is a desktop publishing and word processing format originally developed by Frame Technology Corp. Frame Technology Corp was bought by Adobe Systems in 1995, who continued to develop and support FrameMaker.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
-  <ProvenanceSourceDate>19 Jul 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Jul 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.framemaker</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -37,6 +33,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1321</RelatedFormatID>
     <RelatedFormatName>Adobe FrameMaker Document</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

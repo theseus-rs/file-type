@@ -6,36 +6,10 @@
   <FormatDescription>The OLE2 Compound Document Format is a generic document format developed by Microsoft as the underlying native binary format for many of its Office applications. The format is proprietary and Microsoft does not make details of its structure public. The information here is derived primarily from OpenOffice.org's reverse-engineered documentation of the format and should not therefore be regarded as definitive. A Compound Document acts as a file system in which independent data streams are organised within a hierarchy of containers, called storages. All storages and streams are contained within a parent Root Storage. A Directory Stream indexes every stream and storage in the file. A Compound Document begins with the Compound Document Header, including pointers to the location of the Directory Stream and Master Sector Allocation Table. The remainder of the file is organised into Sectors, the positions of which are defined in the Sector Allocation Table and Master Sector Allocation Table.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel) and Big-endian (Motorola)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>24 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/111</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>11</DocumentID>
-    <DisplayText>OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Compound Document file format</DisplayText>
-    <DocumentType>Speculative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>15 Sep 2004</PublicationDate>
-    <TitleText>OpenOffice.org's documentation of the Microsoft Compound Document file format</TitleText>
-    <DocumentIdentifier>
-      <Identifier>sc.openoffice.org/compdocfileformat.pdf</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>103</AuthorID>
-      <OrganisationName>OpenOffice.org</OrganisationName>
-      <AuthorCompoundName>OpenOffice.org</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>103</PublisherID>
-      <OrganisationName>OpenOffice.org</OrganisationName>
-      <PublisherCompoundName>OpenOffice.org</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <InternalSignature>
     <SignatureID>170</SignatureID>
     <SignatureName>OLE2 Compound Document Format</SignatureName>
@@ -51,73 +25,61 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>76</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Document Template</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>133</RelatedFormatID>
     <RelatedFormatName>Microsoft PowerPoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>4.x</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>134</RelatedFormatID>
     <RelatedFormatName>Microsoft Powerpoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>95</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>135</RelatedFormatID>
     <RelatedFormatName>Microsoft Powerpoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>165</RelatedFormatID>
     <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
-    <RelatedFormatVersion>5.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>376</RelatedFormatID>
     <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
-    <RelatedFormatVersion>2000-2002</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>682</RelatedFormatID>
     <RelatedFormatName>Microsoft Excel 5.0/95 Workbook (xls)</RelatedFormatName>
-    <RelatedFormatVersion>5/95</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>684</RelatedFormatID>
     <RelatedFormatName>Microsoft Excel 97 Workbook (xls)</RelatedFormatName>
-    <RelatedFormatVersion>8</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>685</RelatedFormatID>
     <RelatedFormatName>Microsoft Excel 2000-2003 Workbook (xls)</RelatedFormatName>
-    <RelatedFormatVersion>8X</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>688</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Document</RelatedFormatName>
-    <RelatedFormatVersion>6.0/95</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>690</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Document</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>822</RelatedFormatID>
     <RelatedFormatName>Microsoft Outlook Email Message</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -128,79 +90,66 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1230</RelatedFormatID>
     <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
-    <RelatedFormatVersion>2003-2010</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1553</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Document (Password Protected)</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1554</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Document Template (Password Protected)</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2471</RelatedFormatID>
     <RelatedFormatName>Roxio Label Creator Project File</RelatedFormatName>
-    <RelatedFormatVersion>4-5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2472</RelatedFormatID>
     <RelatedFormatName>Roxio Label Creator Project File</RelatedFormatName>
-    <RelatedFormatVersion>6-7</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>134</RelatedFormatID>
     <RelatedFormatName>Microsoft Powerpoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>95</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>135</RelatedFormatID>
     <RelatedFormatName>Microsoft Powerpoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>682</RelatedFormatID>
     <RelatedFormatName>Microsoft Excel 5.0/95 Workbook (xls)</RelatedFormatName>
-    <RelatedFormatVersion>5/95</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>683</RelatedFormatID>
     <RelatedFormatName>Excel 95 Workbook (xls)</RelatedFormatName>
-    <RelatedFormatVersion>7</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>684</RelatedFormatID>
     <RelatedFormatName>Microsoft Excel 97 Workbook (xls)</RelatedFormatName>
-    <RelatedFormatVersion>8</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>685</RelatedFormatID>
     <RelatedFormatName>Microsoft Excel 2000-2003 Workbook (xls)</RelatedFormatName>
-    <RelatedFormatVersion>8X</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>688</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Document</RelatedFormatName>
-    <RelatedFormatVersion>6.0/95</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>690</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Document</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
@@ -231,12 +180,10 @@
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1553</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Document (Password Protected)</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1554</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Document Template (Password Protected)</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

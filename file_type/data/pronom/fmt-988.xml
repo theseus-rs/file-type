@@ -3,11 +3,6 @@
   <FormatName>ESRI ArcScene Document</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>In the ArcGIS platform by ESRI ArcScene formats allow 3D visualization of GIS data. ArcScenedocuments can overlay multiple layers of data in a 3D environment.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Feb 2017</ProvenanceSourceDate>
-  <ProvenanceDescription>This format is identifiable via a container signature in DROID 6 and later.</ProvenanceDescription>
-  <LastUpdatedDate>06 Feb 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/988</Identifier>
     <IdentifierType>PUID</IdentifierType>

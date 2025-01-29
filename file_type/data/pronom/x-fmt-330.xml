@@ -4,10 +4,6 @@
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>JustWrite is a word processer which was developed by the Symantec Corporation in the 1990's.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/330</Identifier>
     <IdentifierType>PUID</IdentifierType>

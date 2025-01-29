@@ -3,15 +3,6 @@
   <FormatName>Sample Vision Audio File Format</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>The SampleVision format is native to the Turtle Beach SampleVision program. The format supports  mono 16-bit audio and loop points.The Format was developed for use with the SampleVision software program, which was designed to send and receive samples via the MIDI interface on a PC. It consists of a variable-length header followed by a contiguous block of binary data representing the sound samples.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Nov 2021</LastUpdatedDate>
-  <FormatNote>https://help.adobe.com/archive/en_US/audition/3/audition_3_help.pdf#page=255 
-
-http://sox.sourceforge.net/AudioFormats-11.html
-
-https://nixdoc.net/man-pages/IRIX/man4/smp.4.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1560</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>TCR eBook</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>TCR is an eBook format developed by Psion. Please contact the PRONOM team if you can provide a more detailed description.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>19 Sep 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Sep 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1099</Identifier>
     <IdentifierType>PUID</IdentifierType>

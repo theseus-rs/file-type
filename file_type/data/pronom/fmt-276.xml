@@ -4,11 +4,6 @@
   <FormatVersion>1.7</FormatVersion>
   <FormatTypes>Page Description</FormatTypes>
   <FormatDescription>Portable Document Format is a platform-independent format for representing formatted documents, developed by Adobe Systems Incorporated. It is the native format of Adobe’s Acrobat family of software products, version 1.7 corresponding to the release of Acrobat 8.0 and 9.0.  PDF is based on, and shares the same imaging model as, the PostScript page description language.  A PDF file comprises a Header section, a Body section containing the objects which make up the document, a Cross Reference Table, and a Trailer section.  PDF files can contain a wide variety of content, including text, images, video and audio.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>19 Jul 2010</ProvenanceSourceDate>
-  <ProvenanceDescription>DROID 5.0 research.</ProvenanceDescription>
-  <LastUpdatedDate>19 Jul 2010</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/pdf</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -45,7 +40,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>770</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1a</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -86,43 +80,36 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1100</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1b</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1263</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>2a</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1264</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>2b</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1265</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>2u</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1266</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>3a</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1267</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>3b</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1268</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>3u</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -158,7 +145,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2272</RelatedFormatID>
     <RelatedFormatName>PDF Portfolio</RelatedFormatName>
-    <RelatedFormatVersion>1.7</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -174,42 +160,35 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>637</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF 1.6 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1.6</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1263</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>2a</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1264</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>2b</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1265</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>2u</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1266</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>3a</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1267</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>3b</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1268</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>3u</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

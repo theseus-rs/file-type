@@ -3,10 +3,6 @@
   <FormatName>Maya IFF Image File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Maya is a 3D graphics application published by Autodesk. Maya IFF files are raster images used for images and textures within Maya.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>01 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>01 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1169</Identifier>
     <IdentifierType>PUID</IdentifierType>

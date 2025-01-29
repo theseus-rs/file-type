@@ -4,15 +4,6 @@
   <FormatVersion>1.0</FormatVersion>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Persuasion Mac Document format is part of Adulus Persuasion format family. The format is created using the Aldus Persuasion (now discontinued) presentation program software developed by Peter Polash in 1988 for the Macintosh platform by Aldus Corporation. Following a merger of Adobe Systems and Adulus Corporation in 1994, the software was re-branded to Adobe Persuasion and a Microsoft Windows version was released. ere were two versions released for Macintosh only, then starting with version 2.x, a version for Windows was released with each new release up to version 4. Adobe discontinued production of the software in September 1997. This format entry describes the first version of the format which can often have no format extension attached to files.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>14 Jun 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Jun 2022</LastUpdatedDate>
-  <FormatNote>https://en.wikipedia.org/wiki/Adobe_Persuasion
-
-http://fileformats.archiveteam.org/wiki/Persuasion
-
-https://adobe.fandom.com/wiki/Adobe_Persuasion</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1701</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,6 +29,5 @@ https://adobe.fandom.com/wiki/Adobe_Persuasion</FormatNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2538</RelatedFormatID>
     <RelatedFormatName>Persuasion Mac Document</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

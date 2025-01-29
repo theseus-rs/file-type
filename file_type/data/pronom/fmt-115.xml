@@ -8,10 +8,6 @@
 Windows bitmap 2.0 and OS/2 bitmap 1.0 are effectively the same format - the only difference is the data type of the width and height fields of the bitmap header – for Windows 2.0 bitmaps they are signed short integers, for OS/2 1.0 bitmaps they are unsigned shorts. For positive numbers the representation is the same. Consequently, the file formats cannot be distinguished with a file signature test. The PUID for OS/2 Bitmap 1.0 (x-fmt/25) has therefore been deprecated.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Jul 2011</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>com.microsoft.bmp</Identifier>
     <IdentifierType>Apple Uniform Type Identifier</IdentifierType>
@@ -49,24 +45,20 @@ Windows bitmap 2.0 and OS/2 bitmap 1.0 are effectively the same format - the onl
     <RelationshipType>Equivalent to</RelationshipType>
     <RelatedFormatID>55</RelatedFormatID>
     <RelatedFormatName>OS/2 Bitmap</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>729</RelatedFormatID>
     <RelatedFormatName>Windows Bitmap</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>730</RelatedFormatID>
     <RelatedFormatName>Windows Bitmap</RelatedFormatName>
-    <RelatedFormatVersion>3.0 NT</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>727</RelatedFormatID>
     <RelatedFormatName>Windows Bitmap</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

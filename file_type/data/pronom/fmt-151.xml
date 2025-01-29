@@ -7,10 +7,6 @@
   <FormatDescription>JPX is an image file format extended from JP2, providing the potential for extended colour space support, alternative compression methods, and other features. JPX may be used in applications that require additional functionality or data structures beyond those defined in the JP2 file format.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
   <ByteOrders>Big-endian (Motorola)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Feb 2007</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Feb 2007</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/151</Identifier>
     <IdentifierType>PUID</IdentifierType>

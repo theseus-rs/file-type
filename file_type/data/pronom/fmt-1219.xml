@@ -3,10 +3,6 @@
   <FormatName>Gnumeric</FormatName>
   <FormatTypes>Spreadsheet</FormatTypes>
   <FormatDescription>Gnumeric is an open source spreadsheet application. The native format is an XML-based format, that is typically compressed within a GZIP container. It may be desirable to distinguish between different versions of Gnumeric spreadsheet documents. Please contact the PRONOM team if this is the case.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>SLUB Dresden / Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</ProvenanceName>
-  <ProvenanceSourceDate>11 Feb 2019</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Feb 2019</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/x-gnumeric</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -53,12 +49,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

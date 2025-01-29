@@ -3,10 +3,6 @@
   <FormatName>Adobe Photoshop Large Document Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Adobe Photoshop is a raster graphics editor developed and published by Adobe Systems. The Large Document Format supports documents of up to 300,000 pixels in any dimension as opposed to the PSD limit of 30,000 pixels.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/996</Identifier>
     <IdentifierType>PUID</IdentifierType>

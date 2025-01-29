@@ -5,10 +5,6 @@
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>The Print Shop is a desktop publishing application published by Broderbund. The Print Shop Deluxe is one of the early brand names for the product and has a range of format extensions dependent on the type of project being created. More information about the format family can be found here: http://fileformats.archiveteam.org/wiki/The_Print_Shop</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/168</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -76,6 +72,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2117</RelatedFormatID>
     <RelatedFormatName>Broderbund Print Shop Deluxe</RelatedFormatName>
-    <RelatedFormatVersion>5-6</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

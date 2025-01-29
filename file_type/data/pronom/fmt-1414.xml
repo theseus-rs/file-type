@@ -3,10 +3,6 @@
   <FormatName>PFS:Write Document</FormatName>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>PFS:Write was a word processor suite for IBM Compatible PCs and the Apple II. Files may lack an extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>27 Sep 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1414</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>HDF5</FormatName>
   <FormatVersion>0</FormatVersion>
   <FormatDescription>HDF5 is a data model, library, and file format for storing and managing data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Nov 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Nov 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/807</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -47,6 +43,5 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1875</RelatedFormatID>
     <RelatedFormatName>Silo</RelatedFormatName>
-    <RelatedFormatVersion>HDF5 Variant</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -2,11 +2,6 @@
   <FormatID>1229</FormatID>
   <FormatName>Microsoft Visio (generic)</FormatName>
   <FormatDescription>Microsoft Visio is a diagramming and vector graphics application and is part of the Microsoft Office family.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures. This puid has been added so that DROID can identify versions of Visio not currently covered by the container signature file.</ProvenanceDescription>
-  <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.visio</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -24,31 +19,26 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>165</RelatedFormatID>
     <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
-    <RelatedFormatVersion>5.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>376</RelatedFormatID>
     <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
-    <RelatedFormatVersion>2000-2002</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1230</RelatedFormatID>
     <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
-    <RelatedFormatVersion>2003-2010</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2332</RelatedFormatID>
     <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2333</RelatedFormatID>
     <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
-    <RelatedFormatVersion>4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

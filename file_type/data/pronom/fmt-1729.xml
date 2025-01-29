@@ -3,12 +3,6 @@
   <FormatName>Esri Shapefile Geospatial Metadata File</FormatName>
   <FormatTypes>GIS</FormatTypes>
   <FormatDescription>Esri Shapefile (actually a collection of files), was introduced with ArcView GIS software in the early 1990s, but is now used within a wide variety of software. It enables geographical datasets to be used between Esri and other GIS software. Esri Shapefiles consist of a collection of files within a directory. They always have files with extension shp, shx and dbf. The actual shapefile is the .shp file, but the other files are required supporting files. The shp.xml file is not mandatory, and stores geospatial metadata in xml format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Yan Han / University of Arizona Library</ProvenanceName>
-  <ProvenanceSourceDate>07 Jul 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>07 Jul 2022</LastUpdatedDate>
-  <FormatNote>https://en.wikipedia.org/wiki/Shapefile 
-Specification: https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/whitepapers/pdfs/shapefile.pdf</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1729</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -42,6 +36,5 @@ EOF offset 0-5: &lt;/metadata&gt;</SignatureNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

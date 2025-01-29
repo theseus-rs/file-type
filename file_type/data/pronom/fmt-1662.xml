@@ -3,17 +3,6 @@
   <FormatName>Yamaha TX Wave Audio</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>The Yamaha TX Wave Audio format is 12-bit audio wave file created by the Yamaha TX16W sampler. The Yamaha TX16W is a rack-mount sampler sound module with up to 50 kHz mono and 33 kHz stereo sampling. The format is proprietary created by Yamaha, similar to a .WAV file and supports 16, 33, and 50 kHz samples. The file consists of a 32 byte header followed by the actual waveform. This file fomat has multiple extensions, some of which have yet not been identified. The Yamaha SY Series Wave files also can use the same file extension and a simililar BOF sequence of 0x4C4D38393533. Please use links provided to view the full format specification.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>29 Mar 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>29 Mar 2022</LastUpdatedDate>
-  <FormatNote>http://www.youngmonkey.ca/nose/audio_tech/synth/Yamaha-TX16W.html
-
-https://en.wikipedia.org/wiki/Yamaha_TX16W
-
-https://www.file-extensions.org/w%3F%3F-file-extension
-
-https://dompselaar.org/Yamaha/TX16W/MP/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1662</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -149,6 +138,5 @@ https://dompselaar.org/Yamaha/TX16W/MP/</FormatNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2488</RelatedFormatID>
     <RelatedFormatName>Yamaha Wave Audio</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

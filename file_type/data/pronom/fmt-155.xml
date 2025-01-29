@@ -4,14 +4,6 @@
   <FormatTypes>GIS, Image (Raster)</FormatTypes>
   <FormatDescription>GeoTIFF is a metadata standard, within the public domain, which allows georeferenceing information to be embedded within the TIFF file. GeoTIFF format can contain geospatial data such as aerial photography and satellite imagery which can be used in GIS applications. GeoTIFF files can be read by normal TIFF utilities, though they may unintentionally strip out the geospatial data in the process. GeoTIFF was originally created by Dr. Niles Ritter whilst working at NASA Jet Propulsion Laboratory, and published. In 2019 by the Open Geospatial Consortium publihsed the OGC GeoTIFF standard.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Feb 2007</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118)- Increased the max-offset for internal EOF signatures, updated the description, specification and LOC identifier.</ProvenanceDescription>
-  <LastUpdatedDate>22 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://en.wikipedia.org/wiki/GeoTIFF
-http://www.remotesensing.org/geotiff/spec/geotiffhome.html
-http://justsolve.archiveteam.org/wiki/GeoTIFF</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fdd000279</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -105,19 +97,16 @@ http://justsolve.archiveteam.org/wiki/GeoTIFF</FormatNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>672</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>673</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>752</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

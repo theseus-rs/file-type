@@ -5,15 +5,6 @@
   <FormatDescription>A Beam Software SIFF file is an audio file used by a Beam Software video game. Beam Software is an Australian video game developer that was founded in 1978 and acquired by Krome Studios in 2006, at which point Beam was renamed Krome Studios Melbourne. In the 1990s, Beam produced a handful of games that use their proprietary SIFF file format.  The file contains music, sound effects, or dialogue played within a game. The files cannot be played by most popular media players but can be converted to a standard audio format.
 
 The SIFF file format can be used to create files that contain both audio and video or just audio. When a SIFF format file contains both audio and video, it is saved with the .vb extension rather then .son extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Nov 2021</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/SIFF
-
-https://fileinfo.com/extension/son
-
-https://wiki.multimedia.cx/index.php/SIFF</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1559</Identifier>
     <IdentifierType>PUID</IdentifierType>

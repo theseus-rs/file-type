@@ -3,15 +3,6 @@
   <FormatName>SpritePad Image Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>SpritePad is a free cross-development tool for designing sprite images and animations for the Commodore 64 computer. It allows the user to freehand painting or import and convert any existing bitmap image into a C64 compatible sprite or tile set using various tile sizes from 1 x 1 up to 8x8 sprites (64 different sizes). SpritePad has began development in 2003.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Nov 2021</LastUpdatedDate>
-  <FormatNote>https://subchristsoftware.itch.io/spritepad-pro
-
-https://www.lemon64.com/forum/viewtopic.php?t=77770
-
-https://dustlayer.com/c64-coding-tutorials/2013/5/24/episode-3-2-creating-the-shapes-hello-spritepad</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1561</Identifier>
     <IdentifierType>PUID</IdentifierType>

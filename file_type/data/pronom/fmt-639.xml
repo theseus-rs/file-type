@@ -4,10 +4,6 @@
   <FormatVersion>5</FormatVersion>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>The Stuffit Archive file format is a proprietary file compression format originally developed by Raymond Lau in 1987. It supports storing the Resource Fork alongside other files and is commonly used in Mac environments, though a Windows version has also been released.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/x-stuffit</Identifier>
     <IdentifierType>MIME</IdentifierType>

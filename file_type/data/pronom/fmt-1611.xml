@@ -5,13 +5,6 @@
   <FormatDescription>WRAptor Compressed File is a format which was written by Bill Lucier, copyrighted in 1995, distributed by Loadstar and updated  by Doreen Horne. This format is an uncommon compression format, capable of handling PRG, SEQ, USR and GEOS files (Sequential and VLIR), but not REL files. It utilizes a variant of the LZ (Lempel-Ziv) compression algorithm, starting at 9 bits per code. The 4-byte signature of this format is "FF 42 4C FF", with bytes 42 and 4C representing the authors initials in ASCII - "BL". 
 
 There are three versions of this format, all beginning with same magic bytes. The versions differentiate in their file extension with the v1 and v2 using .wra and the final v3 using .wr3. This entry records all versions of this file format. The complete manual of how to handle the software and this format is included with the reference links.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>26 Jan 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Jan 2022</LastUpdatedDate>
-  <FormatNote>http://unusedino.de/ec64/technical/formats/wra-wr3.html
-
-http://www.zimmers.net/anonftp/pub/cbm/c64/archivers/Wraptor-3.0.readme</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1611</Identifier>
     <IdentifierType>PUID</IdentifierType>

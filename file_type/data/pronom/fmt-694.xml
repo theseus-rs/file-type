@@ -2,10 +2,6 @@
   <FormatID>1493</FormatID>
   <FormatName>Dalvik Executable Format</FormatName>
   <FormatDescription>Dalvik is the process virtual machine in Google's Android operating system, which executes applications written for Android. Programs are commonly written in Java and compiled to bytecode for the Java virtual machine, which is then translated to Dalvik bytecode and stored in .dex (Dalvik EXecutable) and .odex (Optimized Dalvik EXecutable) files.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/694</Identifier>
     <IdentifierType>PUID</IdentifierType>

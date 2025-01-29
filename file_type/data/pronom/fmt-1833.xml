@@ -3,11 +3,6 @@
   <FormatName>ArcSoft Album and SlideShow Files for PhotoStudio and PhotoImpression</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Arcsoft PhotoStudio and PhotoImpression use an (.abm) file to store the image list of files included in an album. Albums can also be saved to a SlideShow folder which includes the same Album format but can have an .sld extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>22 Feb 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Feb 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Arcsoft_Album/Slide_Show</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1833</Identifier>
     <IdentifierType>PUID</IdentifierType>

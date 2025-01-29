@@ -8,11 +8,6 @@
   <FormatDisclosure>None</FormatDisclosure>
   <FormatDescription>ASCII DXF format is the ASCII encoded variant of the Drawing Interchange File Format, an exchange format for vector graphics developed by AutoDesk. They are probably the widely-used formats for exchanging vector data, and have become a de-facto industry standard. The format is owned by AutoDesk and typically changes with each release of their AutoCAD family of products. DXF files contain a tagged representation of the vector data. The structure comprises a Header section, followed by sections containing data on Classes, Tables, Blocks, Entities and, optionally, thumbnail images. Each section contains a series of data elements. each preceded by a group code tag, which indicates the type of data element. ASCII DXF version 2.5 is the version of the format associated with Version 2.5 of the AutoCAD family of software products.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ReleaseDate>01 Jun 1986</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/71</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -31,40 +26,36 @@
     <SignatureName>Drawing Interchange File Format 2.5</SignatureName>
     <SignatureNote>Header section with $ACADVER group code (AC1002), EOF marker</SignatureNote>
     <ByteSequence>
-      <ByteSequenceID>35</ByteSequenceID>
-      <PositionType>Variable</PositionType>
-      <ByteSequenceValue>30(0D0A|0A|0D)53454354494F4E(0D0A|0A|0D)202032(0D0A|0A|0D)484541444552(0D0A|0A|0D)*39(0D0A|0A|0D)2441434144564552(0D0A|0A|0D)202031(0D0A|0A|0D)414331303032(0D0A|0A|0D)*30(0D0A|0A|0D)454E44534543(0D0A|0A|0D)</ByteSequenceValue>
-    </ByteSequence>
-    <ByteSequence>
       <ByteSequenceID>36</ByteSequenceID>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>5</MaxOffset>
       <ByteSequenceValue>30(0D0A|0D|0A)454F46</ByteSequenceValue>
     </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>35</ByteSequenceID>
+      <PositionType>Variable</PositionType>
+      <ByteSequenceValue>30(0D0A|0A|0D)53454354494F4E(0D0A|0A|0D)202032(0D0A|0A|0D)484541444552(0D0A|0A|0D)*39(0D0A|0A|0D)2441434144564552(0D0A|0A|0D)202031(0D0A|0A|0D)414331303032(0D0A|0A|0D)*30(0D0A|0A|0D)454E44534543(0D0A|0A|0D)</ByteSequenceValue>
+    </ByteSequence>
   </InternalSignature>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>701</RelatedFormatID>
     <RelatedFormatName>AutoCAD Drawing</RelatedFormatName>
-    <RelatedFormatVersion>2.5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>766</RelatedFormatID>
     <RelatedFormatName>Drawing Interchange File Format (ASCII)</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>718</RelatedFormatID>
     <RelatedFormatName>Drawing Interchange File Format (ASCII)</RelatedFormatName>
-    <RelatedFormatVersion>2.6</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>716</RelatedFormatID>
     <RelatedFormatName>Drawing Interchange File Format (ASCII)</RelatedFormatName>
-    <RelatedFormatVersion>2.2</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

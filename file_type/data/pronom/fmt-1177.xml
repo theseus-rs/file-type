@@ -2,10 +2,6 @@
   <FormatID>1987</FormatID>
   <FormatName>MicroStation Material Library</FormatName>
   <FormatDescription>MicroStation is CAD software developed by Bentley Systems. The material library file contains a list of material palettes available to a project.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1177</Identifier>
     <IdentifierType>PUID</IdentifierType>

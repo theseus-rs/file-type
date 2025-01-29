@@ -4,11 +4,6 @@
   <FormatVersion>1.2</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>SVG is a language for describing two-dimensional graphics in XML. SVG allows for three types of graphic objects: vector graphic shapes (e.g., paths consisting of straight lines and curves), multimedia (such as raster images, video, and audio), and text. Graphical objects can be grouped, styled, transformed and composited into previously rendered objects.  Scalable Vector Graphics Tiny (SVGT), Version 1.2, is a language for describing two-dimensional vector graphics in XML, combined with raster graphics and multimedia. Its goal is to provide the ability to create a whole range of graphical content, from static images to animations to interactive Web applications. SVG 1.2 Tiny is a profile of SVG intended for implementation on mobile devices, such as cellular phones and PDAs; it also works on laptop and desktop computers.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>Specifications link: http://www.w3.org/TR/2008/REC-SVGTiny12-20081222/</ProvenanceDescription>
-  <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/413</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,24 +28,20 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>634</RelatedFormatID>
     <RelatedFormatName>Scalable Vector Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>634</RelatedFormatID>
     <RelatedFormatName>Scalable Vector Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>635</RelatedFormatID>
     <RelatedFormatName>Scalable Vector Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

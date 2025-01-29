@@ -3,11 +3,6 @@
   <FormatName>iMovieProj File Format</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>Associated with Apple video editing software application 'iMovie'. This format is based on an XML property list.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Feb 2017</ProvenanceSourceDate>
-  <ProvenanceDescription>Versions prior to DROID 6.3 may not identify this format correctly</ProvenanceDescription>
-  <LastUpdatedDate>06 Feb 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/982</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -40,7 +35,6 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

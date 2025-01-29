@@ -12,7 +12,6 @@ version.workspace = true
 
 [dependencies]
 include_dir = { workspace = true }
-jiff = { workspace = true, features = ["serde"] }
 quick-xml = { workspace = true, features = ["serde", "serialize"] }
 serde = { workspace = true, features = ["derive"] }
 
@@ -31,10 +30,8 @@ tokio = { workspace = true, features = ["full"] }
 walkdir = { workspace = true }
 
 [features]
-default = ["std"]
-std = []
+default = []
 tokio = [
-    "std",
     "dep:tokio",
 ]
 

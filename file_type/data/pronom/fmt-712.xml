@@ -4,10 +4,6 @@
   <FormatFamilies>WAVE</FormatFamilies>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>RF64 is a Broadcast Wave compatible multichannel file format enabling file sizes to exceed 4 GB. The file format is based on the Microsoft RIFF/WAVE format and Wave Format Extensible for multichannel parameters. Additions are made to the basic specification to allow for more than 4 GB file sizes when needed (the new maximum filesize is now approximately 16 exabytes).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>11 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/712</Identifier>
     <IdentifierType>PUID</IdentifierType>

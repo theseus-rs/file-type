@@ -4,15 +4,6 @@
   <FormatVersion>3.x</FormatVersion>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Microsoft PowerPoint Presentation is a proprietary binary file format developed by Microsoft Corporation used to store presentation files created in the Microsoft PowerPoint presentation system. This record describes version 3 of .ppt file format released in May 1992 for Windows, and included in the 3.0 version of Microsoft Office for Windows released in August 1992. Versions up to version 4 [x-fmt/88] of Microsoft PowerPoint use .ppt as extension however, they are not compatible with each other. Microsoft made backwards compatibility an optional add-on after Office 2003 and appears to have removed it altogether in Office 2010. Please follow the links attached to this entry for more information.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>24 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Aug 2022</LastUpdatedDate>
-  <FormatNote>https://www.loc.gov/preservation/digital/formats/fdd/fdd000511.shtml
-
-http://justsolve.archiveteam.org/wiki/PPT
-
-https://web.archive.org/web/20220329174106/https://en.wikipedia.org/wiki/Microsoft_PowerPoint</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-PowerPoint</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -46,12 +37,10 @@ https://web.archive.org/web/20220329174106/https://en.wikipedia.org/wiki/Microso
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>133</RelatedFormatID>
     <RelatedFormatName>Microsoft PowerPoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>4.x</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2593</RelatedFormatID>
     <RelatedFormatName>Microsoft PowerPoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>2.x</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -7,10 +7,6 @@
   <FormatDescription>Portable Network Graphics (PNG) was designed for the lossless, portable, compressed storage of raster images.  PNG provides a patent-free replacement for GIF and can also replace many common uses of TIFF. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits. PNG is designed to work in online viewing applications, so it is fully streamable.  It can store gamma and chromaticity.  PNG also detects file corruption.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Big-endian (Motorola)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/12</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -83,24 +79,20 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>666</RelatedFormatID>
     <RelatedFormatName>Portable Network Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>664</RelatedFormatID>
     <RelatedFormatName>Portable Network Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>666</RelatedFormatID>
     <RelatedFormatName>Portable Network Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>664</RelatedFormatID>
     <RelatedFormatName>Portable Network Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

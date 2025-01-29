@@ -3,11 +3,6 @@
   <FormatName>CloudCompare Entity File</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>These are output files of CloudCompare, which is free, open source software, which undertakes 3D point cloud processing (similar to those obtained with a laser scanner). The development of CloudCompare began in 2003, stemming from the PhD of Daniel Girardeau-Montaut. CloudCompare was developed in C++ with Qt, and is available on Windows, Linux and Mac OS X platforms, both 32 and 64 bit.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>01 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>01 Aug 2023</LastUpdatedDate>
-  <FormatNote>https://en.wikipedia.org/wiki/CloudCompare</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1885</Identifier>
     <IdentifierType>PUID</IdentifierType>

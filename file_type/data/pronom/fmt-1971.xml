@@ -4,14 +4,6 @@
   <FormatVersion>1</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>A Finale (notation) document file used through Finale 2012. Enigma Binary File created for music notation software Finale. Finale was originally created for Coda Music Software, later sold to Net4Music which then became MakeMusic. Originally made for MacOS in 1988 it was later made available in Microsoft Windows. The Enigma stands for 'Environment for Notation Intuitive Graphic Music Algorithms'.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>16 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://preservation.tylerthorsted.com/tag/font/
-https://web.archive.org/web/19990203113959/http://www.codamusic.com:80/down/finale/eeppd.txt
-https://en.wikipedia.org/wiki/Finale_(scorewriter)
-http://fileformats.archiveteam.org/wiki/Finale</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1971</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,6 +29,5 @@ http://fileformats.archiveteam.org/wiki/Finale</FormatNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2839</RelatedFormatID>
     <RelatedFormatName>Enigma Binary File (Finale)</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

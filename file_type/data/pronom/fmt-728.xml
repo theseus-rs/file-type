@@ -3,10 +3,6 @@
   <FormatName>RealLegal E-Transcript</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>RealLegal E-Transcript creates electronic transcripts. E-Transcript files allow for custom formatting. There is a free E-Transcript Viewer to view an E-Transcript file. E-Transcript files are also compatible with Westlaw Case Notebook.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/728</Identifier>
     <IdentifierType>PUID</IdentifierType>

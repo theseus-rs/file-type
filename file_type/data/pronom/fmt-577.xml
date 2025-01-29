@@ -4,10 +4,6 @@
   <FormatVersion>1</FormatVersion>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The Image Cytometry Standard (ICS) is a digital multidimensional image file format used in life sciences microscopy. It stores not only the image data, but also the microscopic parameters describing the optics during the acquisition. Version 1 of the format holds just the metadata and a pointer to a corresponding .ids file which contains the pixel data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Tessella / Tessella</ProvenanceName>
-  <ProvenanceSourceDate>28 Aug 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Aug 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/577</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +29,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1366</RelatedFormatID>
     <RelatedFormatName>Image Cytometry Standard</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

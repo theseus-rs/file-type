@@ -4,13 +4,6 @@
   <FormatVersion>1</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>Wordstar 2000 is a version of the Wordstar word proccessor application that was popular in the early to mid 1980s and was created by MicroPro. Wordstar 2000 files are likely to lack a file extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>18 May 2016</ProvenanceSourceDate>
-  <ProvenanceDescription>Signature supplied by Jay Gattuso of the National Library of New Zealand. 08/2023 (v.113)- Max offset sequence expanded by 2 bytes. Submitted by the National Library of New Zealand.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://justsolve.archiveteam.org/wiki/WordStar
-https://www.loc.gov/preservation/digital/formats/fdd/fdd000552</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fdd000552</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -39,6 +32,5 @@ https://www.loc.gov/preservation/digital/formats/fdd/fdd000552</FormatNote>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>379</RelatedFormatID>
     <RelatedFormatName>WordStar for MS-DOS Document</RelatedFormatName>
-    <RelatedFormatVersion>7.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

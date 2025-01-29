@@ -3,10 +3,6 @@
   <FormatName>MOD Audio Module</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>The MOD format is an audio sequencing format, originally developed on the Amiga by Karsten Obarski.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>12 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/716</Identifier>
     <IdentifierType>PUID</IdentifierType>

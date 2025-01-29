@@ -3,10 +3,6 @@
   <FormatName>Valve Texture Format</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>The Valve Texture Format is used by the Valve Corporation's Source engine to represent textures in models and environments.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Feb 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Feb 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/985</Identifier>
     <IdentifierType>PUID</IdentifierType>

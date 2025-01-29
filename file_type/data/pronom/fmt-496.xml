@@ -3,10 +3,6 @@
   <FormatName>TransXchange File Format</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>TransXChange is a UK national data standard for the exchange of bus route and timetable information. The standard is sponsored by the UK Department for Transport and is mandated by the Vehicle Operating Services Agency (VOSA) for the electronic registration of UK bus services with Traffic Area Offices (TAO) and Local Authorities. It is a subset of XML.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>26 Feb 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/496</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -32,12 +28,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

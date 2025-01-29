@@ -3,10 +3,6 @@
   <FormatName>ZISRAW (CZI) File Format</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>The CZI file format was developed by ZEISS for use in microscopy imaging. It contains the image data plus metadata about the capture, such as image information and capture settings.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Datable / Datable</ProvenanceName>
-  <ProvenanceSourceDate>20 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1143</Identifier>
     <IdentifierType>PUID</IdentifierType>

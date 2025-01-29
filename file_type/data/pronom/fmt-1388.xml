@@ -3,10 +3,6 @@
   <FormatName>Muvee Reveal Project File</FormatName>
   <FormatTypes>Video</FormatTypes>
   <FormatDescription>RVL is the native file format of the video editing software Muvee Reveal, a successor product to Muvee autoProducer.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>24 Sep 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1388</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -32,6 +28,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

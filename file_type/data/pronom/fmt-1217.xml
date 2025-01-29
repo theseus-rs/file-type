@@ -3,10 +3,6 @@
   <FormatName>Leonardo Image Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The Leonardo Image format is the native format of the Leonardo drawing application developed by Henning Tegen and Xade Software AB.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>22 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1217</Identifier>
     <IdentifierType>PUID</IdentifierType>

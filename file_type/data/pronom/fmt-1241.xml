@@ -3,10 +3,6 @@
   <FormatName>FO File</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>FO file is a XML data file containing an electronic form intended for usage in the 602XML applications. The form is a composure of the layout structure using XSL-FO, data instance and data model using generic XML elements defined in the 602XML framework. The whole electronic form structure is always embedded into a digital signature represented by XML elements of the XML Signature standard.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
-  <ProvenanceSourceDate>20 Dec 2019</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Oct 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.software602.filler.form+xml</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -36,6 +32,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

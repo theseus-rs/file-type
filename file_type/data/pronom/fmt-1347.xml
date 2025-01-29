@@ -4,11 +4,6 @@
   <FormatVersion>2008</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Autodesk Revit is 3D modeling software. RTE (template) files and RVT (project) files are actual Revit projects. RFA (family) files and RFT (family template) files are family files that can either be loaded into a project or saved externally.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>20 Jan 2020</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1347</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -32,18 +27,15 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2166</RelatedFormatID>
     <RelatedFormatName>Autodesk Revit Family File</RelatedFormatName>
-    <RelatedFormatVersion>2008</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2167</RelatedFormatID>
     <RelatedFormatName>Autodesk Revit Family File</RelatedFormatName>
-    <RelatedFormatVersion>2010</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2164</RelatedFormatID>
     <RelatedFormatName>Autodesk Revit File</RelatedFormatName>
-    <RelatedFormatVersion>4</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

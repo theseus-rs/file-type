@@ -3,10 +3,6 @@
   <FormatName>Virtual Disk Image</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>VDI (Virtual Disk Image) is the native format used for storage by VirtualBox virtual machines.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/726</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -6,11 +6,6 @@
   <FormatFamilies>WAVE</FormatFamilies>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Broadcast WAVE is a chunk-based audio format developed by the European Broadcasting Union, and based on the Microsoft WAVE format, which is in turn based on the generic Resource Interchange File Format (RIFF) specification developed by Microsoft and IBM. Structurally, a BWAVE file is composed of a number of chunks, each comprising a four character code chunk identifier, the chunk size, and the chunk data. It comprises a RIFF header with a WAVE data type identifier, followed by a series of chunks. Every file must include a Broadcast Audio Extension chunk, containing metadata required for exchange of information between broadcasters, a Format chunk, which describes the format of the audio data, and a Data chunk, containing the audio data itself. BWAVE files which contain MPEG-encoded audio data must also include a Fact chunk, containing file-dependent information about the audio data, and an MPEG Audio Extension chunk, containing extra information required to describe the MPEG encoding.  A BWAVE identified as generic by DROID likely uses an encoding format unknown to PRONOM, or perhaps a structural difference, and users are encouraged to let the PRONOM team know should this occur.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 May 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>Specification: http://tech.ebu.ch/docs/tech/tech3285.pdf</ProvenanceDescription>
-  <LastUpdatedDate>01 May 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>audio/x-wav</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -40,19 +35,16 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1504</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>2 PCM Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1507</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>2 MPEG Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1510</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>2 WAVEFORMATEXTENSIBLE Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -73,7 +65,6 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>656</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>1 Generic</RelatedFormatVersion>
   </RelatedFormat>
   <CompressionType>
     <CompressionID>3</CompressionID>

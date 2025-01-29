@@ -5,10 +5,6 @@
 
 use anyhow::Result;
 use file_type::format::{DocumentIdentifier, ExternalSignature, FileFormat, SignatureType};
-use file_type::FileType;
-use jiff::civil::Date;
-use jiff::tz::TimeZone;
-use jiff::Timestamp;
 use quick_xml::se::Serializer;
 use reqwest::Client;
 use serde::Serialize;
@@ -136,10 +132,6 @@ fn process_languages(languages: Vec<Language>) -> Vec<FileFormat> {
 
     for language in languages {
         let puid = format!("linguist/{}", language.id);
-        if FileType::from_id(&puid).is_some() {
-            continue;
-        }
-
         let mime_type = &language.mime_type;
         let extensions = &language.extensions;
         let mut file_format_identifiers = vec![DocumentIdentifier::new(puid, "PUID".to_string())];
@@ -167,18 +159,7 @@ fn process_languages(languages: Vec<Language>) -> Vec<FileFormat> {
             "",
             "",
             "",
-            None,
-            None,
-            0,
-            "",
-            Date::from(Timestamp::now().to_zoned(TimeZone::UTC)),
-            "",
-            Date::from(Timestamp::now().to_zoned(TimeZone::UTC)),
-            "",
-            "",
-            "",
             file_format_identifiers,
-            vec![],
             external_signatures,
             vec![],
             vec![],

@@ -9,13 +9,6 @@ The basic structure of a FLAC stream is: •The four byte string "fLaC"
 •Zero or more other metadata blocks
 •One or more audio frames
  The first four bytes are to identify the FLAC stream. The metadata that follows contains all the information about the stream except for the audio data itself. After the metadata comes the encoded audio data.</FormatDescription>
-  <ReleaseDate>17 Sep 2007</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>29 Jul 2010</ProvenanceSourceDate>
-  <ProvenanceDescription>Further information about this file format can be obtained at:
-http://flac.sourceforge.net/documentation_format_overview.html</ProvenanceDescription>
-  <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>audio/flac</Identifier>
     <IdentifierType>MIME</IdentifierType>

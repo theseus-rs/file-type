@@ -4,11 +4,6 @@
   <FormatVersion>97-2000</FormatVersion>
   <FormatDescription>Microsoft Binder was an application included with Microsoft Office 95, 97, and 2000 that allowed users to include different types of OLE 2.0 objects (e.g., documents, spreadsheets, and presentations) in one file.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>07 Jan 2010</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>07 Jan 2010</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/240</Identifier>
     <IdentifierType>PUID</IdentifierType>

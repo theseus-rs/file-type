@@ -4,10 +4,6 @@
   <FormatVersion>3.5-4.x</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>WordPerfect is a word processor application currently owned by Corel. Applications implementing the libwpd library should be able to render older WordPerfect documents. WordPerfect documents created within a Macintosh environment are likely to lack a format extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>18 Feb 2019</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Feb 2019</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.wordperfect</Identifier>
     <IdentifierType>MIME</IdentifierType>

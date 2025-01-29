@@ -5,11 +5,6 @@
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>dBase is a database management systems for microcomputers.The dBase system includes the core database engine, a query system, a forms engine, and a programming language that ties all of these components together. dBase's underlying file format, the .dbf file, is widely used in applications needing a simple format to store structured data.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>10 Oct 2003</ProvenanceSourceDate>
-  <ProvenanceDescription>Further information about the dBASE file format can be obtained at http://www.digitalpreservation.gov/formats/fdd/fdd000325.shtml</ProvenanceDescription>
-  <LastUpdatedDate>09 May 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/dbase</Identifier>
     <IdentifierType>MIME</IdentifierType>

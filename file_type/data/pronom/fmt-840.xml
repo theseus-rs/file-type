@@ -3,10 +3,6 @@
   <FormatName>ADX Audio Format</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>ADX is a proprietary audio storage and compression format developed by CRI Middleware. PRONOM currently holds one PUID for all known version numbers, with separate identification signatures for each.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
-  <ProvenanceSourceDate>23 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/840</Identifier>
     <IdentifierType>PUID</IdentifierType>

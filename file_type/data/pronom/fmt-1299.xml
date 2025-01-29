@@ -5,10 +5,6 @@
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>The Print Shop is a desktop publishing application published by Broderbund. The Print Shop Deluxe is one of the early brand names for the product and has a range of format extensions dependent on the type of project being created. More information about the format family can be found here: http://fileformats.archiveteam.org/wiki/The_Print_Shop</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1299</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -99,6 +95,5 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>240</RelatedFormatID>
     <RelatedFormatName>Broderbund Print Shop Deluxe</RelatedFormatName>
-    <RelatedFormatVersion>1-4</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

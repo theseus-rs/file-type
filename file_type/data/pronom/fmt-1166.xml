@@ -3,10 +3,6 @@
   <FormatName>Niton Data Transfer</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Niton Data Transfer is a data format used in the field of X-Ray Flourescence (XRF) analysis. It is the native format produced by Niton XRF devices.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>31 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>31 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1166</Identifier>
     <IdentifierType>PUID</IdentifierType>

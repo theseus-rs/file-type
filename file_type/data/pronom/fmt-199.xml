@@ -4,11 +4,6 @@
   <FormatTypes>Audio, Video</FormatTypes>
   <FormatDescription>Container format that can contain any of a number of audio and video codecs. It may also contain subtitle data or file metadata. This family of container can be used with several different file extensions.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Oct 2009</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113) - Priority added over fmt/1616 (BibTeX Database File). Internally researched; 04/2024 (v.118): Description added as part of PRONOM Research Week 2023. Submitted by The Church of Jesus Christ of Latter-day Saints</ProvenanceDescription>
-  <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/mp4</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -72,7 +67,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2422</RelatedFormatID>
     <RelatedFormatName>Canon Raw</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

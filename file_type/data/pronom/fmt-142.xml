@@ -6,10 +6,6 @@
   <FormatDescription>Waveform Audio (WAVEFORMATEX) is an extended version of the Waveform Audio file format, and was developed by Microsoft. It has superseded the Waveform Audio (PCMWAVEFORMAT).</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 Feb 2007</ProvenanceSourceDate>
-  <LastUpdatedDate>31 Oct 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>audio/x-wav</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -50,31 +46,26 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1502</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>0 PCM Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1503</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>1 PCM Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1505</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>0 MPEG Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1506</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>1 MPEG Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1507</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>2 MPEG Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

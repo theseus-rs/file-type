@@ -5,11 +5,6 @@
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>Microsoft Visio is a diagramming and vector graphics application and is part of the Microsoft Office family.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>24 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.visio</Identifier>
     <IdentifierType>MIME</IdentifierType>

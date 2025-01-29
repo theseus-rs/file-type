@@ -5,10 +5,6 @@
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>MacPaint is the native format for the MacPaint application. Files of this type may lack an extension.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>28 Sep 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>com.apple.macpaint-image</Identifier>
     <IdentifierType>Apple Uniform Type Identifier</IdentifierType>

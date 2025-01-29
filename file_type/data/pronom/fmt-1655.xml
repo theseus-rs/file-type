@@ -3,11 +3,6 @@
   <FormatName>cdrLabel Label File</FormatName>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>Created by a free software cdrLabel, whose purpose was to make labels for CD jewel cases. It was able to make tables of contents using the CD contents. The last version of cdrLabel was 7.1, released in 2004. The output was the clb file, which contained the table of contents.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>24 Mar 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Mar 2022</LastUpdatedDate>
-  <FormatNote>Official website: www.cdrlabel.com. Vendor: https://www.ziplabel.com/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1655</Identifier>
     <IdentifierType>PUID</IdentifierType>

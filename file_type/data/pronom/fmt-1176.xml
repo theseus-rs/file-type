@@ -3,11 +3,6 @@
   <FormatName>Nullsoft Streaming Video</FormatName>
   <FormatTypes>Video</FormatTypes>
   <FormatDescription>The Nullsoft Streaming Video (NSV) format is a multimedia container format designed to enable streaming of video and audio.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2018</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118)- Signature named 'Nullsoft Video with optional header' updated to extend byte range between two strings. Submitted by Preservica.</ProvenanceDescription>
-  <LastUpdatedDate>18 Apr 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1176</Identifier>
     <IdentifierType>PUID</IdentifierType>

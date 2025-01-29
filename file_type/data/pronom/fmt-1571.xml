@@ -7,11 +7,6 @@
 
 
 ISDOC format is a type of Extensible Markup Language (XML) file format specific for transfer of financial, as well as other documents. It allows paperless exchanging of invoices and other documents, processing and portability among companies, public administration authorities and individuals. It was defined by “A Working group for Electronic Standards of data exchanging” in ICT Union (formerly SPIS). The “Declaration on common approach in the area of electronic invoicing in the Czech Republic” was signed on 16th October 2008. It represents a Czech customization of UBL standard https://www.iso.org/standard/66370.html. ISDOC file enables enveloped signatures including advanced IETF/W3C XML digital signatures conforming to the ETSI XAdES specification.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
-  <ProvenanceSourceDate>07 Dec 2021</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>07 Dec 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1571</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -30,12 +25,10 @@ ISDOC format is a type of Extensible Markup Language (XML) file format specific 
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2393</RelatedFormatID>
     <RelatedFormatName>ISDOCX Information System Document</RelatedFormatName>
-    <RelatedFormatVersion>5.x</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>2395</RelatedFormatID>
     <RelatedFormatName>ISDOC Information System Document</RelatedFormatName>
-    <RelatedFormatVersion>6.0.1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

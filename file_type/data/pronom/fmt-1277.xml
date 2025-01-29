@@ -3,10 +3,6 @@
   <FormatName>Cindex Document</FormatName>
   <FormatVersion>2</FormatVersion>
   <FormatDescription>Cindex is software developed by Indexing Research for creating indexes to books, newspapers and other periodical publications. The .TPL variant is a template file, however it is structurally identical to .CDX.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1277</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,6 +33,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2096</RelatedFormatID>
     <RelatedFormatName>Cindex Document</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

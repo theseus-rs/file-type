@@ -3,17 +3,6 @@
   <FormatName>Haiku Vector Icon Format</FormatName>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>Haiku Vector Icon Format (HVIF) is a vector based icon format associated with the Haiku operating system. Encoded icons can be found in the .rdef files in the Haiku source code.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Oct 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Haiku_Vector_Icon_Format
-
-http://blog.leahhanson.us/post/recursecenter2016/haiku_icons.html
-
-https://web.archive.org/web/20071026035528/https://www.haiku-os.org/news/2006-11-06/icon_facts
-
-https://web.archive.org/web/20101103065755/https://www.haiku-os.org/articles/2009-09-14_why_haiku_vector_icons_are_so_small</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1791</Identifier>
     <IdentifierType>PUID</IdentifierType>

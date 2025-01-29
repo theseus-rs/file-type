@@ -4,10 +4,6 @@
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>AKA MIME Encapsulation of Aggregate Documents, such as HTML. This entry was previously named 'Microsoft Web Archive', however MHTML is not specific to Microsoft. MHTML is described by the IETF standard RFC2557.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>10 Jul 2007</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>multipart/related</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -42,13 +38,11 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>641</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>642</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.01</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -59,6 +53,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1258</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>5</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

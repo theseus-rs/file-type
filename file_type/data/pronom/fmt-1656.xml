@@ -3,10 +3,6 @@
   <FormatName>Microsoft Help Contents File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Microsoft Help Contents Files store topics for a corresponding help document, which has file extension .hlp. They are found within applications which use Microsoft Help.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>24 Mar 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Mar 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1656</Identifier>
     <IdentifierType>PUID</IdentifierType>

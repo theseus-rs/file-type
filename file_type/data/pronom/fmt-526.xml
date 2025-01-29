@@ -3,10 +3,6 @@
   <FormatName>Adobe Font List</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Files which store information about the fonts installed by various Adobe applications. They are often named AdobeFntXX.lst. The files can be deleted (as they do not store the actual font data), and are created again when the Adobe product next scans the font locations.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Borthwick Institute for Archives / The Borthwick Institute for Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 May 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Jun 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/526</Identifier>
     <IdentifierType>PUID</IdentifierType>

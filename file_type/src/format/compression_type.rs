@@ -1,6 +1,4 @@
-use crate::format::serde::{deserialize_option_naive_date, serialize_option_naive_date};
 use crate::format::DocumentIdentifier;
-use jiff::civil::Date;
 use serde::de::Error;
 use serde::{Deserialize, Deserializer, Serialize};
 
@@ -22,11 +20,6 @@ pub struct CompressionType {
     name: String,
     #[serde(
         skip_serializing_if = "String::is_empty",
-        rename = "CompressionVersion"
-    )]
-    version: String,
-    #[serde(
-        skip_serializing_if = "String::is_empty",
         rename = "CompressionAliases"
     )]
     aliases: String,
@@ -38,18 +31,6 @@ pub struct CompressionType {
     #[serde(skip_serializing_if = "String::is_empty")]
     description: String,
     lossiness: Lossiness,
-    #[serde(
-        skip_serializing_if = "Option::is_none",
-        deserialize_with = "deserialize_option_naive_date",
-        serialize_with = "serialize_option_naive_date"
-    )]
-    release_date: Option<Date>,
-    #[serde(
-        skip_serializing_if = "Option::is_none",
-        deserialize_with = "deserialize_option_naive_date",
-        serialize_with = "serialize_option_naive_date"
-    )]
-    withdrawn_date: Option<Date>,
     #[serde(
         skip_serializing_if = "String::is_empty",
         rename = "CompressionDocumentation"
@@ -69,13 +50,10 @@ impl CompressionType {
     pub fn new<S: AsRef<str>>(
         id: usize,
         name: S,
-        version: S,
         aliases: S,
         families: S,
         description: S,
         lossiness: Lossiness,
-        release_date: Option<Date>,
-        withdrawn_date: Option<Date>,
         documentation: S,
         ipr: S,
         note: S,
@@ -84,13 +62,10 @@ impl CompressionType {
         Self {
             id,
             name: name.as_ref().to_string(),
-            version: version.as_ref().to_string(),
             aliases: aliases.as_ref().to_string(),
             families: families.as_ref().to_string(),
             description: description.as_ref().to_string(),
             lossiness,
-            release_date,
-            withdrawn_date,
             documentation: documentation.as_ref().to_string(),
             ipr: ipr.as_ref().to_string(),
             note: note.as_ref().to_string(),
@@ -108,12 +83,6 @@ impl CompressionType {
     #[must_use]
     pub fn name(&self) -> &str {
         &self.name
-    }
-
-    /// Get the compression version
-    #[must_use]
-    pub fn version(&self) -> &str {
-        &self.version
     }
 
     /// Get the compression aliases
@@ -138,18 +107,6 @@ impl CompressionType {
     #[must_use]
     pub fn lossiness(&self) -> &Lossiness {
         &self.lossiness
-    }
-
-    /// Get the compression release date
-    #[must_use]
-    pub fn release_date(&self) -> Option<Date> {
-        self.release_date
-    }
-
-    /// Get the compression withdrawn date
-    #[must_use]
-    pub fn withdrawn_date(&self) -> Option<Date> {
-        self.withdrawn_date
     }
 
     /// Get the compression documentation
@@ -221,13 +178,10 @@ mod test {
 
         assert_eq!(compression_types.id(), 3);
         assert_eq!(compression_types.name(), "Pulse Code Modulation");
-        assert_eq!(compression_types.version(), "");
         assert_eq!(compression_types.aliases(), "");
         assert_eq!(compression_types.families(), "");
         assert_eq!(compression_types.description(), "Uncompressed audio encoding method, which uses linear sampling at a wide range of sampling frequencies and resolutions.");
         assert!(matches!(compression_types.lossiness(), Lossiness::Lossless));
-        assert_eq!(compression_types.release_date(), Date::new(2001, 7, 4).ok());
-        assert!(compression_types.withdrawn_date().is_none());
         assert_eq!(compression_types.documentation(), "");
         assert_eq!(compression_types.ipr(), "");
         assert_eq!(compression_types.note(), "");
@@ -247,11 +201,8 @@ mod test {
             "Pulse Code Modulation",
             "",
             "",
-            "",
             "Uncompressed audio encoding method, which uses linear sampling at a wide range of sampling frequencies and resolutions.",
             Lossiness::Lossless,
-            Date::new(2001, 7, 4).ok(),
-            None,
             "",
             "",
             "",
@@ -259,13 +210,10 @@ mod test {
         );
         assert_eq!(compression_types.id(), 3);
         assert_eq!(compression_types.name(), "Pulse Code Modulation");
-        assert_eq!(compression_types.version(), "");
         assert_eq!(compression_types.aliases(), "");
         assert_eq!(compression_types.families(), "");
         assert_eq!(compression_types.description(), "Uncompressed audio encoding method, which uses linear sampling at a wide range of sampling frequencies and resolutions.");
         assert!(matches!(compression_types.lossiness(), Lossiness::Lossless));
-        assert_eq!(compression_types.release_date(), Date::new(2001, 7, 4).ok());
-        assert!(compression_types.withdrawn_date().is_none());
         assert_eq!(compression_types.documentation(), "");
         assert_eq!(compression_types.ipr(), "");
         assert_eq!(compression_types.note(), "");

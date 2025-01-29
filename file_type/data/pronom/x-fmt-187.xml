@@ -4,10 +4,6 @@
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>.RIF is the native image format for the Painter software application. It includes features such as layering and  transparency. It was originally developed by Fractal Design, but is now owned and used by Corel Corporation.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/187</Identifier>
     <IdentifierType>PUID</IdentifierType>

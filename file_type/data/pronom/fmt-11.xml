@@ -7,11 +7,6 @@
   <FormatDescription>Portable Network Graphics (PNG) was designed for the lossless, portable, compressed storage of raster images.  PNG provides a patent-free replacement for GIF and can also replace many common uses of TIFF. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits. PNG is designed to work in online viewing applications, so it is fully streamable.  It can store gamma and chromaticity.  PNG also detects file corruption.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Big-endian (Motorola)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>Specifications link: http://tools.ietf.org/pdf/rfc2083.pdf</ProvenanceDescription>
-  <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/11</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -52,13 +47,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>665</RelatedFormatID>
     <RelatedFormatName>Portable Network Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>666</RelatedFormatID>
     <RelatedFormatName>Portable Network Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -69,6 +62,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>665</RelatedFormatID>
     <RelatedFormatName>Portable Network Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

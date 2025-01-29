@@ -4,10 +4,6 @@
   <FormatVersion>1.0</FormatVersion>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>Binary format used by spreadsheet programme Calc602 containing information about all currently open files, layout on the screen, macros loaded into memory etc.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
-  <ProvenanceSourceDate>14 Jun 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Oct 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1713</Identifier>
     <IdentifierType>PUID</IdentifierType>

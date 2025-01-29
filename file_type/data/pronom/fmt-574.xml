@@ -4,16 +4,6 @@
   <FormatAliases>DICOM</FormatAliases>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Digital Imaging and Communications in Medicine (DICOM) is a standard for handling, storing, printing, and transmitting information in medical imaging. It includes a file format definition and a network communications protocol. The communication protocol is an application protocol that uses TCP/IP to communicate between systems. DICOM files can be exchanged between two entities that are capable of receiving image and patient data in DICOM format. The National Electrical Manufacturers Association (NEMA) holds the copyright to this standard. It was developed by the DICOM Standards Committee, whose members are also partly members of NEMA.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Tessella / Tessella</ProvenanceName>
-  <ProvenanceSourceDate>28 Aug 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>09/2022- Amended signature to disregard first 127 bytes according to specification. Added links to specification and references, altered description. Submitted by University Medical Center Utrecht.11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched. 04/2024 (v.118)- Added alias of DICOM. Submitted by Preservica.</ProvenanceDescription>
-  <LastUpdatedDate>22 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://dicom.nema.org/medical/dicom/current/output/pdf/part10.pdf
-
-https://dicom.nema.org/medical/dicom/current/output/pdf/part12.pdf
-
-https://www.dicomstandard.org/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/dicom</Identifier>
     <IdentifierType>MIME</IdentifierType>

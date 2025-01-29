@@ -4,10 +4,6 @@
   <FormatAliases>Thermo Scientific OMNIC Data File</FormatAliases>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>OMNIC Spectral Data files are spectroscopy data files produced by Thermo Scientific OMNIC software.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Borthwick Institute for Archives / The Borthwick Institute for Archives</ProvenanceName>
-  <ProvenanceSourceDate>20 Sep 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Sep 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/963</Identifier>
     <IdentifierType>PUID</IdentifierType>

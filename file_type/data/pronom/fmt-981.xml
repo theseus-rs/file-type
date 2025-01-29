@@ -3,11 +3,6 @@
   <FormatName>EazyDraw File Format</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>The ezdraw file format is mainly associated with 'EazyDraw' by Dekorra Optics LLC enterprise. EazyDraw is a vector based drawing application. It is used for desk top publishing (DTP) with Apple's Macintosh OS X (Mac OS-X) operating system. The format is an XML Property List dictionary based format. There is also a binary version of this format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Feb 2017</ProvenanceSourceDate>
-  <ProvenanceDescription>Versions prior to DROID 6.3 may not identify this format correctly</ProvenanceDescription>
-  <LastUpdatedDate>06 Feb 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/981</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,7 +28,6 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

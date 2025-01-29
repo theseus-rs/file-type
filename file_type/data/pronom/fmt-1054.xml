@@ -2,10 +2,6 @@
   <FormatID>1859</FormatID>
   <FormatName>AVCHD Clip Information File</FormatName>
   <FormatDescription>AVCHD (Advanced Video Coding High Definition) is a file-based format for the digital recording and playback of high-definition video. The Clip Information File may be created by some AVCHD video recorders and contains metadata describing the AVCHD stream.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Scotland / National Library of Scotland</ProvenanceName>
-  <ProvenanceSourceDate>07 Jul 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>07 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1054</Identifier>
     <IdentifierType>PUID</IdentifierType>

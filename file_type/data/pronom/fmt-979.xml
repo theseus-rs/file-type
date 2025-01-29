@@ -3,11 +3,6 @@
   <FormatName>XML Property List</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>In the OS X, iOS, NeXTSTEP, and GNUstep programming frameworks, property list files store serialized objects. It is the standard way to save and load data between the internal representation within the objects defined in an Objective-C program and disk files, in order to store program settings and other data. This is the XML version but there is also a binary version of the format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Feb 2017</ProvenanceSourceDate>
-  <ProvenanceDescription>Versions prior to DROID 6.3 may not identify this format correctly</ProvenanceDescription>
-  <LastUpdatedDate>06 Feb 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/979</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -53,6 +48,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -4,11 +4,6 @@
   <FormatVersion>Lossy</FormatVersion>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>WebP is a raster image format developed by Google that uses the Resource Interchange File Format as a container. WebP's lossy compression algorithm is based on the intra-frame coding of the VP8 video format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>19 Jul 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113) - Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica. 11/2023 (v.115)- Added MIME identifier 'webp/image'. Submitted by Archives New Zealand. Submitted by Archives New Zealand. 04/2024 (v.118)- Corrected MIME identifier to 'image/webp'. Submitted by Archives New Zealand.</ProvenanceDescription>
-  <LastUpdatedDate>14 Aug 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/566</Identifier>
     <IdentifierType>PUID</IdentifierType>

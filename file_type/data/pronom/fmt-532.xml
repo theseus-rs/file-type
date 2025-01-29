@@ -4,10 +4,6 @@
   <FormatVersion>2013/2014/2015/2016/2017</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>ASCII DXF format is the ASCII encoded variant of the Drawing Interchange File Format, an exchange format for vector graphics developed by AutoDesk. They are probably the widely-used formats for exchanging vector data, and have become a de-facto industry standard. The format is owned by AutoDesk and typically changes with each release of their AutoCAD family of products. DXF files contain a tagged representation of the vector data. The structure comprises a Header section, followed by sections containing data on Classes, Tables, Blocks, Entities and, optionally, thumbnail images. Each section contains a series of data elements. each preceded by a group code tag, which indicates the type of data element. ASCII DXF version 2013-2017 is the version of the format associated with Releases between 2013 and 2017 of the AutoCAD family of software products.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 May 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/532</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -44,12 +40,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>766</RelatedFormatID>
     <RelatedFormatName>Drawing Interchange File Format (ASCII)</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1222</RelatedFormatID>
     <RelatedFormatName>Drawing Interchange File Format (ASCII)</RelatedFormatName>
-    <RelatedFormatVersion>2010/2011/2012</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

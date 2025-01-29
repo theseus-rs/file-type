@@ -2,10 +2,6 @@
   <FormatID>1248</FormatID>
   <FormatName>Verity Collection Index Descriptor File</FormatName>
   <FormatDescription>A Verity collection is the fundamental structure underlying the search capabilities of Verity applications. A collection consists of information about a particular set of documents that are available for searching and viewing. The specific information stored for a collection includes a word index and various other indexes, plus a document table containing document field information and logical pointers to the document files.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Aug 2012</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/461</Identifier>
     <IdentifierType>PUID</IdentifierType>

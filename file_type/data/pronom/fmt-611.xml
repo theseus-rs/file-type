@@ -3,10 +3,6 @@
   <FormatName>LDAP Data Interchange Format</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>The LDAP Data Interchange Format (LDIF) is a standard plain text data interchange format for representing LDAP (Lightweight Directory Access Protocol) directory content and update requests.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Keep Solutions / Keep Solutions</ProvenanceName>
-  <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Feb 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/611</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>FL Studio project file (FLP)</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>FLP is the native project format for the FL Studio Digital Audio Workstation, developed by Image Line. It contains all data related to a project, but does not contain any wave samples.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/733</Identifier>
     <IdentifierType>PUID</IdentifierType>

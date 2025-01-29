@@ -5,11 +5,6 @@
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>MultiMate was word processor software, originally created for internal use at an insurance company in the early 1980s, then released as a commercial software package mostly marketed to corporations rather than individuals. MultiMate was only released for PC/MS-DOS; since no Windows version was ever released, it faded out along with DOS.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>25 Apr 2024</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118): Added internal sig, description and extensions .fnx and .pat. Submitted by National Archives and Records Administration.</ProvenanceDescription>
-  <LastUpdatedDate>25 Apr 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/347</Identifier>
     <IdentifierType>PUID</IdentifierType>

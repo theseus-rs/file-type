@@ -4,17 +4,6 @@
   <FormatVersion>24-24.1</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>The documents (files) created by Adobe Illustrator are PostScript language documents. A PostScript language document description that minimally conforms to the Document Structuring Conventions has two main parts: a prolog and a script. The prolog encapsulates information needed by other programs to interpret the file. The script describes the graphic elements on the page. Beginning with version 9, the Adobe Illustrated ai file format included both a pdf copy of the illustration and a postscript copy. Beginning with Adobe Illustrator 13.0. the PDF that Illustrator embeds in the file so that other apps can read the file is PDF 1.5. The PDF 1.5 header is included in the file structure.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>24 May 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>24 May 2023</LastUpdatedDate>
-  <FormatNote>http://justsolve.archiveteam.org/wiki/Adobe_Illustrator_Artwork
-
-https://en.wikipedia.org/wiki/Adobe_Illustrator_Artwork
-
-https://www.adobe.com/creativecloud/file-types/image/vector/ai-file.html
-
-https://preservation.tylerthorsted.com/2023/04/07/adobe-illustrator-and-pdf/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1863</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -45,18 +34,15 @@ https://preservation.tylerthorsted.com/2023/04/07/adobe-illustrator-and-pdf/</Fo
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>618</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF 1.5 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1.5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2718</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator CC 2020 Artwork</RelatedFormatName>
-    <RelatedFormatVersion>24.2+</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2716</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator CC Artwork</RelatedFormatName>
-    <RelatedFormatVersion>17-23</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

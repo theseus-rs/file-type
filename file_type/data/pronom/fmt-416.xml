@@ -10,12 +10,6 @@
 •	 Support For Many Types of Auxiliary Data
 •	 Support of Data Dependencies</FormatDescription>
   <ByteOrders>Big-endian (Motorola)</ByteOrders>
-  <ReleaseDate>04 Jun 2005</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
-  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>http://developer.apple.com/library/mac/documentation/MusicAudio/Reference/CAFSpec/CAFSpec.pdf</ProvenanceDescription>
-  <LastUpdatedDate>19 Jul 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/416</Identifier>
     <IdentifierType>PUID</IdentifierType>

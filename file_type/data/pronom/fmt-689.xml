@@ -3,10 +3,6 @@
   <FormatName>Executable and Linkable Format</FormatName>
   <FormatVersion>32bit Big Endian</FormatVersion>
   <FormatDescription>The Executable and Linkable Format (ELF) was developed by Unix System Laboratories and is the standard binary format for executables, object code, shared libraries and core dumps in Unix and Unix-like systems running x86 architecture. Generally within Unix and Unix-like systems, ELF files generally do not have a format extension, however some ELF files may be found with a .elf or .o extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/689</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>Dr. Halo Image Palette</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The Dr. Halo Image Palette stores colour palette information for the Dr. Halo Image Data format. Having a separate colour palette file aloows the ability to change the stored colours of an image without re-encoding the image data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>09 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>09 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1186</Identifier>
     <IdentifierType>PUID</IdentifierType>

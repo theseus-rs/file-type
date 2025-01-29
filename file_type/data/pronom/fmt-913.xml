@@ -4,10 +4,6 @@
   <FormatVersion>ASCII</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>TrueSpace was a commercial 3D computer graphics and animation software originally developed by Caligari Corporation before being acquired by Microsoft. The .scn extension indicates a scene, the .cob extension indicates an object.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>05 Jul 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>05 Jul 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/913</Identifier>
     <IdentifierType>PUID</IdentifierType>

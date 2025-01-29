@@ -3,10 +3,6 @@
   <FormatName>MultiTracker Module</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>A MultiTracker Module is an audio sequencing format produced by the MultiTracker Module Editor, created by Daniel Goldstein.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>12 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/719</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,12 +4,6 @@
   <FormatVersion>1.5</FormatVersion>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Adobe InDesign is a desktop publishing application developed and produced by Adobe Inc., first released in 1999. It is the successor to PageMaker, software previously created by Aldus Corporation in 1985, which was subsequently acquired by Adobe. It can be used to produce a number of works such as posters, flyers, brochures, magazines, newspapers, presentations and books. InDesign supports XML, stylesheets and other coding markup, providing functionality for exporting tagged text content for use in other digital and online formats.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>24 Feb 2022</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>15 Nov 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/InDesign_INDD</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1629</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -45,18 +39,15 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2455</RelatedFormatID>
     <RelatedFormatName>Adobe InDesign Document</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2457</RelatedFormatID>
     <RelatedFormatName>Adobe InDesign Document</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2455</RelatedFormatID>
     <RelatedFormatName>Adobe InDesign Document</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

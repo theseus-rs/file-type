@@ -4,10 +4,6 @@
   <FormatVersion>2</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Sparky is used in Nuclear Magnetic Resonance (NMR) Spectroscopy, particularly spectral analysis. Sparky is a graphical NMR assignment and integration program for proteins, nucleic acids, and other polymers.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>University of Illinois / University of Illinois</ProvenanceName>
-  <ProvenanceSourceDate>18 Feb 2019</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Feb 2019</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1226</Identifier>
     <IdentifierType>PUID</IdentifierType>

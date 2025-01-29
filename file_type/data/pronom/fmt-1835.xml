@@ -3,13 +3,6 @@
   <FormatName>Archiver Format</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>Archiver Format (.ar) is a non-compressed archive format associated with the archiver utility for Unix-style operating systems. It has largely been replaced by .tar for general archiving use, but persists in use for specialized applications involving statically-linked libraries for development. The format has never been standardised with modern archives based on a common format with two main variants - BSD and System V (previously known as COFF). There are other known past variants such as V6, V7, AIX (small), AIX (big) and Coherent.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>23 Feb 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Feb 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/AR
-
-https://en.wikipedia.org/wiki/Ar_(Unix)</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1835</Identifier>
     <IdentifierType>PUID</IdentifierType>

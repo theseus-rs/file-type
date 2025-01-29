@@ -3,11 +3,6 @@
   <FormatName>3DS Max</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>A MAX file is a three-dimensional scene file. They are created by 3DS Max, a 3D modeling, animation, and rendering application. It may contain multiple models that include wireframes, textures, lighting effects, shading, animation, and other 3D design elements.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>03 Feb 2017</ProvenanceSourceDate>
-  <ProvenanceDescription>This format is identifiable via a container signature in DROID 6 and later.</ProvenanceDescription>
-  <LastUpdatedDate>03 Feb 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/978</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,10 +4,6 @@
   <FormatVersion>2.0</FormatVersion>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The .CR2 file format (Canon RAW version 2) is a digital photography RAW format created by Canon.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
-  <ProvenanceSourceDate>12 Nov 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Nov 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/592</Identifier>
     <IdentifierType>PUID</IdentifierType>

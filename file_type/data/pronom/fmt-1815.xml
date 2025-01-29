@@ -3,11 +3,6 @@
   <FormatName>Adobe Color Swatch</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Adobe Design software such as Photoshop, Illustrator and InDesign use color swatches assign specific color values to a design. These can be created using many different color spaces and can even use color libraries such as Pantone. Adobe Color swatch files are loaded and saved in Photoshop's Color Swatches palette. These are typically stored in the Color Swatches sub-directory in the Presets directory.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>02 Feb 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Feb 2023</LastUpdatedDate>
-  <FormatNote>Specification:  https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/#50577411_pgfId-1055819</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1815</Identifier>
     <IdentifierType>PUID</IdentifierType>

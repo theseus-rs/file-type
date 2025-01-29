@@ -3,13 +3,6 @@
   <FormatName>Maestro Music File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Maestro is a music notation program available through RISC OS, an operating system designed in Cambridge, England by Acorn and first released in 1987.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Maestro
-
-http://www.riscos.com/support/developers/prm/fileformats.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1464</Identifier>
     <IdentifierType>PUID</IdentifierType>

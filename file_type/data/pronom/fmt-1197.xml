@@ -3,10 +3,6 @@
   <FormatName>MyISAM Indexes File</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>MyISAM was the default storage engine for the MySQL relational database management system versions prior to 5.5. The MYI file stores the table's indexes for a MyISAM table.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Borthwick Institute for Archives / The Borthwick Institute for Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1197</Identifier>
     <IdentifierType>PUID</IdentifierType>

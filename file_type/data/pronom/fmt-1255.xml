@@ -3,11 +3,6 @@
   <FormatName>Windows Address Book</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Windows Address Book was a component of Microsoft Windows, allowing users to keep a list of contacts to share across multiple programs. It is most commonly associated with Outlook Express.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote>https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1255</Identifier>
     <IdentifierType>PUID</IdentifierType>

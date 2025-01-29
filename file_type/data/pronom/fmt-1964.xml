@@ -5,13 +5,6 @@
   <FormatFamilies>JPEG 2000</FormatFamilies>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Defined in ISO/IEC 15444-15:2019, JPH/HTJ2K is an extension to JPEG 2000 intended as a royalty-free format for high-throughput, lossless image encoding.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>08 Feb 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>08 Feb 2024</LastUpdatedDate>
-  <FormatNote>https://www.iana.org/assignments/media-types/image/jph
-https://www.iso.org/standard/76621.html
-https://loc.gov/preservation/digital/formats/fdd/fdd000566.shtm</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fdd000566</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>

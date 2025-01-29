@@ -7,10 +7,6 @@
 Some camcorders store their MPEG-2 Program Stream video data as files with the .mod extension, usually alongside other files containing metadata and management information for the video.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Big-endian (Motorola)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Sep 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>public.mpeg</Identifier>
     <IdentifierType>Apple Uniform Type Identifier</IdentifierType>

@@ -2,13 +2,6 @@
   <FormatID>2404</FormatID>
   <FormatName>SPYne Containers</FormatName>
   <FormatDescription>SPYne containers were created by John Lannetta c1995 and are found in Compuserve's CBM applications forum and in COMP.BINARIES.CBM newsgroup. The format is self-extracting and does not employ any compression. The word "SPYNE" does not represent any acronym, but is meant to represent a "spine", with files linked together like a human spine.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>04 Jan 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>04 Jan 2022</LastUpdatedDate>
-  <FormatNote>https://ist.uwaterloo.ca/~schepers/formats/SPYNE.TXT
-
-https://cbm8bit.com/articles/user-contributions/archival_formats</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1579</Identifier>
     <IdentifierType>PUID</IdentifierType>

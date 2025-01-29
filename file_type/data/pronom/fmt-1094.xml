@@ -5,10 +5,6 @@
   <FormatAliases>NIfTI-2</FormatAliases>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>A Neuroimaging format commonly used in medical industry for the analysis of MRI data. Version 2 is an extended version of NIfTI allowing 64 bit storage and addressing.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Bodleian Library, University of Oxford / Bodleian Library, University of Oxford</ProvenanceName>
-  <ProvenanceSourceDate>19 Sep 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Aug 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1094</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -46,6 +42,5 @@ https://www.nitrc.org/forum/forum.php?thread_id=2148&amp;forum_id=1941</Signatur
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1598</RelatedFormatID>
     <RelatedFormatName>The Neuroimaging Informatics Technology Initiative File Format</RelatedFormatName>
-    <RelatedFormatVersion>1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

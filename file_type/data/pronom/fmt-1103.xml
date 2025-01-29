@@ -3,10 +3,6 @@
   <FormatName>AutoCAD Hatch Pattern</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>A hatch pattern consists of a repeating pattern of lines, dashes, and dots, and is used within AutoCAD to represent materials to be used within the manufacture of the object defined in the CAD drawing</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Sep 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Sep 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1103</Identifier>
     <IdentifierType>PUID</IdentifierType>

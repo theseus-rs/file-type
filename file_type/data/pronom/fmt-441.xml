@@ -4,11 +4,6 @@
   <FormatVersion>9 Advanced Profile (WVC1)</FormatVersion>
   <FormatTypes>Audio, Video</FormatTypes>
   <FormatDescription>Windows Media Video 9 Advanced Profile or WVC1 is a fuly compliant Advanced Profile of the VC-1 codec standard.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Renamed to avoid repitition in version and name. Updated description and signature note field. Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>14 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/441</Identifier>
     <IdentifierType>PUID</IdentifierType>

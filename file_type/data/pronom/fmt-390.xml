@@ -5,13 +5,6 @@
   <FormatTypes>Text (Structured), Dataset</FormatTypes>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ReleaseDate>01 Jan 1992</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>25 Nov 2011</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Nov 2011</LastUpdatedDate>
-  <FormatNote>Specifications available at: 
-http://www.cwls.org/las_info.php</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/390</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,12 +30,10 @@ http://www.cwls.org/las_info.php</FormatNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1139</RelatedFormatID>
     <RelatedFormatName>Log ASCII Standard Format</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1137</RelatedFormatID>
     <RelatedFormatName>Log ASCII Standard Format</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -4,10 +4,6 @@
   <FormatVersion>9.3</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>SAS (Statistical Analysis System) is a statistical analysis software suite developed by SAS Institute. SAS catalogs store many different kinds of information in smaller units called catalog entries. Each entry has an entry type that identifies its purpose to SAS. A single SAS catalog can contain several types of catalog entries.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1028</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,6 +35,5 @@ Signature based extensively on unofficial description of DATA format, plus a wid
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1829</RelatedFormatID>
     <RelatedFormatName>Statistical Analysis System Catalog (Unix)</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

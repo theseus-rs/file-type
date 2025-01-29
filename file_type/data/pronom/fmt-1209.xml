@@ -3,10 +3,6 @@
   <FormatName>COLLADA Digital Asset Exchange (DAE)</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>The COLLADA (COLLAborative Design Activity) Digital Asset Exchange format is an open standard XML specification for 3D images and animations.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>16 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1209</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -36,6 +32,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

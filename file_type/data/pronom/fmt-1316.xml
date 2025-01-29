@@ -4,11 +4,6 @@
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>glTF (GL Transmission Format) is a royalty-free specification for the efficient transmission and loading of 3D scenes and models by applications. It is an API-neutral runtime asset delivery format. glTF bridges the gap between 3D content creation tools and modern 3D applications by providing an extensible, interoperable format for the transmission and loading of 3D content. Binary glTF is a container format in which an entire glTF asset (JSON asset description, binary geometry, key frames, skins and images) can be stored in a single binary blob.
 A glTF Overview can be found at https://www.khronos.org/gltf .</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote>Full specification of the format can be found at https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/README.md#glb-file-format-specification</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1316</Identifier>
     <IdentifierType>PUID</IdentifierType>

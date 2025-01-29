@@ -3,15 +3,6 @@
   <FormatName>Enigma Transportable File (Finale)</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>An early version of Finale notation files in plain text format. They were used to transfer Finale documents between Windows and Mac. Finale was originally created for Coda Music Software, later sold to Net4Music which then became MakeMusic. Originally made for Macintosh in 1988 it was later made available for Microsoft Windows. The Enigma stands for 'Environment for Notation Intuitive Graphic Music Algorithms'.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>16 Mar 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118)- Signature adjusted to allow for lower case and upper case text and simplified by removing later strings that are not always present, updated description, note field and added version number. Submitted by Brigham Young University.</ProvenanceDescription>
-  <LastUpdatedDate>16 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://preservation.tylerthorsted.com/tag/font/
-https://web.archive.org/web/19990203113959/http://www.codamusic.com:80/down/finale/eeppd.txt
-https://en.wikipedia.org/wiki/Finale_(scorewriter)
-http://fileformats.archiveteam.org/wiki/Finale</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/398</Identifier>
     <IdentifierType>PUID</IdentifierType>

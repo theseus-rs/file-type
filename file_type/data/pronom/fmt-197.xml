@@ -6,13 +6,6 @@
 
 The majority of INX files included with an installation are named "setup.inx". This propriety file contains instructions and parameters for the installation.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Oct 2009</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
-  <FormatNote>https://en.wikipedia.org/wiki/InstallShield
-
-http://fileformats.archiveteam.org/wiki/InstallShield_INX</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/197</Identifier>
     <IdentifierType>PUID</IdentifierType>

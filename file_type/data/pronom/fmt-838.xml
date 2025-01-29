@@ -3,10 +3,6 @@
   <FormatName>Outlook Express Message Database</FormatName>
   <FormatTypes>Email</FormatTypes>
   <FormatDescription>Outlook Express was an email program that was included with versions of Microsoft Windows prior to Windows Vista. Outlook Express saved messages in .dbx files, with each file containing the contents of an Outlook Express folder.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>23 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/838</Identifier>
     <IdentifierType>PUID</IdentifierType>

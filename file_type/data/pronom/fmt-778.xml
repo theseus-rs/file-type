@@ -3,11 +3,6 @@
   <FormatName>Microsoft Network Monitor Packet Capture</FormatName>
   <FormatVersion>2</FormatVersion>
   <FormatDescription>Microsoft Network Monitor is a packet analyser used to examine and interpret network traffic.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Nov 2015</ProvenanceSourceDate>
-  <ProvenanceDescription>https://msdn.microsoft.com/en-us/library/windows/desktop/ee817717(v=vs.85).aspx</ProvenanceDescription>
-  <LastUpdatedDate>21 Nov 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/778</Identifier>
     <IdentifierType>PUID</IdentifierType>

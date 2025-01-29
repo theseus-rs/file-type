@@ -13,16 +13,6 @@ There is no single specification for Markdown, nor is there a single canonical o
 Further descriptions of the background of Markdown and a list of Markdown 'flavors' can be found on the Archiveteam Just Solve It File Formats Wiki: http://fileformats.archiveteam.org/wiki/Markdown
 
 Wikipedia also provides a thorough description of Markdown and its syntax: https://en.wikipedia.org/wiki/Markdown#Standardization</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
-  <ProvenanceSourceDate>23 Jul 2018</ProvenanceSourceDate>
-  <ProvenanceDescription>Update to this entry was sent by Stadtarchiv Hof and included in v112 of signature file.</ProvenanceDescription>
-  <LastUpdatedDate>20 Apr 2023</LastUpdatedDate>
-  <FormatNote>RFC 7763 (https://www.rfc-editor.org/rfc/rfc7763.html)
-
-http://fileformats.archiveteam.org/wiki/Markdown
-
-https://daringfireball.net/projects/markdown/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1149</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,10 +4,6 @@
   <FormatVersion>17+</FormatVersion>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>Archicad is a proprietary architectural and Building Information Modelling (BIM) software application produced by Graphisoft. Files with the .pln extension are the standard working format, whereas files with the .pla extension are the Archicad archive file type, that bundles together all components, linked images and textures into a single package. This signature does not currently distinguish between specific Archicad format types.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>25 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Aug 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1913</Identifier>
     <IdentifierType>PUID</IdentifierType>

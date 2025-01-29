@@ -3,11 +3,6 @@
   <FormatName>3D Studio (DOS) 2D/3D Loft Object File</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Lft is the 3D Studio (DOS) loft object format. The original 3D Studio product was created for the DOS platform by the Yost Group, and published by Autodesk. In 3D Studio, lofting is the process of making a 2D Shape into a 3D mesh.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>22 Feb 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Feb 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/LFT</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1830</Identifier>
     <IdentifierType>PUID</IdentifierType>

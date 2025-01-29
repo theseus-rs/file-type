@@ -3,11 +3,6 @@
   <FormatName>exFAT (Extensible File Allocation Table) Disc Image</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>The Extensible File Allocation Table is a file system introduced by Microsoft in 2006, mainly for use in flash memory, such as USB flash drive and SD memory cards. It was a proprietary format until 2019, when Microsoft published its specification (https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification). It may be possible and desirable to distinguish between different types of exFAT image. Please contact the PRONOM team if you can assist with this.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>25 Jan 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Jan 2022</LastUpdatedDate>
-  <FormatNote>https://docs.microsoft.com/en-us/windows/win32/fileio/exfat-specification</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1609</Identifier>
     <IdentifierType>PUID</IdentifierType>

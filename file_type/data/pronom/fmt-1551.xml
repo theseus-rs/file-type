@@ -3,13 +3,6 @@
   <FormatName>NetWare Loadable Module</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>A NetWare Loadable Module (NLM) is a loadable kernel module (a binary code module) that can be loaded into Novell's NetWare operating system. NLMs can implement hardware drivers, server functions (e.g. clustering), applications (e.g. GroupWise), system libraries or utilities.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>16 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Nov 2021</LastUpdatedDate>
-  <FormatNote>https://en.wikipedia.org/wiki/NetWare_Loadable_Module
-
-https://dbpedia.org/page/NetWare_Loadable_Module</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1551</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>Windows Imaging Format</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>The Windows Imaging Format (WIM) is a file-based disk image format developed by Microsoft.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Keep Solutions / Keep Solutions</ProvenanceName>
-  <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Feb 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/614</Identifier>
     <IdentifierType>PUID</IdentifierType>

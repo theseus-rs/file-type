@@ -6,10 +6,6 @@
 Full specifications available at http://www-mipl.jpl.nasa.gov/external/VICAR_file_fmt.pdf</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>09 Nov 2011</ProvenanceSourceDate>
-  <LastUpdatedDate>09 Nov 2011</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/383</Identifier>
     <IdentifierType>PUID</IdentifierType>

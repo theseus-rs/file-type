@@ -3,11 +3,6 @@
   <FormatName>Microsoft Agent File</FormatName>
   <FormatTypes>Video</FormatTypes>
   <FormatDescription>The Microsoft Agent File was used to store the sounds, text, and animations of Microsoft agents, animated characters which offered technical help to users. The most famous of these was Clippy the paperclip, who will be instantly recognised by those of a certain age. Microsoft OS came with a variety of agents preinstalled, and it was also possible to create them with Microsoft Agent Character Editor Version 1 or Version 2. Microsoft Agent was deprecated as of Windows 7.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>New York Public Library / New York Public Library</ProvenanceName>
-  <ProvenanceSourceDate>03 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Aug 2023</LastUpdatedDate>
-  <FormatNote>Specification:  http://fileformats.lebeausoftware.org/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1893</Identifier>
     <IdentifierType>PUID</IdentifierType>

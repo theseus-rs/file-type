@@ -3,10 +3,6 @@
   <FormatName>Cintel Raw Image/DaVinci Resolve Image</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>CRI is the native format of the Cintel Scanner, a film scanning and editing solution. It can be natively edited in DaVinci Resolve Studio software. FFmpeg also lists the ability to decode CRI.DVCC files are produced by DaVinci Resolve editing software and appear to share a common structure with CRI.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>CSC / IT Center for Science, Finland</ProvenanceName>
-  <ProvenanceSourceDate>23 Jun 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Jun 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1716</Identifier>
     <IdentifierType>PUID</IdentifierType>

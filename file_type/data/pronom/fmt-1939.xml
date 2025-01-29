@@ -3,10 +3,6 @@
   <FormatName>Auto FX PhotoGraphic Edges Image File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The image file used by the now discontinued Auto FX PhotoGraphic Edges, a program used for enhancing digital images with effects. The files are raster images which could be overlaid onto another image to apply the effect.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>31 Oct 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>31 Oct 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1939</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>Access Report Snapshot</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>In Microsoft Access up to 2010, a report could be exported into a SNP format. This could be read by a standalone reader.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>20 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1482</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>PowerProject Teamplan</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>Early format for Asta PowerProject project management software. Superceded by later .pp format. .pdb files are viewable in the free 'Project Viewer' software available here: http://www.astadev.com/free-project-viewer/</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Borthwick Institute for Archives / The Borthwick Institute for Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 May 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>01 May 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/510</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +29,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1298</RelatedFormatID>
     <RelatedFormatName>PowerProject</RelatedFormatName>
-    <RelatedFormatVersion>7</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

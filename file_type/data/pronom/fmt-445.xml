@@ -3,11 +3,6 @@
   <FormatName>Microsoft Excel Macro-Enabled</FormatName>
   <FormatVersion>2007</FormatVersion>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Aug 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-excel.sheet.macroEnabled.12</Identifier>
     <IdentifierType>MIME</IdentifierType>

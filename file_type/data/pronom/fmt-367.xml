@@ -3,11 +3,6 @@
   <FormatName>ESRI World File Format</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>A world file is a plain text computer data file used by geographic information systems to georeference raster map images, which may be produced in several of the basic image formats. The file specification was introduced by Esri. World files establish an image-to-world transformation that converts the image coordinates in raster data to real-world coordinates, where each cell in the image has a row and column number.  Some image formats will store their georeferencing information in a separate file, rather than in the header. World Files do not specify a coordinate system, but contain six-line files that provide the georeferencing information. Furthe information can be found at http://webhelp.esri.com/arcgiSDEsktop/9.3/index.cfm?TopicName=World_files_for_raster_datasets and http://webhelp.esri.com/arcims/9.2/general/topics/author_world_files.htm</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Archaeology Data Service / Archaeology Data Service</ProvenanceName>
-  <ProvenanceSourceDate>19 Aug 2011</ProvenanceSourceDate>
-  <ProvenanceDescription>Submitted by Archaeology Data Service. Format description information supplied by the Geospatial Multistate Access and Preservation Partnership (GeoMAPP), a grant funded collaboration sponsored by the National Digital Information Infrastructure Preservation Program (NDIIPP) of the Library of Congress, involving archives staff from North Carolina, Kentucky, Montana, and Utah state archives. 04/2024 (v.118)- Addition of extension sdw. Submitted by Preservica.</ProvenanceDescription>
-  <LastUpdatedDate>22 Apr 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/367</Identifier>
     <IdentifierType>PUID</IdentifierType>

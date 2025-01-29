@@ -4,10 +4,6 @@
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Ogg is a open container format maintained by the Xiph.Org Foundation. FLAC (Free Lossless Audio Codec) handles archival and high fidelity audio data.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Jul 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Jul 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>audio/ogg</Identifier>
     <IdentifierType>MIME</IdentifierType>

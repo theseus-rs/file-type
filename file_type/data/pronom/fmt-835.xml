@@ -5,10 +5,6 @@
   <FormatTypes>Spreadsheet</FormatTypes>
   <FormatDescription>Quattro Pro is a spreadsheet program originally developed by Borland and now part of Corel's WordPerfect Office suite.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>22 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/835</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -35,12 +31,10 @@ EOF: ….</SignatureNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1637</RelatedFormatID>
     <RelatedFormatName>Quattro Pro Spreadsheet</RelatedFormatName>
-    <RelatedFormatVersion>7-8</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1635</RelatedFormatID>
     <RelatedFormatName>Quattro Pro Spreadsheet for Windows</RelatedFormatName>
-    <RelatedFormatVersion>1/5</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

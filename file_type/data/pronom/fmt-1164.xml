@@ -5,10 +5,6 @@
   <FormatDescription>Praat is a computer software package for the scientific analysis of speech in phonetics, developed by Paul Boersma and David Weenink of the University of Amsterdam. 
 
 The Praat Picture File is a diagram produced from speech analyses within Praat. The picture file contains the whole drawing board and can be used for interchange between different systems running the Praat software.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>University of British Columbia / University of British Columbia</ProvenanceName>
-  <ProvenanceSourceDate>26 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1164</Identifier>
     <IdentifierType>PUID</IdentifierType>

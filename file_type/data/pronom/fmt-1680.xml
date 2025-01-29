@@ -4,11 +4,6 @@
   <FormatVersion>3.7 onwards</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>INTREPID Standard Information Files are a format developed by Australian company Intrepid Geophysics, used by their INTREPID software for processing and visualising geophysical data. isi files are vector files which can capture a variety of data. Every INTREPID dataset has an isi file which contains, amongst other information, the parameter values for the dataset.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>09 May 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>09 May 2022</LastUpdatedDate>
-  <FormatNote>Specification: https://docs.intrepid-geophysics.com/intrepid/topics/databases-files-and-data-structures.html#5_5_INTREPID</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1680</Identifier>
     <IdentifierType>PUID</IdentifierType>

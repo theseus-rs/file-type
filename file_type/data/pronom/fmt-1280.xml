@@ -3,10 +3,6 @@
   <FormatName>NCH Dictation Audio File</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>DCT is a proprietary audio file format developed by NCH Software for their dictation software. As well as audio data, .dct files also contain dictation header information and can be encrypted.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1280</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -32,7 +28,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>737</RelatedFormatID>
     <RelatedFormatName>WordPerfect for MS-DOS/Windows Document</RelatedFormatName>
-    <RelatedFormatVersion>5.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

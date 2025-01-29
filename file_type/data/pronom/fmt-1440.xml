@@ -4,11 +4,6 @@
   <FormatVersion>09</FormatVersion>
   <FormatTypes>Spreadsheet</FormatTypes>
   <FormatDescription>Numbers is a spreadsheet application created by Apple as part of the iWork Productivity Suite.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>30 Sep 2020</ProvenanceSourceDate>
-  <ProvenanceDescription>This format is identifiable via a container signature in DROID 6 and later.</ProvenanceDescription>
-  <LastUpdatedDate>30 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1440</Identifier>
     <IdentifierType>PUID</IdentifierType>

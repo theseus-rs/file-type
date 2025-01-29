@@ -3,12 +3,6 @@
   <FormatName>Primavera P6 Project Management XER File</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>An ASCII based file used to store project information with accompanying tables and fields. Primavera P6 is a project management software which replaced the older P3 software in 2007. It has been supported by Oracle since 2008. This is the XER format however projects can also be saved in XML.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
-  <FormatNote>https://ippm.dk/ikke-kategoriseret/crash-course-to-the-primavera-xer-format
-http://fileformats.archiveteam.org/wiki/Primavera_P6</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1455</Identifier>
     <IdentifierType>PUID</IdentifierType>

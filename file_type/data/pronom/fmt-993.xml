@@ -3,10 +3,6 @@
   <FormatName>MD5 File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>The MD5 algorithm is a hash function producing a 128-bit hash value, it is described in RFC 1321. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity against unintentional corruption. The MD5 file is a text document which contains single or multiple MD5 values.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>15 Feb 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>15 Feb 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/993</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>Alias Pix Image File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Alias is a Computer Aided Design software family owned by Autodesk. The Pix Image file is a raster image format produced produced by Alias. Files of this type may lack a file extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>18 Sep 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Sep 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1092</Identifier>
     <IdentifierType>PUID</IdentifierType>

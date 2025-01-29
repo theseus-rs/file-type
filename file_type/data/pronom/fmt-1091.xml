@@ -3,10 +3,6 @@
   <FormatName>Scribus Document</FormatName>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Scribus is an open source desktop publishing application originally created by Franz Schmid. Scribus document files may be compressed within a GZIP container. It may be desirable to distinguish between different versions of Scribus Document.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Aug 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Aug 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.scribus</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -53,6 +49,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -3,20 +3,6 @@
   <FormatName>PKCS #7 Cryptographic Message File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>PKCS #7 Cryptographic Message File is a form of electronic signature used to secure messages that can only be read by the intended recipient. PKCS #7 describes a general syntax for data that may have cryptography applied to it, such as digital signatures and digital envelopes. PKCS #7 is one of the family of standards called Public-Key Cryptography Standards (PKCS) devised and published by RSA Security Inc, starting in the early 1990s; storing signed and/or encrypted data, usually attached to an email message that includes an S/MIME (Secure/Multipurpose Internet Mail Extensions) digital signature. The extension .p7s usually refers to PKCS #7 Signature Files; .p7m usually refers to PKCS #7 MIME Files; and .p7b usually refers to PKCS #7 Certificate Files. The research of this format is still ongoing, please contact the PRONOM team if you how any more information regarding this format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.116)- Priority over fmt/101 added. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>16 Nov 2023</LastUpdatedDate>
-  <FormatNote>https://en.wikipedia.org/wiki/PKCS_7
-
-https://en.wikipedia.org/wiki/PKCS
-
-https://en.wikipedia.org/wiki/S/MIME
-
-https://www.cryptomathic.com/news-events/blog/introduction-to-digital-signatures-and-pkcs-7
-
-https://comodosslstore.com/resources/what-is-an-smime-p7s-file-attachment-and-how-do-i-open-it/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/pkcs7-mime</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -75,6 +61,5 @@ https://comodosslstore.com/resources/what-is-an-smime-p7s-file-attachment-and-ho
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

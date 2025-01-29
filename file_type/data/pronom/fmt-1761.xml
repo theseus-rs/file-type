@@ -4,10 +4,6 @@
   <FormatVersion>I</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>MacBinary is a format for the encoding of Macintosh files for transmission or storage on other operating systems. This means that all system specific aspects of the file can be reconstituted after transmission. The file itself combines the two forks of a MacOS file into a single file alongside the metadata.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>26 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Aug 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1761</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -16,6 +12,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2612</RelatedFormatID>
     <RelatedFormatName>MacBinary</RelatedFormatName>
-    <RelatedFormatVersion>II</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -5,10 +5,6 @@
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>STL is a 3D modelling file format created by 3D Systems. An STL file is a triangular representation of a 3-dimensional surface geometry. The surface is tessellated or broken down logically into a series of small triangles (facets). Each facet is described by a perpendicular direction and three points representing the vertices (corners) of the triangle. These data are used by a slicing algorithm to determine the cross sections of the 3-dimensional shape to be built by the fabricator.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Mar 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/108</Identifier>
     <IdentifierType>PUID</IdentifierType>

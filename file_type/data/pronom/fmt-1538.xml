@@ -3,15 +3,6 @@
   <FormatName>CompuServe RLE</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>CompuServe RLE is a type of run-length encoding graphics monochrome file format, introduced by CompuServe in the 1980s to be used by the CompuServe on-line service. It is the predecessor of CompuServe's GIF file format that supported colour and was invented by Steve Wilhite. The image dimensions are either Medium (128x96) and High (256x192) resolution RLE- compressed files. Files consist entirely of ASCII characters, though some are control characters.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>29 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>29 Oct 2021</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/CompuServe_RLE
-
-https://www.pmview.com/help/pmview/compuserve_rle_rle_.html
-
-https://en.wikipedia.org/wiki/CompuServe</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1538</Identifier>
     <IdentifierType>PUID</IdentifierType>

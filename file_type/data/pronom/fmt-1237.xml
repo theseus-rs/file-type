@@ -4,11 +4,6 @@
   <FormatVersion>12</FormatVersion>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>FileMaker Pro is a cross-platform relational database application.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>J. Paul Getty Trust / J. Paul Getty Trust</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote>https://support.filemaker.com/s/answerview?language=en_US&amp;anum=1002</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1237</Identifier>
     <IdentifierType>PUID</IdentifierType>

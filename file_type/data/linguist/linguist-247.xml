@@ -1,9 +1,6 @@
 <FileFormat>
   <FormatID>247</FormatID>
   <FormatName>NewLisp</FormatName>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>linguist/247</Identifier>
     <IdentifierType>PUID</IdentifierType>

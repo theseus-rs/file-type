@@ -4,11 +4,6 @@
   <FormatVersion>1.0</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>Microsoft PhotoDraw 2000 is a vector graphics and raster imaging software package developed by Microsoft.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>12 Nov 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>This file format is identified by container signature.</ProvenanceDescription>
-  <LastUpdatedDate>12 Nov 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/594</Identifier>
     <IdentifierType>PUID</IdentifierType>

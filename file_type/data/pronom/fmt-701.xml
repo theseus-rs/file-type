@@ -3,12 +3,6 @@
   <FormatName>Processing Development Environment</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Processing is an open source programming language and integrated development environment (IDE).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Museum of London / Museum of London</ProvenanceName>
-  <ProvenanceSourceDate>11 Feb 2015</ProvenanceSourceDate>
-  <ProvenanceDescription>https://processing.org
-http://en.wikipedia.org/wiki/Processing_(programming_language)</ProvenanceDescription>
-  <LastUpdatedDate>11 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/701</Identifier>
     <IdentifierType>PUID</IdentifierType>

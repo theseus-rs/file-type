@@ -3,10 +3,6 @@
   <FormatName>Microsoft Reader eBook</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>This eBook format was developed by Microsoft for use with the now discontinued Microsoft Reader software. The format itself is derived from the Microsoft Compiled HTML Help format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Jan 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/867</Identifier>
     <IdentifierType>PUID</IdentifierType>

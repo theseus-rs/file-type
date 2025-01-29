@@ -3,10 +3,6 @@
   <FormatName>Standard Flowgram Format</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Standard flowgram format (SFF) is a binary file format used to encode results of pyrosequencing from the 454 Life Sciences platform for high-throughput sequencing.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Australian National University / Australian National University</ProvenanceName>
-  <ProvenanceSourceDate>26 Feb 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/504</Identifier>
     <IdentifierType>PUID</IdentifierType>

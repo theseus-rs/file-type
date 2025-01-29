@@ -3,15 +3,6 @@
   <FormatName>Multi Palette Picture File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Multi Palette Picture is a raster image file format for Atari ST computers.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Multi_Palette_Picture
-
-http://zerkman.sector1.fr/index.php?post/2012/10/08/Atari-ST-Multipalette-Picture-file-format
-
-https://telparia.com/fileFormatSamples/image/mpp/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1471</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -2,10 +2,6 @@
   <FormatID>1262</FormatID>
   <FormatName>Microsoft Management Console Snap-in Control file</FormatName>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2012</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Oct 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/475</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -30,6 +26,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

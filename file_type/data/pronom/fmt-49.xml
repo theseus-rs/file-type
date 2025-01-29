@@ -5,10 +5,6 @@
   <FormatDisclosure>Partial</FormatDisclosure>
   <FormatDescription>Deprecated in favour of fmt/45</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Oct 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/49</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -17,30 +13,25 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>631</RelatedFormatID>
     <RelatedFormatName>Rich Text Format</RelatedFormatName>
-    <RelatedFormatVersion>1.5-1.6</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>633</RelatedFormatID>
     <RelatedFormatName>Rich Text Format</RelatedFormatName>
-    <RelatedFormatVersion>1.7</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>753</RelatedFormatID>
     <RelatedFormatName>Rich Text Format</RelatedFormatName>
-    <RelatedFormatVersion>1.8</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1101</RelatedFormatID>
     <RelatedFormatName>Rich Text Format</RelatedFormatName>
-    <RelatedFormatVersion>1.9</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>631</RelatedFormatID>
     <RelatedFormatName>Rich Text Format</RelatedFormatName>
-    <RelatedFormatVersion>1.5-1.6</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

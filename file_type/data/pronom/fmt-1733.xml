@@ -3,11 +3,6 @@
   <FormatName>PaintShop Plus Compressed Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>PaintShop Plus Compressed Format is a raster graphics format for the Atari ST line of computers.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>19 Jul 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Jul 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/PaintShop_(Atari_ST)</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1733</Identifier>
     <IdentifierType>PUID</IdentifierType>

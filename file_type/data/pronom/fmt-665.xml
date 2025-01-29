@@ -3,11 +3,6 @@
   <FormatName>Chasys Draw image file</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>CD5 is the native image format used by Chasys Draw IES, a suite of image-editing applications.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>Links: http://en.wikipedia.org/wiki/Chasys_Draw_IES</ProvenanceDescription>
-  <LastUpdatedDate>23 Sep 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/665</Identifier>
     <IdentifierType>PUID</IdentifierType>

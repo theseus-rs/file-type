@@ -5,11 +5,6 @@
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>SketchUp is a 3D content creation tool. PRONOM currently does not distinguish between different versions of SketchUp documents but the ability to distinguish between different file format versions may be desirable and possible with a better understanding of the format.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Datable / Datable</ProvenanceName>
-  <ProvenanceSourceDate>06 Apr 2009</ProvenanceSourceDate>
-  <ProvenanceDescription>An .skp file is a SketchUp document. An .skb is a SketchUp document backup.</ProvenanceDescription>
-  <LastUpdatedDate>10 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/451</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -52,90 +47,75 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2077</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2078</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2079</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2080</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2081</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2082</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>6</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2083</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>7</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2084</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>8</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2085</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>13</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2086</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>14</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2087</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>15</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2088</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>16</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2089</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>17</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2090</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>18</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2091</RelatedFormatID>
     <RelatedFormatName>SketchUp Document</RelatedFormatName>
-    <RelatedFormatVersion>19</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

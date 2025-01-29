@@ -7,12 +7,6 @@
   <FormatDescription>The Matroska Multimedia Container is an open standard free container format, based on the Extensible Binary Meta Language (EBML). Matroska file extensions are .MKV for video (with subtitles and audio), .MK3D for stereoscopic video, .MKA for audio-only files, and .MKS for subtitles only. The Internet Engineering Task Force (IETF) Working Group: Codec Encoding for LossLess Archiving and Realtime transmission (cellar) is tasked with the standardisation of Matroska.
 
 The EBML specifications are work-in-progress, and can be found here: https://github.com/Matroska-Org/ebml-specification/blob/master/specification.markdown</FormatDescription>
-  <ReleaseDate>06 Dec 2002</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Axiell / Axiell</ProvenanceName>
-  <ProvenanceSourceDate>19 Jul 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Feb 2022</LastUpdatedDate>
-  <FormatNote>Format specification: https://matroska.org/technical/specs/index.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/569</Identifier>
     <IdentifierType>PUID</IdentifierType>

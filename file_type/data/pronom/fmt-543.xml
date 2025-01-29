@@ -4,10 +4,6 @@
   <FormatVersion>3.10</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>19 Jul 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Jul 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/543</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +29,5 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1329</RelatedFormatID>
     <RelatedFormatName>GEM Metafile Format</RelatedFormatName>
-    <RelatedFormatVersion>1.01</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

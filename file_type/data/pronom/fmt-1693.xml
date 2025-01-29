@@ -4,19 +4,6 @@
   <FormatVersion>1.0</FormatVersion>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Asymetrix Compel Presentation files are proprietary formats belonging to Compel software application, developed by Asymetrix Learning Systems Corporation. Compel is a presentation software, a tool to create slide-based multimedia presentations. There were two versions published of this software first published in 1993 and second published in 1995, the software was discontinued in 1998. This format entry describes version 1.0 of this software. The software also could export .art files which seems to have very similar structure.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>01 Jun 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Mar 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Asymetrix_Compel
-
-https://web.archive.org/web/19970607001501/http://www.asymetrix.com/products/compel/
-
-https://archive.org/details/asymetrix-multimedia-creative-suite/Asymetrix%20Multimedia%20Creative%20Suite_disc.jpg
-
-https://books.google.co.uk/books?id=cTwEAAAAMBAJ&amp;pg=PA17&amp;dq=asymetrix+compel&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwjWnMuAzIz4AhVKhFwKHRtvB50Q6wF6BAgIEAE#v=onepage&amp;q=asymetrix%20compel&amp;f=false
-
-https://www.danielsays.com/ssg-win1x2x3x-compel20.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1693</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -47,6 +34,5 @@ https://www.danielsays.com/ssg-win1x2x3x-compel20.html</FormatNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2530</RelatedFormatID>
     <RelatedFormatName>Asymetrix Compel Presentation</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

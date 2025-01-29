@@ -5,10 +5,6 @@
   <FormatDescription>Tweet JSON represents the serialization of the JSON response payload of the Twitter API when requesting a single Tweet by id. Each Tweet has an author, a message, a unique ID, a timestamp of when it was posted, and sometimes geo metadata shared by the user.
 Each Tweet also has "entity" objects, which are arrays of common Tweet contents such as hashtags, mentions, media, and links. If there are links, the JSON payload can also provide metadata such as the fully unwound URL and the webpage’s title and description.
 In addition to the text content itself, a Tweet can have over 150 attributes associated with it.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/json</Identifier>
     <IdentifierType>MIME</IdentifierType>

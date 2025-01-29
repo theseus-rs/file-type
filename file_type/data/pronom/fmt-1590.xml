@@ -3,10 +3,6 @@
   <FormatName>Visual Basic Binary Form File</FormatName>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>Generated in Visual Basic, frx files encode the binary data for images specified by the accompanying .frm file.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>06 Jan 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Jan 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1590</Identifier>
     <IdentifierType>PUID</IdentifierType>

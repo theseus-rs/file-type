@@ -4,11 +4,6 @@
   <FormatVersion>7</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>The proprietary file format used by Autodesk Alias products, a family of computer-aided industrial design (CAID) software predominantly used in automotive and industrial design. Files of this type lack an extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>21 Sep 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Sep 2023</LastUpdatedDate>
-  <FormatNote>https://www.autodesk.com/products/alias-products/overview?term=1-YEAR&amp;tab=subscription&amp;plc=ALSCPT</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1916</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,11 +4,6 @@
   <FormatVersion>4f</FormatVersion>
   <FormatTypes>Page Description</FormatTypes>
   <FormatDescription>PDF/A-4 is the file format described by ISO 19005-4:2020 “Document management — Electronic document file format for long-term preservation — Part 4: Use of ISO 32000-2 (PDF/A-4)”. It is the first of the PDF-Archival format family to be based on PDF 2.0. PDF/A-4f allows files of any format to be embedded.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>25 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Aug 2023</LastUpdatedDate>
-  <FormatNote>https://www.iso.org/standard/71832.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/pdf</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -60,12 +55,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1939</RelatedFormatID>
     <RelatedFormatName>PDF 2.0 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2766</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>4</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

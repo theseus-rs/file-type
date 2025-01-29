@@ -4,10 +4,6 @@
   <FormatVersion>5</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>Serif DrawPlus is a vector image creation application. This format is based on the OLE2 Compound Document Format and can be identified in DROID 6 and later via a container signature. At this time the signature identification is baed upon the version number of the generating software as shown in the 'SummaryInformation' file within the OLE2 compound container. This may be improved with a better understanding of the format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>07 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>15 Nov 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/853</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -21,12 +17,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2352</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1653</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>4</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

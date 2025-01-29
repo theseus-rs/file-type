@@ -3,13 +3,6 @@
   <FormatName>SubRip Subtitle File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>SubRip subtitle files contain formatted lines of plain text in groups separated by a blank line. Subtitles are numbered sequentially, starting at 1. The timecode format used is hours:minutes:seconds,milliseconds, with time units fixed to two zero-padded digits and fractions fixed to three zero-padded digits, e.g. '00:00:00,000'.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>07 Feb 2019</ProvenanceSourceDate>
-  <LastUpdatedDate>09 May 2023</LastUpdatedDate>
-  <FormatNote>https://www.matroska.org/technical/subtitles.html#srt-subtitles
-
-https://en.wikipedia.org/wiki/SubRip</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1218</Identifier>
     <IdentifierType>PUID</IdentifierType>

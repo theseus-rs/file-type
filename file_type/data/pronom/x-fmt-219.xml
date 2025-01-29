@@ -5,10 +5,6 @@
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Mar 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/x-internet-archive</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -37,43 +33,36 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>639</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>640</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>3.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>641</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>642</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.01</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>643</RelatedFormatID>
     <RelatedFormatName>Extensible Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>644</RelatedFormatID>
     <RelatedFormatName>Extensible Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -84,6 +73,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1158</RelatedFormatID>
     <RelatedFormatName>Internet Archive</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

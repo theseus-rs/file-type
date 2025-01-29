@@ -4,10 +4,6 @@
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>This variant of ZFO file is container for sent data mailbox messages provided by Česká pošta, s.p. ZFO file is a ZIP archive file  (PKCS #7 Cryptographic Message File) composing of the layout structure using XML elements (envelope) and data instance encoded as Base64 (message content). 
 The message may contain one or more attachments in the file format specified in Annex 3 to Decree No. 194/2009 Col.  The whole tructure is always embedded into a digital signature represented by XML elements of the XML Signature standard.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.software602.filler.form-xml-zip</Identifier>
     <IdentifierType>MIME</IdentifierType>

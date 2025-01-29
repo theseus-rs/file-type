@@ -7,11 +7,6 @@
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>The Extensible Hypertext Markup Language (XHTML) is a reformulation of the Hypertext Markup Language (HTML) as an application of the Extensible Markup Language (XML). This allows for the automated processing of XHTML documents using a standard XML parser. XHTML 1.1 is now recommended by the W3C over HTML for the creation of web pages. The structure and grammar of an XHTML document is defined using a Document Type Definition (DTD). An XHTML document consists of nested elements, each of which may have attributes and content. It begins with an XHTML Document Type declaration, defining the XHTML version and Document Type Definition (DTD) to which it conforms. XHTML documents are typically encoded in UTF-8 or UTF-16.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ReleaseDate>31 May 2001</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Sep 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/xhtml+xml</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -20,28 +15,6 @@
     <Identifier>fmt/103</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>24</DocumentID>
-    <DisplayText>World Wide Web Consortium, 2001, W3C Recommendation: XHTML 1.1 - Module-based XHTML</DisplayText>
-    <DocumentType>Authoritative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>31 May 2001</PublicationDate>
-    <TitleText>W3C Recommendation: XHTML 1.1 - Module-based XHTML</TitleText>
-    <DocumentIdentifier>
-      <Identifier>www.w3.org/TR/xhtml11/</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>106</AuthorID>
-      <OrganisationName>World Wide Web Consortium</OrganisationName>
-      <AuthorCompoundName>World Wide Web Consortium</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>106</PublisherID>
-      <OrganisationName>World Wide Web Consortium</OrganisationName>
-      <PublisherCompoundName>World Wide Web Consortium</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>585</ExternalSignatureID>
     <Signature>htm</Signature>
@@ -73,7 +46,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>310</RelatedFormatID>
     <RelatedFormatName>Internet Archive</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -89,7 +61,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1158</RelatedFormatID>
     <RelatedFormatName>Internet Archive</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -110,19 +81,16 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2099</RelatedFormatID>
     <RelatedFormatName>WARC</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2173</RelatedFormatID>
     <RelatedFormatName>WARC</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -133,6 +101,5 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>643</RelatedFormatID>
     <RelatedFormatName>Extensible Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

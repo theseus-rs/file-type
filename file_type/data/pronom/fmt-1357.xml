@@ -4,12 +4,6 @@
   <FormatAliases>OGR Virtual Format</FormatAliases>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>VRT is developed by the GDAL/OGR group and is an XML file that is used to transform source GIS datasets by the GDAL/OGR programs. It can operate on either raster or vector data sources, though the two different datasets cannot be mixed in the same VRT file. Virtual Format is a driver that transforms features read from other drivers based on criteria specified in an XML control file. It is primarily used to derive spatial layers from flat tables with spatial information in attribute columns. It can also be used to associate coordinate system information with a datasource, merge layers from different datasources into a single data source, or even just to provide an anchor file for access to non-file oriented datasources.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Wales / National Library of Wales</ProvenanceName>
-  <ProvenanceSourceDate>29 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>29 Jan 2020</LastUpdatedDate>
-  <FormatNote>https://gdal.org/drivers/vector/vrt.html
-https://timcera.bitbucket.io/posts/vrts_are_amazing.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1357</Identifier>
     <IdentifierType>PUID</IdentifierType>

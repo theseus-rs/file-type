@@ -4,10 +4,6 @@
   <FormatVersion>3.x</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>The Variant Call Format (VCF) specifies the format of a text file used in bioinformatics for storing gene sequence variations.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>04 Jul 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>04 Jul 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/907</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -36,12 +32,10 @@ Specifications: https://github.com/samtools/hts-specs</SignatureNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1713</RelatedFormatID>
     <RelatedFormatName>Variant Call Format</RelatedFormatName>
-    <RelatedFormatVersion>4.x</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1711</RelatedFormatID>
     <RelatedFormatName>Variant Call Format</RelatedFormatName>
-    <RelatedFormatVersion>2.x</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

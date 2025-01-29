@@ -4,10 +4,6 @@
   <FormatAliases>PEF</FormatAliases>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>The Preferred Executable Format is a file format that specifies the format of executable files and other object code for the Apple Macintosh. Files of this type may lack a format extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Datable / Datable</ProvenanceName>
-  <ProvenanceSourceDate>17 Jul 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>17 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>com.apple.pef-binary</Identifier>
     <IdentifierType>Apple Uniform Type Identifier</IdentifierType>

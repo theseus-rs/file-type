@@ -3,10 +3,6 @@
   <FormatName>Nullsoft Scriptable Install System</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>NSIS (Nullsoft Scriptable Install System) is an open source system to create Windows installers. NSIS is script-based and although it has regular and well defined syntax, there are no magic numbers or header sequences. As such, there is no current means to identify a file as NSIS by binary sequence alone, so identification of this format is by extension only.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
-  <ProvenanceSourceDate>31 Mar 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>31 Mar 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/644</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -6,17 +6,6 @@
   <FormatDescription>Microsoft Word for MS-DOS Document is a proprietary binary format of Microsoft Word, word processing application, for MS-DOS first released in 1983. The first version was released on IBM PC DOS, developed by Microsoft, which Microsoft then re-branded as MS-DOS. The version was developed by Charles Simonyi and Richard Brodie firstly for Xenix in February 1983 (titled as "Multi-Tool Word") and in October 1983 for MS-DOS operating systems. The application featured graphics video mode, mouse and printer support (printer support was added in version 2) in WYSIWYG (What You See Is What You Get) interface and could run in text mode or graphics mode, with bold, italics, and underline features only available in the text mode. The version 5.5 of the format was released in 1990, with the release of Word for MS-MOS, which significantly changed the user interface from previous versions, with popup menus and dialog boxes, adding Mac/Windows-like pulldown menus and overlapping windows. Please see the full list of versions using the links provided in the Notes section.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>19 May 2022</LastUpdatedDate>
-  <FormatNote>https://web.archive.org/web/20211222235433/https://winworldpc.com/product/microsoft-word/5x-dos
-
-https://en.wikipedia.org/wiki/Doc_(computing)#Microsoft_Word_Binary_File_Format
-
-https://web.archive.org/web/20220517101947/https://en.wikipedia.org/wiki/History_of_Microsoft_Word
-
-https://www.docfly.com/blog/2020/a-brief-history-of-microsoft-word</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/msword</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -49,12 +38,10 @@ https://www.docfly.com/blog/2020/a-brief-history-of-microsoft-word</FormatNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2524</RelatedFormatID>
     <RelatedFormatName>Microsoft Word for MS-DOS Document</RelatedFormatName>
-    <RelatedFormatVersion>6.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>407</RelatedFormatID>
     <RelatedFormatName>Microsoft Word for MS-DOS Document</RelatedFormatName>
-    <RelatedFormatVersion>5.0 - 5.4</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

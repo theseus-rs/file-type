@@ -3,11 +3,6 @@
   <FormatName>Bayesian Interchange Format File</FormatName>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>Bayesian Interchange files store the structure and probability tables for a Bayesian network, allowing for interchange of said networks between people, and facilitating comparison and discussion of research and other results.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>15 Mar 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>15 Mar 2022</LastUpdatedDate>
-  <FormatNote>http://www.cs.washington.edu/dm/vfml/appendixes/bif.htm</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1650</Identifier>
     <IdentifierType>PUID</IdentifierType>

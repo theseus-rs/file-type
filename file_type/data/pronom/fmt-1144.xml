@@ -3,10 +3,6 @@
   <FormatName>CompuServe WinCIM Message Format</FormatName>
   <FormatTypes>Email</FormatTypes>
   <FormatDescription>WinCIM was client software produced by CompuServe to enable access to CompuServe's forums and other internet services.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Harry Ransom Centre / Harry Ransom Centre</ProvenanceName>
-  <ProvenanceSourceDate>23 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1144</Identifier>
     <IdentifierType>PUID</IdentifierType>

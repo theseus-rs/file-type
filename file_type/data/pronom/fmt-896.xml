@@ -3,11 +3,6 @@
   <FormatName>MusicXML</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>MusicXML is an XML based format, it was designed for sharing sheet music files between applications, and for archiving sheet music files for use in the future.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>16 Jun 2016</ProvenanceSourceDate>
-  <ProvenanceDescription>Versions prior to DROID 6.3 may not identify this format correctly</ProvenanceDescription>
-  <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.recordare.musicxml+xml</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -42,12 +37,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

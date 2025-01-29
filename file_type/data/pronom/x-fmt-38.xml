@@ -3,11 +3,6 @@
   <FormatName>AutoCAD Custom Dictionary</FormatName>
   <FormatDescription>AutoCAD is 2D and 3D computer-aided design software used by professionals such as architects, engineers and city planners to prepare technical drawings. Developed by Autodesk. It was first released in 1982, and is now very widely used. AutoCAD comes with a main dictionary which is used for spell checking, but also one or more custom dictionaries can be installed. Words can be added to these by the user. The default custom dictionary is called SAMPLE.CUS, and is found in the in the ‘support’ folder of an AutoCAD installation.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118): Added internal signature. Submitted by the National Archives and Records Administration.</ProvenanceDescription>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/38</Identifier>
     <IdentifierType>PUID</IdentifierType>

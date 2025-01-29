@@ -2,10 +2,6 @@
   <FormatID>1993</FormatID>
   <FormatName>MicroStation Material Palette</FormatName>
   <FormatDescription>MicroStation is CAD software developed by Bentley Systems. Within MicroStation, material characteristics are stored in material palette .pal files and can be edited within the supplied material editor.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>07 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>07 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1183</Identifier>
     <IdentifierType>PUID</IdentifierType>

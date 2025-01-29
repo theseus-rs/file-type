@@ -4,10 +4,6 @@
   <FormatVersion>2.0</FormatVersion>
   <FormatTypes>Font</FormatTypes>
   <FormatDescription>Web Open Font Format (WOFF) is a font format designed primarily for use on the Web, and can also be used as a container format or "wrapper" for font data in already-existing formats. WOFF 2 was developed to provide improved compression over WOFF 1.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>British Library / British Library</ProvenanceName>
-  <ProvenanceSourceDate>01 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>01 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1172</Identifier>
     <IdentifierType>PUID</IdentifierType>

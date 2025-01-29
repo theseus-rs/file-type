@@ -2,10 +2,6 @@
   <FormatID>2011</FormatID>
   <FormatName>PowerCADD</FormatName>
   <FormatDescription>PowerCADD was developed by Engineered Software to create two-dimensional technical drawings on the PPC Mac OS 7 (Macintosh System 7).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>15 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>15 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1201</Identifier>
     <IdentifierType>PUID</IdentifierType>

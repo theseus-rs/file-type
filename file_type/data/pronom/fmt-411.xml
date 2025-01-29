@@ -3,10 +3,6 @@
   <FormatName>RAR Archive</FormatName>
   <FormatVersion>2.9</FormatVersion>
   <FormatDescription>RAR is a proprietary archive file format that supports data compression, error recovery and file spanning.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
-  <ProvenanceSourceDate>17 Mar 2012</ProvenanceSourceDate>
-  <LastUpdatedDate>17 Mar 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.rar</Identifier>
     <IdentifierType>MIME</IdentifierType>

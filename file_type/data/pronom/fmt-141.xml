@@ -6,10 +6,6 @@
   <FormatDescription>Waveform Audio (PCMWAVEFORMAT) is the standard Waveform Audio file format, developed by Microsoft. It has now been superseded by Waveform Audio (WAVEFORMATEX), an extended version.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 Feb 2007</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Jun 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>audio/x-wav</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -44,37 +40,31 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>656</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>1 Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>735</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>0 Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1314</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>2 Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1502</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>0 PCM Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1503</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>1 PCM Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1504</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>2 PCM Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

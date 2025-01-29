@@ -3,11 +3,6 @@
   <FormatName>Microsoft Project</FormatName>
   <FormatVersion>2007</FormatVersion>
   <FormatDescription>Microsoft Project is a project management software program developed by Microsoft. The .mpp format produced by Microsoft Project 2007 is based upon Microsoft's OLE2 Compound Document Format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-project</Identifier>
     <IdentifierType>MIME</IdentifierType>

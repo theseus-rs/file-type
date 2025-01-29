@@ -5,15 +5,6 @@
   <FormatDescription>SVF files are font files utilized by EnVision Publisher. 
 
 EnVision Publisher was published by Software Vision in 1993, as a MS-DOS based (and later Windows 3.1) word processing program. At the time, it was an advanced desktop publishing program for Windows, with the ability to create publishing projects such as newsletters, flyers, brochures, business cards, and other printed material. The software's selling point was its low cost and ease of use of some advanced featured compared to its competitiors at the time. This desktop publishing program features a graphical WYSIWYG (What You See Is What You Get) interface, horizontal and vertical toolbars and rulers, templates for fliers and newsletters, 4 fonts, spell checker, style sheets, line, graphic, fill options, kerning, line justification, text rotation and color, cut, copy, paste, PCX and text import, zoom, page insert, clear, and delete, on-line help, and more.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>04 Jan 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>04 Jan 2022</LastUpdatedDate>
-  <FormatNote>https://www.danielsays.com/ssg-dossw-ep154.html
-
-http://fileformats.archiveteam.org/wiki/Envision_Publisher
-
-https://web.archive.org/web/19990125085618/http://www.envisionpublisher.com/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1581</Identifier>
     <IdentifierType>PUID</IdentifierType>

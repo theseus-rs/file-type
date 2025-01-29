@@ -4,10 +4,6 @@
   <FormatVersion>1-6</FormatVersion>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>These are files created by Visual Basic, a software development tool for Windows. The files hold coordinate positions for each window in the visual programming environment, and are used to reload elements into their previous positions after a close/reopen. Visual Basic software has been replaced with Visual Basic.NET., which doesn’t generate .vbw files.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>16 Dec 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Dec 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1574</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,6 +37,5 @@ Magic bytes EOF, offset 0: ..</SignatureNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2366</RelatedFormatID>
     <RelatedFormatName>Visual Basic Form File</RelatedFormatName>
-    <RelatedFormatVersion>4 onwards</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

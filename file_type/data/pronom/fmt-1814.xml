@@ -3,11 +3,6 @@
   <FormatName>Adobe Color Book for Windows</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Adobe Photoshop has a custom colours function, allowing the user to choose from a wide variety of colours from industry-standard colour catalogues including ANPA, DIC, Focoltone and Pantone. The colour catalogue data comes from Adobe Color Book files. These file have the .acb file extension on Windows and reside inside the “…/Presets/Color Books” folder in a typical installation.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>02 Feb 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Feb 2023</LastUpdatedDate>
-  <FormatNote>Unofficial specification:  https://magnetiq.ca/pages/acb-spec/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1814</Identifier>
     <IdentifierType>PUID</IdentifierType>

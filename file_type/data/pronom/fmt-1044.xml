@@ -3,10 +3,6 @@
   <FormatName>AutoShade Rendering Slide</FormatName>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>AutoShade was an early 3D rendering package for use with AutoCAD. AutoShade wrote the rendering to an .RND file as a 2D vector image.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Apr 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Apr 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1044</Identifier>
     <IdentifierType>PUID</IdentifierType>

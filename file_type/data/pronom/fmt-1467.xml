@@ -3,10 +3,6 @@
   <FormatName>STOS Memory Bank</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>STOS Memory Bank files are associated with the STOS: The Game Creator, a toolkit for creating games on an Atari ST computer in the STOS BASIC programming language. Files store various data such as graphics and music.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1467</Identifier>
     <IdentifierType>PUID</IdentifierType>

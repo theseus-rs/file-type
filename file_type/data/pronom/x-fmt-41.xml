@@ -5,10 +5,6 @@
   <FormatDescription>Data Interchange Format (.dif) is a text file format used to import/export single spreadsheets between spreadsheet programs (OpenOffice.org Calc, Excel, Gnumeric, StarCalc, Lotus 1-2-3, FileMaker, dBase, Framework, Multiplan, etc.). It is also known as Navy DIF. One limitation is that DIF format cannot handle multiple spreadsheets in a single workbook.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Aug 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/41</Identifier>
     <IdentifierType>PUID</IdentifierType>

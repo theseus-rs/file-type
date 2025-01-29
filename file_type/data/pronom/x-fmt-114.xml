@@ -6,10 +6,6 @@
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.lotus-1-2-3</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -47,18 +43,15 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>167</RelatedFormatID>
     <RelatedFormatName>Lotus 1-2-3 Worksheet</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>168</RelatedFormatID>
     <RelatedFormatName>Lotus 1-2-3 Worksheet</RelatedFormatName>
-    <RelatedFormatVersion>4-5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>169</RelatedFormatID>
     <RelatedFormatName>Lotus 1-2-3 Worksheet</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -3,11 +3,6 @@
   <FormatName>ART image format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>ART is a proprietary image file format used primarily by America Online (AOL) service software.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>http://en.wikipedia.org/wiki/ART_image_file_format</ProvenanceDescription>
-  <LastUpdatedDate>23 Sep 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/666</Identifier>
     <IdentifierType>PUID</IdentifierType>

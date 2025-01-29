@@ -2,10 +2,6 @@
   <FormatID>1287</FormatID>
   <FormatName>Internet Explorer for Mac cache file</FormatName>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>26 Feb 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/500</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -31,25 +27,21 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>639</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>640</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>3.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>641</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>642</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.01</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -60,6 +52,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1258</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>5</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

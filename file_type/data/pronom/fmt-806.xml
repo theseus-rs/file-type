@@ -3,10 +3,6 @@
   <FormatName>MATLAB Mat File</FormatName>
   <FormatVersion>Level 5</FormatVersion>
   <FormatDescription>A Mat-file stores data in binary form. You can read and write Mat-files using MATLAB. Level 5 MAT-file formats are compatible with MATLAB version 5 and upwards.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Nov 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>09 Dec 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/806</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,18 +33,15 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2375</RelatedFormatID>
     <RelatedFormatName>MATLAB Mat File</RelatedFormatName>
-    <RelatedFormatVersion>Level 4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1629</RelatedFormatID>
     <RelatedFormatName>MATLAB Mat File</RelatedFormatName>
-    <RelatedFormatVersion>Level 7.3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2375</RelatedFormatID>
     <RelatedFormatName>MATLAB Mat File</RelatedFormatName>
-    <RelatedFormatVersion>Level 4</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

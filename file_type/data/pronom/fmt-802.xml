@@ -2,10 +2,6 @@
   <FormatID>1602</FormatID>
   <FormatName>TAP (Commodore 64)</FormatName>
   <FormatDescription>A Tap file attempts to duplicate data stored on a Commodore 64 cassette tape. It encodes the series of pulses used to store data on the tape.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Nov 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Nov 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/802</Identifier>
     <IdentifierType>PUID</IdentifierType>

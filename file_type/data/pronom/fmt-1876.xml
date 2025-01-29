@@ -3,11 +3,6 @@
   <FormatName>HMM Packfile</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>The HMM Packfile is a game data format that packages files for distribution with digital games.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Ross Spencer / Ravensburger AG</ProvenanceName>
-  <ProvenanceSourceDate>04 Jul 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>04 Jul 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/HMM_Packfile</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1876</Identifier>
     <IdentifierType>PUID</IdentifierType>

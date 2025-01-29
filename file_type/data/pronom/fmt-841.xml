@@ -3,10 +3,6 @@
   <FormatName>Interleaved ADX Audio Format (AIX)</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>ADX is a proprietary audio storage and compression format developed by CRI Middleware. An AIX interleaves multiple ADX files.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
-  <ProvenanceSourceDate>23 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/841</Identifier>
     <IdentifierType>PUID</IdentifierType>

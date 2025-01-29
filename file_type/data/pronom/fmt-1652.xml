@@ -3,12 +3,6 @@
   <FormatName>Typescript</FormatName>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>Typescript is a superset of Javascript, which adds additional syntax/ types. It has compilers that convert it to Javascript, enabling it to run wherever Javascript runs. Created by Microsoft, it was released as Open Source.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Diplomatic Archives / French Ministry for Europe and Foreign Affairs</ProvenanceName>
-  <ProvenanceSourceDate>15 Mar 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>15 Mar 2022</LastUpdatedDate>
-  <FormatNote>Official website: https://www.typescriptlang.org/
-Specification: https://github.com/microsoft/TypeScript/blob/main/doc/TypeScript%20Language%20Specification%20-%20ARCHIVED.pdf?raw=true</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1652</Identifier>
     <IdentifierType>PUID</IdentifierType>

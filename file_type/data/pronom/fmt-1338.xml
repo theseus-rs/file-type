@@ -4,10 +4,6 @@
   <FormatVersion>4-7</FormatVersion>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>.RMGC is the native format of the RootsMagic Genealogy software application. Versions 4-7 of the format are based on SQLite 3.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1338</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +29,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1528</RelatedFormatID>
     <RelatedFormatName>SQLite Database File Format</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

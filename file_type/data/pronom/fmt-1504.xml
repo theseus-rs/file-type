@@ -3,10 +3,6 @@
   <FormatName>Agisoft Tiled Model</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Metashape is photogrammetry software used to create 3D models, point clouds and orthomosaic images developed by Agisoft. The TLS file is an export of a tiled model.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>24 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1504</Identifier>
     <IdentifierType>PUID</IdentifierType>

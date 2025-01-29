@@ -2,10 +2,6 @@
   <FormatID>1983</FormatID>
   <FormatName>FrameMD5</FormatName>
   <FormatDescription>FrameMD5 is incorporated by ffmpeg and is used to generate frame by frame checksums of each decoded audio and video frame within a media file. For each frame it provides a timestamp, size in bytes, and an MD5 checksum, which can be used to verify the integrity of the decoded data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1173</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -14,15 +14,6 @@ Note that TEI permits customisations and some may mean that the file no longer m
 Customisation is primarily done via TEI-supplied tools, formerly PizzaChef https://tei-c.org/Vault/P4/pizza.html and now Roma https://roma2.tei-c.org/
 
 P5 differs from the preceding P4 version, amongst other things, using the then-new xml:lang  and xml:id tags.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Victoria University of Wellington / Victoria University of Wellington</ProvenanceName>
-  <ProvenanceSourceDate>19 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Oct 2021</LastUpdatedDate>
-  <FormatNote>https://tei-c.org/Guidelines/P5/
-
-https://teibyexample.org/tutorials/TBED00v00.htm?target=teihistory#teip5
-
-https://en.wikipedia.org/wiki/Text_Encoding_Initiative</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/tei+xml</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -62,12 +53,10 @@ https://en.wikipedia.org/wiki/Text_Encoding_Initiative</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2300</RelatedFormatID>
     <RelatedFormatName>TEI P5 XML - Corpus File</RelatedFormatName>
-    <RelatedFormatVersion>P5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

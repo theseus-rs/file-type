@@ -2,10 +2,6 @@
   <FormatID>2301</FormatID>
   <FormatName>Unisig</FormatName>
   <FormatDescription>Unisig is a uniform signature scheme for binary file formats and network protocols created by Lassi Kortela and John Cowan. It is intended as a building block for other format vendors to provide a reliable mechanism for file format identification. Unisig itself doesn't have a specific extension or media type - it is intended that format vendors using Unisig will provide their own.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>19 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1478</Identifier>
     <IdentifierType>PUID</IdentifierType>

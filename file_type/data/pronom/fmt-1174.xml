@@ -4,10 +4,6 @@
   <FormatVersion>2</FormatVersion>
   <FormatTypes>Page Description</FormatTypes>
   <FormatDescription>Hewlett Packard Graphics Language is a printer control language created by Hewlett-Packard (HP). HP-GL/2 is described here: http://www.hpmuseum.net/document.php?catfile=213.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.hp-HPGL</Identifier>
     <IdentifierType>MIME</IdentifierType>

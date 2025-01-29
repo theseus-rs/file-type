@@ -3,10 +3,6 @@
   <FormatName>Leaf Mosaic Raw Image</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>MOS is the raw image format created by some models of Mamiya Leaf camera equipment. The format is based upon the Tagged Image File Format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Historic Environment Scotland / Historic Environment Scotland</ProvenanceName>
-  <ProvenanceSourceDate>13 Jul 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1063</Identifier>
     <IdentifierType>PUID</IdentifierType>

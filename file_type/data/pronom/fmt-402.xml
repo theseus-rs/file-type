@@ -5,12 +5,6 @@
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The Truevision TGA File Format comprises 5 areas, each of which contains one or more fields of fixed or variable length. The 5 file areas are: (1) TGA File Header, (2) Image/Color Map Data, (3) Developer Area, (4) Extension Area and (5) TGA File Footer.
 The last 3 areas, the Developer Area, the Extension Area and the TGA File Footer are new to the file specification as of September, 1989. For this reason, images created with software written before September, 1989 will probably not contain these three fields.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>16 Feb 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>Further information about this file format can be obtained at 
-http://www.dca.fee.unicamp.br/~martino/disciplinas/ea978/tgaffs.pdf</ProvenanceDescription>
-  <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/402</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -50,6 +44,5 @@ http://www.dca.fee.unicamp.br/~martino/disciplinas/ea978/tgaffs.pdf</ProvenanceD
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>533</RelatedFormatID>
     <RelatedFormatName>Truevision TGA Bitmap</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

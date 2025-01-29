@@ -4,11 +4,6 @@
   <FormatVersion>2.1.0</FormatVersion>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>xdomea is an XML interface for the exchange of documents, cases, and records, typically used by digital record management systems in Germany.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen</ProvenanceName>
-  <ProvenanceSourceDate>22 Sep 2020</ProvenanceSourceDate>
-  <ProvenanceDescription>Further information about xdomea is published here: https://xoev.de/de/xdomea</ProvenanceDescription>
-  <LastUpdatedDate>13 Mar 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1377</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,12 +29,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

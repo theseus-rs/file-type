@@ -14,13 +14,6 @@ Note that TEI permits customisations and some may mean that the file no longer m
 Information on how to convert TEI P4 to TEI P5 can be found at https://www.tei-c.org/Vault/P4/migrate.html and a script at https://www.tei-c.org/Vault/P4/p4top5.xsl Such automated conversion is not guaranteed to be lossless, particularly when the TEI has been customised. 
 
 P4 differs from the proceeding P3 version by being in XML rather than in SGML</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Victoria University of Wellington / Victoria University of Wellington</ProvenanceName>
-  <ProvenanceSourceDate>19 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Oct 2021</LastUpdatedDate>
-  <FormatNote>https://tei-c.org/Vault/P4/
-
-https://teibyexample.org/tutorials/TBED00v00.htm?target=teihistory#teip4</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/tei+xml</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -60,6 +53,5 @@ https://teibyexample.org/tutorials/TBED00v00.htm?target=teihistory#teip4</Format
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

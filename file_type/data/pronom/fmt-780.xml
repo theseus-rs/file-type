@@ -2,10 +2,6 @@
   <FormatID>1579</FormatID>
   <FormatName>pcap Next Generation Packet Capture</FormatName>
   <FormatDescription>The pcap Next Generation Capture file format is intended to overcome limitations in the pcap Packet Capture format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Nov 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Nov 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.tcpdump.pcap</Identifier>
     <IdentifierType>MIME</IdentifierType>

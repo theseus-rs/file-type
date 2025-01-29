@@ -3,10 +3,6 @@
   <FormatName>Mork</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>Mork is a database file format that acts as part of the back-end to several email clients and web browsers produced originally by Netscape, and later the Mozilla Foundation.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
-  <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Feb 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/612</Identifier>
     <IdentifierType>PUID</IdentifierType>

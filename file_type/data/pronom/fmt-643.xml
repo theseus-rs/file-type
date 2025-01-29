@@ -3,12 +3,6 @@
   <FormatName>ASTM E57 3D File Format</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>The E57 file format is a format for storing point clouds, images, and metadata produced by 3D imaging systems.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>31 Mar 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>09 Feb 2022</LastUpdatedDate>
-  <FormatNote>http://www.libe57.org/ 
-https://www.ri.cmu.edu/pub_files/2011/1/2011-huber-e57-v3.pdf</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/643</Identifier>
     <IdentifierType>PUID</IdentifierType>

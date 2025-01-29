@@ -3,12 +3,6 @@
   <FormatName>LifeTechnologies ABIF</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>The ABIF file format is a binary file format for storing data. Elements of data stored in the file are associated with tags, which are analogous to the keys in a (key, value) mapping.</FormatDescription>
-  <ReleaseDate>28 Aug 2013</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Tessella / Tessella</ProvenanceName>
-  <ProvenanceSourceDate>28 Aug 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>http://www.lifetechnologies.com/uk/en/home/about-us.html</ProvenanceDescription>
-  <LastUpdatedDate>28 Aug 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/587</Identifier>
     <IdentifierType>PUID</IdentifierType>

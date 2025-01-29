@@ -5,10 +5,6 @@
   <FormatTypes>Video</FormatTypes>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
-  <ProvenanceSourceDate>27 Oct 2009</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Jul 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/193</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -46,6 +42,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1328</RelatedFormatID>
     <RelatedFormatName>Digital Moving Picture Exchange Bitmap</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

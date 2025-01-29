@@ -5,10 +5,6 @@
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>25 Feb 2010</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Feb 2010</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/273</Identifier>
     <IdentifierType>PUID</IdentifierType>

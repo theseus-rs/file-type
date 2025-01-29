@@ -3,13 +3,6 @@
   <FormatName>STAD PAC File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>STAD PAC is a raster graphics format developed by Peter Melzer and associated with the STAD (ST Aided Design) graphics application for Atari ST computers. File headers begin with either of two four character sequences (pM85 and pM86) dependent on whether the image data in the file is horizontally or vertically packed.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>16 Mar 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Mar 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/STAD_PAC
-
-https://telparia.com/fileFormatSamples/image/stadPAC/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1653</Identifier>
     <IdentifierType>PUID</IdentifierType>

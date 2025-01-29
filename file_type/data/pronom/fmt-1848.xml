@@ -3,11 +3,6 @@
   <FormatName>Trelby Document File</FormatName>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>Trelby is a free and open source program which provides an interface designed specifically for writing screenplays. It runs on both Windows and Linux and is written in Python. Trelby is a rebranding of an older programme called Byte. It launched in 2011, and the last stable release was version 2.2 in September 26, 2012.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Stadtarchiv Hof / Stadtarchiv Hof</ProvenanceName>
-  <ProvenanceSourceDate>28 Mar 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Mar 2023</LastUpdatedDate>
-  <FormatNote>Specification:  https://www.trelby.org/assets/manual.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1848</Identifier>
     <IdentifierType>PUID</IdentifierType>

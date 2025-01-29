@@ -4,10 +4,6 @@
   <FormatTypes>Spreadsheet</FormatTypes>
   <FormatDescription>Microsoft Excel has a built-in AutoRecover feature that has replaced the AutoSave add-in that exists in versions of Excel that are earlier than Microsoft Excel 2002. The AutoRecover feature saves copies of all open Excel files at a user-definable fixed interval. The files can be recovered if Excel closes unexpectedly, for example, during a power failure.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Aug 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/23</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>ARJ File Format</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>ARJ (Archived by Robert Jung) is a software tool designed by Robert K. Jung for creating compressed file archives.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
-  <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Feb 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/610</Identifier>
     <IdentifierType>PUID</IdentifierType>

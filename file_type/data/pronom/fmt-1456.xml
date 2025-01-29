@@ -3,10 +3,6 @@
   <FormatName>Autocad DMP File</FormatName>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>This signature profiles dump files produced by the Autocad program. These are files which contain data ‘dumped’ from the program's memory space, usually created when the program has an error or crashes.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1456</Identifier>
     <IdentifierType>PUID</IdentifierType>

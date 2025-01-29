@@ -4,10 +4,6 @@
   <FormatTypes>Email</FormatTypes>
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>Defined in RFC5322 the Internet Message Format provides a syntax for text messages that  are sent  among computer  users, within the framework of "electronic mail". Consisting of header fields and an optional body, encoded using ASCII characters. The Internet Message Format (*.eml) is a format used by numerous email systems. The format does not prevent the use of alternative formats for storage of electronic mail on those systems.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>22 Jul 2010</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Jul 2010</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/278</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -49,7 +45,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>641</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -60,7 +55,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1755</RelatedFormatID>
     <RelatedFormatName>MIME Email</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

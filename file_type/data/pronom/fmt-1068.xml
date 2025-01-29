@@ -4,10 +4,6 @@
   <FormatVersion>HDF5 Variant</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Silo is a scientific data library created by the Lawrence Livermore National Laboratory. Silo can produce files based on the Portable Database format, or HDF5.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Jul 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1068</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -40,18 +36,15 @@ https://wci.llnl.gov/codes/silo/media/pdf/LLNL-SM-453191.pdf</SignatureNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1026</RelatedFormatID>
     <RelatedFormatName>HDF5</RelatedFormatName>
-    <RelatedFormatVersion>1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1027</RelatedFormatID>
     <RelatedFormatName>HDF5</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1607</RelatedFormatID>
     <RelatedFormatName>HDF5</RelatedFormatName>
-    <RelatedFormatVersion>0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

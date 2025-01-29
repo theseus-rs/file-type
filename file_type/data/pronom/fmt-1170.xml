@@ -4,10 +4,6 @@
   <FormatVersion>8.5</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Alias Studio is a Computer Aided Industrial Design software suite originally created by Alias Systems and now published by Autodesk. Files of this type may lack an extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>01 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>01 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1170</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -27,6 +23,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1985</RelatedFormatID>
     <RelatedFormatName>Alias Studio Wire File</RelatedFormatName>
-    <RelatedFormatVersion>9.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

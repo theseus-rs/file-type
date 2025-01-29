@@ -17,11 +17,6 @@ EncryptedPackage - This file contains the whole of the encrypted document.
 DataSpaces folder (and sub-files) - This structure associates protected content with data space definitions. The data space definition, in turn, describes the series of transforms that must be applied to that protected content to restore it to its original form.
 
 Since the method of identifying and distinguishing specific types of OOXML documents relies on seeking and analysing specific elements within the document, and in the case of encryption this information is obfuscated, it does not currently seem possible to determine with any specificity whether an encrypted file is either an Excel, Word, or PowerPoint document, apart from the file extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>26 Feb 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/494</Identifier>
     <IdentifierType>PUID</IdentifierType>

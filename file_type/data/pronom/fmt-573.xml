@@ -4,11 +4,6 @@
   <FormatFamilies>EBML</FormatFamilies>
   <FormatTypes>Video</FormatTypes>
   <FormatDescription>WebM is a media file format, developed by Google based on the Extensible Binary Meta Language.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Aug 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>http://www.webmproject.org/docs/container/</ProvenanceDescription>
-  <LastUpdatedDate>28 Aug 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/573</Identifier>
     <IdentifierType>PUID</IdentifierType>

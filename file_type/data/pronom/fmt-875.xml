@@ -3,10 +3,6 @@
   <FormatName>RDF/XML</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>RDF/XML is a syntax, defined by the W3C, to express (i.e. serialize) an RDF (Resource Description Framework)  graph as an XML document.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>20 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jan 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/rdf+xml</Identifier>
     <IdentifierType>MIME</IdentifierType>

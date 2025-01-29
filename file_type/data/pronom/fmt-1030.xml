@@ -4,10 +4,6 @@
   <FormatVersion>105</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Stata is a research data analysis and statistical software package. The DTA format contains the Stata dataset.  Please contact the PRONOM team if you can provide further information about this format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1030</Identifier>
     <IdentifierType>PUID</IdentifierType>

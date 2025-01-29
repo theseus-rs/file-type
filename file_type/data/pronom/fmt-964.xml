@@ -4,10 +4,6 @@
   <FormatVersion>5-7</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>Final Draft is screenwriting software for writing and formatting screenplays. This entry concerns the native file format of versions 5 through 7.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Hull History Centre / Hull History Centre</ProvenanceName>
-  <ProvenanceSourceDate>20 Sep 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Mar 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/964</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +29,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2697</RelatedFormatID>
     <RelatedFormatName>Final Draft Document</RelatedFormatName>
-    <RelatedFormatVersion>8</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

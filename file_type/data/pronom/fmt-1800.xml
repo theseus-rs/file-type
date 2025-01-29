@@ -3,10 +3,6 @@
   <FormatName>Multimedia Viewer Book</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>Multimedia Viewer Book is a format developed by Microsoft and used by programs such as Encarta to provide interactive, browsable multimedia. The format is very similar to the Microsoft Help .hlp format fmt/474, and a decompiler for the file format, helpdeco is available under a GNU license: https://github.com/pmachapman/helpdeco. The .hlp format this is based on was deprecated with Windows Vista.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Nov 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1800</Identifier>
     <IdentifierType>PUID</IdentifierType>

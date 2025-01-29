@@ -7,10 +7,6 @@
   <FormatDescription>Word Document format is a word processing format developed by Microsoft. Word 2.0 format is the native file format of Microsoft Word 2.0 for Windows. It is proprietary and Microsoft does not make details of its structure public. A Word document file comprises a header section followed by a text section, which contains the document text in ANSI characters, followed by a format section, which contains formatting information about the text.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/msword</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -43,12 +39,10 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>688</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Document</RelatedFormatName>
-    <RelatedFormatVersion>6.0/95</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>733</RelatedFormatID>
     <RelatedFormatName>Microsoft Word for Windows Document</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

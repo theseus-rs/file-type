@@ -3,11 +3,6 @@
   <FormatName>BigTIFF</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>BigTIFF is a file format intended to behave similarly to the TIFF file format, however is extended to support 64bit offset values.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>26 Sep 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Sep 2023</LastUpdatedDate>
-  <FormatNote>Reference: https://www.awaresystems.be/imaging/tiff/bigtiff.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1917</Identifier>
     <IdentifierType>PUID</IdentifierType>

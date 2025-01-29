@@ -3,10 +3,6 @@
   <FormatName>Python Compiled File</FormatName>
   <FormatVersion>3.2</FormatVersion>
   <FormatDescription>Python automatically compiles a python script before running it, the first time the script runs it will create a .pyc in the same directory as the .py file which will then be used if the script is run again to save time by not having to re-compile the code.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>24 Nov 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Nov 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1115</Identifier>
     <IdentifierType>PUID</IdentifierType>

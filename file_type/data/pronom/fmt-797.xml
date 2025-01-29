@@ -2,11 +2,6 @@
   <FormatID>1596</FormatID>
   <FormatName>Apple ProRes</FormatName>
   <FormatDescription>ProRes is a lossy video compression format developed by Apple Inc.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Wales / National Library of Wales</ProvenanceName>
-  <ProvenanceSourceDate>26 Nov 2015</ProvenanceSourceDate>
-  <ProvenanceDescription>https://www.apple.com/final-cut-pro/docs/Apple_ProRes_White_Paper.pdf</ProvenanceDescription>
-  <LastUpdatedDate>26 Nov 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/797</Identifier>
     <IdentifierType>PUID</IdentifierType>

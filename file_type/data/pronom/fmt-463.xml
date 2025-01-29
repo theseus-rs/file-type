@@ -4,10 +4,6 @@
   <FormatFamilies>JPEG 2000</FormatFamilies>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The JPEG 2000 Compound Image File Format is an optional file format for storing compound images using the JPEG 2000 file format family architecture. A compound image is an image that may contain scanned images, synthetic images or both, and that preferably requires a mix of continuous tone and bi-level compression methods.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Aug 2012</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/463</Identifier>
     <IdentifierType>PUID</IdentifierType>

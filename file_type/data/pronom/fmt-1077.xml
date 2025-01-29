@@ -2,10 +2,6 @@
   <FormatID>1884</FormatID>
   <FormatName>AVCHD Thumbnail Index File</FormatName>
   <FormatDescription>AVCHD (Advanced Video Coding High Definition) is a file-based format for the digital recording and playback of high-definition video. The Thumbnail Index file stores an index to AVCHD thumbails, which are JPEG files with a .tdt extension.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>21 Jul 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1077</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,10 +4,6 @@
   <FormatVersion>XML</FormatVersion>
   <FormatTypes>Audio, Text (Mark-up)</FormatTypes>
   <FormatDescription>Adobe Audition is a Digital Audio Workstation. The underlying format used to save session data was changed from an earlier binary format to an XML-based one, that this entry covers.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>24 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1499</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +29,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

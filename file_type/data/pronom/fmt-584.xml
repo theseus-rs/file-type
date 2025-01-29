@@ -3,11 +3,6 @@
   <FormatName>Windows Media Metafile</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>A media metafile is a file that contains information about other files. A metafile can be used to list a group of media content files that are to be played in order. The .wax metafile references Windows Media files with .asf, .wma, or .wax file name extensions. The .wvx metafile references Windows Media files with .wma, .wmv, .wvx, or .wax file name extensions. The asx metafile references Windows Media files with .wma, .wax, .wmv, .wvx, .asf, or .asx file name extensions.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Aug 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>http://msdn.microsoft.com/en-us/library/dd564665(v=vs.85).aspx</ProvenanceDescription>
-  <LastUpdatedDate>28 Aug 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/584</Identifier>
     <IdentifierType>PUID</IdentifierType>

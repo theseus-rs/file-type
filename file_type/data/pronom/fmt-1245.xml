@@ -3,11 +3,6 @@
   <FormatName>ZFO (Proof of Delivery) File</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>This variant of ZFO file is container for proof of delivery of data mailbox messages provided by Česká pošta, s.p. in three versions: 1. proof of delivery; 2. confirmation of delivery; 3. delivery failure. ZFO file is a ZIP archive file  (PKCS #7 Cryptographic Message File) composing of the layout structure using XML elements. The whole structure is always embedded into a digital signature represented by XML elements of the XML Signature standard.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote>http://isds.czechpoint.cz/v20/delivery</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/vnd.software602.filler.form-xml-zip</Identifier>
     <IdentifierType>MIME</IdentifierType>

@@ -4,11 +4,6 @@
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>DisplayWrite was a word processor software application that IBM developed for the IBM PC and PCjr.DisplayWrite's native file format is based on IBM's DCA (Document Content Architecture) RFT (Revisable Form Text) specification, but with additional structures.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>01/2024 (v.118): Added Internal signature and description.</ProvenanceDescription>
-  <LastUpdatedDate>25 Apr 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/148</Identifier>
     <IdentifierType>PUID</IdentifierType>

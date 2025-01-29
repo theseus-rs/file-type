@@ -4,10 +4,6 @@
   <FormatVersion>1-6</FormatVersion>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>These are project files created by Visual Basic, a software development tool for Windows, which stored project information in a plain text format. The vbp files refer to other resources in the project, including forms (.FRM files) souce code files (.BAS files) and class module files (.CLS extension). Visual Basic software was replaced with Visual Basic.NET, which doesn’t generate .vbp files.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>16 Dec 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Dec 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1573</Identifier>
     <IdentifierType>PUID</IdentifierType>

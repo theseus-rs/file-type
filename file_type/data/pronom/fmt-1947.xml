@@ -3,11 +3,6 @@
   <FormatName>OpenWayback CDXJ File Format</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>CDXJ is a JSON implementation of the CDX Internet Archive Index, used by OpenWayback 3.0.0 and later to index web archive contents. The index file is plain text, UTF-8 encoded.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>11 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://nlevitt.github.io/warc-specifications/specifications/cdx-format/openwayback-cdxj/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1947</Identifier>
     <IdentifierType>PUID</IdentifierType>

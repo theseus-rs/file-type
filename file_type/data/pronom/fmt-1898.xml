@@ -3,13 +3,6 @@
   <FormatName>Perfect ZX Tape (PZX) Image Format</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>PZX is a tape file format designed primarily for archiving content of Sinclair ZX Spectrum tapes. It was designed by Patrik Rak to address the perceived shortcomings of a revised version of the TZX format, as a viable, easy to use and implement alternative, while retaining the key features of TZX.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>07 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>07 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/PZX
-
-http://zxds.raxoft.cz/pzx.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1898</Identifier>
     <IdentifierType>PUID</IdentifierType>

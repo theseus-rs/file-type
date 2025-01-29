@@ -7,12 +7,6 @@
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>Encapsulated Postscript (EPS) is a page description format, developed by Adobe Systems Incorporated. Version 2.0, the second version of the format, was developed in 1989. An EPS file comprises a header section followed by a PostScript document. An EPS can optionally include a preview raster image, in which case a binary header is prepended to the header.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ReleaseDate>16 Jan 1989</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113) - Description of magic bytes for signature added. Researched internally.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/postscript</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -25,25 +19,6 @@
     <Identifier>fmt/123</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>66</DocumentID>
-    <DisplayText>Adobe Systems Incorporated, 1989, Encapsulated PostScript Files Specification: Version 2.0</DisplayText>
-    <DocumentType>Authoritative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>16 Jan 1989</PublicationDate>
-    <TitleText>Encapsulated PostScript Files Specification: Version 2.0</TitleText>
-    <DocumentIdentifier/>
-    <Author>
-      <AuthorID>7</AuthorID>
-      <OrganisationName>Adobe Systems Incorporated</OrganisationName>
-      <AuthorCompoundName>Adobe Systems Incorporated</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>7</PublisherID>
-      <OrganisationName>Adobe Systems Incorporated</OrganisationName>
-      <PublisherCompoundName>Adobe Systems Incorporated</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>319</ExternalSignatureID>
     <Signature>eps</Signature>
@@ -86,73 +61,61 @@ Variable: %!PS-Adobe-2.0 EPSF-2.0(.|..)</SignatureNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>49</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>1.0 / 1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1199</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>88</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1200</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>3.0 / 3.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1201</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1202</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>5.0 / 5.5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1204</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>6.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1205</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>7.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1345</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>8.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>138</RelatedFormatID>
     <RelatedFormatName>Postscript</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>771</RelatedFormatID>
     <RelatedFormatName>PostScript</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>772</RelatedFormatID>
     <RelatedFormatName>PostScript</RelatedFormatName>
-    <RelatedFormatVersion>2.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>773</RelatedFormatID>
     <RelatedFormatName>PostScript</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -163,18 +126,15 @@ Variable: %!PS-Adobe-2.0 EPSF-2.0(.|..)</SignatureNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>331</RelatedFormatID>
     <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2740</RelatedFormatID>
     <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
-    <RelatedFormatVersion>2.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>86</RelatedFormatID>
     <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

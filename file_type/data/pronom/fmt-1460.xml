@@ -4,11 +4,6 @@
   <FormatVersion>1.6-4.5</FormatVersion>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>The Stuffit Archive file format is a proprietary file compression format originally developed by Raymond Lau in 1987. It supports storing the Resource Fork alongside other files and is commonly used in Mac environments, though a Windows version has also been released.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
-  <FormatNote>http://justsolve.archiveteam.org/wiki/StuffIt</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/x-stuffit</Identifier>
     <IdentifierType>MIME</IdentifierType>

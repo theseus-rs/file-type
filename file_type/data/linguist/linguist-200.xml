@@ -1,9 +1,6 @@
 <FileFormat>
   <FormatID>200</FormatID>
   <FormatName>LilyPond</FormatName>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>linguist/200</Identifier>
     <IdentifierType>PUID</IdentifierType>

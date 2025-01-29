@@ -4,10 +4,6 @@
   <FormatVersion>2000</FormatVersion>
   <FormatDescription>PUID deprecated. Please see fmt/247: Microsoft Project 2000 - 2003.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/246</Identifier>
     <IdentifierType>PUID</IdentifierType>

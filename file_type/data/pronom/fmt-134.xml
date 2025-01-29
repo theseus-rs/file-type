@@ -5,10 +5,6 @@
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>MP3 is a digital audio format, formally known as MPEG-1 Audio Layer III or MPEG-2 Audio Layer III. A third variant, known as MPEG 2.5, which supports lower bit rates implemented by the LAME MP3 encoder among others, but is not a recognised standard.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>audio/mpeg</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -31,18 +27,18 @@
     <SignatureName>MPEG-1 Audio Layer 3 with ID3v2 Tag</SignatureName>
     <SignatureNote>Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF.</SignatureNote>
     <ByteSequence>
-      <ByteSequenceID>340</ByteSequenceID>
-      <PositionType>Absolute from EOF</PositionType>
-      <Offset>0</Offset>
-      <Endianness>Little-endian</Endianness>
-      <ByteSequenceValue>FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{47-1795}</ByteSequenceValue>
-    </ByteSequence>
-    <ByteSequence>
       <ByteSequenceID>358</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>494433</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>340</ByteSequenceID>
+      <PositionType>Absolute from EOF</PositionType>
+      <Offset>0</Offset>
+      <Endianness>Little-endian</Endianness>
+      <ByteSequenceValue>FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{46-1439}FFFB[10:EB]{47-1795}</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
   <InternalSignature>
@@ -50,18 +46,18 @@
     <SignatureName>MPEG-2 Audio Layer 3 with ID3v2 Tag</SignatureName>
     <SignatureNote>Regularly-spaced frame headers should always be discoverable near EOF. An ID3v1 tag of up to 355 bytes may be present at EOF.</SignatureNote>
     <ByteSequence>
-      <ByteSequenceID>341</ByteSequenceID>
-      <PositionType>Absolute from EOF</PositionType>
-      <Offset>0</Offset>
-      <Endianness>Little-endian</Endianness>
-      <ByteSequenceValue>FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{47-1795}</ByteSequenceValue>
-    </ByteSequence>
-    <ByteSequence>
       <ByteSequenceID>359</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>494433</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>341</ByteSequenceID>
+      <PositionType>Absolute from EOF</PositionType>
+      <Offset>0</Offset>
+      <Endianness>Little-endian</Endianness>
+      <ByteSequenceValue>FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{46-1439}FFF3[10:EB]{47-1795}</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
   <InternalSignature>
@@ -69,18 +65,18 @@
     <SignatureName>MPEG-1 Audio Layer 3 with ID3v2 Tag (protected)</SignatureName>
     <SignatureNote>Regularly-spaced frame headers should always be discoverable near EOF. Header has CRC bit off to indicate protected. An ID3v1 tag of up to 355 bytes may be present at EOF.</SignatureNote>
     <ByteSequence>
-      <ByteSequenceID>342</ByteSequenceID>
-      <PositionType>Absolute from EOF</PositionType>
-      <Offset>0</Offset>
-      <Endianness>Little-endian</Endianness>
-      <ByteSequenceValue>FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{47-1795}</ByteSequenceValue>
-    </ByteSequence>
-    <ByteSequence>
       <ByteSequenceID>360</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>494433</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>342</ByteSequenceID>
+      <PositionType>Absolute from EOF</PositionType>
+      <Offset>0</Offset>
+      <Endianness>Little-endian</Endianness>
+      <ByteSequenceValue>FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{46-1439}FFFA[10:EB]{47-1795}</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
   <InternalSignature>
@@ -88,18 +84,18 @@
     <SignatureName>MPEG-2 Audio Layer 3 with ID3v2 Tag (protected)</SignatureName>
     <SignatureNote>Regularly-spaced frame headers should always be discoverable near EOF. Header has CRC bit off to indicate protected. An ID3v1 tag of up to 355 bytes may be present at EOF.</SignatureNote>
     <ByteSequence>
-      <ByteSequenceID>343</ByteSequenceID>
-      <PositionType>Absolute from EOF</PositionType>
-      <Offset>0</Offset>
-      <Endianness>Little-endian</Endianness>
-      <ByteSequenceValue>FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{47-1795}</ByteSequenceValue>
-    </ByteSequence>
-    <ByteSequence>
       <ByteSequenceID>361</ByteSequenceID>
       <PositionType>Absolute from BOF</PositionType>
       <Offset>0</Offset>
       <Endianness>Little-endian</Endianness>
       <ByteSequenceValue>494433</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>343</ByteSequenceID>
+      <PositionType>Absolute from EOF</PositionType>
+      <Offset>0</Offset>
+      <Endianness>Little-endian</Endianness>
+      <ByteSequenceValue>FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{46-1439}FFF2[10:EB]{47-1795}</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
   <InternalSignature>
@@ -170,109 +166,91 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>613</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF 1.0 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>614</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF 1.1 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>615</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF 1.2 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>616</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF 1.3 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1.3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>617</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF 1.4 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1.4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>618</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF 1.5 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1.5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>625</RelatedFormatID>
     <RelatedFormatName>PCX</RelatedFormatName>
-    <RelatedFormatVersion>5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>637</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF 1.6 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1.6</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>646</RelatedFormatID>
     <RelatedFormatName>Macromedia Flash</RelatedFormatName>
-    <RelatedFormatVersion>1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>647</RelatedFormatID>
     <RelatedFormatName>Macromedia Flash</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>648</RelatedFormatID>
     <RelatedFormatName>Macromedia Flash</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>649</RelatedFormatID>
     <RelatedFormatName>Macromedia Flash</RelatedFormatName>
-    <RelatedFormatVersion>4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>650</RelatedFormatID>
     <RelatedFormatName>Macromedia Flash</RelatedFormatName>
-    <RelatedFormatVersion>5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>651</RelatedFormatID>
     <RelatedFormatName>Macromedia Flash</RelatedFormatName>
-    <RelatedFormatVersion>6</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>652</RelatedFormatID>
     <RelatedFormatName>Macromedia Flash</RelatedFormatName>
-    <RelatedFormatVersion>7</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>653</RelatedFormatID>
     <RelatedFormatName>Macromedia FLV</RelatedFormatName>
-    <RelatedFormatVersion>1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>872</RelatedFormatID>
     <RelatedFormatName>AutoCAD Drawing</RelatedFormatName>
-    <RelatedFormatVersion>2007-2008</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1016</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF 1.7 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1.7</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -288,7 +266,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1357</RelatedFormatID>
     <RelatedFormatName>Matroska</RelatedFormatName>
-    <RelatedFormatVersion>1-4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -339,7 +316,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2539</RelatedFormatID>
     <RelatedFormatName>Persuasion Mac Document</RelatedFormatName>
-    <RelatedFormatVersion>2.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -370,7 +346,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2731</RelatedFormatID>
     <RelatedFormatName>GST Art File</RelatedFormatName>
-    <RelatedFormatVersion>1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>

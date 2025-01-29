@@ -5,14 +5,6 @@
   <FormatTypes>Text (Structured), Dataset</FormatTypes>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ReleaseDate>01 Sep 1990</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>25 Nov 2011</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113)- Max-offset added to BOF signature to accommodate header bytes. Submitted by The National Library of Australia.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
-  <FormatNote>Specifications available at: 
-http://www.cwls.org/las_info.php</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/389</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,6 +30,5 @@ http://www.cwls.org/las_info.php</FormatNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1138</RelatedFormatID>
     <RelatedFormatName>Log ASCII Standard Format</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

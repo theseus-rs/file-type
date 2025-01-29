@@ -4,10 +4,6 @@
   <FormatVersion>1.51</FormatVersion>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Binary format for graph/chart created by spreadsheet programme Calc602,which was released in the 1990s by Czechoslovakian company 602 Svazarm (since the 1990s known as IT company Software602).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
-  <ProvenanceSourceDate>13 Jun 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Oct 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1699</Identifier>
     <IdentifierType>PUID</IdentifierType>

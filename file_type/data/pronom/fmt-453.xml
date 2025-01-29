@@ -2,11 +2,6 @@
   <FormatID>1240</FormatID>
   <FormatName>Verity Collection Stop List</FormatName>
   <FormatDescription>A Verity collection is the fundamental structure underlying the search capabilities of Verity applications. A collection consists of information about a particular set of documents that are available for searching and viewing. The specific information stored for a collection includes a word index and various other indexes, plus a document table containing document field information and logical pointers to the document files. The Verity Collection Stop List file contains a list of words that are to be excluded from a collection’s full-word index.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Aug 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>14 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/453</Identifier>
     <IdentifierType>PUID</IdentifierType>

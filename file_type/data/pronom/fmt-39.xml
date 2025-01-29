@@ -7,11 +7,6 @@
   <FormatDescription>With the release of Word 6.0, Microsoft introduced a new native binary word processing format, based on its generic OLE2 Compound Document Format. The format is proprietary and Microsoft does not make details of its structure public. The information here is derived primarily from OpenOffice.org's reverse-engineered documentation of the format and should not therefore be regarded as definitive. A Word document is stored as a ‘WordDocument’ stream within a Compound Document Format file. The format remained unchanged with the release of Word 95.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>19 Apr 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/msword</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -24,28 +19,6 @@
     <Identifier>fmt/39</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>11</DocumentID>
-    <DisplayText>OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Compound Document file format</DisplayText>
-    <DocumentType>Speculative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>15 Sep 2004</PublicationDate>
-    <TitleText>OpenOffice.org's documentation of the Microsoft Compound Document file format</TitleText>
-    <DocumentIdentifier>
-      <Identifier>sc.openoffice.org/compdocfileformat.pdf</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>103</AuthorID>
-      <OrganisationName>OpenOffice.org</OrganisationName>
-      <AuthorCompoundName>OpenOffice.org</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>103</PublisherID>
-      <OrganisationName>OpenOffice.org</OrganisationName>
-      <PublisherCompoundName>OpenOffice.org</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>723</ExternalSignatureID>
     <Signature>doc</Signature>
@@ -81,25 +54,21 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1401</RelatedFormatID>
     <RelatedFormatName>Microsoft Word (Generic)</RelatedFormatName>
-    <RelatedFormatVersion>6.0-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>690</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Document</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1553</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Document (Password Protected)</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>734</RelatedFormatID>
     <RelatedFormatName>Microsoft Word for Windows Document</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>

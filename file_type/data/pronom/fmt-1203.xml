@@ -4,10 +4,6 @@
   <FormatVersion>0</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>3DMF is the interchange format for the QuickDraw 3D software package originally created in 1995 for the Apple Macintosh. It is a three-dimensional image format which may be a representation of an individual object or a complete three-dimensional scene, which can be viewed from different angles with supporting 3D programs.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>16 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1203</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,6 +30,5 @@ https://hwiegman.home.xs4all.nl/fileformats/3dmf/3DMF.pdf</SignatureNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1855</RelatedFormatID>
     <RelatedFormatName>QuickDraw 3D Metafile (Binary)</RelatedFormatName>
-    <RelatedFormatVersion>1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

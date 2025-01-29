@@ -4,10 +4,6 @@
   <FormatVersion>8</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>MiniCAD was a proprietary Computer Aided Design and Building Information Modelling software program for both Mac and Windows operating systems. This software was renamed as VectorWorks from 1998 onwards.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Datable / Datable</ProvenanceName>
-  <ProvenanceSourceDate>20 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.vectorworks</Identifier>
     <IdentifierType>MIME</IdentifierType>

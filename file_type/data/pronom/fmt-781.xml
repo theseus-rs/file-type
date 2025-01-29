@@ -2,10 +2,6 @@
   <FormatID>1580</FormatID>
   <FormatName>Snoop Packet Capture</FormatName>
   <FormatDescription>Snoop is a packet capture file format originally developed by Sun.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Nov 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Nov 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/781</Identifier>
     <IdentifierType>PUID</IdentifierType>

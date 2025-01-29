@@ -5,10 +5,6 @@
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>The Industry Foundation Classes (IFC) data model is intended to describe building and construction industry data.
  It is a platform neutral, open file format specification that is not controlled by a single vendor or group of vendors. It is an object-based file format with a data model developed by buildingSMART (formerly the International Alliance for Interoperability, IAI) to facilitate interoperability in the architecture, engineering and construction (AEC) industry, and is a commonly used collaboration format in Building information modeling (BIM) based projects.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Catenda / Catenda</ProvenanceName>
-  <ProvenanceSourceDate>14 Jul 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Jul 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/659</Identifier>
     <IdentifierType>PUID</IdentifierType>

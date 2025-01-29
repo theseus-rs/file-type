@@ -4,10 +4,6 @@
   <FormatVersion>3</FormatVersion>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>XIFF is an extension of the TIFF Format but with added feature of multi-layered image using mixed raster content. Developed by Xerox for use with the Scansoft Pagis Software.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>20 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1480</Identifier>
     <IdentifierType>PUID</IdentifierType>

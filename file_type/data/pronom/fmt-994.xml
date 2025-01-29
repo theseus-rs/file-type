@@ -3,10 +3,6 @@
   <FormatName>Jeffs Image Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Jeff's Image Format (JIF) is a raster image file format that was designed to be a patent-free alternative to GIF. It is nearly identical to GIF, except that it uses zlib compression instead of LZW.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/994</Identifier>
     <IdentifierType>PUID</IdentifierType>

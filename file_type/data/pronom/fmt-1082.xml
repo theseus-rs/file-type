@@ -3,10 +3,6 @@
   <FormatName>ASP WebService Directive File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Active Server Pages (ASP) is a Microsoft server-side script engine for dynamically generated web pages. The WebService Directive file defines XML Web service specific attributes used by the ASP.NET parser and compiler.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Scotland / National Library of Scotland</ProvenanceName>
-  <ProvenanceSourceDate>24 Jul 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1082</Identifier>
     <IdentifierType>PUID</IdentifierType>

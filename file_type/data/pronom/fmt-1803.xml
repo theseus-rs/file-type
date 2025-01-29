@@ -3,10 +3,6 @@
   <FormatName>Transcriber TRS Format</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>TRS is the native, XML-based format of Transcriber, a tool for assisting the manual annotation of speech signals. Transcriber (https://trans.sourceforge.net/) was superseded by Transcriber AG (https://transag.sourceforge.net/)</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Nov 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1803</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -32,6 +28,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

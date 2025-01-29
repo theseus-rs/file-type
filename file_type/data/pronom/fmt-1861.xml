@@ -4,11 +4,6 @@
   <FormatVersion>3</FormatVersion>
   <FormatTypes>Spreadsheet</FormatTypes>
   <FormatDescription>Quicken is an app designed to help users manage their personal finance. It was first released in 1984, and has been steadily updated since then. It was originally developed by Intuit, but is currently owned by Aquiline Capital Partners. The Quicken 3 package contains files with extensions QDT (the primary file), QMT, QST, QDI and QNX, however, only the QST file has a clearly identifiable signature.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>26 Apr 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Apr 2023</LastUpdatedDate>
-  <FormatNote>https://www.quicken.com/support/quicken-data-file-set-extensions</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1861</Identifier>
     <IdentifierType>PUID</IdentifierType>

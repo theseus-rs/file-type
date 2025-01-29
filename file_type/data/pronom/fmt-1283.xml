@@ -4,10 +4,6 @@
   <FormatVersion>3</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>PFS:First Choice was an office productivity suite developed for DOS.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1283</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +29,5 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2100</RelatedFormatID>
     <RelatedFormatName>PFS:First Choice Document</RelatedFormatName>
-    <RelatedFormatVersion>1-2</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

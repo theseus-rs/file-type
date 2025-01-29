@@ -5,13 +5,6 @@
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Initial Graphics Exchange Specification, or IGES, establishes information structures for the digital representation and exchange of product definition data. It supports exchanging this data among Computer-Aided Design and Computer-Aided Manufacturing (CAD and CAM, respectively) systems.  IGES defines file structure and language formats to represent geometric, topographical, and non-geometric product definition data.  These formats are independent of the modeling method used, and they support data exchange using physical media or electronic communication protocols.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ReleaseDate>01 Dec 1999</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>Further information about this file format can be obtained at 
-http://www.wiz-worx.com/iges5x/version5x/version5x.pdf</ProvenanceDescription>
-  <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>model/iges</Identifier>
     <IdentifierType>MIME</IdentifierType>

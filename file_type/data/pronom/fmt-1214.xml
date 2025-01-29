@@ -3,10 +3,6 @@
   <FormatName>Cakewalk WRK Project</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Cakewalk is an audio production software application. The project file includes MIDI data and configuration settings.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>20 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1214</Identifier>
     <IdentifierType>PUID</IdentifierType>

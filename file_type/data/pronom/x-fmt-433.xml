@@ -8,35 +8,10 @@
   <FormatDescription>The 3DM (openNURBS) format is a 3D model representation based on non-uniform rational B-Splines (NURBS). The file format is defined by an open source C++ toolkit that reads and writes openNURBS models.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Library Research Group / MIT Libraries</ProvenanceName>
-  <ProvenanceSourceDate>22 Oct 2008</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Oct 2008</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/433</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>82</DocumentID>
-    <DisplayText>Robert McNeel &amp; Associates (n.d.) openNURBS Toolkit</DisplayText>
-    <DocumentType>Authoritative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <TitleText>openNURBS Toolkit</TitleText>
-    <DocumentIdentifier>
-      <Identifier>www.opennurbs.org</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>130</AuthorID>
-      <OrganisationName>Robert McNeel &amp; Associates</OrganisationName>
-      <AuthorCompoundName>Robert McNeel &amp; Associates</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>130</PublisherID>
-      <OrganisationName>Robert McNeel &amp; Associates</OrganisationName>
-      <PublisherCompoundName>Robert McNeel &amp; Associates</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>839</ExternalSignatureID>
     <Signature>3dm</Signature>
@@ -58,6 +33,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>828</RelatedFormatID>
     <RelatedFormatName>3DM</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

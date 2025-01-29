@@ -3,12 +3,6 @@
   <FormatName>Band Interleaved By Pixel (BIP) Image Encoding</FormatName>
   <FormatTypes>GIS</FormatTypes>
   <FormatDescription>Band interleaved by pixel is an ASCII description file that stores the pixel values of an image in a file. It is commonly used in geospatial software. The file stores the data for each pixel band by band. To be interpreted the file requires a header file. Other optional information files that can appear alongside these are colour and statistic files.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
-  <FormatNote>http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/bil-bip-and-bsq-raster-files.htm
-https://www.harrisgeospatial.com/docs/ENVIImageFiles.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1239</Identifier>
     <IdentifierType>PUID</IdentifierType>

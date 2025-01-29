@@ -3,13 +3,6 @@
   <FormatName>Cardfile</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>Cardfile (also Card File or CardFile) is a personal information manager, based on index cards. It was initially released with Windows 1.0.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote>https://web.archive.org/web/20130605083355/http://support.microsoft.com/kb/99340#
-https://en.wikipedia.org/wiki/Cardfile
-https://wikivisually.com/wiki/Cardfile</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1254</Identifier>
     <IdentifierType>PUID</IdentifierType>

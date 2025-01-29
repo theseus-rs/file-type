@@ -3,11 +3,6 @@
   <FormatName>Micrografx Icon File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Micrografx Icon (ICN) is an icon format used by some Micrografx applications, such as Simply 3D.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>18 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Micrografx_Icon</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1907</Identifier>
     <IdentifierType>PUID</IdentifierType>

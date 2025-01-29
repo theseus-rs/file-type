@@ -3,10 +3,6 @@
   <FormatName>Graphisoft BIMx Hyper-Model</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>BIMx is a proprietary Building Information Modelling (BIM) format produced by Graphisoft architectural software applications such as Archicad. BIMx is referred to as a ‘hyper-model’ that can contain 3D models, along with views, layouts, camera paths and project documentation. It is intended as an interactive, presentational format rather than a creative or editorial one. Graphisoft provide a standalone viewer desktop and mobile application.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>25 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Aug 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1914</Identifier>
     <IdentifierType>PUID</IdentifierType>

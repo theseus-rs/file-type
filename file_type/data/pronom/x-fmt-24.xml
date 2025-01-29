@@ -3,11 +3,6 @@
   <FormatName>AutoCAD Block Attribute Template</FormatName>
   <FormatDescription>AutoCAD Block Attribute Template file is used when extracting attribute information from a drawing which creates a text file for use with database software. Signatures based on v. 2005, 2006, 2008 versions. Any information which can help us expand these signatures would be valuable.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Added two internal signatures and updated description. Submitted by National Archives and Records Administration.</ProvenanceDescription>
-  <LastUpdatedDate>15 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/24</Identifier>
     <IdentifierType>PUID</IdentifierType>

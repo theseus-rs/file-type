@@ -3,11 +3,6 @@
   <FormatName>SGI Movie File</FormatName>
   <FormatTypes>Video</FormatTypes>
   <FormatDescription>SGI Movie is a proprietary video file format associated with Silicon Graphics products, including IRIX. Other names for it include SGI video and mv. The format was supported by programs such as movieplayer, capture and others.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>18 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/SGI_movie</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1901</Identifier>
     <IdentifierType>PUID</IdentifierType>

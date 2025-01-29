@@ -3,10 +3,6 @@
   <FormatName>Microsoft Access Workgroup Information File</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>A Microsoft Access Workgroup Information File stores the usernames and passwords for users and groups that require access to a Microsoft Access database. Compatible with MDB formats (Access 97-2003) rather than the later ACCDB format (Access 2007-2010).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1258</Identifier>
     <IdentifierType>PUID</IdentifierType>

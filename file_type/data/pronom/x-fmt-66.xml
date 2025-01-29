@@ -5,15 +5,6 @@
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>Microsoft Access Database File, formerly known as Jet MDB Database format, is propriatory file format developed and used by Microsoft as a native format for its Microsoft Access (formerly Microsoft Jet Database Engine) desktop database management system. First released in 1992, starting with version 1.0 the earlier versions of the database used the Jet Database Engine, with version 1.0 having a maximum size of 128 megabytes, then increasing to 1 gigabyte with versions 1.1 and 2.0. This entry records the version 2.0 of MDB file format, for a full list of versions please follow the links provided in the Notes section.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 May 2023</LastUpdatedDate>
-  <FormatNote>https://web.archive.org/web/20220711181532/http://fileformats.archiveteam.org/wiki/Access
-
-https://web.archive.org/web/20220901011824/https://en.wikipedia.org/wiki/Microsoft_Access
-
-https://web.archive.org/web/20220825195028/https://www.loc.gov/preservation/digital/formats/fdd/fdd000462.shtml</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fdd000462</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -52,18 +43,15 @@ https://web.archive.org/web/20220825195028/https://www.loc.gov/preservation/digi
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>350</RelatedFormatID>
     <RelatedFormatName>Microsoft Access Database File</RelatedFormatName>
-    <RelatedFormatVersion>95</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2657</RelatedFormatID>
     <RelatedFormatName>Microsoft Access Database File</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>2660</RelatedFormatID>
     <RelatedFormatName>Microsoft Access Encrypted Database File</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

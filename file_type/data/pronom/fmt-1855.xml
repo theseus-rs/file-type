@@ -4,15 +4,6 @@
   <FormatVersion>2.0</FormatVersion>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>The Open Media Framework Interchange (OMF Interchange) is a standard format for the interchange of digital media, designed to allow interchange between software applications and platforms. The format includes rules for identifying the original sources of the digital media data, and it can encapsulate both compressed and uncompressed digital media data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>25 Apr 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Apr 2023</LastUpdatedDate>
-  <FormatNote>https://www.aes.org/e-lib/browse.cfm?elib=6134
-
-http://fileformats.archiveteam.org/wiki/OMF_Interchange
-
-https://en.wikipedia.org/wiki/Open_Media_Framework_Interchange#:~:text=Open%20Media%20Framework%20(OMF)%20or,media%20across%20applications%20and%20platforms.</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1855</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -68,6 +59,5 @@ https://en.wikipedia.org/wiki/Open_Media_Framework_Interchange#:~:text=Open%20Me
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2707</RelatedFormatID>
     <RelatedFormatName>Open Media Framework Interchange</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

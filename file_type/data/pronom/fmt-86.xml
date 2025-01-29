@@ -7,15 +7,6 @@
   <FormatDescription>PCX (Personal Computer eXchange) is a type of lossless bitmap image format first released in 1985 and last updated in 1991. This record describes the first version of the format released in 1985. PCX was a popular format among users of MS-DOS operating system and other IBM PC compatibles. It is native image file format for DOS-based program PC Paintbrush from ZSoft Corporation. PC Paintbrush was licensed to Microsoft and evolved into the Paint/Paintbrush application included with Windows operating system. The versions of Windows 3.0 through Windows 95, support the PCX format. The format has since been succeeded by other lossless image formats, such as GIF, BMP, JPEG, and PNG.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>29 Apr 2022</LastUpdatedDate>
-  <FormatNote>https://web.archive.org/web/20150424232312/http://web.archive.org/web/20100206055706/http://www.qzx.com/pc-gpe/pcx.txt
-
-http://formats.kaitai.io/pcx/index.html
-
-http://fileformats.archiveteam.org/wiki/PCX</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/86</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -50,7 +41,6 @@ http://fileformats.archiveteam.org/wiki/PCX</FormatNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>622</RelatedFormatID>
     <RelatedFormatName>PCX</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
   <CompressionType>
     <CompressionID>13</CompressionID>

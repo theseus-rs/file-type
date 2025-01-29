@@ -3,10 +3,6 @@
   <FormatName>Cue Sheet</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>A cue sheet file is used to describe how the tracks within optical media are laid out and may contain further metadata. They are plain text files.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>17 Jul 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>17 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1069</Identifier>
     <IdentifierType>PUID</IdentifierType>

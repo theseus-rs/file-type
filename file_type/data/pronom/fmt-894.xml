@@ -3,10 +3,6 @@
   <FormatName>Gaussian Input Data File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Gaussian Input Data files are created by the Gaussian computer program for computational chemistry.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>16 Jun 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Jun 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/894</Identifier>
     <IdentifierType>PUID</IdentifierType>

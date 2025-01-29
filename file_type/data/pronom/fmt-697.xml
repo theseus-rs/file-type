@@ -3,14 +3,6 @@
   <FormatName>Additive Manufacturing File Format</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>Additive Manufacturing File Format (AMF) is an open standard for describing objects for additive manufacturing processes such as 3D printing.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Feb 2015</ProvenanceSourceDate>
-  <ProvenanceDescription>http://amf.wikispaces.com/</ProvenanceDescription>
-  <LastUpdatedDate>09 Feb 2022</LastUpdatedDate>
-  <FormatNote>http://amf.wikispaces.com/
-
-https://web.archive.org/web/20120218025346/http://en.wikipedia.org/wiki/Additive_Manufacturing_File_Format#Meta-data</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/697</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -36,6 +28,5 @@ https://web.archive.org/web/20120218025346/http://en.wikipedia.org/wiki/Additive
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

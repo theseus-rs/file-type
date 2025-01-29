@@ -3,11 +3,6 @@
   <FormatName>Agisoft Project Archive</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Metashape is photogrammetry software used to create 3D models, point clouds and orthomosaic images developed by Agisoft. The PSZ file is a full project archive.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>24 Oct 2021</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>24 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1502</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -5,10 +5,6 @@
   <FormatDescription>These files may be produced by saving a web page in various versions of Apple's Safari Web Browser. The file is a type of Binary Property List (https://en.wikipedia.org/wiki/Property_list) and will contain the html content of the page, plus any page attachments.
 
 With further research and a better understanding of the format it may be possible to create a PRONOM identification signature, based on the 'bplist' magic number and further identifiers specific to the Apple Safari Webarchive format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>09 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>09 Jan 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/866</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,37 +30,31 @@ With further research and a better understanding of the format it may be possibl
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>639</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>640</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>3.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>641</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>642</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.01</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>643</RelatedFormatID>
     <RelatedFormatName>Extensible Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>644</RelatedFormatID>
     <RelatedFormatName>Extensible Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -75,7 +65,6 @@ With further research and a better understanding of the format it may be possibl
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1258</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

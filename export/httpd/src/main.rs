@@ -6,9 +6,6 @@
 use anyhow::Result;
 use file_type::format::{DocumentIdentifier, ExternalSignature, FileFormat, SignatureType};
 use file_type::FileType;
-use jiff::civil::Date;
-use jiff::tz::TimeZone;
-use jiff::Timestamp;
 use quick_xml::se::Serializer;
 use reqwest::Client;
 use serde::Serialize;
@@ -152,21 +149,10 @@ fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Result<Vec<Fi
             "",
             "",
             "",
-            None,
-            None,
-            0,
-            "",
-            Date::from(Timestamp::now().to_zoned(TimeZone::UTC)),
-            "",
-            Date::from(Timestamp::now().to_zoned(TimeZone::UTC)),
-            "",
-            "",
-            "",
             vec![
                 DocumentIdentifier::new(puid.as_str(), "PUID"),
                 DocumentIdentifier::new(mime_type.as_str(), "MIME"),
             ],
-            vec![],
             external_signatures,
             vec![],
             vec![],

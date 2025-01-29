@@ -3,10 +3,6 @@
   <FormatName>Panasonic Raw</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>RW2 is a graphic file format that is typically used for the images captured by the Panasonic Lumix digital cameras.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>30 Jun 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/662</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>Gimp Image File Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>XCF is the native image format of the GNU Image Manipulation Program. XCF stands for eXperimental Computing Facility which is the undergraduate computing-interest organization at University of California, Berkeley, whom originally developed the format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Provincie West-Vlaanderen / Provincie West-Vlaanderen</ProvenanceName>
-  <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Feb 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/615</Identifier>
     <IdentifierType>PUID</IdentifierType>

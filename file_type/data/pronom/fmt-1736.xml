@@ -3,10 +3,6 @@
   <FormatName>Creative Voice File</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Creative Voice File is an audio format developed in the 1990s developed by Creative Labs for the storage of uncompressed PCM audio data for use on Sound Blaster boards.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>08 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>08 Aug 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1736</Identifier>
     <IdentifierType>PUID</IdentifierType>

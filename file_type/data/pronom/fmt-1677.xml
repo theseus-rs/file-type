@@ -3,10 +3,6 @@
   <FormatName>Microsoft Office File List</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>These are xml files generated when a format requiring multiple files is saved by Microsoft Office Programmes (for example, an html page with images). The files are saved alongside the document in a folder called filename_files , and are named filelist.xml. The purpose of the files is to provide a list of all the files which were saved as part of the document, for example the html pages, and the images.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>28 Apr 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Apr 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1677</Identifier>
     <IdentifierType>PUID</IdentifierType>

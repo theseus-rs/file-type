@@ -1,9 +1,6 @@
 <FileFormat>
   <FormatID>107</FormatID>
   <FormatName>Fortran</FormatName>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceSourceDate>03 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>linguist/107</Identifier>
     <IdentifierType>PUID</IdentifierType>

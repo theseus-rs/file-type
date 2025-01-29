@@ -3,11 +3,6 @@
   <FormatName>WinFax Fax Image</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>File created by WinFax (including WinFax PRO), a program used to send and receive faxes in Windows; contains an electronic copy of a fax sent with a computer modem; used to digitally store fax information over the Internet.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Archives of Australia / National Archives of Australia</ProvenanceName>
-  <ProvenanceSourceDate>19 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Apr 2024</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/WinFax_Fax_Image</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1995</Identifier>
     <IdentifierType>PUID</IdentifierType>
