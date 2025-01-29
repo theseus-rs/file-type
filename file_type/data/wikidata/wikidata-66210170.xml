@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>66210170</FormatID>
+  <FormatName>FrameMaker Book file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66210170</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>book</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

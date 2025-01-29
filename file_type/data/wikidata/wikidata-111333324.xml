@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111333324</FormatID>
+  <FormatName>Turtle Beach Pinnacle sound bank</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111333324</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>psb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

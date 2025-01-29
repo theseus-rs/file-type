@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>29944082</FormatID>
+  <FormatName>OpenOffice Draw, version 1.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29944082</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.sun.xml.draw</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sxd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

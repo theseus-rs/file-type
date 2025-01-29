@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856024</FormatID>
+  <FormatName>3DFX Glide driver</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856024</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dxe</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>3DFX Glide driver</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>44584531</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

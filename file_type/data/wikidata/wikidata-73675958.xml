@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>73675958</FormatID>
+  <FormatName>3M Printscape</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/73675958</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>psc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>std</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

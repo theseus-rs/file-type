@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>109285453</FormatID>
+  <FormatName>phtml</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109285453</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-httpd-php</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>phtml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

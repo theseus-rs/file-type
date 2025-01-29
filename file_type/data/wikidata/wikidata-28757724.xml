@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>28757724</FormatID>
+  <FormatName>GDIFF</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28757724</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/gdiff</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gdiff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>GDIFF</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>D1FFD1FF</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111342780</FormatID>
+  <FormatName>Propellerheads Reason 2 NN-XT format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111342780</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sxt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

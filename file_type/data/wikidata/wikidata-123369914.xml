@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>123369914</FormatID>
+  <FormatName>High-Throughput JPEG 2000</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123369914</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/jph</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jph</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

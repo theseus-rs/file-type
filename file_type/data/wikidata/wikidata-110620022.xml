@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>110620022</FormatID>
+  <FormatName>Adobe Atmosphere world (.aer)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110620022</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>http://www.wikidata.org/.well-known/genid/64e48b81d07f7c6707af81a93ee3a882</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aer</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

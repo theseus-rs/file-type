@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>96052469</FormatID>
+  <FormatName>Mathematica Graphics Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/96052469</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mgf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

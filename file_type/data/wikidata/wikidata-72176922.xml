@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>72176922</FormatID>
+  <FormatName>KDevelop Project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/72176922</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/ini</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>KDEVPRJ</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

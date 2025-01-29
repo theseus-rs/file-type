@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>81526664</FormatID>
+  <FormatName>Palm Desktop DateBook</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/81526664</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Palm Desktop DateBook</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>BEBAFECA0F50616C6D5347204461746162617365</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

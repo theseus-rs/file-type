@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105856717</FormatID>
+  <FormatName>X-ray diffraction data file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856717</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>udf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>X-ray diffraction data file format</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>53616D706C654964656E742C</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

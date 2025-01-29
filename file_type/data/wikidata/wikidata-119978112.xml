@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>119978112</FormatID>
+  <FormatName>Clip File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/119978112</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fmc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105853247</FormatID>
+  <FormatName>Smart Install Maker project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853247</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>smm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Smart Install Maker project</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>536D61727420496E7374616C6C204D616B65722050726F6A65637420762E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>66208329</FormatID>
+  <FormatName>Microsoft Works communications script file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66208329</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-works</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wcm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

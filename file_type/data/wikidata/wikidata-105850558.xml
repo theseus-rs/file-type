@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105850558</FormatID>
+  <FormatName>AutoCAD Custom User Interface</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850558</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cui</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

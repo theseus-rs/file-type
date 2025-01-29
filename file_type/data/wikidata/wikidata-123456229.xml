@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123456229</FormatID>
+  <FormatName>CFW Form file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123456229</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cfw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

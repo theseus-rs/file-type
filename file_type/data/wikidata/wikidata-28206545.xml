@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206545</FormatID>
+  <FormatName>MAKIchan Graphics MAG</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206545</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mag</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117843619</FormatID>
+  <FormatName>Gammalink Gamma Fax file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117843619</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gam</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

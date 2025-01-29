@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125511095</FormatID>
+  <FormatName>Zoner Photo Studio file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125511095</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zps</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

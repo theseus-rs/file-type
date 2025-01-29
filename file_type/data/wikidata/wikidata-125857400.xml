@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125857400</FormatID>
+  <FormatName>JScript Encoded File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125857400</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jse</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

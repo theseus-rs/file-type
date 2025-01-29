@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125207315</FormatID>
+  <FormatName>VYM part</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125207315</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vyp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

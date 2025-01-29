@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>66662412</FormatID>
+  <FormatName>ScreenCam Movies</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66662412</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.lotus-screencam</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>scm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

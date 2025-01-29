@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105862532</FormatID>
+  <FormatName>Creative Music System Intelligent Organ music</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105862532</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>org</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Creative Music System Intelligent Organ music</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>434D53204F7267616E20446174612046696C650D0A001A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

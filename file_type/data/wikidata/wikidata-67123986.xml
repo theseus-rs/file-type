@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>67123986</FormatID>
+  <FormatName>Print Artist envelope file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/67123986</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>env</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

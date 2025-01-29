@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105856666</FormatID>
+  <FormatName>Unreal Engine Project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856666</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>uproject</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

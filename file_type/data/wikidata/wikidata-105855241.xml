@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105855241</FormatID>
+  <FormatName>Felix format spectra</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855241</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fid</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Felix format spectra</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>46656C697820666F722057696E646F777300</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851880</FormatID>
+  <FormatName>Snzip compressed (framing2 format)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851880</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Snzip compressed (framing2 format)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>FF060000734E61507059</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

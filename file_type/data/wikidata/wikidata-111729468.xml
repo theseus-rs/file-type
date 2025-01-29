@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111729468</FormatID>
+  <FormatName>RegMon File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111729468</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rgd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

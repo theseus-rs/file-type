@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111283690</FormatID>
+  <FormatName>Casio FZ-1 voice dump format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111283690</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fzv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

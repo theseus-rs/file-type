@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>131695920</FormatID>
+  <FormatName>Chaco graph partitioning output file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131695920</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>coords</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>graph</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

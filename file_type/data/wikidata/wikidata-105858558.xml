@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105858558</FormatID>
+  <FormatName>Borland Language Library</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858558</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bll</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Borland Language Library</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4C4F43414C452E424C4C</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

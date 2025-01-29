@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110238400</FormatID>
+  <FormatName>Screenwriter 6 file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110238400</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mmsw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

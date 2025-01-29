@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>120079718</FormatID>
+  <FormatName>Matisse file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/120079718</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

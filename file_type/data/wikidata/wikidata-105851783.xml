@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851783</FormatID>
+  <FormatName>K-Spreadsheet (v2)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851783</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>spd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>K-Spreadsheet (v2)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>436C696666204841524B455200</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

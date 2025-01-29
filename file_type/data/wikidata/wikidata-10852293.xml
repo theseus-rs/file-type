@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>10852293</FormatID>
+  <FormatName>RPT</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/10852293</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rpt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>129167288</FormatID>
+  <FormatName>execline file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129167288</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>exec</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

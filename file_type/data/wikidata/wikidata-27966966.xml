@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27966966</FormatID>
+  <FormatName>Accolade MIDI File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27966966</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mus</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

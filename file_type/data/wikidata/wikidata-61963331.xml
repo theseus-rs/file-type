@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>61963331</FormatID>
+  <FormatName>pulse EKKO data file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61963331</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dt1</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

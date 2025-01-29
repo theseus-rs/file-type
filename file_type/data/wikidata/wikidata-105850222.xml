@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105850222</FormatID>
+  <FormatName>3ds UI colors</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850222</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>clr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

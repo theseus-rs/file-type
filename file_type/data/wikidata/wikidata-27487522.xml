@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27487522</FormatID>
+  <FormatName>Shapefile attribute index part 1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27487522</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ain</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

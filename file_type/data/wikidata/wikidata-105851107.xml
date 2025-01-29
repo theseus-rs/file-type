@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851107</FormatID>
+  <FormatName>TePee Animator Project (v1.0)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851107</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tap</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>TePee Animator Project (v1.0)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2A546550656520416E696D61746F722050726F6A6563742E2046696C652056657273696F6E20312E30</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

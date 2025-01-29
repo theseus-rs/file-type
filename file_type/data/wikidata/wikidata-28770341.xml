@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28770341</FormatID>
+  <FormatName>M2k</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28770341</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>m2k</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

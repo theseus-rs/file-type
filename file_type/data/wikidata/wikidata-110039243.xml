@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>110039243</FormatID>
+  <FormatName>XIFF (Xerox Image File Format), version 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110039243</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/vnd.xiff</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

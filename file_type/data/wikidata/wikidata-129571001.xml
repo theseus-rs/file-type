@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>129571001</FormatID>
+  <FormatName>High Level Shader Language file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129571001</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-hlsl</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hlsl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>51841970</FormatID>
+  <FormatName>Microsoft FoxPro Library</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51841970</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>plb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

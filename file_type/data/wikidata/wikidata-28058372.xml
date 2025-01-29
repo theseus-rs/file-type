@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28058372</FormatID>
+  <FormatName>IFF-FAXX</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28058372</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>faxx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

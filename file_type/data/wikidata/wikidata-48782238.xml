@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>48782238</FormatID>
+  <FormatName>Microsoft Word for MS-DOS Document, version 5</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/48782238</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/msword</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>doc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

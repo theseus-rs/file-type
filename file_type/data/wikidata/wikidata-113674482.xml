@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>113674482</FormatID>
+  <FormatName>3D Landscape 2.0 File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113674482</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>3sl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lnd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

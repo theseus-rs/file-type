@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>119157250</FormatID>
+  <FormatName>Digital Image Publishing File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/119157250</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>php</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

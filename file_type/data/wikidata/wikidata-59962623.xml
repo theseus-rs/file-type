@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>59962623</FormatID>
+  <FormatName>Autodesk Animator (FlicLib)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59962623</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fli</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>1931585</FormatID>
+  <FormatName>Microsoft Digital Video Recording</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1931585</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dvr-ms</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

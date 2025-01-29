@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>2996704</FormatID>
+  <FormatName>.htpasswd</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/2996704</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>htpasswd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

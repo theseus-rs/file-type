@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>51954585</FormatID>
+  <FormatName>dBASE III+ file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51954585</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dbf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

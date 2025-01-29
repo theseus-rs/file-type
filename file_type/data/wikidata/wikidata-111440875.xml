@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>111440875</FormatID>
+  <FormatName>Tcl Script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111440875</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/tcl</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tcl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

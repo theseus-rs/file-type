@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>2931409</FormatID>
+  <FormatName>CFD General Notation System</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/2931409</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cgns</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>122311153</FormatID>
+  <FormatName>Open Mining Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122311153</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>omf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

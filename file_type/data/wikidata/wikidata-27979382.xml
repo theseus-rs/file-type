@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>27979382</FormatID>
+  <FormatName>MPLS</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27979382</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mpl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mpls</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

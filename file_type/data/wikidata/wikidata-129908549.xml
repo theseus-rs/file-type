@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>129908549</FormatID>
+  <FormatName>JAGS file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129908549</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jag</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

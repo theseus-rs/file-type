@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>360194</FormatID>
+  <FormatName>Adobe Type 1 ASCII Font Metrics</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/360194</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-font-afm</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>afm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Adobe Type 1 ASCII Font Metrics</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5374617274466F6E744D65747269637320</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

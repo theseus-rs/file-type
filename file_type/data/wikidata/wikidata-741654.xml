@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>741654</FormatID>
+  <FormatName>DirectDraw Surface</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/741654</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/vnd-ms.dds</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dds</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>DirectDraw Surface</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>44445320</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

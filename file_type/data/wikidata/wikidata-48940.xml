@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>48940</FormatID>
+  <FormatName>RDF/XML</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/48940</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/rdf+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851737</FormatID>
+  <FormatName>LibreOffice Gallery translations</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851737</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>str</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>LibreOffice Gallery translations</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>23205472616E736C61746564206279206465736B746F702D7472616E736C61746520616E6420756C666578</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

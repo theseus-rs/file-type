@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>2661480</FormatID>
+  <FormatName>BSON</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/2661480</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/bson</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bson</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

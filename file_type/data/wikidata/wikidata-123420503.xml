@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123420503</FormatID>
+  <FormatName>DropBox file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123420503</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dbox</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

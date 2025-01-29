@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29167436</FormatID>
+  <FormatName>Microsoft Object Description Language</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29167436</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>odl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

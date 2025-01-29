@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>6026738</FormatID>
+  <FormatName>PFB</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/6026738</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>font/x-postscript-pfb</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pfb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

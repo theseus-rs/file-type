@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123377812</FormatID>
+  <FormatName>Lightwright Library file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123377812</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lwb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

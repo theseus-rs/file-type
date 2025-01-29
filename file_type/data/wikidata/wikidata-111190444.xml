@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111190444</FormatID>
+  <FormatName>Java Script Command File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111190444</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jsf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

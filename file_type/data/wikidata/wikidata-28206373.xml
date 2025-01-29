@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28206373</FormatID>
+  <FormatName>Interleaf image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206373</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>iimg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>img</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

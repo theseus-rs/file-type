@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>49989968</FormatID>
+  <FormatName>Internet Explorer for Mac cache file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/49989968</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>waf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853219</FormatID>
+  <FormatName>Speech Synthesis Markup Language</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853219</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/ssml+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ssml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Speech Synthesis Markup Language</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C737065616B20786D6C3A6C616E673D22</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

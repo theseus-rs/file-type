@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111496643</FormatID>
+  <FormatName>Spectrum 512 Extended, version 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111496643</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>spx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

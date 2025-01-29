@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>118644981</FormatID>
+  <FormatName>ISOBMFF Segment</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/118644981</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>m4s</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

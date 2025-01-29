@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105856615</FormatID>
+  <FormatName>WiX Project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856615</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wixproj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27979154</FormatID>
+  <FormatName>ArtWorx Data Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27979154</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>adf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

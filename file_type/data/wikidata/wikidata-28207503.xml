@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28207503</FormatID>
+  <FormatName>WinMiPS</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28207503</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pic</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>131322036</FormatID>
+  <FormatName>Treetop file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131322036</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>treetop</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

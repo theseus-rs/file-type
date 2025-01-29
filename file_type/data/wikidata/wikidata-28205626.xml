@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28205626</FormatID>
+  <FormatName>Sun icon</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28205626</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ico</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>icon</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

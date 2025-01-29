@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>129988320</FormatID>
+  <FormatName>JMESPath query file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129988320</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

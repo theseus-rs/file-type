@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>47483645</FormatID>
+  <FormatName>Statistical Analysis System Data (Windows)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47483645</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sas7bdat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sd7</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

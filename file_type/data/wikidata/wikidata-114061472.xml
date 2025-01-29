@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>114061472</FormatID>
+  <FormatName>OpenDocument Spreadsheet, version 1.3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/114061472</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.oasis.opendocument.spreadsheet</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ods</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>100297968</FormatID>
+  <FormatName>Flow Charting file format, version 4</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/100297968</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gfc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

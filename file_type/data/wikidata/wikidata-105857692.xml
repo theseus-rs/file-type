@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105857692</FormatID>
+  <FormatName>Archimedes Protected Disk image (unzipped)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857692</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>adp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Archimedes Protected Disk image (unzipped)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4150445830303031</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

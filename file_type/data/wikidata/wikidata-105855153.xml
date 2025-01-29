@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855153</FormatID>
+  <FormatName>FidoCAD Macro</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855153</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fcm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>FidoCAD Macro</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5B4D4143524F43414420</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

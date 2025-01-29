@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>127785772</FormatID>
+  <FormatName>MEL script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/127785772</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mel</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

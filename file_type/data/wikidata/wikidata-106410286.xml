@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>106410286</FormatID>
+  <FormatName>ZISRAW (CZI)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/106410286</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>czi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

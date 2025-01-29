@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111317361</FormatID>
+  <FormatName>MAUD sample format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111317361</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>maud</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>84942649</FormatID>
+  <FormatName>Sony PictureGear Studio PhotoAlbum</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/84942649</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>amd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>amu</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

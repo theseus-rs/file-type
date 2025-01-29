@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28975617</FormatID>
+  <FormatName>GNU Triangulated Surface</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28975617</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gts</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

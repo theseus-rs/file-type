@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855580</FormatID>
+  <FormatName>olsrd configuration</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855580</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>olsr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>olsrd configuration</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>230D0A2320436F6E66696775726174696F6E2066696C6520666F72206F6C73722E6F7267206F6C737264</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

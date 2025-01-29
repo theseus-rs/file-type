@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28205679</FormatID>
+  <FormatName>Amber ARR Bitmap Image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28205679</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>arr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

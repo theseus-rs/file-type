@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105855416</FormatID>
+  <FormatName>Playmation Figure</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855416</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fig</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Playmation Figure</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4649475520</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

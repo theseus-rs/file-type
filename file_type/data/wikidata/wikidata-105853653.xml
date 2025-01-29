@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853653</FormatID>
+  <FormatName>ABC notation (old)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853653</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/vnd.abc</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>abc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>ABC notation (old)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>583A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

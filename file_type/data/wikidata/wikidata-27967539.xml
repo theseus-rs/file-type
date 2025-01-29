@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967539</FormatID>
+  <FormatName>Advanced Video Coding</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967539</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mp4</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

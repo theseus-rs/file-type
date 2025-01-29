@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111271825</FormatID>
+  <FormatName>Yamaha DX7 voice SysEx dump</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111271825</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dx7</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27684882</FormatID>
+  <FormatName>Microsoft Publisher file format, version 8.5</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27684882</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-publisher</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pub</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

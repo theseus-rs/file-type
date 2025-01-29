@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>65533101</FormatID>
+  <FormatName>MealPlan file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/65533101</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pln</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

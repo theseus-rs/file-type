@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27960004</FormatID>
+  <FormatName>Real Lossless Codec</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27960004</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rmvb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

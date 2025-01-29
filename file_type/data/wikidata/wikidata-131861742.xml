@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131861742</FormatID>
+  <FormatName>GE Signa ximg file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131861742</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ximg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

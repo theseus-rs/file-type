@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206843</FormatID>
+  <FormatName>Palm Database ImageViewer</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206843</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

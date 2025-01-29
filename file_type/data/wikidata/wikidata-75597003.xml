@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>75597003</FormatID>
+  <FormatName>GeoGebra format, version 1.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/75597003</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.geogebra.file</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ggb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

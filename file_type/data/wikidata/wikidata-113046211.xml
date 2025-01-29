@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113046211</FormatID>
+  <FormatName>Live Code File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113046211</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mlx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

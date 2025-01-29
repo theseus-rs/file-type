@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105857171</FormatID>
+  <FormatName>Homeword for DeskMate</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857171</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hmw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Homeword for DeskMate</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3154686973206973206120686F6D65776F72642066696C652077697468206465736B6D61746520636861722F6174747269627574652070616972730A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856013</FormatID>
+  <FormatName>Dan Bricklin's Demo-it! demo</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856013</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dmr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Dan Bricklin's Demo-it! demo</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>44495477</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

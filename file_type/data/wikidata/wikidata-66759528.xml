@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>66759528</FormatID>
+  <FormatName>Excel Binary Workbook</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66759528</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-excel.sheet.binary.macroenabled.12</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xlsb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

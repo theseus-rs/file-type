@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>47166297</FormatID>
+  <FormatName>ClarisWorks Word Processor file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47166297</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cwk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

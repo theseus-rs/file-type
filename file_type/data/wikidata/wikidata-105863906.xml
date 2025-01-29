@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105863906</FormatID>
+  <FormatName>Gen Surf map</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105863906</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>map</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

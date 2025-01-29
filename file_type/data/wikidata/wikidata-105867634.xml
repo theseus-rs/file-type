@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105867634</FormatID>
+  <FormatName>Nastran input data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105867634</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nas</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

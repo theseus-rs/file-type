@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856689</FormatID>
+  <FormatName>uVision v2 Project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856689</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>uv2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>uVision v2 Project</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2323232075566973696F6E322050726F6A6563742C20284329204B65696C20536F667477617265</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

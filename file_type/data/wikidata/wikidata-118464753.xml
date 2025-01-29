@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>118464753</FormatID>
+  <FormatName>Open Media Framework Interchange 2.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/118464753</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>omf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

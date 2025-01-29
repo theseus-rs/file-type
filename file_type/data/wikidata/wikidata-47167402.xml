@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>47167402</FormatID>
+  <FormatName>ClarisWorks Spreadsheet file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47167402</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cwk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

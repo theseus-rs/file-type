@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105857494</FormatID>
+  <FormatName>3D Construction Kit 2 Object</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857494</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>3od</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>3D Construction Kit 2 Object</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>416E204F424A4543542066696C652063726561746564207769746820336420436F6E737472756374696F6E204B697420320A0D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

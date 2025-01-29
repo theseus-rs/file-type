@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>131062662</FormatID>
+  <FormatName>SNOBOL4 file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131062662</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-snobol</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>snobol</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

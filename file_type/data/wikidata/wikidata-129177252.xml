@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>129177252</FormatID>
+  <FormatName>Felix source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129177252</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-felix</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>flx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

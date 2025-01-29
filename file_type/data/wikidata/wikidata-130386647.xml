@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>130386647</FormatID>
+  <FormatName>NuSMV file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130386647</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>smv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

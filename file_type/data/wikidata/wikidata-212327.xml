@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>212327</FormatID>
+  <FormatName>Document Type Definition</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/212327</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/xml-dtd</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dtd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

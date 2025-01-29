@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27979502</FormatID>
+  <FormatName>DNG camera profile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27979502</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dcp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

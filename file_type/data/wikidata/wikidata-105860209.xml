@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860209</FormatID>
+  <FormatName>AskEnv Requester definition</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860209</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>req</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>AskEnv Requester definition</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>57494E444F570A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

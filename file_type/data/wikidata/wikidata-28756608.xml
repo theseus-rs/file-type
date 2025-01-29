@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28756608</FormatID>
+  <FormatName>FoxPro script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28756608</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>48804265</FormatID>
+  <FormatName>Paradox Database Memo Field</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/48804265</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dbq</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

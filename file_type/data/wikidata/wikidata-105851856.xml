@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851856</FormatID>
+  <FormatName>EPOC Installation package (rel. 2,3,5)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851856</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>x-epoc/x-sisx-app</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sis</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>EPOC Installation package (rel. 2,3,5)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>6D00001019040010</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

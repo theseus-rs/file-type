@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105860063</FormatID>
+  <FormatName>ParaView VTK Image data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860063</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vti</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

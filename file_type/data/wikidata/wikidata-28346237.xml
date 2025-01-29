@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28346237</FormatID>
+  <FormatName>TTDDD</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28346237</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ttd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

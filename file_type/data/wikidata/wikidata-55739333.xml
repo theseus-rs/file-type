@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>55739333</FormatID>
+  <FormatName>CRAM file format, version 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/55739333</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cram</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

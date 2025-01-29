@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28975912</FormatID>
+  <FormatName>XGL</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28975912</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xgl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105860773</FormatID>
+  <FormatName>REKO PC cardset</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860773</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rkp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>REKO PC cardset</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>504352454B4F</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

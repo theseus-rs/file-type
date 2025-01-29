@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125208050</FormatID>
+  <FormatName>Microsoft Project XML</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125208050</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mspxml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

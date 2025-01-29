@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>117485972</FormatID>
+  <FormatName>Audacity Project File 3.x</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117485972</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-audacity-project+sqlite3</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aup3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

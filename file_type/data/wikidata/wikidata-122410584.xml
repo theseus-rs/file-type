@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>122410584</FormatID>
+  <FormatName>PowerPC Symbol File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122410584</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xsym</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

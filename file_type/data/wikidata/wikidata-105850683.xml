@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105850683</FormatID>
+  <FormatName>Battery 3 Drum Kit</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850683</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kt3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Battery 3 Drum Kit</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>1290A87F000000000001722A013E01000800020233746142</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

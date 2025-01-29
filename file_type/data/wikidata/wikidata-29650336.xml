@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>29650336</FormatID>
+  <FormatName>Personal Information Exchange</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29650336</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>p12</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pfx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

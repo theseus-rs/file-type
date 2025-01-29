@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>67175538</FormatID>
+  <FormatName>Nero Digital file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/67175538</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

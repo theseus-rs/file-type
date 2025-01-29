@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29650319</FormatID>
+  <FormatName>PIM</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29650319</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pim</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

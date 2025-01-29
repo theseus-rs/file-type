@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27225795</FormatID>
+  <FormatName>OpenDocument Graphics, version 1.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27225795</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.oasis.opendocument.graphics</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>odg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

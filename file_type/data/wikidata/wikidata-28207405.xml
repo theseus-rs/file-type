@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>28207405</FormatID>
+  <FormatName>TLG</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28207405</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tlg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>TLG</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>544C47302E30007364731A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

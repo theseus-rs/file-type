@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>114891689</FormatID>
+  <FormatName>Quicken Rental Property Manager File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/114891689</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>qrp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

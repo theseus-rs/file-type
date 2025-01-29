@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130395727</FormatID>
+  <FormatName>ODIN file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130395727</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/odin</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>odin</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

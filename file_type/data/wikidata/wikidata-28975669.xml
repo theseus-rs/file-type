@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28975669</FormatID>
+  <FormatName>BMF</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28975669</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bmf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

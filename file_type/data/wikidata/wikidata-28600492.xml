@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28600492</FormatID>
+  <FormatName>Data Resource File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28600492</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>drs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

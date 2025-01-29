@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105851939</FormatID>
+  <FormatName>GIMP Script-Fu Script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851939</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>scm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

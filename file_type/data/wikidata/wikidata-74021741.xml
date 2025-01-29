@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>74021741</FormatID>
+  <FormatName>Microsoft Resource Library</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/74021741</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rll</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>17149857</FormatID>
+  <FormatName>zone file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/17149857</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/dns</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zone</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

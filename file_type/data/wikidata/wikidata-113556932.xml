@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113556932</FormatID>
+  <FormatName>Duplicator Image format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113556932</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dao</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

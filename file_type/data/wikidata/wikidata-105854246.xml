@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105854246</FormatID>
+  <FormatName>AES Crypt encrypted</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854246</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aes</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>AES Crypt encrypted</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>41455302</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

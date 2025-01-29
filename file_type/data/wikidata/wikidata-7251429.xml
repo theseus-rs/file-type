@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>7251429</FormatID>
+  <FormatName>Protein Data Bank</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7251429</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>chemical/x-pdb</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

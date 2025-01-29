@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105851809</FormatID>
+  <FormatName>Atari ST Guide ref links</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851809</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ref</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Atari ST Guide ref links</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>48524546</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

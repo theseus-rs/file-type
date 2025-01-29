@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105860424</FormatID>
+  <FormatName>Maxon Resource Creation Tool data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860424</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rct</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

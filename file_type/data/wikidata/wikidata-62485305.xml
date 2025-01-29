@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>62485305</FormatID>
+  <FormatName>Navisworks Document, version 2010</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/62485305</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nwc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nwd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

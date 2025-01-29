@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>109996953</FormatID>
+  <FormatName>Autocad DMP File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109996953</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dmp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

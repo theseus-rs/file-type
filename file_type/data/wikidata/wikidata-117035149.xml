@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117035149</FormatID>
+  <FormatName>TurboCAD for Windows ASCII File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117035149</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tcx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

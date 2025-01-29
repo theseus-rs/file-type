@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>127378446</FormatID>
+  <FormatName>GLSL file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/127378446</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>glsl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

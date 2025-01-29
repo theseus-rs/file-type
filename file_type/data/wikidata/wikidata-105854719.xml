@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105854719</FormatID>
+  <FormatName>Team Developer / SQLWindows application (text)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854719</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>apt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Team Developer / SQLWindows application (text)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4170706C69636174696F6E204465736372697074696F6E3A20</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

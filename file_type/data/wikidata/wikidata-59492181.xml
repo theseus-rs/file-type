@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>59492181</FormatID>
+  <FormatName>Statistical Analysis System Catalog (Windows)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59492181</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sas7bcat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sc7</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

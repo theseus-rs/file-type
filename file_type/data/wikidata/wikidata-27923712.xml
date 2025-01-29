@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27923712</FormatID>
+  <FormatName>DTED Level 0 Terrain Elevation Data File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27923712</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dt0</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

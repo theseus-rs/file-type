@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130245180</FormatID>
+  <FormatName>LLVM assembly code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130245180</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-llvm</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ll</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>131322623</FormatID>
+  <FormatName>TSX</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131322623</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/typescript-tsx</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tsx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

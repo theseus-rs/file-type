@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853764</FormatID>
+  <FormatName>Unity Animation</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853764</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>anim</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Unity Animation</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2559414D4C20312E310A2554414720217521207461673A756E69747933642E636F6D2C323031313A0A2D2D2D2021752137342026373430303030300A416E696D6174696F6E436C69703A0A20206D5F4F626A65637448696465466C6167733A20300A20206D5F507265666162506172656E744F626A6563743A207B66696C6549443A20307D0A20206D5F507265666162496E7465726E616C3A207B66696C6549443A20307D0A20206D5F4E616D653A20</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

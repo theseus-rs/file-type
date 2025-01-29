@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>120731559</FormatID>
+  <FormatName>MotionMaker Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/120731559</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fmt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

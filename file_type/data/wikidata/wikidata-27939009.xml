@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27939009</FormatID>
+  <FormatName>Enhanced Compression Wavelet, version 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27939009</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ecw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

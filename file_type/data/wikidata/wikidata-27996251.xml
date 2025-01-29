@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27996251</FormatID>
+  <FormatName>InnoDB database file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27996251</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ibd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130362694</FormatID>
+  <FormatName>Myghty file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130362694</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-myghty</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>myt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

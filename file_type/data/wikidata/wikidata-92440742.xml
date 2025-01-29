@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>92440742</FormatID>
+  <FormatName>Spider 2D image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/92440742</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>spider</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

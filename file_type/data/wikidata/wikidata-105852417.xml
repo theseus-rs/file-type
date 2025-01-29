@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105852417</FormatID>
+  <FormatName>Microsoft SQL Server execution Plan</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105852417</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sqlplan</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

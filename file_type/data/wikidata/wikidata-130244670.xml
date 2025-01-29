@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130244670</FormatID>
+  <FormatName>LiveScript source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130244670</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/livescript</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ls</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

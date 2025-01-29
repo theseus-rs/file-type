@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>127265031</FormatID>
+  <FormatName>ANSYS input file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/127265031</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

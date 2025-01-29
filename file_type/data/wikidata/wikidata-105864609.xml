@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105864609</FormatID>
+  <FormatName>Psion Physical Device Driver</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105864609</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pdd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Psion Physical Device Driver</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>50444446696C65547970652A2A2A2A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

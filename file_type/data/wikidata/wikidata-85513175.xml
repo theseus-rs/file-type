@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>85513175</FormatID>
+  <FormatName>Cindex Document, version 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/85513175</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cdx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tpl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

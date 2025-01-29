@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117457195</FormatID>
+  <FormatName>Raw PIMA SWIR Reflectance Spectral File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117457195</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fos</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

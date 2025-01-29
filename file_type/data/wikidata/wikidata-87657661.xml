@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>87657661</FormatID>
+  <FormatName>SketchUp Document 19</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/87657661</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>skb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>skp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

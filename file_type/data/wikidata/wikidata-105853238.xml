@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853238</FormatID>
+  <FormatName>Scidb player/event/site/annotator data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853238</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>scn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Scidb player/event/site/annotator data</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>53636964622E6E00</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

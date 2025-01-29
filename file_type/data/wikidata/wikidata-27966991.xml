@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27966991</FormatID>
+  <FormatName>Art &amp; Magic</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27966991</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/x-mod</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aam</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

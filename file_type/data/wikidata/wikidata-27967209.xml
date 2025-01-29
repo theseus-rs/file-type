@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967209</FormatID>
+  <FormatName>Pro Tracker v3.xx module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967209</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pt3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -38,6 +38,7 @@ pronom = []
 tokio = [
     "dep:tokio",
 ]
+wikidata = []
 
 [[bench]]
 harness = false

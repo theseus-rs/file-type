@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>31398150</FormatID>
+  <FormatName>N-Quads</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/31398150</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/n-quads</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nq</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

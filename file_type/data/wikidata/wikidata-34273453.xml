@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>34273453</FormatID>
+  <FormatName>Keynote Zipped</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/34273453</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>key.zip</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

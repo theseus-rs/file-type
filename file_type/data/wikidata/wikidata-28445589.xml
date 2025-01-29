@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28445589</FormatID>
+  <FormatName>AMOS AmBs</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28445589</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>abk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>abs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

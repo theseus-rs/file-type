@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111333920</FormatID>
+  <FormatName>Rockwell 2/3/4-bit ADPCM data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111333920</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rockwell</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

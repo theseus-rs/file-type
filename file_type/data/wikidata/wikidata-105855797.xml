@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105855797</FormatID>
+  <FormatName>Vivid DiffSet</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855797</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dsx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

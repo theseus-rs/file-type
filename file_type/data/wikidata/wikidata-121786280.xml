@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>121786280</FormatID>
+  <FormatName>Adobe Illustrator CC 2020 Artwork 24.2+</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/121786280</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ai</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ait</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130271417</FormatID>
+  <FormatName>Mako file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130271417</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-mako</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mao</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

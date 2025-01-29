@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130542392</FormatID>
+  <FormatName>Parallel Thread Execution file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130542392</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-ptx</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ptx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

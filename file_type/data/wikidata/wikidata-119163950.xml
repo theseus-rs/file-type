@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>119163950</FormatID>
+  <FormatName>Xstart Settings File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/119163950</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

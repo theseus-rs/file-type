@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111009727</FormatID>
+  <FormatName>PrintMaster Envelope File format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111009727</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>env</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

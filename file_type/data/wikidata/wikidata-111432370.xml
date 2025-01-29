@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111432370</FormatID>
+  <FormatName>Interface Definition Language File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111432370</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>idl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131748260</FormatID>
+  <FormatName>Parallel Input Output file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131748260</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pio</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

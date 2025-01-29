@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>44069766</FormatID>
+  <FormatName>STATA Data File Format, version 110</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/44069766</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dta</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

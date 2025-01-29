@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105867518</FormatID>
+  <FormatName>Haines NFF scene</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105867518</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

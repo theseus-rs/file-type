@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>4027909</FormatID>
+  <FormatName>Network Bootable Image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/4027909</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nbi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

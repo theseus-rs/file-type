@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>131389470</FormatID>
+  <FormatName>Varnish Configuration Language file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131389470</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-vclsrc</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vcl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

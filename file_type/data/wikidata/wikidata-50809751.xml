@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>50809751</FormatID>
+  <FormatName>Portable Database, version 1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50809751</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

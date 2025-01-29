@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28919155</FormatID>
+  <FormatName>Rhino Worksession</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28919155</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rws</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>95994804</FormatID>
+  <FormatName>Spatial Data Transfer Standard format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/95994804</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ddf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

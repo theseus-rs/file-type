@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>121463963</FormatID>
+  <FormatName>Adobe Lightroom Library</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/121463963</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aglib</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

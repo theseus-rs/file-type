@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>121815925</FormatID>
+  <FormatName>GST Art File 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/121815925</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>art</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

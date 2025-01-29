@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110086818</FormatID>
+  <FormatName>Agisoft Project File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110086818</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>psx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

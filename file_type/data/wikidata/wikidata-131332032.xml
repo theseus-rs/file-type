@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>131332032</FormatID>
+  <FormatName>TypoScript code</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131332032</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-typoscript</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>typoscript</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>131453299</FormatID>
+  <FormatName>YARA file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131453299</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-yara</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>yar</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>27967216</FormatID>
+  <FormatName>SCC Blaffer NT instrument kit</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967216</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sbk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>SCC Blaffer NT instrument kit</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>426C6166204E5420496E73204B697420</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

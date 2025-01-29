@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>268086</FormatID>
+  <FormatName>OMDoc</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/268086</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/omdoc+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>omdoc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

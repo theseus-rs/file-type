@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>27967188</FormatID>
+  <FormatName>Future Composer (BSI) module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967188</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/x-mod</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bsi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Future Composer (BSI) module</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4655434F</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

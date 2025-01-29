@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>112660704</FormatID>
+  <FormatName>Portfolio File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112660704</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bfl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

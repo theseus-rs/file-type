@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27826389</FormatID>
+  <FormatName>Proxy AUX file, AUX variant</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27826389</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aux</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110226037</FormatID>
+  <FormatName>Raster Matrix Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110226037</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rsw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

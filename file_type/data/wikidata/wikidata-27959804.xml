@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27959804</FormatID>
+  <FormatName>Ableton Live Clip</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27959804</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>alc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

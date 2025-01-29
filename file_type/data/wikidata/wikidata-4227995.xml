@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>4227995</FormatID>
+  <FormatName>eMule collection</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/4227995</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>emulecollection</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

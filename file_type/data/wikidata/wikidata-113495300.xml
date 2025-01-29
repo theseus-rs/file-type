@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>113495300</FormatID>
+  <FormatName>JPEG XS File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113495300</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/jxs</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jxs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853103</FormatID>
+  <FormatName>ShowMaker Device</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853103</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>smdevice</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>ShowMaker Device</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4445564943452022</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

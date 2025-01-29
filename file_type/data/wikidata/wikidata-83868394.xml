@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>83868394</FormatID>
+  <FormatName>SOSI, version 8.1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/83868394</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/vnd.sosi</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sos</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105855683</FormatID>
+  <FormatName>PSI MI format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855683</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>obo</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>PSI MI format</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>666F726D61742D76657273696F6E3A20</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

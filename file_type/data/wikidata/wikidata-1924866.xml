@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>1924866</FormatID>
+  <FormatName>Metalink</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1924866</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>meta4</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>metalink</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

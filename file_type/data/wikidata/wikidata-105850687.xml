@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105850687</FormatID>
+  <FormatName>MapInfo Sea Chart</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850687</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kap</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

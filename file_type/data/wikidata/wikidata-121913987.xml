@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>121913987</FormatID>
+  <FormatName>Digital Voice File TRC Codec</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/121913987</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dvf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967541</FormatID>
+  <FormatName>IFF-DEEP</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967541</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>deep</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

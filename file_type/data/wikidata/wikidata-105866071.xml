@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105866071</FormatID>
+  <FormatName>Poste Italiane Email Digital Postmark</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105866071</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pie</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Poste Italiane Email Digital Postmark</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C6E73323A506F73744D61726B6564526563656970743E3C504B4353375369676E6564526563656970743E3C526563656970743E3C5472616E73616374696F6E4B65793E3C4C6F6361746F723E3C436F756E747279436F64653E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

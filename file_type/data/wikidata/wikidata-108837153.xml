@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>108837153</FormatID>
+  <FormatName>Quicken v4 Data File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/108837153</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>qdt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

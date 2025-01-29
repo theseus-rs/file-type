@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105866519</FormatID>
+  <FormatName>PGP signature</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105866519</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>asc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>PGP signature</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2D2D2D2D2D424547494E20504750205349474E41545552452D2D2D2D2D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

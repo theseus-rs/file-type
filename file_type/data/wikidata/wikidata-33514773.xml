@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>33514773</FormatID>
+  <FormatName>LAS 1.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/33514773</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>las</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>laz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

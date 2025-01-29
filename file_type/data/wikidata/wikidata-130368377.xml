@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130368377</FormatID>
+  <FormatName>nesC source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130368377</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-nescsrc</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

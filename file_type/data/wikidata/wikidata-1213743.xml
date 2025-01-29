@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>1213743</FormatID>
+  <FormatName>NRG</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1213743</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nrg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

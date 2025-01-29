@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28049476</FormatID>
+  <FormatName>RGB Intermediate Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28049476</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rgb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

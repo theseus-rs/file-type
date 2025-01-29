@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>121158082</FormatID>
+  <FormatName>ResumeMaker file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/121158082</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rmr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

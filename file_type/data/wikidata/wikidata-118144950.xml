@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>118144950</FormatID>
+  <FormatName>Serenade Symphony File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/118144950</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sph</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

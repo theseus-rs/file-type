@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>86450854</FormatID>
+  <FormatName>ASICS</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/86450854</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.etsi.asic-s+zip</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>asics</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105863308</FormatID>
+  <FormatName>Real-Time Sound Processor II MIDI</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105863308</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mid</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Real-Time Sound Processor II MIDI</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>525453502E4D4944</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

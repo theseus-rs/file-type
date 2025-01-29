@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967103</FormatID>
+  <FormatName>Nintendo GameCube/Wii BRSTM</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967103</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>brstm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

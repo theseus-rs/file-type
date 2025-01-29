@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>109682753</FormatID>
+  <FormatName>WinAce Archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109682753</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rar</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

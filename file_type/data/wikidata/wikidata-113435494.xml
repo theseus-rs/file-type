@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113435494</FormatID>
+  <FormatName>Garmin track log file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113435494</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gmn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

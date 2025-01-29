@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28205788</FormatID>
+  <FormatName>Compact Picture Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28205788</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cpt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

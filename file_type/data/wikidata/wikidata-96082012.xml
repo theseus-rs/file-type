@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>96082012</FormatID>
+  <FormatName>Standard Product Version 3 format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/96082012</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sp3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

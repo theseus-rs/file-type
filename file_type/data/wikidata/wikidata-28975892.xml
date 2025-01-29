@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28975892</FormatID>
+  <FormatName>Force Control File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28975892</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>frc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

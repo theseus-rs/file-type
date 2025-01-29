@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105856132</FormatID>
+  <FormatName>Touhou Danmakufu script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856132</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dnh</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Touhou Danmakufu script</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>23546F75686F7544616E6D616B7566750D0A235469746C655B</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

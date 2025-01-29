@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105865574</FormatID>
+  <FormatName>Topocad coordinates</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105865574</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pxy</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Topocad coordinates</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>58595A2D434F4F52442D46494C4520</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

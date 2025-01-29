@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>29944086</FormatID>
+  <FormatName>OpenOffice Impress, version 1.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29944086</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.sun.xml.impress</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sxi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

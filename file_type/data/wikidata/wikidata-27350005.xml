@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27350005</FormatID>
+  <FormatName>TOPSAR L-Band Polarimetry Data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27350005</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>datgr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

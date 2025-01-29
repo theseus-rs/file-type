@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206010</FormatID>
+  <FormatName>Digital Video Interactive Y Luminance Channel (Compressed 8-bit)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206010</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cmy</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

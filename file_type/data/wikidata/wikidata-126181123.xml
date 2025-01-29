@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>126181123</FormatID>
+  <FormatName>Graphisoft Archicad Project 6-9</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/126181123</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pla</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pln</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

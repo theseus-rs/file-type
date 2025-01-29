@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28212272</FormatID>
+  <FormatName>Noweb</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28212272</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

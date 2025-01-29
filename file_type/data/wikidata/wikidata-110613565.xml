@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>110613565</FormatID>
+  <FormatName>Mapbox Vector Tiles</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110613565</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.mapbox-vector-tile</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mvt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

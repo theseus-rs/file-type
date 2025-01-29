@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117843485</FormatID>
+  <FormatName>Faxable PCX</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117843485</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fcx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

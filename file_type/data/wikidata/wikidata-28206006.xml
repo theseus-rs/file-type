@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206006</FormatID>
+  <FormatName>Digital Video Interactive Device-dependent Uncompressed 16-bit Data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206006</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>i16</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

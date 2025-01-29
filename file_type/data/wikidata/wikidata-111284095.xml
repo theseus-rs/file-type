@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111284095</FormatID>
+  <FormatName>G.723 5-bit (40 kbps) ADPCM format data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111284095</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>g723-5</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

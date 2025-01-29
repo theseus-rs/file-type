@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>66663160</FormatID>
+  <FormatName>eSuite word processor format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66663160</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>html-wp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

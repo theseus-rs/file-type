@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>62664735</FormatID>
+  <FormatName>Wordperfect Secondary File, version 5.1 and 5.2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/62664735</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/wordperfect5.1</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>doc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

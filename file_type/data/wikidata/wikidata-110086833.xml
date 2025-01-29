@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110086833</FormatID>
+  <FormatName>Agisoft Tiled Model</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110086833</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tls</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

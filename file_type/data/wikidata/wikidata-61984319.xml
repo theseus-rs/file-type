@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>61984319</FormatID>
+  <FormatName>Microsoft Visual FoxPro Class Library</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61984319</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vcx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117855462</FormatID>
+  <FormatName>PRODUCT R&amp;D Fax File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117855462</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

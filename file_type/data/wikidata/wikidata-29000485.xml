@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29000485</FormatID>
+  <FormatName>010 Editor Binary Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29000485</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

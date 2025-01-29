@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>28919030</FormatID>
+  <FormatName>AC-3 Compressed Audio (Dolby Digital), Revision A</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28919030</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/ac3</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ac3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

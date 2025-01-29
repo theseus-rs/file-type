@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105854811</FormatID>
+  <FormatName>Taijin Media Net karaoke song</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854811</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tjn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Taijin Media Net karaoke song</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>00035441494A494E204D4544494120434F2E2C4C5444</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

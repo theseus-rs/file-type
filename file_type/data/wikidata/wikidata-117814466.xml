@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117814466</FormatID>
+  <FormatName>AdTech perfectfax</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117814466</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>adt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

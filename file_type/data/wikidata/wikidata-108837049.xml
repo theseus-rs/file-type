@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>108837049</FormatID>
+  <FormatName>Nero CD-ROM (Hybrid) Compilation</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/108837049</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nrh</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

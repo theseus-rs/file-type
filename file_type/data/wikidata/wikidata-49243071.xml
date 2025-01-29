@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>49243071</FormatID>
+  <FormatName>Java language source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/49243071</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-java</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>java</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

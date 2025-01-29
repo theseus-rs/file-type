@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>9368515</FormatID>
+  <FormatName>MFS</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/9368515</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mfs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

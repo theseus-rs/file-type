@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117192692</FormatID>
+  <FormatName>Photoshop Raw</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117192692</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>raw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

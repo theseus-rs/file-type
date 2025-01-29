@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>119443806</FormatID>
+  <FormatName>Map Template File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/119443806</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>axt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

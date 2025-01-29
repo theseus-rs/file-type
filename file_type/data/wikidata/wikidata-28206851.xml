@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206851</FormatID>
+  <FormatName>Secure Pick Ax file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206851</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pax</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

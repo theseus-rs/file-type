@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28344985</FormatID>
+  <FormatName>Genital Save State</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28344985</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gns</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

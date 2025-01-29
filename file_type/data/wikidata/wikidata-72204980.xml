@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>72204980</FormatID>
+  <FormatName>Lotus Forms Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/72204980</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ltm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Lotus Forms Template</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4C4F545553464F524D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

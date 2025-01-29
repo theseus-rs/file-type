@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>61990483</FormatID>
+  <FormatName>Log ASCII Standard Format, version 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61990483</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>las</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

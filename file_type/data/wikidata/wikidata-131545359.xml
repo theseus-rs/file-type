@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131545359</FormatID>
+  <FormatName>Cloud Optimized Point Cloud file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131545359</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>copc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

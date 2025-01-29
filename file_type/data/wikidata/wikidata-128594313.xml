@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>128594313</FormatID>
+  <FormatName>Agda file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128594313</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-agda</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>agda</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28758111</FormatID>
+  <FormatName>Internet Explorer favorites</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28758111</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>url</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

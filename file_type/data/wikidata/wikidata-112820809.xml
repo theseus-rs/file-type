@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>112820809</FormatID>
+  <FormatName>LightWave binary object file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112820809</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

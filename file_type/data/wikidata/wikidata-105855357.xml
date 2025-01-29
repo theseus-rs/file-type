@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105855357</FormatID>
+  <FormatName>Flatpack Reference (with rem)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855357</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>flatpakref</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

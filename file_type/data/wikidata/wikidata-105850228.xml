@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105850228</FormatID>
+  <FormatName>16bit DOS COM Crypt.Trivial.173 encrypted</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850228</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>com</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>16bit DOS COM Crypt.Trivial.173 encrypted</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>EB1890285472697669616C31373320627920534D542F534D4629BB00FE001F4BEBFBD1810FD10DD89B0BE83255D04AD245D75E5D4F8FCEB409571B94C4C381C1C178FCBDBFD8019BB338B1946028E84140E26EB33A6B3671CE4AACA5CA6AA8A5A0CA9FA437767D72804B97E5316C7A6F51BD6DABB58CBD7F876DB426AD84BF8380F3850D0C337A7A77573497752C82712F5F6E601029156A6B572565651C6259C85F5FC54C5B8D198B32892717</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105858473</FormatID>
+  <FormatName>EyesWeb patch</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858473</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>eyw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>EyesWeb patch</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>01000000FFFF02000A0043506174636856696577</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

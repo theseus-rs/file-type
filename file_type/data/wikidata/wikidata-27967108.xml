@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>27967108</FormatID>
+  <FormatName>STOS memory bank</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967108</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mbk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mbs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>2207671</FormatID>
+  <FormatName>SQX</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/2207671</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sqx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105859382</FormatID>
+  <FormatName>QTI document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859382</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

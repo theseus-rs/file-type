@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>73624536</FormatID>
+  <FormatName>Intuit QuickBooks Backup</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/73624536</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>qbb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

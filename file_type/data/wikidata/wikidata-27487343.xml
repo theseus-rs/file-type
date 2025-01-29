@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27487343</FormatID>
+  <FormatName>Shapefile spatial index part 1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27487343</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sbn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

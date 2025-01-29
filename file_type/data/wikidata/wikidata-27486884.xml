@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27486884</FormatID>
+  <FormatName>Shapefile main file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27486884</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>shp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

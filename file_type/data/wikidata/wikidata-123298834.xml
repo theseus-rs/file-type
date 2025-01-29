@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123298834</FormatID>
+  <FormatName>Retrospect UTX File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123298834</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>utx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

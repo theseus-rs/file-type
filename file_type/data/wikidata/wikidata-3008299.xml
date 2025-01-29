@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>3008299</FormatID>
+  <FormatName>xorg.conf</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/3008299</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xorg.conf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860755</FormatID>
+  <FormatName>Pokemon Randomization Quick Settings</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860755</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rnqs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Pokemon Randomization Quick Settings</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>AC54</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

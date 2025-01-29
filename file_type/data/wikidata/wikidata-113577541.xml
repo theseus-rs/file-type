@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113577541</FormatID>
+  <FormatName>DiscJuggler Image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113577541</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cdi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

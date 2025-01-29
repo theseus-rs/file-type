@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>28530510</FormatID>
+  <FormatName>Structure-data file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28530510</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>chemical/x-mdl-sdfile</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

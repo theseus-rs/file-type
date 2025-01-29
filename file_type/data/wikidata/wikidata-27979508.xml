@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>27979508</FormatID>
+  <FormatName>RIFF Palette File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27979508</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pal</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pal</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206593</FormatID>
+  <FormatName>MSX Interchange Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206593</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

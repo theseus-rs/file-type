@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27979371</FormatID>
+  <FormatName>EBU Timed Text</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27979371</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/ttml+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ttml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

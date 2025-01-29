@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105855536</FormatID>
+  <FormatName>OpenColorIO profile (with rem)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855536</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ocio</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

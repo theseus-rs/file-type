@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105857578</FormatID>
+  <FormatName>SAM Coupe Pro-DOS disk image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857578</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dsk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>SAM Coupe Pro-DOS disk image</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>03815009020104042A5200000000000053414D20436F7570652050726F2D446F732E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

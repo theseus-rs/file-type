@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105858889</FormatID>
+  <FormatName>QuickLink II Fax bitmap (old)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858889</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>qfx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>QuickLink II Fax bitmap (old)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>514C4949464158</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

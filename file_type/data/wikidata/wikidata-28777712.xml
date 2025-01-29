@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28777712</FormatID>
+  <FormatName>NFF</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28777712</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

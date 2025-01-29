@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28804255</FormatID>
+  <FormatName>Uniform Office Spreadsheet</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28804255</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>uos</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>130283788</FormatID>
+  <FormatName>Maxima file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130283788</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mac</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>max</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

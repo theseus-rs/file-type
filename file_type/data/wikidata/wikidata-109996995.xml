@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>109996995</FormatID>
+  <FormatName>OrgPlus Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109996995</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>opxt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

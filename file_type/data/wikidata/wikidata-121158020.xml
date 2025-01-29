@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>121158020</FormatID>
+  <FormatName>Letter file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/121158020</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rtf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

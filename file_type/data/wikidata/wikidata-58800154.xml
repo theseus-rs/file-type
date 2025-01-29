@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>58800154</FormatID>
+  <FormatName>PowerProject</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/58800154</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

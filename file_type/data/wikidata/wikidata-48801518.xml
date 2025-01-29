@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>48801518</FormatID>
+  <FormatName>Adobe FrameMaker Document, version 8</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/48801518</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.framemaker</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

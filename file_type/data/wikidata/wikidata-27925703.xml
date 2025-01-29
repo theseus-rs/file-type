@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27925703</FormatID>
+  <FormatName>DTED Level 0 Maximum Terrain Elevation Value File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27925703</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>max</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

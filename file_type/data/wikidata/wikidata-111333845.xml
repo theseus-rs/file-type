@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111333845</FormatID>
+  <FormatName>Rockwell ADPCM format (HotFax/Quicklink)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111333845</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

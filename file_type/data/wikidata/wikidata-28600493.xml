@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28600493</FormatID>
+  <FormatName>DeltaVision</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28600493</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

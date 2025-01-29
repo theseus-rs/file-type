@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111496844</FormatID>
+  <FormatName>SPYne Containers</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111496844</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>spy</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

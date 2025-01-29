@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111333291</FormatID>
+  <FormatName>DisorderTracker2 sample</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111333291</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pls</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

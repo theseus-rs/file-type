@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28757953</FormatID>
+  <FormatName>HGT</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28757953</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hgt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

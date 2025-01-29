@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113557073</FormatID>
+  <FormatName>CloneCD Image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113557073</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>img</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

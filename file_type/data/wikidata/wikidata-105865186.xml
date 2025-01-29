@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105865186</FormatID>
+  <FormatName>Span-It! Personality definition</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105865186</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>per</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Span-It! Personality definition</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>535441525420275370616E69742720506572736F6E616C69747920446566696E6974696F6E202A2A2A0D0A4E616D6520</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

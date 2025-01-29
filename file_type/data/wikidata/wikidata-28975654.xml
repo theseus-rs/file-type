@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28975654</FormatID>
+  <FormatName>Recon Points</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28975654</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pts</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

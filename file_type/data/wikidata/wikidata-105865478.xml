@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105865478</FormatID>
+  <FormatName>PowerBuilder trace Profile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105865478</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pbp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>PowerBuilder trace Profile</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>50425452414345</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

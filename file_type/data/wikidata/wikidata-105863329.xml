@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105863329</FormatID>
+  <FormatName>Cubic Tiny XM module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105863329</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/x-mod</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mxm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Cubic Tiny XM module</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4D584D00</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

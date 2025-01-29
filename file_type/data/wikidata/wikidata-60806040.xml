@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>60806040</FormatID>
+  <FormatName>Microsoft Excel 3.0 Worksheet (xls)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/60806040</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xls</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

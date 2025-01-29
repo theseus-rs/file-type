@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105859110</FormatID>
+  <FormatName>WinJack for MS Win game variant (v1.x)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859110</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>WinJack for MS Win game variant (v1.x)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>57696E4A61636B20666F72204D6963726F536F66742057696E646F77732E205665722E20312E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111009733</FormatID>
+  <FormatName>PrintMaster Note Card File format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111009733</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>not</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

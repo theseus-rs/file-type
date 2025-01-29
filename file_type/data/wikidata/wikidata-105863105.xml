@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105863105</FormatID>
+  <FormatName>TargetExpress target</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105863105</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mte</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>TargetExpress target</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4D435720546563686E6F676F6C69657320496E632E20546172676574457870726573732066696C65</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

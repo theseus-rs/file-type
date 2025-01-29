@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>51913632</FormatID>
+  <FormatName>SDSC Image Tool Run-Length Encoded Bitmap</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/51913632</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rle</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

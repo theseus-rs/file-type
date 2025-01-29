@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105863544</FormatID>
+  <FormatName>Delta Music 2 module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105863544</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dm2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Delta Music 2 module</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>020000034A00670003B40C000001670001EC0C000002670A0C000003671270004E7541FA0B680201003F1141002E4E754DFA0B5A02820000007F0243007F02850000003F4A0166123D44003241FA082A4228003241FA094E60400C01000166123D44003441FA084E4228003241FA098660280C01000166123D44003641FA08864228003241FA09BE60103D44003841FA08C44228003241FA09FC2268000033E8000400DFF0961143001C49FA0A36D64331743000001A5342D482286E0006D9C274003414D4AE0002214200062442116A002600336A307000286E0026102A002702000007E580D9C02854D9EE0022234C0000336A00000004302800040040800033C000DFF09649FA0AC2E945D9C5214C002C422800164228001742680020422800244268002242680030422800264228002742680028116A0016002A42280034116A001700354E75</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

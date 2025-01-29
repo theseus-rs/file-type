@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105856814</FormatID>
+  <FormatName>Arts and Letters Graphics file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856814</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ged</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Arts and Letters Graphics file</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>41264C2D00</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

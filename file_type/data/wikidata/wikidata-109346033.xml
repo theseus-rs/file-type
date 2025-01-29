@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>109346033</FormatID>
+  <FormatName>osu! beatmap archive (.osz)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109346033</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-osu-beatmap-archive</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>osz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

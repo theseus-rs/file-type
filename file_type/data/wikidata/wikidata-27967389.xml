@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967389</FormatID>
+  <FormatName>Adlib Tracker module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967389</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sng</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

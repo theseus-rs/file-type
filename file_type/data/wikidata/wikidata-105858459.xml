@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105858459</FormatID>
+  <FormatName>IAR Embedded Workbench Debug info</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858459</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ewd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

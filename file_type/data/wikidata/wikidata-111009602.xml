@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111009602</FormatID>
+  <FormatName>PrintMaster Business Card File format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111009602</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>biz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

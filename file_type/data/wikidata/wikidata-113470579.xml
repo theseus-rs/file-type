@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>113470579</FormatID>
+  <FormatName>Microsoft Word for MS-DOS Printer Description File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113470579</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/msword</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

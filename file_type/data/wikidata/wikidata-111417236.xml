@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111417236</FormatID>
+  <FormatName>C++ Keyboard Script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111417236</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

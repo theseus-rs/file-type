@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28205805</FormatID>
+  <FormatName>Object File Format, binary variant</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28205805</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>off</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

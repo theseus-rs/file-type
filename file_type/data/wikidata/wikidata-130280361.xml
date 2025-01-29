@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130280361</FormatID>
+  <FormatName>Mason file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130280361</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-mason</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>m</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

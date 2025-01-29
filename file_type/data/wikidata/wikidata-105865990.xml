@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105865990</FormatID>
+  <FormatName>Planner 5D Project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105865990</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>p5d</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Planner 5D Project</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>7B2268617368223A22</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

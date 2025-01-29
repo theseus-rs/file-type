@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>34747905</FormatID>
+  <FormatName>Swift script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/34747905</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-swift</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>swift</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

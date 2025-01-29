@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851992</FormatID>
+  <FormatName>Wataroo Save state</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851992</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sav</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Wataroo Save state</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>57617461726F6F203A2053617665205374617465</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

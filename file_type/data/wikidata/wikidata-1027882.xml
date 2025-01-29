@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>1027882</FormatID>
+  <FormatName>Short Payment Descriptor</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1027882</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-shortpaymentdescriptor</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>spayd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

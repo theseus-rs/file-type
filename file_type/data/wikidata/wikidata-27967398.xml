@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967398</FormatID>
+  <FormatName>AdLib Visual Composer / Roland Synthesizer song</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967398</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rol</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

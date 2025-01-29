@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>58367950</FormatID>
+  <FormatName>Microsoft Project file format version 2007</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/58367950</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mpp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

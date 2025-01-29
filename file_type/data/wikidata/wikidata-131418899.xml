@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131418899</FormatID>
+  <FormatName>Web IDL file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131418899</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>webidl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

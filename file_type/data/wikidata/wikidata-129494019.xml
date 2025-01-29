@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>129494019</FormatID>
+  <FormatName>GSQL query file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129494019</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gsql</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

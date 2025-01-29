@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105857388</FormatID>
+  <FormatName>JSON Playlist File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857388</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jspf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

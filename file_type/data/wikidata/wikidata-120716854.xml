@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>120716854</FormatID>
+  <FormatName>TaxCut 2006 Tax Return file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/120716854</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>t06</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105854221</FormatID>
+  <FormatName>PS/2 MicroChannel Adapter Description File (with CRLF)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854221</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>adf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

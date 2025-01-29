@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27866092</FormatID>
+  <FormatName>Adobe Illustrator Artwork, version 1.0/1.1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27866092</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/postscript</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ai</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

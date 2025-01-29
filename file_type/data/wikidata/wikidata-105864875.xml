@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105864875</FormatID>
+  <FormatName>Garmin PCX5 waypoint file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105864875</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wpt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Garmin PCX5 waypoint file</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4820</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

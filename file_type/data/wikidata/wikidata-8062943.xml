@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>8062943</FormatID>
+  <FormatName>ZAP File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/8062943</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zap</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

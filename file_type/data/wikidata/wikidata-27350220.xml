@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27350220</FormatID>
+  <FormatName>ADRG General Information File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27350220</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gen</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

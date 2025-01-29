@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123419734</FormatID>
+  <FormatName>StuffIt Zip Archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123419734</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zip</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

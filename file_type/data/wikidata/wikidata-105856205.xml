@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105856205</FormatID>
+  <FormatName>X-Plane Distribution Scenery Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856205</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dsf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>X-Plane Distribution Scenery Format</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>58504C4E454453460100000044414548</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

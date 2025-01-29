@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123298791</FormatID>
+  <FormatName>Retrospect RXT File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123298791</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rxt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

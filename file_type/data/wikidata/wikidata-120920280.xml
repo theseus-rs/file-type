@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>120920280</FormatID>
+  <FormatName>Microsoft Money 2002 data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/120920280</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>m10</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

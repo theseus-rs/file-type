@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>52834849</FormatID>
+  <FormatName>dBASE for Windows database, version 5</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/52834849</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dbf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

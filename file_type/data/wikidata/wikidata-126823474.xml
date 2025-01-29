@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>126823474</FormatID>
+  <FormatName>Visual F# Script File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/126823474</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fsx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>121782524</FormatID>
+  <FormatName>Adobe Illustrator CC Artwork 17-23</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/121782524</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ai</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ait</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

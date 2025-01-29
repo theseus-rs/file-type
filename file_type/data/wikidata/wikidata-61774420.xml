@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>61774420</FormatID>
+  <FormatName>WavPack Correction File, version 4</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61774420</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wvc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>122229301</FormatID>
+  <FormatName>PGP Whole Disk Encryption</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122229301</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wde</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

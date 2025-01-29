@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105850534</FormatID>
+  <FormatName>16bit DOS COM Ryptor encrypted</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850534</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>com</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

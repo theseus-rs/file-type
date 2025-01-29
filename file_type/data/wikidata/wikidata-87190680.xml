@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>87190680</FormatID>
+  <FormatName>X3D 3.1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/87190680</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>x3d</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

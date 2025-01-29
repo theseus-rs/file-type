@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>129167131</FormatID>
+  <FormatName>Evoque file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/129167131</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-evoque</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>evoque</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

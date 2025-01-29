@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>73513552</FormatID>
+  <FormatName>Puppy Linux DotPup installer package</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/73513552</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pup</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

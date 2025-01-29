@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>3570443</FormatID>
+  <FormatName>Xtremsplit file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/3570443</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xtm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

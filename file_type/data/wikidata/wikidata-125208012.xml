@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125208012</FormatID>
+  <FormatName>TaskJuggler project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125208012</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tjp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

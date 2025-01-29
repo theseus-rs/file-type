@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113162065</FormatID>
+  <FormatName>Approach database file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113162065</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dbf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

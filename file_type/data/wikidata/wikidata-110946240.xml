@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110946240</FormatID>
+  <FormatName>Drools Rule Language</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110946240</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>drl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

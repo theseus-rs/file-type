@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>104828649</FormatID>
+  <FormatName>Renoise DSP device chain</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/104828649</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xrnt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

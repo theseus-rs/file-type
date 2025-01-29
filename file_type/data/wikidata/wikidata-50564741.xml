@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>50564741</FormatID>
+  <FormatName>AVCHD Clip Information File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50564741</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>clpi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cpi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111009835</FormatID>
+  <FormatName>PrintMaster Post Card File format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111009835</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pcr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

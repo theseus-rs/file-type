@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28600231</FormatID>
+  <FormatName>APW</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28600231</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>apw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

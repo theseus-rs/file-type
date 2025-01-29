@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105858843</FormatID>
+  <FormatName>KiCad pcbnew PCB layout</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858843</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>brd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>KiCad pcbnew PCB layout</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5043424E45572D424F4152442056657273696F6E20</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

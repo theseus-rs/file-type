@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29167429</FormatID>
+  <FormatName>NovaMind</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29167429</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nmind</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

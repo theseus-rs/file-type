@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>109265635</FormatID>
+  <FormatName>Pro Write Document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109265635</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>doc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

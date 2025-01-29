@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27995538</FormatID>
+  <FormatName>Borderlands save file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27995538</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sav</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

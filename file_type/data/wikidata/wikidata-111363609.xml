@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111363609</FormatID>
+  <FormatName>Westacott WinRanX instrument file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111363609</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wrf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

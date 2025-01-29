@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>23014810</FormatID>
+  <FormatName>chr</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/23014810</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>chr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

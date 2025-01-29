@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105856803</FormatID>
+  <FormatName>Ruby Gem::Specification</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856803</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gemspec</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>7073077</FormatID>
+  <FormatName>OTA bitmap</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7073077</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>otb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

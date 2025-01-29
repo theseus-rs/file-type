@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111356337</FormatID>
+  <FormatName>Turtle Beach WaveFront drum set format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111356337</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wfd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

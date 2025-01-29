@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>113401722</FormatID>
+  <FormatName>Linux/i386 Binary Executable File ZMAGIC</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113401722</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>o</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>so</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

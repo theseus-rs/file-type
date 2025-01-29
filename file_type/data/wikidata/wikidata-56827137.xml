@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>56827137</FormatID>
+  <FormatName>Nintendo DS cartridge file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/56827137</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nds</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

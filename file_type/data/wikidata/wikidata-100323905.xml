@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>100323905</FormatID>
+  <FormatName>PFS:Write Document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/100323905</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pfs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

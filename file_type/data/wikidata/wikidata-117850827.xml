@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117850827</FormatID>
+  <FormatName>OAZ Fax file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117850827</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>oaz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

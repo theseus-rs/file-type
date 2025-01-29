@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111341978</FormatID>
+  <FormatName>MIDI Converter Studio packed Sound Font</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111341978</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sf2pack</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967126</FormatID>
+  <FormatName>CMR</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967126</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cmr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

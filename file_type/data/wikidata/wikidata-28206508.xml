@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28206508</FormatID>
+  <FormatName>Light Sheet Microscope</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206508</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lsm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

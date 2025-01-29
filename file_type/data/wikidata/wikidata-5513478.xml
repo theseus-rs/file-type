@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>5513478</FormatID>
+  <FormatName>GIFT</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/5513478</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gift</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

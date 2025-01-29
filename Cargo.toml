@@ -3,12 +3,14 @@ default-members = [
     "export/httpd",
     "export/linguist",
     "export/pronom",
+    "export/wikidata",
     "file_type",
 ]
 members = [
     "export/httpd",
     "export/linguist",
     "export/pronom",
+    "export/wikidata",
     "file_type",
 ]
 resolver = "2"

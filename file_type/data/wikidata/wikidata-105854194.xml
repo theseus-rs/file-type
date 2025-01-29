@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105854194</FormatID>
+  <FormatName>DEC-WSE Object File Format (text, start with LF)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854194</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aoff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

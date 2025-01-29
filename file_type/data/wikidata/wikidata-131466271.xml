@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131466271</FormatID>
+  <FormatName>Guy’s Image Processing Lab file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131466271</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gipl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>50221292</FormatID>
+  <FormatName>JEOL NMR Spectroscopy</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50221292</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

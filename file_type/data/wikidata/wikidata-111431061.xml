@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>111431061</FormatID>
+  <FormatName>C# source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111431061</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-csharp</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

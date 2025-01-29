@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851332</FormatID>
+  <FormatName>U.S. Navy Fighters Theater game data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851332</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>t2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>U.S. Navy Fighters Theater game data</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>42495445</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

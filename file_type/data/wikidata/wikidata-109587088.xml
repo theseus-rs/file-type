@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>109587088</FormatID>
+  <FormatName>EasyPhoto Gallery</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109587088</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gal</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

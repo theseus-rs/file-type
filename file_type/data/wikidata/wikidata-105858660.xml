@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105858660</FormatID>
+  <FormatName>BaDonGo file info</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858660</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>badongo</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>BaDonGo file info</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>23235354415254204241444F4E474F2046494C450A544F54414C5F50415254533D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

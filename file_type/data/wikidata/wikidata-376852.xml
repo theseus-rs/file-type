@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>376852</FormatID>
+  <FormatName>Extended Module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/376852</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/xm</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

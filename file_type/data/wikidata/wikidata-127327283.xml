@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>127327283</FormatID>
+  <FormatName>Ada file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/127327283</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-ada</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>adb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

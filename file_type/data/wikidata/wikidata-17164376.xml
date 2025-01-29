@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>17164376</FormatID>
+  <FormatName>Scalable Vector Graphics Compressed</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/17164376</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/svg+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>svgz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

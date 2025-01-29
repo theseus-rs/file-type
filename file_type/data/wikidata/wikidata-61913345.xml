@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>61913345</FormatID>
+  <FormatName>Microsoft Project Export File, version 3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61913345</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-project</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mpx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

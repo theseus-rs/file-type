@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856520</FormatID>
+  <FormatName>WinWorks spreadsheet</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856520</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wpl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>WinWorks spreadsheet</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>57696E576F726B73205370726561645368656574</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

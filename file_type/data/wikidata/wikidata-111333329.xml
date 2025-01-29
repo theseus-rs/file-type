@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111333329</FormatID>
+  <FormatName>PSION A-law file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111333329</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>psion</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

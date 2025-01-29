@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105857602</FormatID>
+  <FormatName>G64 textual representation disk image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857602</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>txt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>G64 textual representation disk image</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>6E6F2D747261636B7320</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

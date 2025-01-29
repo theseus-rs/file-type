@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855230</FormatID>
+  <FormatName>Fattz Announcement</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855230</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fza</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Fattz Announcement</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C46617A7A74416E6E6F756E63656D656E742076657273696F6E3D27312E30273E0D0A3C656E747279206E616D653D27456F6E5A4E6574776F726B5C</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

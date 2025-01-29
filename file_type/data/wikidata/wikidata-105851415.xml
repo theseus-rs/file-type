@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105851415</FormatID>
+  <FormatName>T'SoundSystem Source (with rem)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851415</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tss</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

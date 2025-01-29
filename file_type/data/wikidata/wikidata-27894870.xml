@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27894870</FormatID>
+  <FormatName>Windows Media Audio Redirector</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27894870</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/x-ms-wax</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wax</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105850392</FormatID>
+  <FormatName>Cre8or model/project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850392</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cr8</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Cre8or model/project</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C50726F6A6563743E2667743B3C76657273696F6E3E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

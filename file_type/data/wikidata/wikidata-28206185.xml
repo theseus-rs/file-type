@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>28206185</FormatID>
+  <FormatName>GIMP Pattern</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206185</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/x-gimp-pat</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pat</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

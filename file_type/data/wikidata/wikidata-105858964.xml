@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105858964</FormatID>
+  <FormatName>Balsamiq Mockups prototype</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858964</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bmml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Balsamiq Mockups prototype</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C6D6F636B75702076657273696F6E3D22312E302220736B696E3D22</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

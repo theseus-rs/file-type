@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27960135</FormatID>
+  <FormatName>INRS-Telecom file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27960135</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aud</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

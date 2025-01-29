@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105857417</FormatID>
+  <FormatName>JavaScript Flash Obfuscated</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857417</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jsfl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>JavaScript Flash Obfuscated</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>00004D4143524F4D454449414F424655</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

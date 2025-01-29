@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123378395</FormatID>
+  <FormatName>Radiosity Solution file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123378395</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lwr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

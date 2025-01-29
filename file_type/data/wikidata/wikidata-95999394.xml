@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>95999394</FormatID>
+  <FormatName>Formatted Checkpoint file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/95999394</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>chemical/x-gaussian-checkpoint</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fchk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117851210</FormatID>
+  <FormatName>Tektronix Plot 10 file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117851210</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>p10</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

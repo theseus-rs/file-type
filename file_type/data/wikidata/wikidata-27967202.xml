@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>27967202</FormatID>
+  <FormatName>Nerdtracker II module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967202</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/x-mod</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ned</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Nerdtracker II module</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4E45443A20</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

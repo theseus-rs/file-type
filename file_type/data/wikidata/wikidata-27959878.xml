@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>27959878</FormatID>
+  <FormatName>Piston Collage song</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27959878</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ptcop</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pttune</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>124970136</FormatID>
+  <FormatName>MIX status file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/124970136</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mixstatus</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

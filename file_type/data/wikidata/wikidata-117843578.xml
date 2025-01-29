@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117843578</FormatID>
+  <FormatName>Faxable TIF</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117843578</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ftf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

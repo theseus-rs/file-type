@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>105853930</FormatID>
+  <FormatName>Atom web feed</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853930</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>atom</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

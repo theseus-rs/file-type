@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>61912820</FormatID>
+  <FormatName>ODM</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61912820</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>odm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>8024450</FormatID>
+  <FormatName>Windows Script File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/8024450</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wsf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

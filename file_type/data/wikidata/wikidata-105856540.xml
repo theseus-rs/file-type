@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856540</FormatID>
+  <FormatName>Altera Waveform Design File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856540</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Altera Waveform Design File</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>57444600</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

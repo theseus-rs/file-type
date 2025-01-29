@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28846076</FormatID>
+  <FormatName>Classification Results File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28846076</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>clr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

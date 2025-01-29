@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>47493628</FormatID>
+  <FormatName>Adobe InDesign Document, version CS5</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47493628</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ind</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>indd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>27967193</FormatID>
+  <FormatName>Graoumf Tracker 2 module</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967193</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/x-mod</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gt2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Graoumf Tracker 2 module</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>475432</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>119257000</FormatID>
+  <FormatName>PayCycle Import Data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/119257000</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pcif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

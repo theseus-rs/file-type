@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>130134848</FormatID>
+  <FormatName>Kusto query file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130134848</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>kql</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

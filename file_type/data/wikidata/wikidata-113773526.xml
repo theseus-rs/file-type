@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>113773526</FormatID>
+  <FormatName>Painter Raster Image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113773526</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>riff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

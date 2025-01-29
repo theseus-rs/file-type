@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>95994246</FormatID>
+  <FormatName>Agilent Microarray file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/95994246</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>txt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

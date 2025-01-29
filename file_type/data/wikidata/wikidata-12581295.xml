@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>12581295</FormatID>
+  <FormatName>KT 3G video file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/12581295</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>k3g</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

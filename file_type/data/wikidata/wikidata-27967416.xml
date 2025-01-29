@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967416</FormatID>
+  <FormatName>Voice Sequence</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967416</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vsq</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

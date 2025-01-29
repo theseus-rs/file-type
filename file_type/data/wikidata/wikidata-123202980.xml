@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123202980</FormatID>
+  <FormatName>Microsoft DV-AVI Video File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123202980</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dv-avi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

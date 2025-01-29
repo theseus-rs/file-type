@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>100151737</FormatID>
+  <FormatName>Muvee autoProducer Project File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/100151737</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mve</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

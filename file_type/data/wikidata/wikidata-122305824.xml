@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>122305824</FormatID>
+  <FormatName>PressRelease Message</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122305824</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

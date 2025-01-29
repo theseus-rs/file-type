@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28207424</FormatID>
+  <FormatName>VEGX</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28207424</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>egx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vgx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

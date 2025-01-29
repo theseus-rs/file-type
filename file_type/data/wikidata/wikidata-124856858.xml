@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>124856858</FormatID>
+  <FormatName>OpenFOAM Mesh file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/124856858</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>msh</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

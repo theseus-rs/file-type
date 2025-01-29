@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125391067</FormatID>
+  <FormatName>Neuron MODelling Language file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125391067</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mod</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

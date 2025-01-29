@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>61887390</FormatID>
+  <FormatName>EndNote Library format 1-9</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/61887390</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-endnote-library</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>enl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>105858614</FormatID>
+  <FormatName>ImageMagick Machine independent File Format bitmap (with rem)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858614</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>miff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

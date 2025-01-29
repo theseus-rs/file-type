@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>26211338</FormatID>
+  <FormatName>Office Open XML Spreadsheet Document, Transitional, ISO/IEC 29500:2011, with Microsoft extensions</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/26211338</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xlsx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

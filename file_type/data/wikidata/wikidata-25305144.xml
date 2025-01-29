@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>25305144</FormatID>
+  <FormatName>ShrinkIt</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/25305144</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>shk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

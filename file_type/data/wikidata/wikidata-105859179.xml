@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105859179</FormatID>
+  <FormatName>TomTom info (generic)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859179</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>TomTom info (generic)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5B546F6D546F6D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

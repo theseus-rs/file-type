@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105862918</FormatID>
+  <FormatName>Mediator Project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105862918</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>md8</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Mediator Project</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4A534F532057BB7B42CFCF11A7994445535400000001534F53205374616E646172642066696C6573797374656D20312E3000000000004D6174636857617265</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131747923</FormatID>
+  <FormatName>MNI polygonal surface mesh format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131747923</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>obj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>50308751</FormatID>
+  <FormatName>MIME Email format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50308751</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>eml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

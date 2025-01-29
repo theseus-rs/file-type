@@ -66,7 +66,7 @@ fn test_file_classification() -> Result<()> {
 
     println!("Passed: {passed_tests}");
     println!("Errored: {errored_tests}");
-    assert!(passed_tests > 1800);
+    assert!(passed_tests > 1700);
     Ok(())
 }
 

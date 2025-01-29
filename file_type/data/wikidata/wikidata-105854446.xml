@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105854446</FormatID>
+  <FormatName>Advanced Renamer method</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854446</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>aren</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Advanced Renamer method</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5B6865616465725D0D0A747970653D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

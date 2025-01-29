@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>28975726</FormatID>
+  <FormatName>Gaussian Cube File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28975726</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>chemical/x-gaussian-cube</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cub</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

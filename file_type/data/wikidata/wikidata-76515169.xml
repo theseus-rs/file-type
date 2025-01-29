@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>76515169</FormatID>
+  <FormatName>Windows Runtime Metadata</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/76515169</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>winmd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>127268401</FormatID>
+  <FormatName>Elysium Neutral File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/127268401</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>enf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

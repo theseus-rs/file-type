@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>55739486</FormatID>
+  <FormatName>Gramps XML</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/55739486</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-gramps-xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gramps</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Gramps XML</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0A3C21444F4354595045206461746162617365205055424C494320222D2F2F47</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

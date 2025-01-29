@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853873</FormatID>
+  <FormatName>Anim8or project (with rem)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853873</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>an8</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Anim8or project (with rem)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2F2A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

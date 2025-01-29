@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111512376</FormatID>
+  <FormatName>ASEG-GDF2- Data definition file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111512376</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dfn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

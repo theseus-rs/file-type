@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860679</FormatID>
+  <FormatName>RViz workspace</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860679</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rviz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>RViz workspace</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>50616E656C733A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

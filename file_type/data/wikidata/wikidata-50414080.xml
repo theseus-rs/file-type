@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>50414080</FormatID>
+  <FormatName>Lightwright 6 Show File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50414080</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lw6</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

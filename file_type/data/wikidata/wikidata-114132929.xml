@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>114132929</FormatID>
+  <FormatName>Constraint File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/114132929</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>con</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

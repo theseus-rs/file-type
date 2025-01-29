@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>59913607</FormatID>
+  <FormatName>AV1 Image File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59913607</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/avif</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>avif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

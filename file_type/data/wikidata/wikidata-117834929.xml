@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117834929</FormatID>
+  <FormatName>AT&amp;T Group 4 file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117834929</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>att</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

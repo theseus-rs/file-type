@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>72274847</FormatID>
+  <FormatName>Maestro molecular model</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/72274847</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mae</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>85413270</FormatID>
+  <FormatName>PTGui Project File 11</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/85413270</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pts</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

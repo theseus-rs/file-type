@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28205901</FormatID>
+  <FormatName>DGI</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28205901</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dgi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

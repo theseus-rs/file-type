@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>114238104</FormatID>
+  <FormatName>Netscape packetized audio</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/114238104</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>la</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lma</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

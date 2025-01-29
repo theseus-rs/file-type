@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>7695508</FormatID>
+  <FormatName>Tektronix extended HEX</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7695508</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tek</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

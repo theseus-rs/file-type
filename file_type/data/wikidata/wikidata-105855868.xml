@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855868</FormatID>
+  <FormatName>DocuWare XML metafile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855868</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>DocuWare XML metafile</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C4457446F63756D656E74204457354261736B657446696C654E616D653D22</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

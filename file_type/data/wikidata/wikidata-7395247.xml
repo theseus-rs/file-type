@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>7395247</FormatID>
+  <FormatName>SYBYL line notation</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7395247</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sln</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

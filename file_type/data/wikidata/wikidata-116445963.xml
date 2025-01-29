@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>116445963</FormatID>
+  <FormatName>CoffeeCup Web Video Player File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116445963</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>115102946</FormatID>
+  <FormatName>BFRES file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/115102946</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bfres</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

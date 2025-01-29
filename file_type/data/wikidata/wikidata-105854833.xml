@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105854833</FormatID>
+  <FormatName>Automise Project (v3)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854833</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>atp3</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Automise Project (v3)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0D0A3C5653584D4C3E0D0A20203C4F626A65637420436C6173733D2254464250726F6A6563742220584D4C49443D227B</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

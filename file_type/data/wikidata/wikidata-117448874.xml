@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117448874</FormatID>
+  <FormatName>Transcriber TRS Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117448874</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>trs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

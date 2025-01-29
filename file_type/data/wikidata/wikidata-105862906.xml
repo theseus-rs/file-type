@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105862906</FormatID>
+  <FormatName>Mirror II Emulation File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105862906</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mef</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Mirror II Emulation File</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4D5200000000000000001C0E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

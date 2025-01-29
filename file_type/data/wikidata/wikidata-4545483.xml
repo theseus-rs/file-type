@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>4545483</FormatID>
+  <FormatName>X File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/4545483</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>x</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

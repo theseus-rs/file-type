@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117804274</FormatID>
+  <FormatName>VideoImpression mini-player</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117804274</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>exe</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

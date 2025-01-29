@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125298468</FormatID>
+  <FormatName>Scribe</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125298468</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>scr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

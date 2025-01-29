@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855870</FormatID>
+  <FormatName>Deployment Manager configuration</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855870</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>deployproj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Deployment Manager configuration</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>EFBBBF</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

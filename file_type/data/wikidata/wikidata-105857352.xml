@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105857352</FormatID>
+  <FormatName>Vega visualization</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857352</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/json</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>json</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

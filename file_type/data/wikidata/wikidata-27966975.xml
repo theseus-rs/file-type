@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27966975</FormatID>
+  <FormatName>WSR</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27966975</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wsr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111440679</FormatID>
+  <FormatName>Perl POD File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111440679</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pod</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

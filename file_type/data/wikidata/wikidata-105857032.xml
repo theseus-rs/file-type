@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105857032</FormatID>
+  <FormatName>MS Age of Empires II: The Conquerors Expansion v1.0 Saved Game</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857032</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gax</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>MS Age of Empires II: The Conquerors Expansion v1.0 Saved Game</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>ECBD</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

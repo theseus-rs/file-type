@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>131153470</FormatID>
+  <FormatName>sqlite3con file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131153470</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-sqlite3-console</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sqlite3-console</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

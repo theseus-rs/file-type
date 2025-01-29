@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>3596392</FormatID>
+  <FormatName>Microsoft Word document template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/3596392</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dot</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dot</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

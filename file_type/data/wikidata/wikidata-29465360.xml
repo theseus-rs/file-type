@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29465360</FormatID>
+  <FormatName>VPM</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29465360</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vpm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

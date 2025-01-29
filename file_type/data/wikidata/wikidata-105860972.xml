@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860972</FormatID>
+  <FormatName>P-CAD ASCII Library</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860972</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lia</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>P-CAD ASCII Library</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>504341445F41534349</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

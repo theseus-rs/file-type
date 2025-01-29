@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>74550562</FormatID>
+  <FormatName>SAP2000 DataBase</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/74550562</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sdb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

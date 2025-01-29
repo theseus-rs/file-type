@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860050</FormatID>
+  <FormatName>MovieCD MVI1 Video</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860050</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mvi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>MovieCD MVI1 Video</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>070402DC</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

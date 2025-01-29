@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>124857214</FormatID>
+  <FormatName>OCR results file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/124857214</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>orf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

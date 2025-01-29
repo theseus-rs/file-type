@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>47233611</FormatID>
+  <FormatName>MPD</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47233611</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-multi-part-ldraw</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mpd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

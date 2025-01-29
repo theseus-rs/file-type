@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117804204</FormatID>
+  <FormatName>VideoImpression File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117804204</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

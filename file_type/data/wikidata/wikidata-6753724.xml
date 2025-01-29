@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>6753724</FormatID>
+  <FormatName>MapInfo TAB format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/6753724</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tab</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

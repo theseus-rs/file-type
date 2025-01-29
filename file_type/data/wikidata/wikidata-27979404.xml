@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27979404</FormatID>
+  <FormatName>PICS</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27979404</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pcs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

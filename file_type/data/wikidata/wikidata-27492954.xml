@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27492954</FormatID>
+  <FormatName>7z, version 0.2 (with compression methods version 16.03)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27492954</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>7z</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

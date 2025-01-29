@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29960673</FormatID>
+  <FormatName>Avantes USB spectrometer ROH file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29960673</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>roh</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

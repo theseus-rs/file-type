@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967520</FormatID>
+  <FormatName>Matroska 3D Stereoscopic video</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967520</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mk3d</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

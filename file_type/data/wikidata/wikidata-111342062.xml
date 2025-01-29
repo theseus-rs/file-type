@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111342062</FormatID>
+  <FormatName>Melody Machine compressed SoundFont</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111342062</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sfark</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

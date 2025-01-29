@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>49415204</FormatID>
+  <FormatName>CATIA Project, version 4</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/49415204</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>project</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

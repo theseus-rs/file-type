@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>116446733</FormatID>
+  <FormatName>Microsoft Profit 1.0 Company File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116446733</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pft</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

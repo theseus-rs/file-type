@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117835557</FormatID>
+  <FormatName>Knowledge Access file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117835557</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cpr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

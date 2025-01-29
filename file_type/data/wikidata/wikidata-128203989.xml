@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>128203989</FormatID>
+  <FormatName>TorqueScript file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128203989</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

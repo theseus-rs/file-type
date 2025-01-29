@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>5010021</FormatID>
+  <FormatName>CDX Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/5010021</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>chemical/x-cdx</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cdx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

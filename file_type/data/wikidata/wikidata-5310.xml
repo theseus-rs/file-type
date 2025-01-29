@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>5310</FormatID>
+  <FormatName>LaTeX</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/5310</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-latex</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tex</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

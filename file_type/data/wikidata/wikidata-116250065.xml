@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>116250065</FormatID>
+  <FormatName>Norton System Doctor configuration file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116250065</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nsd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

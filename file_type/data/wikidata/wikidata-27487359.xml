@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27487359</FormatID>
+  <FormatName>ArcView GIS 3.x attribute index</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27487359</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>atx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

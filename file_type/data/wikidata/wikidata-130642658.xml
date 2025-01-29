@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>130642658</FormatID>
+  <FormatName>Robot Framework file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130642658</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>robot</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

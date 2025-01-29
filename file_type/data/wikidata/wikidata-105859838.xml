@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105859838</FormatID>
+  <FormatName>FreeMotion Flash movie</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859838</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sqf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>FreeMotion Flash movie</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>06000000474D6F766965</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

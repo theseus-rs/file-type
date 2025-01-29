@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860201</FormatID>
+  <FormatName>Twist Report script</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860201</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>r</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Twist Report script</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5245504F525420</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

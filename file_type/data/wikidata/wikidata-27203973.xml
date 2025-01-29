@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27203973</FormatID>
+  <FormatName>OpenDocument Presentation, version 1.1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27203973</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.oasis.opendocument.presentation</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>odp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

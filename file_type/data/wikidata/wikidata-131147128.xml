@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>131147128</FormatID>
+  <FormatName>Templated SQL file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131147128</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sql.j2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sql.jinja2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

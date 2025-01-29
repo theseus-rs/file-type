@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27979406</FormatID>
+  <FormatName>QTL</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27979406</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>qtl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

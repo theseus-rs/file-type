@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>109944440</FormatID>
+  <FormatName>CadKey file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/109944440</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>96000078</FormatID>
+  <FormatName>NOFF 3D geometry format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/96000078</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>noff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

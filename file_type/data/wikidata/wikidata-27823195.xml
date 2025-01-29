@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27823195</FormatID>
+  <FormatName>Binary Terrain External Projection file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27823195</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

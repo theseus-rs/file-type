@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>106410079</FormatID>
+  <FormatName>MIRAX/MRXS</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/106410079</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mrxs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

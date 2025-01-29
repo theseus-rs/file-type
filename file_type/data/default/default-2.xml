@@ -3,9 +3,6 @@
   <FormatName>Text</FormatName>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>Plain Text file</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceSourceDate>01 Jan 2025</ProvenanceSourceDate>
-  <LastUpdatedDate>01 Jan 2025</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>text/plain</Identifier>
     <IdentifierType>MIME</IdentifierType>

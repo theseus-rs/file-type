@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111519484</FormatID>
+  <FormatName>ESRI ArcInfo Grid .nit File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111519484</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nit</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

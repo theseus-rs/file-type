@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28205790</FormatID>
+  <FormatName>FullPic Picture Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28205790</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ful</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28049603</FormatID>
+  <FormatName>Tiny Stuff, medium resolution</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28049603</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tn2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tny</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

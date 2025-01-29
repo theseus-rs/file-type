@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>131145578</FormatID>
+  <FormatName>Spice source file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131145578</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-spice</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>spice</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

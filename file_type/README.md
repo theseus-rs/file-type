@@ -61,13 +61,14 @@ assert_eq!(file_type.media_types(), vec!["image/png"]);
 
 ## Feature flags
 
-| Name       | Description                                                                                                     | Default? |
-|------------|-----------------------------------------------------------------------------------------------------------------|----------|
-| `custom`   | Enables custom file types                                                                                       | Yes      |
-| `httpd`    | Enables [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types) file types              | No       |
-| `linguist` | Enables [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) file types | No       |
-| `pronom`   | Enables [PRONOM](https://www.nationalarchives.gov.uk/PRONOM) file types                                         | Yes      |
-| `tokio`    | Enables using tokio for async                                                                                   | No       |
+| Name       | Description                                                                                                                | Default? |
+|------------|----------------------------------------------------------------------------------------------------------------------------|----------|
+| `custom`   | Enables custom file types                                                                                                  | Yes      |
+| `httpd`    | Enables [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types) file types                         | No       |
+| `linguist` | Enables [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) file types            | No       |
+| `pronom`   | Enables [PRONOM](https://www.nationalarchives.gov.uk/PRONOM) file types                                                    | Yes      |
+| `tokio`    | Enables using tokio for async                                                                                              | No       |
+| `wikidata` | Enables [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List) file types | No       |
 
 ## Supported File Types
 

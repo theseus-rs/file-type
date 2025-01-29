@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>29905112</FormatID>
+  <FormatName>Statistical Analysis System item store file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29905112</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sas7bitm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sr7</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

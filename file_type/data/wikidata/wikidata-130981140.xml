@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>130981140</FormatID>
+  <FormatName>Slurm script file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130981140</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

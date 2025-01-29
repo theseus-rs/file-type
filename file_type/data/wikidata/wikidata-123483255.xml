@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>123483255</FormatID>
+  <FormatName>C extension for CPython on Windows (.pyd)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123483255</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pyd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

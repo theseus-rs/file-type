@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>47539005</FormatID>
+  <FormatName>AutoCAD Font Mapping Table</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47539005</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fmp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

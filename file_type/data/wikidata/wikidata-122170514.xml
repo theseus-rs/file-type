@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>122170514</FormatID>
+  <FormatName>WireGuard profile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/122170514</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>conf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

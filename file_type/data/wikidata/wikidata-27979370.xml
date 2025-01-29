@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>27979370</FormatID>
+  <FormatName>EBU STL</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27979370</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-ebu-stl</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>stl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

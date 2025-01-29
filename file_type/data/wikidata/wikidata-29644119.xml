@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29644119</FormatID>
+  <FormatName>ISO/IEC 8211 Data Descriptive File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29644119</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ddf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

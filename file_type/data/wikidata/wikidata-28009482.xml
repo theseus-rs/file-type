@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28009482</FormatID>
+  <FormatName>SimCity 2000 Saved City</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28009482</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sc2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

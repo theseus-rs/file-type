@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105851100</FormatID>
+  <FormatName>TI-Nspire PublishView document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851100</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tnsp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>TI-Nspire PublishView document</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2A5449505542</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

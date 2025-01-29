@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113846496</FormatID>
+  <FormatName>SureThing Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113846496</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>stt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

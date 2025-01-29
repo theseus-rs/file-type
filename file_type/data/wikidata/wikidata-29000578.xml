@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>29000578</FormatID>
+  <FormatName>Android Resource file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29000578</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>arsc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

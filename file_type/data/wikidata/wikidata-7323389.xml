@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>7323389</FormatID>
+  <FormatName>Rich Music Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/7323389</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rmf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Rich Music Format</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4952455A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

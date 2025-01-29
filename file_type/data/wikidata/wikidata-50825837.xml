@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>50825837</FormatID>
+  <FormatName>AVCHD Movie Object File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/50825837</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bdm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bdmv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

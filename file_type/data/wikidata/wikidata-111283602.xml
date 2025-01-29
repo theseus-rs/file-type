@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111283602</FormatID>
+  <FormatName>Casio FZ-1 full dump format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111283602</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fzf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

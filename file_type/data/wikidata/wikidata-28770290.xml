@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28770290</FormatID>
+  <FormatName>LSB</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28770290</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lsb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

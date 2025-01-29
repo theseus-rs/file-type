@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967437</FormatID>
+  <FormatName>Digital Picture Exchange, version 1</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967437</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dpx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

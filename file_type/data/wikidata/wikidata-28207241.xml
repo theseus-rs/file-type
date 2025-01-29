@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28207241</FormatID>
+  <FormatName>SBIG CCDOPS image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28207241</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sbig</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

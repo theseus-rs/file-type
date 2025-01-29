@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>857512</FormatID>
+  <FormatName>Smacker video</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/857512</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>video/vnd.radgamettools.smacker</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>smk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

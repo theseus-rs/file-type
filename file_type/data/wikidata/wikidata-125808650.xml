@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125808650</FormatID>
+  <FormatName>Mnemosyne 2.0 file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125808650</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>db</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

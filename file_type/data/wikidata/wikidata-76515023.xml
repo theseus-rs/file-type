@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>76515023</FormatID>
+  <FormatName>Safari Web History</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/76515023</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>webhistory</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

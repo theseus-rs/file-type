@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28791369</FormatID>
+  <FormatName>App Installer package</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28791369</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>appx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>appxbundle</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

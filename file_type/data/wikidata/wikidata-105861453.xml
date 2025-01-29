@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105861453</FormatID>
+  <FormatName>Laser Compact compressed screen</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105861453</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Laser Compact compressed screen</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4C434D50</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

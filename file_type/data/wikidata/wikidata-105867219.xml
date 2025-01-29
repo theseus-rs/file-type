@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105867219</FormatID>
+  <FormatName>Nuke script (encrypted)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105867219</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nkple</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Nuke script (encrypted)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4E756B6520504C45206D6F646520656E63727970746564207465787420286E6F726D616C206D6F6465207573657320706C61696E20746578742920</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>28757836</FormatID>
+  <FormatName>Geany project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28757836</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/ini</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>geany</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

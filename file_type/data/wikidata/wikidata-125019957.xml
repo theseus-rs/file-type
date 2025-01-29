@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125019957</FormatID>
+  <FormatName>GrandView Outline file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125019957</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

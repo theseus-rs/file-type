@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105859507</FormatID>
+  <FormatName>Genetec Video Archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859507</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>g64</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Genetec Video Archive</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>47656E65746563204F6D6E696361737420417263686976652076</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>130358240</FormatID>
+  <FormatName>Mscgen file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130358240</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>msc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113626475</FormatID>
+  <FormatName>FOCUS file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113626475</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fex</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

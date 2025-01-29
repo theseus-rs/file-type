@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105858438</FormatID>
+  <FormatName>ESU electronic sounds</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105858438</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>esu</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

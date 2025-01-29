@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>95999881</FormatID>
+  <FormatName>NDK seismographic data format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/95999881</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ndk</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

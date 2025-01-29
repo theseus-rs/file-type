@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>123668263</FormatID>
+  <FormatName>LiveCode Stack 7.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123668263</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>livecode</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rev</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

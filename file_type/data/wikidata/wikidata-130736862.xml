@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>130736862</FormatID>
+  <FormatName>Scalate Server Page file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130736862</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-ssp</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ssp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

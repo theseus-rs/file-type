@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111285387</FormatID>
+  <FormatName>Sound Tools HCOM format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111285387</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hcom</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

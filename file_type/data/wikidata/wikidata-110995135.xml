@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110995135</FormatID>
+  <FormatName>Asymetrix 3D Scene</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110995135</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>scn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

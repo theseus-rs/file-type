@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>28205773</FormatID>
+  <FormatName>BioRad confocal image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28205773</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pic</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

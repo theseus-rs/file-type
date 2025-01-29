@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>1269709</FormatID>
+  <FormatName>PHP Archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1269709</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>phar</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

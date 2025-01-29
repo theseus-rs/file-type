@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111342080</FormatID>
+  <FormatName>SoundStage sound data file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111342080</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sfd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

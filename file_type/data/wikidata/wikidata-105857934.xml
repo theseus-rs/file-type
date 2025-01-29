@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105857934</FormatID>
+  <FormatName>ISDOC electronic invoice</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857934</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>isdoc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

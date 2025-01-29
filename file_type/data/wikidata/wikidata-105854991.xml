@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105854991</FormatID>
+  <FormatName>ELI 5750 compressed archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854991</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>eli</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>ELI 5750 compressed archive</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4F726120</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

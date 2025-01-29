@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>117035677</FormatID>
+  <FormatName>TurboCAD for Windows Metafile</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/117035677</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wmf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

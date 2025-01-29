@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105864637</FormatID>
+  <FormatName>PhysicsEditor Sheet</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105864637</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pes</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>PhysicsEditor Sheet</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>50594544</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

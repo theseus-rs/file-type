@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>112685424</FormatID>
+  <FormatName>3D Studio (DOS) project-file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/112685424</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prj</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

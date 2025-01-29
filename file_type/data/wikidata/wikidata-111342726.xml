@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111342726</FormatID>
+  <FormatName>SPPack sound sample</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111342726</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sppack</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

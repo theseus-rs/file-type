@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>34743436</FormatID>
+  <FormatName>Softlib</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/34743436</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>slb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

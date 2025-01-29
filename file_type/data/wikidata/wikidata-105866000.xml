@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105866000</FormatID>
+  <FormatName>Kyocera PRESCRIBE printing language</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105866000</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>prn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Kyocera PRESCRIBE printing language</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>215221</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

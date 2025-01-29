@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>128774595</FormatID>
+  <FormatName>Common Lisp file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128774595</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-common-lisp</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

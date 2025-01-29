@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>44044</FormatID>
+  <FormatName>N-Triples</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/44044</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/n-triples</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

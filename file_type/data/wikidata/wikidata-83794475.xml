@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>83794475</FormatID>
+  <FormatName>FO File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/83794475</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fo</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105861338</FormatID>
+  <FormatName>Newton Toolkit Layout settings</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105861338</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lyt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Newton Toolkit Layout settings</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>020602070E6C61796F757453657474696E6773071174656D706C617465486965726172636879060E070B6E746B506C6174666F726D070A6E746B56657273696F6E070A77696E646F7752656374070A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

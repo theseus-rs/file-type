@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>67124083</FormatID>
+  <FormatName>Print Artist label file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/67124083</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lbl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>83548846</FormatID>
+  <FormatName>Nearly Raw Raster Data, version 3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/83548846</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nrrd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

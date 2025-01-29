@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>127380453</FormatID>
+  <FormatName>Vulnerability Exploitability eXchange file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/127380453</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vex</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

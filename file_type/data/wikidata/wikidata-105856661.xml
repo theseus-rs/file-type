@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>105856661</FormatID>
+  <FormatName>Windows URL shortcut</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856661</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>url</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

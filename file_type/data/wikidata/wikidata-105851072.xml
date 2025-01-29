@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851072</FormatID>
+  <FormatName>MultiFax Template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851072</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tem</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>MultiFax Template</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4D465F54454D504C4154450A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

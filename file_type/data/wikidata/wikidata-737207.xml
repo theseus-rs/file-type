@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>737207</FormatID>
+  <FormatName>RealVideo</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/737207</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.rn-realmedia</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853583</FormatID>
+  <FormatName>z-Tree Treatment</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853583</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ztt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>z-Tree Treatment</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>00000000084350475847616D65</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

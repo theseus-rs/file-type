@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105853529</FormatID>
+  <FormatName>Zelio Soft project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853529</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zel</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Zelio Soft project</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C3F786D6C2076657273696F6E3D27312E302720656E636F64696E673D2777696E646F77732D3132353227203F3E0D0A3C5A656C696F3E0D0A093C46696C6556657273696F6E3E373C2F46696C6556657273696F6E3E0D0A093C4D6F64756C655F4964656E746974793E0D0A09093C5265666572656E63653E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

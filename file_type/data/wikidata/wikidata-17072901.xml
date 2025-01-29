@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>17072901</FormatID>
+  <FormatName>Open Game Engine Exchange</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/17072901</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>model/vnd.opengex</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ogex</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

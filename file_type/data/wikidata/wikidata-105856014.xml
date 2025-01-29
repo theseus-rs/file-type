@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856014</FormatID>
+  <FormatName>RightWriter main dictionary (v3-4 DOS)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856014</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dct</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>RightWriter main dictionary (v3-4 DOS)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>526967687457726974657220285229204D61696E2064696374696F6E6172792E2056</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

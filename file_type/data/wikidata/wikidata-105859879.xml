@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105859879</FormatID>
+  <FormatName>Nokia Saved SMS (Unicode)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105859879</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-vMessage</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vmg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Nokia Saved SMS (Unicode)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>42004500470049004E003A0056004D00530047</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

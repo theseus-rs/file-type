@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105850098</FormatID>
+  <FormatName>Flexidump Custom printer driver</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105850098</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cus</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Flexidump Custom printer driver</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5A435553</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>28206561</FormatID>
+  <FormatName>Maya IFF</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/28206561</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>iff</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tdi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

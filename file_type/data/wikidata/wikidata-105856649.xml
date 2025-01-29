@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105856649</FormatID>
+  <FormatName>WordStar Screen Font (Wordstar)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856649</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wsf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>WordStar Screen Font (Wordstar)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>576F7264737461722053637265656E20466F6E742046696C650000903C307206000100022D002C012C01010000</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27960000</FormatID>
+  <FormatName>Perfect Clarity Audio</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27960000</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pca</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

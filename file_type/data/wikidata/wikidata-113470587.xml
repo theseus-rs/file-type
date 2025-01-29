@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113470587</FormatID>
+  <FormatName>ESRI ArcGIS Raw Raster Reader/ Writer</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113470587</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hdr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

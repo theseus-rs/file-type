@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>29167467</FormatID>
+  <FormatName>OME-XML</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/29167467</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ome.xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

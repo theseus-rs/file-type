@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>65532981</FormatID>
+  <FormatName>Cookbook file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/65532981</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mc2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

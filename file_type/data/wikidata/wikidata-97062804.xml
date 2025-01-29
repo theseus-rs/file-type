@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>97062804</FormatID>
+  <FormatName>X-Motif UIL table</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/97062804</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>uil</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

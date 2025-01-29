@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105851435</FormatID>
+  <FormatName>Windows 8-10 Desktop Theme</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851435</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>theme</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

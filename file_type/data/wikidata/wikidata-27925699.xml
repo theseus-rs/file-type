@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27925699</FormatID>
+  <FormatName>DTED Level 0 Average Terrain Elevation Value File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27925699</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>avg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

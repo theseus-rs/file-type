@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>116619333</FormatID>
+  <FormatName>Amiga SVX</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/116619333</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>svx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

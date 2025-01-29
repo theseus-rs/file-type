@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>128597078</FormatID>
+  <FormatName>AmbientTalk file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/128597078</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-ambienttalk</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>at</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

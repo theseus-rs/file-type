@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111317689</FormatID>
+  <FormatName>Miles Sound System DLS 1 + XMI file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111317689</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mss</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>52005776</FormatID>
+  <FormatName>Hewlett Packard Graphics Language format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/52005776</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hpgl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

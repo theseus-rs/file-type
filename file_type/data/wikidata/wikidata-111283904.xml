@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111283904</FormatID>
+  <FormatName>ITU G.722 6-bit (48 kbps) ADPCM format data</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111283904</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>g722-6</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

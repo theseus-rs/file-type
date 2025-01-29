@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105855998</FormatID>
+  <FormatName>Dis bytecode (not signed)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855998</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dis</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Dis bytecode (not signed)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>000C8030</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

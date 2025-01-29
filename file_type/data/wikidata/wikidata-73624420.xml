@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>73624420</FormatID>
+  <FormatName>Quick 3D Cover project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/73624420</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>q3c</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Quick 3D Cover project</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>5B51324444657369676E3030303030305D0D0A5665723D3130300D0A49643D300D0A4E616D653D</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

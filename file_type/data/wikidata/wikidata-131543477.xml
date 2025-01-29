@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131543477</FormatID>
+  <FormatName>Varian FDF file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131543477</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

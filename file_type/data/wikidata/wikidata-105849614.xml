@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105849614</FormatID>
+  <FormatName>BGI (Borland Graphics Interface) font</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105849614</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>chr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>BGI (Borland Graphics Interface) font</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>504B080842474920</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

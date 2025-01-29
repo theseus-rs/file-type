@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105857208</FormatID>
+  <FormatName>Stylus Labs Write document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105857208</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/html</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>html</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Stylus Labs Write document</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>3C21444F43545950452068746D6C205055424C494320272D2F2F5733432F2F445444205848544D4C20312E30205374726963742F2F454E270A202027687474703A2F2F7777772E77332E6F72672F54522F7868746D6C312F4454442F7868746D6C312D7374726963742E647464273E0A3C68746D6C20786D6C6E733D22687474703A2F2F7777772E77332E6F72672F313939392F7868746D6C223E0A203C686561643E0A20203C7469746C653E</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

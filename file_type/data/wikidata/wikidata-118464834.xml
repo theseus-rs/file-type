@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>118464834</FormatID>
+  <FormatName>Enhanced Image Package</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/118464834</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>eip</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>66134814</FormatID>
+  <FormatName>Access Add-in file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/66134814</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mda</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

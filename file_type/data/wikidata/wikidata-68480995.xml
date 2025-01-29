@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>68480995</FormatID>
+  <FormatName>Kingsoft PowerWord Dictionary</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/68480995</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dic</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

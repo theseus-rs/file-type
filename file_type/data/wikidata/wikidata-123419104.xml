@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>123419104</FormatID>
+  <FormatName>Real-time PCR Data Essential Spreadsheet Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123419104</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/tab-separated-values</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tsv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

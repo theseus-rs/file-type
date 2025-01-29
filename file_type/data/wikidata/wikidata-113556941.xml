@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>113556941</FormatID>
+  <FormatName>CDR-Win Image</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/113556941</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bin</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

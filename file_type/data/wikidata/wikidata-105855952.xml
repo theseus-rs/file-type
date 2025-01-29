@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855952</FormatID>
+  <FormatName>Palm Zire Photo database</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855952</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>db</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Palm Zire Photo database</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>44424648</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

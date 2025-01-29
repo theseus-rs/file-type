@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>13543872</FormatID>
+  <FormatName>Wii ISO Archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/13543872</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wbfs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

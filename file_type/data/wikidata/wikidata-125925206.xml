@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>125925206</FormatID>
+  <FormatName>Papyrus Author database</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/125925206</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>pb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>105862425</FormatID>
+  <FormatName>DASH Media Presentation Description</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105862425</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/dash+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mpd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>100235553</FormatID>
+  <FormatName>FARO Laser Scan File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/100235553</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>fls</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

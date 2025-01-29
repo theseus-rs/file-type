@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111167694</FormatID>
+  <FormatName>ChemBasic file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111167694</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>bas</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

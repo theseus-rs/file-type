@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>123537020</FormatID>
+  <FormatName>QtiPlot document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/123537020</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-qtiplot</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>qti</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

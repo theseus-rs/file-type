@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105860587</FormatID>
+  <FormatName>3D Construction Kit game Runner</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105860587</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>run</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>3D Construction Kit game Runner</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4120334420456E7669726F6E6D656E742063726561746564207573696E6720334420436F6E737472756374696F6E204B697420627920496E63656E7469766520536F667477617265</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

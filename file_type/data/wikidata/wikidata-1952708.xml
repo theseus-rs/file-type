@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>1952708</FormatID>
+  <FormatName>FILE_ID.DIZ</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/1952708</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>diz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105851458</FormatID>
+  <FormatName>ST Writer document</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105851458</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>txt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>ST Writer document</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>446F2052756E2052756E2053545752495445522E50524700</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

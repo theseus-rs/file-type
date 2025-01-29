@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853303</FormatID>
+  <FormatName>SuperTux Level</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853303</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/plain</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>stl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>SuperTux Level</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2873757065727475782D6C6576656C</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

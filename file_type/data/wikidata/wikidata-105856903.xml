@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105856903</FormatID>
+  <FormatName>GCG Sequence Chemical file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105856903</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gcg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>GCG Sequence Chemical file</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>4645415455524553</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

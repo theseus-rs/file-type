@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>100135637</FormatID>
+  <FormatName>XDOMEA 2.1.0</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/100135637</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

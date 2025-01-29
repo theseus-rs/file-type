@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>111009526</FormatID>
+  <FormatName>PrintMaster Certificate File format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/111009526</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cer</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>118640353</FormatID>
+  <FormatName>Picture Definition file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/118640353</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lpd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

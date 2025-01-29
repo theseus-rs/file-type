@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>105855633</FormatID>
+  <FormatName>AutoPano project</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105855633</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>oto</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>AutoPano project</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>23206F746F2070726F6A6563742066696C652067656E657261746564206279206175746F70616E6F0D0A</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

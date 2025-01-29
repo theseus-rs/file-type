@@ -1,0 +1,23 @@
+<FileFormat>
+  <FormatID>47487556</FormatID>
+  <FormatName>TCR ebook</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/47487556</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tcr</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>TCR ebook</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>2121382D4269742121</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

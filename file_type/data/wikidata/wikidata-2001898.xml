@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>2001898</FormatID>
+  <FormatName>Notation Interchange File Format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/2001898</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.music-niff</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>nif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>114132322</FormatID>
+  <FormatName>Chem3D Cartesian Coordinates 2</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/114132322</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>cc2</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

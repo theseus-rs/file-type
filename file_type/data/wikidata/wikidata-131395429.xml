@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>131395429</FormatID>
+  <FormatName>Verifpal code</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131395429</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-verifpal</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

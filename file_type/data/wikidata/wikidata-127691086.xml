@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>127691086</FormatID>
+  <FormatName>Dart file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/127691086</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/x-dart</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dart</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

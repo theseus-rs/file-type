@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>59999470</FormatID>
+  <FormatName>ESRI Spatial Index File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/59999470</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sbn</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sbx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

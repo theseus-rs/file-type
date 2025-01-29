@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105852542</FormatID>
+  <FormatName>StarOffice Drawing</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105852542</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.sun.xml.draw</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sxd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>StarOffice Drawing</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>504B0304</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

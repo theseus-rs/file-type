@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105854089</FormatID>
+  <FormatName>EPF game data archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105854089</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>epf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>EPF game data archive</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>45504653</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

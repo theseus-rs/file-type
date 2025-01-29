@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>124970543</FormatID>
+  <FormatName>MIX message data file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/124970543</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mix</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

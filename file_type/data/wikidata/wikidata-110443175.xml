@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>110443175</FormatID>
+  <FormatName>Visual Basics MAK File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/110443175</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mak</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

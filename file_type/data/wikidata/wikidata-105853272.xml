@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>105853272</FormatID>
+  <FormatName>Serif PhotoPlus Picture (XML-ZIP)</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/105853272</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/octet-stream</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>spp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <InternalSignature>
+    <SignatureID>0</SignatureID>
+    <SignatureName>Serif PhotoPlus Picture (XML-ZIP)</SignatureName>
+    <ByteSequence>
+      <ByteSequenceID>0</ByteSequenceID>
+      <PositionType>Absolute from BOF</PositionType>
+      <Offset>0</Offset>
+      <ByteSequenceValue>504B0304</ByteSequenceValue>
+    </ByteSequence>
+  </InternalSignature>
+</FileFormat>

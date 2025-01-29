@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>130742282</FormatID>
+  <FormatName>scdoc file format</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/130742282</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>scd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>scdoc</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

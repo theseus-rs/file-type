@@ -1,0 +1,18 @@
+<FileFormat>
+  <FormatID>60886160</FormatID>
+  <FormatName>Microsoft Excel 97 Workbook</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/60886160</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xls</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xlw</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

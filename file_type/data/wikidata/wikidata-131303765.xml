@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>131303765</FormatID>
+  <FormatName>TL-b source code file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/131303765</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>tlb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

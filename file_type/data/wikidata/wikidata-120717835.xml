@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>120717835</FormatID>
+  <FormatName>DeductionPro 2006 Data File</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/120717835</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>d06</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

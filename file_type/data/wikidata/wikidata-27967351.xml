@@ -1,0 +1,13 @@
+<FileFormat>
+  <FormatID>27967351</FormatID>
+  <FormatName>iTunes Music Library, XML variant</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>wikidata/27967351</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>
