@@ -3,10 +3,6 @@
   <FormatName>Impulse Tracker Module</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Impulse Tracker is a multi-track digital sound tracker, developed by Jeffrey Lim. The Impulse Tracker Module format is similar to the MOD Audio Module format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>12 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/715</Identifier>
     <IdentifierType>PUID</IdentifierType>

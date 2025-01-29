@@ -5,19 +5,6 @@
   <FormatDescription>ADRIFT Text Adventure File is an Interactive Fiction games file, produced by Campbell Wild's ADRIFT (Adventure Developer &amp; Runner - Interactive Fiction Toolkit). 
 
 ADRIFT was created for Miscrosoft Windows and runs under Windows 95, 98, and NT. It does not require extensive programming knowledge, as it provides a series of dialog boxes which can be filled-out with descriptions and properties of each location, object and character. It is not based on the traditional model of compiled source and interpreted binary files but instead, a game exists only as a single binary file which is created by the Generator (a series of specialised editors) and read by the Runner. Both components use a Windows-style graphical interface, and are largely mouse-driven.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>04 Jan 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>04 Jan 2022</LastUpdatedDate>
-  <FormatNote>http://www.firthworks.com/roger/cloak/adrift/index.html
-
-http://fileformats.archiveteam.org/wiki/ADRIFT
-
-https://www.adrift.co/
-
-http://www.plover.net/~textfire/raiffaq/FAQ.htm#:ADRIFT
-
-https://www.ifwiki.org/index.php/ADRIFT</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1584</Identifier>
     <IdentifierType>PUID</IdentifierType>

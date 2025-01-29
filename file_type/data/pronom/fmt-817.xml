@@ -2,10 +2,6 @@
   <FormatID>1617</FormatID>
   <FormatName>JSON Data Interchange Format</FormatName>
   <FormatDescription>JavaScript Object Notation (JSON) is an open standard format that uses human-readable text to transmit data objects consisting of attribute–value pairs. It is used for asynchronous browser/server communication (AJAJ). While it is originally derived from JavaScript scripting language, JSON is language independent while using conventions that match with the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and others.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/json</Identifier>
     <IdentifierType>MIME</IdentifierType>

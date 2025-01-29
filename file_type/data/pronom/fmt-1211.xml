@@ -2,10 +2,6 @@
   <FormatID>2021</FormatID>
   <FormatName>Wavefront Material Template Library</FormatName>
   <FormatDescription>MTL is a companion file for the Wavefront OBJ file. The MTL file describes surface shading properties for use by one or more OBJ.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Archaeology Data Service / Archaeology Data Service</ProvenanceName>
-  <ProvenanceSourceDate>20 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1211</Identifier>
     <IdentifierType>PUID</IdentifierType>

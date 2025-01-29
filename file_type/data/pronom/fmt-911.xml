@@ -4,10 +4,6 @@
   <FormatVersion>3.x</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>CRAM is a framework technology and file format for compression of raw sequence data in the field of bioinformatics.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>04 Jul 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>04 Jul 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/911</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,6 +30,5 @@ Specification: http://samtools.github.io/hts-specs/CRAMv3.pdf</SignatureNote>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1715</RelatedFormatID>
     <RelatedFormatName>CRAM File Format</RelatedFormatName>
-    <RelatedFormatVersion>2.x</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -5,12 +5,6 @@
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>The documents (files) created by Adobe Illustrator are PostScript language
 documents. A PostScript language document description that minimally conforms to the Document Structuring Conventions has two main parts: a prolog and a script. The prolog encapsulates information needed by other programs to interpret the file. The script describes the graphic elements on the page.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
-  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>Specifications link: http://mercator.elte.hu/~saman/hu/okt/AI7FileFormat.pdf
-Version 7.0 includes: tabbed dockable palettes, transform palette, align palette, Photoshop pixel filters, rasterize, punk, bloat, free distort, layout grid, vertical text tool</ProvenanceDescription>
-  <LastUpdatedDate>19 Jul 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/postscript</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -44,30 +38,25 @@ Version 7.0 includes: tabbed dockable palettes, transform palette, align palette
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>86</RelatedFormatID>
     <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>331</RelatedFormatID>
     <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>332</RelatedFormatID>
     <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>771</RelatedFormatID>
     <RelatedFormatName>PostScript</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>773</RelatedFormatID>
     <RelatedFormatName>PostScript</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

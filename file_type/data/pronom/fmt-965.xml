@@ -5,10 +5,6 @@
   <FormatDescription>The Music Encoding Initiative (MEI) is an open-source effort to define a system for encoding musical documents in a machine-readable structure. MEI is formalised in the MEI schema, a core set of rules for recording physical and intellectual characteristics of music notation documents expressed as an eXtensible Markup Language (XML) schema.  
 
 PRONOM currently does not distinguish between different versions of MEI.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Bibliothèque cantonale et universitaire - Lausanne / Bibliothèque cantonale et universitaire - Lausanne</ProvenanceName>
-  <ProvenanceSourceDate>20 Sep 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Sep 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/965</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -42,12 +38,10 @@ Schema: http://music-encoding.org/downloads/latest-release/</SignatureNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

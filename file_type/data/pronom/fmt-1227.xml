@@ -3,10 +3,6 @@
   <FormatName>NMRView</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>NMRView is a graphical Nuclear Magnetic Resonance (NMR) assignment and integration program for proteins, nucleic acids, and other polymers.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>University of Illinois / University of Illinois</ProvenanceName>
-  <ProvenanceSourceDate>18 Feb 2019</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Feb 2019</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1227</Identifier>
     <IdentifierType>PUID</IdentifierType>

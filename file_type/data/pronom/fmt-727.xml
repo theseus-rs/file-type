@@ -3,10 +3,6 @@
   <FormatName>Cartesian Perceptual Compression image format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Cartesian Perceptual Compression is a proprietary image file format designed for high compression of black-and-white raster document imaging for archival scans.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/727</Identifier>
     <IdentifierType>PUID</IdentifierType>

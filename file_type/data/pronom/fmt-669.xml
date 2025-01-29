@@ -3,11 +3,6 @@
   <FormatName>Minolta RAW</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Minolta RAW is the proprietary raw format of digital cameras manufacturer Minolta or Konica Minolta.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Sebastian Lasse / Redaktor CMS</ProvenanceName>
-  <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>http://webpages.charter.net/bbiggers/DCExperiments/html/body_mrw_file_format.html</ProvenanceDescription>
-  <LastUpdatedDate>23 Sep 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/669</Identifier>
     <IdentifierType>PUID</IdentifierType>

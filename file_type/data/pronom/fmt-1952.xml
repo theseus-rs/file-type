@@ -3,11 +3,6 @@
   <FormatName>PechaMaker Format</FormatName>
   <FormatTypes>Page Description</FormatTypes>
   <FormatDescription>PechaMaker is a tool with a focus on Tibetan Pecha layout and printing. It allows the user to create files with Tibetan Pecha characterisation. The text can be a mix of Tibetan and non-Tibetan fonts. It can be saved as a .rtf file.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Buddhist Digital Resource Center / Buddhist Digital Resource Center</ProvenanceName>
-  <ProvenanceSourceDate>11 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://www.pechamaker.com/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1952</Identifier>
     <IdentifierType>PUID</IdentifierType>

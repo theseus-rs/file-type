@@ -3,10 +3,6 @@
   <FormatName>SIDOUN WinAVA Format</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>WinAVA is architectual and engineering CAD software developed by Austrian company, Sidoun.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>23 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1148</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,10 +4,6 @@
   <FormatVersion>Generic</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Navisworks (known for a while as JetStream) is a 3D design review package, currently developed and maintanced by Autodesk. This generic PRONOM entry is a catchall for Navisworks Documents where the version number is presently unknown. If you have a file like this and know the version then please contact the PRONOM team.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>09 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>09 Jan 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/857</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,18 +34,15 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1659</RelatedFormatID>
     <RelatedFormatName>Navisworks Document</RelatedFormatName>
-    <RelatedFormatVersion>2010</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1660</RelatedFormatID>
     <RelatedFormatName>Navisworks Document</RelatedFormatName>
-    <RelatedFormatVersion>2011</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1661</RelatedFormatID>
     <RelatedFormatName>Navisworks Document</RelatedFormatName>
-    <RelatedFormatVersion>2012</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

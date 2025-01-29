@@ -7,11 +7,6 @@
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>The Extensible Markup Language (XML) is a general purpose markup language for creating other, special purpose, markup languages, and is a simplified subset of SGML. The structure and grammar of an XML document can be defined using a markup declaration, such as a Document Type Definition (DTD) or XML schema. A XML document consists of nested elements, each of which may have attributes and content. It typically begins with an XML declaration, defining the XML version and character set used. This may be followed by a Document Type declaration, containing or pointing to a markup declaration for the class of document. An XML document is said to be well-formed if it conforms to the XML specification; it is said to be valid if it additionally complies with a defined markup declaration. The formatting and transformation of XML documents can be controlled using the Extensible Stylesheet Language (XSL).</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ReleaseDate>01 Jan 1998</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Sep 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/xml</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -28,28 +23,6 @@
     <Identifier>text/xml</Identifier>
     <IdentifierType>MIME</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>21</DocumentID>
-    <DisplayText>World Wide Web Consortium, 2004, W3C Recommendation: Extensible Markup Language (XML) 1.0 (Third Edition) W3C Recommendation 04 February 2004</DisplayText>
-    <DocumentType>Authoritative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>04 Feb 2004</PublicationDate>
-    <TitleText>W3C Recommendation: Extensible Markup Language (XML) 1.0 (Third Edition) W3C Recommendation 04 February 2004</TitleText>
-    <DocumentIdentifier>
-      <Identifier>www.w3.org/TR/2004/REC-xml-20040204/</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>106</AuthorID>
-      <OrganisationName>World Wide Web Consortium</OrganisationName>
-      <AuthorCompoundName>World Wide Web Consortium</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>106</PublisherID>
-      <OrganisationName>World Wide Web Consortium</OrganisationName>
-      <PublisherCompoundName>World Wide Web Consortium</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>708</ExternalSignatureID>
     <Signature>xml</Signature>
@@ -71,7 +44,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>310</RelatedFormatID>
     <RelatedFormatName>Internet Archive</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -87,37 +59,31 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>634</RelatedFormatID>
     <RelatedFormatName>Scalable Vector Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>635</RelatedFormatID>
     <RelatedFormatName>Scalable Vector Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>643</RelatedFormatID>
     <RelatedFormatName>Extensible Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>644</RelatedFormatID>
     <RelatedFormatName>Extensible Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>768</RelatedFormatID>
     <RelatedFormatName>DROID Signature File Format</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>769</RelatedFormatID>
     <RelatedFormatName>DROID File Collection File Format</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -128,13 +94,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>942</RelatedFormatID>
     <RelatedFormatName>Microsoft Visio XML Drawing</RelatedFormatName>
-    <RelatedFormatVersion>2003-2010</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>973</RelatedFormatID>
     <RelatedFormatName>GPS Exchange Format</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -160,13 +124,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1158</RelatedFormatID>
     <RelatedFormatName>Internet Archive</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1191</RelatedFormatID>
     <RelatedFormatName>Scalable Vector Graphics Tiny</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -192,25 +154,21 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1367</RelatedFormatID>
     <RelatedFormatName>X3D</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1368</RelatedFormatID>
     <RelatedFormatName>X3D</RelatedFormatName>
-    <RelatedFormatVersion>3.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1369</RelatedFormatID>
     <RelatedFormatName>X3D</RelatedFormatName>
-    <RelatedFormatVersion>3.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1370</RelatedFormatID>
     <RelatedFormatName>X3D</RelatedFormatName>
-    <RelatedFormatVersion>3.3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -221,13 +179,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1452</RelatedFormatID>
     <RelatedFormatName>INTERLIS Transfer File</RelatedFormatName>
-    <RelatedFormatVersion>2.3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1453</RelatedFormatID>
     <RelatedFormatName>INTERLIS Model File</RelatedFormatName>
-    <RelatedFormatVersion>2.3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -263,7 +219,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1737</RelatedFormatID>
     <RelatedFormatName>Mathcad Document</RelatedFormatName>
-    <RelatedFormatVersion>XML</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -299,7 +254,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1816</RelatedFormatID>
     <RelatedFormatName>INTERLIS Transfer File</RelatedFormatName>
-    <RelatedFormatVersion>2.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -310,7 +264,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1852</RelatedFormatID>
     <RelatedFormatName>Geography Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>3.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -321,13 +274,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1944</RelatedFormatID>
     <RelatedFormatName>GPS Exchange Format</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1967</RelatedFormatID>
     <RelatedFormatName>Folio Infobase File</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -343,25 +294,21 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2042</RelatedFormatID>
     <RelatedFormatName>SK-XML</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2044</RelatedFormatID>
     <RelatedFormatName>DIGIDOC-XML</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2045</RelatedFormatID>
     <RelatedFormatName>DIGIDOC-XML</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2046</RelatedFormatID>
     <RelatedFormatName>DIGIDOC-XML</RelatedFormatName>
-    <RelatedFormatVersion>1.3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -372,43 +319,36 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2192</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2193</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>2.0.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2194</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>2.0.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2195</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>2.1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2196</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>2.2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2197</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>2.3.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2198</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>2.4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -419,37 +359,31 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2286</RelatedFormatID>
     <RelatedFormatName>Ableton Live Set</RelatedFormatName>
-    <RelatedFormatVersion>8.2.1 onwards</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2297</RelatedFormatID>
     <RelatedFormatName>TEI P4 XML - Single Text File</RelatedFormatName>
-    <RelatedFormatVersion>P4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2298</RelatedFormatID>
     <RelatedFormatName>TEI P4 XML - Corpus File</RelatedFormatName>
-    <RelatedFormatVersion>P4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2299</RelatedFormatID>
     <RelatedFormatName>TEI P5 - Single Text File</RelatedFormatName>
-    <RelatedFormatVersion>P5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2300</RelatedFormatID>
     <RelatedFormatName>TEI P5 XML - Corpus File</RelatedFormatName>
-    <RelatedFormatVersion>P5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2322</RelatedFormatID>
     <RelatedFormatName>Adobe Audition Session File</RelatedFormatName>
-    <RelatedFormatVersion>XML</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -475,13 +409,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2392</RelatedFormatID>
     <RelatedFormatName>ISDOC Information System Document</RelatedFormatName>
-    <RelatedFormatVersion>5.x</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2395</RelatedFormatID>
     <RelatedFormatName>ISDOC Information System Document</RelatedFormatName>
-    <RelatedFormatVersion>6.0.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -497,13 +429,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2505</RelatedFormatID>
     <RelatedFormatName>Roxio Data Project File</RelatedFormatName>
-    <RelatedFormatVersion>11</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2506</RelatedFormatID>
     <RelatedFormatName>Roxio Audio Project File</RelatedFormatName>
-    <RelatedFormatVersion>11</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -534,7 +464,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2647</RelatedFormatID>
     <RelatedFormatName>Wireless Markup Language (WML) Document</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -555,25 +484,21 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2664</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>3.0.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2675</RelatedFormatID>
     <RelatedFormatName>Audacity Project File</RelatedFormatName>
-    <RelatedFormatVersion>1.x</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2676</RelatedFormatID>
     <RelatedFormatName>Audacity Project File</RelatedFormatName>
-    <RelatedFormatVersion>2.x</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2697</RelatedFormatID>
     <RelatedFormatName>Final Draft Document</RelatedFormatName>
-    <RelatedFormatVersion>8</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -589,13 +514,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2736</RelatedFormatID>
     <RelatedFormatName>OPML File</RelatedFormatName>
-    <RelatedFormatVersion>1.*</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2738</RelatedFormatID>
     <RelatedFormatName>OPML File</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -631,25 +554,21 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>639</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>640</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>3.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>641</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>642</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.01</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -685,7 +604,6 @@
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1737</RelatedFormatID>
     <RelatedFormatName>Mathcad Document</RelatedFormatName>
-    <RelatedFormatVersion>XML</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
@@ -696,13 +614,11 @@
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1852</RelatedFormatID>
     <RelatedFormatName>Geography Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>3.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1944</RelatedFormatID>
     <RelatedFormatName>GPS Exchange Format</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
@@ -713,54 +629,45 @@
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>2192</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>2193</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>2.0.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>2194</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>2.0.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>2195</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>2.1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>2196</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>2.2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>2197</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>2.3.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>2198</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>2.4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>2626</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>2697</RelatedFormatID>
     <RelatedFormatName>Final Draft Document</RelatedFormatName>
-    <RelatedFormatVersion>8</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

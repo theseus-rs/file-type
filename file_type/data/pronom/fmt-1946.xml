@@ -3,10 +3,6 @@
   <FormatName>Draw.io Diagram (XML) File</FormatName>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>A vector image file that is stored as in a standard XML file. This format is used by draw.io and app used to provide interactive graphs and charts that will display in some browsers. Draw.io is also known as app.diagrams.net and the format was developed by diagrams.net.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>11 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Apr 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1946</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -44,6 +40,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

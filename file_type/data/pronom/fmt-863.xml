@@ -3,10 +3,6 @@
   <FormatName>Maya ASCII File Format</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Maya is an application used to generate 3D assets for use in film, television, game development and architecture, currently developed and maintained by Autodesk.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>09 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>09 Jan 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/863</Identifier>
     <IdentifierType>PUID</IdentifierType>

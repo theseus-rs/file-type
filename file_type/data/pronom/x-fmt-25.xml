@@ -6,10 +6,6 @@
   <FormatDescription>PUID deprecated.                                                                                                                                         Please see fmt/115 for information on OS/2 Bitmap 1.0 and Windows Bitmap 2.0.
 The only difference between Windows bitmap 2.0 and OS/2 bitmap 1.0 is the data type of the width and height fields of the bitmap header – for Windows 2.0 bitmaps they are signed short integers, for OS/2 1.0 bitmaps they are unsigned shorts. For positive numbers the representation is the same. Consequently, the file formats cannot be distinguished with a file signature test. The PUID for OS/2 Bitmap 1.0 has therefore been deprecated.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Jul 2011</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/25</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -18,6 +14,5 @@ The only difference between Windows bitmap 2.0 and OS/2 bitmap 1.0 is the data t
     <RelationshipType>Equivalent to</RelationshipType>
     <RelatedFormatID>728</RelatedFormatID>
     <RelatedFormatName>Windows Bitmap</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

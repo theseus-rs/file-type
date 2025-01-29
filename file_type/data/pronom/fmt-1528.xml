@@ -4,11 +4,6 @@
   <FormatVersion>Generic</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>Serif DrawPlus is a vector image creation application.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2021</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>25 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1528</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -27,72 +22,60 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1628</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1653</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1654</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2343</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>6</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2344</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>7</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2345</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>8</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2346</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>X2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2347</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>X3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2348</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>X4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2349</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>X5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2350</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>X6</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2351</RelatedFormatID>
     <RelatedFormatName>Serif DrawPlus Drawing</RelatedFormatName>
-    <RelatedFormatVersion>X8</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -3,11 +3,6 @@
   <FormatName>Microsoft Publisher Packaged Document</FormatName>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Puz files are Microsoft Publisher documents which have been archived using the 'Pack and Go' feature of Publisher. The document and its associated files are compressed in an archive of Microsoft Cabinet format, using a .puz extension instead of the normal .cab.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>28 Feb 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Feb 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/PUZ</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1839</Identifier>
     <IdentifierType>PUID</IdentifierType>

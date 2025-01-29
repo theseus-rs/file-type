@@ -4,11 +4,6 @@
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Microsoft Windows Cursor file is a binary system file. CUR pointer images come in different standard sizes such as 16x16 and 32x32. They are a stationary image format similar to an ICO (icon) file. CUR files are found alongside the installation of Microsoft Windows and were first introduced in Microsofts Windows 1.0 operating system in 1981.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2011</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113)- Offsets removed from variable byte sequence and description updated. Submitted by Preservica.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/385</Identifier>
     <IdentifierType>PUID</IdentifierType>

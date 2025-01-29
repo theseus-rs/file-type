@@ -3,10 +3,6 @@
   <FormatName>Feather</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Feather is a lightweight binary file format for storing data frames, with an aim to assist data sharing across data analysis languages.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>16 Jun 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Jun 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/889</Identifier>
     <IdentifierType>PUID</IdentifierType>

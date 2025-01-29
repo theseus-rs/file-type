@@ -4,10 +4,6 @@
   <FormatAliases>Microsoft Outlook Personal Folders (XP)</FormatAliases>
   <FormatDescription>PUID deprecated. Please see x-fmt/248 and x-fmt/249 for information on Microsoft Outlook Personal Folders.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Oct 2009</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/251</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>Visual Basic (VB) File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>A .vb file is typically a source file written in the Visual Basic programming Language. It contains Visual Basic code but doesn't have a header or mandatory elements that can be used by PRONOM for identification purposes.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Scotland / National Library of Scotland</ProvenanceName>
-  <ProvenanceSourceDate>21 Aug 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Aug 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1088</Identifier>
     <IdentifierType>PUID</IdentifierType>

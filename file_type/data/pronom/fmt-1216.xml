@@ -3,10 +3,6 @@
   <FormatName>Lotus Freelance Show</FormatName>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Lotus Freelance is a presentation/slide show application. A slide show viewer called Mobile Screen Show Player is available from the Lotus FTP site: ftp://ftp.lotus.com/pub/lotusweb/product/freelance/</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>20 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.lotus-freelance</Identifier>
     <IdentifierType>MIME</IdentifierType>

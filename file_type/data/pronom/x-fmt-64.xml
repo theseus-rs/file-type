@@ -5,10 +5,6 @@
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>Microsoft Word for Macintosh Document is a Graphical User Interface word processor designed to be used Mac operating systems.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Sep 2003</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Nov 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/msword</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -41,18 +37,15 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>106</RelatedFormatID>
     <RelatedFormatName>Microsoft Word for Macintosh Document</RelatedFormatName>
-    <RelatedFormatVersion>5.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>8</RelatedFormatID>
     <RelatedFormatName>Microsoft Word for Macintosh Document</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1091</RelatedFormatID>
     <RelatedFormatName>Microsoft Word for Macintosh Document</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

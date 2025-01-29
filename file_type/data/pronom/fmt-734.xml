@@ -3,10 +3,6 @@
   <FormatName>SuperScape Virtual Reality Format</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>SuperScape was a company that created virtual 3D modelling software. .svr was the native, proprietary format for the software, and it can be viewed with the SuperScape Viscape viewer browser plugin.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/734</Identifier>
     <IdentifierType>PUID</IdentifierType>

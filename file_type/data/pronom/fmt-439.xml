@@ -4,10 +4,6 @@
   <FormatVersion>4.0</FormatVersion>
   <FormatDescription>A binary source patch file containing differences to be applied to a source binary in order to create a target binary file.  As only the delta is stored and BZIP2 compression is used, this format provides an efficient means of applying patches to binary files.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/439</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,11 +4,6 @@
   <FormatVersion>8</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>Ichitaro is a word processor produced by JustSystems, a Japanese software company.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>26 Sep 2020</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>26 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/x-js-taro</Identifier>
     <IdentifierType>MIME</IdentifierType>

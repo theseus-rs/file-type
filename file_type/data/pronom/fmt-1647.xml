@@ -3,17 +3,6 @@
   <FormatName>Inspiration Software File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>The Inspiration Software File (ISF) is a format created by Inspiration software and files can be opened using the software. The Inspiration software was founded in 1982 by Donald Helfgott and Mona Westhaver, originally as a tool focused on business analytics, helping to build products to meet business needs. In 1996 the focus of the tool shifted to educational purposes, supporting educators and students across early and higher education. There are several known version of this software up to version 10 as the latest version in February 2021. The ISF files created on version 9 Inspiration software are identical to version 10, but version 7 and 8 ISF files lack the functionality to save data containing mind maps (as according to the manufacturer instructions, please see the web-links in Note section).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Archives of Australia / National Archives of Australia</ProvenanceName>
-  <ProvenanceSourceDate>28 Feb 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Feb 2022</LastUpdatedDate>
-  <FormatNote>https://psychology.fandom.com/wiki/Inspiration_Software
-
-https://v10.inspiration-manual.com/
-
-https://web.archive.org/web/20001018120642/http://www.inspirationsoftware.com/beta.html
-
-https://www.inspiration-at.com/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1647</Identifier>
     <IdentifierType>PUID</IdentifierType>

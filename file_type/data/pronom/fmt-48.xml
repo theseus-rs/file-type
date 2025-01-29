@@ -5,55 +5,28 @@
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>Deprecated in favour of fmt/45</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Oct 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/48</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>40</DocumentID>
-    <DisplayText>Microsoft, 1994, Rich-Text Format (RTF) Specification: Version 1.3, Product Support Services Application Note 1/94 GC0165</DisplayText>
-    <DocumentType>Authoritative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>01 Jan 1994</PublicationDate>
-    <TitleText>Rich-Text Format (RTF) Specification: Version 1.3, Product Support Services Application Note 1/94 GC0165</TitleText>
-    <DocumentIdentifier/>
-    <Author>
-      <AuthorID>93</AuthorID>
-      <OrganisationName>Microsoft Corporation</OrganisationName>
-      <AuthorCompoundName>Microsoft Corporation</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>93</PublisherID>
-      <OrganisationName>Microsoft Corporation</OrganisationName>
-      <PublisherCompoundName>Microsoft Corporation</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>631</RelatedFormatID>
     <RelatedFormatName>Rich Text Format</RelatedFormatName>
-    <RelatedFormatVersion>1.5-1.6</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>633</RelatedFormatID>
     <RelatedFormatName>Rich Text Format</RelatedFormatName>
-    <RelatedFormatVersion>1.7</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>753</RelatedFormatID>
     <RelatedFormatName>Rich Text Format</RelatedFormatName>
-    <RelatedFormatVersion>1.8</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1101</RelatedFormatID>
     <RelatedFormatName>Rich Text Format</RelatedFormatName>
-    <RelatedFormatVersion>1.9</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

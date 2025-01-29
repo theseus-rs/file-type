@@ -4,10 +4,6 @@
   <FormatVersion>6</FormatVersion>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>AppleWorks was a productivity suite developed by the Apple subsidiary, Claris, that was originally called ClarisWorks and was renamed AppleWorks as of version 5.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/751</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +29,5 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1545</RelatedFormatID>
     <RelatedFormatName>ClarisWorks/AppleWorks Database</RelatedFormatName>
-    <RelatedFormatVersion>5</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

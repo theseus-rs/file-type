@@ -3,11 +3,6 @@
   <FormatName>FLR Database File</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>FLR is a database file format produced by the Info File program by Softwood on the Amiga.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Oct 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/FLR</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1785</Identifier>
     <IdentifierType>PUID</IdentifierType>

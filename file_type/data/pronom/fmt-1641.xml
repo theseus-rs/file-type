@@ -3,13 +3,6 @@
   <FormatName>Adobe InDesign Interchange Document</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>Adobe InDesign is a desktop publishing application developed and produced by Adobe Inc., first released in 1999. It is the successor to PageMaker, software previously created by Aldus Corporation in 1985, which was subsequently acquired by Adobe. It can be used to produce a number of works such as posters, flyers, brochures, magazines, newspapers, presentations and books. InDesign supports XML, stylesheets and other coding markup, providing functionality for exporting tagged text content for use in other digital and online formats. INX is an XML-based format used to serialize and deserialize the InDesign scripting DOM.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>24 Feb 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Feb 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/InDesign_INX
-
-https://web.archive.org/web/20060821042511/http://partners.adobe.com/public/developer/en/indesign/sdk/working_with_inx_file_format.pdf</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1641</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -35,6 +28,5 @@ https://web.archive.org/web/20060821042511/http://partners.adobe.com/public/deve
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

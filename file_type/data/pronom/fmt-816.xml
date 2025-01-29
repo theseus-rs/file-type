@@ -2,10 +2,6 @@
   <FormatID>1616</FormatID>
   <FormatName>NUT Open Container Format</FormatName>
   <FormatDescription>NUT is a container format for the storage of audio, video, subtitles and other related user defined streams. It provides an exact timestamp for synchronization and seeking.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/816</Identifier>
     <IdentifierType>PUID</IdentifierType>

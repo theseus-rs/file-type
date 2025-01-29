@@ -5,10 +5,6 @@
   <FormatDescription>Format deprecated in favour of x-fmt/116</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>05 Oct 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/212</Identifier>
     <IdentifierType>PUID</IdentifierType>

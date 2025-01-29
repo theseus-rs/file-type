@@ -4,10 +4,6 @@
   <FormatVersion>1.0</FormatVersion>
   <FormatTypes>Font</FormatTypes>
   <FormatDescription>Web Open Font Format (WOFF) is a font format designed primarily for use on the Web, and can also be used as a container format or "wrapper" for font data in already-existing formats.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Sep 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/616</Identifier>
     <IdentifierType>PUID</IdentifierType>

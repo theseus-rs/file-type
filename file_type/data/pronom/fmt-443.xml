@@ -3,11 +3,6 @@
   <FormatName>Microsoft Visio Drawing</FormatName>
   <FormatVersion>2003-2010</FormatVersion>
   <FormatDescription>Microsoft Visio is a diagramming and vector graphics application and is part of the Microsoft Office family.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.visio</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -35,6 +30,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1729</RelatedFormatID>
     <RelatedFormatName>Microsoft Visio Drawing</RelatedFormatName>
-    <RelatedFormatVersion>2013</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

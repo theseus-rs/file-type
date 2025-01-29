@@ -3,12 +3,6 @@
   <FormatName>Direct Stream Digital Stream File</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Direct Stream Digital is a digital audio format which uses pulse-density modulation at more than 64 times the sampling rate of CD Audio. Two formats associated with the file format are DSD Stream File (DSF) and DSD Interchange File Format (DFF). Direct Stream Digital (DSD) is a trademark used by Sony and Philips.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>06 Feb 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Feb 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/DSD
-https://en.wikipedia.org/wiki/Direct_Stream_Digital</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1817</Identifier>
     <IdentifierType>PUID</IdentifierType>

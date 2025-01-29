@@ -4,10 +4,6 @@
   <FormatVersion>Generic</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>.dat files are used by many different applications as a general data store. Some may have a precise structure, but this entry is intended as a catch-all for extension-only identification for those .dat formats that do not yet have a PRONOM identification signature. For ESRI ArcInfo DAT File (Internal), see fmt/1600.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>18 Jul 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jul 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1730</Identifier>
     <IdentifierType>PUID</IdentifierType>

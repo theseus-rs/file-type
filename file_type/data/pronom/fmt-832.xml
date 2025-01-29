@@ -4,10 +4,6 @@
   <FormatVersion>1.x</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Open Inventor is a 3D graphics toolkit designed by Silicon Graphics Incorporated.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/832</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +29,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1634</RelatedFormatID>
     <RelatedFormatName>Open Inventor File Format</RelatedFormatName>
-    <RelatedFormatVersion>2.x</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

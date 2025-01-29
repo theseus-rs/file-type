@@ -5,14 +5,6 @@
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>An archive format originally intended to archive files on backup tapes without a file system of their own. TAR files are usually uncompressed.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Signature ammended to allow whitespace options. Submitted by National Library of Norway; 04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. Submitted by The Church of Jesus Christ of Latter-day Saints.</ProvenanceDescription>
-  <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://en.wikipedia.org/wiki/Tar_(computing)
-http://fileformats.archiveteam.org/wiki/Tape_Archive
-https://fileinfo.com/extension/tar</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/x-tar</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -47,6 +39,5 @@ https://fileinfo.com/extension/tar</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>795</RelatedFormatID>
     <RelatedFormatName>Digital Negative Format (DNG)</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

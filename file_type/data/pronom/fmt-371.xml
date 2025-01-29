@@ -4,11 +4,6 @@
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>ECW (Enhanced Compression Wavelet) is a proprietary wavelet compression image format optimized for geospatial imagery, which can quickly compress and decompress huge images, especially aerial and satellite imagery. It was developed by Earth Resource Mapping, and is now owned by ERDAS, which is owned by Leica Geosystems. The requirement of using the ECWP format for any application is that it requires the user to download and install enabling software in the form of a plug-in or in the case of the Java applet, a Java runtime environment (JRE).</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>03 Nov 2011</ProvenanceSourceDate>
-  <ProvenanceDescription>Format information supplied by the Geospatial Multistate Access and Preservation Partnership (GeoMAPP), a grant funded collaboration involving North Carolina, Kentucky, Utah, and Montana state archives, and sponsored by the National Digital Information Infrastructure Preservation Program (NDIIPP) of the Library of Congress.</ProvenanceDescription>
-  <LastUpdatedDate>03 Nov 2011</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/371</Identifier>
     <IdentifierType>PUID</IdentifierType>

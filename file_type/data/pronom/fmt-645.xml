@@ -4,10 +4,6 @@
   <FormatVersion>2.21</FormatVersion>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Exchangeable image file format (Exif) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Public Record Office of Northern Ireland / Public Record Office of Northern Ireland</ProvenanceName>
-  <ProvenanceSourceDate>14 Jul 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Feb 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/645</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -73,6 +69,5 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>676</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Compressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.2</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

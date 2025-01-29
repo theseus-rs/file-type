@@ -3,10 +3,6 @@
   <FormatName>CloneCD Control File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>CloneCD Control File is used by the CloneCD software to mark the properties of a CD/DVD image and contains metadata and structural information about the disk image. It is found alongside the .img disk image file. They often have a .sub subchannel file alongside them.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Royal Danish Library / The Royal Danish Library</ProvenanceName>
-  <ProvenanceSourceDate>26 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Aug 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1760</Identifier>
     <IdentifierType>PUID</IdentifierType>

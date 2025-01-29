@@ -4,10 +4,6 @@
   <FormatVersion>2</FormatVersion>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>PDBLib is a small library of file management routines for storing and retrieving binary data in a portable format, created by the Lawrence Livermore National Laboratory. https://wci.llnl.gov/codes/pact/pdb.html</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Jul 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1065</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,18 +29,15 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1874</RelatedFormatID>
     <RelatedFormatName>Silo</RelatedFormatName>
-    <RelatedFormatVersion>PDB Variant</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1873</RelatedFormatID>
     <RelatedFormatName>Portable Database</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1871</RelatedFormatID>
     <RelatedFormatName>Portable Database</RelatedFormatName>
-    <RelatedFormatVersion>1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -4,11 +4,6 @@
   <FormatVersion>2.3</FormatVersion>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>INTERLIS is a description and transfer mechanism for spatial data. INTERLIS 2 Transfer files are XML files that contain data, e.g. geodata, which is structured according to certain rules. These rules are described in another file (or multiple files) called a model file.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Swiss Federal Office of Topography / Federal Office of Topography</ProvenanceName>
-  <ProvenanceSourceDate>14 Jul 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>http://www.interlis.ch</ProvenanceDescription>
-  <LastUpdatedDate>14 Jul 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/653</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -46,6 +41,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

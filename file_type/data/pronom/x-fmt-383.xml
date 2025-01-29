@@ -6,10 +6,6 @@
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Big-endian (Motorola)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/fits</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -22,28 +18,6 @@
     <Identifier>x-fmt/383</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>29</DocumentID>
-    <DisplayText>NASA/Science Office of Standards and Technology, 1999, NOST Standard 100-2.0: Definition of the Flexible Image Transport System (FITS)</DisplayText>
-    <DocumentType>Authoritative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>29 Mar 1999</PublicationDate>
-    <TitleText>NOST Standard 100-2.0: Definition of the Flexible Image Transport System (FITS)</TitleText>
-    <DocumentIdentifier>
-      <Identifier>fits.gsfc.nasa.gov/documents.html#Standard</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>107</AuthorID>
-      <OrganisationName>NASA/Science Office of Standards and Technology</OrganisationName>
-      <AuthorCompoundName>NASA/Science Office of Standards and Technology</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>107</PublisherID>
-      <OrganisationName>NASA/Science Office of Standards and Technology</OrganisationName>
-      <PublisherCompoundName>NASA/Science Office of Standards and Technology</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>671</ExternalSignatureID>
     <Signature>fits</Signature>

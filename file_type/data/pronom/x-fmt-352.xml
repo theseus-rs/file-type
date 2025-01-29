@@ -5,10 +5,6 @@
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>PageMaker is a discontinued desktop publishing program created by Aldus Corporation in 1985. Originally created for Macintosh computers the PC version was released in 1987. It was purchased alongside other Aldus software such as FreeHand in 1994. The file extensions begin with either pm or pt, for the PageMaker file or for PageMaker template, followed by the version number.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>17 May 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.pagemaker</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -43,18 +39,15 @@
     <RelationshipType>Equivalent to</RelationshipType>
     <RelatedFormatID>2522</RelatedFormatID>
     <RelatedFormatName>PageMaker Mac Document</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>246</RelatedFormatID>
     <RelatedFormatName>PageMaker PC Document</RelatedFormatName>
-    <RelatedFormatVersion>5.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>515</RelatedFormatID>
     <RelatedFormatName>PageMaker Document</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

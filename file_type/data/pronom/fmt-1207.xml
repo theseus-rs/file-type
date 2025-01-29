@@ -3,11 +3,6 @@
   <FormatName>Sony SFK File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Sony Creative Software applications create SFK files for all audio events imported into the application. These files contain data which helps visualise the waveform on the screen and assist large files to be opened quickly</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>16 Aug 2018</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>14 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1207</Identifier>
     <IdentifierType>PUID</IdentifierType>

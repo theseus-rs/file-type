@@ -5,10 +5,6 @@
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>Microsoft Works is a discontinued office suite developed by Microsoft. Its core functionality includes a word processor, a spreadsheet and a database management system.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Aug 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/5</Identifier>
     <IdentifierType>PUID</IdentifierType>

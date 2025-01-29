@@ -4,11 +4,6 @@
   <FormatVersion>1.0</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>GeoGebra is a mathematics software package.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>KULeuven - LIBIS / KULeuven - LIBIS</ProvenanceName>
-  <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>http://www.geogebra.org/cms/en/</ProvenanceDescription>
-  <LastUpdatedDate>14 Feb 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.geogebra.file</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -38,6 +33,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1415</RelatedFormatID>
     <RelatedFormatName>GeoGebra</RelatedFormatName>
-    <RelatedFormatVersion>1.x</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

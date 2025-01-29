@@ -3,10 +3,6 @@
   <FormatName>Dolby Digital AC-3</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>AC-3 (backronymed to Audio Codec 3 or Advanced Codec 3) is the common version of Dolby Laboratories' Dolby Digital audio compression technology.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>audio/ac3</Identifier>
     <IdentifierType>MIME</IdentifierType>

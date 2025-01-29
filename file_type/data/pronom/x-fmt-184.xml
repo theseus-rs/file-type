@@ -4,10 +4,6 @@
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Sun Raster was a raster graphics file format used on SunOS by Sun Microsystems</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>image/x-sun-raster</Identifier>
     <IdentifierType>MIME</IdentifierType>

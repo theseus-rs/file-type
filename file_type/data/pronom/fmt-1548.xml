@@ -4,11 +4,6 @@
   <FormatVersion>3 or earlier</FormatVersion>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>MAK (make) files are project files created by Microsoft Visual Basic version 3 and earlier. They store information including references to forms, source code and module files. MAK files were replaced with VBP files in Visual Basics 4 onwards.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>11 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Nov 2021</LastUpdatedDate>
-  <FormatNote>https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/visual-basic-6.0-documentation?redirectedfrom=MSDN</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1548</Identifier>
     <IdentifierType>PUID</IdentifierType>

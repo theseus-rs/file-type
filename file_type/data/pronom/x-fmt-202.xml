@@ -4,10 +4,6 @@
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The Corel Wavelet Compressed Bitmap is a raster graphic image file that is compressed with wavelet image compression.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/202</Identifier>
     <IdentifierType>PUID</IdentifierType>

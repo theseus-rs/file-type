@@ -5,10 +5,6 @@
   <FormatTypes>GIS</FormatTypes>
   <FormatDescription>ArcView is Geographic Information System software produced by ESRI. There may be distinct formats produced by ArcView that share this format structure. Please contact the PRONOM team if you are able to assist with distinguishing between them.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>30 Mar 2011</ProvenanceSourceDate>
-  <LastUpdatedDate>04 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/332</Identifier>
     <IdentifierType>PUID</IdentifierType>

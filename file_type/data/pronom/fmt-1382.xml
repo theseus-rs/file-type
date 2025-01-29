@@ -4,10 +4,6 @@
   <FormatVersion>0x00010000</FormatVersion>
   <FormatTypes>Font</FormatTypes>
   <FormatDescription>The Embedded OpenType File Format (EOT) was developed by Microsoft to enable TrueType and OpenType fonts to be linked to web pages for download to render the web page with the font the author desired - https://www.w3.org/Submission/2008/SUBM-EOT-20080305/</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover</ProvenanceName>
-  <ProvenanceSourceDate>23 Sep 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-fontobject</Identifier>
     <IdentifierType>MIME</IdentifierType>

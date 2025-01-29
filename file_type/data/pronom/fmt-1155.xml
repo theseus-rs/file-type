@@ -3,11 +3,6 @@
   <FormatName>Lightwright Show File</FormatName>
   <FormatVersion>5</FormatVersion>
   <FormatDescription>Lightwright is software created by John McKernon for the management of theatrical lighting data and paperwork.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>New York Public Library / New York Public Library</ProvenanceName>
-  <ProvenanceSourceDate>26 Jul 2018</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113)- Added 0 value to offset in EOF signature as null offset is causing max-offset to be ignored. Submitted by Preservica.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1155</Identifier>
     <IdentifierType>PUID</IdentifierType>

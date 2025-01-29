@@ -5,10 +5,6 @@
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Microsoft Publisher is a desktop publishing application.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/x-mspublisher</Identifier>
     <IdentifierType>MIME</IdentifierType>

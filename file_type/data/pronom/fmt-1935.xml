@@ -6,11 +6,6 @@
   <FormatDescription>S-57 is a file format for the exchange of hydrographic data developed by the International Hydrographic Organization. S-57 is based on the ISO/IEC 8211 "Specification for a data descriptive file for information interchange." S-57 Edition 3.1 was published in 2000 and supersedes the 1996 edition 3.0. Electronic Navigational Charts are vector data sets of all the objects (points, lines, and areas) represented on a chart in a digital database.
  
 The file extensions for S-57 are sequentially numbered from .000 upwards, with .000 representing the base data file and further files representing updated data to the base file. For brevity only extensions .000 to .005 are currently associated with this PRONOM entry, however this can be extended as needed.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>19 Oct 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Oct 2023</LastUpdatedDate>
-  <FormatNote>A specification for S-57 Edition 3.1 can be found here: https://iho.int/uploads/user/pubs/standards/s-57/31Main.pdf</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1935</Identifier>
     <IdentifierType>PUID</IdentifierType>

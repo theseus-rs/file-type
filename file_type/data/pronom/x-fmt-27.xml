@@ -4,11 +4,6 @@
   <FormatVersion>2000-2005</FormatVersion>
   <FormatDescription>AutoCAD is 2D and 3D computer-aided design software used by professionals such as architects, engineers and city planners to prepare technical drawings. Developed by Autodesk, it was first released in 1982, and is now very widely used. . In AutoCAD, the term ‘plot’ is used instead of ‘print’. AutoCAD Batch Plot Files store lists of the file(s) to publish to a printer. The files contain information including the name of each file to be printed, its file type, number of copies to be printed, and the location where the file is saved.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118)- added internal signature. Submitted by National Archives and Records Administration.</ProvenanceDescription>
-  <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/27</Identifier>
     <IdentifierType>PUID</IdentifierType>

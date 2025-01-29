@@ -3,10 +3,6 @@
   <FormatName>AbiWord Document Template</FormatName>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>AbiWord is a free, open source Word Processor application. Its native file format is based upon XML.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>16 Jun 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Jun 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/891</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -32,12 +28,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

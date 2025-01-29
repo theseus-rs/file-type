@@ -4,10 +4,6 @@
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>CAL is an image file format used by CALS. CAL files are compressed bitmap formatted files used for storing monochrome images. CAL files were developed in the 1980s to standardize graphics data interchange for electronic publishing for the federal government.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Aug 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/28</Identifier>
     <IdentifierType>PUID</IdentifierType>

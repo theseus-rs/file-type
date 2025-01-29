@@ -4,10 +4,6 @@
   <FormatVersion>ADPCM Codec</FormatVersion>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>The Memory Stick Voice (MSV) format is an audio file format that was used on the Sony Memory Stick IC recorder, specifically the ICD-MS1 model. Two versions of the MSV format exist: MSV (ADPCM) and MSV (LPEC). The first version, this one, MSV (ADPCM), uses an unspecified type of ADPCM compression, while MSV (LPEC) uses Sony's proprietary Long-term Predicted Excitation Coding (LPEC) codec.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>03 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Aug 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1890</Identifier>
     <IdentifierType>PUID</IdentifierType>

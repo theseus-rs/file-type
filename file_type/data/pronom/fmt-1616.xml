@@ -3,15 +3,6 @@
   <FormatName>BibTeX Database File</FormatName>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>BibTeX is reference management software, used for formatting lists of references, enabling the consistent citing of sources in a range of styles. It was created in 1985, and is written in WEB/ Pascal. Bib files are lists of entries, each one corresponding to a bibliographical item, for a example book or article.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Technische Informationsbibliothek (TIB) Hannover / Technische Informationsbibliothek (TIB) Hannover</ProvenanceName>
-  <ProvenanceSourceDate>03 Feb 2022</ProvenanceSourceDate>
-  <ProvenanceDescription>07/22 (v.107)- added BOF sequence to improve DROID performance;11/23 (v.115)- tightened signature and updated support links in note field. Submitted by Brigham Young University.
-08/11/23 v.115. Tightened signature.</ProvenanceDescription>
-  <LastUpdatedDate>15 Nov 2023</LastUpdatedDate>
-  <FormatNote>https://en.wikipedia.org/wiki/BibTeX
-
-http://www.heinrichfleck.net/latex/Lamport%20.pdf (Appendix B)</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1616</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -37,7 +28,6 @@ http://www.heinrichfleck.net/latex/Lamport%20.pdf (Appendix B)</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>771</RelatedFormatID>
     <RelatedFormatName>PostScript</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>

@@ -4,10 +4,6 @@
   <FormatVersion>1 (generic)</FormatVersion>
   <FormatTypes>Database, Image (Raster), Image (Vector), Spreadsheet, Word Processor</FormatTypes>
   <FormatDescription>ClarisWorks was a productivity suite developed by the Apple subsidiary, Claris, which was later renamed AppleWorks as of version 5. ClarisWorks included a drawing program, a word processor, a spreadsheet program, a database program, and a painting program. With further research it may be possible to distinguish between files produced by each program. Please contact PRONOM if you are able to provide samples of ClarisWorks files, version 1.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>26 Mar 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Mar 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/736</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +29,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1536</RelatedFormatID>
     <RelatedFormatName>ClarisWorks</RelatedFormatName>
-    <RelatedFormatVersion>2-3 (generic)</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

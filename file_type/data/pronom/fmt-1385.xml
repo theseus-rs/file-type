@@ -3,10 +3,6 @@
   <FormatName>Bruker PDZ</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>PDZ is an export format of Bruker portable X-Ray Flourescence (XRF) spectrometer devices.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>24 Sep 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1385</Identifier>
     <IdentifierType>PUID</IdentifierType>

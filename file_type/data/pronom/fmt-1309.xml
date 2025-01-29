@@ -3,10 +3,6 @@
   <FormatName>LocoScript Professional</FormatName>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>The LocoScript Professional Document format is a proprietary word processing format produced by LocoScript Professional, a word processor released in 1992 for MS-DOS 3.0 and above.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>British Library / British Library</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1309</Identifier>
     <IdentifierType>PUID</IdentifierType>

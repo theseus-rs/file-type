@@ -3,11 +3,6 @@
   <FormatName>DAV Video Format</FormatName>
   <FormatTypes>Video</FormatTypes>
   <FormatDescription>.dav is a native file format produced by digital video camera recorders created by Dahua Technologies, used primarily for Closed Circuit Television (CCTV).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>25 Apr 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Apr 2023</LastUpdatedDate>
-  <FormatNote>https://docs.fileformat.com/video/dav/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1851</Identifier>
     <IdentifierType>PUID</IdentifierType>

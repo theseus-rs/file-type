@@ -3,11 +3,6 @@
   <FormatName>Adobe InDesign Book</FormatName>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>An InDesign Book file is a collection of InDesign documents that can share styles, swatches, master pages, and other items. One document can belong to multiple book files. PRONOM currently doesn't distinguish between different format versions of INDB. Please let the PRONOM team know if this is desirable.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives of Estonia / The National Archives of Estonia</ProvenanceName>
-  <ProvenanceSourceDate>10 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Feb 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/InDesign_Book</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1191</Identifier>
     <IdentifierType>PUID</IdentifierType>

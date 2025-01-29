@@ -4,11 +4,6 @@
   <FormatVersion>1-4</FormatVersion>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>Family Tree Maker is genealogy software for Windows &amp; Mac.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>20 Jan 2020</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1352</Identifier>
     <IdentifierType>PUID</IdentifierType>

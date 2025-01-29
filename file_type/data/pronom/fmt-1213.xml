@@ -4,11 +4,6 @@
   <FormatVersion>2</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>Callisto is a vector graphics editor created by Czech company Zoner Software. This version of the .zmf format is based on Microsoft's OLE2 Compound Document File Format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>20 Aug 2018</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later.</ProvenanceDescription>
-  <LastUpdatedDate>09 May 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1213</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -6,10 +6,6 @@
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>The Digital Negative (DNG) Specification describes a non-proprietary file format for storing camera raw files that can be used by a wide range of hardware and software vendors.  DNG is an extension of the TIFF 6.0 format, and is compatible with the TIFF-EP standard.  
 This version, published May 2008, was based on experience and feedback from other companies about DNG since its launch. It introduced many new features, especially several new options for colour specification under the general heading of "Camera Profiles". These are mainly of value to software products wanting their own flavour of colour handling. This version permits administrative control of Camera Profiles, including calibration signatures and copyright information.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.116)- New MIME type identifier 'image/dng' added and max offset of EOF internal signatures increased to 128000. Submitted by Brigham Young University.</ProvenanceDescription>
-  <LastUpdatedDate>16 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/437</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -95,19 +91,16 @@ This version, published May 2008, was based on experience and feedback from othe
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>672</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>673</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>752</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -128,13 +121,11 @@ This version, published May 2008, was based on experience and feedback from othe
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1225</RelatedFormatID>
     <RelatedFormatName>Digital Negative Format (DNG)</RelatedFormatName>
-    <RelatedFormatVersion>1.3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>795</RelatedFormatID>
     <RelatedFormatName>Digital Negative Format (DNG)</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>

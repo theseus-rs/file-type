@@ -6,63 +6,10 @@
   <FormatDescription>The WordPerfect Graphic file format (WPG) is primarily a vector graphic format, but it can store both bitmap and vector data. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/395</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>4</DocumentID>
-    <DisplayText>Born, G, 1995, The file formats handbook, International Thompson Computer Press</DisplayText>
-    <DocumentType>Informative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>01 Jan 1995</PublicationDate>
-    <TitleText>The file formats handbook</TitleText>
-    <DocumentIdentifier>
-      <Identifier>1-85032-117-5</Identifier>
-      <IdentifierType>ISBN</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>115</AuthorID>
-      <OrganisationName>Gunter Born</OrganisationName>
-      <AuthorCompoundName>Gunter Born</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>117</PublisherID>
-      <OrganisationName>International Thompson Computer Press</OrganisationName>
-      <PublisherCompoundName>International Thompson Computer Press</PublisherCompoundName>
-    </Publisher>
-  </Document>
-  <Document>
-    <DocumentID>5</DocumentID>
-    <DisplayText>Murray, J D &amp; Van Ryper, W, 1996, Encyclopedia of graphics file formats, 2nd Edition, O'Reilly &amp; Associates</DisplayText>
-    <DocumentType>Informative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>01 Jan 1996</PublicationDate>
-    <TitleText>Encyclopedia of graphics file formats, 2nd Edition</TitleText>
-    <DocumentIdentifier>
-      <Identifier>1-56592-161-5</Identifier>
-      <IdentifierType>ISBN</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>113</AuthorID>
-      <OrganisationName>James D Murray</OrganisationName>
-      <AuthorCompoundName>James D Murray</AuthorCompoundName>
-    </Author>
-    <Author>
-      <AuthorID>114</AuthorID>
-      <OrganisationName>William van Ryper</OrganisationName>
-      <AuthorCompoundName>William van Ryper</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>116</PublisherID>
-      <OrganisationName>O'Reilly &amp; Associates</OrganisationName>
-      <PublisherCompoundName>O'Reilly &amp; Associates</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>591</ExternalSignatureID>
     <Signature>wpg</Signature>
@@ -83,6 +30,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1847</RelatedFormatID>
     <RelatedFormatName>WordPerfect Graphics Metafile</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

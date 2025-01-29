@@ -4,10 +4,6 @@
   <FormatVersion>4</FormatVersion>
   <FormatTypes>Spreadsheet</FormatTypes>
   <FormatDescription>ClarisWorks was a productivity suite developed by the Apple subsidiary, Claris, which was later renamed AppleWorks as of version 5.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/740</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,12 +29,10 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1544</RelatedFormatID>
     <RelatedFormatName>ClarisWorks/AppleWorks Spreadsheet</RelatedFormatName>
-    <RelatedFormatVersion>5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1536</RelatedFormatID>
     <RelatedFormatName>ClarisWorks</RelatedFormatName>
-    <RelatedFormatVersion>2-3 (generic)</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -3,10 +3,6 @@
   <FormatName>Synthetic Music Mobile Application Format</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>SMAF is an audio format developed by Yamaha intended for mobile devices.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>03 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.yamaha.smaf-audio</Identifier>
     <IdentifierType>MIME</IdentifierType>

@@ -4,10 +4,6 @@
   <FormatVersion>IV</FormatVersion>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>dBase is a database management systems for microcomputers.The dBase system includes the core database engine, a query system, a forms engine, and a programming language that ties all of these components together. dBase's underlying file format, the .dbf file, is widely used in applications needing a simple format to store structured data. Being a complex digital object, the dBASE IV program needs all three FRM/FRG/FRO files in order to display a report within the programme.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>26 Apr 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Apr 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1860</Identifier>
     <IdentifierType>PUID</IdentifierType>

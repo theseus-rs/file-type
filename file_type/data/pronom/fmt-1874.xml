@@ -3,10 +3,6 @@
   <FormatName>Esko ArtPro File</FormatName>
   <FormatTypes>Page Description</FormatTypes>
   <FormatDescription>AP files are layout documents created by Esko ArtPro software, which is a prepress print editor. They contain the ArtPro project, including the layout, layers, text, colours, and barcodes of a design. AP files are used in packaging design, enabling the user to create the exact layout of your design using images, and view a 3D preview of their project. AP files are native to ArtPro, but are based on the PDF standard.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>03 Jul 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Jul 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1874</Identifier>
     <IdentifierType>PUID</IdentifierType>

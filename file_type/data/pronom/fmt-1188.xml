@@ -3,10 +3,6 @@
   <FormatName>Ogre Mesh 1.x</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Ogre Mesh is a binary format for representing 3D models for use within the Ogre 3D rendering engine. PRONOM currently does not distinguish between minor versions of the format. Please contact the PRONOM team if this is desirable.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>10 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>10 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1188</Identifier>
     <IdentifierType>PUID</IdentifierType>

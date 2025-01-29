@@ -3,10 +3,6 @@
   <FormatName>Mapsforge Binary Map File Format</FormatName>
   <FormatTypes>GIS</FormatTypes>
   <FormatDescription>The mapsforge project aims to provide free and open software for the rendering of maps based on OpenStreetMap data. The Binary Map File Format is designed for map rendering on devices with limited resources, such as mobile phones.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Jul 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Jul 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/915</Identifier>
     <IdentifierType>PUID</IdentifierType>

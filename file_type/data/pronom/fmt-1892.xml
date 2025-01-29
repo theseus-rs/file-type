@@ -6,10 +6,6 @@
   <FormatDescription>The Memory Stick Voice (MSV) format is an audio file format that was used on the Sony Memory Stick IC recorder, specifically the ICD-MS1 model. Two versions of the MSV format exist: MSV (ADPCM) and MSV (LPEC). The first version, MSV (ADPCM), uses an unspecified type of ADPCM compression, while this version MSV (LPEC) uses Sony's proprietary Long-term Predicted Excitation Coding (LPEC) codec.
 
 The Digital Voice File (DVF) is an audio file format that was used for recording messages on certain Sony IC recorder models, including the ICD-BP100 and ICD-BP120. DVF files utilized both the Long-term Predicted Excitation Coding (LPEC) as in this version and TRC codecs in their formation. However, as of March 31, 2017, the software used to manage the DVF files, known as Digital Voice Editor, was discontinued and is no longer available for download.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>03 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Aug 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1892</Identifier>
     <IdentifierType>PUID</IdentifierType>

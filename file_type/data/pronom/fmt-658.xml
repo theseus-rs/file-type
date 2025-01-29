@@ -3,11 +3,6 @@
   <FormatName>Cypher Query Language</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Cypher is a declarative graph query language for the open source graph database, Neo4j. Although it has regular and well defined syntax, there are no magic numbers or header sequences. As such, there is no current means to identify a file as CQL by binary sequence alone, so identification of this format is by extension only.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Jul 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>This format identifies by extension only.</ProvenanceDescription>
-  <LastUpdatedDate>14 Jul 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/658</Identifier>
     <IdentifierType>PUID</IdentifierType>

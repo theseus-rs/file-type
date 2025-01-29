@@ -4,10 +4,6 @@
   <FormatVersion>4.2</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>WordPerfect is a Word Processing application currently owned by Corel Corporation. Documents could be encrypted in WordPerfect 4.2 using the 'locking' feature.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>28 Sep 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.wordperfect</Identifier>
     <IdentifierType>MIME</IdentifierType>

@@ -2,10 +2,6 @@
   <FormatID>1746</FormatID>
   <FormatName>Back Up File</FormatName>
   <FormatDescription>Many applications produce back up files that have the .bak extension. Some of these will be identifiable through their binary signature, however others may not. An identification based upon this PRONOM entry will be by extension only and therefore will likely require further investigation to determine the specific type of file.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Jul 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Jul 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/941</Identifier>
     <IdentifierType>PUID</IdentifierType>

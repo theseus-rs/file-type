@@ -4,13 +4,6 @@
   <FormatVersion>1 and 2</FormatVersion>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>NeoDisk icon file format is associated with the NeoDesk graphical environment, developed by Gribnif Software, for the Atari ST family of computers. Three versions of NeoDesk icon files exist. The first and the second and uncompressed and have no discernible signature. The first verison consists of 9 icons (232 bytes each) for a total file size of 2088 bytes. The second version consists of any number of icons (244 bytes each) with the total file size a multiple of 244. These can currently be identified by extension only using DROID.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>05 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>05 Nov 2021</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/NeoDesk_icon
-
-http://www4.pair.com/gribnif/downloads/neodesk/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1545</Identifier>
     <IdentifierType>PUID</IdentifierType>

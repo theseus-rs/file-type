@@ -4,11 +4,6 @@
   <FormatVersion>8-10</FormatVersion>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Roxio Easy Media Creator Layout version 8 with extension RCL is a part of Roxio disc project formats. RCL files version 8 are formed using Creator Classic feature on Roxio Easy Media Creator software (previously named as Easy CD Creator and Roxio Easy CD Creator), originally published by Adaptec in 1996, this version follows the rebranding of the software to Roxio and was published around 2006. This format is a proprietary binary file and is similar to its predecessor version 7 with same extension RCL. It follows the header value 0xFFFE2300 followed later by the plain text "[RoxioINF80] [ProjectSettings] RCLVer=80" however, in contrast to its predecessor RLC version 7, which referres to 'layout' files on Roxio Easy Media Creator, RLC version 8 files are formed using the Creator Classic feature on Easy Media Creator. All following versions up to version 10 and Roxio Creator 2009-2010 of layout format on Roxio Easy Media Creator software, saved their 'layout' files in subsequent version with extension ROXIO, and their files created on Creator Classic feature as this format -  RLC version 8. Roxio Easy Media Creator software allowed the user to create data or audio CD layout by adding files or music in order to burn a disc. The layout only referenced the file location and not the files themselves. It allowed for files to be saved for later use with references to files that will be included on the disc as well as other settings.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>19 Apr 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Apr 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/RCL</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1667</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,18 +29,15 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2505</RelatedFormatID>
     <RelatedFormatName>Roxio Data Project File</RelatedFormatName>
-    <RelatedFormatVersion>11</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2506</RelatedFormatID>
     <RelatedFormatName>Roxio Audio Project File</RelatedFormatName>
-    <RelatedFormatVersion>11</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2502</RelatedFormatID>
     <RelatedFormatName>Roxio Easy Media Creator Layout</RelatedFormatName>
-    <RelatedFormatVersion>7</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -3,10 +3,6 @@
   <FormatName>LightWave 3D Object</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>LightWave is a 3D graphics software application. LightWave 3D objects are stored as IFF files with a FORM type identifier of LWOB.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>16 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1205</Identifier>
     <IdentifierType>PUID</IdentifierType>

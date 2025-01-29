@@ -3,12 +3,6 @@
   <FormatName>eXtensible ARchive format</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>XAR (eXtensible Archive format) is an open source file archiver introduced in Mac OS X 10.5.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
-  <ProvenanceSourceDate>12 Nov 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>http://code.google.com/p/xar/wiki/xarformat
-http://code.google.com/p/xar/wiki/whyxar</ProvenanceDescription>
-  <LastUpdatedDate>12 Nov 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/600</Identifier>
     <IdentifierType>PUID</IdentifierType>

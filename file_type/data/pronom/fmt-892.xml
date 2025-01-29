@@ -4,11 +4,6 @@
   <FormatVersion>6 onwards</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>This is a compound version of Wordperfect for Windows. Also known as Corel WordPerfect. Major and minor version fields are the main variants between 6.x and 12 formats (The last two bytes in this signature). The major version is the same for 6.x through to 12 documents - 2. The minor version byte for a non-compound file created in WPWin 8.0 is 1. The minor version for a compound file created in WPWin 8.0. Is 2.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>16 Jun 2016</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>16 Jun 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.wordperfect</Identifier>
     <IdentifierType>MIME</IdentifierType>

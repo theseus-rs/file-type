@@ -7,11 +7,6 @@
   <FormatDescription>The Device Independent File Format (DVI) is the output file format of the TeX typesetting program. DVI files comprise binary data describing the visual layout of a document in a device-independent manner. A DVI file consists of a preamble, a sequence of commands defining one or more pages of text, and a postamble. Each command comprises an eight-bit opcode, followed by zero or more bytes of parameters. DVI driver software is required to render or print DVI files, or to convert them to other formats, such as PostScript or PDF.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Big-endian (Motorola)</ByteOrders>
-  <ReleaseDate>01 Jan 1979</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Mar 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/x-dvi</Identifier>
     <IdentifierType>MIME</IdentifierType>

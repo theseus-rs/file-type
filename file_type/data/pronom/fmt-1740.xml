@@ -3,19 +3,6 @@
   <FormatName>Apple Partition Map Disk Image</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>Apple Partition Map Disk Image is specific to describing the contents and structure of Apple Partition Map (APM) partition scheme, it can be thought of as a container format for multiple filesystem image files. It was developed by Apple in around 1988 with the introduction of Apple Partition Map scheme on Macintosh II, a scheme that defines how the data is organized on a singular disk. A disk image is a uncompressed copy of the contents of a disk or a folder, it can facilitate certain types of backup and recovery strategies. Please see ID: fdd000348 from Library of Congress and other links attached to this entry for further information.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>17 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>17 Aug 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Apple_Partition_Map
-
-https://mac-optimization.bestreviews.net/the-different-partition-format-types-on-mac/
-
-https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml
-
-https://en.wikipedia.org/wiki/Apple_Disk_Image
-
-https://docs.microsoft.com/en-us/windows/win32/imapi/disc-formats</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1740</Identifier>
     <IdentifierType>PUID</IdentifierType>

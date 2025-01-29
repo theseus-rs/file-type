@@ -4,10 +4,6 @@
   <FormatVersion>2010</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Navisworks (known for a while as JetStream) is a 3D design review package, currently developed and maintanced by Autodesk.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>09 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>09 Jan 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/858</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,12 +34,10 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1658</RelatedFormatID>
     <RelatedFormatName>Navisworks Document</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1660</RelatedFormatID>
     <RelatedFormatName>Navisworks Document</RelatedFormatName>
-    <RelatedFormatVersion>2011</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

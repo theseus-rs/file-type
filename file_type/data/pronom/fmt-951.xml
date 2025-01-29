@@ -4,10 +4,6 @@
   <FormatAliases>Sony Media WAVE 64</FormatAliases>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>W64 is a 64 bit WAV-like audio format created to overcome the 32 bit addressing limitations of conventional WAV.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Sep 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Sep 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/951</Identifier>
     <IdentifierType>PUID</IdentifierType>

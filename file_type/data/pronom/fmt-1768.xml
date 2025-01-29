@@ -3,10 +3,6 @@
   <FormatName>C Source Code File</FormatName>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>File written in C programming language that can be opened and viewed in any text editor. As a source code file, it can be converted into machine language by a compiler, creating an executable program. Since 1989, the language has been standardised by the International Organisation for Standardization (ISO) and ANSI. Programmes written in C can be used in a wide variety of operating systems and computer programmes, if they are standards compliant, with minimal changes to their source code.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Stadtarchiv Hof / Stadtarchiv Hof</ProvenanceName>
-  <ProvenanceSourceDate>20 Sep 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Sep 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1768</Identifier>
     <IdentifierType>PUID</IdentifierType>

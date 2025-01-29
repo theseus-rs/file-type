@@ -7,10 +7,6 @@
 MXF allows for different degrees of complexity within the wrapper, which are standardised and defined as Operational Patterns, and this may be a consideration for an institution considering preserving the format, hence the separation of these Operational Patterns into separate PUIDs.
 
 Operational Pattern “OP-Atom” is intended to satisfy the demands of applications where there is a requirement for exchange of material and associated metadata together in a single file with an open and standardized format, yet also a demand for a simple, predictable, layout with minimum scope for variation. OP-Atom is specifically intended for applications where each Essence Track is held separately.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>17 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/mxf</Identifier>
     <IdentifierType>MIME</IdentifierType>

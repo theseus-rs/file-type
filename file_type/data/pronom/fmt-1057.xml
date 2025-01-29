@@ -3,11 +3,6 @@
   <FormatName>SNAP Archive Data File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Snap Survey provides a selection of software which allows users to design surveys. The SNAP Survey archive file is an compressed version of the SNAP Meta Data and if one is present a SNAP Raw Data file. If it is a survey with email invitations, and responses, it also compresses system files about the current state of the mailing.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Jul 2017</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Modified the offset values from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>14 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1057</Identifier>
     <IdentifierType>PUID</IdentifierType>

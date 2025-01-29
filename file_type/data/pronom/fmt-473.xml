@@ -3,10 +3,6 @@
   <FormatName>Microsoft Office Owner File</FormatName>
   <FormatTypes>Page Description</FormatTypes>
   <FormatDescription>When a previously saved Word document is opened for editing, for printing, or for review, Word creates a temporary file that has a .doc file name extension. This file name extension begins with a tilde (~) that is followed by a dollar sign ($) that is followed by the remainder of the original file name. This temporary file holds the logon name of person who opens the file. This temporary file is called the "owner file."</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2012</ProvenanceSourceDate>
-  <LastUpdatedDate>30 Jun 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/473</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,21 +3,6 @@
   <FormatName>TurboCalc Document</FormatName>
   <FormatTypes>Spreadsheet</FormatTypes>
   <FormatDescription>TurboCalc Document is a spreadsheet application developed by Gregory R. Schmalhofer and published by Stefan Ossowski's Schatztruhe (better known as Aminet) for the Commodore 64 used on Amiga operating system. The system is very similar to Microsoft Excel. There were several vesions of TurboCalc published in the years of 1980 - 1999.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>04 Jan 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>04 Jan 2022</LastUpdatedDate>
-  <FormatNote>https://www.file-extensions.org/tcd-file-extension-turbocalc-spreadsheet-file
-
-http://www.amiworld.it/programmi/turbocalc/turbocalc_eng.html
-
-https://www.wikidata.org/wiki/Q105850917
-
-https://blog.alb42.de/2019/06/10/turbocalc-functions/
-
-https://commodore.software/downloads/category/13-spreadsheets
-
-http://istilladoremy64.byethost24.com/doku.php?id=reviews:turbocalc</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1585</Identifier>
     <IdentifierType>PUID</IdentifierType>

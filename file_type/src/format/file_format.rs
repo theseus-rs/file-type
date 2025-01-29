@@ -1,12 +1,6 @@
-use crate::format::serde::{
-    deserialize_naive_date, deserialize_option_naive_date, serialize_naive_date,
-    serialize_option_naive_date,
-};
 use crate::format::{
-    CompressionType, Document, DocumentIdentifier, ExternalSignature, InternalSignature,
-    RelatedFormat,
+    CompressionType, DocumentIdentifier, ExternalSignature, InternalSignature, RelatedFormat,
 };
-use jiff::civil::Date;
 use serde::{Deserialize, Serialize};
 
 /// The types of file formats
@@ -49,43 +43,8 @@ pub struct FileFormat {
     binary_file_format: String,
     #[serde(skip_serializing_if = "String::is_empty")]
     byte_orders: String,
-    #[serde(
-        skip_serializing_if = "Option::is_none",
-        deserialize_with = "deserialize_option_naive_date",
-        serialize_with = "serialize_option_naive_date"
-    )]
-    release_date: Option<Date>,
-    #[serde(
-        skip_serializing_if = "Option::is_none",
-        deserialize_with = "deserialize_option_naive_date",
-        serialize_with = "serialize_option_naive_date"
-    )]
-    withdrawn_date: Option<Date>,
-    provenance_source_id: usize,
-    #[serde(skip_serializing_if = "String::is_empty")]
-    provenance_name: String,
-    #[serde(
-        deserialize_with = "deserialize_naive_date",
-        serialize_with = "serialize_naive_date"
-    )]
-    provenance_source_date: Date,
-    #[serde(skip_serializing_if = "String::is_empty")]
-    provenance_description: String,
-    #[serde(
-        deserialize_with = "deserialize_naive_date",
-        serialize_with = "serialize_naive_date"
-    )]
-    last_updated_date: Date,
-    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatNote")]
-    note: String,
-    #[serde(skip_serializing_if = "String::is_empty", rename = "FormatRisk")]
-    risk: String,
-    #[serde(skip_serializing_if = "String::is_empty")]
-    technical_environment: String,
     #[serde(rename = "FileFormatIdentifier")]
     file_format_identifiers: Vec<DocumentIdentifier>,
-    #[serde(rename = "Document")]
-    documents: Vec<Document>,
     #[serde(rename = "ExternalSignature")]
     external_signatures: Vec<ExternalSignature>,
     #[serde(rename = "InternalSignature")]
@@ -110,18 +69,7 @@ impl FileFormat {
         description: S,
         binary_file_format: S,
         byte_orders: S,
-        release_date: Option<Date>,
-        withdrawn_date: Option<Date>,
-        provenance_source_id: usize,
-        provenance_name: S,
-        provenance_source_date: Date,
-        provenance_description: S,
-        last_updated_date: Date,
-        note: S,
-        risk: S,
-        technical_environment: S,
         file_format_identifiers: Vec<DocumentIdentifier>,
-        documents: Vec<Document>,
         external_signatures: Vec<ExternalSignature>,
         internal_signatures: Vec<InternalSignature>,
         related_formats: Vec<RelatedFormat>,
@@ -138,18 +86,7 @@ impl FileFormat {
             description: description.as_ref().to_string(),
             binary_file_format: binary_file_format.as_ref().to_string(),
             byte_orders: byte_orders.as_ref().to_string(),
-            release_date,
-            withdrawn_date,
-            provenance_source_id,
-            provenance_name: provenance_name.as_ref().to_string(),
-            provenance_source_date,
-            provenance_description: provenance_description.as_ref().to_string(),
-            last_updated_date,
-            note: note.as_ref().to_string(),
-            risk: risk.as_ref().to_string(),
-            technical_environment: technical_environment.as_ref().to_string(),
             file_format_identifiers,
-            documents,
             external_signatures,
             internal_signatures,
             related_formats,
@@ -230,76 +167,10 @@ impl FileFormat {
         &self.byte_orders
     }
 
-    /// Get the release date
-    #[must_use]
-    pub fn release_date(&self) -> &Option<Date> {
-        &self.release_date
-    }
-
-    /// Get the withdrawn date
-    #[must_use]
-    pub fn withdrawn_date(&self) -> &Option<Date> {
-        &self.withdrawn_date
-    }
-
-    /// Get the provenance source ID
-    #[must_use]
-    pub fn provenance_source_id(&self) -> usize {
-        self.provenance_source_id
-    }
-
-    /// Get the provenance name
-    #[must_use]
-    pub fn provenance_name(&self) -> &str {
-        &self.provenance_name
-    }
-
-    /// Get the provenance source date
-    #[must_use]
-    pub fn provenance_source_date(&self) -> &Date {
-        &self.provenance_source_date
-    }
-
-    /// Get the provenance description
-    #[must_use]
-    pub fn provenance_description(&self) -> &str {
-        &self.provenance_description
-    }
-
-    /// Get the last updated date
-    #[must_use]
-    pub fn last_updated_date(&self) -> &Date {
-        &self.last_updated_date
-    }
-
-    /// Get the format note
-    #[must_use]
-    pub fn note(&self) -> &str {
-        &self.note
-    }
-
-    /// Get the format risk
-    #[must_use]
-    pub fn risk(&self) -> &str {
-        &self.risk
-    }
-
-    /// Get the technical environment
-    #[must_use]
-    pub fn technical_environment(&self) -> &str {
-        &self.technical_environment
-    }
-
     /// Get the file format identifiers
     #[must_use]
     pub fn file_format_identifiers(&self) -> &[DocumentIdentifier] {
         &self.file_format_identifiers
-    }
-
-    /// Get the documents
-    #[must_use]
-    pub fn documents(&self) -> &[Document] {
-        &self.documents
     }
 
     /// Get the external signatures
@@ -368,12 +239,11 @@ impl FileFormat {
 mod tests {
     use super::*;
     use crate::format::external_signature::SignatureType;
-    use crate::format::{Author, ByteSequence, Endianness, PositionType};
+    use crate::format::{ByteSequence, Endianness, PositionType};
     use indoc::indoc;
     use quick_xml::de::from_str;
     use quick_xml::se::to_string;
 
-    #[expect(clippy::too_many_lines)]
     #[test]
     fn test_serde() -> anyhow::Result<()> {
         let xml = indoc! {r"
@@ -471,30 +341,7 @@ mod tests {
         );
         assert_eq!(file_format.binary_file_format(), "Binary");
         assert_eq!(file_format.byte_orders(), "Big-endian (Motorola)");
-        assert_eq!(file_format.release_date(), &None);
-        assert_eq!(file_format.withdrawn_date(), &None);
-        assert_eq!(file_format.provenance_source_id(), 0);
-        assert_eq!(
-            file_format.provenance_name(),
-            "The National Archives and Records Administration / The National Archives and Records Administration"
-        );
-        assert_eq!(
-            file_format.provenance_source_date(),
-            &Date::new(2005, 3, 11).expect("Invalid date")
-        );
-        assert_eq!(
-            file_format.provenance_description(),
-            "Specifications link: http://tools.ietf.org/pdf/rfc2083.pdf"
-        );
-        assert_eq!(
-            file_format.last_updated_date(),
-            &Date::new(2012, 6, 11).expect("Invalid date")
-        );
-        assert_eq!(file_format.note(), "");
-        assert_eq!(file_format.risk(), "");
-        assert_eq!(file_format.technical_environment(), "");
         assert_eq!(file_format.file_format_identifiers().len(), 3);
-        assert_eq!(file_format.documents().len(), 0);
         assert_eq!(file_format.external_signatures().len(), 1);
         assert_eq!(file_format.internal_signatures().len(), 1);
         assert_eq!(file_format.related_formats().len(), 4);
@@ -515,22 +362,11 @@ mod tests {
             "Portable Network Graphics (PNG) was designed for the lossless, portable, compressed storage of raster images.  PNG provides a patent-free replacement for GIF and can also replace many common uses of TIFF. Indexed-color, grayscale, and truecolor images are supported, plus an optional alpha channel. Sample depths range from 1 to 16 bits. PNG is designed to work in online viewing applications, so it is fully streamable.  It can store gamma and chromaticity.  PNG also detects file corruption.",
             "Binary",
             "Big-endian (Motorola)",
-            None,
-            None,
-            0,
-            "The National Archives and Records Administration / The National Archives and Records Administration",
-            Date::new(2005, 3, 11).expect("Invalid date"),
-            "Specifications link: http://tools.ietf.org/pdf/rfc2083.pdf",
-            Date::new(2012, 6, 11).expect("Invalid date"),
-            "",
-            "",
-            "",
             vec![
                 DocumentIdentifier::new("fmt/11", "PUID"),
                 DocumentIdentifier::new("image/png", "MIME"),
                 DocumentIdentifier::new("public.png", "Apple Uniform Type Identifier"),
             ],
-            vec![],
             vec![
                 ExternalSignature::new(761, "png", SignatureType::FileExtension),
             ],
@@ -553,30 +389,7 @@ mod tests {
         );
         assert_eq!(file_format.binary_file_format(), "Binary");
         assert_eq!(file_format.byte_orders(), "Big-endian (Motorola)");
-        assert_eq!(file_format.release_date(), &None);
-        assert_eq!(file_format.withdrawn_date(), &None);
-        assert_eq!(file_format.provenance_source_id(), 0);
-        assert_eq!(
-            file_format.provenance_name(),
-            "The National Archives and Records Administration / The National Archives and Records Administration"
-        );
-        assert_eq!(
-            file_format.provenance_source_date(),
-            &Date::new(2005, 3, 11).expect("Invalid date")
-        );
-        assert_eq!(
-            file_format.provenance_description(),
-            "Specifications link: http://tools.ietf.org/pdf/rfc2083.pdf"
-        );
-        assert_eq!(
-            file_format.last_updated_date(),
-            &Date::new(2012, 6, 11).expect("Invalid date")
-        );
-        assert_eq!(file_format.note(), "");
-        assert_eq!(file_format.risk(), "");
-        assert_eq!(file_format.technical_environment(), "");
         assert_eq!(file_format.file_format_identifiers().len(), 3);
-        assert_eq!(file_format.documents().len(), 0);
         assert_eq!(file_format.external_signatures().len(), 1);
         assert_eq!(file_format.internal_signatures().len(), 0);
         assert_eq!(file_format.related_formats().len(), 0);

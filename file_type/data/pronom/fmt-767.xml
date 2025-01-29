@@ -3,12 +3,6 @@
   <FormatName>Adobe Flash</FormatName>
   <FormatVersion>21</FormatVersion>
   <FormatDescription>The Adobe Flash format, SWF, previously known as Shockwave Flash or Macromedia Shockwave Flash, and alternatively known as the Small Web Format, is a file format primarily designed for creating interactive multimedia applications. The format iterates rapidly, often in line with new releases of Adobe Flash or Adobe Air. Prior to version 6 all SWF files were uncompressed, however version 6 introduced the option of using zlib compression. Version 13 introduced the option of using LZMA compression.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>07 Aug 2015</ProvenanceSourceDate>
-  <ProvenanceDescription>http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/swf/pdf/swf-file-format-spec.pdf
-http://www.adobe.com/devnet/articles/flashplayer-air-feature-list.html</ProvenanceDescription>
-  <LastUpdatedDate>07 Aug 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/x-shockwave-flash</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -69,12 +63,10 @@ http://www.adobe.com/devnet/articles/flashplayer-air-feature-list.html</Provenan
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1567</RelatedFormatID>
     <RelatedFormatName>Adobe Flash</RelatedFormatName>
-    <RelatedFormatVersion>22</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1565</RelatedFormatID>
     <RelatedFormatName>Adobe Flash</RelatedFormatName>
-    <RelatedFormatVersion>20</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

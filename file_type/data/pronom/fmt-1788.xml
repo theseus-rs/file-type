@@ -3,12 +3,6 @@
   <FormatName>Gunpaint Image File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Gunpaint are raster image files associated with the Gunpaint graphics program for the Commodore 64. Files are exactly 33603 bytes long and have a 296x200 resolution.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2022</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113)- Adjusted signature to include 'GUNPAINT' at an offset of 1002 from BOF. Submitted by National Archives and Records Administration.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Gunpaint</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1788</Identifier>
     <IdentifierType>PUID</IdentifierType>

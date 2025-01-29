@@ -3,11 +3,6 @@
   <FormatName>Dynamic Publisher Picture File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Dynamic Publisher is a desktop publishing application for the MSX2 computer system. It was published by Radarsoft in 1987. This entry relates to the picture or screen files associated with the format which have a .pct extension and are raster image files.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>12 Oct 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Oct 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Dynamic_Publisher</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1778</Identifier>
     <IdentifierType>PUID</IdentifierType>

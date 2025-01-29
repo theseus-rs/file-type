@@ -3,10 +3,6 @@
   <FormatName>Media View Pro</FormatName>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Proprietary cataloguing program to manage photo and video assets.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Jul 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Jul 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/648</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,6 +34,5 @@ EOF: Svar {8-34} 030i (offset 8)</SignatureNote>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1446</RelatedFormatID>
     <RelatedFormatName>Microsoft Expression Media</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

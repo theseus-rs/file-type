@@ -3,15 +3,6 @@
   <FormatName>Sony Digital Voice File/Sony Memory Stick Voice File</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>A compressed audio format developed by Sony for use in digital dictation recorders.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Hagley Museum and Library / Hagley Museum and Library</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. Submitted by The Church of Jesus Christ of Latter-day Saints.</ProvenanceDescription>
-  <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://fileinfo.com/extension/dvf
-http://fileformats.archiveteam.org/wiki/Digital_Voice_File
-https://fileinfo.com/extension/msv
-http://fileformats.archiveteam.org/wiki/Memory_Stick_Voice</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/472</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -41,18 +32,15 @@ http://fileformats.archiveteam.org/wiki/Memory_Stick_Voice</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2746</RelatedFormatID>
     <RelatedFormatName>Memory Stick Voice File (MSV)</RelatedFormatName>
-    <RelatedFormatVersion>ADPCM Codec</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2747</RelatedFormatID>
     <RelatedFormatName>Digital Voice File (DVF)</RelatedFormatName>
-    <RelatedFormatVersion>TRC Codec</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2748</RelatedFormatID>
     <RelatedFormatName>Memory Stick Voice File (MSV)/Digital Voice File (DVF)</RelatedFormatName>
-    <RelatedFormatVersion>LPEC Codec</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

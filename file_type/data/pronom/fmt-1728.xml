@@ -3,11 +3,6 @@
   <FormatName>dBASE Windows Form File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>dBASE is a database management systems for personal computers. The dBASE system includes the core database engine, a query system, a forms engine, and a programming language that ties all of these components together. The wfm file stores the dBASE form, used for entering and modifying data in the database.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>07 Jul 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>07 Jul 2022</LastUpdatedDate>
-  <FormatNote>https://www.dbase.com/help/9_4/Creating_an_app/IDH_APP_WFM_FILE.htm</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1728</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -9,10 +9,6 @@ MXF allows for different degrees of complexity within the wrapper, which are sta
 
 OP1a is intended to meet the requirements of acquisition, storage and interchange applications that are satisfied by a single item of content packaged in a single essence container.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Feb 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Nov 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/mxf</Identifier>
     <IdentifierType>MIME</IdentifierType>

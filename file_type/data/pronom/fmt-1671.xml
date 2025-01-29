@@ -3,16 +3,6 @@
   <FormatName>Z Compressed Data</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>Z Compressed Data are files that have been compressed by Unix's shell compression program, compress. The compress software was developed by Spencer Thomas in 1984 and uses LZW algorithm. The format has lossless data, it can be compressed and decompressed using the Unix and Linux operating systems.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>22 Apr 2022</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118)- Name of developer corrected in description. Submitted by Igor Nechaev.</ProvenanceDescription>
-  <LastUpdatedDate>15 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://en.wikipedia.org/wiki/Compress
-
-https://docs.fileformat.com/compression/z/
-
-http://fileformats.archiveteam.org/wiki/Compress_(Unix)</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1671</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -40,7 +30,6 @@ http://fileformats.archiveteam.org/wiki/Compress_(Unix)</FormatNote>
     <CompressionAliases>LZW</CompressionAliases>
     <Description>The Lempel-Ziv-Welch compression algorithm was developed by Terry Welch in 1984, as a modification of the LZ78 compressor. It is a lossless technique which can be applied to almost any type of data, but is most commonly used for image compression. LZW compression is effective on images with colour depths from 1-bit (monochrome) to 24-bit (True Colour). LZW compression is encountered in a range of common graphics file formats, including TIFF and GIF.</Description>
     <Lossiness>Lossless</Lossiness>
-    <ReleaseDate>01 Jan 1984</ReleaseDate>
     <CompressionDocumentation>Welch, T A, 1984, A technique for high performance data compression, IEEE Computer, 17: 6</CompressionDocumentation>
     <CompressionIdentifier>
       <Identifier>x-cmp/12</Identifier>

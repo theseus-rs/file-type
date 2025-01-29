@@ -5,10 +5,6 @@
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Common Data Format is a library and toolkit that was developed by the National Space Science Data Center (NSSDC) at NASA, used for the storage and processing of multi-dimensional datasets. The ‘dotCDF’ file as described in the specification refers specifically to the filetype with extension .cdf. The dotCDF file may be a standalone file containing everything it needs, or it may have companion ‘variable’ files with the extension .vX, where X represents an incrementing numeric value, e.g. .v0, .v1 etc.
 This entry covers versions 3.x. Version 3.x introduced 8-byte (64bit) record sizes and offsets.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>11 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Apr 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fdd000226</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -43,6 +39,5 @@ Specifications can be found on the Internet Archive: https://web.archive.org/web
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2812</RelatedFormatID>
     <RelatedFormatName>Common Data Format dotCDF</RelatedFormatName>
-    <RelatedFormatVersion>2.6-2.7</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

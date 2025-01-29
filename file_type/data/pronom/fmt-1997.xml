@@ -3,11 +3,6 @@
   <FormatName>IMF Package Asset Map</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>The Interoperable Master Format (IMF) is a file-based media format, and an IMF Package (IMP) is a collection of media files with accompanying XML data describing the IMF Package structure. The Asset Map is an XML file that provides a mapping between the UUIDs and filenames used within an IMP. An Asset Map file should be found alongside the other IMP component files described within the file.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>19 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Apr 2024</LastUpdatedDate>
-  <FormatNote>http://www.smpte-ra.org</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1997</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +28,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

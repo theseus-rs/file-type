@@ -3,10 +3,6 @@
   <FormatName>Progressive Graphics File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Progressive Graphics File (PGF) is a raster image format developed by Christoph Stamm. Please contact the PRONOM team if you are able to provide a more detailed description.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>29 Nov 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>29 Nov 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1128</Identifier>
     <IdentifierType>PUID</IdentifierType>

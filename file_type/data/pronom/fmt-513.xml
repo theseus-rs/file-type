@@ -4,10 +4,6 @@
   <FormatVersion>9</FormatVersion>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>Asta PowerProject is a proprietary project management suite.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Asta Development / Asta Development</ProvenanceName>
-  <ProvenanceSourceDate>01 May 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>01 May 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/513</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +29,5 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1298</RelatedFormatID>
     <RelatedFormatName>PowerProject</RelatedFormatName>
-    <RelatedFormatVersion>7</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

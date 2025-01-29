@@ -3,10 +3,6 @@
   <FormatName>Magick Image File Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The Magick Image File Format (MIFF) is ImageMagick's own format for storing bitmap images. It stores all metadata known to ImageMagick.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>08 Jul 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>08 Jul 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/930</Identifier>
     <IdentifierType>PUID</IdentifierType>

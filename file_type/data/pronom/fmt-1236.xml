@@ -3,11 +3,6 @@
   <FormatName>EclipseCrossword Word List File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>EclipseCrossword Word List format is a standard plain text file format for holding word lists created by the EclipseCrossword software, which generates crossword puzzles. It does not support UTF-8 or Unicode encodings.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote>https://www.eclipsecrossword.com/help-ewl-format.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1236</Identifier>
     <IdentifierType>PUID</IdentifierType>

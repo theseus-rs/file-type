@@ -4,11 +4,6 @@
   <FormatVersion>5</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>CATIA is a 3D modelling software created by Dassault Systèmes, widely used across many industries for computer aided design, manufacture and engineering. The .catdrawing files are created with this software to store two dimensional drawings, including different views of the item being designed. Catdrawing files are always linked to .catpart files - without a .catpart file, the .catdrawing file won’t open.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>J. Paul Getty Trust / J. Paul Getty Trust</ProvenanceName>
-  <ProvenanceSourceDate>03 Feb 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Feb 2022</LastUpdatedDate>
-  <FormatNote>Official website: https://www.3ds.com/products-services/catia/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1615</Identifier>
     <IdentifierType>PUID</IdentifierType>

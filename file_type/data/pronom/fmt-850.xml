@@ -5,10 +5,6 @@
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>NuFX is an archive package format originally developed for the Apple II by Andrew Nicholas. Details of the format can be found here: http://nulib.com/library/FTN.e08002.htm while a library for handling the format can be found here: http://nulib.com/</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Jan 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/850</Identifier>
     <IdentifierType>PUID</IdentifierType>

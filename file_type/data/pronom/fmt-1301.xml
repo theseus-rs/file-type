@@ -5,10 +5,6 @@
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>The Print Shop is a desktop publishing application published by Broderbund. This format version post-dates the earlier The Print Shop Deluxe product range. More information about the format family can be found here: http://fileformats.archiveteam.org/wiki/The_Print_Shop.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1301</Identifier>
     <IdentifierType>PUID</IdentifierType>

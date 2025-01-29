@@ -3,10 +3,6 @@
   <FormatName>FreeArc Archive Format</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>FreeArc is an open source file archiver developed by Bulat Ziganshin. The native .arc file format is not related to web archiving formats and is instead closer to a compressed zip type of archive file.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>19 Sep 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Sep 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1096</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -5,10 +5,6 @@
   <FormatAliases>NCSA Hierarchical Data Format</FormatAliases>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>HDF is a data model, library, and file format for storing and managing data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Apr 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Apr 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1041</Identifier>
     <IdentifierType>PUID</IdentifierType>

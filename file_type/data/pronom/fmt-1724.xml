@@ -3,11 +3,6 @@
   <FormatName>LegalDocML Document</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>LegalDocML is an open standard maintained by the LegalDocML Technical Committee under the OASIS Standards body. It is an XML-based standard for describing the structure of legal documents.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>15 Jul 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>15 Jul 2022</LastUpdatedDate>
-  <FormatNote>http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part1-vocabulary/akn-core-v1.0-os-part1-vocabulary.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1724</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +28,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

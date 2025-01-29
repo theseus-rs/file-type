@@ -7,10 +7,6 @@
 MXF allows for different degrees of complexity within the wrapper, which are standardised and defined as Operational Patterns, and this may be a consideration for an institution considering preserving the format, hence the separation of these Operational Patterns into separate PUIDs.
 
 OP2c: A choice of 2 or more alternate material packages that play out selected tracks of either a sequence of single file packages, or a sequence of two or more synchronized file packages.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Nov 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/mxf</Identifier>
     <IdentifierType>MIME</IdentifierType>

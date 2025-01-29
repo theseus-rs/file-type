@@ -3,10 +3,6 @@
   <FormatName>NMRPipe</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>NMRPipe is a suite of tools for Nuclear Magnetic Resonance (NMR) spectral reconstruction.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>University of Illinois / University of Illinois</ProvenanceName>
-  <ProvenanceSourceDate>18 Feb 2019</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Feb 2019</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1228</Identifier>
     <IdentifierType>PUID</IdentifierType>

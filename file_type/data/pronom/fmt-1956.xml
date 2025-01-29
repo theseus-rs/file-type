@@ -3,13 +3,6 @@
   <FormatName>Sandboxels Save File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Sbxls files are created when a player of the Sandboxels game saves their progress. Sandboxels is played in browser, and is a free-falling sand simulator, where the user can play with different substances such as sand, rock, snow and magma. In saving the game, an sbxls file is generated, which records the type of substances used, their placement and size, the environment's temperature, custom colours and custom settings.</FormatDescription>
-  <ReleaseDate>13 Oct 2023</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>R74n / R74n</ProvenanceName>
-  <ProvenanceSourceDate>11 Apr 2024</ProvenanceSourceDate>
-  <ProvenanceDescription>04/24 (v.118): Internal signature added. Submitted by R74N; 07/24 (v.119): Added release date, corrected extension. Submitted by R74N.</ProvenanceDescription>
-  <LastUpdatedDate>11 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://sandboxels.r74n.com/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1956</Identifier>
     <IdentifierType>PUID</IdentifierType>

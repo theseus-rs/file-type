@@ -3,10 +3,6 @@
   <FormatName>Scriptware Script Format</FormatName>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>Scriptware is a software application for creating scripts and screenplays.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>16 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/826</Identifier>
     <IdentifierType>PUID</IdentifierType>

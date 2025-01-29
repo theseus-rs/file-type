@@ -4,10 +4,6 @@
   <FormatVersion>2</FormatVersion>
   <FormatTypes>Audio, Video</FormatTypes>
   <FormatDescription>REDCODE RAW (R3D) is a proprietary multimedia audio/video file format owned by the Red Digital Cinema Camera Company and featuring lossy compression for video contents and lossless for audio contents. It is used as native recording format of Red digital cameras and recorded on proprietary Hard Disk Drives, CompactFlash cards or SSD drives, but can be extracted from there and be trivially handled in any file-based audio/video, IT or home environments.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1038</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +29,5 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1380</RelatedFormatID>
     <RelatedFormatName>Redcode RAW (R3D) Media File</RelatedFormatName>
-    <RelatedFormatVersion>1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

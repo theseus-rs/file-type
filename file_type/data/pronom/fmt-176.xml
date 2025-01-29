@@ -5,10 +5,6 @@
   <FormatTypes>Spreadsheet</FormatTypes>
   <FormatDescription>This PUID has been deprecated in favour of another entry. Please see fmt/62: Microsoft Excel 2000-2003 Workbook.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Sep 2009</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Apr 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/176</Identifier>
     <IdentifierType>PUID</IdentifierType>

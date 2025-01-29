@@ -3,10 +3,6 @@
   <FormatName>Netscape Bookmark File Format</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>The Netscape Bookmark File Format was originally created to store bookmarks for the Netscape web browser. It was subsequently used by Internet Explorer. Microsoft have provided a thorough description of the format: https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa753582(v=vs.85)</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>29 May 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>29 May 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1132</Identifier>
     <IdentifierType>PUID</IdentifierType>

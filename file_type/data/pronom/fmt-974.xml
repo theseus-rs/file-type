@@ -3,10 +3,6 @@
   <FormatName>Notation Interchange File Format</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Notation Interchange File Format (NIFF) is a music notation file format used primarily for transferring music notation between different scorewriters.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>26 Sep 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Sep 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.music-niff</Identifier>
     <IdentifierType>MIME</IdentifierType>

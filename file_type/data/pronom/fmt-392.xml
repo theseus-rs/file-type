@@ -4,11 +4,6 @@
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>MrSID is an acronym that stands for Multiresolution Seamless Image Database. It is a wavelet-based file format developed and patented by LizardTech designed to enable portability of massive bit-mapped (raster) images, such as orthophotos. MrSID was originally developed for Geographic Information Systems (GIS). With this format, large raster image files such as aerial photographs or satellite imagery are compressed and can be quickly viewed without having to decompress the entire file. There is no open source implementation of the MrSID format. Some open source GIS systems can read MrSID files, including MapWindow GIS and those based on GDAL. The Decode Software Development Kit (SDK) is made available as a free download from developer.lizardtech.com. This enables the capability to implement MrSID reading capability in any application.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>25 Nov 2011</ProvenanceSourceDate>
-  <ProvenanceDescription>Format description information supplied by the Geospatial Multistate Access and Preservation Partnership (GeoMAPP), a grant funded collaboration sponsored by the National Digital Information Infrastructure Preservation Program (NDIIPP) of the Library of Congress, involving archives staff from North Carolina, Kentucky, Montana, and Utah state archives.</ProvenanceDescription>
-  <LastUpdatedDate>25 Nov 2011</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/392</Identifier>
     <IdentifierType>PUID</IdentifierType>

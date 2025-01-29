@@ -4,11 +4,6 @@
   <FormatTypes>GIS</FormatTypes>
   <FormatDescription>KML is an Open Geospatial Consortium (OGC) sponsored xml schema file format used to display geographic data in an earth browser, such as Google Earth, Google Maps, and Google Maps for mobile. A KML file is processed in much the same way that HTML (and XML) files are processed by web browsers. Like HTML, KML has a tag-based structure with names and attributes used for specific display purposes. Thus, Google Earth and Maps act as browsers for KML files.
 Full specifications available at: http://www.opengeospatial.org/standards/kml</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>18 Feb 2015</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>18 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.google-earth.kmz</Identifier>
     <IdentifierType>MIME</IdentifierType>

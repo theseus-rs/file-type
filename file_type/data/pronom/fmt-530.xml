@@ -3,10 +3,6 @@
   <FormatName>eRuby HTML document</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>eRuby (Embedded Ruby) is a templating system that embeds Ruby into a text document. It is often used to embed Ruby code in an HTML document, similar to ASP, JSP and PHP.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 May 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>01 May 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/530</Identifier>
     <IdentifierType>PUID</IdentifierType>

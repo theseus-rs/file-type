@@ -5,17 +5,6 @@
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>PostScript (.ps) file format is a type of vector graphic file, it is saved by PostScript general-purpose page description language. Developed in the 1980s by Adobe Systems, its main focus was to turn digital graphics and text ready to print, it allowed for users to more easily turn their text and graphics into printed copies.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Feb 2006</ProvenanceSourceDate>
-  <LastUpdatedDate>17 Jun 2022</LastUpdatedDate>
-  <FormatNote>https://www.adobe.com/creativecloud/file-types/image/vector/ps-file.html#:~:text=frequently%20asked%20questions-,What%20is%20a%20PS%20file%3F,open%20it%20in%20an%20application.
-
-https://en.wikipedia.org/wiki/PostScript
-
-https://docs.fileformat.com/page-description-language/ps/
-
-https://fileinfo.com/extension/ps</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/postscript</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -48,67 +37,56 @@ https://fileinfo.com/extension/ps</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>49</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>1.0 / 1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>86</RelatedFormatID>
     <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>331</RelatedFormatID>
     <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>332</RelatedFormatID>
     <RelatedFormatName>Encapsulated PostScript File Format</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1199</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>88</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1200</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>3.0 / 3.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1201</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1202</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>5.0 / 5.5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1204</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>6.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1205</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>7.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1345</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>8.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -124,12 +102,10 @@ https://fileinfo.com/extension/ps</FormatNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>772</RelatedFormatID>
     <RelatedFormatName>PostScript</RelatedFormatName>
-    <RelatedFormatVersion>2.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>138</RelatedFormatID>
     <RelatedFormatName>Postscript</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

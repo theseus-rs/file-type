@@ -4,11 +4,6 @@
   <FormatVersion>1.0-1.31</FormatVersion>
   <FormatTypes>GIS</FormatTypes>
   <FormatDescription>A Geopackage is designed for transferring geospatial information in a platform-independent, portable, open and standards based way. It is a standard describing a set of conventions for storing vector features, extensions and tile matrix sets of imagery and raster maps at various scales within a SQLite database. It was defined and published by the Open Geospatial Consortium (OGC) in 2014.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
-  <ProvenanceSourceDate>13 Jun 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jul 2022</LastUpdatedDate>
-  <FormatNote>Specification: https://www.ogc.org/standards/geopackage</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/geopackage+sqlite3</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -38,6 +33,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1528</RelatedFormatID>
     <RelatedFormatName>SQLite Database File Format</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

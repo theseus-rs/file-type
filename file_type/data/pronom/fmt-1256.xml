@@ -3,10 +3,6 @@
   <FormatName>MapInfo Workspace File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>MapInfo Workspace files, produced by MapInfo GIS software, are text files containing the MapInfo commands required to re-create a MapInfo session.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1256</Identifier>
     <IdentifierType>PUID</IdentifierType>

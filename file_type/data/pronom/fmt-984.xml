@@ -3,10 +3,6 @@
   <FormatName>Binary Property List</FormatName>
   <FormatDescription>In the OS X, iOS, NeXTSTEP, and GNUstep programming frameworks, property list files store serialized objects. It is the standard way to save and load data between the internal representation within the objects defined in an Objective-C program and disk files, in order to store program settings and other data. This is the binary version but there is also an XML version of the format.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Feb 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Feb 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/984</Identifier>
     <IdentifierType>PUID</IdentifierType>

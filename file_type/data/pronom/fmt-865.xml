@@ -11,10 +11,6 @@ The format consists of an 80 byte ASCII header with no formalized structure, fol
 
 A technical specification may be found here: http://www.fabbers.com/tech/STL_Format</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>09 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>09 Jan 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/865</Identifier>
     <IdentifierType>PUID</IdentifierType>

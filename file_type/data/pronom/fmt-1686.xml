@@ -4,11 +4,6 @@
   <FormatVersion>4.0</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>PageMaker is a discontinued desktop publishing program created by Aldus Corporation in 1985. Originally created for Macintosh computers the PC version was released in 1987. It was purchased alongside other Aldus software such as FreeHand in 1994.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>22 Jun 2022</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- max-offset modified for both BOF signatures to allow for more exact signature identification. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>15 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.pagemaker</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -33,18 +28,15 @@
     <RelationshipType>Equivalent to</RelationshipType>
     <RelatedFormatID>516</RelatedFormatID>
     <RelatedFormatName>PageMaker PC Document</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2523</RelatedFormatID>
     <RelatedFormatName>PageMaker Mac Document</RelatedFormatName>
-    <RelatedFormatVersion>5.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>515</RelatedFormatID>
     <RelatedFormatName>PageMaker Document</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

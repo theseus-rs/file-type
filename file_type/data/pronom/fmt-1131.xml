@@ -4,10 +4,6 @@
   <FormatVersion>3</FormatVersion>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>DM3 is a file format produced by some Digital Micrography instruments created by Gatan. Please contact the PRONOM team if you are able to provide a more detailed description.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Bodleian Library, University of Oxford / Bodleian Library, University of Oxford</ProvenanceName>
-  <ProvenanceSourceDate>29 Nov 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>29 Nov 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1131</Identifier>
     <IdentifierType>PUID</IdentifierType>

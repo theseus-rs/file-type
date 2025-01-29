@@ -4,10 +4,6 @@
   <FormatVersion>2.0</FormatVersion>
   <FormatDescription>RAR is a proprietary archive file format that supports data compression, error recovery and file spanning.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Mar 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.rar</Identifier>
     <IdentifierType>MIME</IdentifierType>

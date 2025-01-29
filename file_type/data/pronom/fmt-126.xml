@@ -8,11 +8,6 @@
   <FormatDescription>Powerpoint format is a presentation format developed by Microsoft. Powerpoint 97-2002 format is the native format of Powerpoint 97 onwards. The format is proprietary and Microsoft does not make details of its structure public. Currently PRONOM cannot differentiate Microsoft Powerpoint Presentation 97-2003 and Microsoft Powerpoint Show by signatures. This means Microsoft Powerpoint Show files with extensions of pps will likely identify as the Microsoft Powerpoint Presentation 97-2003 PUID. Further research may be able to address this.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>19 Apr 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-powerpoint</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -25,28 +20,6 @@
     <Identifier>fmt/126</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>11</DocumentID>
-    <DisplayText>OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Compound Document file format</DisplayText>
-    <DocumentType>Speculative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>15 Sep 2004</PublicationDate>
-    <TitleText>OpenOffice.org's documentation of the Microsoft Compound Document file format</TitleText>
-    <DocumentIdentifier>
-      <Identifier>sc.openoffice.org/compdocfileformat.pdf</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>103</AuthorID>
-      <OrganisationName>OpenOffice.org</OrganisationName>
-      <AuthorCompoundName>OpenOffice.org</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>103</PublisherID>
-      <OrganisationName>OpenOffice.org</OrganisationName>
-      <PublisherCompoundName>OpenOffice.org</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>129</ExternalSignatureID>
     <Signature>ppt</Signature>
@@ -72,13 +45,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>133</RelatedFormatID>
     <RelatedFormatName>Microsoft PowerPoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>4.x</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>134</RelatedFormatID>
     <RelatedFormatName>Microsoft Powerpoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>95</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -89,7 +60,6 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>134</RelatedFormatID>
     <RelatedFormatName>Microsoft Powerpoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>95</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>

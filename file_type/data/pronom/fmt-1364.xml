@@ -4,10 +4,6 @@
   <FormatVersion>XML</FormatVersion>
   <FormatAliases>Vismat</FormatAliases>
   <FormatDescription>V-Ray Material files define material properties for use within 3D rendering applications. This entry identifies the XML version of the format in use in versions later than 1.49. Please contact the PRONOM team if you can assist with identification of the earlier binary versions of the format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>01 Sep 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>01 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1364</Identifier>
     <IdentifierType>PUID</IdentifierType>

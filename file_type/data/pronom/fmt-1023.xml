@@ -4,10 +4,6 @@
   <FormatVersion>Generic</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>SAS (Statistical Analysis System) is a statistical analysis software suite developed by SAS Institute. SAS catalogs store many different kinds of information in smaller units called catalog entries. Each entry has an entry type that identifies its purpose to SAS. A single SAS catalog can contain several types of catalog entries. This generic entry applies where PRONOM is unable to be specific regarding the version number of the file format. Please contact the PRONOM mailbox if you encounter a 'generic' SAS catalog file as this will help improve the data within PRONOM.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1023</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,18 +35,15 @@ Signature based extensively on unofficial description of DATA format, plus a wid
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1397</RelatedFormatID>
     <RelatedFormatName>Statistical Analysis System Catalog (Windows)</RelatedFormatName>
-    <RelatedFormatVersion>9.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1830</RelatedFormatID>
     <RelatedFormatName>Statistical Analysis System Catalog (Windows)</RelatedFormatName>
-    <RelatedFormatVersion>9.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1832</RelatedFormatID>
     <RelatedFormatName>Statistical Analysis System Catalog (Windows)</RelatedFormatName>
-    <RelatedFormatVersion>9.3</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

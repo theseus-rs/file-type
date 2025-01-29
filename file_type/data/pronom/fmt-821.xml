@@ -2,10 +2,6 @@
   <FormatID>1621</FormatID>
   <FormatName>G64 GCR-encoded Disk Image Format</FormatName>
   <FormatDescription>G64 is a Commodore 64 emulation format. It is a raw group code recording (GCR) binary representation of a Commodore 1541 diskette.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/821</Identifier>
     <IdentifierType>PUID</IdentifierType>

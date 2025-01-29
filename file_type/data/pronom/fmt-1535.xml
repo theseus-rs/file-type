@@ -4,11 +4,6 @@
   <FormatVersion>X9</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>Serif PagePlus is a desktop publishing application.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2021</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>25 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1535</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -32,6 +27,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1470</RelatedFormatID>
     <RelatedFormatName>Serif PagePlus Publication</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

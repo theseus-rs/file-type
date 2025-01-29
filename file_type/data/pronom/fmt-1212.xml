@@ -3,10 +3,6 @@
   <FormatName>HP System Software Manager CVA File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>HP System Software Manager is a software deployment utility for distributing software packages and updates. The CVA file describes the deliverable package and any required parameters for deployment.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>20 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1212</Identifier>
     <IdentifierType>PUID</IdentifierType>

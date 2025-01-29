@@ -3,10 +3,6 @@
   <FormatName>Softimage 3D Picture File Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The Softimage 3D Picture format is a native raster image format of Autodesk's Softimage 3D computer graphics application. A full technical description of the format can be found in the Internet Archive: https://web.archive.org/web/20160802085201/http://softimage.wiki.softimage.com/index.php/?title=PIC_file_format</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>31 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>31 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1167</Identifier>
     <IdentifierType>PUID</IdentifierType>

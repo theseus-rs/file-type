@@ -4,10 +4,6 @@
   <FormatVersion>v.1</FormatVersion>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>ATRAC (Adaptive Transform Acoustic Coding) is a family of proprietary audio compression algorithms developed by Sony. It was first commercially used in the MiniDisc in 1992. ATRAC enabled the storage of audio information on quite small devices (for the time), with limited loss is perceptible quality.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Bibliotheque Cantonale Universitaire de Fribourg / Bibliotheque Cantonale Universitaire de Fribourg</ProvenanceName>
-  <ProvenanceSourceDate>21 Mar 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Mar 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1968</Identifier>
     <IdentifierType>PUID</IdentifierType>

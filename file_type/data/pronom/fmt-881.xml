@@ -3,10 +3,6 @@
   <FormatName>Microsoft Document Imaging File Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>This is a proprietary file format created by Microsoft Document Imaging, a program which enables the editing and annotation of documents scanned by Microsoft Office Document Scanning. It was introduced in Office XP and was included in Office 2003 and 2007. This format is a variant of TIFF.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>18 May 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>18 May 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/881</Identifier>
     <IdentifierType>PUID</IdentifierType>

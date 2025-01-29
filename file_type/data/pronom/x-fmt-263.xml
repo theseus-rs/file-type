@@ -4,13 +4,6 @@
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>A popular archive format supported by most modern operating systems. It can contain one or more files and can utilize any of a number of compression methods.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118): An additional internal signature, name updated for the original internal signature, description update, library of congress identifier, documentation links and vendor. Submitted by Institute of the History of Charles University and Archive of Charles University, Preservica,  Brigham Young University and The Church of Jesus Christ of Latter-Day Saints.</ProvenanceDescription>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/ZIP
-https://fileinfo.com/extension/zip</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/zip</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -63,25 +56,21 @@ https://fileinfo.com/extension/zip</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>745</RelatedFormatID>
     <RelatedFormatName>OpenOffice Writer</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>746</RelatedFormatID>
     <RelatedFormatName>OpenOffice Calc</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>747</RelatedFormatID>
     <RelatedFormatName>OpenOffice Impress</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>748</RelatedFormatID>
     <RelatedFormatName>OpenOffice Draw</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -92,97 +81,81 @@ https://fileinfo.com/extension/zip</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>778</RelatedFormatID>
     <RelatedFormatName>OpenDocument Format</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>783</RelatedFormatID>
     <RelatedFormatName>OpenDocument Database Format</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>876</RelatedFormatID>
     <RelatedFormatName>SIARD (Software-Independent Archiving of Relational Databases)</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>910</RelatedFormatID>
     <RelatedFormatName>Microsoft Office Open XML</RelatedFormatName>
-    <RelatedFormatVersion>2007 onwards</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1033</RelatedFormatID>
     <RelatedFormatName>OpenDocument Text</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1034</RelatedFormatID>
     <RelatedFormatName>OpenDocument Text</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1035</RelatedFormatID>
     <RelatedFormatName>OpenDocument Presentation</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1036</RelatedFormatID>
     <RelatedFormatName>OpenDocument Presentation</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1037</RelatedFormatID>
     <RelatedFormatName>OpenDocument Spreadsheet</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1038</RelatedFormatID>
     <RelatedFormatName>OpenDocument Spreadsheet</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1039</RelatedFormatID>
     <RelatedFormatName>OpenDocument Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1040</RelatedFormatID>
     <RelatedFormatName>OpenDocument Graphics</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1206</RelatedFormatID>
     <RelatedFormatName>OpenDocument Database Format</RelatedFormatName>
-    <RelatedFormatVersion>1.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1215</RelatedFormatID>
     <RelatedFormatName>CorelDraw Drawing</RelatedFormatName>
-    <RelatedFormatVersion>X4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1216</RelatedFormatID>
     <RelatedFormatName>CorelDraw Drawing</RelatedFormatName>
-    <RelatedFormatVersion>X5</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1231</RelatedFormatID>
     <RelatedFormatName>OpenDocument Database Format</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -198,30 +171,25 @@ https://fileinfo.com/extension/zip</FormatNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2393</RelatedFormatID>
     <RelatedFormatName>ISDOCX Information System Document</RelatedFormatName>
-    <RelatedFormatVersion>5.x</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2396</RelatedFormatID>
     <RelatedFormatName>ISDOCX Information System Document</RelatedFormatName>
-    <RelatedFormatVersion>6.0.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2518</RelatedFormatID>
     <RelatedFormatName>EndNote Library</RelatedFormatName>
-    <RelatedFormatVersion>X - X9</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2519</RelatedFormatID>
     <RelatedFormatName>EndNote Compressed Library</RelatedFormatName>
-    <RelatedFormatVersion>X - X9</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2521</RelatedFormatID>
     <RelatedFormatName>EndNote Compressed Library</RelatedFormatName>
-    <RelatedFormatVersion>20</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

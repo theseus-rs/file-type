@@ -6,10 +6,6 @@
   <FormatDescription>Waveform Audio (WAVEFORMATEXTENSION) is an extended version of the Waveform Audio file format, and was developed by Microsoft. It is related to the Waveform Audio (WAVEFORMATEX) format, but is an even more extended version.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 Feb 2007</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Aug 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>audio/x-wav</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -44,37 +40,31 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>656</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>1 Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>735</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>0 Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1314</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>2 Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1508</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>0 WAVEFORMATEXTENSIBLE Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1509</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>1 WAVEFORMATEXTENSIBLE Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1510</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>2 WAVEFORMATEXTENSIBLE Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

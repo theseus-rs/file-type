@@ -3,10 +3,6 @@
   <FormatName>Monkey's Audio File</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Monkey's Audio is a lossless audio file format created by Matt Ashland.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>18 Aug 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Aug 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1086</Identifier>
     <IdentifierType>PUID</IdentifierType>

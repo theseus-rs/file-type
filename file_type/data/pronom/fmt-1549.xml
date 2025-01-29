@@ -3,11 +3,6 @@
   <FormatName>Bentley Microstation Hidden Line File</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>These are hidden line files, one of a range of files created when using Microstation CAD software for 2D and 3D design, which is produced by Bentley Systems, Incorporated.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>15 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>15 Nov 2021</LastUpdatedDate>
-  <FormatNote>https://communities.bentley.com/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1549</Identifier>
     <IdentifierType>PUID</IdentifierType>

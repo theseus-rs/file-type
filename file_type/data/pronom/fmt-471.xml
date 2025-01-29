@@ -3,11 +3,6 @@
   <FormatName>Hypertext Markup Language</FormatName>
   <FormatVersion>5</FormatVersion>
   <FormatDescription>The HyperText Markup Language (HTML) is a markup language designed for the rendering of information via a web browser. It was originally defined as a highly simplified subset of SGML, but is now an international standard, and is maintained by the World Wide Web Consortium (W3C). A HTML document consists of nested elements, each of which may have attributes and content. It begins with an HTML Document Type declaration. HTML 5 does not explicitly define the HTML version or any Document Type Definition (DTD) within the DOCTYPE tag.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>This signature may be subject to further revision as, at the time of writing, development on the HTML5 standard is still ongoing.</ProvenanceDescription>
-  <LastUpdatedDate>25 Oct 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/471</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -86,13 +81,11 @@ Variant 1: &lt;!(DOCTYPE|doctype){0-4}(HTML|html)&gt;</SignatureNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2099</RelatedFormatID>
     <RelatedFormatName>WARC</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2173</RelatedFormatID>
     <RelatedFormatName>WARC</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

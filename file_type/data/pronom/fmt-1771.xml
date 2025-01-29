@@ -3,11 +3,6 @@
   <FormatName>ESRI Persistent Auxiliary Metadata File</FormatName>
   <FormatTypes>GIS</FormatTypes>
   <FormatDescription>The ESRI Persistent Auxiliary Metadata File is a format produced by ArcGIS software, which accompanies the raster file (and sits alongside it). lnformation for the raster dataset, such a statistics, tables, histograms and co-ordinates, is stored in this auxiliary file if it cannot be stored internally. The files have the extension .aux.xml, but due to limitations of PRONOM, have been added with extension.xml as well as aux.xml.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>22 Sep 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Sep 2022</LastUpdatedDate>
-  <FormatNote>https://pro.arcgis.com/en/pro-app/latest/help/data/imagery/auxiliary-files.htm</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1771</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -46,6 +41,5 @@ EOF, offset 0-1:&lt;/PAMDataset&gt;</SignatureNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

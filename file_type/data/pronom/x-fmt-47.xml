@@ -5,10 +5,6 @@
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>Micrografx Draw &amp; Designer are vector graphics software tools.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/47</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,12 +30,10 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>447</RelatedFormatID>
     <RelatedFormatName>Micrografx Draw</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>448</RelatedFormatID>
     <RelatedFormatName>Micrografx Draw</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

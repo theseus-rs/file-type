@@ -4,10 +4,6 @@
   <FormatVersion>2.0</FormatVersion>
   <FormatTypes>Page Description</FormatTypes>
   <FormatDescription>Portable Document Format is a platform-independent format for representing formatted documents, originally developed by Adobe Systems Incorporated. PDF 2.0 is standardised by ISO 32000-2. A PDF file comprises a Header section, a Body section containing the objects which make up the document, a Cross Reference Table, and a Trailer section. PDF files can contain a wide variety of content, including text, images, video and audio.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>29 Nov 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>29 Nov 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/pdf</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -46,18 +42,15 @@ This signature cannot currently identify files that were incrementally saved to 
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2766</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>4</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2767</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>4e</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2770</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>4f</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

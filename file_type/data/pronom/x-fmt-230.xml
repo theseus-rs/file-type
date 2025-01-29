@@ -4,13 +4,6 @@
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>A format that utilizes the cxcal Instrument Digital Interface (MIDI) protocol to record, store, and read sound event instructions such as pitch, tempo, velocity, and sustain. As the file does not contain actual recorded audio, the file size is greatly reduced.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. Submitted by The Church of Jesus Christ of Latter-day Saints.</ProvenanceDescription>
-  <LastUpdatedDate>22 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://en.wikipedia.org/wiki/MIDI#MIDI_file_format
-https://fileinfo.com/extension/midi</FormatNote>
   <FileFormatIdentifier>
     <Identifier>audio/midi</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -19,25 +12,6 @@ https://fileinfo.com/extension/midi</FormatNote>
     <Identifier>x-fmt/230</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>93</DocumentID>
-    <DisplayText>Standard MIDI-File Fomat Spec. 1.1</DisplayText>
-    <DocumentType>Informative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <AvailabilityNote>http://duskblue.org/proj/toymidi/midiformat.pdf</AvailabilityNote>
-    <PublicationDate>01 May 2006</PublicationDate>
-    <TitleText>Standard MIDI-File Fomat Spec. 1.1</TitleText>
-    <DocumentIdentifier/>
-    <Author>
-      <AuthorID>166</AuthorID>
-      <AuthorName>International MIDI Association</AuthorName>
-      <OrganisationName>International MIDI Association</OrganisationName>
-      <AuthorCompoundName>International MIDI Association / International MIDI Association</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>0</PublisherID>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>309</ExternalSignatureID>
     <Signature>mid</Signature>

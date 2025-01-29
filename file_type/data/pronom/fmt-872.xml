@@ -3,10 +3,6 @@
   <FormatName>Free Lossless Image Format (FLIF)</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>FLIF is a lossless image format, developed by Jon Sneyers. FLIF is based on MANIAC compression. MANIAC (Meta-Adaptive Near-zero Integer Arithmetic Coding) is a variant of CABAC (context-adaptive binary arithmetic coding), where the contexts are nodes of decision trees which are dynamically learned at encode time.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>20 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jan 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/872</Identifier>
     <IdentifierType>PUID</IdentifierType>

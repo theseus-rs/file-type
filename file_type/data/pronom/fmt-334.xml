@@ -2,12 +2,6 @@
   <FormatID>1079</FormatID>
   <FormatName>Crystallographic Information Framework</FormatName>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>University of Southampton / University of Southampton</ProvenanceName>
-  <ProvenanceSourceDate>31 Mar 2011</ProvenanceSourceDate>
-  <ProvenanceDescription>Submitted by Southampton Chemistry Department.
-11/2023 (v.116)- Priority over fmt/101 Extensible Markup Language 1.0. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>16 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/334</Identifier>
     <IdentifierType>PUID</IdentifierType>

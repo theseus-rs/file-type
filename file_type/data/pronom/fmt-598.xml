@@ -4,11 +4,6 @@
   <FormatVersion>2007 onwards</FormatVersion>
   <FormatTypes>Spreadsheet</FormatTypes>
   <FormatDescription>From Microsoft Office 2007 onwards, the core output format of MS Excel has been based on the Office Open XML (OOXML) file format. The ISO standard for OOXML is ISO/IEC DIS 29500. An OOXML file format consists of a compressed zip archive that is designated according to which file type it is. Further detail on OOXML can be found within fmt/189 - Microsoft Office Open XML.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>12 Nov 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>This file format is identified by container signature.</ProvenanceDescription>
-  <LastUpdatedDate>12 Nov 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.openxmlformats-officedocument.spreadsheetml.template</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -26,6 +21,5 @@
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>940</RelatedFormatID>
     <RelatedFormatName>Microsoft Excel for Windows</RelatedFormatName>
-    <RelatedFormatVersion>2007 onwards</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

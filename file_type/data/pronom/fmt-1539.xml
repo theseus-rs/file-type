@@ -3,11 +3,6 @@
   <FormatName>Raster Matrix Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Raster Matrix Format (RMF) is a simple tiled raster format used in the Geographical Information System (GIS) “Integration” and “Panorama” GIS. There are two varieties of RMF called MTW and RSW and this record describes the RSW type. RSW can store 8-bit data and is a general purpose raster that supports single channel colormapped or three channel RGB images. Simple georeferencing can be provided with this image type.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>01 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>01 Nov 2021</LastUpdatedDate>
-  <FormatNote>https://gdal.org/drivers/raster/rmf.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1539</Identifier>
     <IdentifierType>PUID</IdentifierType>

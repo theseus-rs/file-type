@@ -4,11 +4,6 @@
   <FormatVersion>1.7</FormatVersion>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The Digital Negative (DNG) specification describes a non-proprietary file format for storing camera raw files that can be used by a wide range of hardware and software vendors. DNG is an extension of the TIFF format, and is compatible with the TIFF-EP standard. This version was published in May 2023.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>07 Nov 2023</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118)- Signature modified to identify 1.7.0 and 1.7.1 versions. Submitted by Brigham Young University.</ProvenanceDescription>
-  <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1943</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -88,19 +83,16 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>672</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>673</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>752</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -116,6 +108,5 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2694</RelatedFormatID>
     <RelatedFormatName>Digital Negative Format (DNG)</RelatedFormatName>
-    <RelatedFormatVersion>1.6</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

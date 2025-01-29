@@ -8,10 +8,6 @@ In the Ogg multimedia framework, Theora provides a lossy video layer. The audio 
 
 This generic entry applies where available PRONOM signatures for Ogg do not yet apply to the file in question. In this instance you may wish to contact pronom@nationalarchives.gov.uk to help improve PRONOM's signatures.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Jul 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Jul 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/ogg</Identifier>
     <IdentifierType>MIME</IdentifierType>

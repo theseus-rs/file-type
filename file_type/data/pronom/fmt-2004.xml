@@ -3,13 +3,6 @@
   <FormatName>Husqvarna-Viking Designer 1 Stitch File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>A Husqvarna-Viking Designer 1 Stitch File is an embroidery design file found on Floppy disk and USB thumb drives. Files with the extension shv, mhv and phv start with the ascii "Embroidery disk created using software licensed from Viking Sewing Machines AB, Sweden". The Husqvarna-Viking Designer 1 Embroidery machines are a type of floppy disk controlled sewing machine.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>19 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://www.embroidery.com/machine-embroidery-formats
-http://fileformats.archiveteam.org/wiki/SHV
-https://embrilliance.com/Help/Essentials%20Mac%201106/index.html?turl=creatingadesigner1diskorstick.htm</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/2004</Identifier>
     <IdentifierType>PUID</IdentifierType>

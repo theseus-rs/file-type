@@ -3,11 +3,6 @@
   <FormatName>LifeTechnologies SDS</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>SDS (Sequence Detection System) is a file format produced by science company Life Technologies. This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Tessella / Tessella</ProvenanceName>
-  <ProvenanceSourceDate>28 Aug 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>http://www.lifetechnologies.com/uk/en/home/about-us.html</ProvenanceDescription>
-  <LastUpdatedDate>13 Dec 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/586</Identifier>
     <IdentifierType>PUID</IdentifierType>

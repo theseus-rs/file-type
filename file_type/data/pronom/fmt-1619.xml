@@ -3,10 +3,6 @@
   <FormatName>Pascal Source Code</FormatName>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>Files written in Pascal, or Object Pascal, programming language. The files are plain text (and as such can be edited using a plain text editor), and can then be compiled into executable programmes using a Pascal compiler, for example Turbo Pascal.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>03 Feb 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Feb 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1619</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,11 +3,6 @@
   <FormatName>Capture One Settings File</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>File created by created by Capture One software which performs photo editing, raw image file processing of many different raw file types, and image cataloguing. Capture One does not make changes to the original RAW file, instead storing them as adjustments within these component files: Cos files contain the adjustments made to images.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>07 Jul 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>07 Jul 2022</LastUpdatedDate>
-  <FormatNote>https://support.captureone.com/hc/en-us/categories/360000279017-User-Guide</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1725</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -46,6 +41,5 @@ EOF Absolute from end of file, magic bytes: &lt;/IMG&gt;</SignatureNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

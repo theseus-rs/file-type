@@ -3,11 +3,6 @@
   <FormatName>AutoCAD Design Web Format(DWFx)</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>DWFx is the newest version of the AutoCAD Design Web Format (DWF). DWFx is based on the XML Paper Specification (XPS). DWF and DWFx are  compressed file formats which can be suitable for distributing over the Internet for review. You can export a single drawing or publish multiple drawings and sheet sets into a DWF or DWFx file.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>03 Feb 2017</ProvenanceSourceDate>
-  <ProvenanceDescription>This format is identifiable via a container signature in DROID 6 and later.</ProvenanceDescription>
-  <LastUpdatedDate>03 Feb 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/977</Identifier>
     <IdentifierType>PUID</IdentifierType>

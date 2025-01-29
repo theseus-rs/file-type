@@ -6,10 +6,6 @@
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>The CorelDraw Compressed Drawing 2 format is know to be used by Corel ArtShow 6-7 and files can be opened with CorelDraw. Please let the PRONOM team know of other instances in which the underlying format can be found.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/36</Identifier>
     <IdentifierType>PUID</IdentifierType>

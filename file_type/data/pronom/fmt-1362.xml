@@ -3,10 +3,6 @@
   <FormatName>Microsoft MapPoint Document</FormatName>
   <FormatTypes>GIS</FormatTypes>
   <FormatDescription>Microsoft MapPoint files is a GIS format created by the MapPoint software program. The software was designed to allow users to view, edit and integrate maps. It was discontinued in 2014.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>29 Jul 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>29 Jul 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1362</Identifier>
     <IdentifierType>PUID</IdentifierType>

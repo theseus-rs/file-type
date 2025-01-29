@@ -3,10 +3,6 @@
   <FormatName>JPEG XL Codestream</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>JPEG XL is a raster image format standardised by ISO/IEC FDIS 18181-1, that supports lossy and lossless compression. This PUID is for a raw JPEG XL codestream</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>20 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1484</Identifier>
     <IdentifierType>PUID</IdentifierType>

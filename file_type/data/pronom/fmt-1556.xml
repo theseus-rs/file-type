@@ -5,21 +5,6 @@
   <FormatDescription>Starlink Data Format (SDF) was developed for Starlink project which was set up in late 1980s to
 provide data reduction software and facilities to United Kingdom astronomers. The format has an extention .sdf and is the binary format that stores structures of data using Hierarchical Data System (HDS) library, that implements the SDF format, providing the hierarchical structuting with the ability to read and write SDF format. In mid-1980s a standard for writing information collected accompaining the volumetric data astronomy, (e.g. sky coordinations, what telescope took the measurements, errors, and other directly related measurements) was created, titled as the N-Dimensional Data Format (NDF). NDF serves as a data model, organasing and storing the bulk data collected in the form of N-dimensional arrays of numbers. The NDF format is based on the Hierarchical Data System (HDS) and is extensible; not only does it provide a comprehensive set of standard ancillary items to describe the data, it can also be extended indefinitely to handle additional user-defined information of any type.
 Prior to mid1980s, the most significant pre-NDF format used by a major data analysis package was called FIGARO, developed at the Anglo-Australian Observatory but was eventually was converted to use NDF.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Nov 2021</LastUpdatedDate>
-  <FormatNote>https://arxiv.org/pdf/1410.7513.pdf
-
-http://ascl.net/1411.023
-
-https://ascl.net/1502.009
-
-http://starlink.eao.hawaii.edu/starlink
-
-https://github.com/Starlink
-
-https://en.wikipedia.org/wiki/Starlink_Project</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1556</Identifier>
     <IdentifierType>PUID</IdentifierType>

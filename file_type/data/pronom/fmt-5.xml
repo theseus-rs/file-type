@@ -7,11 +7,6 @@
   <FormatDescription>Audio/Video Interleaved Format (AVI) is a chunk-based video format developed by Microsoft, based on the generic Resource Interchange File Format (RIFF) specification developed by Microsoft and IBM. Structurally, an AVI file is composed of a number of chunks, each comprising a four character code chunk identifier, the chunk size, and the chunk data. It comprises a RIFF header with an AVI data type identifier, followed by a series of chunks. Every file must include two List chunks. The first List chunk is the main AVI header chunk, which contain one or more Stream Header chunks, one for each data stream, describing the format of the data streams. The second LIST chunk is the ‘movi’ chunk, which contains the actual data for the audio and video data streams. Other optional chunks are also allowed. The format supports a wide variety of compressed and uncompressed video encodings, but all audio streams are stored in Microsoft’s Waveform Audio format.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113) - Added priority over fmt/1886 (Resource Interchange Format (RIFF)) and simplified internal signature to reduce identification tool processing time. Submitted by Preservica and New York Public Libraries.</ProvenanceDescription>
-  <LastUpdatedDate>14 Aug 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/5</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -24,28 +19,6 @@
     <Identifier>video/x-msvideo</Identifier>
     <IdentifierType>MIME</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>6</DocumentID>
-    <DisplayText>Microsoft Corporation, 2004, Microsoft DirectX 9.0 SDK Update: AVI File Format</DisplayText>
-    <DocumentType>Authoritative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>01 Oct 2004</PublicationDate>
-    <TitleText>Microsoft DirectX 9.0 SDK Update: AVI File Format</TitleText>
-    <DocumentIdentifier>
-      <Identifier>msdn.microsoft.com/library/default.asp?url=/library/en-us/directshow/htm/avifileformat.asp</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>93</AuthorID>
-      <OrganisationName>Microsoft Corporation</OrganisationName>
-      <AuthorCompoundName>Microsoft Corporation</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>93</PublisherID>
-      <OrganisationName>Microsoft Corporation</OrganisationName>
-      <PublisherCompoundName>Microsoft Corporation</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>698</ExternalSignatureID>
     <Signature>avi</Signature>

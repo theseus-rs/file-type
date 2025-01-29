@@ -5,11 +5,6 @@
   <FormatDescription>Animated Cursor Format (ANI), also known as Windows NT Animated Cursor, is a chunk-based bitmap format developed by Microsoft, based on the generic Resource Interchange File Format (RIFF) specification developed by Microsoft and IBM. Structurally, an ANI file is composed of a number of chunks, each comprising a four character code chunk identifier, the chunk size, and the chunk data. It comprises a RIFF header with an ANI data type identifier, followed by a series of chunks which contain two or more bitmaps stored in an ANI file. Each bitmap is typically either a Windows cursor or icon data, but may also be raw, uncompressed bitmaps. Additional information stored in the ANI file controls the rate and the sequence in which each frame is displayed. 
 Furthe information regarding this and other RIFF formats can be found at http://oreilly.com/www/centers/gff/formats/micriff/</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2011</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113) - Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica.</ProvenanceDescription>
-  <LastUpdatedDate>14 Aug 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/386</Identifier>
     <IdentifierType>PUID</IdentifierType>

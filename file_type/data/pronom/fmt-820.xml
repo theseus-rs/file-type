@@ -2,10 +2,6 @@
   <FormatID>1620</FormatID>
   <FormatName>T64 Tape Image Format</FormatName>
   <FormatDescription>T64 is a Commodore 64 emulation format designed by Miha Peternel, for use with his C64s emulator.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/820</Identifier>
     <IdentifierType>PUID</IdentifierType>

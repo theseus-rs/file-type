@@ -3,13 +3,6 @@
   <FormatName>Web Video Text Tracks (WebVTT) Format</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>WebVTT files are used for captioning or subtitling video content. It is a standard created by the World Wide Web Consortium (W3C) for displaying timed text, and is linked to the HTML5 &lt;track&gt; element. The primary purpose of WebVTT files is to add text overlays to a video. Each time interval is specified in the format (HH:)mm:ss.xxx --&gt; (HH:)mm:ss:xxx e.g. 00:00.000 --&gt; 00:02.310 or 01:00:05.000 --&gt; 01:00:07.000. The (HH:) is optional, but if included must have a minimum of 2 digits representing the hour (more than 2 digits may be used), and where both the minute (mm) and second (ss) parts must be between 00 and 59 inclusive.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>LIBNOVA / LIBNOVA</ProvenanceName>
-  <ProvenanceSourceDate>16 Nov 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Mar 2023</LastUpdatedDate>
-  <FormatNote>https://www.w3.org/TR/webvtt1/
-https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API 
-https://www.iana.org/assignments/media-types/text/vtt</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1454</Identifier>
     <IdentifierType>PUID</IdentifierType>

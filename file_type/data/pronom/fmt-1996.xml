@@ -2,11 +2,6 @@
   <FormatID>2870</FormatID>
   <FormatName>SPIR-V</FormatName>
   <FormatDescription>SPIR-V is a binary intermediate language for graphical shaders and compute kernels, created by Khronos.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>19 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Apr 2024</LastUpdatedDate>
-  <FormatNote>Specification: https://registry.khronos.org/SPIR-V/specs/unified1/SPIRV.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1996</Identifier>
     <IdentifierType>PUID</IdentifierType>

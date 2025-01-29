@@ -3,10 +3,6 @@
   <FormatName>Uuencoded File</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>Uuencoding, (Unix-to-Unix encoding) is a binary to text encoding mechanism created by Mary Ann Horton for encoding binary data for transmission in email systems.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Sep 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Sep 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1102</Identifier>
     <IdentifierType>PUID</IdentifierType>

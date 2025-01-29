@@ -3,10 +3,6 @@
   <FormatName>PEA Archive Format</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>PEA (an acronym of Pack Encrypt Authenticate) is the native format of PeaZip, an open source file archiver created by Giorgio Tani.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>19 Sep 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Sep 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1095</Identifier>
     <IdentifierType>PUID</IdentifierType>

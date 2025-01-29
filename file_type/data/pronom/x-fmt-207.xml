@@ -5,10 +5,6 @@
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>X-Windows Bitmap is a binary image format, for storing cursor and icon bitmaps used in the X graphical user interface</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Mar 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>image/x-xbitmap</Identifier>
     <IdentifierType>MIME</IdentifierType>

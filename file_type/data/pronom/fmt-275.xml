@@ -5,16 +5,6 @@
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>Microsoft Access ACCDB Database File is proprietary file format developed and used by Microsoft as a native format for its Microsoft Access desktop database management system. The format was introduced with Microsoft Access 2007 version of database system, replacing the MDB file format. First released in 1992, starting with version 1.0 the earlier versions of the database used the Jet Database Engine. For a full list of versions please follow the links provided in the Notes section.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>17 Mar 2010</ProvenanceSourceDate>
-  <ProvenanceDescription>DROID 5.0 research.</ProvenanceDescription>
-  <LastUpdatedDate>02 May 2023</LastUpdatedDate>
-  <FormatNote>https://web.archive.org/web/20220711181532/http://fileformats.archiveteam.org/wiki/Access
-
-https://web.archive.org/web/20220901011824/https://en.wikipedia.org/wiki/Microsoft_Access
-
-https://www.loc.gov/preservation/digital/formats/fdd/fdd000463.shtml</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fdd000463</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -54,6 +44,5 @@ https://www.loc.gov/preservation/digital/formats/fdd/fdd000463.shtml</FormatNote
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>353</RelatedFormatID>
     <RelatedFormatName>Microsoft Access Database File</RelatedFormatName>
-    <RelatedFormatVersion>2002</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

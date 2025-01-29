@@ -4,10 +4,6 @@
   <FormatVersion>2.3.x</FormatVersion>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Exchangeable image file format (Exif) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>24 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1507</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>Acrobat Language definition file</FormatName>
   <FormatDescription>Acrobat language plug-in which adds support for additional languages in Adobe Acrobat.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Feb 2007</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Feb 2007</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/427</Identifier>
     <IdentifierType>PUID</IdentifierType>

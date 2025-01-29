@@ -3,10 +3,6 @@
   <FormatName>HTML Components</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>HTML Components (HTCs) are a legacy technology used to implement components in script as Dynamic HTML (DHTML) "behaviors" in the Microsoft Internet Explorer web browser.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Jun 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Jun 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/886</Identifier>
     <IdentifierType>PUID</IdentifierType>

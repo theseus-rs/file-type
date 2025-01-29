@@ -3,10 +3,6 @@
   <FormatName>Windows Cabinet File</FormatName>
   <FormatDescription>An archive format native to Microsoft Windows that contains compressed data.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Feb 2007</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Feb 2007</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-cab-compressed</Identifier>
     <IdentifierType>MIME</IdentifierType>

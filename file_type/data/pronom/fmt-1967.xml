@@ -16,15 +16,6 @@ Solidworks Slide File (.sld): An image capture of a drawing, which can be used d
 SolidWorks Library Feature Part (.sldlfp): Used in conjuntion with the SolidWorks Design library.
 
 .slddrt Solidworks Drawing Sheet: Contains the dimensions needed to load sheet files including orientation, border lines and table anchor points, so a user can create an appropriately-sized drawing file (.sldddrw). Slddrt files may also contain logos, guidelines, and fields used to show drawing properties.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>28 Feb 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Feb 2024</LastUpdatedDate>
-  <FormatNote>https://www.reddit.com/r/SolidWorks/comments/14d995l/how_can_i_open_a_sldlfp_file/
-https://www.file-extension.org/extensions/sldlfp
-https://help.solidworks.com/2021/english/SolidWorks/sldworks/c_create_a_library_feature.html
-
-https://fileinfo.com/extension/slddrt</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1967</Identifier>
     <IdentifierType>PUID</IdentifierType>

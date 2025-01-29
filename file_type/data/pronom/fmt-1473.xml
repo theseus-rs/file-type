@@ -3,17 +3,6 @@
   <FormatName>Archimedes Tracker Module</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Archimedes Tracker Module is a music file format native to the Tracker software created by Fabrice Mercier for the Acorn Archimedes running RISC OS.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Audio_and_Music#Music_trackers
-
-https://stardot.org.uk/forums/viewtopic.php?t=13485
-
-https://forums.jaspp.org.uk/forum/viewtopic.php?f=15&amp;t=79
-
-https://blog.sphere.chronosempire.org.uk/2014/02/02/crystal-maze-theme</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1473</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>Digital Speech Standard</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Digital Speech Standard is a proprietary audio file format for the storage of digital speech recordings, which was jointly developed and introduced by Olympus, Grundig and Philips.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>22 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1007</Identifier>
     <IdentifierType>PUID</IdentifierType>

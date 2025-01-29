@@ -4,10 +4,6 @@
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>3DS is one of the file formats used by the Autodesk 3ds Max 3D modeling, animation and rendering software.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>17 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/19</Identifier>
     <IdentifierType>PUID</IdentifierType>

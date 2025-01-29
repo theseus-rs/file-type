@@ -5,10 +5,6 @@
   <FormatDescription>XML Schemas Definition files define the structure, and content of XML documents. They are used to express a set of rules to which an XML document must conform in order to be considered 'valid' in accordance to the particular schema referenced.
 Full specifications can be found at http://www.w3.org/TR/xmlschema-0/</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>01 Nov 2011</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/xml</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -50,18 +46,15 @@ Full specifications can be found at http://www.w3.org/TR/xmlschema-0/</FormatDes
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1852</RelatedFormatID>
     <RelatedFormatName>Geography Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>3.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>2192</RelatedFormatID>
     <RelatedFormatName>xdomea</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

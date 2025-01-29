@@ -4,10 +4,6 @@
   <FormatAliases>Yozo Office Document</FormatAliases>
   <FormatTypes>Presentation, Spreadsheet, Word Processor</FormatTypes>
   <FormatDescription>EIOffice is an office productivity suite developed by Evermore Software. The suite was renamed to Yozo Office as of 2010. Word Processed documents, Spreadsheets, and Presentation formats share the same extension. It may be possible to distinguish between the different format types with further research.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1292</Identifier>
     <IdentifierType>PUID</IdentifierType>

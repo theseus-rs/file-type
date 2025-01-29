@@ -3,10 +3,6 @@
   <FormatName>DiskDoubler</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>DiskDoubler is a data compression utility for the Apple Macintosh. Individual files are compressed by the software, but their file system details do not change, meaning files subject to DiskDoubler compression retain their original names, including file extensions. As such DROID and other PRONOM-based file format identification tools may report file format mismatch for DiskDoubler-compressed files.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>26 Sep 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1399</Identifier>
     <IdentifierType>PUID</IdentifierType>

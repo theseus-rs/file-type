@@ -4,10 +4,6 @@
   <FormatVersion>ASCII</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>The RData format is created by the R development environment for statistical computing. The format serialises the entire workspace and can include data frames and other objects that can later be loaded back in to the R environment. By default the RData format is compressed within a GZip container.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Borthwick Institute for Archives / The Borthwick Institute for Archives</ProvenanceName>
-  <ProvenanceSourceDate>15 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>15 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fdd000470</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>

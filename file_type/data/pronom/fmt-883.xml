@@ -3,10 +3,6 @@
   <FormatName>Siegfried Signature File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>The Siegfried signature file is used by Siegfried, a file format identification tool created by Richard Lehane that uses PRONOM, and freedesktop.org's MIME-info file format signatures.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Jun 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Jun 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/883</Identifier>
     <IdentifierType>PUID</IdentifierType>

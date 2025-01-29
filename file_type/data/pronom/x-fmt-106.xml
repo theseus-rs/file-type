@@ -3,13 +3,6 @@
   <FormatName>Microsoft Symbolic Link (SYLK) File</FormatName>
   <FormatDescription>The SYLK (SYmbolic LinK) file format is a ASCII format used to exchange information between versions of Multiplan and spreadsheets such as Excel.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- description updated, internal signature max offset values changed from null to 0 and EOF signature modified to accommodate for different operating systems. Submitted by Brigham Young University as part of PRONOM Research Week.</ProvenanceDescription>
-  <LastUpdatedDate>14 Nov 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/SYLK
-http://netghost.narod.ru/gff/graphics/summary/micsylk.htm</FormatNote>
   <FileFormatIdentifier>
     <Identifier>x-fmt/106</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -7,11 +7,6 @@
   <FormatDisclosure>Full</FormatDisclosure>
   <FormatDescription>The HyperText Markup Language (HTML) is a markup language designed for the rendering of information via a web browser. It was originally defined as a highly simplified subset of SGML, but is now an international standard, and is maintained by the World Wide Web Consortium (W3C). A HTML document consists of nested elements, each of which may have attributes and content. It begins with an HTML Document Type declaration, defining the HTML version and Document Type Definition (DTD) to which it conforms. HTML 3.2 was the first major revision to the original HTML 2.0 specification.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ReleaseDate>14 Jan 1997</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/98</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -24,28 +19,6 @@
     <Identifier>text/html</Identifier>
     <IdentifierType>MIME</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>27</DocumentID>
-    <DisplayText>World Wide Web Consortium, 1997, W3C Recommendation: HTML 3.2 Reference Specification</DisplayText>
-    <DocumentType>Authoritative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>14 Jan 1997</PublicationDate>
-    <TitleText>W3C Recommendation: HTML 3.2 Reference Specification</TitleText>
-    <DocumentIdentifier>
-      <Identifier>www.w3.org/TR/REC-html32</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>106</AuthorID>
-      <OrganisationName>World Wide Web Consortium</OrganisationName>
-      <AuthorCompoundName>World Wide Web Consortium</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>106</PublisherID>
-      <OrganisationName>World Wide Web Consortium</OrganisationName>
-      <PublisherCompoundName>World Wide Web Consortium</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>567</ExternalSignatureID>
     <Signature>htm</Signature>
@@ -72,13 +45,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>310</RelatedFormatID>
     <RelatedFormatName>Internet Archive</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -89,7 +60,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1158</RelatedFormatID>
     <RelatedFormatName>Internet Archive</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -115,13 +85,11 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2099</RelatedFormatID>
     <RelatedFormatName>WARC</RelatedFormatName>
-    <RelatedFormatVersion>1.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2173</RelatedFormatID>
     <RelatedFormatName>WARC</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -132,12 +100,10 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>641</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>4.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>639</RelatedFormatID>
     <RelatedFormatName>Hypertext Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

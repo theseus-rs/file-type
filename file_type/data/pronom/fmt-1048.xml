@@ -3,10 +3,6 @@
   <FormatName>OGR GFS File</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>The GFS file is used by the OGR Geography Markup Language reader to predefine dataset level information in the absense of an XML Schema definition for the feature classes within the GML file. Its purpose and syntax is described here: http://www.gdal.org/drv_gml.html</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Archaeology Data Service / Archaeology Data Service</ProvenanceName>
-  <ProvenanceSourceDate>18 May 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>18 May 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1048</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -7,12 +7,6 @@
 
 This format is currently deprecated in favour of fmt/414 in order to remove a multiple identification conflict. Differences between version 1.2 and 1.3 relate to Apple II-specific application implementation. See the full specification for details.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ReleaseDate>04 Jan 1989</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>File format information supplied by NARA Information Services/Applied Research Division, The National Archives and Records Administration.</ProvenanceDescription>
-  <LastUpdatedDate>25 Oct 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/135</Identifier>
     <IdentifierType>PUID</IdentifierType>

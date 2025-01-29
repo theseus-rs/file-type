@@ -4,17 +4,6 @@
   <FormatAliases>Pentax RAW</FormatAliases>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Pentax PEF Image File (or Pentax RAW) is a RAW image format based on TIFF [fmt/353] file format, provided by Pentax and associated with Pentax Digital SLR cameras. Its use has been deprecated since the release of DNG format. Similarly to RAW camera formats, PEF format contains information of image capture such as colour, lighting or camera sensor. The structure of these informations related to each image differs in each PEF format depending on which camera model was used to capture the image. The format first appeared with Pentax's digital *its Series and continued until Pentax Q series.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>17 Oct 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>17 Oct 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Pentax_PEF
-
-https://www.online-convert.com/file-format/pef
-
-https://www.pentaxforums.com/forums/131-visitors-center/355882-pef-raw.html
-
-https://www.loc.gov/preservation/digital/formats/fdd/fdd000241.shtml</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1781</Identifier>
     <IdentifierType>PUID</IdentifierType>

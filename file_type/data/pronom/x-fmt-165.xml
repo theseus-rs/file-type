@@ -4,10 +4,6 @@
   <FormatVersion>1.0</FormatVersion>
   <FormatDescription>PUID deprecated in favour of fmt/211 Kodak Photo CD Image</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/165</Identifier>
     <IdentifierType>PUID</IdentifierType>

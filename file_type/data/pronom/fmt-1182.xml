@@ -3,10 +3,6 @@
   <FormatName>Blitz3D File Format</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>The Blitz3D file format specifies a format for storing texture, brush and entity descriptions for use with the Blitz3D programming language.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>07 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>07 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1182</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>DVD data file and backup data file</FormatName>
   <FormatDescription>IFO files contain DVD-Video Disc Information including headers that tell the DVD player what screen to show at startup, where each chapter starts, where audio tracks are located on the disc, etc. IFO files are accompanied by BUP files which are backups of the IFO files and therefore completely identical.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Feb 2007</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/419</Identifier>
     <IdentifierType>PUID</IdentifierType>

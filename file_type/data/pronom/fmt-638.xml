@@ -3,10 +3,6 @@
   <FormatName>SPSS Data File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>SPSS (Statistical Package for the Social Sciences) is a software package used for statistical analysis in the social sciences. The first version of SPSS was developed by SPSS Inc. in 1968. In 2009 SPSS Inc. was acquired by IBM.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>KULeuven - LIBIS / KULeuven - LIBIS</ProvenanceName>
-  <ProvenanceSourceDate>21 Feb 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Feb 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/638</Identifier>
     <IdentifierType>PUID</IdentifierType>

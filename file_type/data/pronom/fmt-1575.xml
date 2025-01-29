@@ -5,21 +5,6 @@
   <FormatDescription>Spectrum 512 was a computer paint program by Boris Tsikanovsky that enabled the creation of images with more than 16 simultaneous colors. It uses the Atari ST's rapid palette switching ability to expand the maximum number of colors to be displayed on-screen at once to 512 (up to 46 in each scan line). Spectrum 512 is a predecessor of Unispec. 
 
 This specific file format record details Spectrum 512 compressed formats. There are two varieties of compression in Spectrum 512 formats, first is Spectrum 512 Compressed and second Spectrum 512 Smooshed. Both of these formats have an identical file format signiture (magic bytes) and the only way to distinguish between these formats is by their extension. The Spectrum 512 Compressed format uses .spc and the Spectrum 512 Smooshed format uses .sps extension. Compression is via a modified run length encoding (RLE) scheme in both of these formats however, the files differ in in a compression methods depending on format type.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>04 Jan 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>04 Jan 2022</LastUpdatedDate>
-  <FormatNote>https://doudoroff.com/atari/spectrum.html
-
-https://temlib.org/AtariForumWiki/index.php/Spectrum_512_Smooshed_file_format
-
-https://temlib.org/AtariForumWiki/index.php/Spectrum_512_Compressed_file_format
-
-https://en.wikipedia.org/wiki/Atari_ST
-
-http://www.atarimania.com/utility-atari-st-spectrum-512_22312.html
-
-http://fileformats.archiveteam.org/wiki/Spectrum_512_formats</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1575</Identifier>
     <IdentifierType>PUID</IdentifierType>

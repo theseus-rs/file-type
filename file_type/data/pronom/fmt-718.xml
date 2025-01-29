@@ -4,10 +4,6 @@
   <FormatVersion>3</FormatVersion>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>The S3M format is an advanced audio sequencing format developed by Sami Tammilehto, and is the successor to the STM format used by the original Scream Tracker Audio software. Both formats are based on the original MOD format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>12 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/718</Identifier>
     <IdentifierType>PUID</IdentifierType>

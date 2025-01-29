@@ -4,10 +4,6 @@
   <FormatVersion>1-2</FormatVersion>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>The STM format is an audio sequencing format developed by Sami Tammilehto, based on the original MOD Audio Module format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>12 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/717</Identifier>
     <IdentifierType>PUID</IdentifierType>

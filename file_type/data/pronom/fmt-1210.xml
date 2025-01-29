@@ -3,11 +3,6 @@
   <FormatName>Wavefront OBJ File</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>OBJ is an ASCII format for representing 3D geometry. The OBJ format supports both polygonal objects and free-form objects. Polygonal geometry uses points, lines, and faces to define objects while free-form geometry uses curves and surfaces.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Archaeology Data Service / Archaeology Data Service</ProvenanceName>
-  <ProvenanceSourceDate>17 Aug 2018</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023- Modified BOF signature to increase two of the byte ranges. Submitted by Preservica.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1210</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>Bodypaint 3D</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>BodyPaint 3D is 3D painting application created by Maxon. It is primarily used to create textures for 3D models.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>07 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>07 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1181</Identifier>
     <IdentifierType>PUID</IdentifierType>

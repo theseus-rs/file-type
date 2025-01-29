@@ -4,14 +4,6 @@
   <FormatVersion>6-7</FormatVersion>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>Roxio Label Creator Project File is format used for storing project files produced by Roxio's Label Creator software, a software used for creating designs intended for jewel cases and disc labels. There are several known versions of this format with earlier versions being stored as OLE2 container format, such as the one this record describes.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Esri / Esri</ProvenanceName>
-  <ProvenanceSourceDate>25 Feb 2022</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>25 Feb 2022</LastUpdatedDate>
-  <FormatNote>https://archive.org/details/roxio_label_creator/04_roxio_cd_label_creator.jpeg
-
-http://fileformats.archiveteam.org/wiki/JWL</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1645</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -30,12 +22,10 @@ http://fileformats.archiveteam.org/wiki/JWL</FormatNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2473</RelatedFormatID>
     <RelatedFormatName>Roxio Label Creator Project File</RelatedFormatName>
-    <RelatedFormatVersion>8-11</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2471</RelatedFormatID>
     <RelatedFormatName>Roxio Label Creator Project File</RelatedFormatName>
-    <RelatedFormatVersion>4-5</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

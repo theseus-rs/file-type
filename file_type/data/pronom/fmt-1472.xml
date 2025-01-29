@@ -3,13 +3,6 @@
   <FormatName>Magic Shadow Archiver Disk Image File</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>Magic Shadow Archiver is a file format created by the eponomously named software package for creating floppy disk image files for Atari ST computers. It is additionally supported by Atari emulators.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>30 Jun 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/MSA_(Magic_Shadow_Archiver)
-
-http://info-coach.fr/atari/documents/_mydoc/FD_Image_File_Format.pdf</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/vnd.msa-disk-image</Identifier>
     <IdentifierType>MIME</IdentifierType>

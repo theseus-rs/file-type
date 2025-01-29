@@ -3,10 +3,6 @@
   <FormatName>LocoFile</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>The LocoFile Datafile format is a database format produced by LocoFile, an add-on first released in 1988 for the Amstrad PCW's LocoScript 2 word processor and supported in all subsequent versions of LocoScript. LocoFile Datafiles store indexed records, such as addresses indexed by name, which could be accessed while editing LocoScript documents or automatically inserted into document templates for batch processing.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>British Library / British Library</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1310</Identifier>
     <IdentifierType>PUID</IdentifierType>

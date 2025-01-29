@@ -3,11 +3,6 @@
   <FormatName>Industry Foundation Classes XML</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>The Industry Foundation Classes (IFC) data model is intended to describe building and construction industry data. ifcxml is an XML-based format that is suitable for interoperability with XML tools and exchanging partial building models.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>http://www.buildingsmart-tech.org/downloads/accompanying-documents/guidelines/ifcXML%20Implementation%20Guide%20v2-0.pdf</ProvenanceDescription>
-  <LastUpdatedDate>23 Sep 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/663</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +28,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

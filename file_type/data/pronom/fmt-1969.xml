@@ -3,14 +3,6 @@
   <FormatName>ETC Express/Expression Show File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>This file was created for ETC’s Express or Expression console, a device used for venue lighting. The file would be stored on a floppy disk for use in the console itself.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>08 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>08 Apr 2024</LastUpdatedDate>
-  <FormatNote>Expression Off-Line QuickGuide Version 3.1 https://web.archive.org/web/20051126055839/http://www.etcconnect.com/docs_downloads/manuals/Expression_Off-Line_v3.1_Quick_Guide.pdf
-Expression Console Technical Support https://www.etcconnect.com/Products/Legacy/Console/Others/Expression/Support-Articles.aspx
-Express Console Technical Support https://www.etcconnect.com/Products/Legacy/Console/Others/Express/Software.aspx
-File Format Wiki entry http://fileformats.archiveteam.org/wiki/ETC_Show_File</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1969</Identifier>
     <IdentifierType>PUID</IdentifierType>

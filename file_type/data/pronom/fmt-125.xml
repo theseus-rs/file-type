@@ -7,11 +7,6 @@
   <FormatDescription>Powerpoint format is a presentation format developed by Microsoft. Powerpoint 95 format is the native format of Powerpoint 95. The format is proprietary and Microsoft does not make details of its structure public. The information here is derived primarily from OpenOffice.org's reverse-engineered documentation of the format and should not therefore be regarded as definitive. Powerpoint 95 is based on Microsoft’s generic OLE2 Compound Document Format. A Powerpoint presentation is stored as a ‘PowerPoint Document’ stream within a Compound Document Format file.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>This format is identifiable via a container signature in DROID 6 and later.</ProvenanceDescription>
-  <LastUpdatedDate>30 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-powerpoint</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -24,28 +19,6 @@
     <Identifier>fmt/125</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>11</DocumentID>
-    <DisplayText>OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Compound Document file format</DisplayText>
-    <DocumentType>Speculative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>15 Sep 2004</PublicationDate>
-    <TitleText>OpenOffice.org's documentation of the Microsoft Compound Document file format</TitleText>
-    <DocumentIdentifier>
-      <Identifier>sc.openoffice.org/compdocfileformat.pdf</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>103</AuthorID>
-      <OrganisationName>OpenOffice.org</OrganisationName>
-      <AuthorCompoundName>OpenOffice.org</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>103</PublisherID>
-      <OrganisationName>OpenOffice.org</OrganisationName>
-      <PublisherCompoundName>OpenOffice.org</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>128</ExternalSignatureID>
     <Signature>ppt</Signature>
@@ -76,7 +49,6 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>135</RelatedFormatID>
     <RelatedFormatName>Microsoft Powerpoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -87,13 +59,11 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>135</RelatedFormatID>
     <RelatedFormatName>Microsoft Powerpoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>97-2003</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>133</RelatedFormatID>
     <RelatedFormatName>Microsoft PowerPoint Presentation</RelatedFormatName>
-    <RelatedFormatVersion>4.x</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>

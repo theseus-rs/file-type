@@ -4,13 +4,6 @@
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>An archive format primarily for Unix/Linux operating systems and which utilizes the GNU zip (gzip) compression method.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. The Church of Jesus Christ of Latter-day Saints.</ProvenanceDescription>
-  <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://fileinfo.com/extension/gz
-https://filext.com/file-extension/GZ</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/gzip</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -48,13 +41,11 @@ https://filext.com/file-extension/GZ</FormatNote>
     <RelationshipType>Can contain</RelationshipType>
     <RelatedFormatID>2008</RelatedFormatID>
     <RelatedFormatName>RData</RelatedFormatName>
-    <RelatedFormatVersion>Binary</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Can contain</RelationshipType>
     <RelatedFormatID>2009</RelatedFormatID>
     <RelatedFormatName>RData</RelatedFormatName>
-    <RelatedFormatVersion>ASCII</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Can contain</RelationshipType>
@@ -65,6 +56,5 @@ https://filext.com/file-extension/GZ</FormatNote>
     <RelationshipType>Can contain</RelationshipType>
     <RelatedFormatID>2286</RelatedFormatID>
     <RelatedFormatName>Ableton Live Set</RelatedFormatName>
-    <RelatedFormatVersion>8.2.1 onwards</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

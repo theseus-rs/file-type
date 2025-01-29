@@ -4,13 +4,6 @@
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>The Audio Interchange File Format, Compressed (AIFF-C) provides a standard for storing uncompressed or compressed sampled sounds.  The format can store monaural or multichannel sampled sounds in a range of sample rates and sample widths.  The format is extensible to handle new compression types and application-specific data.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ReleaseDate>26 Aug 1991</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>Further information about this file format can be obtained at 
-http://www-mmsp.ece.mcgill.ca/documents/audioformats/aiff/docs/aiff-c.9.26.91.pdf</ProvenanceDescription>
-  <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>audio/x-aiff</Identifier>
     <IdentifierType>MIME</IdentifierType>

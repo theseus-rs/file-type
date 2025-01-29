@@ -3,14 +3,6 @@
   <FormatName>7Zip format</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>An archive format associated with the 7-Zip application. Its default compression method is LZMA, but it supports other compression methods as well.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>18 Dec 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118): Description and links added as part of PRONOM Research Week 2023. The Church of Jesus Christ of Latter-day Saints.</ProvenanceDescription>
-  <LastUpdatedDate>17 Apr 2024</LastUpdatedDate>
-  <FormatNote>https://7-zip.org/7z.html
-https://filext.com/file-extension/7Z
-https://fileinfo.com/extension/7z</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/484</Identifier>
     <IdentifierType>PUID</IdentifierType>

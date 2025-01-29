@@ -5,11 +5,6 @@
   <FormatDescription>Prism Paint Bitmap is a raster graphics format associated with the Prism Paint program for Atari computers. It usually uses PackBits compression.
 
 It is likely to be the same as the TruePaint TPI format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>19 Jul 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Jul 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Prism_Paint</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1732</Identifier>
     <IdentifierType>PUID</IdentifierType>

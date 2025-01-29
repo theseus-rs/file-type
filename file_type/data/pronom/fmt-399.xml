@@ -2,10 +2,6 @@
   <FormatID>1147</FormatID>
   <FormatName>Stuffit X Archive File</FormatName>
   <FormatDescription>The Stuffit X Archive format was developed in 2002 by Aladdin Systems, offering further compression methods and encryption options over the original Stuffit Archive format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>21 Feb 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Feb 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/399</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -369,7 +369,6 @@ pub(crate) async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static Fi
 ///
 /// # Errors
 /// if the file type is unknown
-#[cfg(feature = "std")]
 pub(crate) fn try_from_reader_sync<R: Read>(
     mut reader: R,
     extension: Option<&str>,
@@ -387,7 +386,6 @@ pub(crate) fn try_from_reader_sync<R: Read>(
 ///
 /// # Errors
 /// if the file type is unknown
-#[cfg(feature = "std")]
 pub(crate) fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<&'static FileType> {
     let path = path.as_ref();
     let extension = path.extension().and_then(|ext| ext.to_str());

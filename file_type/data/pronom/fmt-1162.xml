@@ -3,10 +3,6 @@
   <FormatName>Folio Flat File</FormatName>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>The Folio Flat File format is a Folio Infobase flattened into an SGML representation, which can then potentially be imported into other applications.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>26 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1162</Identifier>
     <IdentifierType>PUID</IdentifierType>

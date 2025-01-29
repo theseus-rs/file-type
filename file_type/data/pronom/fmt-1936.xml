@@ -3,10 +3,6 @@
   <FormatName>PCRaster</FormatName>
   <FormatTypes>GIS</FormatTypes>
   <FormatDescription>This file format stores 2-dimensional geographic data, and is a native format of PCRaster, a software suite used in the field of environmental modelling.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>19 Oct 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Oct 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1936</Identifier>
     <IdentifierType>PUID</IdentifierType>

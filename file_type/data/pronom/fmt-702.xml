@@ -3,11 +3,6 @@
   <FormatName>Universal 3D File Format</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Universal 3D (U3D) is a compressed file format standard for 3D computer graphics data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Feb 2015</ProvenanceSourceDate>
-  <ProvenanceDescription>http://en.wikipedia.org/wiki/Universal_3D</ProvenanceDescription>
-  <LastUpdatedDate>11 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/702</Identifier>
     <IdentifierType>PUID</IdentifierType>

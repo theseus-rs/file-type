@@ -4,11 +4,6 @@
   <FormatVersion>4</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>The LocoScript 4 Document format is a proprietary word processing format produced by LocoScript 4, a word processor released in 1996 for Amstrad PCWs.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>British Library / British Library</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote>https://www.seasip.info/Unix/Joyce/ls1frm.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1307</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -5,13 +5,6 @@
   <FormatDescription>OrCAD, a proprietary software tool suite used primarily for electronic design automation (EDA). The software is used mainly by electronic design engineers and electronic technicians to create electronic schematics, perform mixed-signal simulation and electronic prints for manufacturing printed circuit boards. OrCAD was taken over by Cadence Design Systems in 1999 and was integrated with Cadence Allegro since 2005.
 
 A OrCAD Project File (.OPJ) is a container for the OrCAD design file (.DSN). In addition, a project file also includes simulation profile and layout information.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>08 Dec 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>08 Dec 2021</LastUpdatedDate>
-  <FormatNote>https://file.org/extension/opj
-
-https://www.orcad.com/documentation/creating-new-project</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1572</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -8,10 +8,6 @@
   <FormatDescription>The Binary Interchange File Format (BIFF) is a spreadsheet file format developed by Microsoft. BIFF 8X is a native file format of Microsoft Excel XP. The format is proprietary and Microsoft does not make details of its structure public. The information here is derived primarily from OpenOffice.org's reverse-engineered documentation of the format and should not therefore be regarded as definitive. BIFF 8X is based on Microsoft’s generic OLE2 Compound Document Format. An Excel workbook is stored as a ‘Book’ stream within a Compound Document Format file. The Book stream comprises a Workbook Globals Substream, containing a Beginning of File (BOF) record, the Workbook global records, and terminated by an End of File (EOF) record. This is followed by one or more Worksheet substreams, containing a Beginning of File (BOF) record, the worksheet records, and terminated by an End of File (EOF) record. The format remained unchanged with the release of Excel 2003.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.ms-excel</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -24,28 +20,6 @@
     <Identifier>fmt/62</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>10</DocumentID>
-    <DisplayText>OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Excel file format: Excel versions 2, 3, 4, 5, 95, 97, 2000, XP, 2003</DisplayText>
-    <DocumentType>Speculative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>25 Nov 2004</PublicationDate>
-    <TitleText>OpenOffice.org's documentation of the Microsoft Excel file format: Excel versions 2, 3, 4, 5, 95, 97, 2000, XP, 2003</TitleText>
-    <DocumentIdentifier>
-      <Identifier>sc.openoffice.org/excelfileformat.pdf</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>103</AuthorID>
-      <OrganisationName>OpenOffice.org</OrganisationName>
-      <AuthorCompoundName>OpenOffice.org</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>103</PublisherID>
-      <OrganisationName>OpenOffice.org</OrganisationName>
-      <PublisherCompoundName>OpenOffice.org</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>566</ExternalSignatureID>
     <Signature>xlw</Signature>
@@ -76,7 +50,6 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>684</RelatedFormatID>
     <RelatedFormatName>Microsoft Excel 97 Workbook (xls)</RelatedFormatName>
-    <RelatedFormatVersion>8</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subtype of</RelationshipType>

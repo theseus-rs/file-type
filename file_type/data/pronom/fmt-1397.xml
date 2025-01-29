@@ -3,11 +3,6 @@
   <FormatName>FARO Laser Scan File</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>FARO Laser Scan Files are an output format of FARO laser scanning instruments, used for 3D scanning and measurements using lidar technology.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>25 Sep 2020</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>25 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1397</Identifier>
     <IdentifierType>PUID</IdentifierType>

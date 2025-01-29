@@ -3,10 +3,6 @@
   <FormatName>Impulse 3D Data Description Object</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>A 3D format used by Impulse's Imagine 3D rendering software.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>16 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1206</Identifier>
     <IdentifierType>PUID</IdentifierType>

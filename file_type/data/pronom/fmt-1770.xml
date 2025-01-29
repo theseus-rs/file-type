@@ -3,11 +3,6 @@
   <FormatName>GenBank Flat File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>The GenBank format was developed by the U.S. National Center for Biotechnology Information (NCBI). The format is a standardised way of recording DNA and protein sequencing information accompanied with other data, such as Journal references, keywords, definitions and other information, so that it can be easily read by humans and machines. The NCBI Genbank database https://www.ncbi.nlm.nih.gov/genbank/ is a repository of publicly available DNA sequences in the Genbank format, and takes in submissions of Genbank files from all over the world.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Bodleian Library, University of Oxford / Bodleian Library, University of Oxford</ProvenanceName>
-  <ProvenanceSourceDate>21 Sep 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Sep 2022</LastUpdatedDate>
-  <FormatNote>Specification: https://www.ncbi.nlm.nih.gov/genbank/samplerecord/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1770</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -36,16 +31,16 @@ EOF offset 0-1, magic bytes: //.</SignatureNote>
       <ByteSequenceValue>4C4F435553</ByteSequenceValue>
     </ByteSequence>
     <ByteSequence>
-      <ByteSequenceID>2445</ByteSequenceID>
-      <PositionType>Variable</PositionType>
-      <ByteSequenceValue>4F524947494E</ByteSequenceValue>
-    </ByteSequence>
-    <ByteSequence>
       <ByteSequenceID>2446</ByteSequenceID>
       <PositionType>Absolute from EOF</PositionType>
       <Offset>0</Offset>
       <MaxOffset>1</MaxOffset>
       <ByteSequenceValue>2F2F(0A|0D)</ByteSequenceValue>
+    </ByteSequence>
+    <ByteSequence>
+      <ByteSequenceID>2445</ByteSequenceID>
+      <PositionType>Variable</PositionType>
+      <ByteSequenceValue>4F524947494E</ByteSequenceValue>
     </ByteSequence>
   </InternalSignature>
 </FileFormat>

@@ -3,11 +3,6 @@
   <FormatName>Pagemaker Document (Generic)</FormatName>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Pagemaker is a desktop publishing program. This is a generic signature which has been developed from versions 6.5 and version 7. It may be possible to distinguish between different versions of Pagemaker with a better understanding of the format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>18 May 2016</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>18 May 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.pagemaker</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -35,24 +30,20 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>247</RelatedFormatID>
     <RelatedFormatName>PageMaker PC Document</RelatedFormatName>
-    <RelatedFormatVersion>6.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>254</RelatedFormatID>
     <RelatedFormatName>PageMaker PC Document</RelatedFormatName>
-    <RelatedFormatVersion>6.5-7.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2554</RelatedFormatID>
     <RelatedFormatName>PageMaker Mac Document</RelatedFormatName>
-    <RelatedFormatVersion>6.5-7.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2555</RelatedFormatID>
     <RelatedFormatName>PageMaker Mac Document</RelatedFormatName>
-    <RelatedFormatVersion>6.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

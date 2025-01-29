@@ -3,19 +3,6 @@
   <FormatName>MIG Graphics File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>MIG is a graphics (raster image) file format for the MSX system, created by Louthrax. It is related to the MIF file, improving on its ability to browse large, interlaced MSX2 pictures. It utlises TeamBomba's decompression tool BitBuster.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>16 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/MIG
-
-https://www.louthrax.net/mgr/mifpackage.html
-
-https://sourceforge.net/p/recoil/bugs/31/
-
-https://www.msx.org/forum/msx-talk/software/mif-package-22-released
-
-https://msxhub.com/MIGVIEW</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1470</Identifier>
     <IdentifierType>PUID</IdentifierType>

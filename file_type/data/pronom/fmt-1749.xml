@@ -3,11 +3,6 @@
   <FormatName>Canon MIF File</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>A Canon MIF file is present in the Canon XF folder structure that is used by media cards associated with cameras such as XF205 and C300. It contains information about each clip recorded on the media card, is found within the CANON XF/CLIPS 001 directory and is a strict requirement in order to mount a particular card in Canon media apps to make the content readable. Although little official documentation exists, MIF likely stands for Media Information File.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>24 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Aug 2022</LastUpdatedDate>
-  <FormatNote>http://www.premierepro.org/2016/10/canon-xf-c300-xf305-folder-structure-and-file-naming-explained/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1749</Identifier>
     <IdentifierType>PUID</IdentifierType>

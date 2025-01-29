@@ -5,10 +5,6 @@
   <FormatDescription>The AccessData Custom Content Image (AD1) file format is a file-level disk image format created by AccessData's proprietary forensic software, such as FTK Imager. 
 
 AD1 images may be encrypted or unencrypted. Encrypted images have only a small unencrypted chunk at the beginning of the file, beginning with the magic bytes "ADCRYPT" at byte 0.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
-  <ProvenanceSourceDate>23 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/843</Identifier>
     <IdentifierType>PUID</IdentifierType>

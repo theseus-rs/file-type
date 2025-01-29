@@ -3,10 +3,6 @@
   <FormatName>EinScan RGE 3D Range File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>The RGE 3D Range File is a data file produced by EinScan scanning software.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>24 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1506</Identifier>
     <IdentifierType>PUID</IdentifierType>

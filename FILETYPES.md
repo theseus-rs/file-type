@@ -1458,7 +1458,7 @@
 | [fmt/886](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-886.xml) | HTML Components | htc |  |
 | [x-fmt/417](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-417.xml) | HTML Extension File | htx |  |
 | [linguist/148](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-148.xml) | HTML+ECR | ecr | text/html |
-| [linguist/149](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-149.xml) | HTML+EEX | eex, html.heex, html.leex | text/html |
+| [linguist/149](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-149.xml) | HTML+EEX | html.eex, heex, leex | text/html |
 | [linguist/150](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-150.xml) | HTML+ERB | erb, erb.deface, rhtml | application/x-erb |
 | [linguist/151](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-151.xml) | HTML+PHP | phtml | application/x-httpd-php |
 | [linguist/479039817](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-479039817.xml) | HTML+Razor | cshtml, razor | text/html |

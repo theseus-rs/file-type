@@ -3,11 +3,6 @@
   <FormatName>LaTeX (Subdocument)</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>LaTeX is a document preparation system for typesetting. It is widely used in academia for technical or scientific documents but can be used for other forms of publishing. LaTeX projects can contain multiple subdocuments which are linked to a Master Document.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 Nov 2010</ProvenanceSourceDate>
-  <ProvenanceDescription>Following up external submission. Signature submitted by representative of KeepIt project at Southampton University.</ProvenanceDescription>
-  <LastUpdatedDate>01 Nov 2010</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/281</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,6 +28,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

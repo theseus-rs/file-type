@@ -4,14 +4,6 @@
   <FormatVersion>0-2</FormatVersion>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>Music files created using AHX (Abyss' Highest Experience) software, which is used to create synthesised music similar to that played on Commodore 64 systems. The software was previously known as THX, but was changed after a legal dispute with LucasFilm.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>17 Feb 2022</ProvenanceSourceDate>
-  <ProvenanceDescription>Abyss' Highest Experience homepage: http://amigascne.org/abyss/ahx/</ProvenanceDescription>
-  <LastUpdatedDate>17 Feb 2022</LastUpdatedDate>
-  <FormatNote>Specification:  http://ftp.modland.com/pub/documents/format_documentation/Abyss%27%20Highest%20eXperience%20(.ahx).txt
-
-http://fileformats.archiveteam.org/wiki/AHX_(Abyss)</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1621</Identifier>
     <IdentifierType>PUID</IdentifierType>

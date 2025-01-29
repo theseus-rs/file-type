@@ -4,11 +4,6 @@
   <FormatVersion>3.0</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>X3D is an integrated 3D graphics and multimedia framework in the ISO process for Information technology — Computer graphics, image processing and environmental representation. The standards pass through a number of member only and then public review processes, until they reach full ISO approval as international standards.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Central Digital Archive / Central Digital Archive</ProvenanceName>
-  <ProvenanceSourceDate>28 Aug 2013</ProvenanceSourceDate>
-  <ProvenanceDescription>http://www.web3d.org/realtime-3d/specification/version/V3.0</ProvenanceDescription>
-  <LastUpdatedDate>28 Aug 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/579</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,18 +29,15 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1368</RelatedFormatID>
     <RelatedFormatName>X3D</RelatedFormatName>
-    <RelatedFormatVersion>3.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>662</RelatedFormatID>
     <RelatedFormatName>Virtual Reality Modeling Language</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

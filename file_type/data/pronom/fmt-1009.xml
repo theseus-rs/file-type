@@ -3,10 +3,6 @@
   <FormatName>FBX (Filmbox) Binary</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>FBX is a 3D file format developed by Kaydara and owned by Autodesk since 2006. It is used to provide interoperability between 3D digital content creation applications. FBX has a text based (ASCII) and a binary version (this signature).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>24 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1009</Identifier>
     <IdentifierType>PUID</IdentifierType>

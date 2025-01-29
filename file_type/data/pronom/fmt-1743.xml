@@ -4,15 +4,6 @@
   <FormatVersion>Generic</FormatVersion>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>Nero Burning ROM Image File (NRG) is a proprietary disc image format associated with Nero Burning ROM software. It acts as the utility of Nero Burning ROM and is used to create backups or copies of data for discs. This is a generic entry of NRG file format but there are two versions of this format. Its first version was launched in 1997 and was specified to store values as 32-bit integers. Its second version was introduced with version 5.5 of Nero Burning ROM software in 2001 and supports 64-bit integers.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>19 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Aug 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/NRG
-
-https://en.wikipedia.org/wiki/NRG_(file_format)#Header
-
-https://docs.fileformat.com/disc-and-media/nrg/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1743</Identifier>
     <IdentifierType>PUID</IdentifierType>

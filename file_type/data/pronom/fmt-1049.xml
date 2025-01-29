@@ -3,10 +3,6 @@
   <FormatName>QuickDraw 3D Metafile (ASCII)</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>3DMF is the interchange format for the QuickDraw 3D software package originally created in 1995 for the Apple Macintosh. It is a three-dimensional image format which may be a representation of an individual object or a complete three-dimensional scene, which can be viewed from different angles with supporting 3D programs.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Datable / Datable</ProvenanceName>
-  <ProvenanceSourceDate>18 May 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>18 May 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1049</Identifier>
     <IdentifierType>PUID</IdentifierType>

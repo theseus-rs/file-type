@@ -2,10 +2,6 @@
   <FormatID>2724</FormatID>
   <FormatName>Yamaha PSR Disk Manager File</FormatName>
   <FormatDescription>Files developed by Yamaha, created on floppy disks used with Yamaha PSR keyboards. The files contain the information the keyboard uses to access the other files on the disk. Mng files do not contain any voice or style data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Bibliotheque Cantonale Universitaire de Fribourg / Bibliotheque Cantonale Universitaire de Fribourg</ProvenanceName>
-  <ProvenanceSourceDate>05 Jun 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>05 Jun 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1870</Identifier>
     <IdentifierType>PUID</IdentifierType>

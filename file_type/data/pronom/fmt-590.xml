@@ -3,10 +3,6 @@
   <FormatName>JPEG Extended Range</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>JPEG XR (abbr. For JPEG extended range) is a still-image compression standard and file format for continuous tone photographic images, based on technology originally developed and patented by Microsoft under the name HD Photo (formerly Windows Media Photo). It supports both lossy and lossless compression.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>12 Nov 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Nov 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/590</Identifier>
     <IdentifierType>PUID</IdentifierType>

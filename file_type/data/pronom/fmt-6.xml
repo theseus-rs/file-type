@@ -8,11 +8,6 @@
   <FormatDescription>Waveform Audio (WAVE) is a chunk-based audio format developed by Microsoft, based on the generic Resource Interchange File Format (RIFF) specification developed by Microsoft and IBM. Structurally, a WAVE file is composed of a number of chunks, each comprising a four character code chunk identifier, the chunk size, and the chunk data. It  comprises a RIFF header with a WAVE data type identifier, followed by a series of chunks. Every file must include a Format chunk, which describes the format of the audio data, and a Data chunk, containing the audio data itself. Other optional chunks are also allowed. The format supports a wide variety of compressed and uncompressed audio encodings.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113)- Added priority over fmt/1886 (Resource Interchange Format (RIFF)). Submitted by New York Public Libraries and Preservica.</ProvenanceDescription>
-  <LastUpdatedDate>14 Aug 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>audio/x-wav</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -46,31 +41,26 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>656</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>1 Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>674</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Audio)</RelatedFormatName>
-    <RelatedFormatVersion>2.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>735</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>0 Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>749</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Audio)</RelatedFormatName>
-    <RelatedFormatVersion>2.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>750</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Audio)</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -91,61 +81,51 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1314</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>2 Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1502</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>0 PCM Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1503</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>1 PCM Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1504</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>2 PCM Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1505</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>0 MPEG Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1506</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>1 MPEG Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1507</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>2 MPEG Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1508</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>0 WAVEFORMATEXTENSIBLE Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1509</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>1 WAVEFORMATEXTENSIBLE Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1510</RelatedFormatID>
     <RelatedFormatName>Broadcast WAVE</RelatedFormatName>
-    <RelatedFormatVersion>2 WAVEFORMATEXTENSIBLE Encoding</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

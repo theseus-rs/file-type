@@ -3,10 +3,6 @@
   <FormatName>DOS Sound and Music Interface Advanced Module Format</FormatName>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>The AMF format is an audio sequencing format containing both an audio sample bank, and sequencing data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Sep 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Sep 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/960</Identifier>
     <IdentifierType>PUID</IdentifierType>

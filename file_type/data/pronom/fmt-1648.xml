@@ -3,12 +3,6 @@
   <FormatName>Crystal Reports File</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>Crystal Reports File is the proprietary format and main output file created by Crystal Reports, a business intelligence software. The software was created in 1991 and since then Crystal Reports has gone through multiple versions, though the file format structure has not changed dramatically.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>28 Feb 2022</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>28 Feb 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/RPT</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/x-rpt</Identifier>
     <IdentifierType>MIME</IdentifierType>

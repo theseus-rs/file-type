@@ -3,17 +3,6 @@
   <FormatName>AutoDesk Indexed Point Cloud</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>PCG files are file formats developed by Autodesk to specifically meet the demands of their software suite. They are indexed point cloud data generated using AutoDesk Revit mainly from PTS files. Support for PCG was removed in favor of newer RCP/RCS formats. Autodesk products, however, are often able to convert some open formats, such as PTS into PCG files. PCG is a cloud format that is able to work to manipulate scans and stitch them together into a single cloud, which can then be exported as a standalone file. It can be used in conjunction with Leica Cyclone  point cloud processing software which is a family of software modules that provides set of work process options for 3D laser scanning projects in engineering, surveying, construction and related applications.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>23 Nov 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Nov 2021</LastUpdatedDate>
-  <FormatNote>https://info.vercator.com/blog/what-are-the-most-common-3d-point-cloud-file-formats-and-how-to-solve-interoperability-issues
-
-http://fileformats.archiveteam.org/wiki/AutoDesk_PCG
-
-https://www.concreteconstruction.net/business/technology/six-bim-point-cloud-formats-you-should-know-about_o
-
-https://leica-geosystems.com/en-us/products/laser-scanners/software/leica-cyclone?redir=1</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1562</Identifier>
     <IdentifierType>PUID</IdentifierType>

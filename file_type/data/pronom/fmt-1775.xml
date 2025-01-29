@@ -3,10 +3,6 @@
   <FormatName>Calc602 Project File</FormatName>
   <FormatTypes>Text (Unstructured)</FormatTypes>
   <FormatDescription>Binary format used by spreadsheet programme Calc602 containing information about all currently open files, layout on the screen, macros loaded into memory etc.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
-  <ProvenanceSourceDate>03 Oct 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Oct 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1775</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -32,12 +28,10 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2549</RelatedFormatID>
     <RelatedFormatName>Calc602 Project File</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2617</RelatedFormatID>
     <RelatedFormatName>Calc602 Project File</RelatedFormatName>
-    <RelatedFormatVersion>1.51</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

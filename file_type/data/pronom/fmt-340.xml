@@ -5,10 +5,6 @@
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>Lotus Word Pro is a word processor program produced by the Lotus Software Group as part of the Lotus SmartSuite office suite. The initial release was in 1988. Is was the successor to Ami Pro and used on Microsoft Windows-compatible computers and on IBM OS/2 Warp.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
-  <ProvenanceSourceDate>24 Jun 2011</ProvenanceSourceDate>
-  <LastUpdatedDate>16 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/lwp</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -41,6 +37,5 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>504</RelatedFormatID>
     <RelatedFormatName>Lotus WordPro Document</RelatedFormatName>
-    <RelatedFormatVersion>96</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

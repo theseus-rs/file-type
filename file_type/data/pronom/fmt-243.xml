@@ -5,10 +5,6 @@
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>GPX is an XML schema used by various software applications and websites to show and describe GPS data such as routes, tracks, projecting GPS data onto maps and annotating maps. Version 1.0 was released in 2002.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>07 Jan 2010</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/243</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,6 +30,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

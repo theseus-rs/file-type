@@ -3,10 +3,6 @@
   <FormatName>SNAP Main Data File</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Snap Survey provides a selection of software which allows users to design surveys. The SNAP Meta Data file is generated and is used to build and manage the survey.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Jul 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1056</Identifier>
     <IdentifierType>PUID</IdentifierType>

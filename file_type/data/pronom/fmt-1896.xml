@@ -3,11 +3,6 @@
   <FormatName>Nokia Picture Message</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Nokia Picture Message (or Nokia Phone Picture Message, NPM) is a bi-level raster image format used by some Nokia phones. NPM images are 72×28 pixels, though the format supports other sizes up to 255×255.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>07 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>07 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://justsolve.archiveteam.org/wiki/Nokia_Picture_Message</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1896</Identifier>
     <IdentifierType>PUID</IdentifierType>

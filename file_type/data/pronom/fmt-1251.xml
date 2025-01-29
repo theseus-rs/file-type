@@ -3,14 +3,6 @@
   <FormatName>Electronically Certified Document (EDOC)</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>EDOC is an electronically certified document. A format used to protect and verify identity for sensitive files. It contains a document, maybe with additional attached files and one or more digital signatures. The file can also store metadata about the document such as creator, creation time, last modification and the format version.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives of Latvia / The National Archives of Latvia</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>13 Dec 2021</LastUpdatedDate>
-  <FormatNote>https://www.iana.org/assignments/media-types/application/vnd.etsi.asic-e+zip
-
-https://www.eparaksts.lv/en/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/vnd.etsi.asic-e+zip</Identifier>
     <IdentifierType>MIME</IdentifierType>

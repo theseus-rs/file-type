@@ -3,10 +3,6 @@
   <FormatName>Ogre Mesh XML</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Ogre Mesh XML is an XML-based format for representing 3D models for use within the Ogre 3D rendering engine.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>10 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>10 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1189</Identifier>
     <IdentifierType>PUID</IdentifierType>

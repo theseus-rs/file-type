@@ -3,10 +3,6 @@
   <FormatName>Reduced Resolution Dataset</FormatName>
   <FormatTypes>GIS</FormatTypes>
   <FormatDescription>The ERDAS HFA format defines a heirachichal data structure used by many formats primarily associated with with the ERDAS Imagine software package for processing geospatial imagery. Other formats use this structure also, notably ArcGIS 'Reduced resolution datasets' and their auxilliary files. It may be possible to distinguish between distinct subsets of HFA with further research. Please contact the PRONOM team if you can assist with this.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Australia / National Library of Australia</ProvenanceName>
-  <ProvenanceSourceDate>20 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Mar 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1215</Identifier>
     <IdentifierType>PUID</IdentifierType>

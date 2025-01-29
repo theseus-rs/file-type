@@ -4,13 +4,6 @@
   <FormatAliases>MzML</FormatAliases>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>Mass Spectrometry Markup Language (mzML) is a file format used to encode raw spectrometer output. The format is described in the mzML specification at the HUPO Proteomics Standards Initiative site. MzML, which was first released in 2008 and updated to version 1.1 in 2009, replaces two previous formats, mzDATA and mzXML. The new format was created to resolve confusion and reduce programming effort caused by having two separate but similar formats. The older formats continue to be used by some older software but are largely deprecated.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>08 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>08 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/MzML
-
-https://www.psidev.info/mzML</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1900</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -36,6 +29,5 @@ https://www.psidev.info/mzML</FormatNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

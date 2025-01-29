@@ -4,16 +4,6 @@
   <FormatVersion>4-6</FormatVersion>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>RagTime is a business publishing software developed by RagTime.de Development GmbH. It brings together various features such as word processsing, spreadsheets, simple drawings, image editing, and chart creation into a single document. RagTime documents feature a frame-oriented design, where every piece of content is placed within its own frame on the page. In RagTime, all data types are stored in a single document, which can include multiple layouts such as spreadsheets, images, and text. Files are saved with .rtd extension for documents and .rtt for templates. While v1-v3 were developed in Pascal, since v4 the development has been coded in C++.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Brigham Young University / Brigham Young University</ProvenanceName>
-  <ProvenanceSourceDate>07 Aug 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>07 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Ragtime
-
-https://en.wikipedia.org/wiki/RagTime
-
-
-https://www.garykessler.net/library/file_sigs.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1895</Identifier>
     <IdentifierType>PUID</IdentifierType>

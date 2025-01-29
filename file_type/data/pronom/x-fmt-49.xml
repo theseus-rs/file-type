@@ -13,11 +13,6 @@ A DWF package must meet the following requirements:
 •        At least one resource file.
 •        The manifest must contain an &lt;Interfaces&gt; element containing at least one &lt;Interface&gt; sub element that indicates a document interface supported by the DWF package.  An example would be the ‘ePlot’ document interface, which implies that the DWF contains at least one valid ePlot page.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>File format information supplied by NARA Information Services/Applied Research Division, The National Archives and Records Administration.</ProvenanceDescription>
-  <LastUpdatedDate>28 Aug 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/dwf</Identifier>
     <IdentifierType>MIME</IdentifierType>

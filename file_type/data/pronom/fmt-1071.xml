@@ -3,11 +3,6 @@
   <FormatName>Apple Disk Image</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>The Apple Disk Image is a disk image format commonly used by the macOS operating system, and is distinct from the earlier 	Apple Disk Copy Image 4.2. Please contact the PRONOM team if you are able to provide a more thorough description of this format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Datable / Datable</ProvenanceName>
-  <ProvenanceSourceDate>17 Jul 2017</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Max-offset modified from null to 0. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>14 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/x-apple-diskimage</Identifier>
     <IdentifierType>MIME</IdentifierType>

@@ -3,11 +3,6 @@
   <FormatName>Fountain Markup Language File</FormatName>
   <FormatTypes>Text (Mark-up)</FormatTypes>
   <FormatDescription>Fountain is a free and open source markup language designed for writing formatted screenplays. It is saved as UTF-8 text, and as such can be viewed and written in a simple text editor, and saved with the extension .txt, but is also compatible with programmes such as Storyist or Trelby. Fountain is the result of the merging of two lauguages; Scrippets by John August and Nima Yousefi, and Screenplay Markdown by Stu Maschwitz.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Stadtarchiv Hof / Stadtarchiv Hof</ProvenanceName>
-  <ProvenanceSourceDate>28 Mar 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Mar 2023</LastUpdatedDate>
-  <FormatNote>Specification:  https://fountain.io/syntax</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1846</Identifier>
     <IdentifierType>PUID</IdentifierType>

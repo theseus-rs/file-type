@@ -3,10 +3,6 @@
   <FormatName>Turtle</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Turtle (Terse RDF Triple Language) is a format for expressing data in the Resource Description Framework (RDF) data model.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>20 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jan 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/874</Identifier>
     <IdentifierType>PUID</IdentifierType>

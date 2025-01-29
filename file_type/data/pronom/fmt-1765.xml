@@ -3,13 +3,6 @@
   <FormatName>Media Hash List</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>The Media Hash List (MHL) standard specifies how a common inventory list of a folder’s content looks like. The Media Hash List specification ensures that the complete source media is transferred without any alterations. MHL is an XML format, that lists all the files in a folder and all of its subfolders as well as the corresponding checksums. This list is accompanied by additional information about the creation of the MHL file. The MHL file comprehends all the information necessary to tell if the folder structure or any of the contained files was modified since the MHL file was created.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>26 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Aug 2022</LastUpdatedDate>
-  <FormatNote>https://mediahashlist.org/mhl-specification/
-
-https://cms-assets.theasc.com/ASCMHL_Specification_v1.0.pdf</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1765</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -35,6 +28,5 @@ https://cms-assets.theasc.com/ASCMHL_Specification_v1.0.pdf</FormatNote>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

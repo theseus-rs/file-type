@@ -3,13 +3,6 @@
   <FormatName>GoDot 4Bit Graphics Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>GoDot 4bit is the native image file format for the Commodore 64 image processing program GoDot.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>23 Feb 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Feb 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/GoDot
-
-https://web.archive.org/web/20191223154008/http://www.godot64.de/english/4bit.htm</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1834</Identifier>
     <IdentifierType>PUID</IdentifierType>

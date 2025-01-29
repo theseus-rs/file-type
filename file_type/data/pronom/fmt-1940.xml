@@ -3,11 +3,6 @@
   <FormatName>EBU Subtitling Data Exchange Format</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>EBU STL was a format devised by the European Broadcasting Union, which enabled the display of subtitles. It has been superseded by EBU Timed Text.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Sylphide Consulting / Sylphide Consulting</ProvenanceName>
-  <ProvenanceSourceDate>02 Nov 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Nov 2023</LastUpdatedDate>
-  <FormatNote>Specification:  https://tech.ebu.ch/docs/tech/tech3264.pdf</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1940</Identifier>
     <IdentifierType>PUID</IdentifierType>

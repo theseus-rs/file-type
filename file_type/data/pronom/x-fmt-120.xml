@@ -4,10 +4,6 @@
   <FormatVersion>4.0</FormatVersion>
   <FormatDescription>This format has been deprecated in favour of another entry. Please see fmt/233 for Microsoft Works Word Processor 3-4 for Windows.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>29 Nov 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/120</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -5,11 +5,6 @@
   <FormatDescription>Google document link files are text based files written in the format of JSON (JavaScript Object Notation). They 
 
 provide a URL link to the Google document held in Google Drive.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>19 Jul 2017</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Modified the offset values in the internal signature from null to 0 as part of a project to match PRONOM data with the xsd standard. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>14 Nov 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1073</Identifier>
     <IdentifierType>PUID</IdentifierType>

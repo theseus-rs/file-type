@@ -3,10 +3,6 @@
   <FormatName>602 Graph/Chart File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Binary format for graph/chart created by spreadsheet programme Calc602, which was released in the 1990s by Czechoslovakian company 602 Svazarm (since the 1990s known as IT company Software602).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives of the Czech Republic / The National Archives of the Czech Republic</ProvenanceName>
-  <ProvenanceSourceDate>03 Oct 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>03 Oct 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1774</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -32,6 +28,5 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2535</RelatedFormatID>
     <RelatedFormatName>602 Graph/Chart File</RelatedFormatName>
-    <RelatedFormatVersion>1.51</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

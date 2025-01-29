@@ -4,10 +4,6 @@
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>A CDX file consists of individual lines of text, each of which summarizes a single web document. 
 The first line in the file is a legend for interpreting the data, and the following lines contain the data for referencing the corresponding pages within the host. The CDX signatures use a field delimiter character which is assumed to be a space character, however please contact the PRONOM team should you encounter CDX index files where the delimiter is different.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Sep 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/869</Identifier>
     <IdentifierType>PUID</IdentifierType>

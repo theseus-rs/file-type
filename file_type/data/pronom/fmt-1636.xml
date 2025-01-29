@@ -4,11 +4,6 @@
   <FormatVersion>CC 2018</FormatVersion>
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Adobe InDesign is a desktop publishing application developed and produced by Adobe Inc., first released in 1999. It is the successor to PageMaker, software previously created by Aldus Corporation in 1985, which was subsequently acquired by Adobe. It can be used to produce a number of works such as posters, flyers, brochures, magazines, newspapers, presentations and books. InDesign supports XML, stylesheets and other coding markup, providing functionality for exporting tagged text content for use in other digital and online formats.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>24 Feb 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Feb 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/InDesign_INDD</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1636</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -44,18 +39,15 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>865</RelatedFormatID>
     <RelatedFormatName>Adobe InDesign Document</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>2464</RelatedFormatID>
     <RelatedFormatName>Adobe InDesign Document</RelatedFormatName>
-    <RelatedFormatVersion>CC 2019</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>2462</RelatedFormatID>
     <RelatedFormatName>Adobe InDesign Document</RelatedFormatName>
-    <RelatedFormatVersion>CC 2017</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

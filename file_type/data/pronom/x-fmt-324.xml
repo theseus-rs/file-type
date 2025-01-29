@@ -5,10 +5,6 @@
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Harvard Graphics (originally named Harvard Presentation Graphics) was a presentation and vector graphics program, used mainly on the MS-DOS platform. This entry was previous called 'Harvard Graphics Presentation', however the internal and external signatures related to the 'Show' format. Entries for Harvard Graphics Presentation have been created at fmt/1491 and fmt/1492.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/324</Identifier>
     <IdentifierType>PUID</IdentifierType>

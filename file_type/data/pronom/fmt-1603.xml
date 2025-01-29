@@ -3,13 +3,6 @@
   <FormatName>TUNDRA</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>TUNDRA is a graphics format and is one of several systems for expressing text-mode graphics using text characters and control characters setting positions and colours. ANSI Art was the main system of this use, but a few others were invented during the Bulletin Board System (BBS) era. The ansilove (and Ansilove-C and ansilove.js) open-source software can display TUNDRA among other formats, by converting ANSI/ASCII art to PNG images.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>21 Jan 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Jan 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/TUNDRA
-
-https://www.ansilove.org/downloads.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1603</Identifier>
     <IdentifierType>PUID</IdentifierType>

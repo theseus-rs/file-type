@@ -3,10 +3,6 @@
   <FormatName>XV Thumbnail</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>XV Thumbnail, also known as XV Visual Schnauzer format, is an image file format used by the XV image viewer for its thumbnail cache. Such files may retain the original extension or may have .p7 appended.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>24 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1497</Identifier>
     <IdentifierType>PUID</IdentifierType>

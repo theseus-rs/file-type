@@ -3,10 +3,6 @@
   <FormatName>Garmin track log file</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Gmn files are used within Garmin Forerunner watches, which track GPS and heart rate data when work by the user during exercise. Gmn files store data relating to the exercise session, which can include heart rate, altitude, timestamp and position (latitude and longitude).</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Apr 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Apr 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1679</Identifier>
     <IdentifierType>PUID</IdentifierType>

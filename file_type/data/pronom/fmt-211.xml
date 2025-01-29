@@ -4,12 +4,6 @@
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>An image file format developed by Kodak for scanning film and delivering on CD. Combines multiple resolutions into a single file. Images are in the Photo YCC color encoding, and stored using in units called IMAGE PAC files.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Oct 2009</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118)- Description created and link added. Submitted by Brigham Young University as part of PRONOM Research Week 2023.</ProvenanceDescription>
-  <LastUpdatedDate>16 Apr 2024</LastUpdatedDate>
-  <FormatNote>http://justsolve.archiveteam.org/wiki/Photo_CD</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/211</Identifier>
     <IdentifierType>PUID</IdentifierType>

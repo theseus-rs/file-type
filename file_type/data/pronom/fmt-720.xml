@@ -9,10 +9,6 @@ MBOX databases typically contain a linear sequence of electronic mail messages. 
 Attachments within MBOX files are typically base 64 encoded, allowing binary data to be transferred over media designed to deal with textual data. 
 
 Due to the variety of MBOX structures, it is not currently possible to produce an authoritative signature for the format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>12 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/mbox</Identifier>
     <IdentifierType>MIME</IdentifierType>

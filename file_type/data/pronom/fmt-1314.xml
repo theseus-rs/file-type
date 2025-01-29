@@ -7,10 +7,6 @@
 The gltf contains a JSON format that must contain a top-level "asset" property. The "asset" property must contain a "version" property with a value equal to "1.0".
 Full specification of the format can be found at https://github.com/KhronosGroup/glTF/blob/master/specification/1.0/README.md
 A glTF Overview can be found at https://www.khronos.org/gltf</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Mar 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/json</Identifier>
     <IdentifierType>MIME</IdentifierType>

@@ -34,26 +34,15 @@ pub struct RelatedFormat {
     id: usize,
     #[serde(rename = "RelatedFormatName")]
     name: String,
-    #[serde(
-        skip_serializing_if = "String::is_empty",
-        rename = "RelatedFormatVersion"
-    )]
-    version: String,
 }
 
 impl RelatedFormat {
     /// Create a new related format
-    pub fn new<S: AsRef<str>>(
-        relationship_type: RelationshipType,
-        id: usize,
-        name: S,
-        version: S,
-    ) -> Self {
+    pub fn new<S: AsRef<str>>(relationship_type: RelationshipType, id: usize, name: S) -> Self {
         Self {
             relationship_type,
             id,
             name: name.as_ref().to_string(),
-            version: version.as_ref().to_string(),
         }
     }
 
@@ -73,12 +62,6 @@ impl RelatedFormat {
     #[must_use]
     pub fn name(&self) -> &str {
         &self.name
-    }
-
-    /// Get the related version
-    #[must_use]
-    pub fn version(&self) -> &str {
-        &self.version
     }
 }
 
@@ -112,7 +95,6 @@ mod test {
         ));
         assert_eq!(related_format.id(), 1617);
         assert_eq!(related_format.name(), "JSON Data Interchange Format");
-        assert_eq!(related_format.version(), "");
         Ok(())
     }
 
@@ -122,7 +104,6 @@ mod test {
             RelationshipType::HasPriorityOver,
             1617,
             "JSON Data Interchange Format",
-            "",
         );
         assert!(matches!(
             related_format.relationship_type(),
@@ -130,6 +111,5 @@ mod test {
         ));
         assert_eq!(related_format.id(), 1617);
         assert_eq!(related_format.name(), "JSON Data Interchange Format");
-        assert_eq!(related_format.version(), "");
     }
 }

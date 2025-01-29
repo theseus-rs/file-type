@@ -3,11 +3,6 @@
   <FormatName>Farbfeld Image Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Farbfeld is a simple and lossless raster image-format. Following a short header defining width and height the file consists of uncompressed, 16-bit RGBA values.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>30 May 2018</ProvenanceSourceDate>
-  <ProvenanceDescription>https://tools.suckless.org/farbfeld/</ProvenanceDescription>
-  <LastUpdatedDate>30 May 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1133</Identifier>
     <IdentifierType>PUID</IdentifierType>

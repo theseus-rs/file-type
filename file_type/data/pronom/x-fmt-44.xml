@@ -5,11 +5,6 @@
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ReleaseDate>13 Sep 1993</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Mar 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.wordperfect</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -18,28 +13,6 @@
     <Identifier>x-fmt/44</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>4</DocumentID>
-    <DisplayText>Born, G, 1995, The file formats handbook, International Thompson Computer Press</DisplayText>
-    <DocumentType>Informative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>01 Jan 1995</PublicationDate>
-    <TitleText>The file formats handbook</TitleText>
-    <DocumentIdentifier>
-      <Identifier>1-85032-117-5</Identifier>
-      <IdentifierType>ISBN</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>115</AuthorID>
-      <OrganisationName>Gunter Born</OrganisationName>
-      <AuthorCompoundName>Gunter Born</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>117</PublisherID>
-      <OrganisationName>International Thompson Computer Press</OrganisationName>
-      <PublisherCompoundName>International Thompson Computer Press</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>69</ExternalSignatureID>
     <Signature>doc</Signature>
@@ -92,12 +65,10 @@
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>281</RelatedFormatID>
     <RelatedFormatName>WordPerfect for Windows Document</RelatedFormatName>
-    <RelatedFormatVersion>5.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>737</RelatedFormatID>
     <RelatedFormatName>WordPerfect for MS-DOS/Windows Document</RelatedFormatName>
-    <RelatedFormatVersion>5.1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

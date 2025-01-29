@@ -4,10 +4,6 @@
   <FormatVersion>3</FormatVersion>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>SQLite is a relational database management system. SQLite does not define a formal file extension, but .sqlite, .db, and .db3 are commonly used.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>State Records New South Wales / State Records New South Wales</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Sep 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/x-sqlite3</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -52,30 +48,25 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2156</RelatedFormatID>
     <RelatedFormatName>RootsMagic Database</RelatedFormatName>
-    <RelatedFormatVersion>4-7</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2520</RelatedFormatID>
     <RelatedFormatName>EndNote Library</RelatedFormatName>
-    <RelatedFormatVersion>20</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2536</RelatedFormatID>
     <RelatedFormatName>OGC GeoPackage</RelatedFormatName>
-    <RelatedFormatVersion>1.0-1.31</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2677</RelatedFormatID>
     <RelatedFormatName>Audacity Project File</RelatedFormatName>
-    <RelatedFormatVersion>3.x</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1945</RelatedFormatID>
     <RelatedFormatName>SQLite Database File Format</RelatedFormatName>
-    <RelatedFormatVersion>2</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

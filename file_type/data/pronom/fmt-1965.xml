@@ -3,10 +3,6 @@
   <FormatName>Papyrus Document</FormatName>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>This is the native file format of Papyrus word processing software, previously marketed as Papyrus Office and currently marketed as Papyrus Author, designed for manuscript creation, editing and publishing. The standard format has the .pap extension, while .pav is a Papyrus Document Template. .pbf is a Papyrus Base Formula file, a component part of a Papyrus character or research database, functionality to track research notes or detail about characters within the manuscript.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>12 Feb 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Feb 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1965</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,11 +4,6 @@
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>Adobe Capture Document, proprietary binary format, associated with Adobe Acrobat Capture software. Intermediary format during scanning and OCR process. It must be accompanied by one or more ACI bitmap images files.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <ProvenanceDescription>04/2024 (v.118)- Description created. Submitted by Brigham Young University as part of PRONOM Research Week 2023.</ProvenanceDescription>
-  <LastUpdatedDate>16 Apr 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/217</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>Phase One IIQ Raw Image</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Phase One is a camera manufacturer and Capture One is the accompanying software. This format contains the raw image data captured by the camera's image sensor. IIQ stands for Intelligent Image Quality, a compressed version of the raw image data captured by Phase One camera equipment. IIQ has a choice of a 'Large' (lossless) or 'Small' (lossy) options. With further research it may be possible to distinguish between these outputs.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Historic Environment Scotland / Historic Environment Scotland</ProvenanceName>
-  <ProvenanceSourceDate>12 Jul 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Jul 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1061</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -32,19 +28,16 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>672</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>673</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>752</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Uncompressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>

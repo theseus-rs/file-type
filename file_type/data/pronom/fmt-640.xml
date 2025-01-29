@@ -3,12 +3,6 @@
   <FormatName>MPEG-2 Elementary Stream</FormatName>
   <FormatTypes>Video</FormatTypes>
   <FormatDescription>MPEG-2 is a lossy compression standard (an improvement and expansion of the MPEG-1 standard) designed for the generic coding of video and audio and intended to cover a wide scope of application, including: video production, broadcast and editing. Streams are at potentially higher bitrates than MPEG-1 but more efficient compression making it suited to High Definition video. MPEG-2 Video supports both 'progressive' and 'interlaced' frame video. An MPG2 ‘Elementary’ stream (ES) file (*.m2v) contains either a single video or audio stream. ES files are generally intended for video editing or other intermediate use, where separate audio content can be ultimately blended ('interleaved' or ‘muxed’) with a video stream to produce an output file containing both audio and video for synchronised playback.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>31 Mar 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Added priority over fmt/640 (MPEG-1 Elementary Stream). Submitted by Preservica.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://msdn.microsoft.com/en-us/library/ff632839.aspx</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/640</Identifier>
     <IdentifierType>PUID</IdentifierType>

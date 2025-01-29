@@ -3,11 +3,6 @@
   <FormatName>Olympus RAW</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Olympus raw format (.orf) is a raw image format used by models of Olympus digital cameras.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Sebastian Lasse / Redaktor CMS</ProvenanceName>
-  <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>http://en.wikipedia.org/wiki/ORF_format</ProvenanceDescription>
-  <LastUpdatedDate>23 Sep 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/668</Identifier>
     <IdentifierType>PUID</IdentifierType>

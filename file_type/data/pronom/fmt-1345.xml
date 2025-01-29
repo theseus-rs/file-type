@@ -4,10 +4,6 @@
   <FormatVersion>3-9</FormatVersion>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>Legacy Family Tree is genealogy software for Windows, developed by Millenia software. The underlying database is baed upon Microsoft Access.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>20 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1345</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -43,6 +39,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>352</RelatedFormatID>
     <RelatedFormatName>Microsoft Access Database File</RelatedFormatName>
-    <RelatedFormatVersion>2000</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

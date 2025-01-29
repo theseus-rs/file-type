@@ -3,10 +3,6 @@
   <FormatName>ATCO-CIF</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>ATCO-CIF is a file format for interchange of bus timetable information, primarily between the Department for Transport and service providers.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>26 Feb 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Feb 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/495</Identifier>
     <IdentifierType>PUID</IdentifierType>

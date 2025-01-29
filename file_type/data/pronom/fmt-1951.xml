@@ -4,10 +4,6 @@
   <FormatVersion>5-9</FormatVersion>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Pro Tools is a digital audio workstation software application developed by AVID Technology. A Pro Tools session file contains the configuration of a Pro Tools session including settings, plugin details, references to audio and midi tracks etc. Pro Tools Session files do not contain audio data directly.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>11 Apr 2024</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Apr 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1951</Identifier>
     <IdentifierType>PUID</IdentifierType>

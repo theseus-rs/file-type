@@ -4,10 +4,6 @@
   <FormatVersion>1</FormatVersion>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>INTERLIS is a description and transfer mechanism for spatial data. INTERLIS 1 Transfer files  contain data, e.g. geodata, which is structured according to certain rules. These rules are described in another file (or multiple files) called a model file.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>24 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>24 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1013</Identifier>
     <IdentifierType>PUID</IdentifierType>

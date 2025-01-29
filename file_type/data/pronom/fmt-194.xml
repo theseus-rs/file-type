@@ -5,10 +5,6 @@
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>FileMaker Pro is a cross-platform relational database application from FileMaker Inc.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Oct 2009</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Oct 2009</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/194</Identifier>
     <IdentifierType>PUID</IdentifierType>

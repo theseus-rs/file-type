@@ -3,10 +3,6 @@
   <FormatName>Notation3</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Notation3, or N3, is a shorthand non-XML serialization of Resource Description Framework models.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>20 Jan 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jan 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/873</Identifier>
     <IdentifierType>PUID</IdentifierType>

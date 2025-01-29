@@ -5,11 +5,6 @@
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select ‘Add an Entry’.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
-  <ProvenanceSourceDate>21 Apr 2011</ProvenanceSourceDate>
-  <ProvenanceDescription>Submitted by Georgia Tech Research Institute</ProvenanceDescription>
-  <LastUpdatedDate>21 Apr 2011</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/351</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,12 +29,10 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1097</RelatedFormatID>
     <RelatedFormatName>Paradox Database Table</RelatedFormatName>
-    <RelatedFormatVersion>5.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1095</RelatedFormatID>
     <RelatedFormatName>Paradox Database Table</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

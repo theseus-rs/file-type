@@ -3,10 +3,6 @@
   <FormatName>AXD HTTP Handler File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>AXD Handler Files are used by ASP.NET applications for handling embedded resource requests.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>06 Jun 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>06 Jun 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/884</Identifier>
     <IdentifierType>PUID</IdentifierType>

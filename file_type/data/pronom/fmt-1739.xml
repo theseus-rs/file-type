@@ -3,20 +3,6 @@
   <FormatName>UDF-ISO 9660 Bridge Disc</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>UDF-ISO 9660 Bridge Disc is a format that stores contents and structure of an optical disc which can be transferred on the other media. It uses Universal Disk Format (UDF) file system developed for optical media by the Optical Storage Technology Association (OSTA), as well as ISO 9660 International Organization for Standardization (ISO). This format acts as a support for discs where ISO 9660 and UDF formats all reside on the same optical disc. It can be used in video applications, such as DVD-Video, DVD+VR, and DVD-VR. A disk image is a uncompressed copy of the contents of a disk or a folder, it can facilitate certain types of backup and recovery strategies. Please see ID: fdd000348 from Library of Congress and other links attached to this entry for further information.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>17 Aug 2022</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023- Max-offset modified for both BOF signatures to allow for more exact signature identification. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Universal_Disk_Format
-
-http://fileformats.archiveteam.org/wiki/ISO_9660
-
-https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml
-
-https://en.wikipedia.org/wiki/Optical_disc_image
-
-https://docs.microsoft.com/en-us/windows/win32/imapi/disc-formats</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1739</Identifier>
     <IdentifierType>PUID</IdentifierType>

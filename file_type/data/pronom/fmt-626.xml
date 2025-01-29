@@ -3,10 +3,6 @@
   <FormatName>LHA File Format</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>LHA is a freeware compression utility and associated file format. It was created in 1988 by Haruyasu Yoshizaki, and originally named LHarc.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Artefactual Systems Inc / Artefactual Systems Inc</ProvenanceName>
-  <ProvenanceSourceDate>14 Feb 2014</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Feb 2014</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/626</Identifier>
     <IdentifierType>PUID</IdentifierType>

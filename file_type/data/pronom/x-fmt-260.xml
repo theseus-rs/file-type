@@ -11,12 +11,6 @@ On the surface it's a plain text file, however the format 'shifts' the last byte
 
 It should be possible to write a simple decoder application for WS4 files, however note that the conjecture above is based on observation of a limited pool of files, and there may be additional subtleties yet to be encountered and understood. Please contact the PRONOM team if you have any further information about this format.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>29 Jul 2022</LastUpdatedDate>
-  <FormatNote>http://justsolve.archiveteam.org/wiki/WordStar
-https://www.loc.gov/preservation/digital/formats/fdd/fdd000552</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fdd000552</Identifier>
     <IdentifierType>Library of Congress Format Description Identifier</IdentifierType>
@@ -43,12 +37,10 @@ https://www.loc.gov/preservation/digital/formats/fdd/fdd000552</FormatNote>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>285</RelatedFormatID>
     <RelatedFormatName>WordStar for MS-DOS Document</RelatedFormatName>
-    <RelatedFormatVersion>5.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>542</RelatedFormatID>
     <RelatedFormatName>WordStar for MS-DOS Document</RelatedFormatName>
-    <RelatedFormatVersion>3.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

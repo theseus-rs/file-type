@@ -8,11 +8,6 @@
   <FormatDescription>Portable Document Format is a platform-independent format for representing formatted documents, developed by Adobe Systems Incorporated. It is the native format of Adobe’s Acrobat family of software products, version 1.5 corresponding to the release of Acrobat 6.0. PDF is based on, and shares the same imaging model as, the PostScript page description language. A PDF file comprises a Header section, a Body section containing the objects which make up the document, a Cross Reference Table, and a Trailer section. PDF files can contain a wide variety of content, including text, images, video and audio.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Big-endian (Motorola)</ByteOrders>
-  <ReleaseDate>01 Jan 2003</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Oct 2009</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/pdf</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -25,25 +20,6 @@
     <Identifier>fmt/19</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>44</DocumentID>
-    <DisplayText>Adobe Systems Incorporated, 2003, PDF Reference, fourth edition: Adobe Portable Document Format, Version 1.5</DisplayText>
-    <DocumentType>Authoritative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>28 Aug 2003</PublicationDate>
-    <TitleText>PDF Reference, fourth edition: Adobe Portable Document Format, Version 1.5</TitleText>
-    <DocumentIdentifier/>
-    <Author>
-      <AuthorID>7</AuthorID>
-      <OrganisationName>Adobe Systems Incorporated</OrganisationName>
-      <AuthorCompoundName>Adobe Systems Incorporated</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>7</PublisherID>
-      <OrganisationName>Adobe Systems Incorporated</OrganisationName>
-      <PublisherCompoundName>Adobe Systems Incorporated</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>709</ExternalSignatureID>
     <Signature>pdf</Signature>
@@ -71,7 +47,6 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>770</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1a</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -112,43 +87,36 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1100</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1b</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1263</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>2a</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1264</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>2b</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1265</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>2u</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1266</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>3a</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1267</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>3b</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1268</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF/A - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>3u</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
@@ -184,37 +152,31 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1350</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>13.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1351</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>14.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1352</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>15.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1353</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator</RelatedFormatName>
-    <RelatedFormatVersion>16.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2716</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator CC Artwork</RelatedFormatName>
-    <RelatedFormatVersion>17-23</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2717</RelatedFormatID>
     <RelatedFormatName>Adobe Illustrator CC 2020 Artwork</RelatedFormatName>
-    <RelatedFormatVersion>24-24.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has priority over</RelationshipType>
@@ -230,12 +192,10 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>637</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF 1.6 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1.6</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>617</RelatedFormatID>
     <RelatedFormatName>Acrobat PDF 1.4 - Portable Document Format</RelatedFormatName>
-    <RelatedFormatVersion>1.4</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

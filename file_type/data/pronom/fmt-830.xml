@@ -3,10 +3,6 @@
   <FormatName>Qsplat Model</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>QSplat is a program for displaying large geometric models in real time, developed by Stanford University as part of their Digital Michaelangelo Project.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/830</Identifier>
     <IdentifierType>PUID</IdentifierType>

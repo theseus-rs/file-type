@@ -4,10 +4,6 @@
   <FormatVersion>5.x</FormatVersion>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>CINEMA 4D is a 3D modeling, animation and rendering application developed by MAXON Computer GmbH.  CINEMA 4D as a file format can contain elements of animation, modeling, texturing and rendering.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Georgia Tech Research Institute / Georgia Tech Research Institute</ProvenanceName>
-  <ProvenanceSourceDate>19 Jul 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Sep 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/540</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -33,12 +29,10 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1990</RelatedFormatID>
     <RelatedFormatName>Cinema 4D</RelatedFormatName>
-    <RelatedFormatVersion>6+</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1194</RelatedFormatID>
     <RelatedFormatName>Cinema 4D</RelatedFormatName>
-    <RelatedFormatVersion>4.x</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

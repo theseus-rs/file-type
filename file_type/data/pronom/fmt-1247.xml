@@ -4,11 +4,6 @@
   <FormatVersion>4.0</FormatVersion>
   <FormatTypes>GIS</FormatTypes>
   <FormatDescription>SOSI is an abbreviation of Samordnet Opplegg for Stedfestet Informasjon, translating to Systematic Organisation of Spatial Information in English.  SOSI is a file format used for exchanging digital geodata published initially in 1987 by the Norwegian Mapping Authority. The standard includes definitions for geometry, topology, data quality, coordinate systems, attributes and metadata. It is a widely used in file format for Norwegian map data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Norwegian Unix Users Group / Norwegian Unix Users Group</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
-  <FormatNote>https://www.kartverket.no/geodataarbeid/Standarder/SOSI/</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1247</Identifier>
     <IdentifierType>PUID</IdentifierType>

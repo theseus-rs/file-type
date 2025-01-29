@@ -3,10 +3,6 @@
   <FormatName>Draco File Format</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Draco is a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to provide efficient storage and transmission of 3D graphics.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>10 May 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>10 May 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1046</Identifier>
     <IdentifierType>PUID</IdentifierType>

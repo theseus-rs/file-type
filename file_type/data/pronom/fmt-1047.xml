@@ -6,10 +6,6 @@
   <FormatDescription>The Geography Markup Language (GML) is the XML grammar defined by the Open Geospatial Consortium (OGC) to express geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet.
 Version 3.2 introduced a new GML XML namespace and represents ISO standard 19136. Full specifications can be found at http://www.opengeospatial.org/standards/gml</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Archaeology Data Service / Archaeology Data Service</ProvenanceName>
-  <ProvenanceSourceDate>18 May 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>18 May 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/gml+xml</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -49,7 +45,6 @@ Version 3.2 introduced a new GML XML namespace and represents ISO standard 19136
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
@@ -60,6 +55,5 @@ Version 3.2 introduced a new GML XML namespace and represents ISO standard 19136
     <RelationshipType>Is subtype of</RelationshipType>
     <RelatedFormatID>638</RelatedFormatID>
     <RelatedFormatName>Extensible Markup Language</RelatedFormatName>
-    <RelatedFormatVersion>1.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

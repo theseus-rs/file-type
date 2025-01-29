@@ -2,10 +2,6 @@
   <FormatID>1308</FormatID>
   <FormatName>Adobe Multiple Master Metrics font file</FormatName>
   <FormatDescription>Multiple Master Metrics (MMM) files are the multiple master equivalent of the single master font PFM files. A multiple master base font is composed of a PFM file, a PFB file, and an MMM file.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Borthwick Institute for Archives / The Borthwick Institute for Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 May 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>01 May 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/521</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,10 +4,6 @@
   <FormatVersion>Generic</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>SAS (Statistical Analysis System) is a statistical analysis software suite developed by SAS Institute. A SAS data file is a type of SAS data set that contains data values and descriptor information. This generic entry applies where PRONOM is unable to be specific regarding the version number of the file format. Please contact the PRONOM mailbox if you encounter a 'generic' SAS data file as this will help improve the data within PRONOM.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1015</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,24 +35,20 @@ Signature based extensively on unofficial description of DATA format, plus a wid
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1399</RelatedFormatID>
     <RelatedFormatName>Statistical Analysis System Data (Windows)</RelatedFormatName>
-    <RelatedFormatVersion>9.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1822</RelatedFormatID>
     <RelatedFormatName>Statistical Analysis System Data (Windows)</RelatedFormatName>
-    <RelatedFormatVersion>8.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1824</RelatedFormatID>
     <RelatedFormatName>Statistical Analysis System Data (Windows)</RelatedFormatName>
-    <RelatedFormatVersion>9.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1826</RelatedFormatID>
     <RelatedFormatName>Statistical Analysis System Data (Windows)</RelatedFormatName>
-    <RelatedFormatVersion>9.3</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -5,11 +5,6 @@
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>The Print Shop is a desktop publishing application published by Broderbund. The software has a range of format extensions dependent on the type of project being created and the format is produced by a range of Broderbund branded products. More information about the format family can be found here: http://fileformats.archiveteam.org/wiki/The_Print_Shop. The format is based on the OLE2 compound file format.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1300</Identifier>
     <IdentifierType>PUID</IdentifierType>

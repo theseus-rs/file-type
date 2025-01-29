@@ -5,10 +5,6 @@
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>This PUID is now deprecated in favour of x-fmt/401 - StarDraw 5.x</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/402</Identifier>
     <IdentifierType>PUID</IdentifierType>

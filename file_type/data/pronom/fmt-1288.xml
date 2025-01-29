@@ -3,10 +3,6 @@
   <FormatName>IESNA LM-63 Photometric Data File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>The IESNA LM-63 photometric data file is an ASCII text file commonly used by North American lighting fixture manufacturers to distribute photometric information about their products.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>13 Mar 2023</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1288</Identifier>
     <IdentifierType>PUID</IdentifierType>

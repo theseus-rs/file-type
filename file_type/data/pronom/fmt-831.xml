@@ -4,10 +4,6 @@
   <FormatAliases>Stanford Triangle Format</FormatAliases>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Also known as the Stanford Triangle Format, PLY is a format for storing graphical objects that are described as a collection of polygons. PLY can be represented in ASCII or binary.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Dec 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Dec 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/831</Identifier>
     <IdentifierType>PUID</IdentifierType>

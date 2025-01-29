@@ -3,10 +3,6 @@
   <FormatName>Apple Icon Image Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The Apple Icon Image Format is the icon format used by Apple's Mac family of Operating Systems.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>09 Aug 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>09 Aug 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1185</Identifier>
     <IdentifierType>PUID</IdentifierType>

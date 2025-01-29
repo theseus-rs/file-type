@@ -4,10 +4,6 @@
   <FormatVersion>2</FormatVersion>
   <FormatTypes>Database</FormatTypes>
   <FormatDescription>SQLite is a relational database management system. SQLite does not define a formal file extension, but .sqlite, and .db are commonly used.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Landesarchiv Nordrhein-Westfalen / Landesarchiv Nordrhein-Westfalen</ProvenanceName>
-  <ProvenanceSourceDate>19 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>19 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1135</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,6 +34,5 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>1528</RelatedFormatID>
     <RelatedFormatName>SQLite Database File Format</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

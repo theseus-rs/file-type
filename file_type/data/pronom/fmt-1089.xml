@@ -3,10 +3,6 @@
   <FormatName>VBScript (VBS) File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>VBScript is a scripting language based on Visual Basic, developed by Microsoft. A VBScript file contains code but doesn't have a formal structure or mandatory elements that can be used by PRONOM for identification purposes.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of Scotland / National Library of Scotland</ProvenanceName>
-  <ProvenanceSourceDate>21 Aug 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>21 Aug 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1089</Identifier>
     <IdentifierType>PUID</IdentifierType>

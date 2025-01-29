@@ -7,10 +7,6 @@
   <FormatDescription>Exchangeable image file format (Exif) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones), scanners and other systems handling image and sound files recorded by digital cameras.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel) and Big-endian (Motorola)</ByteOrders>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>image/jpeg</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -19,28 +15,6 @@
     <Identifier>x-fmt/390</Identifier>
     <IdentifierType>PUID</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>19</DocumentID>
-    <DisplayText>Japan Electronic Industry Development Association, 1998, JEIDA-49-1998 - Digital Still Camera Image File Format Standard (Exchangeable image file format for Digital Still Cameras: Exif), Version 2.1</DisplayText>
-    <DocumentType>Authoritative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>01 Dec 1998</PublicationDate>
-    <TitleText>JEIDA-49-1998 - Digital Still Camera Image File Format Standard (Exchangeable image file format for Digital Still Cameras: Exif), Version 2.1</TitleText>
-    <DocumentIdentifier>
-      <Identifier>www.exif.org/dcf-exif.PDF</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>105</AuthorID>
-      <OrganisationName>Japan Electronic Industry Development Association</OrganisationName>
-      <AuthorCompoundName>Japan Electronic Industry Development Association</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>105</PublisherID>
-      <OrganisationName>Japan Electronic Industry Development Association</OrganisationName>
-      <PublisherCompoundName>Japan Electronic Industry Development Association</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>688</ExternalSignatureID>
     <Signature>jpg</Signature>
@@ -96,12 +70,10 @@
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>676</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Compressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>751</RelatedFormatID>
     <RelatedFormatName>Exchangeable Image File Format (Compressed)</RelatedFormatName>
-    <RelatedFormatVersion>2.0</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

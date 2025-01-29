@@ -3,10 +3,6 @@
   <FormatName>Maxwell Render Material File</FormatName>
   <FormatTypes>Model</FormatTypes>
   <FormatDescription>Maxwell Render is a 3D render engine developed by Next Limit Technologies. The Material file defines material properties for 3D objects for use within a Maxwell 3D Scene.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>23 Jul 2018</ProvenanceSourceDate>
-  <LastUpdatedDate>23 Jul 2018</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1145</Identifier>
     <IdentifierType>PUID</IdentifierType>

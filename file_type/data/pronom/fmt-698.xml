@@ -4,10 +4,6 @@
   <FormatAliases>STEP</FormatAliases>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>ISO 10303 is an ISO standard for the computer-interpretable representation and exchange of product manufacturing information.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Michelle Lindlar / German National Library of Science and Technology</ProvenanceName>
-  <ProvenanceSourceDate>11 Feb 2015</ProvenanceSourceDate>
-  <LastUpdatedDate>11 Feb 2015</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/698</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -43,18 +39,15 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1458</RelatedFormatID>
     <RelatedFormatName>Industry Foundation Classes</RelatedFormatName>
-    <RelatedFormatVersion>2x2</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1498</RelatedFormatID>
     <RelatedFormatName>Industry Foundation Classes</RelatedFormatName>
-    <RelatedFormatVersion>2x3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>1499</RelatedFormatID>
     <RelatedFormatName>Industry Foundation Classes</RelatedFormatName>
-    <RelatedFormatVersion>4</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -3,11 +3,6 @@
   <FormatName>i2 Analysts Notebook</FormatName>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>The i2 Analyst’s Notebook format is a visual intelligence analysis environment that allows users to collate, analyse and visualise data.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>16 Jun 2016</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>16 Jun 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/893</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -4,10 +4,6 @@
   <FormatVersion>8.2</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>SAS (Statistical Analysis System) is a statistical analysis software suite developed by SAS Institute. A SAS data file is a type of SAS data set that contains data values and descriptor information.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>27 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>27 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1018</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -39,6 +35,5 @@ Signature based extensively on unofficial description of DATA format, plus a wid
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>1821</RelatedFormatID>
     <RelatedFormatName>Statistical Analysis System Data (Unix)</RelatedFormatName>
-    <RelatedFormatVersion>Generic</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -4,15 +4,6 @@
   <FormatVersion>1.0-3.1</FormatVersion>
   <FormatTypes>Dataset</FormatTypes>
   <FormatDescription>Flow Cytometry Standard (FCS) is a format originating from data file standard for reading and writing of data from flow cytometry experiments written by International Society for Advancement of Cytometry (ISAC). FCS format describes a file that is a combination of textual data followed by binary data. The first version of the format was adopted as FCS 1.0 in 1984, and then was modified in 1990 as FCS 2.0 and again in 1997 as FCS 3.0, with the latest version of the standard introduced in 2010 as version 3.1. Please see the links attached with this entry to find file specification.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>UMC Utrecht / University Medical Center Utrecht</ProvenanceName>
-  <ProvenanceSourceDate>15 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>15 Aug 2022</LastUpdatedDate>
-  <FormatNote>https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:6a9bb787-839c-3d29-9800-4191c3209260#pageNum=1
-
-https://isac-net.org/page/Data-Standards
-
-https://web.archive.org/web/20220128002659/https://en.wikipedia.org/wiki/Flow_Cytometry_Standard</FormatNote>
   <FileFormatIdentifier>
     <Identifier>application/vnd.isac.fcs</Identifier>
     <IdentifierType>MIME</IdentifierType>

@@ -3,11 +3,6 @@
   <FormatName>Gerber Format</FormatName>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>The Gerber format is an open 2D bi-level vector image file format.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>23 Sep 2014</ProvenanceSourceDate>
-  <ProvenanceDescription>http://www.artwork.com/gerber/274x/rs274x.htm; 04/2024 (v.118)- Signature added, internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>23 Apr 2024</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.gerber</Identifier>
     <IdentifierType>MIME</IdentifierType>

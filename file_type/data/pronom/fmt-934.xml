@@ -4,10 +4,6 @@
   <FormatVersion>2</FormatVersion>
   <FormatTypes>Image (Vector)</FormatTypes>
   <FormatDescription>SVF is a vector image format originally developed in 1994. The format supports hyperlinks and layer information.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>08 Jul 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>08 Jul 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/934</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -38,6 +34,5 @@ Specification: http://www.svf.org/spec.html</SignatureNote>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1738</RelatedFormatID>
     <RelatedFormatName>Simple Vector Format</RelatedFormatName>
-    <RelatedFormatVersion>1</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

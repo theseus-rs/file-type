@@ -3,10 +3,6 @@
   <FormatName>Smacker Video</FormatName>
   <FormatTypes>Video</FormatTypes>
   <FormatDescription>Smacker video is a video file format developed by RAD Game Tools, and primarily used for full-motion video in video games.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Canadian Centre for Architecture / The Canadian Centre for Architecture</ProvenanceName>
-  <ProvenanceSourceDate>18 Jan 2020</ProvenanceSourceDate>
-  <LastUpdatedDate>18 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1234</Identifier>
     <IdentifierType>PUID</IdentifierType>

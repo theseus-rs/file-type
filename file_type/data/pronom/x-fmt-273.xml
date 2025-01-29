@@ -4,10 +4,6 @@
   <FormatVersion>3.0</FormatVersion>
   <FormatDescription>This format has been deprecated in favour of another entry. Please see x-fmt/274, for versions 1-4 of Microsoft Word for MS-DOS Document.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>02 Aug 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>19 May 2022</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>x-fmt/273</Identifier>
     <IdentifierType>PUID</IdentifierType>

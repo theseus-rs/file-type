@@ -9,11 +9,6 @@
   <FormatDescription>The AutoCAD Drawing format is a vector graphics format, and is the native file format of AutoDesk's AutoCAD family of products. The format is proprietary and AutoDesk does not make details of its structure public. The information contained here is derived primarily from the OpenDWG Alliance's reverse-engineered documentation of the format, and should not therefore be regarded as definitive. The basic structure of a DWG file comprises a header section, a drawing class definitions section, the drawing object data, a drawing object map, which contains the locations of all the objects in the drawing, and an image data section, which may contain a raster image of the drawing in either Windows Bitmap (BMP) or Windows Metafile (WMF) format. DWG version 13 is the version of the format associated with Release 13 of AutoCAD.</FormatDescription>
   <BinaryFileFormat>Binary</BinaryFileFormat>
   <ByteOrders>Little-endian (Intel)</ByteOrders>
-  <ReleaseDate>01 Nov 1994</ReleaseDate>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Mar 2005</ProvenanceSourceDate>
-  <LastUpdatedDate>02 Aug 2005</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/33</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -22,28 +17,6 @@
     <Identifier>image/vnd.dwg</Identifier>
     <IdentifierType>MIME</IdentifierType>
   </FileFormatIdentifier>
-  <Document>
-    <DocumentID>7</DocumentID>
-    <DisplayText>OpenDWG Alliance, 2000, AutoCAD R13/R14/R2000 DWG File Specification: Version 2.0</DisplayText>
-    <DocumentType>Speculative</DocumentType>
-    <AvailabilityDescription>Public</AvailabilityDescription>
-    <PublicationDate>01 Jan 2000</PublicationDate>
-    <TitleText>AutoCAD R13/R14/R2000 DWG File Specification: Version 2.0</TitleText>
-    <DocumentIdentifier>
-      <Identifier>www.opendesign.com/downloads/spec/formatSpec13-15.rtf</Identifier>
-      <IdentifierType>URL</IdentifierType>
-    </DocumentIdentifier>
-    <Author>
-      <AuthorID>118</AuthorID>
-      <OrganisationName>OpenDWG Alliance</OrganisationName>
-      <AuthorCompoundName>OpenDWG Alliance</AuthorCompoundName>
-    </Author>
-    <Publisher>
-      <PublisherID>118</PublisherID>
-      <OrganisationName>OpenDWG Alliance</OrganisationName>
-      <PublisherCompoundName>OpenDWG Alliance</PublisherCompoundName>
-    </Publisher>
-  </Document>
   <ExternalSignature>
     <ExternalSignatureID>556</ExternalSignatureID>
     <Signature>dwg</Signature>
@@ -64,24 +37,20 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>722</RelatedFormatID>
     <RelatedFormatName>Drawing Interchange File Format (ASCII)</RelatedFormatName>
-    <RelatedFormatVersion>R13</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is previous version of</RelationshipType>
     <RelatedFormatID>707</RelatedFormatID>
     <RelatedFormatName>AutoCAD Drawing</RelatedFormatName>
-    <RelatedFormatVersion>R14</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>705</RelatedFormatID>
     <RelatedFormatName>AutoCAD Drawing</RelatedFormatName>
-    <RelatedFormatVersion>R11/12</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>740</RelatedFormatID>
     <RelatedFormatName>Drawing Interchange File Format (Binary)</RelatedFormatName>
-    <RelatedFormatVersion>R11/12</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -4,10 +4,6 @@
   <FormatAliases>Mobile XMF</FormatAliases>
   <FormatTypes>Audio</FormatTypes>
   <FormatDescription>XMF is a family of specifications created and administered by the MIDI Manufacturer's Association. An XMF file contains one or more existing files such as Standard MIDI Files, Downloadable Sound (DLS) instrument files, WAV files, or other digital audio files to create a collection of all the resources needed to present a musical piece. Mobile XMF was developed specifically for mobile phones, and supports SP-MIDI format SMF files as well as Mobile DLS content.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>14 Sep 2016</ProvenanceSourceDate>
-  <LastUpdatedDate>14 Sep 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>audio/mobile-xmf</Identifier>
     <IdentifierType>MIME</IdentifierType>

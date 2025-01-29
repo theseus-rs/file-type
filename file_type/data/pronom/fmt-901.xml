@@ -4,11 +4,6 @@
   <FormatVersion>6-9</FormatVersion>
   <FormatTypes>Spreadsheet</FormatTypes>
   <FormatDescription>Microsoft Works is a discontinued office suite developed by Microsoft. XLR files can contain either spreadsheet or chart data, and can be opened with Microsoft Works, Excel, and the Excel Viewer.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>21 Jun 2016</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>21 Jun 2016</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/901</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -22,6 +17,5 @@
     <RelationshipType>Has priority over</RelationshipType>
     <RelatedFormatID>684</RelatedFormatID>
     <RelatedFormatName>Microsoft Excel 97 Workbook (xls)</RelatedFormatName>
-    <RelatedFormatVersion>8</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

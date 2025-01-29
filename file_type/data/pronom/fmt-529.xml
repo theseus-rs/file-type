@@ -3,10 +3,6 @@
   <FormatName>JPEG Network Graphics</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>JPEG Network Graphics (JNG) is a JPEG-based graphics file format which is closely related to PNG: it uses the PNG file structure (with a different signature) as a container format to wrap JPEG encoded image data. JNG was created as an adjunct to the MNG animation format, but may be used as a stand-alone format. JNG files embed an 8-bit or 12-bit JPEG datastream in order to store color data, and may embed another datastream (1, 2, 4, 8, 16 bit PNG, or 8 bit JPEG grayscale image) for transparency information. However, a JNG may contain two separate JPEG datastreams for color information (one eight-bit and one twelve-bit) to permit decoders that are unable to (or do not wish to) handle twelve-bit datastreams to display the eight-bit datastream instead, if one is present.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>01 May 2013</ProvenanceSourceDate>
-  <LastUpdatedDate>12 Nov 2013</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/529</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,10 +3,6 @@
   <FormatName>Seattle FilmWorks SFW Image Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Seattle FilmWorks was a mail order film processing company. Digitised photographs made by the company used a family of proprietary raster image formats known as SFW and PWP (PhotoWorks PhotoMail). The SFW format has a compressed version based on JPEG, and an uncompressed version based on BMP.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>28 Sep 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Jan 2020</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1104</Identifier>
     <IdentifierType>PUID</IdentifierType>

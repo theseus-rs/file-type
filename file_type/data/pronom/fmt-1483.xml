@@ -3,10 +3,6 @@
   <FormatName>Mar Archive</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>A Mar archive is an archival container file created by the Mar utility on the Apple Macintosh. It is similar to TAR and encapsulates the Resource Fork, Data Fork, and Finder data of a classic Macintosh file.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>20 Oct 2021</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Oct 2021</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1483</Identifier>
     <IdentifierType>PUID</IdentifierType>

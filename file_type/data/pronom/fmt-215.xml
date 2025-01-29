@@ -5,11 +5,6 @@
   <FormatTypes>Presentation</FormatTypes>
   <FormatDescription>From Microsoft Office 2007 onwards, the core output format of MS Powerpoint has been based on the Office Open XML (OOXML) file format. The ISO standard for OOXML is ISO/IEC DIS 29500. An OOXML file format consists of a compressed zip archive that is designated according to which file type it is. Further detail on OOXML can be found within fmt/189 - Microsoft Office Open XML.</FormatDescription>
   <BinaryFileFormat>Text</BinaryFileFormat>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>28 Oct 2009</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>19 Apr 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.openxmlformats-officedocument.presentationml.presentation</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -32,42 +27,35 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2681</RelatedFormatID>
     <RelatedFormatName>PPTX Strict OOXML Presentation</RelatedFormatName>
-    <RelatedFormatVersion>2007 onwards</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1428</RelatedFormatID>
     <RelatedFormatName>Microsoft PowerPoint Show</RelatedFormatName>
-    <RelatedFormatVersion>2007</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1429</RelatedFormatID>
     <RelatedFormatName>Microsoft PowerPoint Macro-Enabled Show</RelatedFormatName>
-    <RelatedFormatVersion>2007</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1430</RelatedFormatID>
     <RelatedFormatName>Microsoft PowerPoint Template</RelatedFormatName>
-    <RelatedFormatVersion>2007</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1431</RelatedFormatID>
     <RelatedFormatName>Microsoft PowerPoint Macro-Enabled Template</RelatedFormatName>
-    <RelatedFormatVersion>2007</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1432</RelatedFormatID>
     <RelatedFormatName>Microsoft PowerPoint Macro-Enabled Add-In</RelatedFormatName>
-    <RelatedFormatVersion>2007</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1436</RelatedFormatID>
     <RelatedFormatName>Microsoft PowerPoint Macro-Enabled Slide</RelatedFormatName>
-    <RelatedFormatVersion>2007</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

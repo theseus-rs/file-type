@@ -3,14 +3,6 @@
   <FormatName>Animatic Film Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Animatic Film is an Atari animation format associated with the Animatic Animation System software by Kinetic Microsystems.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The National Archives and Records Administration / The National Archives and Records Administration</ProvenanceName>
-  <ProvenanceSourceDate>25 Oct 2022</ProvenanceSourceDate>
-  <ProvenanceDescription>11/2023 (v.115)- Max-offset modified for BOF signature to allow for more exact signature identification. Internally researched.</ProvenanceDescription>
-  <LastUpdatedDate>15 Nov 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Animatic_Film
-
-https://temlib.org/AtariForumWiki/index.php/Animatic_Film_file_format</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1784</Identifier>
     <IdentifierType>PUID</IdentifierType>

@@ -3,11 +3,6 @@
   <FormatName>Vips Image</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The Vips file format is a native raster image format produced by the LibVips image processing library.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Preservica / Preservica</ProvenanceName>
-  <ProvenanceSourceDate>31 Jan 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>31 Jan 2023</LastUpdatedDate>
-  <FormatNote>https://www.libvips.org/API/current/file-format.html</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1811</Identifier>
     <IdentifierType>PUID</IdentifierType>

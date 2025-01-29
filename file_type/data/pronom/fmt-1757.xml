@@ -3,21 +3,6 @@
   <FormatName>Apple Partition Map - ISO 9660 - UDF Hybrid Disk Image</FormatName>
   <FormatTypes>Aggregate</FormatTypes>
   <FormatDescription>Apple Partition Map - ISO 9660 - UDF Hybrid Disk Image, describes the contents and structure of optical disc media of Apple Partition Map (APM) partition scheme with ISO9660 and Universal Disk Format (UDF) file systems attached. Since all three schemes reside on the same optical disc this is most likely to be on DVD media type of file. APM partition scheme can be thought of as a container format for multiple file system image files, and in this entry together UDF file system developed for optical media by the Optical Storage Technology Association (OSTA) and ISO 9660 International Organization for Standardization (ISO), the hybrid system acts as a support for all three schemes and allows for disc to be rendered on various operating systems. A disk image is a uncompressed copy of the contents of a disk or a folder, it can facilitate certain types of backup and recovery strategies. Please see ID: fdd000348 from Library of Congress and other links attached to this entry for further information.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>25 Aug 2022</ProvenanceSourceDate>
-  <LastUpdatedDate>25 Aug 2022</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Apple_Partition_Map
-
-https://www.loc.gov/preservation/digital/formats/fdd/fdd000348.shtml
-
-https://en.wikipedia.org/wiki/Apple_Disk_Image
-
-https://en.wikipedia.org/wiki/Optical_disc_image
-
-https://en.wikipedia.org/wiki/ISO_9660
-
-http://fileformats.archiveteam.org/wiki/Universal_Disk_Format</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1757</Identifier>
     <IdentifierType>PUID</IdentifierType>

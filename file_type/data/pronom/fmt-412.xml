@@ -4,11 +4,6 @@
   <FormatVersion>2007 onwards</FormatVersion>
   <FormatTypes>Word Processor</FormatTypes>
   <FormatDescription>From Microsoft Office 2007 onwards, the core output format of MS Word has been based on the Office Open XML (OOXML) file format. The ISO standard for OOXML is ISO/IEC DIS 29500. An OOXML file format consists of a compressed zip archive that is designated according to which file type it is. Further detail on OOXML can be found within fmt/189 - Microsoft Office Open XML. An alternative extension of .wbk refers to a backup file of a Word document, however there is no material or structural difference between a .wbk file and the .doc file it is a backup of.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>11 Jun 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>This format can be identified via a container signature in DROID version 6 or later. The PRONOM database cannot currently represent container signatures.</ProvenanceDescription>
-  <LastUpdatedDate>11 Jun 2012</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>application/vnd.openxmlformats-officedocument.wordprocessingml.document</Identifier>
     <IdentifierType>MIME</IdentifierType>
@@ -31,18 +26,15 @@
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2678</RelatedFormatID>
     <RelatedFormatName>DOCX Strict OOXML Document</RelatedFormatName>
-    <RelatedFormatVersion>2007 onwards</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1389</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Template</RelatedFormatName>
-    <RelatedFormatVersion>2007 onwards</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Is supertype of</RelationshipType>
     <RelatedFormatID>1391</RelatedFormatID>
     <RelatedFormatName>Microsoft Word Macro-Enabled Document Template</RelatedFormatName>
-    <RelatedFormatVersion>2007 onwards</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

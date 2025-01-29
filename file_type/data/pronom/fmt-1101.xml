@@ -3,10 +3,6 @@
   <FormatName>High Efficiency Image File Format</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>The High Efficiency Image File Format (HEIF) is an image format standard defined in ISO/IEC 23008-12 - MPEG-H Part 12. HEIF can store images, image properties, thumbnails and other derivatives, plus image metadata. It can support individual images and image sequences At this time the PRONOM identification signature does not distinguish between individual images and image sequences although this may be desirable.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>26 Sep 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>26 Sep 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1101</Identifier>
     <IdentifierType>PUID</IdentifierType>

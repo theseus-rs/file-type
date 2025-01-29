@@ -2,13 +2,6 @@
   <FormatID>1143</FormatID>
   <FormatName>vCard</FormatName>
   <FormatDescription>vCard is a file format standard for electronic business cards. vCards are often attached to e-mail messages, but can be exchanged in other ways, such as on the World Wide Web or instant messaging.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>National Library of New Zealand / National Library of New Zealand</ProvenanceName>
-  <ProvenanceSourceDate>16 Mar 2012</ProvenanceSourceDate>
-  <ProvenanceDescription>08/2023 (v.113)- Extension vcard added and specification added to note field. Researched internally.</ProvenanceDescription>
-  <LastUpdatedDate>15 Aug 2023</LastUpdatedDate>
-  <FormatNote>Specification: https://tools.ietf.org/html/rfc6350
-http://en.wikipedia.org/wiki/Vcard</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/395</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -51,18 +44,15 @@ Internet standard: https://tools.ietf.org/html/rfc6350</SignatureNote>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2733</RelatedFormatID>
     <RelatedFormatName>vCard</RelatedFormatName>
-    <RelatedFormatVersion>2.1</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2734</RelatedFormatID>
     <RelatedFormatName>vCard</RelatedFormatName>
-    <RelatedFormatVersion>3</RelatedFormatVersion>
   </RelatedFormat>
   <RelatedFormat>
     <RelationshipType>Has lower priority than</RelationshipType>
     <RelatedFormatID>2735</RelatedFormatID>
     <RelatedFormatName>vCard</RelatedFormatName>
-    <RelatedFormatVersion>4</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

@@ -3,13 +3,6 @@
   <FormatName>Leica Project File</FormatName>
   <FormatTypes>Text (Structured)</FormatTypes>
   <FormatDescription>Lgs files contain all project information for Leica Geosystems HDS software. They enable storage and transfer between all Leica Geosystems’ HDS software products. Lgs files store information including: Name, Thumbnail, Coordinate system, Publish date, SiteMap image(s), Hyperlinks between SiteMaps, Timestamp, RGB colours and HDR colours. Files can be password protected.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>The Church of Jesus Christ of Latter-Day Saints / The Church of Jesus Christ of Latter-Day Saints</ProvenanceName>
-  <ProvenanceSourceDate>28 Feb 2023</ProvenanceSourceDate>
-  <LastUpdatedDate>28 Feb 2023</LastUpdatedDate>
-  <FormatNote>http://fileformats.archiveteam.org/wiki/Leica_LGS
-
-https://leica-geosystems.com/-/media/files/leicageosystems/products/release%20notes/leica-truview-3-6_rn.ashx</FormatNote>
   <FileFormatIdentifier>
     <Identifier>fmt/1838</Identifier>
     <IdentifierType>PUID</IdentifierType>

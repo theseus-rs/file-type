@@ -4,10 +4,6 @@
   <FormatVersion>5</FormatVersion>
   <FormatTypes>Image (Raster), Dataset</FormatTypes>
   <FormatDescription>Nrrd is a library and file format designed to support scientific visualization and image processing involving N-dimensional raster data. Version 5 added a 'measurement frame:' field.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>22 Mar 2017</ProvenanceSourceDate>
-  <LastUpdatedDate>22 Mar 2017</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/1006</Identifier>
     <IdentifierType>PUID</IdentifierType>
@@ -34,6 +30,5 @@ http://teem.sourceforge.net/nrrd/format.html</SignatureNote>
     <RelationshipType>Is subsequent version of</RelationshipType>
     <RelatedFormatID>1810</RelatedFormatID>
     <RelatedFormatName>Nearly Raw Raster Data</RelatedFormatName>
-    <RelatedFormatVersion>4</RelatedFormatVersion>
   </RelatedFormat>
 </FileFormat>

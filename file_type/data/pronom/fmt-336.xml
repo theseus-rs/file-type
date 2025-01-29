@@ -3,10 +3,6 @@
   <FormatName>Graphic Workshop for Windows Thumbnail File</FormatName>
   <FormatTypes>Image (Raster)</FormatTypes>
   <FormatDescription>Image thumbnail files created by default within Graphic Workshop whenever a graphic file is written or updated. Can contain image, keywords and/or comment information. THN files are read by Graphic Workshop when it wants to display thumbnail images. The files themselves do not store graphics in any conventional sense.</FormatDescription>
-  <ProvenanceSourceId>0</ProvenanceSourceId>
-  <ProvenanceName>Digital Preservation Department / The National Archives</ProvenanceName>
-  <ProvenanceSourceDate>20 Apr 2011</ProvenanceSourceDate>
-  <LastUpdatedDate>20 Apr 2011</LastUpdatedDate>
   <FileFormatIdentifier>
     <Identifier>fmt/336</Identifier>
     <IdentifierType>PUID</IdentifierType>
