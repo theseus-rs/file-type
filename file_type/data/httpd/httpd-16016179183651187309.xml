@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>16016179183651187309</FormatID>
+  <FormatName>lotus wordpro</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/16016179183651187309</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.lotus-wordpro</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>lwp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

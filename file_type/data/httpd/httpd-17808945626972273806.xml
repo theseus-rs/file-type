@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>17808945626972273806</FormatID>
+  <FormatName>oasis opendocument graphics</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/17808945626972273806</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.oasis.opendocument.graphics</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>odg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

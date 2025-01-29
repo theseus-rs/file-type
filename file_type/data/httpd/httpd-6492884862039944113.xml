@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>6492884862039944113</FormatID>
+  <FormatName>oxps</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/6492884862039944113</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/oxps</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>oxps</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

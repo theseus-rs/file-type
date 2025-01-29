@@ -5,7 +5,6 @@
 
 use anyhow::Result;
 use file_type::format::{DocumentIdentifier, ExternalSignature, FileFormat, SignatureType};
-use file_type::FileType;
 use quick_xml::se::Serializer;
 use reqwest::Client;
 use serde::Serialize;
@@ -114,13 +113,6 @@ fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Result<Vec<Fi
     let mut file_formats = Vec::new();
 
     for (mime_type, extensions) in mime_types {
-        let exists = extensions
-            .iter()
-            .any(|extension| mime_type_exists(&mime_type, extension));
-        if exists {
-            continue;
-        }
-
         let external_signatures = extensions
             .iter()
             .enumerate()
@@ -162,19 +154,6 @@ fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Result<Vec<Fi
     }
 
     Ok(file_formats)
-}
-
-/// Check if a mime type and extension already exist in the file type data.
-fn mime_type_exists<S: AsRef<str>>(mime_type: S, extension: S) -> bool {
-    let mime_type = mime_type.as_ref();
-    let extension = extension.as_ref();
-    for file_type in FileType::from_media_type(mime_type) {
-        if file_type.extensions().contains(&extension) {
-            return true;
-        }
-    }
-
-    false
 }
 
 async fn store_file_format(file_format: &FileFormat, output_dir: &Path) -> Result<()> {

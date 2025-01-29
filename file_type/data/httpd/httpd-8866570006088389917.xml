@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>8866570006088389917</FormatID>
+  <FormatName>stuffit</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/8866570006088389917</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-stuffit</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sit</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

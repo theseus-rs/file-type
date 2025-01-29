@@ -1,4 +1,4 @@
-# File Types (3849)
+# File Types (3998)
 
 | Id | Name | Extensions | Media Types |
 | ---- | ---- | ----------- | ---------- |
@@ -21,6 +21,7 @@
 | [httpd/11384243993817082359](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11384243993817082359.xml) | 3gpp pic bw var | pvb | application/vnd.3gpp.pic-bw-var |
 | [httpd/7654423572304751873](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7654423572304751873.xml) | 3gpp2 tcap | tcap | application/vnd.3gpp2.tcap |
 | [httpd/11201281216374005716](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11201281216374005716.xml) | 3gpp2 | 3g2 | video/3gpp2 |
+| [httpd/3009405301600505228](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3009405301600505228.xml) | 3gpp | 3gp | video/3gpp |
 | [httpd/14648864362426505394](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14648864362426505394.xml) | 3m post it notes | pwn | application/vnd.3m.post-it-notes |
 | [fmt/1275](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1275.xml) | 3M Printscape | psc |  |
 | [fmt/829](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-829.xml) | 3MF 3D Manufacturing Format | 3mf | application/vnd.ms-3mfdocument |
@@ -101,6 +102,7 @@
 | [x-fmt/217](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-217.xml) | Adobe ACD | acd |  |
 | [fmt/1500](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1500.xml) | Adobe Acrobat Forms Data Format | fdf | application/vnd.fdf |
 | [fmt/796](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-796.xml) | Adobe After Effects | aep |  |
+| [httpd/455646521709565751](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-455646521709565751.xml) | adobe air application installer package zip | air | application/vnd.adobe.air-application-installer-package+zip |
 | [fmt/1859](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1859.xml) | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
 | [fmt/937](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-937.xml) | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
 | [fmt/942](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-942.xml) | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
@@ -196,6 +198,7 @@
 | [fmt/521](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-521.xml) | Adobe Multiple Master Metrics font file | mmm |  |
 | [x-fmt/167](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-167.xml) | Adobe PhotoDeluxe | pdd |  |
 | [fmt/996](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-996.xml) | Adobe Photoshop Large Document Format | psb | image/vnd.adobe.photoshop |
+| [httpd/10233703363409414994](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10233703363409414994.xml) | adobe photoshop | psd | image/vnd.adobe.photoshop |
 | [x-fmt/92](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-92.xml) | Adobe Photoshop | psd, pdd | image/vnd.adobe.photoshop |
 | [fmt/446](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-446.xml) | Adobe Portable Document Catalog Index File | pdx |  |
 | [fmt/447](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-447.xml) | Adobe Portable Document Catalog Index File | pdx |  |
@@ -207,6 +210,7 @@
 | [fmt/1190](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1190.xml) | Adobe SWC Package | swc |  |
 | [fmt/660](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-660.xml) | Adobe Type 1 Mac Font File |  |  |
 | [httpd/16997561686559408896](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16997561686559408896.xml) | adobe xdp xml | xdp | application/vnd.adobe.xdp+xml |
+| [httpd/14711920672395569618](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14711920672395569618.xml) | adobe xfdf | xfdf | application/vnd.adobe.xfdf |
 | [httpd/2263091937087112692](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2263091937087112692.xml) | adpcm | adp | audio/adpcm |
 | [fmt/1584](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1584.xml) | ADRIFT Text Adventure File | taf |  |
 | [fmt/1370](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1370.xml) | Advanced Disk Catalog | adc |  |
@@ -225,6 +229,7 @@
 | [httpd/4986673632147286331](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4986673632147286331.xml) | ahead space | ahead | application/vnd.ahead.space |
 | [fmt/1621](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1621.xml) | AHX-Module Format (formerly THX module format) | ahx |  |
 | [linguist/451700185](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-451700185.xml) | AIDL | aidl |  |
+| [httpd/1397503800195216873](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1397503800195216873.xml) | aiff | aif, aiff, aifc | audio/x-aiff |
 | [httpd/4165121783115442141](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4165121783115442141.xml) | airzip filesecure azf | azf | application/vnd.airzip.filesecure.azf |
 | [httpd/9209038509344480468](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9209038509344480468.xml) | airzip filesecure azs | azs | application/vnd.airzip.filesecure.azs |
 | [fmt/1449](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1449.xml) | Aldus FreeHand Drawing |  |  |
@@ -276,6 +281,7 @@
 | [fmt/416](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-416.xml) | Apple Core Audio Format | caf |  |
 | [fmt/625](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-625.xml) | Apple Disk Copy Image | dmg, smi, img, image |  |
 | [fmt/1071](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1071.xml) | Apple Disk Image | dmg | application/x-apple-diskimage |
+| [httpd/6415018873001411960](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6415018873001411960.xml) | apple diskimage | dmg | application/x-apple-diskimage |
 | [fmt/482](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-482.xml) | Apple iBook format | ibooks | application/x-ibooks+zip |
 | [fmt/1185](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1185.xml) | Apple Icon Image Format | icns |  |
 | [httpd/1006546886522380100](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1006546886522380100.xml) | apple installer xml | mpkg | application/vnd.apple.installer+xml |
@@ -466,6 +472,7 @@
 | [fmt/1239](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1239.xml) | Band Interleaved By Pixel (BIP) Image Encoding | bip |  |
 | [fmt/1240](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1240.xml) | Band Sequential (BSQ) Image Encoding | bsq |  |
 | [fmt/885](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-885.xml) | BASIC File | bas |  |
+| [httpd/10692450451458080727](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10692450451458080727.xml) | basic | au, snd | audio/basic |
 | [linguist/28923963](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-28923963.xml) | BASIC | bas |  |
 | [x-fmt/413](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-413.xml) | Batch file (executable) | bat |  |
 | [linguist/29](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-29.xml) | Batchfile | bat, cmd |  |
@@ -509,6 +516,7 @@
 | [linguist/36](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-36.xml) | Bluespec | bsv | text/x-systemverilog |
 | [fmt/904](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-904.xml) | Bluetooth Snoop Packet Capture | log |  |
 | [httpd/5904094350807371736](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5904094350807371736.xml) | bmi | bmi | application/vnd.bmi |
+| [httpd/58557133219837792](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-58557133219837792.xml) | bmp | bmp | image/bmp |
 | [fmt/1181](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1181.xml) | Bodypaint 3D | b3d |  |
 | [linguist/955017407](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-955017407.xml) | Boogie | bpl |  |
 | [linguist/37](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-37.xml) | Boo | boo |  |
@@ -541,6 +549,7 @@
 | [httpd/9491002127237071349](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9491002127237071349.xml) | businessobjects | rep | application/vnd.businessobjects |
 | [x-fmt/267](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-267.xml) | BZIP Compressed Archive | bz |  |
 | [x-fmt/268](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-268.xml) | BZIP2 Compressed Archive | bz2 | application/x-bzip2 |
+| [httpd/15847581481070904334](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-15847581481070904334.xml) | bzip2 | bz2, boz | application/x-bzip2 |
 | [httpd/18270236438859893354](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-18270236438859893354.xml) | bzip | bz | application/x-bzip |
 | [fmt/1768](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1768.xml) | C Source Code File | c |  |
 | [linguist/42](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-42.xml) | C# | cs, cake, cs.pp, csx, linq | text/x-csharp |
@@ -570,6 +579,7 @@
 | [fmt/1297](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1297.xml) | Calendar Creator File | cc5 |  |
 | [fmt/1298](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1298.xml) | Calendar Creator File | bcc |  |
 | [x-fmt/141](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-141.xml) | Calendar Creator Plus Data File | cce |  |
+| [httpd/6306876490844253642](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6306876490844253642.xml) | calendar | ics, ifb | text/calendar |
 | [fmt/913](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-913.xml) | Caligari trueSpace File Format | cob, scn |  |
 | [fmt/914](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-914.xml) | Caligari trueSpace File Format | cob, scn |  |
 | [x-fmt/28](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-28.xml) | CALS Compressed Bitmap | cal |  |
@@ -612,8 +622,10 @@
 | [httpd/7140578712814967016](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7140578712814967016.xml) | cdmi queue | cdmiq | application/cdmi-queue |
 | [fmt/1655](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1655.xml) | cdrLabel Label File | clb |  |
 | [fmt/869](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-869.xml) | CDX Internet Archive Index | cdx |  |
+| [httpd/16996377452230788938](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16996377452230788938.xml) | cdx | cdx | chemical/x-cdx |
 | [linguist/54](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-54.xml) | Ceylon | ceylon |  |
 | [httpd/11202271241335613371](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11202271241335613371.xml) | cfs compressed | cfs | application/x-cfs-compressed |
+| [httpd/12245915407977729584](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12245915407977729584.xml) | cgm | cgm | image/cgm |
 | [linguist/55](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-55.xml) | Chapel | chpl |  |
 | [linguist/56](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-56.xml) | Charity | ch |  |
 | [fmt/665](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-665.xml) | Chasys Draw image file | cd5 |  |
@@ -687,6 +699,7 @@
 | [fmt/1566](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1566.xml) | ColdFusion Markup Language | cfm |  |
 | [linguist/64](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-64.xml) | ColdFusion | cfm, cfml |  |
 | [fmt/1209](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1209.xml) | COLLADA Digital Asset Exchange (DAE) | dae | model/vnd.collada+xml |
+| [httpd/2052277755356363743](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2052277755356363743.xml) | collada xml | dae | model/vnd.collada+xml |
 | [linguist/49](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-49.xml) | COLLADA | dae | text/xml |
 | [httpd/15816773989381630238](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-15816773989381630238.xml) | collection | ttc | font/collection |
 | [fmt/1462](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1462.xml) | Comic Book Archive | cb7, cba, cbr, cbt, cbz |  |
@@ -798,8 +811,10 @@
 | [linguist/74](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-74.xml) | Csound Document | csd |  |
 | [linguist/75](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-75.xml) | Csound Score | sco |  |
 | [linguist/73](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-73.xml) | Csound | orc, udo |  |
+| [httpd/12494986627780367101](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12494986627780367101.xml) | css | css | text/css |
 | [linguist/50](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-50.xml) | CSS | css | text/css |
 | [fmt/800](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-800.xml) | CSV Schema | csvs | text/csv-schema |
+| [httpd/482181358543897709](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-482181358543897709.xml) | csv | csv | text/csv |
 | [linguist/51](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-51.xml) | CSV | csv |  |
 | [httpd/16761428806224039353](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16761428806224039353.xml) | ctc posml | pml | application/vnd.ctc-posml |
 | [httpd/12846344509288362340](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12846344509288362340.xml) | cu seeme | cu | application/cu-seeme |
@@ -907,10 +922,12 @@
 | [fmt/1040](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1040.xml) | DirectDraw Surface | dds |  |
 | [fmt/957](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-957.xml) | DirectMusic Segment File Format | sgt |  |
 | [fmt/958](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-958.xml) | DirectMusic Style File Format | sty |  |
+| [httpd/6379457667655792030](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6379457667655792030.xml) | director | dir, dcr, dxr, cst, cct, cxt, w3d, fgd, swa | application/x-director |
 | [linguist/201049282](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-201049282.xml) | DirectX 3D File | x |  |
 | [fmt/1399](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1399.xml) | DiskDoubler |  |  |
 | [fmt/1960](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1960.xml) | Disklavier E-Seq Music | fil, esq |  |
 | [fmt/255](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-255.xml) | DjVu File Format | djvu, djv | image/vnd.djvu, image/x-djvu |
+| [httpd/10814198890374693472](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10814198890374693472.xml) | djvu | djvu, djv | image/vnd.djvu |
 | [linguist/83](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-83.xml) | DM | dm |  |
 | [fmt/1554](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1554.xml) | DNA Sequence Chromatogram File | scf |  |
 | [httpd/3054944743288342147](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3054944743288342147.xml) | dna | dna | application/vnd.dna |
@@ -984,6 +1001,7 @@
 | [linguist/85](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-85.xml) | DTrace | d | text/x-csrc |
 | [fmt/973](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-973.xml) | DTS Coherent Acoustics (DCA) Audio | dts | audio/vnd.dts |
 | [httpd/5184721221333372627](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5184721221333372627.xml) | dts hd | dtshd | audio/vnd.dts.hd |
+| [httpd/7759232053586146786](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7759232053586146786.xml) | dts | dts | audio/vnd.dts |
 | [custom/3](https://github.com/theseus-rs/file-type/blob/main/file_type/data/custom/custom-3.xml) | DuckDB | duckdb | application/vnd.duckdb.file |
 | [linguist/754574151](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-754574151.xml) | Dune |  |  |
 | [httpd/5012686256345022475](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5012686256345022475.xml) | dvb ait | ait | application/vnd.dvb.ait |
@@ -992,6 +1010,10 @@
 | [httpd/14440920598703145864](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14440920598703145864.xml) | dvb subtitle | sub | text/vnd.dvb.subtitle |
 | [httpd/2327811077702530899](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2327811077702530899.xml) | dvb subtitle | sub | image/vnd.dvb.subtitle |
 | [x-fmt/419](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-419.xml) | DVD data file and backup data file | ifo, bup |  |
+| [httpd/5174834195855902729](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5174834195855902729.xml) | dvi | dvi | application/x-dvi |
+| [httpd/8375375708759435103](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8375375708759435103.xml) | dwf | dwf | model/vnd.dwf |
+| [httpd/3819103361016362175](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3819103361016362175.xml) | dwg | dwg | image/vnd.dwg |
+| [httpd/8098122450534646074](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8098122450534646074.xml) | dxf | dxf | image/vnd.dxf |
 | [linguist/91](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-91.xml) | Dylan | dylan, dyl, intr, lid | text/x-dylan |
 | [httpd/14560088302329463820](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14560088302329463820.xml) | dynageo | geo | application/vnd.dynageo |
 | [fmt/1779](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1779.xml) | Dynamic Publisher Font File | fnt |  |
@@ -1073,6 +1095,7 @@
 | [httpd/16707635017572183154](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16707635017572183154.xml) | epson salt | slt | application/vnd.epson.salt |
 | [httpd/2712046030815474526](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2712046030815474526.xml) | epson ssf | ssf | application/vnd.epson.ssf |
 | [fmt/483](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-483.xml) | ePub format | epub | application/epub+zip |
+| [httpd/7535621132484556555](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7535621132484556555.xml) | epub zip | epub | application/epub+zip |
 | [linguist/96](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-96.xml) | EQ | eq | text/x-csharp |
 | [fmt/195](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-195.xml) | ERDAS IMAGINE Gray-scale Bitmap Image | gis |  |
 | [fmt/1563](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1563.xml) | ERDAS Imagine Large Raster Spill File | ige |  |
@@ -1162,6 +1185,7 @@
 | [linguist/622529198](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-622529198.xml) | Faust | dsp |  |
 | [fmt/1009](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1009.xml) | FBX (Filmbox) Binary |  |  |
 | [fmt/1010](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1010.xml) | FBX (Filmbox) Text | fbx |  |
+| [httpd/8251793082490783824](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8251793082490783824.xml) | fdf | fdf | application/vnd.fdf |
 | [httpd/4459766482740976956](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4459766482740976956.xml) | fdsn mseed | mseed | application/vnd.fdsn.mseed |
 | [httpd/8769941306517163787](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8769941306517163787.xml) | fdsn seed | seed, dataless | application/vnd.fdsn.seed |
 | [fmt/889](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-889.xml) | Feather | feather |  |
@@ -1203,6 +1227,7 @@
 | [linguist/206353404](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-206353404.xml) | Fluent | ftl |  |
 | [httpd/4578033822823314924](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4578033822823314924.xml) | fluxtime clip | ftc | application/vnd.fluxtime.clip |
 | [linguist/106](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-106.xml) | FLUX | fx, flux |  |
+| [httpd/2176582756351900283](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2176582756351900283.xml) | flv | flv | video/x-flv |
 | [httpd/5721063115553544283](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5721063115553544283.xml) | fly | fly | text/vnd.fly |
 | [httpd/13747210224170367135](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13747210224170367135.xml) | fmi flexstor | flx | text/vnd.fmi.flexstor |
 | [fmt/1241](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1241.xml) | FO File | fo | application/vnd.software602.filler.form+xml |
@@ -1225,6 +1250,7 @@
 | [linguist/114](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-114.xml) | Forth | fth, 4th, f, for, forth, fr, frt, fs | text/x-forth |
 | [linguist/761352333](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-761352333.xml) | Fortran Free Form | f90, f03, f08, f95 | text/x-fortran |
 | [fmt/879](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-879.xml) | Fortran | f90, f95, f03, f, for |  |
+| [httpd/14275005348846661619](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14275005348846661619.xml) | fortran | f, for, f77, f90 | text/x-fortran |
 | [linguist/107](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-107.xml) | Fortran | f, f77, for, fpp | text/x-fortran |
 | [fmt/1846](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1846.xml) | Fountain Markup Language File | spmd, fountain |  |
 | [fmt/375](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-375.xml) | FoxPro Compound Index File | cdx |  |
@@ -1233,8 +1259,10 @@
 | [x-fmt/7](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-7.xml) | FoxPro Database | dbf |  |
 | [fmt/381](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-381.xml) | FoxPro Project | pjx |  |
 | [fmt/376](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-376.xml) | FoxPro Report | frx |  |
+| [httpd/17503026622709458360](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17503026622709458360.xml) | fpx | fpx | image/vnd.fpx |
 | [x-fmt/320](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-320.xml) | Fractal Image | fif |  |
 | [x-fmt/55](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-55.xml) | Frame Vector Metafile | fmv |  |
+| [httpd/3184275637844130277](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3184275637844130277.xml) | framemaker | fm, frame, maker, book | application/vnd.framemaker |
 | [fmt/1173](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1173.xml) | FrameMD5 | framemd5, md5 |  |
 | [x-fmt/321](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-321.xml) | Framework Database | fw, fw2 |  |
 | [x-fmt/322](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-322.xml) | Framework Database | fw3 |  |
@@ -1303,6 +1331,7 @@
 | [linguist/126](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-126.xml) | Genshi | kid | text/xml |
 | [linguist/127](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-127.xml) | Gentoo Ebuild | ebuild | text/x-sh |
 | [linguist/128](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-128.xml) | Gentoo Eclass | eclass | text/x-sh |
+| [httpd/13531758372540882817](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13531758372540882817.xml) | geogebra file | ggb | application/vnd.geogebra.file |
 | [httpd/12975698861315840269](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12975698861315840269.xml) | geogebra slides | ggs | application/vnd.geogebra.slides |
 | [httpd/5451843174200806045](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5451843174200806045.xml) | geogebra tool | ggt | application/vnd.geogebra.tool |
 | [fmt/617](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-617.xml) | GeoGebra | ggb | application/vnd.geogebra.file |
@@ -1324,6 +1353,7 @@
 | [linguist/404627610](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-404627610.xml) | Gerber Image | gbr, cmp, gbl, gbo, gbp, gbs, gko, gml, gpb, gpt, gtl, gto, gtp, gts, ncl, sol |  |
 | [linguist/129](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-129.xml) | Gettext Catalog | po, pot |  |
 | [linguist/76](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-76.xml) | Gherkin | feature, story |  |
+| [httpd/5337097198390948897](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5337097198390948897.xml) | gif | gif | image/gif |
 | [fmt/615](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-615.xml) | Gimp Image File Format | xcf |  |
 | [linguist/956324166](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-956324166.xml) | Git Attributes |  | text/x-sh |
 | [linguist/807968997](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-807968997.xml) | Git Config | gitconfig | text/x-properties |
@@ -1338,9 +1368,11 @@
 | [httpd/11770528808789065522](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11770528808789065522.xml) | glulx | ulx | application/x-glulx |
 | [linguist/997665271](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-997665271.xml) | Glyph Bitmap Distribution Format | bdf |  |
 | [linguist/130](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-130.xml) | Glyph | glf | text/x-tcl |
+| [httpd/2200690199764463684](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2200690199764463684.xml) | gml xml | gml | application/gml+xml |
 | [httpd/18355248393964917169](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-18355248393964917169.xml) | gmx | gmx | application/vnd.gmx |
 | [fmt/1844](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1844.xml) | GNU Image Manipulation Program Palette File | gpl |  |
 | [fmt/1219](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1219.xml) | Gnumeric | gnumeric | application/x-gnumeric |
+| [httpd/10691704915181776398](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10691704915181776398.xml) | gnumeric | gnumeric | application/x-gnumeric |
 | [linguist/131](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-131.xml) | Gnuplot | gp, gnu, gnuplot, p, plot, plt |  |
 | [linguist/302957008](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-302957008.xml) | GN | gn, gni | text/x-python |
 | [linguist/1054391671](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-1054391671.xml) | Go Checksums |  |  |
@@ -1350,6 +1382,8 @@
 | [linguist/738107771](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-738107771.xml) | Godot Resource | gdnlib, gdns, tres, tscn |  |
 | [linguist/133](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-133.xml) | Golo | golo |  |
 | [fmt/1073](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1073.xml) | Google Document Link File | gslides, gdoc, gsheet, gdraw, gmap, gsite, gform |  |
+| [httpd/922036987764473708](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-922036987764473708.xml) | google earth kml xml | kml | application/vnd.google-earth.kml+xml |
+| [httpd/11249120523297993270](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11249120523297993270.xml) | google earth kmz | kmz | application/vnd.google-earth.kmz |
 | [linguist/134](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-134.xml) | Gosu | gs, gst, gsx, vark |  |
 | [linguist/132](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-132.xml) | Go | go | text/x-go |
 | [fmt/1134](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1134.xml) | GPS Exchange Format | gpx |  |
@@ -1462,6 +1496,7 @@
 | [linguist/150](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-150.xml) | HTML+ERB | erb, erb.deface, rhtml | application/x-erb |
 | [linguist/151](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-151.xml) | HTML+PHP | phtml | application/x-httpd-php |
 | [linguist/479039817](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-479039817.xml) | HTML+Razor | cshtml, razor | text/html |
+| [httpd/14576682968901447606](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14576682968901447606.xml) | html | html, htm | text/html |
 | [linguist/146](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-146.xml) | HTML | html, hta, htm, html.hl, inc, xht, xhtml | text/html |
 | [linguist/152](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-152.xml) | HTTP | http | message/http |
 | [fmt/1843](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1843.xml) | Human Machine Interfaces HMI File | hmi |  |
@@ -1496,14 +1531,17 @@
 | [fmt/1975](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1975.xml) | ICC Profile | icc, icm | application/vnd.iccprofile |
 | [fmt/1976](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1976.xml) | ICC Profile | icc, icm | application/vnd.iccprofile |
 | [fmt/1977](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1977.xml) | ICC Profile | icc, icm | application/vnd.iccprofile |
+| [httpd/12060827825691256666](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12060827825691256666.xml) | iccprofile | icc, icm | application/vnd.iccprofile |
 | [fmt/1793](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1793.xml) | ICDRAW Group Icon File | ib3 |  |
 | [fmt/1792](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1792.xml) | ICDRAW Single Icon File | ibi |  |
 | [fmt/1400](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1400.xml) | Ichitaro Document | jtd, jtt, $td | application/x-js-taro |
 | [x-fmt/418](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-418.xml) | Icon file format | ico | image/vnd.microsoft.icon, image/x-icon |
+| [httpd/13344400498125613844](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13344400498125613844.xml) | icon | ico | image/x-icon |
 | [linguist/161](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-161.xml) | IDL | pro, dlm | text/x-idl |
 | [linguist/165](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-165.xml) | Idris | idr, lidr |  |
 | [httpd/11916099667387573904](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11916099667387573904.xml) | ief | ief | image/ief |
 | [fmt/1288](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1288.xml) | IESNA LM-63 Photometric Data File | ies |  |
+| [httpd/6001395496153351396](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6001395496153351396.xml) | iges | igs, iges | model/iges |
 | [httpd/2229183100233788401](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2229183100233788401.xml) | igloader | igl | application/vnd.igloader |
 | [linguist/74444240](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-74444240.xml) | Ignore List | gitignore | text/x-sh |
 | [linguist/162](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-162.xml) | IGOR Pro | ipf |  |
@@ -1578,6 +1616,7 @@
 | [httpd/1897709426287013613](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1897709426287013613.xml) | is xpr | xpr | application/vnd.is-xpr |
 | [linguist/171](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-171.xml) | Isabelle ROOT |  |  |
 | [linguist/170](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-170.xml) | Isabelle | thy |  |
+| [httpd/13662767142429837098](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13662767142429837098.xml) | isac fcs | fcs | application/vnd.isac.fcs |
 | [fmt/1567](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1567.xml) | ISDOC Information System Document | isdoc |  |
 | [fmt/1570](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1570.xml) | ISDOC Information System Document | isdoc |  |
 | [fmt/1568](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1568.xml) | ISDOCX Information System Document | isdocx |  |
@@ -1592,6 +1631,7 @@
 | [fmt/1125](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1125.xml) | JASCO JWS Format | jws |  |
 | [linguist/180](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-180.xml) | Jasmin | j |  |
 | [x-fmt/412](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-412.xml) | Java Archive Format | jar | application/java-archive |
+| [httpd/2981768161253577861](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2981768161253577861.xml) | java archive | jar | application/java-archive |
 | [x-fmt/415](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-415.xml) | Java Class File | class |  |
 | [httpd/2333932034322286286](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2333932034322286286.xml) | java jnlp file | jnlp | application/x-java-jnlp-file |
 | [x-fmt/422](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-422.xml) | Java Language Source Code File | java |  |
@@ -1604,6 +1644,7 @@
 | [httpd/16922485787373200833](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16922485787373200833.xml) | java vm | class | application/java-vm |
 | [x-fmt/423](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-423.xml) | JavaScript file | js | application/javascript |
 | [linguist/914318960](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-914318960.xml) | JavaScript+ERB | js.erb | application/javascript |
+| [httpd/9053165588289940551](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9053165588289940551.xml) | javascript | js, mjs | text/javascript |
 | [linguist/183](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-183.xml) | JavaScript | js, _js, bones, cjs, es, es6, frag, gs, jake, javascript, jsb, jscad, jsfl, jslib, jsm, jspre, jss, jsx, mjs, njs, pac, sjs, ssjs, xsjs, xsjslib | text/javascript |
 | [linguist/181](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-181.xml) | Java | java, jav, jsh | text/x-java |
 | [linguist/316620079](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-316620079.xml) | JCL | jcl |  |
@@ -1629,6 +1670,7 @@
 | [fmt/1484](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1484.xml) | JPEG XL Codestream | jxl | image/jxl |
 | [fmt/1485](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1485.xml) | JPEG XL | jxl | image/jxl |
 | [fmt/150](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-150.xml) | JPEG-LS | jls |  |
+| [httpd/16541584359049439863](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16541584359049439863.xml) | jpeg | jpeg, jpg, jpe | image/jpeg |
 | [httpd/7742985520819096109](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7742985520819096109.xml) | jpeg | jpgv | video/jpeg |
 | [fmt/1964](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1964.xml) | JPH (JPEG 2000 part 15) | jph | image/jph |
 | [fmt/463](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-463.xml) | JPM (JPEG 2000 part 6) | jpm | image/jpm |
@@ -1644,6 +1686,7 @@
 | [linguist/176](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-176.xml) | JSONLD | jsonld | application/json |
 | [httpd/8812856811677659676](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8812856811677659676.xml) | jsonml json | jsonml | application/jsonml+json |
 | [linguist/664885656](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-664885656.xml) | Jsonnet | jsonnet, libsonnet |  |
+| [httpd/7843044408911309495](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7843044408911309495.xml) | json | json | application/json |
 | [linguist/174](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-174.xml) | JSON | json, 4DForm, 4DProject, avsc, geojson, gltf, har, ice, JSON-tmLanguage, json.example, jsonl, mcmeta, sarif, tact, tfstate, tfstate.backup, topojson, webapp, webmanifest, yy, yyp | application/json |
 | [fmt/149](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-149.xml) | JTIP (JPEG Tiled Image Pyramid) |  |  |
 | [linguist/220689142](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-220689142.xml) | Julia REPL |  |  |
@@ -1653,6 +1696,7 @@
 | [fmt/1119](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1119.xml) | Jupyter Python Notebook | ipynb |  |
 | [x-fmt/330](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-330.xml) | JustWrite Text Document | jw, jwt |  |
 | [linguist/128447695](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-128447695.xml) | Just | just |  |
+| [httpd/14394408211770555554](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14394408211770555554.xml) | jxl | jxl | image/jxl |
 | [linguist/172](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-172.xml) | J | ijs |  |
 | [httpd/16430238005925662096](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16430238005925662096.xml) | kahootz | ktz, ktr | application/vnd.kahootz |
 | [linguist/818804755](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-818804755.xml) | Kaitai Struct | ksy | text/x-yaml |
@@ -1690,6 +1734,7 @@
 | [linguist/186](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-186.xml) | KRL | krl |  |
 | [fmt/655](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-655.xml) | KryoFlux | raw |  |
 | [fmt/656](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-656.xml) | KryoFlux | raw |  |
+| [httpd/11485776777021116908](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11485776777021116908.xml) | ktx | ktx | image/ktx |
 | [linguist/225697190](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-225697190.xml) | Kusto | csl, kql |  |
 | [linguist/970675279](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-970675279.xml) | kvlang | kv |  |
 | [linguist/194](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-194.xml) | LabVIEW | lvproj, lvclass, lvlib | text/xml |
@@ -1764,6 +1809,7 @@
 | [linguist/211](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-211.xml) | LookML | lkml, lookml | text/x-yaml |
 | [linguist/212](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-212.xml) | LoomScript | ls |  |
 | [httpd/5927135927038744495](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5927135927038744495.xml) | lost xml | lostxml | application/lost+xml |
+| [httpd/2342579768245528503](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2342579768245528503.xml) | lotus 1 2 3 | 123 | application/vnd.lotus-1-2-3 |
 | [x-fmt/82](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-82.xml) | Lotus 1-2-3 Chart | pic |  |
 | [x-fmt/331](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-331.xml) | Lotus 1-2-3 Spreadsheet Formatting File | fm1, fmt |  |
 | [x-fmt/332](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-332.xml) | Lotus 1-2-3 Spreadsheet Formatting File | fm3 |  |
@@ -1776,6 +1822,7 @@
 | [x-fmt/212](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-212.xml) | Lotus 1-2-3 Worksheet |  |  |
 | [x-fmt/333](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-333.xml) | Lotus Approach View File | apr | application/vnd.lotus-approach |
 | [x-fmt/334](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-334.xml) | Lotus Approach View File | apt | application/vnd.lotus-approach |
+| [httpd/1862934396843499385](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1862934396843499385.xml) | lotus approach | apr | application/vnd.lotus-approach |
 | [fmt/1216](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1216.xml) | Lotus Freelance Show | prz | application/vnd.lotus-freelance |
 | [x-fmt/335](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-335.xml) | Lotus Freelance Smartmaster Graphics | mas | application/vnd.lotus-freelance |
 | [httpd/5593557214741015173](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5593557214741015173.xml) | lotus freelance | pre | application/vnd.lotus-freelance |
@@ -1783,10 +1830,13 @@
 | [x-fmt/337](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-337.xml) | Lotus Notes Database | ns3, nsf | application/vnd.lotus-notes |
 | [x-fmt/338](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-338.xml) | Lotus Notes Database | ns4, nsf | application/vnd.lotus-notes |
 | [x-fmt/339](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-339.xml) | Lotus Notes File | box |  |
+| [httpd/6290301125253561542](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6290301125253561542.xml) | lotus notes | nsf | application/vnd.lotus-notes |
 | [httpd/12260496078258194652](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12260496078258194652.xml) | lotus organizer | org | application/vnd.lotus-organizer |
 | [fmt/1938](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1938.xml) | Lotus Screencam Data File | scm | application/vnd.lotus-screencam |
+| [httpd/14691644552423099519](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14691644552423099519.xml) | lotus screencam | scm | application/vnd.lotus-screencam |
 | [fmt/340](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-340.xml) | Lotus WordPro Document | lwp | application/lwp, application/vnd.lotus-wordpro |
 | [x-fmt/340](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-340.xml) | Lotus WordPro Document | lwp | application/lwp, application/vnd.lotus-wordpro |
+| [httpd/16016179183651187309](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16016179183651187309.xml) | lotus wordpro | lwp | application/vnd.lotus-wordpro |
 | [linguist/193](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-193.xml) | LSL | lsl, lslp |  |
 | [linguist/1013566805](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-1013566805.xml) | LTspice Symbol | asy | text/x-spreadsheet |
 | [linguist/365050359](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-365050359.xml) | Luau | luau | text/x-lua |
@@ -1797,6 +1847,7 @@
 | [linguist/216](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-216.xml) | M4Sugar | m4 |  |
 | [httpd/6948131469390528991](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6948131469390528991.xml) | m4v | m4v | video/x-m4v |
 | [linguist/215](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-215.xml) | M4 | m4, mc |  |
+| [httpd/5829367433798298517](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5829367433798298517.xml) | mac binhex40 | hqx | application/mac-binhex40 |
 | [httpd/7253703184866025307](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7253703184866025307.xml) | mac compactpro | cpt | application/mac-compactpro |
 | [linguist/34167825](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-34167825.xml) | Macaulay2 | m2 |  |
 | [fmt/1761](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1761.xml) | MacBinary |  |  |
@@ -1870,6 +1921,7 @@
 | [fmt/931](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-931.xml) | Mathcad Document | mcd |  |
 | [fmt/932](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-932.xml) | Mathcad Document | xmcd |  |
 | [fmt/201](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-201.xml) | Mathematica Notebook | nb | application/mathematica |
+| [httpd/2397780198454870296](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2397780198454870296.xml) | mathematica | ma, nb, mb | application/mathematica |
 | [linguist/224](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-224.xml) | Mathematica | mathematica, cdf, m, ma, mt, nb, nbp, wl, wlt | text/x-mathematica |
 | [httpd/3699261783011718340](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3699261783011718340.xml) | mathml xml | mathml | application/mathml+xml |
 | [fmt/1550](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1550.xml) | MATLAB Mat File | mat |  |
@@ -1892,6 +1944,7 @@
 | [fmt/1168](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1168.xml) | Maya Icons or Swatches file | icons, swatches |  |
 | [fmt/1169](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1169.xml) | Maya IFF Image File | iff, ico |  |
 | [fmt/720](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-720.xml) | MBOX | mbox | application/mbox |
+| [httpd/16114080177138872421](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16114080177138872421.xml) | mbox | mbox | application/mbox |
 | [httpd/1187713301663608044](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1187713301663608044.xml) | mcd | mcd | application/vnd.mcd |
 | [linguist/462488745](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-462488745.xml) | mcfunction | mcfunction |  |
 | [fmt/993](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-993.xml) | MD5 File | md5 |  |
@@ -2195,7 +2248,9 @@
 | [fmt/1183](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1183.xml) | MicroStation Material Palette | pal |  |
 | [fmt/1626](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1626.xml) | MicroStation Symbology Resource File | rsc |  |
 | [x-fmt/230](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-230.xml) | MIDI Audio | mid, midi | audio/midi |
+| [httpd/6913682602939238681](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6913682602939238681.xml) | midi | mid, midi, kar, rmi | audio/midi |
 | [httpd/11881934563155833868](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11881934563155833868.xml) | mie | mie | application/x-mie |
+| [httpd/8243185071847872480](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8243185071847872480.xml) | mif | mif | application/vnd.mif |
 | [fmt/1470](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1470.xml) | MIG Graphics File | mig |  |
 | [fmt/950](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-950.xml) | MIME Email | eml | message/rfc822 |
 | [fmt/1138](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1138.xml) | MiniCAD/VectorWorks | mcd, vwx | application/vnd.vectorworks |
@@ -2219,7 +2274,9 @@
 | [linguist/232](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-232.xml) | Mirah | druby, duby, mirah | text/x-ruby |
 | [linguist/517654727](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-517654727.xml) | mIRC Script | mrc |  |
 | [fmt/337](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-337.xml) | MJ2 (Motion JPEG 2000) | mj2, mjp2 | video/mj2 |
+| [httpd/2873037078777722619](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2873037078777722619.xml) | mj2 | mj2, mjp2 | video/mj2 |
 | [linguist/448253929](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-448253929.xml) | MLIR | mlir |  |
+| [httpd/13337765276953337923](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13337765276953337923.xml) | mng | mng | video/x-mng |
 | [fmt/961](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-961.xml) | Mobile eXtensible Music Format | mxmf | audio/mobile-xmf |
 | [httpd/17681871278090163123](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17681871278090163123.xml) | mobipocket ebook | prc, mobi | application/x-mobipocket-ebook |
 | [httpd/3942324793998983809](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3942324793998983809.xml) | mobius daf | daf | application/vnd.mobius.daf |
@@ -2253,6 +2310,7 @@
 | [httpd/3672696470516843498](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3672696470516843498.xml) | mp21 | m21, mp21 | application/mp21 |
 | [httpd/13859451415498689483](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13859451415498689483.xml) | mp2t | ts, m2t, m2ts, mts | video/mp2t |
 | [httpd/13380737628036455431](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13380737628036455431.xml) | mp4 | m4a, mp4a | audio/mp4 |
+| [httpd/17087188220174117415](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17087188220174117415.xml) | mp4 | mp4, mp4v, mpg4 | video/mp4 |
 | [httpd/3013817452668215055](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3013817452668215055.xml) | mp4 | mp4s | application/mp4 |
 | [x-fmt/279](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-279.xml) | MPEG 1/2 Audio Layer 3 Streaming | m3u | audio/mpeg |
 | [fmt/134](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-134.xml) | MPEG 1/2 Audio Layer 3 | mp3 | audio/mpeg |
@@ -2266,6 +2324,8 @@
 | [fmt/199](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-199.xml) | MPEG-4 Media File | mp4, m4v, m4a, f4v, f4a | application/mp4, video/mp4 |
 | [httpd/11650175986876150549](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11650175986876150549.xml) | mpegurl | m3u | audio/x-mpegurl |
 | [httpd/15681581293980520132](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-15681581293980520132.xml) | mpegurl | mxu, m4u | video/vnd.mpegurl |
+| [httpd/13365785193952526073](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13365785193952526073.xml) | mpeg | mpga, mp2, mp2a, mp3, m2a, m3a | audio/mpeg |
+| [httpd/14823565488607650481](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14823565488607650481.xml) | mpeg | mpeg, mpg, mpe, m1v, m2v | video/mpeg |
 | [linguist/426](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-426.xml) | MQL4 | mq4, mqh |  |
 | [linguist/427](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-427.xml) | MQL5 | mq5, mqh |  |
 | [fmt/392](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-392.xml) | MrSID Image Format (Multi-resolution Seamless Image Database) | sid |  |
@@ -2273,13 +2333,19 @@
 | [httpd/16627114407478665957](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16627114407478665957.xml) | ms application | application | application/x-ms-application |
 | [httpd/11231017852761258701](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11231017852761258701.xml) | ms artgalry | cil | application/vnd.ms-artgalry |
 | [httpd/16549734338554005100](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16549734338554005100.xml) | ms asf | asf, asx | video/x-ms-asf |
+| [httpd/11731180303083797159](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11731180303083797159.xml) | ms cab compressed | cab | application/vnd.ms-cab-compressed |
 | [fmt/469](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-469.xml) | MS DOS Compression Format (KWAJ Variant) |  |  |
 | [httpd/7193524944753159053](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7193524944753159053.xml) | ms excel addin macroenabled 12 | xlam | application/vnd.ms-excel.addin.macroenabled.12 |
 | [httpd/17758141517366411449](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17758141517366411449.xml) | ms excel sheet binary macroenabled 12 | xlsb | application/vnd.ms-excel.sheet.binary.macroenabled.12 |
 | [httpd/453850464475411149](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-453850464475411149.xml) | ms excel sheet macroenabled 12 | xlsm | application/vnd.ms-excel.sheet.macroenabled.12 |
 | [httpd/12161631093412850975](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12161631093412850975.xml) | ms excel template macroenabled 12 | xltm | application/vnd.ms-excel.template.macroenabled.12 |
+| [httpd/16669843789120121892](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16669843789120121892.xml) | ms excel | xls, xlm, xla, xlc, xlt, xlw | application/vnd.ms-excel |
+| [httpd/4919042068691183672](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4919042068691183672.xml) | ms fontobject | eot | application/vnd.ms-fontobject |
+| [httpd/10965205291161609515](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10965205291161609515.xml) | ms htmlhelp | chm | application/vnd.ms-htmlhelp |
 | [httpd/8850202862544404839](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8850202862544404839.xml) | ms ims | ims | application/vnd.ms-ims |
 | [httpd/9023937269523142240](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9023937269523142240.xml) | ms lrm | lrm | application/vnd.ms-lrm |
+| [httpd/14441876429112459019](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14441876429112459019.xml) | ms modi | mdi | image/vnd.ms-modi |
+| [httpd/2010691078414467399](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2010691078414467399.xml) | ms officetheme | thmx | application/vnd.ms-officetheme |
 | [httpd/12869456523622353063](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12869456523622353063.xml) | ms photo | wdp | image/vnd.ms-photo |
 | [httpd/5764838913370525935](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5764838913370525935.xml) | ms pki seccat | cat | application/vnd.ms-pki.seccat |
 | [httpd/13175711861487568318](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13175711861487568318.xml) | ms pki stl | stl | application/vnd.ms-pki.stl |
@@ -2290,16 +2356,21 @@
 | [httpd/8409127412828138689](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8409127412828138689.xml) | ms powerpoint slide macroenabled 12 | sldm | application/vnd.ms-powerpoint.slide.macroenabled.12 |
 | [httpd/6816715224970428638](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6816715224970428638.xml) | ms powerpoint slideshow macroenabled 12 | ppsm | application/vnd.ms-powerpoint.slideshow.macroenabled.12 |
 | [httpd/11696996066490782296](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11696996066490782296.xml) | ms powerpoint template macroenabled 12 | potm | application/vnd.ms-powerpoint.template.macroenabled.12 |
+| [httpd/10581694100561422952](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10581694100561422952.xml) | ms powerpoint | ppt, pps, pot | application/vnd.ms-powerpoint |
+| [httpd/4452328441438908528](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4452328441438908528.xml) | ms project | mpp, mpt | application/vnd.ms-project |
 | [httpd/17484877487305115669](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17484877487305115669.xml) | ms shortcut | lnk | application/x-ms-shortcut |
 | [httpd/663086526965138497](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-663086526965138497.xml) | ms vob | vob | video/x-ms-vob |
 | [httpd/16874531211968188565](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16874531211968188565.xml) | ms wax | wax | audio/x-ms-wax |
+| [httpd/11008507588004872870](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11008507588004872870.xml) | ms wma | wma | audio/x-ms-wma |
 | [httpd/12139814779460625487](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12139814779460625487.xml) | ms wmd | wmd | application/x-ms-wmd |
+| [httpd/16463058323601911083](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16463058323601911083.xml) | ms wmv | wmv | video/x-ms-wmv |
 | [httpd/17481297107178477904](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17481297107178477904.xml) | ms wmx | wmx | video/x-ms-wmx |
 | [httpd/6444568146336275519](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6444568146336275519.xml) | ms wmz | wmz | application/x-ms-wmz |
 | [httpd/10545300983186267140](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10545300983186267140.xml) | ms wm | wm | video/x-ms-wm |
 | [httpd/6873454529924296618](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6873454529924296618.xml) | ms word document macroenabled 12 | docm | application/vnd.ms-word.document.macroenabled.12 |
 | [httpd/3685976441960773084](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3685976441960773084.xml) | ms word template macroenabled 12 | dotm | application/vnd.ms-word.template.macroenabled.12 |
 | [httpd/77905493598287429](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-77905493598287429.xml) | ms works | wps, wks, wcm, wdb | application/vnd.ms-works |
+| [httpd/12944203028360683144](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12944203028360683144.xml) | ms wpl | wpl | application/vnd.ms-wpl |
 | [httpd/10712924823320355462](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10712924823320355462.xml) | ms wvx | wvx | video/x-ms-wvx |
 | [httpd/14888301265473117000](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14888301265473117000.xml) | ms xbap | xbap | application/x-ms-xbap |
 | [httpd/13793382431961437112](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13793382431961437112.xml) | ms xpsdocument | xps | application/vnd.ms-xpsdocument |
@@ -2316,8 +2387,11 @@
 | [httpd/10209449085056580529](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10209449085056580529.xml) | msmediaview | mvb, m13, m14 | application/x-msmediaview |
 | [httpd/4486161733139916318](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4486161733139916318.xml) | msmetafile | wmf, wmz, emf, emz | application/x-msmetafile |
 | [httpd/940430676671419282](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-940430676671419282.xml) | msmoney | mny | application/x-msmoney |
+| [httpd/14099057270942735382](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14099057270942735382.xml) | mspublisher | pub | application/x-mspublisher |
 | [httpd/11706933179567706948](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11706933179567706948.xml) | msschedule | scd | application/x-msschedule |
 | [httpd/17488117191040683567](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17488117191040683567.xml) | msterminal | trm | application/x-msterminal |
+| [httpd/972665635687405930](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-972665635687405930.xml) | msvideo | avi | video/x-msvideo |
+| [httpd/16022223428233642216](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16022223428233642216.xml) | msword | doc, dot | application/msword |
 | [httpd/368739558323144978](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-368739558323144978.xml) | mswrite | wri | application/x-mswrite |
 | [linguist/218](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-218.xml) | MTML | mtml | text/html |
 | [linguist/219](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-219.xml) | MUF | muf, m | text/x-forth |
@@ -2338,11 +2412,13 @@
 | [fmt/1387](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1387.xml) | Muvee autoProducer Project File | mvex |  |
 | [fmt/1388](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1388.xml) | Muvee Reveal Project File | rvl |  |
 | [httpd/6940775733493568946](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6940775733493568946.xml) | muvee style | msty | application/vnd.muvee.style |
+| [httpd/8668725384356574970](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8668725384356574970.xml) | mxf | mxf | application/mxf |
 | [linguist/239](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-239.xml) | Myghty | myt |  |
 | [fmt/1197](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1197.xml) | MyISAM Indexes File | myi |  |
 | [httpd/3675306534347999425](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3675306534347999425.xml) | mynfc | taglet | application/vnd.mynfc |
 | [fmt/868](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-868.xml) | MySQL Table Definition Format | frm |  |
 | [linguist/214](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-214.xml) | M | mumps, m | text/x-mumps |
+| [httpd/16635723147026810140](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16635723147026810140.xml) | n3 | n3 | text/n3 |
 | [linguist/775996197](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-775996197.xml) | nanorc | nanorc |  |
 | [x-fmt/163](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-163.xml) | NAP Metafile | nap |  |
 | [linguist/178322513](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-178322513.xml) | Nasal | nas |  |
@@ -2373,6 +2449,7 @@
 | [httpd/6068593002644094061](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6068593002644094061.xml) | net fpx | npx | image/vnd.net-fpx |
 | [fmt/283](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-283.xml) | netCDF-3 64-bit | nc, cdf | application/netcdf, application/x-netcdf |
 | [fmt/282](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-282.xml) | netCDF-3 Classic | nc, cdf | application/netcdf, application/x-netcdf |
+| [httpd/7927803368551897188](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7927803368551897188.xml) | netcdf | nc, cdf | application/x-netcdf |
 | [linguist/245](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-245.xml) | NetLinx+ERB | axs.erb, axi.erb |  |
 | [linguist/244](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-244.xml) | NetLinx | axs, axi |  |
 | [linguist/246](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-246.xml) | NetLogo | nlogo | text/x-common-lisp |
@@ -2389,6 +2466,7 @@
 | [fmt/202](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-202.xml) | Nikon Digital SLR Camera Raw Image File | nef, nrw |  |
 | [linguist/249](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-249.xml) | Nim | nim, nim.cfg, nimble, nimrod, nims |  |
 | [linguist/250](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-250.xml) | Ninja | ninja |  |
+| [httpd/8257951823030910225](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8257951823030910225.xml) | nitf | ntf, nitf | application/vnd.nitf |
 | [fmt/1166](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1166.xml) | Niton Data Transfer | ndt |  |
 | [linguist/251](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-251.xml) | Nit | nit |  |
 | [linguist/252](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-252.xml) | Nix | nix |  |
@@ -2435,13 +2513,17 @@
 | [httpd/13471152099293494062](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13471152099293494062.xml) | oasis opendocument formula template | odft | application/vnd.oasis.opendocument.formula-template |
 | [httpd/4847972083146275462](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4847972083146275462.xml) | oasis opendocument formula | odf | application/vnd.oasis.opendocument.formula |
 | [httpd/7221080215284733600](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7221080215284733600.xml) | oasis opendocument graphics template | otg | application/vnd.oasis.opendocument.graphics-template |
+| [httpd/17808945626972273806](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17808945626972273806.xml) | oasis opendocument graphics | odg | application/vnd.oasis.opendocument.graphics |
 | [httpd/7696442023566449237](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7696442023566449237.xml) | oasis opendocument image template | oti | application/vnd.oasis.opendocument.image-template |
 | [httpd/7212275662721677375](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7212275662721677375.xml) | oasis opendocument image | odi | application/vnd.oasis.opendocument.image |
 | [httpd/3214923385420216598](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3214923385420216598.xml) | oasis opendocument presentation template | otp | application/vnd.oasis.opendocument.presentation-template |
+| [httpd/170617073432374148](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-170617073432374148.xml) | oasis opendocument presentation | odp | application/vnd.oasis.opendocument.presentation |
 | [httpd/13058603825924308571](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13058603825924308571.xml) | oasis opendocument spreadsheet template | ots | application/vnd.oasis.opendocument.spreadsheet-template |
+| [httpd/9943181513677621699](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9943181513677621699.xml) | oasis opendocument spreadsheet | ods | application/vnd.oasis.opendocument.spreadsheet |
 | [httpd/16625459860859088264](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16625459860859088264.xml) | oasis opendocument text master | odm | application/vnd.oasis.opendocument.text-master |
 | [httpd/11169527702873022564](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11169527702873022564.xml) | oasis opendocument text template | ott | application/vnd.oasis.opendocument.text-template |
 | [httpd/14133275647000193392](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14133275647000193392.xml) | oasis opendocument text web | oth | application/vnd.oasis.opendocument.text-web |
+| [httpd/17252755327281720961](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17252755327281720961.xml) | oasis opendocument text | odt | application/vnd.oasis.opendocument.text |
 | [linguist/834374816](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-834374816.xml) | OASv2-json | json | application/json |
 | [linguist/105187618](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-105187618.xml) | OASv2-yaml | yaml, yml | text/x-yaml |
 | [linguist/980062566](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-980062566.xml) | OASv3-json | json | application/json |
@@ -2467,6 +2549,8 @@
 | [fmt/948](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-948.xml) | Ogg Speex Codec Multimedia File | ogg, spx | audio/ogg, audio/speex |
 | [fmt/945](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-945.xml) | Ogg Theora Video | ogv, ogg | video/ogg |
 | [fmt/203](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-203.xml) | Ogg Vorbis Codec Compressed Multimedia File | ogg | audio/ogg |
+| [httpd/10990209224482984948](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10990209224482984948.xml) | ogg | ogv | video/ogg |
+| [httpd/14284641787854147022](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14284641787854147022.xml) | ogg | oga, ogg, spx, opus | audio/ogg |
 | [httpd/701141407755406764](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-701141407755406764.xml) | ogg | ogx | application/ogg |
 | [fmt/1048](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1048.xml) | OGR GFS File | gfs |  |
 | [fmt/1188](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1188.xml) | Ogre Mesh 1.x | mesh |  |
@@ -2542,7 +2626,14 @@
 | [linguist/374317347](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-374317347.xml) | OpenType Feature File | fea |  |
 | [fmt/520](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-520.xml) | OpenType Font File | otf | font/otf |
 | [fmt/1947](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1947.xml) | OpenWayback CDXJ File Format | cdx, cdxj |  |
+| [httpd/5072399535360381584](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5072399535360381584.xml) | openxmlformats officedocument presentationml presentation | pptx | application/vnd.openxmlformats-officedocument.presentationml.presentation |
+| [httpd/16036058250225051593](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16036058250225051593.xml) | openxmlformats officedocument presentationml slideshow | ppsx | application/vnd.openxmlformats-officedocument.presentationml.slideshow |
 | [httpd/535144868066071015](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-535144868066071015.xml) | openxmlformats officedocument presentationml slide | sldx | application/vnd.openxmlformats-officedocument.presentationml.slide |
+| [httpd/5812620186992086192](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5812620186992086192.xml) | openxmlformats officedocument presentationml template | potx | application/vnd.openxmlformats-officedocument.presentationml.template |
+| [httpd/6190179786218368841](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6190179786218368841.xml) | openxmlformats officedocument spreadsheetml sheet | xlsx | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
+| [httpd/2922707045732048797](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2922707045732048797.xml) | openxmlformats officedocument spreadsheetml template | xltx | application/vnd.openxmlformats-officedocument.spreadsheetml.template |
+| [httpd/16058033471239598556](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16058033471239598556.xml) | openxmlformats officedocument wordprocessingml document | docx | application/vnd.openxmlformats-officedocument.wordprocessingml.document |
+| [httpd/8113768558159630055](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8113768558159630055.xml) | openxmlformats officedocument wordprocessingml template | dotx | application/vnd.openxmlformats-officedocument.wordprocessingml.template |
 | [fmt/1882](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1882.xml) | OPML File | opml |  |
 | [fmt/1883](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1883.xml) | OPML File | opml |  |
 | [httpd/18287376524010136670](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-18287376524010136670.xml) | opml | opml | text/x-opml |
@@ -2561,9 +2652,11 @@
 | [httpd/5150666565402240513](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5150666565402240513.xml) | osgeo mapguide package | mgp | application/vnd.osgeo.mapguide.package |
 | [httpd/9288499656011032268](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9288499656011032268.xml) | osgi dp | dp | application/vnd.osgi.dp |
 | [httpd/4956746657128679058](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4956746657128679058.xml) | osgi subsystem | esa | application/vnd.osgi.subsystem |
+| [httpd/14166596980345473346](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14166596980345473346.xml) | otf | otf | font/otf |
 | [fmt/839](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-839.xml) | Outlook Express Folder Database | dbx |  |
 | [fmt/838](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-838.xml) | Outlook Express Message Database | dbx |  |
 | [linguist/689079655](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-689079655.xml) | OverpassQL | overpassql |  |
+| [httpd/6492884862039944113](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6492884862039944113.xml) | oxps | oxps | application/oxps |
 | [linguist/269](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-269.xml) | Oxygene | oxygene |  |
 | [linguist/268](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-268.xml) | Ox | ox, oxh, oxo |  |
 | [linguist/270](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-270.xml) | Oz | oz | text/x-oz |
@@ -2616,6 +2709,7 @@
 | [linguist/280](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-280.xml) | Parrot Internal Representation | pir |  |
 | [linguist/278](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-278.xml) | Parrot | parrot |  |
 | [fmt/1619](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1619.xml) | Pascal Source Code | pas |  |
+| [httpd/4555007942525437763](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4555007942525437763.xml) | pascal | p, pas | text/x-pascal |
 | [linguist/281](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-281.xml) | Pascal | pas, dfm, dpr, inc, lpr, pascal, pp | text/x-pascal |
 | [fmt/1904](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1904.xml) | Pasti Floppy Disk Image | stx |  |
 | [httpd/11260398242129167003](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11260398242129167003.xml) | patch ops error xml | xer | application/patch-ops-error+xml |
@@ -2634,6 +2728,7 @@
 | [linguist/736235603](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-736235603.xml) | PDDL | pddl |  |
 | [fmt/1129](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1129.xml) | PDF 2.0 - Portable Document Format | pdf | application/pdf |
 | [fmt/1451](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1451.xml) | PDF Portfolio | pdf |  |
+| [httpd/3711083170303191451](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3711083170303191451.xml) | pdf | pdf | application/pdf |
 | [fmt/1095](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1095.xml) | PEA Archive Format | pea |  |
 | [fmt/330](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-330.xml) | Peak Graphical Waveform File | pk |  |
 | [fmt/1952](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1952.xml) | PechaMaker Format | pxp |  |
@@ -2680,6 +2775,7 @@
 | [fmt/1360](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1360.xml) | Picture Publisher Bitmap | ppf |  |
 | [x-fmt/176](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-176.xml) | Picture Publisher Bitmap | pp4 |  |
 | [x-fmt/85](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-85.xml) | Picture Publisher Bitmap | pp5 |  |
+| [httpd/14309778543270968615](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14309778543270968615.xml) | pict | pic, pct | image/x-pict |
 | [linguist/425](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-425.xml) | Pic | pic, chem | text/troff |
 | [linguist/286](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-286.xml) | PigLatin | pig |  |
 | [linguist/287](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-287.xml) | Pike | pike, pmod |  |
@@ -2690,6 +2786,8 @@
 | [httpd/17536636616578527298](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17536636616578527298.xml) | pkcs12 | p12, pfx | application/x-pkcs12 |
 | [httpd/10927828397113750156](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10927828397113750156.xml) | pkcs7 certificates | p7b, spc | application/x-pkcs7-certificates |
 | [httpd/12396323594280000532](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12396323594280000532.xml) | pkcs7 certreqresp | p7r | application/x-pkcs7-certreqresp |
+| [httpd/4216632619804592154](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4216632619804592154.xml) | pkcs7 mime | p7m, p7c | application/pkcs7-mime |
+| [httpd/7715231678766573797](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7715231678766573797.xml) | pkcs7 signature | p7s | application/pkcs7-signature |
 | [httpd/8480341370012650784](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8480341370012650784.xml) | pkcs8 | p8 | application/pkcs8 |
 | [httpd/4889268195384677215](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4889268195384677215.xml) | pkix attr cert | ac | application/pkix-attr-cert |
 | [httpd/13433049222230317362](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13433049222230317362.xml) | pkix cert | cer | application/pkix-cert |
@@ -2698,6 +2796,7 @@
 | [httpd/992198684389833801](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-992198684389833801.xml) | pkixcmp | pki | application/pkixcmp |
 | [linguist/288822799](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-288822799.xml) | Pkl | pkl |  |
 | [x-fmt/111](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-111.xml) | Plain Text File | txt | text/plain |
+| [httpd/14235558775492077984](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14235558775492077984.xml) | plain | txt, text, conf, def, list, log, in | text/plain |
 | [linguist/833504686](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-833504686.xml) | PlantUML | puml, iuml, plantuml |  |
 | [fmt/314](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-314.xml) | Play SID Audio | sid, psid | audio/prs.sid |
 | [fmt/315](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-315.xml) | Play SID Audio | sid, psid | audio/prs.sid |
@@ -2706,6 +2805,8 @@
 | [linguist/273](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-273.xml) | PLSQL | pls, bdy, ddl, fnc, pck, pkb, pks, plb, plsql, prc, spc, sql, tpb, tps, trg, vw | text/x-plsql |
 | [httpd/2471663342369167330](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2471663342369167330.xml) | pmi widget | wg | application/vnd.pmi.widget |
 | [httpd/17710107248733465858](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17710107248733465858.xml) | pn realaudio plugin | rmp | audio/x-pn-realaudio-plugin |
+| [httpd/9678658877874429298](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9678658877874429298.xml) | pn realaudio | ram, ra | audio/x-pn-realaudio |
+| [httpd/2308732107940653557](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2308732107940653557.xml) | png | png | image/png |
 | [x-fmt/94](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-94.xml) | Pocket Word Document | psw, pwd |  |
 | [x-fmt/96](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-96.xml) | Pocket Word Template | pwt |  |
 | [httpd/17072281593186703027](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17072281593186703027.xml) | pocketlearn | plf | application/vnd.pocketlearn |
@@ -2721,6 +2822,7 @@
 | [httpd/10418899209645427276](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10418899209645427276.xml) | portable anymap | pnm | image/x-portable-anymap |
 | [x-fmt/164](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-164.xml) | Portable Bitmap Image - ASCII | pbm | image/x-portable-bitmap |
 | [fmt/409](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-409.xml) | Portable Bitmap Image - Binary | pbmb, pnm |  |
+| [httpd/638627582123416037](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-638627582123416037.xml) | portable bitmap | pbm | image/x-portable-bitmap |
 | [fmt/1720](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1720.xml) | Portable Compiled Format | pcf |  |
 | [fmt/1064](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1064.xml) | Portable Database | pdb |  |
 | [fmt/1065](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1065.xml) | Portable Database | pdb |  |
@@ -2734,12 +2836,14 @@
 | [fmt/13](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-13.xml) | Portable Network Graphics | png | image/png |
 | [x-fmt/178](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-178.xml) | Portable Pixel Map - ASCII | ppm | image/x-portable-pixmap |
 | [fmt/408](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-408.xml) | Portable Pixel Map - Binary | ppm, ppmb |  |
+| [httpd/8464939141329295755](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8464939141329295755.xml) | portable pixmap | ppm | image/x-portable-pixmap |
 | [fmt/959](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-959.xml) | Portable Sound Format | psf, psf1, psflib, minipsf, minipsf1, gsf, gsflib, minigsf |  |
 | [fmt/1734](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1734.xml) | Portfolio Graphics Compressed File | pgc |  |
 | [linguist/832391833](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-832391833.xml) | Portugol | por |  |
 | [linguist/262764437](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-262764437.xml) | PostCSS | pcss, postcss |  |
 | [x-fmt/93](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-93.xml) | Postscript Support File | psf |  |
 | [fmt/501](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-501.xml) | PostScript | ps | application/postscript |
+| [httpd/11188885904257882962](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11188885904257882962.xml) | postscript | ai, eps, ps | application/postscript |
 | [linguist/291](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-291.xml) | PostScript | ps, eps, epsi, pfa |  |
 | [x-fmt/406](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-406.xml) | PostScript | ps | application/postscript |
 | [x-fmt/407](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-407.xml) | PostScript | ps | application/postscript |
@@ -2885,6 +2989,7 @@
 | [x-fmt/213](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-213.xml) | Quicken Data File | abd, qdf, qel |  |
 | [fmt/308](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-308.xml) | Quicken Data Format | qdf |  |
 | [fmt/307](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-307.xml) | Quicken Interchange Format | qif | application/qif |
+| [httpd/14535864288757199463](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14535864288757199463.xml) | quicktime | qt, mov | video/quicktime |
 | [x-fmt/384](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-384.xml) | Quicktime | mov, qtm | video/quicktime |
 | [linguist/970539067](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-970539067.xml) | q | q |  |
 | [fmt/1599](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1599.xml) | R Program File | r |  |
@@ -2909,6 +3014,7 @@
 | [linguist/899227493](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-899227493.xml) | RBS | rbs | text/x-ruby |
 | [fmt/1198](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1198.xml) | RData | rdata |  |
 | [fmt/1199](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1199.xml) | RData | rdata |  |
+| [httpd/792706532513235753](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-792706532513235753.xml) | rdf xml | rdf | application/rdf+xml |
 | [fmt/875](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-875.xml) | RDF/XML | rdf | application/rdf+xml |
 | [linguist/309](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-309.xml) | RDoc | rdoc |  |
 | [linguist/538732839](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-538732839.xml) | Readline Config |  |  |
@@ -2926,6 +3032,8 @@
 | [linguist/869538413](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-869538413.xml) | Reason | re, rei | text/x-rustsrc |
 | [linguist/319](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-319.xml) | Rebol | reb, r, r2, r3, rebol |  |
 | [linguist/865765202](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-865765202.xml) | Record Jar |  | text/x-properties |
+| [httpd/18101026459559520328](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-18101026459559520328.xml) | recordare musicxml xml | musicxml | application/vnd.recordare.musicxml+xml |
+| [httpd/1147258772674700014](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1147258772674700014.xml) | recordare musicxml | mxl | application/vnd.recordare.musicxml |
 | [fmt/1664](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1664.xml) | RED Thumbnail File | rtn |  |
 | [fmt/1039](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1039.xml) | Redcode Metadata (RMD) File | rmd |  |
 | [fmt/1038](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1038.xml) | Redcode RAW (R3D) Media File | r3d |  |
@@ -2940,6 +3048,7 @@
 | [linguist/322](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-322.xml) | Ren'Py | rpy |  |
 | [linguist/323](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-323.xml) | RenderScript | rs, rsh |  |
 | [linguist/501875647](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-501875647.xml) | ReScript | res | text/x-rustsrc |
+| [httpd/12838158653012905569](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12838158653012905569.xml) | research info systems | ris | application/x-research-info-systems |
 | [fmt/1886](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1886.xml) | Resource Interchange File Format (RIFF) |  |  |
 | [httpd/6901913721037133475](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6901913721037133475.xml) | resource lists diff xml | rld | application/resource-lists-diff+xml |
 | [httpd/47530549795300406](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-47530549795300406.xml) | resource lists xml | rl | application/resource-lists+xml |
@@ -2957,6 +3066,7 @@
 | [linguist/498022874](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-498022874.xml) | Rez | r |  |
 | [fmt/713](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-713.xml) | RF64 Multichannel Broadcast Wave format | wav, rf64 |  |
 | [fmt/712](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-712.xml) | RF64 | wav, rf64 |  |
+| [httpd/5252233957637373667](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5252233957637373667.xml) | rfc822 | eml, mime | message/rfc822 |
 | [fmt/1289](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1289.xml) | RFFlow Chart | flo |  |
 | [fmt/1290](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1290.xml) | RFFlow Chart | flo |  |
 | [fmt/1291](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1291.xml) | RFFlow Chart | flo |  |
@@ -2985,6 +3095,7 @@
 | [httpd/9575045232419729220](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9575045232419729220.xml) | rls services xml | rs | application/rls-services+xml |
 | [linguist/313](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-313.xml) | RMarkdown | qmd, rmd | text/x-gfm |
 | [httpd/18248750328496013465](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-18248750328496013465.xml) | rn realmedia vbr | rmvb | application/vnd.rn-realmedia-vbr |
+| [httpd/3087012365679673081](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3087012365679673081.xml) | rn realmedia | rm | application/vnd.rn-realmedia |
 | [linguist/324](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-324.xml) | RobotFramework | robot, resource |  |
 | [linguist/674736065](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-674736065.xml) | robots.txt |  |  |
 | [fmt/485](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-485.xml) | Rocket Book eBook format | rb |  |
@@ -3016,6 +3127,7 @@
 | [linguist/314](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-314.xml) | RPM Spec | spec | text/x-rpm-spec |
 | [httpd/5789844385051418491](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5789844385051418491.xml) | rsd xml | rsd | application/rsd+xml |
 | [httpd/12753032465493873976](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12753032465493873976.xml) | rss xml | rss | application/rss+xml |
+| [httpd/10214872156167243065](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10214872156167243065.xml) | rtf | rtf | application/rtf |
 | [linguist/326](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-326.xml) | Ruby | rb, builder, eye, fcgi, gemspec, god, jbuilder, mspec, pluginspec, podspec, prawn, rabl, rake, rbi, rbuild, rbw, rbx, ru, ruby, spec, thor, watchr | text/x-ruby |
 | [linguist/315](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-315.xml) | RUNOFF | rnh, rno |  |
 | [linguist/327](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-327.xml) | Rust | rs, rs.in | text/x-rustsrc |
@@ -3116,6 +3228,7 @@
 | [httpd/2280517777109703612](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2280517777109703612.xml) | sgi movie | movie | video/x-sgi-movie |
 | [httpd/10059028400364481609](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10059028400364481609.xml) | sgi | sgi | image/sgi |
 | [fmt/1618](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1618.xml) | SGML/XML Entity File | ent | application/xml-external-parsed-entity |
+| [httpd/11841558493466156020](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11841558493466156020.xml) | sgml | sgml, sgm | text/sgml |
 | [fmt/992](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-992.xml) | SHA1 File | sha1 |  |
 | [fmt/991](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-991.xml) | SHA256 File | sha256 |  |
 | [fmt/1797](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1797.xml) | SHA512 File | sha512 |  |
@@ -3124,12 +3237,14 @@
 | [httpd/6961800999383898337](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6961800999383898337.xml) | shana informed formtemplate | itp | application/vnd.shana.informed.formtemplate |
 | [httpd/14364337678005556784](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14364337678005556784.xml) | shana informed interchange | iif | application/vnd.shana.informed.interchange |
 | [httpd/10655404354733431138](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10655404354733431138.xml) | shana informed package | ipk | application/vnd.shana.informed.package |
+| [httpd/4923092110324785044](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4923092110324785044.xml) | shar | shar | application/x-shar |
 | [fmt/329](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-329.xml) | Shell Archive Format | shar | application/x-sh, application/x-shar |
 | [linguist/687511714](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-687511714.xml) | ShellCheck Config |  | text/x-properties |
 | [linguist/347](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-347.xml) | ShellSession | sh-session | text/x-sh |
 | [linguist/346](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-346.xml) | Shell | sh, bash, bats, cgi, command, fcgi, ksh, sh.in, tmux, tool, trigger, zsh, zsh-theme | text/x-sh |
 | [linguist/348](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-348.xml) | Shen | shen |  |
 | [httpd/12821240876237287409](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12821240876237287409.xml) | shf xml | shf | application/shf+xml |
+| [httpd/14958181085647098357](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14958181085647098357.xml) | shockwave flash | swf | application/x-shockwave-flash |
 | [fmt/1961](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1961.xml) | Shorten (codec) | shn |  |
 | [httpd/15414754435807971579](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-15414754435807971579.xml) | sh | sh | application/x-sh |
 | [fmt/1196](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1196.xml) | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
@@ -3238,6 +3353,7 @@
 | [fmt/209](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-209.xml) | Sound Designer II Audio File | sd2 |  |
 | [linguist/354](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-354.xml) | SourcePawn | sp, inc |  |
 | [fmt/1226](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1226.xml) | Sparky | ucsf |  |
+| [httpd/11948227751138753910](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11948227751138753910.xml) | sparql query | rq | application/sparql-query |
 | [httpd/3123908653018764713](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3123908653018764713.xml) | sparql results xml | srx | application/sparql-results+xml |
 | [linguist/331](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-331.xml) | SPARQL | sparql, rq | application/sparql-query |
 | [fmt/1575](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1575.xml) | Spectrum 512 Compressed | Spectrum 512 Smooshed | spc, sps |  |
@@ -3278,9 +3394,11 @@
 | [linguist/357](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-357.xml) | Standard ML | ml, fun, sig, sml | text/x-ocaml |
 | [linguist/356](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-356.xml) | Stan | stan |  |
 | [httpd/13156498984566289220](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13156498984566289220.xml) | stardivision calc | sdc | application/vnd.stardivision.calc |
+| [httpd/69360822316110472](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-69360822316110472.xml) | stardivision draw | sda | application/vnd.stardivision.draw |
 | [httpd/17575372223664686893](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17575372223664686893.xml) | stardivision impress | sdd | application/vnd.stardivision.impress |
 | [httpd/17689098337773368263](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17689098337773368263.xml) | stardivision math | smf | application/vnd.stardivision.math |
 | [httpd/2615400360932218329](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2615400360932218329.xml) | stardivision writer global | sgl | application/vnd.stardivision.writer-global |
+| [httpd/1099749789536492620](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1099749789536492620.xml) | stardivision writer | sdw, vor | application/vnd.stardivision.writer |
 | [linguist/960266174](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-960266174.xml) | Starlark | bzl, star | text/x-python |
 | [fmt/1556](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1556.xml) | Starlink Data Format | sdf |  |
 | [fmt/808](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-808.xml) | StarOffice Calc | sdc |  |
@@ -3362,6 +3480,7 @@
 | [fmt/639](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-639.xml) | Stuffit Archive File | sit | application/x-stuffit |
 | [fmt/399](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-399.xml) | Stuffit X Archive File | sitx |  |
 | [httpd/1762984859953048466](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1762984859953048466.xml) | stuffitx | sitx | application/x-stuffitx |
+| [httpd/8866570006088389917](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8866570006088389917.xml) | stuffit | sit | application/x-stuffit |
 | [linguist/359](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-359.xml) | Stylus | styl |  |
 | [fmt/1218](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1218.xml) | SubRip Subtitle File | srt |  |
 | [linguist/360](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-360.xml) | SubRip Text | srt |  |
@@ -3370,11 +3489,15 @@
 | [httpd/11118749754585272774](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11118749754585272774.xml) | sun j2me app descriptor | jad | text/vnd.sun.j2me.app-descriptor |
 | [x-fmt/184](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-184.xml) | Sun Raster Image | ras, sun | image/x-sun-raster |
 | [httpd/17986501611929889311](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17986501611929889311.xml) | sun xml calc template | stc | application/vnd.sun.xml.calc.template |
+| [httpd/11683076289551867919](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11683076289551867919.xml) | sun xml calc | sxc | application/vnd.sun.xml.calc |
 | [httpd/6782189470640064892](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6782189470640064892.xml) | sun xml draw template | std | application/vnd.sun.xml.draw.template |
+| [httpd/17837848099025216971](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17837848099025216971.xml) | sun xml draw | sxd | application/vnd.sun.xml.draw |
 | [httpd/9051819284956207821](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9051819284956207821.xml) | sun xml impress template | sti | application/vnd.sun.xml.impress.template |
+| [httpd/6903296568635147616](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6903296568635147616.xml) | sun xml impress | sxi | application/vnd.sun.xml.impress |
 | [httpd/13582896711578522359](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13582896711578522359.xml) | sun xml math | sxm | application/vnd.sun.xml.math |
 | [httpd/13923193796103206743](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13923193796103206743.xml) | sun xml writer global | sxg | application/vnd.sun.xml.writer.global |
 | [httpd/8267445119885387718](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8267445119885387718.xml) | sun xml writer template | stw | application/vnd.sun.xml.writer.template |
+| [httpd/10114909409051067364](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10114909409051067364.xml) | sun xml writer | sxw | application/vnd.sun.xml.writer |
 | [fmt/403](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-403.xml) | SuperCalc Spreadsheet | cal |  |
 | [x-fmt/363](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-363.xml) | SuperCalc Spreadsheet | cal |  |
 | [x-fmt/364](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-364.xml) | SuperCalc Spreadsheet | cal |  |
@@ -3388,6 +3511,7 @@
 | [httpd/17467597544118241061](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17467597544118241061.xml) | sv4crc | sv4crc | application/x-sv4crc |
 | [httpd/7128109369329973531](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7128109369329973531.xml) | svd | svd | application/vnd.svd |
 | [linguist/928734530](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-928734530.xml) | Svelte | svelte | text/html |
+| [httpd/15873555442907056260](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-15873555442907056260.xml) | svg xml | svg, svgz | image/svg+xml |
 | [linguist/337](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-337.xml) | SVG | svg | text/xml |
 | [linguist/271471144](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-271471144.xml) | Sway | sw | text/x-rustsrc |
 | [linguist/558779190](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-558779190.xml) | Sweave | rnw |  |
@@ -3404,6 +3528,7 @@
 | [linguist/363](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-363.xml) | SystemVerilog | sv, svh, vh | text/x-systemverilog |
 | [httpd/15083548841589849073](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-15083548841589849073.xml) | t3vm image | t3 | application/x-t3vm-image |
 | [fmt/820](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-820.xml) | T64 Tape Image Format | t64 |  |
+| [httpd/9408745822817726495](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9408745822817726495.xml) | tab separated values | tsv | text/tab-separated-values |
 | [x-fmt/13](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-13.xml) | Tab-separated Values | tsv, tab | text/tab-separated-values |
 | [linguist/606708469](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-606708469.xml) | Tact | tact |  |
 | [httpd/2705387182677033387](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2705387182677033387.xml) | tads | gam | application/x-tads |
@@ -3421,8 +3546,10 @@
 | [fmt/801](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-801.xml) | TAP (ZX Spectrum) | tap |  |
 | [x-fmt/265](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-265.xml) | Tape Archive Format | tar | application/x-tar |
 | [fmt/1589](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1589.xml) | Taquart Interlace Picture | tip |  |
+| [httpd/13748662148788750472](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13748662148788750472.xml) | tar | tar | application/x-tar |
 | [httpd/15812306591423857328](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-15812306591423857328.xml) | tcl | tcl | application/x-tcl |
 | [linguist/367](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-367.xml) | Tcl | tcl, adp, sdc, tcl.in, tm, xdc | text/x-tcl |
+| [httpd/14775850855049637898](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-14775850855049637898.xml) | tcpdump pcap | pcap, cap, dmp | application/vnd.tcpdump.pcap |
 | [fmt/1099](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1099.xml) | TCR eBook | tcr |  |
 | [linguist/368](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-368.xml) | Tcsh | tcsh, csh | text/x-sh |
 | [linguist/370](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-370.xml) | Tea | tea |  |
@@ -3430,6 +3557,7 @@
 | [fmt/1474](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1474.xml) | TEI P4 XML - Single Text File | xml, tei, odd | application/tei+xml |
 | [fmt/1476](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1476.xml) | TEI P5 - Single Text File | xml, tei, odd | application/tei+xml |
 | [fmt/1477](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1477.xml) | TEI P5 XML - Corpus File | xml, tei, odd | application/tei+xml |
+| [httpd/13735935963693475695](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13735935963693475695.xml) | tei xml | tei, teicorpus | application/tei+xml |
 | [linguist/795579337](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-795579337.xml) | templ | templ |  |
 | [linguist/856832701](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-856832701.xml) | Terraform Template | tftpl | text/x-ruby |
 | [linguist/371](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-371.xml) | Terra | t | text/x-lua |
@@ -3460,6 +3588,7 @@
 | [fmt/682](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-682.xml) | Thumbs DB file | db | application/vnd.microsoft.windows.thumbnail-cache |
 | [linguist/422](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-422.xml) | TI Program | 8xp, 8xp.txt |  |
 | [fmt/1909](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1909.xml) | TibetDoc Word Document | dct |  |
+| [httpd/6032337803232040227](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6032337803232040227.xml) | tiff | tiff, tif | image/tiff |
 | [fmt/1717](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1717.xml) | Time Stamp Token | tst | application/vnd.etsi.timestamp-token |
 | [fmt/1487](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1487.xml) | Timeline Maker Document | tlm, tlm3, tlm4, tlmp |  |
 | [httpd/1889659990446513902](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1889659990446513902.xml) | timestamped data | tsd | application/timestamped-data |
@@ -3475,6 +3604,7 @@
 | [httpd/7943339296956635151](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7943339296956635151.xml) | trid tpt | tpt | application/vnd.trid.tpt |
 | [fmt/1085](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1085.xml) | TRIM Context Reference File | tr5, txt |  |
 | [httpd/11556186021095517549](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11556186021095517549.xml) | triscape mxs | mxs | application/vnd.triscape.mxs |
+| [httpd/15474808736122015508](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-15474808736122015508.xml) | troff | t, tr, roff, man, me, ms | text/troff |
 | [fmt/952](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-952.xml) | True Audio | tta | audio/tta |
 | [fmt/953](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-953.xml) | True Audio | tta | audio/tta |
 | [fmt/1607](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1607.xml) | True Colour Picture [Spooky Sprites] (Atari Falcon) | trp, tru |  |
@@ -3487,11 +3617,13 @@
 | [linguist/918334941](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-918334941.xml) | TSQL | sql |  |
 | [linguist/1035892117](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-1035892117.xml) | TSV | tsv, vcf |  |
 | [linguist/94901924](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-94901924.xml) | TSX | tsx | text/jsx |
+| [httpd/1090270817345578466](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1090270817345578466.xml) | ttf | ttf | font/ttf |
 | [fmt/1603](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1603.xml) | TUNDRA | tnd |  |
 | [x-fmt/199](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-199.xml) | Turbo Debugger Keystroke Recording File | tdk |  |
 | [fmt/1585](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1585.xml) | TurboCalc Document | tcd |  |
 | [linguist/375](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-375.xml) | Turing | t, tu |  |
 | [fmt/874](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-874.xml) | Turtle | ttl | text/turtle |
+| [httpd/18035033186903385879](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-18035033186903385879.xml) | turtle | ttl | text/turtle |
 | [linguist/376](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-376.xml) | Turtle | ttl | text/turtle |
 | [fmt/1311](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1311.xml) | Tweet JSON | json | application/json |
 | [linguist/377](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-377.xml) | Twig | twig | text/x-twig |
@@ -3549,6 +3681,7 @@
 | [fmt/1881](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1881.xml) | vCard | vcf, vcard | text/vcard |
 | [fmt/395](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-395.xml) | vCard | vcf, vcard | text/vcard |
 | [httpd/2856549286746833970](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2856549286746833970.xml) | vcard | vcf | text/x-vcard |
+| [httpd/7152264101637064257](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7152264101637064257.xml) | vcard | vcard | text/vcard |
 | [linguist/851476558](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-851476558.xml) | vCard | vcf | text/x-properties |
 | [linguist/384](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-384.xml) | VCL | vcl |  |
 | [httpd/16181652763127625250](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16181652763127625250.xml) | vcx | vcx | application/vnd.vcx |
@@ -3591,6 +3724,7 @@
 | [fmt/94](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-94.xml) | Virtual Reality Modeling Language | wrl | model/vrml |
 | [x-fmt/368](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-368.xml) | VisiCalc Database | dif |  |
 | [httpd/4738532386085573748](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4738532386085573748.xml) | visionary | vis | application/vnd.visionary |
+| [httpd/2777192593731638264](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-2777192593731638264.xml) | visio | vsd, vst, vss, vsw | application/vnd.visio |
 | [x-fmt/369](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-369.xml) | Vista Pro Graphics | dem |  |
 | [fmt/1088](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1088.xml) | Visual Basic (VB) File | vb |  |
 | [linguist/389](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-389.xml) | Visual Basic .NET | vb, vbhtml | text/x-vb |
@@ -3608,6 +3742,7 @@
 | [fmt/721](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-721.xml) | VLW Font File | vlw |  |
 | [httpd/7319119812613679345](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7319119812613679345.xml) | voicexml xml | vxml | application/voicexml+xml |
 | [linguist/390](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-390.xml) | Volt | volt | text/x-d |
+| [httpd/10466185904492655952](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10466185904492655952.xml) | vrml | wrl, vrml | model/vrml |
 | [httpd/17932304242732550516](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17932304242732550516.xml) | vsf | vsf | application/vnd.vsf |
 | [httpd/9317680701060824198](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9317680701060824198.xml) | vtu | vtu | model/vnd.vtu |
 | [linguist/391](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-391.xml) | Vue | vue |  |
@@ -3620,6 +3755,7 @@
 | [httpd/13947353468228148623](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13947353468228148623.xml) | wap wmlc | wmlc | application/vnd.wap.wmlc |
 | [httpd/15817187641996057495](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-15817187641996057495.xml) | wap wmlscriptc | wmlsc | application/vnd.wap.wmlscriptc |
 | [httpd/5953949104867887994](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5953949104867887994.xml) | wap wmlscript | wmls | text/vnd.wap.wmlscript |
+| [httpd/10420792781717195325](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10420792781717195325.xml) | wap wml | wml | text/vnd.wap.wml |
 | [fmt/1281](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1281.xml) | WARC | warc | application/warc |
 | [fmt/1355](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1355.xml) | WARC | warc | application/warc |
 | [fmt/289](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-289.xml) | WARC | warc | application/warc |
@@ -3632,6 +3768,7 @@
 | [linguist/392](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-392.xml) | Wavefront Material | mtl |  |
 | [fmt/1210](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1210.xml) | Wavefront OBJ File | obj |  |
 | [linguist/393](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-393.xml) | Wavefront Object | obj |  |
+| [httpd/13840748058500051469](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-13840748058500051469.xml) | wav | wav | audio/x-wav |
 | [linguist/374521672](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-374521672.xml) | WDL | wdl |  |
 | [linguist/394](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-394.xml) | Web Ontology Language | owl |  |
 | [fmt/1172](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1172.xml) | Web Open Font Format | woff2 | font/woff2 |
@@ -3641,10 +3778,12 @@
 | [linguist/956556503](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-956556503.xml) | WebAssembly | wast, wat | text/x-common-lisp |
 | [linguist/395](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-395.xml) | WebIDL | webidl | text/x-webidl |
 | [fmt/573](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-573.xml) | WebM | webm | video/webm |
+| [httpd/12561217754331845995](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-12561217754331845995.xml) | webm | webm | video/webm |
 | [httpd/8348285458340242731](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8348285458340242731.xml) | webm | weba | audio/webm |
 | [fmt/566](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-566.xml) | WebP | webp | image/webp |
 | [fmt/567](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-567.xml) | WebP | webp | image/webp |
 | [fmt/568](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-568.xml) | WebP | webp | image/webp |
+| [httpd/8523276044690854922](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8523276044690854922.xml) | webp | webp | image/webp |
 | [httpd/11891847532744855460](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11891847532744855460.xml) | webturbo | wtb | application/vnd.webturbo |
 | [linguist/658679714](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-658679714.xml) | WebVTT | vtt |  |
 | [linguist/668457123](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-668457123.xml) | Wget Config |  |  |
@@ -3682,6 +3821,8 @@
 | [fmt/1796](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1796.xml) | Wireless Markup Language (WML) Document | wml | text/vnd.wap.wml |
 | [linguist/420](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-420.xml) | wisp | wisp | text/x-clojure |
 | [linguist/686821385](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-686821385.xml) | Witcher Script | ws |  |
+| [httpd/3490122414949210874](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-3490122414949210874.xml) | woff2 | woff2 | font/woff2 |
+| [httpd/6664698997581056718](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-6664698997581056718.xml) | woff | woff | font/woff |
 | [httpd/10008482833353115188](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10008482833353115188.xml) | wolfram player | nbp | application/vnd.wolfram.player |
 | [linguist/632745969](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-632745969.xml) | Wollok | wlk |  |
 | [fmt/1723](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1723.xml) | Wordcraft Chapter Files | 001 |  |
@@ -3700,6 +3841,7 @@
 | [x-fmt/42](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-42.xml) | Wordperfect Secondary File | doc |  |
 | [x-fmt/43](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-43.xml) | Wordperfect Secondary File | doc |  |
 | [fmt/949](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-949.xml) | WordPerfect | wp4, wpd | application/vnd.wordperfect |
+| [httpd/11933869806161327242](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-11933869806161327242.xml) | wordperfect | wpd | application/vnd.wordperfect |
 | [fmt/882](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-882.xml) | Wordstar 2000 |  |  |
 | [x-fmt/205](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-205.xml) | WordStar for MS-DOS Document | ws, ws5 |  |
 | [x-fmt/236](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-236.xml) | WordStar for MS-DOS Document | ws |  |
@@ -3743,6 +3885,7 @@
 | [httpd/9915205638149722777](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-9915205638149722777.xml) | xara | xar | application/vnd.xara |
 | [linguist/421](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-421.xml) | xBase | prg, ch, prw |  |
 | [fmt/1612](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1612.xml) | XBIN (eXtended BIN) | xb |  |
+| [httpd/16165150529897393018](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16165150529897393018.xml) | xbitmap | xbm | image/x-xbitmap |
 | [httpd/7452515137701384940](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-7452515137701384940.xml) | xcap diff xml | xdf | application/xcap-diff+xml |
 | [linguist/225167241](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-225167241.xml) | XCompose |  |  |
 | [linguist/398](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-398.xml) | XC | xc | text/x-csrc |
@@ -3760,6 +3903,7 @@
 | [httpd/17748263794182868405](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17748263794182868405.xml) | xhtml xml | xhtml, xht | application/xhtml+xml |
 | [fmt/1479](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1479.xml) | XIFF (Xerox Image File Format) | xif | image/vnd.xiff |
 | [fmt/1480](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1480.xml) | XIFF (Xerox Image File Format) | xif | image/vnd.xiff |
+| [httpd/8603435392360225765](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-8603435392360225765.xml) | xiff | xif | image/vnd.xiff |
 | [fmt/1657](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1657.xml) | XIMG (Extended GEM Bit Image) | ximg, img |  |
 | [fmt/1658](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1658.xml) | XL-Paint MaX | max, xlp |  |
 | [fmt/1659](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1659.xml) | XL-Paint | raw |  |
@@ -3774,12 +3918,15 @@
 | [linguist/75622871](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-75622871.xml) | XML Property List | plist, stTheme, tmCommand, tmLanguage, tmPreferences, tmSnippet, tmTheme | text/xml |
 | [x-fmt/280](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-280.xml) | XML Schema Definition | xsd | application/xml |
 | [fmt/1613](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1613.xml) | XML Shareable Playlist Format | xspf |  |
+| [httpd/17742111962568661060](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17742111962568661060.xml) | xml | xml, xsl | application/xml |
 | [linguist/399](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-399.xml) | XML | xml, adml, admx, ant, axaml, axml, builds, ccproj, ccxml, clixml, cproject, cscfg, csdef, csl, csproj, ct, depproj, dita, ditamap, ditaval, dll.config, dotsettings, filters, fsproj, fxml, glade, gml, gmx, gpx, grxml, gst, hzp, iml, ivy, jelly, jsproj, kml, launch, mdpolicy, mjml, mm, mod, mojo, mxml, natvis, ncl, ndproj, nproj, nuspec, odd, osm, pkgproj, pluginspec, proj, props, ps1xml, psc1, pt, qhelp, rdf, res, resx, rs, rss, sch, scxml, sfproj, shproj, srdf, storyboard, sublime-snippet, sw, targets, tml, ts, tsx, typ, ui, urdf, ux, vbproj, vcxproj, vsixmanifest, vssettings, vstemplate, vxml, wixproj, workflow, wsdl, wsf, wxi, wxl, wxs, x3d, xacro, xaml, xib, xlf, xliff, xmi, xml.dist, xmp, xproj, xsd, xspec, xul, zcml | text/xml |
+| [httpd/1866331470353410910](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1866331470353410910.xml) | xm | xm | audio/xm |
 | [linguist/405](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-405.xml) | Xojo | xojo_code, xojo_menu, xojo_report, xojo_script, xojo_toolbar, xojo_window |  |
 | [linguist/614078284](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-614078284.xml) | Xonsh | xsh | text/x-python |
 | [httpd/10149397603949644781](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-10149397603949644781.xml) | xop xml | xop | application/xop+xml |
 | [linguist/400](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-400.xml) | XPages | xsp-config, xsp.metadata | text/xml |
 | [httpd/4000171426298219438](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4000171426298219438.xml) | xpinstall | xpi | application/x-xpinstall |
+| [httpd/1299009666914761456](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1299009666914761456.xml) | xpixmap | xpm | image/x-xpixmap |
 | [httpd/16421235721521251338](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-16421235721521251338.xml) | xproc xml | xpl | application/xproc+xml |
 | [linguist/401](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-401.xml) | XProc | xpl, xproc | text/xml |
 | [linguist/402](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-402.xml) | XQuery | xquery, xq, xql, xqm, xqy | application/xquery |
@@ -3790,6 +3937,7 @@
 | [linguist/406](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-406.xml) | Xtend | xtend |  |
 | [fmt/1497](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1497.xml) | XV Thumbnail | p7 |  |
 | [httpd/1427004451618818651](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-1427004451618818651.xml) | xv xml | mxml, xhvml, xvml, xvm | application/xv+xml |
+| [httpd/4712921981521909307](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-4712921981521909307.xml) | xwindowdump | xwd | image/x-xwindowdump |
 | [x-fmt/210](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-210.xml) | XYWrite Document | xy |  |
 | [x-fmt/211](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-211.xml) | XYWrite Document | xy3 |  |
 | [x-fmt/372](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-372.xml) | XYWrite Document | xyp |  |
@@ -3835,6 +3983,7 @@
 | [linguist/973483626](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-973483626.xml) | ZIL | zil, mud |  |
 | [linguist/411](https://github.com/theseus-rs/file-type/blob/main/file_type/data/linguist/linguist-411.xml) | Zimpl | zimpl, zmpl, zpl |  |
 | [x-fmt/263](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/x-fmt-263.xml) | ZIP Format | zip | application/zip |
+| [httpd/5989308087391266474](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-5989308087391266474.xml) | zip | zip | application/zip |
 | [fmt/1143](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1143.xml) | ZISRAW (CZI) File Format | czi |  |
 | [httpd/17719390468068402583](https://github.com/theseus-rs/file-type/blob/main/file_type/data/httpd/httpd-17719390468068402583.xml) | zmachine | z1, z2, z3, z4, z5, z6, z7, z8 | application/x-zmachine |
 | [fmt/1193](https://github.com/theseus-rs/file-type/blob/main/file_type/data/pronom/fmt-1193.xml) | ZModeler Z3D | z3d |  |

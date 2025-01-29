@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>2981768161253577861</FormatID>
+  <FormatName>java archive</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/2981768161253577861</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/java-archive</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jar</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

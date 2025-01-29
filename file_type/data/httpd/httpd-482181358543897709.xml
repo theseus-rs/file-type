@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>482181358543897709</FormatID>
+  <FormatName>csv</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/482181358543897709</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/csv</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>csv</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

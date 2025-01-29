@@ -30,7 +30,11 @@ tokio = { workspace = true, features = ["full"] }
 walkdir = { workspace = true }
 
 [features]
-default = []
+default = ["custom", "pronom"]
+custom = []
+httpd = []
+linguist = []
+pronom = []
 tokio = [
     "dep:tokio",
 ]

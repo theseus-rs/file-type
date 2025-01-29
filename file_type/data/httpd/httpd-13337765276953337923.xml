@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>13337765276953337923</FormatID>
+  <FormatName>mng</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/13337765276953337923</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>video/x-mng</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mng</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

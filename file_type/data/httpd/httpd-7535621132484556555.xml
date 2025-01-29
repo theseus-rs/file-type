@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>7535621132484556555</FormatID>
+  <FormatName>epub zip</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/7535621132484556555</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/epub+zip</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>epub</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

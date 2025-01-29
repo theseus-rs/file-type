@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>17837848099025216971</FormatID>
+  <FormatName>sun xml draw</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/17837848099025216971</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.sun.xml.draw</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>sxd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

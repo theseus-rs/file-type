@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>8523276044690854922</FormatID>
+  <FormatName>webp</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/8523276044690854922</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/webp</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>webp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

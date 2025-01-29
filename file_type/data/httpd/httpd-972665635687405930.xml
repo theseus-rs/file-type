@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>972665635687405930</FormatID>
+  <FormatName>msvideo</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/972665635687405930</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>video/x-msvideo</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>avi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

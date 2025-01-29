@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>13531758372540882817</FormatID>
+  <FormatName>geogebra file</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/13531758372540882817</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.geogebra.file</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ggb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>10233703363409414994</FormatID>
+  <FormatName>adobe photoshop</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/10233703363409414994</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/vnd.adobe.photoshop</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>psd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>7152264101637064257</FormatID>
+  <FormatName>vcard</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/7152264101637064257</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/vcard</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>vcard</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

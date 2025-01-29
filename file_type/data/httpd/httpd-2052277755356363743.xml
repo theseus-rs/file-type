@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>2052277755356363743</FormatID>
+  <FormatName>collada xml</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/2052277755356363743</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>model/vnd.collada+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dae</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

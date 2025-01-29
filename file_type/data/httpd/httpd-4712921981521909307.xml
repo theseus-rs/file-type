@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>4712921981521909307</FormatID>
+  <FormatName>xwindowdump</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/4712921981521909307</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/x-xwindowdump</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xwd</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

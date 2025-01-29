@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>1866331470353410910</FormatID>
+  <FormatName>xm</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/1866331470353410910</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/xm</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

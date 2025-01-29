@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>18035033186903385879</FormatID>
+  <FormatName>turtle</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/18035033186903385879</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/turtle</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ttl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -18,7 +18,11 @@ static EXTENSION_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_extension_map);
 static MEDIA_TYPE_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_media_type_map);
-static DATA_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/");
+static CUSTOM_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/custom/");
+static DEFAULT_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/default/");
+static HTTPD_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/httpd/");
+static LINGUIST_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/linguist/");
+static PRONOM_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/pronom/");
 const EMPTY_SIGNATURES: &Vec<&'static FileType> = &Vec::new();
 const EMPTY_EXTENSIONS: &Vec<&'static FileType> = &Vec::new();
 const EMPTY_MEDIA_TYPES: &Vec<&'static FileType> = &Vec::new();
@@ -26,8 +30,19 @@ const EMPTY_MEDIA_TYPES: &Vec<&'static FileType> = &Vec::new();
 /// Deserialize the PRONOM XML file format data into a map of puid to `FileType`.
 fn initialize_file_formats() -> HashMap<String, FileType> {
     let mut file_types = HashMap::new();
+    let data_directories = vec![
+        #[cfg(feature = "custom")]
+        &CUSTOM_DIR,
+        &DEFAULT_DIR,
+        #[cfg(feature = "httpd")]
+        &HTTPD_DIR,
+        #[cfg(feature = "linguist")]
+        &LINGUIST_DIR,
+        #[cfg(feature = "pronom")]
+        &PRONOM_DIR,
+    ];
 
-    for directory in DATA_DIR.dirs() {
+    for directory in data_directories {
         let file_formats = directory
             .entries()
             .iter()
@@ -48,7 +63,7 @@ fn initialize_file_formats() -> HashMap<String, FileType> {
     file_types
 }
 
-/// Create a listfile types with signatures
+/// Create a list of file types with signatures
 fn initialize_signature_map() -> HashMap<u64, Vec<&'static FileType>> {
     let mut signatures = HashMap::new();
 
@@ -410,19 +425,21 @@ mod tests {
     #[test]
     fn test_file_formats() {
         let file_types = &*FILE_TYPES;
-        assert_eq!(3849, file_types.len());
+        assert!(!file_types.is_empty());
+        assert!(file_types.contains_key("default/1"));
+        assert!(file_types.contains_key("default/2"));
     }
 
     #[test]
     fn test_extensions() {
         let extensions = &*EXTENSION_MAP;
-        assert_eq!(3377, extensions.len());
+        assert!(!extensions.is_empty());
     }
 
     #[test]
     fn test_media_types() {
         let media_types = &*MEDIA_TYPE_MAP;
-        assert_eq!(1026, media_types.len());
+        assert!(!media_types.is_empty());
         assert!(media_types.contains_key("text/plain"));
         assert!(media_types.contains_key("application/octet-stream"));
     }

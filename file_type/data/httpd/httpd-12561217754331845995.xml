@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>12561217754331845995</FormatID>
+  <FormatName>webm</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/12561217754331845995</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>video/webm</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>webm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>8243185071847872480</FormatID>
+  <FormatName>mif</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/8243185071847872480</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.mif</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mif</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

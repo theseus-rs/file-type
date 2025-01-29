@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>14441876429112459019</FormatID>
+  <FormatName>ms modi</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/14441876429112459019</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/vnd.ms-modi</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mdi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

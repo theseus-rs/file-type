@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>3087012365679673081</FormatID>
+  <FormatName>rn realmedia</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/3087012365679673081</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.rn-realmedia</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

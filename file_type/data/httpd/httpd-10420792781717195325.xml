@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>10420792781717195325</FormatID>
+  <FormatName>wap wml</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/10420792781717195325</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/vnd.wap.wml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wml</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

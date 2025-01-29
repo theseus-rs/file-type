@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>170617073432374148</FormatID>
+  <FormatName>oasis opendocument presentation</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/170617073432374148</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.oasis.opendocument.presentation</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>odp</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>
