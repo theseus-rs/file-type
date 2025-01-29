@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>7759232053586146786</FormatID>
+  <FormatName>dts</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/7759232053586146786</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/vnd.dts</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dts</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>9943181513677621699</FormatID>
+  <FormatName>oasis opendocument spreadsheet</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/9943181513677621699</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.oasis.opendocument.spreadsheet</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ods</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>16165150529897393018</FormatID>
+  <FormatName>xbitmap</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/16165150529897393018</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/x-xbitmap</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xbm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

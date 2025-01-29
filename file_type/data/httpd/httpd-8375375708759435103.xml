@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>8375375708759435103</FormatID>
+  <FormatName>dwf</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/8375375708759435103</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>model/vnd.dwf</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dwf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

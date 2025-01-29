@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>2397780198454870296</FormatID>
+  <FormatName>mathematica</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/2397780198454870296</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/mathematica</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ma</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1</ExternalSignatureID>
+    <Signature>nb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>2</ExternalSignatureID>
+    <Signature>mb</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

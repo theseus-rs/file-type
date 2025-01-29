@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>1299009666914761456</FormatID>
+  <FormatName>xpixmap</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/1299009666914761456</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/x-xpixmap</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>xpm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

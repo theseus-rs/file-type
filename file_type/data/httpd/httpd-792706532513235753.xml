@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>792706532513235753</FormatID>
+  <FormatName>rdf xml</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/792706532513235753</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/rdf+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rdf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

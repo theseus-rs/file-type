@@ -1,0 +1,22 @@
+<FileFormat>
+  <FormatID>15873555442907056260</FormatID>
+  <FormatName>svg xml</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/15873555442907056260</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/svg+xml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>svg</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1</ExternalSignatureID>
+    <Signature>svgz</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

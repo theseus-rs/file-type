@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>2342579768245528503</FormatID>
+  <FormatName>lotus 1 2 3</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/2342579768245528503</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.lotus-1-2-3</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>123</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

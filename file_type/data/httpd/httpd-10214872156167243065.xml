@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>10214872156167243065</FormatID>
+  <FormatName>rtf</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/10214872156167243065</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/rtf</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>rtf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

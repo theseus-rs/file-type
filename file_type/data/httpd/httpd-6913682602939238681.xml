@@ -1,0 +1,32 @@
+<FileFormat>
+  <FormatID>6913682602939238681</FormatID>
+  <FormatName>midi</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/6913682602939238681</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/midi</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mid</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1</ExternalSignatureID>
+    <Signature>midi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>2</ExternalSignatureID>
+    <Signature>kar</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>3</ExternalSignatureID>
+    <Signature>rmi</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

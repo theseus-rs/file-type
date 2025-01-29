@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>14691644552423099519</FormatID>
+  <FormatName>lotus screencam</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/14691644552423099519</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.lotus-screencam</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>scm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

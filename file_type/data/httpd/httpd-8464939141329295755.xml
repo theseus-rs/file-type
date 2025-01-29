@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>8464939141329295755</FormatID>
+  <FormatName>portable pixmap</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/8464939141329295755</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/x-portable-pixmap</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ppm</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

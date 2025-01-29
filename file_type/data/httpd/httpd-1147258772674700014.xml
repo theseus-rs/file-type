@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>1147258772674700014</FormatID>
+  <FormatName>recordare musicxml</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/1147258772674700014</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.recordare.musicxml</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>mxl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

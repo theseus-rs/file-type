@@ -1,0 +1,27 @@
+<FileFormat>
+  <FormatID>10581694100561422952</FormatID>
+  <FormatName>ms powerpoint</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/10581694100561422952</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-powerpoint</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ppt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1</ExternalSignatureID>
+    <Signature>pps</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>2</ExternalSignatureID>
+    <Signature>pot</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

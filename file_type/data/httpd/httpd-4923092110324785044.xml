@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>4923092110324785044</FormatID>
+  <FormatName>shar</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/4923092110324785044</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-shar</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>shar</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

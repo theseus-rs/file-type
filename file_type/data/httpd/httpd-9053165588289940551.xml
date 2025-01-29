@@ -1,0 +1,22 @@
+<FileFormat>
+  <FormatID>9053165588289940551</FormatID>
+  <FormatName>javascript</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/9053165588289940551</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>text/javascript</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>js</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+  <ExternalSignature>
+    <ExternalSignatureID>1</ExternalSignatureID>
+    <Signature>mjs</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

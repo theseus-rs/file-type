@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>17252755327281720961</FormatID>
+  <FormatName>oasis opendocument text</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/17252755327281720961</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.oasis.opendocument.text</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>odt</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>5829367433798298517</FormatID>
+  <FormatName>mac binhex40</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/5829367433798298517</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/mac-binhex40</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>hqx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

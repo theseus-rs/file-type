@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>8098122450534646074</FormatID>
+  <FormatName>dxf</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/8098122450534646074</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/vnd.dxf</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>dxf</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

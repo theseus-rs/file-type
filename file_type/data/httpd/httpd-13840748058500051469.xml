@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>13840748058500051469</FormatID>
+  <FormatName>wav</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/13840748058500051469</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>audio/x-wav</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>wav</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

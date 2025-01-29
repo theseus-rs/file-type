@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>16036058250225051593</FormatID>
+  <FormatName>openxmlformats officedocument presentationml slideshow</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/16036058250225051593</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.openxmlformats-officedocument.presentationml.slideshow</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>ppsx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>14394408211770555554</FormatID>
+  <FormatName>jxl</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/14394408211770555554</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/jxl</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>jxl</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

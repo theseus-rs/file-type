@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>4919042068691183672</FormatID>
+  <FormatName>ms fontobject</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/4919042068691183672</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.ms-fontobject</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>eot</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

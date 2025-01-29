@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>10691704915181776398</FormatID>
+  <FormatName>gnumeric</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/10691704915181776398</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/x-gnumeric</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>gnumeric</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

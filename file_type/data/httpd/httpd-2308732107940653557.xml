@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>2308732107940653557</FormatID>
+  <FormatName>png</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/2308732107940653557</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>image/png</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>png</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

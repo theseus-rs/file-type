@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>5989308087391266474</FormatID>
+  <FormatName>zip</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/5989308087391266474</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/zip</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>zip</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>

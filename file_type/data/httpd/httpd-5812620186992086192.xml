@@ -1,0 +1,17 @@
+<FileFormat>
+  <FormatID>5812620186992086192</FormatID>
+  <FormatName>openxmlformats officedocument presentationml template</FormatName>
+  <FileFormatIdentifier>
+    <Identifier>httpd/5812620186992086192</Identifier>
+    <IdentifierType>PUID</IdentifierType>
+  </FileFormatIdentifier>
+  <FileFormatIdentifier>
+    <Identifier>application/vnd.openxmlformats-officedocument.presentationml.template</Identifier>
+    <IdentifierType>MIME</IdentifierType>
+  </FileFormatIdentifier>
+  <ExternalSignature>
+    <ExternalSignatureID>0</ExternalSignatureID>
+    <Signature>potx</Signature>
+    <SignatureType>File extension</SignatureType>
+  </ExternalSignature>
+</FileFormat>
