@@ -1,0 +1,28 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const FMT_1964: FileFormat = FileFormat {
+    id: 2_829,
+    puid: "fmt/1964",
+    name: "JPH (JPEG 2000 part 15)",
+    extensions: &["jph"],
+    media_types: &["image/jph"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[
+                    Token::Literal(&[
+                        0x00, 0x00, 0x00, 0x0C, 0x6A, 0x50, 0x20, 0x20, 0x0D, 0x0A, 0x87, 0x0A,
+                    ]),
+                    Token::WildcardCount(4),
+                    Token::Literal(&[0x66, 0x74, 0x79, 0x70, 0x6A, 0x70, 0x68, 0x20]),
+                ],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

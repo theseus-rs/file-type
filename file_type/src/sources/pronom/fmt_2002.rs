@@ -1,0 +1,22 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const FMT_2002: FileFormat = FileFormat {
+    id: 2_877,
+    puid: "fmt/2002",
+    name: "Husqvarna / TruE Embroidery Stitch File",
+    extensions: &["vp3"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x25, 0x76, 0x73, 0x6D, 0x25, 0x00, 0x00])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

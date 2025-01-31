@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105856905: FileFormat = FileFormat {
+    id: 105_856_905,
+    puid: "wikidata/105856905",
+    name: "GUI Design Studio design",
+    extensions: &["gui"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x3C, 0x53, 0x63, 0x72, 0x65, 0x65, 0x6E, 0x0A, 0x09, 0x43, 0x49, 0x44, 0x20,
+                    0x3D, 0x20, 0x22,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

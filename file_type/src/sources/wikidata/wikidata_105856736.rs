@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105856736: FileFormat = FileFormat {
+    id: 105_856_736,
+    puid: "wikidata/105856736",
+    name: "Unified Printer Parameter",
+    extensions: &["upp"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x2D, 0x73, 0x75, 0x70, 0x4D, 0x6F, 0x64, 0x65, 0x6C, 0x3D, 0x22,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

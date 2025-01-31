@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105850350: FileFormat = FileFormat {
+    id: 105_850_350,
+    puid: "wikidata/105850350",
+    name: "Clonk game data",
+    extensions: &["c4*"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x1E, 0x8C, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0B, 0xEC,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_16683501: FileFormat = FileFormat {
+    id: 16_683_501,
+    puid: "wikidata/16683501",
+    name: "OpenXML Spreadsheet Macro-Enabled",
+    extensions: &["xlsm"],
+    media_types: &["application/vnd.ms-excel.sheet.macroEnabled.12"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x50, 0x4B, 0x03, 0x04])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

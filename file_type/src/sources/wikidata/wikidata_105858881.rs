@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858881: FileFormat = FileFormat {
+    id: 105_858_881,
+    puid: "wikidata/105858881",
+    name: "Silicon Graphics 24bit compressed bitmap",
+    extensions: &["sgi"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x01, 0xDA, 0x00, 0x03, 0x00, 0x01])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

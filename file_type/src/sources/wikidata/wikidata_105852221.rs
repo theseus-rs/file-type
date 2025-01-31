@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105852221: FileFormat = FileFormat {
+    id: 105_852_221,
+    puid: "wikidata/105852221",
+    name: "EGrid32 form snippet",
+    extensions: &["snl"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x45, 0x47, 0x33, 0x32, 0x46, 0x5F, 0x53, 0x4E,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

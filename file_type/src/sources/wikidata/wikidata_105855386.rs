@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105855386: FileFormat = FileFormat {
+    id: 105_855_386,
+    puid: "wikidata/105855386",
+    name: "Freenet node Reference (var.2)",
+    extensions: &["fref"],
+    media_types: &["text/plain"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x69, 0x64, 0x65, 0x6E, 0x74, 0x69, 0x74, 0x79, 0x3D,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

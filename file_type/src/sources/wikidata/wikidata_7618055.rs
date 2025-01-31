@@ -1,0 +1,36 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_7618055: FileFormat = FileFormat {
+    id: 7_618_055,
+    puid: "wikidata/7618055",
+    name: "Stockholm format",
+    extensions: &["stk", "sto"],
+    media_types: &["text/plain", "text/plain"],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x23, 0x20, 0x53, 0x54, 0x4F, 0x43, 0x4B, 0x48, 0x4F, 0x4C, 0x4D, 0x20,
+                        0x31, 0x2E, 0x30,
+                    ])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x23, 0x20, 0x53, 0x54, 0x4F, 0x43, 0x4B, 0x48, 0x4F, 0x4C, 0x4D, 0x20,
+                        0x31, 0x2E, 0x30,
+                    ])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105857823: FileFormat = FileFormat {
+    id: 105_857_823,
+    puid: "wikidata/105857823",
+    name: "Infinity Engine paperdoll (v1)",
+    extensions: &["plt"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x50, 0x4C, 0x54, 0x20, 0x56, 0x31])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

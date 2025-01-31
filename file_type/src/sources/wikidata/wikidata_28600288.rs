@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_28600288: FileFormat = FileFormat {
+    id: 28_600_288,
+    puid: "wikidata/28600288",
+    name: "ActiveMime",
+    extensions: &["mso"],
+    media_types: &["application/x-mso"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x41, 0x63, 0x74, 0x69, 0x76, 0x65, 0x4D, 0x69, 0x6D, 0x65,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

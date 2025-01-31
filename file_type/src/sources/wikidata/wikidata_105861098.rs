@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105861098: FileFormat = FileFormat {
+    id: 105_861_098,
+    puid: "wikidata/105861098",
+    name: "Adobe Photoshop Lightroom Template",
+    extensions: &["lrtemplate"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x73, 0x20, 0x3D, 0x20, 0x7B])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

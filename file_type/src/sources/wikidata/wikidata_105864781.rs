@@ -1,0 +1,53 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105864781: FileFormat = FileFormat {
+    id: 105_864_781,
+    puid: "wikidata/105864781",
+    name: "Creative C/MS packed screen",
+    extensions: &["hpc", "mpc", "pic", "tpc"],
+    media_types: &[
+        "application/octet-stream",
+        "application/octet-stream",
+        "application/octet-stream",
+        "application/octet-stream",
+    ],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x50, 0x61, 0x63, 0x6B, 0x1A])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x50, 0x61, 0x63, 0x6B, 0x1A])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x50, 0x61, 0x63, 0x6B, 0x1A])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x50, 0x61, 0x63, 0x6B, 0x1A])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

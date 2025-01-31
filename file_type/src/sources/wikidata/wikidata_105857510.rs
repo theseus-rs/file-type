@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105857510: FileFormat = FileFormat {
+    id: 105_857_510,
+    puid: "wikidata/105857510",
+    name: "Lotus 123 Worksheet (V98)",
+    extensions: &["123"],
+    media_types: &["application/vnd.lotus-1-2-3"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x00, 0x00, 0x1A, 0x00, 0x05, 0x10, 0x04, 0x00,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

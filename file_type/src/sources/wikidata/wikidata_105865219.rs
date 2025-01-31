@@ -1,0 +1,34 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105865219: FileFormat = FileFormat {
+    id: 105_865_219,
+    puid: "wikidata/105865219",
+    name: "ArchiCAD Plan Archive",
+    extensions: &["pla", "pln"],
+    media_types: &["application/octet-stream", "application/octet-stream"],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x52, 0x4F, 0x46, 0x20, 0x46, 0x44, 0x42, 0x20,
+                    ])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x52, 0x4F, 0x46, 0x20, 0x46, 0x44, 0x42, 0x20,
+                    ])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

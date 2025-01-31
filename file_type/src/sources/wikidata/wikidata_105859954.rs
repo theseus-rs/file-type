@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105859954: FileFormat = FileFormat {
+    id: 105_859_954,
+    puid: "wikidata/105859954",
+    name: "trsvid TV6 video",
+    extensions: &["tv6"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x47, 0x57, 0x50, 0xD6, 0x06])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

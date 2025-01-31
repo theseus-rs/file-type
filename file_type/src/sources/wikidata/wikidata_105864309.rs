@@ -1,0 +1,36 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105864309: FileFormat = FileFormat {
+    id: 105_864_309,
+    puid: "wikidata/105864309",
+    name: "Philips Drum System data (generic)",
+    extensions: &["drm", "dsq"],
+    media_types: &["application/octet-stream", "application/octet-stream"],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x50, 0x68, 0x69, 0x6C, 0x69, 0x70, 0x73, 0x20, 0x44, 0x72, 0x75, 0x6D,
+                        0x20, 0x53, 0x79, 0x73, 0x74, 0x65, 0x6D, 0x00,
+                    ])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x50, 0x68, 0x69, 0x6C, 0x69, 0x70, 0x73, 0x20, 0x44, 0x72, 0x75, 0x6D,
+                        0x20, 0x53, 0x79, 0x73, 0x74, 0x65, 0x6D, 0x00,
+                    ])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

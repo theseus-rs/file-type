@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_28757834: FileFormat = FileFormat {
+    id: 28_757_834,
+    puid: "wikidata/28757834",
+    name: "Garry's Mod Addon",
+    extensions: &["gma"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x47, 0x4D, 0x41, 0x44])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

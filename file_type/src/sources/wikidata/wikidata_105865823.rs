@@ -1,0 +1,23 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105865823: FileFormat = FileFormat {
+    id: 105_865_823,
+    puid: "wikidata/105865823",
+    name: "Picroma Plasma Graphics",
+    extensions: &["plg"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x00, 0x00, 0x00, 0x00, 0x16, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x0E,
+                    0x00, 0x00, 0x00, 0x50, 0x6C, 0x61, 0x73, 0x6D, 0x61, 0x47, 0x72, 0x61, 0x70,
+                    0x68, 0x69, 0x63, 0x73,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

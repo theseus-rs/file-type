@@ -1,0 +1,11 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_27487522: FileFormat = FileFormat {
+    id: 27_487_522,
+    puid: "wikidata/27487522",
+    name: "Shapefile attribute index part 1",
+    extensions: &["ain"],
+    media_types: &[],
+    internal_signatures: &[],
+    related_formats: &[],
+};

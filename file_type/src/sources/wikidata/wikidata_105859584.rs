@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105859584: FileFormat = FileFormat {
+    id: 105_859_584,
+    puid: "wikidata/105859584",
+    name: "Visual Studio Visual C++ Project (UTF-8)",
+    extensions: &["vcxproj"],
+    media_types: &["text/xml"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xEF, 0xBB, 0xBF, 0x3C])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

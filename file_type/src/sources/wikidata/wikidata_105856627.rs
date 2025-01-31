@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105856627: FileFormat = FileFormat {
+    id: 105_856_627,
+    puid: "wikidata/105856627",
+    name: "Apple Finder Internet Location",
+    extensions: &["webloc"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x00, 0x05, 0x16])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

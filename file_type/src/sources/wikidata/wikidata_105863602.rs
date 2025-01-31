@@ -1,0 +1,34 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105863602: FileFormat = FileFormat {
+    id: 105_863_602,
+    puid: "wikidata/105863602",
+    name: "Mozilla mozLz4 compressed data (generic)",
+    extensions: &["jsonlz4", "mozlz4"],
+    media_types: &["application/octet-stream", "application/octet-stream"],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x6D, 0x6F, 0x7A, 0x4C, 0x7A, 0x34, 0x30, 0x00,
+                    ])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x6D, 0x6F, 0x7A, 0x4C, 0x7A, 0x34, 0x30, 0x00,
+                    ])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

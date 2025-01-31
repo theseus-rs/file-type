@@ -71,11 +71,13 @@
 #![deny(clippy::pedantic)]
 #![deny(clippy::unwrap_in_result)]
 #![deny(clippy::unwrap_used)]
+extern crate core;
 
 mod error;
 mod file_type;
 mod file_types;
 pub mod format;
+mod sources;
 
 pub use error::{Error, Result};
 pub use file_type::FileType;

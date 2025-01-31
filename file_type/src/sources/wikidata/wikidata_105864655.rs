@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105864655: FileFormat = FileFormat {
+    id: 105_864_655,
+    puid: "wikidata/105864655",
+    name: "Microsoft PowerPoint (v3.0)",
+    extensions: &["ppt"],
+    media_types: &["application/vnd.ms-powerpoint"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0xED, 0xDE, 0xAD, 0x0B, 0x03, 0x00, 0x00, 0x00,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

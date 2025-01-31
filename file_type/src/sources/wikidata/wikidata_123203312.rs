@@ -1,0 +1,11 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_123203312: FileFormat = FileFormat {
+    id: 123_203_312,
+    puid: "wikidata/123203312",
+    name: "TiVo Video File",
+    extensions: &["tivo"],
+    media_types: &[],
+    internal_signatures: &[],
+    related_formats: &[],
+};

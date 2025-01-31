@@ -1,0 +1,30 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_27959844: FileFormat = FileFormat {
+    id: 27_959_844,
+    puid: "wikidata/27959844",
+    name: "Jeskola Buzz song",
+    extensions: &["bmw", "bmx"],
+    media_types: &["application/octet-stream", "application/octet-stream"],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x42, 0x75, 0x7A, 0x7A])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x42, 0x75, 0x7A, 0x7A])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

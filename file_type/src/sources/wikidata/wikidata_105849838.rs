@@ -1,0 +1,23 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105849838: FileFormat = FileFormat {
+    id: 105_849_838,
+    puid: "wikidata/105849838",
+    name: "Copy Numbers format",
+    extensions: &["cn"],
+    media_types: &["text/plain"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x53, 0x4E, 0x50, 0x09, 0x43, 0x68, 0x72, 0x6F, 0x6D, 0x6F, 0x73, 0x6F, 0x6D,
+                    0x65, 0x09, 0x50, 0x68, 0x79, 0x73, 0x69, 0x63, 0x61, 0x6C, 0x50, 0x6F, 0x73,
+                    0x69, 0x74, 0x69, 0x6F, 0x6E, 0x09,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

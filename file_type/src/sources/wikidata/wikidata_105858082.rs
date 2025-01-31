@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858082: FileFormat = FileFormat {
+    id: 105_858_082,
+    puid: "wikidata/105858082",
+    name: "WinAPE IDE hard disk image",
+    extensions: &["ide"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x42, 0x49, 0x54, 0x57, 0x49, 0x53, 0x45, 0x20, 0x44, 0x52, 0x49, 0x56, 0x45,
+                    0x20, 0x49, 0x4D, 0x41, 0x47, 0x45, 0x20, 0x46, 0x49, 0x4C, 0x45,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

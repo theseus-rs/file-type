@@ -1,0 +1,49 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const FMT_1871: FileFormat = FileFormat {
+    id: 2_725,
+    puid: "fmt/1871",
+    name: "Common Interface File",
+    extensions: &["cif", "mca"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[
+            ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[
+                        Token::Literal(&[0x48, 0x44]),
+                        Token::WildcardCountRange(75, 80),
+                        Token::Literal(&[0x0A]),
+                        Token::WildcardCountRange(80, 81),
+                        Token::Literal(&[0x0A]),
+                    ],
+                },
+            },
+            ByteSequence {
+                position_type: PositionType::EOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[
+                        Token::Literal(&[
+                            0x5A, 0x5A, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20,
+                            0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20,
+                            0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20,
+                            0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20,
+                            0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20,
+                            0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20,
+                            0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20, 0x20,
+                        ]),
+                        Token::WildcardCountRange(0, 1),
+                        Token::Literal(&[0x0A]),
+                    ],
+                },
+            },
+        ],
+    }],
+    related_formats: &[],
+};

@@ -1,0 +1,43 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_1983918: FileFormat = FileFormat {
+    id: 1_983_918,
+    puid: "wikidata/1983918",
+    name: "Nexus file",
+    extensions: &["nex", "nxs", "nxz"],
+    media_types: &[
+        "application/octet-stream",
+        "application/octet-stream",
+        "application/octet-stream",
+    ],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x20, 0x73, 0x78, 0x4E])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x20, 0x73, 0x78, 0x4E])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x20, 0x73, 0x78, 0x4E])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

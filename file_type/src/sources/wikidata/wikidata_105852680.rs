@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105852680: FileFormat = FileFormat {
+    id: 105_852_680,
+    puid: "wikidata/105852680",
+    name: "Respawn Entertainment game data archive",
+    extensions: &["starpak"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x53, 0x52, 0x50, 0x6B, 0x01, 0x00, 0x00, 0x00, 0xCB, 0xCB, 0xCB, 0xCB, 0xCB,
+                    0xCB, 0xCB, 0xCB,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

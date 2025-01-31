@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858296: FileFormat = FileFormat {
+    id: 105_858_296,
+    puid: "wikidata/105858296",
+    name: "Jasspa's MicroEmacs Macro File",
+    extensions: &["emf"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x3B, 0x20, 0x2D, 0x21, 0x2D, 0x20, 0x65, 0x6D, 0x66, 0x20, 0x2D, 0x21, 0x2D,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

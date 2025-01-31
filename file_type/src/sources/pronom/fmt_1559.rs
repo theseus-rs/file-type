@@ -1,0 +1,25 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const FMT_1559: FileFormat = FileFormat {
+    id: 2_384,
+    puid: "fmt/1559",
+    name: "Beam Software SIFF File",
+    extensions: &["son", "vb"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x53, 0x49, 0x46, 0x46])],
+            },
+        }],
+    }],
+    related_formats: &[RelatedFormat {
+        id: 687,
+        relationship_type: RelationshipType::HasPriorityOver,
+    }],
+};

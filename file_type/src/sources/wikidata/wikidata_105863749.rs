@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105863749: FileFormat = FileFormat {
+    id: 105_863_749,
+    puid: "wikidata/105863749",
+    name: "MVSTracker Instrument",
+    extensions: &["ins"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x4D, 0x56, 0x53, 0x49, 0x31])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105852671: FileFormat = FileFormat {
+    id: 105_852_671,
+    puid: "wikidata/105852671",
+    name: "Elecbyte M.U.G.E.N. sprites",
+    extensions: &["sff"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x45, 0x6C, 0x65, 0x63, 0x62, 0x79, 0x74, 0x65, 0x53, 0x70, 0x72, 0x00,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105853444: FileFormat = FileFormat {
+    id: 105_853_444,
+    puid: "wikidata/105853444",
+    name: "BlueEyes Animation",
+    extensions: &["zan"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x50, 0x4B, 0x03, 0x04])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

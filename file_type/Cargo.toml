@@ -11,9 +11,6 @@ rust-version.workspace = true
 version.workspace = true
 
 [dependencies]
-include_dir = { workspace = true }
-quick-xml = { workspace = true, features = ["serde", "serialize"] }
-serde = { workspace = true, features = ["derive"] }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 tokio = { workspace = true, optional = true, features = ["io-util"] }
@@ -24,8 +21,6 @@ tokio = { workspace = true, optional = true, features = ["fs", "io-util"] }
 [dev-dependencies]
 anyhow = { workspace = true }
 criterion = { workspace = true }
-indoc = { workspace = true }
-quick-xml = { workspace = true, features = ["serde", "serialize"] }
 tokio = { workspace = true, features = ["full"] }
 walkdir = { workspace = true }
 

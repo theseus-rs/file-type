@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_29000572: FileFormat = FileFormat {
+    id: 29_000_572,
+    puid: "wikidata/29000572",
+    name: "SmartSniff Packet",
+    extensions: &["ssp"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x53, 0x4D, 0x53, 0x4E, 0x46, 0x32, 0x30, 0x30, 0x04, 0x00, 0xC0, 0xA8, 0x7B,
+                    0xC8, 0x18, 0x00,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

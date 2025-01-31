@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105856113: FileFormat = FileFormat {
+    id: 105_856_113,
+    puid: "wikidata/105856113",
+    name: "Dan Bricklin's Demo 2 demo (v3)",
+    extensions: &["dbd"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x54, 0x79, 0x70, 0x65, 0x44, 0x33])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

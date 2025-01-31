@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105856735: FileFormat = FileFormat {
+    id: 105_856_735,
+    puid: "wikidata/105856735",
+    name: "UMT EFS Backup",
+    extensions: &["ueb"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x55, 0x4D, 0x54, 0x45, 0x46, 0x53, 0x42, 0x41, 0x43, 0x4B, 0x55, 0x50,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

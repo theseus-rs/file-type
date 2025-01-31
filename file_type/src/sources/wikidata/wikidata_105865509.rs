@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105865509: FileFormat = FileFormat {
+    id: 105_865_509,
+    puid: "wikidata/105865509",
+    name: "Pixel Bender bytecode",
+    extensions: &["pbj"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xA5, 0x01, 0x00, 0x00, 0x00, 0xA4])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

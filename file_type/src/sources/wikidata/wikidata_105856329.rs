@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105856329: FileFormat = FileFormat {
+    id: 105_856_329,
+    puid: "wikidata/105856329",
+    name: "Delphi Diagram Portfolio",
+    extensions: &["ddp"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x07, 0x18, 0x44, 0x45, 0x4C, 0x50, 0x48, 0x49, 0x2E, 0x44, 0x49, 0x41, 0x47,
+                    0x52, 0x41, 0x4D, 0x2E, 0x50, 0x4F, 0x52, 0x54, 0x46, 0x4F, 0x4C, 0x49, 0x4F,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_28207452: FileFormat = FileFormat {
+    id: 28_207_452,
+    puid: "wikidata/28207452",
+    name: "Vista Data File Format",
+    extensions: &["v"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x56, 0x2D, 0x64, 0x61, 0x74, 0x61, 0x20, 0x32, 0x20, 0x7B,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

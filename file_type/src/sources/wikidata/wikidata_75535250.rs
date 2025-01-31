@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_75535250: FileFormat = FileFormat {
+    id: 75_535_250,
+    puid: "wikidata/75535250",
+    name: "UFA compressed archive",
+    extensions: &["ufa"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x55, 0x46, 0x41, 0xC6, 0xD2, 0xC1])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

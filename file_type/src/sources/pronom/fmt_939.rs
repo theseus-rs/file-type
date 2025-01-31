@@ -1,0 +1,22 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const FMT_939: FileFormat = FileFormat {
+    id: 1_744,
+    puid: "fmt/939",
+    name: "Python Compiled File",
+    extensions: &["pyc"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x03, 0xF3, 0x0D, 0x0A])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

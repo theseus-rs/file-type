@@ -1,0 +1,34 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105856103: FileFormat = FileFormat {
+    id: 105_856_103,
+    puid: "wikidata/105856103",
+    name: "Open Access III Document",
+    extensions: &["doc", "ext"],
+    media_types: &["application/octet-stream", "application/octet-stream"],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x03, 0x4C, 0x54, 0x32, 0x6A, 0x00, 0x00, 0x00,
+                    ])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x03, 0x4C, 0x54, 0x32, 0x6A, 0x00, 0x00, 0x00,
+                    ])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

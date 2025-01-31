@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105862165: FileFormat = FileFormat {
+    id: 105_862_165,
+    puid: "wikidata/105862165",
+    name: "Mariner Write Document",
+    extensions: &["mwd"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x46, 0x46, 0x46, 0x46, 0x30, 0x30, 0x30, 0x30,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

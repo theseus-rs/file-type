@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858666: FileFormat = FileFormat {
+    id: 105_858_666,
+    puid: "wikidata/105858666",
+    name: "SilkRoad mesh",
+    extensions: &["bms"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x4A, 0x4D, 0x58, 0x56, 0x42, 0x4D, 0x53, 0x20,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

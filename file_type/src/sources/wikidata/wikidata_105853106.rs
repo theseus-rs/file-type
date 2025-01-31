@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105853106: FileFormat = FileFormat {
+    id: 105_853_106,
+    puid: "wikidata/105853106",
+    name: "Labeler (v2.0) / Labels Unlimited (v1.0) Style",
+    extensions: &["sty"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x4C, 0x61, 0x62, 0x65, 0x6C, 0x65, 0x72, 0x20, 0x56, 0x32, 0x2E, 0x30, 0x20,
+                    0x53, 0x54, 0x59, 0x00,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

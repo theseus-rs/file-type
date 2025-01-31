@@ -1,0 +1,26 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const FMT_782: FileFormat = FileFormat {
+    id: 1_581,
+    puid: "fmt/782",
+    name: "PowerVR Object Data",
+    extensions: &["pod"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0xE8, 0x03, 0x00, 0x00, 0x0B, 0x00, 0x00, 0x00, 0x41, 0x42, 0x2E, 0x50, 0x4F,
+                    0x44, 0x2E, 0x32, 0x2E, 0x30, 0x00, 0xE8, 0x03, 0x00, 0x80, 0x00, 0x00, 0x00,
+                    0x00,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105867619: FileFormat = FileFormat {
+    id: 105_867_619,
+    puid: "wikidata/105867619",
+    name: "WordPerfect Notebook",
+    extensions: &["nb"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x0E, 0x0A, 0xC0, 0xC0, 0xC0, 0x01, 0x50, 0xC0, 0x9E, 0x30, 0x31, 0x20, 0x9D,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

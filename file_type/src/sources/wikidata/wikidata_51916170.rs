@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_51916170: FileFormat = FileFormat {
+    id: 51_916_170,
+    puid: "wikidata/51916170",
+    name: "Pagemaker TableEditor Graphics",
+    extensions: &["tbl"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x00, 0x00, 0x00, 0x01, 0x00, 0x02, 0x00, 0x01, 0x4B, 0x02, 0x00,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

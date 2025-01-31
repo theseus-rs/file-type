@@ -1,0 +1,23 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858516: FileFormat = FileFormat {
+    id: 105_858_516,
+    puid: "wikidata/105858516",
+    name: "HRU bitmap",
+    extensions: &["hru"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x35, 0x4B, 0x50, 0x35, 0x31, 0x5D, 0x2A, 0x67, 0x72, 0x72, 0x80, 0x83, 0x85,
+                    0x63, 0x7A, 0x7D, 0x6B, 0x43, 0x6A, 0x55, 0x49, 0x53, 0x64, 0x4F, 0x51, 0x61,
+                    0x30, 0x0D,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

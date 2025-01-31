@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105860918: FileFormat = FileFormat {
+    id: 105_860_918,
+    puid: "wikidata/105860918",
+    name: "BlackBerry resource",
+    extensions: &["rrh"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x70, 0x61, 0x63, 0x6B, 0x61, 0x67, 0x65, 0x20,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

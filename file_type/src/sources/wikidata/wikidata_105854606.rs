@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105854606: FileFormat = FileFormat {
+    id: 105_854_606,
+    puid: "wikidata/105854606",
+    name: "AIX Small indexed archive (AIX prior to v4.3)",
+    extensions: &["ar"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x3C, 0x61, 0x69, 0x61, 0x66, 0x66, 0x3E, 0x0D,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105865335: FileFormat = FileFormat {
+    id: 105_865_335,
+    puid: "wikidata/105865335",
+    name: "TPLOT graph source",
+    extensions: &["plt"],
+    media_types: &["text/plain"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x54, 0x50, 0x4C, 0x4F, 0x54, 0x20])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

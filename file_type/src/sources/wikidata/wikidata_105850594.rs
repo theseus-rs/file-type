@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105850594: FileFormat = FileFormat {
+    id: 105_850_594,
+    puid: "wikidata/105850594",
+    name: "Minimig Configuration",
+    extensions: &["cfg"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x4D, 0x4E, 0x4D, 0x47, 0x43, 0x46, 0x47])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

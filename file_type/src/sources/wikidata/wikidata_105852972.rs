@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105852972: FileFormat = FileFormat {
+    id: 105_852_972,
+    puid: "wikidata/105852972",
+    name: "Sprint document",
+    extensions: &["spr"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x0B, 0x52, 0x20])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

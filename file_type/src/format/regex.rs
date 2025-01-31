@@ -1,3 +1,4 @@
+use crate::format::source::Source;
 use crate::{Error, Result};
 use std::cmp::Ordering;
 use std::collections::HashMap;
@@ -7,13 +8,13 @@ use std::str::from_utf8;
 
 /// A token to match against a byte stream
 #[derive(Clone, Debug, PartialEq)]
-enum Token {
-    Any(Vec<Vec<Token>>),
+pub enum Token {
+    Any(&'static [&'static [Token]]),
     AnyWildcard,
-    Literal(Vec<u8>),
-    NotLiteral(Vec<u8>),
-    NotRange(Vec<u8>, Vec<u8>),
-    Range(Vec<u8>, Vec<u8>),
+    Literal(&'static [u8]),
+    NotLiteral(&'static [u8]),
+    NotRange(&'static [u8], &'static [u8]),
+    Range(&'static [u8], &'static [u8]),
     SingleWildcard,
     WildcardCount(usize),
     WildcardCountRange(usize, usize),
@@ -28,7 +29,7 @@ impl Display for Token {
                     if index > 0 {
                         write!(f, "|")?;
                     }
-                    for token in tokens {
+                    for token in *tokens {
                         write!(f, "{token}")?;
                     }
                 }
@@ -79,6 +80,53 @@ impl Display for Token {
                 } else {
                     write!(f, "{{{min}-{max}}}")
                 }
+            }
+        }
+    }
+}
+
+impl Source for Token {
+    fn to_source(&self) -> String {
+        match self {
+            Token::Any(any_tokens) => {
+                let mut source_tokens = Vec::new();
+                for tokens in *any_tokens {
+                    let tokens = tokens
+                        .iter()
+                        .map(Source::to_source)
+                        .collect::<Vec<String>>()
+                        .join(", ");
+                    source_tokens.push(format!("&[{tokens}]"));
+                }
+                format!("Token::Any(&[{}])", source_tokens.join(", "))
+            }
+            Token::AnyWildcard => "Token::AnyWildcard".to_string(),
+            Token::Literal(bytes) => {
+                format!("Token::Literal(&{})", bytes.to_source())
+            }
+            Token::NotLiteral(bytes) => {
+                format!("Token::NotLiteral(&{})", bytes.to_source())
+            }
+            Token::NotRange(start, end) => {
+                format!(
+                    "Token::NotRange(&{}, &{})",
+                    start.to_source(),
+                    end.to_source()
+                )
+            }
+            Token::Range(start, end) => {
+                format!("Token::Range(&{}, &{})", start.to_source(), end.to_source())
+            }
+            Token::SingleWildcard => "Token::SingleWildcard".to_string(),
+            Token::WildcardCount(count) => {
+                format!("Token::WildcardCount({})", (*count).to_source())
+            }
+            Token::WildcardCountRange(min, max) => {
+                format!(
+                    "Token::WildcardCountRange({}, {})",
+                    (*min).to_source(),
+                    (*max).to_source()
+                )
             }
         }
     }
@@ -146,7 +194,7 @@ impl Display for Token {
 /// ```
 #[derive(Clone, Debug, Default, PartialEq)]
 pub struct Regex {
-    tokens: Vec<Token>,
+    pub tokens: &'static [Token],
 }
 
 impl Regex {
@@ -159,12 +207,15 @@ impl Regex {
         let bytes = pattern.as_bytes();
         let mut tokens = Vec::new();
         Self::tokenize(bytes, &mut tokens)?;
-        Ok(Self { tokens })
+        Ok(Self {
+            tokens: Box::leak(tokens.into_boxed_slice()),
+        })
     }
 
     /// Calculate a key from the byte sequence.  The key is the first 8 bytes of the sequence
     /// converted to a u64.
-    pub(crate) fn key_from_bytes(bytes: &[u8]) -> u64 {
+    #[must_use]
+    pub fn key_from_bytes(bytes: &[u8]) -> u64 {
         let mut array = [0u8; 8];
         let length = std::cmp::min(bytes.len(), 8);
         array[..length].copy_from_slice(&bytes[..length]);
@@ -172,7 +223,8 @@ impl Regex {
     }
 
     /// Get the key used to store the pattern in a map
-    pub(crate) fn key(&self) -> u64 {
+    #[must_use]
+    pub fn key(&self) -> u64 {
         match self.tokens.first() {
             Some(Token::Literal(bytes)) => Regex::key_from_bytes(bytes),
             _ => 0,
@@ -202,13 +254,13 @@ impl Regex {
                         .split(|byte| *byte == b'|')
                         .map(<[u8]>::to_vec)
                         .collect::<Vec<Vec<u8>>>();
-                    let mut any_tokens = Vec::new();
+                    let mut any_tokens: Vec<&[Token]> = Vec::new();
                     for value in values {
                         let mut token_holder = Vec::new();
                         Self::tokenize(&value, &mut token_holder)?;
-                        any_tokens.push(token_holder.clone());
+                        any_tokens.push(Box::leak(token_holder.clone().into_boxed_slice()));
                     }
-                    tokens.push(Token::Any(any_tokens));
+                    tokens.push(Token::Any(Box::leak(any_tokens.into_boxed_slice())));
                     byte_index = end;
                 }
                 b'*' => tokens.push(Token::AnyWildcard),
@@ -220,6 +272,7 @@ impl Regex {
                         .map_or(bytes.len(), |pos| start + pos);
                     byte_index = end - 1;
                     let literal_bytes = hex_to_bytes(&bytes[start..end]);
+                    let literal_bytes = Box::leak(literal_bytes.into_boxed_slice());
                     tokens.push(Token::Literal(literal_bytes));
                 }
                 b'[' => {
@@ -255,17 +308,22 @@ impl Regex {
                             let start_range = &slice[0..separator];
                             let end_range = &slice[separator + 1..];
                             let start_range = hex_to_bytes(start_range);
+                            let start_range = Box::leak(start_range.into_boxed_slice());
                             let end_range = hex_to_bytes(end_range);
+                            let end_range = Box::leak(end_range.into_boxed_slice());
                             tokens.push(Token::NotRange(start_range, end_range));
                         } else {
-                            let literal = hex_to_bytes(slice);
-                            tokens.push(Token::NotLiteral(literal));
+                            let literal_bytes = hex_to_bytes(slice);
+                            let literal_bytes = Box::leak(literal_bytes.into_boxed_slice());
+                            tokens.push(Token::NotLiteral(literal_bytes));
                         }
                     } else if separator > 0 {
                         let start_range = &slice[0..separator];
                         let end_range = &slice[separator + 1..];
                         let start_range = hex_to_bytes(start_range);
+                        let start_range = Box::leak(start_range.into_boxed_slice());
                         let end_range = hex_to_bytes(end_range);
+                        let end_range = Box::leak(end_range.into_boxed_slice());
                         tokens.push(Token::Range(start_range, end_range));
                     } else {
                         return Err(Error::new(format!(
@@ -362,8 +420,8 @@ impl Regex {
 
     /// Check if the haystack matches the pattern at the given offset
     #[must_use]
-    pub(crate) fn is_match_at(&self, haystack: &[u8], start: usize) -> bool {
-        let (matched, _haystack_index) = Self::tokens_match_at(&self.tokens, haystack, start);
+    pub fn is_match_at(&self, haystack: &[u8], start: usize) -> bool {
+        let (matched, _haystack_index) = Self::tokens_match_at(self.tokens, haystack, start);
         matched
     }
 
@@ -374,7 +432,7 @@ impl Regex {
         let mut haystack_index = start_offset;
         while let Some(token) = tokens.get(token_index) {
             match token {
-                Token::Any(ref any_tokens) => {
+                Token::Any(any_tokens) => {
                     if haystack_index >= haystack.len() {
                         return (false, 0);
                     }
@@ -407,22 +465,22 @@ impl Regex {
                     }
                     return (false, 0);
                 }
-                Token::Literal(ref bytes) => {
+                Token::Literal(bytes) => {
                     if haystack_index + bytes.len() > haystack.len() {
                         return (false, 0);
                     }
                     let data_slice = &haystack[haystack_index..haystack_index + bytes.len()];
-                    if data_slice != bytes {
+                    if data_slice != *bytes {
                         return (false, 0);
                     }
                     haystack_index += bytes.len();
                 }
-                Token::NotLiteral(ref bytes) => {
+                Token::NotLiteral(bytes) => {
                     if haystack_index + bytes.len() > haystack.len() {
                         return (false, 0);
                     }
                     let data_slice = &haystack[haystack_index..haystack_index + bytes.len()];
-                    if data_slice == bytes {
+                    if data_slice == *bytes {
                         return (false, 0);
                     }
                     haystack_index += bytes.len();
@@ -507,31 +565,45 @@ fn hex_to_bytes(hex: &[u8]) -> Vec<u8> {
 
 impl Display for Regex {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        for token in &self.tokens {
+        for token in self.tokens {
             write!(f, "{token}")?;
         }
         Ok(())
     }
 }
 
+impl Source for Regex {
+    fn to_source(&self) -> String {
+        let tokens = self
+            .tokens
+            .iter()
+            .map(Source::to_source)
+            .collect::<Vec<String>>()
+            .join(", ");
+        format!("Regex {{ tokens: &[{tokens}] }}")
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
+    use core::fmt;
+    use std::fmt::Formatter;
 
     #[test]
     fn test_token_display_any() {
-        let token = Token::Any(vec![vec![Token::Literal(vec![0x01])]]);
+        let token = Token::Any(&[&[Token::Literal(&[0x01])]]);
         assert_eq!(token.to_string(), "(01)");
     }
 
     #[test]
     fn test_token_display_any_multiple() {
-        let token = Token::Any(vec![
-            vec![Token::Literal(vec![0x01, 0x02])],
-            vec![Token::Range(vec![0x03], vec![0x04])],
-            vec![
-                Token::Literal(vec![0x05, 0x06]),
-                Token::Range(vec![0x07], vec![0x08]),
+        let token = Token::Any(&[
+            &[Token::Literal(&[0x01, 0x02])],
+            &[Token::Range(&[0x03], &[0x04])],
+            &[
+                Token::Literal(&[0x05, 0x06]),
+                Token::Range(&[0x07], &[0x08]),
             ],
         ]);
         assert_eq!(token.to_string(), "(0102|[03:04]|0506[07:08])");
@@ -545,31 +617,31 @@ mod tests {
 
     #[test]
     fn test_token_display_literal_sequence() {
-        let token = Token::Literal(vec![0x01, 0x02, 0x03]);
+        let token = Token::Literal(&[0x01, 0x02, 0x03]);
         assert_eq!(token.to_string(), "010203");
     }
 
     #[test]
     fn test_token_display_not_literal_sequence() {
-        let token = Token::NotLiteral(vec![0x01]);
+        let token = Token::NotLiteral(&[0x01]);
         assert_eq!(token.to_string(), "[!01]");
     }
 
     #[test]
     fn test_token_display_not_literal_sequence_multiple() {
-        let token = Token::NotLiteral(vec![0x01, 0x02, 0x03]);
+        let token = Token::NotLiteral(&[0x01, 0x02, 0x03]);
         assert_eq!(token.to_string(), "[!010203]");
     }
 
     #[test]
     fn test_token_display_not_range() {
-        let token = Token::NotRange(vec![0x00], vec![0xFF]);
+        let token = Token::NotRange(&[0x00], &[0xFF]);
         assert_eq!(token.to_string(), "[!00:FF]");
     }
 
     #[test]
     fn test_token_display_range() {
-        let token = Token::Range(vec![0x00], vec![0xFF]);
+        let token = Token::Range(&[0x00], &[0xFF]);
         assert_eq!(token.to_string(), "[00:FF]");
     }
 
@@ -598,6 +670,95 @@ mod tests {
     }
 
     #[test]
+    fn test_token_source_any() {
+        let token = Token::Any(&[&[Token::Literal(&[0x01])]]);
+        assert_eq!(
+            token.to_source(),
+            "Token::Any(&[&[Token::Literal(&[0x01])]])"
+        );
+    }
+
+    #[test]
+    fn test_token_source_any_multiple() {
+        let token = Token::Any(&[
+            &[Token::Literal(&[0x01, 0x02])],
+            &[Token::Range(&[0x03], &[0x04])],
+            &[
+                Token::Literal(&[0x05, 0x06]),
+                Token::Range(&[0x07], &[0x08]),
+            ],
+        ]);
+        assert_eq!(
+            token.to_source(),
+            "Token::Any(&[&[Token::Literal(&[0x01, 0x02])], &[Token::Range(&[0x03], &[0x04])], &[Token::Literal(&[0x05, 0x06]), Token::Range(&[0x07], &[0x08])]])",
+        );
+    }
+
+    #[test]
+    fn test_token_source_any_wildcard() {
+        let token = Token::AnyWildcard;
+        assert_eq!(token.to_source(), "Token::AnyWildcard");
+    }
+
+    #[test]
+    fn test_token_source_literal_sequence() {
+        let token = Token::Literal(&[0x01, 0x02, 0x03]);
+        assert_eq!(token.to_source(), "Token::Literal(&[0x01, 0x02, 0x03])");
+    }
+
+    #[test]
+    fn test_token_source_not_literal_sequence() {
+        let token = Token::NotLiteral(&[0x01]);
+        assert_eq!(token.to_source(), "Token::NotLiteral(&[0x01])");
+    }
+
+    #[test]
+    fn test_token_source_not_literal_sequence_multiple() {
+        let token = Token::NotLiteral(&[0x01, 0x02, 0x03]);
+        assert_eq!(token.to_source(), "Token::NotLiteral(&[0x01, 0x02, 0x03])");
+    }
+
+    #[test]
+    fn test_token_source_not_range() {
+        let token = Token::NotRange(&[0x00], &[0xFF]);
+        assert_eq!(token.to_source(), "Token::NotRange(&[0x00], &[0xFF])");
+    }
+
+    #[test]
+    fn test_token_source_range() {
+        let token = Token::Range(&[0x00], &[0xFF]);
+        assert_eq!(token.to_source(), "Token::Range(&[0x00], &[0xFF])");
+    }
+
+    #[test]
+    fn test_token_source_single_wildcard() {
+        let token = Token::SingleWildcard;
+        assert_eq!(token.to_source(), "Token::SingleWildcard");
+    }
+
+    #[test]
+    fn test_token_source_wildcard_count() {
+        let token = Token::WildcardCount(1_234);
+        assert_eq!(token.to_source(), "Token::WildcardCount(1_234)");
+    }
+
+    #[test]
+    fn test_token_source_wildcard_count_range() {
+        let token = Token::WildcardCountRange(1, 2);
+        assert_eq!(token.to_source(), "Token::WildcardCountRange(1, 2)");
+    }
+
+    #[test]
+    fn test_token_source_wildcard_count_range_max() {
+        let token = Token::WildcardCountRange(1234, usize::MAX);
+        // The max value is u32::MAX to support 32-bit systems
+        assert_eq!(
+            token.to_source(),
+            "Token::WildcardCountRange(1_234, 4_294_967_295)"
+        );
+    }
+
+    #[test]
     fn test_regex_key() -> Result<()> {
         assert_eq!(Regex::new("")?.key(), 0);
         assert_eq!(Regex::new("00")?.key(), 0);
@@ -618,6 +779,17 @@ mod tests {
         let pattern = "(0102|0304|[05:06])*010203[!01][!00:FF][00:FF]??{1}{1-2}{42-*}";
         let regex = Regex::new(pattern)?;
         assert_eq!(regex.to_string(), pattern);
+        Ok(())
+    }
+
+    #[test]
+    fn test_regex_source() -> Result<()> {
+        let pattern = "(01)";
+        let regex = Regex::new(pattern)?;
+        assert_eq!(
+            regex.to_source(),
+            "Regex { tokens: &[Token::Any(&[&[Token::Literal(&[0x01])]])] }"
+        );
         Ok(())
     }
 

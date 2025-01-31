@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105849922: FileFormat = FileFormat {
+    id: 105_849_922,
+    puid: "wikidata/105849922",
+    name: "Frostbite Container of ASsets",
+    extensions: &["cas"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xFA, 0xCE, 0x0F, 0xF0])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

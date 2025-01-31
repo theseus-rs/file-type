@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105866178: FileFormat = FileFormat {
+    id: 105_866_178,
+    puid: "wikidata/105866178",
+    name: "Commodore 128 BASIC V7.1 program",
+    extensions: &["prg"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x2D, 0x13])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

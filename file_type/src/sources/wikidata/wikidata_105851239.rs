@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105851239: FileFormat = FileFormat {
+    id: 105_851_239,
+    puid: "wikidata/105851239",
+    name: "Grigon texture",
+    extensions: &["tex"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x47, 0x72, 0x69, 0x67, 0x6F, 0x6E, 0x20, 0x54, 0x65, 0x78, 0x74, 0x75, 0x72,
+                    0x65, 0x20, 0x66, 0x69, 0x6C, 0x65, 0x20, 0x76,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};
