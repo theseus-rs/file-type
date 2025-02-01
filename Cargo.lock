@@ -306,7 +306,6 @@ dependencies = [
  "anyhow",
  "criterion",
  "tokio",
- "walkdir",
 ]
 
 [[package]]

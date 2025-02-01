@@ -22,7 +22,6 @@ tokio = { workspace = true, optional = true, features = ["fs", "io-util"] }
 anyhow = { workspace = true }
 criterion = { workspace = true }
 tokio = { workspace = true, features = ["full"] }
-walkdir = { workspace = true }
 
 [features]
 default = ["custom", "pronom"]
