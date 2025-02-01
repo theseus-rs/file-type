@@ -1,7 +1,7 @@
 use anyhow::Result;
 use file_type::FileType;
+use std::fs;
 use std::path::PathBuf;
-use walkdir::WalkDir;
 
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
 
@@ -39,9 +39,8 @@ fn test_file_classification() -> Result<()> {
     let mut passed_tests = 0;
     let mut errored_tests = 0;
 
-    for entry in WalkDir::new(data_dir) {
-        let entry = entry?;
-        let path = entry.path();
+    for entry in fs::read_dir(data_dir)? {
+        let path = entry?.path();
         if path.is_dir() {
             continue;
         }
