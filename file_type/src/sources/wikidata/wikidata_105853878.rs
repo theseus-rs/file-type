@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105853878: FileFormat = FileFormat {
+    id: 105_853_878,
+    puid: "wikidata/105853878",
+    name: "7-Zip compressed archive (v0.4)",
+    extensions: &["7z"],
+    media_types: &["application/x-7z-compressed"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x37, 0x7A, 0xBC, 0xAF, 0x27, 0x1C, 0x00, 0x04,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

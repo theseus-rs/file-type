@@ -4,18 +4,15 @@
 #![deny(clippy::unwrap_used)]
 
 use anyhow::Result;
-use file_type::format::{DocumentIdentifier, ExternalSignature, FileFormat, SignatureType};
-use quick_xml::se::Serializer;
+use file_type::format::{FileFormat, Source};
 use reqwest::Client;
-use serde::Serialize;
 use serde_json::Value;
 use std::env;
 use std::path::{Path, PathBuf};
 use std::time::Duration;
-use tokio::fs;
 use tokio::fs::File;
 use tokio::io::AsyncWriteExt;
-use tracing::info;
+use tracing::{info, warn};
 use tracing_subscriber::filter::LevelFilter;
 use tracing_subscriber::{fmt, EnvFilter};
 
@@ -36,7 +33,8 @@ struct Language {
 #[tokio::main]
 async fn main() -> Result<()> {
     initialize_tracing();
-    export_data().await?;
+    let dry_run = env::var("DRY_RUN").is_ok();
+    execute(dry_run).await?;
     Ok(())
 }
 
@@ -59,14 +57,14 @@ fn initialize_tracing() {
         .init();
 }
 
-async fn export_data() -> Result<()> {
-    let new_dir = PathBuf::from(CRATE_DIR)
+async fn execute(dry_run: bool) -> Result<()> {
+    let source_dir = PathBuf::from(CRATE_DIR)
         .join("..")
         .join("..")
         .join("file_type")
-        .join("data")
+        .join("src")
+        .join("sources")
         .join("linguist");
-    fs::create_dir_all(&new_dir).await?;
 
     let client = Client::new();
     let response = client
@@ -78,11 +76,9 @@ async fn export_data() -> Result<()> {
 
     let language_data = response.text().await?;
     let mime_types = parse_languages(language_data)?;
-    let file_formats = process_languages(mime_types);
-    for file_format in file_formats {
-        store_file_format(&file_format, &new_dir).await?;
-    }
-
+    let mut file_formats = process_languages(mime_types);
+    file_formats.sort_by_key(|file_format| file_format.id);
+    generate_source_code(&file_formats, &source_dir, dry_run).await?;
     Ok(())
 }
 
@@ -104,7 +100,7 @@ fn parse_languages<S: AsRef<str>>(yaml: S) -> Result<Vec<Language>> {
             Some(mime_type) => mime_type.as_str().expect("Invalid mime type").to_string(),
             None => String::new(),
         };
-        let extensions = match language.get("extensions") {
+        let mut extensions = match language.get("extensions") {
             Some(Value::Array(extensions)) => extensions
                 .iter()
                 .map(|extension| {
@@ -114,6 +110,7 @@ fn parse_languages<S: AsRef<str>>(yaml: S) -> Result<Vec<Language>> {
                 .collect(),
             _ => Vec::new(),
         };
+        extensions.sort();
 
         let language = Language {
             id: usize::try_from(id)?,
@@ -132,55 +129,94 @@ fn process_languages(languages: Vec<Language>) -> Vec<FileFormat> {
 
     for language in languages {
         let puid = format!("linguist/{}", language.id);
-        let mime_type = &language.mime_type;
         let extensions = &language.extensions;
-        let mut file_format_identifiers = vec![DocumentIdentifier::new(puid, "PUID".to_string())];
-
-        if !mime_type.is_empty() {
-            file_format_identifiers.push(DocumentIdentifier::new(mime_type.as_str(), "MIME"));
-        }
-
-        let external_signatures = extensions
+        let extensions = extensions
             .iter()
-            .enumerate()
-            .map(|(index, extension)| {
-                ExternalSignature::new(index, extension.as_str(), SignatureType::FileExtension)
+            .map(|extension| {
+                let extension: &'static str = Box::leak(extension.clone().into_boxed_str());
+                extension
             })
-            .collect::<Vec<ExternalSignature>>();
+            .collect::<Vec<&str>>();
+        let mime_type = &language.mime_type;
+        let mut media_types = Vec::new();
+        if !mime_type.is_empty() {
+            media_types.push(mime_type.to_string());
+        }
+        let media_types = media_types
+            .iter()
+            .map(|media_type| {
+                let media_type: &'static str = Box::leak(media_type.clone().into_boxed_str());
+                media_type
+            })
+            .collect::<Vec<&str>>();
 
-        let file_format = FileFormat::new(
-            language.id,
-            language.name.as_str(),
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            file_format_identifiers,
-            external_signatures,
-            vec![],
-            vec![],
-            vec![],
-        );
+        let file_format = FileFormat {
+            id: language.id,
+            puid: Box::leak(puid.into_boxed_str()),
+            name: Box::leak(language.name.into_boxed_str()),
+            extensions: Box::leak(extensions.into_boxed_slice()),
+            media_types: Box::leak(media_types.into_boxed_slice()),
+            ..Default::default()
+        };
         file_formats.push(file_format);
     }
 
     file_formats
 }
 
-async fn store_file_format(file_format: &FileFormat, output_dir: &Path) -> Result<()> {
-    let file_name = format!("{}.xml", file_format.puid().replace('/', "-"));
-    info!("{file_name}: {}", file_format.name());
-    let file_name = output_dir.join(file_name);
-    let mut buffer = String::new();
-    let mut serializer = Serializer::new(&mut buffer);
-    serializer.indent(' ', 2);
-    file_format.serialize(serializer)?;
-    let mut file = File::create(file_name).await?;
-    file.write_all(buffer.as_bytes()).await?;
+async fn generate_source_code(
+    file_formats: &Vec<FileFormat>,
+    source_dir: &Path,
+    dry_run: bool,
+) -> Result<()> {
+    // Generate the module file
+    let mut source_code = vec!["use crate::format::FileFormat;".to_string(), String::new()];
+    for file_format in file_formats {
+        let name = file_format.puid.replace('/', "_");
+        source_code.push(format!("mod {name};"));
+    }
+    source_code.push(String::new());
+    source_code.push("pub(crate) const FILE_FORMATS: &[&FileFormat] = &[".to_string());
+    for file_format in file_formats {
+        let name = file_format.puid.replace('/', "_");
+        source_code.push(format!("    &{}::{},", name, name.to_uppercase()));
+    }
+    source_code.push("];".to_string());
+    source_code.push(String::new());
+    let file_name = source_dir.join("mod.rs");
+    if dry_run {
+        warn!("[dry-run] Writing {}", file_name.to_string_lossy());
+    } else {
+        info!("Writing {}", file_name.to_string_lossy());
+        let mut source_file = File::create(file_name).await?;
+        source_file
+            .write_all(source_code.join("\n").as_bytes())
+            .await?;
+    }
+
+    // Generate source files for each file format
+    for file_format in file_formats {
+        let name = file_format.puid.replace('/', "_");
+        let source_code = [
+            "use crate::format::FileFormat;".to_string(),
+            String::new(),
+            format!(
+                "pub(crate) const {}: FileFormat = {};",
+                name.to_uppercase(),
+                file_format.to_source(),
+            ),
+        ]
+        .join("\n");
+
+        let file_name = source_dir.join(format!("{name}.rs"));
+        if dry_run {
+            warn!("[dry-run] Writing {}", file_name.to_string_lossy());
+        } else {
+            info!("Writing {}", file_name.to_string_lossy());
+            let mut source_file = File::create(file_name).await?;
+            source_file.write_all(source_code.as_bytes()).await?;
+        }
+    }
     Ok(())
 }
 
@@ -190,6 +226,7 @@ mod tests {
 
     #[test]
     fn test_main() {
+        env::set_var("DRY_RUN", "true");
         let result = main();
         assert!(result.is_ok());
     }

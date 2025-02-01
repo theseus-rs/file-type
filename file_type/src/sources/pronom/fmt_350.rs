@@ -1,0 +1,33 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const FMT_350: FileFormat = FileFormat {
+    id: 1_095,
+    puid: "fmt/350",
+    name: "Paradox Database Table",
+    extensions: &["db"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(2),
+            regex: Regex {
+                tokens: &[
+                    Token::Literal(&[0x00, 0x08]),
+                    Token::Any(&[&[Token::Literal(&[0x00])], &[Token::Literal(&[0x02])]]),
+                    Token::Range(&[0x01], &[0x04]),
+                    Token::WildcardCount(31),
+                    Token::Literal(&[0x00, 0x00, 0x00, 0x00]),
+                    Token::WildcardCount(16),
+                    Token::Range(&[0x03], &[0x04]),
+                ],
+            },
+        }],
+    }],
+    related_formats: &[RelatedFormat {
+        id: 1_096,
+        relationship_type: RelationshipType::IsPreviousVersionOf,
+    }],
+};

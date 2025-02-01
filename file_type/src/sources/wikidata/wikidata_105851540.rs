@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105851540: FileFormat = FileFormat {
+    id: 105_851_540,
+    puid: "wikidata/105851540",
+    name: "Adobe Tagged Text (ASCII)",
+    extensions: &["txt"],
+    media_types: &["text/plain"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3C, 0x41, 0x53, 0x43, 0x49, 0x49, 0x2D])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

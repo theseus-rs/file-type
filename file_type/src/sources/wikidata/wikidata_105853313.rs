@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105853313: FileFormat = FileFormat {
+    id: 105_853_313,
+    puid: "wikidata/105853313",
+    name: "SAP Itutor tutorial",
+    extensions: &["sim"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x69, 0x54, 0x75, 0x74])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105866770: FileFormat = FileFormat {
+    id: 105_866_770,
+    puid: "wikidata/105866770",
+    name: "Palm ThoughtManager",
+    extensions: &["pdb"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x00, 0x00, 0x00, 0x00, 0x4F, 0x75, 0x74, 0x6C, 0x54, 0x46, 0x73, 0x74,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

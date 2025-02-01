@@ -1,0 +1,32 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const FMT_569: FileFormat = FileFormat {
+    id: 1_357,
+    puid: "fmt/569",
+    name: "Matroska",
+    extensions: &["mkv", "mk3d", "mka", "mks"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[
+                    Token::Literal(&[0x1A, 0x45, 0xDF, 0xA3]),
+                    Token::WildcardCountRange(0, 32),
+                    Token::Literal(&[
+                        0x42, 0x82, 0x88, 0x6D, 0x61, 0x74, 0x72, 0x6F, 0x73, 0x6B, 0x61, 0x42,
+                        0x87,
+                    ]),
+                ],
+            },
+        }],
+    }],
+    related_formats: &[RelatedFormat {
+        id: 687,
+        relationship_type: RelationshipType::HasPriorityOver,
+    }],
+};

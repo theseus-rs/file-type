@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105853539: FileFormat = FileFormat {
+    id: 105_853_539,
+    puid: "wikidata/105853539",
+    name: "z-Tree Questionnaire",
+    extensions: &["ztq"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x45, 0x45, 0x58, 0x51, 0x75, 0x65, 0x73, 0x74, 0x65, 0x72,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

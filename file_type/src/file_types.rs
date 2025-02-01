@@ -1,7 +1,6 @@
 use crate::format::{FileFormat, InternalSignature, Regex, RelationshipType};
-use crate::{file_types, Error, FileType, Result};
-use include_dir::{include_dir, Dir, DirEntry};
-use quick_xml::de::from_str;
+use crate::sources::FILE_FORMATS;
+use crate::{file_types, sources, Error, FileType, Result};
 use std::cmp::Ordering;
 use std::collections::HashMap;
 use std::fs::read_to_string;
@@ -18,12 +17,6 @@ static EXTENSION_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_extension_map);
 static MEDIA_TYPE_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_media_type_map);
-static CUSTOM_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/custom/");
-static DEFAULT_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/default/");
-static HTTPD_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/httpd/");
-static LINGUIST_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/linguist/");
-static PRONOM_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/pronom/");
-static WIKIDATA_DIR: Dir = include_dir!("$CARGO_MANIFEST_DIR/data/wikidata/");
 const EMPTY_SIGNATURES: &Vec<&'static FileType> = &Vec::new();
 const EMPTY_EXTENSIONS: &Vec<&'static FileType> = &Vec::new();
 const EMPTY_MEDIA_TYPES: &Vec<&'static FileType> = &Vec::new();
@@ -31,38 +24,14 @@ const EMPTY_MEDIA_TYPES: &Vec<&'static FileType> = &Vec::new();
 /// Deserialize the PRONOM XML file format data into a map of puid to `FileType`.
 fn initialize_file_formats() -> HashMap<String, FileType> {
     let mut file_types = HashMap::new();
-    let data_directories = vec![
-        #[cfg(feature = "custom")]
-        &CUSTOM_DIR,
-        &DEFAULT_DIR,
-        #[cfg(feature = "httpd")]
-        &HTTPD_DIR,
-        #[cfg(feature = "linguist")]
-        &LINGUIST_DIR,
-        #[cfg(feature = "pronom")]
-        &PRONOM_DIR,
-        #[cfg(feature = "wikidata")]
-        &WIKIDATA_DIR,
-    ];
-
-    for directory in data_directories {
-        let file_formats = directory
-            .entries()
-            .iter()
-            .filter_map(DirEntry::as_file)
-            .map(|file| {
-                let xml = file.contents_utf8().unwrap_or_default();
-                from_str(xml).unwrap_or_default()
-            })
-            .collect::<Vec<FileFormat>>();
-
-        for file_format in file_formats {
-            let id = file_format.puid().to_string();
-            let file_type = FileType::new(file_format);
+    for file_formats in FILE_FORMATS {
+        for file_format in *file_formats {
+            let file_format = *file_format;
+            let id = file_format.puid.to_string();
+            let file_type = FileType::new(file_format.clone());
             file_types.insert(id, file_type);
         }
     }
-
     file_types
 }
 
@@ -73,7 +42,7 @@ fn initialize_signature_map() -> HashMap<u64, Vec<&'static FileType>> {
     for file_type in FILE_TYPES.values() {
         let file_format = file_type.file_format();
         let internal_signature_keys = file_format
-            .internal_signatures()
+            .internal_signatures
             .iter()
             .map(InternalSignature::key)
             .collect::<Vec<u64>>();
@@ -94,7 +63,8 @@ fn initialize_extension_map() -> HashMap<&'static str, Vec<&'static FileType>> {
 
     for file_type in file_types.values() {
         for extension in file_type.extensions() {
-            let mut types = extension_map.get(&extension).unwrap_or(&vec![]).clone();
+            let extension = *extension;
+            let mut types = extension_map.get(extension).unwrap_or(&vec![]).clone();
             types.push(file_type);
             extension_map.insert(extension, types);
         }
@@ -109,7 +79,8 @@ fn initialize_media_type_map() -> HashMap<&'static str, Vec<&'static FileType>> 
     let file_types = &*FILE_TYPES;
     for file_type in file_types.values() {
         for media_type in file_type.media_types() {
-            let mut types = media_type_map.get(&media_type).unwrap_or(&vec![]).clone();
+            let media_type = *media_type;
+            let mut types = media_type_map.get(media_type).unwrap_or(&vec![]).clone();
             types.push(file_type);
             media_type_map.insert(media_type, types);
         }
@@ -152,19 +123,19 @@ where
 
 /// Compare the file types based on their priority; this is used to determine the most appropriate
 /// file type for a given file.  The order of the file types is determined by the relationship
-/// between the file formats.
+/// between the file format.
 fn cmp_file_types(a: &FileType, b: &FileType) -> Ordering {
     let a_file_format = a.file_format();
     let b_file_format = b.file_format();
-    let a_id = a_file_format.id();
-    let b_id = b_file_format.id();
+    let a_id = a_file_format.id;
+    let b_id = b_file_format.id;
 
-    for related_format in a_file_format.related_formats() {
-        if b_id != related_format.id() {
+    for related_format in a_file_format.related_formats {
+        if b_id != related_format.id {
             continue;
         }
 
-        match related_format.relationship_type() {
+        match related_format.relationship_type {
             RelationshipType::HasLowerPriorityThan => {
                 return Ordering::Greater;
             }
@@ -175,12 +146,12 @@ fn cmp_file_types(a: &FileType, b: &FileType) -> Ordering {
         }
     }
 
-    for related_format in b_file_format.related_formats() {
-        if a_id != related_format.id() {
+    for related_format in b_file_format.related_formats {
+        if a_id != related_format.id {
             continue;
         }
 
-        match related_format.relationship_type() {
+        match related_format.relationship_type {
             RelationshipType::HasLowerPriorityThan => {
                 return Ordering::Less;
             }
@@ -191,24 +162,24 @@ fn cmp_file_types(a: &FileType, b: &FileType) -> Ordering {
         }
     }
 
-    cmp_puids(a_file_format.puid(), b_file_format.puid())
+    cmp_puids(a_file_format.puid, b_file_format.puid)
 }
 
 /// Compare the file types based on their priority and id.  The most general file type should be
 /// sorted first since these file types were not identified by signature. The order of the file
-/// types is determined by the relationship between the file formats.
+/// types is determined by the relationship between the file format.
 fn cmp_file_type_extensions(a: &FileType, b: &FileType) -> Ordering {
     let a_file_format = a.file_format();
     let b_file_format = b.file_format();
-    let a_id = a_file_format.id();
-    let b_id = b_file_format.id();
+    let a_id = a_file_format.id;
+    let b_id = b_file_format.id;
 
-    for related_format in a_file_format.related_formats() {
-        if b_id != related_format.id() {
+    for related_format in a_file_format.related_formats {
+        if b_id != related_format.id {
             continue;
         }
 
-        match related_format.relationship_type() {
+        match related_format.relationship_type {
             RelationshipType::HasLowerPriorityThan => {
                 return Ordering::Less;
             }
@@ -219,12 +190,12 @@ fn cmp_file_type_extensions(a: &FileType, b: &FileType) -> Ordering {
         }
     }
 
-    for related_format in b_file_format.related_formats() {
-        if a_id != related_format.id() {
+    for related_format in b_file_format.related_formats {
+        if a_id != related_format.id {
             continue;
         }
 
-        match related_format.relationship_type() {
+        match related_format.relationship_type {
             RelationshipType::HasLowerPriorityThan => {
                 return Ordering::Greater;
             }
@@ -235,7 +206,7 @@ fn cmp_file_type_extensions(a: &FileType, b: &FileType) -> Ordering {
         }
     }
 
-    cmp_puids(a_file_format.puid(), b_file_format.puid())
+    cmp_puids(a_file_format.puid, b_file_format.puid)
 }
 
 /// Compare puids so that PRONOM ids are sorted first, followed by linguist, then httpd.
@@ -590,16 +561,6 @@ mod tests {
                 let name = file_type.name();
                 let media_types = file_type.media_types().join(", ");
                 let extensions = file_type.extensions().join(", ");
-                let format_type = match id.split_once('/') {
-                    Some((format, _)) => if format.ends_with("fmt") {
-                        "pronom"
-                    } else {
-                        format
-                    },
-                    None => "",
-                };
-                let file_name = id.replace('/', "-");
-                let id = format!("[{id}](https://github.com/theseus-rs/file-type/blob/main/file_type/data/{format_type}/{file_name}.xml)");
                 format!("| {id} | {name} | {extensions} | {media_types} |")
             })
             .collect::<Vec<String>>();

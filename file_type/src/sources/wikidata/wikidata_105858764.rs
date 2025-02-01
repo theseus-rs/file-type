@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858764: FileFormat = FileFormat {
+    id: 105_858_764,
+    puid: "wikidata/105858764",
+    name: "GFA-BASIC Atari v1.00-2.02 tokenized source",
+    extensions: &["bas"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x00, 0x01, 0x47, 0x66, 0x41, 0x42, 0x41, 0x53, 0x49, 0x43,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

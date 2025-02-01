@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105853808: FileFormat = FileFormat {
+    id: 105_853_808,
+    puid: "wikidata/105853808",
+    name: "AutoIt v3 compiled script",
+    extensions: &["a3x"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0xA3, 0x48, 0x4B, 0xBE, 0x98, 0x6C, 0x4A, 0xA9, 0x99, 0x4C, 0x53, 0x0A, 0x86,
+                    0xD6, 0x48, 0x7D, 0x41, 0x55, 0x33, 0x21, 0x45, 0x41, 0x30, 0x36,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

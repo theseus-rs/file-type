@@ -1,0 +1,30 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_27966982: FileFormat = FileFormat {
+    id: 27_966_982,
+    puid: "wikidata/27966982",
+    name: "AC1D-DC1A Packer",
+    extensions: &["ac1", "ac1d"],
+    media_types: &[],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0xAC, 0x1D, 0x00, 0x00])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0xAC, 0x1D, 0x00, 0x00])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105851941: FileFormat = FileFormat {
+    id: 105_851_941,
+    puid: "wikidata/105851941",
+    name: "MMFW Sounds",
+    extensions: &["snd"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x4D, 0x4D, 0x46, 0x57, 0x20, 0x53, 0x6F, 0x75, 0x6E, 0x64, 0x73, 0x00, 0x00,
+                    0x00, 0x00, 0x00, 0x4D, 0x4D,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

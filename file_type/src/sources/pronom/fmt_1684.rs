@@ -1,0 +1,38 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const FMT_1684: FileFormat = FileFormat {
+    id: 2_520,
+    puid: "fmt/1684",
+    name: "EndNote Library",
+    extensions: &["enl"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[
+                    Token::Literal(&[
+                        0x53, 0x51, 0x4C, 0x69, 0x74, 0x65, 0x20, 0x66, 0x6F, 0x72, 0x6D, 0x61,
+                        0x74, 0x20, 0x33, 0x00,
+                    ]),
+                    Token::WildcardCountRange(1, 2_048),
+                    Token::Literal(&[0x65, 0x6E, 0x6C, 0x5F, 0x72, 0x65, 0x66, 0x73]),
+                ],
+            },
+        }],
+    }],
+    related_formats: &[
+        RelatedFormat {
+            id: 1_528,
+            relationship_type: RelationshipType::HasPriorityOver,
+        },
+        RelatedFormat {
+            id: 2_518,
+            relationship_type: RelationshipType::IsSubsequentVersionOf,
+        },
+    ],
+};

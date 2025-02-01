@@ -1,0 +1,24 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858404: FileFormat = FileFormat {
+    id: 105_858_404,
+    puid: "wikidata/105858404",
+    name: "E-Studio 2.x experiment",
+    extensions: &["es2"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0xFF, 0xFE, 0x3C, 0x00, 0x3F, 0x00, 0x78, 0x00, 0x6D, 0x00, 0x6C, 0x00, 0x20,
+                    0x00, 0x76, 0x00, 0x65, 0x00, 0x72, 0x00, 0x73, 0x00, 0x69, 0x00, 0x6F, 0x00,
+                    0x6E, 0x00, 0x3D, 0x00, 0x22, 0x00, 0x31, 0x00, 0x2E, 0x00, 0x30, 0x00, 0x22,
+                    0x00, 0x3F, 0x00, 0x3E, 0x00, 0x0D, 0x00, 0x0A,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

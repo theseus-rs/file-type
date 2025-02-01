@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105857441: FileFormat = FileFormat {
+    id: 105_857_441,
+    puid: "wikidata/105857441",
+    name: "2BIT DNA sequences (LE)",
+    extensions: &["2bit"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x43, 0x27, 0x41, 0x1A])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

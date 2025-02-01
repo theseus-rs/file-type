@@ -1,0 +1,11 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_27959814: FileFormat = FileFormat {
+    id: 27_959_814,
+    puid: "wikidata/27959814",
+    name: "Ableton Meta Sound",
+    extensions: &["ams"],
+    media_types: &[],
+    internal_signatures: &[],
+    related_formats: &[],
+};

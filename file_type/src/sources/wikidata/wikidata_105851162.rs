@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105851162: FileFormat = FileFormat {
+    id: 105_851_162,
+    puid: "wikidata/105851162",
+    name: "Trelby document",
+    extensions: &["trelby"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0xEF, 0xBB, 0xBF, 0x23, 0x56, 0x65, 0x72, 0x73, 0x69, 0x6F, 0x6E, 0x20,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

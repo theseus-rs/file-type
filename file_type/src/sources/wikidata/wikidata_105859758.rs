@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105859758: FileFormat = FileFormat {
+    id: 105_859_758,
+    puid: "wikidata/105859758",
+    name: "EGG video",
+    extensions: &["egg"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x45, 0x47, 0x47, 0x00])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

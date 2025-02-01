@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_27967140: FileFormat = FileFormat {
+    id: 27_967_140,
+    puid: "wikidata/27967140",
+    name: "Digitrakker instrument",
+    extensions: &["ist"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x44, 0x49, 0x53, 0x54, 0x01])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

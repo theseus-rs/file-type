@@ -1,0 +1,43 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858728: FileFormat = FileFormat {
+    id: 105_858_728,
+    puid: "wikidata/105858728",
+    name: "Graph Saurus bitmap (7/8/S)",
+    extensions: &["sr7", "sr8", "srs"],
+    media_types: &[
+        "application/octet-stream",
+        "application/octet-stream",
+        "application/octet-stream",
+    ],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0xFE, 0x00, 0x00, 0x00, 0xD4, 0x00, 0x00])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0xFE, 0x00, 0x00, 0x00, 0xD4, 0x00, 0x00])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0xFE, 0x00, 0x00, 0x00, 0xD4, 0x00, 0x00])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

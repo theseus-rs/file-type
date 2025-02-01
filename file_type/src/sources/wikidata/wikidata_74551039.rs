@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_74551039: FileFormat = FileFormat {
+    id: 74_551_039,
+    puid: "wikidata/74551039",
+    name: "ArcGIS geospatial and attribute data",
+    extensions: &["sdc"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x32, 0x43, 0x44, 0x53, 0x00, 0x02, 0x00, 0x00,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

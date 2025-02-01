@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_28346532: FileFormat = FileFormat {
+    id: 28_346_532,
+    puid: "wikidata/28346532",
+    name: "Amiga bitmap font",
+    extensions: &["font"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x0F, 0x00])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

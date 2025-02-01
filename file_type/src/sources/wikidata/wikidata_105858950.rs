@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858950: FileFormat = FileFormat {
+    id: 105_858_950,
+    puid: "wikidata/105858950",
+    name: "Ludek Maker bitmap",
+    extensions: &["ldm"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0xCC, 0xF5, 0xE4, 0xE5, 0xEB, 0xA0, 0xCD, 0xE1, 0xEB, 0xE5, 0xF2, 0xA0, 0xE4,
+                    0xE1, 0xF4, 0xE1, 0xA0, 0xE6, 0xE9, 0xEC, 0xE5,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105850326: FileFormat = FileFormat {
+    id: 105_850_326,
+    puid: "wikidata/105850326",
+    name: "Gaussian Cube volumetric data",
+    extensions: &["txt"],
+    media_types: &["text/plain"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x43, 0x50, 0x4D, 0x44, 0x20, 0x43, 0x55, 0x42, 0x45, 0x20, 0x46, 0x49, 0x4C,
+                    0x45, 0x2E, 0x0D,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

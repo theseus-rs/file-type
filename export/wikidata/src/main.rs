@@ -4,19 +4,13 @@
 #![deny(clippy::unwrap_used)]
 
 use anyhow::Result;
-use file_type::format::{
-    ByteSequence, DocumentIdentifier, ExternalSignature, FileFormat, InternalSignature,
-    PositionType, Regex, SignatureType,
-};
-use quick_xml::se::Serializer;
+use file_type::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Source};
 use reqwest::Client;
-use serde::Serialize;
 use serde_json::Value;
 use std::collections::HashMap;
 use std::env;
 use std::path::{Path, PathBuf};
 use std::time::Duration;
-use tokio::fs;
 use tokio::fs::File;
 use tokio::io::AsyncWriteExt;
 use tracing::{info, warn};
@@ -73,7 +67,8 @@ const SPARQL_URL: &str = "https://query.wikidata.org/sparql?query=%23List%20of%2
 #[tokio::main]
 async fn main() -> Result<()> {
     initialize_tracing();
-    export_data().await?;
+    let dry_run = env::var("DRY_RUN").is_ok();
+    execute(dry_run).await?;
     Ok(())
 }
 
@@ -96,19 +91,18 @@ fn initialize_tracing() {
         .init();
 }
 
-async fn export_data() -> Result<()> {
-    let new_dir = PathBuf::from(CRATE_DIR)
+async fn execute(dry_run: bool) -> Result<()> {
+    let source_dir = PathBuf::from(CRATE_DIR)
         .join("..")
         .join("..")
         .join("file_type")
-        .join("data")
+        .join("src")
+        .join("sources")
         .join("wikidata");
-    fs::create_dir_all(&new_dir).await?;
 
     let client = Client::new();
     let response = client
         .get(SPARQL_URL)
-        .header("Accept", "application/json")
         .header("Accept", "application/json")
         .header("User-Agent", format!("{CRATE_NAME}/{CRATE_VERSION}"))
         .timeout(Duration::from_secs(30))
@@ -116,15 +110,13 @@ async fn export_data() -> Result<()> {
         .await?;
 
     let json: Value = response.json().await?;
-    let file_formats = parse_json(&json);
-    for (_puid, file_format) in file_formats {
-        store_file_format(&file_format, &new_dir).await?;
-    }
-
+    let mut file_formats = parse_json(&json);
+    file_formats.sort_by_key(|file_format| file_format.id);
+    generate_source_code(&file_formats, &source_dir, dry_run).await?;
     Ok(())
 }
 
-fn parse_json(json: &Value) -> HashMap<String, FileFormat> {
+fn parse_json(json: &Value) -> Vec<FileFormat> {
     let mut file_formats: HashMap<String, FileFormat> = HashMap::new();
 
     let Some(bindings) = json
@@ -133,7 +125,7 @@ fn parse_json(json: &Value) -> HashMap<String, FileFormat> {
         .and_then(|bindings| bindings.as_array())
     else {
         warn!("no results found");
-        return file_formats;
+        return Vec::new();
     };
     for binding in bindings {
         let id_extension = binding
@@ -150,24 +142,14 @@ fn parse_json(json: &Value) -> HashMap<String, FileFormat> {
             .unwrap_or_default();
         let puid = format!("wikidata/{id}");
 
-        let mut file_format_identifiers = Vec::new();
-        let mut external_signatures = Vec::new();
+        let mut extensions = Vec::new();
+        let mut media_types = Vec::new();
         let mut internal_signatures = Vec::new();
 
         if let Some(file_format) = file_formats.get(&puid) {
-            file_format_identifiers = file_format.file_format_identifiers().to_vec();
-            external_signatures = file_format.external_signatures().to_vec();
-            internal_signatures = file_format.internal_signatures().to_vec();
-        } else {
-            file_format_identifiers.push(DocumentIdentifier::new(puid.as_str(), "PUID"));
-        }
-
-        if let Some(media_type) = binding
-            .get("mediaType")
-            .and_then(|media_type| media_type.get("value"))
-            .and_then(|media_type| media_type.as_str())
-        {
-            file_format_identifiers.push(DocumentIdentifier::new(media_type, "MIME"));
+            extensions = file_format.extensions.to_vec();
+            media_types = file_format.media_types.to_vec();
+            internal_signatures = file_format.internal_signatures.to_vec();
         }
 
         let name = binding
@@ -175,18 +157,27 @@ fn parse_json(json: &Value) -> HashMap<String, FileFormat> {
             .and_then(|id_extension_label| id_extension_label.get("value"))
             .and_then(|id_extension_label| id_extension_label.as_str())
             .unwrap_or_default();
+        let name = Box::leak(name.to_string().into_boxed_str());
 
         if let Some(extension) = binding
             .get("extension")
             .and_then(|extension| extension.get("value"))
             .and_then(|extension| extension.as_str())
         {
-            external_signatures.push(ExternalSignature::new(
-                0,
-                extension,
-                SignatureType::FileExtension,
-            ));
+            let extension = Box::leak(extension.to_string().into_boxed_str());
+            extensions.push(extension);
+            extensions.sort_unstable();
         };
+
+        if let Some(media_type) = binding
+            .get("mediaType")
+            .and_then(|media_type| media_type.get("value"))
+            .and_then(|media_type| media_type.as_str())
+        {
+            let media_type = Box::leak(media_type.to_string().into_boxed_str());
+            media_types.push(media_type);
+            media_types.sort_unstable();
+        }
 
         if let Some(file_signature) = binding
             .get("fileSignature")
@@ -198,56 +189,92 @@ fn parse_json(json: &Value) -> HashMap<String, FileFormat> {
             if file_signature.len() < 4 {
                 warn!("id {id}; file signature to short: {file_signature}");
             } else if let Ok(regex) = Regex::new(file_signature.as_str()) {
-                let byte_sequence = ByteSequence::new(
-                    0,
-                    PositionType::AbsoluteFromBOF,
-                    Some(0),
-                    None, // max_offset
-                    None, // indirect_offset_location
-                    None, // indirect_offset_length
-                    None, // endianness
+                let byte_sequence = ByteSequence {
+                    position_type: PositionType::BOF,
+                    offset: Some(0),
                     regex,
-                );
-                let internal_signature = InternalSignature::new(0, name, "", vec![byte_sequence]);
+                };
+                let internal_signature = InternalSignature {
+                    byte_sequences: Box::leak(vec![byte_sequence].into_boxed_slice()),
+                };
                 internal_signatures.push(internal_signature);
             } else {
                 warn!("id {id}; invalid regex: {file_signature}");
             }
         }
 
-        let file_format = FileFormat::new(
+        let file_format = FileFormat {
             id,
+            puid: Box::leak(puid.to_string().into_boxed_str()),
             name,
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            file_format_identifiers,
-            external_signatures,
-            internal_signatures,
-            vec![],
-            vec![],
-        );
+            extensions: Box::leak(extensions.into_boxed_slice()),
+            media_types: Box::leak(media_types.into_boxed_slice()),
+            internal_signatures: Box::leak(internal_signatures.into_boxed_slice()),
+            related_formats: &[],
+        };
         file_formats.insert(puid, file_format);
     }
 
+    let file_formats: Vec<FileFormat> = file_formats.values().cloned().collect();
     file_formats
 }
 
-async fn store_file_format(file_format: &FileFormat, output_dir: &Path) -> Result<()> {
-    let file_name = format!("{}.xml", file_format.puid().replace('/', "-"));
-    info!("{file_name}: {}", file_format.name());
-    let file_name = output_dir.join(file_name);
-    let mut buffer = String::new();
-    let mut serializer = Serializer::new(&mut buffer);
-    serializer.indent(' ', 2);
-    file_format.serialize(serializer)?;
-    let mut file = File::create(file_name).await?;
-    file.write_all(buffer.as_bytes()).await?;
+async fn generate_source_code(
+    file_formats: &Vec<FileFormat>,
+    source_dir: &Path,
+    dry_run: bool,
+) -> Result<()> {
+    // Generate the module file
+    let mut source_code = vec!["use crate::format::FileFormat;".to_string(), String::new()];
+    for file_format in file_formats {
+        let name = file_format.puid.replace('/', "_");
+        source_code.push(format!("mod {name};"));
+    }
+    source_code.push(String::new());
+    source_code.push("pub(crate) const FILE_FORMATS: &[&FileFormat] = &[".to_string());
+    for file_format in file_formats {
+        let name = file_format.puid.replace('/', "_");
+        source_code.push(format!("    &{}::{},", name, name.to_uppercase()));
+    }
+    source_code.push("];".to_string());
+    source_code.push(String::new());
+    let file_name = source_dir.join("mod.rs");
+    if dry_run {
+        warn!("[dry-run] Writing {}", file_name.to_string_lossy());
+    } else {
+        info!("Writing {}", file_name.to_string_lossy());
+        let mut source_file = File::create(file_name).await?;
+        source_file
+            .write_all(source_code.join("\n").as_bytes())
+            .await?;
+    }
+
+    // Generate source files for each file format
+    for file_format in file_formats {
+        let name = file_format.puid.replace('/', "_");
+        let source_code = [
+            "use crate::format::{".to_string(),
+            "    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token"
+                .to_string(),
+            "};".to_string(),
+            String::new(),
+            format!(
+                "pub(crate) const {}: FileFormat = {};",
+                name.to_uppercase(),
+                file_format.to_source(),
+            ),
+        ]
+        .join("\n");
+
+        let file_name = source_dir.join(format!("{name}.rs"));
+        if dry_run {
+            warn!("[dry-run] Writing {}", file_name.to_string_lossy());
+        } else {
+            info!("Writing {}", file_name.to_string_lossy());
+            let mut source_file = File::create(file_name).await?;
+            source_file.write_all(source_code.as_bytes()).await?;
+        }
+    }
     Ok(())
 }
 
@@ -257,6 +284,7 @@ mod tests {
 
     #[test]
     fn test_main() {
+        env::set_var("DRY_RUN", "true");
         let result = main();
         assert!(result.is_ok());
     }

@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_27979546: FileFormat = FileFormat {
+    id: 27_979_546,
+    puid: "wikidata/27979546",
+    name: "Civilization III saved game format",
+    extensions: &["bic"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x42, 0x49, 0x43, 0x20, 0x56, 0x45, 0x52, 0x23,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

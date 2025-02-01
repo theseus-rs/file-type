@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105860715: FileFormat = FileFormat {
+    id: 105_860_715,
+    puid: "wikidata/105860715",
+    name: "Looking Glass Resource data",
+    extensions: &["res"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x4C, 0x47, 0x20, 0x52, 0x65, 0x73, 0x20, 0x46, 0x69, 0x6C, 0x65, 0x20, 0x76,
+                    0x32,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

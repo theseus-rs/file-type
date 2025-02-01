@@ -1,0 +1,11 @@
+use crate::format::FileFormat;
+
+pub(crate) const LINGUIST_16: FileFormat = FileFormat {
+    id: 16,
+    puid: "linguist/16",
+    name: "ApacheConf",
+    extensions: &["apacheconf", "vhost"],
+    media_types: &[],
+    internal_signatures: &[],
+    related_formats: &[],
+};

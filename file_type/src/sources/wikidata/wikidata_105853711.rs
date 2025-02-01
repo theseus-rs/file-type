@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105853711: FileFormat = FileFormat {
+    id: 105_853_711,
+    puid: "wikidata/105853711",
+    name: "Animecha Animation Data",
+    extensions: &["amd"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x41, 0x4D, 0x44])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

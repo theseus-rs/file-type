@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105863415: FileFormat = FileFormat {
+    id: 105_863_415,
+    puid: "wikidata/105863415",
+    name: "StarTrekker 8-channel module",
+    extensions: &["mod"],
+    media_types: &["audio/x-mod"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x46, 0x4C, 0x54, 0x38])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

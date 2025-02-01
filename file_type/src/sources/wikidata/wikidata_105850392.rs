@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105850392: FileFormat = FileFormat {
+    id: 105_850_392,
+    puid: "wikidata/105850392",
+    name: "Cre8or model/project",
+    extensions: &["cr8"],
+    media_types: &["text/xml"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x3C, 0x50, 0x72, 0x6F, 0x6A, 0x65, 0x63, 0x74, 0x3E, 0x26, 0x67, 0x74, 0x3B,
+                    0x3C, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6F, 0x6E, 0x3E,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

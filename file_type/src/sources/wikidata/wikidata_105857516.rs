@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105857516: FileFormat = FileFormat {
+    id: 105_857_516,
+    puid: "wikidata/105857516",
+    name: "iMON Setting file",
+    extensions: &["imo"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3A, 0x5C])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

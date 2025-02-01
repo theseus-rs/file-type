@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105853137: FileFormat = FileFormat {
+    id: 105_853_137,
+    puid: "wikidata/105853137",
+    name: "Husqvarna Viking/Pfaff Home Embroidery Format",
+    extensions: &["vip"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x5D, 0xFC, 0x90, 0x01])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

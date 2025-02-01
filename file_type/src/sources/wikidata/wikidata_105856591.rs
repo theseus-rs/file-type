@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105856591: FileFormat = FileFormat {
+    id: 105_856_591,
+    puid: "wikidata/105856591",
+    name: "WinGenea Data File",
+    extensions: &["wdf"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x57, 0x69, 0x6E, 0x47, 0x65, 0x6E, 0x65, 0x61,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858079: FileFormat = FileFormat {
+    id: 105_858_079,
+    puid: "wikidata/105858079",
+    name: "Godot Engine Import settings",
+    extensions: &["import"],
+    media_types: &["text/ini"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x5B, 0x72, 0x65, 0x6D, 0x61, 0x70, 0x5D])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

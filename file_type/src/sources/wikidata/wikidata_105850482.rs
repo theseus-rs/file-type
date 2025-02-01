@@ -1,0 +1,43 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105850482: FileFormat = FileFormat {
+    id: 105_850_482,
+    puid: "wikidata/105850482",
+    name: "CorelDraw compressed format (generic)",
+    extensions: &["cdx", "cjw", "cpx"],
+    media_types: &[
+        "application/octet-stream",
+        "application/octet-stream",
+        "application/octet-stream",
+    ],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x43, 0x44, 0x52, 0x43, 0x4F, 0x4D, 0x50])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x43, 0x44, 0x52, 0x43, 0x4F, 0x4D, 0x50])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x43, 0x44, 0x52, 0x43, 0x4F, 0x4D, 0x50])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

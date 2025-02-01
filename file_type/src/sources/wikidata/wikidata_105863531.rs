@@ -1,0 +1,22 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105863531: FileFormat = FileFormat {
+    id: 105_863_531,
+    puid: "wikidata/105863531",
+    name: "REBEL book Moves format",
+    extensions: &["mvs"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x42, 0x6F, 0x6F, 0x6B, 0x6D, 0x6F, 0x76, 0x65, 0x73, 0x20, 0x2E, 0x2E, 0x2E,
+                    0x20,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

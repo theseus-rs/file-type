@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105857911: FileFormat = FileFormat {
+    id: 105_857_911,
+    puid: "wikidata/105857911",
+    name: "Tektronix instrument data file",
+    extensions: &["isf"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x3A, 0x57, 0x46, 0x4D, 0x50, 0x52, 0x45, 0x3A,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

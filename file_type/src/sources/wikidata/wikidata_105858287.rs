@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858287: FileFormat = FileFormat {
+    id: 105_858_287,
+    puid: "wikidata/105858287",
+    name: "Error Code Modeler",
+    extensions: &["ecm"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x45, 0x43, 0x4D, 0x00])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

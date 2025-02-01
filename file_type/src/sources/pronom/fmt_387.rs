@@ -1,0 +1,43 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const FMT_387: FileFormat = FileFormat {
+    id: 1_135,
+    puid: "fmt/387",
+    name: "VCalendar format",
+    extensions: &["vcs"],
+    media_types: &["text/x-vCalendar"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[
+            ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[
+                        Token::Literal(&[
+                            0x42, 0x45, 0x47, 0x49, 0x4E, 0x3A, 0x56, 0x43, 0x41, 0x4C, 0x45, 0x4E,
+                            0x44, 0x41, 0x52,
+                        ]),
+                        Token::AnyWildcard,
+                        Token::Literal(&[0x56, 0x45, 0x52, 0x53, 0x49, 0x4F, 0x4E]),
+                        Token::WildcardCountRange(0, 2),
+                        Token::Literal(&[0x3A, 0x31, 0x2E, 0x30]),
+                    ],
+                },
+            },
+            ByteSequence {
+                position_type: PositionType::EOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x45, 0x4E, 0x44, 0x3A, 0x56, 0x43, 0x41, 0x4C, 0x45, 0x4E, 0x44, 0x41,
+                        0x52,
+                    ])],
+                },
+            },
+        ],
+    }],
+    related_formats: &[],
+};

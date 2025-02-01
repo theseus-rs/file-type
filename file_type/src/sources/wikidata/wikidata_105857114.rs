@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105857114: FileFormat = FileFormat {
+    id: 105_857_114,
+    puid: "wikidata/105857114",
+    name: "GameCubeZip image",
+    extensions: &["gcz"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x01, 0xC0, 0x0B, 0xB1])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

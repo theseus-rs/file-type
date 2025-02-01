@@ -1,0 +1,43 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858687: FileFormat = FileFormat {
+    id: 105_858_687,
+    puid: "wikidata/105858687",
+    name: "Picture Packer bitmap",
+    extensions: &["pp1", "pp2", "pp3"],
+    media_types: &[
+        "application/octet-stream",
+        "application/octet-stream",
+        "application/octet-stream",
+    ],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x06, 0x07, 0x19, 0x63])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x06, 0x07, 0x19, 0x63])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x06, 0x07, 0x19, 0x63])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

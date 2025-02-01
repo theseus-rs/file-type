@@ -1,0 +1,30 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105856261: FileFormat = FileFormat {
+    id: 105_856_261,
+    puid: "wikidata/105856261",
+    name: "DesktopX Theme",
+    extensions: &["desktop", "dxtheme"],
+    media_types: &["application/octet-stream", "application/octet-stream"],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x50, 0x4B, 0x03, 0x04])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x50, 0x4B, 0x03, 0x04])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105855631: FileFormat = FileFormat {
+    id: 105_855_631,
+    puid: "wikidata/105855631",
+    name: "i8086 relocatable Object code",
+    extensions: &["o"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x28, 0x52, 0x65, 0x6C, 0x6F, 0x63, 0x29, 0x00, 0x69, 0x38, 0x30, 0x38, 0x36,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

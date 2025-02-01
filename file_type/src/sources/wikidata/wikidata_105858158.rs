@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858158: FileFormat = FileFormat {
+    id: 105_858_158,
+    puid: "wikidata/105858158",
+    name: "ISDOC electronic invoice (UTF-8)",
+    extensions: &["isdoc"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xEF, 0xBB, 0xBF, 0x3C])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

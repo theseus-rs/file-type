@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105866814: FileFormat = FileFormat {
+    id: 105_866_814,
+    puid: "wikidata/105866814",
+    name: "Extended TCPDUMP's style capture (big-endian)",
+    extensions: &["pcap"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xA1, 0xB2, 0xCD, 0x34])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

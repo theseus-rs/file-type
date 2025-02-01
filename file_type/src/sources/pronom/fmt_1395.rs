@@ -1,0 +1,22 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const FMT_1395: FileFormat = FileFormat {
+    id: 2_213,
+    puid: "fmt/1395",
+    name: "AutoCAD Drawing",
+    extensions: &["dwg"],
+    media_types: &["image/vnd.dwg"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x41, 0x43, 0x31, 0x30, 0x33, 0x32])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

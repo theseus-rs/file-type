@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_82521476: FileFormat = FileFormat {
+    id: 82_521_476,
+    puid: "wikidata/82521476",
+    name: "Ensoniq PARIS",
+    extensions: &["paf"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x66, 0x61, 0x70, 0x20])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

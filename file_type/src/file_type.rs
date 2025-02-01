@@ -72,7 +72,7 @@ impl FileType {
     /// ```
     #[must_use]
     pub fn id(&self) -> &str {
-        self.file_format.puid()
+        self.file_format.puid
     }
 
     /// Get the human-readable name of the file type
@@ -86,7 +86,7 @@ impl FileType {
     /// ```
     #[must_use]
     pub fn name(&self) -> &str {
-        self.file_format.name()
+        self.file_format.name
     }
 
     /// Get the file type extensions
@@ -99,8 +99,8 @@ impl FileType {
     /// assert_eq!(file_type.extensions(), vec!["png"]);
     /// ```
     #[must_use]
-    pub fn extensions(&self) -> Vec<&str> {
-        self.file_format.extensions()
+    pub fn extensions(&self) -> &[&str] {
+        self.file_format.extensions
     }
 
     /// Get the [Media Type](https://www.rfc-editor.org/rfc/rfc2046.html)
@@ -113,8 +113,8 @@ impl FileType {
     /// assert_eq!(file_type.media_types(), vec!["image/png"]);
     /// ```
     #[must_use]
-    pub fn media_types(&self) -> Vec<&str> {
-        self.file_format.media_types()
+    pub fn media_types(&self) -> &[&str] {
+        self.file_format.media_types
     }
 
     /// Get the detailed file format information for this file type.
@@ -124,7 +124,7 @@ impl FileType {
     /// use file_type::FileType;
     ///
     /// let file_type = FileType::from_id("fmt/11").expect("file type not found");
-    /// assert_eq!(file_type.file_format().version(), "1.0");
+    /// assert_eq!(file_type.file_format().name, "Portable Network Graphics");
     /// ```
     #[must_use]
     pub fn file_format(&self) -> &FileFormat {
@@ -313,7 +313,7 @@ mod tests {
         assert_eq!(file_type.name(), "Portable Network Graphics");
         assert_eq!(file_type.extensions(), vec!["png"]);
         assert_eq!(file_type.media_types(), vec!["image/png"]);
-        assert_eq!(file_type.file_format().id(), 664);
+        assert_eq!(file_type.file_format().id, 664);
     }
 
     #[test]

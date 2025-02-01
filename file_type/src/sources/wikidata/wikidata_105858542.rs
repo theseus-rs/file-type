@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858542: FileFormat = FileFormat {
+    id: 105_858_542,
+    puid: "wikidata/105858542",
+    name: "Cubicomp PictureMaker blue channel image data",
+    extensions: &["b8"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x36, 0x0C, 0xFF, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

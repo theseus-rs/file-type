@@ -1,0 +1,56 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const X_FMT_389: FileFormat = FileFormat {
+    id: 674,
+    puid: "x-fmt/389",
+    name: "Exchangeable Image File Format (Audio)",
+    extensions: &["wav"],
+    media_types: &["audio/x-wav"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[
+                    Token::Literal(&[0x52, 0x49, 0x46, 0x46]),
+                    Token::WildcardCount(4),
+                    Token::Literal(&[0x57, 0x41, 0x56, 0x45]),
+                    Token::AnyWildcard,
+                    Token::Literal(&[0x66, 0x6D, 0x74, 0x20]),
+                    Token::WildcardCount(4),
+                    Token::Any(&[
+                        &[Token::Literal(&[0x01])],
+                        &[Token::Literal(&[0x07])],
+                        &[Token::Literal(&[0x11])],
+                    ]),
+                    Token::Literal(&[0x00]),
+                    Token::AnyWildcard,
+                    Token::Literal(&[0x4C, 0x49, 0x53, 0x54]),
+                    Token::WildcardCount(4),
+                    Token::Literal(&[0x65, 0x78, 0x69, 0x66, 0x65, 0x76, 0x65, 0x72]),
+                    Token::WildcardCount(4),
+                    Token::Literal(&[0x30, 0x32, 0x31, 0x30]),
+                    Token::AnyWildcard,
+                    Token::Literal(&[0x64, 0x61, 0x74, 0x61]),
+                ],
+            },
+        }],
+    }],
+    related_formats: &[
+        RelatedFormat {
+            id: 654,
+            relationship_type: RelationshipType::HasPriorityOver,
+        },
+        RelatedFormat {
+            id: 749,
+            relationship_type: RelationshipType::IsPreviousVersionOf,
+        },
+        RelatedFormat {
+            id: 750,
+            relationship_type: RelationshipType::IsSubsequentVersionOf,
+        },
+    ],
+};

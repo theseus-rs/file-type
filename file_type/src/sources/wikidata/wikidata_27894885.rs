@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_27894885: FileFormat = FileFormat {
+    id: 27_894_885,
+    puid: "wikidata/27894885",
+    name: "Windows Media Video Redirector",
+    extensions: &["wvx"],
+    media_types: &["video/x-ms-wvx"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x5B, 0x52, 0x65, 0x66, 0x65, 0x72, 0x65, 0x6E, 0x63, 0x65, 0x5D, 0x0D,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

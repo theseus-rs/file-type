@@ -1,0 +1,23 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105860216: FileFormat = FileFormat {
+    id: 105_860_216,
+    puid: "wikidata/105860216",
+    name: "RightWriter settings (v5 Win)",
+    extensions: &["rwe"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x52, 0x69, 0x67, 0x68, 0x74, 0x57, 0x72, 0x69, 0x74, 0x65, 0x72, 0x20, 0x53,
+                    0x65, 0x74, 0x74, 0x69, 0x6E, 0x67, 0x73, 0x20, 0x46, 0x69, 0x6C, 0x65, 0x20,
+                    0x56, 0x65, 0x72, 0x73, 0x69, 0x6F, 0x6E, 0x20, 0x35, 0x2E,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

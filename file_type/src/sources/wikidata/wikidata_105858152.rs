@@ -1,0 +1,34 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858152: FileFormat = FileFormat {
+    id: 105_858_152,
+    puid: "wikidata/105858152",
+    name: "HP Palmtop 100/200LX Icon",
+    extensions: &["icn", "xbg"],
+    media_types: &["application/octet-stream", "application/octet-stream"],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x01, 0x00, 0x01, 0x00, 0x2C, 0x00, 0x20, 0x00,
+                    ])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x01, 0x00, 0x01, 0x00, 0x2C, 0x00, 0x20, 0x00,
+                    ])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

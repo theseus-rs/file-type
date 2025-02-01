@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105857673: FileFormat = FileFormat {
+    id: 105_857_673,
+    puid: "wikidata/105857673",
+    name: "ACT! Internet Mail message",
+    extensions: &["iml"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x87, 0x2A, 0x02, 0x00])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

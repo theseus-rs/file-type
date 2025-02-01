@@ -1,0 +1,30 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105855616: FileFormat = FileFormat {
+    id: 105_855_616,
+    puid: "wikidata/105855616",
+    name: "Darksiders game data package",
+    extensions: &["oppc", "opps3"],
+    media_types: &[],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x4F, 0x42, 0x50, 0x4B])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x4F, 0x42, 0x50, 0x4B])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

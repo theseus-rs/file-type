@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105865623: FileFormat = FileFormat {
+    id: 105_865_623,
+    puid: "wikidata/105865623",
+    name: "Professional Sound Artists module",
+    extensions: &["psa"],
+    media_types: &["audio/x-mod"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x50, 0x53, 0x41, 0x00])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105860444: FileFormat = FileFormat {
+    id: 105_860_444,
+    puid: "wikidata/105860444",
+    name: "RapidFile Data",
+    extensions: &["rpd"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xE3, 0x92, 0x87, 0x45])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

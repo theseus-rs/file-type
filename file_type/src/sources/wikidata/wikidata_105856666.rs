@@ -1,0 +1,11 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105856666: FileFormat = FileFormat {
+    id: 105_856_666,
+    puid: "wikidata/105856666",
+    name: "Unreal Engine Project",
+    extensions: &["uproject"],
+    media_types: &["text/plain"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

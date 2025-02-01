@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105855898: FileFormat = FileFormat {
+    id: 105_855_898,
+    puid: "wikidata/105855898",
+    name: "Magic Lantern DIFF animation",
+    extensions: &["diff"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x44, 0x49, 0x46, 0x46, 0x48, 0xA8, 0x9A, 0x61,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

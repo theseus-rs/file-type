@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_74020904: FileFormat = FileFormat {
+    id: 74_020_904,
+    puid: "wikidata/74020904",
+    name: "RAG-D bitmap",
+    extensions: &["rag"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x52, 0x41, 0x47, 0x2D, 0x44, 0x21])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

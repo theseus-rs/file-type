@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_7573795: FileFormat = FileFormat {
+    id: 7_573_795,
+    puid: "wikidata/7573795",
+    name: "sparse image",
+    extensions: &["sparseimage"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x73, 0x70, 0x72, 0x73])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

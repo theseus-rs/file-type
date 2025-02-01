@@ -1,0 +1,21 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105854286: FileFormat = FileFormat {
+    id: 105_854_286,
+    puid: "wikidata/105854286",
+    name: "Microsoft ASP.NET Web Form",
+    extensions: &["aspx"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x3C, 0x25, 0x40, 0x20, 0x50, 0x61, 0x67, 0x65, 0x20,
+                ])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

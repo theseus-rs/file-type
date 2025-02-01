@@ -1,0 +1,30 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105858917: FileFormat = FileFormat {
+    id: 105_858_917,
+    puid: "wikidata/105858917",
+    name: "QuickTime Image Format bitmap",
+    extensions: &["qif", "qtif"],
+    media_types: &["application/octet-stream", "application/octet-stream"],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x69, 0x64, 0x61, 0x74])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x69, 0x64, 0x61, 0x74])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

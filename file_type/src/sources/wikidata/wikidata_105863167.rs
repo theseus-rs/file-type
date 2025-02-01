@@ -1,0 +1,19 @@
+use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+
+pub(crate) const WIKIDATA_105863167: FileFormat = FileFormat {
+    id: 105_863_167,
+    puid: "wikidata/105863167",
+    name: "Wolfpack Mission (from CD)",
+    extensions: &["mis"],
+    media_types: &["application/octet-stream"],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x01, 0x64, 0x63])],
+            },
+        }],
+    }],
+    related_formats: &[],
+};

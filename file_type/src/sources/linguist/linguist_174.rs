@@ -1,0 +1,33 @@
+use crate::format::FileFormat;
+
+pub(crate) const LINGUIST_174: FileFormat = FileFormat {
+    id: 174,
+    puid: "linguist/174",
+    name: "JSON",
+    extensions: &[
+        "4DForm",
+        "4DProject",
+        "JSON-tmLanguage",
+        "avsc",
+        "geojson",
+        "gltf",
+        "har",
+        "ice",
+        "json",
+        "json.example",
+        "jsonl",
+        "mcmeta",
+        "sarif",
+        "tact",
+        "tfstate",
+        "tfstate.backup",
+        "topojson",
+        "webapp",
+        "webmanifest",
+        "yy",
+        "yyp",
+    ],
+    media_types: &["application/json"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

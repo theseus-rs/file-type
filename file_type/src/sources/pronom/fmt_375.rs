@@ -1,0 +1,47 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, Token,
+};
+
+pub(crate) const FMT_375: FileFormat = FileFormat {
+    id: 1_122,
+    puid: "fmt/375",
+    name: "FoxPro Compound Index File",
+    extensions: &["cdx"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[
+                    Token::Literal(&[0x00]),
+                    Token::SingleWildcard,
+                    Token::Literal(&[0x00, 0x00]),
+                    Token::WildcardCount(8),
+                    Token::Literal(&[0x0A, 0x00]),
+                    Token::NotLiteral(&[0x00]),
+                    Token::WildcardCount(487),
+                    Token::Any(&[
+                        &[Token::Literal(&[0x00, 0x00])],
+                        &[Token::Literal(&[0x00, 0x01])],
+                    ]),
+                    Token::WildcardCount(2),
+                    Token::Literal(&[0x01, 0x00, 0x00, 0x00, 0x01, 0x00]),
+                    Token::WildcardCountRange(512, 4_608),
+                    Token::Literal(&[0x03]),
+                    Token::WildcardCount(3),
+                    Token::Literal(&[0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF]),
+                    Token::WildcardCount(2),
+                    Token::Literal(&[0xFF, 0xFF]),
+                    Token::WildcardCount(2),
+                    Token::Literal(&[0x0F, 0x0F]),
+                ],
+            },
+        }],
+    }],
+    related_formats: &[RelatedFormat {
+        id: 211,
+        relationship_type: RelationshipType::HasLowerPriorityThan,
+    }],
+};
