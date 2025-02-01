@@ -14,6 +14,7 @@
 //! * [The National Archives PRONOM](https://www.nationalarchives.gov.uk/pronom/)
 //! * [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types)
 //! * [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml)
+//! * [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List)
 //!
 //! # Example
 //!
