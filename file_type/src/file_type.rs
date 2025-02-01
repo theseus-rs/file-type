@@ -7,9 +7,6 @@ use std::path::Path;
 /// A file type.  The file type is determined by examining the file or bytes against known file
 /// signatures and file extensions.
 ///
-/// Additional information on PRONOM file types can be found at
-/// [The National Archives](https://www.nationalarchives.gov.uk/pronom/)
-///
 /// # Example
 ///
 /// Detect a Java class file from bytes:
@@ -52,12 +49,12 @@ use std::path::Path;
 /// ```
 #[derive(Clone, Debug)]
 pub struct FileType {
-    file_format: FileFormat,
+    file_format: &'static FileFormat,
 }
 
 impl FileType {
     /// Create a new `FileType` from a `FileFormat`.
-    pub(crate) fn new(file_format: FileFormat) -> Self {
+    pub(crate) fn new(file_format: &'static FileFormat) -> Self {
         FileType { file_format }
     }
 
@@ -128,7 +125,7 @@ impl FileType {
     /// ```
     #[must_use]
     pub fn file_format(&self) -> &FileFormat {
-        &self.file_format
+        self.file_format
     }
 
     /// Get the file type for an identifier.

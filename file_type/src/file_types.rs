@@ -28,7 +28,7 @@ fn initialize_file_formats() -> HashMap<String, FileType> {
         for file_format in *file_formats {
             let file_format = *file_format;
             let id = file_format.puid.to_string();
-            let file_type = FileType::new(file_format.clone());
+            let file_type = FileType::new(file_format);
             file_types.insert(id, file_type);
         }
     }
