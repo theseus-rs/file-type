@@ -217,8 +217,9 @@ impl Regex {
     #[must_use]
     pub fn key_from_bytes(bytes: &[u8]) -> u64 {
         let mut array = [0u8; 8];
-        let length = std::cmp::min(bytes.len(), 8);
-        array[..length].copy_from_slice(&bytes[..length]);
+        for (i, &byte) in bytes.iter().take(8).enumerate() {
+            array[i] = byte;
+        }
         u64::from_be_bytes(array)
     }
 

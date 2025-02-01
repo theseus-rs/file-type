@@ -239,7 +239,7 @@ fn is_binary(bytes: &[u8]) -> bool {
     bytes.is_empty()
         || bytes
             .iter()
-            .any(|byte| *byte < 32 && ![b'\n', b'\r', b'\t'].contains(byte))
+            .any(|&byte| matches!(byte, 0..=31 if !matches!(byte, b'\n' | b'\r' | b'\t')))
 }
 
 /// Attempt to determine the `FileType` from a byte slice.
@@ -270,7 +270,6 @@ where
             if let Some(extension) = extension {
                 let extension_map = &*EXTENSION_MAP;
                 if let Some(types) = extension_map.get(extension) {
-                    file_types = Vec::new();
                     for file_type in types {
                         file_types.push(file_type);
                     }
@@ -295,20 +294,16 @@ where
         }
     }
 
-    let file_type = if file_types.is_empty() {
-        if is_binary(bytes) {
-            FILE_TYPES.get("default/1")
-        } else {
-            FILE_TYPES.get("default/2")
-        }
+    if let Some(file_type) = file_types.first() {
+        file_type
     } else {
-        file_types.into_iter().next()
-    };
-
-    let Some(file_type) = file_type else {
-        unreachable!("No file type found");
-    };
-    file_type
+        let default_id = if is_binary(bytes) {
+            "default/1"
+        } else {
+            "default/2"
+        };
+        FILE_TYPES.get(default_id).expect("No file type found")
+    }
 }
 
 /// Attempt to determine the `FileType` from a reader.
