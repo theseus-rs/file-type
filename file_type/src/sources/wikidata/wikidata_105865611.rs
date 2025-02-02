@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865611: FileFormat = FileFormat {
     id: 105_865_611,
-    puid: "wikidata/105865611",
+    source_type: SourceType::Wikidata,
     name: "PVM Volume format",
     extensions: &["pvm"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867574: FileFormat = FileFormat {
     id: 105_867_574,
-    puid: "wikidata/105867574",
+    source_type: SourceType::Wikidata,
     name: "NAPLPS graphics",
     extensions: &["nap"],
     media_types: &["image/naplps"],

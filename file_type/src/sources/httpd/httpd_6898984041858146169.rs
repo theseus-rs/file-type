@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6898984041858146169: FileFormat = FileFormat {
-    id: 6_898_984_041_858_146_169,
-    puid: "httpd/6898984041858146169",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "micrografx flo",
     extensions: &["flo"],
     media_types: &["application/vnd.micrografx.flo"],

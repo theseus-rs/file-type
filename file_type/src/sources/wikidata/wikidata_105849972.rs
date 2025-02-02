@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849972: FileFormat = FileFormat {
     id: 105_849_972,
-    puid: "wikidata/105849972",
+    source_type: SourceType::Wikidata,
     name: "COMX-35 program",
     extensions: &["comx"],
     media_types: &["application/octet-stream"],

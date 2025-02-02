@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852162: FileFormat = FileFormat {
     id: 105_852_162,
-    puid: "wikidata/105852162",
+    source_type: SourceType::Wikidata,
     name: "Lego Loco save game",
     extensions: &["sav"],
     media_types: &["application/octet-stream"],

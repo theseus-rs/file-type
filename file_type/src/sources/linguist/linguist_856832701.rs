@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_856832701: FileFormat = FileFormat {
     id: 856_832_701,
-    puid: "linguist/856832701",
+    source_type: SourceType::Linguist,
     name: "Terraform Template",
     extensions: &["tftpl"],
     media_types: &["text/x-ruby"],

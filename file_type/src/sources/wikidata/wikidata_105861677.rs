@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861677: FileFormat = FileFormat {
     id: 105_861_677,
-    puid: "wikidata/105861677",
+    source_type: SourceType::Wikidata,
     name: "UltraDefrag Lua Report",
     extensions: &["luar"],
     media_types: &[],

@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853991: FileFormat = FileFormat {
     id: 105_853_991,
-    puid: "wikidata/105853991",
+    source_type: SourceType::Wikidata,
     name: "MDCD compressed archive (v1.0)",
     extensions: &["cd", "md"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

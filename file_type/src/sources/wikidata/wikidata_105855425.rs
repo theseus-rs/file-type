@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855425: FileFormat = FileFormat {
     id: 105_855_425,
-    puid: "wikidata/105855425",
+    source_type: SourceType::Wikidata,
     name: "Flatpack Reference",
     extensions: &["flatpakref"],
     media_types: &["application/vnd.flatpak.ref"],

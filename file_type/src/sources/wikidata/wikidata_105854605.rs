@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854605: FileFormat = FileFormat {
     id: 105_854_605,
-    puid: "wikidata/105854605",
+    source_type: SourceType::Wikidata,
     name: "Artlantis Object File",
     extensions: &["aof"],
     media_types: &["text/xml"],

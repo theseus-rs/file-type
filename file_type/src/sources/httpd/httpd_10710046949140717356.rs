@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10710046949140717356: FileFormat = FileFormat {
-    id: 10_710_046_949_140_717_356,
-    puid: "httpd/10710046949140717356",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mozilla xul xml",
     extensions: &["xul"],
     media_types: &["application/vnd.mozilla.xul+xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850290: FileFormat = FileFormat {
     id: 105_850_290,
-    puid: "wikidata/105850290",
+    source_type: SourceType::Wikidata,
     name: "Cinespace LUT (3D)",
     extensions: &["csp"],
     media_types: &["text/plain"],

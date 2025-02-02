@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863602: FileFormat = FileFormat {
     id: 105_863_602,
-    puid: "wikidata/105863602",
+    source_type: SourceType::Wikidata,
     name: "Mozilla mozLz4 compressed data (generic)",
     extensions: &["jsonlz4", "mozlz4"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

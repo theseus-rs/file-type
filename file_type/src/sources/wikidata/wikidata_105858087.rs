@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858087: FileFormat = FileFormat {
     id: 105_858_087,
-    puid: "wikidata/105858087",
+    source_type: SourceType::Wikidata,
     name: "NorthStar disk Image (NS DOS)",
     extensions: &["nsi"],
     media_types: &["application/octet-stream"],

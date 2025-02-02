@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850786: FileFormat = FileFormat {
     id: 105_850_786,
-    puid: "wikidata/105850786",
+    source_type: SourceType::Wikidata,
     name: "KeyCAD Deluxe for Windows symbol (v3.x)",
     extensions: &["kcw"],
     media_types: &["application/octet-stream"],

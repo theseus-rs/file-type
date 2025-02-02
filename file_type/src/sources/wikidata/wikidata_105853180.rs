@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853180: FileFormat = FileFormat {
     id: 105_853_180,
-    puid: "wikidata/105853180",
+    source_type: SourceType::Wikidata,
     name: "Microsoft ICE Stitch Project",
     extensions: &["spj"],
     media_types: &["text/xml"],

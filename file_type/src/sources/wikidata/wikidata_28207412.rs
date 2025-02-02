@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28207412: FileFormat = FileFormat {
     id: 28_207_412,
-    puid: "wikidata/28207412",
+    source_type: SourceType::Wikidata,
     name: "Valve Texture Format",
     extensions: &["vtf"],
     media_types: &["image/vnd.valve.source.texture"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855042: FileFormat = FileFormat {
     id: 105_855_042,
-    puid: "wikidata/105855042",
+    source_type: SourceType::Wikidata,
     name: "Kexis lossless compressed audio",
     extensions: &["kxs"],
     media_types: &[],

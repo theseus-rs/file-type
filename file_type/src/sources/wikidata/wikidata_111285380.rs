@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_111285380: FileFormat = FileFormat {
     id: 111_285_380,
-    puid: "wikidata/111285380",
+    source_type: SourceType::Wikidata,
     name: "Ensoniq EPS family disk image",
     extensions: &["gkh"],
     media_types: &[],

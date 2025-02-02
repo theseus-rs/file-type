@@ -1,16 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858878: FileFormat = FileFormat {
     id: 105_858_878,
-    puid: "wikidata/105858878",
+    source_type: SourceType::Wikidata,
     name: "Radiance High Dynamic Range bitmap",
     extensions: &["hdr", "pic", "rgbe", "xyze"],
-    media_types: &[
-        "image/vnd.radiance",
-        "image/vnd.radiance",
-        "image/vnd.radiance",
-        "image/vnd.radiance",
-    ],
+    media_types: &["image/vnd.radiance"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

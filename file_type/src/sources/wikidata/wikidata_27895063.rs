@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27895063: FileFormat = FileFormat {
     id: 27_895_063,
-    puid: "wikidata/27895063",
+    source_type: SourceType::Wikidata,
     name: "Windows Media Video",
     extensions: &["wm", "wmv"],
-    media_types: &["video/x-ms-wmv", "video/x-ms-wmv"],
+    media_types: &["video/x-ms-wmv"],
     internal_signatures: &[],
     related_formats: &[],
 };

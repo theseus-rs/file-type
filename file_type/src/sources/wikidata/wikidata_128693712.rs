@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_128693712: FileFormat = FileFormat {
     id: 128_693_712,
-    puid: "wikidata/128693712",
+    source_type: SourceType::Wikidata,
     name: "Berry source code file",
-    extensions: &["be", "be"],
+    extensions: &["be"],
     media_types: &["application/x-berry", "text/x-berry"],
     internal_signatures: &[],
     related_formats: &[],

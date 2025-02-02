@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860763: FileFormat = FileFormat {
     id: 105_860_763,
-    puid: "wikidata/105860763",
+    source_type: SourceType::Wikidata,
     name: "aSc Timetables timetable",
     extensions: &["roz"],
     media_types: &["application/octet-stream"],

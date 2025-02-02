@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859685: FileFormat = FileFormat {
     id: 105_859_685,
-    puid: "wikidata/105859685",
+    source_type: SourceType::Wikidata,
     name: "Arxel video",
     extensions: &["cnm"],
     media_types: &["application/octet-stream"],

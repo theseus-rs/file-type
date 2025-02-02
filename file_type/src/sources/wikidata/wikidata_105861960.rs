@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861960: FileFormat = FileFormat {
     id: 105_861_960,
-    puid: "wikidata/105861960",
+    source_type: SourceType::Wikidata,
     name: "Quake 3 Model (newer)",
     extensions: &["md4"],
     media_types: &["application/octet-stream"],

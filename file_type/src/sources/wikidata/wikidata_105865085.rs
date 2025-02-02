@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865085: FileFormat = FileFormat {
     id: 105_865_085,
-    puid: "wikidata/105865085",
+    source_type: SourceType::Wikidata,
     name: "ProSpace schematic",
     extensions: &["psa"],
     media_types: &[],

@@ -61,16 +61,6 @@ pub(crate) struct FileFormat {
 impl FileFormat {
     /// Convert to the type used at runtime
     pub fn to_runtime_type(&self) -> file_type::Result<file_type::format::FileFormat> {
-        let file_format_identifier = self
-            .file_format_identifiers
-            .iter()
-            .find(|identifier| identifier.r#type == "PUID");
-        let puid = if let Some(file_format_identifier) = file_format_identifier {
-            file_format_identifier.identifier.clone()
-        } else {
-            String::new()
-        };
-
         let extensions = self
             .external_signatures
             .iter()
@@ -109,7 +99,7 @@ impl FileFormat {
 
         let file_format = file_type::format::FileFormat {
             id: self.id,
-            puid: Box::leak(puid.into_boxed_str()),
+            source_type: file_type::format::SourceType::Pronom,
             name: Box::leak(self.name.clone().into_boxed_str()),
             extensions: Box::leak(extensions.into_boxed_slice()),
             media_types: Box::leak(media_types.into_boxed_slice()),

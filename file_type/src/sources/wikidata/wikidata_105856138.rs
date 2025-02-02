@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856138: FileFormat = FileFormat {
     id: 105_856_138,
-    puid: "wikidata/105856138",
+    source_type: SourceType::Wikidata,
     name: "Act of War game data",
     extensions: &["dat"],
     media_types: &["application/octet-stream"],

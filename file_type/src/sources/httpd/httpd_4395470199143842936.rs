@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_4395470199143842936: FileFormat = FileFormat {
-    id: 4_395_470_199_143_842_936,
-    puid: "httpd/4395470199143842936",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "matroska",
     extensions: &["mkv", "mk3d", "mks"],
     media_types: &["video/x-matroska"],

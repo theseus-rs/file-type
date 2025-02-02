@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856316: FileFormat = FileFormat {
     id: 105_856_316,
-    puid: "wikidata/105856316",
+    source_type: SourceType::Wikidata,
     name: "Macintosh encrypted Disk image (v1)",
     extensions: &["dmg"],
     media_types: &["application/x-apple-diskimage"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849691: FileFormat = FileFormat {
     id: 105_849_691,
-    puid: "wikidata/105849691",
+    source_type: SourceType::Wikidata,
     name: "CodeSuite DataBase - BitMatch",
     extensions: &["cdb"],
     media_types: &["text/plain"],

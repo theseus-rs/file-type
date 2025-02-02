@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852575: FileFormat = FileFormat {
     id: 105_852_575,
-    puid: "wikidata/105852575",
+    source_type: SourceType::Wikidata,
     name: "Philips SVCD Designer subtitles",
     extensions: &["sub"],
     media_types: &[],

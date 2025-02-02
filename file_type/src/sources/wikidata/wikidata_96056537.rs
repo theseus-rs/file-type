@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_96056537: FileFormat = FileFormat {
     id: 96_056_537,
-    puid: "wikidata/96056537",
+    source_type: SourceType::Wikidata,
     name: "Minitab Portable Worksheet",
     extensions: &["mtp"],
     media_types: &["text/plain"],

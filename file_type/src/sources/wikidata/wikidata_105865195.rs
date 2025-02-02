@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865195: FileFormat = FileFormat {
     id: 105_865_195,
-    puid: "wikidata/105865195",
+    source_type: SourceType::Wikidata,
     name: "Snark Busters game data archive",
     extensions: &["pack"],
     media_types: &["application/octet-stream"],

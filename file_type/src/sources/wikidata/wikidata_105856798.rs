@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856798: FileFormat = FileFormat {
     id: 105_856_798,
-    puid: "wikidata/105856798",
+    source_type: SourceType::Wikidata,
     name: "Greenfoot Archive",
     extensions: &["gfar"],
     media_types: &[],

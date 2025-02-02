@@ -1,17 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967187: FileFormat = FileFormat {
     id: 27_967_187,
-    puid: "wikidata/27967187",
+    source_type: SourceType::Wikidata,
     name: "Future Composer v1.x module",
     extensions: &["fc", "fc13", "fc14", "smc", "smod"],
-    media_types: &[
-        "audio/x-mod",
-        "audio/x-mod",
-        "audio/x-mod",
-        "audio/x-mod",
-        "audio/x-mod",
-    ],
+    media_types: &["audio/x-mod"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

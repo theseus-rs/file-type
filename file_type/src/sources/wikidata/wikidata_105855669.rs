@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855669: FileFormat = FileFormat {
     id: 105_855_669,
-    puid: "wikidata/105855669",
+    source_type: SourceType::Wikidata,
     name: "Olympus digital camera RAW image (MMOR)",
     extensions: &["orf"],
     media_types: &["application/octet-stream"],

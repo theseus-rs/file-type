@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861586: FileFormat = FileFormat {
     id: 105_861_586,
-    puid: "wikidata/105861586",
+    source_type: SourceType::Wikidata,
     name: "Reason Remote Lua Codec",
     extensions: &["luacodec"],
     media_types: &["text/plain"],

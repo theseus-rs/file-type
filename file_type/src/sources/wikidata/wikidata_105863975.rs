@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863975: FileFormat = FileFormat {
     id: 105_863_975,
-    puid: "wikidata/105863975",
+    source_type: SourceType::Wikidata,
     name: "Mass Effect save game",
     extensions: &["masseffectsave"],
     media_types: &["application/octet-stream"],

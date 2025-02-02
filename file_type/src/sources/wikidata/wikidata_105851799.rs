@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851799: FileFormat = FileFormat {
     id: 105_851_799,
-    puid: "wikidata/105851799",
+    source_type: SourceType::Wikidata,
     name: "3DVIA Composer model",
     extensions: &["smg"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857742: FileFormat = FileFormat {
     id: 105_857_742,
-    puid: "wikidata/105857742",
+    source_type: SourceType::Wikidata,
     name: "Intergraph SmartSketch Drawing",
     extensions: &["igr"],
     media_types: &[],

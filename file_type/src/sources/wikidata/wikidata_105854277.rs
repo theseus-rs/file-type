@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854277: FileFormat = FileFormat {
     id: 105_854_277,
-    puid: "wikidata/105854277",
+    source_type: SourceType::Wikidata,
     name: "Aston 2 Theme",
     extensions: &["a2theme"],
     media_types: &[],

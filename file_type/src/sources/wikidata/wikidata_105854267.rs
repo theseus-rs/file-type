@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854267: FileFormat = FileFormat {
     id: 105_854_267,
-    puid: "wikidata/105854267",
+    source_type: SourceType::Wikidata,
     name: "ALICE: The Personal Pascal Program",
     extensions: &["ap"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_117287222: FileFormat = FileFormat {
     id: 117_287_222,
-    puid: "wikidata/117287222",
+    source_type: SourceType::Wikidata,
     name: "SigmaPlot DOS Worksheet",
     extensions: &["spg"],
     media_types: &[],

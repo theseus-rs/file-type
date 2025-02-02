@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_1680085651608889131: FileFormat = FileFormat {
-    id: 1_680_085_651_608_889_131,
-    puid: "httpd/1680085651608889131",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "wt stf",
     extensions: &["stf"],
     media_types: &["application/vnd.wt.stf"],

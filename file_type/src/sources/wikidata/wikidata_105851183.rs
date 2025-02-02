@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851183: FileFormat = FileFormat {
     id: 105_851_183,
-    puid: "wikidata/105851183",
+    source_type: SourceType::Wikidata,
     name: "PSX TMD 3d Model",
     extensions: &["tmd"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28975812: FileFormat = FileFormat {
     id: 28_975_812,
-    puid: "wikidata/28975812",
+    source_type: SourceType::Wikidata,
     name: "International Laser Display Association image data transfer format",
     extensions: &["ild"],
     media_types: &["application/octet-stream"],

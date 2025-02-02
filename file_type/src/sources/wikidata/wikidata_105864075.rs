@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864075: FileFormat = FileFormat {
     id: 105_864_075,
-    puid: "wikidata/105864075",
+    source_type: SourceType::Wikidata,
     name: "Scrull Music File",
     extensions: &["smf"],
     media_types: &["application/octet-stream"],

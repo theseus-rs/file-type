@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860074: FileFormat = FileFormat {
     id: 105_860_074,
-    puid: "wikidata/105860074",
+    source_type: SourceType::Wikidata,
     name: "Id Software RoQ video",
     extensions: &["roq"],
     media_types: &["application/octet-stream"],

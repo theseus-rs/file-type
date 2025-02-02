@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856070: FileFormat = FileFormat {
     id: 105_856_070,
-    puid: "wikidata/105856070",
+    source_type: SourceType::Wikidata,
     name: "DIGIBooster module",
     extensions: &["db", "digi"],
-    media_types: &["audio/x-mod", "audio/x-mod"],
+    media_types: &["audio/x-mod"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863842: FileFormat = FileFormat {
     id: 105_863_842,
-    puid: "wikidata/105863842",
+    source_type: SourceType::Wikidata,
     name: "Mayura Draw document",
     extensions: &["md"],
     media_types: &["application/octet-stream"],

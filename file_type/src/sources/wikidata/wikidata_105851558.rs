@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851558: FileFormat = FileFormat {
     id: 105_851_558,
-    puid: "wikidata/105851558",
+    source_type: SourceType::Wikidata,
     name: "Aladdin 4D TXList",
     extensions: &["txl"],
     media_types: &["application/octet-stream"],

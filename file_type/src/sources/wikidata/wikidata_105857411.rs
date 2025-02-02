@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857411: FileFormat = FileFormat {
     id: 105_857_411,
-    puid: "wikidata/105857411",
+    source_type: SourceType::Wikidata,
     name: "BlackBerry JDE Application Project",
     extensions: &["jdp"],
     media_types: &["text/plain"],

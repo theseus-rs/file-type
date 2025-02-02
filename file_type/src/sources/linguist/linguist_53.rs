@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_53: FileFormat = FileFormat {
     id: 53,
-    puid: "linguist/53",
+    source_type: SourceType::Linguist,
     name: "CartoCSS",
     extensions: &["mss"],
     media_types: &[],

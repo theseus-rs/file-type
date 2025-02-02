@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863859: FileFormat = FileFormat {
     id: 105_863_859,
-    puid: "wikidata/105863859",
+    source_type: SourceType::Wikidata,
     name: "PlayStation RSD animation (gen)",
     extensions: &["mot"],
     media_types: &["text/plain"],

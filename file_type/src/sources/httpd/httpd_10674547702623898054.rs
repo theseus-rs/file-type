@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10674547702623898054: FileFormat = FileFormat {
-    id: 10_674_547_702_623_898_054,
-    puid: "httpd/10674547702623898054",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "dssc xml",
     extensions: &["xdssc"],
     media_types: &["application/dssc+xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857914: FileFormat = FileFormat {
     id: 105_857_914,
-    puid: "wikidata/105857914",
+    source_type: SourceType::Wikidata,
     name: "Commodore CP/M disk image (CBM)",
     extensions: &["d64"],
     media_types: &["application/octet-stream"],

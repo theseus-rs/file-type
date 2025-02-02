@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5060715562509657656: FileFormat = FileFormat {
-    id: 5_060_715_562_509_657_656,
-    puid: "httpd/5060715562509657656",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "pawaafile",
     extensions: &["paw"],
     media_types: &["application/vnd.pawaafile"],

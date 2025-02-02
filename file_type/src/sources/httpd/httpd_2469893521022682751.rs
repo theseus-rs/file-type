@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2469893521022682751: FileFormat = FileFormat {
-    id: 2_469_893_521_022_682_751,
-    puid: "httpd/2469893521022682751",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "blueice multipass",
     extensions: &["mpm"],
     media_types: &["application/vnd.blueice.multipass"],

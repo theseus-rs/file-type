@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858311: FileFormat = FileFormat {
     id: 105_858_311,
-    puid: "wikidata/105858311",
+    source_type: SourceType::Wikidata,
     name: "Live For Speed Engine sound",
     extensions: &["eng"],
     media_types: &["application/octet-stream"],

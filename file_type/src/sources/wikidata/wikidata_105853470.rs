@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853470: FileFormat = FileFormat {
     id: 105_853_470,
-    puid: "wikidata/105853470",
+    source_type: SourceType::Wikidata,
     name: "Zed! encrypted container",
     extensions: &["zed"],
     media_types: &["application/octet-stream"],

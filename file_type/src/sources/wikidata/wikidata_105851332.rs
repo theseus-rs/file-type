@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851332: FileFormat = FileFormat {
     id: 105_851_332,
-    puid: "wikidata/105851332",
+    source_type: SourceType::Wikidata,
     name: "U.S. Navy Fighters Theater game data",
     extensions: &["t2"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14018862107975690802: FileFormat = FileFormat {
-    id: 14_018_862_107_975_690_802,
-    puid: "httpd/14018862107975690802",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "nokia radio preset",
     extensions: &["rpst"],
     media_types: &["application/vnd.nokia.radio-preset"],

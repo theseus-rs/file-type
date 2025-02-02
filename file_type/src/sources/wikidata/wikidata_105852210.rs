@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852210: FileFormat = FileFormat {
     id: 105_852_210,
-    puid: "wikidata/105852210",
+    source_type: SourceType::Wikidata,
     name: "Accent DemoMaker Sequence",
     extensions: &["seq"],
     media_types: &["application/octet-stream"],

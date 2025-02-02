@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853144: FileFormat = FileFormat {
     id: 105_853_144,
-    puid: "wikidata/105853144",
+    source_type: SourceType::Wikidata,
     name: "NTRQ module",
     extensions: &["sav"],
     media_types: &["application/octet-stream"],

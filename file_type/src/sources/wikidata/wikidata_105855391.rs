@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855391: FileFormat = FileFormat {
     id: 105_855_391,
-    puid: "wikidata/105855391",
+    source_type: SourceType::Wikidata,
     name: "RIPterm Font",
     extensions: &["fnt"],
     media_types: &["application/octet-stream"],

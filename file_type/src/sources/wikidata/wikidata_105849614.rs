@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849614: FileFormat = FileFormat {
     id: 105_849_614,
-    puid: "wikidata/105849614",
+    source_type: SourceType::Wikidata,
     name: "BGI (Borland Graphics Interface) font",
     extensions: &["chr"],
     media_types: &[],

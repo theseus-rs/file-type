@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850325: FileFormat = FileFormat {
     id: 105_850_325,
-    puid: "wikidata/105850325",
+    source_type: SourceType::Wikidata,
     name: "Azure Service Definition schema",
     extensions: &["csdef"],
     media_types: &["text/xml"],

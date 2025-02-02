@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856692: FileFormat = FileFormat {
     id: 105_856_692,
-    puid: "wikidata/105856692",
+    source_type: SourceType::Wikidata,
     name: "UltraDesign Font",
     extensions: &["ufnt"],
     media_types: &["application/octet-stream"],

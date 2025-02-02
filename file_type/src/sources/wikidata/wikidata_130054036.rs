@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_130054036: FileFormat = FileFormat {
     id: 130_054_036,
-    puid: "wikidata/130054036",
+    source_type: SourceType::Wikidata,
     name: "Juttle source code file",
-    extensions: &["juttle", "juttle", "juttle", "juttle"],
+    extensions: &["juttle"],
     media_types: &[
         "application/juttle",
         "application/x-juttle",

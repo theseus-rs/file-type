@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858911: FileFormat = FileFormat {
     id: 105_858_911,
-    puid: "wikidata/105858911",
+    source_type: SourceType::Wikidata,
     name: "raw Group 3 FAX bitmap",
     extensions: &["g3"],
     media_types: &["image/g3fax"],

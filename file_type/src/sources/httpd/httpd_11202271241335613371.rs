@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_11202271241335613371: FileFormat = FileFormat {
-    id: 11_202_271_241_335_613_371,
-    puid: "httpd/11202271241335613371",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "cfs compressed",
     extensions: &["cfs"],
     media_types: &["application/x-cfs-compressed"],

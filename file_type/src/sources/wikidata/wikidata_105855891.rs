@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855891: FileFormat = FileFormat {
     id: 105_855_891,
-    puid: "wikidata/105855891",
+    source_type: SourceType::Wikidata,
     name: "ACT Apricot disk image",
     extensions: &["dsk"],
     media_types: &["application/octet-stream"],

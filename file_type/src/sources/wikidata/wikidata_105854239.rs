@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854239: FileFormat = FileFormat {
     id: 105_854_239,
-    puid: "wikidata/105854239",
+    source_type: SourceType::Wikidata,
     name: "OptionSoft WindowsXCompressor archive",
     extensions: &["gcf"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_122169726: FileFormat = FileFormat {
     id: 122_169_726,
-    puid: "wikidata/122169726",
+    source_type: SourceType::Wikidata,
     name: "crypt() Password Hash",
     extensions: &["crypt"],
     media_types: &[],

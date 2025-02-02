@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_77046081: FileFormat = FileFormat {
     id: 77_046_081,
-    puid: "wikidata/77046081",
+    source_type: SourceType::Wikidata,
     name: "MakerBot 3D print format",
     extensions: &["x3g"],
     media_types: &["application/octet-stream"],

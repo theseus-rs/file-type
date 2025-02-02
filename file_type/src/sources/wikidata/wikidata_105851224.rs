@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851224: FileFormat = FileFormat {
     id: 105_851_224,
-    puid: "wikidata/105851224",
+    source_type: SourceType::Wikidata,
     name: "Abyss' Highest eXperience module (v2)",
     extensions: &["ahx"],
     media_types: &["audio/x-mod"],

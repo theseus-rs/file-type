@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_114058665: FileFormat = FileFormat {
     id: 114_058_665,
-    puid: "wikidata/114058665",
+    source_type: SourceType::Wikidata,
     name: "Canon SIF File",
     extensions: &["sif"],
     media_types: &[],

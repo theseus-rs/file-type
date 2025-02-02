@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_658679714: FileFormat = FileFormat {
     id: 658_679_714,
-    puid: "linguist/658679714",
+    source_type: SourceType::Linguist,
     name: "WebVTT",
     extensions: &["vtt"],
     media_types: &[],

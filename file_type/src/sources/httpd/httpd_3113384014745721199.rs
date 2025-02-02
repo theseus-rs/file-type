@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3113384014745721199: FileFormat = FileFormat {
-    id: 3_113_384_014_745_721_199,
-    puid: "httpd/3113384014745721199",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "xml dtd",
     extensions: &["dtd"],
     media_types: &["application/xml-dtd"],

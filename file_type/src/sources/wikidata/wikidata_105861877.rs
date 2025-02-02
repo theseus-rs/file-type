@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861877: FileFormat = FileFormat {
     id: 105_861_877,
-    puid: "wikidata/105861877",
+    source_type: SourceType::Wikidata,
     name: "MindManager Brainstorm and Process Control Map",
     extensions: &["mmap"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16639777093975277442: FileFormat = FileFormat {
-    id: 16_639_777_093_975_277_442,
-    puid: "httpd/16639777093975277442",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mobius txf",
     extensions: &["txf"],
     media_types: &["application/vnd.mobius.txf"],

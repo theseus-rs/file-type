@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851387: FileFormat = FileFormat {
     id: 105_851_387,
-    puid: "wikidata/105851387",
+    source_type: SourceType::Wikidata,
     name: "Sniffer capture",
     extensions: &["snf", "trc"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857662: FileFormat = FileFormat {
     id: 105_857_662,
-    puid: "wikidata/105857662",
+    source_type: SourceType::Wikidata,
     name: "MIT CADR Lisp Machine disk image",
     extensions: &["img"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856327: FileFormat = FileFormat {
     id: 105_856_327,
-    puid: "wikidata/105856327",
+    source_type: SourceType::Wikidata,
     name: "RomCenter format",
     extensions: &["dat"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853243: FileFormat = FileFormat {
     id: 105_853_243,
-    puid: "wikidata/105853243",
+    source_type: SourceType::Wikidata,
     name: "SoftWrap license data",
     extensions: &["sw2"],
     media_types: &["text/plain"],

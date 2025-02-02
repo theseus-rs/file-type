@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13710016921932272208: FileFormat = FileFormat {
-    id: 13_710_016_921_932_272_208,
-    puid: "httpd/13710016921932272208",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "winhlp",
     extensions: &["hlp"],
     media_types: &["application/winhlp"],

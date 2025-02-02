@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856472: FileFormat = FileFormat {
     id: 105_856_472,
-    puid: "wikidata/105856472",
+    source_type: SourceType::Wikidata,
     name: "GFA Raytrace project data (low-res)",
     extensions: &["wfl"],
     media_types: &["text/plain"],

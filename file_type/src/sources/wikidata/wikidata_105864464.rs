@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864464: FileFormat = FileFormat {
     id: 105_864_464,
-    puid: "wikidata/105864464",
+    source_type: SourceType::Wikidata,
     name: "Applause Palette",
     extensions: &["pal"],
     media_types: &["application/octet-stream"],

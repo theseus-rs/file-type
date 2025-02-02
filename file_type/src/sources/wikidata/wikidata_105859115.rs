@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859115: FileFormat = FileFormat {
     id: 105_859_115,
-    puid: "wikidata/105859115",
+    source_type: SourceType::Wikidata,
     name: "Taquart Interlace Picture bitmap",
     extensions: &["tip"],
     media_types: &["application/octet-stream"],

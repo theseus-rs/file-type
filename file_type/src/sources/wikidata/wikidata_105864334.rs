@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864334: FileFormat = FileFormat {
     id: 105_864_334,
-    puid: "wikidata/105864334",
+    source_type: SourceType::Wikidata,
     name: "The Need for Speed car Performance Specs",
     extensions: &["pbs"],
     media_types: &["application/octet-stream"],

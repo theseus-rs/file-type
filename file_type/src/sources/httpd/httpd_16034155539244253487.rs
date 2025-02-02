@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16034155539244253487: FileFormat = FileFormat {
-    id: 16_034_155_539_244_253_487,
-    puid: "httpd/16034155539244253487",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "smv",
     extensions: &["smv"],
     media_types: &["video/x-smv"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_57978134: FileFormat = FileFormat {
     id: 57_978_134,
-    puid: "wikidata/57978134",
+    source_type: SourceType::Wikidata,
     name: "ASP Control Directive File",
     extensions: &["ascx"],
     media_types: &[],

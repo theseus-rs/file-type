@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855618: FileFormat = FileFormat {
     id: 105_855_618,
-    puid: "wikidata/105855618",
+    source_type: SourceType::Wikidata,
     name: "Openlab Raw Format",
     extensions: &["olr", "olrw"],
     media_types: &[],

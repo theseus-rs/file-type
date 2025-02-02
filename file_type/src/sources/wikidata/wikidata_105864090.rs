@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864090: FileFormat = FileFormat {
     id: 105_864_090,
-    puid: "wikidata/105864090",
+    source_type: SourceType::Wikidata,
     name: "Yamaha BULK Manager Messages",
     extensions: &["msg"],
     media_types: &["application/octet-stream"],

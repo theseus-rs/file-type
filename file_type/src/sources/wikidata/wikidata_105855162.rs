@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855162: FileFormat = FileFormat {
     id: 105_855_162,
-    puid: "wikidata/105855162",
+    source_type: SourceType::Wikidata,
     name: "Psion fast Font",
     extensions: &["fon"],
     media_types: &["application/octet-stream"],

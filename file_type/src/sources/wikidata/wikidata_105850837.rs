@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850837: FileFormat = FileFormat {
     id: 105_850_837,
-    puid: "wikidata/105850837",
+    source_type: SourceType::Wikidata,
     name: "FL Studio bass drum preset",
     extensions: &["kik"],
     media_types: &["application/octet-stream"],

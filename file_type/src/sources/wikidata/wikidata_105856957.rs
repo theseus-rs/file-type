@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856957: FileFormat = FileFormat {
     id: 105_856_957,
-    puid: "wikidata/105856957",
+    source_type: SourceType::Wikidata,
     name: "GUI Design Studio WordSpace",
     extensions: &["gdws"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855298: FileFormat = FileFormat {
     id: 105_855_298,
-    puid: "wikidata/105855298",
+    source_type: SourceType::Wikidata,
     name: "OpenDocument Flat XML Spreadsheet",
     extensions: &["fods"],
     media_types: &[],

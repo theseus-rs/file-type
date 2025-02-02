@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857692: FileFormat = FileFormat {
     id: 105_857_692,
-    puid: "wikidata/105857692",
+    source_type: SourceType::Wikidata,
     name: "Archimedes Protected Disk image (unzipped)",
     extensions: &["adp"],
     media_types: &["application/octet-stream"],

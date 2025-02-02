@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867007: FileFormat = FileFormat {
     id: 105_867_007,
-    puid: "wikidata/105867007",
+    source_type: SourceType::Wikidata,
     name: "Rumble Fighter game data archive",
     extensions: &["nsz"],
     media_types: &["application/octet-stream"],

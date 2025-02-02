@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852251: FileFormat = FileFormat {
     id: 105_852_251,
-    puid: "wikidata/105852251",
+    source_type: SourceType::Wikidata,
     name: "Scid player/event/site/round data",
     extensions: &["sn3", "sn4"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

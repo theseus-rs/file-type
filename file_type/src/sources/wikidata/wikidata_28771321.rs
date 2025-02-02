@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28771321: FileFormat = FileFormat {
     id: 28_771_321,
-    puid: "wikidata/28771321",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Update Standalone Package",
-    extensions: &["msu", "msu"],
+    extensions: &["msu"],
     media_types: &["application/vnd.ms-cab-compressed", "text/xml"],
     internal_signatures: &[
         InternalSignature {

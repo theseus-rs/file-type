@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864579: FileFormat = FileFormat {
     id: 105_864_579,
-    puid: "wikidata/105864579",
+    source_type: SourceType::Wikidata,
     name: "WSUS Patch Storage File",
     extensions: &["psf"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_36: FileFormat = FileFormat {
     id: 36,
-    puid: "linguist/36",
+    source_type: SourceType::Linguist,
     name: "Bluespec",
     extensions: &["bsv"],
     media_types: &["text/x-systemverilog"],

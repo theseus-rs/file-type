@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858981: FileFormat = FileFormat {
     id: 105_858_981,
-    puid: "wikidata/105858981",
+    source_type: SourceType::Wikidata,
     name: "STJ Stereoscopic bitmap",
     extensions: &["stj"],
     media_types: &["application/octet-stream"],

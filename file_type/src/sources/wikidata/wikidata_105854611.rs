@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854611: FileFormat = FileFormat {
     id: 105_854_611,
-    puid: "wikidata/105854611",
+    source_type: SourceType::Wikidata,
     name: "Norton pcAnywhere Automated Procedures",
     extensions: &["ap6"],
     media_types: &["application/octet-stream"],

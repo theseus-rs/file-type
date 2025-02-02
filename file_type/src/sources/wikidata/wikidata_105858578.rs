@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858578: FileFormat = FileFormat {
     id: 105_858_578,
-    puid: "wikidata/105858578",
+    source_type: SourceType::Wikidata,
     name: "CHDK UBASIC script (with rem)",
     extensions: &["bas"],
     media_types: &[],

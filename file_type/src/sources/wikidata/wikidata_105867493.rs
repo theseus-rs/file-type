@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867493: FileFormat = FileFormat {
     id: 105_867_493,
-    puid: "wikidata/105867493",
+    source_type: SourceType::Wikidata,
     name: "NoiseTrekker v2.0 module",
     extensions: &["ntk"],
     media_types: &["audio/x-mod"],

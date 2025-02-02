@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859210: FileFormat = FileFormat {
     id: 105_859_210,
-    puid: "wikidata/105859210",
+    source_type: SourceType::Wikidata,
     name: "Encrypted Blender 3D data",
     extensions: &["block"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850412: FileFormat = FileFormat {
     id: 105_850_412,
-    puid: "wikidata/105850412",
+    source_type: SourceType::Wikidata,
     name: "PaintShow Font",
     extensions: &["chr"],
     media_types: &["application/octet-stream"],

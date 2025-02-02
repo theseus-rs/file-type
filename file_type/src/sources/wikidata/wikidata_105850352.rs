@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850352: FileFormat = FileFormat {
     id: 105_850_352,
-    puid: "wikidata/105850352",
+    source_type: SourceType::Wikidata,
     name: "QuickLink Fax Cover",
     extensions: &["cvr"],
     media_types: &["application/octet-stream"],

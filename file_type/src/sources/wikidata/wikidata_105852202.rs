@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852202: FileFormat = FileFormat {
     id: 105_852_202,
-    puid: "wikidata/105852202",
+    source_type: SourceType::Wikidata,
     name: "OpenTTD savegame",
     extensions: &["sav"],
     media_types: &[],

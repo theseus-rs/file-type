@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_558193693: FileFormat = FileFormat {
     id: 558_193_693,
-    puid: "linguist/558193693",
+    source_type: SourceType::Linguist,
     name: "Qt Script",
     extensions: &["qs"],
     media_types: &["text/javascript"],

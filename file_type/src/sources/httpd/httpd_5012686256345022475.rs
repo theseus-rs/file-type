@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5012686256345022475: FileFormat = FileFormat {
-    id: 5_012_686_256_345_022_475,
-    puid: "httpd/5012686256345022475",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "dvb ait",
     extensions: &["ait"],
     media_types: &["application/vnd.dvb.ait"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863903: FileFormat = FileFormat {
     id: 105_863_903,
-    puid: "wikidata/105863903",
+    source_type: SourceType::Wikidata,
     name: "TiEmu keys Maping",
     extensions: &["map"],
     media_types: &["text/plain"],

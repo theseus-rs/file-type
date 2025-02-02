@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858420: FileFormat = FileFormat {
     id: 105_858_420,
-    puid: "wikidata/105858420",
+    source_type: SourceType::Wikidata,
     name: "STK Ephemeris format",
     extensions: &["e"],
     media_types: &["text/plain"],

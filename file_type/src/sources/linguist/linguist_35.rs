@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_35: FileFormat = FileFormat {
     id: 35,
-    puid: "linguist/35",
+    source_type: SourceType::Linguist,
     name: "BlitzMax",
     extensions: &["bmx"],
     media_types: &[],

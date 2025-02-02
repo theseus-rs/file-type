@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854586: FileFormat = FileFormat {
     id: 105_854_586,
-    puid: "wikidata/105854586",
+    source_type: SourceType::Wikidata,
     name: "Motion Analysis Corp. ANC format",
     extensions: &["anc"],
     media_types: &["text/plain"],

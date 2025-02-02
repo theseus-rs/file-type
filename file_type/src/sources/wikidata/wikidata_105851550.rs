@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851550: FileFormat = FileFormat {
     id: 105_851_550,
-    puid: "wikidata/105851550",
+    source_type: SourceType::Wikidata,
     name: "Tempus Word NG Document (generic)",
     extensions: &["twd"],
     media_types: &["application/octet-stream"],

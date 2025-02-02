@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860384: FileFormat = FileFormat {
     id: 105_860_384,
-    puid: "wikidata/105860384",
+    source_type: SourceType::Wikidata,
     name: "Ren'Py Compiled game",
     extensions: &["rpyc"],
     media_types: &["application/octet-stream"],

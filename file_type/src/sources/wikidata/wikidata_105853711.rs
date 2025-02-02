@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853711: FileFormat = FileFormat {
     id: 105_853_711,
-    puid: "wikidata/105853711",
+    source_type: SourceType::Wikidata,
     name: "Animecha Animation Data",
     extensions: &["amd"],
     media_types: &["application/octet-stream"],

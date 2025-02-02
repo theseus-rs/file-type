@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856403: FileFormat = FileFormat {
     id: 105_856_403,
-    puid: "wikidata/105856403",
+    source_type: SourceType::Wikidata,
     name: "WatchMaker Watch face",
     extensions: &["watch"],
     media_types: &["application/octet-stream"],

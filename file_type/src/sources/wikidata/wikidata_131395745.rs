@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_131395745: FileFormat = FileFormat {
     id: 131_395_745,
-    puid: "wikidata/131395745",
+    source_type: SourceType::Wikidata,
     name: "VGL source code file",
     extensions: &["rpf"],
     media_types: &[],

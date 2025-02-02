@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_1067292663: FileFormat = FileFormat {
     id: 1_067_292_663,
-    puid: "linguist/1067292663",
+    source_type: SourceType::Linguist,
     name: "Antlers",
     extensions: &["antlers.html", "antlers.php", "antlers.xml"],
     media_types: &[],

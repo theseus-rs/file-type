@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860116: FileFormat = FileFormat {
     id: 105_860_116,
-    puid: "wikidata/105860116",
+    source_type: SourceType::Wikidata,
     name: "RJP1 / Vectordean instrument",
     extensions: &["ins"],
     media_types: &["application/octet-stream"],

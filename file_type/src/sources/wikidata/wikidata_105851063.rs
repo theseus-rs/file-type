@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851063: FileFormat = FileFormat {
     id: 105_851_063,
-    puid: "wikidata/105851063",
+    source_type: SourceType::Wikidata,
     name: "TVgenial Skin",
     extensions: &["tvgskin"],
     media_types: &[],

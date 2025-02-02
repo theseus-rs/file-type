@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_130535810: FileFormat = FileFormat {
     id: 130_535_810,
-    puid: "wikidata/130535810",
+    source_type: SourceType::Wikidata,
     name: "PromQL query file format",
     extensions: &["promql"],
     media_types: &[],

@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857550: FileFormat = FileFormat {
     id: 105_857_550,
-    puid: "wikidata/105857550",
+    source_type: SourceType::Wikidata,
     name: "TheDraw Pascal screen Image",
     extensions: &["imm", "pas"],
-    media_types: &["text/plain", "text/plain"],
+    media_types: &["text/plain"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

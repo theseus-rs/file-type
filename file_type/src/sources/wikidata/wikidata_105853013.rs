@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853013: FileFormat = FileFormat {
     id: 105_853_013,
-    puid: "wikidata/105853013",
+    source_type: SourceType::Wikidata,
     name: "Storybook Weaver Deluxe for Windows Story (v2.00)",
     extensions: &["sts", "swd"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

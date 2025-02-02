@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852470: FileFormat = FileFormat {
     id: 105_852_470,
-    puid: "wikidata/105852470",
+    source_type: SourceType::Wikidata,
     name: "BinkleyTerm Schedule data",
     extensions: &["scd"],
     media_types: &["application/octet-stream"],

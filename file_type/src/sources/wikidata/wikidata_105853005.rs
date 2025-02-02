@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853005: FileFormat = FileFormat {
     id: 105_853_005,
-    puid: "wikidata/105853005",
+    source_type: SourceType::Wikidata,
     name: "Sampbox 4 Macro",
     extensions: &["sam"],
     media_types: &["application/octet-stream"],

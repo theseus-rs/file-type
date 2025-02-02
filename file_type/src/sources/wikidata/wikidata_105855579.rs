@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855579: FileFormat = FileFormat {
     id: 105_855_579,
-    puid: "wikidata/105855579",
+    source_type: SourceType::Wikidata,
     name: "OPAM package info",
     extensions: &["opam"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866967: FileFormat = FileFormat {
     id: 105_866_967,
-    puid: "wikidata/105866967",
+    source_type: SourceType::Wikidata,
     name: "Neko bytecode",
     extensions: &["n"],
     media_types: &[],

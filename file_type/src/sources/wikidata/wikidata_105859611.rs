@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859611: FileFormat = FileFormat {
     id: 105_859_611,
-    puid: "wikidata/105859611",
+    source_type: SourceType::Wikidata,
     name: "VMware supplemental team member configuration",
     extensions: &["vmxf"],
     media_types: &[],

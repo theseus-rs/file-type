@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861360: FileFormat = FileFormat {
     id: 105_861_360,
-    puid: "wikidata/105861360",
+    source_type: SourceType::Wikidata,
     name: "Logitech Video Effects Face Accessory",
     extensions: &["lvf"],
     media_types: &[],

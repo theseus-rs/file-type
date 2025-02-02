@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854114: FileFormat = FileFormat {
     id: 105_854_114,
-    puid: "wikidata/105854114",
+    source_type: SourceType::Wikidata,
     name: "1Password Cloud Keychain",
     extensions: &["attachment"],
     media_types: &["application/octet-stream"],

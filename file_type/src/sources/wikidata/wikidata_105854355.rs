@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854355: FileFormat = FileFormat {
     id: 105_854_355,
-    puid: "wikidata/105854355",
+    source_type: SourceType::Wikidata,
     name: "EXT1 Extended Amiga Disk image File",
     extensions: &["adf"],
     media_types: &["application/x-amiga-disk-format"],

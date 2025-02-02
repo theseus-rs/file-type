@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852116: FileFormat = FileFormat {
     id: 105_852_116,
-    puid: "wikidata/105852116",
+    source_type: SourceType::Wikidata,
     name: "Dirk Bialluch TPU samples",
     extensions: &["smp"],
     media_types: &["application/octet-stream"],

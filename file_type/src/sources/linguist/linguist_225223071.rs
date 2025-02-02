@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_225223071: FileFormat = FileFormat {
     id: 225_223_071,
-    puid: "linguist/225223071",
+    source_type: SourceType::Linguist,
     name: "Xmake",
     extensions: &[],
     media_types: &[],

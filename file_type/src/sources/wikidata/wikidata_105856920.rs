@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856920: FileFormat = FileFormat {
     id: 105_856_920,
-    puid: "wikidata/105856920",
+    source_type: SourceType::Wikidata,
     name: "GOM 3D data",
     extensions: &["g3d"],
     media_types: &[],

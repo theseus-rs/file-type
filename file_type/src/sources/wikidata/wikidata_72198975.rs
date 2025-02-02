@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_72198975: FileFormat = FileFormat {
     id: 72_198_975,
-    puid: "wikidata/72198975",
+    source_type: SourceType::Wikidata,
     name: "ABBYY Lingvo dictionary file format",
     extensions: &["lsd"],
     media_types: &[],

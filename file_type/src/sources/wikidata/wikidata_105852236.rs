@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852236: FileFormat = FileFormat {
     id: 105_852_236,
-    puid: "wikidata/105852236",
+    source_type: SourceType::Wikidata,
     name: "Agon game data archive",
     extensions: &["sfl"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205832: FileFormat = FileFormat {
     id: 28_205_832,
-    puid: "wikidata/28205832",
+    source_type: SourceType::Wikidata,
     name: "Cisco IP Phone image",
     extensions: &["cip"],
     media_types: &["text/xml"],

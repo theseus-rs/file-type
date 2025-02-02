@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27959906: FileFormat = FileFormat {
     id: 27_959_906,
-    puid: "wikidata/27959906",
+    source_type: SourceType::Wikidata,
     name: "Super Studio Session song",
     extensions: &["sss"],
     media_types: &[],

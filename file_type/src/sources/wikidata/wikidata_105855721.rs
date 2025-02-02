@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855721: FileFormat = FileFormat {
     id: 105_855_721,
-    puid: "wikidata/105855721",
+    source_type: SourceType::Wikidata,
     name: "UCDOS Overlay",
     extensions: &["ovr"],
     media_types: &["application/octet-stream"],

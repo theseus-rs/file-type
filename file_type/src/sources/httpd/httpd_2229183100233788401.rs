@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2229183100233788401: FileFormat = FileFormat {
-    id: 2_229_183_100_233_788_401,
-    puid: "httpd/2229183100233788401",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "igloader",
     extensions: &["igl"],
     media_types: &["application/vnd.igloader"],

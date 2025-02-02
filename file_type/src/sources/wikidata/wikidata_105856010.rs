@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856010: FileFormat = FileFormat {
     id: 105_856_010,
-    puid: "wikidata/105856010",
+    source_type: SourceType::Wikidata,
     name: "L3DT Design Map File",
     extensions: &["dmf"],
     media_types: &["application/octet-stream"],

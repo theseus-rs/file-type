@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_372063053: FileFormat = FileFormat {
     id: 372_063_053,
-    puid: "linguist/372063053",
+    source_type: SourceType::Linguist,
     name: "Checksums",
     extensions: &[
         "crc32",

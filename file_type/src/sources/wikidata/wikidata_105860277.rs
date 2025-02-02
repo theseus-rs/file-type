@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860277: FileFormat = FileFormat {
     id: 105_860_277,
-    puid: "wikidata/105860277",
+    source_type: SourceType::Wikidata,
     name: "RASTER Music Tracker Instrument",
     extensions: &["rti"],
     media_types: &["application/octet-stream"],

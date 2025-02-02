@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853713: FileFormat = FileFormat {
     id: 105_853_713,
-    puid: "wikidata/105853713",
+    source_type: SourceType::Wikidata,
     name: "Windows 8 Appx Package Manifest",
     extensions: &["appxmanifest"],
     media_types: &[],

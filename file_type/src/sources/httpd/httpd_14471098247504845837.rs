@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14471098247504845837: FileFormat = FileFormat {
-    id: 14_471_098_247_504_845_837,
-    puid: "httpd/14471098247504845837",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "nokia n gage data",
     extensions: &["ngdat"],
     media_types: &["application/vnd.nokia.n-gage.data"],

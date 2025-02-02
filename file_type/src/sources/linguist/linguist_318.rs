@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_318: FileFormat = FileFormat {
     id: 318,
-    puid: "linguist/318",
+    source_type: SourceType::Linguist,
     name: "Raw token data",
     extensions: &["raw"],
     media_types: &[],

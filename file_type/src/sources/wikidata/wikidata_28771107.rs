@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28771107: FileFormat = FileFormat {
     id: 28_771_107,
-    puid: "wikidata/28771107",
+    source_type: SourceType::Wikidata,
     name: "MAT-file, Level 4",
     extensions: &["mat"],
     media_types: &["application/x-matlab-data"],

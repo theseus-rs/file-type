@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858703: FileFormat = FileFormat {
     id: 105_858_703,
-    puid: "wikidata/105858703",
+    source_type: SourceType::Wikidata,
     name: "Magic Painter bitmap",
     extensions: &["mgp"],
     media_types: &["application/octet-stream"],

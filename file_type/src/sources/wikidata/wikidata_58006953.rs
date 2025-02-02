@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_58006953: FileFormat = FileFormat {
     id: 58_006_953,
-    puid: "wikidata/58006953",
+    source_type: SourceType::Wikidata,
     name: "TRIM Context Reference File",
     extensions: &["tr5", "txt"],
     media_types: &[],

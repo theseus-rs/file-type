@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861156: FileFormat = FileFormat {
     id: 105_861_156,
-    puid: "wikidata/105861156",
+    source_type: SourceType::Wikidata,
     name: "Adobe Lightroom Catalog",
     extensions: &["lrcat"],
     media_types: &["application/octet-stream"],

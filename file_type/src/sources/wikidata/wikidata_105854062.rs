@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854062: FileFormat = FileFormat {
     id: 105_854_062,
-    puid: "wikidata/105854062",
+    source_type: SourceType::Wikidata,
     name: "Dzip compressed archive (v0.x)",
     extensions: &["dz"],
     media_types: &["application/x-dzip"],

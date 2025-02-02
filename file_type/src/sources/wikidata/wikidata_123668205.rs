@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_123668205: FileFormat = FileFormat {
     id: 123_668_205,
-    puid: "wikidata/123668205",
+    source_type: SourceType::Wikidata,
     name: "LiveCode Stack v5.5",
     extensions: &["livecode", "rev"],
     media_types: &[],

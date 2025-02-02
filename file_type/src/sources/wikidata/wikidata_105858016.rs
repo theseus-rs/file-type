@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858016: FileFormat = FileFormat {
     id: 105_858_016,
-    puid: "wikidata/105858016",
+    source_type: SourceType::Wikidata,
     name: "HD-Copy disk image",
     extensions: &["img"],
     media_types: &["application/octet-stream"],

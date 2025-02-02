@@ -1,16 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_51370239: FileFormat = FileFormat {
     id: 51_370_239,
-    puid: "wikidata/51370239",
+    source_type: SourceType::Wikidata,
     name: "Pocket Word Document",
-    extensions: &["psw", "psw", "pwd", "pwd"],
-    media_types: &[
-        "application/x-pocket-word",
-        "application/x-pocket-word",
-        "application/x-pocket-word",
-        "application/x-pocket-word",
-    ],
+    extensions: &["psw", "pwd"],
+    media_types: &["application/x-pocket-word"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

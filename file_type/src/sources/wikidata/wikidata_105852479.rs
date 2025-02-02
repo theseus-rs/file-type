@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852479: FileFormat = FileFormat {
     id: 105_852_479,
-    puid: "wikidata/105852479",
+    source_type: SourceType::Wikidata,
     name: "SigmaNEST Shape",
     extensions: &["shp"],
     media_types: &["application/octet-stream"],

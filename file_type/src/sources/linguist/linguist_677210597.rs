@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_677210597: FileFormat = FileFormat {
     id: 677_210_597,
-    puid: "linguist/677210597",
+    source_type: SourceType::Linguist,
     name: "Oberon",
     extensions: &["ob2"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851298: FileFormat = FileFormat {
     id: 105_851_298,
-    puid: "wikidata/105851298",
+    source_type: SourceType::Wikidata,
     name: "TwinCAT Addresses data",
     extensions: &["tpa"],
     media_types: &["tex/xml"],

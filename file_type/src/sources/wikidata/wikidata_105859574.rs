@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859574: FileFormat = FileFormat {
     id: 105_859_574,
-    puid: "wikidata/105859574",
+    source_type: SourceType::Wikidata,
     name: "Electronic Arts MAD video (intra-frame)",
     extensions: &["mad"],
     media_types: &["application/octet-stream"],

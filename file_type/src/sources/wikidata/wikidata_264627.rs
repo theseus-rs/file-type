@@ -1,17 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_264627: FileFormat = FileFormat {
     id: 264_627,
-    puid: "wikidata/264627",
+    source_type: SourceType::Wikidata,
     name: "Glulx",
     extensions: &["blb", "blorb", "gblorb", "glb", "ulx"],
-    media_types: &[
-        "application/x-glulx",
-        "application/x-glulx",
-        "application/x-glulx",
-        "application/x-glulx",
-        "application/x-glulx",
-    ],
+    media_types: &["application/x-glulx"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

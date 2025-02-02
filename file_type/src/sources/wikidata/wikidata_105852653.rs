@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852653: FileFormat = FileFormat {
     id: 105_852_653,
-    puid: "wikidata/105852653",
+    source_type: SourceType::Wikidata,
     name: "PlayStation Sequence data format",
     extensions: &["seq"],
     media_types: &["application/octet-stream"],

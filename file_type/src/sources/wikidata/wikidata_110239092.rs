@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_110239092: FileFormat = FileFormat {
     id: 110_239_092,
-    puid: "wikidata/110239092",
+    source_type: SourceType::Wikidata,
     name: "Avid Editor Format",
     extensions: &["txt"],
     media_types: &[],

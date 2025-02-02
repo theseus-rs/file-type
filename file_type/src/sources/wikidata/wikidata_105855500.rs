@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855500: FileFormat = FileFormat {
     id: 105_855_500,
-    puid: "wikidata/105855500",
+    source_type: SourceType::Wikidata,
     name: "Micro Magic Forms in Flight Animation",
     extensions: &["mma"],
     media_types: &["application/octet-stream"],

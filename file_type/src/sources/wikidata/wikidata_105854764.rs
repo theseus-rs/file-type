@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854764: FileFormat = FileFormat {
     id: 105_854_764,
-    puid: "wikidata/105854764",
+    source_type: SourceType::Wikidata,
     name: "Big Mutha Truckers 2 game data Archive",
     extensions: &["ar"],
     media_types: &["application/octet-stream"],

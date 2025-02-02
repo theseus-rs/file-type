@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862976: FileFormat = FileFormat {
     id: 105_862_976,
-    puid: "wikidata/105862976",
+    source_type: SourceType::Wikidata,
     name: "Mystic BBS install package",
     extensions: &["mys"],
     media_types: &["application/octet-stream"],

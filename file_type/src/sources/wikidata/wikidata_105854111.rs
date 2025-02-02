@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854111: FileFormat = FileFormat {
     id: 105_854_111,
-    puid: "wikidata/105854111",
+    source_type: SourceType::Wikidata,
     name: "Away3D scene (v2.x)",
     extensions: &["awd"],
     media_types: &["application/octet-stream"],

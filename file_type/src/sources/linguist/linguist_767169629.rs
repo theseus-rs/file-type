@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_767169629: FileFormat = FileFormat {
     id: 767_169_629,
-    puid: "linguist/767169629",
+    source_type: SourceType::Linguist,
     name: "Spline Font Database",
     extensions: &["sfd"],
     media_types: &[],

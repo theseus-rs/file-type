@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862726: FileFormat = FileFormat {
     id: 105_862_726,
-    puid: "wikidata/105862726",
+    source_type: SourceType::Wikidata,
     name: "Twist Mailmerge script",
     extensions: &["m"],
     media_types: &["text/plain"],

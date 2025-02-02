@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866071: FileFormat = FileFormat {
     id: 105_866_071,
-    puid: "wikidata/105866071",
+    source_type: SourceType::Wikidata,
     name: "Poste Italiane Email Digital Postmark",
     extensions: &["pie"],
     media_types: &["text/xml"],

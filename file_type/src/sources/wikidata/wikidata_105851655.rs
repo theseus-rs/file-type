@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851655: FileFormat = FileFormat {
     id: 105_851_655,
-    puid: "wikidata/105851655",
+    source_type: SourceType::Wikidata,
     name: "Fusion 360 Simulation Mesh DB",
     extensions: &["simmeshdb"],
     media_types: &["text/xml"],

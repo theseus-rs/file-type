@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_201: FileFormat = FileFormat {
     id: 201,
-    puid: "linguist/201",
+    source_type: SourceType::Linguist,
     name: "Limbo",
     extensions: &["b", "m"],
     media_types: &[],

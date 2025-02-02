@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849905: FileFormat = FileFormat {
     id: 105_849_905,
-    puid: "wikidata/105849905",
+    source_type: SourceType::Wikidata,
     name: "OCaml bytecode (compiled interface)",
     extensions: &["cmi"],
     media_types: &["application/octet-stream"],

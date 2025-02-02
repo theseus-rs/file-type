@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858748: FileFormat = FileFormat {
     id: 105_858_748,
-    puid: "wikidata/105858748",
+    source_type: SourceType::Wikidata,
     name: "Adobe Bridge Thumbnail cache",
     extensions: &["bct"],
     media_types: &[],

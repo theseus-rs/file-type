@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851540: FileFormat = FileFormat {
     id: 105_851_540,
-    puid: "wikidata/105851540",
+    source_type: SourceType::Wikidata,
     name: "Adobe Tagged Text (ASCII)",
     extensions: &["txt"],
     media_types: &["text/plain"],

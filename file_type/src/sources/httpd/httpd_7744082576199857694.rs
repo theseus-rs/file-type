@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_7744082576199857694: FileFormat = FileFormat {
-    id: 7_744_082_576_199_857_694,
-    puid: "httpd/7744082576199857694",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "dece mobile",
     extensions: &["uvm", "uvvm"],
     media_types: &["video/vnd.dece.mobile"],

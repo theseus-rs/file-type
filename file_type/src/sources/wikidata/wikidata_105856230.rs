@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856230: FileFormat = FileFormat {
     id: 105_856_230,
-    puid: "wikidata/105856230",
+    source_type: SourceType::Wikidata,
     name: "SharePoint Portal Server Dashboard Web Part (Unicode)",
     extensions: &["dwp"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105762768: FileFormat = FileFormat {
     id: 105_762_768,
-    puid: "wikidata/105762768",
+    source_type: SourceType::Wikidata,
     name: "ACER REMIT XML format",
     extensions: &["xml"],
     media_types: &["application/octet-stream"],

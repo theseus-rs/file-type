@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858930: FileFormat = FileFormat {
     id: 105_858_930,
-    puid: "wikidata/105858930",
+    source_type: SourceType::Wikidata,
     name: "VDC BitMap (v2)",
     extensions: &["bm", "vbm"],
-    media_types: &["image/x-commodore-vbm", "image/x-commodore-vbm"],
+    media_types: &["image/x-commodore-vbm"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

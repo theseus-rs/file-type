@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856294: FileFormat = FileFormat {
     id: 105_856_294,
-    puid: "wikidata/105856294",
+    source_type: SourceType::Wikidata,
     name: "Bentley MicroStation CAD drawing (complex)",
     extensions: &["dgn"],
     media_types: &["application/x-bentley-dgn"],

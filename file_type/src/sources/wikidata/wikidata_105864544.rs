@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864544: FileFormat = FileFormat {
     id: 105_864_544,
-    puid: "wikidata/105864544",
+    source_type: SourceType::Wikidata,
     name: "Sony PSP/PSVita Package (finalized/retail)",
     extensions: &["pkg"],
     media_types: &["application/octet-stream"],

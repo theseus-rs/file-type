@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867400: FileFormat = FileFormat {
     id: 105_867_400,
-    puid: "wikidata/105867400",
+    source_type: SourceType::Wikidata,
     name: "Navitel 2.0 Map",
     extensions: &["ntm"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858743: FileFormat = FileFormat {
     id: 105_858_743,
-    puid: "wikidata/105858743",
+    source_type: SourceType::Wikidata,
     name: "Paintpro bitmap (generic)",
     extensions: &["ppp"],
     media_types: &["application/octet-stream"],

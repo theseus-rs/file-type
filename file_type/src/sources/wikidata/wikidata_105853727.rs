@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853727: FileFormat = FileFormat {
     id: 105_853_727,
-    puid: "wikidata/105853727",
+    source_type: SourceType::Wikidata,
     name: "CD Autorun Creator package",
     extensions: &["arn"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860160: FileFormat = FileFormat {
     id: 105_860_160,
-    puid: "wikidata/105860160",
+    source_type: SourceType::Wikidata,
     name: "FLEXIT Multishot Survey Raw Data file",
     extensions: &["rsy"],
     media_types: &[],

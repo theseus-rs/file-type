@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860602: FileFormat = FileFormat {
     id: 105_860_602,
-    puid: "wikidata/105860602",
+    source_type: SourceType::Wikidata,
     name: "Revolution MetaCard stack",
     extensions: &["livecode", "rev"],
     media_types: &[],

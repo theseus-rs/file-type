@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866476: FileFormat = FileFormat {
     id: 105_866_476,
-    puid: "wikidata/105866476",
+    source_type: SourceType::Wikidata,
     name: "Messenger Plus! Skin Pack",
     extensions: &["plsk"],
     media_types: &[],

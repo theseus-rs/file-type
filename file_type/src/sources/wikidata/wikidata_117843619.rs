@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_117843619: FileFormat = FileFormat {
     id: 117_843_619,
-    puid: "wikidata/117843619",
+    source_type: SourceType::Wikidata,
     name: "Gammalink Gamma Fax file",
     extensions: &["gam"],
     media_types: &[],

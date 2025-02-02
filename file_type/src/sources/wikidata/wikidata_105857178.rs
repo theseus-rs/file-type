@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857178: FileFormat = FileFormat {
     id: 105_857_178,
-    puid: "wikidata/105857178",
+    source_type: SourceType::Wikidata,
     name: "Hi-MD Minidisc key container",
     extensions: &["hma"],
     media_types: &["application/octet-stream"],

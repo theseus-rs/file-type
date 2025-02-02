@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858271: FileFormat = FileFormat {
     id: 105_858_271,
-    puid: "wikidata/105858271",
+    source_type: SourceType::Wikidata,
     name: "EDraw Max drawing",
     extensions: &["edx"],
     media_types: &[],

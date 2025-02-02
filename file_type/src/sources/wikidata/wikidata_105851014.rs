@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851014: FileFormat = FileFormat {
     id: 105_851_014,
-    puid: "wikidata/105851014",
+    source_type: SourceType::Wikidata,
     name: "Timeline schedule (v2.0)",
     extensions: &["t@0"],
     media_types: &["application/octet-stream"],

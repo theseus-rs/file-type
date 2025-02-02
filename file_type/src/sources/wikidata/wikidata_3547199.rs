@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_3547199: FileFormat = FileFormat {
     id: 3_547_199,
-    puid: "wikidata/3547199",
+    source_type: SourceType::Wikidata,
     name: "UHARC archive",
     extensions: &["uha"],
     media_types: &["application/x-uha-compressed"],

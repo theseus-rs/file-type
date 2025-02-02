@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17267006425445237121: FileFormat = FileFormat {
-    id: 17_267_006_425_445_237_121,
-    puid: "httpd/17267006425445237121",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "pkix crl",
     extensions: &["crl"],
     media_types: &["application/pkix-crl"],

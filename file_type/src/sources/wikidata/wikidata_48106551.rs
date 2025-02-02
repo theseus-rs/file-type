@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_48106551: FileFormat = FileFormat {
     id: 48_106_551,
-    puid: "wikidata/48106551",
+    source_type: SourceType::Wikidata,
     name: "DataFlex Query Tag Name",
     extensions: &["tag"],
     media_types: &[],

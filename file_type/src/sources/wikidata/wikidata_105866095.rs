@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866095: FileFormat = FileFormat {
     id: 105_866_095,
-    puid: "wikidata/105866095",
+    source_type: SourceType::Wikidata,
     name: "Palm PocketChess deluxe games library",
     extensions: &["pdb"],
     media_types: &[],

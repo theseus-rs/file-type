@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855094: FileFormat = FileFormat {
     id: 105_855_094,
-    puid: "wikidata/105855094",
+    source_type: SourceType::Wikidata,
     name: "Psion Record/EPOC voice audio",
     extensions: &["prc"],
     media_types: &["application/octet-stream"],

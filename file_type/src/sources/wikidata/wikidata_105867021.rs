@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867021: FileFormat = FileFormat {
     id: 105_867_021,
-    puid: "wikidata/105867021",
+    source_type: SourceType::Wikidata,
     name: "NI MASCHINE MK2 template",
     extensions: &["ncm2"],
     media_types: &["text/xml"],

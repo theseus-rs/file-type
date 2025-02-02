@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861333: FileFormat = FileFormat {
     id: 105_861_333,
-    puid: "wikidata/105861333",
+    source_type: SourceType::Wikidata,
     name: "LimeSurvey Group structure",
     extensions: &["lsg"],
     media_types: &["text/xml"],

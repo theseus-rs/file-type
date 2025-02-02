@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16923941215688082693: FileFormat = FileFormat {
-    id: 16_923_941_215_688_082_693,
-    puid: "httpd/16923941215688082693",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "noblenet web",
     extensions: &["nnw"],
     media_types: &["application/vnd.noblenet-web"],

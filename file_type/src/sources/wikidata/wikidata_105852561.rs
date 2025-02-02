@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852561: FileFormat = FileFormat {
     id: 105_852_561,
-    puid: "wikidata/105852561",
+    source_type: SourceType::Wikidata,
     name: "Siemens mobile theme",
     extensions: &["sdt"],
     media_types: &[],

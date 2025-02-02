@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16352059154170337709: FileFormat = FileFormat {
-    id: 16_352_059_154_170_337_709,
-    puid: "httpd/16352059154170337709",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "fuzzysheet",
     extensions: &["fzs"],
     media_types: &["application/vnd.fuzzysheet"],

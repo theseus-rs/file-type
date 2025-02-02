@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857812: FileFormat = FileFormat {
     id: 105_857_812,
-    puid: "wikidata/105857812",
+    source_type: SourceType::Wikidata,
     name: "Popcorn Mail configuration",
     extensions: &["ini"],
     media_types: &["text/ini"],

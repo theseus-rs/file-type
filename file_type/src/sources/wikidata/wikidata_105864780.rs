@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864780: FileFormat = FileFormat {
     id: 105_864_780,
-    puid: "wikidata/105864780",
+    source_type: SourceType::Wikidata,
     name: "PlayStation RSD Pivot (v3.0)",
     extensions: &["pvt"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855271: FileFormat = FileFormat {
     id: 105_855_271,
-    puid: "wikidata/105855271",
+    source_type: SourceType::Wikidata,
     name: "FireFly menu definition",
     extensions: &["txt"],
     media_types: &[],

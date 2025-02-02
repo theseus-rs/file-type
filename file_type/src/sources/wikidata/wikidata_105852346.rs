@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852346: FileFormat = FileFormat {
     id: 105_852_346,
-    puid: "wikidata/105852346",
+    source_type: SourceType::Wikidata,
     name: "Ground Control II: Operation Exodus game data archive",
     extensions: &["sdf"],
     media_types: &["application/octet-stream"],

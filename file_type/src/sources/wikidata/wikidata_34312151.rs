@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_34312151: FileFormat = FileFormat {
     id: 34_312_151,
-    puid: "wikidata/34312151",
+    source_type: SourceType::Wikidata,
     name: "Macromedia Director, uncompressed PC variant",
     extensions: &["dir"],
     media_types: &["application/x-director"],

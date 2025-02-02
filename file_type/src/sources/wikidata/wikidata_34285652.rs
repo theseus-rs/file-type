@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_34285652: FileFormat = FileFormat {
     id: 34_285_652,
-    puid: "wikidata/34285652",
+    source_type: SourceType::Wikidata,
     name: "Perl Common Gateway Interface script",
     extensions: &["cgi", "fcgi"],
     media_types: &[],

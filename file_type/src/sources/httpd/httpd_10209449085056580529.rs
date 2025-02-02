@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10209449085056580529: FileFormat = FileFormat {
-    id: 10_209_449_085_056_580_529,
-    puid: "httpd/10209449085056580529",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "msmediaview",
     extensions: &["mvb", "m13", "m14"],
     media_types: &["application/x-msmediaview"],

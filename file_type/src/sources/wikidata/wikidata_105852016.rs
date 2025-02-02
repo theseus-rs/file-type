@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852016: FileFormat = FileFormat {
     id: 105_852_016,
-    puid: "wikidata/105852016",
+    source_type: SourceType::Wikidata,
     name: "SOAP message",
     extensions: &["xml"],
     media_types: &[],

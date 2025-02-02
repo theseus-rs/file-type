@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856079: FileFormat = FileFormat {
     id: 105_856_079,
-    puid: "wikidata/105856079",
+    source_type: SourceType::Wikidata,
     name: "Windows Device Metadata",
     extensions: &["devicemetadata-ms"],
     media_types: &["application/vnd.ms-cab-compressed"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854237: FileFormat = FileFormat {
     id: 105_854_237,
-    puid: "wikidata/105854237",
+    source_type: SourceType::Wikidata,
     name: "Qt Assistant Documentation Profile",
     extensions: &["adp"],
     media_types: &["text/xml"],

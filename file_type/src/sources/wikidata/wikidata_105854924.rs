@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854924: FileFormat = FileFormat {
     id: 105_854_924,
-    puid: "wikidata/105854924",
+    source_type: SourceType::Wikidata,
     name: "Psion serie 3 AICA Sound Compressor audio",
     extensions: &["aik"],
     media_types: &["application/octet-stream"],

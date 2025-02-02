@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853413: FileFormat = FileFormat {
     id: 105_853_413,
-    puid: "wikidata/105853413",
+    source_type: SourceType::Wikidata,
     name: "Doom Eternal Resource Archives",
     extensions: &["streamdb"],
     media_types: &["application/octet-stream"],

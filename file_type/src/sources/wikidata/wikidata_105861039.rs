@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861039: FileFormat = FileFormat {
     id: 105_861_039,
-    puid: "wikidata/105861039",
+    source_type: SourceType::Wikidata,
     name: "Sony PS3 LZRC compressed data",
     extensions: &["lzrc"],
     media_types: &["application/octet-stream"],

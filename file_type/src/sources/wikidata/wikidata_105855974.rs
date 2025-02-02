@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855974: FileFormat = FileFormat {
     id: 105_855_974,
-    puid: "wikidata/105855974",
+    source_type: SourceType::Wikidata,
     name: "Borland Delphi - C++ Builder Form (var.3)",
     extensions: &["dfm"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858643: FileFormat = FileFormat {
     id: 105_858_643,
-    puid: "wikidata/105858643",
+    source_type: SourceType::Wikidata,
     name: "Bank Street Writer dictionary",
     extensions: &["bsw"],
     media_types: &["application/octet-stream"],

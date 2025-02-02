@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_255: FileFormat = FileFormat {
     id: 255,
-    puid: "linguist/255",
+    source_type: SourceType::Linguist,
     name: "OCaml",
     extensions: &["eliom", "eliomi", "ml", "ml4", "mli", "mll", "mly"],
     media_types: &["text/x-ocaml"],

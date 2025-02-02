@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27861492: FileFormat = FileFormat {
     id: 27_861_492,
-    puid: "wikidata/27861492",
+    source_type: SourceType::Wikidata,
     name: "Renoise Song, version 37",
     extensions: &["xrns"],
     media_types: &[],

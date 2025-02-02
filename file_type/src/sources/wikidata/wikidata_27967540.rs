@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967540: FileFormat = FileFormat {
     id: 27_967_540,
-    puid: "wikidata/27967540",
+    source_type: SourceType::Wikidata,
     name: "Cyber Paint Sequence",
     extensions: &["seq"],
     media_types: &["application/octet-stream"],

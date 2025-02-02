@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857399: FileFormat = FileFormat {
     id: 105_857_399,
-    puid: "wikidata/105857399",
+    source_type: SourceType::Wikidata,
     name: "Lemur Module",
     extensions: &["jzlib"],
     media_types: &["text/xml"],

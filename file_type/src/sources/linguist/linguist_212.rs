@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_212: FileFormat = FileFormat {
     id: 212,
-    puid: "linguist/212",
+    source_type: SourceType::Linguist,
     name: "LoomScript",
     extensions: &["ls"],
     media_types: &[],

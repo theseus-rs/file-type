@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_56827096: FileFormat = FileFormat {
     id: 56_827_096,
-    puid: "wikidata/56827096",
+    source_type: SourceType::Wikidata,
     name: "Web Assembly Binary Format",
-    extensions: &["wasm", "wasm"],
+    extensions: &["wasm"],
     media_types: &["application/octet-stream", "application/wasm"],
     internal_signatures: &[
         InternalSignature {

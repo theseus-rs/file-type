@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866672: FileFormat = FileFormat {
     id: 105_866_672,
-    puid: "wikidata/105866672",
+    source_type: SourceType::Wikidata,
     name: "Pebble Draw Command sequence",
     extensions: &["pdc"],
     media_types: &["application/octet-stream"],

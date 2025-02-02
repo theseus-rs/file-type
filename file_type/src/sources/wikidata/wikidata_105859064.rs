@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859064: FileFormat = FileFormat {
     id: 105_859_064,
-    puid: "wikidata/105859064",
+    source_type: SourceType::Wikidata,
     name: "NASA PDS labeled bitmap",
     extensions: &["ibg"],
     media_types: &["application/octet-stream"],

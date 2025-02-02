@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_2: FileFormat = FileFormat {
     id: 2,
-    puid: "linguist/2",
+    source_type: SourceType::Linguist,
     name: "AGS Script",
     extensions: &["asc", "ash"],
     media_types: &["text/x-c++src"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863796: FileFormat = FileFormat {
     id: 105_863_796,
-    puid: "wikidata/105863796",
+    source_type: SourceType::Wikidata,
     name: "7DTD player Map",
     extensions: &["map"],
     media_types: &["application/octet-stream"],

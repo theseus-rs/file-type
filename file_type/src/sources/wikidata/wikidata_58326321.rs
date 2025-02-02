@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_58326321: FileFormat = FileFormat {
     id: 58_326_321,
-    puid: "wikidata/58326321",
+    source_type: SourceType::Wikidata,
     name: "Tableau Workbook",
     extensions: &["twb"],
     media_types: &["text/xml"],

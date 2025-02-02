@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851264: FileFormat = FileFormat {
     id: 105_851_264,
-    puid: "wikidata/105851264",
+    source_type: SourceType::Wikidata,
     name: "Turbo BASIC configuration",
     extensions: &["tb"],
     media_types: &["application/octet-stream"],

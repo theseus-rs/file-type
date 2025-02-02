@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10097865076610039677: FileFormat = FileFormat {
-    id: 10_097_865_076_610_039_677,
-    puid: "httpd/10097865076610039677",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "srgs",
     extensions: &["gram"],
     media_types: &["application/srgs"],

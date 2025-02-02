@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856509: FileFormat = FileFormat {
     id: 105_856_509,
-    puid: "wikidata/105856509",
+    source_type: SourceType::Wikidata,
     name: "WLF WolfMAME recording info",
     extensions: &["wlf"],
     media_types: &["application/octet-stream"],

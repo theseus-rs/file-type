@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856853: FileFormat = FileFormat {
     id: 105_856_853,
-    puid: "wikidata/105856853",
+    source_type: SourceType::Wikidata,
     name: "Google Maps API data",
     extensions: &["getviewportinfo"],
     media_types: &["text/plain"],

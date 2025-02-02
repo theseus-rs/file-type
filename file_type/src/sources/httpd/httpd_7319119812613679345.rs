@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_7319119812613679345: FileFormat = FileFormat {
-    id: 7_319_119_812_613_679_345,
-    puid: "httpd/7319119812613679345",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "voicexml xml",
     extensions: &["vxml"],
     media_types: &["application/voicexml+xml"],

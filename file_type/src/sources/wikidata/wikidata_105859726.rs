@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859726: FileFormat = FileFormat {
     id: 105_859_726,
-    puid: "wikidata/105859726",
+    source_type: SourceType::Wikidata,
     name: "vCard - Business Card",
     extensions: &["vcard", "vcf"],
-    media_types: &["text/vcard", "text/vcard"],
+    media_types: &["text/vcard"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

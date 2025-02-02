@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859396: FileFormat = FileFormat {
     id: 105_859_396,
-    puid: "wikidata/105859396",
+    source_type: SourceType::Wikidata,
     name: "Q Light Controller+ Color Filters",
     extensions: &["qxcf"],
     media_types: &["text/xml"],

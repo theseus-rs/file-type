@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860937: FileFormat = FileFormat {
     id: 105_860_937,
-    puid: "wikidata/105860937",
+    source_type: SourceType::Wikidata,
     name: "RichView Format (Unicode)",
     extensions: &["rvf"],
     media_types: &["application/octet-stream"],

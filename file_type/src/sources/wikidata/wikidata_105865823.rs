@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865823: FileFormat = FileFormat {
     id: 105_865_823,
-    puid: "wikidata/105865823",
+    source_type: SourceType::Wikidata,
     name: "Picroma Plasma Graphics",
     extensions: &["plg"],
     media_types: &["application/octet-stream"],

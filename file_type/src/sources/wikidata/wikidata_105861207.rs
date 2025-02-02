@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861207: FileFormat = FileFormat {
     id: 105_861_207,
-    puid: "wikidata/105861207",
+    source_type: SourceType::Wikidata,
     name: "Veeam Backup and Replication License",
     extensions: &["lic"],
     media_types: &["text/plain"],

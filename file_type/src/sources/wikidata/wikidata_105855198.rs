@@ -1,28 +1,16 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855198: FileFormat = FileFormat {
     id: 105_855_198,
-    puid: "wikidata/105855198",
+    source_type: SourceType::Wikidata,
     name: "Assassin's Creed game data container (generic)",
     extensions: &[
         "ac1", "ac2", "ac3", "ac3mp", "ac3sp", "ac4", "ac4mp", "ac4sp", "acb", "acl", "acre",
         "acro", "acu",
     ],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

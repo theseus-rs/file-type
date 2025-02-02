@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856255: FileFormat = FileFormat {
     id: 105_856_255,
-    puid: "wikidata/105856255",
+    source_type: SourceType::Wikidata,
     name: "Vallen JPegger index",
     extensions: &["dat"],
     media_types: &[],

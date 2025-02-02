@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864430: FileFormat = FileFormat {
     id: 105_864_430,
-    puid: "wikidata/105864430",
+    source_type: SourceType::Wikidata,
     name: "Professional Music Driver PVI samples pack (v2)",
     extensions: &["pvi"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856550: FileFormat = FileFormat {
     id: 105_856_550,
-    puid: "wikidata/105856550",
+    source_type: SourceType::Wikidata,
     name: "World of Warcraft model Skeleton",
     extensions: &["skel"],
     media_types: &["application/octet-stream"],

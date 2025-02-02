@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851777: FileFormat = FileFormat {
     id: 105_851_777,
-    puid: "wikidata/105851777",
+    source_type: SourceType::Wikidata,
     name: "FileLocator Pro Search Criteria (v3.1)",
     extensions: &["srf"],
     media_types: &["application/octet-stream"],

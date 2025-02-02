@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6263140658925115359: FileFormat = FileFormat {
-    id: 6_263_140_658_925_115_359,
-    puid: "httpd/6263140658925115359",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "curl dcurl",
     extensions: &["dcurl"],
     media_types: &["text/vnd.curl.dcurl"],

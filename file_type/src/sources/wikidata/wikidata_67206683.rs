@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_67206683: FileFormat = FileFormat {
     id: 67_206_683,
-    puid: "wikidata/67206683",
+    source_type: SourceType::Wikidata,
     name: "VRML Worlds",
     extensions: &["3dv"],
     media_types: &[],

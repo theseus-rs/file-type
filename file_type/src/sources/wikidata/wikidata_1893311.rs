@@ -1,24 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_1893311: FileFormat = FileFormat {
     id: 1_893_311,
-    puid: "wikidata/1893311",
+    source_type: SourceType::Wikidata,
     name: "Material Exchange Format",
-    extensions: &[
-        "mxf", "mxf", "mxf", "mxf", "mxf", "mxf", "mxf", "mxf", "mxf", "mxf",
-    ],
-    media_types: &[
-        "application/mxf",
-        "application/mxf",
-        "application/mxf",
-        "application/mxf",
-        "application/mxf",
-        "application/mxf",
-        "application/mxf",
-        "application/mxf",
-        "application/mxf",
-        "application/mxf",
-    ],
+    extensions: &["mxf"],
+    media_types: &["application/mxf"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

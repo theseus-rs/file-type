@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29465378: FileFormat = FileFormat {
     id: 29_465_378,
-    puid: "wikidata/29465378",
+    source_type: SourceType::Wikidata,
     name: "UltraEdit project file",
     extensions: &["prj"],
     media_types: &["text/ini"],

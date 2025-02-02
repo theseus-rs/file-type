@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859479: FileFormat = FileFormat {
     id: 105_859_479,
-    puid: "wikidata/105859479",
+    source_type: SourceType::Wikidata,
     name: "Quartz Composer data",
     extensions: &["qtz"],
     media_types: &[],

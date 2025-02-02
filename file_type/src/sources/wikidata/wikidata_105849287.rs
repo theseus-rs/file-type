@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849287: FileFormat = FileFormat {
     id: 105_849_287,
-    puid: "wikidata/105849287",
+    source_type: SourceType::Wikidata,
     name: "YACE64 3D layout",
     extensions: &["y3d"],
     media_types: &["text/plain"],

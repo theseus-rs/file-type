@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867049: FileFormat = FileFormat {
     id: 105_867_049,
-    puid: "wikidata/105867049",
+    source_type: SourceType::Wikidata,
     name: "Nintendo DS title Screen",
     extensions: &["nscr"],
     media_types: &[],

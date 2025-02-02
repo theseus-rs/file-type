@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10418899209645427276: FileFormat = FileFormat {
-    id: 10_418_899_209_645_427_276,
-    puid: "httpd/10418899209645427276",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "portable anymap",
     extensions: &["pnm"],
     media_types: &["image/x-portable-anymap"],

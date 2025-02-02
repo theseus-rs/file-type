@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857759: FileFormat = FileFormat {
     id: 105_857_759,
-    puid: "wikidata/105857759",
+    source_type: SourceType::Wikidata,
     name: "Art Icons Pro - IconCollection",
     extensions: &["icc"],
     media_types: &[],

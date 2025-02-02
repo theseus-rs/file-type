@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860509: FileFormat = FileFormat {
     id: 105_860_509,
-    puid: "wikidata/105860509",
+    source_type: SourceType::Wikidata,
     name: "Rainlendar 2 Skin",
     extensions: &["r2skin"],
     media_types: &["application/octet-stream"],

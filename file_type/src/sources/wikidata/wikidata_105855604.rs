@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855604: FileFormat = FileFormat {
     id: 105_855_604,
-    puid: "wikidata/105855604",
+    source_type: SourceType::Wikidata,
     name: "EPOC OPL Object module",
     extensions: &["opo"],
     media_types: &["application/x-epoc-opo"],

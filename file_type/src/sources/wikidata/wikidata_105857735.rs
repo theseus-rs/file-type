@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857735: FileFormat = FileFormat {
     id: 105_857_735,
-    puid: "wikidata/105857735",
+    source_type: SourceType::Wikidata,
     name: "InDesign Shortcuts set (XML)",
     extensions: &["indk"],
     media_types: &["application/octet-stream"],

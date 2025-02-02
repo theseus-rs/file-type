@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850255: FileFormat = FileFormat {
     id: 105_850_255,
-    puid: "wikidata/105850255",
+    source_type: SourceType::Wikidata,
     name: "Elite game save (PC)",
     extensions: &["cdr"],
     media_types: &["application/octet-stream"],

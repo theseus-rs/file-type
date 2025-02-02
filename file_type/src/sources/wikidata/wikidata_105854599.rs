@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854599: FileFormat = FileFormat {
     id: 105_854_599,
-    puid: "wikidata/105854599",
+    source_type: SourceType::Wikidata,
     name: "Wii Virtual Console CCF archive",
     extensions: &["ccf"],
     media_types: &[],

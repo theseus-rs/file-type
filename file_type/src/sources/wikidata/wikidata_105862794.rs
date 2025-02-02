@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862794: FileFormat = FileFormat {
     id: 105_862_794,
-    puid: "wikidata/105862794",
+    source_type: SourceType::Wikidata,
     name: "Black Viper packed music",
     extensions: &["mod"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851975: FileFormat = FileFormat {
     id: 105_851_975,
-    puid: "wikidata/105851975",
+    source_type: SourceType::Wikidata,
     name: "Windows Explorer Command Shell file",
     extensions: &["scf"],
     media_types: &[],

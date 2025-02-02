@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861927: FileFormat = FileFormat {
     id: 105_861_927,
-    puid: "wikidata/105861927",
+    source_type: SourceType::Wikidata,
     name: "Cisco IOS mzip compressed data",
     extensions: &["bin"],
     media_types: &["application/octet-stream"],

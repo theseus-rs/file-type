@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860104: FileFormat = FileFormat {
     id: 105_860_104,
-    puid: "wikidata/105860104",
+    source_type: SourceType::Wikidata,
     name: "ViPlay Subtitle Format",
     extensions: &["vsf"],
     media_types: &[],

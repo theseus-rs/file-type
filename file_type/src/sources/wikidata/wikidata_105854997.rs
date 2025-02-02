@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854997: FileFormat = FileFormat {
     id: 105_854_997,
-    puid: "wikidata/105854997",
+    source_type: SourceType::Wikidata,
     name: "Oracle Audio Percussion",
     extensions: &["apc"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853321: FileFormat = FileFormat {
     id: 105_853_321,
-    puid: "wikidata/105853321",
+    source_type: SourceType::Wikidata,
     name: "SNNS pattern definition",
     extensions: &["pat"],
     media_types: &[],

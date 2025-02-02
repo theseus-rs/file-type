@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865543: FileFormat = FileFormat {
     id: 105_865_543,
-    puid: "wikidata/105865543",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Purble Pairs Saved game",
     extensions: &["purblepairssave-ms"],
     media_types: &[],

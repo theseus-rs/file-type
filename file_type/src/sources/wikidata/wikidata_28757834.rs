@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28757834: FileFormat = FileFormat {
     id: 28_757_834,
-    puid: "wikidata/28757834",
+    source_type: SourceType::Wikidata,
     name: "Garry's Mod Addon",
     extensions: &["gma"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856246: FileFormat = FileFormat {
     id: 105_856_246,
-    puid: "wikidata/105856246",
+    source_type: SourceType::Wikidata,
     name: "DoomEd ASCII map",
     extensions: &["dwd"],
     media_types: &["text/plain"],

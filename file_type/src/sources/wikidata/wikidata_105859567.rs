@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859567: FileFormat = FileFormat {
     id: 105_859_567,
-    puid: "wikidata/105859567",
+    source_type: SourceType::Wikidata,
     name: "Vice Flip List",
     extensions: &["vfl"],
     media_types: &["text/plain"],

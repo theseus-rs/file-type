@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857495: FileFormat = FileFormat {
     id: 105_857_495,
-    puid: "wikidata/105857495",
+    source_type: SourceType::Wikidata,
     name: "QuickDraw 3D Metafile (binary, BE)",
     extensions: &["3dmf"],
     media_types: &["x-world/x-3dmf"],

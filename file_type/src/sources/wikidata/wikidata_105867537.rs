@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867537: FileFormat = FileFormat {
     id: 105_867_537,
-    puid: "wikidata/105867537",
+    source_type: SourceType::Wikidata,
     name: "Open Minecraft Note Block Studio Song (v4)",
     extensions: &["nbs"],
     media_types: &["application/octet-stream"],

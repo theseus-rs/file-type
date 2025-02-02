@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862109: FileFormat = FileFormat {
     id: 105_862_109,
-    puid: "wikidata/105862109",
+    source_type: SourceType::Wikidata,
     name: "PuavoHard Intro Music Composer module (v3)",
     extensions: &["phpimc"],
     media_types: &["audio/x-mod"],

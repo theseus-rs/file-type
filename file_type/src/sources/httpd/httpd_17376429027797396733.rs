@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17376429027797396733: FileFormat = FileFormat {
-    id: 17_376_429_027_797_396_733,
-    puid: "httpd/17376429027797396733",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "silk",
     extensions: &["sil"],
     media_types: &["audio/silk"],

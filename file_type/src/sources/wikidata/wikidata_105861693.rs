@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861693: FileFormat = FileFormat {
     id: 105_861_693,
-    puid: "wikidata/105861693",
+    source_type: SourceType::Wikidata,
     name: "NASCAR SimRacing game data archive",
     extensions: &["mas"],
     media_types: &["application/octet-stream"],

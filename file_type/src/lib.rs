@@ -37,7 +37,7 @@
 //! async fn main() {
 //!     let file_path = Path::new("image.png");
 //!     let file_type = FileType::try_from_file(file_path).await.expect("file type not found");
-//!     assert_eq!(file_type.id(), "fmt/11");
+//!     assert_eq!(file_type.id(), "pronom/664");
 //!     assert_eq!(file_type.name(), "Portable Network Graphics");
 //!     assert_eq!(file_type.extensions(), vec!["png"]);
 //!     assert_eq!(file_type.media_types(), vec!["image/png"]);
@@ -51,7 +51,7 @@
 //!
 //! let file_path = Path::new("image.png");
 //! let file_type = FileType::try_from_file_sync(file_path).expect("file type not found");
-//! assert_eq!(file_type.id(), "fmt/11");
+//! assert_eq!(file_type.id(), "pronom/664");
 //! assert_eq!(file_type.name(), "Portable Network Graphics");
 //! assert_eq!(file_type.extensions(), vec!["png"]);
 //! assert_eq!(file_type.media_types(), vec!["image/png"]);

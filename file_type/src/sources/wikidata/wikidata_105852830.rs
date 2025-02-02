@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852830: FileFormat = FileFormat {
     id: 105_852_830,
-    puid: "wikidata/105852830",
+    source_type: SourceType::Wikidata,
     name: "Drive SnapShot Disk Image (additional parts)",
     extensions: &["sn1"],
     media_types: &[],

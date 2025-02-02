@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856612: FileFormat = FileFormat {
     id: 105_856_612,
-    puid: "wikidata/105856612",
+    source_type: SourceType::Wikidata,
     name: "Settlers II map",
     extensions: &["swd", "wld"],
     media_types: &[],

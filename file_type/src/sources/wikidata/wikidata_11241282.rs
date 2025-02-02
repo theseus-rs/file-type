@@ -1,18 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_11241282: FileFormat = FileFormat {
     id: 11_241_282,
-    puid: "wikidata/11241282",
+    source_type: SourceType::Wikidata,
     name: "RPM",
-    extensions: &["rpm", "rpm", "rpm", "rpm", "rpm", "rpm"],
-    media_types: &[
-        "application/x-redhat-package-manager",
-        "application/x-redhat-package-manager",
-        "application/x-redhat-package-manager",
-        "application/x-rpm",
-        "application/x-rpm",
-        "application/x-rpm",
-    ],
+    extensions: &["rpm"],
+    media_types: &["application/x-redhat-package-manager", "application/x-rpm"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

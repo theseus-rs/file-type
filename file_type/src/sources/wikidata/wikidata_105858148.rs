@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858148: FileFormat = FileFormat {
     id: 105_858_148,
-    puid: "wikidata/105858148",
+    source_type: SourceType::Wikidata,
     name: "Superbase printer driver",
     extensions: &["ini"],
     media_types: &["text/plain"],

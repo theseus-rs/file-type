@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862577: FileFormat = FileFormat {
     id: 105_862_577,
-    puid: "wikidata/105862577",
+    source_type: SourceType::Wikidata,
     name: "MSIX Windows app package",
     extensions: &["msix"],
     media_types: &["application/msix"],

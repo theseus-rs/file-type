@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860039: FileFormat = FileFormat {
     id: 105_860_039,
-    puid: "wikidata/105860039",
+    source_type: SourceType::Wikidata,
     name: "DreamForge video",
     extensions: &["dfa"],
     media_types: &["application/octet-stream"],

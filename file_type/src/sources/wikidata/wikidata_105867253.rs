@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867253: FileFormat = FileFormat {
     id: 105_867_253,
-    puid: "wikidata/105867253",
+    source_type: SourceType::Wikidata,
     name: "Nikon Custom Picture Control",
     extensions: &["ncp"],
     media_types: &[],

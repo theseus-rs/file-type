@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853493: FileFormat = FileFormat {
     id: 105_853_493,
-    puid: "wikidata/105853493",
+    source_type: SourceType::Wikidata,
     name: "BeamNG mod package",
     extensions: &["zip"],
     media_types: &["application/octet-stream"],

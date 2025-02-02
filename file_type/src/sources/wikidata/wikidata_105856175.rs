@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856175: FileFormat = FileFormat {
     id: 105_856_175,
-    puid: "wikidata/105856175",
+    source_type: SourceType::Wikidata,
     name: "Area 51 game data archive",
     extensions: &["dfs"],
     media_types: &["application/octet-stream"],

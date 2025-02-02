@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866645: FileFormat = FileFormat {
     id: 105_866_645,
-    puid: "wikidata/105866645",
+    source_type: SourceType::Wikidata,
     name: "Maven Project Object Model",
     extensions: &["pom", "xml"],
-    media_types: &["text/xml", "text/xml"],
+    media_types: &["text/xml"],
     internal_signatures: &[],
     related_formats: &[],
 };

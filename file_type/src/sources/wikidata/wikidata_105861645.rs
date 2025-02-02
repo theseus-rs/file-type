@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861645: FileFormat = FileFormat {
     id: 105_861_645,
-    puid: "wikidata/105861645",
+    source_type: SourceType::Wikidata,
     name: "Lego Digital Designer data",
     extensions: &["lif"],
     media_types: &["application/octet-stream"],

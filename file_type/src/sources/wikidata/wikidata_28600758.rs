@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28600758: FileFormat = FileFormat {
     id: 28_600_758,
-    puid: "wikidata/28600758",
+    source_type: SourceType::Wikidata,
     name: "ETC Show File",
     extensions: &["shw"],
     media_types: &["application/octet-stream"],

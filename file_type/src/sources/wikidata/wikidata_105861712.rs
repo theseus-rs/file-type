@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861712: FileFormat = FileFormat {
     id: 105_861_712,
-    puid: "wikidata/105861712",
+    source_type: SourceType::Wikidata,
     name: "Dynamix Music data container",
     extensions: &["mus"],
     media_types: &["application/octet-stream"],

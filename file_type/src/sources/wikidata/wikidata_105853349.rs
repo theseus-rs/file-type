@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853349: FileFormat = FileFormat {
     id: 105_853_349,
-    puid: "wikidata/105853349",
+    source_type: SourceType::Wikidata,
     name: "Sega Master System/Game Gear/Coleco Music Format (v1.0)",
     extensions: &["sgc"],
     media_types: &["application/octet-stream"],

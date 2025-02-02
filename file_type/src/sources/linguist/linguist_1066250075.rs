@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_1066250075: FileFormat = FileFormat {
     id: 1_066_250_075,
-    puid: "linguist/1066250075",
+    source_type: SourceType::Linguist,
     name: "SWIG",
     extensions: &["i"],
     media_types: &["text/x-c++src"],

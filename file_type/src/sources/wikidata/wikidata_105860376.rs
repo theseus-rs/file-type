@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860376: FileFormat = FileFormat {
     id: 105_860_376,
-    puid: "wikidata/105860376",
+    source_type: SourceType::Wikidata,
     name: "Rebel spreadsheet (v2)",
     extensions: &["rb2"],
     media_types: &["application/octet-stream"],

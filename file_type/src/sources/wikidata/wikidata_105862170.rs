@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862170: FileFormat = FileFormat {
     id: 105_862_170,
-    puid: "wikidata/105862170",
+    source_type: SourceType::Wikidata,
     name: "Project Dogwaffle mixing palette (type 2)",
     extensions: &["mix"],
     media_types: &[],

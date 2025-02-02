@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849949: FileFormat = FileFormat {
     id: 105_849_949,
-    puid: "wikidata/105849949",
+    source_type: SourceType::Wikidata,
     name: "Cramfs ROM filesystem package (little endian)",
     extensions: &["cmg"],
     media_types: &["application/octet-stream"],

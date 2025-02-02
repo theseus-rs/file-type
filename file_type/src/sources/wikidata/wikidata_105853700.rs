@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853700: FileFormat = FileFormat {
     id: 105_853_700,
-    puid: "wikidata/105853700",
+    source_type: SourceType::Wikidata,
     name: "EditPlus Auto Completion",
     extensions: &["acp"],
     media_types: &["text/plain"],

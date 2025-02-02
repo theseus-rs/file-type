@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857057: FileFormat = FileFormat {
     id: 105_857_057,
-    puid: "wikidata/105857057",
+    source_type: SourceType::Wikidata,
     name: "Genbox Family History dictionary",
     extensions: &["gdt"],
     media_types: &[],

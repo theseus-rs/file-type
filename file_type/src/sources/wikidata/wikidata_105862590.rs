@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862590: FileFormat = FileFormat {
     id: 105_862_590,
-    puid: "wikidata/105862590",
+    source_type: SourceType::Wikidata,
     name: "Multiple Alignment Format",
     extensions: &["maf"],
     media_types: &["text/plain"],

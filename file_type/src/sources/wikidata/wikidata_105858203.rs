@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858203: FileFormat = FileFormat {
     id: 105_858_203,
-    puid: "wikidata/105858203",
+    source_type: SourceType::Wikidata,
     name: "DipTrace Component",
     extensions: &["eli"],
     media_types: &["application/octet-stream"],

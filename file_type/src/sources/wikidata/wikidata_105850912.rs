@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850912: FileFormat = FileFormat {
     id: 105_850_912,
-    puid: "wikidata/105850912",
+    source_type: SourceType::Wikidata,
     name: "Mario Kart Wii course description",
     extensions: &["kmp"],
     media_types: &[],

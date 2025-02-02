@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856580: FileFormat = FileFormat {
     id: 105_856_580,
-    puid: "wikidata/105856580",
+    source_type: SourceType::Wikidata,
     name: "Xilinx ISE Simulator Waveform DataBase",
     extensions: &["wdb"],
     media_types: &["application/octet-stream"],

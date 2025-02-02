@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853101: FileFormat = FileFormat {
     id: 105_853_101,
-    puid: "wikidata/105853101",
+    source_type: SourceType::Wikidata,
     name: "Adobe Setup Installation File",
     extensions: &["sif"],
     media_types: &["application/octet-stream"],

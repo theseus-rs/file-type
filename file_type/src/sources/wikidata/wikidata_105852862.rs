@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852862: FileFormat = FileFormat {
     id: 105_852_862,
-    puid: "wikidata/105852862",
+    source_type: SourceType::Wikidata,
     name: "Datel Max Drive (for GameCube) save state",
     extensions: &["sav"],
     media_types: &[],

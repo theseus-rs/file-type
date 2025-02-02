@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851277: FileFormat = FileFormat {
     id: 105_851_277,
-    puid: "wikidata/105851277",
+    source_type: SourceType::Wikidata,
     name: "XM7 Tape image",
     extensions: &["t77"],
     media_types: &["application/octet-stream"],

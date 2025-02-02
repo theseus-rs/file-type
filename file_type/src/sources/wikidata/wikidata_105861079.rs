@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861079: FileFormat = FileFormat {
     id: 105_861_079,
-    puid: "wikidata/105861079",
+    source_type: SourceType::Wikidata,
     name: "LabVIEW Local Project Settings",
     extensions: &["lvlps"],
     media_types: &["text/ini"],

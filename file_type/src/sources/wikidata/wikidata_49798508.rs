@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_49798508: FileFormat = FileFormat {
     id: 49_798_508,
-    puid: "wikidata/49798508",
+    source_type: SourceType::Wikidata,
     name: "Adobe Portable Document Catalog Index File, version 2",
-    extensions: &["pdx", "pdx"],
+    extensions: &["pdx"],
     media_types: &["application/octet-stream", "text/plain"],
     internal_signatures: &[
         InternalSignature {

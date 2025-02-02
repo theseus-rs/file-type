@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856936: FileFormat = FileFormat {
     id: 105_856_936,
-    puid: "wikidata/105856936",
+    source_type: SourceType::Wikidata,
     name: "Dark Forces Game data archive",
     extensions: &["gob"],
     media_types: &["application/octet-stream"],

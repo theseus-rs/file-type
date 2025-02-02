@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860627: FileFormat = FileFormat {
     id: 105_860_627,
-    puid: "wikidata/105860627",
+    source_type: SourceType::Wikidata,
     name: "Symbian OS resource data",
     extensions: &["rsc"],
     media_types: &[],

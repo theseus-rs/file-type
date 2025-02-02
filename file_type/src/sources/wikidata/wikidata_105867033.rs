@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867033: FileFormat = FileFormat {
     id: 105_867_033,
-    puid: "wikidata/105867033",
+    source_type: SourceType::Wikidata,
     name: "Project Nomads Texture",
     extensions: &["ntx"],
     media_types: &["application/octet-stream"],

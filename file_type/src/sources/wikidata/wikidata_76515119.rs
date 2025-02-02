@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_76515119: FileFormat = FileFormat {
     id: 76_515_119,
-    puid: "wikidata/76515119",
+    source_type: SourceType::Wikidata,
     name: "Wings 3D mesh",
     extensions: &["wings"],
     media_types: &[],

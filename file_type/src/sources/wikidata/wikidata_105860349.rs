@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860349: FileFormat = FileFormat {
     id: 105_860_349,
-    puid: "wikidata/105860349",
+    source_type: SourceType::Wikidata,
     name: "Rhino 3D Material",
     extensions: &["rmtl"],
     media_types: &["application/xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850087: FileFormat = FileFormat {
     id: 105_850_087,
-    puid: "wikidata/105850087",
+    source_type: SourceType::Wikidata,
     name: "Clam Antivirus ByteCode signatures",
     extensions: &["cbc"],
     media_types: &["application/octet-stream"],

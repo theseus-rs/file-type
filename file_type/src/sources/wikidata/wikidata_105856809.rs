@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856809: FileFormat = FileFormat {
     id: 105_856_809,
-    puid: "wikidata/105856809",
+    source_type: SourceType::Wikidata,
     name: "GPS TrackMaker map",
     extensions: &["gtm"],
     media_types: &[],

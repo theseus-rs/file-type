@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856884: FileFormat = FileFormat {
     id: 105_856_884,
-    puid: "wikidata/105856884",
+    source_type: SourceType::Wikidata,
     name: "Gerber format (with rem)",
     extensions: &["gbr"],
     media_types: &["application/vnd.gerber"],

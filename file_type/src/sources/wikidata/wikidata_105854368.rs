@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854368: FileFormat = FileFormat {
     id: 105_854_368,
-    puid: "wikidata/105854368",
+    source_type: SourceType::Wikidata,
     name: "Avira AntiVir message",
     extensions: &["avr"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852906: FileFormat = FileFormat {
     id: 105_852_906,
-    puid: "wikidata/105852906",
+    source_type: SourceType::Wikidata,
     name: "CODESYS Symbols",
     extensions: &["sym"],
     media_types: &["text/plain"],

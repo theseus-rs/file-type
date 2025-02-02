@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851749: FileFormat = FileFormat {
     id: 105_851_749,
-    puid: "wikidata/105851749",
+    source_type: SourceType::Wikidata,
     name: "Elkulator Snapshot",
     extensions: &["snp"],
     media_types: &["application/octet-stream"],

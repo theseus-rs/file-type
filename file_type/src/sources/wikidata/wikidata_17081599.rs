@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_17081599: FileFormat = FileFormat {
     id: 17_081_599,
-    puid: "wikidata/17081599",
+    source_type: SourceType::Wikidata,
     name: "Smile",
     extensions: &["sml"],
     media_types: &["application/x-jackson-smile"],

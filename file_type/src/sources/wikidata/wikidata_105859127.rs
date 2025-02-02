@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859127: FileFormat = FileFormat {
     id: 105_859_127,
-    puid: "wikidata/105859127",
+    source_type: SourceType::Wikidata,
     name: "Elite: Dangerous controls bindings",
     extensions: &["binds"],
     media_types: &["text/xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853746: FileFormat = FileFormat {
     id: 105_853_746,
-    puid: "wikidata/105853746",
+    source_type: SourceType::Wikidata,
     name: "AND XSynth module",
     extensions: &["amx"],
     media_types: &["audio/x-mod"],

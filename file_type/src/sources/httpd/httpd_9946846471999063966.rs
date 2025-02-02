@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_9946846471999063966: FileFormat = FileFormat {
-    id: 9_946_846_471_999_063_966,
-    puid: "httpd/9946846471999063966",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ace compressed",
     extensions: &["ace"],
     media_types: &["application/x-ace-compressed"],

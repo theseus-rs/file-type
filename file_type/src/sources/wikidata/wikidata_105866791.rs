@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866791: FileFormat = FileFormat {
     id: 105_866_791,
-    puid: "wikidata/105866791",
+    source_type: SourceType::Wikidata,
     name: "EGO Engine Textures",
     extensions: &["pssg"],
     media_types: &[],

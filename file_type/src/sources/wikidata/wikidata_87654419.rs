@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_87654419: FileFormat = FileFormat {
     id: 87_654_419,
-    puid: "wikidata/87654419",
+    source_type: SourceType::Wikidata,
     name: "SketchUp Document 17",
     extensions: &["skb", "skp"],
     media_types: &[],

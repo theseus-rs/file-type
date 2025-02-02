@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967098: FileFormat = FileFormat {
     id: 27_967_098,
-    puid: "wikidata/27967098",
+    source_type: SourceType::Wikidata,
     name: "Advanced Mario Sequencer file",
     extensions: &["mss"],
     media_types: &["text/xml"],

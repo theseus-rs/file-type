@@ -1,17 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867172: FileFormat = FileFormat {
     id: 105_867_172,
-    puid: "wikidata/105867172",
+    source_type: SourceType::Wikidata,
     name: "NeXus HDF5 data format",
     extensions: &["h5", "hdf", "nexus", "nx5", "nxs"],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

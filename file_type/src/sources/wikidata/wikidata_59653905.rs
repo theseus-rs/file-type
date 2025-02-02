@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_59653905: FileFormat = FileFormat {
     id: 59_653_905,
-    puid: "wikidata/59653905",
+    source_type: SourceType::Wikidata,
     name: "Maya ASCII File Format",
     extensions: &["ma"],
     media_types: &[],

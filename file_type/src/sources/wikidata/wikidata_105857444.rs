@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857444: FileFormat = FileFormat {
     id: 105_857_444,
-    puid: "wikidata/105857444",
+    source_type: SourceType::Wikidata,
     name: "VersaCAD 3D drawing (MS-DOS)",
     extensions: &["3d"],
     media_types: &["application/octet-stream"],

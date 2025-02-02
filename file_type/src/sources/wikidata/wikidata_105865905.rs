@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865905: FileFormat = FileFormat {
     id: 105_865_905,
-    puid: "wikidata/105865905",
+    source_type: SourceType::Wikidata,
     name: "PNG Animation",
     extensions: &["png"],
     media_types: &["application/octet-stream"],

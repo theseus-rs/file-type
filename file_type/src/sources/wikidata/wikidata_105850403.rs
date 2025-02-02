@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850403: FileFormat = FileFormat {
     id: 105_850_403,
-    puid: "wikidata/105850403",
+    source_type: SourceType::Wikidata,
     name: "TheC64 Config/Joystick/Mode settings (J)",
     extensions: &["cjm"],
     media_types: &["text/plain"],

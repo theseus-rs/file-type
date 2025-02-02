@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_49988510: FileFormat = FileFormat {
     id: 49_988_510,
-    puid: "wikidata/49988510",
+    source_type: SourceType::Wikidata,
     name: "Rocket Book eBook format",
     extensions: &["rb"],
     media_types: &["application/octet-stream"],

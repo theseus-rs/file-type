@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857316: FileFormat = FileFormat {
     id: 105_857_316,
-    puid: "wikidata/105857316",
+    source_type: SourceType::Wikidata,
     name: "MADS HAG game data archive",
     extensions: &["hag"],
     media_types: &["application/octet-stream"],

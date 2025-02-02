@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851188: FileFormat = FileFormat {
     id: 105_851_188,
-    puid: "wikidata/105851188",
+    source_type: SourceType::Wikidata,
     name: ".NET Micro Framework TinyFont",
     extensions: &["tinyfnt"],
     media_types: &["application/octet-stream"],

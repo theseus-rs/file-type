@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_16683501: FileFormat = FileFormat {
     id: 16_683_501,
-    puid: "wikidata/16683501",
+    source_type: SourceType::Wikidata,
     name: "OpenXML Spreadsheet Macro-Enabled",
     extensions: &["xlsm"],
     media_types: &["application/vnd.ms-excel.sheet.macroEnabled.12"],

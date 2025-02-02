@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860734: FileFormat = FileFormat {
     id: 105_860_734,
-    puid: "wikidata/105860734",
+    source_type: SourceType::Wikidata,
     name: "REINER SCT transfer file",
     extensions: &["rsct"],
     media_types: &["application/x-reiner-rsct"],

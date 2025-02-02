@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852219: FileFormat = FileFormat {
     id: 105_852_219,
-    puid: "wikidata/105852219",
+    source_type: SourceType::Wikidata,
     name: "MSX SCMD music",
     extensions: &["sdt"],
     media_types: &["application/octet-stream"],

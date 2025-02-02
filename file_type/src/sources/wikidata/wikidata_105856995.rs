@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856995: FileFormat = FileFormat {
     id: 105_856_995,
-    puid: "wikidata/105856995",
+    source_type: SourceType::Wikidata,
     name: "GUEmap document",
     extensions: &["gmp"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857594: FileFormat = FileFormat {
     id: 105_857_594,
-    puid: "wikidata/105857594",
+    source_type: SourceType::Wikidata,
     name: "B-DOS bootable disk image",
     extensions: &["dsk"],
     media_types: &["application/octet-stream"],

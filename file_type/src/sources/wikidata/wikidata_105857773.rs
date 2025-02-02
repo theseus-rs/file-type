@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857773: FileFormat = FileFormat {
     id: 105_857_773,
-    puid: "wikidata/105857773",
+    source_type: SourceType::Wikidata,
     name: "STK Interval List format",
     extensions: &["int"],
     media_types: &["text/plain"],

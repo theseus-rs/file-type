@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851041: FileFormat = FileFormat {
     id: 105_851_041,
-    puid: "wikidata/105851041",
+    source_type: SourceType::Wikidata,
     name: "Moebius Tile Library",
     extensions: &["tlb"],
     media_types: &["application/octet-stream"],

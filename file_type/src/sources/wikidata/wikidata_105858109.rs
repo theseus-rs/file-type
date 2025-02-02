@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858109: FileFormat = FileFormat {
     id: 105_858_109,
-    puid: "wikidata/105858109",
+    source_type: SourceType::Wikidata,
     name: "T98-Next Floppy Disk image (R1)",
     extensions: &["nfd"],
     media_types: &["application/octet-stream"],

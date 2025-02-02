@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854918: FileFormat = FileFormat {
     id: 105_854_918,
-    puid: "wikidata/105854918",
+    source_type: SourceType::Wikidata,
     name: "Rigaku Smartlab Pole Figure raw format",
     extensions: &["asc"],
     media_types: &["application/octet-stream"],

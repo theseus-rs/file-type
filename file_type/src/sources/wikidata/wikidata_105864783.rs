@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864783: FileFormat = FileFormat {
     id: 105_864_783,
-    puid: "wikidata/105864783",
+    source_type: SourceType::Wikidata,
     name: "AutoPrompt script",
     extensions: &["pmt"],
     media_types: &["text/plain"],

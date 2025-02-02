@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857385: FileFormat = FileFormat {
     id: 105_857_385,
-    puid: "wikidata/105857385",
+    source_type: SourceType::Wikidata,
     name: "Tripod Data Systems Job file",
     extensions: &["job"],
     media_types: &[],

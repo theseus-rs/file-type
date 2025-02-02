@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864743: FileFormat = FileFormat {
     id: 105_864_743,
-    puid: "wikidata/105864743",
+    source_type: SourceType::Wikidata,
     name: "ProfiCAD symbols",
     extensions: &["ppd"],
     media_types: &["text/xml"],

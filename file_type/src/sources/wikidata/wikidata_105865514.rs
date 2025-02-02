@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865514: FileFormat = FileFormat {
     id: 105_865_514,
-    puid: "wikidata/105865514",
+    source_type: SourceType::Wikidata,
     name: "ABB RobotStudio Program File",
     extensions: &["pgf"],
     media_types: &["text/xml"],

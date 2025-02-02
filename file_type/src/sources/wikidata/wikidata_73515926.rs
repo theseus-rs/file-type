@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_73515926: FileFormat = FileFormat {
     id: 73_515_926,
-    puid: "wikidata/73515926",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Flight Simulator Flight Plan",
     extensions: &["pln"],
     media_types: &[],

@@ -1,18 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866258: FileFormat = FileFormat {
     id: 105_866_258,
-    puid: "wikidata/105866258",
+    source_type: SourceType::Wikidata,
     name: "Philips Music Creator data (generic)",
     extensions: &["acc", "rlt", "sam", "seq", "spt", "voc"],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

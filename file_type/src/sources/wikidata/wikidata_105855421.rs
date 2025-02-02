@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855421: FileFormat = FileFormat {
     id: 105_855_421,
-    puid: "wikidata/105855421",
+    source_type: SourceType::Wikidata,
     name: "FinalBuilder Project (v4) / Automise Project (v1)",
     extensions: &["atp", "fbp4"],
-    media_types: &["text/xml", "text/xml"],
+    media_types: &["text/xml"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857750: FileFormat = FileFormat {
     id: 105_857_750,
-    puid: "wikidata/105857750",
+    source_type: SourceType::Wikidata,
     name: "LDBS disk image (-v0.2)",
     extensions: &["ldbs"],
     media_types: &["application/octet-stream"],

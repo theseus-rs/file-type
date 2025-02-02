@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851096: FileFormat = FileFormat {
     id: 105_851_096,
-    puid: "wikidata/105851096",
+    source_type: SourceType::Wikidata,
     name: "TrIDNet serialized definitions package",
     extensions: &["trs"],
     media_types: &["application/octet-stream"],

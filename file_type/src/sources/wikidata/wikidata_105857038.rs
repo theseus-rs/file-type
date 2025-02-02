@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857038: FileFormat = FileFormat {
     id: 105_857_038,
-    puid: "wikidata/105857038",
+    source_type: SourceType::Wikidata,
     name: "ElmerGrid input data (var 1)",
     extensions: &["grd"],
     media_types: &["text/plain"],

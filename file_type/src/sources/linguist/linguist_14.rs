@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_14: FileFormat = FileFormat {
     id: 14,
-    puid: "linguist/14",
+    source_type: SourceType::Linguist,
     name: "Alpine Abuild",
     extensions: &[],
     media_types: &["text/x-sh"],

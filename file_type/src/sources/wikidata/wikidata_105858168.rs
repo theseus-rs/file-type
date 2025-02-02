@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858168: FileFormat = FileFormat {
     id: 105_858_168,
-    puid: "wikidata/105858168",
+    source_type: SourceType::Wikidata,
     name: "Embird Cross stitch Format",
     extensions: &["ecf"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_262764437: FileFormat = FileFormat {
     id: 262_764_437,
-    puid: "linguist/262764437",
+    source_type: SourceType::Linguist,
     name: "PostCSS",
     extensions: &["pcss", "postcss"],
     media_types: &[],

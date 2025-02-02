@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855102: FileFormat = FileFormat {
     id: 105_855_102,
-    puid: "wikidata/105855102",
+    source_type: SourceType::Wikidata,
     name: "IRCAM Sound Format audio (VAX be)",
     extensions: &["sf"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850095: FileFormat = FileFormat {
     id: 105_850_095,
-    puid: "wikidata/105850095",
+    source_type: SourceType::Wikidata,
     name: "Ventura Publisher Chapter",
     extensions: &["chp"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13077937943514110784: FileFormat = FileFormat {
-    id: 13_077_937_943_514_110_784,
-    puid: "httpd/13077937943514110784",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "abiword",
     extensions: &["abw"],
     media_types: &["application/x-abiword"],

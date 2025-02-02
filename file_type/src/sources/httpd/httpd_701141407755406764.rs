@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_701141407755406764: FileFormat = FileFormat {
-    id: 701_141_407_755_406_764,
-    puid: "httpd/701141407755406764",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ogg",
     extensions: &["ogx"],
     media_types: &["application/ogg"],

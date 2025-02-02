@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13531758372540882817: FileFormat = FileFormat {
-    id: 13_531_758_372_540_882_817,
-    puid: "httpd/13531758372540882817",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "geogebra file",
     extensions: &["ggb"],
     media_types: &["application/vnd.geogebra.file"],

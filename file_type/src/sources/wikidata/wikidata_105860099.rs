@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860099: FileFormat = FileFormat {
     id: 105_860_099,
-    puid: "wikidata/105860099",
+    source_type: SourceType::Wikidata,
     name: "FontLab Font",
     extensions: &["vfb"],
     media_types: &["application/octet-stream"],

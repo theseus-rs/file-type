@@ -1,33 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_47512572: FileFormat = FileFormat {
     id: 47_512_572,
-    puid: "wikidata/47512572",
+    source_type: SourceType::Wikidata,
     name: "man page",
-    extensions: &[
-        "1", "1", "2", "2", "3", "3", "4", "4", "5", "5", "6", "6", "7", "7", "8", "8", "man",
-        "man",
-    ],
-    media_types: &[
-        "application/x-troff-man",
-        "application/x-troff-man",
-        "application/x-troff-man",
-        "application/x-troff-man",
-        "application/x-troff-man",
-        "application/x-troff-man",
-        "application/x-troff-man",
-        "application/x-troff-man",
-        "application/x-troff-man",
-        "text/troff",
-        "text/troff",
-        "text/troff",
-        "text/troff",
-        "text/troff",
-        "text/troff",
-        "text/troff",
-        "text/troff",
-        "text/troff",
-    ],
+    extensions: &["1", "2", "3", "4", "5", "6", "7", "8", "man"],
+    media_types: &["application/x-troff-man", "text/troff"],
     internal_signatures: &[],
     related_formats: &[],
 };

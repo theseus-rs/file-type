@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858654: FileFormat = FileFormat {
     id: 105_858_654,
-    puid: "wikidata/105858654",
+    source_type: SourceType::Wikidata,
     name: "beddit compressed data (v1.0)",
     extensions: &["gz"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853257: FileFormat = FileFormat {
     id: 105_853_257,
-    puid: "wikidata/105853257",
+    source_type: SourceType::Wikidata,
     name: "Hitec Aurora 9 saved model",
     extensions: &["set"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864112: FileFormat = FileFormat {
     id: 105_864_112,
-    puid: "wikidata/105864112",
+    source_type: SourceType::Wikidata,
     name: "DeFy Tracker Module",
     extensions: &["dtm"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865275: FileFormat = FileFormat {
     id: 105_865_275,
-    puid: "wikidata/105865275",
+    source_type: SourceType::Wikidata,
     name: "Process Monitor Log (native format)",
     extensions: &["pml"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_619814037: FileFormat = FileFormat {
     id: 619_814_037,
-    puid: "linguist/619814037",
+    source_type: SourceType::Linguist,
     name: "Scenic",
     extensions: &["scenic"],
     media_types: &[],

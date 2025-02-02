@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856088: FileFormat = FileFormat {
     id: 105_856_088,
-    puid: "wikidata/105856088",
+    source_type: SourceType::Wikidata,
     name: "Dante firmware update",
     extensions: &["dnt"],
     media_types: &["application/octet-stream"],

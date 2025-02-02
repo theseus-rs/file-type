@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859072: FileFormat = FileFormat {
     id: 105_859_072,
-    puid: "wikidata/105859072",
+    source_type: SourceType::Wikidata,
     name: "AVG update package",
     extensions: &["bin"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863399: FileFormat = FileFormat {
     id: 105_863_399,
-    puid: "wikidata/105863399",
+    source_type: SourceType::Wikidata,
     name: "OGRE Mesh (binary)",
     extensions: &["mesh"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857054: FileFormat = FileFormat {
     id: 105_857_054,
-    puid: "wikidata/105857054",
+    source_type: SourceType::Wikidata,
     name: "Grid Exchange Format - ASCII",
     extensions: &["gxf"],
     media_types: &[],

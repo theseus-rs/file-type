@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862316: FileFormat = FileFormat {
     id: 105_862_316,
-    puid: "wikidata/105862316",
+    source_type: SourceType::Wikidata,
     name: "GMOD format module",
     extensions: &["gmod"],
     media_types: &["application/octet-stream"],

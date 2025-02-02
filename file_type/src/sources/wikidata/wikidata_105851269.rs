@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851269: FileFormat = FileFormat {
     id: 105_851_269,
-    puid: "wikidata/105851269",
+    source_type: SourceType::Wikidata,
     name: "Aegis Impact! Table",
     extensions: &["tbl"],
     media_types: &["application/octet-stream"],

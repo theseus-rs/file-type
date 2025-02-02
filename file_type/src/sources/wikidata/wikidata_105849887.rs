@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849887: FileFormat = FileFormat {
     id: 105_849_887,
-    puid: "wikidata/105849887",
+    source_type: SourceType::Wikidata,
     name: "NTI CD Maker layout file",
     extensions: &["cdm"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860002: FileFormat = FileFormat {
     id: 105_860_002,
-    puid: "wikidata/105860002",
+    source_type: SourceType::Wikidata,
     name: "Interplay MVE video",
     extensions: &["mve"],
     media_types: &["application/octet-stream"],

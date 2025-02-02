@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865471: FileFormat = FileFormat {
     id: 105_865_471,
-    puid: "wikidata/105865471",
+    source_type: SourceType::Wikidata,
     name: "Visual Studio Publish profile",
     extensions: &["pubxml"],
     media_types: &["text/xml"],

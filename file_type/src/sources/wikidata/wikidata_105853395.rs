@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853395: FileFormat = FileFormat {
     id: 105_853_395,
-    puid: "wikidata/105853395",
+    source_type: SourceType::Wikidata,
     name: "Superbase Program (var 3)",
     extensions: &["sbp"],
     media_types: &["application/octet-stream"],

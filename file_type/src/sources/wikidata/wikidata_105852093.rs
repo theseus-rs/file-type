@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852093: FileFormat = FileFormat {
     id: 105_852_093,
-    puid: "wikidata/105852093",
+    source_type: SourceType::Wikidata,
     name: "Sonic Arranger module (v1.0)",
     extensions: &["sa"],
     media_types: &["audio/x-mod"],

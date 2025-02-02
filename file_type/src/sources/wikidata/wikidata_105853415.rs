@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853415: FileFormat = FileFormat {
     id: 105_853_415,
-    puid: "wikidata/105853415",
+    source_type: SourceType::Wikidata,
     name: "Butcher Signal",
     extensions: &["signal"],
     media_types: &["application/octet-stream"],

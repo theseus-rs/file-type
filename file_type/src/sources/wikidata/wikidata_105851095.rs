@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851095: FileFormat = FileFormat {
     id: 105_851_095,
-    puid: "wikidata/105851095",
+    source_type: SourceType::Wikidata,
     name: "TimeZone data",
     extensions: &["tz"],
     media_types: &[],

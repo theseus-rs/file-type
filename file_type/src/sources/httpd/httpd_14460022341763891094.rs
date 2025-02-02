@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14460022341763891094: FileFormat = FileFormat {
-    id: 14_460_022_341_763_891_094,
-    puid: "httpd/14460022341763891094",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "s3m",
     extensions: &["s3m"],
     media_types: &["audio/s3m"],

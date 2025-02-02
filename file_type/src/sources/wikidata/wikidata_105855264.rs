@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855264: FileFormat = FileFormat {
     id: 105_855_264,
-    puid: "wikidata/105855264",
+    source_type: SourceType::Wikidata,
     name: "Expression SketchFlow data",
     extensions: &["flow"],
     media_types: &[],

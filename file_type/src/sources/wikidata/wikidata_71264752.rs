@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_71264752: FileFormat = FileFormat {
     id: 71_264_752,
-    puid: "wikidata/71264752",
+    source_type: SourceType::Wikidata,
     name: "Hippel 7V module",
     extensions: &["hip7"],
     media_types: &["application/octet-stream"],

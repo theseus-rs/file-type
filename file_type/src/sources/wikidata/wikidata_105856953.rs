@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856953: FileFormat = FileFormat {
     id: 105_856_953,
-    puid: "wikidata/105856953",
+    source_type: SourceType::Wikidata,
     name: "Farming Simulator terrein data",
     extensions: &["grle"],
     media_types: &["application/octet-stream"],

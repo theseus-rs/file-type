@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856477: FileFormat = FileFormat {
     id: 105_856_477,
-    puid: "wikidata/105856477",
+    source_type: SourceType::Wikidata,
     name: "WordPerfect document (Amiga)",
     extensions: &["wp"],
     media_types: &["application/octet-stream"],

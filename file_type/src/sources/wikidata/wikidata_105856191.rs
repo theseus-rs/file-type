@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856191: FileFormat = FileFormat {
     id: 105_856_191,
-    puid: "wikidata/105856191",
+    source_type: SourceType::Wikidata,
     name: "Dialog source code",
     extensions: &["dg"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857197: FileFormat = FileFormat {
     id: 105_857_197,
-    puid: "wikidata/105857197",
+    source_type: SourceType::Wikidata,
     name: "Sim //e Virtual Hard Drive image",
     extensions: &["hdv"],
     media_types: &["application/octet-stream"],

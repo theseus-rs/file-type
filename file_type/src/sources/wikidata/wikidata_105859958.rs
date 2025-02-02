@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859958: FileFormat = FileFormat {
     id: 105_859_958,
-    puid: "wikidata/105859958",
+    source_type: SourceType::Wikidata,
     name: "ALRS H.264 DVR video",
     extensions: &["264"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853985: FileFormat = FileFormat {
     id: 105_853_985,
-    puid: "wikidata/105853985",
+    source_type: SourceType::Wikidata,
     name: "MST Quintus Animation",
     extensions: &["ani"],
     media_types: &["application/octet-stream"],

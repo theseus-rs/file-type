@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855637: FileFormat = FileFormat {
     id: 105_855_637,
-    puid: "wikidata/105855637",
+    source_type: SourceType::Wikidata,
     name: "OmniPass encrypted",
     extensions: &["opf"],
     media_types: &[],

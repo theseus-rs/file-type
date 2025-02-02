@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857227: FileFormat = FileFormat {
     id: 105_857_227,
-    puid: "wikidata/105857227",
+    source_type: SourceType::Wikidata,
     name: "LigPlot Hydrogen-Bonds data",
     extensions: &["hhb"],
     media_types: &["text/plain"],

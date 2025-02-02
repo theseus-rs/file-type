@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865894: FileFormat = FileFormat {
     id: 105_865_894,
-    puid: "wikidata/105865894",
+    source_type: SourceType::Wikidata,
     name: "Spellbound game data archive",
     extensions: &["pak"],
     media_types: &["application/octet-stream"],

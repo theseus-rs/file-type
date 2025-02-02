@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860232: FileFormat = FileFormat {
     id: 105_860_232,
-    puid: "wikidata/105860232",
+    source_type: SourceType::Wikidata,
     name: "InstallShield Script for Windows Registry",
     extensions: &["rgs"],
     media_types: &[],

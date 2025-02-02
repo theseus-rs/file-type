@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852728: FileFormat = FileFormat {
     id: 105_852_728,
-    puid: "wikidata/105852728",
+    source_type: SourceType::Wikidata,
     name: "Amnesia: T.D.D. sound entity",
     extensions: &["snt"],
     media_types: &["application/octet-stream"],

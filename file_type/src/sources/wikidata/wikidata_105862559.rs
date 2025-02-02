@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862559: FileFormat = FileFormat {
     id: 105_862_559,
-    puid: "wikidata/105862559",
+    source_type: SourceType::Wikidata,
     name: "Digital Mugician 2 module",
     extensions: &["mug"],
     media_types: &["audio/x-mod"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_64859434: FileFormat = FileFormat {
     id: 64_859_434,
-    puid: "wikidata/64859434",
+    source_type: SourceType::Wikidata,
     name: "GEDCOM file format",
     extensions: &["ged"],
     media_types: &["text/vnd.familysearch.gedcom"],

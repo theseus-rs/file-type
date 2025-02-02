@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864742: FileFormat = FileFormat {
     id: 105_864_742,
-    puid: "wikidata/105864742",
+    source_type: SourceType::Wikidata,
     name: "Picozu Workspace (v1.0.0)",
     extensions: &["pzw"],
     media_types: &["text/json"],

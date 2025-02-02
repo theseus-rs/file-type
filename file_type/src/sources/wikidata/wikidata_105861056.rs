@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861056: FileFormat = FileFormat {
     id: 105_861_056,
-    puid: "wikidata/105861056",
+    source_type: SourceType::Wikidata,
     name: "LightBurn project",
     extensions: &["lbrn"],
     media_types: &["text/xml"],

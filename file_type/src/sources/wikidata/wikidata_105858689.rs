@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858689: FileFormat = FileFormat {
     id: 105_858_689,
-    puid: "wikidata/105858689",
+    source_type: SourceType::Wikidata,
     name: "Crack Art bitmap (med-res)",
     extensions: &["ca2"],
     media_types: &["application/octet-stream"],

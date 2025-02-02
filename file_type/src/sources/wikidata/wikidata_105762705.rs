@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105762705: FileFormat = FileFormat {
     id: 105_762_705,
-    puid: "wikidata/105762705",
+    source_type: SourceType::Wikidata,
     name: "XML Bookmark Exchange Language",
     extensions: &["xml"],
     media_types: &[],

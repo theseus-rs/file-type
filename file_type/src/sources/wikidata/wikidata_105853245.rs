@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853245: FileFormat = FileFormat {
     id: 105_853_245,
-    puid: "wikidata/105853245",
+    source_type: SourceType::Wikidata,
     name: "Squeak package",
     extensions: &["sar"],
     media_types: &[],

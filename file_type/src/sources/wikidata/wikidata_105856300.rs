@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856300: FileFormat = FileFormat {
     id: 105_856_300,
-    puid: "wikidata/105856300",
+    source_type: SourceType::Wikidata,
     name: "22DISK format Definition (with notes)",
     extensions: &["def"],
     media_types: &["application/octet-stream"],

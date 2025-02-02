@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857022: FileFormat = FileFormat {
     id: 105_857_022,
-    puid: "wikidata/105857022",
+    source_type: SourceType::Wikidata,
     name: "MicroImages GeoFormula",
     extensions: &["gsf"],
     media_types: &["text/ini"],

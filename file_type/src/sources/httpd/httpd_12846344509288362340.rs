@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_12846344509288362340: FileFormat = FileFormat {
-    id: 12_846_344_509_288_362_340,
-    puid: "httpd/12846344509288362340",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "cu seeme",
     extensions: &["cu"],
     media_types: &["application/cu-seeme"],

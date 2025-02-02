@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857427: FileFormat = FileFormat {
     id: 105_857_427,
-    puid: "wikidata/105857427",
+    source_type: SourceType::Wikidata,
     name: "Acrobat Distiller Job Options",
     extensions: &["joboptions"],
     media_types: &[],

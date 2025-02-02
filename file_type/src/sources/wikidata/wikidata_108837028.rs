@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_108837028: FileFormat = FileFormat {
     id: 108_837_028,
-    puid: "wikidata/108837028",
+    source_type: SourceType::Wikidata,
     name: "Nero CD EXTRA Compilation",
     extensions: &["nrm"],
     media_types: &[],

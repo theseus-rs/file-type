@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864720: FileFormat = FileFormat {
     id: 105_864_720,
-    puid: "wikidata/105864720",
+    source_type: SourceType::Wikidata,
     name: "Dynamic Publisher Printer File",
     extensions: &["prf"],
     media_types: &["application/octet-stream"],

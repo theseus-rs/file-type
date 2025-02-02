@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861421: FileFormat = FileFormat {
     id: 105_861_421,
-    puid: "wikidata/105861421",
+    source_type: SourceType::Wikidata,
     name: "Lotus Vector Font",
     extensions: &["lvf"],
     media_types: &["application/octet-stream"],

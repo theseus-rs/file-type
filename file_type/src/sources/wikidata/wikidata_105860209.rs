@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860209: FileFormat = FileFormat {
     id: 105_860_209,
-    puid: "wikidata/105860209",
+    source_type: SourceType::Wikidata,
     name: "AskEnv Requester definition",
     extensions: &["req"],
     media_types: &["text/plain"],

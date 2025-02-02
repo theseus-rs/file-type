@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851511: FileFormat = FileFormat {
     id: 105_851_511,
-    puid: "wikidata/105851511",
+    source_type: SourceType::Wikidata,
     name: "Torque font asset (XML)",
     extensions: &["taml"],
     media_types: &["text/xml"],

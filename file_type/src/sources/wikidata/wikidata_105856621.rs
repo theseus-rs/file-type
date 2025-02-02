@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856621: FileFormat = FileFormat {
     id: 105_856_621,
-    puid: "wikidata/105856621",
+    source_type: SourceType::Wikidata,
     name: "Total Commander Lister extension (plugin)",
     extensions: &["wlx"],
     media_types: &["application/octet-stream"],

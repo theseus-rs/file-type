@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855772: FileFormat = FileFormat {
     id: 105_855_772,
-    puid: "wikidata/105855772",
+    source_type: SourceType::Wikidata,
     name: "Panorama Digital Elevation Model Settings",
     extensions: &["demset"],
     media_types: &["text/plain"],

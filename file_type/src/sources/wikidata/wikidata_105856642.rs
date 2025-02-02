@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856642: FileFormat = FileFormat {
     id: 105_856_642,
-    puid: "wikidata/105856642",
+    source_type: SourceType::Wikidata,
     name: "KingSoft WPS2000 document",
     extensions: &["wps"],
     media_types: &["application/octet-stream"],

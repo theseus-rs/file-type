@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857098: FileFormat = FileFormat {
     id: 105_857_098,
-    puid: "wikidata/105857098",
+    source_type: SourceType::Wikidata,
     name: "Storage card file segments Tiger Tree Hash",
     extensions: &["gltth"],
     media_types: &["application/octet-stream"],

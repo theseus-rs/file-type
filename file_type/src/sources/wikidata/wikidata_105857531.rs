@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857531: FileFormat = FileFormat {
     id: 105_857_531,
-    puid: "wikidata/105857531",
+    source_type: SourceType::Wikidata,
     name: "Parsons Technology resource Index",
     extensions: &["idx"],
     media_types: &["application/octet-stream"],

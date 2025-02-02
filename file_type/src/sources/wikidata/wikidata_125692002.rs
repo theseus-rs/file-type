@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_125692002: FileFormat = FileFormat {
     id: 125_692_002,
-    puid: "wikidata/125692002",
+    source_type: SourceType::Wikidata,
     name: "OpenDocument Graphic Template",
     extensions: &["otg"],
     media_types: &[],

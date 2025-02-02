@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856893: FileFormat = FileFormat {
     id: 105_856_893,
-    puid: "wikidata/105856893",
+    source_type: SourceType::Wikidata,
     name: "DexDrive memory card save game",
     extensions: &["gme"],
     media_types: &[],

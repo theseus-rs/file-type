@@ -1,0 +1,25 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, SourceType, Token,
+};
+
+pub(crate) const PRONOM_2381: FileFormat = FileFormat {
+    id: 2_381,
+    source_type: SourceType::Pronom,
+    name: "Starlink Data Format",
+    extensions: &["sdf"],
+    media_types: &[],
+    internal_signatures: &[InternalSignature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x53, 0x44, 0x53])],
+            },
+        }],
+    }],
+    related_formats: &[RelatedFormat {
+        relationship_type: RelationshipType::HasLowerPriorityThan,
+        id: 1_374,
+    }],
+};

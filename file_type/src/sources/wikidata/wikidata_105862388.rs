@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862388: FileFormat = FileFormat {
     id: 105_862_388,
-    puid: "wikidata/105862388",
+    source_type: SourceType::Wikidata,
     name: "Mlat Ad Lib Tracker module",
     extensions: &["mad"],
     media_types: &["application/octet-stream"],

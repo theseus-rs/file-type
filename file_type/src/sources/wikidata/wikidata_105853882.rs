@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853882: FileFormat = FileFormat {
     id: 105_853_882,
-    puid: "wikidata/105853882",
+    source_type: SourceType::Wikidata,
     name: "STK Azimuth-Elevation Mask format",
     extensions: &["aem"],
     media_types: &["text/plain"],

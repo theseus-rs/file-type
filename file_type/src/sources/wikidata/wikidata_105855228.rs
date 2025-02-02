@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855228: FileFormat = FileFormat {
     id: 105_855_228,
-    puid: "wikidata/105855228",
+    source_type: SourceType::Wikidata,
     name: "FastDir-like quick directory lookup data",
     extensions: &["fd"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860709: FileFormat = FileFormat {
     id: 105_860_709,
-    puid: "wikidata/105860709",
+    source_type: SourceType::Wikidata,
     name: "Rule of Rose game data archive",
     extensions: &["rpk"],
     media_types: &["application/octet-stream"],

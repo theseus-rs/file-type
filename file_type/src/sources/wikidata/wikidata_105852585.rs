@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852585: FileFormat = FileFormat {
     id: 105_852_585,
-    puid: "wikidata/105852585",
+    source_type: SourceType::Wikidata,
     name: "League Of Legends Skeleton",
     extensions: &["skl"],
     media_types: &["application/octet-stream"],

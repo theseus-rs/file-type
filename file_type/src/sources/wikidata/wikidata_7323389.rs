@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_7323389: FileFormat = FileFormat {
     id: 7_323_389,
-    puid: "wikidata/7323389",
+    source_type: SourceType::Wikidata,
     name: "Rich Music Format",
     extensions: &["rmf"],
     media_types: &["application/octet-stream"],

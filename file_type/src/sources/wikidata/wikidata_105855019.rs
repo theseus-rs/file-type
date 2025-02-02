@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855019: FileFormat = FileFormat {
     id: 105_855_019,
-    puid: "wikidata/105855019",
+    source_type: SourceType::Wikidata,
     name: "Allegro Packfile (uncompressed)",
     extensions: &["dat"],
     media_types: &[],

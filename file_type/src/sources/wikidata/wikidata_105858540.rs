@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858540: FileFormat = FileFormat {
     id: 105_858_540,
-    puid: "wikidata/105858540",
+    source_type: SourceType::Wikidata,
     name: "Truevision TGA/TARGA bitmap (uncompressed, RGB image)",
     extensions: &["tga"],
     media_types: &["image/x-tga"],

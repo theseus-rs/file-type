@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852636: FileFormat = FileFormat {
     id: 105_852_636,
-    puid: "wikidata/105852636",
+    source_type: SourceType::Wikidata,
     name: "RoboHelp / FlashHelp skin",
     extensions: &["fhs", "skn"],
-    media_types: &["text/xml", "text/xml"],
+    media_types: &["text/xml"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

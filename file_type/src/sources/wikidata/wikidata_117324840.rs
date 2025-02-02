@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_117324840: FileFormat = FileFormat {
     id: 117_324_840,
-    puid: "wikidata/117324840",
+    source_type: SourceType::Wikidata,
     name: "Function Tree file",
     extensions: &["fp"],
     media_types: &[],

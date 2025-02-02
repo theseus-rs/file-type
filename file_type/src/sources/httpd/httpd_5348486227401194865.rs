@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5348486227401194865: FileFormat = FileFormat {
-    id: 5_348_486_227_401_194_865,
-    puid: "httpd/5348486227401194865",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "smaf",
     extensions: &["mmf"],
     media_types: &["application/vnd.smaf"],

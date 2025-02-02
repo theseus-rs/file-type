@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859342: FileFormat = FileFormat {
     id: 105_859_342,
-    puid: "wikidata/105859342",
+    source_type: SourceType::Wikidata,
     name: "QBX (MS Basic 7.x) Editor keyboard definition",
     extensions: &["key"],
     media_types: &[],

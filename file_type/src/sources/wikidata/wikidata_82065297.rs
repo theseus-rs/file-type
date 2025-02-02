@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_82065297: FileFormat = FileFormat {
     id: 82_065_297,
-    puid: "wikidata/82065297",
+    source_type: SourceType::Wikidata,
     name: "Micrografx Media Manager Easy Catalog",
     extensions: &["ecf"],
     media_types: &["text/ini"],

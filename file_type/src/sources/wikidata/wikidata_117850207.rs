@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_117850207: FileFormat = FileFormat {
     id: 117_850_207,
-    puid: "wikidata/117850207",
+    source_type: SourceType::Wikidata,
     name: "Xerox MicroFax",
     extensions: &["mif"],
     media_types: &[],

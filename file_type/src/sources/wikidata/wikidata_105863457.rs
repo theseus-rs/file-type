@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863457: FileFormat = FileFormat {
     id: 105_863_457,
-    puid: "wikidata/105863457",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Baseline Security Analyser report",
     extensions: &["mbsa"],
     media_types: &[],

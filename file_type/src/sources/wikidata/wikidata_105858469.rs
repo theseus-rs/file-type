@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858469: FileFormat = FileFormat {
     id: 105_858_469,
-    puid: "wikidata/105858469",
+    source_type: SourceType::Wikidata,
     name: "Ericsson eMelody Ringtone",
     extensions: &["emy"],
     media_types: &[],

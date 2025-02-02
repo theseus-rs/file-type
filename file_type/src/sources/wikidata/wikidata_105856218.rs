@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856218: FileFormat = FileFormat {
     id: 105_856_218,
-    puid: "wikidata/105856218",
+    source_type: SourceType::Wikidata,
     name: "DeepBurner project",
     extensions: &["dbr"],
     media_types: &["text/xml"],

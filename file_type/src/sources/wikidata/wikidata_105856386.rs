@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856386: FileFormat = FileFormat {
     id: 105_856_386,
-    puid: "wikidata/105856386",
+    source_type: SourceType::Wikidata,
     name: "Chromadrome 2 game data archive",
     extensions: &["dam"],
     media_types: &["application/octet-stream"],

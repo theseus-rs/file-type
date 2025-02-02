@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861343: FileFormat = FileFormat {
     id: 105_861_343,
-    puid: "wikidata/105861343",
+    source_type: SourceType::Wikidata,
     name: "Visual Studio LightSwitch (V3) Project",
     extensions: &["ls3proj"],
     media_types: &["text/xml"],

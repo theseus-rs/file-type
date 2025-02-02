@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857249: FileFormat = FileFormat {
     id: 105_857_249,
-    puid: "wikidata/105857249",
+    source_type: SourceType::Wikidata,
     name: "Hudson Soft game data (generic)",
     extensions: &["hsf"],
     media_types: &["application/octet-stream"],

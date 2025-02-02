@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859400: FileFormat = FileFormat {
     id: 105_859_400,
-    puid: "wikidata/105859400",
+    source_type: SourceType::Wikidata,
     name: "Statler Stitcher",
     extensions: &["qli"],
     media_types: &[],

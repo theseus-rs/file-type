@@ -1,15 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859740: FileFormat = FileFormat {
     id: 105_859_740,
-    puid: "wikidata/105859740",
+    source_type: SourceType::Wikidata,
     name: "Amiga HAM Video",
     extensions: &["h6v", "h8v", "hv"],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

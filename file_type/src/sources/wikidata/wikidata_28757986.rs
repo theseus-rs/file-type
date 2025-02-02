@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28757986: FileFormat = FileFormat {
     id: 28_757_986,
-    puid: "wikidata/28757986",
+    source_type: SourceType::Wikidata,
     name: "IPS manifest",
     extensions: &["mf", "p5m"],
-    media_types: &["text/plain", "text/plain"],
+    media_types: &["text/plain"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

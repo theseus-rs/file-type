@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852386: FileFormat = FileFormat {
     id: 105_852_386,
-    puid: "wikidata/105852386",
+    source_type: SourceType::Wikidata,
     name: "Wii Texture Animation",
     extensions: &["scn0"],
     media_types: &[],

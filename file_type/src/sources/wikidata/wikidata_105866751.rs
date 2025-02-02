@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866751: FileFormat = FileFormat {
     id: 105_866_751,
-    puid: "wikidata/105866751",
+    source_type: SourceType::Wikidata,
     name: "PlayStation 3 Theme",
     extensions: &["p3t"],
     media_types: &[],

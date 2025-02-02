@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850856: FileFormat = FileFormat {
     id: 105_850_856,
-    puid: "wikidata/105850856",
+    source_type: SourceType::Wikidata,
     name: "Google Earth saved working session",
     extensions: &["kmz"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17607384768001508299: FileFormat = FileFormat {
-    id: 17_607_384_768_001_508_299,
-    puid: "httpd/17607384768001508299",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "bcpio",
     extensions: &["bcpio"],
     media_types: &["application/x-bcpio"],

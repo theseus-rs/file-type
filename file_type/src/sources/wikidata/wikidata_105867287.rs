@@ -1,15 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867287: FileFormat = FileFormat {
     id: 105_867_287,
-    puid: "wikidata/105867287",
+    source_type: SourceType::Wikidata,
     name: "NeoGeo game cartridge (var 2)",
     extensions: &["ngc", "ngp", "npc"],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

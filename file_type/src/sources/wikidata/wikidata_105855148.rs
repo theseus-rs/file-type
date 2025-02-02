@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855148: FileFormat = FileFormat {
     id: 105_855_148,
-    puid: "wikidata/105855148",
+    source_type: SourceType::Wikidata,
     name: "FreeFileSync configuration",
     extensions: &["ffs_gui"],
     media_types: &["text/xml"],

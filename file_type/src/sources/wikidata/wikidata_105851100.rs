@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851100: FileFormat = FileFormat {
     id: 105_851_100,
-    puid: "wikidata/105851100",
+    source_type: SourceType::Wikidata,
     name: "TI-Nspire PublishView document",
     extensions: &["tnsp"],
     media_types: &[],

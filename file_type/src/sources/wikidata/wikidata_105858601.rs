@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858601: FileFormat = FileFormat {
     id: 105_858_601,
-    puid: "wikidata/105858601",
+    source_type: SourceType::Wikidata,
     name: "AliceSoft PMS bitmap",
     extensions: &["pms"],
     media_types: &[],

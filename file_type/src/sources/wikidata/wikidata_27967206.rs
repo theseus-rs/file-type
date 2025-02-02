@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967206: FileFormat = FileFormat {
     id: 27_967_206,
-    puid: "wikidata/27967206",
+    source_type: SourceType::Wikidata,
     name: "Onyx Music File",
     extensions: &["omf"],
     media_types: &["audio/x-mod"],

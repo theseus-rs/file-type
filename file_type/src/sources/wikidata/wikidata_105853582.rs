@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853582: FileFormat = FileFormat {
     id: 105_853_582,
-    puid: "wikidata/105853582",
+    source_type: SourceType::Wikidata,
     name: "Zooper Widget template",
     extensions: &["zw"],
     media_types: &["application/octet-stream"],

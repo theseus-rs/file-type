@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206615: FileFormat = FileFormat {
     id: 28_206_615,
-    puid: "wikidata/28206615",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Paint, version 1",
     extensions: &["msp"],
     media_types: &[],

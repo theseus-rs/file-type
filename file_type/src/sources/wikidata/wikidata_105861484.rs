@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861484: FileFormat = FileFormat {
     id: 105_861_484,
-    puid: "wikidata/105861484",
+    source_type: SourceType::Wikidata,
     name: "MathWorks License",
     extensions: &["lic"],
     media_types: &["text/plain"],

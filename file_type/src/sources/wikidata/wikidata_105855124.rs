@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855124: FileFormat = FileFormat {
     id: 105_855_124,
-    puid: "wikidata/105855124",
+    source_type: SourceType::Wikidata,
     name: "PaperPort slide show",
     extensions: &["fss"],
     media_types: &[],

@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858733: FileFormat = FileFormat {
     id: 105_858_733,
-    puid: "wikidata/105858733",
+    source_type: SourceType::Wikidata,
     name: "ERDAS Image bitmap (v7.x)",
     extensions: &["gis", "lan"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

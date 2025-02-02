@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857707: FileFormat = FileFormat {
     id: 105_857_707,
-    puid: "wikidata/105857707",
+    source_type: SourceType::Wikidata,
     name: "North Star Horizon Hard Disk image",
     extensions: &["nhd"],
     media_types: &["application/octet-stream"],

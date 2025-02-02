@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855286: FileFormat = FileFormat {
     id: 105_855_286,
-    puid: "wikidata/105855286",
+    source_type: SourceType::Wikidata,
     name: "FIFA game serie Font",
     extensions: &["ffn"],
     media_types: &[],

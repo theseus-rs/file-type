@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852155: FileFormat = FileFormat {
     id: 105_852_155,
-    puid: "wikidata/105852155",
+    source_type: SourceType::Wikidata,
     name: "Windows Shadow spooler (2000/XP)",
     extensions: &["shd"],
     media_types: &["application/octet-stream"],

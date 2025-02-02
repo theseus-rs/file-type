@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866877: FileFormat = FileFormat {
     id: 105_866_877,
-    puid: "wikidata/105866877",
+    source_type: SourceType::Wikidata,
     name: "Git pack format (v1)",
     extensions: &["pack"],
     media_types: &["application/octet-stream"],

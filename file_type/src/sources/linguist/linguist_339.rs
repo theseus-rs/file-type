@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_339: FileFormat = FileFormat {
     id: 339,
-    puid: "linguist/339",
+    source_type: SourceType::Linguist,
     name: "SaltStack",
     extensions: &["sls"],
     media_types: &["text/x-yaml"],

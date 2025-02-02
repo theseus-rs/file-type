@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857546: FileFormat = FileFormat {
     id: 105_857_546,
-    puid: "wikidata/105857546",
+    source_type: SourceType::Wikidata,
     name: "IncrediMail Emoticon",
     extensions: &["ime"],
     media_types: &["application/vnd.ms-cab-compressed"],

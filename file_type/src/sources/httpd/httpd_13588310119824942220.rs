@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13588310119824942220: FileFormat = FileFormat {
-    id: 13_588_310_119_824_942_220,
-    puid: "httpd/13588310119824942220",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mobius mqy",
     extensions: &["mqy"],
     media_types: &["application/vnd.mobius.mqy"],

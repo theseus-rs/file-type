@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_3459655: FileFormat = FileFormat {
     id: 3_459_655,
-    puid: "wikidata/3459655",
+    source_type: SourceType::Wikidata,
     name: "StuffIt X archive",
-    extensions: &["sitx", "sitx"],
+    extensions: &["sitx"],
     media_types: &["application/x-sitx", "application/x-stuffitx"],
     internal_signatures: &[
         InternalSignature {

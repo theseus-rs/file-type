@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852855: FileFormat = FileFormat {
     id: 105_852_855,
-    puid: "wikidata/105852855",
+    source_type: SourceType::Wikidata,
     name: "FrontDesigner Scale setting",
     extensions: &["scl"],
     media_types: &["text/plain"],

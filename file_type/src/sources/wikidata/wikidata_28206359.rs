@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206359: FileFormat = FileFormat {
     id: 28_206_359,
-    puid: "wikidata/28206359",
+    source_type: SourceType::Wikidata,
     name: "Intergraph Raster",
     extensions: &[
         "cit", "cmp", "cot", "crl", "ctb", "ctc", "g3", "g4", "grd", "ing", "itg", "jpg", "lsr",

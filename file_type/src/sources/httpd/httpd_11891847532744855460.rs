@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_11891847532744855460: FileFormat = FileFormat {
-    id: 11_891_847_532_744_855_460,
-    puid: "httpd/11891847532744855460",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "webturbo",
     extensions: &["wtb"],
     media_types: &["application/vnd.webturbo"],

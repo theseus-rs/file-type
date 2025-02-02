@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860870: FileFormat = FileFormat {
     id: 105_860_870,
-    puid: "wikidata/105860870",
+    source_type: SourceType::Wikidata,
     name: "RealMedia Secure clip",
     extensions: &["rmx"],
     media_types: &[],

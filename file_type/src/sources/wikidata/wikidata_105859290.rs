@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859290: FileFormat = FileFormat {
     id: 105_859_290,
-    puid: "wikidata/105859290",
+    source_type: SourceType::Wikidata,
     name: "Balance of Power: The 1990 Ed. saved game",
     extensions: &["bop"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852319: FileFormat = FileFormat {
     id: 105_852_319,
-    puid: "wikidata/105852319",
+    source_type: SourceType::Wikidata,
     name: "Return To The Roots save game",
     extensions: &["sav"],
     media_types: &["application/octet-stream"],

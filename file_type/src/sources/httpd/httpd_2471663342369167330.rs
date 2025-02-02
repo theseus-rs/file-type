@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2471663342369167330: FileFormat = FileFormat {
-    id: 2_471_663_342_369_167_330,
-    puid: "httpd/2471663342369167330",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "pmi widget",
     extensions: &["wg"],
     media_types: &["application/vnd.pmi.widget"],

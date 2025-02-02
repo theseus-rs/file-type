@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855052: FileFormat = FileFormat {
     id: 105_855_052,
-    puid: "wikidata/105855052",
+    source_type: SourceType::Wikidata,
     name: "Avro Object Container File",
     extensions: &["avro"],
     media_types: &[],

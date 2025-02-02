@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856478: FileFormat = FileFormat {
     id: 105_856_478,
-    puid: "wikidata/105856478",
+    source_type: SourceType::Wikidata,
     name: "Softlink Whiteboard data",
     extensions: &["wbd"],
     media_types: &["application/x-softlink-whiteboard"],

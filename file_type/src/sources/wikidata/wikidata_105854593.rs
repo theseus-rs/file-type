@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854593: FileFormat = FileFormat {
     id: 105_854_593,
-    puid: "wikidata/105854593",
+    source_type: SourceType::Wikidata,
     name: "SKYT/Drifters Packer song",
     extensions: &["skyt"],
     media_types: &[],

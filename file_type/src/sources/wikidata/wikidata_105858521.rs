@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858521: FileFormat = FileFormat {
     id: 105_858_521,
-    puid: "wikidata/105858521",
+    source_type: SourceType::Wikidata,
     name: "Colin McRae Rally 2 game data archive",
     extensions: &["bfl"],
     media_types: &["application/octet-stream"],

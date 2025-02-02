@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_111514835: FileFormat = FileFormat {
     id: 111_514_835,
-    puid: "wikidata/111514835",
+    source_type: SourceType::Wikidata,
     name: "3D Movie Maker",
     extensions: &["3mm"],
     media_types: &[],

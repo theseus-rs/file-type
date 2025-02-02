@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14535864288757199463: FileFormat = FileFormat {
-    id: 14_535_864_288_757_199_463,
-    puid: "httpd/14535864288757199463",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "quicktime",
     extensions: &["qt", "mov"],
     media_types: &["video/quicktime"],

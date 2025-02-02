@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_1381134: FileFormat = FileFormat {
     id: 1_381_134,
-    puid: "wikidata/1381134",
+    source_type: SourceType::Wikidata,
     name: "MapInfo Interchange Format",
     extensions: &["mif"],
     media_types: &[],

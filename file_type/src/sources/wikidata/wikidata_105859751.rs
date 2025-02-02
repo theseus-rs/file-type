@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859751: FileFormat = FileFormat {
     id: 105_859_751,
-    puid: "wikidata/105859751",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Professional ISAM database",
     extensions: &["mdb"],
     media_types: &["application/octet-stream"],

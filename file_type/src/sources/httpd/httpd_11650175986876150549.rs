@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_11650175986876150549: FileFormat = FileFormat {
-    id: 11_650_175_986_876_150_549,
-    puid: "httpd/11650175986876150549",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mpegurl",
     extensions: &["m3u"],
     media_types: &["audio/x-mpegurl"],

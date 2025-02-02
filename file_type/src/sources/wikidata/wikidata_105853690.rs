@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853690: FileFormat = FileFormat {
     id: 105_853_690,
-    puid: "wikidata/105853690",
+    source_type: SourceType::Wikidata,
     name: "AcuCorp AcuCOBOL license",
     extensions: &["alc", "vlc"],
     media_types: &[],

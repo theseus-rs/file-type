@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859647: FileFormat = FileFormat {
     id: 105_859_647,
-    puid: "wikidata/105859647",
+    source_type: SourceType::Wikidata,
     name: "Nintendo 3DS Flipnote Studio 3D video",
     extensions: &["kwc", "kwz"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_7002675830999037402: FileFormat = FileFormat {
-    id: 7_002_675_830_999_037_402,
-    puid: "httpd/7002675830999037402",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "hp pcl",
     extensions: &["pcl"],
     media_types: &["application/vnd.hp-pcl"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856024: FileFormat = FileFormat {
     id: 105_856_024,
-    puid: "wikidata/105856024",
+    source_type: SourceType::Wikidata,
     name: "3DFX Glide driver",
     extensions: &["dxe"],
     media_types: &["application/octet-stream"],

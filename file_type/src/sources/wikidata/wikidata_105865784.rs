@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865784: FileFormat = FileFormat {
     id: 105_865_784,
-    puid: "wikidata/105865784",
+    source_type: SourceType::Wikidata,
     name: "Yahoo! Voice Mail",
     extensions: &["post"],
     media_types: &[],

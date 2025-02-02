@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853095: FileFormat = FileFormat {
     id: 105_853_095,
-    puid: "wikidata/105853095",
+    source_type: SourceType::Wikidata,
     name: "AutoCAD Shape",
     extensions: &["shx"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862402: FileFormat = FileFormat {
     id: 105_862_402,
-    puid: "wikidata/105862402",
+    source_type: SourceType::Wikidata,
     name: "MDP (FireAlpaca) drawing",
     extensions: &["mdp"],
     media_types: &["application/octet-stream"],

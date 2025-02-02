@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861126: FileFormat = FileFormat {
     id: 105_861_126,
-    puid: "wikidata/105861126",
+    source_type: SourceType::Wikidata,
     name: "JAR Index",
     extensions: &["list"],
     media_types: &["package file format"],

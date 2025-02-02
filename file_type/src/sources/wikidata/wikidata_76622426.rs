@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_76622426: FileFormat = FileFormat {
     id: 76_622_426,
-    puid: "wikidata/76622426",
+    source_type: SourceType::Wikidata,
     name: "Autodesk Alias 2017 Model",
     extensions: &["wire"],
     media_types: &["application/octet-stream"],

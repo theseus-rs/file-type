@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855021: FileFormat = FileFormat {
     id: 105_855_021,
-    puid: "wikidata/105855021",
+    source_type: SourceType::Wikidata,
     name: "OrbWorks PocketC CE Application",
     extensions: &["app"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849820: FileFormat = FileFormat {
     id: 105_849_820,
-    puid: "wikidata/105849820",
+    source_type: SourceType::Wikidata,
     name: "ADO.NET Conceptual Schema Definition Language",
     extensions: &["csdl"],
     media_types: &["text/xml"],

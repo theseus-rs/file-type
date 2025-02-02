@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856306: FileFormat = FileFormat {
     id: 105_856_306,
-    puid: "wikidata/105856306",
+    source_type: SourceType::Wikidata,
     name: "Skype chatsynch (old)",
     extensions: &["dat"],
     media_types: &["application/octet-stream"],

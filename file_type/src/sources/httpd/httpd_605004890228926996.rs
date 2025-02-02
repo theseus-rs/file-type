@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_605004890228926996: FileFormat = FileFormat {
-    id: 605_004_890_228_926_996,
-    puid: "httpd/605004890228926996",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "semf",
     extensions: &["semf"],
     media_types: &["application/vnd.semf"],

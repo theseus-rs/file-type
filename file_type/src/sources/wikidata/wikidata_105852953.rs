@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852953: FileFormat = FileFormat {
     id: 105_852_953,
-    puid: "wikidata/105852953",
+    source_type: SourceType::Wikidata,
     name: "Spring Map Definition",
     extensions: &["smd"],
     media_types: &["text/plain"],

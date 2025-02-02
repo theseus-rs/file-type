@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856258: FileFormat = FileFormat {
     id: 105_856_258,
-    puid: "wikidata/105856258",
+    source_type: SourceType::Wikidata,
     name: "DaVinci Resolve eXchange data",
     extensions: &["drx"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_12060827825691256666: FileFormat = FileFormat {
-    id: 12_060_827_825_691_256_666,
-    puid: "httpd/12060827825691256666",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "iccprofile",
     extensions: &["icc", "icm"],
     media_types: &["application/vnd.iccprofile"],

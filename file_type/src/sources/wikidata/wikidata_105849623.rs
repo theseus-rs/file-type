@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849623: FileFormat = FileFormat {
     id: 105_849_623,
-    puid: "wikidata/105849623",
+    source_type: SourceType::Wikidata,
     name: "SFX Advanced Calculator spreadsheet",
     extensions: &["calc"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13637343208873454390: FileFormat = FileFormat {
-    id: 13_637_343_208_873_454_390,
-    puid: "httpd/13637343208873454390",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "powerbuilder6",
     extensions: &["pbd"],
     media_types: &["application/vnd.powerbuilder6"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864732: FileFormat = FileFormat {
     id: 105_864_732,
-    puid: "wikidata/105864732",
+    source_type: SourceType::Wikidata,
     name: "Psychonauts game data archive",
     extensions: &["pkg"],
     media_types: &["application/octet-stream"],

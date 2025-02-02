@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852508: FileFormat = FileFormat {
     id: 105_852_508,
-    puid: "wikidata/105852508",
+    source_type: SourceType::Wikidata,
     name: "SOSI map data (UTF8)",
     extensions: &["sos"],
     media_types: &["text/plain"],

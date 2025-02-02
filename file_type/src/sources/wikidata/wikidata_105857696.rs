@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857696: FileFormat = FileFormat {
     id: 105_857_696,
-    puid: "wikidata/105857696",
+    source_type: SourceType::Wikidata,
     name: "Braveheart game data archive",
     extensions: &["io"],
     media_types: &["application/octet-stream"],

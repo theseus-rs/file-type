@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858332: FileFormat = FileFormat {
     id: 105_858_332,
-    puid: "wikidata/105858332",
+    source_type: SourceType::Wikidata,
     name: "Disk IMage Archiver self-extracting disk image",
     extensions: &["exe"],
     media_types: &["application/octet-stream"],

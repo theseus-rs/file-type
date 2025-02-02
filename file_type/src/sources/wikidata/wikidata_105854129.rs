@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854129: FileFormat = FileFormat {
     id: 105_854_129,
-    puid: "wikidata/105854129",
+    source_type: SourceType::Wikidata,
     name: "Adobe Edge Animate Template",
     extensions: &["antmpl"],
     media_types: &[],

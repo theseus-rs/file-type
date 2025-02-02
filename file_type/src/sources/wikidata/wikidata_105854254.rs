@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854254: FileFormat = FileFormat {
     id: 105_854_254,
-    puid: "wikidata/105854254",
+    source_type: SourceType::Wikidata,
     name: "Atari800Win Plus Keyboard",
     extensions: &["a8k"],
     media_types: &["application/octet-stream"],

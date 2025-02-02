@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851055: FileFormat = FileFormat {
     id: 105_851_055,
-    puid: "wikidata/105851055",
+    source_type: SourceType::Wikidata,
     name: "TeamBG Infinity Engine data format (v4)",
     extensions: &["tbg"],
     media_types: &["application/octet-stream"],

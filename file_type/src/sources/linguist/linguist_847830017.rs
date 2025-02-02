@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_847830017: FileFormat = FileFormat {
     id: 847_830_017,
-    puid: "linguist/847830017",
+    source_type: SourceType::Linguist,
     name: "sed",
     extensions: &["sed"],
     media_types: &[],

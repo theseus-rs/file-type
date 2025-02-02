@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859710: FileFormat = FileFormat {
     id: 105_859_710,
-    puid: "wikidata/105859710",
+    source_type: SourceType::Wikidata,
     name: "Visio Drawing (old)",
     extensions: &["vsd"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858542: FileFormat = FileFormat {
     id: 105_858_542,
-    puid: "wikidata/105858542",
+    source_type: SourceType::Wikidata,
     name: "Cubicomp PictureMaker blue channel image data",
     extensions: &["b8"],
     media_types: &[],

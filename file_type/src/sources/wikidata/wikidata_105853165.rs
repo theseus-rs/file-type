@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853165: FileFormat = FileFormat {
     id: 105_853_165,
-    puid: "wikidata/105853165",
+    source_type: SourceType::Wikidata,
     name: "Speckie Dictionary Installation",
     extensions: &["sdinstall"],
     media_types: &[],

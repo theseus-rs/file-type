@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850479: FileFormat = FileFormat {
     id: 105_850_479,
-    puid: "wikidata/105850479",
+    source_type: SourceType::Wikidata,
     name: "SNATCH-IT disk image",
     extensions: &["cp2"],
     media_types: &["application/octet-stream"],

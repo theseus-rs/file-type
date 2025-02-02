@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860085: FileFormat = FileFormat {
     id: 105_860_085,
-    puid: "wikidata/105860085",
+    source_type: SourceType::Wikidata,
     name: "Delphine CIN video",
     extensions: &["cin"],
     media_types: &["application/octet-stream"],

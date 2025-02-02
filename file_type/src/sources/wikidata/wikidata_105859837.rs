@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859837: FileFormat = FileFormat {
     id: 105_859_837,
-    puid: "wikidata/105859837",
+    source_type: SourceType::Wikidata,
     name: "DISCO Dynamic Discovery file",
     extensions: &["vsdisco"],
     media_types: &[],

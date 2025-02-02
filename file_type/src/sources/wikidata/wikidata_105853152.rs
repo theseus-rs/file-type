@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853152: FileFormat = FileFormat {
     id: 105_853_152,
-    puid: "wikidata/105853152",
+    source_type: SourceType::Wikidata,
     name: "Yamaha EX5 voices format",
     extensions: &["s1v"],
     media_types: &["application/octet-stream"],

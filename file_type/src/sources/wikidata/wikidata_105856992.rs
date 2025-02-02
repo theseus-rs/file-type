@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856992: FileFormat = FileFormat {
     id: 105_856_992,
-    puid: "wikidata/105856992",
+    source_type: SourceType::Wikidata,
     name: "GeoplanW data",
     extensions: &["g2w"],
     media_types: &["application/vnd.geoplan"],

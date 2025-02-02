@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862781: FileFormat = FileFormat {
     id: 105_862_781,
-    puid: "wikidata/105862781",
+    source_type: SourceType::Wikidata,
     name: "COMSOL Multiphysics mesh (txt)",
     extensions: &["mphtxt"],
     media_types: &["text/plain"],

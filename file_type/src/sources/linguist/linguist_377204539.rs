@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_377204539: FileFormat = FileFormat {
     id: 377_204_539,
-    puid: "linguist/377204539",
+    source_type: SourceType::Linguist,
     name: "Linear Programming",
     extensions: &["lp"],
     media_types: &[],

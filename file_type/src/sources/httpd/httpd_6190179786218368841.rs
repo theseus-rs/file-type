@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6190179786218368841: FileFormat = FileFormat {
-    id: 6_190_179_786_218_368_841,
-    puid: "httpd/6190179786218368841",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "openxmlformats officedocument spreadsheetml sheet",
     extensions: &["xlsx"],
     media_types: &["application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"],

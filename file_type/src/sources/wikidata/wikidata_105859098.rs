@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859098: FileFormat = FileFormat {
     id: 105_859_098,
-    puid: "wikidata/105859098",
+    source_type: SourceType::Wikidata,
     name: "Spectrum 512 compressed/smooshed bitmap",
     extensions: &["spc", "sps"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

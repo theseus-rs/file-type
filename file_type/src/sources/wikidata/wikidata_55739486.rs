@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_55739486: FileFormat = FileFormat {
     id: 55_739_486,
-    puid: "wikidata/55739486",
+    source_type: SourceType::Wikidata,
     name: "Gramps XML",
     extensions: &["gramps"],
     media_types: &["application/x-gramps-xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861149: FileFormat = FileFormat {
     id: 105_861_149,
-    puid: "wikidata/105861149",
+    source_type: SourceType::Wikidata,
     name: "CUPL error Listing",
     extensions: &["lst"],
     media_types: &["application/octet-stream"],

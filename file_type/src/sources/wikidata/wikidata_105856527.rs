@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856527: FileFormat = FileFormat {
     id: 105_856_527,
-    puid: "wikidata/105856527",
+    source_type: SourceType::Wikidata,
     name: "WordStar Macro",
     extensions: &["wsm"],
     media_types: &["application/octet-stream"],

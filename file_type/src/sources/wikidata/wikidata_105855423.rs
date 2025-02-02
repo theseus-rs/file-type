@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855423: FileFormat = FileFormat {
     id: 105_855_423,
-    puid: "wikidata/105855423",
+    source_type: SourceType::Wikidata,
     name: "AVG Antivirus Vault file",
     extensions: &["fil"],
     media_types: &[],

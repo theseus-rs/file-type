@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851166: FileFormat = FileFormat {
     id: 105_851_166,
-    puid: "wikidata/105851166",
+    source_type: SourceType::Wikidata,
     name: "Track Record Viewer TRV/TRVX definition",
     extensions: &["trv"],
     media_types: &[],

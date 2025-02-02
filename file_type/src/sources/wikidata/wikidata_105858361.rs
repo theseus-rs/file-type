@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858361: FileFormat = FileFormat {
     id: 105_858_361,
-    puid: "wikidata/105858361",
+    source_type: SourceType::Wikidata,
     name: "EGrid32 Form",
     extensions: &["egr"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863535: FileFormat = FileFormat {
     id: 105_863_535,
-    puid: "wikidata/105863535",
+    source_type: SourceType::Wikidata,
     name: "Borland C++ Builder Makefile (generic)",
     extensions: &["mak"],
     media_types: &["text/plain"],

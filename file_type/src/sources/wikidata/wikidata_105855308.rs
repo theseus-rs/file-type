@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855308: FileFormat = FileFormat {
     id: 105_855_308,
-    puid: "wikidata/105855308",
+    source_type: SourceType::Wikidata,
     name: "SimCity 3000 Freshness Score",
     extensions: &["fsc"],
     media_types: &["text/plain"],

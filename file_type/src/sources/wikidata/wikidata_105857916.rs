@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857916: FileFormat = FileFormat {
     id: 105_857_916,
-    puid: "wikidata/105857916",
+    source_type: SourceType::Wikidata,
     name: "VMware 4 Virtual Disk (monolitic)",
     extensions: &["vmdk"],
     media_types: &["application/octet-stream"],

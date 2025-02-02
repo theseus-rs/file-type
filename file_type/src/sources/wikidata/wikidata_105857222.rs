@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857222: FileFormat = FileFormat {
     id: 105_857_222,
-    puid: "wikidata/105857222",
+    source_type: SourceType::Wikidata,
     name: "Hidden Agenda save game",
     extensions: &["ha"],
     media_types: &["application/octet-stream"],

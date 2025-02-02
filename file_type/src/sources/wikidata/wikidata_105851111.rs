@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851111: FileFormat = FileFormat {
     id: 105_851_111,
-    puid: "wikidata/105851111",
+    source_type: SourceType::Wikidata,
     name: "Tree Generator 3D tree",
     extensions: &["tgf"],
     media_types: &[],

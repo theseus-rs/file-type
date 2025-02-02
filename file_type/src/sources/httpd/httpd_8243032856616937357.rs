@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_8243032856616937357: FileFormat = FileFormat {
-    id: 8_243_032_856_616_937_357,
-    puid: "httpd/8243032856616937357",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "anser web funds transfer initiation",
     extensions: &["fti"],
     media_types: &["application/vnd.anser-web-funds-transfer-initiation"],

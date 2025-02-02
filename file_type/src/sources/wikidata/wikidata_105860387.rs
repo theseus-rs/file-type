@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860387: FileFormat = FileFormat {
     id: 105_860_387,
-    puid: "wikidata/105860387",
+    source_type: SourceType::Wikidata,
     name: "GROMACS Residue Topology",
     extensions: &["rtp"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849847: FileFormat = FileFormat {
     id: 105_849_847,
-    puid: "wikidata/105849847",
+    source_type: SourceType::Wikidata,
     name: "Syslinux COM32 module (v2)",
     extensions: &["c32"],
     media_types: &["application/x-c32-comboot-syslinux-exec"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857650: FileFormat = FileFormat {
     id: 105_857_650,
-    puid: "wikidata/105857650",
+    source_type: SourceType::Wikidata,
     name: "PaintTool SAI Tool parameters",
     extensions: &["ini"],
     media_types: &["text/ini"],

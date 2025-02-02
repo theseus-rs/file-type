@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_741654: FileFormat = FileFormat {
     id: 741_654,
-    puid: "wikidata/741654",
+    source_type: SourceType::Wikidata,
     name: "DirectDraw Surface",
     extensions: &["dds"],
     media_types: &["image/vnd-ms.dds"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854557: FileFormat = FileFormat {
     id: 105_854_557,
-    puid: "wikidata/105854557",
+    source_type: SourceType::Wikidata,
     name: "ABC FlowCharter shapes Palette",
     extensions: &["afp"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_2997216: FileFormat = FileFormat {
     id: 2_997_216,
-    puid: "wikidata/2997216",
+    source_type: SourceType::Wikidata,
     name: "Core Audio Format",
     extensions: &["caf"],
     media_types: &["audio/x-caf"],

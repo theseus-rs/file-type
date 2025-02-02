@@ -71,7 +71,7 @@ fn test_file_classification() -> Result<()> {
 
 #[test]
 fn test_single_file_classification() -> Result<()> {
-    let (id, file_type) = test_file("fmt-708-signature-id-831.wav")?;
+    let (id, file_type) = test_file("pronom-1507-signature-id-831.wav")?;
     assert_eq!(file_type.id(), id);
     Ok(())
 }

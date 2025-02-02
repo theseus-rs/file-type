@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854942: FileFormat = FileFormat {
     id: 105_854_942,
-    puid: "wikidata/105854942",
+    source_type: SourceType::Wikidata,
     name: "SAPCAR SAR compressed archive (v2.x)",
     extensions: &["sar"],
     media_types: &["application/octet-stream"],

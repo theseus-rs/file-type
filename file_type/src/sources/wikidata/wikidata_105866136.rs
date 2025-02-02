@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866136: FileFormat = FileFormat {
     id: 105_866_136,
-    puid: "wikidata/105866136",
+    source_type: SourceType::Wikidata,
     name: "QNX Photon Font (bitmap)",
     extensions: &["phf"],
     media_types: &[],

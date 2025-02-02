@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29167470: FileFormat = FileFormat {
     id: 29_167_470,
-    puid: "wikidata/29167470",
+    source_type: SourceType::Wikidata,
     name: "Open Virtualization Format Descriptor",
     extensions: &["ovf"],
     media_types: &["text/xml"],

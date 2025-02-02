@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862123: FileFormat = FileFormat {
     id: 105_862_123,
-    puid: "wikidata/105862123",
+    source_type: SourceType::Wikidata,
     name: "Magic Camera Effect",
     extensions: &["mce"],
     media_types: &["application/octet-stream"],

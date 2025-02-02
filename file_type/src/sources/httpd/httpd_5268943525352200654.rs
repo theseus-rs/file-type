@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5268943525352200654: FileFormat = FileFormat {
-    id: 5_268_943_525_352_200_654,
-    puid: "httpd/5268943525352200654",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "h264",
     extensions: &["h264"],
     media_types: &["video/h264"],

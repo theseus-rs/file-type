@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850011: FileFormat = FileFormat {
     id: 105_850_011,
-    puid: "wikidata/105850011",
+    source_type: SourceType::Wikidata,
     name: "Chip Tracker module",
     extensions: &["chi"],
     media_types: &[],

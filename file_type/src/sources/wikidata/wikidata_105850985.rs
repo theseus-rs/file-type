@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850985: FileFormat = FileFormat {
     id: 105_850_985,
-    puid: "wikidata/105850985",
+    source_type: SourceType::Wikidata,
     name: "Teledisk Disk compressed image (advanced mode)",
     extensions: &["td0"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857960: FileFormat = FileFormat {
     id: 105_857_960,
-    puid: "wikidata/105857960",
+    source_type: SourceType::Wikidata,
     name: "IPexpress module manifest",
     extensions: &["ipx"],
     media_types: &["text/xml"],

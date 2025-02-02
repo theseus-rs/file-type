@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864879: FileFormat = FileFormat {
     id: 105_864_879,
-    puid: "wikidata/105864879",
+    source_type: SourceType::Wikidata,
     name: "HSQLDB configuration",
     extensions: &["properties"],
     media_types: &[],

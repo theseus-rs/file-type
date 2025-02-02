@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854869: FileFormat = FileFormat {
     id: 105_854_869,
-    puid: "wikidata/105854869",
+    source_type: SourceType::Wikidata,
     name: "a-squared Anti-Malware signature",
     extensions: &["sig"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_8411735535461836205: FileFormat = FileFormat {
-    id: 8_411_735_535_461_836_205,
-    puid: "httpd/8411735535461836205",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "caf",
     extensions: &["caf"],
     media_types: &["audio/x-caf"],

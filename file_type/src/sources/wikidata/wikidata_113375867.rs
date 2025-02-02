@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_113375867: FileFormat = FileFormat {
     id: 113_375_867,
-    puid: "wikidata/113375867",
+    source_type: SourceType::Wikidata,
     name: "Extended GEM Bit Image",
     extensions: &["ximg"],
     media_types: &[],

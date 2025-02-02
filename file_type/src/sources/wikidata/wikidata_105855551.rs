@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855551: FileFormat = FileFormat {
     id: 105_855_551,
-    puid: "wikidata/105855551",
+    source_type: SourceType::Wikidata,
     name: "OOMMF Vector Field 2.0 format",
     extensions: &["ovf"],
     media_types: &["text/plain"],

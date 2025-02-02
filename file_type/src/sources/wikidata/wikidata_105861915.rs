@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861915: FileFormat = FileFormat {
     id: 105_861_915,
-    puid: "wikidata/105861915",
+    source_type: SourceType::Wikidata,
     name: "Viewpoint MetaStream scene",
     extensions: &["mtx"],
     media_types: &[],

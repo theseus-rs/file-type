@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855931: FileFormat = FileFormat {
     id: 105_855_931,
-    puid: "wikidata/105855931",
+    source_type: SourceType::Wikidata,
     name: "Microsoft separate Debug format",
     extensions: &["dbg"],
     media_types: &["application/octet-stream"],

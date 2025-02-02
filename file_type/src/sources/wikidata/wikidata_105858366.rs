@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858366: FileFormat = FileFormat {
     id: 105_858_366,
-    puid: "wikidata/105858366",
+    source_type: SourceType::Wikidata,
     name: "Everyone Piano skin",
     extensions: &["zip"],
     media_types: &["application/octet-stream"],

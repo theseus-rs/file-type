@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865606: FileFormat = FileFormat {
     id: 105_865_606,
-    puid: "wikidata/105865606",
+    source_type: SourceType::Wikidata,
     name: "Casio Prizm add-in",
     extensions: &["g3a"],
     media_types: &[],

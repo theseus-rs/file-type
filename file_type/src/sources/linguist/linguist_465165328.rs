@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_465165328: FileFormat = FileFormat {
     id: 465_165_328,
-    puid: "linguist/465165328",
+    source_type: SourceType::Linguist,
     name: "JetBrains MPS",
     extensions: &["mpl", "mps", "msd"],
     media_types: &["text/xml"],

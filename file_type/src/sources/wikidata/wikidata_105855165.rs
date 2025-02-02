@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855165: FileFormat = FileFormat {
     id: 105_855_165,
-    puid: "wikidata/105855165",
+    source_type: SourceType::Wikidata,
     name: "ColecoVision Font",
     extensions: &["fcv"],
     media_types: &["text/plain"],

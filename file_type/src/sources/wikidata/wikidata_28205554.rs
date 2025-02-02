@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205554: FileFormat = FileFormat {
     id: 28_205_554,
-    puid: "wikidata/28205554",
+    source_type: SourceType::Wikidata,
     name: "Nokia Logo Manager bitmap",
     extensions: &["nlm"],
     media_types: &["application/octet-stream"],

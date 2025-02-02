@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_98890914: FileFormat = FileFormat {
     id: 98_890_914,
-    puid: "wikidata/98890914",
+    source_type: SourceType::Wikidata,
     name: "Windows Calendar",
     extensions: &["cal"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861935: FileFormat = FileFormat {
     id: 105_861_935,
-    puid: "wikidata/105861935",
+    source_type: SourceType::Wikidata,
     name: "Tecplot Macro",
     extensions: &["mcr"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866661: FileFormat = FileFormat {
     id: 105_866_661,
-    puid: "wikidata/105866661",
+    source_type: SourceType::Wikidata,
     name: "Parasolid XT",
     extensions: &["x_b", "x_t"],
     media_types: &[],

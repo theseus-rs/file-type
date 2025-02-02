@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850143: FileFormat = FileFormat {
     id: 105_850_143,
-    puid: "wikidata/105850143",
+    source_type: SourceType::Wikidata,
     name: "ArtCAM post processor Configuration",
     extensions: &["con"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_116884421: FileFormat = FileFormat {
     id: 116_884_421,
-    puid: "wikidata/116884421",
+    source_type: SourceType::Wikidata,
     name: "Adobe PhotoDeluxe data",
     extensions: &["pbd"],
     media_types: &[],

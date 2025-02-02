@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863548: FileFormat = FileFormat {
     id: 105_863_548,
-    puid: "wikidata/105863548",
+    source_type: SourceType::Wikidata,
     name: "Alias|Wavefront material",
     extensions: &["mtl"],
     media_types: &["text/plain"],

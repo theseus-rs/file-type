@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_50374860: FileFormat = FileFormat {
     id: 50_374_860,
-    puid: "wikidata/50374860",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Windows Movie Maker File",
     extensions: &["mswmm"],
     media_types: &["application/octet-stream"],

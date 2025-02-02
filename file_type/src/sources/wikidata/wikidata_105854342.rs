@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854342: FileFormat = FileFormat {
     id: 105_854_342,
-    puid: "wikidata/105854342",
+    source_type: SourceType::Wikidata,
     name: "THEOS compressed archive",
     extensions: &["cmp"],
     media_types: &[],

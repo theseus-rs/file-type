@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858675: FileFormat = FileFormat {
     id: 105_858_675,
-    puid: "wikidata/105858675",
+    source_type: SourceType::Wikidata,
     name: "J Wavelet Image Codec bitmap",
     extensions: &["wic"],
     media_types: &[],

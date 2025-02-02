@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28777689: FileFormat = FileFormat {
     id: 28_777_689,
-    puid: "wikidata/28777689",
+    source_type: SourceType::Wikidata,
     name: "Mosaic hotlists",
     extensions: &["hot"],
     media_types: &["text/plain"],

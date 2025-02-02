@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857238: FileFormat = FileFormat {
     id: 105_857_238,
-    puid: "wikidata/105857238",
+    source_type: SourceType::Wikidata,
     name: "Hard Disk Menu System menu",
     extensions: &["000", "999"],
-    media_types: &["text/plain", "text/plain"],
+    media_types: &["text/plain"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

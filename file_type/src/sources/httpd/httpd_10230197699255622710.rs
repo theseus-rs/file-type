@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10230197699255622710: FileFormat = FileFormat {
-    id: 10_230_197_699_255_622_710,
-    puid: "httpd/10230197699255622710",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "geonext",
     extensions: &["gxt"],
     media_types: &["application/vnd.geonext"],

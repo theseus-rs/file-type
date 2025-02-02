@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863651: FileFormat = FileFormat {
     id: 105_863_651,
-    puid: "wikidata/105863651",
+    source_type: SourceType::Wikidata,
     name: "MIUI Theme",
     extensions: &["mtz"],
     media_types: &[],

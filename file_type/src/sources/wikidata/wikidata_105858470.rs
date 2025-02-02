@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858470: FileFormat = FileFormat {
     id: 105_858_470,
-    puid: "wikidata/105858470",
+    source_type: SourceType::Wikidata,
     name: "H.R.C.D.T. warrior load format",
     extensions: &["exe"],
     media_types: &["text/plain"],

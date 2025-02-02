@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858854: FileFormat = FileFormat {
     id: 105_858_854,
-    puid: "wikidata/105858854",
+    source_type: SourceType::Wikidata,
     name: "Pascal Script binary",
     extensions: &["bin"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855790: FileFormat = FileFormat {
     id: 105_855_790,
-    puid: "wikidata/105855790",
+    source_type: SourceType::Wikidata,
     name: "LocoScript Data (v1.x)",
     extensions: &["dat"],
     media_types: &["application/octet-stream"],

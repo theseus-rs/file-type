@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860758: FileFormat = FileFormat {
     id: 105_860_758,
-    puid: "wikidata/105860758",
+    source_type: SourceType::Wikidata,
     name: "Rathole compressed data",
     extensions: &["rhl"],
     media_types: &["application/octet-stream"],

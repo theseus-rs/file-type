@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861669: FileFormat = FileFormat {
     id: 105_861_669,
-    puid: "wikidata/105861669",
+    source_type: SourceType::Wikidata,
     name: "RPG Maker 2000/2003 Map",
     extensions: &["lmu"],
     media_types: &["application/octet-stream"],

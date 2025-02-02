@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861025: FileFormat = FileFormat {
     id: 105_861_025,
-    puid: "wikidata/105861025",
+    source_type: SourceType::Wikidata,
     name: "WinWay Letter (v4.0)",
     extensions: &["ltr"],
     media_types: &["application/octet-stream"],

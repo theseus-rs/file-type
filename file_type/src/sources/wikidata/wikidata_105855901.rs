@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855901: FileFormat = FileFormat {
     id: 105_855_901,
-    puid: "wikidata/105855901",
+    source_type: SourceType::Wikidata,
     name: "TS Online Dialing Directory",
     extensions: &["dcd"],
     media_types: &["application/octet-stream"],

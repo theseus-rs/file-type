@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17622281248786972968: FileFormat = FileFormat {
-    id: 17_622_281_248_786_972_968,
-    puid: "httpd/17622281248786972968",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "pskc xml",
     extensions: &["pskcxml"],
     media_types: &["application/pskc+xml"],

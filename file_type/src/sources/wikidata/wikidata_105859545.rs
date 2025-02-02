@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859545: FileFormat = FileFormat {
     id: 105_859_545,
-    puid: "wikidata/105859545",
+    source_type: SourceType::Wikidata,
     name: "Verilog source code (with rem 1)",
     extensions: &["v"],
     media_types: &["text/plain"],

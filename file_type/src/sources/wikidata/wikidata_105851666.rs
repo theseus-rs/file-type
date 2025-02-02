@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851666: FileFormat = FileFormat {
     id: 105_851_666,
-    puid: "wikidata/105851666",
+    source_type: SourceType::Wikidata,
     name: "Silo 3D model (binary)",
     extensions: &["sib"],
     media_types: &[],

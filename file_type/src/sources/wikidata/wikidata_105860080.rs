@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860080: FileFormat = FileFormat {
     id: 105_860_080,
-    puid: "wikidata/105860080",
+    source_type: SourceType::Wikidata,
     name: "BlueZone VT Display Keymap",
     extensions: &["vdk"],
     media_types: &[],

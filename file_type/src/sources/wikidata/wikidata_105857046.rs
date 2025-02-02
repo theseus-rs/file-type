@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857046: FileFormat = FileFormat {
     id: 105_857_046,
-    puid: "wikidata/105857046",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Vista Sidebar Gadget (Zip)",
     extensions: &["gadget"],
     media_types: &[],

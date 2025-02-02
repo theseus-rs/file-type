@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852542: FileFormat = FileFormat {
     id: 105_852_542,
-    puid: "wikidata/105852542",
+    source_type: SourceType::Wikidata,
     name: "StarOffice Drawing",
     extensions: &["sxd"],
     media_types: &["application/vnd.sun.xml.draw"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861168: FileFormat = FileFormat {
     id: 105_861_168,
-    puid: "wikidata/105861168",
+    source_type: SourceType::Wikidata,
     name: "Amiga WHDLoad package (lha compressed)",
     extensions: &["lha"],
     media_types: &["application/octet-stream"],

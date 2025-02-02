@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857263: FileFormat = FileFormat {
     id: 105_857_263,
-    puid: "wikidata/105857263",
+    source_type: SourceType::Wikidata,
     name: "KeyShot environment",
     extensions: &["hdz"],
     media_types: &["application/octet-stream"],

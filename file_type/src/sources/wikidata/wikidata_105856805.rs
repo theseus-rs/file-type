@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856805: FileFormat = FileFormat {
     id: 105_856_805,
-    puid: "wikidata/105856805",
+    source_type: SourceType::Wikidata,
     name: "GEM Graph (v1.0)",
     extensions: &["grf"],
     media_types: &["application/octet-stream"],

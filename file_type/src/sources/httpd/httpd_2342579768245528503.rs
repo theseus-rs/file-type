@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2342579768245528503: FileFormat = FileFormat {
-    id: 2_342_579_768_245_528_503,
-    puid: "httpd/2342579768245528503",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "lotus 1 2 3",
     extensions: &["123"],
     media_types: &["application/vnd.lotus-1-2-3"],

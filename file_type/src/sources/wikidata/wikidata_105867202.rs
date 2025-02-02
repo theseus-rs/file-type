@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867202: FileFormat = FileFormat {
     id: 105_867_202,
-    puid: "wikidata/105867202",
+    source_type: SourceType::Wikidata,
     name: "NIfTI-2 data format (little endian)",
     extensions: &["nii"],
     media_types: &["application/octet-stream"],

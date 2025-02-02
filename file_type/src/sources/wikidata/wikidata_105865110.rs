@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865110: FileFormat = FileFormat {
     id: 105_865_110,
-    puid: "wikidata/105865110",
+    source_type: SourceType::Wikidata,
     name: "InnovMetric Software Polygon Model",
     extensions: &["pol"],
     media_types: &[],

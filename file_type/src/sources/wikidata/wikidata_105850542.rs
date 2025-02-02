@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850542: FileFormat = FileFormat {
     id: 105_850_542,
-    puid: "wikidata/105850542",
+    source_type: SourceType::Wikidata,
     name: "Blackberry Binary Executable",
     extensions: &["cod"],
     media_types: &[],

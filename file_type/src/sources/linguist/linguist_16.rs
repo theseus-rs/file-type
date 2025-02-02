@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_16: FileFormat = FileFormat {
     id: 16,
-    puid: "linguist/16",
+    source_type: SourceType::Linguist,
     name: "ApacheConf",
     extensions: &["apacheconf", "vhost"],
     media_types: &[],

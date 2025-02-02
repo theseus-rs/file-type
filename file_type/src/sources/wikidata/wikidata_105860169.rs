@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860169: FileFormat = FileFormat {
     id: 105_860_169,
-    puid: "wikidata/105860169",
+    source_type: SourceType::Wikidata,
     name: "RetroPlatform Player archive",
     extensions: &["rp9"],
     media_types: &["application/vnd.cloanto.rp9"],

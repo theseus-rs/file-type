@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858520: FileFormat = FileFormat {
     id: 105_858_520,
-    puid: "wikidata/105858520",
+    source_type: SourceType::Wikidata,
     name: "Vivaldi Music Dump format",
     extensions: &["bin"],
     media_types: &["application/octet-stream"],

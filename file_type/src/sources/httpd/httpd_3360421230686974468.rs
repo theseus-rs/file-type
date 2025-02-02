@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3360421230686974468: FileFormat = FileFormat {
-    id: 3_360_421_230_686_974_468,
-    puid: "httpd/3360421230686974468",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "vcalendar",
     extensions: &["vcs"],
     media_types: &["text/x-vcalendar"],

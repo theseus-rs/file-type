@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852411: FileFormat = FileFormat {
     id: 105_852_411,
-    puid: "wikidata/105852411",
+    source_type: SourceType::Wikidata,
     name: "Swish-e index",
     extensions: &["swish"],
     media_types: &[],

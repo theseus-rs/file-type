@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856552: FileFormat = FileFormat {
     id: 105_856_552,
-    puid: "wikidata/105856552",
+    source_type: SourceType::Wikidata,
     name: "WinAmp 2.x Skin",
     extensions: &["wsz"],
     media_types: &[],

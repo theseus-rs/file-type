@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854460: FileFormat = FileFormat {
     id: 105_854_460,
-    puid: "wikidata/105854460",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Windows AppX package",
     extensions: &["appx"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854628: FileFormat = FileFormat {
     id: 105_854_628,
-    puid: "wikidata/105854628",
+    source_type: SourceType::Wikidata,
     name: "Mii Maker data archive",
     extensions: &["arc"],
     media_types: &["application/octet-stream"],

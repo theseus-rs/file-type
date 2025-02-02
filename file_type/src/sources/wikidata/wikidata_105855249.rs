@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855249: FileFormat = FileFormat {
     id: 105_855_249,
-    puid: "wikidata/105855249",
+    source_type: SourceType::Wikidata,
     name: "Origin Fitting Function Definition File",
     extensions: &["fdf"],
     media_types: &["text/plain"],

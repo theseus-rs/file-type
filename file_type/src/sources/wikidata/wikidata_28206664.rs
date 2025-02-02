@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206664: FileFormat = FileFormat {
     id: 28_206_664,
-    puid: "wikidata/28206664",
+    source_type: SourceType::Wikidata,
     name: "Nero CoverDesigner Template",
     extensions: &["nct"],
     media_types: &[],

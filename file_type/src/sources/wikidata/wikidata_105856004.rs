@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856004: FileFormat = FileFormat {
     id: 105_856_004,
-    puid: "wikidata/105856004",
+    source_type: SourceType::Wikidata,
     name: "DeskMate clipart",
     extensions: &["clp"],
     media_types: &[],

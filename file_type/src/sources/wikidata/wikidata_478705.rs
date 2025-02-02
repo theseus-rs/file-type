@@ -1,14 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_478705: FileFormat = FileFormat {
     id: 478_705,
-    puid: "wikidata/478705",
+    source_type: SourceType::Wikidata,
     name: "proxy auto-config",
-    extensions: &["pac", "pac", "pac", "pac"],
+    extensions: &["pac"],
     media_types: &[
         "application/x-javascript-config",
-        "application/x-javascript-config",
-        "application/x-ns-proxy-autoconfig",
         "application/x-ns-proxy-autoconfig",
     ],
     internal_signatures: &[

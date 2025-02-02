@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_70081372: FileFormat = FileFormat {
     id: 70_081_372,
-    puid: "wikidata/70081372",
+    source_type: SourceType::Wikidata,
     name: "FLAC Fingerprint file format",
     extensions: &["ffp"],
     media_types: &[],

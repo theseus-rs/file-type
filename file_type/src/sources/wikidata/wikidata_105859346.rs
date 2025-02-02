@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859346: FileFormat = FileFormat {
     id: 105_859_346,
-    puid: "wikidata/105859346",
+    source_type: SourceType::Wikidata,
     name: "Qubicle Exchange Format",
     extensions: &["qef"],
     media_types: &["text/plain"],

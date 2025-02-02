@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855291: FileFormat = FileFormat {
     id: 105_855_291,
-    puid: "wikidata/105855291",
+    source_type: SourceType::Wikidata,
     name: "HALion Sampler patch - bank",
     extensions: &["fxb"],
     media_types: &[],

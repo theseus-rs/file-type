@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850819: FileFormat = FileFormat {
     id: 105_850_819,
-    puid: "wikidata/105850819",
+    source_type: SourceType::Wikidata,
     name: "SuperJAM! Keyboard",
     extensions: &["keyboard"],
     media_types: &["application/octet-stream"],

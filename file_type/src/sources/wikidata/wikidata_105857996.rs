@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857996: FileFormat = FileFormat {
     id: 105_857_996,
-    puid: "wikidata/105857996",
+    source_type: SourceType::Wikidata,
     name: "DIV Games Studio Font Source",
     extensions: &["ifs"],
     media_types: &["application/octet-stream"],

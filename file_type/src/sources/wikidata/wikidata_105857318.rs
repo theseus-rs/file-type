@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857318: FileFormat = FileFormat {
     id: 105_857_318,
-    puid: "wikidata/105857318",
+    source_type: SourceType::Wikidata,
     name: "L3DT compressed Heightfield Format",
     extensions: &["hf2"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_9058684993375571790: FileFormat = FileFormat {
-    id: 9_058_684_993_375_571_790,
-    puid: "httpd/9058684993375571790",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "openofficeorg extension",
     extensions: &["oxt"],
     media_types: &["application/vnd.openofficeorg.extension"],

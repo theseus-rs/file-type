@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853537: FileFormat = FileFormat {
     id: 105_853_537,
-    puid: "wikidata/105853537",
+    source_type: SourceType::Wikidata,
     name: "Zenographics ZjStream Page Description Language (little-endian)",
     extensions: &["zjs"],
     media_types: &[],

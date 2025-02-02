@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851228: FileFormat = FileFormat {
     id: 105_851_228,
-    puid: "wikidata/105851228",
+    source_type: SourceType::Wikidata,
     name: "Marmoset Toolbag Material",
     extensions: &["tbmat"],
     media_types: &["text/plain"],

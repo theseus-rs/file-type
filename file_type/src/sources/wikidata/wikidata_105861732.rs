@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861732: FileFormat = FileFormat {
     id: 105_861_732,
-    puid: "wikidata/105861732",
+    source_type: SourceType::Wikidata,
     name: "J.River Media Center plugin",
     extensions: &["mjp"],
     media_types: &[],

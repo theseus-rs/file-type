@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856050: FileFormat = FileFormat {
     id: 105_856_050,
-    puid: "wikidata/105856050",
+    source_type: SourceType::Wikidata,
     name: "Dungeon Siege Resource game data",
     extensions: &["dsres"],
     media_types: &["application/octet-stream"],

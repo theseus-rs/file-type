@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856272: FileFormat = FileFormat {
     id: 105_856_272,
-    puid: "wikidata/105856272",
+    source_type: SourceType::Wikidata,
     name: "D-LIB bytecode (generic)",
     extensions: &["dcf"],
     media_types: &[],

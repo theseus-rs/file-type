@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866966: FileFormat = FileFormat {
     id: 105_866_966,
-    puid: "wikidata/105866966",
+    source_type: SourceType::Wikidata,
     name: "NGPocket savestate",
     extensions: &["ngs"],
     media_types: &["application/octet-stream"],

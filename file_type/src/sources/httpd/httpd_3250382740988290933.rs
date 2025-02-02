@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3250382740988290933: FileFormat = FileFormat {
-    id: 3_250_382_740_988_290_933,
-    puid: "httpd/3250382740988290933",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "kde kontour",
     extensions: &["kon"],
     media_types: &["application/vnd.kde.kontour"],

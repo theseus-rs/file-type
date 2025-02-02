@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205619: FileFormat = FileFormat {
     id: 28_205_619,
-    puid: "wikidata/28205619",
+    source_type: SourceType::Wikidata,
     name: "RIPscrip version 2 Hot Icon",
     extensions: &["bmh"],
     media_types: &[],

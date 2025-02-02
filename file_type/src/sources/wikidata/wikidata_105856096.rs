@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856096: FileFormat = FileFormat {
     id: 105_856_096,
-    puid: "wikidata/105856096",
+    source_type: SourceType::Wikidata,
     name: "Datel Action Replay for Windows 95/98 cheat data",
     extensions: &["dc"],
     media_types: &["application/octet-stream"],

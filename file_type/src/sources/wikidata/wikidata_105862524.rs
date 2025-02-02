@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862524: FileFormat = FileFormat {
     id: 105_862_524,
-    puid: "wikidata/105862524",
+    source_type: SourceType::Wikidata,
     name: "DIV Games Studio Map",
     extensions: &["map"],
     media_types: &["application/octet-stream"],

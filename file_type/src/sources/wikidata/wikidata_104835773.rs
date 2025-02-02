@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_104835773: FileFormat = FileFormat {
     id: 104_835_773,
-    puid: "wikidata/104835773",
+    source_type: SourceType::Wikidata,
     name: "Sample Vision Format",
     extensions: &["smp"],
     media_types: &[],

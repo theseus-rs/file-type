@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858447: FileFormat = FileFormat {
     id: 105_858_447,
-    puid: "wikidata/105858447",
+    source_type: SourceType::Wikidata,
     name: "Nintendo 3DS Homebrew relocatable and eXecutable binary",
     extensions: &["3dsx"],
     media_types: &["application/octet-stream"],

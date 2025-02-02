@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851035: FileFormat = FileFormat {
     id: 105_851_035,
-    puid: "wikidata/105851035",
+    source_type: SourceType::Wikidata,
     name: "Titanium Backup Easy Backup saved data",
     extensions: &["tibkp"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865067: FileFormat = FileFormat {
     id: 105_865_067,
-    puid: "wikidata/105865067",
+    source_type: SourceType::Wikidata,
     name: "SuperJAM! Patch",
     extensions: &["patch"],
     media_types: &["application/octet-stream"],

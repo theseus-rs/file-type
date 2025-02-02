@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866868: FileFormat = FileFormat {
     id: 105_866_868,
-    puid: "wikidata/105866868",
+    source_type: SourceType::Wikidata,
     name: "Cisco VPN Profile Configuration File",
     extensions: &["pcf"],
     media_types: &[],

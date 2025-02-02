@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852824: FileFormat = FileFormat {
     id: 105_852_824,
-    puid: "wikidata/105852824",
+    source_type: SourceType::Wikidata,
     name: "SuperTux Saved Game",
     extensions: &["stsg"],
     media_types: &[],

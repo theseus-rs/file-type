@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851021: FileFormat = FileFormat {
     id: 105_851_021,
-    puid: "wikidata/105851021",
+    source_type: SourceType::Wikidata,
     name: "Crystal Dynamics game data archive",
     extensions: &["tiger"],
     media_types: &["application/octet-stream"],

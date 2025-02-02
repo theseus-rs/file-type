@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850663: FileFormat = FileFormat {
     id: 105_850_663,
-    puid: "wikidata/105850663",
+    source_type: SourceType::Wikidata,
     name: "H-BEDV - AVIRA product key",
     extensions: &["key"],
     media_types: &[],

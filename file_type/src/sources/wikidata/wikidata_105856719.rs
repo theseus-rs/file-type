@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856719: FileFormat = FileFormat {
     id: 105_856_719,
-    puid: "wikidata/105856719",
+    source_type: SourceType::Wikidata,
     name: "uVision v5 Project Options",
     extensions: &["uvoptx"],
     media_types: &["text/xml"],

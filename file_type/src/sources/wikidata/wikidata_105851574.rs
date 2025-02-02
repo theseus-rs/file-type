@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851574: FileFormat = FileFormat {
     id: 105_851_574,
-    puid: "wikidata/105851574",
+    source_type: SourceType::Wikidata,
     name: "Klasik Translation Table",
     extensions: &["ttb"],
     media_types: &["application/octet-stream"],

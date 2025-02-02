@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859909: FileFormat = FileFormat {
     id: 105_859_909,
-    puid: "wikidata/105859909",
+    source_type: SourceType::Wikidata,
     name: "Visual J++ Project",
     extensions: &["vjp"],
     media_types: &["text/plain"],

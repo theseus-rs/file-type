@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13429870797822209580: FileFormat = FileFormat {
-    id: 13_429_870_797_822_209_580,
-    puid: "httpd/13429870797822209580",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "audiograph",
     extensions: &["aep"],
     media_types: &["application/vnd.audiograph"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850002: FileFormat = FileFormat {
     id: 105_850_002,
-    puid: "wikidata/105850002",
+    source_type: SourceType::Wikidata,
     name: "Logisim Circuit",
     extensions: &["circ"],
     media_types: &["application/x-logisim-circuit"],

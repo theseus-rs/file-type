@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858426: FileFormat = FileFormat {
     id: 105_858_426,
-    puid: "wikidata/105858426",
+    source_type: SourceType::Wikidata,
     name: "Entity Data Model (UTF-8)",
     extensions: &["edmx"],
     media_types: &["text/xml"],

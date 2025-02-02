@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14711920672395569618: FileFormat = FileFormat {
-    id: 14_711_920_672_395_569_618,
-    puid: "httpd/14711920672395569618",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "adobe xfdf",
     extensions: &["xfdf"],
     media_types: &["application/vnd.adobe.xfdf"],

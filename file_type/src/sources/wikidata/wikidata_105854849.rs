@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854849: FileFormat = FileFormat {
     id: 105_854_849,
-    puid: "wikidata/105854849",
+    source_type: SourceType::Wikidata,
     name: "Generic Header audio stream",
     extensions: &["genh"],
     media_types: &["application/octet-stream"],

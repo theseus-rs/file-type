@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860076: FileFormat = FileFormat {
     id: 105_860_076,
-    puid: "wikidata/105860076",
+    source_type: SourceType::Wikidata,
     name: "ParaView VTK Structured grid",
     extensions: &["vts"],
     media_types: &[],

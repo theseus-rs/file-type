@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10233703363409414994: FileFormat = FileFormat {
-    id: 10_233_703_363_409_414_994,
-    puid: "httpd/10233703363409414994",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "adobe photoshop",
     extensions: &["psd"],
     media_types: &["image/vnd.adobe.photoshop"],

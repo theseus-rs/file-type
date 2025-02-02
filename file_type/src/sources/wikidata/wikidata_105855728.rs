@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855728: FileFormat = FileFormat {
     id: 105_855_728,
-    puid: "wikidata/105855728",
+    source_type: SourceType::Wikidata,
     name: "Device Tree Source",
-    extensions: &["dts", "dts"],
+    extensions: &["dts"],
     media_types: &["text/plain", "text/x-c"],
     internal_signatures: &[
         InternalSignature {

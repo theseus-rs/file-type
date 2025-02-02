@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849629: FileFormat = FileFormat {
     id: 105_849_629,
-    puid: "wikidata/105849629",
+    source_type: SourceType::Wikidata,
     name: "CCS64 snapshot (v1)",
     extensions: &["c64"],
     media_types: &["application/octet-stream"],

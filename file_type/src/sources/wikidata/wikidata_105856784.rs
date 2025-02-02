@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856784: FileFormat = FileFormat {
     id: 105_856_784,
-    puid: "wikidata/105856784",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Exchange Server Gather log",
     extensions: &["gthr"],
     media_types: &["application/octet-stream"],

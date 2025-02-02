@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862722: FileFormat = FileFormat {
     id: 105_862_722,
-    puid: "wikidata/105862722",
+    source_type: SourceType::Wikidata,
     name: "Leges Motus Map",
     extensions: &["map"],
     media_types: &[],

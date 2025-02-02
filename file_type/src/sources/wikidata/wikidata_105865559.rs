@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865559: FileFormat = FileFormat {
     id: 105_865_559,
-    puid: "wikidata/105865559",
+    source_type: SourceType::Wikidata,
     name: "PsychoPy 2 Experiment",
     extensions: &["psyexp"],
     media_types: &["text/xml"],

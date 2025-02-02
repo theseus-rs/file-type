@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857323: FileFormat = FileFormat {
     id: 105_857_323,
-    puid: "wikidata/105857323",
+    source_type: SourceType::Wikidata,
     name: "Jnes save state",
     extensions: &["jst"],
     media_types: &["application/octet-stream"],

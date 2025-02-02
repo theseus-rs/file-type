@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_47487560: FileFormat = FileFormat {
     id: 47_487_560,
-    puid: "wikidata/47487560",
+    source_type: SourceType::Wikidata,
     name: "ZPAQ Archive",
     extensions: &["zpaq"],
     media_types: &["application/x-zpaq"],

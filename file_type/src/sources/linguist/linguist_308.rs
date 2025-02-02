@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_308: FileFormat = FileFormat {
     id: 308,
-    puid: "linguist/308",
+    source_type: SourceType::Linguist,
     name: "RAML",
     extensions: &["raml"],
     media_types: &["text/x-yaml"],

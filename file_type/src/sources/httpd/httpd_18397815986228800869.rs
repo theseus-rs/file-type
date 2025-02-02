@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_18397815986228800869: FileFormat = FileFormat {
-    id: 18_397_815_986_228_800_869,
-    puid: "httpd/18397815986228800869",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "unity",
     extensions: &["unityweb"],
     media_types: &["application/vnd.unity"],

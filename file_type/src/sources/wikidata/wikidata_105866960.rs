@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866960: FileFormat = FileFormat {
     id: 105_866_960,
-    puid: "wikidata/105866960",
+    source_type: SourceType::Wikidata,
     name: "N-Gage 2.0 on-device installation",
     extensions: &["n-gage"],
     media_types: &["application/octet-stream"],

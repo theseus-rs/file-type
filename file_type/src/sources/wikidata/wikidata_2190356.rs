@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_2190356: FileFormat = FileFormat {
     id: 2_190_356,
-    puid: "wikidata/2190356",
+    source_type: SourceType::Wikidata,
     name: "JPEG-LS",
     extensions: &["jls"],
     media_types: &["image/jls"],

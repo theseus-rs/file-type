@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_30102323: FileFormat = FileFormat {
     id: 30_102_323,
-    puid: "wikidata/30102323",
+    source_type: SourceType::Wikidata,
     name: "Amateur Data Interchange Format, ADI variant, version 3.0.5",
     extensions: &["adi"],
     media_types: &[],

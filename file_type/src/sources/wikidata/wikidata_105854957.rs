@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854957: FileFormat = FileFormat {
     id: 105_854_957,
-    puid: "wikidata/105854957",
+    source_type: SourceType::Wikidata,
     name: "NaShrinK compressed archive",
     extensions: &["nsk"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852539: FileFormat = FileFormat {
     id: 105_852_539,
-    puid: "wikidata/105852539",
+    source_type: SourceType::Wikidata,
     name: "TiEmu Skin (v2.00)",
     extensions: &["skn"],
     media_types: &["application/octet-stream"],

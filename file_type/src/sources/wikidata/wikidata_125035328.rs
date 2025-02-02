@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_125035328: FileFormat = FileFormat {
     id: 125_035_328,
-    puid: "wikidata/125035328",
+    source_type: SourceType::Wikidata,
     name: "TinkerPlots document",
     extensions: &["tp"],
     media_types: &[],

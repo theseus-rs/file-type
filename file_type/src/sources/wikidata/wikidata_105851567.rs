@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851567: FileFormat = FileFormat {
     id: 105_851_567,
-    puid: "wikidata/105851567",
+    source_type: SourceType::Wikidata,
     name: "Teapot XDR spreadsheet",
     extensions: &["tp"],
     media_types: &["application/octet-stream"],

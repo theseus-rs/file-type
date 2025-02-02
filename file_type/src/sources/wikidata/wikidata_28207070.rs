@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28207070: FileFormat = FileFormat {
     id: 28_207_070,
-    puid: "wikidata/28207070",
+    source_type: SourceType::Wikidata,
     name: "Polychrome Recursive Format",
     extensions: &["prf"],
     media_types: &["application/octet-stream"],

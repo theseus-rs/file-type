@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850552: FileFormat = FileFormat {
     id: 105_850_552,
-    puid: "wikidata/105850552",
+    source_type: SourceType::Wikidata,
     name: "KOMPAS Drawing (Unicode)",
     extensions: &["cdw"],
     media_types: &["application/octet-stream"],

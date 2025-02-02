@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850581: FileFormat = FileFormat {
     id: 105_850_581,
-    puid: "wikidata/105850581",
+    source_type: SourceType::Wikidata,
     name: "HxC Floppy Emulator configuration (generic)",
     extensions: &["cfg"],
     media_types: &["application/octet-stream"],

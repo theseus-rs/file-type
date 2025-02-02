@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_282: FileFormat = FileFormat {
     id: 282,
-    puid: "linguist/282",
+    source_type: SourceType::Linguist,
     name: "Perl",
     extensions: &[
         "al", "cgi", "fcgi", "perl", "ph", "pl", "plx", "pm", "psgi", "t",

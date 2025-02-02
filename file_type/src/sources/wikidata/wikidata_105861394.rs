@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861394: FileFormat = FileFormat {
     id: 105_861_394,
-    puid: "wikidata/105861394",
+    source_type: SourceType::Wikidata,
     name: "MATLAB license passcode",
     extensions: &["lic"],
     media_types: &["text/plain"],

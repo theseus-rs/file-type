@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856908: FileFormat = FileFormat {
     id: 105_856_908,
-    puid: "wikidata/105856908",
+    source_type: SourceType::Wikidata,
     name: "GFA-BASIC MS-DOS tokenized source",
     extensions: &["gfa"],
     media_types: &["application/octet-stream"],

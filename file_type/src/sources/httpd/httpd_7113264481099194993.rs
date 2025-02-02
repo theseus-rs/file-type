@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_7113264481099194993: FileFormat = FileFormat {
-    id: 7_113_264_481_099_194_993,
-    puid: "httpd/7113264481099194993",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "acucobol",
     extensions: &["acu"],
     media_types: &["application/vnd.acucobol"],

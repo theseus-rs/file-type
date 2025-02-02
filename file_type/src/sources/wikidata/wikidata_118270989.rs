@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_118270989: FileFormat = FileFormat {
     id: 118_270_989,
-    puid: "wikidata/118270989",
+    source_type: SourceType::Wikidata,
     name: "Altamira Composer file",
     extensions: &["acc"],
     media_types: &[],

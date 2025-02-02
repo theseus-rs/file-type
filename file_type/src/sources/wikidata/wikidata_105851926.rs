@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851926: FileFormat = FileFormat {
     id: 105_851_926,
-    puid: "wikidata/105851926",
+    source_type: SourceType::Wikidata,
     name: "Spectrum Sound Tracker 1.3 chiptune",
     extensions: &["st13"],
     media_types: &["audio/x-mod"],

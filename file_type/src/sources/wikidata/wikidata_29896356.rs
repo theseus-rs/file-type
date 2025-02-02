@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29896356: FileFormat = FileFormat {
     id: 29_896_356,
-    puid: "wikidata/29896356",
+    source_type: SourceType::Wikidata,
     name: "EMBL file format",
     extensions: &["embl"],
     media_types: &["text/plain"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_689079655: FileFormat = FileFormat {
     id: 689_079_655,
-    puid: "linguist/689079655",
+    source_type: SourceType::Linguist,
     name: "OverpassQL",
     extensions: &["overpassql"],
     media_types: &[],

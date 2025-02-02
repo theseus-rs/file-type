@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851936: FileFormat = FileFormat {
     id: 105_851_936,
-    puid: "wikidata/105851936",
+    source_type: SourceType::Wikidata,
     name: "SQLite Zipvfs compressed database",
     extensions: &["sqlite"],
     media_types: &["application/octet-stream"],

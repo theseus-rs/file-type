@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858153: FileFormat = FileFormat {
     id: 105_858_153,
-    puid: "wikidata/105858153",
+    source_type: SourceType::Wikidata,
     name: "Impatica OnCue Project",
     extensions: &["ipj"],
     media_types: &["text/plain"],

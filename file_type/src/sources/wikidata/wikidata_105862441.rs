@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862441: FileFormat = FileFormat {
     id: 105_862_441,
-    puid: "wikidata/105862441",
+    source_type: SourceType::Wikidata,
     name: "Adobe Motion Graphics Template",
     extensions: &["mogrt"],
     media_types: &["application/octet-stream"],

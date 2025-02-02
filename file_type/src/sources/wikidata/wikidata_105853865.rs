@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853865: FileFormat = FileFormat {
     id: 105_853_865,
-    puid: "wikidata/105853865",
+    source_type: SourceType::Wikidata,
     name: "Ventrilo audio recording",
     extensions: &["vrf"],
     media_types: &[],

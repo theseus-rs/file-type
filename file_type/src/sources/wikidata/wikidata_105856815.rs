@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856815: FileFormat = FileFormat {
     id: 105_856_815,
-    puid: "wikidata/105856815",
+    source_type: SourceType::Wikidata,
     name: "Jinxter game save (PC)",
     extensions: &["gam"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852745: FileFormat = FileFormat {
     id: 105_852_745,
-    puid: "wikidata/105852745",
+    source_type: SourceType::Wikidata,
     name: "E-Z FM Synthesizer sound Settings",
     extensions: &["set"],
     media_types: &["application/octet-stream"],

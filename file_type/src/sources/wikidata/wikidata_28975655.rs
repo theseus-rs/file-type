@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28975655: FileFormat = FileFormat {
     id: 28_975_655,
-    puid: "wikidata/28975655",
+    source_type: SourceType::Wikidata,
     name: "RenderMan Interface Bytestream",
     extensions: &["rib"],
     media_types: &[],

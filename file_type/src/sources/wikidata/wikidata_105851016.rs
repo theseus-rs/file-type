@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851016: FileFormat = FileFormat {
     id: 105_851_016,
-    puid: "wikidata/105851016",
+    source_type: SourceType::Wikidata,
     name: "Borland Turbo Pascal 7.0 compiled Unit",
     extensions: &["tpu"],
     media_types: &["application/octet-stream"],

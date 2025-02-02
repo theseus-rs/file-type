@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863192: FileFormat = FileFormat {
     id: 105_863_192,
-    puid: "wikidata/105863192",
+    source_type: SourceType::Wikidata,
     name: "Unity asset bundles Manifest",
     extensions: &["manifest"],
     media_types: &["text/plain"],

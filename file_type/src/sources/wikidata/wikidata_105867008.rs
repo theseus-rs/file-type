@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867008: FileFormat = FileFormat {
     id: 105_867_008,
-    puid: "wikidata/105867008",
+    source_type: SourceType::Wikidata,
     name: "KiCad EESchema Netlist",
     extensions: &["net"],
     media_types: &["text/plain"],

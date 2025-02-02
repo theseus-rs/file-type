@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858735: FileFormat = FileFormat {
     id: 105_858_735,
-    puid: "wikidata/105858735",
+    source_type: SourceType::Wikidata,
     name: "Half-Life map",
     extensions: &["bsp"],
     media_types: &["application/octet-stream"],

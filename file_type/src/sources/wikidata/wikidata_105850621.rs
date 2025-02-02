@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850621: FileFormat = FileFormat {
     id: 105_850_621,
-    puid: "wikidata/105850621",
+    source_type: SourceType::Wikidata,
     name: "Multibit Blockchain Checkpoints data",
     extensions: &["checkpoints"],
     media_types: &["application/octet-stream"],

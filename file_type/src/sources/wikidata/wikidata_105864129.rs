@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864129: FileFormat = FileFormat {
     id: 105_864_129,
-    puid: "wikidata/105864129",
+    source_type: SourceType::Wikidata,
     name: "SuperKey Macro",
     extensions: &["mac"],
     media_types: &["text/plain"],

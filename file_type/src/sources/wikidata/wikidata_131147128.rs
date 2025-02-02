@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_131147128: FileFormat = FileFormat {
     id: 131_147_128,
-    puid: "wikidata/131147128",
+    source_type: SourceType::Wikidata,
     name: "Templated SQL file format",
     extensions: &["sql.j2", "sql.jinja2"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3732919740460660496: FileFormat = FileFormat {
-    id: 3_732_919_740_460_660_496,
-    puid: "httpd/3732919740460660496",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "oma dd2 xml",
     extensions: &["dd2"],
     media_types: &["application/vnd.oma.dd2+xml"],

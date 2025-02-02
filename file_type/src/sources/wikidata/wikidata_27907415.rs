@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27907415: FileFormat = FileFormat {
     id: 27_907_415,
-    puid: "wikidata/27907415",
+    source_type: SourceType::Wikidata,
     name: "Adobe Color Book",
-    extensions: &["acb", "acb"],
+    extensions: &["acb"],
     media_types: &[],
     internal_signatures: &[
         InternalSignature {

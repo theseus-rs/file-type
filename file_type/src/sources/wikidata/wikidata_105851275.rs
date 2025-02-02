@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851275: FileFormat = FileFormat {
     id: 105_851_275,
-    puid: "wikidata/105851275",
+    source_type: SourceType::Wikidata,
     name: "HiJaak PCL soft font",
     extensions: &["tpf"],
     media_types: &[],

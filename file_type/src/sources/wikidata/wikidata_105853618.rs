@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853618: FileFormat = FileFormat {
     id: 105_853_618,
-    puid: "wikidata/105853618",
+    source_type: SourceType::Wikidata,
     name: "Z80 music code with AY music",
     extensions: &["aym"],
     media_types: &[],

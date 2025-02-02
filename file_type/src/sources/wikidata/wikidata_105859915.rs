@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859915: FileFormat = FileFormat {
     id: 105_859_915,
-    puid: "wikidata/105859915",
+    source_type: SourceType::Wikidata,
     name: "Volition Package - Red Faction game data archive",
     extensions: &["vpp"],
     media_types: &["application/octet-stream"],

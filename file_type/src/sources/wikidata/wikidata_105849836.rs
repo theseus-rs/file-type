@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849836: FileFormat = FileFormat {
     id: 105_849_836,
-    puid: "wikidata/105849836",
+    source_type: SourceType::Wikidata,
     name: "CleWin CIF layout",
     extensions: &["cif"],
     media_types: &[],

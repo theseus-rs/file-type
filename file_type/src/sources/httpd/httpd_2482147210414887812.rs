@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2482147210414887812: FileFormat = FileFormat {
-    id: 2_482_147_210_414_887_812,
-    puid: "httpd/2482147210414887812",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "hyperstudio",
     extensions: &["stk"],
     media_types: &["application/hyperstudio"],

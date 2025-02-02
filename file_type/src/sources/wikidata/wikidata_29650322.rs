@@ -1,24 +1,15 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29650322: FileFormat = FileFormat {
     id: 29_650_322,
-    puid: "wikidata/29650322",
+    source_type: SourceType::Wikidata,
     name: "PKCS#7 certificate",
-    extensions: &[
-        "p7b", "p7b", "p7b", "p7c", "p7c", "p7c", "pem", "pem", "pem", "spc", "spc", "spc",
-    ],
+    extensions: &["p7b", "p7c", "pem", "spc"],
     media_types: &[
         "application/pkcs7-mime",
-        "application/pkcs7-mime",
-        "application/pkcs7-mime",
-        "application/pkcs7-mime",
         "application/x-pkcs7-certificates",
-        "application/x-pkcs7-certificates",
-        "application/x-pkcs7-certificates",
-        "application/x-pkcs7-certificates",
-        "application/x-pkcs7-certreqresp",
-        "application/x-pkcs7-certreqresp",
-        "application/x-pkcs7-certreqresp",
         "application/x-pkcs7-certreqresp",
     ],
     internal_signatures: &[],

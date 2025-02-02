@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858852: FileFormat = FileFormat {
     id: 105_858_852,
-    puid: "wikidata/105858852",
+    source_type: SourceType::Wikidata,
     name: "Ray Dream data",
     extensions: &["brw"],
     media_types: &["text/plain"],

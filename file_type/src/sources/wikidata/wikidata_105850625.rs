@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850625: FileFormat = FileFormat {
     id: 105_850_625,
-    puid: "wikidata/105850625",
+    source_type: SourceType::Wikidata,
     name: "Cheat Engine Cheat Table (XML)",
     extensions: &["ct"],
     media_types: &["text/xml"],

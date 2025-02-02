@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856778: FileFormat = FileFormat {
     id: 105_856_778,
-    puid: "wikidata/105856778",
+    source_type: SourceType::Wikidata,
     name: "Ultra Fractal data and pixels",
     extensions: &["ufr"],
     media_types: &["application/octet-stream"],

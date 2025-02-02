@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858950: FileFormat = FileFormat {
     id: 105_858_950,
-    puid: "wikidata/105858950",
+    source_type: SourceType::Wikidata,
     name: "Ludek Maker bitmap",
     extensions: &["ldm"],
     media_types: &["application/octet-stream"],

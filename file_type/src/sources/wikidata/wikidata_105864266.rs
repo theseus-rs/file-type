@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864266: FileFormat = FileFormat {
     id: 105_864_266,
-    puid: "wikidata/105864266",
+    source_type: SourceType::Wikidata,
     name: "Rumble Roses game data archive",
     extensions: &["pac"],
     media_types: &["application/octet-stream"],

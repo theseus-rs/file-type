@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_117156375: FileFormat = FileFormat {
     id: 117_156_375,
-    puid: "wikidata/117156375",
+    source_type: SourceType::Wikidata,
     name: "Pyro data disc project file",
     extensions: &["cwd"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856786: FileFormat = FileFormat {
     id: 105_856_786,
-    puid: "wikidata/105856786",
+    source_type: SourceType::Wikidata,
     name: "GDLib Image",
     extensions: &["gd2"],
     media_types: &[],

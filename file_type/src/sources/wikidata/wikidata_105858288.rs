@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858288: FileFormat = FileFormat {
     id: 105_858_288,
-    puid: "wikidata/105858288",
+    source_type: SourceType::Wikidata,
     name: "MetaQuotes Language 4 compiled program",
     extensions: &["ex4"],
     media_types: &["application/octet-stream"],

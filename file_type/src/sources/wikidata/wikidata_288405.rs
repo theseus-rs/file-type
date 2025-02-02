@@ -1,16 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_288405: FileFormat = FileFormat {
     id: 288_405,
-    puid: "wikidata/288405",
+    source_type: SourceType::Wikidata,
     name: "hOCR",
-    extensions: &["hocr", "hocr", "html", "html"],
-    media_types: &[
-        "text/html",
-        "text/html",
-        "text/vnd.hocr+html",
-        "text/vnd.hocr+html",
-    ],
+    extensions: &["hocr", "html"],
+    media_types: &["text/html", "text/vnd.hocr+html"],
     internal_signatures: &[],
     related_formats: &[],
 };

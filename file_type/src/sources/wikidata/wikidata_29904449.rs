@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29904449: FileFormat = FileFormat {
     id: 29_904_449,
-    puid: "wikidata/29904449",
+    source_type: SourceType::Wikidata,
     name: "Psion Series 3 Word",
     extensions: &["wrd"],
     media_types: &["application/octet-stream"],

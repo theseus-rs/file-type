@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_12435334305085697032: FileFormat = FileFormat {
-    id: 12_435_334_305_085_697_032,
-    puid: "httpd/12435334305085697032",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "zzazz deck xml",
     extensions: &["zaz"],
     media_types: &["application/vnd.zzazz.deck+xml"],

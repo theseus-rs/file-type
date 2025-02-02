@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863261: FileFormat = FileFormat {
     id: 105_863_261,
-    puid: "wikidata/105863261",
+    source_type: SourceType::Wikidata,
     name: "MapWindow Symbols",
     extensions: &["mwsymb"],
     media_types: &["text/xml"],

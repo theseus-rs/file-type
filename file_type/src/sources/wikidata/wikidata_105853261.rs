@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853261: FileFormat = FileFormat {
     id: 105_853_261,
-    puid: "wikidata/105853261",
+    source_type: SourceType::Wikidata,
     name: "SCC Blaffer NT SCC Instrument",
     extensions: &["sbs"],
     media_types: &["application/octet-stream"],

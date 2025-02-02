@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_368739558323144978: FileFormat = FileFormat {
-    id: 368_739_558_323_144_978,
-    puid: "httpd/368739558323144978",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mswrite",
     extensions: &["wri"],
     media_types: &["application/x-mswrite"],

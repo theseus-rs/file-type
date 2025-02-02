@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850952: FileFormat = FileFormat {
     id: 105_850_952,
-    puid: "wikidata/105850952",
+    source_type: SourceType::Wikidata,
     name: "Windows 8-10 Desktop Theme (with CRLF)",
     extensions: &["theme"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_95985299: FileFormat = FileFormat {
     id: 95_985_299,
-    puid: "wikidata/95985299",
+    source_type: SourceType::Wikidata,
     name: "Affymetrix CDF file format",
     extensions: &["cdf"],
     media_types: &[],

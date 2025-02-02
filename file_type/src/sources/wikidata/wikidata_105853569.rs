@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853569: FileFormat = FileFormat {
     id: 105_853_569,
-    puid: "wikidata/105853569",
+    source_type: SourceType::Wikidata,
     name: "Poseidon for UML project file",
     extensions: &["zuml"],
     media_types: &[],

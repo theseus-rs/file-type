@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_66439341: FileFormat = FileFormat {
     id: 66_439_341,
-    puid: "wikidata/66439341",
+    source_type: SourceType::Wikidata,
     name: "Volkswriter file format",
     extensions: &["vw"],
     media_types: &[],

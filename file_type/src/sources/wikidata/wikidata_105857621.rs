@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857621: FileFormat = FileFormat {
     id: 105_857_621,
-    puid: "wikidata/105857621",
+    source_type: SourceType::Wikidata,
     name: "Roxio CD Image format (v3)",
     extensions: &["c2d"],
     media_types: &["application/octet-stream"],

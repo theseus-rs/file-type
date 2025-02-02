@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859703: FileFormat = FileFormat {
     id: 105_859_703,
-    puid: "wikidata/105859703",
+    source_type: SourceType::Wikidata,
     name: "Visual Studio Command Table configuration (XML)",
     extensions: &["vsct"],
     media_types: &[],

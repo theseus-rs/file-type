@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854338: FileFormat = FileFormat {
     id: 105_854_338,
-    puid: "wikidata/105854338",
+    source_type: SourceType::Wikidata,
     name: "Gold Disk Office Calc/Graph spreadsheet",
     extensions: &["adv", "pcf"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

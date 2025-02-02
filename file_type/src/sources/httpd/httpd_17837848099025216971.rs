@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17837848099025216971: FileFormat = FileFormat {
-    id: 17_837_848_099_025_216_971,
-    puid: "httpd/17837848099025216971",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "sun xml draw",
     extensions: &["sxd"],
     media_types: &["application/vnd.sun.xml.draw"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850667: FileFormat = FileFormat {
     id: 105_850_667,
-    puid: "wikidata/105850667",
+    source_type: SourceType::Wikidata,
     name: "BeebEm Keymap",
     extensions: &["kmap"],
     media_types: &["text/plain"],

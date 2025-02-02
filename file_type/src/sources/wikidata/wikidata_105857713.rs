@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857713: FileFormat = FileFormat {
     id: 105_857_713,
-    puid: "wikidata/105857713",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Zone Identifier",
     extensions: &["identifier"],
     media_types: &["text/plain"],

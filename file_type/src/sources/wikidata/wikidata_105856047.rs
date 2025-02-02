@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856047: FileFormat = FileFormat {
     id: 105_856_047,
-    puid: "wikidata/105856047",
+    source_type: SourceType::Wikidata,
     name: "Cadlogic Instinct Drawing",
     extensions: &["dp"],
     media_types: &["application/octet-stream"],

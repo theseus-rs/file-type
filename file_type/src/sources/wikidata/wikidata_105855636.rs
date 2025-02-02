@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855636: FileFormat = FileFormat {
     id: 105_855_636,
-    puid: "wikidata/105855636",
+    source_type: SourceType::Wikidata,
     name: "Visi On Overlay",
     extensions: &["ovs"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854471: FileFormat = FileFormat {
     id: 105_854_471,
-    puid: "wikidata/105854471",
+    source_type: SourceType::Wikidata,
     name: "AMX Mod X plugin",
     extensions: &["amxx"],
     media_types: &[],

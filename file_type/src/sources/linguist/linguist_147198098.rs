@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_147198098: FileFormat = FileFormat {
     id: 147_198_098,
-    puid: "linguist/147198098",
+    source_type: SourceType::Linguist,
     name: "Adobe Font Metrics",
     extensions: &["afm"],
     media_types: &[],

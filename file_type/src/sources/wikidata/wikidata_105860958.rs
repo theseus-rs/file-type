@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860958: FileFormat = FileFormat {
     id: 105_860_958,
-    puid: "wikidata/105860958",
+    source_type: SourceType::Wikidata,
     name: "Necromancer's Dos Navigator Language",
     extensions: &["lng"],
     media_types: &["application/octet-stream"],

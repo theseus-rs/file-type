@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_131341835: FileFormat = FileFormat {
     id: 131_341_835,
-    puid: "wikidata/131341835",
+    source_type: SourceType::Wikidata,
     name: "UrbiScript source code file",
     extensions: &["u"],
     media_types: &["application/x-urbiscript"],

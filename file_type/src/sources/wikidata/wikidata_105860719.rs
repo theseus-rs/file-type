@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860719: FileFormat = FileFormat {
     id: 105_860_719,
-    puid: "wikidata/105860719",
+    source_type: SourceType::Wikidata,
     name: "Office Live Meeting Connection",
     extensions: &["rtc"],
     media_types: &["text/xml"],

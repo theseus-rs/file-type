@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867403: FileFormat = FileFormat {
     id: 105_867_403,
-    puid: "wikidata/105867403",
+    source_type: SourceType::Wikidata,
     name: "NeoplePack format",
     extensions: &["npk"],
     media_types: &["application/octet-stream"],

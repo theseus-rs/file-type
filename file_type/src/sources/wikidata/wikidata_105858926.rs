@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858926: FileFormat = FileFormat {
     id: 105_858_926,
-    puid: "wikidata/105858926",
+    source_type: SourceType::Wikidata,
     name: "BorderMaker project",
     extensions: &["brd"],
     media_types: &["text/xml"],

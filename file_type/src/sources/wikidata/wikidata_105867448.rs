@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867448: FileFormat = FileFormat {
     id: 105_867_448,
-    puid: "wikidata/105867448",
+    source_type: SourceType::Wikidata,
     name: "Seifert ASCII pole figure format",
     extensions: &["nja"],
     media_types: &["text/plain"],

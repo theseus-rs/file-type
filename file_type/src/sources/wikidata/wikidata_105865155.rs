@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865155: FileFormat = FileFormat {
     id: 105_865_155,
-    puid: "wikidata/105865155",
+    source_type: SourceType::Wikidata,
     name: "ProfiCAD Title Block",
     extensions: &["ptb"],
     media_types: &["text/xml"],

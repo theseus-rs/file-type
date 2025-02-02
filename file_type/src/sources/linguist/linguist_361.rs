@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_361: FileFormat = FileFormat {
     id: 361,
-    puid: "linguist/361",
+    source_type: SourceType::Linguist,
     name: "SuperCollider",
     extensions: &["sc", "scd"],
     media_types: &[],

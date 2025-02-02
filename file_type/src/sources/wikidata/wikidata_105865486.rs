@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865486: FileFormat = FileFormat {
     id: 105_865_486,
-    puid: "wikidata/105865486",
+    source_type: SourceType::Wikidata,
     name: "Adobe Photoshop Pattern",
     extensions: &["pat"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855985: FileFormat = FileFormat {
     id: 105_855_985,
-    puid: "wikidata/105855985",
+    source_type: SourceType::Wikidata,
     name: "Aegis Draw 2000 v2.x drawing",
     extensions: &["drawing"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862926: FileFormat = FileFormat {
     id: 105_862_926,
-    puid: "wikidata/105862926",
+    source_type: SourceType::Wikidata,
     name: "Norton pcAnywhere Modem list",
     extensions: &["md6"],
     media_types: &["application/octet-stream"],

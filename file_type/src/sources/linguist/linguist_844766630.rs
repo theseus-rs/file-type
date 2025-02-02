@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_844766630: FileFormat = FileFormat {
     id: 844_766_630,
-    puid: "linguist/844766630",
+    source_type: SourceType::Linguist,
     name: "Ecmarkup",
     extensions: &["html"],
     media_types: &["text/html"],

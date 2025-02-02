@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855191: FileFormat = FileFormat {
     id: 105_855_191,
-    puid: "wikidata/105855191",
+    source_type: SourceType::Wikidata,
     name: "BluffTitler Effect",
     extensions: &["fx"],
     media_types: &[],

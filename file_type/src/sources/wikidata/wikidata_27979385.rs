@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27979385: FileFormat = FileFormat {
     id: 27_979_385,
-    puid: "wikidata/27979385",
+    source_type: SourceType::Wikidata,
     name: "Fractal Image And Sequence Codec",
     extensions: &["fco"],
     media_types: &["application/octet-stream"],

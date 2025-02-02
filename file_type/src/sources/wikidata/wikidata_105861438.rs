@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861438: FileFormat = FileFormat {
     id: 105_861_438,
-    puid: "wikidata/105861438",
+    source_type: SourceType::Wikidata,
     name: "Actor Library Definition Language",
     extensions: &["ldl"],
     media_types: &["text/plain"],

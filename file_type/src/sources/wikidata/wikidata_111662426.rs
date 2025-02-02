@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_111662426: FileFormat = FileFormat {
     id: 111_662_426,
-    puid: "wikidata/111662426",
+    source_type: SourceType::Wikidata,
     name: "MGI PhotoSuite 1.0/8.0 Album File",
     extensions: &["ctf"],
     media_types: &[],

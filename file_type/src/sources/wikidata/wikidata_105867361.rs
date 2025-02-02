@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867361: FileFormat = FileFormat {
     id: 105_867_361,
-    puid: "wikidata/105867361",
+    source_type: SourceType::Wikidata,
     name: "Nord Stage Classic/EX Program",
     extensions: &["nspg"],
     media_types: &["application/octet-stream"],

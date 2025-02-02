@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856768: FileFormat = FileFormat {
     id: 105_856_768,
-    puid: "wikidata/105856768",
+    source_type: SourceType::Wikidata,
     name: "Ulysses Speaker Database",
     extensions: &["usb"],
     media_types: &["application/octet-stream"],

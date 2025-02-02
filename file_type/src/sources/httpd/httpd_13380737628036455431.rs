@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13380737628036455431: FileFormat = FileFormat {
-    id: 13_380_737_628_036_455_431,
-    puid: "httpd/13380737628036455431",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mp4",
     extensions: &["m4a", "mp4a"],
     media_types: &["audio/mp4"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206031: FileFormat = FileFormat {
     id: 28_206_031,
-    puid: "wikidata/28206031",
+    source_type: SourceType::Wikidata,
     name: "EggPaint",
     extensions: &["trp"],
     media_types: &["application/octet-stream"],

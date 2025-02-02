@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857848: FileFormat = FileFormat {
     id: 105_857_848,
-    puid: "wikidata/105857848",
+    source_type: SourceType::Wikidata,
     name: "Labeler (v2.0) / Labels Unlimited (v1.0) settings",
     extensions: &["ini"],
     media_types: &["application/octet-stream"],

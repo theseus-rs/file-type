@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856540: FileFormat = FileFormat {
     id: 105_856_540,
-    puid: "wikidata/105856540",
+    source_type: SourceType::Wikidata,
     name: "Altera Waveform Design File",
     extensions: &["wdf"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855549: FileFormat = FileFormat {
     id: 105_855_549,
-    puid: "wikidata/105855549",
+    source_type: SourceType::Wikidata,
     name: "ObjectBar theme",
     extensions: &["obpack"],
     media_types: &[],

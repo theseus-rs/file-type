@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863843: FileFormat = FileFormat {
     id: 105_863_843,
-    puid: "wikidata/105863843",
+    source_type: SourceType::Wikidata,
     name: "Multiplan for Xenix spreadsheet (v2.x)",
     extensions: &["mod"],
     media_types: &["application/octet-stream"],

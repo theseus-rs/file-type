@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857585: FileFormat = FileFormat {
     id: 105_857_585,
-    puid: "wikidata/105857585",
+    source_type: SourceType::Wikidata,
     name: "Stirling Technologies InstallShield compressed",
     extensions: &["??_"],
     media_types: &[],

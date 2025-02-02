@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862263: FileFormat = FileFormat {
     id: 105_862_263,
-    puid: "wikidata/105862263",
+    source_type: SourceType::Wikidata,
     name: "Cabri 3D Macro",
     extensions: &["mac"],
     media_types: &["text/plain"],

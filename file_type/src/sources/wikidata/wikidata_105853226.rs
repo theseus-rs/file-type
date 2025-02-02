@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853226: FileFormat = FileFormat {
     id: 105_853_226,
-    puid: "wikidata/105853226",
+    source_type: SourceType::Wikidata,
     name: "saltpack signed message (ASCII)",
     extensions: &["asc"],
     media_types: &["text/plain"],

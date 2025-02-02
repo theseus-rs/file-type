@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862271: FileFormat = FileFormat {
     id: 105_862_271,
-    puid: "wikidata/105862271",
+    source_type: SourceType::Wikidata,
     name: "The Bone Shaker Architect music",
     extensions: &["bsa"],
     media_types: &["application/octet-stream"],

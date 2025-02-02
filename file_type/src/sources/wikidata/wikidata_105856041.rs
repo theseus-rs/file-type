@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856041: FileFormat = FileFormat {
     id: 105_856_041,
-    puid: "wikidata/105856041",
+    source_type: SourceType::Wikidata,
     name: "Steam Downloadable Content info",
     extensions: &["dlc"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_47516383: FileFormat = FileFormat {
     id: 47_516_383,
-    puid: "wikidata/47516383",
+    source_type: SourceType::Wikidata,
     name: "Statistical Analysis System Catalog XPT (Windows) v.9.1",
     extensions: &["xpt"],
     media_types: &[],

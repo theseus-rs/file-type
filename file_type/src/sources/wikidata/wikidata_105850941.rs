@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850941: FileFormat = FileFormat {
     id: 105_850_941,
-    puid: "wikidata/105850941",
+    source_type: SourceType::Wikidata,
     name: "Torque GUI control (XML)",
     extensions: &["taml"],
     media_types: &["text/xml"],

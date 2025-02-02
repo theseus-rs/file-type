@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855506: FileFormat = FileFormat {
     id: 105_855_506,
-    puid: "wikidata/105855506",
+    source_type: SourceType::Wikidata,
     name: "The Fractal Mapper map",
     extensions: &["fmp"],
     media_types: &[],

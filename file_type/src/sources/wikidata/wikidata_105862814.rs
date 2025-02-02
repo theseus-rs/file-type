@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862814: FileFormat = FileFormat {
     id: 105_862_814,
-    puid: "wikidata/105862814",
+    source_type: SourceType::Wikidata,
     name: "MeshMixer scene",
     extensions: &["mix"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865793: FileFormat = FileFormat {
     id: 105_865_793,
-    puid: "wikidata/105865793",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Windows Installer Patch Creation Properties",
     extensions: &["pcp"],
     media_types: &["application/x-ms-pcp"],

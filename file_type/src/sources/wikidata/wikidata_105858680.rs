@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858680: FileFormat = FileFormat {
     id: 105_858_680,
-    puid: "wikidata/105858680",
+    source_type: SourceType::Wikidata,
     name: "Xilinx Block Memory Map (with rem)",
     extensions: &["bmm"],
     media_types: &["text/plain"],

@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_9332294: FileFormat = FileFormat {
     id: 9_332_294,
-    puid: "wikidata/9332294",
+    source_type: SourceType::Wikidata,
     name: "SubRip text file format",
-    extensions: &["srt", "srt"],
+    extensions: &["srt"],
     media_types: &["application/x-subrip", "text/plain"],
     internal_signatures: &[
         InternalSignature {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867522: FileFormat = FileFormat {
     id: 105_867_522,
-    puid: "wikidata/105867522",
+    source_type: SourceType::Wikidata,
     name: "ESET Smart Security Quarantine Data",
     extensions: &["ndf"],
     media_types: &[],

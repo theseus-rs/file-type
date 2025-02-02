@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866216: FileFormat = FileFormat {
     id: 105_866_216,
-    puid: "wikidata/105866216",
+    source_type: SourceType::Wikidata,
     name: "Photodex ProShow Show file",
     extensions: &["psh"],
     media_types: &[],

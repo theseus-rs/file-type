@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855058: FileFormat = FileFormat {
     id: 105_855_058,
-    puid: "wikidata/105855058",
+    source_type: SourceType::Wikidata,
     name: "WinAsks Editor Analysis (v2.00)",
     extensions: &["anl"],
     media_types: &["application/octet-stream"],

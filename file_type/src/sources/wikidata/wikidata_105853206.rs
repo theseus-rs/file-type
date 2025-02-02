@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853206: FileFormat = FileFormat {
     id: 105_853_206,
-    puid: "wikidata/105853206",
+    source_type: SourceType::Wikidata,
     name: "Flashback Sprite",
     extensions: &["spr"],
     media_types: &["application/octet-stream"],

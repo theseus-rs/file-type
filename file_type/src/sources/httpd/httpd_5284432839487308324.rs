@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5284432839487308324: FileFormat = FileFormat {
-    id: 5_284_432_839_487_308_324,
-    puid: "httpd/5284432839487308324",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ecmascript",
     extensions: &["ecma"],
     media_types: &["application/ecmascript"],

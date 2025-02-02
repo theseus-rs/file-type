@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850601: FileFormat = FileFormat {
     id: 105_850_601,
-    puid: "wikidata/105850601",
+    source_type: SourceType::Wikidata,
     name: "Command and Conquer 3 replay",
     extensions: &["cnc3replay"],
     media_types: &[],

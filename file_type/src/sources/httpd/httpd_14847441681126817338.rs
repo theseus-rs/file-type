@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14847441681126817338: FileFormat = FileFormat {
-    id: 14_847_441_681_126_817_338,
-    puid: "httpd/14847441681126817338",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "chess pgn",
     extensions: &["pgn"],
     media_types: &["application/x-chess-pgn"],

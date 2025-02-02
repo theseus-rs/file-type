@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850157: FileFormat = FileFormat {
     id: 105_850_157,
-    puid: "wikidata/105850157",
+    source_type: SourceType::Wikidata,
     name: "FGT virus infected 16-bit COM executable",
     extensions: &["com", "img"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

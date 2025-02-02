@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853187: FileFormat = FileFormat {
     id: 105_853_187,
-    puid: "wikidata/105853187",
+    source_type: SourceType::Wikidata,
     name: "Sound Forge Peak Data File",
     extensions: &["sfk"],
     media_types: &[],

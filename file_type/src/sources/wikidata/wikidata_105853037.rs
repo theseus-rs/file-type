@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853037: FileFormat = FileFormat {
     id: 105_853_037,
-    puid: "wikidata/105853037",
+    source_type: SourceType::Wikidata,
     name: "rdiff signature",
     extensions: &["sig"],
     media_types: &[],

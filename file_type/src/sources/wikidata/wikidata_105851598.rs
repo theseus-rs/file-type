@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851598: FileFormat = FileFormat {
     id: 105_851_598,
-    puid: "wikidata/105851598",
+    source_type: SourceType::Wikidata,
     name: "Tile Map XML",
     extensions: &["tmx"],
     media_types: &[],

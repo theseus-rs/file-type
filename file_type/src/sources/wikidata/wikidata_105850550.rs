@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850550: FileFormat = FileFormat {
     id: 105_850_550,
-    puid: "wikidata/105850550",
+    source_type: SourceType::Wikidata,
     name: "ISO CDImage cue/description - Data (with remark)",
     extensions: &["cue"],
     media_types: &[],

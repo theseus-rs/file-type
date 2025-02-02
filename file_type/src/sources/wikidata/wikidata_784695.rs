@@ -1,16 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_784695: FileFormat = FileFormat {
     id: 784_695,
-    puid: "wikidata/784695",
+    source_type: SourceType::Wikidata,
     name: "ZIM",
-    extensions: &["zim", "zim", "zim", "zim"],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "text/plain",
-        "text/plain",
-    ],
+    extensions: &["zim"],
+    media_types: &["application/octet-stream", "text/plain"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858606: FileFormat = FileFormat {
     id: 105_858_606,
-    puid: "wikidata/105858606",
+    source_type: SourceType::Wikidata,
     name: "EVE Online data (generic)",
     extensions: &["blue"],
     media_types: &[],

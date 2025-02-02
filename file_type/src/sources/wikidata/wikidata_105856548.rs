@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856548: FileFormat = FileFormat {
     id: 105_856_548,
-    puid: "wikidata/105856548",
+    source_type: SourceType::Wikidata,
     name: "Workshare DeltaView Deltafile",
     extensions: &["wdf"],
     media_types: &[],

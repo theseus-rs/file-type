@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852753: FileFormat = FileFormat {
     id: 105_852_753,
-    puid: "wikidata/105852753",
+    source_type: SourceType::Wikidata,
     name: "Kawai music score",
     extensions: &["sdf"],
     media_types: &[],

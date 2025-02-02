@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854825: FileFormat = FileFormat {
     id: 105_854_825,
-    puid: "wikidata/105854825",
+    source_type: SourceType::Wikidata,
     name: "Audible Enhanced Audio",
     extensions: &["aax"],
     media_types: &["audio/vnd.audible.aax"],

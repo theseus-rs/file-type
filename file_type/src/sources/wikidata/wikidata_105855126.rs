@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855126: FileFormat = FileFormat {
     id: 105_855_126,
-    puid: "wikidata/105855126",
+    source_type: SourceType::Wikidata,
     name: "Oracle Binary Form",
     extensions: &["fmb"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857877: FileFormat = FileFormat {
     id: 105_857_877,
-    puid: "wikidata/105857877",
+    source_type: SourceType::Wikidata,
     name: "PS2 Memory Card image",
     extensions: &["ps2"],
     media_types: &["application/octet-stream"],

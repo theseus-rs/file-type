@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850307: FileFormat = FileFormat {
     id: 105_850_307,
-    puid: "wikidata/105850307",
+    source_type: SourceType::Wikidata,
     name: "ChordML music document",
     extensions: &["cml"],
     media_types: &["text/xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856109: FileFormat = FileFormat {
     id: 105_856_109,
-    puid: "wikidata/105856109",
+    source_type: SourceType::Wikidata,
     name: "3D Dgf model",
     extensions: &["dgf"],
     media_types: &["application/octet-stream"],

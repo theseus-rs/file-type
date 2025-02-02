@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854977: FileFormat = FileFormat {
     id: 105_854_977,
-    puid: "wikidata/105854977",
+    source_type: SourceType::Wikidata,
     name: "ActiveGS PC configuration",
     extensions: &["activegsxml"],
     media_types: &["text/xml"],

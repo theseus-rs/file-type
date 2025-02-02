@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857125: FileFormat = FileFormat {
     id: 105_857_125,
-    puid: "wikidata/105857125",
+    source_type: SourceType::Wikidata,
     name: "Videoscape GEO mesh",
     extensions: &["geo", "v3d"],
-    media_types: &["text/plain", "text/plain"],
+    media_types: &["text/plain"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

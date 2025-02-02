@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28919072: FileFormat = FileFormat {
     id: 28_919_072,
-    puid: "wikidata/28919072",
+    source_type: SourceType::Wikidata,
     name: "After Effects project, XML variant",
     extensions: &["aepx"],
     media_types: &["text/xml"],

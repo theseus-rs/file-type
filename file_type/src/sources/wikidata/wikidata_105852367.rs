@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852367: FileFormat = FileFormat {
     id: 105_852_367,
-    puid: "wikidata/105852367",
+    source_type: SourceType::Wikidata,
     name: "ABC SnapGraphix Graph",
     extensions: &["sg"],
     media_types: &["application/octet-stream"],

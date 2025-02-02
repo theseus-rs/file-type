@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857109: FileFormat = FileFormat {
     id: 105_857_109,
-    puid: "wikidata/105857109",
+    source_type: SourceType::Wikidata,
     name: "ZBrush GoZ export template",
     extensions: &["goz"],
     media_types: &["text/plain"],

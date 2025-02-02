@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861775: FileFormat = FileFormat {
     id: 105_861_775,
-    puid: "wikidata/105861775",
+    source_type: SourceType::Wikidata,
     name: "Moxcel spreadsheet",
     extensions: &["mxl"],
     media_types: &[],

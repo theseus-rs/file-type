@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855607: FileFormat = FileFormat {
     id: 105_855_607,
-    puid: "wikidata/105855607",
+    source_type: SourceType::Wikidata,
     name: "Oracle Help for Java mapping",
     extensions: &["oht"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860426: FileFormat = FileFormat {
     id: 105_860_426,
-    puid: "wikidata/105860426",
+    source_type: SourceType::Wikidata,
     name: "Nintendo Entertainment System ROM",
     extensions: &["nes"],
     media_types: &["application/octet-stream"],

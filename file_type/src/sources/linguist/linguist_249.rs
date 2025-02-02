@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_249: FileFormat = FileFormat {
     id: 249,
-    puid: "linguist/249",
+    source_type: SourceType::Linguist,
     name: "Nim",
     extensions: &["nim", "nim.cfg", "nimble", "nimrod", "nims"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853355: FileFormat = FileFormat {
     id: 105_853_355,
-    puid: "wikidata/105853355",
+    source_type: SourceType::Wikidata,
     name: "CADVANCE 2D symbol",
     extensions: &["sym"],
     media_types: &[],

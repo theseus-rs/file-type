@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864386: FileFormat = FileFormat {
     id: 105_864_386,
-    puid: "wikidata/105864386",
+    source_type: SourceType::Wikidata,
     name: "Pro Trekkr module",
     extensions: &["ptk"],
     media_types: &["audio/x-mod"],

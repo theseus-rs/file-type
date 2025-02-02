@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857666: FileFormat = FileFormat {
     id: 105_857_666,
-    puid: "wikidata/105857666",
+    source_type: SourceType::Wikidata,
     name: "Install Maker Pro project",
     extensions: &["iip"],
     media_types: &["application/octet-stream"],

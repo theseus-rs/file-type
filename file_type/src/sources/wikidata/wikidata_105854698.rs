@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854698: FileFormat = FileFormat {
     id: 105_854_698,
-    puid: "wikidata/105854698",
+    source_type: SourceType::Wikidata,
     name: "Hamarsoft HAP compressed archive (v2.10)",
     extensions: &["hap"],
     media_types: &["application/octet-stream"],

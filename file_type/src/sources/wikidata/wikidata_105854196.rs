@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854196: FileFormat = FileFormat {
     id: 105_854_196,
-    puid: "wikidata/105854196",
+    source_type: SourceType::Wikidata,
     name: "shar SHell self-extracting aRchive",
     extensions: &["sha", "shar", "shr"],
-    media_types: &["text/plain", "text/plain", "text/plain"],
+    media_types: &["text/plain"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_18064817492816535970: FileFormat = FileFormat {
-    id: 18_064_817_492_816_535_970,
-    puid: "httpd/18064817492816535970",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "jisp",
     extensions: &["jisp"],
     media_types: &["application/vnd.jisp"],

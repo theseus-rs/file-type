@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853499: FileFormat = FileFormat {
     id: 105_853_499,
-    puid: "wikidata/105853499",
+    source_type: SourceType::Wikidata,
     name: "SubEthaEdit Mode",
     extensions: &["zip"],
     media_types: &[],

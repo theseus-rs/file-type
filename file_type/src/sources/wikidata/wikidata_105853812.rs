@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853812: FileFormat = FileFormat {
     id: 105_853_812,
-    puid: "wikidata/105853812",
+    source_type: SourceType::Wikidata,
     name: "Gerber artwork",
     extensions: &["art"],
     media_types: &[],

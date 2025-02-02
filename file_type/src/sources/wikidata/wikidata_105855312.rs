@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855312: FileFormat = FileFormat {
     id: 105_855_312,
-    puid: "wikidata/105855312",
+    source_type: SourceType::Wikidata,
     name: "Paul van Keep's Icon Heaven icons package",
     extensions: &["fim"],
     media_types: &["application/octet-stream"],

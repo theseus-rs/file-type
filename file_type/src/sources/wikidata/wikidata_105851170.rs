@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851170: FileFormat = FileFormat {
     id: 105_851_170,
-    puid: "wikidata/105851170",
+    source_type: SourceType::Wikidata,
     name: "Wintec Tools GPS log",
     extensions: &["tk1"],
     media_types: &[],

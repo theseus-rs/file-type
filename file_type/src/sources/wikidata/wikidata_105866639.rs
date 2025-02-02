@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866639: FileFormat = FileFormat {
     id: 105_866_639,
-    puid: "wikidata/105866639",
+    source_type: SourceType::Wikidata,
     name: "LiveNote Portable legal Transcript File",
     extensions: &["ptf"],
     media_types: &[],

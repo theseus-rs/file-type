@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28755730: FileFormat = FileFormat {
     id: 28_755_730,
-    puid: "wikidata/28755730",
+    source_type: SourceType::Wikidata,
     name: "FDB (Legacy Family Tree)",
     extensions: &["fdb"],
     media_types: &[],

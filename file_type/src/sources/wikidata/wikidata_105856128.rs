@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856128: FileFormat = FileFormat {
     id: 105_856_128,
-    puid: "wikidata/105856128",
+    source_type: SourceType::Wikidata,
     name: "DITA Map (UTF-8)",
     extensions: &["ditamap"],
     media_types: &["text/xml"],

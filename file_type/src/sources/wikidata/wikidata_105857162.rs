@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857162: FileFormat = FileFormat {
     id: 105_857_162,
-    puid: "wikidata/105857162",
+    source_type: SourceType::Wikidata,
     name: "Quarterdeck Mosaic History",
     extensions: &["hst"],
     media_types: &["application/octet-stream"],

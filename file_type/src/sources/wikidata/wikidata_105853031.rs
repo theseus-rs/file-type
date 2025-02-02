@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853031: FileFormat = FileFormat {
     id: 105_853_031,
-    puid: "wikidata/105853031",
+    source_type: SourceType::Wikidata,
     name: "Skyland's Star saved game",
     extensions: &["sss"],
     media_types: &["text/xml"],

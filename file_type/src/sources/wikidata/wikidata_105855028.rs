@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855028: FileFormat = FileFormat {
     id: 105_855_028,
-    puid: "wikidata/105855028",
+    source_type: SourceType::Wikidata,
     name: "Dalet Sound format audio (old)",
     extensions: &["snd"],
     media_types: &["application/octet-stream"],

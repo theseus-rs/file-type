@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858744: FileFormat = FileFormat {
     id: 105_858_744,
-    puid: "wikidata/105858744",
+    source_type: SourceType::Wikidata,
     name: "Cloe picture bitmap (big endian)",
     extensions: &["clo", "cloe"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

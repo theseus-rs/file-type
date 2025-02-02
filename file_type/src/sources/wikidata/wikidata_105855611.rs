@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855611: FileFormat = FileFormat {
     id: 105_855_611,
-    puid: "wikidata/105855611",
+    source_type: SourceType::Wikidata,
     name: "OpenSim project",
     extensions: &["osim"],
     media_types: &["application/octet-stream"],

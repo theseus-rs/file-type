@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851408: FileFormat = FileFormat {
     id: 105_851_408,
-    puid: "wikidata/105851408",
+    source_type: SourceType::Wikidata,
     name: "TQSLCert request",
     extensions: &["tq5"],
     media_types: &["text/plain"],

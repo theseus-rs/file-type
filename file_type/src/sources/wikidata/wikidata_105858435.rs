@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858435: FileFormat = FileFormat {
     id: 105_858_435,
-    puid: "wikidata/105858435",
+    source_type: SourceType::Wikidata,
     name: "Bitmapped Signum!2 printer font (screen)",
     extensions: &["e24"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_7375542: FileFormat = FileFormat {
     id: 7_375_542,
-    puid: "wikidata/7375542",
+    source_type: SourceType::Wikidata,
     name: "Restricted Permission Message",
     extensions: &["rpmsg"],
     media_types: &["application/octet-stream"],

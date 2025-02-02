@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849834: FileFormat = FileFormat {
     id: 105_849_834,
-    puid: "wikidata/105849834",
+    source_type: SourceType::Wikidata,
     name: "CFast Animation (secured)",
     extensions: &["cft"],
     media_types: &["application/octet-stream"],

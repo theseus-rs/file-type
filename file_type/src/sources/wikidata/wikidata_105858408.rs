@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858408: FileFormat = FileFormat {
     id: 105_858_408,
-    puid: "wikidata/105858408",
+    source_type: SourceType::Wikidata,
     name: "CDTA compiled text reader (v1.0)",
     extensions: &["exe"],
     media_types: &["application/octet-stream"],

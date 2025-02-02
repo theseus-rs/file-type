@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853113: FileFormat = FileFormat {
     id: 105_853_113,
-    puid: "wikidata/105853113",
+    source_type: SourceType::Wikidata,
     name: "Samna Word document",
     extensions: &["sm"],
     media_types: &["application/octet-stream"],

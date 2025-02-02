@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17784298339216295779: FileFormat = FileFormat {
-    id: 17_784_298_339_216_295_779,
-    puid: "httpd/17784298339216295779",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "contact cmsg",
     extensions: &["cdbcmsg"],
     media_types: &["application/vnd.contact.cmsg"],

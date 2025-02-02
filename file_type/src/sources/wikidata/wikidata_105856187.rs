@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856187: FileFormat = FileFormat {
     id: 105_856_187,
-    puid: "wikidata/105856187",
+    source_type: SourceType::Wikidata,
     name: "ClrMamePro DAT / MAME Listinfo format",
     extensions: &["dat"],
     media_types: &["text/plain"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_244: FileFormat = FileFormat {
     id: 244,
-    puid: "linguist/244",
+    source_type: SourceType::Linguist,
     name: "NetLinx",
     extensions: &["axi", "axs"],
     media_types: &[],

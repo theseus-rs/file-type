@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_4452328441438908528: FileFormat = FileFormat {
-    id: 4_452_328_441_438_908_528,
-    puid: "httpd/4452328441438908528",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ms project",
     extensions: &["mpp", "mpt"],
     media_types: &["application/vnd.ms-project"],

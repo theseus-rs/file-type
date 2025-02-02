@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852089: FileFormat = FileFormat {
     id: 105_852_089,
-    puid: "wikidata/105852089",
+    source_type: SourceType::Wikidata,
     name: "Solace Virtual Tape format 1",
     extensions: &["svt"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_196765: FileFormat = FileFormat {
     id: 196_765,
-    puid: "wikidata/196765",
+    source_type: SourceType::Wikidata,
     name: "revocation list",
     extensions: &["crl"],
     media_types: &["application/pkix-crl"],

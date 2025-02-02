@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854910: FileFormat = FileFormat {
     id: 105_854_910,
-    puid: "wikidata/105854910",
+    source_type: SourceType::Wikidata,
     name: "IRCAM Sound Format audio (NeXT)",
     extensions: &["sf"],
     media_types: &["application/octet-stream"],

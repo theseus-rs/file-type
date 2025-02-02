@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_950967261: FileFormat = FileFormat {
     id: 950_967_261,
-    puid: "linguist/950967261",
+    source_type: SourceType::Linguist,
     name: "Win32 Message File",
     extensions: &["mc"],
     media_types: &["text/x-properties"],

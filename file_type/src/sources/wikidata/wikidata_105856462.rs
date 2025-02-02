@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856462: FileFormat = FileFormat {
     id: 105_856_462,
-    puid: "wikidata/105856462",
+    source_type: SourceType::Wikidata,
     name: "PGE World Map",
     extensions: &["wldx"],
     media_types: &["text/plain"],

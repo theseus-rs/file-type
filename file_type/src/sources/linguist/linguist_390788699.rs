@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_390788699: FileFormat = FileFormat {
     id: 390_788_699,
-    puid: "linguist/390788699",
+    source_type: SourceType::Linguist,
     name: "CAP CDS",
     extensions: &["cds"],
     media_types: &[],

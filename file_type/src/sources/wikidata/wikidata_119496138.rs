@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_119496138: FileFormat = FileFormat {
     id: 119_496_138,
-    puid: "wikidata/119496138",
+    source_type: SourceType::Wikidata,
     name: "WinFax format",
     extensions: &["wfx"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864300: FileFormat = FileFormat {
     id: 105_864_300,
-    puid: "wikidata/105864300",
+    source_type: SourceType::Wikidata,
     name: "Turtle Beach Pinnacle Bank File",
     extensions: &["pbf"],
     media_types: &["application/octet-stream"],

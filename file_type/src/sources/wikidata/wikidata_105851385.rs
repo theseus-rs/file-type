@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851385: FileFormat = FileFormat {
     id: 105_851_385,
-    puid: "wikidata/105851385",
+    source_type: SourceType::Wikidata,
     name: "WinTVC Snapshot",
     extensions: &["tvs"],
     media_types: &["application/octet-stream"],

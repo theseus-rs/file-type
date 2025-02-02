@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857005: FileFormat = FileFormat {
     id: 105_857_005,
-    puid: "wikidata/105857005",
+    source_type: SourceType::Wikidata,
     name: "SBG Object Text",
     extensions: &["geo"],
     media_types: &["text/plain"],

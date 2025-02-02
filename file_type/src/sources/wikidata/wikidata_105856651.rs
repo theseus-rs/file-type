@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856651: FileFormat = FileFormat {
     id: 105_856_651,
-    puid: "wikidata/105856651",
+    source_type: SourceType::Wikidata,
     name: "Tektronix TDS extended waveform data",
     extensions: &["wfm"],
     media_types: &[],

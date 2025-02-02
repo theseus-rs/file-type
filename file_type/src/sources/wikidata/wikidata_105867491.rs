@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867491: FileFormat = FileFormat {
     id: 105_867_491,
-    puid: "wikidata/105867491",
+    source_type: SourceType::Wikidata,
     name: "Nintendo Switch Submission Package",
     extensions: &["nsp"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860749: FileFormat = FileFormat {
     id: 105_860_749,
-    puid: "wikidata/105860749",
+    source_type: SourceType::Wikidata,
     name: "Oloneo HDR preset",
     extensions: &["rcd"],
     media_types: &[],

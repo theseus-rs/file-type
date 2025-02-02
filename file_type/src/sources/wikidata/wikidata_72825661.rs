@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_72825661: FileFormat = FileFormat {
     id: 72_825_661,
-    puid: "wikidata/72825661",
+    source_type: SourceType::Wikidata,
     name: "Open Chromatography binary",
     extensions: &["ocb"],
     media_types: &[],

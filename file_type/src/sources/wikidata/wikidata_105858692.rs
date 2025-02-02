@@ -1,18 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858692: FileFormat = FileFormat {
     id: 105_858_692,
-    puid: "wikidata/105858692",
+    source_type: SourceType::Wikidata,
     name: "JPEG-2000 Code Stream bitmap",
-    extensions: &["j2c", "j2c", "j2k", "j2k", "jpc", "jpc"],
-    media_types: &[
-        "image/jp2",
-        "image/jp2",
-        "image/jp2",
-        "image/x-jp2-codestream",
-        "image/x-jp2-codestream",
-        "image/x-jp2-codestream",
-    ],
+    extensions: &["j2c", "j2k", "jpc"],
+    media_types: &["image/jp2", "image/x-jp2-codestream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

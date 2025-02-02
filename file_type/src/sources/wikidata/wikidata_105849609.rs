@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849609: FileFormat = FileFormat {
     id: 105_849_609,
-    puid: "wikidata/105849609",
+    source_type: SourceType::Wikidata,
     name: "NASCAR Racing 2002 Season Car data",
     extensions: &["car"],
     media_types: &["application/octet-stream"],

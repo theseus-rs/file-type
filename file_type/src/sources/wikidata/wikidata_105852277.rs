@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852277: FileFormat = FileFormat {
     id: 105_852_277,
-    puid: "wikidata/105852277",
+    source_type: SourceType::Wikidata,
     name: "Lattice Diamond Strategy",
     extensions: &["sty"],
     media_types: &["text/xml"],

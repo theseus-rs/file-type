@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const CUSTOM_5: FileFormat = FileFormat {
     id: 5,
-    puid: "custom/5",
+    source_type: SourceType::Custom,
     name: "Apache Parquet",
     extensions: &["parquet"],
     media_types: &["application/vnd.apache.parquet"],

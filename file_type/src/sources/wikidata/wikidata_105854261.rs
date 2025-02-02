@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854261: FileFormat = FileFormat {
     id: 105_854_261,
-    puid: "wikidata/105854261",
+    source_type: SourceType::Wikidata,
     name: "The Witcher 2 game data archive",
     extensions: &["dzip"],
     media_types: &["application/octet-stream"],

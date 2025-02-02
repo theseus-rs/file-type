@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857726: FileFormat = FileFormat {
     id: 105_857_726,
-    puid: "wikidata/105857726",
+    source_type: SourceType::Wikidata,
     name: "Trilo Tracker Instrument Set",
     extensions: &["is"],
     media_types: &["application/octet-stream"],

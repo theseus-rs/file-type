@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10459519546450867951: FileFormat = FileFormat {
-    id: 10_459_519_546_450_867_951,
-    puid: "httpd/10459519546450867951",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mrsid image",
     extensions: &["sid"],
     media_types: &["image/x-mrsid-image"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_111418328: FileFormat = FileFormat {
     id: 111_418_328,
-    puid: "wikidata/111418328",
+    source_type: SourceType::Wikidata,
     name: "Adobe Bridge Data File",
     extensions: &["abdata"],
     media_types: &[],

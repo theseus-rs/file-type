@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855684: FileFormat = FileFormat {
     id: 105_855_684,
-    puid: "wikidata/105855684",
+    source_type: SourceType::Wikidata,
     name: "openMSX replay (ungzipped)",
     extensions: &["omr"],
     media_types: &["text/xml"],

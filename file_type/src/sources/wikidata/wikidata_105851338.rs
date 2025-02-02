@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851338: FileFormat = FileFormat {
     id: 105_851_338,
-    puid: "wikidata/105851338",
+    source_type: SourceType::Wikidata,
     name: "TRADOStag XML",
     extensions: &["ttx"],
     media_types: &[],

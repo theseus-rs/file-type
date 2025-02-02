@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858396: FileFormat = FileFormat {
     id: 105_858_396,
-    puid: "wikidata/105858396",
+    source_type: SourceType::Wikidata,
     name: "Extron IP Link driver",
     extensions: &["pke", "pkn"],
     media_types: &[],

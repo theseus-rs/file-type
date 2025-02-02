@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853346: FileFormat = FileFormat {
     id: 105_853_346,
-    puid: "wikidata/105853346",
+    source_type: SourceType::Wikidata,
     name: "WinAPE recorded session (full)",
     extensions: &["snr"],
     media_types: &["application/octet-stream"],

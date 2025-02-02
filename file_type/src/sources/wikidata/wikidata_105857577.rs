@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857577: FileFormat = FileFormat {
     id: 105_857_577,
-    puid: "wikidata/105857577",
+    source_type: SourceType::Wikidata,
     name: "Actor Image snapshot (v4.1)",
     extensions: &["ima"],
     media_types: &["application/octet-stream"],

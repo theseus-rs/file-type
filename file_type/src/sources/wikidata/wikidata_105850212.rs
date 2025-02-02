@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850212: FileFormat = FileFormat {
     id: 105_850_212,
-    puid: "wikidata/105850212",
+    source_type: SourceType::Wikidata,
     name: "AmiDock Configuration",
     extensions: &["config"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_8769941306517163787: FileFormat = FileFormat {
-    id: 8_769_941_306_517_163_787,
-    puid: "httpd/8769941306517163787",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "fdsn seed",
     extensions: &["seed", "dataless"],
     media_types: &["application/vnd.fdsn.seed"],

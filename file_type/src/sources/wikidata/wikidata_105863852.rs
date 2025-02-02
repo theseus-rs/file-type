@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863852: FileFormat = FileFormat {
     id: 105_863_852,
-    puid: "wikidata/105863852",
+    source_type: SourceType::Wikidata,
     name: "Scorched Earth Mountain range data",
     extensions: &["mtn"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854979: FileFormat = FileFormat {
     id: 105_854_979,
-    puid: "wikidata/105854979",
+    source_type: SourceType::Wikidata,
     name: "FMOD Sample Bank format (v1)",
     extensions: &["fsb"],
     media_types: &["application/octet-stream"],

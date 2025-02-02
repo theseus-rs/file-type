@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856232: FileFormat = FileFormat {
     id: 105_856_232,
-    puid: "wikidata/105856232",
+    source_type: SourceType::Wikidata,
     name: "Battlefield 2 map Description",
     extensions: &["desc"],
     media_types: &["text/xml"],

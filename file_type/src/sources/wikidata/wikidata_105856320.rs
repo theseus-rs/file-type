@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856320: FileFormat = FileFormat {
     id: 105_856_320,
-    puid: "wikidata/105856320",
+    source_type: SourceType::Wikidata,
     name: "Dagesh document",
     extensions: &["dgs"],
     media_types: &[],

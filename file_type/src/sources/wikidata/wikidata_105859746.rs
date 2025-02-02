@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859746: FileFormat = FileFormat {
     id: 105_859_746,
-    puid: "wikidata/105859746",
+    source_type: SourceType::Wikidata,
     name: "trsvid TV1 video",
     extensions: &["tv1"],
     media_types: &["application/octet-stream"],

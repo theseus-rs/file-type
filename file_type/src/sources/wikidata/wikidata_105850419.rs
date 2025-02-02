@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850419: FileFormat = FileFormat {
     id: 105_850_419,
-    puid: "wikidata/105850419",
+    source_type: SourceType::Wikidata,
     name: "CryoGen ECC data",
     extensions: &["cyg"],
     media_types: &["application/octet-stream"],

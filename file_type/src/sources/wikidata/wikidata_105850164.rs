@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850164: FileFormat = FileFormat {
     id: 105_850_164,
-    puid: "wikidata/105850164",
+    source_type: SourceType::Wikidata,
     name: "Cal3D Mesh File",
     extensions: &["cmf"],
     media_types: &["application/octet-stream"],

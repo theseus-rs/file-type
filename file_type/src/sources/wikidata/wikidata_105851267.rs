@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851267: FileFormat = FileFormat {
     id: 105_851_267,
-    puid: "wikidata/105851267",
+    source_type: SourceType::Wikidata,
     name: "TfID - Text File IDentifier definition (v0.x)",
     extensions: &["xml"],
     media_types: &[],

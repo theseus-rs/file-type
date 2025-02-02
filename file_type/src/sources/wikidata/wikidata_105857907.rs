@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857907: FileFormat = FileFormat {
     id: 105_857_907,
-    puid: "wikidata/105857907",
+    source_type: SourceType::Wikidata,
     name: "VICE settings",
     extensions: &["ini"],
     media_types: &["application/octet-stream"],

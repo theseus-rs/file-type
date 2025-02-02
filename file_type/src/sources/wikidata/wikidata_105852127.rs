@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852127: FileFormat = FileFormat {
     id: 105_852_127,
-    puid: "wikidata/105852127",
+    source_type: SourceType::Wikidata,
     name: "SubViewer 1.0 subtitles",
     extensions: &["sub"],
     media_types: &[],

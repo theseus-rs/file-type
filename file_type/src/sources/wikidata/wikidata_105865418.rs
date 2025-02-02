@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865418: FileFormat = FileFormat {
     id: 105_865_418,
-    puid: "wikidata/105865418",
+    source_type: SourceType::Wikidata,
     name: "Starbound game data archive",
     extensions: &["pak"],
     media_types: &["application/octet-stream"],

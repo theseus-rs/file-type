@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864656: FileFormat = FileFormat {
     id: 105_864_656,
-    puid: "wikidata/105864656",
+    source_type: SourceType::Wikidata,
     name: "PassMark PerformanceTest file",
     extensions: &["pt"],
     media_types: &[],

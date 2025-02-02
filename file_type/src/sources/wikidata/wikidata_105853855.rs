@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853855: FileFormat = FileFormat {
     id: 105_853_855,
-    puid: "wikidata/105853855",
+    source_type: SourceType::Wikidata,
     name: "askSam Windows database",
     extensions: &["ask"],
     media_types: &["application/octet-stream"],

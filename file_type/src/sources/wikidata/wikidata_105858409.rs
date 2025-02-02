@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858409: FileFormat = FileFormat {
     id: 105_858_409,
-    puid: "wikidata/105858409",
+    source_type: SourceType::Wikidata,
     name: "Elastic Reality Shape",
     extensions: &["ers"],
     media_types: &["text/plain"],

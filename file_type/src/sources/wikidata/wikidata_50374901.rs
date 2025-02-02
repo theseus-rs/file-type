@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_50374901: FileFormat = FileFormat {
     id: 50_374_901,
-    puid: "wikidata/50374901",
+    source_type: SourceType::Wikidata,
     name: "MagicaVoxel Vox format",
     extensions: &["vox"],
     media_types: &["application/octet-stream"],

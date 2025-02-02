@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856972: FileFormat = FileFormat {
     id: 105_856_972,
-    puid: "wikidata/105856972",
+    source_type: SourceType::Wikidata,
     name: "StarWriter for MS-DOS Graphics Printer driver",
     extensions: &["gpm"],
     media_types: &["application/octet-stream"],

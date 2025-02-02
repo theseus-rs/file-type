@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855746: FileFormat = FileFormat {
     id: 105_855_746,
-    puid: "wikidata/105855746",
+    source_type: SourceType::Wikidata,
     name: "InterActual Disc.id",
     extensions: &["id"],
     media_types: &["text/ini"],

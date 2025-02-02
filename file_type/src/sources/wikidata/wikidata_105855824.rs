@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855824: FileFormat = FileFormat {
     id: 105_855_824,
-    puid: "wikidata/105855824",
+    source_type: SourceType::Wikidata,
     name: "SVN dump format (v3)",
     extensions: &["dump"],
     media_types: &["text/plain"],

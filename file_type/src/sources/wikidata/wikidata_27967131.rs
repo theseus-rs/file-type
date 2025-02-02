@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967131: FileFormat = FileFormat {
     id: 27_967_131,
-    puid: "wikidata/27967131",
+    source_type: SourceType::Wikidata,
     name: "CyberTracker module",
     extensions: &["ct"],
     media_types: &["application/octet-stream"],

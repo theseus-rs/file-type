@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_130391411: FileFormat = FileFormat {
     id: 130_391_411,
-    puid: "wikidata/130391411",
+    source_type: SourceType::Wikidata,
     name: "Objective-J source code file",
     extensions: &["j"],
     media_types: &["text/x-objective-j"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860631: FileFormat = FileFormat {
     id: 105_860_631,
-    puid: "wikidata/105860631",
+    source_type: SourceType::Wikidata,
     name: "Raptor flowchart",
     extensions: &["rap"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854735: FileFormat = FileFormat {
     id: 105_854_735,
-    puid: "wikidata/105854735",
+    source_type: SourceType::Wikidata,
     name: "Aksharamala Keymap Binary",
     extensions: &["akm"],
     media_types: &[],

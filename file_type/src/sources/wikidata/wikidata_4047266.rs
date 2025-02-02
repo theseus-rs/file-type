@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_4047266: FileFormat = FileFormat {
     id: 4_047_266,
-    puid: "wikidata/4047266",
+    source_type: SourceType::Wikidata,
     name: "Portable Draughts Notation",
     extensions: &["pdn"],
     media_types: &["text/plain"],

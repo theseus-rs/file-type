@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867623: FileFormat = FileFormat {
     id: 105_867_623,
-    puid: "wikidata/105867623",
+    source_type: SourceType::Wikidata,
     name: "PlayStation 3 NPDRM encrypted SDATA",
     extensions: &["pak"],
     media_types: &["application/octet-stream"],

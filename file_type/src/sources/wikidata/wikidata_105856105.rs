@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856105: FileFormat = FileFormat {
     id: 105_856_105,
-    puid: "wikidata/105856105",
+    source_type: SourceType::Wikidata,
     name: "DNG Camera Profile",
     extensions: &["dcp"],
     media_types: &["application/octet-stream"],

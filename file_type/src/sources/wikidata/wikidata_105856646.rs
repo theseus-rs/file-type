@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856646: FileFormat = FileFormat {
     id: 105_856_646,
-    puid: "wikidata/105856646",
+    source_type: SourceType::Wikidata,
     name: "AS-EASY-AS Worksheet (generic)",
     extensions: &["wks"],
     media_types: &["application/octet-stream"],

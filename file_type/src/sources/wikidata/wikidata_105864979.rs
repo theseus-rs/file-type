@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864979: FileFormat = FileFormat {
     id: 105_864_979,
-    puid: "wikidata/105864979",
+    source_type: SourceType::Wikidata,
     name: "SkyOS add-on Package",
     extensions: &["pkg"],
     media_types: &["application/octet-stream"],

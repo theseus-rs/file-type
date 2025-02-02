@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850545: FileFormat = FileFormat {
     id: 105_850_545,
-    puid: "wikidata/105850545",
+    source_type: SourceType::Wikidata,
     name: "Javelin Country Driver",
     extensions: &["cdv"],
     media_types: &["application/octet-stream"],

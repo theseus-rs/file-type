@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854257: FileFormat = FileFormat {
     id: 105_854_257,
-    puid: "wikidata/105854257",
+    source_type: SourceType::Wikidata,
     name: "Musepack encoded audio (SV7.0)",
     extensions: &["mpc"],
     media_types: &["audio/musepack"],

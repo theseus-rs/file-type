@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_47462053: FileFormat = FileFormat {
     id: 47_462_053,
-    puid: "wikidata/47462053",
+    source_type: SourceType::Wikidata,
     name: "Siegfried Signature File",
     extensions: &["sig"],
     media_types: &[],

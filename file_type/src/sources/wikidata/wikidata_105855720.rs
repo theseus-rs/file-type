@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855720: FileFormat = FileFormat {
     id: 105_855_720,
-    puid: "wikidata/105855720",
+    source_type: SourceType::Wikidata,
     name: "Organya 2 module",
     extensions: &["org"],
     media_types: &["audio/x-mod"],

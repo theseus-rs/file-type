@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866499: FileFormat = FileFormat {
     id: 105_866_499,
-    puid: "wikidata/105866499",
+    source_type: SourceType::Wikidata,
     name: "Messenger Plus! Backup Configuration",
     extensions: &["pld"],
     media_types: &[],

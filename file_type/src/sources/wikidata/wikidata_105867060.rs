@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867060: FileFormat = FileFormat {
     id: 105_867_060,
-    puid: "wikidata/105867060",
+    source_type: SourceType::Wikidata,
     name: "Daisy-Dot NLQ font",
     extensions: &["nlq"],
     media_types: &["application/octet-stream"],

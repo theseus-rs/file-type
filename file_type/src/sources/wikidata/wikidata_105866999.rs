@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866999: FileFormat = FileFormat {
     id: 105_866_999,
-    puid: "wikidata/105866999",
+    source_type: SourceType::Wikidata,
     name: "Neo Content file",
     extensions: &["nwp"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855420: FileFormat = FileFormat {
     id: 105_855_420,
-    puid: "wikidata/105855420",
+    source_type: SourceType::Wikidata,
     name: "FCE-Ultra movie capture",
     extensions: &["fcm"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_9816146314707347696: FileFormat = FileFormat {
-    id: 9_816_146_314_707_347_696,
-    puid: "httpd/9816146314707347696",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "applixware",
     extensions: &["aw"],
     media_types: &["application/applixware"],

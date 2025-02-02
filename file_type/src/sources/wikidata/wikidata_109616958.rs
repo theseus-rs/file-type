@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_109616958: FileFormat = FileFormat {
     id: 109_616_958,
-    puid: "wikidata/109616958",
+    source_type: SourceType::Wikidata,
     name: "HydroCAD Rainfall table",
     extensions: &["hcr"],
     media_types: &[],

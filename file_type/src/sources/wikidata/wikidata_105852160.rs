@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852160: FileFormat = FileFormat {
     id: 105_852_160,
-    puid: "wikidata/105852160",
+    source_type: SourceType::Wikidata,
     name: "Scalable Vector Graphics (var.2)",
     extensions: &["svg"],
     media_types: &["image/svg+xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852649: FileFormat = FileFormat {
     id: 105_852_649,
-    puid: "wikidata/105852649",
+    source_type: SourceType::Wikidata,
     name: "Symantec LiveState recovery image",
     extensions: &["sv2i"],
     media_types: &[],

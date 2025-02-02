@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206756: FileFormat = FileFormat {
     id: 28_206_756,
-    puid: "wikidata/28206756",
+    source_type: SourceType::Wikidata,
     name: "NIST IHead",
     extensions: &["pct"],
     media_types: &["application/octet-stream"],

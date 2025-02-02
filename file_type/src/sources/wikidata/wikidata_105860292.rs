@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860292: FileFormat = FileFormat {
     id: 105_860_292,
-    puid: "wikidata/105860292",
+    source_type: SourceType::Wikidata,
     name: "X-Stitch Designer Gold Template",
     extensions: &["rxt"],
     media_types: &["application/octet-stream"],

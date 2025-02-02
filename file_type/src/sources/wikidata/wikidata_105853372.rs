@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853372: FileFormat = FileFormat {
     id: 105_853_372,
-    puid: "wikidata/105853372",
+    source_type: SourceType::Wikidata,
     name: "Operation Flashpoint mission",
     extensions: &["sqm"],
     media_types: &[],

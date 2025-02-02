@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17112233685912069940: FileFormat = FileFormat {
-    id: 17_112_233_685_912_069_940,
-    puid: "httpd/17112233685912069940",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "smart teacher",
     extensions: &["teacher"],
     media_types: &["application/vnd.smart.teacher"],

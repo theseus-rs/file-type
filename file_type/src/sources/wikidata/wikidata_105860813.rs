@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860813: FileFormat = FileFormat {
     id: 105_860_813,
-    puid: "wikidata/105860813",
+    source_type: SourceType::Wikidata,
     name: "Tsunami Media game data archive",
     extensions: &["rlb"],
     media_types: &["application/octet-stream"],

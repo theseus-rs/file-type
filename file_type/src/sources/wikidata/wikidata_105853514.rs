@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853514: FileFormat = FileFormat {
     id: 105_853_514,
-    puid: "wikidata/105853514",
+    source_type: SourceType::Wikidata,
     name: "ZVR eBook",
     extensions: &["zvr"],
     media_types: &[],

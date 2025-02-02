@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2484029793804409931: FileFormat = FileFormat {
-    id: 2_484_029_793_804_409_931,
-    puid: "httpd/2484029793804409931",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "hp hpid",
     extensions: &["hpid"],
     media_types: &["application/vnd.hp-hpid"],

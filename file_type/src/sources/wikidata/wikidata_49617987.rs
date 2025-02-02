@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_49617987: FileFormat = FileFormat {
     id: 49_617_987,
-    puid: "wikidata/49617987",
+    source_type: SourceType::Wikidata,
     name: "Revit Family Template",
     extensions: &["rft"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857410: FileFormat = FileFormat {
     id: 105_857_410,
-    puid: "wikidata/105857410",
+    source_type: SourceType::Wikidata,
     name: "EditPad Pro Custom Syntax Coloring Scheme (UTF-8)",
     extensions: &["jgcscs"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861055: FileFormat = FileFormat {
     id: 105_861_055,
-    puid: "wikidata/105861055",
+    source_type: SourceType::Wikidata,
     name: "Prima PrintMagic Layout",
     extensions: &["lyt"],
     media_types: &["text/plain"],

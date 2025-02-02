@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853485: FileFormat = FileFormat {
     id: 105_853_485,
-    puid: "wikidata/105853485",
+    source_type: SourceType::Wikidata,
     name: "Dark Reign 2 game data archive",
     extensions: &["zwp"],
     media_types: &["application/octet-stream"],

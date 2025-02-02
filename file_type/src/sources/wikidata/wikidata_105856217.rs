@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856217: FileFormat = FileFormat {
     id: 105_856_217,
-    puid: "wikidata/105856217",
+    source_type: SourceType::Wikidata,
     name: "SeqBox SBxScan recovery info",
     extensions: &["db3"],
     media_types: &["application/octet-stream"],

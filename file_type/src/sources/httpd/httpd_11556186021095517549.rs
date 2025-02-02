@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_11556186021095517549: FileFormat = FileFormat {
-    id: 11_556_186_021_095_517_549,
-    puid: "httpd/11556186021095517549",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "triscape mxs",
     extensions: &["mxs"],
     media_types: &["application/vnd.triscape.mxs"],

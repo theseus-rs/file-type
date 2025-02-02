@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967112: FileFormat = FileFormat {
     id: 27_967_112,
-    puid: "wikidata/27967112",
+    source_type: SourceType::Wikidata,
     name: "All Sound Tracker module",
     extensions: &["ast"],
     media_types: &["audio/x-mod"],

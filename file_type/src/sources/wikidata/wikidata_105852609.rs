@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852609: FileFormat = FileFormat {
     id: 105_852_609,
-    puid: "wikidata/105852609",
+    source_type: SourceType::Wikidata,
     name: "SWiSH project",
     extensions: &["swi"],
     media_types: &[],

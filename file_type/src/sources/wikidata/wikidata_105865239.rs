@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865239: FileFormat = FileFormat {
     id: 105_865_239,
-    puid: "wikidata/105865239",
+    source_type: SourceType::Wikidata,
     name: "PowerBASIC/DOS configuration file",
     extensions: &["pb"],
     media_types: &[],

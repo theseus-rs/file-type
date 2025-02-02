@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851360: FileFormat = FileFormat {
     id: 105_851_360,
-    puid: "wikidata/105851360",
+    source_type: SourceType::Wikidata,
     name: "Godot Engine Text Resource",
     extensions: &["tres"],
     media_types: &["text/ini"],

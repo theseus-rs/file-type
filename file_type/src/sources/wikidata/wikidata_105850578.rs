@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850578: FileFormat = FileFormat {
     id: 105_850_578,
-    puid: "wikidata/105850578",
+    source_type: SourceType::Wikidata,
     name: "Sietronics CPI XRD format",
     extensions: &["cpi"],
     media_types: &[],

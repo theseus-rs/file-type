@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863749: FileFormat = FileFormat {
     id: 105_863_749,
-    puid: "wikidata/105863749",
+    source_type: SourceType::Wikidata,
     name: "MVSTracker Instrument",
     extensions: &["ins"],
     media_types: &["application/octet-stream"],

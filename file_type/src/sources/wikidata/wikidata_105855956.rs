@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855956: FileFormat = FileFormat {
     id: 105_855_956,
-    puid: "wikidata/105855956",
+    source_type: SourceType::Wikidata,
     name: "Ozone GUI registry Data",
     extensions: &["dat"],
     media_types: &["application/octet-stream"],

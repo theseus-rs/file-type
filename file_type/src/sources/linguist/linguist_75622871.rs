@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_75622871: FileFormat = FileFormat {
     id: 75_622_871,
-    puid: "linguist/75622871",
+    source_type: SourceType::Linguist,
     name: "XML Property List",
     extensions: &[
         "plist",

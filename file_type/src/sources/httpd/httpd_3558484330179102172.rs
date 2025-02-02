@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3558484330179102172: FileFormat = FileFormat {
-    id: 3_558_484_330_179_102_172,
-    puid: "httpd/3558484330179102172",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "seemail",
     extensions: &["see"],
     media_types: &["application/vnd.seemail"],

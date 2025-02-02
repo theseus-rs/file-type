@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865940: FileFormat = FileFormat {
     id: 105_865_940,
-    puid: "wikidata/105865940",
+    source_type: SourceType::Wikidata,
     name: "NeoBook for Windows document",
     extensions: &["pub"],
     media_types: &["application/octet-stream"],

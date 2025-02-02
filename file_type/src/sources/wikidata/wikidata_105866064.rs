@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866064: FileFormat = FileFormat {
     id: 105_866_064,
-    puid: "wikidata/105866064",
+    source_type: SourceType::Wikidata,
     name: "Visual Studio Performance Session",
     extensions: &["psess"],
     media_types: &["text/xml"],

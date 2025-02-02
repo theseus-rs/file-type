@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856087: FileFormat = FileFormat {
     id: 105_856_087,
-    puid: "wikidata/105856087",
+    source_type: SourceType::Wikidata,
     name: "Digifont Outline Font Description",
     extensions: &["dfi"],
     media_types: &["application/octet-stream"],

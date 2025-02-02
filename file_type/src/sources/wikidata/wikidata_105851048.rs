@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851048: FileFormat = FileFormat {
     id: 105_851_048,
-    puid: "wikidata/105851048",
+    source_type: SourceType::Wikidata,
     name: "Cargo manifest",
     extensions: &["toml"],
     media_types: &["text/ini"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850007: FileFormat = FileFormat {
     id: 105_850_007,
-    puid: "wikidata/105850007",
+    source_type: SourceType::Wikidata,
     name: "TurboBat 16bit compiled batch (v3.x, unreg)",
     extensions: &["com"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5838795347239654995: FileFormat = FileFormat {
-    id: 5_838_795_347_239_654_995,
-    puid: "httpd/5838795347239654995",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "cdmi capability",
     extensions: &["cdmia"],
     media_types: &["application/cdmi-capability"],

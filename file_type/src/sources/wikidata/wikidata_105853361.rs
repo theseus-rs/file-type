@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853361: FileFormat = FileFormat {
     id: 105_853_361,
-    puid: "wikidata/105853361",
+    source_type: SourceType::Wikidata,
     name: "SquashSF image file (big endian)",
     extensions: &["sfs", "squashfs"],
     media_types: &[],

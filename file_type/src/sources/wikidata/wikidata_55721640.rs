@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_55721640: FileFormat = FileFormat {
     id: 55_721_640,
-    puid: "wikidata/55721640",
+    source_type: SourceType::Wikidata,
     name: "AmiraMesh ASCII file format",
     extensions: &["am", "amiramesh", "hx"],
-    media_types: &["text/plain", "text/plain", "text/plain"],
+    media_types: &["text/plain"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

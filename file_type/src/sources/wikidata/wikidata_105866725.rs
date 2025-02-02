@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866725: FileFormat = FileFormat {
     id: 105_866_725,
-    puid: "wikidata/105866725",
+    source_type: SourceType::Wikidata,
     name: "Casio Model 9860 add-in",
     extensions: &["g1a"],
     media_types: &[],

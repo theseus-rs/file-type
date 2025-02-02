@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_74020904: FileFormat = FileFormat {
     id: 74_020_904,
-    puid: "wikidata/74020904",
+    source_type: SourceType::Wikidata,
     name: "RAG-D bitmap",
     extensions: &["rag"],
     media_types: &["application/octet-stream"],

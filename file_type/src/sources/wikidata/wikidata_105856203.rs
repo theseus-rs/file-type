@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856203: FileFormat = FileFormat {
     id: 105_856_203,
-    puid: "wikidata/105856203",
+    source_type: SourceType::Wikidata,
     name: "Device Firmare Upgrade format (v1)",
     extensions: &["dfu"],
     media_types: &["application/octet-stream"],

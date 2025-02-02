@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855258: FileFormat = FileFormat {
     id: 105_855_258,
-    puid: "wikidata/105855258",
+    source_type: SourceType::Wikidata,
     name: "PC Storyboard 1.0 Font",
     extensions: &["fac"],
     media_types: &["application/octet-stream"],

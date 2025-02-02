@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861414: FileFormat = FileFormat {
     id: 105_861_414,
-    puid: "wikidata/105861414",
+    source_type: SourceType::Wikidata,
     name: "Frogans Short-cut",
     extensions: &["ltf"],
     media_types: &[],

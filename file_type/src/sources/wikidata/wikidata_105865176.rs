@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865176: FileFormat = FileFormat {
     id: 105_865_176,
-    puid: "wikidata/105865176",
+    source_type: SourceType::Wikidata,
     name: "Back-It Preset (v4)",
     extensions: &["prs"],
     media_types: &["application/octet-stream"],

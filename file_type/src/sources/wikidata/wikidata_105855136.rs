@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855136: FileFormat = FileFormat {
     id: 105_855_136,
-    puid: "wikidata/105855136",
+    source_type: SourceType::Wikidata,
     name: "Navigon Fresh route data",
     extensions: &["freshroute"],
     media_types: &["text/xml"],

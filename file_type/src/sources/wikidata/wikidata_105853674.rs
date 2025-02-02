@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853674: FileFormat = FileFormat {
     id: 105_853_674,
-    puid: "wikidata/105853674",
+    source_type: SourceType::Wikidata,
     name: "Address Book CoreData Person",
     extensions: &["abcdp"],
     media_types: &["application/octet-stream"],

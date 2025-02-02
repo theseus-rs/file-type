@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852420: FileFormat = FileFormat {
     id: 105_852_420,
-    puid: "wikidata/105852420",
+    source_type: SourceType::Wikidata,
     name: "Spring Engine Zipped mod",
     extensions: &["sdz"],
     media_types: &["application/octet-stream"],

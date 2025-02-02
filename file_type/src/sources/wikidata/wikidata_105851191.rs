@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851191: FileFormat = FileFormat {
     id: 105_851_191,
-    puid: "wikidata/105851191",
+    source_type: SourceType::Wikidata,
     name: "StarOffice Gallery theme",
     extensions: &["thm"],
     media_types: &["application/x-stargallery-thm"],

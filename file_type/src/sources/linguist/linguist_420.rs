@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_420: FileFormat = FileFormat {
     id: 420,
-    puid: "linguist/420",
+    source_type: SourceType::Linguist,
     name: "wisp",
     extensions: &["wisp"],
     media_types: &["text/x-clojure"],

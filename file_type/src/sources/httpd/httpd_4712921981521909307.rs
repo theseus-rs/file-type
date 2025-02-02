@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_4712921981521909307: FileFormat = FileFormat {
-    id: 4_712_921_981_521_909_307,
-    puid: "httpd/4712921981521909307",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "xwindowdump",
     extensions: &["xwd"],
     media_types: &["image/x-xwindowdump"],

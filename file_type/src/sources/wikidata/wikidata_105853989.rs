@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853989: FileFormat = FileFormat {
     id: 105_853_989,
-    puid: "wikidata/105853989",
+    source_type: SourceType::Wikidata,
     name: "Squeeze It compressed archive",
     extensions: &["sqz"],
     media_types: &["application/octet-stream"],

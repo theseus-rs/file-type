@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_326: FileFormat = FileFormat {
     id: 326,
-    puid: "linguist/326",
+    source_type: SourceType::Linguist,
     name: "Ruby",
     extensions: &[
         "builder",

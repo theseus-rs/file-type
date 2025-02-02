@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854164: FileFormat = FileFormat {
     id: 105_854_164,
-    puid: "wikidata/105854164",
+    source_type: SourceType::Wikidata,
     name: "WeChat Audio message (SILK codec)",
     extensions: &["aud"],
     media_types: &["application/octet-stream"],

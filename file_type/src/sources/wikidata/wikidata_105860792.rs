@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860792: FileFormat = FileFormat {
     id: 105_860_792,
-    puid: "wikidata/105860792",
+    source_type: SourceType::Wikidata,
     name: "Family Origins Report (v5.x)",
     extensions: &["rpt"],
     media_types: &["application/octet-stream"],

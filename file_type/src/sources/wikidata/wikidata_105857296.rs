@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857296: FileFormat = FileFormat {
     id: 105_857_296,
-    puid: "wikidata/105857296",
+    source_type: SourceType::Wikidata,
     name: "Harry Potter And The Sorcerers Stone game data archive",
     extensions: &["hog"],
     media_types: &["application/octet-stream"],

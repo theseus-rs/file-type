@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_87066063: FileFormat = FileFormat {
     id: 87_066_063,
-    puid: "wikidata/87066063",
+    source_type: SourceType::Wikidata,
     name: "LEADTools Lead 1Bit Compressed Image",
     extensions: &["cmp"],
     media_types: &["application/octet-stream"],

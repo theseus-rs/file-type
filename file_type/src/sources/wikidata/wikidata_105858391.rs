@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858391: FileFormat = FileFormat {
     id: 105_858_391,
-    puid: "wikidata/105858391",
+    source_type: SourceType::Wikidata,
     name: "Eclipse 4 Application Model Info",
     extensions: &["e4xmi"],
     media_types: &["text/xml"],

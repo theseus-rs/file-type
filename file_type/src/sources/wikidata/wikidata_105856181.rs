@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856181: FileFormat = FileFormat {
     id: 105_856_181,
-    puid: "wikidata/105856181",
+    source_type: SourceType::Wikidata,
     name: "Delta RPM Package",
     extensions: &["drpm"],
     media_types: &[],

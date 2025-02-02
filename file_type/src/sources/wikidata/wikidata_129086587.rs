@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_129086587: FileFormat = FileFormat {
     id: 129_086_587,
-    puid: "wikidata/129086587",
+    source_type: SourceType::Wikidata,
     name: "Emacs Lisp file",
-    extensions: &["el", "el"],
+    extensions: &["el"],
     media_types: &["application/x-elisp", "text/x-elisp"],
     internal_signatures: &[],
     related_formats: &[],

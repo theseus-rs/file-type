@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853799: FileFormat = FileFormat {
     id: 105_853_799,
-    puid: "wikidata/105853799",
+    source_type: SourceType::Wikidata,
     name: "EPOC/Symbian OPL Application",
     extensions: &["app"],
     media_types: &["application/x-epoc-app"],

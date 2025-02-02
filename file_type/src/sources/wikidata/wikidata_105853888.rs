@@ -1,18 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853888: FileFormat = FileFormat {
     id: 105_853_888,
-    puid: "wikidata/105853888",
+    source_type: SourceType::Wikidata,
     name: "Covox ADPCM encoded audio",
     extensions: &["cvx", "v2s", "v3s", "v4s", "v8", "vmf"],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

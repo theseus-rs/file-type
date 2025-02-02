@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862739: FileFormat = FileFormat {
     id: 105_862_739,
-    puid: "wikidata/105862739",
+    source_type: SourceType::Wikidata,
     name: "Mod2PSG2 PSGMOD module (v5)",
     extensions: &["psgmod"],
     media_types: &["audio/x-mod"],

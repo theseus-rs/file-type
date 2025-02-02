@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855732: FileFormat = FileFormat {
     id: 105_855_732,
-    puid: "wikidata/105855732",
+    source_type: SourceType::Wikidata,
     name: "Deep Thought disk Image",
     extensions: &["dti"],
     media_types: &["application/octet-stream"],

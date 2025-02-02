@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855995: FileFormat = FileFormat {
     id: 105_855_995,
-    puid: "wikidata/105855995",
+    source_type: SourceType::Wikidata,
     name: "IN:TOUCH telephone directory",
     extensions: &["dlr"],
     media_types: &["application/octet-stream"],

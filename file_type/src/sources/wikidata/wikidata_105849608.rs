@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849608: FileFormat = FileFormat {
     id: 105_849_608,
-    puid: "wikidata/105849608",
+    source_type: SourceType::Wikidata,
     name: "Dos Navigator 2 settings",
     extensions: &["cfg"],
     media_types: &["application/octet-stream"],

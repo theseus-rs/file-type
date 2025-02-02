@@ -1,15 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_305976: FileFormat = FileFormat {
     id: 305_976,
-    puid: "wikidata/305976",
+    source_type: SourceType::Wikidata,
     name: "deb",
     extensions: &["deb", "ipk", "udeb"],
-    media_types: &[
-        "application/vnd.debian.binary-package",
-        "application/vnd.debian.binary-package",
-        "application/vnd.debian.binary-package",
-    ],
+    media_types: &["application/vnd.debian.binary-package"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

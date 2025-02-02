@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857402: FileFormat = FileFormat {
     id: 105_857_402,
-    puid: "wikidata/105857402",
+    source_type: SourceType::Wikidata,
     name: "Japan Crossword File (Dmitry Torshin format)",
     extensions: &["jcc"],
     media_types: &[],

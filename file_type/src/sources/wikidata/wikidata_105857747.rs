@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857747: FileFormat = FileFormat {
     id: 105_857_747,
-    puid: "wikidata/105857747",
+    source_type: SourceType::Wikidata,
     name: "EFI partition image",
     extensions: &["img"],
     media_types: &["application/octet-stream"],

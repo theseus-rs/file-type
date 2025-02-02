@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_1224812: FileFormat = FileFormat {
     id: 1_224_812,
-    puid: "wikidata/1224812",
+    source_type: SourceType::Wikidata,
     name: "Digital Speech Standard",
     extensions: &["ds2", "dss"],
     media_types: &[],

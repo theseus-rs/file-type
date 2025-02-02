@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_73794456: FileFormat = FileFormat {
     id: 73_794_456,
-    puid: "wikidata/73794456",
+    source_type: SourceType::Wikidata,
     name: "Delphi QuickReport",
     extensions: &["qr2"],
     media_types: &["application/octet-stream"],

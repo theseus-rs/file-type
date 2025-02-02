@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857693: FileFormat = FileFormat {
     id: 105_857_693,
-    puid: "wikidata/105857693",
+    source_type: SourceType::Wikidata,
     name: "MAME Input (Extended Header)",
     extensions: &["inp"],
     media_types: &["application/octet-stream"],

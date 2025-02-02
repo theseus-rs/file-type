@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861087: FileFormat = FileFormat {
     id: 105_861_087,
-    puid: "wikidata/105861087",
+    source_type: SourceType::Wikidata,
     name: "Quartus Library Mapping File",
     extensions: &["lmf"],
     media_types: &["text/plain"],

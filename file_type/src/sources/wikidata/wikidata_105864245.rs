@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864245: FileFormat = FileFormat {
     id: 105_864_245,
-    puid: "wikidata/105864245",
+    source_type: SourceType::Wikidata,
     name: "Palm Markup Language",
     extensions: &["pml"],
     media_types: &["text/plain"],

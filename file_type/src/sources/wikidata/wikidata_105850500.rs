@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850500: FileFormat = FileFormat {
     id: 105_850_500,
-    puid: "wikidata/105850500",
+    source_type: SourceType::Wikidata,
     name: "Snoop capture file",
     extensions: &["cap"],
     media_types: &[],

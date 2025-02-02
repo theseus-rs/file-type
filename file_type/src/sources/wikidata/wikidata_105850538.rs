@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850538: FileFormat = FileFormat {
     id: 105_850_538,
-    puid: "wikidata/105850538",
+    source_type: SourceType::Wikidata,
     name: "Hidden and Dangerous game data archive",
     extensions: &["cnt", "dta"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

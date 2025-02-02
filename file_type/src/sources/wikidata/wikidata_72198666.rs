@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_72198666: FileFormat = FileFormat {
     id: 72_198_666,
-    puid: "wikidata/72198666",
+    source_type: SourceType::Wikidata,
     name: "dBASE IV Label design file format",
     extensions: &["lbl"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858430: FileFormat = FileFormat {
     id: 105_858_430,
-    puid: "wikidata/105858430",
+    source_type: SourceType::Wikidata,
     name: "Ekahau Site Survey File",
     extensions: &["ess"],
     media_types: &[],

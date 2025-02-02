@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861152: FileFormat = FileFormat {
     id: 105_861_152,
-    puid: "wikidata/105861152",
+    source_type: SourceType::Wikidata,
     name: "Mythos Software LIB game data container",
     extensions: &["lib"],
     media_types: &["application/octet-stream"],

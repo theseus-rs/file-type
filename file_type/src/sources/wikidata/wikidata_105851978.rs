@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851978: FileFormat = FileFormat {
     id: 105_851_978,
-    puid: "wikidata/105851978",
+    source_type: SourceType::Wikidata,
     name: "Hadoop SequenceFile format",
     extensions: &["seq"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861030: FileFormat = FileFormat {
     id: 105_861_030,
-    puid: "wikidata/105861030",
+    source_type: SourceType::Wikidata,
     name: "Passolo Localization Project",
     extensions: &["lpu"],
     media_types: &[],

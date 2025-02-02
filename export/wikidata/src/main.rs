@@ -4,7 +4,9 @@
 #![deny(clippy::unwrap_used)]
 
 use anyhow::Result;
-use file_type::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Source};
+use file_type::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Source, SourceType,
+};
 use reqwest::Client;
 use serde_json::Value;
 use std::collections::HashMap;
@@ -117,7 +119,7 @@ async fn execute(dry_run: bool) -> Result<()> {
 }
 
 fn parse_json(json: &Value) -> Vec<FileFormat> {
-    let mut file_formats: HashMap<String, FileFormat> = HashMap::new();
+    let mut file_formats: HashMap<usize, FileFormat> = HashMap::new();
 
     let Some(bindings) = json
         .get("results")
@@ -140,13 +142,12 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
             .unwrap_or_default()
             .parse::<usize>()
             .unwrap_or_default();
-        let puid = format!("wikidata/{id}");
 
         let mut extensions = Vec::new();
         let mut media_types = Vec::new();
         let mut internal_signatures = Vec::new();
 
-        if let Some(file_format) = file_formats.get(&puid) {
+        if let Some(file_format) = file_formats.get(&id) {
             extensions = file_format.extensions.to_vec();
             media_types = file_format.media_types.to_vec();
             internal_signatures = file_format.internal_signatures.to_vec();
@@ -164,9 +165,11 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
             .and_then(|extension| extension.get("value"))
             .and_then(|extension| extension.as_str())
         {
-            let extension = Box::leak(extension.to_string().into_boxed_str());
-            extensions.push(extension);
-            extensions.sort_unstable();
+            if !extensions.contains(&extension) {
+                let extension = Box::leak(extension.to_string().into_boxed_str());
+                extensions.push(extension);
+                extensions.sort_unstable();
+            }
         };
 
         if let Some(media_type) = binding
@@ -174,9 +177,11 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
             .and_then(|media_type| media_type.get("value"))
             .and_then(|media_type| media_type.as_str())
         {
-            let media_type = Box::leak(media_type.to_string().into_boxed_str());
-            media_types.push(media_type);
-            media_types.sort_unstable();
+            if !media_types.contains(&media_type) {
+                let media_type = Box::leak(media_type.to_string().into_boxed_str());
+                media_types.push(media_type);
+                media_types.sort_unstable();
+            }
         }
 
         if let Some(file_signature) = binding
@@ -205,14 +210,14 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
 
         let file_format = FileFormat {
             id,
-            puid: Box::leak(puid.to_string().into_boxed_str()),
+            source_type: SourceType::Wikidata,
             name,
             extensions: Box::leak(extensions.into_boxed_slice()),
             media_types: Box::leak(media_types.into_boxed_slice()),
             internal_signatures: Box::leak(internal_signatures.into_boxed_slice()),
             related_formats: &[],
         };
-        file_formats.insert(puid, file_format);
+        file_formats.insert(id, file_format);
     }
 
     let file_formats: Vec<FileFormat> = file_formats.values().cloned().collect();
@@ -227,13 +232,13 @@ async fn generate_source_code(
     // Generate the module file
     let mut source_code = vec!["use crate::format::FileFormat;".to_string(), String::new()];
     for file_format in file_formats {
-        let name = file_format.puid.replace('/', "_");
+        let name = format!("wikidata_{}", file_format.id);
         source_code.push(format!("mod {name};"));
     }
     source_code.push(String::new());
     source_code.push("pub(crate) const FILE_FORMATS: &[&FileFormat] = &[".to_string());
     for file_format in file_formats {
-        let name = file_format.puid.replace('/', "_");
+        let name = format!("wikidata_{}", file_format.id);
         source_code.push(format!("    &{}::{},", name, name.to_uppercase()));
     }
     source_code.push("];".to_string());
@@ -251,10 +256,10 @@ async fn generate_source_code(
 
     // Generate source files for each file format
     for file_format in file_formats {
-        let name = file_format.puid.replace('/', "_");
+        let name = format!("wikidata_{}", file_format.id);
         let source_code = [
             "use crate::format::{".to_string(),
-            "    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token"
+            "    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token"
                 .to_string(),
             "};".to_string(),
             String::new(),

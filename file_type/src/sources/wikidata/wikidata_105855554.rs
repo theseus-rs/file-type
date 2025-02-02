@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855554: FileFormat = FileFormat {
     id: 105_855_554,
-    puid: "wikidata/105855554",
+    source_type: SourceType::Wikidata,
     name: "OpenCTM 3D mesh",
     extensions: &["ctm"],
     media_types: &["application/x-ctm"],

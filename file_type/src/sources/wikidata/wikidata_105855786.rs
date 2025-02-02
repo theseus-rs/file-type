@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855786: FileFormat = FileFormat {
     id: 105_855_786,
-    puid: "wikidata/105855786",
+    source_type: SourceType::Wikidata,
     name: "Deep Paint 2D image",
     extensions: &["dp2"],
     media_types: &["application/octet-stream"],

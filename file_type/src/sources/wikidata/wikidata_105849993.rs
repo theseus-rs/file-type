@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849993: FileFormat = FileFormat {
     id: 105_849_993,
-    puid: "wikidata/105849993",
+    source_type: SourceType::Wikidata,
     name: "CONTEC Logger Binary data",
     extensions: &["clb"],
     media_types: &["application/octet-stream"],

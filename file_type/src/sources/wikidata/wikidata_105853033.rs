@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853033: FileFormat = FileFormat {
     id: 105_853_033,
-    puid: "wikidata/105853033",
+    source_type: SourceType::Wikidata,
     name: "Terragen Surface Map",
     extensions: &["srf"],
     media_types: &[],

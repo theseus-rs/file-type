@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_333: FileFormat = FileFormat {
     id: 333,
-    puid: "linguist/333",
+    source_type: SourceType::Linguist,
     name: "SQL",
     extensions: &[
         "cql", "ddl", "inc", "mysql", "prc", "sql", "tab", "udf", "viw",

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857913: FileFormat = FileFormat {
     id: 105_857_913,
-    puid: "wikidata/105857913",
+    source_type: SourceType::Wikidata,
     name: "Irrlicht 3D scene",
     extensions: &["irr"],
     media_types: &[],

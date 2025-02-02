@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852910: FileFormat = FileFormat {
     id: 105_852_910,
-    puid: "wikidata/105852910",
+    source_type: SourceType::Wikidata,
     name: "ScreenSwift Screen Saver Project",
     extensions: &["ssp"],
     media_types: &[],

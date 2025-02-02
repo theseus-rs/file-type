@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858080: FileFormat = FileFormat {
     id: 105_858_080,
-    puid: "wikidata/105858080",
+    source_type: SourceType::Wikidata,
     name: "Apple II ProDOS Order disk image",
     extensions: &["po"],
     media_types: &["application/octet-stream"],

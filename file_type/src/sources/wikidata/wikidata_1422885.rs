@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_1422885: FileFormat = FileFormat {
     id: 1_422_885,
-    puid: "wikidata/1422885",
+    source_type: SourceType::Wikidata,
     name: "MrSID",
-    extensions: &["sid", "sid", "sid"],
+    extensions: &["sid"],
     media_types: &["image/x-mrsid", "image/x-mrsid-image", "image/x.mrsid"],
     internal_signatures: &[
         InternalSignature {

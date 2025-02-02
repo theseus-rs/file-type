@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850961: FileFormat = FileFormat {
     id: 105_850_961,
-    puid: "wikidata/105850961",
+    source_type: SourceType::Wikidata,
     name: "MSX Tape image",
     extensions: &["tsx"],
     media_types: &["application/octet-stream"],

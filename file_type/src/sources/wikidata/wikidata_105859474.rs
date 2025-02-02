@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859474: FileFormat = FileFormat {
     id: 105_859_474,
-    puid: "wikidata/105859474",
+    source_type: SourceType::Wikidata,
     name: "QWK offline mail packet (ZIP compressed)",
     extensions: &["qwk"],
     media_types: &[],

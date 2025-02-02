@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_18162782278582436098: FileFormat = FileFormat {
-    id: 18_162_782_278_582_436_098,
-    puid: "httpd/18162782278582436098",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "picsel",
     extensions: &["efif"],
     media_types: &["application/vnd.picsel"],

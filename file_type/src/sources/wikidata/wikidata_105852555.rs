@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852555: FileFormat = FileFormat {
     id: 105_852_555,
-    puid: "wikidata/105852555",
+    source_type: SourceType::Wikidata,
     name: "Spazio3D drawing",
     extensions: &["s3d"],
     media_types: &[],

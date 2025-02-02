@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850652: FileFormat = FileFormat {
     id: 105_850_652,
-    puid: "wikidata/105850652",
+    source_type: SourceType::Wikidata,
     name: "Gnome Keyring Store",
     extensions: &["keystore"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_110015870: FileFormat = FileFormat {
     id: 110_015_870,
-    puid: "wikidata/110015870",
+    source_type: SourceType::Wikidata,
     name: "InstallShield Executable",
     extensions: &["ex_"],
     media_types: &[],

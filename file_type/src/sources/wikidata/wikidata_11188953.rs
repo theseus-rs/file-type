@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_11188953: FileFormat = FileFormat {
     id: 11_188_953,
-    puid: "wikidata/11188953",
+    source_type: SourceType::Wikidata,
     name: "Astrotite",
     extensions: &["afa"],
     media_types: &["application/x-astrotite-afa"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866020: FileFormat = FileFormat {
     id: 105_866_020,
-    puid: "wikidata/105866020",
+    source_type: SourceType::Wikidata,
     name: "Playstation Portable Texture",
     extensions: &["ppt"],
     media_types: &[],

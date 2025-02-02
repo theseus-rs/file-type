@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856618: FileFormat = FileFormat {
     id: 105_856_618,
-    puid: "wikidata/105856618",
+    source_type: SourceType::Wikidata,
     name: "Fugawi 3 waypoint format",
     extensions: &["wpt"],
     media_types: &[],

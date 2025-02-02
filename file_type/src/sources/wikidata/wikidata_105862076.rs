@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862076: FileFormat = FileFormat {
     id: 105_862_076,
-    puid: "wikidata/105862076",
+    source_type: SourceType::Wikidata,
     name: "mzTab format (with comment)",
     extensions: &["mztab"],
     media_types: &["text/plain"],

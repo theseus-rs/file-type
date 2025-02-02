@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856101: FileFormat = FileFormat {
     id: 105_856_101,
-    puid: "wikidata/105856101",
+    source_type: SourceType::Wikidata,
     name: "Dockerfile",
-    extensions: &["dockerfile", "dockerfile"],
+    extensions: &["dockerfile"],
     media_types: &["text/x-dockerfile", "text/x-dockerfile-config"],
     internal_signatures: &[
         InternalSignature {

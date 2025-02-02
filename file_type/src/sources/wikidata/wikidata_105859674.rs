@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859674: FileFormat = FileFormat {
     id: 105_859_674,
-    puid: "wikidata/105859674",
+    source_type: SourceType::Wikidata,
     name: "Smacker movie/video (newer)",
     extensions: &["smk"],
     media_types: &["video/vnd.radgamettools.smacker"],

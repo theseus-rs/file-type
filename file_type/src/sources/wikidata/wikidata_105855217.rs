@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855217: FileFormat = FileFormat {
     id: 105_855_217,
-    puid: "wikidata/105855217",
+    source_type: SourceType::Wikidata,
     name: "Fxpansion Uninstall Script",
     extensions: &["fus"],
     media_types: &[],

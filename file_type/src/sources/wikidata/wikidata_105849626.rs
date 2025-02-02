@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849626: FileFormat = FileFormat {
     id: 105_849_626,
-    puid: "wikidata/105849626",
+    source_type: SourceType::Wikidata,
     name: "Super Angelo Configuration",
     extensions: &["cfg"],
     media_types: &["application/octet-stream"],

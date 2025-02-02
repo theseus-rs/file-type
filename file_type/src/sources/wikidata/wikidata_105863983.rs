@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863983: FileFormat = FileFormat {
     id: 105_863_983,
-    puid: "wikidata/105863983",
+    source_type: SourceType::Wikidata,
     name: "Mastercam 9 geometry",
     extensions: &["mc9"],
     media_types: &[],

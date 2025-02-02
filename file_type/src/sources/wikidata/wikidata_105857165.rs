@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857165: FileFormat = FileFormat {
     id: 105_857_165,
-    puid: "wikidata/105857165",
+    source_type: SourceType::Wikidata,
     name: "HarmonyCSV format",
     extensions: &["csv"],
     media_types: &["text/csv"],

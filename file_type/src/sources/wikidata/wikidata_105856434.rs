@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856434: FileFormat = FileFormat {
     id: 105_856_434,
-    puid: "wikidata/105856434",
+    source_type: SourceType::Wikidata,
     name: "WOW Slider settings",
     extensions: &["wowsl"],
     media_types: &[],

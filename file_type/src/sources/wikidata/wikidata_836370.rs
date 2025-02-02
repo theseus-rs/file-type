@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_836370: FileFormat = FileFormat {
     id: 836_370,
-    puid: "wikidata/836370",
+    source_type: SourceType::Wikidata,
     name: "OPML",
-    extensions: &["opml", "opml", "opml", "opml"],
+    extensions: &["opml"],
     media_types: &[
         "application/xml",
         "text/x-opml",

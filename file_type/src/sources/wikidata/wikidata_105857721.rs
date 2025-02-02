@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857721: FileFormat = FileFormat {
     id: 105_857_721,
-    puid: "wikidata/105857721",
+    source_type: SourceType::Wikidata,
     name: "OpenIOC Indicator Of Compromise",
     extensions: &["ioc"],
     media_types: &["text/xml"],

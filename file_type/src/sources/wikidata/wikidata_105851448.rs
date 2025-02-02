@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851448: FileFormat = FileFormat {
     id: 105_851_448,
-    puid: "wikidata/105851448",
+    source_type: SourceType::Wikidata,
     name: "Jane's Longbow 2 game data archive",
     extensions: &["tre"],
     media_types: &["application/octet-stream"],

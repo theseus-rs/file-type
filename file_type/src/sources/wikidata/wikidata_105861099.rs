@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861099: FileFormat = FileFormat {
     id: 105_861_099,
-    puid: "wikidata/105861099",
+    source_type: SourceType::Wikidata,
     name: "LabVIEW binary Datalog",
     extensions: &["dat", "log"],
     media_types: &[],

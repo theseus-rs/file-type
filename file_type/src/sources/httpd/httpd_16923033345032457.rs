@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16923033345032457: FileFormat = FileFormat {
-    id: 16_923_033_345_032_457,
-    puid: "httpd/16923033345032457",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "symbian install",
     extensions: &["sis", "sisx"],
     media_types: &["application/vnd.symbian.install"],

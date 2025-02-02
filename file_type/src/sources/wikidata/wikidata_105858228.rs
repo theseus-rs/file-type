@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858228: FileFormat = FileFormat {
     id: 105_858_228,
-    puid: "wikidata/105858228",
+    source_type: SourceType::Wikidata,
     name: "EverNote database",
     extensions: &["enb"],
     media_types: &[],

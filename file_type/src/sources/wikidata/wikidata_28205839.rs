@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205839: FileFormat = FileFormat {
     id: 28_205_839,
-    puid: "wikidata/28205839",
+    source_type: SourceType::Wikidata,
     name: "CMU Window Manager bitmap",
     extensions: &["cmu"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855006: FileFormat = FileFormat {
     id: 105_855_006,
-    puid: "wikidata/105855006",
+    source_type: SourceType::Wikidata,
     name: "Proline Voice Data",
     extensions: &["pvd"],
     media_types: &["application/octet-stream"],

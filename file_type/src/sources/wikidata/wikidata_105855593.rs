@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855593: FileFormat = FileFormat {
     id: 105_855_593,
-    puid: "wikidata/105855593",
+    source_type: SourceType::Wikidata,
     name: "Orbiter mesh",
     extensions: &["msh"],
     media_types: &[],

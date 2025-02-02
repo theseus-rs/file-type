@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_9081880592162353802: FileFormat = FileFormat {
-    id: 9_081_880_592_162_353_802,
-    puid: "httpd/9081880592162353802",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "kde kformula",
     extensions: &["kfo"],
     media_types: &["application/vnd.kde.kformula"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_72960664: FileFormat = FileFormat {
     id: 72_960_664,
-    puid: "wikidata/72960664",
+    source_type: SourceType::Wikidata,
     name: "Microsoft PowerPoint Picture Storage",
     extensions: &["pcs"],
     media_types: &["application/octet-stream"],

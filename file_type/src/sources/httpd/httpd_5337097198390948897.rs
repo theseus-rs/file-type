@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5337097198390948897: FileFormat = FileFormat {
-    id: 5_337_097_198_390_948_897,
-    puid: "httpd/5337097198390948897",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "gif",
     extensions: &["gif"],
     media_types: &["image/gif"],

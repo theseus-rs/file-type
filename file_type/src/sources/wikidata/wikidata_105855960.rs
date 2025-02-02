@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855960: FileFormat = FileFormat {
     id: 105_855_960,
-    puid: "wikidata/105855960",
+    source_type: SourceType::Wikidata,
     name: "Studio Printer Dither method",
     extensions: &["dit"],
     media_types: &["application/octet-stream"],

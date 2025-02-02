@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967403: FileFormat = FileFormat {
     id: 27_967_403,
-    puid: "wikidata/27967403",
+    source_type: SourceType::Wikidata,
     name: "CUD-FM-File",
     extensions: &["cff"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5789844385051418491: FileFormat = FileFormat {
-    id: 5_789_844_385_051_418_491,
-    puid: "httpd/5789844385051418491",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "rsd xml",
     extensions: &["rsd"],
     media_types: &["application/rsd+xml"],

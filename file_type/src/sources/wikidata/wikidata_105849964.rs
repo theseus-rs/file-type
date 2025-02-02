@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849964: FileFormat = FileFormat {
     id: 105_849_964,
-    puid: "wikidata/105849964",
+    source_type: SourceType::Wikidata,
     name: "PowerDesigner Conceptual Model",
     extensions: &["cdm"],
     media_types: &[],

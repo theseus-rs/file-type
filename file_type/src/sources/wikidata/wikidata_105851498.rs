@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851498: FileFormat = FileFormat {
     id: 105_851_498,
-    puid: "wikidata/105851498",
+    source_type: SourceType::Wikidata,
     name: "Spybot Search'n'Destroy process data",
     extensions: &["tnfo"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864402: FileFormat = FileFormat {
     id: 105_864_402,
-    puid: "wikidata/105864402",
+    source_type: SourceType::Wikidata,
     name: "Pixelformer Colors",
     extensions: &["pfcolors"],
     media_types: &["text/plain"],

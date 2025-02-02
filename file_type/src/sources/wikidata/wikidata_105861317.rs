@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861317: FileFormat = FileFormat {
     id: 105_861_317,
-    puid: "wikidata/105861317",
+    source_type: SourceType::Wikidata,
     name: "Cinema 4D Preset Library",
     extensions: &["lib4d"],
     media_types: &[],

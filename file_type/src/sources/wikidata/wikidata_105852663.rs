@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852663: FileFormat = FileFormat {
     id: 105_852_663,
-    puid: "wikidata/105852663",
+    source_type: SourceType::Wikidata,
     name: "KiCad Schematics",
     extensions: &["sch"],
     media_types: &["application/x-kicad-schematic"],

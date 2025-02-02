@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859936: FileFormat = FileFormat {
     id: 105_859_936,
-    puid: "wikidata/105859936",
+    source_type: SourceType::Wikidata,
     name: "Electronic Arts ASF video (generic)",
     extensions: &["asf", "str"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

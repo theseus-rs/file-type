@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859245: FileFormat = FileFormat {
     id: 105_859_245,
-    puid: "wikidata/105859245",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Chat Background Graphic",
     extensions: &["bgb"],
     media_types: &["application/octet-stream"],

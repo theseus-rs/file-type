@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852282: FileFormat = FileFormat {
     id: 105_852_282,
-    puid: "wikidata/105852282",
+    source_type: SourceType::Wikidata,
     name: "SUNTronic module",
     extensions: &["sun"],
     media_types: &["audio/x-mod"],

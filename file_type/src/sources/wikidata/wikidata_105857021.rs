@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857021: FileFormat = FileFormat {
     id: 105_857_021,
-    puid: "wikidata/105857021",
+    source_type: SourceType::Wikidata,
     name: "MegaZeux General Digital Music",
     extensions: &["gdm"],
     media_types: &["application/octet-stream"],

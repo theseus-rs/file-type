@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_924868392: FileFormat = FileFormat {
     id: 924_868_392,
-    puid: "linguist/924868392",
+    source_type: SourceType::Linguist,
     name: "OMNeT++ NED",
     extensions: &["ned"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860129: FileFormat = FileFormat {
     id: 105_860_129,
-    puid: "wikidata/105860129",
+    source_type: SourceType::Wikidata,
     name: "Crystal Reports output file (Report)",
     extensions: &["rpt"],
     media_types: &["application/octet-stream"],

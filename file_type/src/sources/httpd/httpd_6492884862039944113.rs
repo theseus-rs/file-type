@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6492884862039944113: FileFormat = FileFormat {
-    id: 6_492_884_862_039_944_113,
-    puid: "httpd/6492884862039944113",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "oxps",
     extensions: &["oxps"],
     media_types: &["application/oxps"],

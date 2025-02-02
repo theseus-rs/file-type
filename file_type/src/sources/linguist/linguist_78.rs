@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_78: FileFormat = FileFormat {
     id: 78,
-    puid: "linguist/78",
+    source_type: SourceType::Linguist,
     name: "Cycript",
     extensions: &["cy"],
     media_types: &["text/javascript"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851819: FileFormat = FileFormat {
     id: 105_851_819,
-    puid: "wikidata/105851819",
+    source_type: SourceType::Wikidata,
     name: "Atari Works Wordprocessor document",
     extensions: &["stw"],
     media_types: &["application/octet-stream"],

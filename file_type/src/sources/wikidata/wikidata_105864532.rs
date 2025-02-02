@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864532: FileFormat = FileFormat {
     id: 105_864_532,
-    puid: "wikidata/105864532",
+    source_type: SourceType::Wikidata,
     name: "Brown Bag Word Processor Printer control ruler",
     extensions: &["prt"],
     media_types: &["text/plain"],

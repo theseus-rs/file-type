@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3181405020922865967: FileFormat = FileFormat {
-    id: 3_181_405_020_922_865_967,
-    puid: "httpd/3181405020922865967",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "rip",
     extensions: &["rip"],
     media_types: &["audio/vnd.rip"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850233: FileFormat = FileFormat {
     id: 105_850_233,
-    puid: "wikidata/105850233",
+    source_type: SourceType::Wikidata,
     name: "The Virtual ColecoVision Save Game",
     extensions: &["csg"],
     media_types: &["application/octet-stream"],

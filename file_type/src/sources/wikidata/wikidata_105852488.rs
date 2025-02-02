@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852488: FileFormat = FileFormat {
     id: 105_852_488,
-    puid: "wikidata/105852488",
+    source_type: SourceType::Wikidata,
     name: "Shadowgrounds 3D model",
     extensions: &["s3d"],
     media_types: &["application/octet-stream"],

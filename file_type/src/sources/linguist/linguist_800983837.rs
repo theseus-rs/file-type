@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_800983837: FileFormat = FileFormat {
     id: 800_983_837,
-    puid: "linguist/800983837",
+    source_type: SourceType::Linguist,
     name: "Microsoft Developer Studio Project",
     extensions: &["dsp"],
     media_types: &[],

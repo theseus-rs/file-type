@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858594: FileFormat = FileFormat {
     id: 105_858_594,
-    puid: "wikidata/105858594",
+    source_type: SourceType::Wikidata,
     name: "Casio QV digital CAMera bitmap",
     extensions: &["cam"],
     media_types: &[],

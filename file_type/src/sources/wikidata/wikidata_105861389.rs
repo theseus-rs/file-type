@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861389: FileFormat = FileFormat {
     id: 105_861_389,
-    puid: "wikidata/105861389",
+    source_type: SourceType::Wikidata,
     name: "Lua 4.0 bytecode",
     extensions: &["out"],
     media_types: &["application/octet-stream"],

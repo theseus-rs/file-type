@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_122730741: FileFormat = FileFormat {
     id: 122_730_741,
-    puid: "wikidata/122730741",
+    source_type: SourceType::Wikidata,
     name: "Lazer View file",
     extensions: &["lv"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_47524785: FileFormat = FileFormat {
     id: 47_524_785,
-    puid: "wikidata/47524785",
+    source_type: SourceType::Wikidata,
     name: "Vectorworks file format",
     extensions: &["vwx"],
     media_types: &["application/vnd.vectorworks"],

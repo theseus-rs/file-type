@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_1069211: FileFormat = FileFormat {
     id: 1_069_211,
-    puid: "wikidata/1069211",
+    source_type: SourceType::Wikidata,
     name: "Chemical Markup Language",
     extensions: &["cml"],
     media_types: &["chemical/x-cml"],

@@ -1,15 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857298: FileFormat = FileFormat {
     id: 105_857_298,
-    puid: "wikidata/105857298",
+    source_type: SourceType::Wikidata,
     name: "HP Printer Command Language (PCL6)",
     extensions: &["prn", "px3", "pxl"],
-    media_types: &[
-        "application/vnd.hp-PCL",
-        "application/vnd.hp-PCL",
-        "application/vnd.hp-PCL",
-    ],
+    media_types: &["application/vnd.hp-PCL"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206412: FileFormat = FileFormat {
     id: 28_206_412,
-    puid: "wikidata/28206412",
+    source_type: SourceType::Wikidata,
     name: "Jovian Logic VI",
     extensions: &["vi"],
     media_types: &["application/octet-stream"],

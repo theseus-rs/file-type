@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_10287816: FileFormat = FileFormat {
     id: 10_287_816,
-    puid: "wikidata/10287816",
+    source_type: SourceType::Wikidata,
     name: "GZIP",
     extensions: &["gz", "gzip"],
-    media_types: &["application/gzip", "application/gzip"],
+    media_types: &["application/gzip"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

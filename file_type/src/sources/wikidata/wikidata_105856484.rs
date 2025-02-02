@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856484: FileFormat = FileFormat {
     id: 105_856_484,
-    puid: "wikidata/105856484",
+    source_type: SourceType::Wikidata,
     name: "Sharp Wizard schedule",
     extensions: &["wzd"],
     media_types: &[],

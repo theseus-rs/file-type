@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858533: FileFormat = FileFormat {
     id: 105_858_533,
-    puid: "wikidata/105858533",
+    source_type: SourceType::Wikidata,
     name: "BrickStore XML data",
     extensions: &["bsx"],
     media_types: &["text/xml"],

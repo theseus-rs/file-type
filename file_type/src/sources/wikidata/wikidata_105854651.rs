@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854651: FileFormat = FileFormat {
     id: 105_854_651,
-    puid: "wikidata/105854651",
+    source_type: SourceType::Wikidata,
     name: "Atlantis Word Processor SpellCheck settings",
     extensions: &["asc"],
     media_types: &["application/octet-stream"],

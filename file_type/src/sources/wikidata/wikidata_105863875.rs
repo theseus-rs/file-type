@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863875: FileFormat = FileFormat {
     id: 105_863_875,
-    puid: "wikidata/105863875",
+    source_type: SourceType::Wikidata,
     name: "VirtualBus Map",
     extensions: &["ms1"],
     media_types: &["text/plain"],

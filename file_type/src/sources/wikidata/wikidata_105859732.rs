@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859732: FileFormat = FileFormat {
     id: 105_859_732,
-    puid: "wikidata/105859732",
+    source_type: SourceType::Wikidata,
     name: "Doctor V64 ROM dump",
     extensions: &["v64"],
     media_types: &["application/octet-stream"],

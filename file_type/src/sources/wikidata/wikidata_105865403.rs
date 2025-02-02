@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865403: FileFormat = FileFormat {
     id: 105_865_403,
-    puid: "wikidata/105865403",
+    source_type: SourceType::Wikidata,
     name: "King Of Fighters XIII game data archive",
     extensions: &["pcs"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852886: FileFormat = FileFormat {
     id: 105_852_886,
-    puid: "wikidata/105852886",
+    source_type: SourceType::Wikidata,
     name: "Simulink Cache",
     extensions: &["slxc"],
     media_types: &["application/octet-stream"],

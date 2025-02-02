@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_922036987764473708: FileFormat = FileFormat {
-    id: 922_036_987_764_473_708,
-    puid: "httpd/922036987764473708",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "google earth kml xml",
     extensions: &["kml"],
     media_types: &["application/vnd.google-earth.kml+xml"],

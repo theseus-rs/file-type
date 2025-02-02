@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967194: FileFormat = FileFormat {
     id: 27_967_194,
-    puid: "wikidata/27967194",
+    source_type: SourceType::Wikidata,
     name: "Imago Orpheus module",
     extensions: &["imf"],
     media_types: &["audio/x-mod"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_289: FileFormat = FileFormat {
     id: 289,
-    puid: "linguist/289",
+    source_type: SourceType::Linguist,
     name: "PogoScript",
     extensions: &["pogo"],
     media_types: &[],

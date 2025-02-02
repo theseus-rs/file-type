@@ -1,16 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851875: FileFormat = FileFormat {
     id: 105_851_875,
-    puid: "wikidata/105851875",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Word for DOS Style sheet",
-    extensions: &["stx", "stx", "sty", "sty"],
-    media_types: &[
-        "application/msword",
-        "application/msword",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    extensions: &["stx", "sty"],
+    media_types: &["application/msword", "application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

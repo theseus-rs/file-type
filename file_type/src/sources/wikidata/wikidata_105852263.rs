@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852263: FileFormat = FileFormat {
     id: 105_852_263,
-    puid: "wikidata/105852263",
+    source_type: SourceType::Wikidata,
     name: "SuperREP compressed data",
     extensions: &["srep"],
     media_types: &[],

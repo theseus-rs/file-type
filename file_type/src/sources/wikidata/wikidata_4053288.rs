@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_4053288: FileFormat = FileFormat {
     id: 4_053_288,
-    puid: "wikidata/4053288",
+    source_type: SourceType::Wikidata,
     name: "XAML Browser Applications",
     extensions: &["xbap"],
     media_types: &["application/x-ms-xbap"],

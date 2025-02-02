@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856454: FileFormat = FileFormat {
     id: 105_856_454,
-    puid: "wikidata/105856454",
+    source_type: SourceType::Wikidata,
     name: "WinHex backup",
     extensions: &["whx"],
     media_types: &["application/octet-stream"],

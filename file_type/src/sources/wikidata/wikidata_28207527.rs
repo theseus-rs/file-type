@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28207527: FileFormat = FileFormat {
     id: 28_207_527,
-    puid: "wikidata/28207527",
+    source_type: SourceType::Wikidata,
     name: "Wavelet Scalar Quantization",
     extensions: &["wsq"],
     media_types: &["application/octet-stream"],

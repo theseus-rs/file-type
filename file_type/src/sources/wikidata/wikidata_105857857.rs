@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857857: FileFormat = FileFormat {
     id: 105_857_857,
-    puid: "wikidata/105857857",
+    source_type: SourceType::Wikidata,
     name: "INDENICA Variability Modelling Language",
     extensions: &["ivml"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857479: FileFormat = FileFormat {
     id: 105_857_479,
-    puid: "wikidata/105857479",
+    source_type: SourceType::Wikidata,
     name: "GeoWorks data (generic)",
     extensions: &["000"],
     media_types: &["application/octet-stream"],

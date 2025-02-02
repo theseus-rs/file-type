@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855937: FileFormat = FileFormat {
     id: 105_855_937,
-    puid: "wikidata/105855937",
+    source_type: SourceType::Wikidata,
     name: "Dave 2 Huffman compressed game data",
     extensions: &["dd2"],
     media_types: &["application/octet-stream"],

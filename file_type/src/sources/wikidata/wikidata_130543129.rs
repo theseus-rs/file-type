@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_130543129: FileFormat = FileFormat {
     id: 130_543_129,
-    puid: "wikidata/130543129",
+    source_type: SourceType::Wikidata,
     name: "Puppet configuration file format",
     extensions: &["pp"],
     media_types: &[],

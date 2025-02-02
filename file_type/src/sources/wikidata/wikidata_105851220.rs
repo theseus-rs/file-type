@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851220: FileFormat = FileFormat {
     id: 105_851_220,
-    puid: "wikidata/105851220",
+    source_type: SourceType::Wikidata,
     name: "TuneUp Styler Icon pack",
     extensions: &["tip"],
     media_types: &[],

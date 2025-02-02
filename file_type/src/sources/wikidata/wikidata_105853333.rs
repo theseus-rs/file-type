@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853333: FileFormat = FileFormat {
     id: 105_853_333,
-    puid: "wikidata/105853333",
+    source_type: SourceType::Wikidata,
     name: "Vim swap",
     extensions: &["swp"],
     media_types: &["application/octet-stream"],

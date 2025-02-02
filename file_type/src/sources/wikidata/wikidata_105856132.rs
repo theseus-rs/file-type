@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856132: FileFormat = FileFormat {
     id: 105_856_132,
-    puid: "wikidata/105856132",
+    source_type: SourceType::Wikidata,
     name: "Touhou Danmakufu script",
     extensions: &["dnh"],
     media_types: &[],

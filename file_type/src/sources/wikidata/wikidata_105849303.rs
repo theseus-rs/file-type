@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849303: FileFormat = FileFormat {
     id: 105_849_303,
-    puid: "wikidata/105849303",
+    source_type: SourceType::Wikidata,
     name: "Yahoo! Widget",
     extensions: &["widget"],
     media_types: &[],

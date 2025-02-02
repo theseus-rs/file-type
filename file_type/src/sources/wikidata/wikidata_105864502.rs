@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864502: FileFormat = FileFormat {
     id: 105_864_502,
-    puid: "wikidata/105864502",
+    source_type: SourceType::Wikidata,
     name: "Portable Heap Dump dump",
     extensions: &["phd"],
     media_types: &[],

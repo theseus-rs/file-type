@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862922: FileFormat = FileFormat {
     id: 105_862_922,
-    puid: "wikidata/105862922",
+    source_type: SourceType::Wikidata,
     name: "Paragon 5 Gameboy Tracker module",
     extensions: &["mgb"],
     media_types: &["application/octet-stream"],

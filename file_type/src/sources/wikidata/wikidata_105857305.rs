@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857305: FileFormat = FileFormat {
     id: 105_857_305,
-    puid: "wikidata/105857305",
+    source_type: SourceType::Wikidata,
     name: "Double Commander directory favorites",
     extensions: &["hotlist"],
     media_types: &["text/xml"],

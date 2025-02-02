@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_125914662: FileFormat = FileFormat {
     id: 125_914_662,
-    puid: "wikidata/125914662",
+    source_type: SourceType::Wikidata,
     name: "Sandboxels Save File",
     extensions: &["sbxl"],
     media_types: &[],

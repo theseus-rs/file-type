@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851320: FileFormat = FileFormat {
     id: 105_851_320,
-    puid: "wikidata/105851320",
+    source_type: SourceType::Wikidata,
     name: "Pokemon Online team",
     extensions: &["tp"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857260: FileFormat = FileFormat {
     id: 105_857_260,
-    puid: "wikidata/105857260",
+    source_type: SourceType::Wikidata,
     name: "HP Raster Transfer Language",
     extensions: &["rtl"],
     media_types: &[],

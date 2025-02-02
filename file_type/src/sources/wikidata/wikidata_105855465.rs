@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855465: FileFormat = FileFormat {
     id: 105_855_465,
-    puid: "wikidata/105855465",
+    source_type: SourceType::Wikidata,
     name: "Fusion 360 3D Design",
     extensions: &["f3d"],
     media_types: &["application/octet-stream"],

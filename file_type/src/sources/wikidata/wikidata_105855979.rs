@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855979: FileFormat = FileFormat {
     id: 105_855_979,
-    puid: "wikidata/105855979",
+    source_type: SourceType::Wikidata,
     name: "DesktopX Object Package",
     extensions: &["dxpack"],
     media_types: &[],

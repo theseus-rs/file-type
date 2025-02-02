@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_66663030: FileFormat = FileFormat {
     id: 66_663_030,
-    puid: "wikidata/66663030",
+    source_type: SourceType::Wikidata,
     name: "Lotus Freelance Clip Art",
     extensions: &["sym"],
     media_types: &[],

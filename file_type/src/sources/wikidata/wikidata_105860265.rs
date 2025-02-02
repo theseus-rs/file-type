@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860265: FileFormat = FileFormat {
     id: 105_860_265,
-    puid: "wikidata/105860265",
+    source_type: SourceType::Wikidata,
     name: "RemoteKeys profile",
     extensions: &["rkp"],
     media_types: &[],

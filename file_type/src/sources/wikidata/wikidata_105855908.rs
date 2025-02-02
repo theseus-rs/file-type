@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855908: FileFormat = FileFormat {
     id: 105_855_908,
-    puid: "wikidata/105855908",
+    source_type: SourceType::Wikidata,
     name: "Ovation Pro document",
     extensions: &["dpd"],
     media_types: &[],

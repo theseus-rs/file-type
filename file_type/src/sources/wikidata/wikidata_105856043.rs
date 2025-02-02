@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856043: FileFormat = FileFormat {
     id: 105_856_043,
-    puid: "wikidata/105856043",
+    source_type: SourceType::Wikidata,
     name: "Logiqx XML Format",
     extensions: &["dat"],
     media_types: &["text/xml"],

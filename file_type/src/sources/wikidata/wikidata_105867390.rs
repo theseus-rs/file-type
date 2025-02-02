@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867390: FileFormat = FileFormat {
     id: 105_867_390,
-    puid: "wikidata/105867390",
+    source_type: SourceType::Wikidata,
     name: "Native Instruments Guitar Rig 5 preset",
     extensions: &["ngrr"],
     media_types: &["application/octet-stream"],

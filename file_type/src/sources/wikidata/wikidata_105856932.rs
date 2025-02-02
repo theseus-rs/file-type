@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856932: FileFormat = FileFormat {
     id: 105_856_932,
-    puid: "wikidata/105856932",
+    source_type: SourceType::Wikidata,
     name: "Green Building XML (UTF-16 LE)",
     extensions: &["gbxml", "xml"],
-    media_types: &["text/xml", "text/xml"],
+    media_types: &["text/xml"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

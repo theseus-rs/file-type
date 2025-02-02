@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853609: FileFormat = FileFormat {
     id: 105_853_609,
-    puid: "wikidata/105853609",
+    source_type: SourceType::Wikidata,
     name: "ZX-Modules Meta format",
     extensions: &["zxb"],
     media_types: &["application/octet-stream"],

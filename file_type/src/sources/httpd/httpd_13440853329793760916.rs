@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13440853329793760916: FileFormat = FileFormat {
-    id: 13_440_853_329_793_760_916,
-    puid: "httpd/13440853329793760916",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "uuencode",
     extensions: &["uu"],
     media_types: &["text/x-uuencode"],

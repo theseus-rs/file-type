@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853386: FileFormat = FileFormat {
     id: 105_853_386,
-    puid: "wikidata/105853386",
+    source_type: SourceType::Wikidata,
     name: "Visual Studio SQL Server Project",
     extensions: &["sqlproj"],
     media_types: &[],

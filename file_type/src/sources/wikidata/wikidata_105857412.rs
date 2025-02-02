@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857412: FileFormat = FileFormat {
     id: 105_857_412,
-    puid: "wikidata/105857412",
+    source_type: SourceType::Wikidata,
     name: "Jahshaka Scene File",
     extensions: &["jsf"],
     media_types: &[],

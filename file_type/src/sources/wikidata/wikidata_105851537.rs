@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851537: FileFormat = FileFormat {
     id: 105_851_537,
-    puid: "wikidata/105851537",
+    source_type: SourceType::Wikidata,
     name: "TFM Music Maker music (V2)",
     extensions: &["tfe"],
     media_types: &["application/octet-stream"],

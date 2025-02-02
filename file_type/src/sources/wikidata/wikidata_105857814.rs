@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857814: FileFormat = FileFormat {
     id: 105_857_814,
-    puid: "wikidata/105857814",
+    source_type: SourceType::Wikidata,
     name: "Nintendo DS Packed Images",
     extensions: &["ipk"],
     media_types: &[],

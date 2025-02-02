@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858002: FileFormat = FileFormat {
     id: 105_858_002,
-    puid: "wikidata/105858002",
+    source_type: SourceType::Wikidata,
     name: "MAME TACO tape image",
     extensions: &["tap"],
     media_types: &["application/octet-stream"],

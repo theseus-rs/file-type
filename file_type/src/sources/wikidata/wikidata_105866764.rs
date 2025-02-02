@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866764: FileFormat = FileFormat {
     id: 105_866_764,
-    puid: "wikidata/105866764",
+    source_type: SourceType::Wikidata,
     name: "Opentech Digital STB main software",
     extensions: &["pgm"],
     media_types: &[],

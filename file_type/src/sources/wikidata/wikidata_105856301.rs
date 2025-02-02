@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856301: FileFormat = FileFormat {
     id: 105_856_301,
-    puid: "wikidata/105856301",
+    source_type: SourceType::Wikidata,
     name: "Avogadro Drawlog",
     extensions: &["drawlog"],
     media_types: &["text/plain"],

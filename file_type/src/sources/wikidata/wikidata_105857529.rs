@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857529: FileFormat = FileFormat {
     id: 105_857_529,
-    puid: "wikidata/105857529",
+    source_type: SourceType::Wikidata,
     name: "IsoBuster CD/DVD image backup",
     extensions: &["ibp"],
     media_types: &[],

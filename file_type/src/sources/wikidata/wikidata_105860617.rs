@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860617: FileFormat = FileFormat {
     id: 105_860_617,
-    puid: "wikidata/105860617",
+    source_type: SourceType::Wikidata,
     name: "Astra Report",
     extensions: &["rjs"],
     media_types: &["text/plain"],

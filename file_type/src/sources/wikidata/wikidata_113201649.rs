@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_113201649: FileFormat = FileFormat {
     id: 113_201_649,
-    puid: "wikidata/113201649",
+    source_type: SourceType::Wikidata,
     name: "LiveMotion Project File, version 2",
     extensions: &["liv"],
     media_types: &[],

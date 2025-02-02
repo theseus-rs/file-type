@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851535: FileFormat = FileFormat {
     id: 105_851_535,
-    puid: "wikidata/105851535",
+    source_type: SourceType::Wikidata,
     name: "Rise of the Tomb Raider game data",
     extensions: &["tiger"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850305: FileFormat = FileFormat {
     id: 105_850_305,
-    puid: "wikidata/105850305",
+    source_type: SourceType::Wikidata,
     name: "SeeYou Raster Map",
     extensions: &["cmr"],
     media_types: &["application/octet-stream"],

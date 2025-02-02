@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864281: FileFormat = FileFormat {
     id: 105_864_281,
-    puid: "wikidata/105864281",
+    source_type: SourceType::Wikidata,
     name: "The Print Shop Deluxe Banner",
     extensions: &["pdb"],
     media_types: &["application/octet-stream"],

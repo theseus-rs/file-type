@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852265: FileFormat = FileFormat {
     id: 105_852_265,
-    puid: "wikidata/105852265",
+    source_type: SourceType::Wikidata,
     name: "EAGLE File Format schematic (v6+)",
     extensions: &["sch"],
     media_types: &["application/x-eagle-schematic"],

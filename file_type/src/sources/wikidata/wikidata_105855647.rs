@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855647: FileFormat = FileFormat {
     id: 105_855_647,
-    puid: "wikidata/105855647",
+    source_type: SourceType::Wikidata,
     name: "Office Profile-Settings (v11.0)",
     extensions: &["ops"],
     media_types: &[],

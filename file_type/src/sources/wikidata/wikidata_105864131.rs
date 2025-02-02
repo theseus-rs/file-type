@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864131: FileFormat = FileFormat {
     id: 105_864_131,
-    puid: "wikidata/105864131",
+    source_type: SourceType::Wikidata,
     name: "mupen64 movie capture",
     extensions: &["m64"],
     media_types: &["application/octet-stream"],

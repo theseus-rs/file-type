@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857535: FileFormat = FileFormat {
     id: 105_857_535,
-    puid: "wikidata/105857535",
+    source_type: SourceType::Wikidata,
     name: "Irrlicht static Mesh (UTF-8)",
     extensions: &["irrmesh"],
     media_types: &[],

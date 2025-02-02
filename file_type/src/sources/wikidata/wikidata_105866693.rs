@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866693: FileFormat = FileFormat {
     id: 105_866_693,
-    puid: "wikidata/105866693",
+    source_type: SourceType::Wikidata,
     name: "Sigfried Antivirus Professional Preferences (v1.0)",
     extensions: &["prefs"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857794: FileFormat = FileFormat {
     id: 105_857_794,
-    puid: "wikidata/105857794",
+    source_type: SourceType::Wikidata,
     name: "Exatron String Floppy virtual wafer image",
     extensions: &["esf"],
     media_types: &["application/octet-stream"],

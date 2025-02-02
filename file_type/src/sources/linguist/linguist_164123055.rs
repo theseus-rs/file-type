@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_164123055: FileFormat = FileFormat {
     id: 164_123_055,
-    puid: "linguist/164123055",
+    source_type: SourceType::Linguist,
     name: "SmPL",
     extensions: &["cocci"],
     media_types: &[],

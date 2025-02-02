@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856649: FileFormat = FileFormat {
     id: 105_856_649,
-    puid: "wikidata/105856649",
+    source_type: SourceType::Wikidata,
     name: "WordStar Screen Font (Wordstar)",
     extensions: &["wsf"],
     media_types: &["application/octet-stream"],

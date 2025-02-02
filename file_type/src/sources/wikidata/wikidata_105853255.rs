@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853255: FileFormat = FileFormat {
     id: 105_853_255,
-    puid: "wikidata/105853255",
+    source_type: SourceType::Wikidata,
     name: "Dell System Information",
     extensions: &["sdr"],
     media_types: &[],

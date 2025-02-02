@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853460: FileFormat = FileFormat {
     id: 105_853_460,
-    puid: "wikidata/105853460",
+    source_type: SourceType::Wikidata,
     name: "Novell ZENworks Desktop Management image",
     extensions: &["zmg"],
     media_types: &[],

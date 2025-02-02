@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850340: FileFormat = FileFormat {
     id: 105_850_340,
-    puid: "wikidata/105850340",
+    source_type: SourceType::Wikidata,
     name: "SuperCalc 2/3 spreadsheet (v1.00)",
     extensions: &["cal"],
     media_types: &["application/octet-stream"],

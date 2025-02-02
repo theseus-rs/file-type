@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862176: FileFormat = FileFormat {
     id: 105_862_176,
-    puid: "wikidata/105862176",
+    source_type: SourceType::Wikidata,
     name: "MusicIndiaOnline Trident Player Music file",
     extensions: &["mia"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_342: FileFormat = FileFormat {
     id: 342,
-    puid: "linguist/342",
+    source_type: SourceType::Linguist,
     name: "Scaml",
     extensions: &["scaml"],
     media_types: &[],

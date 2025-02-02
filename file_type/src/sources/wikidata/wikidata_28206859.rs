@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206859: FileFormat = FileFormat {
     id: 28_206_859,
-    puid: "wikidata/28206859",
+    source_type: SourceType::Wikidata,
     name: "Polyomino Compressed Image Format",
     extensions: &["pcf"],
     media_types: &["application/octet-stream"],

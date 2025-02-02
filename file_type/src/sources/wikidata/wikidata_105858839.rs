@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858839: FileFormat = FileFormat {
     id: 105_858_839,
-    puid: "wikidata/105858839",
+    source_type: SourceType::Wikidata,
     name: "Switchball game data archive",
     extensions: &["batch"],
     media_types: &["application/octet-stream"],

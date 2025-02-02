@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857657: FileFormat = FileFormat {
     id: 105_857_657,
-    puid: "wikidata/105857657",
+    source_type: SourceType::Wikidata,
     name: "Adobe InDesign Markup Language",
     extensions: &["idml"],
     media_types: &["application/vnd.adobe.indesign-idml-package"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862106: FileFormat = FileFormat {
     id: 105_862_106,
-    puid: "wikidata/105862106",
+    source_type: SourceType::Wikidata,
     name: "Platinen Layout Programm Macro",
     extensions: &["mac"],
     media_types: &["application/octet-stream"],

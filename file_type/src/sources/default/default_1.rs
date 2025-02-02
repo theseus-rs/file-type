@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const DEFAULT_1: FileFormat = FileFormat {
     id: 1,
-    puid: "default/1",
+    source_type: SourceType::Default,
     name: "Binary",
     extensions: &[],
     media_types: &["application/octet-stream"],

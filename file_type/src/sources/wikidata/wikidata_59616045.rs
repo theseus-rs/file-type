@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_59616045: FileFormat = FileFormat {
     id: 59_616_045,
-    puid: "wikidata/59616045",
+    source_type: SourceType::Wikidata,
     name: "Zope export file",
     extensions: &["zexp"],
     media_types: &[],

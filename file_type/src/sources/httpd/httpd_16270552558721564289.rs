@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16270552558721564289: FileFormat = FileFormat {
-    id: 16_270_552_558_721_564_289,
-    puid: "httpd/16270552558721564289",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "rpki manifest",
     extensions: &["mft"],
     media_types: &["application/rpki-manifest"],

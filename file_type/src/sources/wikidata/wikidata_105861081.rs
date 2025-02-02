@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861081: FileFormat = FileFormat {
     id: 105_861_081,
-    puid: "wikidata/105861081",
+    source_type: SourceType::Wikidata,
     name: "AutoCAD Protected LISP code",
     extensions: &["lsp"],
     media_types: &["application/octet-stream"],

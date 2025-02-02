@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852275: FileFormat = FileFormat {
     id: 105_852_275,
-    puid: "wikidata/105852275",
+    source_type: SourceType::Wikidata,
     name: "RCA Studio 2 binary dump cartridge",
     extensions: &["st2"],
     media_types: &["application/octet-stream"],

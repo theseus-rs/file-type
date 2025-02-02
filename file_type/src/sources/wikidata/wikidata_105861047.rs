@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861047: FileFormat = FileFormat {
     id: 105_861_047,
-    puid: "wikidata/105861047",
+    source_type: SourceType::Wikidata,
     name: "Jynx Snapshot",
     extensions: &["lynxsnapshot"],
     media_types: &["application/octet-stream"],

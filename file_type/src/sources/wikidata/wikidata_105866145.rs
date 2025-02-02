@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866145: FileFormat = FileFormat {
     id: 105_866_145,
-    puid: "wikidata/105866145",
+    source_type: SourceType::Wikidata,
     name: "PxTone Collage module (protected)",
     extensions: &["pttune"],
     media_types: &["audio/x-mod"],

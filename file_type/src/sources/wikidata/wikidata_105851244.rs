@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851244: FileFormat = FileFormat {
     id: 105_851_244,
-    puid: "wikidata/105851244",
+    source_type: SourceType::Wikidata,
     name: "Borland Turbo Debugger session-state settings",
     extensions: &["tr2"],
     media_types: &["application/octet-stream"],

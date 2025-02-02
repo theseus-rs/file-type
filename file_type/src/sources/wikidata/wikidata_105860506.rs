@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860506: FileFormat = FileFormat {
     id: 105_860_506,
-    puid: "wikidata/105860506",
+    source_type: SourceType::Wikidata,
     name: "RAGE Package Format (Red Dead Redemption)",
     extensions: &["rpf"],
     media_types: &["application/octet-stream"],

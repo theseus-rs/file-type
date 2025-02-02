@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854201: FileFormat = FileFormat {
     id: 105_854_201,
-    puid: "wikidata/105854201",
+    source_type: SourceType::Wikidata,
     name: "ARP2600V preset",
     extensions: &["arpbank"],
     media_types: &["application/octet-stream"],

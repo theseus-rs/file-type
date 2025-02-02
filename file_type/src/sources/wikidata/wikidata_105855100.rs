@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855100: FileFormat = FileFormat {
     id: 105_855_100,
-    puid: "wikidata/105855100",
+    source_type: SourceType::Wikidata,
     name: "Ableton Max Patch",
     extensions: &["amxd"],
     media_types: &["application/octet-stream"],

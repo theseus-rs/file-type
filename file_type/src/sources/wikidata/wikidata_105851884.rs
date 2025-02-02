@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851884: FileFormat = FileFormat {
     id: 105_851_884,
-    puid: "wikidata/105851884",
+    source_type: SourceType::Wikidata,
     name: "Paradox sort definition",
     extensions: &["sor"],
     media_types: &[],

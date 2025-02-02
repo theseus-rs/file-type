@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858590: FileFormat = FileFormat {
     id: 105_858_590,
-    puid: "wikidata/105858590",
+    source_type: SourceType::Wikidata,
     name: "Native Instruments Preset Bank",
     extensions: &["bnk"],
     media_types: &["application/octet-stream"],

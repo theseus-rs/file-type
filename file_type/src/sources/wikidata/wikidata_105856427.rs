@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856427: FileFormat = FileFormat {
     id: 105_856_427,
-    puid: "wikidata/105856427",
+    source_type: SourceType::Wikidata,
     name: "IBM iSeries Client Access WorkStation profile",
     extensions: &["ws"],
     media_types: &["text/ini"],

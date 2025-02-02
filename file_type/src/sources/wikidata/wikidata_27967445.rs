@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967445: FileFormat = FileFormat {
     id: 27_967_445,
-    puid: "wikidata/27967445",
+    source_type: SourceType::Wikidata,
     name: "Autodesk Animator Pro FLIC",
     extensions: &["flc"],
     media_types: &["video/flc"],

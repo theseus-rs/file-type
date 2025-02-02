@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867183: FileFormat = FileFormat {
     id: 105_867_183,
-    puid: "wikidata/105867183",
+    source_type: SourceType::Wikidata,
     name: "Nokia phone BackUp",
     extensions: &["nbu"],
     media_types: &["application/octet-stream"],

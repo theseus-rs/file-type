@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866657: FileFormat = FileFormat {
     id: 105_866_657,
-    puid: "wikidata/105866657",
+    source_type: SourceType::Wikidata,
     name: "Palm PeanutReader e-book",
     extensions: &["pdb"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_83794070: FileFormat = FileFormat {
     id: 83_794_070,
-    puid: "wikidata/83794070",
+    source_type: SourceType::Wikidata,
     name: "EclipseCrossword Puzzle File",
     extensions: &["ecw"],
     media_types: &["text/plain"],

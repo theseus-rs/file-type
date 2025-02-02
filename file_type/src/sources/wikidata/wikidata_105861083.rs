@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861083: FileFormat = FileFormat {
     id: 105_861_083,
-    puid: "wikidata/105861083",
+    source_type: SourceType::Wikidata,
     name: "Logitech G15 keyboard Profile",
     extensions: &["lgp"],
     media_types: &[],

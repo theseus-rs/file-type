@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860355: FileFormat = FileFormat {
     id: 105_860_355,
-    puid: "wikidata/105860355",
+    source_type: SourceType::Wikidata,
     name: "Farallon Replica document",
     extensions: &["rpl"],
     media_types: &["application/octet-stream"],

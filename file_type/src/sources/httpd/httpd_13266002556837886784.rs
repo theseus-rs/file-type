@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13266002556837886784: FileFormat = FileFormat {
-    id: 13_266_002_556_837_886_784,
-    puid: "httpd/13266002556837886784",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "groove tool message",
     extensions: &["gtm"],
     media_types: &["application/vnd.groove-tool-message"],

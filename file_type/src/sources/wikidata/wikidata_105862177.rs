@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862177: FileFormat = FileFormat {
     id: 105_862_177,
-    puid: "wikidata/105862177",
+    source_type: SourceType::Wikidata,
     name: "Fractal Forge 2.x fractal parameters",
     extensions: &["mnd"],
     media_types: &[],

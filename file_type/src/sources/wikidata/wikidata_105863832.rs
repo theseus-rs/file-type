@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863832: FileFormat = FileFormat {
     id: 105_863_832,
-    puid: "wikidata/105863832",
+    source_type: SourceType::Wikidata,
     name: "Quartus Memory Initialization File",
     extensions: &["mif"],
     media_types: &["text/plain"],

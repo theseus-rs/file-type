@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852298: FileFormat = FileFormat {
     id: 105_852_298,
-    puid: "wikidata/105852298",
+    source_type: SourceType::Wikidata,
     name: "SCD Square Enix Sound Container File",
     extensions: &["scd"],
     media_types: &["application/octet-stream"],

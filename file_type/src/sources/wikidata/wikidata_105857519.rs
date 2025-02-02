@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857519: FileFormat = FileFormat {
     id: 105_857_519,
-    puid: "wikidata/105857519",
+    source_type: SourceType::Wikidata,
     name: "Novell 16-bit LAN driver Installer data",
     extensions: &["ins"],
     media_types: &["application/octet-stream"],

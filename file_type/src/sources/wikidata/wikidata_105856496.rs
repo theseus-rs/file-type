@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856496: FileFormat = FileFormat {
     id: 105_856_496,
-    puid: "wikidata/105856496",
+    source_type: SourceType::Wikidata,
     name: "WinDS Pro Skin",
     extensions: &["windsproskin"],
     media_types: &["application/octet-stream"],

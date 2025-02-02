@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3404436964465585248: FileFormat = FileFormat {
-    id: 3_404_436_964_465_585_248,
-    puid: "httpd/3404436964465585248",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "prs btif",
     extensions: &["btif"],
     media_types: &["image/prs.btif"],

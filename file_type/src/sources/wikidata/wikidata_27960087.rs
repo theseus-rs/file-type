@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27960087: FileFormat = FileFormat {
     id: 27_960_087,
-    puid: "wikidata/27960087",
+    source_type: SourceType::Wikidata,
     name: "Memory Stick Voice",
     extensions: &["msv"],
     media_types: &[],

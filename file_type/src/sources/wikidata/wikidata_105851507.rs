@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851507: FileFormat = FileFormat {
     id: 105_851_507,
-    puid: "wikidata/105851507",
+    source_type: SourceType::Wikidata,
     name: "Tiled Tile Set",
     extensions: &["tsx"],
     media_types: &["text/xml"],

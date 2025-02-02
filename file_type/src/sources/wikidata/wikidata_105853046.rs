@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853046: FileFormat = FileFormat {
     id: 105_853_046,
-    puid: "wikidata/105853046",
+    source_type: SourceType::Wikidata,
     name: "Samsung Smart Switch contact backup",
     extensions: &["spbm"],
     media_types: &["application/octet-stream"],

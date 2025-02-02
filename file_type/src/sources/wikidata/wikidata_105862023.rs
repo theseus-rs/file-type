@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862023: FileFormat = FileFormat {
     id: 105_862_023,
-    puid: "wikidata/105862023",
+    source_type: SourceType::Wikidata,
     name: "Monarch for Windows Model",
     extensions: &["mod"],
     media_types: &["application/octet-stream"],

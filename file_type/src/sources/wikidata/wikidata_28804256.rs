@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28804256: FileFormat = FileFormat {
     id: 28_804_256,
-    puid: "wikidata/28804256",
+    source_type: SourceType::Wikidata,
     name: "Uniform Office Presentation",
     extensions: &["uop"],
     media_types: &["application/vnd.uof.presentation"],

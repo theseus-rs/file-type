@@ -1,16 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_334677: FileFormat = FileFormat {
     id: 334_677,
-    puid: "wikidata/334677",
+    source_type: SourceType::Wikidata,
     name: "DjVu",
-    extensions: &["djv", "djv", "djvu", "djvu"],
-    media_types: &[
-        "image/vnd.djvu",
-        "image/vnd.djvu",
-        "image/x-djvu",
-        "image/x-djvu",
-    ],
+    extensions: &["djv", "djvu"],
+    media_types: &["image/vnd.djvu", "image/x-djvu"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

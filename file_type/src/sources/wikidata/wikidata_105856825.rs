@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856825: FileFormat = FileFormat {
     id: 105_856_825,
-    puid: "wikidata/105856825",
+    source_type: SourceType::Wikidata,
     name: "GMV input file",
     extensions: &["gmv"],
     media_types: &[],

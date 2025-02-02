@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_314: FileFormat = FileFormat {
     id: 314,
-    puid: "linguist/314",
+    source_type: SourceType::Linguist,
     name: "RPM Spec",
     extensions: &["spec"],
     media_types: &["text/x-rpm-spec"],

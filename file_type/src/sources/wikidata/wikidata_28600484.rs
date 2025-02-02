@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28600484: FileFormat = FileFormat {
     id: 28_600_484,
-    puid: "wikidata/28600484",
+    source_type: SourceType::Wikidata,
     name: "DVDisaster Error Correction File",
     extensions: &["ecc"],
     media_types: &["application/octet-stream"],

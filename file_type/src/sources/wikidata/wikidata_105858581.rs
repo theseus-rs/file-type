@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858581: FileFormat = FileFormat {
     id: 105_858_581,
-    puid: "wikidata/105858581",
+    source_type: SourceType::Wikidata,
     name: "ArtMaster88 bitmap",
     extensions: &["img"],
     media_types: &["application/octet-stream"],

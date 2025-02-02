@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855160: FileFormat = FileFormat {
     id: 105_855_160,
-    puid: "wikidata/105855160",
+    source_type: SourceType::Wikidata,
     name: "Frodo SnapShot",
     extensions: &["fss"],
     media_types: &["application/octet-stream"],

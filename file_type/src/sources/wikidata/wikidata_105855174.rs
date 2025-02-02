@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855174: FileFormat = FileFormat {
     id: 105_855_174,
-    puid: "wikidata/105855174",
+    source_type: SourceType::Wikidata,
     name: "WinMerge directory/file Filter",
     extensions: &["flt"],
     media_types: &["text/plain"],

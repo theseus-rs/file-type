@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858691: FileFormat = FileFormat {
     id: 105_858_691,
-    puid: "wikidata/105858691",
+    source_type: SourceType::Wikidata,
     name: "Berkeley Logic Interchange Format",
     extensions: &["blif"],
     media_types: &["text/plain"],

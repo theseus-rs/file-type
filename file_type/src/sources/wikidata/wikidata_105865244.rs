@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865244: FileFormat = FileFormat {
     id: 105_865_244,
-    puid: "wikidata/105865244",
+    source_type: SourceType::Wikidata,
     name: "PICO-8 cartridge",
     extensions: &["p8"],
     media_types: &["application/octet-stream"],

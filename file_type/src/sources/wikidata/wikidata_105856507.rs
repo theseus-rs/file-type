@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856507: FileFormat = FileFormat {
     id: 105_856_507,
-    puid: "wikidata/105856507",
+    source_type: SourceType::Wikidata,
     name: "Multibit Bitcoin wallet",
     extensions: &["wallet"],
     media_types: &[],

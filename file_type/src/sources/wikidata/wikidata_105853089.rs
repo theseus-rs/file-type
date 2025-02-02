@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853089: FileFormat = FileFormat {
     id: 105_853_089,
-    puid: "wikidata/105853089",
+    source_type: SourceType::Wikidata,
     name: "Squeeze Presets",
     extensions: &["spfx"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860067: FileFormat = FileFormat {
     id: 105_860_067,
-    puid: "wikidata/105860067",
+    source_type: SourceType::Wikidata,
     name: "Avast setup-update package",
     extensions: &["vpu"],
     media_types: &[],

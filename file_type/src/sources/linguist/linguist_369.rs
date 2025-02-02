@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_369: FileFormat = FileFormat {
     id: 369,
-    puid: "linguist/369",
+    source_type: SourceType::Linguist,
     name: "TeX",
     extensions: &[
         "aux", "bbx", "cbx", "cls", "dtx", "ins", "lbx", "ltx", "mkii", "mkiv", "mkvi", "sty",

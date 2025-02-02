@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849860: FileFormat = FileFormat {
     id: 105_849_860,
-    puid: "wikidata/105849860",
+    source_type: SourceType::Wikidata,
     name: "Bitz and Pixels XML (ASCII)Report Template Info for collectorz.com products",
     extensions: &["cti"],
     media_types: &[],

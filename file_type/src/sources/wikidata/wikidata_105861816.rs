@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861816: FileFormat = FileFormat {
     id: 105_861_816,
-    puid: "wikidata/105861816",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Money auto saved data",
     extensions: &["mny"],
     media_types: &[],

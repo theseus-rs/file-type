@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852718: FileFormat = FileFormat {
     id: 105_852_718,
-    puid: "wikidata/105852718",
+    source_type: SourceType::Wikidata,
     name: "NGS orbital format SP3 (positions only)",
     extensions: &["sp3"],
     media_types: &["text/plain"],

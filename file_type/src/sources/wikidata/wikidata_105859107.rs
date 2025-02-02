@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859107: FileFormat = FileFormat {
     id: 105_859_107,
-    puid: "wikidata/105859107",
+    source_type: SourceType::Wikidata,
     name: "packPNM compressed Portable GrayMap (binary) bitmap",
     extensions: &["ppn"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851758: FileFormat = FileFormat {
     id: 105_851_758,
-    puid: "wikidata/105851758",
+    source_type: SourceType::Wikidata,
     name: "Children of the Nile campaign",
     extensions: &["ssa"],
     media_types: &[],

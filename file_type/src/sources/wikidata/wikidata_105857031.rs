@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857031: FileFormat = FileFormat {
     id: 105_857_031,
-    puid: "wikidata/105857031",
+    source_type: SourceType::Wikidata,
     name: "Gliffy diagram (v1.x)",
     extensions: &["gliffy"],
     media_types: &["text/json"],

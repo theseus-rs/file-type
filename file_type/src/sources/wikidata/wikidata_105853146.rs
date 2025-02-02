@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853146: FileFormat = FileFormat {
     id: 105_853_146,
-    puid: "wikidata/105853146",
+    source_type: SourceType::Wikidata,
     name: "Moebius Sound Library",
     extensions: &["slb"],
     media_types: &["application/octet-stream"],

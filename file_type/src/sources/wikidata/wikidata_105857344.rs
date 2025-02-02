@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857344: FileFormat = FileFormat {
     id: 105_857_344,
-    puid: "wikidata/105857344",
+    source_type: SourceType::Wikidata,
     name: "QMK keymap (UTF-8)",
     extensions: &["json"],
     media_types: &["text/json"],

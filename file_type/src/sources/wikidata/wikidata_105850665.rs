@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850665: FileFormat = FileFormat {
     id: 105_850_665,
-    puid: "wikidata/105850665",
+    source_type: SourceType::Wikidata,
     name: "KVIrc Theme",
     extensions: &["kvt"],
     media_types: &["application/octet-stream"],

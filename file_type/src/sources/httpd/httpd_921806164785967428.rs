@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_921806164785967428: FileFormat = FileFormat {
-    id: 921_806_164_785_967_428,
-    puid: "httpd/921806164785967428",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "hbci",
     extensions: &["hbci"],
     media_types: &["application/vnd.hbci"],

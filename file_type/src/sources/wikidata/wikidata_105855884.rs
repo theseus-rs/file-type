@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855884: FileFormat = FileFormat {
     id: 105_855_884,
-    puid: "wikidata/105855884",
+    source_type: SourceType::Wikidata,
     name: "PEC service info (daticert.xml) (UTF-16 BE)",
     extensions: &["xml"],
     media_types: &["application/octet-stream"],

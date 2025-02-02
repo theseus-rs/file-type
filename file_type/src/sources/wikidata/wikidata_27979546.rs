@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27979546: FileFormat = FileFormat {
     id: 27_979_546,
-    puid: "wikidata/27979546",
+    source_type: SourceType::Wikidata,
     name: "Civilization III saved game format",
     extensions: &["bic"],
     media_types: &["application/octet-stream"],

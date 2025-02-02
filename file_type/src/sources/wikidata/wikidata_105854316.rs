@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854316: FileFormat = FileFormat {
     id: 105_854_316,
-    puid: "wikidata/105854316",
+    source_type: SourceType::Wikidata,
     name: "Velvet Studio Advanced Module System module",
     extensions: &["ams"],
     media_types: &["audio/x-mod"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865033: FileFormat = FileFormat {
     id: 105_865_033,
-    puid: "wikidata/105865033",
+    source_type: SourceType::Wikidata,
     name: "GRUB2 font",
     extensions: &["pf2"],
     media_types: &["application/x-font-pf2"],

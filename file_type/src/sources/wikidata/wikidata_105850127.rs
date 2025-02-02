@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850127: FileFormat = FileFormat {
     id: 105_850_127,
-    puid: "wikidata/105850127",
+    source_type: SourceType::Wikidata,
     name: "Weather Analytics data",
     extensions: &["csv"],
     media_types: &["text/csv"],

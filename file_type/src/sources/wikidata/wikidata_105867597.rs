@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867597: FileFormat = FileFormat {
     id: 105_867_597,
-    puid: "wikidata/105867597",
+    source_type: SourceType::Wikidata,
     name: "Nero Scalable Audio",
     extensions: &["nsla"],
     media_types: &["text/xml"],

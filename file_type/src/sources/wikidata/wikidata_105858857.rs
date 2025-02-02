@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858857: FileFormat = FileFormat {
     id: 105_858_857,
-    puid: "wikidata/105858857",
+    source_type: SourceType::Wikidata,
     name: "Roku Base Index Frames container",
     extensions: &["bif"],
     media_types: &["application/octet-stream"],

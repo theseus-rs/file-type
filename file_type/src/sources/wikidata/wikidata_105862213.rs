@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862213: FileFormat = FileFormat {
     id: 105_862_213,
-    puid: "wikidata/105862213",
+    source_type: SourceType::Wikidata,
     name: "Maple compressed Worksheet",
     extensions: &["mwz"],
     media_types: &["application/octet-stream"],

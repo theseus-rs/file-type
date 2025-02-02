@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_15134871687334348672: FileFormat = FileFormat {
-    id: 15_134_871_687_334_348_672,
-    puid: "httpd/15134871687334348672",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "spotfire dxp",
     extensions: &["dxp"],
     media_types: &["application/vnd.spotfire.dxp"],

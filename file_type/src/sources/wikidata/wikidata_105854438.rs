@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854438: FileFormat = FileFormat {
     id: 105_854_438,
-    puid: "wikidata/105854438",
+    source_type: SourceType::Wikidata,
     name: "Sample DUMP Exchange audio",
     extensions: &["sdx"],
     media_types: &["application/octet-stream"],

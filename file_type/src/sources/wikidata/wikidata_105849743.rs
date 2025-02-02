@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849743: FileFormat = FileFormat {
     id: 105_849_743,
-    puid: "wikidata/105849743",
+    source_type: SourceType::Wikidata,
     name: "EzCad Configuration",
     extensions: &["cfg"],
     media_types: &["text/plain"],

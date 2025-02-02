@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853863: FileFormat = FileFormat {
     id: 105_853_863,
-    puid: "wikidata/105853863",
+    source_type: SourceType::Wikidata,
     name: "ANMA RED music data",
     extensions: &["amu"],
     media_types: &["application/octet-stream"],

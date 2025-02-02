@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849984: FileFormat = FileFormat {
     id: 105_849_984,
-    puid: "wikidata/105849984",
+    source_type: SourceType::Wikidata,
     name: "Cabri 3D Language",
     extensions: &["cgl"],
     media_types: &["text/plain"],

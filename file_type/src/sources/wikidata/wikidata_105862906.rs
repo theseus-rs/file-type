@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862906: FileFormat = FileFormat {
     id: 105_862_906,
-    puid: "wikidata/105862906",
+    source_type: SourceType::Wikidata,
     name: "Mirror II Emulation File",
     extensions: &["mef"],
     media_types: &["application/octet-stream"],

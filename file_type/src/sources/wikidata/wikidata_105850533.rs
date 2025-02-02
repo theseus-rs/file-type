@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850533: FileFormat = FileFormat {
     id: 105_850_533,
-    puid: "wikidata/105850533",
+    source_type: SourceType::Wikidata,
     name: "QCad II Font",
     extensions: &["cxf"],
     media_types: &["application/octet-stream"],

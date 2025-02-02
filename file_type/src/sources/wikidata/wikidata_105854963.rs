@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854963: FileFormat = FileFormat {
     id: 105_854_963,
-    puid: "wikidata/105854963",
+    source_type: SourceType::Wikidata,
     name: "AllWebMenus project (v4.xx)",
     extensions: &["awm"],
     media_types: &[],

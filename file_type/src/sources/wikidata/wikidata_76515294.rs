@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_76515294: FileFormat = FileFormat {
     id: 76_515_294,
-    puid: "wikidata/76515294",
+    source_type: SourceType::Wikidata,
     name: "WannaCry ransomware encrypted",
     extensions: &["wncry"],
     media_types: &["application/octet-stream"],

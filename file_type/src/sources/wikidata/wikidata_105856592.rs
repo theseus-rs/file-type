@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856592: FileFormat = FileFormat {
     id: 105_856_592,
-    puid: "wikidata/105856592",
+    source_type: SourceType::Wikidata,
     name: "Wired For Sound configuration",
     extensions: &["wfs"],
     media_types: &["text/ini"],

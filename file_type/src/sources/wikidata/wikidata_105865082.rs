@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865082: FileFormat = FileFormat {
     id: 105_865_082,
-    puid: "wikidata/105865082",
+    source_type: SourceType::Wikidata,
     name: "PowerPoint Macro-enabled Open XML add-in",
     extensions: &["ppam"],
     media_types: &["application/vnd.ms-powerpoint.addin.macroEnabled.12"],

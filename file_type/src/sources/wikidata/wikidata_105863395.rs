@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863395: FileFormat = FileFormat {
     id: 105_863_395,
-    puid: "wikidata/105863395",
+    source_type: SourceType::Wikidata,
     name: "Standard 4-channel Amiga module",
     extensions: &["mod"],
     media_types: &["audio/mod"],

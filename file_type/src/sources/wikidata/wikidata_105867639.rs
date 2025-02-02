@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867639: FileFormat = FileFormat {
     id: 105_867_639,
-    puid: "wikidata/105867639",
+    source_type: SourceType::Wikidata,
     name: "nPassword DataBank (w/o password)",
     extensions: &["npw"],
     media_types: &["text/xml"],

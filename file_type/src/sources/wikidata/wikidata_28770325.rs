@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28770325: FileFormat = FileFormat {
     id: 28_770_325,
-    puid: "wikidata/28770325",
+    source_type: SourceType::Wikidata,
     name: "Lepton",
     extensions: &["lep"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5696044814271161966: FileFormat = FileFormat {
-    id: 5_696_044_814_271_161_966,
-    puid: "httpd/5696044814271161966",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "sql",
     extensions: &["sql"],
     media_types: &["application/x-sql"],

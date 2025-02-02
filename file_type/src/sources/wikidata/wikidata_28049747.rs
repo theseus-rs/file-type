@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28049747: FileFormat = FileFormat {
     id: 28_049_747,
-    puid: "wikidata/28049747",
+    source_type: SourceType::Wikidata,
     name: "CMU Andrew Toolkit image",
     extensions: &["atk", "cmu"],
     media_types: &[],

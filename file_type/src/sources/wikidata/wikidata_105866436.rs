@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866436: FileFormat = FileFormat {
     id: 105_866_436,
-    puid: "wikidata/105866436",
+    source_type: SourceType::Wikidata,
     name: "Panzerkrieg for Windows Scenario",
     extensions: &["pks"],
     media_types: &["application/octet-stream"],

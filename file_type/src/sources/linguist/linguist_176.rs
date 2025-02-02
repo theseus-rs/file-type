@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_176: FileFormat = FileFormat {
     id: 176,
-    puid: "linguist/176",
+    source_type: SourceType::Linguist,
     name: "JSONLD",
     extensions: &["jsonld"],
     media_types: &["application/json"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29000565: FileFormat = FileFormat {
     id: 29_000_565,
-    puid: "wikidata/29000565",
+    source_type: SourceType::Wikidata,
     name: "SuperCard Pro dump",
     extensions: &["scp"],
     media_types: &["application/octet-stream"],

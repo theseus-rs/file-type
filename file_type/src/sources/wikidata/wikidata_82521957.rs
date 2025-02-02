@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_82521957: FileFormat = FileFormat {
     id: 82_521_957,
-    puid: "wikidata/82521957",
+    source_type: SourceType::Wikidata,
     name: "Portable Voice format",
     extensions: &["pvf"],
     media_types: &[],

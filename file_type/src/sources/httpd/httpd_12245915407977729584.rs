@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_12245915407977729584: FileFormat = FileFormat {
-    id: 12_245_915_407_977_729_584,
-    puid: "httpd/12245915407977729584",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "cgm",
     extensions: &["cgm"],
     media_types: &["image/cgm"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28975873: FileFormat = FileFormat {
     id: 28_975_873,
-    puid: "wikidata/28975873",
+    source_type: SourceType::Wikidata,
     name: "OOGL LIST file",
     extensions: &["list"],
     media_types: &[],

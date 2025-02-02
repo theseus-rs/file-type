@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853843: FileFormat = FileFormat {
     id: 105_853_843,
-    puid: "wikidata/105853843",
+    source_type: SourceType::Wikidata,
     name: "Casio Pocket Viewer Add-in Data file",
     extensions: &["adt"],
     media_types: &[],

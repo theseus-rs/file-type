@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_52005776: FileFormat = FileFormat {
     id: 52_005_776,
-    puid: "wikidata/52005776",
+    source_type: SourceType::Wikidata,
     name: "Hewlett Packard Graphics Language format",
     extensions: &["hpgl"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14032609428049303413: FileFormat = FileFormat {
-    id: 14_032_609_428_049_303_413,
-    puid: "httpd/14032609428049303413",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "widget",
     extensions: &["wgt"],
     media_types: &["application/widget"],

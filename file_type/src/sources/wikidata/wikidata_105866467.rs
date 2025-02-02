@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866467: FileFormat = FileFormat {
     id: 105_866_467,
-    puid: "wikidata/105866467",
+    source_type: SourceType::Wikidata,
     name: "WinAmp/SHOUTcast PlayList",
     extensions: &["pls"],
     media_types: &[],

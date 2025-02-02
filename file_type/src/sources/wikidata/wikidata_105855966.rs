@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855966: FileFormat = FileFormat {
     id: 105_855_966,
-    puid: "wikidata/105855966",
+    source_type: SourceType::Wikidata,
     name: "Quartus Pin Planner data",
     extensions: &["dpf"],
     media_types: &["text/xml"],

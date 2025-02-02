@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850939: FileFormat = FileFormat {
     id: 105_850_939,
-    puid: "wikidata/105850939",
+    source_type: SourceType::Wikidata,
     name: "TI-Nspire OS image",
     extensions: &["tno"],
     media_types: &[],

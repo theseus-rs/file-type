@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857275: FileFormat = FileFormat {
     id: 105_857_275,
-    puid: "wikidata/105857275",
+    source_type: SourceType::Wikidata,
     name: "Altera Qsys Handoff Info",
     extensions: &["hiof"],
     media_types: &["application/octet-stream"],

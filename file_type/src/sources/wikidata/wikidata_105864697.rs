@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864697: FileFormat = FileFormat {
     id: 105_864_697,
-    puid: "wikidata/105864697",
+    source_type: SourceType::Wikidata,
     name: "Digital Illusions game data package",
     extensions: &["pdt"],
     media_types: &["application/octet-stream"],

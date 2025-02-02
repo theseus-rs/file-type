@@ -62,8 +62,8 @@ impl RelatedFormat {
             RelationshipType::IsSupertypeOf => file_type::format::RelationshipType::IsSupertypeOf,
         };
         let relates_format = file_type::format::RelatedFormat {
-            id: self.id,
             relationship_type,
+            id: self.id,
         };
         Ok(relates_format)
     }

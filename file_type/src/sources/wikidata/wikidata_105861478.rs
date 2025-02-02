@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861478: FileFormat = FileFormat {
     id: 105_861_478,
-    puid: "wikidata/105861478",
+    source_type: SourceType::Wikidata,
     name: "Skunny Kart Library game data",
     extensions: &["lid"],
     media_types: &["application/octet-stream"],

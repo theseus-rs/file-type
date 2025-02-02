@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858501: FileFormat = FileFormat {
     id: 105_858_501,
-    puid: "wikidata/105858501",
+    source_type: SourceType::Wikidata,
     name: "GEM bitmap (v3)",
     extensions: &["img"],
     media_types: &["application/octet-stream"],

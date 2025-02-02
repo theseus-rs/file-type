@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855467: FileFormat = FileFormat {
     id: 105_855_467,
-    puid: "wikidata/105855467",
+    source_type: SourceType::Wikidata,
     name: "Faery Tale Adventure 2 save game",
     extensions: &["sav"],
     media_types: &["application/octet-stream"],

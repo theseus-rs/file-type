@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862763: FileFormat = FileFormat {
     id: 105_862_763,
-    puid: "wikidata/105862763",
+    source_type: SourceType::Wikidata,
     name: "StarWriter keyboard Macro",
     extensions: &["mac"],
     media_types: &["text/plain"],

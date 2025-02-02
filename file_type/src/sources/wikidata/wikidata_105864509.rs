@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864509: FileFormat = FileFormat {
     id: 105_864_509,
-    puid: "wikidata/105864509",
+    source_type: SourceType::Wikidata,
     name: "GraphPad Prism XML document",
     extensions: &["pzfx"],
     media_types: &["text/xml"],

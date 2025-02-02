@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861409: FileFormat = FileFormat {
     id: 105_861_409,
-    puid: "wikidata/105861409",
+    source_type: SourceType::Wikidata,
     name: "SuperKey keyboard Layout",
     extensions: &["lay"],
     media_types: &["application/octet-stream"],

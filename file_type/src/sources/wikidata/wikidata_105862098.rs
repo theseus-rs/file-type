@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862098: FileFormat = FileFormat {
     id: 105_862_098,
-    puid: "wikidata/105862098",
+    source_type: SourceType::Wikidata,
     name: "Miva Compiled script",
     extensions: &["mvc"],
     media_types: &[],

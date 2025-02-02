@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858715: FileFormat = FileFormat {
     id: 105_858_715,
-    puid: "wikidata/105858715",
+    source_type: SourceType::Wikidata,
     name: "BootSkin Vista theme",
     extensions: &["bootskin"],
     media_types: &["application/octet-stream"],

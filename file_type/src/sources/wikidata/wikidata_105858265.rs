@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858265: FileFormat = FileFormat {
     id: 105_858_265,
-    puid: "wikidata/105858265",
+    source_type: SourceType::Wikidata,
     name: "DCMO5 emulator tape image",
     extensions: &["k7"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967407: FileFormat = FileFormat {
     id: 27_967_407,
-    puid: "wikidata/27967407",
+    source_type: SourceType::Wikidata,
     name: "Surprise! Adlib Tracker version 2.0",
     extensions: &["sa2"],
     media_types: &["audio/x-mod"],

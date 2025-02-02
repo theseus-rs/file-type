@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856083: FileFormat = FileFormat {
     id: 105_856_083,
-    puid: "wikidata/105856083",
+    source_type: SourceType::Wikidata,
     name: "TI-99 V9T9 Sector Dump Format",
     extensions: &["dsk", "tidisk"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

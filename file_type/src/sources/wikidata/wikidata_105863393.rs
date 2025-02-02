@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863393: FileFormat = FileFormat {
     id: 105_863_393,
-    puid: "wikidata/105863393",
+    source_type: SourceType::Wikidata,
     name: "Meyer/Glass Interactive game data Format",
     extensions: &["mgf"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_7834014297002784124: FileFormat = FileFormat {
-    id: 7_834_014_297_002_784_124,
-    puid: "httpd/7834014297002784124",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ccxml xml",
     extensions: &["ccxml"],
     media_types: &["application/ccxml+xml"],

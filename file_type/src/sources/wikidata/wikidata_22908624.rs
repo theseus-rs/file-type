@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_22908624: FileFormat = FileFormat {
     id: 22_908_624,
-    puid: "wikidata/22908624",
+    source_type: SourceType::Wikidata,
     name: "GeoPackage",
-    extensions: &["gpkg", "gpkg"],
+    extensions: &["gpkg"],
     media_types: &["application/geopackage+sqlite3", "application/octet-stream"],
     internal_signatures: &[
         InternalSignature {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858189: FileFormat = FileFormat {
     id: 105_858_189,
-    puid: "wikidata/105858189",
+    source_type: SourceType::Wikidata,
     name: "Elite Japan Crossword Puzzle",
     extensions: &["ejp"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10814198890374693472: FileFormat = FileFormat {
-    id: 10_814_198_890_374_693_472,
-    puid: "httpd/10814198890374693472",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "djvu",
     extensions: &["djvu", "djv"],
     media_types: &["image/vnd.djvu"],

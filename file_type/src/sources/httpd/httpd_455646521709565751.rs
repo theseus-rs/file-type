@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_455646521709565751: FileFormat = FileFormat {
-    id: 455_646_521_709_565_751,
-    puid: "httpd/455646521709565751",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "adobe air application installer package zip",
     extensions: &["air"],
     media_types: &["application/vnd.adobe.air-application-installer-package+zip"],

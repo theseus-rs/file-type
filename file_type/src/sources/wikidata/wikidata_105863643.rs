@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863643: FileFormat = FileFormat {
     id: 105_863_643,
-    puid: "wikidata/105863643",
+    source_type: SourceType::Wikidata,
     name: "MaxTrax module",
     extensions: &["mxtx"],
     media_types: &["audio/x-mod"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857785: FileFormat = FileFormat {
     id: 105_857_785,
-    puid: "wikidata/105857785",
+    source_type: SourceType::Wikidata,
     name: "JFD Disk Image (unzipped)",
     extensions: &["jfd"],
     media_types: &["application/octet-stream"],

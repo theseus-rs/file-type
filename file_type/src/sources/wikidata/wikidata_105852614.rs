@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852614: FileFormat = FileFormat {
     id: 105_852_614,
-    puid: "wikidata/105852614",
+    source_type: SourceType::Wikidata,
     name: "CPBackup backup Settings (v8.x)",
     extensions: &["set"],
     media_types: &["text/plain"],

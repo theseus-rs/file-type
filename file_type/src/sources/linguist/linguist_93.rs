@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_93: FileFormat = FileFormat {
     id: 93,
-    puid: "linguist/93",
+    source_type: SourceType::Linguist,
     name: "ECL",
     extensions: &["ecl", "eclxml"],
     media_types: &["text/x-ecl"],

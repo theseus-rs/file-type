@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864084: FileFormat = FileFormat {
     id: 105_864_084,
-    puid: "wikidata/105864084",
+    source_type: SourceType::Wikidata,
     name: "MathMagic equation File",
     extensions: &["mmf"],
     media_types: &["text/plain"],

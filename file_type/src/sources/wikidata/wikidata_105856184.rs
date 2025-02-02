@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856184: FileFormat = FileFormat {
     id: 105_856_184,
-    puid: "wikidata/105856184",
+    source_type: SourceType::Wikidata,
     name: "PowerISO Direct-Access-Archive image",
     extensions: &["daa"],
     media_types: &[],

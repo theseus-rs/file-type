@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_50308751: FileFormat = FileFormat {
     id: 50_308_751,
-    puid: "wikidata/50308751",
+    source_type: SourceType::Wikidata,
     name: "MIME Email format",
     extensions: &["eml"],
     media_types: &[],

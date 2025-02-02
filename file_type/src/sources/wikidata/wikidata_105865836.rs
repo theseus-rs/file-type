@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865836: FileFormat = FileFormat {
     id: 105_865_836,
-    puid: "wikidata/105865836",
+    source_type: SourceType::Wikidata,
     name: "Artisoft installation Package",
     extensions: &["pak"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_346: FileFormat = FileFormat {
     id: 346,
-    puid: "linguist/346",
+    source_type: SourceType::Linguist,
     name: "Shell",
     extensions: &[
         "bash",

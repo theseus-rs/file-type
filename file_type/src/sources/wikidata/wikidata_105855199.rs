@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855199: FileFormat = FileFormat {
     id: 105_855_199,
-    puid: "wikidata/105855199",
+    source_type: SourceType::Wikidata,
     name: "Windows Explorer saved search",
     extensions: &["fnd"],
     media_types: &[],

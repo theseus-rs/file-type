@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855855: FileFormat = FileFormat {
     id: 105_855_855,
-    puid: "wikidata/105855855",
+    source_type: SourceType::Wikidata,
     name: "ideaMaker print preview data",
     extensions: &["data"],
     media_types: &["application/octet-stream"],

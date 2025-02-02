@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859570: FileFormat = FileFormat {
     id: 105_859_570,
-    puid: "wikidata/105859570",
+    source_type: SourceType::Wikidata,
     name: "virt-viewer configuration",
     extensions: &["vv"],
     media_types: &["application/octet-stream"],

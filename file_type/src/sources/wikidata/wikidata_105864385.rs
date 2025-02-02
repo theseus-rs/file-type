@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864385: FileFormat = FileFormat {
     id: 105_864_385,
-    puid: "wikidata/105864385",
+    source_type: SourceType::Wikidata,
     name: "Word Writer 128 print Parameters/options",
     extensions: &["par"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864827: FileFormat = FileFormat {
     id: 105_864_827,
-    puid: "wikidata/105864827",
+    source_type: SourceType::Wikidata,
     name: "Rebels: Prison Escape game data",
     extensions: &["pak"],
     media_types: &["application/octet-stream"],

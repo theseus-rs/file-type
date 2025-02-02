@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862231: FileFormat = FileFormat {
     id: 105_862_231,
-    puid: "wikidata/105862231",
+    source_type: SourceType::Wikidata,
     name: "Mozilla XUL FastLoad File",
     extensions: &["mfl"],
     media_types: &[],

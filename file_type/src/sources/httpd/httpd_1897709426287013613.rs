@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_1897709426287013613: FileFormat = FileFormat {
-    id: 1_897_709_426_287_013_613,
-    puid: "httpd/1897709426287013613",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "is xpr",
     extensions: &["xpr"],
     media_types: &["application/vnd.is-xpr"],

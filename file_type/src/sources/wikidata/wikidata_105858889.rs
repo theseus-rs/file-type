@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858889: FileFormat = FileFormat {
     id: 105_858_889,
-    puid: "wikidata/105858889",
+    source_type: SourceType::Wikidata,
     name: "QuickLink II Fax bitmap (old)",
     extensions: &["qfx"],
     media_types: &["application/octet-stream"],

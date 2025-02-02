@@ -1,15 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_25822040: FileFormat = FileFormat {
     id: 25_822_040,
-    puid: "wikidata/25822040",
+    source_type: SourceType::Wikidata,
     name: "OSM XML",
     extensions: &["bz2", "osm", "pbf"],
-    media_types: &[
-        "application/vnd.openstreetmap.data+xml",
-        "application/vnd.openstreetmap.data+xml",
-        "application/vnd.openstreetmap.data+xml",
-    ],
+    media_types: &["application/vnd.openstreetmap.data+xml"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

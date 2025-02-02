@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855873: FileFormat = FileFormat {
     id: 105_855_873,
-    puid: "wikidata/105855873",
+    source_type: SourceType::Wikidata,
     name: "Eudemons Online game data",
     extensions: &["dnp"],
     media_types: &[],

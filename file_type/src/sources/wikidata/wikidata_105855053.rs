@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855053: FileFormat = FileFormat {
     id: 105_855_053,
-    puid: "wikidata/105855053",
+    source_type: SourceType::Wikidata,
     name: "ARIS Document File",
     extensions: &["adf"],
     media_types: &["x-application/adf"],

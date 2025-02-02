@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855558: FileFormat = FileFormat {
     id: 105_855_558,
-    puid: "wikidata/105855558",
+    source_type: SourceType::Wikidata,
     name: "Synth Pack module",
     extensions: &["osp"],
     media_types: &["audio/x-mod"],

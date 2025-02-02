@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855606: FileFormat = FileFormat {
     id: 105_855_606,
-    puid: "wikidata/105855606",
+    source_type: SourceType::Wikidata,
     name: "osu! script (.osz ; .osu)",
     extensions: &["osu"],
     media_types: &["text/plain"],

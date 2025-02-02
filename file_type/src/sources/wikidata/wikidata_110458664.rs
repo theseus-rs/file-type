@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_110458664: FileFormat = FileFormat {
     id: 110_458_664,
-    puid: "wikidata/110458664",
+    source_type: SourceType::Wikidata,
     name: "ERDAS Imagine Large Raster Spill File",
     extensions: &["ige"],
     media_types: &[],

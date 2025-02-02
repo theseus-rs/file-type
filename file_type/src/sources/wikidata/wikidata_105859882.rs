@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859882: FileFormat = FileFormat {
     id: 105_859_882,
-    puid: "wikidata/105859882",
+    source_type: SourceType::Wikidata,
     name: "Virtual Skipper skin",
     extensions: &["zip"],
     media_types: &[],

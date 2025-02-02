@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862460: FileFormat = FileFormat {
     id: 105_862_460,
-    puid: "wikidata/105862460",
+    source_type: SourceType::Wikidata,
     name: "Custom Maid 3D 2 Model",
     extensions: &["model"],
     media_types: &["application/octet-stream"],

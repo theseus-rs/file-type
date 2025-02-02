@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967113: FileFormat = FileFormat {
     id: 27_967_113,
-    puid: "wikidata/27967113",
+    source_type: SourceType::Wikidata,
     name: "AProSys module",
     extensions: &["aps"],
     media_types: &["audio/x-mod"],

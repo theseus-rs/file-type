@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853594: FileFormat = FileFormat {
     id: 105_853_594,
-    puid: "wikidata/105853594",
+    source_type: SourceType::Wikidata,
     name: "PDS Zip",
     extensions: &["zpk"],
     media_types: &["application/octet-stream"],

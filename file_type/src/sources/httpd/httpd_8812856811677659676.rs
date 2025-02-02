@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_8812856811677659676: FileFormat = FileFormat {
-    id: 8_812_856_811_677_659_676,
-    puid: "httpd/8812856811677659676",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "jsonml json",
     extensions: &["jsonml"],
     media_types: &["application/jsonml+json"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855251: FileFormat = FileFormat {
     id: 105_855_251,
-    puid: "wikidata/105855251",
+    source_type: SourceType::Wikidata,
     name: "WinFlash Flashcard Source (v2)",
     extensions: &["fls"],
     media_types: &["application/octet-stream"],

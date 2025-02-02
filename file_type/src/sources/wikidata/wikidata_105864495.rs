@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864495: FileFormat = FileFormat {
     id: 105_864_495,
-    puid: "wikidata/105864495",
+    source_type: SourceType::Wikidata,
     name: "Particles format (little-endian)",
     extensions: &["pb"],
     media_types: &["application/octet-stream"],

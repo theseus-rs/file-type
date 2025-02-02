@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205659: FileFormat = FileFormat {
     id: 28_205_659,
-    puid: "wikidata/28205659",
+    source_type: SourceType::Wikidata,
     name: "Ability Office PhotoPaint",
     extensions: &["apx"],
     media_types: &["application/octet-stream"],

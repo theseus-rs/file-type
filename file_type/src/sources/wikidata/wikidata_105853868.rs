@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853868: FileFormat = FileFormat {
     id: 105_853_868,
-    puid: "wikidata/105853868",
+    source_type: SourceType::Wikidata,
     name: "mkwACT lossless compressed audio (v2)",
     extensions: &["mkw"],
     media_types: &["application/octet-stream"],

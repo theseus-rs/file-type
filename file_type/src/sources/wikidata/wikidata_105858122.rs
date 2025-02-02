@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858122: FileFormat = FileFormat {
     id: 105_858_122,
-    puid: "wikidata/105858122",
+    source_type: SourceType::Wikidata,
     name: "QDOS QL floppy disk image (DS/HD)",
     extensions: &["img"],
     media_types: &["application/octet-stream"],

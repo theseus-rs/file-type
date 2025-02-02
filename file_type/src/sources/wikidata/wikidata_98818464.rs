@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_98818464: FileFormat = FileFormat {
     id: 98_818_464,
-    puid: "wikidata/98818464",
+    source_type: SourceType::Wikidata,
     name: "Ace Stream Transport",
     extensions: &["acelive"],
     media_types: &["application/octet-stream"],

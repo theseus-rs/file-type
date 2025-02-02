@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205588: FileFormat = FileFormat {
     id: 28_205_588,
-    puid: "wikidata/28205588",
+    source_type: SourceType::Wikidata,
     name: "PaintShop Pro Browser Cache",
     extensions: &["jbf"],
     media_types: &["application/octet-stream"],

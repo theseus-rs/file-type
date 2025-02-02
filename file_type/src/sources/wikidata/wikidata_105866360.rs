@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866360: FileFormat = FileFormat {
     id: 105_866_360,
-    puid: "wikidata/105866360",
+    source_type: SourceType::Wikidata,
     name: "Boeing Calc WorkPad (v3.x)",
     extensions: &["pad"],
     media_types: &["application/octet-stream"],

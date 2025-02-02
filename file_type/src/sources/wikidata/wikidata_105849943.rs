@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849943: FileFormat = FileFormat {
     id: 105_849_943,
-    puid: "wikidata/105849943",
+    source_type: SourceType::Wikidata,
     name: "Lotus 123 configuration (V2.4J)",
     extensions: &["cnf"],
     media_types: &["application/vnd.lotus-1-2-3"],

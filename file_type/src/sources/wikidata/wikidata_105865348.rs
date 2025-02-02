@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865348: FileFormat = FileFormat {
     id: 105_865_348,
-    puid: "wikidata/105865348",
+    source_type: SourceType::Wikidata,
     name: "Windows Live Sync placeholder",
     extensions: &["p2p"],
     media_types: &["application/octet-stream"],

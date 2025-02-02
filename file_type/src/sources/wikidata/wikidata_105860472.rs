@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860472: FileFormat = FileFormat {
     id: 105_860_472,
-    puid: "wikidata/105860472",
+    source_type: SourceType::Wikidata,
     name: "REALbasic/Xojo Project",
     extensions: &["rbp"],
     media_types: &["application/octet-stream"],

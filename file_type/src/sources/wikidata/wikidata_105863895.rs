@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863895: FileFormat = FileFormat {
     id: 105_863_895,
-    puid: "wikidata/105863895",
+    source_type: SourceType::Wikidata,
     name: "METRO 2033 benchmark config",
     extensions: &["mbcfg"],
     media_types: &["text/xml"],

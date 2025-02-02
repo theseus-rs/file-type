@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850715: FileFormat = FileFormat {
     id: 105_850_715,
-    puid: "wikidata/105850715",
+    source_type: SourceType::Wikidata,
     name: "Kalles Fraktaler parameters",
     extensions: &["kfr"],
     media_types: &["application/octet-stream"],

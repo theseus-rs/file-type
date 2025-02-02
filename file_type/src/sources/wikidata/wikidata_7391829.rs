@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_7391829: FileFormat = FileFormat {
     id: 7_391_829,
-    puid: "wikidata/7391829",
+    source_type: SourceType::Wikidata,
     name: "Atari SoundHeader",
     extensions: &["sndh"],
     media_types: &["application/octet-stream"],

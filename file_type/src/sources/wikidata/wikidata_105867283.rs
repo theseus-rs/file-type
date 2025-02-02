@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867283: FileFormat = FileFormat {
     id: 105_867_283,
-    puid: "wikidata/105867283",
+    source_type: SourceType::Wikidata,
     name: "NetBeans Profiler Snapshot",
     extensions: &["nps"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858103: FileFormat = FileFormat {
     id: 105_858_103,
-    puid: "wikidata/105858103",
+    source_type: SourceType::Wikidata,
     name: "Xilinx iMPACT Programming File (JEDEC)",
     extensions: &["ipf"],
     media_types: &["application/octet-stream"],

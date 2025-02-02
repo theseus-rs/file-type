@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856812: FileFormat = FileFormat {
     id: 105_856_812,
-    puid: "wikidata/105856812",
+    source_type: SourceType::Wikidata,
     name: "Mind Games - Checkers saved game",
     extensions: &["gam"],
     media_types: &["application/octet-stream"],

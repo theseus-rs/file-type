@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861854: FileFormat = FileFormat {
     id: 105_861_854,
-    puid: "wikidata/105861854",
+    source_type: SourceType::Wikidata,
     name: "Atari Digi-Mix module",
     extensions: &["mix"],
     media_types: &["audio/x-mod"],

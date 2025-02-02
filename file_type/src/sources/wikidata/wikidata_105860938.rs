@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860938: FileFormat = FileFormat {
     id: 105_860_938,
-    puid: "wikidata/105860938",
+    source_type: SourceType::Wikidata,
     name: "Open Office XML Relationships",
     extensions: &["rels"],
     media_types: &[],

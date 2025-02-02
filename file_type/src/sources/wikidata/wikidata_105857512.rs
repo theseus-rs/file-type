@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857512: FileFormat = FileFormat {
     id: 105_857_512,
-    puid: "wikidata/105857512",
+    source_type: SourceType::Wikidata,
     name: "Dalton's Disk Disintegrator Pro disk image",
     extensions: &["ddd"],
     media_types: &["application/octet-stream"],

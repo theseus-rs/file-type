@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862556: FileFormat = FileFormat {
     id: 105_862_556,
-    puid: "wikidata/105862556",
+    source_type: SourceType::Wikidata,
     name: "MINC2 Medical Imaging format",
-    extensions: &["mnc", "mnc"],
+    extensions: &["mnc"],
     media_types: &["application/octet-stream", "application/x-minc"],
     internal_signatures: &[
         InternalSignature {

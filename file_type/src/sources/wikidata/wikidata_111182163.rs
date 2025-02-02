@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_111182163: FileFormat = FileFormat {
     id: 111_182_163,
-    puid: "wikidata/111182163",
+    source_type: SourceType::Wikidata,
     name: "Dreamweaver Webpage Template",
     extensions: &["dwt"],
     media_types: &[],

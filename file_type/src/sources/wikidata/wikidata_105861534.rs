@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861534: FileFormat = FileFormat {
     id: 105_861_534,
-    puid: "wikidata/105861534",
+    source_type: SourceType::Wikidata,
     name: "LAS sidecar auxilliary data",
     extensions: &["lasx"],
     media_types: &["application/octet-stream"],

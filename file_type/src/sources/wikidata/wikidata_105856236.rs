@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856236: FileFormat = FileFormat {
     id: 105_856_236,
-    puid: "wikidata/105856236",
+    source_type: SourceType::Wikidata,
     name: "Microsoft App-V Sequencer Differential SFT",
     extensions: &["dsft"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855892: FileFormat = FileFormat {
     id: 105_855_892,
-    puid: "wikidata/105855892",
+    source_type: SourceType::Wikidata,
     name: "DER encoded X509 Certificate",
     extensions: &["der"],
     media_types: &[],

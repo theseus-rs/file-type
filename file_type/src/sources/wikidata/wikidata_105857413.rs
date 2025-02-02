@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857413: FileFormat = FileFormat {
     id: 105_857_413,
-    puid: "wikidata/105857413",
+    source_type: SourceType::Wikidata,
     name: "JTAG Indirect Configuration",
     extensions: &["jic"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852507: FileFormat = FileFormat {
     id: 105_852_507,
-    puid: "wikidata/105852507",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Speech Definitions File",
     extensions: &["sdf"],
     media_types: &["application/octet-stream"],

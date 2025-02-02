@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856582: FileFormat = FileFormat {
     id: 105_856_582,
-    puid: "wikidata/105856582",
+    source_type: SourceType::Wikidata,
     name: "Wipeout 2097 track data",
     extensions: &["wad"],
     media_types: &["application/octet-stream"],

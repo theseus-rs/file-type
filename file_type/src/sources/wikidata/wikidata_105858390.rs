@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858390: FileFormat = FileFormat {
     id: 105_858_390,
-    puid: "wikidata/105858390",
+    source_type: SourceType::Wikidata,
     name: "Ultiboard netlist data",
     extensions: &["ewnet"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_72825441: FileFormat = FileFormat {
     id: 72_825_441,
-    puid: "wikidata/72825441",
+    source_type: SourceType::Wikidata,
     name: "Psion Organiser Block data",
     extensions: &["obx"],
     media_types: &["application/octet-stream"],

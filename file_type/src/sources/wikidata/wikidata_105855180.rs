@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855180: FileFormat = FileFormat {
     id: 105_855_180,
-    puid: "wikidata/105855180",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Fast Find Index v1.x",
     extensions: &["ffx"],
     media_types: &[],

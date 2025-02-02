@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857730: FileFormat = FileFormat {
     id: 105_857_730,
-    puid: "wikidata/105857730",
+    source_type: SourceType::Wikidata,
     name: "Autodesk Inventor Wire Library",
     extensions: &["iwl"],
     media_types: &["text/xml"],

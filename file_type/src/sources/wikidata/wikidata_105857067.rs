@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857067: FileFormat = FileFormat {
     id: 105_857_067,
-    puid: "wikidata/105857067",
+    source_type: SourceType::Wikidata,
     name: "Greenfish Icon Editor Pro",
     extensions: &["gfi", "gfie"],
     media_types: &[],

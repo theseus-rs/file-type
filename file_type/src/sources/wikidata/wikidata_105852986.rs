@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852986: FileFormat = FileFormat {
     id: 105_852_986,
-    puid: "wikidata/105852986",
+    source_type: SourceType::Wikidata,
     name: "Spruce subtitles (with rem)",
     extensions: &["stl"],
     media_types: &["text/plain"],

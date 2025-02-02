@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851124: FileFormat = FileFormat {
     id: 105_851_124,
-    puid: "wikidata/105851124",
+    source_type: SourceType::Wikidata,
     name: "Telmac 600 program",
     extensions: &["tmc600"],
     media_types: &["application/octet-stream"],

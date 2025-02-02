@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_128123256: FileFormat = FileFormat {
     id: 128_123_256,
-    puid: "wikidata/128123256",
+    source_type: SourceType::Wikidata,
     name: "Stylus file format",
     extensions: &["styl"],
     media_types: &[],

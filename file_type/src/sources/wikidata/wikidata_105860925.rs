@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860925: FileFormat = FileFormat {
     id: 105_860_925,
-    puid: "wikidata/105860925",
+    source_type: SourceType::Wikidata,
     name: "Ruby RDoc Options",
     extensions: &["rdoc_options"],
     media_types: &[],

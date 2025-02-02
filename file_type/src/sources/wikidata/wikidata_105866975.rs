@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866975: FileFormat = FileFormat {
     id: 105_866_975,
-    puid: "wikidata/105866975",
+    source_type: SourceType::Wikidata,
     name: "Hamamatsu NanoZoomer Digital Pathology Image",
     extensions: &["ndpi"],
     media_types: &["application/octet-stream"],

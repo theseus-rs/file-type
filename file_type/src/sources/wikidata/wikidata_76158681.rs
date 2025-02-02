@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_76158681: FileFormat = FileFormat {
     id: 76_158_681,
-    puid: "wikidata/76158681",
+    source_type: SourceType::Wikidata,
     name: "Hamamatsu Uncompressed Virtual Microscope Specimen",
     extensions: &["vmu"],
     media_types: &["text/plain"],

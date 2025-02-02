@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858290: FileFormat = FileFormat {
     id: 105_858_290,
-    puid: "wikidata/105858290",
+    source_type: SourceType::Wikidata,
     name: "ATI The Compressonator plugin",
     extensions: &["dll"],
     media_types: &["application/octet-stream"],

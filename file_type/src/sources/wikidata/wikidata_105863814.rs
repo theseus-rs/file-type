@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863814: FileFormat = FileFormat {
     id: 105_863_814,
-    puid: "wikidata/105863814",
+    source_type: SourceType::Wikidata,
     name: "MinGW Developer Studio Project",
     extensions: &["mdsp"],
     media_types: &["text/ini"],

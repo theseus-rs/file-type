@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853580: FileFormat = FileFormat {
     id: 105_853_580,
-    puid: "wikidata/105853580",
+    source_type: SourceType::Wikidata,
     name: "ZenPhoto Database Backup",
     extensions: &["zdb"],
     media_types: &["text/plain"],

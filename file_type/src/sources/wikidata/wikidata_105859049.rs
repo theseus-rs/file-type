@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859049: FileFormat = FileFormat {
     id: 105_859_049,
-    puid: "wikidata/105859049",
+    source_type: SourceType::Wikidata,
     name: "BMW TIS grayscale bitmap",
     extensions: &["itw"],
     media_types: &["application/octet-stream"],

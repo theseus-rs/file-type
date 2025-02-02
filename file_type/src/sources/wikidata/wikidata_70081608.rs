@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_70081608: FileFormat = FileFormat {
     id: 70_081_608,
-    puid: "wikidata/70081608",
+    source_type: SourceType::Wikidata,
     name: "Oracle FM instruments Library format",
     extensions: &["fml"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_79242036: FileFormat = FileFormat {
     id: 79_242_036,
-    puid: "wikidata/79242036",
+    source_type: SourceType::Wikidata,
     name: "American College of Radiology file",
     extensions: &["acr"],
     media_types: &[],

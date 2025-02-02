@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855326: FileFormat = FileFormat {
     id: 105_855_326,
-    puid: "wikidata/105855326",
+    source_type: SourceType::Wikidata,
     name: "Farscape: The Game Animation data",
     extensions: &["fsa"],
     media_types: &["application/octet-stream"],

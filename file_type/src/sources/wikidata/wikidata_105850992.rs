@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850992: FileFormat = FileFormat {
     id: 105_850_992,
-    puid: "wikidata/105850992",
+    source_type: SourceType::Wikidata,
     name: "CodeWarrior Target Data (Little Endian)",
     extensions: &["tdt"],
     media_types: &["application/octet-stream"],

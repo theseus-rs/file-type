@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854065: FileFormat = FileFormat {
     id: 105_854_065,
-    puid: "wikidata/105854065",
+    source_type: SourceType::Wikidata,
     name: "VOCPACK lossless compressed audio",
     extensions: &["vp"],
     media_types: &["application/octet-stream"],

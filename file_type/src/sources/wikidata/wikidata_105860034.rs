@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860034: FileFormat = FileFormat {
     id: 105_860_034,
-    puid: "wikidata/105860034",
+    source_type: SourceType::Wikidata,
     name: "PlayStation Portable Movie Format",
     extensions: &["pmf"],
     media_types: &["application/octet-stream"],

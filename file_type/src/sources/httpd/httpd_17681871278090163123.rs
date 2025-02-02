@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17681871278090163123: FileFormat = FileFormat {
-    id: 17_681_871_278_090_163_123,
-    puid: "httpd/17681871278090163123",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mobipocket ebook",
     extensions: &["prc", "mobi"],
     media_types: &["application/x-mobipocket-ebook"],

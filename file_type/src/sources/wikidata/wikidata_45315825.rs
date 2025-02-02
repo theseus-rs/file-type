@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_45315825: FileFormat = FileFormat {
     id: 45_315_825,
-    puid: "wikidata/45315825",
+    source_type: SourceType::Wikidata,
     name: "Macromedia Freehand file format, version 10",
     extensions: &["fh10"],
     media_types: &[],

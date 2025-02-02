@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857565: FileFormat = FileFormat {
     id: 105_857_565,
-    puid: "wikidata/105857565",
+    source_type: SourceType::Wikidata,
     name: "WOZ disk image (v2)",
     extensions: &["woz"],
     media_types: &["application/octet-stream"],

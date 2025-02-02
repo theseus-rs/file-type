@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_55739333: FileFormat = FileFormat {
     id: 55_739_333,
-    puid: "wikidata/55739333",
+    source_type: SourceType::Wikidata,
     name: "CRAM file format, version 2",
     extensions: &["cram"],
     media_types: &[],

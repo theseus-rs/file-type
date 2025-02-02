@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206171: FileFormat = FileFormat {
     id: 28_206_171,
-    puid: "wikidata/28206171",
+    source_type: SourceType::Wikidata,
     name: "GIMP Animated Brush",
     extensions: &["gih"],
     media_types: &[],

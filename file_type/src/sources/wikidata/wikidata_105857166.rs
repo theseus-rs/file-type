@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857166: FileFormat = FileFormat {
     id: 105_857_166,
-    puid: "wikidata/105857166",
+    source_type: SourceType::Wikidata,
     name: "ERDAS Imagine Hierarchical File Architecture",
     extensions: &["hfa"],
     media_types: &["application/x-erdas-hfa"],

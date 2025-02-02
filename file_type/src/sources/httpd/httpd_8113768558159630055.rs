@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_8113768558159630055: FileFormat = FileFormat {
-    id: 8_113_768_558_159_630_055,
-    puid: "httpd/8113768558159630055",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "openxmlformats officedocument wordprocessingml template",
     extensions: &["dotx"],
     media_types: &["application/vnd.openxmlformats-officedocument.wordprocessingml.template"],

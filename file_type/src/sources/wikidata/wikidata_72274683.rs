@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_72274683: FileFormat = FileFormat {
     id: 72_274_683,
-    puid: "wikidata/72274683",
+    source_type: SourceType::Wikidata,
     name: "Mozilla Address Book",
     extensions: &["mab"],
     media_types: &["text/plain"],

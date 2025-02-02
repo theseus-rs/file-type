@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862915: FileFormat = FileFormat {
     id: 105_862_915,
-    puid: "wikidata/105862915",
+    source_type: SourceType::Wikidata,
     name: "GNU Octave Matrix data (text)",
     extensions: &["mat"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857334: FileFormat = FileFormat {
     id: 105_857_334,
-    puid: "wikidata/105857334",
+    source_type: SourceType::Wikidata,
     name: "JCreator Workspace (v1.0)",
     extensions: &["jcw"],
     media_types: &["text/plain"],

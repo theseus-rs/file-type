@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857433: FileFormat = FileFormat {
     id: 105_857_433,
-    puid: "wikidata/105857433",
+    source_type: SourceType::Wikidata,
     name: "Atlantis Evolution game data archive",
     extensions: &["jp6"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_50288128: FileFormat = FileFormat {
     id: 50_288_128,
-    puid: "wikidata/50288128",
+    source_type: SourceType::Wikidata,
     name: "Mathcad Document, XML file format",
     extensions: &["xmcd"],
     media_types: &[],

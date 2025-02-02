@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851107: FileFormat = FileFormat {
     id: 105_851_107,
-    puid: "wikidata/105851107",
+    source_type: SourceType::Wikidata,
     name: "TePee Animator Project (v1.0)",
     extensions: &["tap"],
     media_types: &["application/octet-stream"],

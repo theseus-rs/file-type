@@ -1,14 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859788: FileFormat = FileFormat {
     id: 105_859_788,
-    puid: "wikidata/105859788",
+    source_type: SourceType::Wikidata,
     name: "VirtualBox machine definition",
     extensions: &["vbox", "vbox-prev"],
-    media_types: &[
-        "application/x-virtualbox-vbox",
-        "application/x-virtualbox-vbox",
-    ],
+    media_types: &["application/x-virtualbox-vbox"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857637: FileFormat = FileFormat {
     id: 105_857_637,
-    puid: "wikidata/105857637",
+    source_type: SourceType::Wikidata,
     name: "PC-Fullbak volume disk image",
     extensions: &["dsk"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850084: FileFormat = FileFormat {
     id: 105_850_084,
-    puid: "wikidata/105850084",
+    source_type: SourceType::Wikidata,
     name: "Windows FAX cover",
     extensions: &["cpe"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856091: FileFormat = FileFormat {
     id: 105_856_091,
-    puid: "wikidata/105856091",
+    source_type: SourceType::Wikidata,
     name: "Dynamic Studio Professional module",
     extensions: &["dsm"],
     media_types: &["audio/x-mod"],

@@ -1,16 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_977900: FileFormat = FileFormat {
     id: 977_900,
-    puid: "wikidata/977900",
+    source_type: SourceType::Wikidata,
     name: "Open XML Paper Specification",
-    extensions: &["oxps", "oxps", "xps", "xps"],
-    media_types: &[
-        "application/oxps",
-        "application/oxps",
-        "application/vnd.ms-xpsdocument",
-        "application/vnd.ms-xpsdocument",
-    ],
+    extensions: &["oxps", "xps"],
+    media_types: &["application/oxps", "application/vnd.ms-xpsdocument"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

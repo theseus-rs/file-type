@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856818: FileFormat = FileFormat {
     id: 105_856_818,
-    puid: "wikidata/105856818",
+    source_type: SourceType::Wikidata,
     name: "Game Maker 6 project",
     extensions: &["gm6"],
     media_types: &[],

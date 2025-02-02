@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866519: FileFormat = FileFormat {
     id: 105_866_519,
-    puid: "wikidata/105866519",
+    source_type: SourceType::Wikidata,
     name: "PGP signature",
     extensions: &["asc"],
     media_types: &["text/plain"],

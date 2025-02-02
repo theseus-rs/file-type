@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853108: FileFormat = FileFormat {
     id: 105_853_108,
-    puid: "wikidata/105853108",
+    source_type: SourceType::Wikidata,
     name: "Winamp Signal Processing Studio DSP-Effect",
     extensions: &["sps"],
     media_types: &[],

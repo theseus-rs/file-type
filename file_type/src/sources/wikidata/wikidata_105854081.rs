@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854081: FileFormat = FileFormat {
     id: 105_854_081,
-    puid: "wikidata/105854081",
+    source_type: SourceType::Wikidata,
     name: "Yamaha TX-16W samples audio",
     extensions: &["txw"],
     media_types: &["application/octet-stream"],

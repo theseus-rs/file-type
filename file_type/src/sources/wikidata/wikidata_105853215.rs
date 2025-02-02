@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853215: FileFormat = FileFormat {
     id: 105_853_215,
-    puid: "wikidata/105853215",
+    source_type: SourceType::Wikidata,
     name: "SDL Trados XLIFF Localization data",
     extensions: &["sdlxliff"],
     media_types: &[],

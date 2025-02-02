@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854282: FileFormat = FileFormat {
     id: 105_854_282,
-    puid: "wikidata/105854282",
+    source_type: SourceType::Wikidata,
     name: "Authorware Shocked File (Map)",
     extensions: &["aam"],
     media_types: &[],

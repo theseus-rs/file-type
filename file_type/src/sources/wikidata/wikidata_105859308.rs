@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859308: FileFormat = FileFormat {
     id: 105_859_308,
-    puid: "wikidata/105859308",
+    source_type: SourceType::Wikidata,
     name: "Koala Micro Illustrator bitmap",
     extensions: &["pic"],
     media_types: &["application/octet-stream"],

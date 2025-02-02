@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856631: FileFormat = FileFormat {
     id: 105_856_631,
-    puid: "wikidata/105856631",
+    source_type: SourceType::Wikidata,
     name: "Turtle Beach WaveFront sound Bank",
     extensions: &["wfb"],
     media_types: &["application/octet-stream"],

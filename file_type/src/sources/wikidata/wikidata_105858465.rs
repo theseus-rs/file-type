@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858465: FileFormat = FileFormat {
     id: 105_858_465,
-    puid: "wikidata/105858465",
+    source_type: SourceType::Wikidata,
     name: "CyberAIDS infected Apple 2 executable",
     extensions: &["sys"],
     media_types: &["application/octet-stream"],

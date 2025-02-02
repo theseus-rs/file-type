@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850753: FileFormat = FileFormat {
     id: 105_850_753,
-    puid: "wikidata/105850753",
+    source_type: SourceType::Wikidata,
     name: "Mac OS installable Keyboard Layout (UTF-16 BE)",
     extensions: &["keylayout"],
     media_types: &["text/xml"],

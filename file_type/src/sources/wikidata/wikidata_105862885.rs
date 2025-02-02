@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862885: FileFormat = FileFormat {
     id: 105_862_885,
-    puid: "wikidata/105862885",
+    source_type: SourceType::Wikidata,
     name: "MindView Windows Document",
     extensions: &["mvdx"],
     media_types: &["application/octet-stream"],

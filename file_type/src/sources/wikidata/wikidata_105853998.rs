@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853998: FileFormat = FileFormat {
     id: 105_853_998,
-    puid: "wikidata/105853998",
+    source_type: SourceType::Wikidata,
     name: "ATF Texture",
     extensions: &["atf"],
     media_types: &["application/octet-stream"],

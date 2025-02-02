@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850372: FileFormat = FileFormat {
     id: 105_850_372,
-    puid: "wikidata/105850372",
+    source_type: SourceType::Wikidata,
     name: "WildMidi Configuration",
     extensions: &["cfg"],
     media_types: &["text/plain"],

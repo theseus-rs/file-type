@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_304: FileFormat = FileFormat {
     id: 304,
-    puid: "linguist/304",
+    source_type: SourceType::Linguist,
     name: "Python traceback",
     extensions: &["pytb"],
     media_types: &[],

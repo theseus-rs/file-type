@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_110501909: FileFormat = FileFormat {
     id: 110_501_909,
-    puid: "wikidata/110501909",
+    source_type: SourceType::Wikidata,
     name: "ColdFusion Markup Language format",
     extensions: &["cfm"],
     media_types: &["application/x-coldfusion"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853163: FileFormat = FileFormat {
     id: 105_853_163,
-    puid: "wikidata/105853163",
+    source_type: SourceType::Wikidata,
     name: "American's McGee's Alice Saved Game File",
     extensions: &["sav", "spv"],
     media_types: &[],

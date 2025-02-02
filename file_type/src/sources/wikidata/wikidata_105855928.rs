@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855928: FileFormat = FileFormat {
     id: 105_855_928,
-    puid: "wikidata/105855928",
+    source_type: SourceType::Wikidata,
     name: "Colin McRae DiRT game data archive",
     extensions: &["dic"],
     media_types: &["application/octet-stream"],

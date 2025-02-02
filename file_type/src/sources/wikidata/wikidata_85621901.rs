@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_85621901: FileFormat = FileFormat {
     id: 85_621_901,
-    puid: "wikidata/85621901",
+    source_type: SourceType::Wikidata,
     name: "PFS:First Choice Graph",
     extensions: &["gra"],
     media_types: &["application/octet-stream"],

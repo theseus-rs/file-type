@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856363: FileFormat = FileFormat {
     id: 105_856_363,
-    puid: "wikidata/105856363",
+    source_type: SourceType::Wikidata,
     name: "Furcadia DragonSpeak Script",
     extensions: &["ds"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849756: FileFormat = FileFormat {
     id: 105_849_756,
-    puid: "wikidata/105849756",
+    source_type: SourceType::Wikidata,
     name: "ColorSchemer Studio Color Scheme",
     extensions: &["cs"],
     media_types: &[],

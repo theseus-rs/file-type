@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855135: FileFormat = FileFormat {
     id: 105_855_135,
-    puid: "wikidata/105855135",
+    source_type: SourceType::Wikidata,
     name: "Windows PowerShell formatting (UTF-8)",
     extensions: &["ps1xml"],
     media_types: &["application/octet-stream"],

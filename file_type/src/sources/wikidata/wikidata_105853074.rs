@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853074: FileFormat = FileFormat {
     id: 105_853_074,
-    puid: "wikidata/105853074",
+    source_type: SourceType::Wikidata,
     name: "Unreal Engine 4 save game",
     extensions: &["sav"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857379: FileFormat = FileFormat {
     id: 105_857_379,
-    puid: "wikidata/105857379",
+    source_type: SourceType::Wikidata,
     name: "CryENGINE DBATable",
     extensions: &["json"],
     media_types: &["text/json"],

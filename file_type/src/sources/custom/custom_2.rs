@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const CUSTOM_2: FileFormat = FileFormat {
     id: 2,
-    puid: "custom/2",
+    source_type: SourceType::Custom,
     name: "Apache Avro",
     extensions: &["avro"],
     media_types: &["application/vnd.apache.avro.file"],

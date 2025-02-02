@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_11260398242129167003: FileFormat = FileFormat {
-    id: 11_260_398_242_129_167_003,
-    puid: "httpd/11260398242129167003",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "patch ops error xml",
     extensions: &["xer"],
     media_types: &["application/patch-ops-error+xml"],

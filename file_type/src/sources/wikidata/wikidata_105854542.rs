@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854542: FileFormat = FileFormat {
     id: 105_854_542,
-    puid: "wikidata/105854542",
+    source_type: SourceType::Wikidata,
     name: "Audacity Block File",
     extensions: &["auf"],
     media_types: &[],

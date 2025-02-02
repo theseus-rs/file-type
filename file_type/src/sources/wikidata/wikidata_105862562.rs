@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862562: FileFormat = FileFormat {
     id: 105_862_562,
-    puid: "wikidata/105862562",
+    source_type: SourceType::Wikidata,
     name: "Amazing Mahjongg 3D Tile set",
     extensions: &["mjt"],
     media_types: &["application/octet-stream"],

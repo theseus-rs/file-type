@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850154: FileFormat = FileFormat {
     id: 105_850_154,
-    puid: "wikidata/105850154",
+    source_type: SourceType::Wikidata,
     name: "Chem3D XML format",
     extensions: &["c3xml"],
     media_types: &[],

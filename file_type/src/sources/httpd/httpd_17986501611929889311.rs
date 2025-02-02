@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17986501611929889311: FileFormat = FileFormat {
-    id: 17_986_501_611_929_889_311,
-    puid: "httpd/17986501611929889311",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "sun xml calc template",
     extensions: &["stc"],
     media_types: &["application/vnd.sun.xml.calc.template"],

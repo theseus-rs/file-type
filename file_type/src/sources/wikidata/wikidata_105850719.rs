@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850719: FileFormat = FileFormat {
     id: 105_850_719,
-    puid: "wikidata/105850719",
+    source_type: SourceType::Wikidata,
     name: "KetabeAvval Data Format",
     extensions: &["kadf"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_947461016: FileFormat = FileFormat {
     id: 947_461_016,
-    puid: "linguist/947461016",
+    source_type: SourceType::Linguist,
     name: "Go Module",
     extensions: &[],
     media_types: &[],

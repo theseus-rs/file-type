@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859120: FileFormat = FileFormat {
     id: 105_859_120,
-    puid: "wikidata/105859120",
+    source_type: SourceType::Wikidata,
     name: "PM XV bitmap (alt.endianess)",
     extensions: &["pm"],
     media_types: &["application/octet-stream"],

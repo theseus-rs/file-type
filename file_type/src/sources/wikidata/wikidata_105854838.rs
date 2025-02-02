@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854838: FileFormat = FileFormat {
     id: 105_854_838,
-    puid: "wikidata/105854838",
+    source_type: SourceType::Wikidata,
     name: "Ay Emul play List",
     extensions: &["ayl"],
     media_types: &["text/plain"],

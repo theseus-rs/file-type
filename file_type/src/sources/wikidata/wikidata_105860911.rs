@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860911: FileFormat = FileFormat {
     id: 105_860_911,
-    puid: "wikidata/105860911",
+    source_type: SourceType::Wikidata,
     name: "SpartaDOS X binary image",
     extensions: &["rom"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853214: FileFormat = FileFormat {
     id: 105_853_214,
-    puid: "wikidata/105853214",
+    source_type: SourceType::Wikidata,
     name: "GFA Raytrace compressed Animation (hi-res)",
     extensions: &["sah"],
     media_types: &["application/octet-stream"],

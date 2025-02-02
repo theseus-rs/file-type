@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866076: FileFormat = FileFormat {
     id: 105_866_076,
-    puid: "wikidata/105866076",
+    source_type: SourceType::Wikidata,
     name: "PSF2 Playstation 2 Sound Format rip",
     extensions: &["psf2", "psf2lib"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

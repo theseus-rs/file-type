@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_48802090: FileFormat = FileFormat {
     id: 48_802_090,
-    puid: "wikidata/48802090",
+    source_type: SourceType::Wikidata,
     name: "Aldus Freehand Drawing, version 3",
     extensions: &["fh3"],
     media_types: &["application/x-freehand"],

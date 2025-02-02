@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858371: FileFormat = FileFormat {
     id: 105_858_371,
-    puid: "wikidata/105858371",
+    source_type: SourceType::Wikidata,
     name: "EasyPlot save file",
     extensions: &["ep", "epw", "ezp", "txt"],
     media_types: &[],

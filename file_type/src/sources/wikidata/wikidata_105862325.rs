@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862325: FileFormat = FileFormat {
     id: 105_862_325,
-    puid: "wikidata/105862325",
+    source_type: SourceType::Wikidata,
     name: "Aegis Videoscape 3D Motion",
     extensions: &["mot"],
     media_types: &["text/plain"],

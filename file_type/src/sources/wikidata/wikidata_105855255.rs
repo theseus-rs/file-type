@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855255: FileFormat = FileFormat {
     id: 105_855_255,
-    puid: "wikidata/105855255",
+    source_type: SourceType::Wikidata,
     name: "Gravis Firebird 2 configuration",
     extensions: &["fbd"],
     media_types: &["text/plain"],

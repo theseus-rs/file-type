@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864858: FileFormat = FileFormat {
     id: 105_864_858,
-    puid: "wikidata/105864858",
+    source_type: SourceType::Wikidata,
     name: "PhotoLine browse index",
     extensions: &["plb"],
     media_types: &[],

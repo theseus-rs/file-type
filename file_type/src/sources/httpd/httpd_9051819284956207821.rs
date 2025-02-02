@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_9051819284956207821: FileFormat = FileFormat {
-    id: 9_051_819_284_956_207_821,
-    puid: "httpd/9051819284956207821",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "sun xml impress template",
     extensions: &["sti"],
     media_types: &["application/vnd.sun.xml.impress.template"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27939181: FileFormat = FileFormat {
     id: 27_939_181,
-    puid: "wikidata/27939181",
+    source_type: SourceType::Wikidata,
     name: "Enhanced Compression Wavelet, version 3",
     extensions: &["ecw"],
     media_types: &[],

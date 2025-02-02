@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28777713: FileFormat = FileFormat {
     id: 28_777_713,
-    puid: "wikidata/28777713",
+    source_type: SourceType::Wikidata,
     name: "NetImmerse file format",
     extensions: &["nif"],
     media_types: &[],

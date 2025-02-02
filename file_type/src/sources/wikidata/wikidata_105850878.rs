@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850878: FileFormat = FileFormat {
     id: 105_850_878,
-    puid: "wikidata/105850878",
+    source_type: SourceType::Wikidata,
     name: "Korg Trinity/Triton sample",
     extensions: &["ksf"],
     media_types: &[],

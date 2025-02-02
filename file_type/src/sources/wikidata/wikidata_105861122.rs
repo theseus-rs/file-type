@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861122: FileFormat = FileFormat {
     id: 105_861_122,
-    puid: "wikidata/105861122",
+    source_type: SourceType::Wikidata,
     name: "Magnetic Scrolls Collection Layout",
     extensions: &["lay"],
     media_types: &["application/octet-stream"],

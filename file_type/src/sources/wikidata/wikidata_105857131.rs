@@ -1,14 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857131: FileFormat = FileFormat {
     id: 105_857_131,
-    puid: "wikidata/105857131",
+    source_type: SourceType::Wikidata,
     name: "GNU Gettext Machine Object (big endian)",
     extensions: &["gmo", "mo"],
-    media_types: &[
-        "application/x-gettext-translation",
-        "application/x-gettext-translation",
-    ],
+    media_types: &["application/x-gettext-translation"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

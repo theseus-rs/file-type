@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861618: FileFormat = FileFormat {
     id: 105_861_618,
-    puid: "wikidata/105861618",
+    source_type: SourceType::Wikidata,
     name: "Logix Designer project import/export format",
     extensions: &["l5k"],
     media_types: &["text/plain"],

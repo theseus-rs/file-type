@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858604: FileFormat = FileFormat {
     id: 105_858_604,
-    puid: "wikidata/105858604",
+    source_type: SourceType::Wikidata,
     name: "CHP! - CH compressor for Picture! compressed bitmap",
     extensions: &["chp"],
     media_types: &[],

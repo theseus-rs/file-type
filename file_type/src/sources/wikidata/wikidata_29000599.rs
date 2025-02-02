@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29000599: FileFormat = FileFormat {
     id: 29_000_599,
-    puid: "wikidata/29000599",
+    source_type: SourceType::Wikidata,
     name: "Windows Shortcut",
-    extensions: &["lnk", "lnk"],
-    media_types: &["application/x-ms-shortcut", "application/x-ms-shortcut"],
+    extensions: &["lnk"],
+    media_types: &["application/x-ms-shortcut"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

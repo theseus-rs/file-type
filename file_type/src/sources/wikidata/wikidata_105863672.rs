@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863672: FileFormat = FileFormat {
     id: 105_863_672,
-    puid: "wikidata/105863672",
+    source_type: SourceType::Wikidata,
     name: "Palm Memo Pad Archive",
     extensions: &["mpa"],
     media_types: &["application/octet-stream"],

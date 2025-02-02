@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14560088302329463820: FileFormat = FileFormat {
-    id: 14_560_088_302_329_463_820,
-    puid: "httpd/14560088302329463820",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "dynageo",
     extensions: &["geo"],
     media_types: &["application/vnd.dynageo"],

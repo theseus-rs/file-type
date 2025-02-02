@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853743: FileFormat = FileFormat {
     id: 105_853_743,
-    puid: "wikidata/105853743",
+    source_type: SourceType::Wikidata,
     name: "Cryo Interactive APC audio",
     extensions: &["apc"],
     media_types: &[],

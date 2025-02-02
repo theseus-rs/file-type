@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857183: FileFormat = FileFormat {
     id: 105_857_183,
-    puid: "wikidata/105857183",
+    source_type: SourceType::Wikidata,
     name: "Heroes of Might and Magic IV game data archive",
     extensions: &["h4r"],
     media_types: &["application/octet-stream"],

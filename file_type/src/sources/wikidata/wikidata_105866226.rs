@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866226: FileFormat = FileFormat {
     id: 105_866_226,
-    puid: "wikidata/105866226",
+    source_type: SourceType::Wikidata,
     name: "PC-Axis data (var 2)",
     extensions: &["px"],
     media_types: &["text/plain"],

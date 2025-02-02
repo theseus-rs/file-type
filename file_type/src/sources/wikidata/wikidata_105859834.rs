@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859834: FileFormat = FileFormat {
     id: 105_859_834,
-    puid: "wikidata/105859834",
+    source_type: SourceType::Wikidata,
     name: "LABView Virtual Instrument",
     extensions: &["vi"],
     media_types: &[],

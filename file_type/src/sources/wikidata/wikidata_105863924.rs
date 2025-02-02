@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863924: FileFormat = FileFormat {
     id: 105_863_924,
-    puid: "wikidata/105863924",
+    source_type: SourceType::Wikidata,
     name: "MPAK game data archive",
     extensions: &["mpak"],
     media_types: &["application/octet-stream"],

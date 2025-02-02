@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850755: FileFormat = FileFormat {
     id: 105_850_755,
-    puid: "wikidata/105850755",
+    source_type: SourceType::Wikidata,
     name: "IBM i (Client) Access Keyboard Map",
     extensions: &["kmp"],
     media_types: &["text/plain"],

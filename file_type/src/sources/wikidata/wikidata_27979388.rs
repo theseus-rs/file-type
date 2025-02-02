@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27979388: FileFormat = FileFormat {
     id: 27_979_388,
-    puid: "wikidata/27979388",
+    source_type: SourceType::Wikidata,
     name: "AAE sidecar format",
     extensions: &["aae"],
     media_types: &["application/octet-stream"],

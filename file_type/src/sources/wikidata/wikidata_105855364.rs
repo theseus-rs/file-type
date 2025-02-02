@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855364: FileFormat = FileFormat {
     id: 105_855_364,
-    puid: "wikidata/105855364",
+    source_type: SourceType::Wikidata,
     name: "Kodak Camera Firmware",
     extensions: &["fw"],
     media_types: &[],

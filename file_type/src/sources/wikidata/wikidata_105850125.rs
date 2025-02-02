@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850125: FileFormat = FileFormat {
     id: 105_850_125,
-    puid: "wikidata/105850125",
+    source_type: SourceType::Wikidata,
     name: "Ease Calcform spreadsheet",
     extensions: &["cal"],
     media_types: &["application/octet-stream"],

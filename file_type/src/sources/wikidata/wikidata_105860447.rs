@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860447: FileFormat = FileFormat {
     id: 105_860_447,
-    puid: "wikidata/105860447",
+    source_type: SourceType::Wikidata,
     name: "Remote Desktop Connection Settings (Unicode)",
     extensions: &["rdp"],
     media_types: &["text/plain"],

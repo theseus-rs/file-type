@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854262: FileFormat = FileFormat {
     id: 105_854_262,
-    puid: "wikidata/105854262",
+    source_type: SourceType::Wikidata,
     name: "MightyFax",
     extensions: &["apf"],
     media_types: &[],

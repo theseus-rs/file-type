@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858111: FileFormat = FileFormat {
     id: 105_858_111,
-    puid: "wikidata/105858111",
+    source_type: SourceType::Wikidata,
     name: "PMD 85 emulator tape image",
     extensions: &["ptp"],
     media_types: &["application/octet-stream"],

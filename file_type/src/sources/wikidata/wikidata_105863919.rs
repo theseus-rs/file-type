@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863919: FileFormat = FileFormat {
     id: 105_863_919,
-    puid: "wikidata/105863919",
+    source_type: SourceType::Wikidata,
     name: "Rising Eagle game data archive",
     extensions: &["mdat"],
     media_types: &["application/octet-stream"],

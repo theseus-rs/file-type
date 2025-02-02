@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5785170104885681682: FileFormat = FileFormat {
-    id: 5_785_170_104_885_681_682,
-    puid: "httpd/5785170104885681682",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "g3fax",
     extensions: &["g3"],
     media_types: &["image/g3fax"],

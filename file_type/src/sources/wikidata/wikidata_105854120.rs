@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854120: FileFormat = FileFormat {
     id: 105_854_120,
-    puid: "wikidata/105854120",
+    source_type: SourceType::Wikidata,
     name: "ANSYS model data",
     extensions: &["ans"],
     media_types: &[],

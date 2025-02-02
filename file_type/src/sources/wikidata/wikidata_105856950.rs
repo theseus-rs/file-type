@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856950: FileFormat = FileFormat {
     id: 105_856_950,
-    puid: "wikidata/105856950",
+    source_type: SourceType::Wikidata,
     name: "Micro Focus COBOL generated code",
     extensions: &["gnt"],
     media_types: &[],

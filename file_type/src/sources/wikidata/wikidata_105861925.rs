@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861925: FileFormat = FileFormat {
     id: 105_861_925,
-    puid: "wikidata/105861925",
+    source_type: SourceType::Wikidata,
     name: "Windows Easy Transfer migration data",
     extensions: &["mig"],
     media_types: &[],

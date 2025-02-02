@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853528: FileFormat = FileFormat {
     id: 105_853_528,
-    puid: "wikidata/105853528",
+    source_type: SourceType::Wikidata,
     name: "ZAP Patch",
     extensions: &["zap"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852402: FileFormat = FileFormat {
     id: 105_852_402,
-    puid: "wikidata/105852402",
+    source_type: SourceType::Wikidata,
     name: "STFax Script",
     extensions: &["script"],
     media_types: &["application/octet-stream"],

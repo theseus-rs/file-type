@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_292: FileFormat = FileFormat {
     id: 292,
-    puid: "linguist/292",
+    source_type: SourceType::Linguist,
     name: "PowerBuilder",
     extensions: &["pbt", "sra", "sru", "srw"],
     media_types: &[],

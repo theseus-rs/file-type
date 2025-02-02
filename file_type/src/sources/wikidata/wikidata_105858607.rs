@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858607: FileFormat = FileFormat {
     id: 105_858_607,
-    puid: "wikidata/105858607",
+    source_type: SourceType::Wikidata,
     name: "Babylon Glossary",
     extensions: &["bgl"],
     media_types: &[],

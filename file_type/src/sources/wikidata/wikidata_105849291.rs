@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849291: FileFormat = FileFormat {
     id: 105_849_291,
-    puid: "wikidata/105849291",
+    source_type: SourceType::Wikidata,
     name: "Yabause movie capture",
     extensions: &["ymv"],
     media_types: &["text/plain"],

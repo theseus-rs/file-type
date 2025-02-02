@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850271: FileFormat = FileFormat {
     id: 105_850_271,
-    puid: "wikidata/105850271",
+    source_type: SourceType::Wikidata,
     name: "Final Cut Pro X Color Board preset",
     extensions: &["cboard"],
     media_types: &[],

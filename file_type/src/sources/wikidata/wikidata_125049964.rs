@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_125049964: FileFormat = FileFormat {
     id: 125_049_964,
-    puid: "wikidata/125049964",
+    source_type: SourceType::Wikidata,
     name: "Yoshimi Vector settings file",
     extensions: &["xvy"],
     media_types: &[],

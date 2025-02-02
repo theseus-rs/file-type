@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852944: FileFormat = FileFormat {
     id: 105_852_944,
-    puid: "wikidata/105852944",
+    source_type: SourceType::Wikidata,
     name: "SeqBox container (gen)",
     extensions: &["sbx"],
     media_types: &["application/x-sbx"],

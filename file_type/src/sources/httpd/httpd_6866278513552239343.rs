@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6866278513552239343: FileFormat = FileFormat {
-    id: 6_866_278_513_552_239_343,
-    puid: "httpd/6866278513552239343",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "cbr",
     extensions: &["cbr", "cba", "cbt", "cbz", "cb7"],
     media_types: &["application/x-cbr"],

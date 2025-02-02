@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852256: FileFormat = FileFormat {
     id: 105_852_256,
-    puid: "wikidata/105852256",
+    source_type: SourceType::Wikidata,
     name: "Valve StudioMDL Data",
     extensions: &["smd"],
     media_types: &["text/plain"],

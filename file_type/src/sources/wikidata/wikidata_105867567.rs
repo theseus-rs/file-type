@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867567: FileFormat = FileFormat {
     id: 105_867_567,
-    puid: "wikidata/105867567",
+    source_type: SourceType::Wikidata,
     name: "Natron Node Preset",
     extensions: &["nps"],
     media_types: &["text/plain"],

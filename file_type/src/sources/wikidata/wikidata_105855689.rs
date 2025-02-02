@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855689: FileFormat = FileFormat {
     id: 105_855_689,
-    puid: "wikidata/105855689",
+    source_type: SourceType::Wikidata,
     name: "OCAD map",
     extensions: &["ocd"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_131703099: FileFormat = FileFormat {
     id: 131_703_099,
-    puid: "wikidata/131703099",
+    source_type: SourceType::Wikidata,
     name: "VERA output file",
     extensions: &["h5"],
     media_types: &[],

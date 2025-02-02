@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856420: FileFormat = FileFormat {
     id: 105_856_420,
-    puid: "wikidata/105856420",
+    source_type: SourceType::Wikidata,
     name: "Whirlwind game data Package (v2.1)",
     extensions: &["wpk"],
     media_types: &["application/octet-stream"],

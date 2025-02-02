@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851914: FileFormat = FileFormat {
     id: 105_851_914,
-    puid: "wikidata/105851914",
+    source_type: SourceType::Wikidata,
     name: "StarCraft 2 Map Header",
     extensions: &["s2mh"],
     media_types: &[],

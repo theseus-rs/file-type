@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856335: FileFormat = FileFormat {
     id: 105_856_335,
-    puid: "wikidata/105856335",
+    source_type: SourceType::Wikidata,
     name: "Fusion Dialog Development System Dialog",
     extensions: &["dds"],
     media_types: &["application/octet-stream"],

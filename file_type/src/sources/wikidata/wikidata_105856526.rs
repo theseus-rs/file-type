@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856526: FileFormat = FileFormat {
     id: 105_856_526,
-    puid: "wikidata/105856526",
+    source_type: SourceType::Wikidata,
     name: "Windows Media Player DataBase",
     extensions: &["wmdb"],
     media_types: &["application/octet-stream"],

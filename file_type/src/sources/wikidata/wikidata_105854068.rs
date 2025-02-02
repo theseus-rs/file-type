@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854068: FileFormat = FileFormat {
     id: 105_854_068,
-    puid: "wikidata/105854068",
+    source_type: SourceType::Wikidata,
     name: "AZZ Cardfile data (RTF)",
     extensions: &["tmp"],
     media_types: &[],

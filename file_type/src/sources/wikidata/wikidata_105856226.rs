@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856226: FileFormat = FileFormat {
     id: 105_856_226,
-    puid: "wikidata/105856226",
+    source_type: SourceType::Wikidata,
     name: "Dyalog APL Component File",
     extensions: &["dcf"],
     media_types: &[],

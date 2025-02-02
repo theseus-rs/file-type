@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967392: FileFormat = FileFormat {
     id: 27_967_392,
-    puid: "wikidata/27967392",
+    source_type: SourceType::Wikidata,
     name: "Adlib Tracker II instrument bank",
     extensions: &["a2b"],
     media_types: &["application/octet-stream"],

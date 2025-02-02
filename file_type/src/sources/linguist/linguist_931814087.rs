@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_931814087: FileFormat = FileFormat {
     id: 931_814_087,
-    puid: "linguist/931814087",
+    source_type: SourceType::Linguist,
     name: "HiveQL",
     extensions: &["hql", "q"],
     media_types: &[],

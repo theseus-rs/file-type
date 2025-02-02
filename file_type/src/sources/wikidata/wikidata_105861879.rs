@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861879: FileFormat = FileFormat {
     id: 105_861_879,
-    puid: "wikidata/105861879",
+    source_type: SourceType::Wikidata,
     name: "MaxBulk Mailer settings",
     extensions: &["mbm"],
     media_types: &["application/octet-stream"],

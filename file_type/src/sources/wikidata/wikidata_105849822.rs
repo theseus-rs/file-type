@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849822: FileFormat = FileFormat {
     id: 105_849_822,
-    puid: "wikidata/105849822",
+    source_type: SourceType::Wikidata,
     name: "Painter 3D Contour",
     extensions: &["cnt"],
     media_types: &["text/plain"],

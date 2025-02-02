@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859195: FileFormat = FileFormat {
     id: 105_859_195,
-    puid: "wikidata/105859195",
+    source_type: SourceType::Wikidata,
     name: "CompuServe RLE bitmap (med-res)",
     extensions: &["rle"],
     media_types: &["application/octet-stream"],

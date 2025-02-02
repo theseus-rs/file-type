@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_74551039: FileFormat = FileFormat {
     id: 74_551_039,
-    puid: "wikidata/74551039",
+    source_type: SourceType::Wikidata,
     name: "ArcGIS geospatial and attribute data",
     extensions: &["sdc"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855203: FileFormat = FileFormat {
     id: 105_855_203,
-    puid: "wikidata/105855203",
+    source_type: SourceType::Wikidata,
     name: "DynaCADD vector Font",
     extensions: &["fnt"],
     media_types: &["application/octet-stream"],

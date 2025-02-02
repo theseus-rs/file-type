@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856328: FileFormat = FileFormat {
     id: 105_856_328,
-    puid: "wikidata/105856328",
+    source_type: SourceType::Wikidata,
     name: "DivX Skin",
     extensions: &["dps"],
     media_types: &[],

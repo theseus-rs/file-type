@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6703499962162694527: FileFormat = FileFormat {
-    id: 6_703_499_962_162_694_527,
-    puid: "httpd/6703499962162694527",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "claymore",
     extensions: &["cla"],
     media_types: &["application/vnd.claymore"],

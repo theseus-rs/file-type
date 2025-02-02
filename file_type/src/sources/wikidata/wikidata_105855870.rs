@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855870: FileFormat = FileFormat {
     id: 105_855_870,
-    puid: "wikidata/105855870",
+    source_type: SourceType::Wikidata,
     name: "Deployment Manager configuration",
     extensions: &["deployproj"],
     media_types: &[],

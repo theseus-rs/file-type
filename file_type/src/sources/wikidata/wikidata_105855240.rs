@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855240: FileFormat = FileFormat {
     id: 105_855_240,
-    puid: "wikidata/105855240",
+    source_type: SourceType::Wikidata,
     name: "Facer watch Face",
     extensions: &["face"],
     media_types: &["application/octet-stream"],

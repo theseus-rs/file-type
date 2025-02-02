@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29904468: FileFormat = FileFormat {
     id: 29_904_468,
-    puid: "wikidata/29904468",
+    source_type: SourceType::Wikidata,
     name: "Quadruple D Archiver",
     extensions: &["qda"],
     media_types: &["application/octet-stream"],

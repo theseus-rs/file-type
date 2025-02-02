@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851409: FileFormat = FileFormat {
     id: 105_851_409,
-    puid: "wikidata/105851409",
+    source_type: SourceType::Wikidata,
     name: "TeamSpeak 3 Plugin",
     extensions: &["ts3_plugin"],
     media_types: &["application/octet-stream"],

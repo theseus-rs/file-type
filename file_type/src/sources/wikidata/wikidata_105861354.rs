@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861354: FileFormat = FileFormat {
     id: 105_861_354,
-    puid: "wikidata/105861354",
+    source_type: SourceType::Wikidata,
     name: "Logo Report View File",
     extensions: &["lvf"],
     media_types: &[],

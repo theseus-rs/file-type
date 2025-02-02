@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_15782473511556218270: FileFormat = FileFormat {
-    id: 15_782_473_511_556_218_270,
-    puid: "httpd/15782473511556218270",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "route66 link66 xml",
     extensions: &["link66"],
     media_types: &["application/vnd.route66.link66+xml"],

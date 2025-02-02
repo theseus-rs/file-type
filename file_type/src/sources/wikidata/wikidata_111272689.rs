@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_111272689: FileFormat = FileFormat {
     id: 111_272_689,
-    puid: "wikidata/111272689",
+    source_type: SourceType::Wikidata,
     name: "Farandoyle linear module format",
     extensions: &["f2r"],
     media_types: &[],

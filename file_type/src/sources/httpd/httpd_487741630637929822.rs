@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_487741630637929822: FileFormat = FileFormat {
-    id: 487_741_630_637_929_822,
-    puid: "httpd/487741630637929822",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "lzh compressed",
     extensions: &["lzh", "lha"],
     media_types: &["application/x-lzh-compressed"],

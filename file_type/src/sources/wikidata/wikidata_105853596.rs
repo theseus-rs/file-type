@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853596: FileFormat = FileFormat {
     id: 105_853_596,
-    puid: "wikidata/105853596",
+    source_type: SourceType::Wikidata,
     name: "Cinnamon theme",
     extensions: &["zip"],
     media_types: &["application/octet-stream"],

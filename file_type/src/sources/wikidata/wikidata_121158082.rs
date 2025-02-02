@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_121158082: FileFormat = FileFormat {
     id: 121_158_082,
-    puid: "wikidata/121158082",
+    source_type: SourceType::Wikidata,
     name: "ResumeMaker file",
     extensions: &["rmr"],
     media_types: &[],

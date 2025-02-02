@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859645: FileFormat = FileFormat {
     id: 105_859_645,
-    puid: "wikidata/105859645",
+    source_type: SourceType::Wikidata,
     name: "GFX9000 Movie Format",
     extensions: &["vmf"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850763: FileFormat = FileFormat {
     id: 105_850_763,
-    puid: "wikidata/105850763",
+    source_type: SourceType::Wikidata,
     name: "KMyMoney XML data (decompressed)",
     extensions: &["kmy"],
     media_types: &[],

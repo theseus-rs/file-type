@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857345: FileFormat = FileFormat {
     id: 105_857_345,
-    puid: "wikidata/105857345",
+    source_type: SourceType::Wikidata,
     name: "WITCH-DOS Job Control",
     extensions: &["joc"],
     media_types: &["application/octet-stream"],

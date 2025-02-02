@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27979341: FileFormat = FileFormat {
     id: 27_979_341,
-    puid: "wikidata/27979341",
+    source_type: SourceType::Wikidata,
     name: "Unirast",
-    extensions: &["urf", "urf"],
+    extensions: &["urf"],
     media_types: &["application/octet-stream", "image/urf"],
     internal_signatures: &[
         InternalSignature {

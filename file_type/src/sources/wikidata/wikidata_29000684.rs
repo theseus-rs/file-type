@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29000684: FileFormat = FileFormat {
     id: 29_000_684,
-    puid: "wikidata/29000684",
+    source_type: SourceType::Wikidata,
     name: "quick3D scene file",
     extensions: &["q3s"],
     media_types: &["application/octet-stream"],

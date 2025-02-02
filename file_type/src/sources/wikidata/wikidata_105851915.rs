@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851915: FileFormat = FileFormat {
     id: 105_851_915,
-    puid: "wikidata/105851915",
+    source_type: SourceType::Wikidata,
     name: "WinAPE Snapshot (generic)",
     extensions: &["sna"],
     media_types: &["application/octet-stream"],

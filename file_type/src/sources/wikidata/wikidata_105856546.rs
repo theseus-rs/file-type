@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856546: FileFormat = FileFormat {
     id: 105_856_546,
-    puid: "wikidata/105856546",
+    source_type: SourceType::Wikidata,
     name: "WinAsks Editor Questionnaire (v2.00)",
     extensions: &["wap"],
     media_types: &["application/octet-stream"],

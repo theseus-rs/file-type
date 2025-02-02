@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857078: FileFormat = FileFormat {
     id: 105_857_078,
-    puid: "wikidata/105857078",
+    source_type: SourceType::Wikidata,
     name: "Windows Program Manager Group",
     extensions: &["grp"],
     media_types: &[],

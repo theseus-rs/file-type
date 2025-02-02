@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_1508789: FileFormat = FileFormat {
     id: 1_508_789,
-    puid: "wikidata/1508789",
+    source_type: SourceType::Wikidata,
     name: "Windows Contacts",
     extensions: &["contact"],
     media_types: &["text/x-ms-contact"],

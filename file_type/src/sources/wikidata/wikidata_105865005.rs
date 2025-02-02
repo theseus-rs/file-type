@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865005: FileFormat = FileFormat {
     id: 105_865_005,
-    puid: "wikidata/105865005",
+    source_type: SourceType::Wikidata,
     name: "PicoQuant Unified TTTR",
     extensions: &["ptu"],
     media_types: &["application/octet-stream"],

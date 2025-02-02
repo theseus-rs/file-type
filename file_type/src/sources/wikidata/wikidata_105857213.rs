@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857213: FileFormat = FileFormat {
     id: 105_857_213,
-    puid: "wikidata/105857213",
+    source_type: SourceType::Wikidata,
     name: "HippoEDIT Workspace",
     extensions: &["hewsp"],
     media_types: &["text/xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857859: FileFormat = FileFormat {
     id: 105_857_859,
-    puid: "wikidata/105857859",
+    source_type: SourceType::Wikidata,
     name: "ISO 10303-28 STEP-XML (UTF-8)",
     extensions: &["ifcxml"],
     media_types: &["text/xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850432: FileFormat = FileFormat {
     id: 105_850_432,
-    puid: "wikidata/105850432",
+    source_type: SourceType::Wikidata,
     name: "MSN Messenger Saved Contact List",
     extensions: &["ctt"],
     media_types: &[],

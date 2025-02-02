@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857516: FileFormat = FileFormat {
     id: 105_857_516,
-    puid: "wikidata/105857516",
+    source_type: SourceType::Wikidata,
     name: "iMON Setting file",
     extensions: &["imo"],
     media_types: &[],

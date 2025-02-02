@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860930: FileFormat = FileFormat {
     id: 105_860_930,
-    puid: "wikidata/105860930",
+    source_type: SourceType::Wikidata,
     name: "Roland SMF Player Language",
     extensions: &["rlg"],
     media_types: &["application/octet-stream"],

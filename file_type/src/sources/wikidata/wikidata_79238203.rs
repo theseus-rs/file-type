@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_79238203: FileFormat = FileFormat {
     id: 79_238_203,
-    puid: "wikidata/79238203",
+    source_type: SourceType::Wikidata,
     name: "Adobe Authorware Library",
     extensions: &["a4l"],
     media_types: &["application/octet-stream"],

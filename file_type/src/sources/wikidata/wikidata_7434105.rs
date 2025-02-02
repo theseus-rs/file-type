@@ -1,15 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_7434105: FileFormat = FileFormat {
     id: 7_434_105,
-    puid: "wikidata/7434105",
+    source_type: SourceType::Wikidata,
     name: "Scitex Continuous Tone",
     extensions: &["ch", "ct", "sct"],
-    media_types: &[
-        "application/scitex",
-        "application/scitex",
-        "application/scitex",
-    ],
+    media_types: &["application/scitex"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

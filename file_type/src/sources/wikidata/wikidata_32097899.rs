@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_32097899: FileFormat = FileFormat {
     id: 32_097_899,
-    puid: "wikidata/32097899",
+    source_type: SourceType::Wikidata,
     name: "Fallout v2 DAT",
     extensions: &["dat"],
     media_types: &[],

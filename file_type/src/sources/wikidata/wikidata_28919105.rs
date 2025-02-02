@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28919105: FileFormat = FileFormat {
     id: 28_919_105,
-    puid: "wikidata/28919105",
+    source_type: SourceType::Wikidata,
     name: "Avid Log Exchange",
     extensions: &["ale"],
     media_types: &["text/plain"],

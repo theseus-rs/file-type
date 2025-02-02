@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852568: FileFormat = FileFormat {
     id: 105_852_568,
-    puid: "wikidata/105852568",
+    source_type: SourceType::Wikidata,
     name: "Diggles Saved Game File",
     extensions: &["sav"],
     media_types: &[],

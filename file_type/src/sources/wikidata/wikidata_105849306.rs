@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849306: FileFormat = FileFormat {
     id: 105_849_306,
-    puid: "wikidata/105849306",
+    source_type: SourceType::Wikidata,
     name: "TrainController Animation",
     extensions: &["yra"],
     media_types: &["application/octet-stream"],

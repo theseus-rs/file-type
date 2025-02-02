@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854311: FileFormat = FileFormat {
     id: 105_854_311,
-    puid: "wikidata/105854311",
+    source_type: SourceType::Wikidata,
     name: "Scifer Archiver compressed Binary Archive",
     extensions: &["ba", "sen"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

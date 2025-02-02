@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_72725232: FileFormat = FileFormat {
     id: 72_725_232,
-    puid: "wikidata/72725232",
+    source_type: SourceType::Wikidata,
     name: "NOD32 Antivirus Update file",
     extensions: &["nup"],
     media_types: &[],

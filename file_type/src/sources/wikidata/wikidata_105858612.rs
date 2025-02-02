@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858612: FileFormat = FileFormat {
     id: 105_858_612,
-    puid: "wikidata/105858612",
+    source_type: SourceType::Wikidata,
     name: "CASIO WinCE PDA backup",
     extensions: &["bin"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853704: FileFormat = FileFormat {
     id: 105_853_704,
-    puid: "wikidata/105853704",
+    source_type: SourceType::Wikidata,
     name: "Avro Keyboard Layout",
     extensions: &["avrolayout"],
     media_types: &["text/xml"],

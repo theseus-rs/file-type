@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850677: FileFormat = FileFormat {
     id: 105_850_677,
-    puid: "wikidata/105850677",
+    source_type: SourceType::Wikidata,
     name: "Quick Pascal Keyboard map",
     extensions: &["key"],
     media_types: &["application/octet-stream"],

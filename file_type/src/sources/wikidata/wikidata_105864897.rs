@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864897: FileFormat = FileFormat {
     id: 105_864_897,
-    puid: "wikidata/105864897",
+    source_type: SourceType::Wikidata,
     name: "Pepakura Designer work (with rem)",
     extensions: &["pdo"],
     media_types: &[],

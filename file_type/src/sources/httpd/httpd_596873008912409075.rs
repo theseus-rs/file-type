@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_596873008912409075: FileFormat = FileFormat {
-    id: 596_873_008_912_409_075,
-    puid: "httpd/596873008912409075",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "anser web certificate issue initiation",
     extensions: &["cii"],
     media_types: &["application/vnd.anser-web-certificate-issue-initiation"],

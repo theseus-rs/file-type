@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854479: FileFormat = FileFormat {
     id: 105_854_479,
-    puid: "wikidata/105854479",
+    source_type: SourceType::Wikidata,
     name: "Sonarc compressed VOC audio",
     extensions: &["vc"],
     media_types: &[],

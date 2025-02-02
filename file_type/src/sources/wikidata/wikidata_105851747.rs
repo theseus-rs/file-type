@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851747: FileFormat = FileFormat {
     id: 105_851_747,
-    puid: "wikidata/105851747",
+    source_type: SourceType::Wikidata,
     name: "PEPE 2D constant interval DataSet",
     extensions: &["sp"],
     media_types: &["application/octet-stream"],

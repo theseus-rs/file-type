@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853599: FileFormat = FileFormat {
     id: 105_853_599,
-    puid: "wikidata/105853599",
+    source_type: SourceType::Wikidata,
     name: "Pack compressed data",
     extensions: &["z"],
     media_types: &["application/octet-stream"],

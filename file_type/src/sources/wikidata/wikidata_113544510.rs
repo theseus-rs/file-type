@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_113544510: FileFormat = FileFormat {
     id: 113_544_510,
-    puid: "wikidata/113544510",
+    source_type: SourceType::Wikidata,
     name: "PowerGraphics Image File",
     extensions: &["pgr"],
     media_types: &[],

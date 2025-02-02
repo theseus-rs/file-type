@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856880: FileFormat = FileFormat {
     id: 105_856_880,
-    puid: "wikidata/105856880",
+    source_type: SourceType::Wikidata,
     name: "Graphtec vector data / drawing",
     extensions: &["gsd"],
     media_types: &[],

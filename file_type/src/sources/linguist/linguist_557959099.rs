@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_557959099: FileFormat = FileFormat {
     id: 557_959_099,
-    puid: "linguist/557959099",
+    source_type: SourceType::Linguist,
     name: "OpenAPI Specification v3",
     extensions: &[],
     media_types: &[],

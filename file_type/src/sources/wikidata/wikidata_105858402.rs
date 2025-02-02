@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858402: FileFormat = FileFormat {
     id: 105_858_402,
-    puid: "wikidata/105858402",
+    source_type: SourceType::Wikidata,
     name: "FRITZ!Box configuration backup",
-    extensions: &["export", "export"],
-    media_types: &["application/x-avm-export", "application/x-avm-export"],
+    extensions: &["export"],
+    media_types: &["application/x-avm-export"],
     internal_signatures: &[InternalSignature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,

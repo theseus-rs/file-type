@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858365: FileFormat = FileFormat {
     id: 105_858_365,
-    puid: "wikidata/105858365",
+    source_type: SourceType::Wikidata,
     name: "E-Tracker chiptune",
     extensions: &["cop", "et", "etc", "t"],
-    media_types: &["audio/x-mod", "audio/x-mod", "audio/x-mod", "audio/x-mod"],
+    media_types: &["audio/x-mod"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_83883611: FileFormat = FileFormat {
     id: 83_883_611,
-    puid: "wikidata/83883611",
+    source_type: SourceType::Wikidata,
     name: "Raw Flux Image",
     extensions: &["rfi"],
     media_types: &["application/octet-stream"],

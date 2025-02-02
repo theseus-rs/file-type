@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28975874: FileFormat = FileFormat {
     id: 28_975_874,
-    puid: "wikidata/28975874",
+    source_type: SourceType::Wikidata,
     name: "OOGL TLIST Group file",
     extensions: &["grp"],
     media_types: &[],

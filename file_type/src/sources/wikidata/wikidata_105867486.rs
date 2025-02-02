@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867486: FileFormat = FileFormat {
     id: 105_867_486,
-    puid: "wikidata/105867486",
+    source_type: SourceType::Wikidata,
     name: "Mario Kart DS track data",
     extensions: &["nkm"],
     media_types: &[],

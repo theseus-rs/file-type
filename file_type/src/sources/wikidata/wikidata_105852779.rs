@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852779: FileFormat = FileFormat {
     id: 105_852_779,
-    puid: "wikidata/105852779",
+    source_type: SourceType::Wikidata,
     name: "IEEE DASC Standard Delay Format (with rem)",
     extensions: &["sdf", "sdo"],
-    media_types: &["text/plain", "text/plain"],
+    media_types: &["text/plain"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

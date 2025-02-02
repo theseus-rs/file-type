@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852759: FileFormat = FileFormat {
     id: 105_852_759,
-    puid: "wikidata/105852759",
+    source_type: SourceType::Wikidata,
     name: "DeLorme vector Symbol data",
     extensions: &["sym"],
     media_types: &["application/octet-stream"],

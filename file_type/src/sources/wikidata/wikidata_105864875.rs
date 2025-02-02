@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864875: FileFormat = FileFormat {
     id: 105_864_875,
-    puid: "wikidata/105864875",
+    source_type: SourceType::Wikidata,
     name: "Garmin PCX5 waypoint file",
     extensions: &["wpt"],
     media_types: &[],

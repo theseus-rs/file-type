@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855663: FileFormat = FileFormat {
     id: 105_855_663,
-    puid: "wikidata/105855663",
+    source_type: SourceType::Wikidata,
     name: "OneNote table of contents",
     extensions: &["onetoc2"],
     media_types: &[],

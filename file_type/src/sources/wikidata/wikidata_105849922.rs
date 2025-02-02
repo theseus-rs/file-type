@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849922: FileFormat = FileFormat {
     id: 105_849_922,
-    puid: "wikidata/105849922",
+    source_type: SourceType::Wikidata,
     name: "Frostbite Container of ASsets",
     extensions: &["cas"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_61901754: FileFormat = FileFormat {
     id: 61_901_754,
-    puid: "wikidata/61901754",
+    source_type: SourceType::Wikidata,
     name: "EndNote Filter File",
     extensions: &["enf"],
     media_types: &[],

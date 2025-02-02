@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859736: FileFormat = FileFormat {
     id: 105_859_736,
-    puid: "wikidata/105859736",
+    source_type: SourceType::Wikidata,
     name: "Vocaloid Motion Data",
     extensions: &["vmd"],
     media_types: &[],

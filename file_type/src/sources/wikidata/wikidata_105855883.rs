@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855883: FileFormat = FileFormat {
     id: 105_855_883,
-    puid: "wikidata/105855883",
+    source_type: SourceType::Wikidata,
     name: "Concurrent DOS Serial Terminal Configuration",
     extensions: &["dat"],
     media_types: &["application/octet-stream"],

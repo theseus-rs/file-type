@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_407996372: FileFormat = FileFormat {
     id: 407_996_372,
-    puid: "linguist/407996372",
+    source_type: SourceType::Linguist,
     name: "Cloud Firestore Security Rules",
     extensions: &[],
     media_types: &["text/css"],

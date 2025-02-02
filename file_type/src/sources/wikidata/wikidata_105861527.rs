@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861527: FileFormat = FileFormat {
     id: 105_861_527,
-    puid: "wikidata/105861527",
+    source_type: SourceType::Wikidata,
     name: "HijackThis logfile",
     extensions: &["log"],
     media_types: &[],

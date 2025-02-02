@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27959821: FileFormat = FileFormat {
     id: 27_959_821,
-    puid: "wikidata/27959821",
+    source_type: SourceType::Wikidata,
     name: "Ableton Warp Analysis",
     extensions: &["asd"],
     media_types: &["application/octet-stream"],

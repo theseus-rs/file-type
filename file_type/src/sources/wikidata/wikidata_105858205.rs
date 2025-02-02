@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858205: FileFormat = FileFormat {
     id: 105_858_205,
-    puid: "wikidata/105858205",
+    source_type: SourceType::Wikidata,
     name: "EasyWorship Bible text",
     extensions: &["ewb"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856060: FileFormat = FileFormat {
     id: 105_856_060,
-    puid: "wikidata/105856060",
+    source_type: SourceType::Wikidata,
     name: "Descent 2 alternative texture set",
     extensions: &["pog"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858860: FileFormat = FileFormat {
     id: 105_858_860,
-    puid: "wikidata/105858860",
+    source_type: SourceType::Wikidata,
     name: "Sony PS3 Silk Web Browser container format",
     extensions: &["bin"],
     media_types: &["application/octet-stream"],

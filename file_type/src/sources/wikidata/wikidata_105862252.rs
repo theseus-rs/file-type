@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862252: FileFormat = FileFormat {
     id: 105_862_252,
-    puid: "wikidata/105862252",
+    source_type: SourceType::Wikidata,
     name: "MultiSim Design (generic)",
     extensions: &["ms10", "ms8", "ms9"],
     media_types: &[],

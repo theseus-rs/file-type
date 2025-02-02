@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857047: FileFormat = FileFormat {
     id: 105_857_047,
-    puid: "wikidata/105857047",
+    source_type: SourceType::Wikidata,
     name: "GameShark SharkSave for GameCube",
     extensions: &["gcs"],
     media_types: &[],

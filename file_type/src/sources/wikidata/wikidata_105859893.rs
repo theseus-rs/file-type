@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859893: FileFormat = FileFormat {
     id: 105_859_893,
-    puid: "wikidata/105859893",
+    source_type: SourceType::Wikidata,
     name: "Micro Fly Movie Format video",
     extensions: &["ufmf"],
     media_types: &["video/ufmf"],

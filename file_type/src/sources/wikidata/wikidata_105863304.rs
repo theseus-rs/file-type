@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863304: FileFormat = FileFormat {
     id: 105_863_304,
-    puid: "wikidata/105863304",
+    source_type: SourceType::Wikidata,
     name: "MaxonCAD Library",
     extensions: &["mclib"],
     media_types: &["application/octet-stream"],

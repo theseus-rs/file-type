@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857342: FileFormat = FileFormat {
     id: 105_857_342,
-    puid: "wikidata/105857342",
+    source_type: SourceType::Wikidata,
     name: "JRun Server Application",
     extensions: &["jsa"],
     media_types: &["application/octet-stream"],

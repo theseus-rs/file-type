@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857748: FileFormat = FileFormat {
     id: 105_857_748,
-    puid: "wikidata/105857748",
+    source_type: SourceType::Wikidata,
     name: "IMP eBook (v1.0)",
     extensions: &["imp"],
     media_types: &["application/octet-stream"],

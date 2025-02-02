@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858373: FileFormat = FileFormat {
     id: 105_858_373,
-    puid: "wikidata/105858373",
+    source_type: SourceType::Wikidata,
     name: "Encarta Encyclopedia Yearbook and Web Links update",
     extensions: &["eyb"],
     media_types: &[],

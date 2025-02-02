@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852510: FileFormat = FileFormat {
     id: 105_852_510,
-    puid: "wikidata/105852510",
+    source_type: SourceType::Wikidata,
     name: "Smart Zoom Image format",
     extensions: &["szi"],
     media_types: &["application/octet-stream"],

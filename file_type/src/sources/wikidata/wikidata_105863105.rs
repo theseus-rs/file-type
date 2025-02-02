@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863105: FileFormat = FileFormat {
     id: 105_863_105,
-    puid: "wikidata/105863105",
+    source_type: SourceType::Wikidata,
     name: "TargetExpress target",
     extensions: &["mte"],
     media_types: &[],

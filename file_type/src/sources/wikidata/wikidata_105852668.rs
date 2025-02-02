@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852668: FileFormat = FileFormat {
     id: 105_852_668,
-    puid: "wikidata/105852668",
+    source_type: SourceType::Wikidata,
     name: "Scala Multimedia Script (v2.0)",
     extensions: &["script"],
     media_types: &["text/plain"],

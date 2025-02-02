@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859455: FileFormat = FileFormat {
     id: 105_859_455,
-    puid: "wikidata/105859455",
+    source_type: SourceType::Wikidata,
     name: "Microsoft QuickPascal Unit",
     extensions: &["qpu"],
     media_types: &["application/octet-stream"],

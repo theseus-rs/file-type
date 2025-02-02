@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2965419729449071055: FileFormat = FileFormat {
-    id: 2_965_419_729_449_071_055,
-    puid: "httpd/2965419729449071055",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "metalink4 xml",
     extensions: &["meta4"],
     media_types: &["application/metalink4+xml"],

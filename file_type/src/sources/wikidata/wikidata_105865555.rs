@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865555: FileFormat = FileFormat {
     id: 105_865_555,
-    puid: "wikidata/105865555",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Purble Shop Saved game",
     extensions: &["purbleshopsave-ms"],
     media_types: &[],

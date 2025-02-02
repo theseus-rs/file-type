@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856896: FileFormat = FileFormat {
     id: 105_856_896,
-    puid: "wikidata/105856896",
+    source_type: SourceType::Wikidata,
     name: "GFI Backup Task",
     extensions: &["gbt"],
     media_types: &["text/xml"],

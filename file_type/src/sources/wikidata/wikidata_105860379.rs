@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860379: FileFormat = FileFormat {
     id: 105_860_379,
-    puid: "wikidata/105860379",
+    source_type: SourceType::Wikidata,
     name: "RealArcade Game Package",
     extensions: &["rgp"],
     media_types: &[],

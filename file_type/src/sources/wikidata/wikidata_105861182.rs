@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861182: FileFormat = FileFormat {
     id: 105_861_182,
-    puid: "wikidata/105861182",
+    source_type: SourceType::Wikidata,
     name: "Siemens ORSI Log",
     extensions: &["log"],
     media_types: &["application/octet-stream"],

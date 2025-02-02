@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857076: FileFormat = FileFormat {
     id: 105_857_076,
-    puid: "wikidata/105857076",
+    source_type: SourceType::Wikidata,
     name: "GanttProject project",
     extensions: &["gan"],
     media_types: &["application/ganttproject+xml"],

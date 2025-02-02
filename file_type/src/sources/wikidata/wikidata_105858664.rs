@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858664: FileFormat = FileFormat {
     id: 105_858_664,
-    puid: "wikidata/105858664",
+    source_type: SourceType::Wikidata,
     name: "Bitstream Compressed Outline font",
     extensions: &["bco"],
     media_types: &["application/octet-stream"],

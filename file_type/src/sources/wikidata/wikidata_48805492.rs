@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_48805492: FileFormat = FileFormat {
     id: 48_805_492,
-    puid: "wikidata/48805492",
+    source_type: SourceType::Wikidata,
     name: "ChiWriter Document",
     extensions: &["chi"],
     media_types: &[],

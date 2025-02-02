@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857570: FileFormat = FileFormat {
     id: 105_857_570,
-    puid: "wikidata/105857570",
+    source_type: SourceType::Wikidata,
     name: "WinFellow emulation preset",
     extensions: &["ini"],
     media_types: &["text/ini"],

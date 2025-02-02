@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854808: FileFormat = FileFormat {
     id: 105_854_808,
-    puid: "wikidata/105854808",
+    source_type: SourceType::Wikidata,
     name: "SBX SpinnerBaker eXtractor compressed archive",
     extensions: &["sb"],
     media_types: &[],

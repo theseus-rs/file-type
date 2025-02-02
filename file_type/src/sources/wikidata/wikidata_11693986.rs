@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_11693986: FileFormat = FileFormat {
     id: 11_693_986,
-    puid: "wikidata/11693986",
+    source_type: SourceType::Wikidata,
     name: "Desktop Entry",
-    extensions: &["desktop", "desktop"],
+    extensions: &["desktop"],
     media_types: &["application/x-desktop", "text/ini"],
     internal_signatures: &[
         InternalSignature {

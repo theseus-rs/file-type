@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856885: FileFormat = FileFormat {
     id: 105_856_885,
-    puid: "wikidata/105856885",
+    source_type: SourceType::Wikidata,
     name: "Galaxkey encrypted data",
     extensions: &["gxk"],
     media_types: &[],

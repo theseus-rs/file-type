@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861569: FileFormat = FileFormat {
     id: 105_861_569,
-    puid: "wikidata/105861569",
+    source_type: SourceType::Wikidata,
     name: "Leggless Music Editor module",
     extensions: &["lme"],
     media_types: &["audio/x-mod"],

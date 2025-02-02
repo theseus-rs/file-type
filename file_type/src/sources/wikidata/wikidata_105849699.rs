@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849699: FileFormat = FileFormat {
     id: 105_849_699,
-    puid: "wikidata/105849699",
+    source_type: SourceType::Wikidata,
     name: "Clonk Material definition",
     extensions: &["c4m"],
     media_types: &["text/plain"],

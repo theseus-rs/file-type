@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859204: FileFormat = FileFormat {
     id: 105_859_204,
-    puid: "wikidata/105859204",
+    source_type: SourceType::Wikidata,
     name: "Drazpaint (C64) bitmap",
     extensions: &["drz"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849778: FileFormat = FileFormat {
     id: 105_849_778,
-    puid: "wikidata/105849778",
+    source_type: SourceType::Wikidata,
     name: "ColdFusion Component (with rem)",
     extensions: &["cfc"],
     media_types: &["text/plain"],

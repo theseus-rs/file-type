@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864132: FileFormat = FileFormat {
     id: 105_864_132,
-    puid: "wikidata/105864132",
+    source_type: SourceType::Wikidata,
     name: "OpenMPT Key Binding",
     extensions: &["mkb"],
     media_types: &["text/plain"],

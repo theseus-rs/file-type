@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855965: FileFormat = FileFormat {
     id: 105_855_965,
-    puid: "wikidata/105855965",
+    source_type: SourceType::Wikidata,
     name: "FL Studio Drum Patch (v2)",
     extensions: &["dmpatch"],
     media_types: &["application/octet-stream"],

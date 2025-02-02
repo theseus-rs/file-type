@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_111512277: FileFormat = FileFormat {
     id: 111_512_277,
-    puid: "wikidata/111512277",
+    source_type: SourceType::Wikidata,
     name: "ASEG-GDF2 Description file",
     extensions: &["des"],
     media_types: &[],

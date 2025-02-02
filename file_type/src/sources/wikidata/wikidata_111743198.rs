@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_111743198: FileFormat = FileFormat {
     id: 111_743_198,
-    puid: "wikidata/111743198",
+    source_type: SourceType::Wikidata,
     name: "Sony Virtual Expander File",
     extensions: &["vem"],
     media_types: &[],

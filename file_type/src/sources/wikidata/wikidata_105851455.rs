@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851455: FileFormat = FileFormat {
     id: 105_851_455,
-    puid: "wikidata/105851455",
+    source_type: SourceType::Wikidata,
     name: "Windows 98-7 Desktop Theme (with CRLF)",
     extensions: &["the", "theme"],
-    media_types: &["text/plain", "text/plain"],
+    media_types: &["text/plain"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

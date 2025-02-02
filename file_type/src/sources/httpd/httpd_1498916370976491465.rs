@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_1498916370976491465: FileFormat = FileFormat {
-    id: 1_498_916_370_976_491_465,
-    puid: "httpd/1498916370976491465",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "genomatix tuxedo",
     extensions: &["txd"],
     media_types: &["application/vnd.genomatix.tuxedo"],

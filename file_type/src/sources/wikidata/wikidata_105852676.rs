@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852676: FileFormat = FileFormat {
     id: 105_852_676,
-    puid: "wikidata/105852676",
+    source_type: SourceType::Wikidata,
     name: "EditPlus Syntax file",
     extensions: &["stx"],
     media_types: &[],

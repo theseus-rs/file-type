@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853298: FileFormat = FileFormat {
     id: 105_853_298,
-    puid: "wikidata/105853298",
+    source_type: SourceType::Wikidata,
     name: "Nintendo DS Sound Data",
     extensions: &["sdat"],
     media_types: &["application/octet-stream"],

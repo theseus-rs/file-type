@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852734: FileFormat = FileFormat {
     id: 105_852_734,
-    puid: "wikidata/105852734",
+    source_type: SourceType::Wikidata,
     name: "Session Description Protocol",
     extensions: &["sdp"],
     media_types: &["application/sdp"],

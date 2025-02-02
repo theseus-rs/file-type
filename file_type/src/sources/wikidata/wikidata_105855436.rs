@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855436: FileFormat = FileFormat {
     id: 105_855_436,
-    puid: "wikidata/105855436",
+    source_type: SourceType::Wikidata,
     name: "GeoWorks GEOS font",
     extensions: &["fnt"],
     media_types: &["application/octet-stream"],

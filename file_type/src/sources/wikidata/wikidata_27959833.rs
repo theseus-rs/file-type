@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27959833: FileFormat = FileFormat {
     id: 27_959_833,
-    puid: "wikidata/27959833",
+    source_type: SourceType::Wikidata,
     name: "Cool Edit/Audition Multi Track Session file",
     extensions: &["ses"],
     media_types: &[],

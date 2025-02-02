@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857737: FileFormat = FileFormat {
     id: 105_857_737,
-    puid: "wikidata/105857737",
+    source_type: SourceType::Wikidata,
     name: "Colour Genie high level tape image",
     extensions: &["cgc"],
     media_types: &["application/octet-stream"],

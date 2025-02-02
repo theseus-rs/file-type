@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866180: FileFormat = FileFormat {
     id: 105_866_180,
-    puid: "wikidata/105866180",
+    source_type: SourceType::Wikidata,
     name: "Power BI desktop Template",
     extensions: &["pbit"],
     media_types: &["application/octet-stream"],

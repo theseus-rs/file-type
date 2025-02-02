@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_127604954: FileFormat = FileFormat {
     id: 127_604_954,
-    puid: "wikidata/127604954",
+    source_type: SourceType::Wikidata,
     name: "Arduino Sketch file",
     extensions: &["ino"],
     media_types: &["text/x-arduino"],

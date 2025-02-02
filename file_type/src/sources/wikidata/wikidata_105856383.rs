@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856383: FileFormat = FileFormat {
     id: 105_856_383,
-    puid: "wikidata/105856383",
+    source_type: SourceType::Wikidata,
     name: "Adobe Dimensions geometry data (v3.0)",
     extensions: &["dim"],
     media_types: &["text/plain"],

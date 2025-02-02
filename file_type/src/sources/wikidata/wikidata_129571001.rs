@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_129571001: FileFormat = FileFormat {
     id: 129_571_001,
-    puid: "wikidata/129571001",
+    source_type: SourceType::Wikidata,
     name: "High Level Shader Language file format",
     extensions: &["hlsl"],
     media_types: &["text/x-hlsl"],
