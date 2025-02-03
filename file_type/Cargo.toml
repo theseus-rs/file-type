@@ -21,6 +21,9 @@ tokio = { workspace = true, optional = true, features = ["fs", "io-util"] }
 [dev-dependencies]
 anyhow = { workspace = true }
 criterion = { workspace = true }
+file-format = { workspace = true }
+infer = { workspace = true }
+mime_guess = { workspace = true }
 tokio = { workspace = true, features = ["full"] }
 
 [features]

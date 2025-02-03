@@ -4,6 +4,8 @@ use std::fs;
 use std::path::PathBuf;
 
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
+const PNG_EXTENSION: &str = "png";
+const PNG_MEDIA_TYPE: &str = "image/png";
 
 fn benchmarks(criterion: &mut Criterion) {
     bench_lifecycle(criterion).ok();
@@ -32,39 +34,87 @@ fn bench_lifecycle(criterion: &mut Criterion) -> anyhow::Result<()> {
     let bytes = fs::read(&file)?;
     let large_bytes = large_bytes();
 
-    criterion.bench_function("from_id", |bencher| {
+    criterion.bench_function("file_type::from_id", |bencher| {
         bencher.iter(|| {
             let _ = FileType::from_id("pronom/1");
         });
     });
 
-    criterion.bench_function("from_extension", |bencher| {
+    criterion.bench_function("file_type::from_extension", |bencher| {
         bencher.iter(|| {
-            let _ = FileType::from_extension("parquet");
+            let _ = FileType::from_extension(PNG_EXTENSION);
         });
     });
 
-    criterion.bench_function("from_media_type", |bencher| {
+    criterion.bench_function("file_type::from_media_type", |bencher| {
         bencher.iter(|| {
-            let _ = FileType::from_media_type("application/vnd.apache.parquet");
+            let _ = FileType::from_media_type(PNG_MEDIA_TYPE);
         });
     });
 
-    criterion.bench_function("from_bytes", |bencher| {
+    criterion.bench_function("file_type::from_bytes", |bencher| {
         bencher.iter(|| {
             let _ = FileType::from_bytes(&bytes);
         });
     });
 
-    criterion.bench_function("try_from_file", |bencher| {
+    criterion.bench_function("file_type::try_from_file", |bencher| {
         bencher.iter(|| {
             let _ = FileType::try_from_file_sync(&file);
         });
     });
 
-    criterion.bench_function("from_bytes (2GiB)", |bencher| {
+    criterion.bench_function("file_type::from_bytes (2GiB)", |bencher| {
         bencher.iter(|| {
             let _ = FileType::from_bytes(&large_bytes);
+        });
+    });
+
+    //
+    // Comparison testing to the file-format crate
+    //
+
+    criterion.bench_function("file-format::from_bytes", |bencher| {
+        bencher.iter(|| {
+            let _ = file_format::FileFormat::from_bytes(&bytes);
+        });
+    });
+
+    criterion.bench_function("file-format::from_bytes (2GiB)", |bencher| {
+        bencher.iter(|| {
+            let _ = file_format::FileFormat::from_bytes(&large_bytes);
+        });
+    });
+
+    //
+    // Comparison testing to the infer crate
+    //
+
+    criterion.bench_function("infer::from_bytes", |bencher| {
+        bencher.iter(|| {
+            let _ = infer::get(&bytes);
+        });
+    });
+
+    criterion.bench_function("infer::from_bytes (2GiB)", |bencher| {
+        bencher.iter(|| {
+            let _ = infer::get(&large_bytes);
+        });
+    });
+
+    //
+    // Comparison testing to the mime_guess crate
+    //
+
+    criterion.bench_function("mime_guess::from_extension", |bencher| {
+        bencher.iter(|| {
+            let _ = mime_guess::get_mime_extensions_str(PNG_EXTENSION);
+        });
+    });
+
+    criterion.bench_function("mime_guess::from_media_type", |bencher| {
+        bencher.iter(|| {
+            let _ = mime_guess::get_mime_extensions_str(PNG_MEDIA_TYPE);
         });
     });
 
