@@ -7,7 +7,7 @@ use std::io::{self, BufRead, BufReader, Read};
 use std::str::from_utf8;
 
 /// A token to match against a byte stream
-#[derive(Clone, Debug, PartialEq)]
+#[derive(Clone, Debug, Eq, PartialEq)]
 pub enum Token {
     Any(&'static [&'static [Token]]),
     AnyWildcard,
@@ -192,7 +192,7 @@ impl Source for Token {
 /// e.g. 0xFF [!01:02] FF would match 0xFF 00 FF and 0xFF 03 FF, but not 0xFF 01
 /// FF or 0xFF 02 FF.
 /// ```
-#[derive(Clone, Debug, Default, PartialEq)]
+#[derive(Clone, Debug, Default, Eq, PartialEq)]
 pub struct Regex {
     pub tokens: &'static [Token],
 }

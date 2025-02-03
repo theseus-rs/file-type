@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_1838254950: FileFormat = FileFormat {
+    id: 1_838_254_950,
+    source_type: SourceType::Iana,
+    name: "vnd.oipf.ueprofile+xml",
+    extensions: &[],
+    media_types: &["application/vnd.oipf.ueprofile+xml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

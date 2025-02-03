@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_2560071141: FileFormat = FileFormat {
+    id: 2_560_071_141,
+    source_type: SourceType::Iana,
+    name: "yin+xml",
+    extensions: &[],
+    media_types: &["application/yin+xml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

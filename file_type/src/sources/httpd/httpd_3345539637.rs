@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_3345539637: FileFormat = FileFormat {
+    id: 3_345_539_637,
+    source_type: SourceType::Httpd,
+    name: "marc",
+    extensions: &["mrc"],
+    media_types: &["application/marc"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_2120271273: FileFormat = FileFormat {
+    id: 2_120_271_273,
+    source_type: SourceType::Iana,
+    name: "MF4",
+    extensions: &[],
+    media_types: &["application/MF4"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

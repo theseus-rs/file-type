@@ -1,0 +1,15 @@
+[package]
+edition.workspace = true
+name = "iana"
+publish = false
+license.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+csv = { workspace = true }
+file_type = { path = "../../file_type", version = "0.4.1" }
+reqwest = { workspace = true }
+tokio = { workspace = true, features = ["full"]}
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true, features = ["env-filter"] }

@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_2944600447: FileFormat = FileFormat {
+    id: 2_944_600_447,
+    source_type: SourceType::Iana,
+    name: "wgsl",
+    extensions: &[],
+    media_types: &["text/wgsl"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

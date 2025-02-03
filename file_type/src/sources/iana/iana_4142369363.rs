@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_4142369363: FileFormat = FileFormat {
+    id: 4_142_369_363,
+    source_type: SourceType::Iana,
+    name: "MP4A-LATM",
+    extensions: &[],
+    media_types: &["audio/MP4A-LATM"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

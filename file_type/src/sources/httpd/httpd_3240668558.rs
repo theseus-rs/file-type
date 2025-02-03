@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_3240668558: FileFormat = FileFormat {
+    id: 3_240_668_558,
+    source_type: SourceType::Httpd,
+    name: "spotfire sfs",
+    extensions: &["sfs"],
+    media_types: &["application/vnd.spotfire.sfs"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

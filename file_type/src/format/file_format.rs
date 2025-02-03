@@ -9,6 +9,7 @@ pub enum SourceType {
     #[default]
     Default,
     Httpd,
+    Iana,
     Linguist,
     Pronom,
     Wikidata,
@@ -30,6 +31,7 @@ impl SourceType {
             SourceType::Custom => 1,
             SourceType::Default => 0,
             SourceType::Httpd => 5,
+            SourceType::Iana => 6,
             SourceType::Linguist => 4,
             SourceType::Pronom => 2,
             SourceType::Wikidata => 3,
@@ -50,7 +52,7 @@ impl Ord for SourceType {
 }
 
 /// A file format and its associated information
-#[derive(Clone, Debug, Default)]
+#[derive(Clone, Debug, Default, Eq, PartialEq)]
 pub struct FileFormat {
     pub id: usize,
     pub source_type: SourceType,
@@ -100,6 +102,21 @@ impl Source for FileFormat {
     }
 }
 
+impl Ord for FileFormat {
+    fn cmp(&self, other: &Self) -> Ordering {
+        match self.source_type.cmp(&other.source_type) {
+            Ordering::Equal => self.id.cmp(&other.id),
+            ordering => ordering,
+        }
+    }
+}
+
+impl PartialOrd for FileFormat {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        Some(self.cmp(other))
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -116,6 +133,7 @@ mod tests {
         assert_eq!(SourceType::Custom.priority(), 1);
         assert_eq!(SourceType::Default.priority(), 0);
         assert_eq!(SourceType::Httpd.priority(), 5);
+        assert_eq!(SourceType::Iana.priority(), 6);
         assert_eq!(SourceType::Linguist.priority(), 4);
         assert_eq!(SourceType::Pronom.priority(), 2);
         assert_eq!(SourceType::Wikidata.priority(), 3);

@@ -1,6 +1,7 @@
 [workspace]
 default-members = [
     "export/httpd",
+    "export/iana",
     "export/linguist",
     "export/pronom",
     "export/wikidata",
@@ -8,6 +9,7 @@ default-members = [
 ]
 members = [
     "export/httpd",
+    "export/iana",
     "export/linguist",
     "export/pronom",
     "export/wikidata",
@@ -28,6 +30,7 @@ version = "0.4.1"
 [workspace.dependencies]
 anyhow = "1.0.95"
 criterion = "0.5.1"
+csv = "1.3.1"
 indoc = "2.0.5"
 quick-xml = "0.37.2"
 rayon = "1.5.1"

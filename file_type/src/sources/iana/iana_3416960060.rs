@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_3416960060: FileFormat = FileFormat {
+    id: 3_416_960_060,
+    source_type: SourceType::Iana,
+    name: "vnd.3gpp.5gsv2x",
+    extensions: &[],
+    media_types: &["application/vnd.3gpp.5gsv2x"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

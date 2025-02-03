@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_3979406238: FileFormat = FileFormat {
+    id: 3_979_406_238,
+    source_type: SourceType::Iana,
+    name: "jxrS",
+    extensions: &[],
+    media_types: &["image/jxrS"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

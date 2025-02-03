@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_2586104738: FileFormat = FileFormat {
+    id: 2_586_104_738,
+    source_type: SourceType::Httpd,
+    name: "dece ttml xml",
+    extensions: &["uvt", "uvvt"],
+    media_types: &["application/vnd.dece.ttml+xml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

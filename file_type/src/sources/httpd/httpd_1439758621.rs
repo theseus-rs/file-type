@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_1439758621: FileFormat = FileFormat {
+    id: 1_439_758_621,
+    source_type: SourceType::Httpd,
+    name: "m4v",
+    extensions: &["m4v"],
+    media_types: &["video/x-m4v"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

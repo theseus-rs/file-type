@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_1065388935: FileFormat = FileFormat {
+    id: 1_065_388_935,
+    source_type: SourceType::Httpd,
+    name: "x3d binary",
+    extensions: &["x3db", "x3dbz"],
+    media_types: &["model/x3d+binary"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_3461028734: FileFormat = FileFormat {
+    id: 3_461_028_734,
+    source_type: SourceType::Iana,
+    name: "samlmetadata+xml",
+    extensions: &[],
+    media_types: &["application/samlmetadata+xml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

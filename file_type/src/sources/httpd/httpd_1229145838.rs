@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_1229145838: FileFormat = FileFormat {
+    id: 1_229_145_838,
+    source_type: SourceType::Httpd,
+    name: "amiga ami",
+    extensions: &["ami"],
+    media_types: &["application/vnd.amiga.ami"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

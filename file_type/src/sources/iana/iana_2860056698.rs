@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_2860056698: FileFormat = FileFormat {
+    id: 2_860_056_698,
+    source_type: SourceType::Iana,
+    name: "usac",
+    extensions: &[],
+    media_types: &["audio/usac"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

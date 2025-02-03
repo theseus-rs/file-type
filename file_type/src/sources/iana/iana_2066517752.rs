@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_2066517752: FileFormat = FileFormat {
+    id: 2_066_517_752,
+    source_type: SourceType::Iana,
+    name: "vnd.oipf.contentaccessstreaming+xml",
+    extensions: &[],
+    media_types: &["application/vnd.oipf.contentaccessstreaming+xml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

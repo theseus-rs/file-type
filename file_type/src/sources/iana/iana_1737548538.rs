@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_1737548538: FileFormat = FileFormat {
+    id: 1_737_548_538,
+    source_type: SourceType::Iana,
+    name: "vnd.openxmlformats-officedocument.presentationml.notesSlide+xml",
+    extensions: &[],
+    media_types: &["application/vnd.openxmlformats-officedocument.presentationml.notesSlide+xml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

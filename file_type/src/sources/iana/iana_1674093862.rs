@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_1674093862: FileFormat = FileFormat {
+    id: 1_674_093_862,
+    source_type: SourceType::Iana,
+    name: "vnd.Mobius.DAF",
+    extensions: &[],
+    media_types: &["application/vnd.Mobius.DAF"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

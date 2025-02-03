@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_3841882188: FileFormat = FileFormat {
+    id: 3_841_882_188,
+    source_type: SourceType::Iana,
+    name: "vnd.wv.csp+wbxml",
+    extensions: &[],
+    media_types: &["application/vnd.wv.csp+wbxml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

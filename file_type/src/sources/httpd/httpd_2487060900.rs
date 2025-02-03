@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_2487060900: FileFormat = FileFormat {
+    id: 2_487_060_900,
+    source_type: SourceType::Httpd,
+    name: "shar",
+    extensions: &["shar"],
+    media_types: &["application/x-shar"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

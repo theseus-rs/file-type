@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_4132604366: FileFormat = FileFormat {
+    id: 4_132_604_366,
+    source_type: SourceType::Iana,
+    name: "t38",
+    extensions: &[],
+    media_types: &["image/t38"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

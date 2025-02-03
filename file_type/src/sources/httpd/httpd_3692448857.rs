@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_3692448857: FileFormat = FileFormat {
+    id: 3_692_448_857,
+    source_type: SourceType::Httpd,
+    name: "pg osasli",
+    extensions: &["ei6"],
+    media_types: &["application/vnd.pg.osasli"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

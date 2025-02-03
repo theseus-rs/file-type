@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_1550746427: FileFormat = FileFormat {
+    id: 1_550_746_427,
+    source_type: SourceType::Httpd,
+    name: "pkixcmp",
+    extensions: &["pki"],
+    media_types: &["application/pkixcmp"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

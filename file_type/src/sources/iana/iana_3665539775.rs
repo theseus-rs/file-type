@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_3665539775: FileFormat = FileFormat {
+    id: 3_665_539_775,
+    source_type: SourceType::Iana,
+    name: "fhir+json",
+    extensions: &[],
+    media_types: &["application/fhir+json"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

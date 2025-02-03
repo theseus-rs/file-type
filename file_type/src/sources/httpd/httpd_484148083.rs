@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_484148083: FileFormat = FileFormat {
+    id: 484_148_083,
+    source_type: SourceType::Httpd,
+    name: "muvee style",
+    extensions: &["msty"],
+    media_types: &["application/vnd.muvee.style"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

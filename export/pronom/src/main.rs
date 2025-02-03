@@ -96,7 +96,7 @@ fn execute(puid_types: HashMap<&str, i64>, dry_run: bool) -> Result<()> {
                     None
                 }
             })
-            .collect::<Vec<file_type::format::FileFormat>>();
+            .collect::<Vec<FileFormat>>();
         file_formats.extend_from_slice(&formats);
     }
 

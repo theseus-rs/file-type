@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_2170054828: FileFormat = FileFormat {
+    id: 2_170_054_828,
+    source_type: SourceType::Iana,
+    name: "vnd.mason+json",
+    extensions: &[],
+    media_types: &["application/vnd.mason+json"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

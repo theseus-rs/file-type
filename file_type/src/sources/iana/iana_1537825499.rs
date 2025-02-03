@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_1537825499: FileFormat = FileFormat {
+    id: 1_537_825_499,
+    source_type: SourceType::Iana,
+    name: "vnd.zoo.kcl",
+    extensions: &[],
+    media_types: &["text/vnd.zoo.kcl"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

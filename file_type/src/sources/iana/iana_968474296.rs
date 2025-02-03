@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_968474296: FileFormat = FileFormat {
+    id: 968_474_296,
+    source_type: SourceType::Iana,
+    name: "vnd.familysearch.gedcom",
+    extensions: &[],
+    media_types: &["text/vnd.familysearch.gedcom"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

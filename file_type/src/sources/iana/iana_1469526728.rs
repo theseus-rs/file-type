@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_1469526728: FileFormat = FileFormat {
+    id: 1_469_526_728,
+    source_type: SourceType::Iana,
+    name: "jp2",
+    extensions: &[],
+    media_types: &["image/jp2"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

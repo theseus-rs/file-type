@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_2515690866: FileFormat = FileFormat {
+    id: 2_515_690_866,
+    source_type: SourceType::Httpd,
+    name: "olpc sugar",
+    extensions: &["xo"],
+    media_types: &["application/vnd.olpc-sugar"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

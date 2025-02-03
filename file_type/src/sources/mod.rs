@@ -3,10 +3,13 @@ use crate::FileType;
 use std::collections::HashMap;
 use std::sync::LazyLock;
 
+#[cfg(feature = "custom")]
 mod custom;
 mod default;
 #[cfg(feature = "httpd")]
 pub(crate) mod httpd;
+#[cfg(feature = "iana")]
+pub(crate) mod iana;
 #[cfg(feature = "linguist")]
 pub(crate) mod linguist;
 #[cfg(feature = "pronom")]
@@ -20,6 +23,8 @@ pub(crate) const FILE_FORMATS: &[&[&FileFormat]] = &[
     default::FILE_FORMATS,
     #[cfg(feature = "httpd")]
     httpd::FILE_FORMATS,
+    #[cfg(feature = "iana")]
+    iana::FILE_FORMATS,
     #[cfg(feature = "linguist")]
     linguist::FILE_FORMATS,
     #[cfg(feature = "pronom")]

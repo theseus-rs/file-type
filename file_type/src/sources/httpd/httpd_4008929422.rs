@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_4008929422: FileFormat = FileFormat {
+    id: 4_008_929_422,
+    source_type: SourceType::Httpd,
+    name: "csml",
+    extensions: &["csml"],
+    media_types: &["chemical/x-csml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

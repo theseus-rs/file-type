@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_1402999297: FileFormat = FileFormat {
+    id: 1_402_999_297,
+    source_type: SourceType::Iana,
+    name: "matroska",
+    extensions: &[],
+    media_types: &["video/matroska"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_3709208966: FileFormat = FileFormat {
+    id: 3_709_208_966,
+    source_type: SourceType::Httpd,
+    name: "dece pd",
+    extensions: &["uvp", "uvvp"],
+    media_types: &["video/vnd.dece.pd"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

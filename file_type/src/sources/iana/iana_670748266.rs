@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_670748266: FileFormat = FileFormat {
+    id: 670_748_266,
+    source_type: SourceType::Iana,
+    name: "ttf",
+    extensions: &[],
+    media_types: &["font/ttf"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

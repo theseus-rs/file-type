@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_2227453058: FileFormat = FileFormat {
+    id: 2_227_453_058,
+    source_type: SourceType::Iana,
+    name: "vnd.ericsson.quickcall",
+    extensions: &[],
+    media_types: &["application/vnd.ericsson.quickcall"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

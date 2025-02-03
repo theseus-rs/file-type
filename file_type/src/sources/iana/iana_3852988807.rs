@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_3852988807: FileFormat = FileFormat {
+    id: 3_852_988_807,
+    source_type: SourceType::Iana,
+    name: "tve-trigger",
+    extensions: &[],
+    media_types: &["application/tve-trigger"],
+    internal_signatures: &[],
+    related_formats: &[],
+};
