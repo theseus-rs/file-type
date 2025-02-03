@@ -6,6 +6,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## `file_type` - [0.5.0](https://github.com/theseus-rs/file-type/compare/v0.4.1...v0.5.0) - 2025-02-03
+
+### Added
+- add IANA media types
+
+### Other
+- add comparison benchmarks
+- [**breaking**] reduce FileType::file_format() visibility to pub(crate)
+- improve test coverage
+- [**breaking**] update pronom ids to be prefixed with pronom/ instead of fmt/ or x-fmt/
+- optimize signature matching
+- update FileType to use a reference to FileFormat to avoid unnecessary clone
+- remove walkdir
+- add wikidata to readme
+
 ## `file_type` - [0.4.1](https://github.com/theseus-rs/file-type/compare/v0.4.0...v0.4.1) - 2025-02-01
 
 ### Added
