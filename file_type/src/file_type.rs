@@ -117,17 +117,9 @@ impl FileType {
         self.file_format.media_types
     }
 
-    /// Get the detailed file format information for this file type.
-    ///
-    /// # Example
-    /// ```
-    /// use file_type::FileType;
-    ///
-    /// let file_type = FileType::from_id("pronom/664").expect("file type not found");
-    /// assert_eq!(file_type.file_format().name, "Portable Network Graphics");
-    /// ```
+    /// Get the file format information for this file type.
     #[must_use]
-    pub fn file_format(&self) -> &FileFormat {
+    pub(crate) fn file_format(&self) -> &FileFormat {
         self.file_format
     }
 

@@ -77,6 +77,7 @@ extern crate core;
 mod error;
 mod file_type;
 mod file_types;
+#[doc(hidden)]
 pub mod format;
 mod sources;
 
