@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866379: FileFormat = FileFormat {
     id: 105_866_379,
-    puid: "wikidata/105866379",
+    source_type: SourceType::Wikidata,
     name: "Ping Plotter Sample file",
     extensions: &["pp2"],
     media_types: &[],

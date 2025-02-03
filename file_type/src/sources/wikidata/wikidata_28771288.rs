@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28771288: FileFormat = FileFormat {
     id: 28_771_288,
-    puid: "wikidata/28771288",
+    source_type: SourceType::Wikidata,
     name: "Mapsforge Binary Map",
     extensions: &["map"],
     media_types: &["application/octet-stream"],

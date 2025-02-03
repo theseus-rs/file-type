@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858406: FileFormat = FileFormat {
     id: 105_858_406,
-    puid: "wikidata/105858406",
+    source_type: SourceType::Wikidata,
     name: "EOP Music Master music score",
     extensions: &["eopm"],
     media_types: &[],

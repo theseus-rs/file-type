@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862333: FileFormat = FileFormat {
     id: 105_862_333,
-    puid: "wikidata/105862333",
+    source_type: SourceType::Wikidata,
     name: "XMOD format module",
     extensions: &["xmod"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857003: FileFormat = FileFormat {
     id: 105_857_003,
-    puid: "wikidata/105857003",
+    source_type: SourceType::Wikidata,
     name: "Symantec Guard Header",
     extensions: &["grd"],
     media_types: &[],

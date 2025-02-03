@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864957: FileFormat = FileFormat {
     id: 105_864_957,
-    puid: "wikidata/105864957",
+    source_type: SourceType::Wikidata,
     name: "Corsair Utility Engine Profile (v1)",
     extensions: &["prf"],
     media_types: &["text/xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854154: FileFormat = FileFormat {
     id: 105_854_154,
-    puid: "wikidata/105854154",
+    source_type: SourceType::Wikidata,
     name: "Anno Designer layout",
     extensions: &["ad"],
     media_types: &["text/plain"],

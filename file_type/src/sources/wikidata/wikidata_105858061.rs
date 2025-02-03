@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858061: FileFormat = FileFormat {
     id: 105_858_061,
-    puid: "wikidata/105858061",
+    source_type: SourceType::Wikidata,
     name: "Epic ITS format",
     extensions: &["int"],
     media_types: &["application/octet-stream"],

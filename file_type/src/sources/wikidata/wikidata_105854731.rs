@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854731: FileFormat = FileFormat {
     id: 105_854_731,
-    puid: "wikidata/105854731",
+    source_type: SourceType::Wikidata,
     name: "Unity YAML Scene",
     extensions: &["asset"],
     media_types: &["text/plain"],

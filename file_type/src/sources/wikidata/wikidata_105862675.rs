@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862675: FileFormat = FileFormat {
     id: 105_862_675,
-    puid: "wikidata/105862675",
+    source_type: SourceType::Wikidata,
     name: "Doom 3 MD5 Animation",
     extensions: &["md5anim"],
     media_types: &["application/octet-stream"],

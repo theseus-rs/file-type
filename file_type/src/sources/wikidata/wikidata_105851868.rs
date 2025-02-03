@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851868: FileFormat = FileFormat {
     id: 105_851_868,
-    puid: "wikidata/105851868",
+    source_type: SourceType::Wikidata,
     name: "StoneCracker S403 compressed",
     extensions: &["stc"],
     media_types: &["application/octet-stream"],

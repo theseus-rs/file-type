@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860991: FileFormat = FileFormat {
     id: 105_860_991,
-    puid: "wikidata/105860991",
+    source_type: SourceType::Wikidata,
     name: "Logomotion Graphic File",
     extensions: &["lgf"],
     media_types: &["application/octet-stream"],

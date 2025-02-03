@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853883: FileFormat = FileFormat {
     id: 105_853_883,
-    puid: "wikidata/105853883",
+    source_type: SourceType::Wikidata,
     name: "SoundSlimmer compressed audio",
     extensions: &["mpz"],
     media_types: &[],

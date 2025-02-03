@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854748: FileFormat = FileFormat {
     id: 105_854_748,
-    puid: "wikidata/105854748",
+    source_type: SourceType::Wikidata,
     name: "IXimager forensic image",
     extensions: &["asb"],
     media_types: &["application/octet-stream"],

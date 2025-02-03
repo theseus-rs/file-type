@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_9915205638149722777: FileFormat = FileFormat {
-    id: 9_915_205_638_149_722_777,
-    puid: "httpd/9915205638149722777",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "xara",
     extensions: &["xar"],
     media_types: &["application/vnd.xara"],

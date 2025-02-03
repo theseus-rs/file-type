@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864305: FileFormat = FileFormat {
     id: 105_864_305,
-    puid: "wikidata/105864305",
+    source_type: SourceType::Wikidata,
     name: "Caligari TrueSpace Polyline (v2.x)",
     extensions: &["poly"],
     media_types: &["application/octet-stream"],

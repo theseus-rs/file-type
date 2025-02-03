@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855796: FileFormat = FileFormat {
     id: 105_855_796,
-    puid: "wikidata/105855796",
+    source_type: SourceType::Wikidata,
     name: "Desktop Sidebar slideshow",
     extensions: &["dspackage"],
     media_types: &[],

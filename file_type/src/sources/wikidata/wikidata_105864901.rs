@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864901: FileFormat = FileFormat {
     id: 105_864_901,
-    puid: "wikidata/105864901",
+    source_type: SourceType::Wikidata,
     name: "OS/2 Pointer (bi-level)",
     extensions: &["ptr"],
     media_types: &["application/octet-stream"],

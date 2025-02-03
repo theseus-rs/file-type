@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852391: FileFormat = FileFormat {
     id: 105_852_391,
-    puid: "wikidata/105852391",
+    source_type: SourceType::Wikidata,
     name: "Motorola phone skin info",
     extensions: &["ski"],
     media_types: &[],

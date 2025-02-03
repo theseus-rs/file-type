@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10930448860814577903: FileFormat = FileFormat {
-    id: 10_930_448_860_814_577_903,
-    puid: "httpd/10930448860814577903",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "fujitsu oasys3",
     extensions: &["oa3"],
     media_types: &["application/vnd.fujitsu.oasys3"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860888: FileFormat = FileFormat {
     id: 105_860_888,
-    puid: "wikidata/105860888",
+    source_type: SourceType::Wikidata,
     name: "WinWay Resume (v4.0)",
     extensions: &["rsm"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856504: FileFormat = FileFormat {
     id: 105_856_504,
-    puid: "wikidata/105856504",
+    source_type: SourceType::Wikidata,
     name: "Worksheet Builder Self-Contained worksheet",
     extensions: &["wss"],
     media_types: &[],

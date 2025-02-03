@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_123669580: FileFormat = FileFormat {
     id: 123_669_580,
-    puid: "wikidata/123669580",
+    source_type: SourceType::Wikidata,
     name: "CorelDraw Drawing X7",
     extensions: &["cdr"],
     media_types: &[],

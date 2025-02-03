@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864048: FileFormat = FileFormat {
     id: 105_864_048,
-    puid: "wikidata/105864048",
+    source_type: SourceType::Wikidata,
     name: "MarxMenu script (with rem)",
     extensions: &["mnu"],
     media_types: &["text/plain"],

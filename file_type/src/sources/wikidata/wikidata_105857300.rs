@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857300: FileFormat = FileFormat {
     id: 105_857_300,
-    puid: "wikidata/105857300",
+    source_type: SourceType::Wikidata,
     name: "HTC SMS Backup",
     extensions: &["hbk"],
     media_types: &["application/octet-stream"],

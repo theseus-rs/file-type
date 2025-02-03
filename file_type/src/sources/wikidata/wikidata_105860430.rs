@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860430: FileFormat = FileFormat {
     id: 105_860_430,
-    puid: "wikidata/105860430",
+    source_type: SourceType::Wikidata,
     name: "Borland Reflex Database",
     extensions: &["rxd"],
     media_types: &["application/octet-stream"],

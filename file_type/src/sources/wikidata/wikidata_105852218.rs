@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852218: FileFormat = FileFormat {
     id: 105_852_218,
-    puid: "wikidata/105852218",
+    source_type: SourceType::Wikidata,
     name: "Duxbury Scrub Table",
     extensions: &["sbt"],
     media_types: &["text/plain"],

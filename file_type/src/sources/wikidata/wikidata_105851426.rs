@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851426: FileFormat = FileFormat {
     id: 105_851_426,
-    puid: "wikidata/105851426",
+    source_type: SourceType::Wikidata,
     name: "Turboprint color info (v4)",
     extensions: &["tpm"],
     media_types: &["application/octet-stream"],

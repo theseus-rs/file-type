@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856318: FileFormat = FileFormat {
     id: 105_856_318,
-    puid: "wikidata/105856318",
+    source_type: SourceType::Wikidata,
     name: "ATK Data Flow Diagram",
     extensions: &["dfd"],
     media_types: &["text/plain"],

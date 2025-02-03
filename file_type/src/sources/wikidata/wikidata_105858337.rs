@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858337: FileFormat = FileFormat {
     id: 105_858_337,
-    puid: "wikidata/105858337",
+    source_type: SourceType::Wikidata,
     name: "Easel.ly graphic project",
     extensions: &["ely"],
     media_types: &["text/json"],

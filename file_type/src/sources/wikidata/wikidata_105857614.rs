@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857614: FileFormat = FileFormat {
     id: 105_857_614,
-    puid: "wikidata/105857614",
+    source_type: SourceType::Wikidata,
     name: "Windmill's encrypted KIF game data archive",
     extensions: &["int"],
     media_types: &["application/octet-stream"],

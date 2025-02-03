@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851941: FileFormat = FileFormat {
     id: 105_851_941,
-    puid: "wikidata/105851941",
+    source_type: SourceType::Wikidata,
     name: "MMFW Sounds",
     extensions: &["snd"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_18057261898033090654: FileFormat = FileFormat {
-    id: 18_057_261_898_033_090_654,
-    puid: "httpd/18057261898033090654",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "crick clicker wordbank",
     extensions: &["clkw"],
     media_types: &["application/vnd.crick.clicker.wordbank"],

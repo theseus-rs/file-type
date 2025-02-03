@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855950: FileFormat = FileFormat {
     id: 105_855_950,
-    puid: "wikidata/105855950",
+    source_type: SourceType::Wikidata,
     name: "Project Dogwaffle animation (generic)",
     extensions: &["dwa"],
     media_types: &[],

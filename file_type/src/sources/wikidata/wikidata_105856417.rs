@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856417: FileFormat = FileFormat {
     id: 105_856_417,
-    puid: "wikidata/105856417",
+    source_type: SourceType::Wikidata,
     name: "WavePad Audio Project",
     extensions: &["wpp"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858378: FileFormat = FileFormat {
     id: 105_858_378,
-    puid: "wikidata/105858378",
+    source_type: SourceType::Wikidata,
     name: "Eclipse product marker",
     extensions: &["eclipseproduct"],
     media_types: &[],

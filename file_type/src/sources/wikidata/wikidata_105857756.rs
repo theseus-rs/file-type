@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857756: FileFormat = FileFormat {
     id: 105_857_756,
-    puid: "wikidata/105857756",
+    source_type: SourceType::Wikidata,
     name: "Bochs disk image (generic)",
     extensions: &["img"],
     media_types: &["application/octet-stream"],

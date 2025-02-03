@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28600288: FileFormat = FileFormat {
     id: 28_600_288,
-    puid: "wikidata/28600288",
+    source_type: SourceType::Wikidata,
     name: "ActiveMime",
     extensions: &["mso"],
     media_types: &["application/x-mso"],

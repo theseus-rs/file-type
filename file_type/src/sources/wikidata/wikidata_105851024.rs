@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851024: FileFormat = FileFormat {
     id: 105_851_024,
-    puid: "wikidata/105851024",
+    source_type: SourceType::Wikidata,
     name: "Ulead subtitles",
     extensions: &["txt"],
     media_types: &[],

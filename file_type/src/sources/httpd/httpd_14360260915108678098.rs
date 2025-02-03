@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14360260915108678098: FileFormat = FileFormat {
-    id: 14_360_260_915_108_678_098,
-    puid: "httpd/14360260915108678098",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "intergeo",
     extensions: &["i2g"],
     media_types: &["application/vnd.intergeo"],

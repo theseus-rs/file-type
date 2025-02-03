@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_8181556888019162819: FileFormat = FileFormat {
-    id: 8_181_556_888_019_162_819,
-    puid: "httpd/8181556888019162819",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "aac",
     extensions: &["aac"],
     media_types: &["audio/x-aac"],

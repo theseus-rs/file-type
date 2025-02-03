@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863964: FileFormat = FileFormat {
     id: 105_863_964,
-    puid: "wikidata/105863964",
+    source_type: SourceType::Wikidata,
     name: "RapidFile Memo",
     extensions: &["mmo"],
     media_types: &["application/octet-stream"],

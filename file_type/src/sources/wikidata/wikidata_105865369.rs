@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865369: FileFormat = FileFormat {
     id: 105_865_369,
-    puid: "wikidata/105865369",
+    source_type: SourceType::Wikidata,
     name: "PatchMeister Driver",
     extensions: &["pmdriver"],
     media_types: &["application/octet-stream"],

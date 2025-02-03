@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_98: FileFormat = FileFormat {
     id: 98,
-    puid: "linguist/98",
+    source_type: SourceType::Linguist,
     name: "Ecere Projects",
     extensions: &["epj"],
     media_types: &["application/json"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_74690858: FileFormat = FileFormat {
     id: 74_690_858,
-    puid: "wikidata/74690858",
+    source_type: SourceType::Wikidata,
     name: "TomeRaider 3 eBook",
     extensions: &["tr3"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855945: FileFormat = FileFormat {
     id: 105_855_945,
-    puid: "wikidata/105855945",
+    source_type: SourceType::Wikidata,
     name: "InstallShield debug symbols",
     extensions: &["dbg"],
     media_types: &[],

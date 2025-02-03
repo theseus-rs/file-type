@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865167: FileFormat = FileFormat {
     id: 105_865_167,
-    puid: "wikidata/105865167",
+    source_type: SourceType::Wikidata,
     name: "Red Faction 2 game data",
     extensions: &["peg"],
     media_types: &[],

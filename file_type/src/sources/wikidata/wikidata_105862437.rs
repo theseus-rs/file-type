@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862437: FileFormat = FileFormat {
     id: 105_862_437,
-    puid: "wikidata/105862437",
+    source_type: SourceType::Wikidata,
     name: "Great Valley Products EGS settings",
     extensions: &["map2video"],
     media_types: &["application/octet-stream"],

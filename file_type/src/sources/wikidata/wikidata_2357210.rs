@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_2357210: FileFormat = FileFormat {
     id: 2_357_210,
-    puid: "wikidata/2357210",
+    source_type: SourceType::Wikidata,
     name: "Structured Fax File",
     extensions: &["sff"],
     media_types: &["image/x-sff"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852398: FileFormat = FileFormat {
     id: 105_852_398,
-    puid: "wikidata/105852398",
+    source_type: SourceType::Wikidata,
     name: "SMath Studio worksheet",
     extensions: &["sm"],
     media_types: &[],

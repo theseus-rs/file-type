@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857649: FileFormat = FileFormat {
     id: 105_857_649,
-    puid: "wikidata/105857649",
+    source_type: SourceType::Wikidata,
     name: "Call Of Duty map - game data archive",
     extensions: &["iwd"],
     media_types: &[],

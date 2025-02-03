@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_128034054: FileFormat = FileFormat {
     id: 128_034_054,
-    puid: "wikidata/128034054",
+    source_type: SourceType::Wikidata,
     name: "Rebol script",
     extensions: &["r"],
     media_types: &[],

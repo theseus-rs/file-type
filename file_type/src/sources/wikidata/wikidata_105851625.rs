@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851625: FileFormat = FileFormat {
     id: 105_851_625,
-    puid: "wikidata/105851625",
+    source_type: SourceType::Wikidata,
     name: "Fugawi Tracklog file",
     extensions: &["trk"],
     media_types: &[],

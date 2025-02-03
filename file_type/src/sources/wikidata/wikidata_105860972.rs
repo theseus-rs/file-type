@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860972: FileFormat = FileFormat {
     id: 105_860_972,
-    puid: "wikidata/105860972",
+    source_type: SourceType::Wikidata,
     name: "P-CAD ASCII Library",
     extensions: &["lia"],
     media_types: &["text/plain"],

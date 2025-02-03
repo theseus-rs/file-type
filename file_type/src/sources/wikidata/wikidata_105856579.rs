@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856579: FileFormat = FileFormat {
     id: 105_856_579,
-    puid: "wikidata/105856579",
+    source_type: SourceType::Wikidata,
     name: "wi-scan log",
     extensions: &["std", "sum", "txt"],
     media_types: &[],

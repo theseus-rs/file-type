@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851247: FileFormat = FileFormat {
     id: 105_851_247,
-    puid: "wikidata/105851247",
+    source_type: SourceType::Wikidata,
     name: "Tinyseq sequence format",
     extensions: &["xml"],
     media_types: &[],

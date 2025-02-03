@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14099057270942735382: FileFormat = FileFormat {
-    id: 14_099_057_270_942_735_382,
-    puid: "httpd/14099057270942735382",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mspublisher",
     extensions: &["pub"],
     media_types: &["application/x-mspublisher"],

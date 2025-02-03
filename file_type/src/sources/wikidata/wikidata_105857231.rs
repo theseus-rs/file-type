@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857231: FileFormat = FileFormat {
     id: 105_857_231,
-    puid: "wikidata/105857231",
+    source_type: SourceType::Wikidata,
     name: "Husqvarna Viking embroidery format",
     extensions: &["hus"],
     media_types: &["application/octet-stream"],

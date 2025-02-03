@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853242: FileFormat = FileFormat {
     id: 105_853_242,
-    puid: "wikidata/105853242",
+    source_type: SourceType::Wikidata,
     name: "The Witcher 3: Wild Hunt game save",
     extensions: &["sav"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862012: FileFormat = FileFormat {
     id: 105_862_012,
-    puid: "wikidata/105862012",
+    source_type: SourceType::Wikidata,
     name: "SunVox module",
     extensions: &["sunvox"],
     media_types: &["audio/x-mod"],

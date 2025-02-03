@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852255: FileFormat = FileFormat {
     id: 105_852_255,
-    puid: "wikidata/105852255",
+    source_type: SourceType::Wikidata,
     name: "KiXtart SPK notation format",
     extensions: &["spk"],
     media_types: &["text/plain"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_1889659990446513902: FileFormat = FileFormat {
-    id: 1_889_659_990_446_513_902,
-    puid: "httpd/1889659990446513902",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "timestamped data",
     extensions: &["tsd"],
     media_types: &["application/timestamped-data"],

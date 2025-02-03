@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853397: FileFormat = FileFormat {
     id: 105_853_397,
-    puid: "wikidata/105853397",
+    source_type: SourceType::Wikidata,
     name: "Yamaha EX5 waveforms format",
     extensions: &["s1m"],
     media_types: &["application/octet-stream"],

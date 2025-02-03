@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_129571499: FileFormat = FileFormat {
     id: 129_571_499,
-    puid: "wikidata/129571499",
+    source_type: SourceType::Wikidata,
     name: "HSAIL assembly code file",
     extensions: &["hsail"],
     media_types: &["text/x-hsail"],

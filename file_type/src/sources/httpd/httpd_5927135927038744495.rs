@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5927135927038744495: FileFormat = FileFormat {
-    id: 5_927_135_927_038_744_495,
-    puid: "httpd/5927135927038744495",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "lost xml",
     extensions: &["lostxml"],
     media_types: &["application/lost+xml"],

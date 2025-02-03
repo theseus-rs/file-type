@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867627: FileFormat = FileFormat {
     id: 105_867_627,
-    puid: "wikidata/105867627",
+    source_type: SourceType::Wikidata,
     name: "NTitler show",
     extensions: &["nt"],
     media_types: &["application/octet-stream"],

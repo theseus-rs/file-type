@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860435: FileFormat = FileFormat {
     id: 105_860_435,
-    puid: "wikidata/105860435",
+    source_type: SourceType::Wikidata,
     name: "Rob Northen Compression (type 1)",
     extensions: &["rnc"],
     media_types: &["application/octet-stream"],

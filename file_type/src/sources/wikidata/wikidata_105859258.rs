@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859258: FileFormat = FileFormat {
     id: 105_859_258,
-    puid: "wikidata/105859258",
+    source_type: SourceType::Wikidata,
     name: "Biovision Action data",
     extensions: &["bva"],
     media_types: &["text/plain"],

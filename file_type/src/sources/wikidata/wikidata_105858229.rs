@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858229: FileFormat = FileFormat {
     id: 105_858_229,
-    puid: "wikidata/105858229",
+    source_type: SourceType::Wikidata,
     name: "EQATEC Profiler configuration",
     extensions: &["eqconfig"],
     media_types: &["text/xml"],

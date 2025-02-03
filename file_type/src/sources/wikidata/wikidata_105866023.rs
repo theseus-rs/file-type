@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866023: FileFormat = FileFormat {
     id: 105_866_023,
-    puid: "wikidata/105866023",
+    source_type: SourceType::Wikidata,
     name: "Papagayo lipsync info",
     extensions: &["pgo"],
     media_types: &["text/plain"],

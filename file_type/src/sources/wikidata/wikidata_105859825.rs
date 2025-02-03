@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859825: FileFormat = FileFormat {
     id: 105_859_825,
-    puid: "wikidata/105859825",
+    source_type: SourceType::Wikidata,
     name: "Magic Carpet Flic video",
     extensions: &["dat"],
     media_types: &["application/octet-stream"],

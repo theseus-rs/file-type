@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867080: FileFormat = FileFormat {
     id: 105_867_080,
-    puid: "wikidata/105867080",
+    source_type: SourceType::Wikidata,
     name: "Nexon game archive",
     extensions: &["nar"],
     media_types: &[],

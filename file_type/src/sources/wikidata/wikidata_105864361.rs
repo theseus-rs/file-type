@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864361: FileFormat = FileFormat {
     id: 105_864_361,
-    puid: "wikidata/105864361",
+    source_type: SourceType::Wikidata,
     name: "GraphiCode Programmable Device Format",
     extensions: &["pdf"],
     media_types: &[],

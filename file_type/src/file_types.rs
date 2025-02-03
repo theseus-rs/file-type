@@ -10,7 +10,8 @@ use std::sync::LazyLock;
 #[cfg(feature = "tokio")]
 use tokio::io::AsyncReadExt;
 
-static FILE_TYPES: LazyLock<HashMap<String, FileType>> = LazyLock::new(initialize_file_formats);
+static FILE_TYPES: LazyLock<HashMap<&'static str, FileType>> =
+    LazyLock::new(initialize_file_formats);
 static SIGNATURE_MAP: LazyLock<HashMap<u64, Vec<&'static FileType>>> =
     LazyLock::new(initialize_signature_map);
 static EXTENSION_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
@@ -22,13 +23,13 @@ const EMPTY_EXTENSIONS: &Vec<&'static FileType> = &Vec::new();
 const EMPTY_MEDIA_TYPES: &Vec<&'static FileType> = &Vec::new();
 
 /// Deserialize the PRONOM XML file format data into a map of puid to `FileType`.
-fn initialize_file_formats() -> HashMap<String, FileType> {
+fn initialize_file_formats() -> HashMap<&'static str, FileType> {
     let mut file_types = HashMap::new();
     for file_formats in FILE_FORMATS {
         for file_format in *file_formats {
             let file_format = *file_format;
-            let id = file_format.puid.to_string();
             let file_type = FileType::new(file_format);
+            let id = file_type.id();
             file_types.insert(id, file_type);
         }
     }
@@ -162,7 +163,10 @@ fn cmp_file_types(a: &FileType, b: &FileType) -> Ordering {
         }
     }
 
-    cmp_puids(a_file_format.puid, b_file_format.puid)
+    match a_file_format.source_type.cmp(&b_file_format.source_type) {
+        Ordering::Equal => a_id.cmp(&b_id),
+        ordering => ordering,
+    }
 }
 
 /// Compare the file types based on their priority and id.  The most general file type should be
@@ -206,28 +210,18 @@ fn cmp_file_type_extensions(a: &FileType, b: &FileType) -> Ordering {
         }
     }
 
-    cmp_puids(a_file_format.puid, b_file_format.puid)
-}
-
-/// Compare puids so that PRONOM ids are sorted first, followed by linguist, then httpd.
-fn cmp_puids(a: &str, b: &str) -> Ordering {
-    let (a_type, a_id) = a.split_once('/').unwrap_or_default();
-    let a_type = puid_type_order(a_type);
-    let (b_type, b_id) = b.split_once('/').unwrap_or_default();
-    let b_type = puid_type_order(b_type);
-
-    match a_type.cmp(&b_type) {
-        Ordering::Equal => a_id.cmp(b_id),
+    match a_file_format.source_type.cmp(&b_file_format.source_type) {
+        Ordering::Equal => a_id.cmp(&b_id),
         ordering => ordering,
     }
 }
 
-/// Return the order of a puid type.
-fn puid_type_order(puid_type: &str) -> u8 {
-    match puid_type {
+/// Return the order of a source type.
+fn source_type_order(source_type: &str) -> u8 {
+    match source_type {
         "custom" => 0,
-        "fmt" => 1,
-        "x-fmt" => 2,
+        "pronom" => 1,
+        "wikidata" => 2,
         "linguist" => 3,
         "httpd" => 4,
         _ => 5,
@@ -384,7 +378,7 @@ mod tests {
     use std::path::PathBuf;
 
     const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
-    const TEST_FILE_NAME: &str = "fmt-11-signature-id-58.png";
+    const TEST_FILE_NAME: &str = "pronom-664-signature-id-58.png";
 
     fn test_file_path() -> PathBuf {
         let path = format!("{CRATE_DIR}/../testdata/pronom/{TEST_FILE_NAME}");
@@ -415,8 +409,8 @@ mod tests {
 
     #[test]
     fn test_from_id() {
-        let file_type = from_id("fmt/11").expect("file format");
-        assert_eq!(file_type.id(), "fmt/11");
+        let file_type = from_id("pronom/664").expect("file format");
+        assert_eq!(file_type.id(), "pronom/664");
         assert_eq!(file_type.name(), "Portable Network Graphics");
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.extensions(), vec!["png"]);
@@ -424,7 +418,7 @@ mod tests {
 
     #[test]
     fn test_from_id_not_found() {
-        let file_type = from_id("fmt/0");
+        let file_type = from_id("pronom/0");
         assert!(file_type.is_none());
     }
 
@@ -450,7 +444,7 @@ mod tests {
         let file_types = from_media_type("text/markdown");
         assert_eq!(1, file_types.len());
         let file_type = file_types.first().expect("file format");
-        assert_eq!(file_type.id(), "fmt/1149");
+        assert_eq!(file_type.id(), "pronom/1959");
         assert_eq!(file_type.name(), "Markdown");
         assert_eq!(file_type.media_types(), vec!["text/markdown"]);
         assert_eq!(file_type.extensions(), vec!["md", "markdown"]);
@@ -460,7 +454,7 @@ mod tests {
     fn test_from_bytes() {
         let value = b"\xCA\xFE\xBA\xBE".to_vec();
         let file_type = from_bytes(value.as_slice(), None);
-        assert_eq!(file_type.id(), "x-fmt/415");
+        assert_eq!(file_type.id(), "pronom/802");
         assert_eq!(file_type.name(), "Java Class File");
         assert_eq!(file_type.media_types(), Vec::<String>::new());
         assert_eq!(file_type.extensions(), vec!["class"]);
@@ -473,7 +467,7 @@ mod tests {
         let file = tokio::fs::File::open(file_path).await?;
         let reader = tokio::io::BufReader::new(file);
         let file_type = try_from_reader(reader, None).await?;
-        assert_eq!(file_type.id(), "fmt/11");
+        assert_eq!(file_type.id(), "pronom/664");
         assert_eq!(file_type.name(), "Portable Network Graphics");
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.extensions(), vec!["png"]);
@@ -485,7 +479,7 @@ mod tests {
     async fn test_try_from_file() -> Result<()> {
         let file_path = test_file_path();
         let file_type = try_from_file(file_path).await?;
-        assert_eq!(file_type.id(), "fmt/11");
+        assert_eq!(file_type.id(), "pronom/664");
         assert_eq!(file_type.name(), "Portable Network Graphics");
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.extensions(), vec!["png"]);
@@ -498,7 +492,7 @@ mod tests {
         let file = std::fs::File::open(file_path)?;
         let reader = std::io::BufReader::new(file);
         let file_type = try_from_reader_sync(reader, None)?;
-        assert_eq!(file_type.id(), "fmt/11");
+        assert_eq!(file_type.id(), "pronom/664");
         assert_eq!(file_type.name(), "Portable Network Graphics");
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.extensions(), vec!["png"]);
@@ -509,7 +503,7 @@ mod tests {
     fn test_try_from_file_sync() -> Result<()> {
         let file_path = test_file_path();
         let file_type = try_from_file_sync(file_path)?;
-        assert_eq!(file_type.id(), "fmt/11");
+        assert_eq!(file_type.id(), "pronom/664");
         assert_eq!(file_type.name(), "Portable Network Graphics");
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.extensions(), vec!["png"]);
@@ -518,30 +512,30 @@ mod tests {
 
     #[test]
     fn test_cmp_file_types() {
-        let fmt6 = FileType::from_id("fmt/6").expect("file type not found");
-        let fmt527 = FileType::from_id("fmt/527").expect("file type not found");
-        let fmt708 = FileType::from_id("fmt/708").expect("file type not found");
-        let mut file_types = [fmt6, fmt527, fmt708];
+        let pronom_654 = FileType::from_id("pronom/654").expect("file type not found");
+        let pronom_1314 = FileType::from_id("pronom/1314").expect("file type not found");
+        let pronom_1507 = FileType::from_id("pronom/1507").expect("file type not found");
+        let mut file_types = [pronom_654, pronom_1314, pronom_1507];
 
         sort_by(&mut file_types, cmp_file_types);
 
-        assert_eq!(file_types[0].id(), "fmt/708");
-        assert_eq!(file_types[1].id(), "fmt/527");
-        assert_eq!(file_types[2].id(), "fmt/6");
+        assert_eq!(file_types[0].id(), "pronom/1507");
+        assert_eq!(file_types[1].id(), "pronom/1314");
+        assert_eq!(file_types[2].id(), "pronom/654");
     }
 
     #[test]
     fn test_cmp_file_type_extensions() {
-        let fmt214 = FileType::from_id("fmt/214").expect("file type not found");
-        let fmt494 = FileType::from_id("fmt/494").expect("file type not found");
-        let fmt1828 = FileType::from_id("fmt/1828").expect("file type not found");
-        let mut file_types = [fmt1828, fmt214, fmt494];
+        let pronom_940 = FileType::from_id("pronom/940").expect("file type not found");
+        let pronom_1281 = FileType::from_id("pronom/1281").expect("file type not found");
+        let pronom_2679 = FileType::from_id("pronom/2679").expect("file type not found");
+        let mut file_types = [pronom_2679, pronom_940, pronom_1281];
 
         sort_by(&mut file_types, cmp_file_type_extensions);
 
-        assert_eq!(file_types[0].id(), "fmt/214");
-        assert_eq!(file_types[1].id(), "fmt/1828");
-        assert_eq!(file_types[2].id(), "fmt/494");
+        assert_eq!(file_types[0].id(), "pronom/940");
+        assert_eq!(file_types[1].id(), "pronom/1281");
+        assert_eq!(file_types[2].id(), "pronom/2679");
     }
 
     #[test]

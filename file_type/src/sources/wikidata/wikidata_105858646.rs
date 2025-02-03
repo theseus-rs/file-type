@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858646: FileFormat = FileFormat {
     id: 105_858_646,
-    puid: "wikidata/105858646",
+    source_type: SourceType::Wikidata,
     name: "Boundary Scan Description Language",
     extensions: &["bsdl"],
     media_types: &[],

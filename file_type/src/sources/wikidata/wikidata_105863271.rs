@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863271: FileFormat = FileFormat {
     id: 105_863_271,
-    puid: "wikidata/105863271",
+    source_type: SourceType::Wikidata,
     name: "MadAppLauncher configuration",
     extensions: &["mal"],
     media_types: &[],

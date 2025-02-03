@@ -1,0 +1,33 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, SourceType, Token,
+};
+
+pub(crate) const PRONOM_1912: FileFormat = FileFormat {
+    id: 1_912,
+    source_type: SourceType::Pronom,
+    name: "Seattle FilmWorks SFW Image Format",
+    extensions: &["sfw"],
+    media_types: &[],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x53, 0x46, 0x57, 0x39, 0x34, 0x41])],
+                },
+            }],
+        },
+        InternalSignature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x53, 0x46, 0x57, 0x39, 0x38, 0x41])],
+                },
+            }],
+        },
+    ],
+    related_formats: &[],
+};

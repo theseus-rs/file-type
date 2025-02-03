@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863698: FileFormat = FileFormat {
     id: 105_863_698,
-    puid: "wikidata/105863698",
+    source_type: SourceType::Wikidata,
     name: "IceTracker module (v1.x)",
     extensions: &["it"],
     media_types: &["audio/x-mod"],

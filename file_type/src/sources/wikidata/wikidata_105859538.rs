@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859538: FileFormat = FileFormat {
     id: 105_859_538,
-    puid: "wikidata/105859538",
+    source_type: SourceType::Wikidata,
     name: "Webcam Video Effects pack",
     extensions: &["vfz"],
     media_types: &[],

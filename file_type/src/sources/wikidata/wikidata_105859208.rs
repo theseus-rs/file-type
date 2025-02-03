@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859208: FileFormat = FileFormat {
     id: 105_859_208,
-    puid: "wikidata/105859208",
+    source_type: SourceType::Wikidata,
     name: "NCSA Telnet Interactive Color Raster bitmap",
     extensions: &["icr"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864499: FileFormat = FileFormat {
     id: 105_864_499,
-    puid: "wikidata/105864499",
+    source_type: SourceType::Wikidata,
     name: "Ultimo Primo SnapShot",
     extensions: &["pss"],
     media_types: &["application/octet-stream"],

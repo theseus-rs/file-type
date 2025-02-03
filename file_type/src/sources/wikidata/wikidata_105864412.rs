@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864412: FileFormat = FileFormat {
     id: 105_864_412,
-    puid: "wikidata/105864412",
+    source_type: SourceType::Wikidata,
     name: "Gee! Printer Driver",
     extensions: &["pdr"],
     media_types: &["application/octet-stream"],

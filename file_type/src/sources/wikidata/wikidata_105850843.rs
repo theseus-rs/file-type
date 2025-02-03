@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850843: FileFormat = FileFormat {
     id: 105_850_843,
-    puid: "wikidata/105850843",
+    source_type: SourceType::Wikidata,
     name: "Native Instruments Battery drumKit",
     extensions: &["kit"],
     media_types: &["text/xml"],

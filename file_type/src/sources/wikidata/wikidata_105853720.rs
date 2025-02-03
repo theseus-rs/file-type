@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853720: FileFormat = FileFormat {
     id: 105_853_720,
-    puid: "wikidata/105853720",
+    source_type: SourceType::Wikidata,
     name: "Abacus spreadsheet",
     extensions: &["aba"],
     media_types: &["application/octet-stream"],

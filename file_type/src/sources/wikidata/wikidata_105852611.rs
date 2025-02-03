@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852611: FileFormat = FileFormat {
     id: 105_852_611,
-    puid: "wikidata/105852611",
+    source_type: SourceType::Wikidata,
     name: "Space Engineers Components",
     extensions: &["sbc"],
     media_types: &["application/octet-stream"],

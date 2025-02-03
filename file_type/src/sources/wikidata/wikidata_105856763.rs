@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856763: FileFormat = FileFormat {
     id: 105_856_763,
-    puid: "wikidata/105856763",
+    source_type: SourceType::Wikidata,
     name: "Ellisys Visual USB Data",
     extensions: &["ufo"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850661: FileFormat = FileFormat {
     id: 105_850_661,
-    puid: "wikidata/105850661",
+    source_type: SourceType::Wikidata,
     name: "Voxlap voxel sprite",
     extensions: &["kv6"],
     media_types: &["application/octet-stream"],

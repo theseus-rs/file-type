@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857383: FileFormat = FileFormat {
     id: 105_857_383,
-    puid: "wikidata/105857383",
+    source_type: SourceType::Wikidata,
     name: "Jazz Jackrabbit font/cutscene",
     extensions: &["0fn", "0sc"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

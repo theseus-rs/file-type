@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_125871478: FileFormat = FileFormat {
     id: 125_871_478,
-    puid: "wikidata/125871478",
+    source_type: SourceType::Wikidata,
     name: "PechaMaker Format",
     extensions: &["pxp"],
     media_types: &[],

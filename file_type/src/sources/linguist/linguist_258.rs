@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_258: FileFormat = FileFormat {
     id: 258,
-    puid: "linguist/258",
+    source_type: SourceType::Linguist,
     name: "Objective-C++",
     extensions: &["mm"],
     media_types: &["text/x-objectivec"],

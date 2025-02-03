@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856715: FileFormat = FileFormat {
     id: 105_856_715,
-    puid: "wikidata/105856715",
+    source_type: SourceType::Wikidata,
     name: "JB BAHN scenery",
     extensions: &["uz1"],
     media_types: &[],

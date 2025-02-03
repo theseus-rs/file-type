@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_114960907: FileFormat = FileFormat {
     id: 114_960_907,
-    puid: "wikidata/114960907",
+    source_type: SourceType::Wikidata,
     name: "Dramatica Story File",
     extensions: &["dsf"],
     media_types: &[],

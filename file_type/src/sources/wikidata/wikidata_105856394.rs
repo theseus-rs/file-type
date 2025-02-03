@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856394: FileFormat = FileFormat {
     id: 105_856_394,
-    puid: "wikidata/105856394",
+    source_type: SourceType::Wikidata,
     name: "Wondershare Video Editor project",
     extensions: &["wve"],
     media_types: &["application/octet-stream"],

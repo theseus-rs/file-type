@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857085: FileFormat = FileFormat {
     id: 105_857_085,
-    puid: "wikidata/105857085",
+    source_type: SourceType::Wikidata,
     name: "Granite Devices Firmware (v310)",
     extensions: &["gdf"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864290: FileFormat = FileFormat {
     id: 105_864_290,
-    puid: "wikidata/105864290",
+    source_type: SourceType::Wikidata,
     name: "Novalogic game data archive (PFF3)",
     extensions: &["pff"],
     media_types: &["application/octet-stream"],

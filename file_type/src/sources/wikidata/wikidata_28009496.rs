@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28009496: FileFormat = FileFormat {
     id: 28_009_496,
-    puid: "wikidata/28009496",
+    source_type: SourceType::Wikidata,
     name: "Zelda Solarus DX saved game",
     extensions: &["dat"],
     media_types: &[],

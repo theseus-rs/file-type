@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860524: FileFormat = FileFormat {
     id: 105_860_524,
-    puid: "wikidata/105860524",
+    source_type: SourceType::Wikidata,
     name: "RAR Password Cracker project",
     extensions: &["rpc"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856015: FileFormat = FileFormat {
     id: 105_856_015,
-    puid: "wikidata/105856015",
+    source_type: SourceType::Wikidata,
     name: "Ease Database Definition",
     extensions: &["def"],
     media_types: &["application/octet-stream"],

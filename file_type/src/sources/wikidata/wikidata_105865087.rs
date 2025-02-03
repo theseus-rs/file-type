@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865087: FileFormat = FileFormat {
     id: 105_865_087,
-    puid: "wikidata/105865087",
+    source_type: SourceType::Wikidata,
     name: "PyScripter Project (ASCII)",
     extensions: &["psproj"],
     media_types: &[],

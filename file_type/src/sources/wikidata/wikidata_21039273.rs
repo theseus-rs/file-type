@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_21039273: FileFormat = FileFormat {
     id: 21_039_273,
-    puid: "wikidata/21039273",
+    source_type: SourceType::Wikidata,
     name: "ASYLUM Music Format",
     extensions: &["amf"],
     media_types: &["audio/x-mod"],

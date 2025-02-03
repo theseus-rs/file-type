@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_59999470: FileFormat = FileFormat {
     id: 59_999_470,
-    puid: "wikidata/59999470",
+    source_type: SourceType::Wikidata,
     name: "ESRI Spatial Index File",
     extensions: &["sbn", "sbx"],
     media_types: &[],

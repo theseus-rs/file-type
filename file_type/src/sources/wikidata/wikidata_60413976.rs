@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_60413976: FileFormat = FileFormat {
     id: 60_413_976,
-    puid: "wikidata/60413976",
+    source_type: SourceType::Wikidata,
     name: "Encase Image File Format/Expert Witness Compression Format",
     extensions: &["e01"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853219: FileFormat = FileFormat {
     id: 105_853_219,
-    puid: "wikidata/105853219",
+    source_type: SourceType::Wikidata,
     name: "Speech Synthesis Markup Language",
     extensions: &["ssml"],
     media_types: &["application/ssml+xml"],

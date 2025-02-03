@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856601: FileFormat = FileFormat {
     id: 105_856_601,
-    puid: "wikidata/105856601",
+    source_type: SourceType::Wikidata,
     name: "Windows Installer XML Source",
     extensions: &["wxs"],
     media_types: &["text/xml"],

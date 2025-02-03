@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850760: FileFormat = FileFormat {
     id: 105_850_760,
-    puid: "wikidata/105850760",
+    source_type: SourceType::Wikidata,
     name: "Indiana Jones and the Infernal Machine keys configuration",
     extensions: &["kfg"],
     media_types: &["text/plain"],

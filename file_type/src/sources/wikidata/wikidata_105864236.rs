@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864236: FileFormat = FileFormat {
     id: 105_864_236,
-    puid: "wikidata/105864236",
+    source_type: SourceType::Wikidata,
     name: "Panda multifile object",
     extensions: &["p3d"],
     media_types: &[],

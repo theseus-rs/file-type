@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851393: FileFormat = FileFormat {
     id: 105_851_393,
-    puid: "wikidata/105851393",
+    source_type: SourceType::Wikidata,
     name: "TexMod package File",
     extensions: &["tpf"],
     media_types: &[],

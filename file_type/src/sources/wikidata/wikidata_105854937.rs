@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854937: FileFormat = FileFormat {
     id: 105_854_937,
-    puid: "wikidata/105854937",
+    source_type: SourceType::Wikidata,
     name: "AnimationWorks Accelerated movie",
     extensions: &["awa"],
     media_types: &[],

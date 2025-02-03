@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_7253703184866025307: FileFormat = FileFormat {
-    id: 7_253_703_184_866_025_307,
-    puid: "httpd/7253703184866025307",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mac compactpro",
     extensions: &["cpt"],
     media_types: &["application/mac-compactpro"],

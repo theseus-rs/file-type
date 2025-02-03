@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855196: FileFormat = FileFormat {
     id: 105_855_196,
-    puid: "wikidata/105855196",
+    source_type: SourceType::Wikidata,
     name: "Fritzing Bin module",
     extensions: &["fzb"],
     media_types: &[],

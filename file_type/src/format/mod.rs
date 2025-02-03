@@ -6,7 +6,7 @@ mod related_format;
 mod source;
 
 pub use byte_sequence::{ByteSequence, PositionType};
-pub use file_format::{FileFormat, FormatTypes};
+pub use file_format::{FileFormat, SourceType};
 pub use internal_signature::InternalSignature;
 pub use regex::{Regex, Token};
 pub use related_format::{RelatedFormat, RelationshipType};

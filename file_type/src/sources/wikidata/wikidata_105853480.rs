@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853480: FileFormat = FileFormat {
     id: 105_853_480,
-    puid: "wikidata/105853480",
+    source_type: SourceType::Wikidata,
     name: "ZiLOG Developer Studio Workspace file",
     extensions: &["zws"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858998: FileFormat = FileFormat {
     id: 105_858_998,
-    puid: "wikidata/105858998",
+    source_type: SourceType::Wikidata,
     name: "Zoner BMI Bitmap",
     extensions: &["bmi"],
     media_types: &["application/octet-stream"],

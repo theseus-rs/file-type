@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853568: FileFormat = FileFormat {
     id: 105_853_568,
-    puid: "wikidata/105853568",
+    source_type: SourceType::Wikidata,
     name: "ZModeler profile",
     extensions: &["xml"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27966964: FileFormat = FileFormat {
     id: 27_966_964,
-    puid: "wikidata/27966964",
+    source_type: SourceType::Wikidata,
     name: "4X IMA ADPCM",
     extensions: &["4xm"],
     media_types: &[],

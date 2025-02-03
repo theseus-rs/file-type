@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862874: FileFormat = FileFormat {
     id: 105_862_874,
-    puid: "wikidata/105862874",
+    source_type: SourceType::Wikidata,
     name: "SNSF Super Nintendo Sound Format rip (mini)",
     extensions: &["minisnsf"],
     media_types: &["application/octet-stream"],

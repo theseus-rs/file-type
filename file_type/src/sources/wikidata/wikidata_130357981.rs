@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_130357981: FileFormat = FileFormat {
     id: 130_357_981,
-    puid: "wikidata/130357981",
+    source_type: SourceType::Wikidata,
     name: "MoonScript source code file",
-    extensions: &["moon", "moon"],
+    extensions: &["moon"],
     media_types: &["application/x-moonscript", "text/x-moonscript"],
     internal_signatures: &[],
     related_formats: &[],

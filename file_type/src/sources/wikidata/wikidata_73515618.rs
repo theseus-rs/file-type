@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_73515618: FileFormat = FileFormat {
     id: 73_515_618,
-    puid: "wikidata/73515618",
+    source_type: SourceType::Wikidata,
     name: "DAISY Protected Package File",
     extensions: &["ppf"],
     media_types: &["text/xml"],

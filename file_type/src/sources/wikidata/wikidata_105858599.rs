@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858599: FileFormat = FileFormat {
     id: 105_858_599,
-    puid: "wikidata/105858599",
+    source_type: SourceType::Wikidata,
     name: "TIM2 PlayStation2 bitmap",
     extensions: &["tm2"],
     media_types: &[],

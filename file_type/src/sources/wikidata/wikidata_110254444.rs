@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_110254444: FileFormat = FileFormat {
     id: 110_254_444,
-    puid: "wikidata/110254444",
+    source_type: SourceType::Wikidata,
     name: "E-Seq Piano File",
     extensions: &["fil"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_112819491: FileFormat = FileFormat {
     id: 112_819_491,
-    puid: "wikidata/112819491",
+    source_type: SourceType::Wikidata,
     name: "Acclaim mocap file",
     extensions: &["amc"],
     media_types: &[],

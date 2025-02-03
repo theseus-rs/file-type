@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_11414351502892999160: FileFormat = FileFormat {
-    id: 11_414_351_502_892_999_160,
-    puid: "httpd/11414351502892999160",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ms playready media pya",
     extensions: &["pya"],
     media_types: &["audio/vnd.ms-playready.media.pya"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2476393985808283697: FileFormat = FileFormat {
-    id: 2_476_393_985_808_283_697,
-    puid: "httpd/2476393985808283697",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "dreamfactory",
     extensions: &["dfac"],
     media_types: &["application/vnd.dreamfactory"],

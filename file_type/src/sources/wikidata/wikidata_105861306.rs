@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861306: FileFormat = FileFormat {
     id: 105_861_306,
-    puid: "wikidata/105861306",
+    source_type: SourceType::Wikidata,
     name: "Linden binary Mesh",
     extensions: &["llm"],
     media_types: &["application/octet-stream"],

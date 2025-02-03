@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862536: FileFormat = FileFormat {
     id: 105_862_536,
-    puid: "wikidata/105862536",
+    source_type: SourceType::Wikidata,
     name: "Rob Hubbard ST module",
     extensions: &["rho"],
     media_types: &["application/octet-stream"],

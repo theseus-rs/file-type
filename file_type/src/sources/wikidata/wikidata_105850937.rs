@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850937: FileFormat = FileFormat {
     id: 105_850_937,
-    puid: "wikidata/105850937",
+    source_type: SourceType::Wikidata,
     name: "TTPod Skin",
     extensions: &["tsk"],
     media_types: &["application/octet-stream"],

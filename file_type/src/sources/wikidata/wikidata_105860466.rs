@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860466: FileFormat = FileFormat {
     id: 105_860_466,
-    puid: "wikidata/105860466",
+    source_type: SourceType::Wikidata,
     name: "NASCAR Racing 3 Replay",
     extensions: &["rpl"],
     media_types: &["application/octet-stream"],

@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857691: FileFormat = FileFormat {
     id: 105_857_691,
-    puid: "wikidata/105857691",
+    source_type: SourceType::Wikidata,
     name: "AmigaCash Pro IDS format",
     extensions: &["ids", "ids2"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

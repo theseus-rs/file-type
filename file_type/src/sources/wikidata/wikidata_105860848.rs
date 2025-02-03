@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860848: FileFormat = FileFormat {
     id: 105_860_848,
-    puid: "wikidata/105860848",
+    source_type: SourceType::Wikidata,
     name: "Reflex 2 Database",
     extensions: &["r2d"],
     media_types: &["application/octet-stream"],

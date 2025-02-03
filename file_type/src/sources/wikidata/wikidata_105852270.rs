@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852270: FileFormat = FileFormat {
     id: 105_852_270,
-    puid: "wikidata/105852270",
+    source_type: SourceType::Wikidata,
     name: "Celestron's TheSky View Preferences",
     extensions: &["svp"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_74444240: FileFormat = FileFormat {
     id: 74_444_240,
-    puid: "linguist/74444240",
+    source_type: SourceType::Linguist,
     name: "Ignore List",
     extensions: &["gitignore"],
     media_types: &["text/x-sh"],

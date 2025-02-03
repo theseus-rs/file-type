@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856869: FileFormat = FileFormat {
     id: 105_856_869,
-    puid: "wikidata/105856869",
+    source_type: SourceType::Wikidata,
     name: "Gravis UltraSound PnP InterWave patch",
     extensions: &["fff"],
     media_types: &[],

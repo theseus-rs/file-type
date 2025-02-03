@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859299: FileFormat = FileFormat {
     id: 105_859_299,
-    puid: "wikidata/105859299",
+    source_type: SourceType::Wikidata,
     name: "Mallard BASIC tokenized source (protected) (new)",
     extensions: &["bas"],
     media_types: &["application/octet-stream"],

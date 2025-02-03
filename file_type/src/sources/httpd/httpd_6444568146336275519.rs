@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6444568146336275519: FileFormat = FileFormat {
-    id: 6_444_568_146_336_275_519,
-    puid: "httpd/6444568146336275519",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ms wmz",
     extensions: &["wmz"],
     media_types: &["application/x-ms-wmz"],

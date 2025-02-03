@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_1512096571599294824: FileFormat = FileFormat {
-    id: 1_512_096_571_599_294_824,
-    puid: "httpd/1512096571599294824",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "marcxml xml",
     extensions: &["mrcx"],
     media_types: &["application/marcxml+xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28530466: FileFormat = FileFormat {
     id: 28_530_466,
-    puid: "wikidata/28530466",
+    source_type: SourceType::Wikidata,
     name: "HyperChem Input File",
     extensions: &["hin"],
     media_types: &[],

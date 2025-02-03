@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863733: FileFormat = FileFormat {
     id: 105_863_733,
-    puid: "wikidata/105863733",
+    source_type: SourceType::Wikidata,
     name: "Octalyser 6-channel STe/Falcon Module",
     extensions: &["mod"],
     media_types: &["audio/x-mod"],

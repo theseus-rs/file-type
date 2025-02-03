@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861767: FileFormat = FileFormat {
     id: 105_861_767,
-    puid: "wikidata/105861767",
+    source_type: SourceType::Wikidata,
     name: "blueMSX Cheats Format",
     extensions: &["mcf"],
     media_types: &["text/plain"],

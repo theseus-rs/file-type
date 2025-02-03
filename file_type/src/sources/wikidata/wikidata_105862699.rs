@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862699: FileFormat = FileFormat {
     id: 105_862_699,
-    puid: "wikidata/105862699",
+    source_type: SourceType::Wikidata,
     name: "QSF Capcom QSound Format rip (Mini)",
     extensions: &["miniqsf"],
     media_types: &["application/octet-stream"],

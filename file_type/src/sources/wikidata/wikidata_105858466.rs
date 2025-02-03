@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858466: FileFormat = FileFormat {
     id: 105_858_466,
-    puid: "wikidata/105858466",
+    source_type: SourceType::Wikidata,
     name: "The Elder Scrolls IV: Oblivion savegame",
     extensions: &["ess"],
     media_types: &[],

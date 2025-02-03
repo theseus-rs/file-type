@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858183: FileFormat = FileFormat {
     id: 105_858_183,
-    puid: "wikidata/105858183",
+    source_type: SourceType::Wikidata,
     name: "ELAN Annotation Format (UTF-8)",
     extensions: &["eaf"],
     media_types: &["text/xml"],

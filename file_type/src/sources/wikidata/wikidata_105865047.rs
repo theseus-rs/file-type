@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865047: FileFormat = FileFormat {
     id: 105_865_047,
-    puid: "wikidata/105865047",
+    source_type: SourceType::Wikidata,
     name: "Paradox Update File",
     extensions: &["puf"],
     media_types: &["application/octet-stream"],

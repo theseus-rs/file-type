@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860510: FileFormat = FileFormat {
     id: 105_860_510,
-    puid: "wikidata/105860510",
+    source_type: SourceType::Wikidata,
     name: "Borland Reflex 2 color settings",
     extensions: &["r2z"],
     media_types: &["application/octet-stream"],

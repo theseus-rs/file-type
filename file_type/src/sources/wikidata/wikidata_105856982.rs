@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856982: FileFormat = FileFormat {
     id: 105_856_982,
-    puid: "wikidata/105856982",
+    source_type: SourceType::Wikidata,
     name: "GridMove grid template",
     extensions: &["grid"],
     media_types: &[],

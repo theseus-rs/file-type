@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_7715231678766573797: FileFormat = FileFormat {
-    id: 7_715_231_678_766_573_797,
-    puid: "httpd/7715231678766573797",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "pkcs7 signature",
     extensions: &["p7s"],
     media_types: &["application/pkcs7-signature"],

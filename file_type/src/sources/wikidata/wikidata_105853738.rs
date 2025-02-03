@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853738: FileFormat = FileFormat {
     id: 105_853_738,
-    puid: "wikidata/105853738",
+    source_type: SourceType::Wikidata,
     name: "Windows 7 Jump List",
     extensions: &["automaticdestinations-ms"],
     media_types: &["application/CDFV2"],

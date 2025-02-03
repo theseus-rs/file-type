@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851173: FileFormat = FileFormat {
     id: 105_851_173,
-    puid: "wikidata/105851173",
+    source_type: SourceType::Wikidata,
     name: "TASM instructions definition Table",
     extensions: &["tab"],
     media_types: &["text/plain"],

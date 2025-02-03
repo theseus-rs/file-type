@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862542: FileFormat = FileFormat {
     id: 105_862_542,
-    puid: "wikidata/105862542",
+    source_type: SourceType::Wikidata,
     name: "OS/2 help Message (generic)",
     extensions: &["msg"],
     media_types: &["application/x-os2-msg"],

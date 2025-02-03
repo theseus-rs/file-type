@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858478: FileFormat = FileFormat {
     id: 105_858_478,
-    puid: "wikidata/105858478",
+    source_type: SourceType::Wikidata,
     name: "CODESYS ECI data",
     extensions: &["eci"],
     media_types: &["application/octet-stream"],

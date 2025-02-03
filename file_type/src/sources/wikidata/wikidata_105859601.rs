@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859601: FileFormat = FileFormat {
     id: 105_859_601,
-    puid: "wikidata/105859601",
+    source_type: SourceType::Wikidata,
     name: "Lenel video",
     extensions: &["lnr"],
     media_types: &["application/octet-stream"],

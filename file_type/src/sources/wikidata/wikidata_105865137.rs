@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865137: FileFormat = FileFormat {
     id: 105_865_137,
-    puid: "wikidata/105865137",
+    source_type: SourceType::Wikidata,
     name: "PERQemu Hard Disk image",
     extensions: &["phd"],
     media_types: &["application/octet-stream"],

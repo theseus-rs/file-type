@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857644: FileFormat = FileFormat {
     id: 105_857_644,
-    puid: "wikidata/105857644",
+    source_type: SourceType::Wikidata,
     name: "ZEMU IO Map",
     extensions: &["iom"],
     media_types: &["application/octet-stream"],

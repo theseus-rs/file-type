@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855060: FileFormat = FileFormat {
     id: 105_855_060,
-    puid: "wikidata/105855060",
+    source_type: SourceType::Wikidata,
     name: "Abyss Engine Image format",
     extensions: &["aei"],
     media_types: &[],

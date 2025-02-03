@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865835: FileFormat = FileFormat {
     id: 105_865_835,
-    puid: "wikidata/105865835",
+    source_type: SourceType::Wikidata,
     name: "PSP metadata file",
     extensions: &["psf"],
     media_types: &[],

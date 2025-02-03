@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859132: FileFormat = FileFormat {
     id: 105_859_132,
-    puid: "wikidata/105859132",
+    source_type: SourceType::Wikidata,
     name: "Rembrandt True Color Picture bitmap",
     extensions: &["tcp"],
     media_types: &["application/octet-stream"],

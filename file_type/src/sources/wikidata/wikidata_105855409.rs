@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855409: FileFormat = FileFormat {
     id: 105_855_409,
-    puid: "wikidata/105855409",
+    source_type: SourceType::Wikidata,
     name: "Expression SketchFlow Feedback",
     extensions: &["feedback"],
     media_types: &[],

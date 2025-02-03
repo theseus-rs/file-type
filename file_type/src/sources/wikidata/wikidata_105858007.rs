@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858007: FileFormat = FileFormat {
     id: 105_858_007,
-    puid: "wikidata/105858007",
+    source_type: SourceType::Wikidata,
     name: "Pax Imperia: Eminent Domain game data archive",
     extensions: &["img"],
     media_types: &["application/octet-stream"],

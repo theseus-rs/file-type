@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const CUSTOM_1: FileFormat = FileFormat {
     id: 1,
-    puid: "custom/1",
+    source_type: SourceType::Custom,
     name: "Apache Arrow",
     extensions: &["arrow"],
     media_types: &["application/vnd.apache.arrow.file"],

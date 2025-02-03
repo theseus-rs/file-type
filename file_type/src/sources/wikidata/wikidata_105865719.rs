@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865719: FileFormat = FileFormat {
     id: 105_865_719,
-    puid: "wikidata/105865719",
+    source_type: SourceType::Wikidata,
     name: "PowerArchiver Rijndael Encrypted file",
     extensions: &["pae"],
     media_types: &[],

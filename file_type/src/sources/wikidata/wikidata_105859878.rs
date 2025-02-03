@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859878: FileFormat = FileFormat {
     id: 105_859_878,
-    puid: "wikidata/105859878",
+    source_type: SourceType::Wikidata,
     name: "NETGEN Volume format",
     extensions: &["vol"],
     media_types: &["text/plain"],

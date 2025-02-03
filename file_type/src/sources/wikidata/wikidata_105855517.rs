@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855517: FileFormat = FileFormat {
     id: 105_855_517,
-    puid: "wikidata/105855517",
+    source_type: SourceType::Wikidata,
     name: "FIGfont (zipped)",
     extensions: &["flf"],
     media_types: &[],

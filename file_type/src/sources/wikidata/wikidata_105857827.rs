@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857827: FileFormat = FileFormat {
     id: 105_857_827,
-    puid: "wikidata/105857827",
+    source_type: SourceType::Wikidata,
     name: "IncrediMail letter/ecard Flavor",
     extensions: &["imf"],
     media_types: &["application/vnd.ms-cab-compressed"],

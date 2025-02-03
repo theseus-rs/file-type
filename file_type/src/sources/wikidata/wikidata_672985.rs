@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_672985: FileFormat = FileFormat {
     id: 672_985,
-    puid: "wikidata/672985",
+    source_type: SourceType::Wikidata,
     name: "Sun Microsystems audio file",
     extensions: &["au", "snd"],
-    media_types: &["audio/basic", "audio/basic"],
+    media_types: &["audio/basic"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

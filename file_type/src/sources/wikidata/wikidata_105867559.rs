@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867559: FileFormat = FileFormat {
     id: 105_867_559,
-    puid: "wikidata/105867559",
+    source_type: SourceType::Wikidata,
     name: "NVIDIA Scene Graph binary",
     extensions: &["nbf"],
     media_types: &[],

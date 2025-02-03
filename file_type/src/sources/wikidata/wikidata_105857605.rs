@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857605: FileFormat = FileFormat {
     id: 105_857_605,
-    puid: "wikidata/105857605",
+    source_type: SourceType::Wikidata,
     name: "System 45 HP Image format tape/disk image",
     extensions: &["hpi"],
     media_types: &["application/octet-stream"],

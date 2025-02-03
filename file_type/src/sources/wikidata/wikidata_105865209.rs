@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865209: FileFormat = FileFormat {
     id: 105_865_209,
-    puid: "wikidata/105865209",
+    source_type: SourceType::Wikidata,
     name: "Polyphonic Ringtone for Phones",
     extensions: &["pmd"],
     media_types: &[],

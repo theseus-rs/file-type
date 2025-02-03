@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858810: FileFormat = FileFormat {
     id: 105_858_810,
-    puid: "wikidata/105858810",
+    source_type: SourceType::Wikidata,
     name: "Symbolics Lisp Font",
     extensions: &["bfd"],
     media_types: &["application/octet-stream"],

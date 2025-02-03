@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858460: FileFormat = FileFormat {
     id: 105_858_460,
-    puid: "wikidata/105858460",
+    source_type: SourceType::Wikidata,
     name: "EnergyPlus Weather data",
     extensions: &["epw"],
     media_types: &[],

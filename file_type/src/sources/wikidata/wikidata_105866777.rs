@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866777: FileFormat = FileFormat {
     id: 105_866_777,
-    puid: "wikidata/105866777",
+    source_type: SourceType::Wikidata,
     name: "Glyphs outline hashes",
     extensions: &["processedhashmap"],
     media_types: &["text/plain"],

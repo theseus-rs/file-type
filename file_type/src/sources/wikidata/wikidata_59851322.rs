@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_59851322: FileFormat = FileFormat {
     id: 59_851_322,
-    puid: "wikidata/59851322",
+    source_type: SourceType::Wikidata,
     name: "DROID Signature File Format",
     extensions: &["xml"],
     media_types: &["text/xml"],

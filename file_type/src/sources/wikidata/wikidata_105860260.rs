@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860260: FileFormat = FileFormat {
     id: 105_860_260,
-    puid: "wikidata/105860260",
+    source_type: SourceType::Wikidata,
     name: "RAGE Package Format (GTA IV)",
     extensions: &["rpf"],
     media_types: &["application/octet-stream"],

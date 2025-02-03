@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855015: FileFormat = FileFormat {
     id: 105_855_015,
-    puid: "wikidata/105855015",
+    source_type: SourceType::Wikidata,
     name: "CDBurnerXP Audio compilation",
     extensions: &["axp"],
     media_types: &["text/xml"],

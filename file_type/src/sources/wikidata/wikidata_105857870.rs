@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857870: FileFormat = FileFormat {
     id: 105_857_870,
-    puid: "wikidata/105857870",
+    source_type: SourceType::Wikidata,
     name: "APE ProSystem Atari 8-bit disk image (v3)",
     extensions: &["pro"],
     media_types: &["application/octet-stream"],

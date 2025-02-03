@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_56315514: FileFormat = FileFormat {
     id: 56_315_514,
-    puid: "wikidata/56315514",
+    source_type: SourceType::Wikidata,
     name: "UML diagram",
     extensions: &["uml"],
     media_types: &[],

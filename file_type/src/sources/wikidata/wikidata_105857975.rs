@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857975: FileFormat = FileFormat {
     id: 105_857_975,
-    puid: "wikidata/105857975",
+    source_type: SourceType::Wikidata,
     name: "IncrediMail Notifier (with Flash)",
     extensions: &["imn"],
     media_types: &["application/vnd.ms-cab-compressed"],

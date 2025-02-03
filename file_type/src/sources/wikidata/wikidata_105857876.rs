@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857876: FileFormat = FileFormat {
     id: 105_857_876,
-    puid: "wikidata/105857876",
+    source_type: SourceType::Wikidata,
     name: "Infinity Engine user interface description (V1)",
     extensions: &["chu"],
     media_types: &[],

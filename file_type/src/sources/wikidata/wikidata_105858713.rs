@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858713: FileFormat = FileFormat {
     id: 105_858_713,
-    puid: "wikidata/105858713",
+    source_type: SourceType::Wikidata,
     name: "BrainLED AlfaWave session",
     extensions: &["baw"],
     media_types: &[],

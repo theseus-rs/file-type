@@ -1,16 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_51917410: FileFormat = FileFormat {
     id: 51_917_410,
-    puid: "wikidata/51917410",
+    source_type: SourceType::Wikidata,
     name: "Corel Wavelet Compressed Bitmap",
-    extensions: &["wi", "wi", "wvl", "wvl"],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    extensions: &["wi", "wvl"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

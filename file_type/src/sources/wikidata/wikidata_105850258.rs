@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850258: FileFormat = FileFormat {
     id: 105_850_258,
-    puid: "wikidata/105850258",
+    source_type: SourceType::Wikidata,
     name: "CWTool disk image (binary) (v1)",
     extensions: &["cwt"],
     media_types: &["application/octet-stream"],

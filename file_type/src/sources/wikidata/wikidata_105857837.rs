@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857837: FileFormat = FileFormat {
     id: 105_857_837,
-    puid: "wikidata/105857837",
+    source_type: SourceType::Wikidata,
     name: "Call of Duty Modern Warfare 3 DLC",
     extensions: &["iw5dlc"],
     media_types: &["application/octet-stream"],

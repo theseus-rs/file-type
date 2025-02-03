@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858500: FileFormat = FileFormat {
     id: 105_858_500,
-    puid: "wikidata/105858500",
+    source_type: SourceType::Wikidata,
     name: "Tiny Stuff format bitmap (hi-res anim)",
     extensions: &["tn6", "tny"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

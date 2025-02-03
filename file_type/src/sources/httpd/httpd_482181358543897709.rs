@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_482181358543897709: FileFormat = FileFormat {
-    id: 482_181_358_543_897_709,
-    puid: "httpd/482181358543897709",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "csv",
     extensions: &["csv"],
     media_types: &["text/csv"],

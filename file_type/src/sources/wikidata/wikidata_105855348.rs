@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855348: FileFormat = FileFormat {
     id: 105_855_348,
-    puid: "wikidata/105855348",
+    source_type: SourceType::Wikidata,
     name: "Forge File System game data archive (v1.0)",
     extensions: &["ffs"],
     media_types: &["application/octet-stream"],

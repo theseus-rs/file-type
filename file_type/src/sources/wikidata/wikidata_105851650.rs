@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851650: FileFormat = FileFormat {
     id: 105_851_650,
-    puid: "wikidata/105851650",
+    source_type: SourceType::Wikidata,
     name: "Microsoft SZ compressed",
     extensions: &["ex$"],
     media_types: &["application/x-ms-compress-sz"],

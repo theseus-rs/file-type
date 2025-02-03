@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857368: FileFormat = FileFormat {
     id: 105_857_368,
-    puid: "wikidata/105857368",
+    source_type: SourceType::Wikidata,
     name: "JCL script (with rem)",
-    extensions: &["jcl", "jcl"],
+    extensions: &["jcl"],
     media_types: &["text/plain", "text/x-jcl"],
     internal_signatures: &[
         InternalSignature {

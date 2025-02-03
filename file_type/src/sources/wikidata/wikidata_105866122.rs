@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866122: FileFormat = FileFormat {
     id: 105_866_122,
-    puid: "wikidata/105866122",
+    source_type: SourceType::Wikidata,
     name: "Partially Signed Bitcoin Transaction",
     extensions: &["psbt"],
     media_types: &["application/octet-stream"],

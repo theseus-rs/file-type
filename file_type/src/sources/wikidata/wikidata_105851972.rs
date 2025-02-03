@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851972: FileFormat = FileFormat {
     id: 105_851_972,
-    puid: "wikidata/105851972",
+    source_type: SourceType::Wikidata,
     name: "Psion Archive Screen",
     extensions: &["scn"],
     media_types: &["application/octet-stream"],

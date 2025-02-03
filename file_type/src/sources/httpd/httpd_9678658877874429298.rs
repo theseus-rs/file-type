@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_9678658877874429298: FileFormat = FileFormat {
-    id: 9_678_658_877_874_429_298,
-    puid: "httpd/9678658877874429298",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "pn realaudio",
     extensions: &["ram", "ra"],
     media_types: &["audio/x-pn-realaudio"],

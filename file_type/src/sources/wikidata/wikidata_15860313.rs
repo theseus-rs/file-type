@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_15860313: FileFormat = FileFormat {
     id: 15_860_313,
-    puid: "wikidata/15860313",
+    source_type: SourceType::Wikidata,
     name: "Mathematica Notebook",
-    extensions: &["nb", "nb"],
+    extensions: &["nb"],
     media_types: &[
         "application/mathematica",
         "application/vnd.wolfram.mathematica",

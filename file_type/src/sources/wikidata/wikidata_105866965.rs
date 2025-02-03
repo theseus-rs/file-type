@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866965: FileFormat = FileFormat {
     id: 105_866_965,
-    puid: "wikidata/105866965",
+    source_type: SourceType::Wikidata,
     name: "KORG nanoKONTROL2 Editor data",
     extensions: &["nktrl2_data"],
     media_types: &["application/octet-stream"],

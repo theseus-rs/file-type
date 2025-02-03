@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3686352884682951143: FileFormat = FileFormat {
-    id: 3_686_352_884_682_951_143,
-    puid: "httpd/3686352884682951143",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "dtbresource xml",
     extensions: &["res"],
     media_types: &["application/x-dtbresource+xml"],

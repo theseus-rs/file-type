@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849269: FileFormat = FileFormat {
     id: 105_849_269,
-    puid: "wikidata/105849269",
+    source_type: SourceType::Wikidata,
     name: "YANG file format",
     extensions: &["yang"],
     media_types: &["application/yang"],

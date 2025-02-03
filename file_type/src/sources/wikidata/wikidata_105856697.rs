@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856697: FileFormat = FileFormat {
     id: 105_856_697,
-    puid: "wikidata/105856697",
+    source_type: SourceType::Wikidata,
     name: "Universal Hint System (newer format)",
     extensions: &["uhs"],
     media_types: &["text/plain"],

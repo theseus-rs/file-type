@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851672: FileFormat = FileFormat {
     id: 105_851_672,
-    puid: "wikidata/105851672",
+    source_type: SourceType::Wikidata,
     name: "Samsung TV channels list",
     extensions: &["scm"],
     media_types: &["application/octet-stream"],

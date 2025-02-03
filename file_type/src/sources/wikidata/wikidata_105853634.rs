@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853634: FileFormat = FileFormat {
     id: 105_853_634,
-    puid: "wikidata/105853634",
+    source_type: SourceType::Wikidata,
     name: "GoGo encoded MP3 audio (ID3 v2.x tag)",
     extensions: &["mp3"],
     media_types: &["audio/mpeg3"],

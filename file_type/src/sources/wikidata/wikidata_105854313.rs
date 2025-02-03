@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854313: FileFormat = FileFormat {
     id: 105_854_313,
-    puid: "wikidata/105854313",
+    source_type: SourceType::Wikidata,
     name: "SQL Power Architect Project",
     extensions: &["architect"],
     media_types: &["text/xml"],

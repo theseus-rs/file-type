@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855485: FileFormat = FileFormat {
     id: 105_855_485,
-    puid: "wikidata/105855485",
+    source_type: SourceType::Wikidata,
     name: "FidoCAD Library",
     extensions: &["fcl"],
     media_types: &[],

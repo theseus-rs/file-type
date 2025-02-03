@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850357: FileFormat = FileFormat {
     id: 105_850_357,
-    puid: "wikidata/105850357",
+    source_type: SourceType::Wikidata,
     name: "HMI Sound Operating System Configuration",
     extensions: &["cfg"],
     media_types: &["text/plain"],

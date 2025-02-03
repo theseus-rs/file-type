@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13300239476686186637: FileFormat = FileFormat {
-    id: 13_300_239_476_686_186_637,
-    puid: "httpd/13300239476686186637",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "jam",
     extensions: &["jam"],
     media_types: &["application/vnd.jam"],

@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859113: FileFormat = FileFormat {
     id: 105_859_113,
-    puid: "wikidata/105859113",
+    source_type: SourceType::Wikidata,
     name: "OME-TIFF bitmap (big endian)",
     extensions: &["tif", "tiff"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

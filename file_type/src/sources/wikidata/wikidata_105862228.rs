@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862228: FileFormat = FileFormat {
     id: 105_862_228,
-    puid: "wikidata/105862228",
+    source_type: SourceType::Wikidata,
     name: "MapDraw chemical sequence map",
     extensions: &["mpd"],
     media_types: &[],

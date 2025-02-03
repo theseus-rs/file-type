@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857528: FileFormat = FileFormat {
     id: 105_857_528,
-    puid: "wikidata/105857528",
+    source_type: SourceType::Wikidata,
     name: "CoLOS Image (V1)",
     extensions: &["image"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_81413027: FileFormat = FileFormat {
     id: 81_413_027,
-    puid: "wikidata/81413027",
+    source_type: SourceType::Wikidata,
     name: "Capella sheet data file",
     extensions: &["cap"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_66146060: FileFormat = FileFormat {
     id: 66_146_060,
-    puid: "wikidata/66146060",
+    source_type: SourceType::Wikidata,
     name: "InfoPath Form Template File",
     extensions: &["xsn"],
     media_types: &["application/vnd.ms-cab-compressed"],

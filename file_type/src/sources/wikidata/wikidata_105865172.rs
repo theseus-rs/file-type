@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865172: FileFormat = FileFormat {
     id: 105_865_172,
-    puid: "wikidata/105865172",
+    source_type: SourceType::Wikidata,
     name: "The Print Shop Deluxe Certificate",
     extensions: &["pcc"],
     media_types: &["application/octet-stream"],

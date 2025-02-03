@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206193: FileFormat = FileFormat {
     id: 28_206_193,
-    puid: "wikidata/28206193",
+    source_type: SourceType::Wikidata,
     name: "GoDot 4-bit image",
     extensions: &["4bt"],
     media_types: &[],

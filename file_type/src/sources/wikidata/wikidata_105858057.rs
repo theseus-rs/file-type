@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858057: FileFormat = FileFormat {
     id: 105_858_057,
-    puid: "wikidata/105858057",
+    source_type: SourceType::Wikidata,
     name: "IMPlay Song (v2.0)",
     extensions: &["iss"],
     media_types: &["application/octet-stream"],

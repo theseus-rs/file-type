@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858208: FileFormat = FileFormat {
     id: 105_858_208,
-    puid: "wikidata/105858208",
+    source_type: SourceType::Wikidata,
     name: "Private Character Editor Bitmap Font",
     extensions: &["euf"],
     media_types: &[],

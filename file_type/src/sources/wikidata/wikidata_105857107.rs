@@ -1,19 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857107: FileFormat = FileFormat {
     id: 105_857_107,
-    puid: "wikidata/105857107",
+    source_type: SourceType::Wikidata,
     name: "Grand Theft Auto 5 game data (generic)",
     extensions: &["ybn", "ydd", "ydr", "yft", "ymap", "ymt", "ytyp"],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

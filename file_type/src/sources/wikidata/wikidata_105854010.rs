@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854010: FileFormat = FileFormat {
     id: 105_854_010,
-    puid: "wikidata/105854010",
+    source_type: SourceType::Wikidata,
     name: "Midtown Madness 2 game data archive",
     extensions: &["ar"],
     media_types: &["application/octet-stream"],

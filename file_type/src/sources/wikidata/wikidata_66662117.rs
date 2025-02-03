@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_66662117: FileFormat = FileFormat {
     id: 66_662_117,
-    puid: "wikidata/66662117",
+    source_type: SourceType::Wikidata,
     name: "Lotus Ami Pro Styles",
     extensions: &["sty"],
     media_types: &[],

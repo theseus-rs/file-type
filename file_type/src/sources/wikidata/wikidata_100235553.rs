@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_100235553: FileFormat = FileFormat {
     id: 100_235_553,
-    puid: "wikidata/100235553",
+    source_type: SourceType::Wikidata,
     name: "FARO Laser Scan File",
     extensions: &["fls"],
     media_types: &[],

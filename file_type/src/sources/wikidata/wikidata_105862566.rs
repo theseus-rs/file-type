@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862566: FileFormat = FileFormat {
     id: 105_862_566,
-    puid: "wikidata/105862566",
+    source_type: SourceType::Wikidata,
     name: "Windows Manifest - Visual Stylesheet XML file",
     extensions: &["manifest"],
     media_types: &[],

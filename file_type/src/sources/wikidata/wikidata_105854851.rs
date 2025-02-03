@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854851: FileFormat = FileFormat {
     id: 105_854_851,
-    puid: "wikidata/105854851",
+    source_type: SourceType::Wikidata,
     name: "AVM APEX sample studio sound bank",
     extensions: &["apex"],
     media_types: &["application/octet-stream"],

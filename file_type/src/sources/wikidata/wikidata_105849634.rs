@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849634: FileFormat = FileFormat {
     id: 105_849_634,
-    puid: "wikidata/105849634",
+    source_type: SourceType::Wikidata,
     name: "ZBASIC MS-DOS COM executable (v4.0x)",
     extensions: &["com"],
     media_types: &["application/octet-stream"],

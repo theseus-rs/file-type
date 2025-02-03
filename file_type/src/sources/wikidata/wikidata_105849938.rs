@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849938: FileFormat = FileFormat {
     id: 105_849_938,
-    puid: "wikidata/105849938",
+    source_type: SourceType::Wikidata,
     name: "KiCad footprint information",
     extensions: &["cmp"],
     media_types: &["text/plain"],

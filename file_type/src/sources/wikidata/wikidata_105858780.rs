@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858780: FileFormat = FileFormat {
     id: 105_858_780,
-    puid: "wikidata/105858780",
+    source_type: SourceType::Wikidata,
     name: "BushTracker 2 Song",
     extensions: &["b2s"],
     media_types: &["text/plain"],

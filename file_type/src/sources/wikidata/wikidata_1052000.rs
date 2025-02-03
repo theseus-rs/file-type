@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_1052000: FileFormat = FileFormat {
     id: 1_052_000,
-    puid: "wikidata/1052000",
+    source_type: SourceType::Wikidata,
     name: "qcow",
     extensions: &["img", "qcow"],
-    media_types: &["application/x-qemu-disk", "application/x-qemu-disk"],
+    media_types: &["application/x-qemu-disk"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

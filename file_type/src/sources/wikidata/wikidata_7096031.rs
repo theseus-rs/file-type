@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_7096031: FileFormat = FileFormat {
     id: 7_096_031,
-    puid: "wikidata/7096031",
+    source_type: SourceType::Wikidata,
     name: "Open Financial Connectivity",
     extensions: &["ofc"],
     media_types: &["text/ofc"],

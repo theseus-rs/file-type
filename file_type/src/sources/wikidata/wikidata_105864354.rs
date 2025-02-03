@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864354: FileFormat = FileFormat {
     id: 105_864_354,
-    puid: "wikidata/105864354",
+    source_type: SourceType::Wikidata,
     name: "Print Magic Card",
     extensions: &["pmc"],
     media_types: &["application/octet-stream"],

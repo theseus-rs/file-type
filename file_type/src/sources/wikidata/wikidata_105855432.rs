@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855432: FileFormat = FileFormat {
     id: 105_855_432,
-    puid: "wikidata/105855432",
+    source_type: SourceType::Wikidata,
     name: "OpenDocument Flat XML Graphics",
     extensions: &["fodg"],
     media_types: &["application/vnd.oasis.opendocument.graphics-flat-xml"],

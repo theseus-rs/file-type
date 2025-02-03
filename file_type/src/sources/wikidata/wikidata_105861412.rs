@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861412: FileFormat = FileFormat {
     id: 105_861_412,
-    puid: "wikidata/105861412",
+    source_type: SourceType::Wikidata,
     name: "LogonStudio theme",
     extensions: &["logonxp"],
     media_types: &[],

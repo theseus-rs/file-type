@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860516: FileFormat = FileFormat {
     id: 105_860_516,
-    puid: "wikidata/105860516",
+    source_type: SourceType::Wikidata,
     name: "Rigaku XRD RAS format",
     extensions: &["ras"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864614: FileFormat = FileFormat {
     id: 105_864_614,
-    puid: "wikidata/105864614",
+    source_type: SourceType::Wikidata,
     name: "Power2Go Image",
     extensions: &["p2i"],
     media_types: &["text/plain"],

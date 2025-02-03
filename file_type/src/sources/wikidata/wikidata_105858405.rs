@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858405: FileFormat = FileFormat {
     id: 105_858_405,
-    puid: "wikidata/105858405",
+    source_type: SourceType::Wikidata,
     name: "Total War campaign settings (var 2)",
     extensions: &["esf"],
     media_types: &["application/octet-stream"],

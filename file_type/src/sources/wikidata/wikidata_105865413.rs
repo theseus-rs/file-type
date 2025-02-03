@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865413: FileFormat = FileFormat {
     id: 105_865_413,
-    puid: "wikidata/105865413",
+    source_type: SourceType::Wikidata,
     name: "AmigaKonto Preferences",
     extensions: &["prefs"],
     media_types: &["application/octet-stream"],

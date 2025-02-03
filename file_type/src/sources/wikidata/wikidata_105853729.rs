@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853729: FileFormat = FileFormat {
     id: 105_853_729,
-    puid: "wikidata/105853729",
+    source_type: SourceType::Wikidata,
     name: "The Binding of Isaac: Rebirth animation",
     extensions: &["anm2"],
     media_types: &["text/xml"],

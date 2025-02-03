@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855885: FileFormat = FileFormat {
     id: 105_855_885,
-    puid: "wikidata/105855885",
+    source_type: SourceType::Wikidata,
     name: "DRAKON Editor diagram",
     extensions: &["drn"],
     media_types: &["application/octet-stream"],

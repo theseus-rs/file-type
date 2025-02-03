@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863323: FileFormat = FileFormat {
     id: 105_863_323,
-    puid: "wikidata/105863323",
+    source_type: SourceType::Wikidata,
     name: "Quartet ST module",
     extensions: &["4q"],
     media_types: &["audio/x-mod"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205633: FileFormat = FileFormat {
     id: 28_205_633,
-    puid: "wikidata/28205633",
+    source_type: SourceType::Wikidata,
     name: "SuperJPG thumbnail cache",
     extensions: &["tnc"],
     media_types: &["application/octet-stream"],

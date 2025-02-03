@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856881: FileFormat = FileFormat {
     id: 105_856_881,
-    puid: "wikidata/105856881",
+    source_type: SourceType::Wikidata,
     name: "Generator GNM output log / music",
     extensions: &["gnm"],
     media_types: &[],

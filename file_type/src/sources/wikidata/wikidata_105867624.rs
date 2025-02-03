@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867624: FileFormat = FileFormat {
     id: 105_867_624,
-    puid: "wikidata/105867624",
+    source_type: SourceType::Wikidata,
     name: "Enemy Territory: Quake Wars demo",
     extensions: &["ndm"],
     media_types: &[],

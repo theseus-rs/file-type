@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_851476558: FileFormat = FileFormat {
     id: 851_476_558,
-    puid: "linguist/851476558",
+    source_type: SourceType::Linguist,
     name: "vCard",
     extensions: &["vcf"],
     media_types: &["text/x-properties"],

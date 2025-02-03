@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852466: FileFormat = FileFormat {
     id: 105_852_466,
-    puid: "wikidata/105852466",
+    source_type: SourceType::Wikidata,
     name: "Software Ideas Modeler Style Set",
     extensions: &["simss"],
     media_types: &["text/xml"],

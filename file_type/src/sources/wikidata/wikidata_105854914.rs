@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854914: FileFormat = FileFormat {
     id: 105_854_914,
-    puid: "wikidata/105854914",
+    source_type: SourceType::Wikidata,
     name: "Aston 2 Menu",
     extensions: &["a2menu"],
     media_types: &[],

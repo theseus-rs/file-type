@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856075: FileFormat = FileFormat {
     id: 105_856_075,
-    puid: "wikidata/105856075",
+    source_type: SourceType::Wikidata,
     name: "Full Tilt! Pinball table data",
     extensions: &["dat"],
     media_types: &["application/octet-stream"],

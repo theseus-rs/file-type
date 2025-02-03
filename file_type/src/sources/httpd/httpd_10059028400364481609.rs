@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10059028400364481609: FileFormat = FileFormat {
-    id: 10_059_028_400_364_481_609,
-    puid: "httpd/10059028400364481609",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "sgi",
     extensions: &["sgi"],
     media_types: &["image/sgi"],

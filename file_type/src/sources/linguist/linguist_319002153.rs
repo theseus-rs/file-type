@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_319002153: FileFormat = FileFormat {
     id: 319_002_153,
-    puid: "linguist/319002153",
+    source_type: SourceType::Linguist,
     name: "ReasonLIGO",
     extensions: &["religo"],
     media_types: &["text/x-rustsrc"],

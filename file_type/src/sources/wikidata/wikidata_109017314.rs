@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_109017314: FileFormat = FileFormat {
     id: 109_017_314,
-    puid: "wikidata/109017314",
+    source_type: SourceType::Wikidata,
     name: "iZotope RX document",
     extensions: &["rxdoc"],
     media_types: &[],

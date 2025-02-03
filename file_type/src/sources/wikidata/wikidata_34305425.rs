@@ -1,18 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_34305425: FileFormat = FileFormat {
     id: 34_305_425,
-    puid: "wikidata/34305425",
+    source_type: SourceType::Wikidata,
     name: "Scheme script",
-    extensions: &["sch", "sch", "scm", "scm", "ss", "ss"],
-    media_types: &[
-        "application/x-scheme",
-        "application/x-scheme",
-        "application/x-scheme",
-        "text/x-scheme",
-        "text/x-scheme",
-        "text/x-scheme",
-    ],
+    extensions: &["sch", "scm", "ss"],
+    media_types: &["application/x-scheme", "text/x-scheme"],
     internal_signatures: &[],
     related_formats: &[],
 };

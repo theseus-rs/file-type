@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_970675279: FileFormat = FileFormat {
     id: 970_675_279,
-    puid: "linguist/970675279",
+    source_type: SourceType::Linguist,
     name: "kvlang",
     extensions: &["kv"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857371: FileFormat = FileFormat {
     id: 105_857_371,
-    puid: "wikidata/105857371",
+    source_type: SourceType::Wikidata,
     name: "BigJig Jigsaw",
     extensions: &["jg6"],
     media_types: &[],

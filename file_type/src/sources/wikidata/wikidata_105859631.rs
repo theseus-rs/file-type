@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859631: FileFormat = FileFormat {
     id: 105_859_631,
-    puid: "wikidata/105859631",
+    source_type: SourceType::Wikidata,
     name: "VHSIC Hardware Description Language (with rem)",
-    extensions: &["vhd", "vhd", "vhdl", "vhdl"],
-    media_types: &["text/plain", "text/plain", "text/x-vhdl", "text/x-vhdl"],
+    extensions: &["vhd", "vhdl"],
+    media_types: &["text/plain", "text/x-vhdl"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861098: FileFormat = FileFormat {
     id: 105_861_098,
-    puid: "wikidata/105861098",
+    source_type: SourceType::Wikidata,
     name: "Adobe Photoshop Lightroom Template",
     extensions: &["lrtemplate"],
     media_types: &[],

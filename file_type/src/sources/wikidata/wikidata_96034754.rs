@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_96034754: FileFormat = FileFormat {
     id: 96_034_754,
-    puid: "wikidata/96034754",
+    source_type: SourceType::Wikidata,
     name: "GraphML format",
     extensions: &["graphml"],
     media_types: &["text/xml"],

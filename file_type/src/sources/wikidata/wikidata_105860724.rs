@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860724: FileFormat = FileFormat {
     id: 105_860_724,
-    puid: "wikidata/105860724",
+    source_type: SourceType::Wikidata,
     name: "Redline Markup Language",
     extensions: &["rml"],
     media_types: &[],

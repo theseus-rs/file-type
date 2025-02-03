@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865318: FileFormat = FileFormat {
     id: 105_865_318,
-    puid: "wikidata/105865318",
+    source_type: SourceType::Wikidata,
     name: "HP LaserJet Printer Cartridge Metric",
     extensions: &["pcm"],
     media_types: &["application/octet-stream"],

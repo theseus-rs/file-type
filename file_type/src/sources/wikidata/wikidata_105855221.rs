@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855221: FileFormat = FileFormat {
     id: 105_855_221,
-    puid: "wikidata/105855221",
+    source_type: SourceType::Wikidata,
     name: "Assault Wing Font",
     extensions: &["fnt"],
     media_types: &["application/octet-stream"],

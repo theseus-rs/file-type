@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852798: FileFormat = FileFormat {
     id: 105_852_798,
-    puid: "wikidata/105852798",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Solitaire Saved game",
     extensions: &["solitairesave-ms"],
     media_types: &[],

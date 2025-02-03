@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856317: FileFormat = FileFormat {
     id: 105_856_317,
-    puid: "wikidata/105856317",
+    source_type: SourceType::Wikidata,
     name: "Dream Station Instruments",
     extensions: &["dsi"],
     media_types: &["application/octet-stream"],

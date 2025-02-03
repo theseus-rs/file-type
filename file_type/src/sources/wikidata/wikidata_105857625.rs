@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857625: FileFormat = FileFormat {
     id: 105_857_625,
-    puid: "wikidata/105857625",
+    source_type: SourceType::Wikidata,
     name: "ISo Zipped format",
     extensions: &["isz"],
     media_types: &[],

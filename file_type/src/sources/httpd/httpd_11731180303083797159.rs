@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_11731180303083797159: FileFormat = FileFormat {
-    id: 11_731_180_303_083_797_159,
-    puid: "httpd/11731180303083797159",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ms cab compressed",
     extensions: &["cab"],
     media_types: &["application/vnd.ms-cab-compressed"],

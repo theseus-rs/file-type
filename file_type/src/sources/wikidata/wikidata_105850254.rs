@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850254: FileFormat = FileFormat {
     id: 105_850_254,
-    puid: "wikidata/105850254",
+    source_type: SourceType::Wikidata,
     name: "PMarc CP/M SFX archive",
     extensions: &["com"],
     media_types: &["application/octet-stream"],

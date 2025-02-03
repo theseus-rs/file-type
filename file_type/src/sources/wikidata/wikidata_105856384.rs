@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856384: FileFormat = FileFormat {
     id: 105_856_384,
-    puid: "wikidata/105856384",
+    source_type: SourceType::Wikidata,
     name: "Dynamo program",
     extensions: &["dyn"],
     media_types: &["text/plain"],

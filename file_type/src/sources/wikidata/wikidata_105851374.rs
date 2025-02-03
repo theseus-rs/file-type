@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851374: FileFormat = FileFormat {
     id: 105_851_374,
-    puid: "wikidata/105851374",
+    source_type: SourceType::Wikidata,
     name: "TextMate Preferences",
     extensions: &["tmpreferences"],
     media_types: &["text/xml"],

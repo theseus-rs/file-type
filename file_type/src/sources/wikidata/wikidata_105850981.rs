@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850981: FileFormat = FileFormat {
     id: 105_850_981,
-    puid: "wikidata/105850981",
+    source_type: SourceType::Wikidata,
     name: "DB/TextWorks Database Menu Screen",
     extensions: &["tbm"],
     media_types: &[],

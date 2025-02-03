@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861649: FileFormat = FileFormat {
     id: 105_861_649,
-    puid: "wikidata/105861649",
+    source_type: SourceType::Wikidata,
     name: "Logic Pro X project",
     extensions: &["logicx"],
     media_types: &["application/octet-stream"],

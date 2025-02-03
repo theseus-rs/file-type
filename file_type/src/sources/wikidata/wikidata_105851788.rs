@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851788: FileFormat = FileFormat {
     id: 105_851_788,
-    puid: "wikidata/105851788",
+    source_type: SourceType::Wikidata,
     name: "Skein replay data",
     extensions: &["skein"],
     media_types: &[],

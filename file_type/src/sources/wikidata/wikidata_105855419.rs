@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855419: FileFormat = FileFormat {
     id: 105_855_419,
-    puid: "wikidata/105855419",
+    source_type: SourceType::Wikidata,
     name: "Mechwarrior FIT data",
     extensions: &["fit"],
     media_types: &["application/octet-stream"],

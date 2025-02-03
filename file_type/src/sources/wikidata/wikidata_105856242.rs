@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856242: FileFormat = FileFormat {
     id: 105_856_242,
-    puid: "wikidata/105856242",
+    source_type: SourceType::Wikidata,
     name: "OS/2 Device Driver Profile",
     extensions: &["ddp"],
     media_types: &["text/plain"],

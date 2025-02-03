@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851565: FileFormat = FileFormat {
     id: 105_851_565,
-    puid: "wikidata/105851565",
+    source_type: SourceType::Wikidata,
     name: "Timing Wizard report (XML)",
     extensions: &["twx"],
     media_types: &["text/xml"],

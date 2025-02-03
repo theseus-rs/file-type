@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861070: FileFormat = FileFormat {
     id: 105_861_070,
-    puid: "wikidata/105861070",
+    source_type: SourceType::Wikidata,
     name: "LucaNet archive (v2.0)",
     extensions: &["lnarc"],
     media_types: &["application/octet-stream"],

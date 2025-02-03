@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858795: FileFormat = FileFormat {
     id: 105_858_795,
-    puid: "wikidata/105858795",
+    source_type: SourceType::Wikidata,
     name: "Photo Enote (Enot) external photo viewer settings",
     extensions: &["bws"],
     media_types: &[],

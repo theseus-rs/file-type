@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856670: FileFormat = FileFormat {
     id: 105_856_670,
-    puid: "wikidata/105856670",
+    source_type: SourceType::Wikidata,
     name: "Unity Player Preferences",
     extensions: &["upp"],
     media_types: &["application/octet-stream"],

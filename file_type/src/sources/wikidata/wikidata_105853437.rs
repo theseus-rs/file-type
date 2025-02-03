@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853437: FileFormat = FileFormat {
     id: 105_853_437,
-    puid: "wikidata/105853437",
+    source_type: SourceType::Wikidata,
     name: "Mr. Backup Z64 ROM dump",
     extensions: &["z64"],
     media_types: &["application/octet-stream"],

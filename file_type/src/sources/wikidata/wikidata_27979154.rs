@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27979154: FileFormat = FileFormat {
     id: 27_979_154,
-    puid: "wikidata/27979154",
+    source_type: SourceType::Wikidata,
     name: "ArtWorx Data Format",
     extensions: &["adf"],
     media_types: &[],

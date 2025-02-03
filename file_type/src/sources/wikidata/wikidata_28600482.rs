@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28600482: FileFormat = FileFormat {
     id: 28_600_482,
-    puid: "wikidata/28600482",
+    source_type: SourceType::Wikidata,
     name: "DSK (Apple II)",
     extensions: &["dsk"],
     media_types: &["application/octet-stream"],

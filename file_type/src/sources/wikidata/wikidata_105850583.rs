@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850583: FileFormat = FileFormat {
     id: 105_850_583,
-    puid: "wikidata/105850583",
+    source_type: SourceType::Wikidata,
     name: "MFC ClassWizard info",
     extensions: &["clw"],
     media_types: &["text/plain"],

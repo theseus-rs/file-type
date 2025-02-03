@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13130956661305356843: FileFormat = FileFormat {
-    id: 13_130_956_661_305_356_843,
-    puid: "httpd/13130956661305356843",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "nuera ecelp4800",
     extensions: &["ecelp4800"],
     media_types: &["audio/vnd.nuera.ecelp4800"],

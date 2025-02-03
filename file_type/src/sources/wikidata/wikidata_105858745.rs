@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858745: FileFormat = FileFormat {
     id: 105_858_745,
-    puid: "wikidata/105858745",
+    source_type: SourceType::Wikidata,
     name: "TomTom Navigator info",
     extensions: &["bif"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866894: FileFormat = FileFormat {
     id: 105_866_894,
-    puid: "wikidata/105866894",
+    source_type: SourceType::Wikidata,
     name: "PWK Virtual machine module",
     extensions: &["pvm"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849997: FileFormat = FileFormat {
     id: 105_849_997,
-    puid: "wikidata/105849997",
+    source_type: SourceType::Wikidata,
     name: "GOLD Parser Tables",
     extensions: &["cgt"],
     media_types: &[],

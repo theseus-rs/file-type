@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851357: FileFormat = FileFormat {
     id: 105_851_357,
-    puid: "wikidata/105851357",
+    source_type: SourceType::Wikidata,
     name: "TGF chemical test (UNIX)",
     extensions: &["tgf"],
     media_types: &[],

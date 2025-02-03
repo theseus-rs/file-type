@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856523: FileFormat = FileFormat {
     id: 105_856_523,
-    puid: "wikidata/105856523",
+    source_type: SourceType::Wikidata,
     name: "NextSTART Theme",
     extensions: &["wst"],
     media_types: &["application/octet-stream"],

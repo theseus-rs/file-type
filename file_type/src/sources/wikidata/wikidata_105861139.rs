@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861139: FileFormat = FileFormat {
     id: 105_861_139,
-    puid: "wikidata/105861139",
+    source_type: SourceType::Wikidata,
     name: "Minecraft LiteLoader Mod",
     extensions: &["litemod"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853981: FileFormat = FileFormat {
     id: 105_853_981,
-    puid: "wikidata/105853981",
+    source_type: SourceType::Wikidata,
     name: "audfprint peak",
     extensions: &["afpk"],
     media_types: &["application/octet-stream"],

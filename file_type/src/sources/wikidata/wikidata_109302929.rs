@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_109302929: FileFormat = FileFormat {
     id: 109_302_929,
-    puid: "wikidata/109302929",
+    source_type: SourceType::Wikidata,
     name: "Asymetrix Compel Presentation, version 2",
     extensions: &["cpl"],
     media_types: &[],

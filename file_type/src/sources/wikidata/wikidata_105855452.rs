@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855452: FileFormat = FileFormat {
     id: 105_855_452,
-    puid: "wikidata/105855452",
+    source_type: SourceType::Wikidata,
     name: "Grand Theft Auto Fake Text",
     extensions: &["fxt"],
     media_types: &["application/octet-stream"],

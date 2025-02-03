@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_68481873: FileFormat = FileFormat {
     id: 68_481_873,
-    puid: "wikidata/68481873",
+    source_type: SourceType::Wikidata,
     name: "Deep Zoom Image file format",
     extensions: &["dzi"],
     media_types: &["text/xml"],

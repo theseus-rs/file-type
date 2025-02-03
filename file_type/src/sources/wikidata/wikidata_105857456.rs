@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857456: FileFormat = FileFormat {
     id: 105_857_456,
-    puid: "wikidata/105857456",
+    source_type: SourceType::Wikidata,
     name: "PathMinder encrypted (v4.00)",
     extensions: &["000"],
     media_types: &["application/octet-stream"],

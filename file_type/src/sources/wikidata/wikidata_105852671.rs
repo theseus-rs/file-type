@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852671: FileFormat = FileFormat {
     id: 105_852_671,
-    puid: "wikidata/105852671",
+    source_type: SourceType::Wikidata,
     name: "Elecbyte M.U.G.E.N. sprites",
     extensions: &["sff"],
     media_types: &[],

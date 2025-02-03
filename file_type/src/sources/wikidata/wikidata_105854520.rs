@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854520: FileFormat = FileFormat {
     id: 105_854_520,
-    puid: "wikidata/105854520",
+    source_type: SourceType::Wikidata,
     name: "CPIO archive (byte swapped binary)",
     extensions: &["cpio"],
     media_types: &["application/octet-stream"],

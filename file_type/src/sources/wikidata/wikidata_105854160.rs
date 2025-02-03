@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854160: FileFormat = FileFormat {
     id: 105_854_160,
-    puid: "wikidata/105854160",
+    source_type: SourceType::Wikidata,
     name: "Avid / Pinnacle Studio Project",
     extensions: &["axp"],
     media_types: &["application/octet-stream"],

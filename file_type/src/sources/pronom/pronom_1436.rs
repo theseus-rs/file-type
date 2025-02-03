@@ -1,0 +1,17 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, SourceType, Token,
+};
+
+pub(crate) const PRONOM_1436: FileFormat = FileFormat {
+    id: 1_436,
+    source_type: SourceType::Pronom,
+    name: "Microsoft PowerPoint Macro-Enabled Slide",
+    extensions: &["sldm"],
+    media_types: &["application/vnd.ms-powerpoint.slide.macroEnabled.12"],
+    internal_signatures: &[],
+    related_formats: &[RelatedFormat {
+        relationship_type: RelationshipType::IsSubtypeOf,
+        id: 941,
+    }],
+};

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858305: FileFormat = FileFormat {
     id: 105_858_305,
-    puid: "wikidata/105858305",
+    source_type: SourceType::Wikidata,
     name: "EbSynth project",
     extensions: &["ebs"],
     media_types: &["application/octet-stream"],

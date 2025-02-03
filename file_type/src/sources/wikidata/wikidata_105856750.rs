@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856750: FileFormat = FileFormat {
     id: 105_856_750,
-    puid: "wikidata/105856750",
+    source_type: SourceType::Wikidata,
     name: "Universal Go Format",
     extensions: &["ugf", "ugi"],
-    media_types: &["text/ini", "text/ini"],
+    media_types: &["text/ini"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

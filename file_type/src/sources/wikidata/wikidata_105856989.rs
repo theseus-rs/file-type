@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856989: FileFormat = FileFormat {
     id: 105_856_989,
-    puid: "wikidata/105856989",
+    source_type: SourceType::Wikidata,
     name: "Guitar Pro 6 tablature (compressed)",
     extensions: &["gpx"],
     media_types: &[],

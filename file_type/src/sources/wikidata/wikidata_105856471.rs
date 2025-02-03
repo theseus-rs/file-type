@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856471: FileFormat = FileFormat {
     id: 105_856_471,
-    puid: "wikidata/105856471",
+    source_type: SourceType::Wikidata,
     name: "SoftKey WinWorks document Template",
     extensions: &["wpt"],
     media_types: &["application/octet-stream"],

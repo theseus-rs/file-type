@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857221: FileFormat = FileFormat {
     id: 105_857_221,
-    puid: "wikidata/105857221",
+    source_type: SourceType::Wikidata,
     name: "HoN Modification Manager package",
     extensions: &["honmod"],
     media_types: &[],

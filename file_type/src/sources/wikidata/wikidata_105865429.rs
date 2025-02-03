@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865429: FileFormat = FileFormat {
     id: 105_865_429,
-    puid: "wikidata/105865429",
+    source_type: SourceType::Wikidata,
     name: "Persona 4 game data archive",
     extensions: &["pac"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854042: FileFormat = FileFormat {
     id: 105_854_042,
-    puid: "wikidata/105854042",
+    source_type: SourceType::Wikidata,
     name: "AppleWin SaveState",
     extensions: &["aws"],
     media_types: &["application/octet-stream"],

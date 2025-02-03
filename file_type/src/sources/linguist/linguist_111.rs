@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_111: FileFormat = FileFormat {
     id: 111,
-    puid: "linguist/111",
+    source_type: SourceType::Linguist,
     name: "Filebench WML",
     extensions: &["f"],
     media_types: &[],

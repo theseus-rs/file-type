@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849763: FileFormat = FileFormat {
     id: 105_849_763,
-    puid: "wikidata/105849763",
+    source_type: SourceType::Wikidata,
     name: "Satori Paint Canvas",
     extensions: &["cvs"],
     media_types: &["application/octet-stream"],

@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855429: FileFormat = FileFormat {
     id: 105_855_429,
-    puid: "wikidata/105855429",
+    source_type: SourceType::Wikidata,
     name: "Gherkin Feature",
-    extensions: &["feature", "feature"],
+    extensions: &["feature"],
     media_types: &["text/plain", "text/x-gherkin"],
     internal_signatures: &[
         InternalSignature {

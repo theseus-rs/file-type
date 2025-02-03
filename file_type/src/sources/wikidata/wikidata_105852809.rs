@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852809: FileFormat = FileFormat {
     id: 105_852_809,
-    puid: "wikidata/105852809",
+    source_type: SourceType::Wikidata,
     name: "Fiddler Session Archive Zip",
     extensions: &["saz"],
     media_types: &[],

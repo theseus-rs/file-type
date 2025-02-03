@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849660: FileFormat = FileFormat {
     id: 105_849_660,
-    puid: "wikidata/105849660",
+    source_type: SourceType::Wikidata,
     name: "42's Core War compiled program",
     extensions: &["cor"],
     media_types: &["application/octet-stream"],

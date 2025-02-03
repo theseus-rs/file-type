@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853585: FileFormat = FileFormat {
     id: 105_853_585,
-    puid: "wikidata/105853585",
+    source_type: SourceType::Wikidata,
     name: "BlueZone VT Display Emulator configuration",
     extensions: &["zvt"],
     media_types: &[],

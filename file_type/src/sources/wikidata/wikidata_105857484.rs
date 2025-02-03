@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857484: FileFormat = FileFormat {
     id: 105_857_484,
-    puid: "wikidata/105857484",
+    source_type: SourceType::Wikidata,
     name: "SCUMM main data container (v6)",
     extensions: &["001"],
     media_types: &["application/octet-stream"],

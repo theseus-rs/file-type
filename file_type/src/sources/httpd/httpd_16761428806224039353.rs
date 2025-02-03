@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16761428806224039353: FileFormat = FileFormat {
-    id: 16_761_428_806_224_039_353,
-    puid: "httpd/16761428806224039353",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ctc posml",
     extensions: &["pml"],
     media_types: &["application/vnd.ctc-posml"],

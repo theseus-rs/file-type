@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_121: FileFormat = FileFormat {
     id: 121,
-    puid: "linguist/121",
+    source_type: SourceType::Linguist,
     name: "GCC Machine Description",
     extensions: &["md"],
     media_types: &["text/x-common-lisp"],

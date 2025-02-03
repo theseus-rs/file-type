@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860025: FileFormat = FileFormat {
     id: 105_860_025,
-    puid: "wikidata/105860025",
+    source_type: SourceType::Wikidata,
     name: "PlayStation Sound Source Data",
     extensions: &["vab"],
     media_types: &["application/octet-stream"],

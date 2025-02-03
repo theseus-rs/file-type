@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862917: FileFormat = FileFormat {
     id: 105_862_917,
-    puid: "wikidata/105862917",
+    source_type: SourceType::Wikidata,
     name: "NeXtMidas Macro",
     extensions: &["mm"],
     media_types: &[],

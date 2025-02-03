@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850876: FileFormat = FileFormat {
     id: 105_850_876,
-    puid: "wikidata/105850876",
+    source_type: SourceType::Wikidata,
     name: "Cyberstep game data format",
     extensions: &["kxr"],
     media_types: &["application/octet-stream"],

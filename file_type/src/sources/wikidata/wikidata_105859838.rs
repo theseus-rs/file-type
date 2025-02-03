@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859838: FileFormat = FileFormat {
     id: 105_859_838,
-    puid: "wikidata/105859838",
+    source_type: SourceType::Wikidata,
     name: "FreeMotion Flash movie",
     extensions: &["sqf"],
     media_types: &[],

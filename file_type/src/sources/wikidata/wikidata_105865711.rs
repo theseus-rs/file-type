@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865711: FileFormat = FileFormat {
     id: 105_865_711,
-    puid: "wikidata/105865711",
+    source_type: SourceType::Wikidata,
     name: "InterTalk Phonebook",
     extensions: &["phone"],
     media_types: &["application/octet-stream"],

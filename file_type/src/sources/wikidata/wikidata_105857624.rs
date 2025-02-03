@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857624: FileFormat = FileFormat {
     id: 105_857_624,
-    puid: "wikidata/105857624",
+    source_type: SourceType::Wikidata,
     name: "RC750 PICCOLINE disk image",
     extensions: &["img"],
     media_types: &["application/octet-stream"],

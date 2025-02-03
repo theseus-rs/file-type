@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857276: FileFormat = FileFormat {
     id: 105_857_276,
-    puid: "wikidata/105857276",
+    source_type: SourceType::Wikidata,
     name: "Borland Turbo Vision Help",
     extensions: &["hlp"],
     media_types: &["application/octet-stream"],

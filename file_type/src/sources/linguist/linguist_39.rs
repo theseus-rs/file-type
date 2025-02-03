@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_39: FileFormat = FileFormat {
     id: 39,
-    puid: "linguist/39",
+    source_type: SourceType::Linguist,
     name: "Brightscript",
     extensions: &["brs"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856264: FileFormat = FileFormat {
     id: 105_856_264,
-    puid: "wikidata/105856264",
+    source_type: SourceType::Wikidata,
     name: "ASHRAE Design Conditions Design Day data",
     extensions: &["ddy"],
     media_types: &[],

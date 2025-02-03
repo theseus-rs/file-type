@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857060: FileFormat = FileFormat {
     id: 105_857_060,
-    puid: "wikidata/105857060",
+    source_type: SourceType::Wikidata,
     name: "Moebius Graphics Library",
     extensions: &["glb"],
     media_types: &["application/octet-stream"],

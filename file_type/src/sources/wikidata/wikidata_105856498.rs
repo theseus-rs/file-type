@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856498: FileFormat = FileFormat {
     id: 105_856_498,
-    puid: "wikidata/105856498",
+    source_type: SourceType::Wikidata,
     name: "VP-Planner Plus spreadsheet",
     extensions: &["wks"],
     media_types: &["application/octet-stream"],

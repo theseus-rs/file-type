@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851807: FileFormat = FileFormat {
     id: 105_851_807,
-    puid: "wikidata/105851807",
+    source_type: SourceType::Wikidata,
     name: "OPTune Saved recovery info",
     extensions: &["sav"],
     media_types: &["application/octet-stream"],

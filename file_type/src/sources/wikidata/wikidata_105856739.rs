@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856739: FileFormat = FileFormat {
     id: 105_856_739,
-    puid: "wikidata/105856739",
+    source_type: SourceType::Wikidata,
     name: "Ultimaker format package",
     extensions: &["ufp"],
     media_types: &["application/octet-stream"],

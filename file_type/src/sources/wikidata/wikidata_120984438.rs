@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_120984438: FileFormat = FileFormat {
     id: 120_984_438,
-    puid: "wikidata/120984438",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Publisher Template",
     extensions: &["pub"],
     media_types: &[],

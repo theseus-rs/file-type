@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858589: FileFormat = FileFormat {
     id: 105_858_589,
-    puid: "wikidata/105858589",
+    source_type: SourceType::Wikidata,
     name: "Brother Embroidery System Font",
     extensions: &["bfn"],
     media_types: &[],

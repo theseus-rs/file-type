@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854567: FileFormat = FileFormat {
     id: 105_854_567,
-    puid: "wikidata/105854567",
+    source_type: SourceType::Wikidata,
     name: "freeCAD assembly",
     extensions: &["asm"],
     media_types: &[],

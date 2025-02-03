@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857653: FileFormat = FileFormat {
     id: 105_857_653,
-    puid: "wikidata/105857653",
+    source_type: SourceType::Wikidata,
     name: "the Word Bible Text Module Index",
     extensions: &["idx"],
     media_types: &["application/octet-stream"],

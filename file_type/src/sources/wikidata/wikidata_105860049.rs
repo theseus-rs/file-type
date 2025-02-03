@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860049: FileFormat = FileFormat {
     id: 105_860_049,
-    puid: "wikidata/105860049",
+    source_type: SourceType::Wikidata,
     name: "Requiem: Memento Mori game data archive",
     extensions: &["vdk"],
     media_types: &["application/octet-stream"],

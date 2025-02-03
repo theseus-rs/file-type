@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206162: FileFormat = FileFormat {
     id: 28_206_162,
-    puid: "wikidata/28206162",
+    source_type: SourceType::Wikidata,
     name: "GEM Raster",
     extensions: &["img"],
     media_types: &["application/gem"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857174: FileFormat = FileFormat {
     id: 105_857_174,
-    puid: "wikidata/105857174",
+    source_type: SourceType::Wikidata,
     name: "Hangul (Korean) Word Processor document (alternate)",
     extensions: &["hwp"],
     media_types: &[],

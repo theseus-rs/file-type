@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851739: FileFormat = FileFormat {
     id: 105_851_739,
-    puid: "wikidata/105851739",
+    source_type: SourceType::Wikidata,
     name: "Phoenix save state (generic)",
     extensions: &["states"],
     media_types: &["application/octet-stream"],

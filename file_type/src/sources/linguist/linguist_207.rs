@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_207: FileFormat = FileFormat {
     id: 207,
-    puid: "linguist/207",
+    source_type: SourceType::Linguist,
     name: "Literate Haskell",
     extensions: &["lhs"],
     media_types: &["text/x-literate-haskell"],

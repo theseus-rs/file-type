@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858270: FileFormat = FileFormat {
     id: 105_858_270,
-    puid: "wikidata/105858270",
+    source_type: SourceType::Wikidata,
     name: "easyHDR 2 Project",
     extensions: &["ehpx"],
     media_types: &["text/xml"],

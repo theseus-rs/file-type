@@ -48,7 +48,7 @@ fn test_avro_file() -> Result<()> {
 
 #[test]
 fn test_csv_file() -> Result<()> {
-    test_file("users.csv", "x-fmt/18", Some("text/csv"))
+    test_file("users.csv", "pronom/45", Some("text/csv"))
 }
 
 #[test]
@@ -62,7 +62,7 @@ fn test_duckdb_file() -> Result<()> {
 
 #[test]
 fn test_json_file() -> Result<()> {
-    test_file("users.json", "fmt/817", Some("application/json"))
+    test_file("users.json", "pronom/1617", Some("application/json"))
 }
 
 #[test]
@@ -74,7 +74,7 @@ fn test_jsonl_file() -> Result<()> {
 fn test_ods_file() -> Result<()> {
     test_file(
         "users.ods",
-        "fmt/294",
+        "pronom/1037",
         Some("application/vnd.oasis.opendocument.spreadsheet"),
     )
 }
@@ -90,29 +90,33 @@ fn test_parquet_file() -> Result<()> {
 
 #[test]
 fn test_sqlite3_file() -> Result<()> {
-    test_file("users.sqlite3", "fmt/729", Some("application/x-sqlite3"))
+    test_file(
+        "users.sqlite3",
+        "pronom/1528",
+        Some("application/x-sqlite3"),
+    )
 }
 
 #[test]
 fn test_tsv_file() -> Result<()> {
-    test_file("users.tsv", "x-fmt/13", Some("text/tab-separated-values"))
+    test_file("users.tsv", "pronom/40", Some("text/tab-separated-values"))
 }
 
 #[test]
 fn test_xlsx_file() -> Result<()> {
     test_file(
         "users.xlsx",
-        "fmt/214",
+        "pronom/940",
         Some("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"),
     )
 }
 
 #[test]
 fn test_xml_file() -> Result<()> {
-    test_file("users.xml", "fmt/101", Some("text/xml"))
+    test_file("users.xml", "pronom/638", Some("text/xml"))
 }
 
 #[test]
 fn test_yaml_file() -> Result<()> {
-    test_file("users.yaml", "fmt/818", None)
+    test_file("users.yaml", "pronom/1618", None)
 }

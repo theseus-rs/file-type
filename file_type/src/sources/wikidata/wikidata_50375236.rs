@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_50375236: FileFormat = FileFormat {
     id: 50_375_236,
-    puid: "wikidata/50375236",
+    source_type: SourceType::Wikidata,
     name: "NIB File Format",
     extensions: &["nib"],
     media_types: &[],

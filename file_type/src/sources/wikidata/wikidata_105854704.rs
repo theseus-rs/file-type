@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854704: FileFormat = FileFormat {
     id: 105_854_704,
-    puid: "wikidata/105854704",
+    source_type: SourceType::Wikidata,
     name: "STK Sensor Pointing format",
     extensions: &["ap"],
     media_types: &["text/plain"],

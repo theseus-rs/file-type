@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859488: FileFormat = FileFormat {
     id: 105_859_488,
-    puid: "wikidata/105859488",
+    source_type: SourceType::Wikidata,
     name: "QlikView document",
     extensions: &["qvw"],
     media_types: &["application/octet-stream"],

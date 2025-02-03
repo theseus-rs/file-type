@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867500: FileFormat = FileFormat {
     id: 105_867_500,
-    puid: "wikidata/105867500",
+    source_type: SourceType::Wikidata,
     name: "Nikon Movie File",
     extensions: &["nmf"],
     media_types: &["text/xml"],

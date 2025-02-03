@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_70: FileFormat = FileFormat {
     id: 70,
-    puid: "linguist/70",
+    source_type: SourceType::Linguist,
     name: "Cpp-ObjDump",
     extensions: &[
         "c++-objdump",

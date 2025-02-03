@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862244: FileFormat = FileFormat {
     id: 105_862_244,
-    puid: "wikidata/105862244",
+    source_type: SourceType::Wikidata,
     name: "Blizzard 3D Model (binary)",
     extensions: &["mdx"],
     media_types: &["application/octet-stream"],

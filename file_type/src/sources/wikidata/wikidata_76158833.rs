@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_76158833: FileFormat = FileFormat {
     id: 76_158_833,
-    puid: "wikidata/76158833",
+    source_type: SourceType::Wikidata,
     name: "Very Ordinary Raster file format bitmap",
     extensions: &["vort"],
     media_types: &[],

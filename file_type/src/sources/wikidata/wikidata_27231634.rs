@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27231634: FileFormat = FileFormat {
     id: 27_231_634,
-    puid: "wikidata/27231634",
+    source_type: SourceType::Wikidata,
     name: "Tag Image File Format, version 4.0",
     extensions: &["tif"],
     media_types: &["image/tiff"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860000: FileFormat = FileFormat {
     id: 105_860_000,
-    puid: "wikidata/105860000",
+    source_type: SourceType::Wikidata,
     name: "VBA32 Antivirus Signature",
     extensions: &["udb"],
     media_types: &[],

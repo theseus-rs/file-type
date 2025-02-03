@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851022: FileFormat = FileFormat {
     id: 105_851_022,
-    puid: "wikidata/105851022",
+    source_type: SourceType::Wikidata,
     name: "Panasonic JR Cassette image",
     extensions: &["cjr"],
     media_types: &["application/octet-stream"],

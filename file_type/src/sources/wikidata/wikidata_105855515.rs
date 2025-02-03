@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855515: FileFormat = FileFormat {
     id: 105_855_515,
-    puid: "wikidata/105855515",
+    source_type: SourceType::Wikidata,
     name: "PC Animate Plus Frame F/X",
     extensions: &["ffx"],
     media_types: &["application/octet-stream"],

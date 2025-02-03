@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856765: FileFormat = FileFormat {
     id: 105_856_765,
-    puid: "wikidata/105856765",
+    source_type: SourceType::Wikidata,
     name: "Open-Sankore document",
     extensions: &["ubz"],
     media_types: &["application/octet-stream"],

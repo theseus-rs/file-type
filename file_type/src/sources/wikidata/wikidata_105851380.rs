@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851380: FileFormat = FileFormat {
     id: 105_851_380,
-    puid: "wikidata/105851380",
+    source_type: SourceType::Wikidata,
     name: "Xoom Tutor tutorial (with title)",
     extensions: &["tut"],
     media_types: &["application/octet-stream"],

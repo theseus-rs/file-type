@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853375: FileFormat = FileFormat {
     id: 105_853_375,
-    puid: "wikidata/105853375",
+    source_type: SourceType::Wikidata,
     name: "Swift Interchange File V2",
     extensions: &["sif"],
     media_types: &["text/plain"],

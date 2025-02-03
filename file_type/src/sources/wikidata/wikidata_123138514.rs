@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_123138514: FileFormat = FileFormat {
     id: 123_138_514,
-    puid: "wikidata/123138514",
+    source_type: SourceType::Wikidata,
     name: "Disktracker Document",
     extensions: &["dtc"],
     media_types: &[],

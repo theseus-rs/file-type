@@ -1,16 +1,15 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_201093: FileFormat = FileFormat {
     id: 201_093,
-    puid: "wikidata/201093",
+    source_type: SourceType::Wikidata,
     name: "RealAudio",
-    extensions: &["ra", "ra", "ra", "ram", "ram", "ram"],
+    extensions: &["ra", "ram"],
     media_types: &[
         "audio/vnd.rn-realaudio",
-        "audio/vnd.rn-realaudio",
         "audio/x-pn-realaudio",
-        "audio/x-pn-realaudio",
-        "audio/x-realaudio",
         "audio/x-realaudio",
     ],
     internal_signatures: &[

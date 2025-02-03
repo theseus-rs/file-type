@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_824708: FileFormat = FileFormat {
     id: 824_708,
-    puid: "wikidata/824708",
+    source_type: SourceType::Wikidata,
     name: "Citation Style Language",
     extensions: &["csl"],
     media_types: &["application/vnd.citationstyles.style+xml"],

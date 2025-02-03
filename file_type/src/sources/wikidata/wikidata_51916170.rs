@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_51916170: FileFormat = FileFormat {
     id: 51_916_170,
-    puid: "wikidata/51916170",
+    source_type: SourceType::Wikidata,
     name: "Pagemaker TableEditor Graphics",
     extensions: &["tbl"],
     media_types: &["application/octet-stream"],

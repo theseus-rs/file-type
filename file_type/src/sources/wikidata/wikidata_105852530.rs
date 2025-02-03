@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852530: FileFormat = FileFormat {
     id: 105_852_530,
-    puid: "wikidata/105852530",
+    source_type: SourceType::Wikidata,
     name: "3D-XplorMath Surface format",
     extensions: &["surf"],
     media_types: &["text/plain"],

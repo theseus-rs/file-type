@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855738: FileFormat = FileFormat {
     id: 105_855_738,
-    puid: "wikidata/105855738",
+    source_type: SourceType::Wikidata,
     name: "Meridian Driver",
     extensions: &["drv"],
     media_types: &["application/octet-stream"],

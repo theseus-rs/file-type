@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856359: FileFormat = FileFormat {
     id: 105_856_359,
-    puid: "wikidata/105856359",
+    source_type: SourceType::Wikidata,
     name: "ThinManager configuration (v7)",
     extensions: &["db"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855380: FileFormat = FileFormat {
     id: 105_855_380,
-    puid: "wikidata/105855380",
+    source_type: SourceType::Wikidata,
     name: "Fisher and Paykel Icon Data Format",
     extensions: &["fph"],
     media_types: &["application/octet-stream"],

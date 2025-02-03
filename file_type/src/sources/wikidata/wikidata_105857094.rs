@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857094: FileFormat = FileFormat {
     id: 105_857_094,
-    puid: "wikidata/105857094",
+    source_type: SourceType::Wikidata,
     name: "Star Saga: Two saved Game",
     extensions: &["gam"],
     media_types: &["application/octet-stream"],

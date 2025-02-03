@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858117: FileFormat = FileFormat {
     id: 105_858_117,
-    puid: "wikidata/105858117",
+    source_type: SourceType::Wikidata,
     name: "VTrucco disk image",
     extensions: &["vtr"],
     media_types: &["application/octet-stream"],

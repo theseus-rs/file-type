@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_3406936: FileFormat = FileFormat {
     id: 3_406_936,
-    puid: "wikidata/3406936",
+    source_type: SourceType::Wikidata,
     name: "Program database",
-    extensions: &["pdb", "pdb"],
-    media_types: &["application/x-ms-pdb", "application/x-ms-pdb"],
+    extensions: &["pdb"],
+    media_types: &["application/x-ms-pdb"],
     internal_signatures: &[],
     related_formats: &[],
 };

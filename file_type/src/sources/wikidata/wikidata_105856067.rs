@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856067: FileFormat = FileFormat {
     id: 105_856_067,
-    puid: "wikidata/105856067",
+    source_type: SourceType::Wikidata,
     name: "Digital Symphony relocatable module",
     extensions: &["dsym"],
     media_types: &["application/octet-stream"],

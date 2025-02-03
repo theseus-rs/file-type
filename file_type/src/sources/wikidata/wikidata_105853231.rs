@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853231: FileFormat = FileFormat {
     id: 105_853_231,
-    puid: "wikidata/105853231",
+    source_type: SourceType::Wikidata,
     name: "Harvard Graphics Symbols (v2.x)",
     extensions: &["sym"],
     media_types: &["application/octet-stream"],

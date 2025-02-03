@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865478: FileFormat = FileFormat {
     id: 105_865_478,
-    puid: "wikidata/105865478",
+    source_type: SourceType::Wikidata,
     name: "PowerBuilder trace Profile",
     extensions: &["pbp"],
     media_types: &["application/octet-stream"],

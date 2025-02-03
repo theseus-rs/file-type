@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_849523096: FileFormat = FileFormat {
     id: 849_523_096,
-    puid: "linguist/849523096",
+    source_type: SourceType::Linguist,
     name: "Microsoft Visual Studio Solution",
     extensions: &["sln"],
     media_types: &[],

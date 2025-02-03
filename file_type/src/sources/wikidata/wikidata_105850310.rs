@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850310: FileFormat = FileFormat {
     id: 105_850_310,
-    puid: "wikidata/105850310",
+    source_type: SourceType::Wikidata,
     name: "Grand Theft Auto 3 collision data",
     extensions: &["col"],
     media_types: &[],

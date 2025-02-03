@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866794: FileFormat = FileFormat {
     id: 105_866_794,
-    puid: "wikidata/105866794",
+    source_type: SourceType::Wikidata,
     name: "Micrografx Designer Palette",
     extensions: &["pl4"],
     media_types: &["application/octet-stream"],

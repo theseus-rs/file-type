@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866341: FileFormat = FileFormat {
     id: 105_866_341,
-    puid: "wikidata/105866341",
+    source_type: SourceType::Wikidata,
     name: "Gothic 3 game data archive",
     extensions: &["pak"],
     media_types: &["application/octet-stream"],

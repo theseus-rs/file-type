@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853523: FileFormat = FileFormat {
     id: 105_853_523,
-    puid: "wikidata/105853523",
+    source_type: SourceType::Wikidata,
     name: "Zero-X Color scheme",
     extensions: &["zco"],
     media_types: &["text/plain"],

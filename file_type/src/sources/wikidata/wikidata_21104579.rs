@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_21104579: FileFormat = FileFormat {
     id: 21_104_579,
-    puid: "wikidata/21104579",
+    source_type: SourceType::Wikidata,
     name: "Free Lossless Image Format",
     extensions: &["flif"],
     media_types: &["image/flif"],

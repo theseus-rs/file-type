@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851444: FileFormat = FileFormat {
     id: 105_851_444,
-    puid: "wikidata/105851444",
+    source_type: SourceType::Wikidata,
     name: "Skin / Theme for Pocket PC PDAs",
     extensions: &["tsk"],
     media_types: &[],

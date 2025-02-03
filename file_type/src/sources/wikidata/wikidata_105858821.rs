@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858821: FileFormat = FileFormat {
     id: 105_858_821,
-    puid: "wikidata/105858821",
+    source_type: SourceType::Wikidata,
     name: "GFA Raytrace Uncompressed image (hi-res) bitmap",
     extensions: &["suh"],
     media_types: &["application/octet-stream"],

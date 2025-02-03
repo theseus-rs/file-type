@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852460: FileFormat = FileFormat {
     id: 105_852_460,
-    puid: "wikidata/105852460",
+    source_type: SourceType::Wikidata,
     name: "Strelok Scope Reticle",
     extensions: &["srl"],
     media_types: &["text/xml"],

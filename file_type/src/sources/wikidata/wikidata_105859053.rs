@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859053: FileFormat = FileFormat {
     id: 105_859_053,
-    puid: "wikidata/105859053",
+    source_type: SourceType::Wikidata,
     name: "Eagle PCB drawing (XML)",
     extensions: &["brd"],
     media_types: &["text/xml"],

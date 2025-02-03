@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29167914: FileFormat = FileFormat {
     id: 29_167_914,
-    puid: "wikidata/29167914",
+    source_type: SourceType::Wikidata,
     name: "PCRaster Map",
     extensions: &["csf", "map"],
     media_types: &[],

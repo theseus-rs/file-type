@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_8177121348548023314: FileFormat = FileFormat {
-    id: 8_177_121_348_548_023_314,
-    puid: "httpd/8177121348548023314",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "palm",
     extensions: &["pdb", "pqa", "oprc"],
     media_types: &["application/vnd.palm"],

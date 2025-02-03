@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864645: FileFormat = FileFormat {
     id: 105_864_645,
-    puid: "wikidata/105864645",
+    source_type: SourceType::Wikidata,
     name: "PICkit 2 firmware",
     extensions: &["pk2"],
     media_types: &["application/octet-stream"],

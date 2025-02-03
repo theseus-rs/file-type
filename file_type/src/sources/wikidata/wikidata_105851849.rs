@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851849: FileFormat = FileFormat {
     id: 105_851_849,
-    puid: "wikidata/105851849",
+    source_type: SourceType::Wikidata,
     name: "Saved WCF Configuration Information",
     extensions: &["svcinfo"],
     media_types: &["text/xml"],

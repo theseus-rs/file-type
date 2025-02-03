@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_71264900: FileFormat = FileFormat {
     id: 71_264_900,
-    puid: "wikidata/71264900",
+    source_type: SourceType::Wikidata,
     name: "Hemera Photo-Object Image bitmap",
     extensions: &["hpi"],
     media_types: &["application/octet-stream"],

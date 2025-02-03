@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860405: FileFormat = FileFormat {
     id: 105_860_405,
-    puid: "wikidata/105860405",
+    source_type: SourceType::Wikidata,
     name: "OHRRPGCE game",
     extensions: &["rpg"],
     media_types: &["application/octet-stream"],

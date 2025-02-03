@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_738107771: FileFormat = FileFormat {
     id: 738_107_771,
-    puid: "linguist/738107771",
+    source_type: SourceType::Linguist,
     name: "Godot Resource",
     extensions: &["gdnlib", "gdns", "tres", "tscn"],
     media_types: &[],

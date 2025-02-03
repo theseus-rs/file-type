@@ -1,14 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864552: FileFormat = FileFormat {
     id: 105_864_552,
-    puid: "wikidata/105864552",
+    source_type: SourceType::Wikidata,
     name: "PuTTY Private Key (v2)",
-    extensions: &["ppk", "ppk"],
-    media_types: &[
-        "application/x-putty-private-key",
-        "application/x-putty-private-key",
-    ],
+    extensions: &["ppk"],
+    media_types: &["application/x-putty-private-key"],
     internal_signatures: &[InternalSignature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,

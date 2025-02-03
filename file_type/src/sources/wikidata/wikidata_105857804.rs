@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857804: FileFormat = FileFormat {
     id: 105_857_804,
-    puid: "wikidata/105857804",
+    source_type: SourceType::Wikidata,
     name: "Virtual APF settings",
     extensions: &["ini"],
     media_types: &["text/ini"],

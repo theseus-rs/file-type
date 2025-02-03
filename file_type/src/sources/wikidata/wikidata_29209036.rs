@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29209036: FileFormat = FileFormat {
     id: 29_209_036,
-    puid: "wikidata/29209036",
+    source_type: SourceType::Wikidata,
     name: "Windows Installer Package",
     extensions: &["msi", "msp"],
-    media_types: &["application/x-msi", "application/x-msi"],
+    media_types: &["application/x-msi"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28207489: FileFormat = FileFormat {
     id: 28_207_489,
-    puid: "wikidata/28207489",
+    source_type: SourceType::Wikidata,
     name: "WhyPic",
     extensions: &["ypc"],
     media_types: &["application/octet-stream"],

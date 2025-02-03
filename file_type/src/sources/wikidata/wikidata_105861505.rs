@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861505: FileFormat = FileFormat {
     id: 105_861_505,
-    puid: "wikidata/105861505",
+    source_type: SourceType::Wikidata,
     name: "LucasFilm Data - LucasArts game resource",
     extensions: &["lfd"],
     media_types: &["application/octet-stream"],

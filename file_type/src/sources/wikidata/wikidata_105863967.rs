@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863967: FileFormat = FileFormat {
     id: 105_863_967,
-    puid: "wikidata/105863967",
+    source_type: SourceType::Wikidata,
     name: "Meshwork model (v1.0)",
     extensions: &["mesh"],
     media_types: &["text/xml"],

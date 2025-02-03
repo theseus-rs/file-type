@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867615: FileFormat = FileFormat {
     id: 105_867_615,
-    puid: "wikidata/105867615",
+    source_type: SourceType::Wikidata,
     name: "Visual Studio Natvis visualization",
     extensions: &["natvis"],
     media_types: &["text/xml"],

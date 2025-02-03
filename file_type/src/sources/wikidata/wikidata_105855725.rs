@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855725: FileFormat = FileFormat {
     id: 105_855_725,
-    puid: "wikidata/105855725",
+    source_type: SourceType::Wikidata,
     name: "DELTA binary dataset",
     extensions: &["dlt"],
     media_types: &[],

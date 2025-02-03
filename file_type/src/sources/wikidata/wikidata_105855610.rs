@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855610: FileFormat = FileFormat {
     id: 105_855_610,
-    puid: "wikidata/105855610",
+    source_type: SourceType::Wikidata,
     name: "Notaro document",
     extensions: &["oad"],
     media_types: &[],

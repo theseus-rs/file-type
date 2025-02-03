@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859174: FileFormat = FileFormat {
     id: 105_859_174,
-    puid: "wikidata/105859174",
+    source_type: SourceType::Wikidata,
     name: "Streaming Progressive Image Format bitmap",
     extensions: &["spif"],
     media_types: &["application/octet-stream"],

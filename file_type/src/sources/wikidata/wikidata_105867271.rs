@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867271: FileFormat = FileFormat {
     id: 105_867_271,
-    puid: "wikidata/105867271",
+    source_type: SourceType::Wikidata,
     name: "Eudora Address Book",
     extensions: &["nnt"],
     media_types: &["text/plain"],

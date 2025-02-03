@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866166: FileFormat = FileFormat {
     id: 105_866_166,
-    puid: "wikidata/105866166",
+    source_type: SourceType::Wikidata,
     name: "Windows 98 passwords",
     extensions: &["pwl"],
     media_types: &[],

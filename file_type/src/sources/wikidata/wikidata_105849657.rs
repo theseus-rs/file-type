@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849657: FileFormat = FileFormat {
     id: 105_849_657,
-    puid: "wikidata/105849657",
+    source_type: SourceType::Wikidata,
     name: "Context Free design grammar",
     extensions: &["cfdg"],
     media_types: &[],

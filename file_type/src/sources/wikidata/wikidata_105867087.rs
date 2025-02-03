@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867087: FileFormat = FileFormat {
     id: 105_867_087,
-    puid: "wikidata/105867087",
+    source_type: SourceType::Wikidata,
     name: "Audacity Nyquist plug-in",
     extensions: &["ny"],
     media_types: &[],

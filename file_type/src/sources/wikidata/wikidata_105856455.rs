@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856455: FileFormat = FileFormat {
     id: 105_856_455,
-    puid: "wikidata/105856455",
+    source_type: SourceType::Wikidata,
     name: "Yokogawa waveform data",
     extensions: &["wvf"],
     media_types: &[],

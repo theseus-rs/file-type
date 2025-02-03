@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855074: FileFormat = FileFormat {
     id: 105_855_074,
-    puid: "wikidata/105855074",
+    source_type: SourceType::Wikidata,
     name: "Ashampoo Photo Commander Document",
     extensions: &["apcdoc"],
     media_types: &[],

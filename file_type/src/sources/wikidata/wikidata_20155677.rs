@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_20155677: FileFormat = FileFormat {
     id: 20_155_677,
-    puid: "wikidata/20155677",
+    source_type: SourceType::Wikidata,
     name: "WebAssembly",
     extensions: &["wasm", "wast"],
-    media_types: &["application/wasm", "application/wasm"],
+    media_types: &["application/wasm"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

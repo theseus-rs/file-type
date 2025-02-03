@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864241: FileFormat = FileFormat {
     id: 105_864_241,
-    puid: "wikidata/105864241",
+    source_type: SourceType::Wikidata,
     name: "Palm Quicksheet",
     extensions: &["pdb"],
     media_types: &[],

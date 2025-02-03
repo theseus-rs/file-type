@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_11137728069844962273: FileFormat = FileFormat {
-    id: 11_137_728_069_844_962_273,
-    puid: "httpd/11137728069844962273",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "yamaha smaf audio",
     extensions: &["saf"],
     media_types: &["application/vnd.yamaha.smaf-audio"],

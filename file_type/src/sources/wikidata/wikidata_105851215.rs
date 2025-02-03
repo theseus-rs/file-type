@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851215: FileFormat = FileFormat {
     id: 105_851_215,
-    puid: "wikidata/105851215",
+    source_type: SourceType::Wikidata,
     name: "TADS 3 Game",
     extensions: &["t", "t3"],
-    media_types: &["application/x-t3vm-image", "application/x-t3vm-image"],
+    media_types: &["application/x-t3vm-image"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

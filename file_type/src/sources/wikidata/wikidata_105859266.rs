@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859266: FileFormat = FileFormat {
     id: 105_859_266,
-    puid: "wikidata/105859266",
+    source_type: SourceType::Wikidata,
     name: "GTA: San Andreas save game (v2 PS2)",
     extensions: &["b"],
     media_types: &[],

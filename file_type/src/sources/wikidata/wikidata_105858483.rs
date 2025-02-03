@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858483: FileFormat = FileFormat {
     id: 105_858_483,
-    puid: "wikidata/105858483",
+    source_type: SourceType::Wikidata,
     name: "Sunplus Burn firmware update",
     extensions: &["brn"],
     media_types: &["application/octet-stream"],

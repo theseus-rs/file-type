@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_123353803: FileFormat = FileFormat {
     id: 123_353_803,
-    puid: "wikidata/123353803",
+    source_type: SourceType::Wikidata,
     name: "C2PA Manifest",
     extensions: &["c2pa"],
     media_types: &["application/x-c2pa-manifest-store"],

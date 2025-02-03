@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2047390379536670552: FileFormat = FileFormat {
-    id: 2_047_390_379_536_670_552,
-    puid: "httpd/2047390379536670552",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ms powerpoint presentation macroenabled 12",
     extensions: &["pptm"],
     media_types: &["application/vnd.ms-powerpoint.presentation.macroenabled.12"],

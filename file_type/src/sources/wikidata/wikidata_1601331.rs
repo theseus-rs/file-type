@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_1601331: FileFormat = FileFormat {
     id: 1_601_331,
-    puid: "wikidata/1601331",
+    source_type: SourceType::Wikidata,
     name: "Transport Neutral Encapsulation Format",
     extensions: &["dat", "tnef"],
-    media_types: &["application/vnd.ms-tnef", "application/vnd.ms-tnef"],
+    media_types: &["application/vnd.ms-tnef"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

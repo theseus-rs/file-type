@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_992198684389833801: FileFormat = FileFormat {
-    id: 992_198_684_389_833_801,
-    puid: "httpd/992198684389833801",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "pkixcmp",
     extensions: &["pki"],
     media_types: &["application/pkixcmp"],

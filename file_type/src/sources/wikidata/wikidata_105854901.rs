@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854901: FileFormat = FileFormat {
     id: 105_854_901,
-    puid: "wikidata/105854901",
+    source_type: SourceType::Wikidata,
     name: "Unpackaged Authorware 3 for Windows file",
     extensions: &["a3w"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_79241919: FileFormat = FileFormat {
     id: 79_241_919,
-    puid: "wikidata/79241919",
+    source_type: SourceType::Wikidata,
     name: "ASCII Color Format",
     extensions: &["acf"],
     media_types: &["text/plain"],

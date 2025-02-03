@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857881: FileFormat = FileFormat {
     id: 105_857_881,
-    puid: "wikidata/105857881",
+    source_type: SourceType::Wikidata,
     name: "MySQL Dictionary File (ISAM)",
     extensions: &["frm"],
     media_types: &[],

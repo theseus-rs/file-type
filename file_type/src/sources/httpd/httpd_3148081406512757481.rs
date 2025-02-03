@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3148081406512757481: FileFormat = FileFormat {
-    id: 3_148_081_406_512_757_481,
-    puid: "httpd/3148081406512757481",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "set registration initiation",
     extensions: &["setreg"],
     media_types: &["application/set-registration-initiation"],

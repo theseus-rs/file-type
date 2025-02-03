@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_26546575: FileFormat = FileFormat {
     id: 26_546_575,
-    puid: "wikidata/26546575",
+    source_type: SourceType::Wikidata,
     name: "Portable Document Format/Archive, version 2 Basic",
-    extensions: &["pdf", "pdf"],
-    media_types: &["application/pdf", "application/pdf"],
+    extensions: &["pdf"],
+    media_types: &["application/pdf"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

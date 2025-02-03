@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_125134354: FileFormat = FileFormat {
     id: 125_134_354,
-    puid: "wikidata/125134354",
+    source_type: SourceType::Wikidata,
     name: "YAM Folder Configuration",
     extensions: &["fconfig"],
     media_types: &[],

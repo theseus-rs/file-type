@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850936: FileFormat = FileFormat {
     id: 105_850_936,
-    puid: "wikidata/105850936",
+    source_type: SourceType::Wikidata,
     name: "Character Table Library",
     extensions: &["tlb"],
     media_types: &["application/octet-stream"],

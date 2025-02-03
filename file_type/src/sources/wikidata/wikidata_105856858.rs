@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856858: FileFormat = FileFormat {
     id: 105_856_858,
-    puid: "wikidata/105856858",
+    source_type: SourceType::Wikidata,
     name: "GeospaceW data",
     extensions: &["g3w"],
     media_types: &["application/vnd.geospace"],

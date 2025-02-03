@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10008482833353115188: FileFormat = FileFormat {
-    id: 10_008_482_833_353_115_188,
-    puid: "httpd/10008482833353115188",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "wolfram player",
     extensions: &["nbp"],
     media_types: &["application/vnd.wolfram.player"],

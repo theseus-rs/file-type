@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860248: FileFormat = FileFormat {
     id: 105_860_248,
-    puid: "wikidata/105860248",
+    source_type: SourceType::Wikidata,
     name: "Starcraft Replay",
     extensions: &["rep"],
     media_types: &[],

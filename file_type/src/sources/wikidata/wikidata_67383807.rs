@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_67383807: FileFormat = FileFormat {
     id: 67_383_807,
-    puid: "wikidata/67383807",
+    source_type: SourceType::Wikidata,
     name: "ASCII Header Format bitmap",
     extensions: &["ahf"],
     media_types: &[],

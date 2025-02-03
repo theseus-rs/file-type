@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851486: FileFormat = FileFormat {
     id: 105_851_486,
-    puid: "wikidata/105851486",
+    source_type: SourceType::Wikidata,
     name: "Elite Dangerous Trade Routes Data",
     extensions: &["trd"],
     media_types: &["text/xml"],

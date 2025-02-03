@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850623: FileFormat = FileFormat {
     id: 105_850_623,
-    puid: "wikidata/105850623",
+    source_type: SourceType::Wikidata,
     name: "Atari Control Panel applet",
     extensions: &["cpx"],
     media_types: &["application/octet-stream"],

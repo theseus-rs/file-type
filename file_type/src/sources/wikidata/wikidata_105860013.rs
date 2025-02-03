@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860013: FileFormat = FileFormat {
     id: 105_860_013,
-    puid: "wikidata/105860013",
+    source_type: SourceType::Wikidata,
     name: "VocalTec Media Descriptor",
     extensions: &["vmd"],
     media_types: &[],

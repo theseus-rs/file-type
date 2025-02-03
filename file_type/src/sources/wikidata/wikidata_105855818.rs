@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855818: FileFormat = FileFormat {
     id: 105_855_818,
-    puid: "wikidata/105855818",
+    source_type: SourceType::Wikidata,
     name: "Daintree SNA Capture File (v4)",
     extensions: &["dcf"],
     media_types: &["application/octet-stream"],

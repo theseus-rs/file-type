@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856056: FileFormat = FileFormat {
     id: 105_856_056,
-    puid: "wikidata/105856056",
+    source_type: SourceType::Wikidata,
     name: "Dynamix game data archive",
     extensions: &["dyn"],
     media_types: &["application/octet-stream"],

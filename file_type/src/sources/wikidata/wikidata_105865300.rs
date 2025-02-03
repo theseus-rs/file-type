@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865300: FileFormat = FileFormat {
     id: 105_865_300,
-    puid: "wikidata/105865300",
+    source_type: SourceType::Wikidata,
     name: "Portable Bridge Notation (v1.0)",
     extensions: &["pbn"],
     media_types: &["text/plain"],

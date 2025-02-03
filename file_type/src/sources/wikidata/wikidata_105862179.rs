@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862179: FileFormat = FileFormat {
     id: 105_862_179,
-    puid: "wikidata/105862179",
+    source_type: SourceType::Wikidata,
     name: "Multiple Sequence File (nucleic acid)",
     extensions: &["msf"],
     media_types: &["text/plain"],

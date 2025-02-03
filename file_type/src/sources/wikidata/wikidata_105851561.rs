@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851561: FileFormat = FileFormat {
     id: 105_851_561,
-    puid: "wikidata/105851561",
+    source_type: SourceType::Wikidata,
     name: "SACD multi-channel TOC",
     extensions: &["toc"],
     media_types: &["application/octet-stream"],

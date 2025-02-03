@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854431: FileFormat = FileFormat {
     id: 105_854_431,
-    puid: "wikidata/105854431",
+    source_type: SourceType::Wikidata,
     name: "AY Amadeus chiptune",
     extensions: &["amad"],
     media_types: &["application/octet-stream"],

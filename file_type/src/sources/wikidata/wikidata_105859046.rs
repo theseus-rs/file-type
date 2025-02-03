@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859046: FileFormat = FileFormat {
     id: 105_859_046,
-    puid: "wikidata/105859046",
+    source_type: SourceType::Wikidata,
     name: "GigaScreen bitmap",
     extensions: &["hlr"],
     media_types: &["application/octet-stream"],

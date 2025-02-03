@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_121450982: FileFormat = FileFormat {
     id: 121_450_982,
-    puid: "wikidata/121450982",
+    source_type: SourceType::Wikidata,
     name: "NTI CD Image",
     extensions: &["ncd"],
     media_types: &[],

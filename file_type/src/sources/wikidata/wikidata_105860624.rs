@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860624: FileFormat = FileFormat {
     id: 105_860_624,
-    puid: "wikidata/105860624",
+    source_type: SourceType::Wikidata,
     name: "Sony PlayStation Resource Container (generic)",
     extensions: &["rco"],
     media_types: &["application/octet-stream"],

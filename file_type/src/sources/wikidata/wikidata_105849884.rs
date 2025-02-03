@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849884: FileFormat = FileFormat {
     id: 105_849_884,
-    puid: "wikidata/105849884",
+    source_type: SourceType::Wikidata,
     name: "SRI PeakSimple chromatogram",
     extensions: &["chr"],
     media_types: &[],

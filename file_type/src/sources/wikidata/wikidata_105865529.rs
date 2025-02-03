@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865529: FileFormat = FileFormat {
     id: 105_865_529,
-    puid: "wikidata/105865529",
+    source_type: SourceType::Wikidata,
     name: "NeoPaint Printer Driver",
     extensions: &["prd"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861144: FileFormat = FileFormat {
     id: 105_861_144,
-    puid: "wikidata/105861144",
+    source_type: SourceType::Wikidata,
     name: "Liko-12 disk",
     extensions: &["lk12"],
     media_types: &["application/octet-stream"],

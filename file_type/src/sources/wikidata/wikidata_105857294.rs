@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857294: FileFormat = FileFormat {
     id: 105_857_294,
-    puid: "wikidata/105857294",
+    source_type: SourceType::Wikidata,
     name: "HEAD AFNI medical metadata",
     extensions: &["head"],
     media_types: &["application/octet-stream"],

@@ -1,16 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28600453: FileFormat = FileFormat {
     id: 28_600_453,
-    puid: "wikidata/28600453",
+    source_type: SourceType::Wikidata,
     name: "SQLite database file format",
     extensions: &["db", "db3", "sqlite", "sqlite3"],
-    media_types: &[
-        "application/vnd.sqlite3",
-        "application/vnd.sqlite3",
-        "application/vnd.sqlite3",
-        "application/vnd.sqlite3",
-    ],
+    media_types: &["application/vnd.sqlite3"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

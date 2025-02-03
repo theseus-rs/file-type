@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851618: FileFormat = FileFormat {
     id: 105_851_618,
-    puid: "wikidata/105851618",
+    source_type: SourceType::Wikidata,
     name: "STK Torque format",
     extensions: &["tq"],
     media_types: &["text/plain"],

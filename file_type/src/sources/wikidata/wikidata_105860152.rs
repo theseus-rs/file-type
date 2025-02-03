@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860152: FileFormat = FileFormat {
     id: 105_860_152,
-    puid: "wikidata/105860152",
+    source_type: SourceType::Wikidata,
     name: "RPG Maker VX Ace Project",
     extensions: &["rvproj2"],
     media_types: &[],

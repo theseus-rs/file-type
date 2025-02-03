@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27960028: FileFormat = FileFormat {
     id: 27_960_028,
-    puid: "wikidata/27960028",
+    source_type: SourceType::Wikidata,
     name: "VocPack",
     extensions: &["vp"],
     media_types: &["application/octet-stream"],

@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858760: FileFormat = FileFormat {
     id: 105_858_760,
-    puid: "wikidata/105858760",
+    source_type: SourceType::Wikidata,
     name: "HP ASII GROB bitmap",
     extensions: &["asc", "grb", "gro"],
-    media_types: &["text/plain", "text/plain", "text/plain"],
+    media_types: &["text/plain"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

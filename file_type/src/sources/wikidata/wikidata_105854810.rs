@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854810: FileFormat = FileFormat {
     id: 105_854_810,
-    puid: "wikidata/105854810",
+    source_type: SourceType::Wikidata,
     name: "Windows Policy Administrative Template (with rem)",
     extensions: &["adm"],
     media_types: &[],

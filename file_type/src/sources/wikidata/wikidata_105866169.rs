@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866169: FileFormat = FileFormat {
     id: 105_866_169,
-    puid: "wikidata/105866169",
+    source_type: SourceType::Wikidata,
     name: "PlayStation Patch File (generic)",
     extensions: &["ppf"],
     media_types: &[],

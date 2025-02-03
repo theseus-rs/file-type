@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858382: FileFormat = FileFormat {
     id: 105_858_382,
-    puid: "wikidata/105858382",
+    source_type: SourceType::Wikidata,
     name: "HyperVision EMF ASCII Format",
     extensions: &["emf"],
     media_types: &["text/plain"],

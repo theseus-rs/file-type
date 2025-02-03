@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_130240656: FileFormat = FileFormat {
     id: 130_240_656,
-    puid: "wikidata/130240656",
+    source_type: SourceType::Wikidata,
     name: "Literate Cryptol source code file",
     extensions: &["lcry"],
     media_types: &["text/x-literate-cryptol"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10354148540362929487: FileFormat = FileFormat {
-    id: 10_354_148_540_362_929_487,
-    puid: "httpd/10354148540362929487",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "curl car",
     extensions: &["car"],
     media_types: &["application/vnd.curl.car"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863958: FileFormat = FileFormat {
     id: 105_863_958,
-    puid: "wikidata/105863958",
+    source_type: SourceType::Wikidata,
     name: "MySQL Workbench model archive",
     extensions: &["mwb"],
     media_types: &["application/octet-stream"],

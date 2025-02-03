@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861954: FileFormat = FileFormat {
     id: 105_861_954,
-    puid: "wikidata/105861954",
+    source_type: SourceType::Wikidata,
     name: "MEMU Floppy image",
     extensions: &["mfloppy"],
     media_types: &["application/octet-stream"],

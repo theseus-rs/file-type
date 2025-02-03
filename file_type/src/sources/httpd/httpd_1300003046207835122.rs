@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_1300003046207835122: FileFormat = FileFormat {
-    id: 1_300_003_046_207_835_122,
-    puid: "httpd/1300003046207835122",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "novadigm edx",
     extensions: &["edx"],
     media_types: &["application/vnd.novadigm.edx"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851288: FileFormat = FileFormat {
     id: 105_851_288,
-    puid: "wikidata/105851288",
+    source_type: SourceType::Wikidata,
     name: "Tempus Word Document (old)",
     extensions: &["twd"],
     media_types: &["application/octet-stream"],

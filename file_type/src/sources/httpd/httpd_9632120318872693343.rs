@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_9632120318872693343: FileFormat = FileFormat {
-    id: 9_632_120_318_872_693_343,
-    puid: "httpd/9632120318872693343",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "dece audio",
     extensions: &["uva", "uvva"],
     media_types: &["audio/vnd.dece.audio"],

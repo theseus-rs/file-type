@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_50376380: FileFormat = FileFormat {
     id: 50_376_380,
-    puid: "wikidata/50376380",
+    source_type: SourceType::Wikidata,
     name: "TZX Format",
     extensions: &["cdt", "tzx"],
-    media_types: &["application/x-spectrum-tzx", "application/x-spectrum-tzx"],
+    media_types: &["application/x-spectrum-tzx"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857646: FileFormat = FileFormat {
     id: 105_857_646,
-    puid: "wikidata/105857646",
+    source_type: SourceType::Wikidata,
     name: "KISSSlicer style profile",
     extensions: &["ini"],
     media_types: &["text/ini"],

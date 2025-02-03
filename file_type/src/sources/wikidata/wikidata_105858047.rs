@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858047: FileFormat = FileFormat {
     id: 105_858_047,
-    puid: "wikidata/105858047",
+    source_type: SourceType::Wikidata,
     name: "Outlook 97 and 2000 E-mail Account Settings",
     extensions: &["iaf"],
     media_types: &[],

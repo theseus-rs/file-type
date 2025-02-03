@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850769: FileFormat = FileFormat {
     id: 105_850_769,
-    puid: "wikidata/105850769",
+    source_type: SourceType::Wikidata,
     name: "Kinemage protein language",
     extensions: &["kin"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858874: FileFormat = FileFormat {
     id: 105_858_874,
-    puid: "wikidata/105858874",
+    source_type: SourceType::Wikidata,
     name: "Lepton bitmap (zlib compressed)",
     extensions: &["lep"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864644: FileFormat = FileFormat {
     id: 105_864_644,
-    puid: "wikidata/105864644",
+    source_type: SourceType::Wikidata,
     name: "NeoPaint Palette",
     extensions: &["pat"],
     media_types: &["application/octet-stream"],

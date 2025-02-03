@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862240: FileFormat = FileFormat {
     id: 105_862_240,
-    puid: "wikidata/105862240",
+    source_type: SourceType::Wikidata,
     name: "MetaTrader indicator",
     extensions: &["mql"],
     media_types: &[],

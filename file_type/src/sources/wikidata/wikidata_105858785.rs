@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858785: FileFormat = FileFormat {
     id: 105_858_785,
-    puid: "wikidata/105858785",
+    source_type: SourceType::Wikidata,
     name: "BlockHashLoc recovery info",
     extensions: &["bhl"],
     media_types: &["application/octet-stream"],

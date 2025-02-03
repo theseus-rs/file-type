@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855623: FileFormat = FileFormat {
     id: 105_855_623,
-    puid: "wikidata/105855623",
+    source_type: SourceType::Wikidata,
     name: "OpenMRS Module",
     extensions: &["omod"],
     media_types: &[],

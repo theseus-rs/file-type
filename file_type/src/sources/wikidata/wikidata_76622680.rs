@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_76622680: FileFormat = FileFormat {
     id: 76_622_680,
-    puid: "wikidata/76622680",
+    source_type: SourceType::Wikidata,
     name: "Turboprint Wizard",
     extensions: &["wizard"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852404: FileFormat = FileFormat {
     id: 105_852_404,
-    puid: "wikidata/105852404",
+    source_type: SourceType::Wikidata,
     name: "Skype Extra",
     extensions: &["sparc"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859713: FileFormat = FileFormat {
     id: 105_859_713,
-    puid: "wikidata/105859713",
+    source_type: SourceType::Wikidata,
     name: "X86 Delta Compiler Video",
     extensions: &["xdv"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851873: FileFormat = FileFormat {
     id: 105_851_873,
-    puid: "wikidata/105851873",
+    source_type: SourceType::Wikidata,
     name: "GNU TeXmacs Scheme",
     extensions: &["stm"],
     media_types: &["text/plain"],

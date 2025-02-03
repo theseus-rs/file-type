@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853755: FileFormat = FileFormat {
     id: 105_853_755,
-    puid: "wikidata/105853755",
+    source_type: SourceType::Wikidata,
     name: "SQLite Archive compressed",
     extensions: &["sqlar"],
     media_types: &["application/x-sqlite3"],

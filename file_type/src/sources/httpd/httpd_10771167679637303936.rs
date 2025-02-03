@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10771167679637303936: FileFormat = FileFormat {
-    id: 10_771_167_679_637_303_936,
-    puid: "httpd/10771167679637303936",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "yamaha hv dic",
     extensions: &["hvd"],
     media_types: &["application/vnd.yamaha.hv-dic"],

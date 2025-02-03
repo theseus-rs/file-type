@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_829207807: FileFormat = FileFormat {
     id: 829_207_807,
-    puid: "linguist/829207807",
+    source_type: SourceType::Linguist,
     name: "CameLIGO",
     extensions: &["mligo"],
     media_types: &["text/x-ocaml"],

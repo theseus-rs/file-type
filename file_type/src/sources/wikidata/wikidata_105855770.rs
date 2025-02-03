@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855770: FileFormat = FileFormat {
     id: 105_855_770,
-    puid: "wikidata/105855770",
+    source_type: SourceType::Wikidata,
     name: "DAX compressed CD image",
     extensions: &["dax"],
     media_types: &[],

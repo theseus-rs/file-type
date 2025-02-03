@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_174: FileFormat = FileFormat {
     id: 174,
-    puid: "linguist/174",
+    source_type: SourceType::Linguist,
     name: "JSON",
     extensions: &[
         "4DForm",

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854191: FileFormat = FileFormat {
     id: 105_854_191,
-    puid: "wikidata/105854191",
+    source_type: SourceType::Wikidata,
     name: "ARB Fragment shader",
     extensions: &["arb"],
     media_types: &["text/plain"],

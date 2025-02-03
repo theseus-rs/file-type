@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864782: FileFormat = FileFormat {
     id: 105_864_782,
-    puid: "wikidata/105864782",
+    source_type: SourceType::Wikidata,
     name: "No Man's Sky game data",
     extensions: &["pak"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852956: FileFormat = FileFormat {
     id: 105_852_956,
-    puid: "wikidata/105852956",
+    source_type: SourceType::Wikidata,
     name: "Lotus ScreenCam Caption Script",
     extensions: &["scs"],
     media_types: &["application/octet-stream"],

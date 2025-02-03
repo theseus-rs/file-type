@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851282: FileFormat = FileFormat {
     id: 105_851_282,
-    puid: "wikidata/105851282",
+    source_type: SourceType::Wikidata,
     name: "Terragen Clip",
     extensions: &["tgc"],
     media_types: &[],

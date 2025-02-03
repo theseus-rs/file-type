@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861695: FileFormat = FileFormat {
     id: 105_861_695,
-    puid: "wikidata/105861695",
+    source_type: SourceType::Wikidata,
     name: "Motus MachFive Preset",
     extensions: &["m5p"],
     media_types: &["application/octet-stream"],

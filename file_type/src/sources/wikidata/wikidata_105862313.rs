@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862313: FileFormat = FileFormat {
     id: 105_862_313,
-    puid: "wikidata/105862313",
+    source_type: SourceType::Wikidata,
     name: "Mozilla Firefox browser extension",
     extensions: &["xpi"],
     media_types: &["application/x-xpinstall"],

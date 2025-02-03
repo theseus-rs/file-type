@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862869: FileFormat = FileFormat {
     id: 105_862_869,
-    puid: "wikidata/105862869",
+    source_type: SourceType::Wikidata,
     name: "Simulink Model",
     extensions: &["mdl"],
     media_types: &["text/plain"],

@@ -1,14 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865839: FileFormat = FileFormat {
     id: 105_865_839,
-    puid: "wikidata/105865839",
+    source_type: SourceType::Wikidata,
     name: "Mobipocket - PRC Palm e-Book",
     extensions: &["mobi", "prc"],
-    media_types: &[
-        "application/x-mobipocket-ebook",
-        "application/x-mobipocket-ebook",
-    ],
+    media_types: &["application/x-mobipocket-ebook"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

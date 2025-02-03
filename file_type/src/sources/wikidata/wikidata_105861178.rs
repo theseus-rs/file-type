@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861178: FileFormat = FileFormat {
     id: 105_861_178,
-    puid: "wikidata/105861178",
+    source_type: SourceType::Wikidata,
     name: "PGE Extendable Level",
     extensions: &["lvlx"],
     media_types: &["text/plain"],

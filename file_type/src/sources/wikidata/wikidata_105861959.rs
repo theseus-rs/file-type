@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861959: FileFormat = FileFormat {
     id: 105_861_959,
-    puid: "wikidata/105861959",
+    source_type: SourceType::Wikidata,
     name: "Bochs keymap",
     extensions: &["map"],
     media_types: &["text/plain"],

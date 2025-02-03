@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2981768161253577861: FileFormat = FileFormat {
-    id: 2_981_768_161_253_577_861,
-    puid: "httpd/2981768161253577861",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "java archive",
     extensions: &["jar"],
     media_types: &["application/java-archive"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864209: FileFormat = FileFormat {
     id: 105_864_209,
-    puid: "wikidata/105864209",
+    source_type: SourceType::Wikidata,
     name: "Panasonic SD Voice Editor file",
     extensions: &["plm"],
     media_types: &[],

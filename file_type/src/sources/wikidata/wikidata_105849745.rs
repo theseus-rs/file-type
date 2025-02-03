@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849745: FileFormat = FileFormat {
     id: 105_849_745,
-    puid: "wikidata/105849745",
+    source_type: SourceType::Wikidata,
     name: "Atari Cartridge",
     extensions: &["car"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858923: FileFormat = FileFormat {
     id: 105_858_923,
-    puid: "wikidata/105858923",
+    source_type: SourceType::Wikidata,
     name: "Buzzic 2 module",
     extensions: &["buz2"],
     media_types: &["audio/x-mod"],

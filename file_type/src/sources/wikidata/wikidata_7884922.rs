@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_7884922: FileFormat = FileFormat {
     id: 7_884_922,
-    puid: "wikidata/7884922",
+    source_type: SourceType::Wikidata,
     name: "Unified Emulator Format",
     extensions: &["uef"],
     media_types: &["application/octet-stream"],

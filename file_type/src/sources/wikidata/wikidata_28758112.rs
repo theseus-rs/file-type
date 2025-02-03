@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28758112: FileFormat = FileFormat {
     id: 28_758_112,
-    puid: "wikidata/28758112",
+    source_type: SourceType::Wikidata,
     name: "Internet Explorer history file",
     extensions: &["dat"],
     media_types: &[],

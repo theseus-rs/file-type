@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849782: FileFormat = FileFormat {
     id: 105_849_782,
-    puid: "wikidata/105849782",
+    source_type: SourceType::Wikidata,
     name: "Circuit Diagram Document",
     extensions: &["cddx"],
     media_types: &[],

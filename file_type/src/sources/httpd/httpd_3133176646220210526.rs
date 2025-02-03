@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3133176646220210526: FileFormat = FileFormat {
-    id: 3_133_176_646_220_210_526,
-    puid: "httpd/3133176646220210526",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "hydrostatix sof data",
     extensions: &["sfd-hdstx"],
     media_types: &["application/vnd.hydrostatix.sof-data"],

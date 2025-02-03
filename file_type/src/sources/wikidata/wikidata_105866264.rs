@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866264: FileFormat = FileFormat {
     id: 105_866_264,
-    puid: "wikidata/105866264",
+    source_type: SourceType::Wikidata,
     name: "Portable Password Depot XML data",
     extensions: &["pswx"],
     media_types: &[],

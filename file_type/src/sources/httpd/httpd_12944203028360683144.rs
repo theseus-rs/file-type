@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_12944203028360683144: FileFormat = FileFormat {
-    id: 12_944_203_028_360_683_144,
-    puid: "httpd/12944203028360683144",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ms wpl",
     extensions: &["wpl"],
     media_types: &["application/vnd.ms-wpl"],

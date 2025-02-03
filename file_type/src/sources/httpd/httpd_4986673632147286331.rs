@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_4986673632147286331: FileFormat = FileFormat {
-    id: 4_986_673_632_147_286_331,
-    puid: "httpd/4986673632147286331",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ahead space",
     extensions: &["ahead"],
     media_types: &["application/vnd.ahead.space"],

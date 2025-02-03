@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860306: FileFormat = FileFormat {
     id: 105_860_306,
-    puid: "wikidata/105860306",
+    source_type: SourceType::Wikidata,
     name: "Golly Extended RLE",
     extensions: &["rle"],
     media_types: &["text/plain"],

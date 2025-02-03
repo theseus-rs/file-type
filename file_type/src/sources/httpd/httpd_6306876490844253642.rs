@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6306876490844253642: FileFormat = FileFormat {
-    id: 6_306_876_490_844_253_642,
-    puid: "httpd/6306876490844253642",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "calendar",
     extensions: &["ics", "ifb"],
     media_types: &["text/calendar"],

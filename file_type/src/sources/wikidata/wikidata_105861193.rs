@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861193: FileFormat = FileFormat {
     id: 105_861_193,
-    puid: "wikidata/105861193",
+    source_type: SourceType::Wikidata,
     name: "Levelogger Software Data",
     extensions: &["lev"],
     media_types: &["text/plain"],

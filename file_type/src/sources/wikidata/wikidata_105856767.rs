@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856767: FileFormat = FileFormat {
     id: 105_856_767,
-    puid: "wikidata/105856767",
+    source_type: SourceType::Wikidata,
     name: "Dragon UnPACKer HTML Template",
     extensions: &["uht"],
     media_types: &["application/octet-stream"],

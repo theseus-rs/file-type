@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206135: FileFormat = FileFormat {
     id: 28_206_135,
-    puid: "wikidata/28206135",
+    source_type: SourceType::Wikidata,
     name: "Fractint FRA",
     extensions: &["fra"],
     media_types: &["application/octet-stream"],

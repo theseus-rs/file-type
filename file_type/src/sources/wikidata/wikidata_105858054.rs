@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858054: FileFormat = FileFormat {
     id: 105_858_054,
-    puid: "wikidata/105858054",
+    source_type: SourceType::Wikidata,
     name: "Vuforia QCAR Info",
     extensions: &["info"],
     media_types: &["text/xml"],

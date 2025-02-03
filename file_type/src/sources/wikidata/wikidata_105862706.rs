@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862706: FileFormat = FileFormat {
     id: 105_862_706,
-    puid: "wikidata/105862706",
+    source_type: SourceType::Wikidata,
     name: "Fantavision Movie (v1.00 MS-DOS)",
     extensions: &["mve"],
     media_types: &["application/octet-stream"],

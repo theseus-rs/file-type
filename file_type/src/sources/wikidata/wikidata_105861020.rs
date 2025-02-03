@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861020: FileFormat = FileFormat {
     id: 105_861_020,
-    puid: "wikidata/105861020",
+    source_type: SourceType::Wikidata,
     name: "Crimson Fields Level data",
     extensions: &["lev"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855294: FileFormat = FileFormat {
     id: 105_855_294,
-    puid: "wikidata/105855294",
+    source_type: SourceType::Wikidata,
     name: "Runes of Magic game data archive",
     extensions: &["fdb"],
     media_types: &["application/octet-stream"],

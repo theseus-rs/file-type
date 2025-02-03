@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10548945477827165241: FileFormat = FileFormat {
-    id: 10_548_945_477_827_165_241,
-    puid: "httpd/10548945477827165241",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "sus calendar",
     extensions: &["sus", "susp"],
     media_types: &["application/vnd.sus-calendar"],

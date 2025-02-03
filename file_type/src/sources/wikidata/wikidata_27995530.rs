@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27995530: FileFormat = FileFormat {
     id: 27_995_530,
-    puid: "wikidata/27995530",
+    source_type: SourceType::Wikidata,
     name: "Electronic Arts BIG Archive",
     extensions: &["big", "viv"],
     media_types: &[],

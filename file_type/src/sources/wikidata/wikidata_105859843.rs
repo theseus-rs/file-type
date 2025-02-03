@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859843: FileFormat = FileFormat {
     id: 105_859_843,
-    puid: "wikidata/105859843",
+    source_type: SourceType::Wikidata,
     name: "SlickEdit project",
     extensions: &["vpj"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855703: FileFormat = FileFormat {
     id: 105_855_703,
-    puid: "wikidata/105855703",
+    source_type: SourceType::Wikidata,
     name: "OmniRush eXtended Package",
     extensions: &["oxp"],
     media_types: &["text/xml"],

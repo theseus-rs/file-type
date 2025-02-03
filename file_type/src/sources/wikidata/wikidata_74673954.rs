@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_74673954: FileFormat = FileFormat {
     id: 74_673_954,
-    puid: "wikidata/74673954",
+    source_type: SourceType::Wikidata,
     name: "TurboTax return file",
     extensions: &["tax"],
     media_types: &[],

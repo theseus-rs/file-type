@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_131545359: FileFormat = FileFormat {
     id: 131_545_359,
-    puid: "wikidata/131545359",
+    source_type: SourceType::Wikidata,
     name: "Cloud Optimized Point Cloud file",
     extensions: &["copc"],
     media_types: &[],

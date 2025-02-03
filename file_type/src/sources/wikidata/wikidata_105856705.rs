@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856705: FileFormat = FileFormat {
     id: 105_856_705,
-    puid: "wikidata/105856705",
+    source_type: SourceType::Wikidata,
     name: "Universal Voxel format",
     extensions: &["uvox"],
     media_types: &["application/octet-stream"],

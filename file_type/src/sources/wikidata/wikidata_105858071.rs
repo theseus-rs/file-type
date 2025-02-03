@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858071: FileFormat = FileFormat {
     id: 105_858_071,
-    puid: "wikidata/105858071",
+    source_type: SourceType::Wikidata,
     name: "Lhwarp compressed disk image",
     extensions: &["lhw"],
     media_types: &["application/octet-stream"],

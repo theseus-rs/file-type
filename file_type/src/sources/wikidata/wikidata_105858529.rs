@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858529: FileFormat = FileFormat {
     id: 105_858_529,
-    puid: "wikidata/105858529",
+    source_type: SourceType::Wikidata,
     name: "CloudCompare BIN V2 format",
     extensions: &["bin"],
     media_types: &["application/octet-stream"],

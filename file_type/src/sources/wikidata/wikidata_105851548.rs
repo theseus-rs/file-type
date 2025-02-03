@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851548: FileFormat = FileFormat {
     id: 105_851_548,
-    puid: "wikidata/105851548",
+    source_type: SourceType::Wikidata,
     name: "THE SPREADSHEET worksheet",
     extensions: &["ts1"],
     media_types: &["application/octet-stream"],

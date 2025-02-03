@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854551: FileFormat = FileFormat {
     id: 105_854_551,
-    puid: "wikidata/105854551",
+    source_type: SourceType::Wikidata,
     name: "AutoREALM Map",
     extensions: &["aur"],
     media_types: &[],

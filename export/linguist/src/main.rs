@@ -4,7 +4,7 @@
 #![deny(clippy::unwrap_used)]
 
 use anyhow::Result;
-use file_type::format::{FileFormat, Source};
+use file_type::format::{FileFormat, Source, SourceType};
 use reqwest::Client;
 use serde_json::Value;
 use std::env;
@@ -128,7 +128,6 @@ fn process_languages(languages: Vec<Language>) -> Vec<FileFormat> {
     let mut file_formats = Vec::new();
 
     for language in languages {
-        let puid = format!("linguist/{}", language.id);
         let extensions = &language.extensions;
         let extensions = extensions
             .iter()
@@ -152,7 +151,7 @@ fn process_languages(languages: Vec<Language>) -> Vec<FileFormat> {
 
         let file_format = FileFormat {
             id: language.id,
-            puid: Box::leak(puid.into_boxed_str()),
+            source_type: SourceType::Linguist,
             name: Box::leak(language.name.into_boxed_str()),
             extensions: Box::leak(extensions.into_boxed_slice()),
             media_types: Box::leak(media_types.into_boxed_slice()),
@@ -172,13 +171,13 @@ async fn generate_source_code(
     // Generate the module file
     let mut source_code = vec!["use crate::format::FileFormat;".to_string(), String::new()];
     for file_format in file_formats {
-        let name = file_format.puid.replace('/', "_");
+        let name = format!("linguist_{}", file_format.id);
         source_code.push(format!("mod {name};"));
     }
     source_code.push(String::new());
     source_code.push("pub(crate) const FILE_FORMATS: &[&FileFormat] = &[".to_string());
     for file_format in file_formats {
-        let name = file_format.puid.replace('/', "_");
+        let name = format!("linguist_{}", file_format.id);
         source_code.push(format!("    &{}::{},", name, name.to_uppercase()));
     }
     source_code.push("];".to_string());
@@ -196,9 +195,9 @@ async fn generate_source_code(
 
     // Generate source files for each file format
     for file_format in file_formats {
-        let name = file_format.puid.replace('/', "_");
+        let name = format!("linguist_{}", file_format.id);
         let source_code = [
-            "use crate::format::FileFormat;".to_string(),
+            "use crate::format::{FileFormat, SourceType};".to_string(),
             String::new(),
             format!(
                 "pub(crate) const {}: FileFormat = {};",

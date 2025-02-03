@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858294: FileFormat = FileFormat {
     id: 105_858_294,
-    puid: "wikidata/105858294",
+    source_type: SourceType::Wikidata,
     name: "Vista Event Log",
     extensions: &["evtx"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867083: FileFormat = FileFormat {
     id: 105_867_083,
-    puid: "wikidata/105867083",
+    source_type: SourceType::Wikidata,
     name: "FreePCB Netlist",
     extensions: &["net"],
     media_types: &["application/octet-stream"],

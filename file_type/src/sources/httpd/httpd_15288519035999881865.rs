@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_15288519035999881865: FileFormat = FileFormat {
-    id: 15_288_519_035_999_881_865,
-    puid: "httpd/15288519035999881865",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "omdoc xml",
     extensions: &["omdoc"],
     media_types: &["application/omdoc+xml"],

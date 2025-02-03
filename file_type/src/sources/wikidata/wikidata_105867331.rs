@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867331: FileFormat = FileFormat {
     id: 105_867_331,
-    puid: "wikidata/105867331",
+    source_type: SourceType::Wikidata,
     name: "NanoZoomer Annotation",
     extensions: &["ndpa"],
     media_types: &["text/xml"],

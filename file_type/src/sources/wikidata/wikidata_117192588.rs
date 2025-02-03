@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_117192588: FileFormat = FileFormat {
     id: 117_192_588,
-    puid: "wikidata/117192588",
+    source_type: SourceType::Wikidata,
     name: "Photoshop PDF",
     extensions: &["pdf", "pdp"],
     media_types: &[],

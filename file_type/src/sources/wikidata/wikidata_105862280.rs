@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862280: FileFormat = FileFormat {
     id: 105_862_280,
-    puid: "wikidata/105862280",
+    source_type: SourceType::Wikidata,
     name: "Doom 3 MD5 Mesh",
     extensions: &["md5mesh"],
     media_types: &["application/octet-stream"],

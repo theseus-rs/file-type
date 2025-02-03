@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859793: FileFormat = FileFormat {
     id: 105_859_793,
-    puid: "wikidata/105859793",
+    source_type: SourceType::Wikidata,
     name: "Vizact 2000 Wizard",
     extensions: &["vzw"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860268: FileFormat = FileFormat {
     id: 105_860_268,
-    puid: "wikidata/105860268",
+    source_type: SourceType::Wikidata,
     name: "RadCore Cement Format game data archive",
     extensions: &["rcf"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861014: FileFormat = FileFormat {
     id: 105_861_014,
-    puid: "wikidata/105861014",
+    source_type: SourceType::Wikidata,
     name: "LD Linker Script (with rem)",
     extensions: &["lds"],
     media_types: &["text/plain"],

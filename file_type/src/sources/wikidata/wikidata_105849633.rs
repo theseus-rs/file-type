@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849633: FileFormat = FileFormat {
     id: 105_849_633,
-    puid: "wikidata/105849633",
+    source_type: SourceType::Wikidata,
     name: "Aladdin 4D Spline",
     extensions: &["csp"],
     media_types: &["application/octet-stream"],

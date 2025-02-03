@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850135: FileFormat = FileFormat {
     id: 105_850_135,
-    puid: "wikidata/105850135",
+    source_type: SourceType::Wikidata,
     name: "Flare3D Shader Language Compiled",
     extensions: &["compiled"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867646: FileFormat = FileFormat {
     id: 105_867_646,
-    puid: "wikidata/105867646",
+    source_type: SourceType::Wikidata,
     name: "NuGet Package",
     extensions: &["nupkg"],
     media_types: &["application/octet-stream"],

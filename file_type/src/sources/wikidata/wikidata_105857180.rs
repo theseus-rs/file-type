@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857180: FileFormat = FileFormat {
     id: 105_857_180,
-    puid: "wikidata/105857180",
+    source_type: SourceType::Wikidata,
     name: "HyperTuner Skin",
     extensions: &["hts"],
     media_types: &["application/octet-stream"],

@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858161: FileFormat = FileFormat {
     id: 105_858_161,
-    puid: "wikidata/105858161",
+    source_type: SourceType::Wikidata,
     name: "Casio Graph100 ROMDISK image",
     extensions: &["cdr", "lec"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

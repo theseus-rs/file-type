@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863610: FileFormat = FileFormat {
     id: 105_863_610,
-    puid: "wikidata/105863610",
+    source_type: SourceType::Wikidata,
     name: "Martin Fernandez Ad Lib module",
     extensions: &["adlib"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858327: FileFormat = FileFormat {
     id: 105_858_327,
-    puid: "wikidata/105858327",
+    source_type: SourceType::Wikidata,
     name: "Digital Trainer Encrypted Score file",
     extensions: &["edf"],
     media_types: &[],

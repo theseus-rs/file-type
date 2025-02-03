@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849681: FileFormat = FileFormat {
     id: 105_849_681,
-    puid: "wikidata/105849681",
+    source_type: SourceType::Wikidata,
     name: "Hatari Configuration",
     extensions: &["cfg"],
     media_types: &["text/ini"],

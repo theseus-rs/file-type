@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852021: FileFormat = FileFormat {
     id: 105_852_021,
-    puid: "wikidata/105852021",
+    source_type: SourceType::Wikidata,
     name: "SuperCollider Class",
-    extensions: &["sc", "sc", "sc"],
+    extensions: &["sc"],
     media_types: &[
         "application/supercollider",
         "text/plain",

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3675306534347999425: FileFormat = FileFormat {
-    id: 3_675_306_534_347_999_425,
-    puid: "httpd/3675306534347999425",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mynfc",
     extensions: &["taglet"],
     media_types: &["application/vnd.mynfc"],

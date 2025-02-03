@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_404627610: FileFormat = FileFormat {
     id: 404_627_610,
-    puid: "linguist/404627610",
+    source_type: SourceType::Linguist,
     name: "Gerber Image",
     extensions: &[
         "cmp", "gbl", "gbo", "gbp", "gbr", "gbs", "gko", "gml", "gpb", "gpt", "gtl", "gto", "gtp",

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855914: FileFormat = FileFormat {
     id: 105_855_914,
-    puid: "wikidata/105855914",
+    source_type: SourceType::Wikidata,
     name: "DFF format (v2.0, BE)",
     extensions: &["dff"],
     media_types: &["application/octet-stream"],

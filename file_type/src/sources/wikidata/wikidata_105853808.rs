@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853808: FileFormat = FileFormat {
     id: 105_853_808,
-    puid: "wikidata/105853808",
+    source_type: SourceType::Wikidata,
     name: "AutoIt v3 compiled script",
     extensions: &["a3x"],
     media_types: &["application/octet-stream"],

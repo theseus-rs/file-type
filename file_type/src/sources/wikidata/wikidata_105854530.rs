@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854530: FileFormat = FileFormat {
     id: 105_854_530,
-    puid: "wikidata/105854530",
+    source_type: SourceType::Wikidata,
     name: "LTSpice Circuit Schematic",
     extensions: &["asc"],
     media_types: &[],

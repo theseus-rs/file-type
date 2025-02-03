@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_73794364: FileFormat = FileFormat {
     id: 73_794_364,
-    puid: "wikidata/73794364",
+    source_type: SourceType::Wikidata,
     name: "QGIS Composer Template",
     extensions: &["qpt"],
     media_types: &["text/xml"],

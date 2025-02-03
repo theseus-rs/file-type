@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850868: FileFormat = FileFormat {
     id: 105_850_868,
-    puid: "wikidata/105850868",
+    source_type: SourceType::Wikidata,
     name: "KSSX music format dump",
     extensions: &["kss"],
     media_types: &["application/octet-stream"],

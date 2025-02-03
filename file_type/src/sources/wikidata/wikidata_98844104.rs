@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_98844104: FileFormat = FileFormat {
     id: 98_844_104,
-    puid: "wikidata/98844104",
+    source_type: SourceType::Wikidata,
     name: "Grasshopper custom Layout",
     extensions: &["GHLAYOUT"],
     media_types: &[],

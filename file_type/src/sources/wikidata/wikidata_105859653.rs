@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859653: FileFormat = FileFormat {
     id: 105_859_653,
-    puid: "wikidata/105859653",
+    source_type: SourceType::Wikidata,
     name: "Reaper video",
     extensions: &["fmv"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862290: FileFormat = FileFormat {
     id: 105_862_290,
-    puid: "wikidata/105862290",
+    source_type: SourceType::Wikidata,
     name: "Windows SDK Setup Transform script",
     extensions: &["mst"],
     media_types: &["application/x-ms-mst"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6257513896690260698: FileFormat = FileFormat {
-    id: 6_257_513_896_690_260_698,
-    puid: "httpd/6257513896690260698",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "authorware map",
     extensions: &["aam"],
     media_types: &["application/x-authorware-map"],

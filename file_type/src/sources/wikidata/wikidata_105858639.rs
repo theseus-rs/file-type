@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858639: FileFormat = FileFormat {
     id: 105_858_639,
-    puid: "wikidata/105858639",
+    source_type: SourceType::Wikidata,
     name: "Award BIOS logo bitmap (v2)",
     extensions: &["bmp", "epa"],
-    media_types: &["image/x-award-bioslogo2", "image/x-award-bioslogo2"],
+    media_types: &["image/x-award-bioslogo2"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205479: FileFormat = FileFormat {
     id: 28_205_479,
-    puid: "wikidata/28205479",
+    source_type: SourceType::Wikidata,
     name: "Amiga Workbench icon",
     extensions: &["info"],
     media_types: &[],

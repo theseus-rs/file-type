@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_283579: FileFormat = FileFormat {
     id: 283_579,
-    puid: "wikidata/283579",
+    source_type: SourceType::Wikidata,
     name: "tar",
     extensions: &["tar"],
     media_types: &["application/x-tar"],

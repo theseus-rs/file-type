@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858450: FileFormat = FileFormat {
     id: 105_858_450,
-    puid: "wikidata/105858450",
+    source_type: SourceType::Wikidata,
     name: "e-Szigno signed document",
     extensions: &["es3"],
     media_types: &["text/xml"],

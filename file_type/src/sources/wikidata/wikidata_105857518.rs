@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857518: FileFormat = FileFormat {
     id: 105_857_518,
-    puid: "wikidata/105857518",
+    source_type: SourceType::Wikidata,
     name: "A2R disk image (v2)",
     extensions: &["a2r"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854372: FileFormat = FileFormat {
     id: 105_854_372,
-    puid: "wikidata/105854372",
+    source_type: SourceType::Wikidata,
     name: "Audials One Wishlist",
     extensions: &["a1wish"],
     media_types: &[],

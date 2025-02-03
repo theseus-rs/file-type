@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853077: FileFormat = FileFormat {
     id: 105_853_077,
-    puid: "wikidata/105853077",
+    source_type: SourceType::Wikidata,
     name: "phpMyAdmin SQL dump",
     extensions: &["sql"],
     media_types: &[],

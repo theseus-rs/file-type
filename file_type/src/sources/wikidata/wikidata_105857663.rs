@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857663: FileFormat = FileFormat {
     id: 105_857_663,
-    puid: "wikidata/105857663",
+    source_type: SourceType::Wikidata,
     name: "The Duplicator Toolkit disk image",
     extensions: &["img"],
     media_types: &["application/octet-stream"],

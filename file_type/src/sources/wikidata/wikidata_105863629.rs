@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863629: FileFormat = FileFormat {
     id: 105_863_629,
-    puid: "wikidata/105863629",
+    source_type: SourceType::Wikidata,
     name: "PlayStation RSD Mesh (v3.0)",
     extensions: &["msh"],
     media_types: &["text/plain"],

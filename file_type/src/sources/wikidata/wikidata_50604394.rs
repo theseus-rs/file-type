@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_50604394: FileFormat = FileFormat {
     id: 50_604_394,
-    puid: "wikidata/50604394",
+    source_type: SourceType::Wikidata,
     name: "SNAP Main Data File",
     extensions: &["mdf"],
     media_types: &["application/octet-stream"],

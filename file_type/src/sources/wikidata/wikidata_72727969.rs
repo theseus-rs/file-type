@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_72727969: FileFormat = FileFormat {
     id: 72_727_969,
-    puid: "wikidata/72727969",
+    source_type: SourceType::Wikidata,
     name: "Windows for Pen Computing Notebook",
     extensions: &["ntb"],
     media_types: &["application/octet-stream"],

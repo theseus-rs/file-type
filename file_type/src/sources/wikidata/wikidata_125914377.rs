@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_125914377: FileFormat = FileFormat {
     id: 125_914_377,
-    puid: "wikidata/125914377",
+    source_type: SourceType::Wikidata,
     name: "Zoom Project Settings H5",
     extensions: &["hprj"],
     media_types: &[],

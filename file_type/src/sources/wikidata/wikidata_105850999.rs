@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850999: FileFormat = FileFormat {
     id: 105_850_999,
-    puid: "wikidata/105850999",
+    source_type: SourceType::Wikidata,
     name: "Terragen Object geometry",
     extensions: &["tgo"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856429: FileFormat = FileFormat {
     id: 105_856_429,
-    puid: "wikidata/105856429",
+    source_type: SourceType::Wikidata,
     name: "Android browser XML webarchive",
     extensions: &["webarchivexml"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861870: FileFormat = FileFormat {
     id: 105_861_870,
-    puid: "wikidata/105861870",
+    source_type: SourceType::Wikidata,
     name: "Mesa 2 spreadsheet",
     extensions: &["m2"],
     media_types: &["application/octet-stream"],

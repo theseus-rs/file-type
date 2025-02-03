@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866914: FileFormat = FileFormat {
     id: 105_866_914,
-    puid: "wikidata/105866914",
+    source_type: SourceType::Wikidata,
     name: ".NET binary serialized data",
     extensions: &["bin"],
     media_types: &["application/octet-stream"],

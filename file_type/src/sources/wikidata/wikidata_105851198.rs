@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851198: FileFormat = FileFormat {
     id: 105_851_198,
-    puid: "wikidata/105851198",
+    source_type: SourceType::Wikidata,
     name: "Dillo bookmark",
     extensions: &["txt"],
     media_types: &["text/plain"],

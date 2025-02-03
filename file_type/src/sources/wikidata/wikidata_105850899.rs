@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850899: FileFormat = FileFormat {
     id: 105_850_899,
-    puid: "wikidata/105850899",
+    source_type: SourceType::Wikidata,
     name: "Kundo smart card exchange Format",
     extensions: &["ktf"],
     media_types: &["text/ini"],

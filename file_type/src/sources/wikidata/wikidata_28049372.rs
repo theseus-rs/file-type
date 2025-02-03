@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28049372: FileFormat = FileFormat {
     id: 28_049_372,
-    puid: "wikidata/28049372",
+    source_type: SourceType::Wikidata,
     name: "ComputerEyes Raw Data Format, low resolution",
     extensions: &["ce1"],
     media_types: &["application/octet-stream"],

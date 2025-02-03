@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29053521: FileFormat = FileFormat {
     id: 29_053_521,
-    puid: "wikidata/29053521",
+    source_type: SourceType::Wikidata,
     name: "Kaitai Struct",
     extensions: &["ksy"],
     media_types: &["text/plain"],

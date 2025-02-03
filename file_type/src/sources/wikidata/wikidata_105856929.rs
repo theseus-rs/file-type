@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856929: FileFormat = FileFormat {
     id: 105_856_929,
-    puid: "wikidata/105856929",
+    source_type: SourceType::Wikidata,
     name: "TADS 2 Game",
     extensions: &["gam"],
     media_types: &["application/octet-stream"],

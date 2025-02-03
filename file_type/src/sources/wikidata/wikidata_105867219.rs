@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867219: FileFormat = FileFormat {
     id: 105_867_219,
-    puid: "wikidata/105867219",
+    source_type: SourceType::Wikidata,
     name: "Nuke script (encrypted)",
     extensions: &["nkple"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857863: FileFormat = FileFormat {
     id: 105_857_863,
-    puid: "wikidata/105857863",
+    source_type: SourceType::Wikidata,
     name: "Ixalance module",
     extensions: &["ixs"],
     media_types: &["audio/x-mod"],

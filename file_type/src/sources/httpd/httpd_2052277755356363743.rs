@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2052277755356363743: FileFormat = FileFormat {
-    id: 2_052_277_755_356_363_743,
-    puid: "httpd/2052277755356363743",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "collada xml",
     extensions: &["dae"],
     media_types: &["model/vnd.collada+xml"],

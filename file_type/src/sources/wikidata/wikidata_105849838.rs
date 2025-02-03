@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849838: FileFormat = FileFormat {
     id: 105_849_838,
-    puid: "wikidata/105849838",
+    source_type: SourceType::Wikidata,
     name: "Copy Numbers format",
     extensions: &["cn"],
     media_types: &["text/plain"],

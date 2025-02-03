@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_407: FileFormat = FileFormat {
     id: 407,
-    puid: "linguist/407",
+    source_type: SourceType::Linguist,
     name: "YAML",
     extensions: &[
         "mir",

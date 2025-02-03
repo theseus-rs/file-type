@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860361: FileFormat = FileFormat {
     id: 105_860_361,
-    puid: "wikidata/105860361",
+    source_type: SourceType::Wikidata,
     name: "Apex Legends game data archive",
     extensions: &["rpak"],
     media_types: &["application/octet-stream"],

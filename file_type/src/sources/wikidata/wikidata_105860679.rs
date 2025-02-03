@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860679: FileFormat = FileFormat {
     id: 105_860_679,
-    puid: "wikidata/105860679",
+    source_type: SourceType::Wikidata,
     name: "RViz workspace",
     extensions: &["rviz"],
     media_types: &["text/plain"],

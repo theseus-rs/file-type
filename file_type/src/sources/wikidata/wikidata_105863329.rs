@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863329: FileFormat = FileFormat {
     id: 105_863_329,
-    puid: "wikidata/105863329",
+    source_type: SourceType::Wikidata,
     name: "Cubic Tiny XM module",
     extensions: &["mxm"],
     media_types: &["audio/x-mod"],

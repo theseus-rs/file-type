@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863580: FileFormat = FileFormat {
     id: 105_863_580,
-    puid: "wikidata/105863580",
+    source_type: SourceType::Wikidata,
     name: "Mozilla Mail Summary file",
     extensions: &["msf"],
     media_types: &["text/plain"],

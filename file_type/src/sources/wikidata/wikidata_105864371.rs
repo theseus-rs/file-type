@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864371: FileFormat = FileFormat {
     id: 105_864_371,
-    puid: "wikidata/105864371",
+    source_type: SourceType::Wikidata,
     name: "Formatta Portable Form File",
     extensions: &["pff"],
     media_types: &[],

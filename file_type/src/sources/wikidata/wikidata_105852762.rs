@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852762: FileFormat = FileFormat {
     id: 105_852_762,
-    puid: "wikidata/105852762",
+    source_type: SourceType::Wikidata,
     name: "sc Spreadsheet Calculator spreadsheet",
     extensions: &["sc"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857462: FileFormat = FileFormat {
     id: 105_857_462,
-    puid: "wikidata/105857462",
+    source_type: SourceType::Wikidata,
     name: "2IMG Universal Format disk image (Apple II)",
     extensions: &["2img", "2mg"],
     media_types: &[],

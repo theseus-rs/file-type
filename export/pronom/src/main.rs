@@ -128,14 +128,14 @@ fn generate_source_code(
     // Generate the module file
     let mut source_code = vec!["use crate::format::FileFormat;".to_string(), String::new()];
     for file_format in file_formats {
-        let name = file_format.puid.replace(['/', '-'], "_");
+        let name = format!("pronom_{}", file_format.id);
         source_code.push(format!("mod {name};"));
     }
     source_code.push(String::new());
     source_code.push("pub(crate) const FILE_FORMATS: &[&FileFormat] = &[".to_string());
     for file_format in file_formats {
-        let name = file_format.puid.replace(['/', '-'], "_");
-        source_code.push(format!("    &{}::{},", name, name.to_uppercase()));
+        let name = format!("pronom_{}", file_format.id);
+        source_code.push(format!("    &{name}::{},", name.to_uppercase()));
     }
     source_code.push("];".to_string());
     source_code.push(String::new());
@@ -150,12 +150,12 @@ fn generate_source_code(
 
     // Generate source files for each file format
     for file_format in file_formats {
-        let name = file_format.puid.replace(['/', '-'], "_");
+        let name = format!("pronom_{}", file_format.id);
         let source_code = [
             "use crate::format::{".to_string(),
             "    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,"
                 .to_string(),
-            "    RelationshipType, Token".to_string(),
+            "    RelationshipType, SourceType, Token".to_string(),
             "};".to_string(),
             String::new(),
             format!(

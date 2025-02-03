@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857482: FileFormat = FileFormat {
     id: 105_857_482,
-    puid: "wikidata/105857482",
+    source_type: SourceType::Wikidata,
     name: "SMS 2D Mesh",
     extensions: &["2dm"],
     media_types: &["text/plain"],

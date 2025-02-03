@@ -1,19 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206625: FileFormat = FileFormat {
     id: 28_206_625,
-    puid: "wikidata/28206625",
+    source_type: SourceType::Wikidata,
     name: "MSX BASIC graphics",
     extensions: &["grp", "sc2", "sc5", "sc6", "sc7", "sc8", "scc"],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

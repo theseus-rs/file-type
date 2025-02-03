@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854219: FileFormat = FileFormat {
     id: 105_854_219,
-    puid: "wikidata/105854219",
+    source_type: SourceType::Wikidata,
     name: "AYFX Editor Bank",
     extensions: &["afb"],
     media_types: &["application/octet-stream"],

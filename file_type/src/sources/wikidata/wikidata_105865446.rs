@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865446: FileFormat = FileFormat {
     id: 105_865_446,
-    puid: "wikidata/105865446",
+    source_type: SourceType::Wikidata,
     name: "AVZ Antiviral Toolkit data",
     extensions: &["pva"],
     media_types: &[],

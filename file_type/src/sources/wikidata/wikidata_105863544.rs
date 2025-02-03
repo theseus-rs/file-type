@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863544: FileFormat = FileFormat {
     id: 105_863_544,
-    puid: "wikidata/105863544",
+    source_type: SourceType::Wikidata,
     name: "Delta Music 2 module",
     extensions: &["dm2"],
     media_types: &["application/octet-stream"],

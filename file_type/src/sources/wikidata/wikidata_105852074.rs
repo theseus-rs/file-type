@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852074: FileFormat = FileFormat {
     id: 105_852_074,
-    puid: "wikidata/105852074",
+    source_type: SourceType::Wikidata,
     name: "Samsung Pen Document",
     extensions: &["spd"],
     media_types: &["application/octet-stream"],

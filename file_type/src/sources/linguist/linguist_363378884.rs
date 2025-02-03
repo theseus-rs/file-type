@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_363378884: FileFormat = FileFormat {
     id: 363_378_884,
-    puid: "linguist/363378884",
+    source_type: SourceType::Linguist,
     name: "Regular Expression",
     extensions: &["regex", "regexp"],
     media_types: &[],

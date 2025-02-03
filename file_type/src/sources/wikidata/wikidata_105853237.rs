@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853237: FileFormat = FileFormat {
     id: 105_853_237,
-    puid: "wikidata/105853237",
+    source_type: SourceType::Wikidata,
     name: "X-CAD SoftFont",
     extensions: &["sft"],
     media_types: &["application/octet-stream"],

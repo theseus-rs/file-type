@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860488: FileFormat = FileFormat {
     id: 105_860_488,
-    puid: "wikidata/105860488",
+    source_type: SourceType::Wikidata,
     name: "TimeGate Studios game data archive",
     extensions: &["rwd"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857191: FileFormat = FileFormat {
     id: 105_857_191,
-    puid: "wikidata/105857191",
+    source_type: SourceType::Wikidata,
     name: "HOOPS 3D Stream Format",
     extensions: &["hsf"],
     media_types: &["application/octet-stream"],

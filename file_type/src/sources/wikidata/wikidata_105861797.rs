@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861797: FileFormat = FileFormat {
     id: 105_861_797,
-    puid: "wikidata/105861797",
+    source_type: SourceType::Wikidata,
     name: "The 0ok Amazing Synth Tracker module",
     extensions: &["t0ast"],
     media_types: &["audio/x-mod"],

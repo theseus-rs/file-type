@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28049467: FileFormat = FileFormat {
     id: 28_049_467,
-    puid: "wikidata/28049467",
+    source_type: SourceType::Wikidata,
     name: "DEGAS Elite Compressed, high resolution",
     extensions: &["PC3"],
     media_types: &["application/octet-stream"],

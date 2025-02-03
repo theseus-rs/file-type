@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854304: FileFormat = FileFormat {
     id: 105_854_304,
-    puid: "wikidata/105854304",
+    source_type: SourceType::Wikidata,
     name: "HAL Laboratory HALPST container audio",
     extensions: &["hps"],
     media_types: &["application/octet-stream"],

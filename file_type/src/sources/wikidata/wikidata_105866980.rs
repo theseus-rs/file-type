@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866980: FileFormat = FileFormat {
     id: 105_866_980,
-    puid: "wikidata/105866980",
+    source_type: SourceType::Wikidata,
     name: "NeXus XML data format",
     extensions: &["xml"],
     media_types: &["text/xml"],

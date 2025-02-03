@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_34743262: FileFormat = FileFormat {
     id: 34_743_262,
-    puid: "wikidata/34743262",
+    source_type: SourceType::Wikidata,
     name: "Softdisk Text Compressor",
     extensions: &["ctx"],
     media_types: &["application/octet-stream"],

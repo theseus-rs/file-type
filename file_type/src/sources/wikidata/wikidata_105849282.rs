@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849282: FileFormat = FileFormat {
     id: 105_849_282,
-    puid: "wikidata/105849282",
+    source_type: SourceType::Wikidata,
     name: "Grand Theft Auto 5 Texture Dictionary",
     extensions: &["ytd"],
     media_types: &["application/octet-stream"],

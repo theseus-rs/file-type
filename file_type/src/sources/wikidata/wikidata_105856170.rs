@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856170: FileFormat = FileFormat {
     id: 105_856_170,
-    puid: "wikidata/105856170",
+    source_type: SourceType::Wikidata,
     name: "DeSmuME Movie capture",
     extensions: &["dsm"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849879: FileFormat = FileFormat {
     id: 105_849_879,
-    puid: "wikidata/105849879",
+    source_type: SourceType::Wikidata,
     name: "Visual Studio Civilization 5 Solution",
     extensions: &["civ5sln"],
     media_types: &["text/plain"],

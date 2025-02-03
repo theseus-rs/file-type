@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864597: FileFormat = FileFormat {
     id: 105_864_597,
-    puid: "wikidata/105864597",
+    source_type: SourceType::Wikidata,
     name: "Arc System Works game data package",
     extensions: &["pac"],
     media_types: &["application/octet-stream"],

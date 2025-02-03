@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857738: FileFormat = FileFormat {
     id: 105_857_738,
-    puid: "wikidata/105857738",
+    source_type: SourceType::Wikidata,
     name: "86Box Floppy disk image (compressed)",
     extensions: &["86f"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856522: FileFormat = FileFormat {
     id: 105_856_522,
-    puid: "wikidata/105856522",
+    source_type: SourceType::Wikidata,
     name: "Land Of Legends game data archive",
     extensions: &["wad"],
     media_types: &["application/octet-stream"],

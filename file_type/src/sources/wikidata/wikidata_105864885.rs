@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864885: FileFormat = FileFormat {
     id: 105_864_885,
-    puid: "wikidata/105864885",
+    source_type: SourceType::Wikidata,
     name: "Programmer's Notepad Project Group",
     extensions: &["ppg"],
     media_types: &["text/xml"],

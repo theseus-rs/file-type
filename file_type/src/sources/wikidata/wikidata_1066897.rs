@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_1066897: FileFormat = FileFormat {
     id: 1_066_897,
-    puid: "wikidata/1066897",
+    source_type: SourceType::Wikidata,
     name: "LDAP Data Interchange Format",
-    extensions: &["ldif", "ldif"],
+    extensions: &["ldif"],
     media_types: &["text/plain", "text/x-ldif"],
     internal_signatures: &[
         InternalSignature {

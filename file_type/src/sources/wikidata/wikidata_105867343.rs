@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867343: FileFormat = FileFormat {
     id: 105_867_343,
-    puid: "wikidata/105867343",
+    source_type: SourceType::Wikidata,
     name: "NetCDF Network Common Data Form",
     extensions: &["cdf", "nc"],
-    media_types: &["application/netcdf", "application/netcdf"],
+    media_types: &["application/netcdf"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

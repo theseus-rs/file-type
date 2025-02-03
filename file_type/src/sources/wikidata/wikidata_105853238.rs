@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853238: FileFormat = FileFormat {
     id: 105_853_238,
-    puid: "wikidata/105853238",
+    source_type: SourceType::Wikidata,
     name: "Scidb player/event/site/annotator data",
     extensions: &["scn"],
     media_types: &["application/octet-stream"],

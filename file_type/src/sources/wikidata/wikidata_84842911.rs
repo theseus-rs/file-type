@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_84842911: FileFormat = FileFormat {
     id: 84_842_911,
-    puid: "wikidata/84842911",
+    source_type: SourceType::Wikidata,
     name: "GL Transmission Format (Binary)",
-    extensions: &["glb", "glb"],
+    extensions: &["glb"],
     media_types: &["application/octet-stream", "model/gltf-binary"],
     internal_signatures: &[
         InternalSignature {

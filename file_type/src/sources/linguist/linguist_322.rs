@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_322: FileFormat = FileFormat {
     id: 322,
-    puid: "linguist/322",
+    source_type: SourceType::Linguist,
     name: "Ren'Py",
     extensions: &["rpy"],
     media_types: &[],

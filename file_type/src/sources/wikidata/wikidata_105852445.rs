@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852445: FileFormat = FileFormat {
     id: 105_852_445,
-    puid: "wikidata/105852445",
+    source_type: SourceType::Wikidata,
     name: "Sxz hybrid vector/raster image",
     extensions: &["sxz"],
     media_types: &["application/octet-stream"],

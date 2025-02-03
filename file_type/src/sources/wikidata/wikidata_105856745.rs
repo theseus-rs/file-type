@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856745: FileFormat = FileFormat {
     id: 105_856_745,
-    puid: "wikidata/105856745",
+    source_type: SourceType::Wikidata,
     name: "Wii U8 archive",
     extensions: &["u8"],
     media_types: &["application/octet-stream"],

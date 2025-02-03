@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854145: FileFormat = FileFormat {
     id: 105_854_145,
-    puid: "wikidata/105854145",
+    source_type: SourceType::Wikidata,
     name: "LAME encoded MP3 audio (ID3 v2.x tag)",
     extensions: &["mp3"],
     media_types: &["audio/mpeg3"],

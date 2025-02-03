@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_869538413: FileFormat = FileFormat {
     id: 869_538_413,
-    puid: "linguist/869538413",
+    source_type: SourceType::Linguist,
     name: "Reason",
     extensions: &["re", "rei"],
     media_types: &["text/x-rustsrc"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858670: FileFormat = FileFormat {
     id: 105_858_670,
-    puid: "wikidata/105858670",
+    source_type: SourceType::Wikidata,
     name: "Bugbiter APAC239i bitmap",
     extensions: &["bgp"],
     media_types: &["application/octet-stream"],

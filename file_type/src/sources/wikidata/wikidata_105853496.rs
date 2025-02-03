@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853496: FileFormat = FileFormat {
     id: 105_853_496,
-    puid: "wikidata/105853496",
+    source_type: SourceType::Wikidata,
     name: "Oolite eXpansion Pack",
     extensions: &["zip"],
     media_types: &[],

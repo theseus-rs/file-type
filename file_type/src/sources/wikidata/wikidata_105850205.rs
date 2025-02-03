@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850205: FileFormat = FileFormat {
     id: 105_850_205,
-    puid: "wikidata/105850205",
+    source_type: SourceType::Wikidata,
     name: "Atomulator Configuration",
     extensions: &["cfg"],
     media_types: &["text/plain"],

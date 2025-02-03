@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_64: FileFormat = FileFormat {
     id: 64,
-    puid: "linguist/64",
+    source_type: SourceType::Linguist,
     name: "ColdFusion",
     extensions: &["cfm", "cfml"],
     media_types: &[],

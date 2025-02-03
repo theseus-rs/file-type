@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967218: FileFormat = FileFormat {
     id: 27_967_218,
-    puid: "wikidata/27967218",
+    source_type: SourceType::Wikidata,
     name: "Scream Tracker 1 & 2 module",
     extensions: &["stm", "stx"],
-    media_types: &["audio/x-mod", "audio/x-mod"],
+    media_types: &["audio/x-mod"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

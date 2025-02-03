@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_60342714: FileFormat = FileFormat {
     id: 60_342_714,
-    puid: "wikidata/60342714",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Excel Macro-Enabled Add-In",
     extensions: &["xlam"],
     media_types: &["application/vnd.ms-excel.addin.macroEnabled.12"],

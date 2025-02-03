@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850639: FileFormat = FileFormat {
     id: 105_850_639,
-    puid: "wikidata/105850639",
+    source_type: SourceType::Wikidata,
     name: "Consolidated Laser Ranging Prediction Format",
     extensions: &["cpf"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857020: FileFormat = FileFormat {
     id: 105_857_020,
-    puid: "wikidata/105857020",
+    source_type: SourceType::Wikidata,
     name: "GSP Family Tree",
     extensions: &["gft"],
     media_types: &[],

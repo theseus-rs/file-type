@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861520: FileFormat = FileFormat {
     id: 105_861_520,
-    puid: "wikidata/105861520",
+    source_type: SourceType::Wikidata,
     name: "Virtual Villagers data",
     extensions: &["ldw"],
     media_types: &[],

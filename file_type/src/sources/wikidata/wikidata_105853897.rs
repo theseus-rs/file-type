@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853897: FileFormat = FileFormat {
     id: 105_853_897,
-    puid: "wikidata/105853897",
+    source_type: SourceType::Wikidata,
     name: "Additive Manufacturing Format",
     extensions: &["amf"],
     media_types: &[],

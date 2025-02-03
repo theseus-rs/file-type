@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866487: FileFormat = FileFormat {
     id: 105_866_487,
-    puid: "wikidata/105866487",
+    source_type: SourceType::Wikidata,
     name: "CPython 1.x bytecode",
     extensions: &["pyc"],
     media_types: &["application/x-python-bytecode"],

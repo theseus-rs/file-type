@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853850: FileFormat = FileFormat {
     id: 105_853_850,
-    puid: "wikidata/105853850",
+    source_type: SourceType::Wikidata,
     name: "Aria Maestosa project",
     extensions: &["aria"],
     media_types: &["text/xml"],

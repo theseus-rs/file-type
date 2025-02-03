@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_7397097853789512879: FileFormat = FileFormat {
-    id: 7_397_097_853_789_512_879,
-    puid: "httpd/7397097853789512879",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "fujixerox docuworks",
     extensions: &["xdw"],
     media_types: &["application/vnd.fujixerox.docuworks"],

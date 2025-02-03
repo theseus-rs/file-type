@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851677: FileFormat = FileFormat {
     id: 105_851_677,
-    puid: "wikidata/105851677",
+    source_type: SourceType::Wikidata,
     name: "StepMania step file",
     extensions: &["sm"],
     media_types: &[],

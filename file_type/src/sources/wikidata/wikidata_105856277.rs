@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856277: FileFormat = FileFormat {
     id: 105_856_277,
-    puid: "wikidata/105856277",
+    source_type: SourceType::Wikidata,
     name: "VariCAD Drawing (v7)",
     extensions: &["dwb"],
     media_types: &["application/octet-stream"],

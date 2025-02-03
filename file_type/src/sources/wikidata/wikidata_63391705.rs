@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_63391705: FileFormat = FileFormat {
     id: 63_391_705,
-    puid: "wikidata/63391705",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Works Database for DOS, version 3b",
     extensions: &["wdb"],
     media_types: &[],

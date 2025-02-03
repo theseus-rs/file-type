@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857999: FileFormat = FileFormat {
     id: 105_857_999,
-    puid: "wikidata/105857999",
+    source_type: SourceType::Wikidata,
     name: "IncrediMail sound (WAV)",
     extensions: &["imw"],
     media_types: &["application/vnd.ms-cab-compressed"],

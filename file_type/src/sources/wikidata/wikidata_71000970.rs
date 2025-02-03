@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_71000970: FileFormat = FileFormat {
     id: 71_000_970,
-    puid: "wikidata/71000970",
+    source_type: SourceType::Wikidata,
     name: "OmniGraffle Drawing",
     extensions: &["graffle"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855422: FileFormat = FileFormat {
     id: 105_855_422,
-    puid: "wikidata/105855422",
+    source_type: SourceType::Wikidata,
     name: "Thrustmaster TARGET profile",
     extensions: &["fcf"],
     media_types: &["text/xml"],

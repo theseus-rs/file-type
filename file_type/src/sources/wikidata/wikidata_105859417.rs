@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859417: FileFormat = FileFormat {
     id: 105_859_417,
-    puid: "wikidata/105859417",
+    source_type: SourceType::Wikidata,
     name: "QiC JAR ebook",
     extensions: &["jar"],
     media_types: &[],

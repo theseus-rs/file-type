@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852287: FileFormat = FileFormat {
     id: 105_852_287,
-    puid: "wikidata/105852287",
+    source_type: SourceType::Wikidata,
     name: "Sc2gears Mouse Print Data",
     extensions: &["smpd"],
     media_types: &[],

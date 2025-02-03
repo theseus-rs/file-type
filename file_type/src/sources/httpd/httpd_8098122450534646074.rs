@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_8098122450534646074: FileFormat = FileFormat {
-    id: 8_098_122_450_534_646_074,
-    puid: "httpd/8098122450534646074",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "dxf",
     extensions: &["dxf"],
     media_types: &["image/vnd.dxf"],

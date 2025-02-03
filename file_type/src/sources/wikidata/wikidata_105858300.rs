@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858300: FileFormat = FileFormat {
     id: 105_858_300,
-    puid: "wikidata/105858300",
+    source_type: SourceType::Wikidata,
     name: "Autex Experimental Pole Figure data",
     extensions: &["exp"],
     media_types: &["text/plain"],

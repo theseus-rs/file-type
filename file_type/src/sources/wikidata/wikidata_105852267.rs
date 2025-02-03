@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852267: FileFormat = FileFormat {
     id: 105_852_267,
-    puid: "wikidata/105852267",
+    source_type: SourceType::Wikidata,
     name: "Blender STereoLithography (binary)",
     extensions: &["stl"],
     media_types: &["application/octet-stream"],

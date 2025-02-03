@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_821830: FileFormat = FileFormat {
     id: 821_830,
-    puid: "wikidata/821830",
+    source_type: SourceType::Wikidata,
     name: "Symbolic Link",
     extensions: &["slk", "sylk"],
-    media_types: &["application/x-sylk", "application/x-sylk"],
+    media_types: &["application/x-sylk"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

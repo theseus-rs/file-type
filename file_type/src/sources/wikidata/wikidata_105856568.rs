@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856568: FileFormat = FileFormat {
     id: 105_856_568,
-    puid: "wikidata/105856568",
+    source_type: SourceType::Wikidata,
     name: "Doom 2D Forever WAD archive",
     extensions: &["wad"],
     media_types: &["application/octet-stream"],

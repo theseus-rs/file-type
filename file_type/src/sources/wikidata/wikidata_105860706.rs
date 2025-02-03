@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860706: FileFormat = FileFormat {
     id: 105_860_706,
-    puid: "wikidata/105860706",
+    source_type: SourceType::Wikidata,
     name: "Ren'Py Archive (v2)",
     extensions: &["rpa"],
     media_types: &["application/octet-stream"],

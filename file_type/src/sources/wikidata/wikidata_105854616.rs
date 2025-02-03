@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854616: FileFormat = FileFormat {
     id: 105_854_616,
-    puid: "wikidata/105854616",
+    source_type: SourceType::Wikidata,
     name: "DS Squeeze archive",
     extensions: &["ark"],
     media_types: &["application/octet-stream"],

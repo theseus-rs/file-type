@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859433: FileFormat = FileFormat {
     id: 105_859_433,
-    puid: "wikidata/105859433",
+    source_type: SourceType::Wikidata,
     name: "MST Quintus Macro",
     extensions: &["qmc"],
     media_types: &["application/octet-stream"],

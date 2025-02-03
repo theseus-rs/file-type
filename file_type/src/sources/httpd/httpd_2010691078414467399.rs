@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2010691078414467399: FileFormat = FileFormat {
-    id: 2_010_691_078_414_467_399,
-    puid: "httpd/2010691078414467399",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ms officetheme",
     extensions: &["thmx"],
     media_types: &["application/vnd.ms-officetheme"],

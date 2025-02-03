@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866827: FileFormat = FileFormat {
     id: 105_866_827,
-    puid: "wikidata/105866827",
+    source_type: SourceType::Wikidata,
     name: "Altium Designer project",
     extensions: &["prjpcb"],
     media_types: &["text/xml"],

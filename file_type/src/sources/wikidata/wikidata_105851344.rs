@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851344: FileFormat = FileFormat {
     id: 105_851_344,
-    puid: "wikidata/105851344",
+    source_type: SourceType::Wikidata,
     name: "Abacus Time and Date data (v1.0)",
     extensions: &["tdb"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850049: FileFormat = FileFormat {
     id: 105_850_049,
-    puid: "wikidata/105850049",
+    source_type: SourceType::Wikidata,
     name: "Crystal Alien Map Maker project (JSON)",
     extensions: &["camm"],
     media_types: &["text/json"],

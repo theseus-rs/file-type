@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849849: FileFormat = FileFormat {
     id: 105_849_849,
-    puid: "wikidata/105849849",
+    source_type: SourceType::Wikidata,
     name: "CXF Vector Map Format (v1.x)",
     extensions: &["cxf"],
     media_types: &[],

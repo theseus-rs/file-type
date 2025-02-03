@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856647: FileFormat = FileFormat {
     id: 105_856_647,
-    puid: "wikidata/105856647",
+    source_type: SourceType::Wikidata,
     name: "Apple Mac OS X Dashboard Widget",
     extensions: &["zip"],
     media_types: &[],

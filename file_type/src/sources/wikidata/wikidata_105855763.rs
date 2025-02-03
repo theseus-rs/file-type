@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855763: FileFormat = FileFormat {
     id: 105_855_763,
-    puid: "wikidata/105855763",
+    source_type: SourceType::Wikidata,
     name: "Battlefield 2 mod Description",
     extensions: &["desc"],
     media_types: &["text/xml"],

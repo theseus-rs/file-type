@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851821: FileFormat = FileFormat {
     id: 105_851_821,
-    puid: "wikidata/105851821",
+    source_type: SourceType::Wikidata,
     name: "Artline Symbol File",
     extensions: &["syf"],
     media_types: &["application/octet-stream"],

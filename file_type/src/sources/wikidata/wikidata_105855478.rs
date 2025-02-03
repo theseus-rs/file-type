@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855478: FileFormat = FileFormat {
     id: 105_855_478,
-    puid: "wikidata/105855478",
+    source_type: SourceType::Wikidata,
     name: "Beyond Words Composer Font",
     extensions: &["fon"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858126: FileFormat = FileFormat {
     id: 105_858_126,
-    puid: "wikidata/105858126",
+    source_type: SourceType::Wikidata,
     name: "Diablo 1 Item safe file format",
     extensions: &["itm"],
     media_types: &["application/octet-stream"],

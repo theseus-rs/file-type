@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_12175115353246933006: FileFormat = FileFormat {
-    id: 12_175_115_353_246_933_006,
-    puid: "httpd/12175115353246933006",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "subrip",
     extensions: &["srt"],
     media_types: &["application/x-subrip"],

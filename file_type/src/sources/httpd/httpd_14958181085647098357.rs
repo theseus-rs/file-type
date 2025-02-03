@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14958181085647098357: FileFormat = FileFormat {
-    id: 14_958_181_085_647_098_357,
-    puid: "httpd/14958181085647098357",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "shockwave flash",
     extensions: &["swf"],
     media_types: &["application/x-shockwave-flash"],

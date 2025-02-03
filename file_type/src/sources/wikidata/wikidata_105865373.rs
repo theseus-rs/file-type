@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865373: FileFormat = FileFormat {
     id: 105_865_373,
-    puid: "wikidata/105865373",
+    source_type: SourceType::Wikidata,
     name: "PCSX2 Patch",
     extensions: &["pnach"],
     media_types: &[],

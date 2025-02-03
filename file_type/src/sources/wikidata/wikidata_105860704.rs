@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860704: FileFormat = FileFormat {
     id: 105_860_704,
-    puid: "wikidata/105860704",
+    source_type: SourceType::Wikidata,
     name: "Ray Dream Designer scene",
     extensions: &["rd4"],
     media_types: &["application/octet-stream"],

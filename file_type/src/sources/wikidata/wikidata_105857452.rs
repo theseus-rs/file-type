@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857452: FileFormat = FileFormat {
     id: 105_857_452,
-    puid: "wikidata/105857452",
+    source_type: SourceType::Wikidata,
     name: "Shaper LUT",
     extensions: &["3dl"],
     media_types: &["text/plain"],

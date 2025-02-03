@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862477: FileFormat = FileFormat {
     id: 105_862_477,
-    puid: "wikidata/105862477",
+    source_type: SourceType::Wikidata,
     name: "MDIFF patch (v1.x)",
     extensions: &["mdf"],
     media_types: &["application/octet-stream"],

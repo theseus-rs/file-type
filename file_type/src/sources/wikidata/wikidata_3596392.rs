@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_3596392: FileFormat = FileFormat {
     id: 3_596_392,
-    puid: "wikidata/3596392",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Word document template",
-    extensions: &["dot", "dot"],
+    extensions: &["dot"],
     media_types: &[],
     internal_signatures: &[],
     related_formats: &[],

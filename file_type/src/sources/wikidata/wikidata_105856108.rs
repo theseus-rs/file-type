@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856108: FileFormat = FileFormat {
     id: 105_856_108,
-    puid: "wikidata/105856108",
+    source_type: SourceType::Wikidata,
     name: "Visual Basic Active Designer file",
     extensions: &["dsr"],
     media_types: &[],

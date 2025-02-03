@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866365: FileFormat = FileFormat {
     id: 105_866_365,
-    puid: "wikidata/105866365",
+    source_type: SourceType::Wikidata,
     name: "Paint.NET Image (v3)",
     extensions: &["pdn"],
     media_types: &["image/x-paintnet"],

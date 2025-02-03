@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863342: FileFormat = FileFormat {
     id: 105_863_342,
-    puid: "wikidata/105863342",
+    source_type: SourceType::Wikidata,
     name: "MetaMind Machine Sequence",
     extensions: &["mmms"],
     media_types: &["application/octet-stream"],

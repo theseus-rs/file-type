@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857860: FileFormat = FileFormat {
     id: 105_857_860,
-    puid: "wikidata/105857860",
+    source_type: SourceType::Wikidata,
     name: "Sound Invasion Music System module",
     extensions: &["is"],
     media_types: &["audio/x-mod"],

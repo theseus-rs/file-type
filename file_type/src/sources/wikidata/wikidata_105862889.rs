@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862889: FileFormat = FileFormat {
     id: 105_862_889,
-    puid: "wikidata/105862889",
+    source_type: SourceType::Wikidata,
     name: "MacStitch/WinStitch Motif",
     extensions: &["motif"],
     media_types: &["text/plain"],

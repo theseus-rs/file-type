@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860496: FileFormat = FileFormat {
     id: 105_860_496,
-    puid: "wikidata/105860496",
+    source_type: SourceType::Wikidata,
     name: "GisRX GPS Navigator map",
     extensions: &["rxm"],
     media_types: &[],

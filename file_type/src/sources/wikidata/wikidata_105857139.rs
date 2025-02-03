@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857139: FileFormat = FileFormat {
     id: 105_857_139,
-    puid: "wikidata/105857139",
+    source_type: SourceType::Wikidata,
     name: "Houdini Apprentice Project",
     extensions: &["hipnc"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862480: FileFormat = FileFormat {
     id: 105_862_480,
-    puid: "wikidata/105862480",
+    source_type: SourceType::Wikidata,
     name: "MIDI-MAZE II Maze",
     extensions: &["mze"],
     media_types: &["application/octet-stream"],

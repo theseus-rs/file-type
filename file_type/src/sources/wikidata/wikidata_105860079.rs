@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860079: FileFormat = FileFormat {
     id: 105_860_079,
-    puid: "wikidata/105860079",
+    source_type: SourceType::Wikidata,
     name: "Var Bitmap Font (v1)",
     extensions: &["vbf"],
     media_types: &["application/octet-stream"],

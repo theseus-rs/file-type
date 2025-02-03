@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850510: FileFormat = FileFormat {
     id: 105_850_510,
-    puid: "wikidata/105850510",
+    source_type: SourceType::Wikidata,
     name: "CherryTree note (SQLite)",
     extensions: &["ctb"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858712: FileFormat = FileFormat {
     id: 105_858_712,
-    puid: "wikidata/105858712",
+    source_type: SourceType::Wikidata,
     name: "DeskPic bitmap",
     extensions: &["gfb"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866455: FileFormat = FileFormat {
     id: 105_866_455,
-    puid: "wikidata/105866455",
+    source_type: SourceType::Wikidata,
     name: "CUPL PLD Program format (with rem)",
     extensions: &["pld"],
     media_types: &["text/plain"],

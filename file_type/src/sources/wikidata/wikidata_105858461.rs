@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858461: FileFormat = FileFormat {
     id: 105_858_461,
-    puid: "wikidata/105858461",
+    source_type: SourceType::Wikidata,
     name: "E-mu Emaxsynth sample",
     extensions: &["ez2"],
     media_types: &["application/octet-stream"],

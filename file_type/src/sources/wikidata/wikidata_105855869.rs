@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855869: FileFormat = FileFormat {
     id: 105_855_869,
-    puid: "wikidata/105855869",
+    source_type: SourceType::Wikidata,
     name: "AutoCAD R13 Drawing (subtype 10)",
     extensions: &["dwg"],
     media_types: &["application/x-autocad"],

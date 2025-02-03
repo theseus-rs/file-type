@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851121: FileFormat = FileFormat {
     id: 105_851_121,
-    puid: "wikidata/105851121",
+    source_type: SourceType::Wikidata,
     name: "Taverna Workbench workflow definition",
     extensions: &["t2flow"],
     media_types: &[],

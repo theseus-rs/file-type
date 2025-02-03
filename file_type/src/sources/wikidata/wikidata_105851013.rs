@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851013: FileFormat = FileFormat {
     id: 105_851_013,
-    puid: "wikidata/105851013",
+    source_type: SourceType::Wikidata,
     name: "MeshCAM Tool Path Settings",
     extensions: &["tps"],
     media_types: &["text/plain"],

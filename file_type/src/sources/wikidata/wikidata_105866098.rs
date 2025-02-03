@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866098: FileFormat = FileFormat {
     id: 105_866_098,
-    puid: "wikidata/105866098",
+    source_type: SourceType::Wikidata,
     name: "Poker Programming Language",
     extensions: &["ppl"],
     media_types: &["application/octet-stream"],

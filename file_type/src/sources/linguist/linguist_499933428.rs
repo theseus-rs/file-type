@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_499933428: FileFormat = FileFormat {
     id: 499_933_428,
-    puid: "linguist/499933428",
+    source_type: SourceType::Linguist,
     name: "Prisma",
     extensions: &["prisma"],
     media_types: &[],

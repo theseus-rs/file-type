@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860061: FileFormat = FileFormat {
     id: 105_860_061,
-    puid: "wikidata/105860061",
+    source_type: SourceType::Wikidata,
     name: "VST Preset",
     extensions: &["vstpreset"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_51093476: FileFormat = FileFormat {
     id: 51_093_476,
-    puid: "wikidata/51093476",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Excel OLAP Query",
     extensions: &["oqy"],
     media_types: &["text/plain"],

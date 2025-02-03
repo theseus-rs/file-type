@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13221059779387609093: FileFormat = FileFormat {
-    id: 13_221_059_779_387_609_093,
-    puid: "httpd/13221059779387609093",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "uvvu mp4",
     extensions: &["uvu", "uvvu"],
     media_types: &["video/vnd.uvvu.mp4"],

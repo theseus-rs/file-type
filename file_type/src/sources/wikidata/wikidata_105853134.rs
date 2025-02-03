@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853134: FileFormat = FileFormat {
     id: 105_853_134,
-    puid: "wikidata/105853134",
+    source_type: SourceType::Wikidata,
     name: "Samurize package",
     extensions: &["sam"],
     media_types: &[],

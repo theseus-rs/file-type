@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851765: FileFormat = FileFormat {
     id: 105_851_765,
-    puid: "wikidata/105851765",
+    source_type: SourceType::Wikidata,
     name: "Lotus Metro Screen Driver",
     extensions: &["sdr"],
     media_types: &["application/octet-stream"],

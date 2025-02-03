@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859851: FileFormat = FileFormat {
     id: 105_859_851,
-    puid: "wikidata/105859851",
+    source_type: SourceType::Wikidata,
     name: "VP3 sewing machine file",
     extensions: &["vp3"],
     media_types: &[],

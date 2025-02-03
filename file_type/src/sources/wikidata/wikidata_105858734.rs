@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858734: FileFormat = FileFormat {
     id: 105_858_734,
-    puid: "wikidata/105858734",
+    source_type: SourceType::Wikidata,
     name: "Boom Box project (v1)",
     extensions: &["box"],
     media_types: &["application/octet-stream"],

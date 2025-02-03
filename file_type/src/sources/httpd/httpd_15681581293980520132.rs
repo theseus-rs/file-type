@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_15681581293980520132: FileFormat = FileFormat {
-    id: 15_681_581_293_980_520_132,
-    puid: "httpd/15681581293980520132",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mpegurl",
     extensions: &["mxu", "m4u"],
     media_types: &["video/vnd.mpegurl"],

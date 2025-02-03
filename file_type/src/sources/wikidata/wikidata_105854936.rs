@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854936: FileFormat = FileFormat {
     id: 105_854_936,
-    puid: "wikidata/105854936",
+    source_type: SourceType::Wikidata,
     name: "SFzip SoundFont compressed archive",
     extensions: &["sfz"],
     media_types: &[],

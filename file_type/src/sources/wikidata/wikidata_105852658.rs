@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852658: FileFormat = FileFormat {
     id: 105_852_658,
-    puid: "wikidata/105852658",
+    source_type: SourceType::Wikidata,
     name: "Mini Office Professional Spreadsheet (Atari)",
     extensions: &["spr"],
     media_types: &["application/octet-stream"],

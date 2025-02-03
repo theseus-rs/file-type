@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5072399535360381584: FileFormat = FileFormat {
-    id: 5_072_399_535_360_381_584,
-    puid: "httpd/5072399535360381584",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "openxmlformats officedocument presentationml presentation",
     extensions: &["pptx"],
     media_types: &["application/vnd.openxmlformats-officedocument.presentationml.presentation"],

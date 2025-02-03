@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864646: FileFormat = FileFormat {
     id: 105_864_646,
-    puid: "wikidata/105864646",
+    source_type: SourceType::Wikidata,
     name: "PCB 4.0 Binary file",
     extensions: &["pcb"],
     media_types: &[],

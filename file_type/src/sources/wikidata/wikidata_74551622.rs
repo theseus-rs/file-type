@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_74551622: FileFormat = FileFormat {
     id: 74_551_622,
-    puid: "wikidata/74551622",
+    source_type: SourceType::Wikidata,
     name: "Adobe Audition Session",
     extensions: &["sesx"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13156498984566289220: FileFormat = FileFormat {
-    id: 13_156_498_984_566_289_220,
-    puid: "httpd/13156498984566289220",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "stardivision calc",
     extensions: &["sdc"],
     media_types: &["application/vnd.stardivision.calc"],

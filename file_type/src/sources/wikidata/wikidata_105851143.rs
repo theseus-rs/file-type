@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851143: FileFormat = FileFormat {
     id: 105_851_143,
-    puid: "wikidata/105851143",
+    source_type: SourceType::Wikidata,
     name: "Tochal Package",
     extensions: &["tpk"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855742: FileFormat = FileFormat {
     id: 105_855_742,
-    puid: "wikidata/105855742",
+    source_type: SourceType::Wikidata,
     name: "GEM-View Dither",
     extensions: &["dit"],
     media_types: &["application/octet-stream"],

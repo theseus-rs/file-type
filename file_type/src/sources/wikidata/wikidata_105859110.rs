@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859110: FileFormat = FileFormat {
     id: 105_859_110,
-    puid: "wikidata/105859110",
+    source_type: SourceType::Wikidata,
     name: "WinJack for MS Win game variant (v1.x)",
     extensions: &["bj"],
     media_types: &["application/octet-stream"],

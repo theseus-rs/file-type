@@ -1,16 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858063: FileFormat = FileFormat {
     id: 105_858_063,
-    puid: "wikidata/105858063",
+    source_type: SourceType::Wikidata,
     name: "ISI gMotor MAS type 0 game data archive",
     extensions: &["bmw", "gtl", "gtr", "mas"],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

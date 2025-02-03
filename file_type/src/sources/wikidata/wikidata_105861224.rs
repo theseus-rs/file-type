@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861224: FileFormat = FileFormat {
     id: 105_861_224,
-    puid: "wikidata/105861224",
+    source_type: SourceType::Wikidata,
     name: "Pioneer OEL screensaver",
     extensions: &["lkd"],
     media_types: &[],

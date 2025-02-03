@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866208: FileFormat = FileFormat {
     id: 105_866_208,
-    puid: "wikidata/105866208",
+    source_type: SourceType::Wikidata,
     name: "COSMI 3-D Floorplan Designer Plan (v2.0)",
     extensions: &["pln"],
     media_types: &["text/plain"],

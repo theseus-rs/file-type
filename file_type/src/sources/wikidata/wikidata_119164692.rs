@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_119164692: FileFormat = FileFormat {
     id: 119_164_692,
-    puid: "wikidata/119164692",
+    source_type: SourceType::Wikidata,
     name: "ZoomText Configuration File",
     extensions: &["zxc"],
     media_types: &[],

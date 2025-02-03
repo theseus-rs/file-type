@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_55239129: FileFormat = FileFormat {
     id: 55_239_129,
-    puid: "wikidata/55239129",
+    source_type: SourceType::Wikidata,
     name: "CBOR Web Token format",
     extensions: &["cwt"],
     media_types: &["application/cwt"],

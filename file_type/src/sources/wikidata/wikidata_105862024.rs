@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862024: FileFormat = FileFormat {
     id: 105_862_024,
-    puid: "wikidata/105862024",
+    source_type: SourceType::Wikidata,
     name: "Telepaint Menu",
     extensions: &["mnu"],
     media_types: &["application/octet-stream"],

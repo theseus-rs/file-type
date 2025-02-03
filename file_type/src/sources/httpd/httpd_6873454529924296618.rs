@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6873454529924296618: FileFormat = FileFormat {
-    id: 6_873_454_529_924_296_618,
-    puid: "httpd/6873454529924296618",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ms word document macroenabled 12",
     extensions: &["docm"],
     media_types: &["application/vnd.ms-word.document.macroenabled.12"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855405: FileFormat = FileFormat {
     id: 105_855_405,
-    puid: "wikidata/105855405",
+    source_type: SourceType::Wikidata,
     name: "Fallout 3 save game",
     extensions: &["fos"],
     media_types: &[],

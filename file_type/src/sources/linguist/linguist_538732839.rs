@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_538732839: FileFormat = FileFormat {
     id: 538_732_839,
-    puid: "linguist/538732839",
+    source_type: SourceType::Linguist,
     name: "Readline Config",
     extensions: &[],
     media_types: &[],

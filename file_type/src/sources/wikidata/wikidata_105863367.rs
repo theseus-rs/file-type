@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863367: FileFormat = FileFormat {
     id: 105_863_367,
-    puid: "wikidata/105863367",
+    source_type: SourceType::Wikidata,
     name: "Earth And Beyond game data archive",
     extensions: &["mix"],
     media_types: &["application/octet-stream"],

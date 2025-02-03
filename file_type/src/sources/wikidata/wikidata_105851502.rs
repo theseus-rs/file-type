@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851502: FileFormat = FileFormat {
     id: 105_851_502,
-    puid: "wikidata/105851502",
+    source_type: SourceType::Wikidata,
     name: "Atari ST TOS executable",
     extensions: &["tos"],
     media_types: &[],

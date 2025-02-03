@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17620094873161353617: FileFormat = FileFormat {
-    id: 17_620_094_873_161_353_617,
-    puid: "httpd/17620094873161353617",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "tex tfm",
     extensions: &["tfm"],
     media_types: &["application/x-tex-tfm"],

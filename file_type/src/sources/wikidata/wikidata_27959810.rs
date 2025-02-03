@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27959810: FileFormat = FileFormat {
     id: 27_959_810,
-    puid: "wikidata/27959810",
+    source_type: SourceType::Wikidata,
     name: "Ableton Live Set",
     extensions: &["als"],
     media_types: &[],

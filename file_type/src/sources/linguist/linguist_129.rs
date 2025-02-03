@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_129: FileFormat = FileFormat {
     id: 129,
-    puid: "linguist/129",
+    source_type: SourceType::Linguist,
     name: "Gettext Catalog",
     extensions: &["po", "pot"],
     media_types: &[],

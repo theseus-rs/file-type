@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862444: FileFormat = FileFormat {
     id: 105_862_444,
-    puid: "wikidata/105862444",
+    source_type: SourceType::Wikidata,
     name: "Norton Commander module message (ENG)",
     extensions: &["msg"],
     media_types: &["application/x-norton-msg"],

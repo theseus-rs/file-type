@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205773: FileFormat = FileFormat {
     id: 28_205_773,
-    puid: "wikidata/28205773",
+    source_type: SourceType::Wikidata,
     name: "BioRad confocal image",
     extensions: &["pic"],
     media_types: &[],

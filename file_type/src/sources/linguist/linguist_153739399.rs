@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_153739399: FileFormat = FileFormat {
     id: 153_739_399,
-    puid: "linguist/153739399",
+    source_type: SourceType::Linguist,
     name: "OpenQASM",
     extensions: &["qasm"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_110443436: FileFormat = FileFormat {
     id: 110_443_436,
-    puid: "wikidata/110443436",
+    source_type: SourceType::Wikidata,
     name: "Bentley Microstation Hidden Line File",
     extensions: &["hln"],
     media_types: &[],

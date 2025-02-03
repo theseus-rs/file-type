@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_77046148: FileFormat = FileFormat {
     id: 77_046_148,
-    puid: "wikidata/77046148",
+    source_type: SourceType::Wikidata,
     name: "3ds Max XML Animation File",
     extensions: &["xaf"],
     media_types: &[],

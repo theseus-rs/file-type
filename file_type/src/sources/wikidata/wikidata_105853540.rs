@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853540: FileFormat = FileFormat {
     id: 105_853_540,
-    puid: "wikidata/105853540",
+    source_type: SourceType::Wikidata,
     name: "Avery Design clipart index",
     extensions: &["zdx"],
     media_types: &[],

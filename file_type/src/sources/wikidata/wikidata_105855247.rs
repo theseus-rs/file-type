@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855247: FileFormat = FileFormat {
     id: 105_855_247,
-    puid: "wikidata/105855247",
+    source_type: SourceType::Wikidata,
     name: "AngelCode Bitmap Font (binary)",
     extensions: &["fnt"],
     media_types: &["application/octet-stream"],

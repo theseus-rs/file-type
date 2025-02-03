@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_59961523: FileFormat = FileFormat {
     id: 59_961_523,
-    puid: "wikidata/59961523",
+    source_type: SourceType::Wikidata,
     name: "Obsidium Project File",
     extensions: &["opf"],
     media_types: &[],

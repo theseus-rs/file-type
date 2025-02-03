@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857251: FileFormat = FileFormat {
     id: 105_857_251,
-    puid: "wikidata/105857251",
+    source_type: SourceType::Wikidata,
     name: "Free Hex Editor Neo layout",
     extensions: &["hexdwc"],
     media_types: &["application/octet-stream"],

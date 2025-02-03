@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857671: FileFormat = FileFormat {
     id: 105_857_671,
-    puid: "wikidata/105857671",
+    source_type: SourceType::Wikidata,
     name: "Mahalito 2D disk image",
     extensions: &["2d"],
     media_types: &["application/octet-stream"],

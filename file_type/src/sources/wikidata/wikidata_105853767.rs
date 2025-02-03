@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853767: FileFormat = FileFormat {
     id: 105_853_767,
-    puid: "wikidata/105853767",
+    source_type: SourceType::Wikidata,
     name: "Sudden Strike 2 game data archive",
     extensions: &["aps", "sue"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857393: FileFormat = FileFormat {
     id: 105_857_393,
-    puid: "wikidata/105857393",
+    source_type: SourceType::Wikidata,
     name: "Japanese Word Processor document",
     extensions: &["jwp"],
     media_types: &["application/octet-stream"],

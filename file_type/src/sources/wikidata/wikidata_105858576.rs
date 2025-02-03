@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858576: FileFormat = FileFormat {
     id: 105_858_576,
-    puid: "wikidata/105858576",
+    source_type: SourceType::Wikidata,
     name: "TNC Packed Backup",
     extensions: &["bck"],
     media_types: &[],

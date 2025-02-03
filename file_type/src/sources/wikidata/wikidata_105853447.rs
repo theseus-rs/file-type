@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853447: FileFormat = FileFormat {
     id: 105_853_447,
-    puid: "wikidata/105853447",
+    source_type: SourceType::Wikidata,
     name: "Zipped Video Game Music pack",
     extensions: &["zip"],
     media_types: &["application/octet-stream"],

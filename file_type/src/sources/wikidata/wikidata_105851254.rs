@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851254: FileFormat = FileFormat {
     id: 105_851_254,
-    puid: "wikidata/105851254",
+    source_type: SourceType::Wikidata,
     name: "ToDoList Tasklist",
     extensions: &["tdl"],
     media_types: &[],

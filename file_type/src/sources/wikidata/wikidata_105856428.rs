@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856428: FileFormat = FileFormat {
     id: 105_856_428,
-    puid: "wikidata/105856428",
+    source_type: SourceType::Wikidata,
     name: "Windows Media Player sync info",
     extensions: &["xml"],
     media_types: &[],

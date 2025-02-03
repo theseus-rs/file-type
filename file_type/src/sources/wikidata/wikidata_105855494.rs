@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855494: FileFormat = FileFormat {
     id: 105_855_494,
-    puid: "wikidata/105855494",
+    source_type: SourceType::Wikidata,
     name: "FCS Express Layout Link",
     extensions: &["fe_launch"],
     media_types: &["application/vnd.denovo.fcselayout-link"],

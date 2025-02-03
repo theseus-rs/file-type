@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867664: FileFormat = FileFormat {
     id: 105_867_664,
-    puid: "wikidata/105867664",
+    source_type: SourceType::Wikidata,
     name: "NetWars Shape",
     extensions: &["nsh"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853583: FileFormat = FileFormat {
     id: 105_853_583,
-    puid: "wikidata/105853583",
+    source_type: SourceType::Wikidata,
     name: "z-Tree Treatment",
     extensions: &["ztt"],
     media_types: &["application/octet-stream"],

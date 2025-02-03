@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859874: FileFormat = FileFormat {
     id: 105_859_874,
-    puid: "wikidata/105859874",
+    source_type: SourceType::Wikidata,
     name: "VistaPro Digital Elevation Map (v4)",
     extensions: &["v4s"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850499: FileFormat = FileFormat {
     id: 105_850_499,
-    puid: "wikidata/105850499",
+    source_type: SourceType::Wikidata,
     name: "Comic Book Creator document",
     extensions: &["cbcx"],
     media_types: &[],

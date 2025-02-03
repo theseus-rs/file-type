@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856787: FileFormat = FileFormat {
     id: 105_856_787,
-    puid: "wikidata/105856787",
+    source_type: SourceType::Wikidata,
     name: "git submodule properties definition",
     extensions: &["gitmodule"],
     media_types: &["text/plain"],

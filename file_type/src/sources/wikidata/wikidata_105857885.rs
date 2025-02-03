@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857885: FileFormat = FileFormat {
     id: 105_857_885,
-    puid: "wikidata/105857885",
+    source_type: SourceType::Wikidata,
     name: "Ozone GUI skin Info",
     extensions: &["ini"],
     media_types: &["text/ini"],

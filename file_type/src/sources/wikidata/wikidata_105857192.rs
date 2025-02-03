@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857192: FileFormat = FileFormat {
     id: 105_857_192,
-    puid: "wikidata/105857192",
+    source_type: SourceType::Wikidata,
     name: "HEC-HMS Metereologic model configuration",
     extensions: &["met"],
     media_types: &[],

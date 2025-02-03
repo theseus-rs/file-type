@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855990: FileFormat = FileFormat {
     id: 105_855_990,
-    puid: "wikidata/105855990",
+    source_type: SourceType::Wikidata,
     name: "Kingsoft Presentation template",
     extensions: &["dpt"],
     media_types: &[],

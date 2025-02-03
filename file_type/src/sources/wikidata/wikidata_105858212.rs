@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858212: FileFormat = FileFormat {
     id: 105_858_212,
-    puid: "wikidata/105858212",
+    source_type: SourceType::Wikidata,
     name: "Compucon EOS Design Format",
     extensions: &["erf"],
     media_types: &["application/octet-stream"],

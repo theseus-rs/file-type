@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206471: FileFormat = FileFormat {
     id: 28_206_471,
-    puid: "wikidata/28206471",
+    source_type: SourceType::Wikidata,
     name: "KoalaPainter compressed",
     extensions: &["gg"],
     media_types: &[],

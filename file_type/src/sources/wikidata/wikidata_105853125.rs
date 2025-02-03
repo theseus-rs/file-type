@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853125: FileFormat = FileFormat {
     id: 105_853_125,
-    puid: "wikidata/105853125",
+    source_type: SourceType::Wikidata,
     name: "SuperTux World Map",
     extensions: &["stwm"],
     media_types: &["text/plain"],

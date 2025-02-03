@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853222: FileFormat = FileFormat {
     id: 105_853_222,
-    puid: "wikidata/105853222",
+    source_type: SourceType::Wikidata,
     name: "TradeWinds 2 savegame",
     extensions: &["sav"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866006: FileFormat = FileFormat {
     id: 105_866_006,
-    puid: "wikidata/105866006",
+    source_type: SourceType::Wikidata,
     name: "Crouzet Logic Software M3 project",
     extensions: &["pm3"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861681: FileFormat = FileFormat {
     id: 105_861_681,
-    puid: "wikidata/105861681",
+    source_type: SourceType::Wikidata,
     name: "Mednafen/PCEjin/VBjin movie capture",
     extensions: &["mc2"],
     media_types: &["application/octet-stream"],

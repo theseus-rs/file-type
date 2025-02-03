@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_18355248393964917169: FileFormat = FileFormat {
-    id: 18_355_248_393_964_917_169,
-    puid: "httpd/18355248393964917169",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "gmx",
     extensions: &["gmx"],
     media_types: &["application/vnd.gmx"],

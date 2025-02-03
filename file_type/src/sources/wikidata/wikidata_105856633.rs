@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856633: FileFormat = FileFormat {
     id: 105_856_633,
-    puid: "wikidata/105856633",
+    source_type: SourceType::Wikidata,
     name: "Windows Test Technologies (WTT) logger results",
     extensions: &["wtl"],
     media_types: &[],

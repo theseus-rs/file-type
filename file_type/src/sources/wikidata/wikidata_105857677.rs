@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857677: FileFormat = FileFormat {
     id: 105_857_677,
-    puid: "wikidata/105857677",
+    source_type: SourceType::Wikidata,
     name: "SamDOS v2 bootable disk image",
     extensions: &["dsk"],
     media_types: &["application/octet-stream"],

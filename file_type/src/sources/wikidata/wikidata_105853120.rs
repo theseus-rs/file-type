@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853120: FileFormat = FileFormat {
     id: 105_853_120,
-    puid: "wikidata/105853120",
+    source_type: SourceType::Wikidata,
     name: "Magic and Mayhem sprites",
     extensions: &["spr"],
     media_types: &["application/octet-stream"],

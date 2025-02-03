@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851404: FileFormat = FileFormat {
     id: 105_851_404,
-    puid: "wikidata/105851404",
+    source_type: SourceType::Wikidata,
     name: "RamTracker module",
     extensions: &["trk"],
     media_types: &["audio/x-mod"],

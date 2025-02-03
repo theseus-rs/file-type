@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864238: FileFormat = FileFormat {
     id: 105_864_238,
-    puid: "wikidata/105864238",
+    source_type: SourceType::Wikidata,
     name: "Linux PC Screen Font data (PSF2)",
     extensions: &["psf"],
     media_types: &["application/octet-stream"],

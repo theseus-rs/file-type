@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866058: FileFormat = FileFormat {
     id: 105_866_058,
-    puid: "wikidata/105866058",
+    source_type: SourceType::Wikidata,
     name: "ProtoBuf binary format map data",
     extensions: &["pbf"],
     media_types: &[],

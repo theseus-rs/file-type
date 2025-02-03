@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849667: FileFormat = FileFormat {
     id: 105_849_667,
-    puid: "wikidata/105849667",
+    source_type: SourceType::Wikidata,
     name: "Windows Clipboard (Win3.1)",
     extensions: &["clp"],
     media_types: &["application/octet-stream"],

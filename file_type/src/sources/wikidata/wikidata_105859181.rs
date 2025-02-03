@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859181: FileFormat = FileFormat {
     id: 105_859_181,
-    puid: "wikidata/105859181",
+    source_type: SourceType::Wikidata,
     name: "BibTeX Generated Bibliography",
     extensions: &["bbl"],
     media_types: &["text/plain"],

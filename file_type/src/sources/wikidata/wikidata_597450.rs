@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_597450: FileFormat = FileFormat {
     id: 597_450,
-    puid: "wikidata/597450",
+    source_type: SourceType::Wikidata,
     name: "Shorten",
     extensions: &["shn"],
     media_types: &["application/x-shorten"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_15808064807033990788: FileFormat = FileFormat {
-    id: 15_808_064_807_033_990_788,
-    puid: "httpd/15808064807033990788",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "neurolanguage nlu",
     extensions: &["nlu"],
     media_types: &["application/vnd.neurolanguage.nlu"],

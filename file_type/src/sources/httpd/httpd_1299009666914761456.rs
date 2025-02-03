@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_1299009666914761456: FileFormat = FileFormat {
-    id: 1_299_009_666_914_761_456,
-    puid: "httpd/1299009666914761456",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "xpixmap",
     extensions: &["xpm"],
     media_types: &["image/x-xpixmap"],

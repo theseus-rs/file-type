@@ -1,26 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205595: FileFormat = FileFormat {
     id: 28_205_595,
-    puid: "wikidata/28205595",
+    source_type: SourceType::Wikidata,
     name: "Photoshop Thumbnail Cache",
-    extensions: &[
-        "bc", "bc", "bc", "bct", "bct", "bct", "md0", "md0", "md0", "tb0", "tb0", "tb0",
-    ],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    extensions: &["bc", "bct", "md0", "tb0"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859118: FileFormat = FileFormat {
     id: 105_859_118,
-    puid: "wikidata/105859118",
+    source_type: SourceType::Wikidata,
     name: "PersonalBrain document",
     extensions: &["brainzip"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863196: FileFormat = FileFormat {
     id: 105_863_196,
-    puid: "wikidata/105863196",
+    source_type: SourceType::Wikidata,
     name: "TCB Tracker module",
     extensions: &["tcb"],
     media_types: &["audio/x-mod"],

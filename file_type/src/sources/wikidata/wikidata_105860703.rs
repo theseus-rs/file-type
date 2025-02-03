@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860703: FileFormat = FileFormat {
     id: 105_860_703,
-    puid: "wikidata/105860703",
+    source_type: SourceType::Wikidata,
     name: "Sparse Voxel Octree (binary) (v1)",
     extensions: &["rsvo"],
     media_types: &["application/octet-stream"],

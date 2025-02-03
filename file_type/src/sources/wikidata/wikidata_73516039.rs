@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_73516039: FileFormat = FileFormat {
     id: 73_516_039,
-    puid: "wikidata/73516039",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Private Key format",
     extensions: &["pkv"],
     media_types: &["application/octet-stream"],

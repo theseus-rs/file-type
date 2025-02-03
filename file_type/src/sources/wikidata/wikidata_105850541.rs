@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850541: FileFormat = FileFormat {
     id: 105_850_541,
-    puid: "wikidata/105850541",
+    source_type: SourceType::Wikidata,
     name: "Forte Agent Charmap",
     extensions: &["cod"],
     media_types: &[],

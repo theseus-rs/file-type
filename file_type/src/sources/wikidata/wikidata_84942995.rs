@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_84942995: FileFormat = FileFormat {
     id: 84_942_995,
-    puid: "wikidata/84942995",
+    source_type: SourceType::Wikidata,
     name: "Sony PictureGear Studio PrintStudio",
     extensions: &["lmd", "lmu"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

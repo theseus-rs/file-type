@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_113577664: FileFormat = FileFormat {
     id: 113_577_664,
-    puid: "wikidata/113577664",
+    source_type: SourceType::Wikidata,
     name: "Philips/OptImage's Master tool",
     extensions: &["cd"],
     media_types: &[],

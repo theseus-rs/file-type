@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858100: FileFormat = FileFormat {
     id: 105_858_100,
-    puid: "wikidata/105858100",
+    source_type: SourceType::Wikidata,
     name: "Agat Emulator virtual Disk",
     extensions: &["dsk"],
     media_types: &["application/octet-stream"],

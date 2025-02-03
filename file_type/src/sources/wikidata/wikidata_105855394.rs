@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855394: FileFormat = FileFormat {
     id: 105_855_394,
-    puid: "wikidata/105855394",
+    source_type: SourceType::Wikidata,
     name: "Filter Forge filter",
     extensions: &["ffxml"],
     media_types: &["text/xml-filterforge-filter"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856886: FileFormat = FileFormat {
     id: 105_856_886,
-    puid: "wikidata/105856886",
+    source_type: SourceType::Wikidata,
     name: "Sensible Golf game save (Amiga)",
     extensions: &["glf"],
     media_types: &["application/octet-stream"],

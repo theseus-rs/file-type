@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_11880520770616751632: FileFormat = FileFormat {
-    id: 11_880_520_770_616_751_632,
-    puid: "httpd/11880520770616751632",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "americandynamics acc",
     extensions: &["acc"],
     media_types: &["application/vnd.americandynamics.acc"],

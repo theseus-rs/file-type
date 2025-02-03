@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855633: FileFormat = FileFormat {
     id: 105_855_633,
-    puid: "wikidata/105855633",
+    source_type: SourceType::Wikidata,
     name: "AutoPano project",
     extensions: &["oto"],
     media_types: &[],

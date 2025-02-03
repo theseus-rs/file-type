@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_58799889: FileFormat = FileFormat {
     id: 58_799_889,
-    puid: "wikidata/58799889",
+    source_type: SourceType::Wikidata,
     name: "PowerProject Teamplan",
     extensions: &["pdb"],
     media_types: &[],

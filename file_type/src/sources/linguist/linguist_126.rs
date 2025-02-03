@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_126: FileFormat = FileFormat {
     id: 126,
-    puid: "linguist/126",
+    source_type: SourceType::Linguist,
     name: "Genshi",
     extensions: &["kid"],
     media_types: &["text/xml"],

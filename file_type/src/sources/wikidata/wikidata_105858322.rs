@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858322: FileFormat = FileFormat {
     id: 105_858_322,
-    puid: "wikidata/105858322",
+    source_type: SourceType::Wikidata,
     name: "LEGO Mindstorms EV3 Program",
     extensions: &["ev3p"],
     media_types: &[],

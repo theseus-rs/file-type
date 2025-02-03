@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850766: FileFormat = FileFormat {
     id: 105_850_766,
-    puid: "wikidata/105850766",
+    source_type: SourceType::Wikidata,
     name: "Live For Speed Knowledge AI data",
     extensions: &["knw"],
     media_types: &["application/octet-stream"],

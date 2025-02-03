@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856442: FileFormat = FileFormat {
     id: 105_856_442,
-    puid: "wikidata/105856442",
+    source_type: SourceType::Wikidata,
     name: "Smart Software WorkSheet (v2.1)",
     extensions: &["ws"],
     media_types: &["application/octet-stream"],

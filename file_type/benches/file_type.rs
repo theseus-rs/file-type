@@ -28,13 +28,13 @@ fn bench_lifecycle(criterion: &mut Criterion) -> anyhow::Result<()> {
         .join("..")
         .join("testdata")
         .join("pronom")
-        .join("x-fmt-263-signature-id-200.zip");
+        .join("pronom-382-signature-id-200.zip");
     let bytes = fs::read(&file)?;
     let large_bytes = large_bytes();
 
     criterion.bench_function("from_id", |bencher| {
         bencher.iter(|| {
-            let _ = FileType::from_id("fmt/1");
+            let _ = FileType::from_id("pronom/1");
         });
     });
 

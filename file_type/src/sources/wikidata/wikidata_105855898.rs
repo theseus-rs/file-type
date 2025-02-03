@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855898: FileFormat = FileFormat {
     id: 105_855_898,
-    puid: "wikidata/105855898",
+    source_type: SourceType::Wikidata,
     name: "Magic Lantern DIFF animation",
     extensions: &["diff"],
     media_types: &["application/octet-stream"],

@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854865: FileFormat = FileFormat {
     id: 105_854_865,
-    puid: "wikidata/105854865",
+    source_type: SourceType::Wikidata,
     name: "ArduPilot JSON firmware",
     extensions: &["apj", "px4", "vrx"],
-    media_types: &["text/json", "text/json", "text/json"],
+    media_types: &["text/json"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865563: FileFormat = FileFormat {
     id: 105_865_563,
-    puid: "wikidata/105865563",
+    source_type: SourceType::Wikidata,
     name: "Windows Performance Monitor Alert",
     extensions: &["pma"],
     media_types: &["application/octet-stream"],

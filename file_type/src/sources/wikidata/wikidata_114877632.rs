@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_114877632: FileFormat = FileFormat {
     id: 114_877_632,
-    puid: "wikidata/114877632",
+    source_type: SourceType::Wikidata,
     name: "Scrapbook Factory Deluxe Slide Show file",
     extensions: &["sss"],
     media_types: &[],

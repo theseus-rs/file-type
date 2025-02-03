@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860272: FileFormat = FileFormat {
     id: 105_860_272,
-    puid: "wikidata/105860272",
+    source_type: SourceType::Wikidata,
     name: "Resume Builder 4.x",
     extensions: &["rb4"],
     media_types: &[],

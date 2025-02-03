@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855557: FileFormat = FileFormat {
     id: 105_855_557,
-    puid: "wikidata/105855557",
+    source_type: SourceType::Wikidata,
     name: "OpenIL/DevIL raster/animation format",
     extensions: &["oil"],
     media_types: &["application/octet-stream"],

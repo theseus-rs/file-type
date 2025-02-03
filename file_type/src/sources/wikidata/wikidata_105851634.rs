@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851634: FileFormat = FileFormat {
     id: 105_851_634,
-    puid: "wikidata/105851634",
+    source_type: SourceType::Wikidata,
     name: "Track Row Column markers data format",
     extensions: &["trc"],
     media_types: &["text/plain"],

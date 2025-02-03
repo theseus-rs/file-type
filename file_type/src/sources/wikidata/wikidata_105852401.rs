@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852401: FileFormat = FileFormat {
     id: 105_852_401,
-    puid: "wikidata/105852401",
+    source_type: SourceType::Wikidata,
     name: "Solace Virtual Northstar disk image",
     extensions: &["svn"],
     media_types: &["application/octet-stream"],

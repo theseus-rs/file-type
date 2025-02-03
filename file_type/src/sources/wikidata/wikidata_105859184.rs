@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859184: FileFormat = FileFormat {
     id: 105_859_184,
-    puid: "wikidata/105859184",
+    source_type: SourceType::Wikidata,
     name: "Nintendo GameCube/Wii 3D Model (ASCII)",
     extensions: &["bdl"],
     media_types: &[],

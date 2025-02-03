@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864484: FileFormat = FileFormat {
     id: 105_864_484,
-    puid: "wikidata/105864484",
+    source_type: SourceType::Wikidata,
     name: "PLM XML",
     extensions: &["plmxml"],
     media_types: &["text/xml"],

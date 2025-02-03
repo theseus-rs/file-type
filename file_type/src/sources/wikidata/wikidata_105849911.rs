@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849911: FileFormat = FileFormat {
     id: 105_849_911,
-    puid: "wikidata/105849911",
+    source_type: SourceType::Wikidata,
     name: "WinWorks Chart",
     extensions: &["cht"],
     media_types: &["application/octet-stream"],

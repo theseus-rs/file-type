@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_72724891: FileFormat = FileFormat {
     id: 72_724_891,
-    puid: "wikidata/72724891",
+    source_type: SourceType::Wikidata,
     name: "C64 NBZ disk image",
     extensions: &["nbz"],
     media_types: &["application/octet-stream"],

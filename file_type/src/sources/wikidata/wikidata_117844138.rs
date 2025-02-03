@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_117844138: FileFormat = FileFormat {
     id: 117_844_138,
-    puid: "wikidata/117844138",
+    source_type: SourceType::Wikidata,
     name: "Hayes JTFax file",
     extensions: &["jtf"],
     media_types: &[],

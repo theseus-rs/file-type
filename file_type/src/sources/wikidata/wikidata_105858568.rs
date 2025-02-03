@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858568: FileFormat = FileFormat {
     id: 105_858_568,
-    puid: "wikidata/105858568",
+    source_type: SourceType::Wikidata,
     name: "AMI BIOS logo/splash bitmap",
     extensions: &["grfx"],
     media_types: &["application/octet-stream"],

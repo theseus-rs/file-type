@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17758141517366411449: FileFormat = FileFormat {
-    id: 17_758_141_517_366_411_449,
-    puid: "httpd/17758141517366411449",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ms excel sheet binary macroenabled 12",
     extensions: &["xlsb"],
     media_types: &["application/vnd.ms-excel.sheet.binary.macroenabled.12"],

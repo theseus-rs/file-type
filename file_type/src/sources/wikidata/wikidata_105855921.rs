@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855921: FileFormat = FileFormat {
     id: 105_855_921,
-    puid: "wikidata/105855921",
+    source_type: SourceType::Wikidata,
     name: "Altera Design Library System list",
     extensions: &["dls"],
     media_types: &["text/plain"],

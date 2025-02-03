@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_113330940: FileFormat = FileFormat {
     id: 113_330_940,
-    puid: "wikidata/113330940",
+    source_type: SourceType::Wikidata,
     name: "Epson Publisher Description File",
     extensions: &["esy"],
     media_types: &[],

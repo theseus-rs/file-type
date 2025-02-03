@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856645: FileFormat = FileFormat {
     id: 105_856_645,
-    puid: "wikidata/105856645",
+    source_type: SourceType::Wikidata,
     name: "Verity Collection Index Descriptor",
     extensions: &["wld"],
     media_types: &["application/octet-stream"],

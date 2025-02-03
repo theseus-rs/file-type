@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855263: FileFormat = FileFormat {
     id: 105_855_263,
-    puid: "wikidata/105855263",
+    source_type: SourceType::Wikidata,
     name: "Phoenix Visual Designer form",
     extensions: &["frm"],
     media_types: &[],

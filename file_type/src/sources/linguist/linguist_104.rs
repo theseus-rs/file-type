@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_104: FileFormat = FileFormat {
     id: 104,
-    puid: "linguist/104",
+    source_type: SourceType::Linguist,
     name: "Erlang",
     extensions: &[
         "app", "app.src", "erl", "es", "escript", "hrl", "xrl", "yrl",

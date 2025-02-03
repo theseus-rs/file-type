@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863258: FileFormat = FileFormat {
     id: 105_863_258,
-    puid: "wikidata/105863258",
+    source_type: SourceType::Wikidata,
     name: "Bitwig Studio multisample",
     extensions: &["multisample"],
     media_types: &["application/octet-stream"],

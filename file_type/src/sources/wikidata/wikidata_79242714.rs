@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_79242714: FileFormat = FileFormat {
     id: 79_242_714,
-    puid: "wikidata/79242714",
+    source_type: SourceType::Wikidata,
     name: "Lotus Approach Database index",
     extensions: &["adx"],
     media_types: &[],

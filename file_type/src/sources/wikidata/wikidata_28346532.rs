@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28346532: FileFormat = FileFormat {
     id: 28_346_532,
-    puid: "wikidata/28346532",
+    source_type: SourceType::Wikidata,
     name: "Amiga bitmap font",
     extensions: &["font"],
     media_types: &["application/octet-stream"],

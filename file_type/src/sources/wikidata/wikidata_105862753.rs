@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862753: FileFormat = FileFormat {
     id: 105_862_753,
-    puid: "wikidata/105862753",
+    source_type: SourceType::Wikidata,
     name: "TMPEGEnc config file",
     extensions: &["mcf"],
     media_types: &[],

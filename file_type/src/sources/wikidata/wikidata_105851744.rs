@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851744: FileFormat = FileFormat {
     id: 105_851_744,
-    puid: "wikidata/105851744",
+    source_type: SourceType::Wikidata,
     name: "CodeView 4 Symbolic debug information",
     extensions: &["sym"],
     media_types: &["application/octet-stream"],

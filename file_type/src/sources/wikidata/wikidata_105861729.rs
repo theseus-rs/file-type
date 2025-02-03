@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861729: FileFormat = FileFormat {
     id: 105_861_729,
-    puid: "wikidata/105861729",
+    source_type: SourceType::Wikidata,
     name: "ANIMagic DVE Map",
     extensions: &["map"],
     media_types: &["text/plain"],

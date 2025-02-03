@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_95985268: FileFormat = FileFormat {
     id: 95_985_268,
-    puid: "wikidata/95985268",
+    source_type: SourceType::Wikidata,
     name: "Affymetrix CEL file format",
     extensions: &["cel"],
     media_types: &["text/plain"],

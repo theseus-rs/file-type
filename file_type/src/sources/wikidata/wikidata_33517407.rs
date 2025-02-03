@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_33517407: FileFormat = FileFormat {
     id: 33_517_407,
-    puid: "wikidata/33517407",
+    source_type: SourceType::Wikidata,
     name: "E57 Lidar Point Cloud Format",
     extensions: &["e57"],
     media_types: &["model/e57"],

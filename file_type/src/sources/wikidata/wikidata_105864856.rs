@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864856: FileFormat = FileFormat {
     id: 105_864_856,
-    puid: "wikidata/105864856",
+    source_type: SourceType::Wikidata,
     name: "Call Of Duty: Finest Hour game data archive",
     extensions: &["pak"],
     media_types: &["application/octet-stream"],

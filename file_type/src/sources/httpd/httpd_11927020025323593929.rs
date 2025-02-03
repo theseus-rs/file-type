@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_11927020025323593929: FileFormat = FileFormat {
-    id: 11_927_020_025_323_593_929,
-    puid: "httpd/11927020025323593929",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "envoy",
     extensions: &["evy"],
     media_types: &["application/x-envoy"],

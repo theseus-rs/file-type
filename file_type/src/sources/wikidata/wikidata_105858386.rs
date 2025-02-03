@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858386: FileFormat = FileFormat {
     id: 105_858_386,
-    puid: "wikidata/105858386",
+    source_type: SourceType::Wikidata,
     name: "E-mu Emulator III sample",
     extensions: &["ez3"],
     media_types: &["application/octet-stream"],

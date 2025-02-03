@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866209: FileFormat = FileFormat {
     id: 105_866_209,
-    puid: "wikidata/105866209",
+    source_type: SourceType::Wikidata,
     name: "PC-BSD Installer Package",
     extensions: &["pbi"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857887: FileFormat = FileFormat {
     id: 105_857_887,
-    puid: "wikidata/105857887",
+    source_type: SourceType::Wikidata,
     name: "Libretro core Information",
     extensions: &["info"],
     media_types: &["application/octet-stream"],

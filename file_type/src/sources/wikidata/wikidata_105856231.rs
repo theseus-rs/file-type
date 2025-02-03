@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856231: FileFormat = FileFormat {
     id: 105_856_231,
-    puid: "wikidata/105856231",
+    source_type: SourceType::Wikidata,
     name: "DocBook document (v5.x)",
     extensions: &["dbk", "xml"],
-    media_types: &["application/docbook+xml", "application/docbook+xml"],
+    media_types: &["application/docbook+xml"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

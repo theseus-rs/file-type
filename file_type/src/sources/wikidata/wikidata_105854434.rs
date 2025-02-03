@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854434: FileFormat = FileFormat {
     id: 105_854_434,
-    puid: "wikidata/105854434",
+    source_type: SourceType::Wikidata,
     name: "BLINK compressed archive",
     extensions: &["bli"],
     media_types: &[],

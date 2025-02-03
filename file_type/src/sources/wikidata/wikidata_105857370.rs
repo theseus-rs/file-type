@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857370: FileFormat = FileFormat {
     id: 105_857_370,
-    puid: "wikidata/105857370",
+    source_type: SourceType::Wikidata,
     name: "JasperReports Print",
     extensions: &["jrprint"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856927: FileFormat = FileFormat {
     id: 105_856_927,
-    puid: "wikidata/105856927",
+    source_type: SourceType::Wikidata,
     name: "Reverge Package game data",
     extensions: &["gfs"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864044: FileFormat = FileFormat {
     id: 105_864_044,
-    puid: "wikidata/105864044",
+    source_type: SourceType::Wikidata,
     name: "MATLAB app installer",
     extensions: &["mlappinstall"],
     media_types: &["application/octet-stream"],

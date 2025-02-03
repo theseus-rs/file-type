@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852064: FileFormat = FileFormat {
     id: 105_852_064,
-    puid: "wikidata/105852064",
+    source_type: SourceType::Wikidata,
     name: "StupenDOS external Settings",
     extensions: &["set"],
     media_types: &["application/octet-stream"],

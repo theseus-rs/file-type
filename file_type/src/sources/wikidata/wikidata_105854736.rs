@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854736: FileFormat = FileFormat {
     id: 105_854_736,
-    puid: "wikidata/105854736",
+    source_type: SourceType::Wikidata,
     name: "CMV compressed data",
     extensions: &["cmv"],
     media_types: &["application/octet-stream"],

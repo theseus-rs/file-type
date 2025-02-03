@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864712: FileFormat = FileFormat {
     id: 105_864_712,
-    puid: "wikidata/105864712",
+    source_type: SourceType::Wikidata,
     name: "Linux perf file format",
     extensions: &["perf"],
     media_types: &["application/octet-stream"],

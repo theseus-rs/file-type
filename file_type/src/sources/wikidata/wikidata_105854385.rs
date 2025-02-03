@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854385: FileFormat = FileFormat {
     id: 105_854_385,
-    puid: "wikidata/105854385",
+    source_type: SourceType::Wikidata,
     name: "Timex Datalink Wristapp file",
     extensions: &["app"],
     media_types: &[],

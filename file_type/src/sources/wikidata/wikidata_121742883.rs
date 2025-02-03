@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_121742883: FileFormat = FileFormat {
     id: 121_742_883,
-    puid: "wikidata/121742883",
+    source_type: SourceType::Wikidata,
     name: "The Master Genealogist Project",
     extensions: &["pjc"],
     media_types: &[],

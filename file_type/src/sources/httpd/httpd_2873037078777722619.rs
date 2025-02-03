@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2873037078777722619: FileFormat = FileFormat {
-    id: 2_873_037_078_777_722_619,
-    puid: "httpd/2873037078777722619",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mj2",
     extensions: &["mj2", "mjp2"],
     media_types: &["video/mj2"],

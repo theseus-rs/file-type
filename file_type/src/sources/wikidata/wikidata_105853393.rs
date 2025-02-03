@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853393: FileFormat = FileFormat {
     id: 105_853_393,
-    puid: "wikidata/105853393",
+    source_type: SourceType::Wikidata,
     name: "Panda Signature file system",
     extensions: &["sig"],
     media_types: &[],

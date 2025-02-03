@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14275005348846661619: FileFormat = FileFormat {
-    id: 14_275_005_348_846_661_619,
-    puid: "httpd/14275005348846661619",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "fortran",
     extensions: &["f", "for", "f77", "f90"],
     media_types: &["text/x-fortran"],

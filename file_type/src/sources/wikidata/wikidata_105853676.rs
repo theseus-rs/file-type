@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853676: FileFormat = FileFormat {
     id: 105_853_676,
-    puid: "wikidata/105853676",
+    source_type: SourceType::Wikidata,
     name: "AOS File Format",
     extensions: &["aos"],
     media_types: &["application/octet-stream"],

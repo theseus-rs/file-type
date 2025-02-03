@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849816: FileFormat = FileFormat {
     id: 105_849_816,
-    puid: "wikidata/105849816",
+    source_type: SourceType::Wikidata,
     name: "cFosSpeed registration key",
     extensions: &["cfosspeed"],
     media_types: &["text/plain"],

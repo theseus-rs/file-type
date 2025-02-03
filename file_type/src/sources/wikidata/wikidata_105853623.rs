@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853623: FileFormat = FileFormat {
     id: 105_853_623,
-    puid: "wikidata/105853623",
+    source_type: SourceType::Wikidata,
     name: "Autodesk material Library",
     extensions: &["adsklib"],
     media_types: &["application/octet-stream"],

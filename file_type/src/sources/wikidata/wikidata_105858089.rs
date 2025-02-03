@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858089: FileFormat = FileFormat {
     id: 105_858_089,
-    puid: "wikidata/105858089",
+    source_type: SourceType::Wikidata,
     name: "Adobe Type Manager Font Information",
     extensions: &["inf"],
     media_types: &["application/octet-stream"],

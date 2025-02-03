@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856551: FileFormat = FileFormat {
     id: 105_856_551,
-    puid: "wikidata/105856551",
+    source_type: SourceType::Wikidata,
     name: "Nokia S60 Web Runtime Widget Package",
     extensions: &["wgz"],
     media_types: &[],

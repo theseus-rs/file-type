@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856975: FileFormat = FileFormat {
     id: 105_856_975,
-    puid: "wikidata/105856975",
+    source_type: SourceType::Wikidata,
     name: "Beaver Sweeper module",
     extensions: &["gtk"],
     media_types: &["audio/x-mod"],

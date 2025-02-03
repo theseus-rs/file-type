@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858547: FileFormat = FileFormat {
     id: 105_858_547,
-    puid: "wikidata/105858547",
+    source_type: SourceType::Wikidata,
     name: "Borland Graphics printer driver (v2.x)",
     extensions: &["bgi"],
     media_types: &["application/octet-stream"],

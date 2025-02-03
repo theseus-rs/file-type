@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853908: FileFormat = FileFormat {
     id: 105_853_908,
-    puid: "wikidata/105853908",
+    source_type: SourceType::Wikidata,
     name: "Alibre Design Drawing",
     extensions: &["ad_drw"],
     media_types: &["application/octet-stream"],

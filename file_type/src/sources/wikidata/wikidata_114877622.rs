@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_114877622: FileFormat = FileFormat {
     id: 114_877_622,
-    puid: "wikidata/114877622",
+    source_type: SourceType::Wikidata,
     name: "Scrapbook Factory Deluxe Family Tree file",
     extensions: &["sft"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858983: FileFormat = FileFormat {
     id: 105_858_983,
-    puid: "wikidata/105858983",
+    source_type: SourceType::Wikidata,
     name: "Safari Cookies",
     extensions: &["binarycookies"],
     media_types: &["application/octet-stream"],

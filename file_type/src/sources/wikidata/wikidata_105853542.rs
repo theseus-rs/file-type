@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853542: FileFormat = FileFormat {
     id: 105_853_542,
-    puid: "wikidata/105853542",
+    source_type: SourceType::Wikidata,
     name: "ZGameEditor project",
     extensions: &["zgeproj"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857772: FileFormat = FileFormat {
     id: 105_857_772,
-    puid: "wikidata/105857772",
+    source_type: SourceType::Wikidata,
     name: "iMELODY sound/music (header less)",
     extensions: &["imelody", "imy"],
     media_types: &[],

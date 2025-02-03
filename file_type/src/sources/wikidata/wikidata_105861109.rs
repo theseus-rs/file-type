@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861109: FileFormat = FileFormat {
     id: 105_861_109,
-    puid: "wikidata/105861109",
+    source_type: SourceType::Wikidata,
     name: "VirtualBus Language",
     extensions: &["lng"],
     media_types: &["text/plain"],

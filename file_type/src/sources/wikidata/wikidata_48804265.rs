@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_48804265: FileFormat = FileFormat {
     id: 48_804_265,
-    puid: "wikidata/48804265",
+    source_type: SourceType::Wikidata,
     name: "Paradox Database Memo Field",
     extensions: &["dbq", "mb"],
     media_types: &[],

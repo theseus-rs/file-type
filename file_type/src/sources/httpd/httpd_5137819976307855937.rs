@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5137819976307855937: FileFormat = FileFormat {
-    id: 5_137_819_976_307_855_937,
-    puid: "httpd/5137819976307855937",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "smil xml",
     extensions: &["smi", "smil"],
     media_types: &["application/smil+xml"],

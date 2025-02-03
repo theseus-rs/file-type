@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866819: FileFormat = FileFormat {
     id: 105_866_819,
-    puid: "wikidata/105866819",
+    source_type: SourceType::Wikidata,
     name: "Xcode perspective",
     extensions: &["perspective"],
     media_types: &[],

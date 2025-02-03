@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856656: FileFormat = FileFormat {
     id: 105_856_656,
-    puid: "wikidata/105856656",
+    source_type: SourceType::Wikidata,
     name: "id Software's DOOM Patch-WAD",
     extensions: &["wad"],
     media_types: &[],

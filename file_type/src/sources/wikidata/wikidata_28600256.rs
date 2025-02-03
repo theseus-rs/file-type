@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28600256: FileFormat = FileFormat {
     id: 28_600_256,
-    puid: "wikidata/28600256",
+    source_type: SourceType::Wikidata,
     name: "ASCII Encoded HP 48 Object",
     extensions: &["asc"],
     media_types: &["text/plain"],

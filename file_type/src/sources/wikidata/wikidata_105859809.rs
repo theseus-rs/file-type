@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859809: FileFormat = FileFormat {
     id: 105_859_809,
-    puid: "wikidata/105859809",
+    source_type: SourceType::Wikidata,
     name: "PlayStation Vita Application Package",
     extensions: &["vpk"],
     media_types: &["application/octet-stream"],

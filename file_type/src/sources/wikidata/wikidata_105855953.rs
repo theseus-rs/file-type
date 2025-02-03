@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855953: FileFormat = FileFormat {
     id: 105_855_953,
-    puid: "wikidata/105855953",
+    source_type: SourceType::Wikidata,
     name: "Vivid DiffSet (UTF-8)",
     extensions: &["dsx"],
     media_types: &["text/xml"],

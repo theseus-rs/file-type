@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27960023: FileFormat = FileFormat {
     id: 27_960_023,
-    puid: "wikidata/27960023",
+    source_type: SourceType::Wikidata,
     name: "Tom's lossless Audio Kompressor",
     extensions: &["tak"],
     media_types: &["audio/x-tak"],

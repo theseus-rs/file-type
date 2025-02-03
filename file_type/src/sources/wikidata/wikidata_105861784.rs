@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861784: FileFormat = FileFormat {
     id: 105_861_784,
-    puid: "wikidata/105861784",
+    source_type: SourceType::Wikidata,
     name: "MAIET Encrypted File System",
     extensions: &["mef"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_50825846: FileFormat = FileFormat {
     id: 50_825_846,
-    puid: "wikidata/50825846",
+    source_type: SourceType::Wikidata,
     name: "AVCHD Thumbnail Index File",
     extensions: &["tid"],
     media_types: &[],

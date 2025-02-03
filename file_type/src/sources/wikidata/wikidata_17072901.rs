@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_17072901: FileFormat = FileFormat {
     id: 17_072_901,
-    puid: "wikidata/17072901",
+    source_type: SourceType::Wikidata,
     name: "Open Game Engine Exchange",
     extensions: &["ogex"],
     media_types: &["model/vnd.opengex"],

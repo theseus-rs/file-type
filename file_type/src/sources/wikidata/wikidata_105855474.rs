@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855474: FileFormat = FileFormat {
     id: 105_855_474,
-    puid: "wikidata/105855474",
+    source_type: SourceType::Wikidata,
     name: "FinalBuilder 7 Project",
     extensions: &["fbp7"],
     media_types: &[],

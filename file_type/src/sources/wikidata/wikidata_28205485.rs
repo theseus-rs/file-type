@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205485: FileFormat = FileFormat {
     id: 28_205_485,
-    puid: "wikidata/28205485",
+    source_type: SourceType::Wikidata,
     name: "AMOS Icon Bank",
     extensions: &["abk"],
     media_types: &["application/octet-stream"],

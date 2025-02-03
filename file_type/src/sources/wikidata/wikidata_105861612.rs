@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861612: FileFormat = FileFormat {
     id: 105_861_612,
-    puid: "wikidata/105861612",
+    source_type: SourceType::Wikidata,
     name: "CWLS Log ASCII Standard",
     extensions: &["las"],
     media_types: &["text/plain"],

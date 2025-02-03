@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_110238400: FileFormat = FileFormat {
     id: 110_238_400,
-    puid: "wikidata/110238400",
+    source_type: SourceType::Wikidata,
     name: "Screenwriter 6 file format",
     extensions: &["mmsw"],
     media_types: &[],

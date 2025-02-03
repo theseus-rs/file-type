@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864748: FileFormat = FileFormat {
     id: 105_864_748,
-    puid: "wikidata/105864748",
+    source_type: SourceType::Wikidata,
     name: "Novell System PrintDef Device Definition",
     extensions: &["pdf"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_5519821: FileFormat = FileFormat {
     id: 5_519_821,
-    puid: "wikidata/5519821",
+    source_type: SourceType::Wikidata,
     name: "Game Boy Sound",
     extensions: &["gbs"],
     media_types: &["application/octet-stream"],

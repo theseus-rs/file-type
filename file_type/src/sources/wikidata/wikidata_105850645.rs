@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850645: FileFormat = FileFormat {
     id: 105_850_645,
-    puid: "wikidata/105850645",
+    source_type: SourceType::Wikidata,
     name: "Knowledge Master Concept Map",
     extensions: &["kmp"],
     media_types: &["application/octet-stream"],

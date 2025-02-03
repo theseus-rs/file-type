@@ -1,12 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_2193155: FileFormat = FileFormat {
     id: 2_193_155,
-    puid: "wikidata/2193155",
+    source_type: SourceType::Wikidata,
     name: "Java class file",
-    extensions: &[
-        "class", "class", "class", "class", "class", "class", "class",
-    ],
+    extensions: &["class"],
     media_types: &[
         "application/java",
         "application/java-byte-code",

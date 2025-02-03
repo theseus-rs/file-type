@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859669: FileFormat = FileFormat {
     id: 105_859_669,
-    puid: "wikidata/105859669",
+    source_type: SourceType::Wikidata,
     name: "StarOffice template (generic)",
     extensions: &["vor"],
     media_types: &["application/octet-stream"],

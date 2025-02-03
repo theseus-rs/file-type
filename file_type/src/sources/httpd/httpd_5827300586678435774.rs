@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5827300586678435774: FileFormat = FileFormat {
-    id: 5_827_300_586_678_435_774,
-    puid: "httpd/5827300586678435774",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mophun certificate",
     extensions: &["mpc"],
     media_types: &["application/vnd.mophun.certificate"],

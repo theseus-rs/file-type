@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853198: FileFormat = FileFormat {
     id: 105_853_198,
-    puid: "wikidata/105853198",
+    source_type: SourceType::Wikidata,
     name: "BeepFX Sound Effects Project (v2)",
     extensions: &["spj"],
     media_types: &["application/octet-stream"],

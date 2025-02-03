@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860083: FileFormat = FileFormat {
     id: 105_860_083,
-    puid: "wikidata/105860083",
+    source_type: SourceType::Wikidata,
     name: "Vegas Window Layout",
     extensions: &["vegaswindowlayout"],
     media_types: &[],

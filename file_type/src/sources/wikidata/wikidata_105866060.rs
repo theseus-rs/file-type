@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866060: FileFormat = FileFormat {
     id: 105_866_060,
-    puid: "wikidata/105866060",
+    source_type: SourceType::Wikidata,
     name: "Protracker Studio 16 module/song",
     extensions: &["ps16", "psm"],
     media_types: &[],

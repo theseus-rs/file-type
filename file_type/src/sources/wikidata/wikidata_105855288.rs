@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855288: FileFormat = FileFormat {
     id: 105_855_288,
-    puid: "wikidata/105855288",
+    source_type: SourceType::Wikidata,
     name: "Face The Music Effect",
     extensions: &["ef"],
     media_types: &["application/octet-stream"],

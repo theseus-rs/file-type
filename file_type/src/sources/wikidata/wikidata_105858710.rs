@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858710: FileFormat = FileFormat {
     id: 105_858_710,
-    puid: "wikidata/105858710",
+    source_type: SourceType::Wikidata,
     name: "ST-6 astrocamera bitmap",
     extensions: &["st6"],
     media_types: &["application/octet-stream"],

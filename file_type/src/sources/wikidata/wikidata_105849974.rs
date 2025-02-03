@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849974: FileFormat = FileFormat {
     id: 105_849_974,
-    puid: "wikidata/105849974",
+    source_type: SourceType::Wikidata,
     name: "Vectric Aspire 3D drawing",
     extensions: &["crv3d"],
     media_types: &["application/octet-stream"],

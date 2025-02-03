@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854863: FileFormat = FileFormat {
     id: 105_854_863,
-    puid: "wikidata/105854863",
+    source_type: SourceType::Wikidata,
     name: "Propellerhead Software Reason SoundBank",
     extensions: &["rfl"],
     media_types: &[],

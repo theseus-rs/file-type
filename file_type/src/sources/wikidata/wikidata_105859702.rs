@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859702: FileFormat = FileFormat {
     id: 105_859_702,
-    puid: "wikidata/105859702",
+    source_type: SourceType::Wikidata,
     name: "Vioso warp/blend data",
     extensions: &["vwf"],
     media_types: &["application/octet-stream"],

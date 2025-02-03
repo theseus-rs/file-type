@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859768: FileFormat = FileFormat {
     id: 105_859_768,
-    puid: "wikidata/105859768",
+    source_type: SourceType::Wikidata,
     name: "CRYO HNM4 video",
     extensions: &["hnm"],
     media_types: &["application/octet-stream"],

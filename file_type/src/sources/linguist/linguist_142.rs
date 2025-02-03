@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_142: FileFormat = FileFormat {
     id: 142,
-    puid: "linguist/142",
+    source_type: SourceType::Linguist,
     name: "Groovy",
     extensions: &["groovy", "grt", "gtpl", "gvy"],
     media_types: &["text/x-groovy"],

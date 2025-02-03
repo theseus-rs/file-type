@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855601: FileFormat = FileFormat {
     id: 105_855_601,
-    puid: "wikidata/105855601",
+    source_type: SourceType::Wikidata,
     name: "OpenTimestamps proof",
     extensions: &["ots"],
     media_types: &["application/octet-stream"],

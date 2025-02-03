@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853725: FileFormat = FileFormat {
     id: 105_853_725,
-    puid: "wikidata/105853725",
+    source_type: SourceType::Wikidata,
     name: "Winamp Advanced Visualization Studio File",
     extensions: &["avs"],
     media_types: &[],

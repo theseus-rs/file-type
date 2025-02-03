@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859666: FileFormat = FileFormat {
     id: 105_859_666,
-    puid: "wikidata/105859666",
+    source_type: SourceType::Wikidata,
     name: "Vixen 2 Timed sequence",
     extensions: &["vix"],
     media_types: &["text/xml"],

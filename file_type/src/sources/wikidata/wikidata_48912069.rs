@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_48912069: FileFormat = FileFormat {
     id: 48_912_069,
-    puid: "wikidata/48912069",
+    source_type: SourceType::Wikidata,
     name: "IntelliDraw Vector Graphics",
     extensions: &["idw"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849708: FileFormat = FileFormat {
     id: 105_849_708,
-    puid: "wikidata/105849708",
+    source_type: SourceType::Wikidata,
     name: "Agat Emulator Configuration",
     extensions: &["cfg"],
     media_types: &["application/octet-stream"],

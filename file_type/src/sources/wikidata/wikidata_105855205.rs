@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855205: FileFormat = FileFormat {
     id: 105_855_205,
-    puid: "wikidata/105855205",
+    source_type: SourceType::Wikidata,
     name: "FastCAD for Windows drawing (V7)",
     extensions: &["fc7"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852425: FileFormat = FileFormat {
     id: 105_852_425,
-    puid: "wikidata/105852425",
+    source_type: SourceType::Wikidata,
     name: "SPSS Type Library",
     extensions: &["tlb"],
     media_types: &[],

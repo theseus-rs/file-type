@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_65990344: FileFormat = FileFormat {
     id: 65_990_344,
-    puid: "wikidata/65990344",
+    source_type: SourceType::Wikidata,
     name: "Adobe Premiere Project",
     extensions: &["ppj"],
     media_types: &[],

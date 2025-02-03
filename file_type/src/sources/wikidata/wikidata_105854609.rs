@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854609: FileFormat = FileFormat {
     id: 105_854_609,
-    puid: "wikidata/105854609",
+    source_type: SourceType::Wikidata,
     name: "AptiQuiz quiz data",
     extensions: &["aq1"],
     media_types: &[],

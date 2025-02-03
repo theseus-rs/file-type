@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_119217744: FileFormat = FileFormat {
     id: 119_217_744,
-    puid: "wikidata/119217744",
+    source_type: SourceType::Wikidata,
     name: "QuickBooks Accountant's Copy Work File",
     extensions: &["qba"],
     media_types: &[],

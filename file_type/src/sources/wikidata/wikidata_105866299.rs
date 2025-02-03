@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866299: FileFormat = FileFormat {
     id: 105_866_299,
-    puid: "wikidata/105866299",
+    source_type: SourceType::Wikidata,
     name: "Parity Archive Volume Set (Par1)",
     extensions: &["par"],
     media_types: &["application/x-par"],

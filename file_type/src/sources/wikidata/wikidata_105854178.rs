@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854178: FileFormat = FileFormat {
     id: 105_854_178,
-    puid: "wikidata/105854178",
+    source_type: SourceType::Wikidata,
     name: "AkAbak Script",
     extensions: &["aks"],
     media_types: &[],

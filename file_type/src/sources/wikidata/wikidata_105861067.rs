@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861067: FileFormat = FileFormat {
     id: 105_861_067,
-    puid: "wikidata/105861067",
+    source_type: SourceType::Wikidata,
     name: "MiAmiga Ledger data",
     extensions: &["lgr"],
     media_types: &["application/octet-stream"],

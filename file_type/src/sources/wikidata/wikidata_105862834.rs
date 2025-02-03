@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862834: FileFormat = FileFormat {
     id: 105_862_834,
-    puid: "wikidata/105862834",
+    source_type: SourceType::Wikidata,
     name: "ModBus Configuration",
     extensions: &["mbc"],
     media_types: &["text/xml"],

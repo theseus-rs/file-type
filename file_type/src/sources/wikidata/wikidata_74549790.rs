@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_74549790: FileFormat = FileFormat {
     id: 74_549_790,
-    puid: "wikidata/74549790",
+    source_type: SourceType::Wikidata,
     name: "Expert Witness compression Format SMART disk image",
     extensions: &["s01"],
     media_types: &[],

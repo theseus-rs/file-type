@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861735: FileFormat = FileFormat {
     id: 105_861_735,
-    puid: "wikidata/105861735",
+    source_type: SourceType::Wikidata,
     name: "MegaPaint plug-in Module",
     extensions: &["mod"],
     media_types: &["application/octet-stream"],

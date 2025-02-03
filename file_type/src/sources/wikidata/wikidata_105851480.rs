@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851480: FileFormat = FileFormat {
     id: 105_851_480,
-    puid: "wikidata/105851480",
+    source_type: SourceType::Wikidata,
     name: "TeamViewer Session",
     extensions: &["tvs"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_15991374402993791424: FileFormat = FileFormat {
-    id: 15_991_374_402_993_791_424,
-    puid: "httpd/15991374402993791424",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ibm minipay",
     extensions: &["mpy"],
     media_types: &["application/vnd.ibm.minipay"],

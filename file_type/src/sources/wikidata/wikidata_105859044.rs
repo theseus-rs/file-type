@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859044: FileFormat = FileFormat {
     id: 105_859_044,
-    puid: "wikidata/105859044",
+    source_type: SourceType::Wikidata,
     name: "Plane Minimizing Bitmap Compression bitmap",
     extensions: &["pmbc"],
     media_types: &["application/octet-stream"],

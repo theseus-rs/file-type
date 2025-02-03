@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855350: FileFormat = FileFormat {
     id: 105_855_350,
-    puid: "wikidata/105855350",
+    source_type: SourceType::Wikidata,
     name: "Sony FlashTool Firmware",
     extensions: &["ftf"],
     media_types: &["application/octet-stream"],

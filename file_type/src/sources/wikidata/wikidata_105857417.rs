@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857417: FileFormat = FileFormat {
     id: 105_857_417,
-    puid: "wikidata/105857417",
+    source_type: SourceType::Wikidata,
     name: "JavaScript Flash Obfuscated",
     extensions: &["jsfl"],
     media_types: &["application/octet-stream"],

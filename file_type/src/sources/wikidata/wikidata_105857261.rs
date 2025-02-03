@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857261: FileFormat = FileFormat {
     id: 105_857_261,
-    puid: "wikidata/105857261",
+    source_type: SourceType::Wikidata,
     name: "RTFGEN Help Source",
     extensions: &["hps"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205935: FileFormat = FileFormat {
     id: 28_205_935,
-    puid: "wikidata/28205935",
+    source_type: SourceType::Wikidata,
     name: "Doodle! compressed image",
     extensions: &["jj"],
     media_types: &["application/octet-stream"],

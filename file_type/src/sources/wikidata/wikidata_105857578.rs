@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857578: FileFormat = FileFormat {
     id: 105_857_578,
-    puid: "wikidata/105857578",
+    source_type: SourceType::Wikidata,
     name: "SAM Coupe Pro-DOS disk image",
     extensions: &["dsk"],
     media_types: &["application/octet-stream"],

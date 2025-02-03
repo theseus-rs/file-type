@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858313: FileFormat = FileFormat {
     id: 105_858_313,
-    puid: "wikidata/105858313",
+    source_type: SourceType::Wikidata,
     name: "Etherpad document",
     extensions: &["etherpad"],
     media_types: &["text/json"],

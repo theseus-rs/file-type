@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858005: FileFormat = FileFormat {
     id: 105_858_005,
-    puid: "wikidata/105858005",
+    source_type: SourceType::Wikidata,
     name: "Indigo Image",
     extensions: &["igi"],
     media_types: &["application/octet-stream"],

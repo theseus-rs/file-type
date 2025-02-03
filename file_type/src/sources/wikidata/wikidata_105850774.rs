@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850774: FileFormat = FileFormat {
     id: 105_850_774,
-    puid: "wikidata/105850774",
+    source_type: SourceType::Wikidata,
     name: "Klystrack Instrument",
     extensions: &["ki"],
     media_types: &["application/octet-stream"],

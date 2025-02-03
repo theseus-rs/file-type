@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851576: FileFormat = FileFormat {
     id: 105_851_576,
-    puid: "wikidata/105851576",
+    source_type: SourceType::Wikidata,
     name: "Peria Chronicles game data archive",
     extensions: &["tarc"],
     media_types: &["application/octet-stream"],

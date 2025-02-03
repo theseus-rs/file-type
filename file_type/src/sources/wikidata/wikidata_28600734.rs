@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28600734: FileFormat = FileFormat {
     id: 28_600_734,
-    puid: "wikidata/28600734",
+    source_type: SourceType::Wikidata,
     name: "ESRI Arc/Info Export File",
     extensions: &["X00", "e00", "x00"],
-    media_types: &["text/plain", "text/plain", "text/plain"],
+    media_types: &["text/plain"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

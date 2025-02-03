@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859594: FileFormat = FileFormat {
     id: 105_859_594,
-    puid: "wikidata/105859594",
+    source_type: SourceType::Wikidata,
     name: "Shrew VPN configuration",
     extensions: &["vpn"],
     media_types: &[],

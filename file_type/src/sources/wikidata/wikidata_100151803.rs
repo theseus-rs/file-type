@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_100151803: FileFormat = FileFormat {
     id: 100_151_803,
-    puid: "wikidata/100151803",
+    source_type: SourceType::Wikidata,
     name: "Muvee autoProducer Project File, version 6",
     extensions: &["mvex"],
     media_types: &[],

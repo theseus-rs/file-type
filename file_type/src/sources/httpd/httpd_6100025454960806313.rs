@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6100025454960806313: FileFormat = FileFormat {
-    id: 6_100_025_454_960_806_313,
-    puid: "httpd/6100025454960806313",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "dpgraph",
     extensions: &["dpg"],
     media_types: &["application/vnd.dpgraph"],

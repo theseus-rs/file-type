@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858169: FileFormat = FileFormat {
     id: 105_858_169,
-    puid: "wikidata/105858169",
+    source_type: SourceType::Wikidata,
     name: "EyesWeb patch (XML)",
     extensions: &["eywx"],
     media_types: &["text/xml"],

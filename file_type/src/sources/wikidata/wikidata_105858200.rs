@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858200: FileFormat = FileFormat {
     id: 105_858_200,
-    puid: "wikidata/105858200",
+    source_type: SourceType::Wikidata,
     name: "Real-Time Sound Processor II Effect",
     extensions: &["eff"],
     media_types: &["application/octet-stream"],

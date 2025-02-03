@@ -4,7 +4,7 @@
 #![deny(clippy::unwrap_used)]
 
 use anyhow::Result;
-use file_type::format::{FileFormat, Source};
+use file_type::format::{FileFormat, Source, SourceType};
 use reqwest::Client;
 use std::collections::HashMap;
 use std::env;
@@ -126,7 +126,6 @@ fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Result<Vec<Fi
         let mut hasher = DefaultHasher::new();
         mime_type.hash(&mut hasher);
         let hash = usize::try_from(hasher.finish())?;
-        let puid = format!("httpd/{hash}");
         let name = mime_type.as_str().split_once('/').unwrap_or_default().1;
         let name = name
             .trim_start_matches("vnd.")
@@ -134,7 +133,7 @@ fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Result<Vec<Fi
             .replace(['-', '+', '.'], " ");
         let file_format = FileFormat {
             id: hash,
-            puid: Box::leak(puid.into_boxed_str()),
+            source_type: SourceType::Httpd,
             name: Box::leak(name.into_boxed_str()),
             extensions: Box::leak(extensions.into_boxed_slice()),
             media_types: Box::leak(media_types.into_boxed_slice()),
@@ -154,13 +153,13 @@ async fn generate_source_code(
     // Generate the module file
     let mut source_code = vec!["use crate::format::FileFormat;".to_string(), String::new()];
     for file_format in file_formats {
-        let name = file_format.puid.replace('/', "_");
+        let name = format!("httpd_{}", file_format.id);
         source_code.push(format!("mod {name};"));
     }
     source_code.push(String::new());
     source_code.push("pub(crate) const FILE_FORMATS: &[&FileFormat] = &[".to_string());
     for file_format in file_formats {
-        let name = file_format.puid.replace('/', "_");
+        let name = format!("httpd_{}", file_format.id);
         source_code.push(format!("    &{}::{},", name, name.to_uppercase()));
     }
     source_code.push("];".to_string());
@@ -178,9 +177,9 @@ async fn generate_source_code(
 
     // Generate source files for each file format
     for file_format in file_formats {
-        let name = file_format.puid.replace('/', "_");
+        let name = format!("httpd_{}", file_format.id);
         let source_code = [
-            "use crate::format::FileFormat;".to_string(),
+            "use crate::format::{FileFormat, SourceType};".to_string(),
             String::new(),
             format!(
                 "pub(crate) const {}: FileFormat = {};",

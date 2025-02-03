@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862485: FileFormat = FileFormat {
     id: 105_862_485,
-    puid: "wikidata/105862485",
+    source_type: SourceType::Wikidata,
     name: "MiSTer Arcade ROM configuration",
     extensions: &["mra"],
     media_types: &["text/xml"],

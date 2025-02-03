@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_83884461: FileFormat = FileFormat {
     id: 83_884_461,
-    puid: "wikidata/83884461",
+    source_type: SourceType::Wikidata,
     name: "Windows Address Book",
     extensions: &["wab"],
     media_types: &[],

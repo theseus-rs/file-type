@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854540: FileFormat = FileFormat {
     id: 105_854_540,
-    puid: "wikidata/105854540",
+    source_type: SourceType::Wikidata,
     name: "ANSI escape sequence text",
     extensions: &["ans", "asc"],
-    media_types: &["text/x-ansi", "text/x-ansi"],
+    media_types: &["text/x-ansi"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

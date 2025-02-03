@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_163: FileFormat = FileFormat {
     id: 163,
-    puid: "linguist/163",
+    source_type: SourceType::Linguist,
     name: "INI",
     extensions: &[
         "cfg",

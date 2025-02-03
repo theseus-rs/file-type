@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860325: FileFormat = FileFormat {
     id: 105_860_325,
-    puid: "wikidata/105860325",
+    source_type: SourceType::Wikidata,
     name: "Helios raw disk image",
     extensions: &["raw"],
     media_types: &["application/octet-stream"],

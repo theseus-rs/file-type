@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_269849346801687012: FileFormat = FileFormat {
-    id: 269_849_346_801_687_012,
-    puid: "httpd/269849346801687012",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "wspolicy xml",
     extensions: &["wspolicy"],
     media_types: &["application/wspolicy+xml"],

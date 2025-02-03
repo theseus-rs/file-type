@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851207: FileFormat = FileFormat {
     id: 105_851_207,
-    puid: "wikidata/105851207",
+    source_type: SourceType::Wikidata,
     name: "TruePaint Animation",
     extensions: &["tpa"],
     media_types: &["application/octet-stream"],

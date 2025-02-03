@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855360: FileFormat = FileFormat {
     id: 105_855_360,
-    puid: "wikidata/105855360",
+    source_type: SourceType::Wikidata,
     name: "Cumulate Draw's editable FMD format",
     extensions: &["fmd"],
     media_types: &[],

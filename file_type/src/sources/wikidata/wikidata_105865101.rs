@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865101: FileFormat = FileFormat {
     id: 105_865_101,
-    puid: "wikidata/105865101",
+    source_type: SourceType::Wikidata,
     name: "Picatune 2 soundtrack",
     extensions: &["pt2"],
     media_types: &["text/xml"],

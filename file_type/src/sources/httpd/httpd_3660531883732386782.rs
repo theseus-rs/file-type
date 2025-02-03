@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3660531883732386782: FileFormat = FileFormat {
-    id: 3_660_531_883_732_386_782,
-    puid: "httpd/3660531883732386782",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "amazon ebook",
     extensions: &["azw"],
     media_types: &["application/vnd.amazon.ebook"],

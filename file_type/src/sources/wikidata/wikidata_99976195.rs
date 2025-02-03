@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_99976195: FileFormat = FileFormat {
     id: 99_976_195,
-    puid: "wikidata/99976195",
+    source_type: SourceType::Wikidata,
     name: "XDOMEA 2.0.1",
     extensions: &["xml"],
     media_types: &[],

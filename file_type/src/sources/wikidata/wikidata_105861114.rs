@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861114: FileFormat = FileFormat {
     id: 105_861_114,
-    puid: "wikidata/105861114",
+    source_type: SourceType::Wikidata,
     name: "Cabrillo Log (v3.0)",
     extensions: &["log"],
     media_types: &["text/plain"],

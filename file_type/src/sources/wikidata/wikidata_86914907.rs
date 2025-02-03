@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_86914907: FileFormat = FileFormat {
     id: 86_914_907,
-    puid: "wikidata/86914907",
+    source_type: SourceType::Wikidata,
     name: "IESNA LM-63 Photometric Data File",
     extensions: &["ies"],
     media_types: &["text/plain"],

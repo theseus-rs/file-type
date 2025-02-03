@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866512: FileFormat = FileFormat {
     id: 105_866_512,
-    puid: "wikidata/105866512",
+    source_type: SourceType::Wikidata,
     name: "PhoneBook Backup",
     extensions: &["pbb"],
     media_types: &["application/octet-stream"],

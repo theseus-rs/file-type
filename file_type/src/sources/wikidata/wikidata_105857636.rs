@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857636: FileFormat = FileFormat {
     id: 105_857_636,
-    puid: "wikidata/105857636",
+    source_type: SourceType::Wikidata,
     name: "GraphPad InStat data (Windows)",
     extensions: &["isd"],
     media_types: &["text/plain"],

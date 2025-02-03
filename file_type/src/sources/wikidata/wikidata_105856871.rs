@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856871: FileFormat = FileFormat {
     id: 105_856_871,
-    puid: "wikidata/105856871",
+    source_type: SourceType::Wikidata,
     name: "Ultimate Stunts binary 3D geometry",
     extensions: &["glb"],
     media_types: &["application/octet-stream"],

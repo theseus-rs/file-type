@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865968: FileFormat = FileFormat {
     id: 105_865_968,
-    puid: "wikidata/105865968",
+    source_type: SourceType::Wikidata,
     name: "Paragon Backup Format image",
     extensions: &["pbf"],
     media_types: &["application/octet-stream"],

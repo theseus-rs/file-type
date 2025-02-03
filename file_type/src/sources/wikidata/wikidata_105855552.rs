@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855552: FileFormat = FileFormat {
     id: 105_855_552,
-    puid: "wikidata/105855552",
+    source_type: SourceType::Wikidata,
     name: "OyezForms saved rigid form (v9, v10)",
     extensions: &["olf"],
     media_types: &[],

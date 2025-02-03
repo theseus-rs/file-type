@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861077: FileFormat = FileFormat {
     id: 105_861_077,
-    puid: "wikidata/105861077",
+    source_type: SourceType::Wikidata,
     name: "SPLASH - Lenex compressed data",
     extensions: &["lxf"],
     media_types: &[],

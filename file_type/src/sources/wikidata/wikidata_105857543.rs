@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857543: FileFormat = FileFormat {
     id: 105_857_543,
-    puid: "wikidata/105857543",
+    source_type: SourceType::Wikidata,
     name: "Instant Invoice invoice (v1.x)",
     extensions: &["iinv"],
     media_types: &["application/octet-stream"],

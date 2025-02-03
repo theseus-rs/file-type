@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858446: FileFormat = FileFormat {
     id: 105_858_446,
-    puid: "wikidata/105858446",
+    source_type: SourceType::Wikidata,
     name: "Keyhole - Google Earth Placemark",
     extensions: &["eta"],
     media_types: &[],

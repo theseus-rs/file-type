@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850758: FileFormat = FileFormat {
     id: 105_850_758,
-    puid: "wikidata/105850758",
+    source_type: SourceType::Wikidata,
     name: "Suncom F-15E Eagle Keys config",
     extensions: &["key"],
     media_types: &["application/octet-stream"],

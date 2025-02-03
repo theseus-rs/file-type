@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851905: FileFormat = FileFormat {
     id: 105_851_905,
-    puid: "wikidata/105851905",
+    source_type: SourceType::Wikidata,
     name: "Smali assembly source",
     extensions: &["smali"],
     media_types: &["text/smali"],

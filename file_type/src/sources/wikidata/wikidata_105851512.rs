@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851512: FileFormat = FileFormat {
     id: 105_851_512,
-    puid: "wikidata/105851512",
+    source_type: SourceType::Wikidata,
     name: "MegaPaint printer driver",
     extensions: &["trb"],
     media_types: &["application/octet-stream"],

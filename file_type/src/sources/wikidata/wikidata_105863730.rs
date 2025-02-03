@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863730: FileFormat = FileFormat {
     id: 105_863_730,
-    puid: "wikidata/105863730",
+    source_type: SourceType::Wikidata,
     name: "InstallJammer Project",
     extensions: &["mpi"],
     media_types: &[],

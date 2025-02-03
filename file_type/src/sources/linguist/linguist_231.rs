@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_231: FileFormat = FileFormat {
     id: 231,
-    puid: "linguist/231",
+    source_type: SourceType::Linguist,
     name: "MiniD",
     extensions: &["minid"],
     media_types: &[],

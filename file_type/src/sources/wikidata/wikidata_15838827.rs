@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_15838827: FileFormat = FileFormat {
     id: 15_838_827,
-    puid: "wikidata/15838827",
+    source_type: SourceType::Wikidata,
     name: "TopoJSON",
     extensions: &["topojson"],
     media_types: &["application/xml"],

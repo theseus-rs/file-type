@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861883: FileFormat = FileFormat {
     id: 105_861_883,
-    puid: "wikidata/105861883",
+    source_type: SourceType::Wikidata,
     name: "Netware 4.x Server license",
     extensions: &["mls"],
     media_types: &["application/octet-stream"],

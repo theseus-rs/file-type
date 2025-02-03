@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859166: FileFormat = FileFormat {
     id: 105_859_166,
-    puid: "wikidata/105859166",
+    source_type: SourceType::Wikidata,
     name: "Link Bootable code for transputer network",
     extensions: &["btl"],
     media_types: &["application/octet-stream"],

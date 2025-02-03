@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855462: FileFormat = FileFormat {
     id: 105_855_462,
-    puid: "wikidata/105855462",
+    source_type: SourceType::Wikidata,
     name: "Flowgorithm Program",
     extensions: &["fprg"],
     media_types: &["text/xml"],

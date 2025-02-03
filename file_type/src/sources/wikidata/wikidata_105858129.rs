@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858129: FileFormat = FileFormat {
     id: 105_858_129,
-    puid: "wikidata/105858129",
+    source_type: SourceType::Wikidata,
     name: "AOL thumbnails index",
     extensions: &["ind"],
     media_types: &[],

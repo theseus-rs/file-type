@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858239: FileFormat = FileFormat {
     id: 105_858_239,
-    puid: "wikidata/105858239",
+    source_type: SourceType::Wikidata,
     name: "Fashion Tracker module",
     extensions: &["ex"],
     media_types: &["audio/x-mod"],

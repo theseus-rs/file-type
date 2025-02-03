@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855941: FileFormat = FileFormat {
     id: 105_855_941,
-    puid: "wikidata/105855941",
+    source_type: SourceType::Wikidata,
     name: "DarkWave Studio module",
     extensions: &["dwp"],
     media_types: &[],

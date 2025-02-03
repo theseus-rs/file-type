@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858425: FileFormat = FileFormat {
     id: 105_858_425,
-    puid: "wikidata/105858425",
+    source_type: SourceType::Wikidata,
     name: "EazyDraw Library (binary)",
     extensions: &["ezdrawlibb"],
     media_types: &["application/octet-stream"],

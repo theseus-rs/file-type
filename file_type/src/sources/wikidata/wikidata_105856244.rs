@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856244: FileFormat = FileFormat {
     id: 105_856_244,
-    puid: "wikidata/105856244",
+    source_type: SourceType::Wikidata,
     name: "Doge Serialized Object Notation",
     extensions: &["dson"],
     media_types: &["text/plain"],

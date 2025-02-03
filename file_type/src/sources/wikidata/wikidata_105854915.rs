@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854915: FileFormat = FileFormat {
     id: 105_854_915,
-    puid: "wikidata/105854915",
+    source_type: SourceType::Wikidata,
     name: "AnyLogic Project",
     extensions: &["alp"],
     media_types: &[],

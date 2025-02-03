@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853820: FileFormat = FileFormat {
     id: 105_853_820,
-    puid: "wikidata/105853820",
+    source_type: SourceType::Wikidata,
     name: "Advanced Installer Updates configuration",
     extensions: &["aiu"],
     media_types: &[],

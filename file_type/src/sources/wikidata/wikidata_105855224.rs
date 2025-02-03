@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855224: FileFormat = FileFormat {
     id: 105_855_224,
-    puid: "wikidata/105855224",
+    source_type: SourceType::Wikidata,
     name: "WinPharoah Filter",
     extensions: &["ftr"],
     media_types: &["application/octet-stream"],

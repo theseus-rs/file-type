@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850722: FileFormat = FileFormat {
     id: 105_850_722,
-    puid: "wikidata/105850722",
+    source_type: SourceType::Wikidata,
     name: "Kaleidoscope Kreator 3 Template",
     extensions: &["ktp"],
     media_types: &["application/octet-stream"],

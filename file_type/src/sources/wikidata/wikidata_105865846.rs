@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865846: FileFormat = FileFormat {
     id: 105_865_846,
-    puid: "wikidata/105865846",
+    source_type: SourceType::Wikidata,
     name: "PowerVR PVR texture format (v2.x)",
     extensions: &["pvr"],
     media_types: &["application/octet-stream"],

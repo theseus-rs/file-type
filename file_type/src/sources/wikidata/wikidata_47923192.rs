@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_47923192: FileFormat = FileFormat {
     id: 47_923_192,
-    puid: "wikidata/47923192",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Word for Macintosh Document, version 5.0",
     extensions: &["mcw"],
     media_types: &["application/msword"],

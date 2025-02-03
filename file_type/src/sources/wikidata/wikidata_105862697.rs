@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862697: FileFormat = FileFormat {
     id: 105_862_697,
-    puid: "wikidata/105862697",
+    source_type: SourceType::Wikidata,
     name: "Maxwell Render Scene",
     extensions: &["mxs"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851871: FileFormat = FileFormat {
     id: 105_851_871,
-    puid: "wikidata/105851871",
+    source_type: SourceType::Wikidata,
     name: "Spatial Data Modelling Language (v1.0)",
     extensions: &["sdml"],
     media_types: &["text/plain"],

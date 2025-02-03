@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861690: FileFormat = FileFormat {
     id: 105_861_690,
-    puid: "wikidata/105861690",
+    source_type: SourceType::Wikidata,
     name: "Mass Effect 2 Head Morph",
     extensions: &["me2headmorph"],
     media_types: &["application/octet-stream"],

@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_205748: FileFormat = FileFormat {
     id: 205_748,
-    puid: "wikidata/205748",
+    source_type: SourceType::Wikidata,
     name: "Portable Game Notation",
-    extensions: &["pgn", "pgn"],
+    extensions: &["pgn"],
     media_types: &["application/vnd.chess-pgn", "application/x-chess-pgn"],
     internal_signatures: &[
         InternalSignature {

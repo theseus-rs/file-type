@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865685: FileFormat = FileFormat {
     id: 105_865_685,
-    puid: "wikidata/105865685",
+    source_type: SourceType::Wikidata,
     name: "Palm iSilo 1.x/2.x document",
     extensions: &["pdb"],
     media_types: &[],

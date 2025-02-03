@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850863: FileFormat = FileFormat {
     id: 105_850_863,
-    puid: "wikidata/105850863",
+    source_type: SourceType::Wikidata,
     name: "Kea Coloring Book page",
     extensions: &["kcx"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205846: FileFormat = FileFormat {
     id: 28_205_846,
-    puid: "wikidata/28205846",
+    source_type: SourceType::Wikidata,
     name: "ColoRIX",
     extensions: &[
         "rix", "sca", "scb", "scc", "sce", "scg", "sci", "sck", "scl", "scn", "sco", "scp", "scq",

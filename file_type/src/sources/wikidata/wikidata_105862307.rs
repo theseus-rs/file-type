@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862307: FileFormat = FileFormat {
     id: 105_862_307,
-    puid: "wikidata/105862307",
+    source_type: SourceType::Wikidata,
     name: "Melody Maker song (v3.x)",
     extensions: &["mm"],
     media_types: &["application/octet-stream"],

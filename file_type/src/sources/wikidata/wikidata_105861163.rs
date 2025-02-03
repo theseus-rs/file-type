@@ -1,16 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861163: FileFormat = FileFormat {
     id: 105_861_163,
-    puid: "wikidata/105861163",
+    source_type: SourceType::Wikidata,
     name: "Amiga Hunk library/object code",
-    extensions: &["lib", "lib", "obj", "obj"],
-    media_types: &[
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-        "application/octet-stream",
-    ],
+    extensions: &["lib", "obj"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

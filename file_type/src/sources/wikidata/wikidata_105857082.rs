@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857082: FileFormat = FileFormat {
     id: 105_857_082,
-    puid: "wikidata/105857082",
+    source_type: SourceType::Wikidata,
     name: "GPS Tuner map slices calibration data",
     extensions: &["gsi"],
     media_types: &[],

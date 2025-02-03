@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_8096259863664211066: FileFormat = FileFormat {
-    id: 8_096_259_863_664_211_066,
-    puid: "httpd/8096259863664211066",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "bittorrent",
     extensions: &["torrent"],
     media_types: &["application/x-bittorrent"],

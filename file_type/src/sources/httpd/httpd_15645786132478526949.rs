@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_15645786132478526949: FileFormat = FileFormat {
-    id: 15_645_786_132_478_526_949,
-    puid: "httpd/15645786132478526949",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "oda",
     extensions: &["oda"],
     media_types: &["application/oda"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851453: FileFormat = FileFormat {
     id: 105_851_453,
-    puid: "wikidata/105851453",
+    source_type: SourceType::Wikidata,
     name: "DDP Image checksums",
     extensions: &["txt"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860744: FileFormat = FileFormat {
     id: 105_860_744,
-    puid: "wikidata/105860744",
+    source_type: SourceType::Wikidata,
     name: "MSX2 ROM Image",
     extensions: &["rom"],
     media_types: &[],

@@ -1,15 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_296496: FileFormat = FileFormat {
     id: 296_496,
-    puid: "wikidata/296496",
+    source_type: SourceType::Wikidata,
     name: "ARC",
     extensions: &["arc", "ark", "sue"],
-    media_types: &[
-        "application/x-arc",
-        "application/x-arc",
-        "application/x-arc",
-    ],
+    media_types: &["application/x-arc"],
     internal_signatures: &[],
     related_formats: &[],
 };

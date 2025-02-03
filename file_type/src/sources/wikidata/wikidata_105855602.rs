@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855602: FileFormat = FileFormat {
     id: 105_855_602,
-    puid: "wikidata/105855602",
+    source_type: SourceType::Wikidata,
     name: "OpenStreetMap O5m data",
     extensions: &["o5m"],
     media_types: &["application/octet-stream"],

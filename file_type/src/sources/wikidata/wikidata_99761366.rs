@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_99761366: FileFormat = FileFormat {
     id: 99_761_366,
-    puid: "wikidata/99761366",
+    source_type: SourceType::Wikidata,
     name: "Canon Original RAW, version 3",
     extensions: &["cr3"],
     media_types: &["image/x-canon-cr3"],

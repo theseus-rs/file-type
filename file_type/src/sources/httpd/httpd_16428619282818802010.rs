@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16428619282818802010: FileFormat = FileFormat {
-    id: 16_428_619_282_818_802_010,
-    puid: "httpd/16428619282818802010",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "noblenet sealer",
     extensions: &["nns"],
     media_types: &["application/vnd.noblenet-sealer"],

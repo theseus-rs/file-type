@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858947: FileFormat = FileFormat {
     id: 105_858_947,
-    puid: "wikidata/105858947",
+    source_type: SourceType::Wikidata,
     name: "Cartesian Perceptual Compression Image bitmap",
     extensions: &["cpc", "cpi"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862528: FileFormat = FileFormat {
     id: 105_862_528,
-    puid: "wikidata/105862528",
+    source_type: SourceType::Wikidata,
     name: "Maker Interchange Format Book",
     extensions: &["mif"],
     media_types: &["application/vnd.mif"],

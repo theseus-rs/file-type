@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853773: FileFormat = FileFormat {
     id: 105_853_773,
-    puid: "wikidata/105853773",
+    source_type: SourceType::Wikidata,
     name: "AlgoBox Algorithm",
     extensions: &["alg"],
     media_types: &["text/plain"],

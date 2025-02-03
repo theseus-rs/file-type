@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860896: FileFormat = FileFormat {
     id: 105_860_896,
-    puid: "wikidata/105860896",
+    source_type: SourceType::Wikidata,
     name: "Rosegarden musical notation (RV21)",
     extensions: &["rose"],
     media_types: &["application/octet-stream"],

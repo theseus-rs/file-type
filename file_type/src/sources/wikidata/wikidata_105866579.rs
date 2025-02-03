@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866579: FileFormat = FileFormat {
     id: 105_866_579,
-    puid: "wikidata/105866579",
+    source_type: SourceType::Wikidata,
     name: "Programmer's Notepad WorkSpace",
     extensions: &["pnws"],
     media_types: &["text/xml"],

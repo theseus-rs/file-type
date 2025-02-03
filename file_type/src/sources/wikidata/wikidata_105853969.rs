@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853969: FileFormat = FileFormat {
     id: 105_853_969,
-    puid: "wikidata/105853969",
+    source_type: SourceType::Wikidata,
     name: "DigitalPhono A2B Player Playlist",
     extensions: &["a2b"],
     media_types: &[],

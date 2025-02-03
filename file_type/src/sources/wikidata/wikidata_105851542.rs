@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851542: FileFormat = FileFormat {
     id: 105_851_542,
-    puid: "wikidata/105851542",
+    source_type: SourceType::Wikidata,
     name: "The Bat! Message Base Index",
     extensions: &["tbi"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852041: FileFormat = FileFormat {
     id: 105_852_041,
-    puid: "wikidata/105852041",
+    source_type: SourceType::Wikidata,
     name: "PulseView sigrok dump",
     extensions: &["sr"],
     media_types: &["application/octet-stream"],

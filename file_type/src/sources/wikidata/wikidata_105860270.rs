@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860270: FileFormat = FileFormat {
     id: 105_860_270,
-    puid: "wikidata/105860270",
+    source_type: SourceType::Wikidata,
     name: "Rise of the Triad Level",
     extensions: &["rtl"],
     media_types: &["application/octet-stream"],

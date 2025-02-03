@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853696: FileFormat = FileFormat {
     id: 105_853_696,
-    puid: "wikidata/105853696",
+    source_type: SourceType::Wikidata,
     name: "CAZIPXP compressed archive",
     extensions: &["caz"],
     media_types: &[],

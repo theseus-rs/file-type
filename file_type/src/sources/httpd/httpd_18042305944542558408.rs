@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_18042305944542558408: FileFormat = FileFormat {
-    id: 18_042_305_944_542_558_408,
-    puid: "httpd/18042305944542558408",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "prs lines tag",
     extensions: &["dsc"],
     media_types: &["text/prs.lines.tag"],

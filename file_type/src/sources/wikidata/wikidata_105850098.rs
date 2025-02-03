@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850098: FileFormat = FileFormat {
     id: 105_850_098,
-    puid: "wikidata/105850098",
+    source_type: SourceType::Wikidata,
     name: "Flexidump Custom printer driver",
     extensions: &["cus"],
     media_types: &["application/octet-stream"],

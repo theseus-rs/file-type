@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857206: FileFormat = FileFormat {
     id: 105_857_206,
-    puid: "wikidata/105857206",
+    source_type: SourceType::Wikidata,
     name: "High Voltage SID Collection update info",
     extensions: &["hvs"],
     media_types: &["text/plain"],

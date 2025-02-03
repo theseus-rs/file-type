@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857184: FileFormat = FileFormat {
     id: 105_857_184,
-    puid: "wikidata/105857184",
+    source_type: SourceType::Wikidata,
     name: "Amiga Rigid Disk block / Hard Disk File image",
     extensions: &["hdf"],
     media_types: &["application/octet-stream"],

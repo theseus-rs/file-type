@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13469738755405299163: FileFormat = FileFormat {
-    id: 13_469_738_755_405_299_163,
-    puid: "httpd/13469738755405299163",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "cups ppd",
     extensions: &["ppd"],
     media_types: &["application/vnd.cups-ppd"],

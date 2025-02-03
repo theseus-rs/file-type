@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853139: FileFormat = FileFormat {
     id: 105_853_139,
-    puid: "wikidata/105853139",
+    source_type: SourceType::Wikidata,
     name: "Coda Style Sheet",
     extensions: &["sss"],
     media_types: &[],

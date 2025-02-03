@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855753: FileFormat = FileFormat {
     id: 105_855_753,
-    puid: "wikidata/105855753",
+    source_type: SourceType::Wikidata,
     name: "Novell Error Librarian Data (v1.00)",
     extensions: &["dat"],
     media_types: &["application/octet-stream"],

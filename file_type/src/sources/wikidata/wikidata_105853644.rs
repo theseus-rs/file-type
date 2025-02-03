@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853644: FileFormat = FileFormat {
     id: 105_853_644,
-    puid: "wikidata/105853644",
+    source_type: SourceType::Wikidata,
     name: "Cybiko Application",
     extensions: &["app"],
     media_types: &["application/octet-stream"],

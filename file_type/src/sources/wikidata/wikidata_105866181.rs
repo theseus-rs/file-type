@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866181: FileFormat = FileFormat {
     id: 105_866_181,
-    puid: "wikidata/105866181",
+    source_type: SourceType::Wikidata,
     name: "PockEmul session",
     extensions: &["pkm"],
     media_types: &["application/octet-stream"],

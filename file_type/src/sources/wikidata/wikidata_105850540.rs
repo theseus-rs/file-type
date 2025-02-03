@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850540: FileFormat = FileFormat {
     id: 105_850_540,
-    puid: "wikidata/105850540",
+    source_type: SourceType::Wikidata,
     name: "Castle of the Winds saved Game",
     extensions: &["cwg"],
     media_types: &["application/octet-stream"],

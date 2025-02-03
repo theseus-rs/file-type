@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864362: FileFormat = FileFormat {
     id: 105_864_362,
-    puid: "wikidata/105864362",
+    source_type: SourceType::Wikidata,
     name: "Newton Package (NOS v2.x)",
     extensions: &["pkg"],
     media_types: &["application/octet-stream"],

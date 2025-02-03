@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851950: FileFormat = FileFormat {
     id: 105_851_950,
-    puid: "wikidata/105851950",
+    source_type: SourceType::Wikidata,
     name: "StorageCraft ShadowProtect backup image",
     extensions: &["spf"],
     media_types: &["application/octet-stream"],

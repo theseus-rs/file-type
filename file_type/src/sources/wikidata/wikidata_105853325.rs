@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853325: FileFormat = FileFormat {
     id: 105_853_325,
-    puid: "wikidata/105853325",
+    source_type: SourceType::Wikidata,
     name: "Spring Engine Tile",
     extensions: &["smt"],
     media_types: &["application/octet-stream"],

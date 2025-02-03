@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_72727591: FileFormat = FileFormat {
     id: 72_727_591,
-    puid: "wikidata/72727591",
+    source_type: SourceType::Wikidata,
     name: "Juno address book",
     extensions: &["nv"],
     media_types: &[],

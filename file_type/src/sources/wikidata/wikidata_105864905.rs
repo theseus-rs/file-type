@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864905: FileFormat = FileFormat {
     id: 105_864_905,
-    puid: "wikidata/105864905",
+    source_type: SourceType::Wikidata,
     name: "PocketBook Theme",
     extensions: &["pbt"],
     media_types: &["application/octet-stream"],

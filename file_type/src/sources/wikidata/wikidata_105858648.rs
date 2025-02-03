@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858648: FileFormat = FileFormat {
     id: 105_858_648,
-    puid: "wikidata/105858648",
+    source_type: SourceType::Wikidata,
     name: "Hitachi Raster Format bitmap",
     extensions: &["hrf"],
     media_types: &[],

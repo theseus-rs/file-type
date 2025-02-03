@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_2804859: FileFormat = FileFormat {
     id: 2_804_859,
-    puid: "wikidata/2804859",
+    source_type: SourceType::Wikidata,
     name: "VDA-FS",
     extensions: &["vda", "vdafs"],
     media_types: &[],

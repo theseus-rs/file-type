@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853876: FileFormat = FileFormat {
     id: 105_853_876,
-    puid: "wikidata/105853876",
+    source_type: SourceType::Wikidata,
     name: "Silent Hill: Origins game data archive",
     extensions: &["arc"],
     media_types: &["application/octet-stream"],

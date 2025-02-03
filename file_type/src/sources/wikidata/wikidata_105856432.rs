@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856432: FileFormat = FileFormat {
     id: 105_856_432,
-    puid: "wikidata/105856432",
+    source_type: SourceType::Wikidata,
     name: "AddOn Studio for Word of Warcraft Project",
     extensions: &["wowproj"],
     media_types: &[],

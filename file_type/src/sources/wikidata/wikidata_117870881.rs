@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_117870881: FileFormat = FileFormat {
     id: 117_870_881,
-    puid: "wikidata/117870881",
+    source_type: SourceType::Wikidata,
     name: "TriGem SoftFax file",
     extensions: &["tri"],
     media_types: &[],

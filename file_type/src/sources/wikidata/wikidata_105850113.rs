@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850113: FileFormat = FileFormat {
     id: 105_850_113,
-    puid: "wikidata/105850113",
+    source_type: SourceType::Wikidata,
     name: "DirectX Compiled Shader Object",
     extensions: &["cso"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858824: FileFormat = FileFormat {
     id: 105_858_824,
-    puid: "wikidata/105858824",
+    source_type: SourceType::Wikidata,
     name: "Project Dogwaffle layered bitmap",
     extensions: &["lyr"],
     media_types: &[],

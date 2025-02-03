@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855033: FileFormat = FileFormat {
     id: 105_855_033,
-    puid: "wikidata/105855033",
+    source_type: SourceType::Wikidata,
     name: "AirZip FileSECURE format (print quality)",
     extensions: &["azf"],
     media_types: &[],

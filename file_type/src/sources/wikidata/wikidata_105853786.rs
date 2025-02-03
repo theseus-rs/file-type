@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853786: FileFormat = FileFormat {
     id: 105_853_786,
-    puid: "wikidata/105853786",
+    source_type: SourceType::Wikidata,
     name: "K+K Research TAC compressed audio",
     extensions: &["tst"],
     media_types: &["application/octet-stream"],

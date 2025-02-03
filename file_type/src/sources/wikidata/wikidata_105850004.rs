@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850004: FileFormat = FileFormat {
     id: 105_850_004,
-    puid: "wikidata/105850004",
+    source_type: SourceType::Wikidata,
     name: "Microsoft NetMon v2.x traffic capture",
     extensions: &["cap"],
     media_types: &[],

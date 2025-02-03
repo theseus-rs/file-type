@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_73793386: FileFormat = FileFormat {
     id: 73_793_386,
-    puid: "wikidata/73793386",
+    source_type: SourceType::Wikidata,
     name: "QGIS Zipped project",
     extensions: &["qgz"],
     media_types: &["application/octet-stream"],

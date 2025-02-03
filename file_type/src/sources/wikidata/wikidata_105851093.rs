@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851093: FileFormat = FileFormat {
     id: 105_851_093,
-    puid: "wikidata/105851093",
+    source_type: SourceType::Wikidata,
     name: "TurboCAD drawing (v3 Win)",
     extensions: &["tcw"],
     media_types: &["application/octet-stream"],

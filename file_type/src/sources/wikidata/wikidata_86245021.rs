@@ -1,14 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_86245021: FileFormat = FileFormat {
     id: 86_245_021,
-    puid: "wikidata/86245021",
+    source_type: SourceType::Wikidata,
     name: "BDOC 2",
     extensions: &["asice", "bdoc"],
-    media_types: &[
-        "application/vnd.etsi.asic-e+zip",
-        "application/vnd.etsi.asic-e+zip",
-    ],
+    media_types: &["application/vnd.etsi.asic-e+zip"],
     internal_signatures: &[],
     related_formats: &[],
 };

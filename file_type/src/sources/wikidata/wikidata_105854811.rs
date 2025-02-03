@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854811: FileFormat = FileFormat {
     id: 105_854_811,
-    puid: "wikidata/105854811",
+    source_type: SourceType::Wikidata,
     name: "Taijin Media Net karaoke song",
     extensions: &["tjn"],
     media_types: &[],

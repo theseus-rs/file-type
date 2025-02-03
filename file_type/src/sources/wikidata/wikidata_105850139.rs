@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850139: FileFormat = FileFormat {
     id: 105_850_139,
-    puid: "wikidata/105850139",
+    source_type: SourceType::Wikidata,
     name: "Adobe Photoshop Custom Shape",
     extensions: &["csh"],
     media_types: &[],

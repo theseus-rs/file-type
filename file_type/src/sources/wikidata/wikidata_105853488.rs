@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853488: FileFormat = FileFormat {
     id: 105_853_488,
-    puid: "wikidata/105853488",
+    source_type: SourceType::Wikidata,
     name: "Zephyr Eclipse server Project",
     extensions: &["zpj"],
     media_types: &["text/xml"],

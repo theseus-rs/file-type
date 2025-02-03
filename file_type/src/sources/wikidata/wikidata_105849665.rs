@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849665: FileFormat = FileFormat {
     id: 105_849_665,
-    puid: "wikidata/105849665",
+    source_type: SourceType::Wikidata,
     name: "Polytron VCS logfile",
     extensions: &["cpv"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857134: FileFormat = FileFormat {
     id: 105_857_134,
-    puid: "wikidata/105857134",
+    source_type: SourceType::Wikidata,
     name: "Mario Party 5 game data",
     extensions: &["hsf"],
     media_types: &["application/octet-stream"],

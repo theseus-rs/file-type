@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855193: FileFormat = FileFormat {
     id: 105_855_193,
-    puid: "wikidata/105855193",
+    source_type: SourceType::Wikidata,
     name: "Turbo Rascal Syntax Error graphic",
     extensions: &["flf"],
     media_types: &["application/octet-stream"],

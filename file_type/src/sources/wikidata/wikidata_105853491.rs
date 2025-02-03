@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853491: FileFormat = FileFormat {
     id: 105_853_491,
-    puid: "wikidata/105853491",
+    source_type: SourceType::Wikidata,
     name: "HLGuard Z config file",
     extensions: &["zcfg"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864216: FileFormat = FileFormat {
     id: 105_864_216,
-    puid: "wikidata/105864216",
+    source_type: SourceType::Wikidata,
     name: "Professional Music Driver P86 samples pack",
     extensions: &["p86"],
     media_types: &["application/octet-stream"],

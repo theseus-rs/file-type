@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852314: FileFormat = FileFormat {
     id: 105_852_314,
-    puid: "wikidata/105852314",
+    source_type: SourceType::Wikidata,
     name: "Snzip compressed (framing format)",
     extensions: &["sz"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854044: FileFormat = FileFormat {
     id: 105_854_044,
-    puid: "wikidata/105854044",
+    source_type: SourceType::Wikidata,
     name: "Elcomsoft ADC Advanced Disc Catalog",
     extensions: &["cat"],
     media_types: &[],

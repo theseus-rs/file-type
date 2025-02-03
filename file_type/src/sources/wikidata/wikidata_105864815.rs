@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864815: FileFormat = FileFormat {
     id: 105_864_815,
-    puid: "wikidata/105864815",
+    source_type: SourceType::Wikidata,
     name: "Power BI desktop Visual data",
     extensions: &["pbiviz"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860206: FileFormat = FileFormat {
     id: 105_860_206,
-    puid: "wikidata/105860206",
+    source_type: SourceType::Wikidata,
     name: "BlackBarry encrypted REM format",
     extensions: &["rem"],
     media_types: &["application/octet-stream"],

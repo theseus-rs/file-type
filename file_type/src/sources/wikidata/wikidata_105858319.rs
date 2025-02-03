@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858319: FileFormat = FileFormat {
     id: 105_858_319,
-    puid: "wikidata/105858319",
+    source_type: SourceType::Wikidata,
     name: "Kingsoft Spreadsheet",
     extensions: &["et"],
     media_types: &[],

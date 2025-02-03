@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_74674755: FileFormat = FileFormat {
     id: 74_674_755,
-    puid: "wikidata/74674755",
+    source_type: SourceType::Wikidata,
     name: "SPSS Table Look",
     extensions: &["tlo"],
     media_types: &[],

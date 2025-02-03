@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866225: FileFormat = FileFormat {
     id: 105_866_225,
-    puid: "wikidata/105866225",
+    source_type: SourceType::Wikidata,
     name: "Rhea-PV2D (PlotView-2D) plot",
     extensions: &["plt"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857825: FileFormat = FileFormat {
     id: 105_857_825,
-    puid: "wikidata/105857825",
+    source_type: SourceType::Wikidata,
     name: "IconTweaker theme",
     extensions: &["ita"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853318: FileFormat = FileFormat {
     id: 105_853_318,
-    puid: "wikidata/105853318",
+    source_type: SourceType::Wikidata,
     name: "S20 RAM snapshot format",
     extensions: &["s20"],
     media_types: &["application/octet-stream"],

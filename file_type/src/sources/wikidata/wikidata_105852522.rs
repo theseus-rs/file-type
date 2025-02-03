@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852522: FileFormat = FileFormat {
     id: 105_852_522,
-    puid: "wikidata/105852522",
+    source_type: SourceType::Wikidata,
     name: "Aegis Animator Script",
     extensions: &["script"],
     media_types: &["text/plain"],

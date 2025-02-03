@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_58077394: FileFormat = FileFormat {
     id: 58_077_394,
-    puid: "wikidata/58077394",
+    source_type: SourceType::Wikidata,
     name: "AbiWord Document",
     extensions: &["abw"],
     media_types: &["application/x-abiword"],

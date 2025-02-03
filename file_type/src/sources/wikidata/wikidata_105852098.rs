@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852098: FileFormat = FileFormat {
     id: 105_852_098,
-    puid: "wikidata/105852098",
+    source_type: SourceType::Wikidata,
     name: "Vista Makepath Session (v1.0)",
     extensions: &["ses"],
     media_types: &["application/octet-stream"],

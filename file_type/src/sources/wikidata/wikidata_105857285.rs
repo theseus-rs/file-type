@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857285: FileFormat = FileFormat {
     id: 105_857_285,
-    puid: "wikidata/105857285",
+    source_type: SourceType::Wikidata,
     name: "Huawei EMUI Theme",
     extensions: &["hwt"],
     media_types: &["application/octet-stream"],

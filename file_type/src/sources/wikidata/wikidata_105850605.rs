@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850605: FileFormat = FileFormat {
     id: 105_850_605,
-    puid: "wikidata/105850605",
+    source_type: SourceType::Wikidata,
     name: "CoffeeCup Button Factory button",
     extensions: &["cbf"],
     media_types: &[],

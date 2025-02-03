@@ -1,16 +1,15 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_1593782: FileFormat = FileFormat {
     id: 1_593_782,
-    puid: "wikidata/1593782",
+    source_type: SourceType::Wikidata,
     name: "FASTA format",
-    extensions: &["fa", "fa", "fa", "fasta", "fasta", "fasta"],
+    extensions: &["fa", "fasta"],
     media_types: &[
         "chemical/seq-aa-fasta",
-        "chemical/seq-aa-fasta",
         "chemical/seq-na-fasta",
-        "chemical/seq-na-fasta",
-        "text/plain",
         "text/plain",
     ],
     internal_signatures: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864196: FileFormat = FileFormat {
     id: 105_864_196,
-    puid: "wikidata/105864196",
+    source_type: SourceType::Wikidata,
     name: "Test Drive PC shapes game data",
     extensions: &["pes"],
     media_types: &["application/octet-stream"],

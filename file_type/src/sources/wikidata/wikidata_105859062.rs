@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859062: FileFormat = FileFormat {
     id: 105_859_062,
-    puid: "wikidata/105859062",
+    source_type: SourceType::Wikidata,
     name: "DualPhoto JPEG bitmap",
     extensions: &["jpg"],
     media_types: &["application/octet-stream"],

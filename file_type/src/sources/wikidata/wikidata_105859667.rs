@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859667: FileFormat = FileFormat {
     id: 105_859_667,
-    puid: "wikidata/105859667",
+    source_type: SourceType::Wikidata,
     name: "Presto! VideoWorks Project (v6)",
     extensions: &["vwp"],
     media_types: &["application/octet-stream"],

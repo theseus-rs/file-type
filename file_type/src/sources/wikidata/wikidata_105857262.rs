@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857262: FileFormat = FileFormat {
     id: 105_857_262,
-    puid: "wikidata/105857262",
+    source_type: SourceType::Wikidata,
     name: "Hamic worksheet",
     extensions: &["hmc"],
     media_types: &["application/octet-stream"],

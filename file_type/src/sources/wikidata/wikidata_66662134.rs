@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_66662134: FileFormat = FileFormat {
     id: 66_662_134,
-    puid: "wikidata/66662134",
+    source_type: SourceType::Wikidata,
     name: "Lotus Word Pro SmartMaster",
     extensions: &["mwp"],
     media_types: &[],

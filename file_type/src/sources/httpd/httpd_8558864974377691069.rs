@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_8558864974377691069: FileFormat = FileFormat {
-    id: 8_558_864_974_377_691_069,
-    puid: "httpd/8558864974377691069",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "yin xml",
     extensions: &["yin"],
     media_types: &["application/yin+xml"],

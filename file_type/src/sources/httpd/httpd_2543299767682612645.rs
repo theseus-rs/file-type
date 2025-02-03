@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2543299767682612645: FileFormat = FileFormat {
-    id: 2_543_299_767_682_612_645,
-    puid: "httpd/2543299767682612645",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "digital winds",
     extensions: &["eol"],
     media_types: &["audio/vnd.digital-winds"],

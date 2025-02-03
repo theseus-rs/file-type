@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851241: FileFormat = FileFormat {
     id: 105_851_241,
-    puid: "wikidata/105851241",
+    source_type: SourceType::Wikidata,
     name: "Taikojiro Song Map",
     extensions: &["tja"],
     media_types: &[],

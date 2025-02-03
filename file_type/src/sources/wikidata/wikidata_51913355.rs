@@ -1,17 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_51913355: FileFormat = FileFormat {
     id: 51_913_355,
-    puid: "wikidata/51913355",
+    source_type: SourceType::Wikidata,
     name: "Quark Xpress Data File",
     extensions: &["qcd", "qxd", "qxl", "qxp", "qxt"],
-    media_types: &[
-        "application/vnd.Quark.QuarkXPress",
-        "application/vnd.Quark.QuarkXPress",
-        "application/vnd.Quark.QuarkXPress",
-        "application/vnd.Quark.QuarkXPress",
-        "application/vnd.Quark.QuarkXPress",
-    ],
+    media_types: &["application/vnd.Quark.QuarkXPress"],
     internal_signatures: &[],
     related_formats: &[],
 };

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861679: FileFormat = FileFormat {
     id: 105_861_679,
-    puid: "wikidata/105861679",
+    source_type: SourceType::Wikidata,
     name: "MAME Layout",
     extensions: &["lay"],
     media_types: &["text/plain"],

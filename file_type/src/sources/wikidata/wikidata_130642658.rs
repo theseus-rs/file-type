@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_130642658: FileFormat = FileFormat {
     id: 130_642_658,
-    puid: "wikidata/130642658",
+    source_type: SourceType::Wikidata,
     name: "Robot Framework file format",
     extensions: &["robot"],
     media_types: &[],

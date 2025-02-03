@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_51331501: FileFormat = FileFormat {
     id: 51_331_501,
-    puid: "wikidata/51331501",
+    source_type: SourceType::Wikidata,
     name: "Hewlett Packard Vector Graphic Plotter File",
     extensions: &["plt"],
     media_types: &[],

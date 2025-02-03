@@ -1,14 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_368782: FileFormat = FileFormat {
     id: 368_782,
-    puid: "wikidata/368782",
+    source_type: SourceType::Wikidata,
     name: "LHA",
     extensions: &["lha", "lzh"],
-    media_types: &[
-        "application/x-lzh-compressed",
-        "application/x-lzh-compressed",
-    ],
+    media_types: &["application/x-lzh-compressed"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

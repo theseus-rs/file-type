@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859495: FileFormat = FileFormat {
     id: 105_859_495,
-    puid: "wikidata/105859495",
+    source_type: SourceType::Wikidata,
     name: "Q-emuLator Package",
     extensions: &["qlpak"],
     media_types: &["application/octet-stream"],

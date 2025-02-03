@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851699: FileFormat = FileFormat {
     id: 105_851_699,
-    puid: "wikidata/105851699",
+    source_type: SourceType::Wikidata,
     name: "Anacreon savegame",
     extensions: &["sav"],
     media_types: &[],

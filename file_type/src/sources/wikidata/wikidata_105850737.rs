@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850737: FileFormat = FileFormat {
     id: 105_850_737,
-    puid: "wikidata/105850737",
+    source_type: SourceType::Wikidata,
     name: "Konfabulator widget",
     extensions: &["widget"],
     media_types: &[],

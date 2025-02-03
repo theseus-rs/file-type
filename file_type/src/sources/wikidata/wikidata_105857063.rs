@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857063: FileFormat = FileFormat {
     id: 105_857_063,
-    puid: "wikidata/105857063",
+    source_type: SourceType::Wikidata,
     name: "GIMP Gradient",
     extensions: &["ggr"],
     media_types: &[],

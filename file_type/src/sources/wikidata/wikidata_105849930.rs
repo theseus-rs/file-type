@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849930: FileFormat = FileFormat {
     id: 105_849_930,
-    puid: "wikidata/105849930",
+    source_type: SourceType::Wikidata,
     name: "Chasys Draw IES drawing",
     extensions: &["cd5"],
     media_types: &["application/octet-stream"],

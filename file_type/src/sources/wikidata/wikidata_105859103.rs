@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859103: FileFormat = FileFormat {
     id: 105_859_103,
-    puid: "wikidata/105859103",
+    source_type: SourceType::Wikidata,
     name: "Graph2Font bitmap (zlib compressed)",
     extensions: &["g2f"],
     media_types: &["application/octet-stream"],

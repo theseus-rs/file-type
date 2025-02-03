@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855926: FileFormat = FileFormat {
     id: 105_855_926,
-    puid: "wikidata/105855926",
+    source_type: SourceType::Wikidata,
     name: "Klasik screen saver",
     extensions: &["drv"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864726: FileFormat = FileFormat {
     id: 105_864_726,
-    puid: "wikidata/105864726",
+    source_type: SourceType::Wikidata,
     name: "iOS Passbook Pass",
     extensions: &["pkpass"],
     media_types: &["application/vnd.apple.pkpass"],

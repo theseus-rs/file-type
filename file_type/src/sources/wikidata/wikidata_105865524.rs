@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865524: FileFormat = FileFormat {
     id: 105_865_524,
-    puid: "wikidata/105865524",
+    source_type: SourceType::Wikidata,
     name: "Across crossword puzzle",
     extensions: &["puz"],
     media_types: &["application/octet-stream"],

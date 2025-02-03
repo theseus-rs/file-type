@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_111490198: FileFormat = FileFormat {
     id: 111_490_198,
-    puid: "wikidata/111490198",
+    source_type: SourceType::Wikidata,
     name: "Canvas Image File",
     extensions: &["cvi"],
     media_types: &[],

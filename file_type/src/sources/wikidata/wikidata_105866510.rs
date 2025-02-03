@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866510: FileFormat = FileFormat {
     id: 105_866_510,
-    puid: "wikidata/105866510",
+    source_type: SourceType::Wikidata,
     name: "PhotoMovieMaker / Smilebox slideshow",
     extensions: &["pmm"],
     media_types: &[],

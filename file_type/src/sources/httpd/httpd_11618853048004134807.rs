@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_11618853048004134807: FileFormat = FileFormat {
-    id: 11_618_853_048_004_134_807,
-    puid: "httpd/11618853048004134807",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "intercon formnet",
     extensions: &["xpw", "xpx"],
     media_types: &["application/vnd.intercon.formnet"],

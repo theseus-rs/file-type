@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16752839964839226118: FileFormat = FileFormat {
-    id: 16_752_839_964_839_226_118,
-    puid: "httpd/16752839964839226118",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "aristanetworks swi",
     extensions: &["swi"],
     media_types: &["application/vnd.aristanetworks.swi"],

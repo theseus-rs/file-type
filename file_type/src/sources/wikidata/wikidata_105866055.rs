@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866055: FileFormat = FileFormat {
     id: 105_866_055,
-    puid: "wikidata/105866055",
+    source_type: SourceType::Wikidata,
     name: "MikuMikuDance PolygonMovieMaker data",
     extensions: &["pmm"],
     media_types: &[],

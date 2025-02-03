@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858297: FileFormat = FileFormat {
     id: 105_858_297,
-    puid: "wikidata/105858297",
+    source_type: SourceType::Wikidata,
     name: "EnVision Publisher DTP document",
     extensions: &["evp"],
     media_types: &["application/octet-stream"],

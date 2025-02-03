@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863003: FileFormat = FileFormat {
     id: 105_863_003,
-    puid: "wikidata/105863003",
+    source_type: SourceType::Wikidata,
     name: "Mozilla Archive Format (Firefox)",
     extensions: &["maff", "zip"],
-    media_types: &["application/x-maff", "application/x-maff"],
+    media_types: &["application/x-maff"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

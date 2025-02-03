@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856198: FileFormat = FileFormat {
     id: 105_856_198,
-    puid: "wikidata/105856198",
+    source_type: SourceType::Wikidata,
     name: "DipTrace Schematic",
     extensions: &["dch"],
     media_types: &["application/octet-stream"],

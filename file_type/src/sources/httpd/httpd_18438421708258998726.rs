@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_18438421708258998726: FileFormat = FileFormat {
-    id: 18_438_421_708_258_998_726,
-    puid: "httpd/18438421708258998726",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "geoplan",
     extensions: &["g2w"],
     media_types: &["application/vnd.geoplan"],

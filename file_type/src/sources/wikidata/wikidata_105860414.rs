@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860414: FileFormat = FileFormat {
     id: 105_860_414,
-    puid: "wikidata/105860414",
+    source_type: SourceType::Wikidata,
     name: "ArtCAM 3D Relief model",
     extensions: &["rlf"],
     media_types: &["application/octet-stream"],

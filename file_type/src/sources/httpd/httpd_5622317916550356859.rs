@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5622317916550356859: FileFormat = FileFormat {
-    id: 5_622_317_916_550_356_859,
-    puid: "httpd/5622317916550356859",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mscardfile",
     extensions: &["crd"],
     media_types: &["application/x-mscardfile"],

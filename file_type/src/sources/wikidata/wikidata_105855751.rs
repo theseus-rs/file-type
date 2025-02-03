@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855751: FileFormat = FileFormat {
     id: 105_855_751,
-    puid: "wikidata/105855751",
+    source_type: SourceType::Wikidata,
     name: "DeskSoft License",
     extensions: &["desksoftlicense"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858642: FileFormat = FileFormat {
     id: 105_858_642,
-    puid: "wikidata/105858642",
+    source_type: SourceType::Wikidata,
     name: "QuickBMS script (with rem)",
     extensions: &["bms"],
     media_types: &[],

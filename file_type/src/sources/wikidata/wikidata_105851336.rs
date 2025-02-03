@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851336: FileFormat = FileFormat {
     id: 105_851_336,
-    puid: "wikidata/105851336",
+    source_type: SourceType::Wikidata,
     name: "AmiAtlas Towns data",
     extensions: &["town"],
     media_types: &["application/octet-stream"],

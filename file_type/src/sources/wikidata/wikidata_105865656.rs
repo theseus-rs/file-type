@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865656: FileFormat = FileFormat {
     id: 105_865_656,
-    puid: "wikidata/105865656",
+    source_type: SourceType::Wikidata,
     name: "Garmin PCX5 track file",
     extensions: &["trk"],
     media_types: &[],

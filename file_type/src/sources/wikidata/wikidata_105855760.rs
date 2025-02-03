@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855760: FileFormat = FileFormat {
     id: 105_855_760,
-    puid: "wikidata/105855760",
+    source_type: SourceType::Wikidata,
     name: "Genesis the Third Day Data",
     extensions: &["data"],
     media_types: &["application/octet-stream"],

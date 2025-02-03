@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855828: FileFormat = FileFormat {
     id: 105_855_828,
-    puid: "wikidata/105855828",
+    source_type: SourceType::Wikidata,
     name: "Norton Textra Writer Document (v7.x)",
     extensions: &["doc"],
     media_types: &["application/octet-stream"],

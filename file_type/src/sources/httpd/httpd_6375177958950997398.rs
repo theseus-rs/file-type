@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6375177958950997398: FileFormat = FileFormat {
-    id: 6_375_177_958_950_997_398,
-    puid: "httpd/6375177958950997398",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "astraea software iota",
     extensions: &["iota"],
     media_types: &["application/vnd.astraea-software.iota"],

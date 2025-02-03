@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857533: FileFormat = FileFormat {
     id: 105_857_533,
-    puid: "wikidata/105857533",
+    source_type: SourceType::Wikidata,
     name: "ScreenBuilder image",
     extensions: &["img"],
     media_types: &[],

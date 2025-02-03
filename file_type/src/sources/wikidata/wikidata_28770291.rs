@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28770291: FileFormat = FileFormat {
     id: 28_770_291,
-    puid: "wikidata/28770291",
+    source_type: SourceType::Wikidata,
     name: "LXBeams Light Plot",
     extensions: &["lxxplot"],
     media_types: &["text/xml"],

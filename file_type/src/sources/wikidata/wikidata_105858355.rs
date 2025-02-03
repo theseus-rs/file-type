@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858355: FileFormat = FileFormat {
     id: 105_858_355,
-    puid: "wikidata/105858355",
+    source_type: SourceType::Wikidata,
     name: "Evernote Exported XML",
     extensions: &["enex"],
     media_types: &["application/enex+xml"],

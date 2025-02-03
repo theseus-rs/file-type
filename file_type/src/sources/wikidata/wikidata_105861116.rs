@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861116: FileFormat = FileFormat {
     id: 105_861_116,
-    puid: "wikidata/105861116",
+    source_type: SourceType::Wikidata,
     name: "Common Object File Format (COFF) Library",
     extensions: &["a", "obj"],
     media_types: &[],

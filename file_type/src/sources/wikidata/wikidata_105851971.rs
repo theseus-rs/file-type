@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851971: FileFormat = FileFormat {
     id: 105_851_971,
-    puid: "wikidata/105851971",
+    source_type: SourceType::Wikidata,
     name: "Independence War 2: Edge of Chaos save game",
     extensions: &["sav"],
     media_types: &["application/octet-stream"],

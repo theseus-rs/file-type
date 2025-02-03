@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858287: FileFormat = FileFormat {
     id: 105_858_287,
-    puid: "wikidata/105858287",
+    source_type: SourceType::Wikidata,
     name: "Error Code Modeler",
     extensions: &["ecm"],
     media_types: &[],

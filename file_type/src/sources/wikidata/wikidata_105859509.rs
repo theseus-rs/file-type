@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859509: FileFormat = FileFormat {
     id: 105_859_509,
-    puid: "wikidata/105859509",
+    source_type: SourceType::Wikidata,
     name: "PVA Video (VideoStream)",
     extensions: &["pva"],
     media_types: &["video/x-pva"],

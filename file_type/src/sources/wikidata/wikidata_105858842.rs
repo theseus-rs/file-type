@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858842: FileFormat = FileFormat {
     id: 105_858_842,
-    puid: "wikidata/105858842",
+    source_type: SourceType::Wikidata,
     name: "VIV/BIGF Electronic Arts Game Archive",
     extensions: &["big", "viv"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

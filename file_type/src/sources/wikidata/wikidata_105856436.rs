@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856436: FileFormat = FileFormat {
     id: 105_856_436,
-    puid: "wikidata/105856436",
+    source_type: SourceType::Wikidata,
     name: "Ilium eWallet",
     extensions: &["wlt"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855765: FileFormat = FileFormat {
     id: 105_855_765,
-    puid: "wikidata/105855765",
+    source_type: SourceType::Wikidata,
     name: "Serif DrawPlus Picture/drawing (v2)",
     extensions: &["dpp"],
     media_types: &["application/octet-stream"],

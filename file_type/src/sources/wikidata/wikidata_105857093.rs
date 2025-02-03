@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857093: FileFormat = FileFormat {
     id: 105_857_093,
-    puid: "wikidata/105857093",
+    source_type: SourceType::Wikidata,
     name: "Sothink SWF Easy Project",
     extensions: &["gla"],
     media_types: &[],

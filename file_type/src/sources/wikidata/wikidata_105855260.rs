@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855260: FileFormat = FileFormat {
     id: 105_855_260,
-    puid: "wikidata/105855260",
+    source_type: SourceType::Wikidata,
     name: "FOnline Engine GUI",
     extensions: &["fogui"],
     media_types: &["text/json"],

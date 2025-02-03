@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856916: FileFormat = FileFormat {
     id: 105_856_916,
-    puid: "wikidata/105856916",
+    source_type: SourceType::Wikidata,
     name: "Golfstar Resource data",
     extensions: &["gsr"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_12296210021193523472: FileFormat = FileFormat {
-    id: 12_296_210_021_193_523_472,
-    puid: "httpd/12296210021193523472",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "rpki ghostbusters",
     extensions: &["gbr"],
     media_types: &["application/rpki-ghostbusters"],

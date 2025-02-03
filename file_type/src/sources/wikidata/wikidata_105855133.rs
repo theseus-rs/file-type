@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855133: FileFormat = FileFormat {
     id: 105_855_133,
-    puid: "wikidata/105855133",
+    source_type: SourceType::Wikidata,
     name: "Vuforia QCAR Feature",
     extensions: &["feat"],
     media_types: &["application/octet-stream"],

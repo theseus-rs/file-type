@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858274: FileFormat = FileFormat {
     id: 105_858_274,
-    puid: "wikidata/105858274",
+    source_type: SourceType::Wikidata,
     name: "RARBG Torrents fake exe placeholder",
     extensions: &["exe"],
     media_types: &["text/plain"],

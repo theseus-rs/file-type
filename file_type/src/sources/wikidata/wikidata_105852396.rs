@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852396: FileFormat = FileFormat {
     id: 105_852_396,
-    puid: "wikidata/105852396",
+    source_type: SourceType::Wikidata,
     name: "Nitpicker flow",
     extensions: &["s"],
     media_types: &[],

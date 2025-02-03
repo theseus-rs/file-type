@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857610: FileFormat = FileFormat {
     id: 105_857_610,
-    puid: "wikidata/105857610",
+    source_type: SourceType::Wikidata,
     name: "IrfanView batch advanced options settings",
     extensions: &["ini"],
     media_types: &["text/ini"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_58335687: FileFormat = FileFormat {
     id: 58_335_687,
-    puid: "wikidata/58335687",
+    source_type: SourceType::Wikidata,
     name: "Asymetrix Toolbook File",
     extensions: &["sbk", "tbk"],
     media_types: &[],

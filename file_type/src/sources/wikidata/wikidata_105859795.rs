@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859795: FileFormat = FileFormat {
     id: 105_859_795,
-    puid: "wikidata/105859795",
+    source_type: SourceType::Wikidata,
     name: "Starsiege Tribes game data archive",
     extensions: &["vol"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853635: FileFormat = FileFormat {
     id: 105_853_635,
-    puid: "wikidata/105853635",
+    source_type: SourceType::Wikidata,
     name: "RESOF compressed archive",
     extensions: &["sof"],
     media_types: &[],

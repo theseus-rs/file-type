@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858259: FileFormat = FileFormat {
     id: 105_858_259,
-    puid: "wikidata/105858259",
+    source_type: SourceType::Wikidata,
     name: "Evil Genius game data archive",
     extensions: &["erb"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_68480634: FileFormat = FileFormat {
     id: 68_480_634,
-    puid: "wikidata/68480634",
+    source_type: SourceType::Wikidata,
     name: "Magic: The Gathering cards Deck file format",
     extensions: &["dec"],
     media_types: &["text/plain"],

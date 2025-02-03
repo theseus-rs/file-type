@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14440920598703145864: FileFormat = FileFormat {
-    id: 14_440_920_598_703_145_864,
-    puid: "httpd/14440920598703145864",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "dvb subtitle",
     extensions: &["sub"],
     media_types: &["text/vnd.dvb.subtitle"],

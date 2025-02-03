@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855066: FileFormat = FileFormat {
     id: 105_855_066,
-    puid: "wikidata/105855066",
+    source_type: SourceType::Wikidata,
     name: "RNC / PRO-PACK archive",
     extensions: &["rnc"],
     media_types: &["application/octet-stream"],

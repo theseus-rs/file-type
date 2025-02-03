@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854147: FileFormat = FileFormat {
     id: 105_854_147,
-    puid: "wikidata/105854147",
+    source_type: SourceType::Wikidata,
     name: "LzTurbo compressed",
     extensions: &["lzt"],
     media_types: &["application/octet-stream"],

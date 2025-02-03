@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856086: FileFormat = FileFormat {
     id: 105_856_086,
-    puid: "wikidata/105856086",
+    source_type: SourceType::Wikidata,
     name: "Impulse Tracker Advanced Sound Driver",
     extensions: &["drv", "mmx"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857115: FileFormat = FileFormat {
     id: 105_857_115,
-    puid: "wikidata/105857115",
+    source_type: SourceType::Wikidata,
     name: "FL Studio GM Synth",
     extensions: &["gmsynth"],
     media_types: &["application/octet-stream"],

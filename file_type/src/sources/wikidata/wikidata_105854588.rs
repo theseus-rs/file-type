@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854588: FileFormat = FileFormat {
     id: 105_854_588,
-    puid: "wikidata/105854588",
+    source_type: SourceType::Wikidata,
     name: "iPhoto image data",
     extensions: &["attr"],
     media_types: &[],

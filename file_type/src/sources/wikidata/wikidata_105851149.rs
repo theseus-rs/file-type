@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851149: FileFormat = FileFormat {
     id: 105_851_149,
-    puid: "wikidata/105851149",
+    source_type: SourceType::Wikidata,
     name: "SDLTRS Configuration",
     extensions: &["t8c"],
     media_types: &["text/plain"],

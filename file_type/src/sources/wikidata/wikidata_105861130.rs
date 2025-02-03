@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861130: FileFormat = FileFormat {
     id: 105_861_130,
-    puid: "wikidata/105861130",
+    source_type: SourceType::Wikidata,
     name: "Route 66 Landmarks",
     extensions: &["lmx"],
     media_types: &[],

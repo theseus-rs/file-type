@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858556: FileFormat = FileFormat {
     id: 105_858_556,
-    puid: "wikidata/105858556",
+    source_type: SourceType::Wikidata,
     name: "PCX bitmap (v2.8)",
     extensions: &["pcx"],
     media_types: &["image/vnd.zbrush.pcx"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_1020148948: FileFormat = FileFormat {
     id: 1_020_148_948,
-    puid: "linguist/1020148948",
+    source_type: SourceType::Linguist,
     name: "Redirect Rules",
     extensions: &[],
     media_types: &[],

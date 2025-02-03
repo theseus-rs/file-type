@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5252233957637373667: FileFormat = FileFormat {
-    id: 5_252_233_957_637_373_667,
-    puid: "httpd/5252233957637373667",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "rfc822",
     extensions: &["eml", "mime"],
     media_types: &["message/rfc822"],

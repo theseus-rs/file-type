@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856586: FileFormat = FileFormat {
     id: 105_856_586,
-    puid: "wikidata/105856586",
+    source_type: SourceType::Wikidata,
     name: "Wordup Graphics Toolkit Font",
     extensions: &["wfn"],
     media_types: &["application/octet-stream"],

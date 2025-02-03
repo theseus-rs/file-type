@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863145: FileFormat = FileFormat {
     id: 105_863_145,
-    puid: "wikidata/105863145",
+    source_type: SourceType::Wikidata,
     name: "MeshLab filter script",
     extensions: &["mlx"],
     media_types: &["text/xml"],

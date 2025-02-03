@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860286: FileFormat = FileFormat {
     id: 105_860_286,
-    puid: "wikidata/105860286",
+    source_type: SourceType::Wikidata,
     name: "Roblox Model",
     extensions: &["rbxm", "rbxmx"],
-    media_types: &["text/xml", "text/xml"],
+    media_types: &["text/xml"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

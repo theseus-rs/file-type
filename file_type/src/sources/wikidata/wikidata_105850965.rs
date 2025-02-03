@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850965: FileFormat = FileFormat {
     id: 105_850_965,
-    puid: "wikidata/105850965",
+    source_type: SourceType::Wikidata,
     name: "Binary Unicode conversion Table",
     extensions: &["tbl"],
     media_types: &["application/octet-stream"],

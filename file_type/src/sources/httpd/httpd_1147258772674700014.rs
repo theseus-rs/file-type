@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_1147258772674700014: FileFormat = FileFormat {
-    id: 1_147_258_772_674_700_014,
-    puid: "httpd/1147258772674700014",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "recordare musicxml",
     extensions: &["mxl"],
     media_types: &["application/vnd.recordare.musicxml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855967: FileFormat = FileFormat {
     id: 105_855_967,
-    puid: "wikidata/105855967",
+    source_type: SourceType::Wikidata,
     name: "Windows Minidump",
     extensions: &["dmp", "mdmp"],
     media_types: &[],

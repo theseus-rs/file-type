@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860618: FileFormat = FileFormat {
     id: 105_860_618,
-    puid: "wikidata/105860618",
+    source_type: SourceType::Wikidata,
     name: "RKP game package (v1.x)",
     extensions: &["rkp"],
     media_types: &[],

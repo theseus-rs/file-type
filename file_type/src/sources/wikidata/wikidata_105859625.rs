@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859625: FileFormat = FileFormat {
     id: 105_859_625,
-    puid: "wikidata/105859625",
+    source_type: SourceType::Wikidata,
     name: "EarthSiege 2 game data archive",
     extensions: &["vol"],
     media_types: &["application/octet-stream"],

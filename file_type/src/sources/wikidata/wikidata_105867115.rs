@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867115: FileFormat = FileFormat {
     id: 105_867_115,
-    puid: "wikidata/105867115",
+    source_type: SourceType::Wikidata,
     name: "Nokia 3D Map",
     extensions: &["n3m"],
     media_types: &["application/octet-stream"],

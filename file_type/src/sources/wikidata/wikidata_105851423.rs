@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851423: FileFormat = FileFormat {
     id: 105_851_423,
-    puid: "wikidata/105851423",
+    source_type: SourceType::Wikidata,
     name: "The Software Toolworks installation compressed archive",
     extensions: &["tzf"],
     media_types: &["application/octet-stream"],

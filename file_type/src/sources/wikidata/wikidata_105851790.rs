@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851790: FileFormat = FileFormat {
     id: 105_851_790,
-    puid: "wikidata/105851790",
+    source_type: SourceType::Wikidata,
     name: "Wingz script",
     extensions: &["scz"],
     media_types: &["application/octet-stream"],

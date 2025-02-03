@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857092: FileFormat = FileFormat {
     id: 105_857_092,
-    puid: "wikidata/105857092",
+    source_type: SourceType::Wikidata,
     name: "Game Doctor SF 3 saved game",
     extensions: &["078"],
     media_types: &["application/octet-stream"],

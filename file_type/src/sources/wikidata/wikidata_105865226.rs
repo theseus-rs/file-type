@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865226: FileFormat = FileFormat {
     id: 105_865_226,
-    puid: "wikidata/105865226",
+    source_type: SourceType::Wikidata,
     name: "PolyWorks Polygonal format (v2.0)",
     extensions: &["pol"],
     media_types: &["application/octet-stream"],

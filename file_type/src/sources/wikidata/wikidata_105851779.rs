@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851779: FileFormat = FileFormat {
     id: 105_851_779,
-    puid: "wikidata/105851779",
+    source_type: SourceType::Wikidata,
     name: "Caligari TrueSpace Scene (v2.x)",
     extensions: &["scen"],
     media_types: &["application/octet-stream"],

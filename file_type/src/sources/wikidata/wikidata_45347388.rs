@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_45347388: FileFormat = FileFormat {
     id: 45_347_388,
-    puid: "wikidata/45347388",
+    source_type: SourceType::Wikidata,
     name: "Lotus 1-2-3 Worksheet file format, version 3",
     extensions: &["wk3"],
     media_types: &[],

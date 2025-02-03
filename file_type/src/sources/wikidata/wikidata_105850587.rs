@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850587: FileFormat = FileFormat {
     id: 105_850_587,
-    puid: "wikidata/105850587",
+    source_type: SourceType::Wikidata,
     name: "PeachCalc spreadsheet (v2.x)",
     extensions: &["cal"],
     media_types: &["application/octet-stream"],

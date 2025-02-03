@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858960: FileFormat = FileFormat {
     id: 105_858_960,
-    puid: "wikidata/105858960",
+    source_type: SourceType::Wikidata,
     name: "byLight Image Format bitmap",
     extensions: &["bif"],
     media_types: &["application/octet-stream"],

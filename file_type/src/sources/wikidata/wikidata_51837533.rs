@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_51837533: FileFormat = FileFormat {
     id: 51_837_533,
-    puid: "wikidata/51837533",
+    source_type: SourceType::Wikidata,
     name: "Visual FoxPro Database Container File",
     extensions: &["dcx"],
     media_types: &[],

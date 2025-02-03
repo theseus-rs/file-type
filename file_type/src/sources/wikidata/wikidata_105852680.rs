@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852680: FileFormat = FileFormat {
     id: 105_852_680,
-    puid: "wikidata/105852680",
+    source_type: SourceType::Wikidata,
     name: "Respawn Entertainment game data archive",
     extensions: &["starpak"],
     media_types: &["application/octet-stream"],

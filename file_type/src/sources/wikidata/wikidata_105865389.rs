@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865389: FileFormat = FileFormat {
     id: 105_865_389,
-    puid: "wikidata/105865389",
+    source_type: SourceType::Wikidata,
     name: "Nota Bene Printer definition (MS-DOS)",
     extensions: &["prn"],
     media_types: &["application/octet-stream"],

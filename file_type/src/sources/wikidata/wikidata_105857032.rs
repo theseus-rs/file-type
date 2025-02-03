@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857032: FileFormat = FileFormat {
     id: 105_857_032,
-    puid: "wikidata/105857032",
+    source_type: SourceType::Wikidata,
     name: "MS Age of Empires II: The Conquerors Expansion v1.0 Saved Game",
     extensions: &["gax"],
     media_types: &[],

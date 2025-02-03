@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849915: FileFormat = FileFormat {
     id: 105_849_915,
-    puid: "wikidata/105849915",
+    source_type: SourceType::Wikidata,
     name: "Calamus Raster Information",
     extensions: &["cri"],
     media_types: &["application/octet-stream"],

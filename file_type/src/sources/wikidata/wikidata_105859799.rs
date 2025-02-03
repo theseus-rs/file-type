@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859799: FileFormat = FileFormat {
     id: 105_859_799,
-    puid: "wikidata/105859799",
+    source_type: SourceType::Wikidata,
     name: "Icarus Verilog VVP format (with Shebang)",
     extensions: &["vvp"],
     media_types: &["text/plain"],

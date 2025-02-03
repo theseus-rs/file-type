@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_72204980: FileFormat = FileFormat {
     id: 72_204_980,
-    puid: "wikidata/72204980",
+    source_type: SourceType::Wikidata,
     name: "Lotus Forms Template",
     extensions: &["ltm"],
     media_types: &["application/octet-stream"],

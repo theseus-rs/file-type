@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_686129783: FileFormat = FileFormat {
     id: 686_129_783,
-    puid: "linguist/686129783",
+    source_type: SourceType::Linguist,
     name: "FIGlet Font",
     extensions: &["flf"],
     media_types: &[],

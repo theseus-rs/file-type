@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856323: FileFormat = FileFormat {
     id: 105_856_323,
-    puid: "wikidata/105856323",
+    source_type: SourceType::Wikidata,
     name: "Windows 64bit Memory Dump",
     extensions: &["dmp"],
     media_types: &[],

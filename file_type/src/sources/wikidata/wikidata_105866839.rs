@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866839: FileFormat = FileFormat {
     id: 105_866_839,
-    puid: "wikidata/105866839",
+    source_type: SourceType::Wikidata,
     name: "Panasonic camcorder metadata",
     extensions: &["pmpd"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857024: FileFormat = FileFormat {
     id: 105_857_024,
-    puid: "wikidata/105857024",
+    source_type: SourceType::Wikidata,
     name: "Nakalyne Grape script",
     extensions: &["grape"],
     media_types: &["application/octet-stream"],

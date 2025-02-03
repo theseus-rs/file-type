@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864492: FileFormat = FileFormat {
     id: 105_864_492,
-    puid: "wikidata/105864492",
+    source_type: SourceType::Wikidata,
     name: "Battlezone 2 game data package",
     extensions: &["pak"],
     media_types: &["application/octet-stream"],

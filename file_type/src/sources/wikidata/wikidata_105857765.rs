@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857765: FileFormat = FileFormat {
     id: 105_857_765,
-    puid: "wikidata/105857765",
+    source_type: SourceType::Wikidata,
     name: "UCDOS Input Metod Driver",
     extensions: &["imd"],
     media_types: &["application/octet-stream"],

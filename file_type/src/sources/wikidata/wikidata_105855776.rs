@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855776: FileFormat = FileFormat {
     id: 105_855_776,
-    puid: "wikidata/105855776",
+    source_type: SourceType::Wikidata,
     name: "Timeworks Publisher/Publish It! document (OLE2)",
     extensions: &["dtp"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853450: FileFormat = FileFormat {
     id: 105_853_450,
-    puid: "wikidata/105853450",
+    source_type: SourceType::Wikidata,
     name: "Pivot Style Template",
     extensions: &["zip"],
     media_types: &[],

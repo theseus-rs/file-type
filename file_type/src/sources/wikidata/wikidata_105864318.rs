@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864318: FileFormat = FileFormat {
     id: 105_864_318,
-    puid: "wikidata/105864318",
+    source_type: SourceType::Wikidata,
     name: "RadPHP Project",
     extensions: &["phprj"],
     media_types: &[],

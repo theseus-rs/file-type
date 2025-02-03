@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857502: FileFormat = FileFormat {
     id: 105_857_502,
-    puid: "wikidata/105857502",
+    source_type: SourceType::Wikidata,
     name: "AIMutation skin",
     extensions: &["545"],
     media_types: &[],

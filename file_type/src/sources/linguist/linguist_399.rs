@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_399: FileFormat = FileFormat {
     id: 399,
-    puid: "linguist/399",
+    source_type: SourceType::Linguist,
     name: "XML",
     extensions: &[
         "adml",

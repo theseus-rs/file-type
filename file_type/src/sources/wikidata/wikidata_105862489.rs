@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862489: FileFormat = FileFormat {
     id: 105_862_489,
-    puid: "wikidata/105862489",
+    source_type: SourceType::Wikidata,
     name: "Fred Editor SoundTrack",
     extensions: &["audio/x-mod"],
     media_types: &["application/octet-stream"],

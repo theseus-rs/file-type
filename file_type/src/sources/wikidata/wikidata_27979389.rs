@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27979389: FileFormat = FileFormat {
     id: 27_979_389,
-    puid: "wikidata/27979389",
+    source_type: SourceType::Wikidata,
     name: "NEOchrome Animation",
     extensions: &["ani"],
     media_types: &[],

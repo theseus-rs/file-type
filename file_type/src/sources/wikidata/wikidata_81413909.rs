@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_81413909: FileFormat = FileFormat {
     id: 81_413_909,
-    puid: "wikidata/81413909",
+    source_type: SourceType::Wikidata,
     name: "Macromedia Director Shockwave Cast",
     extensions: &["cct"],
     media_types: &[],

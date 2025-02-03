@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28207359: FileFormat = FileFormat {
     id: 28_207_359,
-    puid: "wikidata/28207359",
+    source_type: SourceType::Wikidata,
     name: "TAP",
     extensions: &["tap"],
     media_types: &["image/vnd.tencent.tap"],

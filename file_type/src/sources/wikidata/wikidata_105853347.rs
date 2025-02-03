@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853347: FileFormat = FileFormat {
     id: 105_853_347,
-    puid: "wikidata/105853347",
+    source_type: SourceType::Wikidata,
     name: "SEC EDGAR document",
     extensions: &["txt"],
     media_types: &["text/xml"],

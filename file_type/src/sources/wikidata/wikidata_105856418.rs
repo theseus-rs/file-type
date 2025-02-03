@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856418: FileFormat = FileFormat {
     id: 105_856_418,
-    puid: "wikidata/105856418",
+    source_type: SourceType::Wikidata,
     name: "COSMI FormsMaker Form (v2.0)",
     extensions: &["wfm"],
     media_types: &["application/octet-stream"],

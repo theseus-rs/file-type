@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16707635017572183154: FileFormat = FileFormat {
-    id: 16_707_635_017_572_183_154,
-    puid: "httpd/16707635017572183154",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "epson salt",
     extensions: &["slt"],
     media_types: &["application/vnd.epson.salt"],

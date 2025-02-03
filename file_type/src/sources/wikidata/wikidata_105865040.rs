@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865040: FileFormat = FileFormat {
     id: 105_865_040,
-    puid: "wikidata/105865040",
+    source_type: SourceType::Wikidata,
     name: "Yamaha RS7000 OS image",
     extensions: &["pgm"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852234: FileFormat = FileFormat {
     id: 105_852_234,
-    puid: "wikidata/105852234",
+    source_type: SourceType::Wikidata,
     name: "Vocal-Eyes Set",
     extensions: &["set"],
     media_types: &["application/octet-stream"],

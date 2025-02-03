@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_117835826: FileFormat = FileFormat {
     id: 117_835_826,
-    puid: "wikidata/117835826",
+    source_type: SourceType::Wikidata,
     name: "Fujitsu DexNET file",
     extensions: &["dxn"],
     media_types: &[],

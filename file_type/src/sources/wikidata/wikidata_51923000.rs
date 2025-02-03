@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_51923000: FileFormat = FileFormat {
     id: 51_923_000,
-    puid: "wikidata/51923000",
+    source_type: SourceType::Wikidata,
     name: "Applixware Spreadsheet",
     extensions: &["as"],
     media_types: &[],

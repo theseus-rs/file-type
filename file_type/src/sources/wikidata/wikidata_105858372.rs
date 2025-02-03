@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858372: FileFormat = FileFormat {
     id: 105_858_372,
-    puid: "wikidata/105858372",
+    source_type: SourceType::Wikidata,
     name: "X68000 executable",
     extensions: &["x"],
     media_types: &["application/octet-stream"],

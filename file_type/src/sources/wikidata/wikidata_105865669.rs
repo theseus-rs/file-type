@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865669: FileFormat = FileFormat {
     id: 105_865_669,
-    puid: "wikidata/105865669",
+    source_type: SourceType::Wikidata,
     name: "Proximity Technology Lexicon/Thesaurus",
     extensions: &["lex", "ths"],
-    media_types: &["application/octet-stream", "application/octet-stream"],
+    media_types: &["application/octet-stream"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

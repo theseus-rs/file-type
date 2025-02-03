@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16922485787373200833: FileFormat = FileFormat {
-    id: 16_922_485_787_373_200_833,
-    puid: "httpd/16922485787373200833",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "java vm",
     extensions: &["class"],
     media_types: &["application/java-vm"],

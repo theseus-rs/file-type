@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860505: FileFormat = FileFormat {
     id: 105_860_505,
-    puid: "wikidata/105860505",
+    source_type: SourceType::Wikidata,
     name: "ReadWriteThink data",
     extensions: &["rwt"],
     media_types: &["text/xml"],

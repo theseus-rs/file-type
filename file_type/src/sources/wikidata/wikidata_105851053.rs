@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851053: FileFormat = FileFormat {
     id: 105_851_053,
-    puid: "wikidata/105851053",
+    source_type: SourceType::Wikidata,
     name: "TRSI Sound Monitor Instrument",
     extensions: &["tsi"],
     media_types: &["application/octet-stream"],

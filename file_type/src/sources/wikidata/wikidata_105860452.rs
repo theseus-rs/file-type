@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860452: FileFormat = FileFormat {
     id: 105_860_452,
-    puid: "wikidata/105860452",
+    source_type: SourceType::Wikidata,
     name: "REAPER media peak information (v1.1)",
     extensions: &["reapeaks"],
     media_types: &["application/octet-stream"],

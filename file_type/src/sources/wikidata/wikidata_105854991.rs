@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854991: FileFormat = FileFormat {
     id: 105_854_991,
-    puid: "wikidata/105854991",
+    source_type: SourceType::Wikidata,
     name: "ELI 5750 compressed archive",
     extensions: &["eli"],
     media_types: &[],

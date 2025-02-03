@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857051: FileFormat = FileFormat {
     id: 105_857_051,
-    puid: "wikidata/105857051",
+    source_type: SourceType::Wikidata,
     name: "Guile Object bytecode (little endian)",
     extensions: &["go"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_202735509: FileFormat = FileFormat {
     id: 202_735_509,
-    puid: "linguist/202735509",
+    source_type: SourceType::Linguist,
     name: "ObjectScript",
     extensions: &["cls"],
     media_types: &[],

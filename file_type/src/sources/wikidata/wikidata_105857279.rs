@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857279: FileFormat = FileFormat {
     id: 105_857_279,
-    puid: "wikidata/105857279",
+    source_type: SourceType::Wikidata,
     name: "Windows NT Registry Hive (generic)",
     extensions: &["dat", "hiv"],
-    media_types: &["application/x-ms-registry", "application/x-ms-registry"],
+    media_types: &["application/x-ms-registry"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

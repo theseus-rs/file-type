@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13615448736560673113: FileFormat = FileFormat {
-    id: 13_615_448_736_560_673_113,
-    puid: "httpd/13615448736560673113",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "onenote",
     extensions: &["onetoc", "onetoc2", "onetmp", "onepkg"],
     media_types: &["application/onenote"],

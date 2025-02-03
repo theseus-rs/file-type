@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861366: FileFormat = FileFormat {
     id: 105_861_366,
-    puid: "wikidata/105861366",
+    source_type: SourceType::Wikidata,
     name: "MicroLathe object",
     extensions: &["lat"],
     media_types: &["application/octet-stream"],

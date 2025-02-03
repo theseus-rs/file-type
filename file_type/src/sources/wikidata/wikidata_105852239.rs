@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852239: FileFormat = FileFormat {
     id: 105_852_239,
-    puid: "wikidata/105852239",
+    source_type: SourceType::Wikidata,
     name: "Adorage Script",
     extensions: &["scp"],
     media_types: &["application/octet-stream"],

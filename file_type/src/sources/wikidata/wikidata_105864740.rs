@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864740: FileFormat = FileFormat {
     id: 105_864_740,
-    puid: "wikidata/105864740",
+    source_type: SourceType::Wikidata,
     name: "Expressware Printer Definition File",
     extensions: &["pdf"],
     media_types: &["application/octet-stream"],

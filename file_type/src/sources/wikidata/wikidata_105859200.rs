@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859200: FileFormat = FileFormat {
     id: 105_859_200,
-    puid: "wikidata/105859200",
+    source_type: SourceType::Wikidata,
     name: "GETIC 3D BSP",
     extensions: &["bsp"],
     media_types: &[],

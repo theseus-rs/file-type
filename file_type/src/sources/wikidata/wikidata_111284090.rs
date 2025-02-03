@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_111284090: FileFormat = FileFormat {
     id: 111_284_090,
-    puid: "wikidata/111284090",
+    source_type: SourceType::Wikidata,
     name: "G.723 3-bit (24 kbps) ADPCM format data",
     extensions: &["g723-3"],
     media_types: &[],

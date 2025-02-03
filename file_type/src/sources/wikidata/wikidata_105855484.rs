@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855484: FileFormat = FileFormat {
     id: 105_855_484,
-    puid: "wikidata/105855484",
+    source_type: SourceType::Wikidata,
     name: "FET Timetable",
     extensions: &["fet"],
     media_types: &["text/xml"],

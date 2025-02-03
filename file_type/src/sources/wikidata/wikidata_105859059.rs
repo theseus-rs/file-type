@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859059: FileFormat = FileFormat {
     id: 105_859_059,
-    puid: "wikidata/105859059",
+    source_type: SourceType::Wikidata,
     name: "Warrior Kings game data",
     extensions: &["bcp"],
     media_types: &[],

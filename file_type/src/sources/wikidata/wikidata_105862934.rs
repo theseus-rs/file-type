@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862934: FileFormat = FileFormat {
     id: 105_862_934,
-    puid: "wikidata/105862934",
+    source_type: SourceType::Wikidata,
     name: "FAC Soundtracker module",
     extensions: &["mus"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851883: FileFormat = FileFormat {
     id: 105_851_883,
-    puid: "wikidata/105851883",
+    source_type: SourceType::Wikidata,
     name: "SMS Super File",
     extensions: &["sup"],
     media_types: &["text/plain"],

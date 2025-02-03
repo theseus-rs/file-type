@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855176: FileFormat = FileFormat {
     id: 105_855_176,
-    puid: "wikidata/105855176",
+    source_type: SourceType::Wikidata,
     name: "Mortal Kombat 3 game data archive",
     extensions: &["ftr"],
     media_types: &["application/octet-stream"],

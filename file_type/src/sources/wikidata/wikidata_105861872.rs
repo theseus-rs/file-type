@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861872: FileFormat = FileFormat {
     id: 105_861_872,
-    puid: "wikidata/105861872",
+    source_type: SourceType::Wikidata,
     name: "Dega Movie capture",
     extensions: &["mmv"],
     media_types: &["application/octet-stream"],

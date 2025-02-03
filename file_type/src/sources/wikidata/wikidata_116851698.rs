@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_116851698: FileFormat = FileFormat {
     id: 116_851_698,
-    puid: "wikidata/116851698",
+    source_type: SourceType::Wikidata,
     name: "VersaCheck Data File",
     extensions: &["vdf"],
     media_types: &[],

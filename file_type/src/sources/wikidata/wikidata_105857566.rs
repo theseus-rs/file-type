@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857566: FileFormat = FileFormat {
     id: 105_857_566,
-    puid: "wikidata/105857566",
+    source_type: SourceType::Wikidata,
     name: "Alpha Four Index Definition",
     extensions: &["idn"],
     media_types: &["application/octet-stream"],

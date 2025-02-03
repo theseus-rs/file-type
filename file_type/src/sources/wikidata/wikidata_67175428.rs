@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_67175428: FileFormat = FileFormat {
     id: 67_175_428,
-    puid: "wikidata/67175428",
+    source_type: SourceType::Wikidata,
     name: "StarView Metafile",
     extensions: &["svm"],
     media_types: &[],

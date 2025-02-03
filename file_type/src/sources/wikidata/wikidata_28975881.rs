@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28975881: FileFormat = FileFormat {
     id: 28_975_881,
-    puid: "wikidata/28975881",
+    source_type: SourceType::Wikidata,
     name: "SOLIDWORKS Part",
     extensions: &["sldprt"],
     media_types: &["application/octet-stream"],

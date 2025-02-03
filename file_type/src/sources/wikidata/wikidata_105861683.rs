@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861683: FileFormat = FileFormat {
     id: 105_861_683,
-    puid: "wikidata/105861683",
+    source_type: SourceType::Wikidata,
     name: "Mophun game",
     extensions: &["mpn"],
     media_types: &[],

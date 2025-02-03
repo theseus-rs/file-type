@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859593: FileFormat = FileFormat {
     id: 105_859_593,
-    puid: "wikidata/105859593",
+    source_type: SourceType::Wikidata,
     name: "Virtual Game Station memory card save game",
     extensions: &["vgs"],
     media_types: &[],

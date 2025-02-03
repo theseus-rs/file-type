@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856071: FileFormat = FileFormat {
     id: 105_856_071,
-    puid: "wikidata/105856071",
+    source_type: SourceType::Wikidata,
     name: "OrangeCD theme",
     extensions: &["dax"],
     media_types: &[],

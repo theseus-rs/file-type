@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858190: FileFormat = FileFormat {
     id: 105_858_190,
-    puid: "wikidata/105858190",
+    source_type: SourceType::Wikidata,
     name: "SimCity 4 Cohort (text)",
     extensions: &["exmp"],
     media_types: &["text/plain"],

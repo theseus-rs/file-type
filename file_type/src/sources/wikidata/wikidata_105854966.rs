@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854966: FileFormat = FileFormat {
     id: 105_854_966,
-    puid: "wikidata/105854966",
+    source_type: SourceType::Wikidata,
     name: "RealFlight Radio Control Flying Site - Airport",
     extensions: &["airports"],
     media_types: &[],

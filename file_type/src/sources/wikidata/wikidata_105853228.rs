@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853228: FileFormat = FileFormat {
     id: 105_853_228,
-    puid: "wikidata/105853228",
+    source_type: SourceType::Wikidata,
     name: "The Music Studio Song (Atari ST)",
     extensions: &["sng"],
     media_types: &["application/octet-stream"],

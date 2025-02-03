@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863777: FileFormat = FileFormat {
     id: 105_863_777,
-    puid: "wikidata/105863777",
+    source_type: SourceType::Wikidata,
     name: "Maxthon skin (MX2)",
     extensions: &["m2s"],
     media_types: &[],

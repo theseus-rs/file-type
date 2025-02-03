@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867073: FileFormat = FileFormat {
     id: 105_867_073,
-    puid: "wikidata/105867073",
+    source_type: SourceType::Wikidata,
     name: "NITF National Imagery Transmission Format image (v1.x)",
     extensions: &["nitf", "ntf"],
-    media_types: &["application/vnd.nitf", "application/vnd.nitf"],
+    media_types: &["application/vnd.nitf"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

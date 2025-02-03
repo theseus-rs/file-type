@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857544: FileFormat = FileFormat {
     id: 105_857_544,
-    puid: "wikidata/105857544",
+    source_type: SourceType::Wikidata,
     name: "MagicDesk Icon",
     extensions: &["icn"],
     media_types: &["application/octet-stream"],

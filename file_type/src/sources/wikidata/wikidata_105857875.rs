@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857875: FileFormat = FileFormat {
     id: 105_857_875,
-    puid: "wikidata/105857875",
+    source_type: SourceType::Wikidata,
     name: "Ensoniq SQ-80 EDM disk image",
     extensions: &["eds"],
     media_types: &["application/octet-stream"],

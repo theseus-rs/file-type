@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849276: FileFormat = FileFormat {
     id: 105_849_276,
-    puid: "wikidata/105849276",
+    source_type: SourceType::Wikidata,
     name: "BYOB sprite",
     extensions: &["ysp"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2260535582776616: FileFormat = FileFormat {
-    id: 2_260_535_582_776_616,
-    puid: "httpd/2260535582776616",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "adobe fxp",
     extensions: &["fxp", "fxpl"],
     media_types: &["application/vnd.adobe.fxp"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867263: FileFormat = FileFormat {
     id: 105_867_263,
-    puid: "wikidata/105867263",
+    source_type: SourceType::Wikidata,
     name: "Terminate Smartnote",
     extensions: &["not"],
     media_types: &["application/octet-stream"],

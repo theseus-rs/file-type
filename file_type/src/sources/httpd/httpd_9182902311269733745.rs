@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_9182902311269733745: FileFormat = FileFormat {
-    id: 9_182_902_311_269_733_745,
-    puid: "httpd/9182902311269733745",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "spotfire sfs",
     extensions: &["sfs"],
     media_types: &["application/vnd.spotfire.sfs"],

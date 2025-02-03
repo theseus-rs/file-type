@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865191: FileFormat = FileFormat {
     id: 105_865_191,
-    puid: "wikidata/105865191",
+    source_type: SourceType::Wikidata,
     name: "Supersonic Software game data archive",
     extensions: &["piz"],
     media_types: &["application/octet-stream"],

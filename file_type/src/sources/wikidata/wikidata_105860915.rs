@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860915: FileFormat = FileFormat {
     id: 105_860_915,
-    puid: "wikidata/105860915",
+    source_type: SourceType::Wikidata,
     name: "Windows Resource Monitor Configuration",
     extensions: &["resmoncfg"],
     media_types: &["text/xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862222: FileFormat = FileFormat {
     id: 105_862_222,
-    puid: "wikidata/105862222",
+    source_type: SourceType::Wikidata,
     name: "Magnetic Graphics (V2)",
     extensions: &["gfx"],
     media_types: &["application/octet-stream"],

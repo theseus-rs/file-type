@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858128: FileFormat = FileFormat {
     id: 105_858_128,
-    puid: "wikidata/105858128",
+    source_type: SourceType::Wikidata,
     name: "Card Image Backup format",
     extensions: &["cib"],
     media_types: &["application/octet-stream"],

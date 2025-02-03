@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_19599377: FileFormat = FileFormat {
     id: 19_599_377,
-    puid: "wikidata/19599377",
+    source_type: SourceType::Wikidata,
     name: "AppleLink Package Compression Format",
     extensions: &["pkg"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860096: FileFormat = FileFormat {
     id: 105_860_096,
-    puid: "wikidata/105860096",
+    source_type: SourceType::Wikidata,
     name: "Vissim 3D Vehicle model",
     extensions: &["v3d"],
     media_types: &["application/octet-stream"],

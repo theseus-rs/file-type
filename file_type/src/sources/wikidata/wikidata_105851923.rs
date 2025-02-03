@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851923: FileFormat = FileFormat {
     id: 105_851_923,
-    puid: "wikidata/105851923",
+    source_type: SourceType::Wikidata,
     name: "AppleScript Terminology",
     extensions: &["scriptterminology"],
     media_types: &[],

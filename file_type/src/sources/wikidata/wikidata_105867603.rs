@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867603: FileFormat = FileFormat {
     id: 105_867_603,
-    puid: "wikidata/105867603",
+    source_type: SourceType::Wikidata,
     name: "NetEase Games data Package",
     extensions: &["npk"],
     media_types: &["application/octet-stream"],

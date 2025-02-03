@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855961: FileFormat = FileFormat {
     id: 105_855_961,
-    puid: "wikidata/105855961",
+    source_type: SourceType::Wikidata,
     name: "Klasik Spreadsheet Export Driver",
     extensions: &["dse"],
     media_types: &["application/octet-stream"],

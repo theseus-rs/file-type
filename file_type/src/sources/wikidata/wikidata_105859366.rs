@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859366: FileFormat = FileFormat {
     id: 105_859_366,
-    puid: "wikidata/105859366",
+    source_type: SourceType::Wikidata,
     name: "Quartus Compiler Setting File",
     extensions: &["csf"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852091: FileFormat = FileFormat {
     id: 105_852_091,
-    puid: "wikidata/105852091",
+    source_type: SourceType::Wikidata,
     name: "Solid Edge STereoLithography (binary)",
     extensions: &["stl"],
     media_types: &["model/x.stl-binary"],

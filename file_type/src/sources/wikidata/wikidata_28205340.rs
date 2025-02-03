@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205340: FileFormat = FileFormat {
     id: 28_205_340,
-    puid: "wikidata/28205340",
+    source_type: SourceType::Wikidata,
     name: "Hasselblad 3F RAW",
     extensions: &["3fr"],
     media_types: &["image/x-raw-hasselblad"],

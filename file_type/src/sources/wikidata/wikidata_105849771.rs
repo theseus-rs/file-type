@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849771: FileFormat = FileFormat {
     id: 105_849_771,
-    puid: "wikidata/105849771",
+    source_type: SourceType::Wikidata,
     name: "Cypress Cypress PSoC Design-Wide Resource (XML)",
     extensions: &["cydwr"],
     media_types: &["text/xml"],

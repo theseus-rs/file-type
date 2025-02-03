@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854603: FileFormat = FileFormat {
     id: 105_854_603,
-    puid: "wikidata/105854603",
+    source_type: SourceType::Wikidata,
     name: "Lavasoft Ad-Aware reference file",
     extensions: &["ref"],
     media_types: &[],

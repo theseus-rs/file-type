@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866009: FileFormat = FileFormat {
     id: 105_866_009,
-    puid: "wikidata/105866009",
+    source_type: SourceType::Wikidata,
     name: "Aerofly model parameters",
     extensions: &["par"],
     media_types: &[],

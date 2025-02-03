@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859879: FileFormat = FileFormat {
     id: 105_859_879,
-    puid: "wikidata/105859879",
+    source_type: SourceType::Wikidata,
     name: "Nokia Saved SMS (Unicode)",
     extensions: &["vmg"],
     media_types: &["text/x-vMessage"],

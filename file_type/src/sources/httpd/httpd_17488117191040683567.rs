@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17488117191040683567: FileFormat = FileFormat {
-    id: 17_488_117_191_040_683_567,
-    puid: "httpd/17488117191040683567",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "msterminal",
     extensions: &["trm"],
     media_types: &["application/x-msterminal"],

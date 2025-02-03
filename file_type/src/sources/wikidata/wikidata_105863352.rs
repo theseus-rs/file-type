@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863352: FileFormat = FileFormat {
     id: 105_863_352,
-    puid: "wikidata/105863352",
+    source_type: SourceType::Wikidata,
     name: "Yamaha Midimonitor Messages",
     extensions: &["msg"],
     media_types: &["application/octet-stream"],

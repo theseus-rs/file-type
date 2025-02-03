@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27979387: FileFormat = FileFormat {
     id: 27_979_387,
-    puid: "wikidata/27979387",
+    source_type: SourceType::Wikidata,
     name: "Nero Super Video CD compilation",
     extensions: &["nsd"],
     media_types: &["application/octet-stream"],

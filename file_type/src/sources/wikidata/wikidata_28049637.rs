@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28049637: FileFormat = FileFormat {
     id: 28_049_637,
-    puid: "wikidata/28049637",
+    source_type: SourceType::Wikidata,
     name: "AutoCAD Slide",
-    extensions: &["sld", "sld", "sld", "sld"],
+    extensions: &["sld"],
     media_types: &[
         "application/octet-stream",
         "application/sld",

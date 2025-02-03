@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855157: FileFormat = FileFormat {
     id: 105_855_157,
-    puid: "wikidata/105855157",
+    source_type: SourceType::Wikidata,
     name: "ABBYY eForm Filler data",
     extensions: &["ffdata"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851483: FileFormat = FileFormat {
     id: 105_851_483,
-    puid: "wikidata/105851483",
+    source_type: SourceType::Wikidata,
     name: "Android Trash storage metadata",
     extensions: &["trashinfo"],
     media_types: &["text/plain"],

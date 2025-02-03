@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859606: FileFormat = FileFormat {
     id: 105_859_606,
-    puid: "wikidata/105859606",
+    source_type: SourceType::Wikidata,
     name: "Visual Studio Tools for Office add-in",
     extensions: &["vsto"],
     media_types: &[],

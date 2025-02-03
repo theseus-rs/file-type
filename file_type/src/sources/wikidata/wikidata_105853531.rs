@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853531: FileFormat = FileFormat {
     id: 105_853_531,
-    puid: "wikidata/105853531",
+    source_type: SourceType::Wikidata,
     name: "Pencil stencil",
     extensions: &["zip"],
     media_types: &[],

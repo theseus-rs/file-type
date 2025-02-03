@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853159: FileFormat = FileFormat {
     id: 105_853_159,
-    puid: "wikidata/105853159",
+    source_type: SourceType::Wikidata,
     name: "Crimson Editor language specification file",
     extensions: &["spc"],
     media_types: &[],

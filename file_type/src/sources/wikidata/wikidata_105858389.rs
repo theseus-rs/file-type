@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858389: FileFormat = FileFormat {
     id: 105_858_389,
-    puid: "wikidata/105858389",
+    source_type: SourceType::Wikidata,
     name: "Envoy document (v1)",
     extensions: &["evy"],
     media_types: &["application/octet-stream"],

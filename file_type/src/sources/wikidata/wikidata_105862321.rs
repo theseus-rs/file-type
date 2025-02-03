@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862321: FileFormat = FileFormat {
     id: 105_862_321,
-    puid: "wikidata/105862321",
+    source_type: SourceType::Wikidata,
     name: "MatrixREDUCE 2.0 PSAM XML format",
     extensions: &["mxr"],
     media_types: &["text/xml"],

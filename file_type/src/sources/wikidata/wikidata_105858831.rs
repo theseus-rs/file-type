@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858831: FileFormat = FileFormat {
     id: 105_858_831,
-    puid: "wikidata/105858831",
+    source_type: SourceType::Wikidata,
     name: "Cisco IOS XE firmware (v2.0)",
     extensions: &["bin"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_15669081077453213107: FileFormat = FileFormat {
-    id: 15_669_081_077_453_213_107,
-    puid: "httpd/15669081077453213107",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "gpx xml",
     extensions: &["gpx"],
     media_types: &["application/gpx+xml"],

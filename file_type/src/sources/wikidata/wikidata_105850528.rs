@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850528: FileFormat = FileFormat {
     id: 105_850_528,
-    puid: "wikidata/105850528",
+    source_type: SourceType::Wikidata,
     name: "Cricket Audio Bank",
     extensions: &["ckb"],
     media_types: &["application/octet-stream"],

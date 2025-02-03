@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862493: FileFormat = FileFormat {
     id: 105_862_493,
-    puid: "wikidata/105862493",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Project View (v3.0)",
     extensions: &["mpv"],
     media_types: &["application/octet-stream"],

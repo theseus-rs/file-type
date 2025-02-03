@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858347: FileFormat = FileFormat {
     id: 105_858_347,
-    puid: "wikidata/105858347",
+    source_type: SourceType::Wikidata,
     name: "Emulator 3000 snapshot (text)",
     extensions: &["e3"],
     media_types: &["text/plain"],

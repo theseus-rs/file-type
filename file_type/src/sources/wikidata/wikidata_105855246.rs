@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855246: FileFormat = FileFormat {
     id: 105_855_246,
-    puid: "wikidata/105855246",
+    source_type: SourceType::Wikidata,
     name: "Floppy Disk Manager disk image",
     extensions: &["fdm"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858517: FileFormat = FileFormat {
     id: 105_858_517,
-    puid: "wikidata/105858517",
+    source_type: SourceType::Wikidata,
     name: "Naive Image format NIE bitmap",
     extensions: &["nie"],
     media_types: &["application/octet-stream"],

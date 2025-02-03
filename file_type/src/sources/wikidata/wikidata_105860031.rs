@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860031: FileFormat = FileFormat {
     id: 105_860_031,
-    puid: "wikidata/105860031",
+    source_type: SourceType::Wikidata,
     name: "vTask Studio script",
     extensions: &["vxm"],
     media_types: &["text/xml"],

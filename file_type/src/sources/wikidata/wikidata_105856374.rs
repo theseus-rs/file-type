@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856374: FileFormat = FileFormat {
     id: 105_856_374,
-    puid: "wikidata/105856374",
+    source_type: SourceType::Wikidata,
     name: "XL/ST link / XLDJ Disk Image",
     extensions: &["di"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860754: FileFormat = FileFormat {
     id: 105_860_754,
-    puid: "wikidata/105860754",
+    source_type: SourceType::Wikidata,
     name: "LigPlot Residue Centres-of-Mass data",
     extensions: &["rcm"],
     media_types: &["text/plain"],

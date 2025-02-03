@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967188: FileFormat = FileFormat {
     id: 27_967_188,
-    puid: "wikidata/27967188",
+    source_type: SourceType::Wikidata,
     name: "Future Composer (BSI) module",
     extensions: &["bsi"],
     media_types: &["audio/x-mod"],

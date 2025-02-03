@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856377: FileFormat = FileFormat {
     id: 105_856_377,
-    puid: "wikidata/105856377",
+    source_type: SourceType::Wikidata,
     name: "Oxford Instruments electron microscope image tile",
     extensions: &["dmp"],
     media_types: &["application/octet-stream"],

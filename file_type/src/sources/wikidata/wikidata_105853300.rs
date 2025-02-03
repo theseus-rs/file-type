@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853300: FileFormat = FileFormat {
     id: 105_853_300,
-    puid: "wikidata/105853300",
+    source_type: SourceType::Wikidata,
     name: "CBM .prg Studio Screen Designer Data",
     extensions: &["sdd"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862503: FileFormat = FileFormat {
     id: 105_862_503,
-    puid: "wikidata/105862503",
+    source_type: SourceType::Wikidata,
     name: "Drum Traker module",
     extensions: &["dtl"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3969505105703786494: FileFormat = FileFormat {
-    id: 3_969_505_105_703_786_494,
-    puid: "httpd/3969505105703786494",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "dtbncx xml",
     extensions: &["ncx"],
     media_types: &["application/x-dtbncx+xml"],

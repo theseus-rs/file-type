@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855068: FileFormat = FileFormat {
     id: 105_855_068,
-    puid: "wikidata/105855068",
+    source_type: SourceType::Wikidata,
     name: "ABC FlowCharter chart (protected)",
     extensions: &["af3"],
     media_types: &["application/octet-stream"],

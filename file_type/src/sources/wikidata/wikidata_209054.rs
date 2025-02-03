@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_209054: FileFormat = FileFormat {
     id: 209_054,
-    puid: "wikidata/209054",
+    source_type: SourceType::Wikidata,
     name: "Audio Video Interleave",
     extensions: &["avi"],
     media_types: &["video/vnd.avi"],

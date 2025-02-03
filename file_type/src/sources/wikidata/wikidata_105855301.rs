@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855301: FileFormat = FileFormat {
     id: 105_855_301,
-    puid: "wikidata/105855301",
+    source_type: SourceType::Wikidata,
     name: "Patton-Patton Flow Charting 3 Printer Driver",
     extensions: &["fpd"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861876: FileFormat = FileFormat {
     id: 105_861_876,
-    puid: "wikidata/105861876",
+    source_type: SourceType::Wikidata,
     name: "Magic Workstation Deck",
     extensions: &["mwdeck"],
     media_types: &["text/plain"],

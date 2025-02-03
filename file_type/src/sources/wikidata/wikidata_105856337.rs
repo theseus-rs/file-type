@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856337: FileFormat = FileFormat {
     id: 105_856_337,
-    puid: "wikidata/105856337",
+    source_type: SourceType::Wikidata,
     name: "DirectWave Program",
     extensions: &["dwp"],
     media_types: &[],

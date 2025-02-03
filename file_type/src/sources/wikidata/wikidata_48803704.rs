@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_48803704: FileFormat = FileFormat {
     id: 48_803_704,
-    puid: "wikidata/48803704",
+    source_type: SourceType::Wikidata,
     name: "AutoSketch Drawing",
     extensions: &["skf"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861347: FileFormat = FileFormat {
     id: 105_861_347,
-    puid: "wikidata/105861347",
+    source_type: SourceType::Wikidata,
     name: "Windows logo drawing code",
     extensions: &["lgo"],
     media_types: &["application/octet-stream"],

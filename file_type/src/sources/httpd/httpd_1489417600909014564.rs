@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_1489417600909014564: FileFormat = FileFormat {
-    id: 1_489_417_600_909_014_564,
-    puid: "httpd/1489417600909014564",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "scvp cv request",
     extensions: &["scq"],
     media_types: &["application/scvp-cv-request"],

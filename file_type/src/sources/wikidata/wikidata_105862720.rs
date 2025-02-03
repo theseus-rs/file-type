@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862720: FileFormat = FileFormat {
     id: 105_862_720,
-    puid: "wikidata/105862720",
+    source_type: SourceType::Wikidata,
     name: "iOS backup manifest index",
     extensions: &["mbdx"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851030: FileFormat = FileFormat {
     id: 105_851_030,
-    puid: "wikidata/105851030",
+    source_type: SourceType::Wikidata,
     name: "TK Solver module (v1)",
     extensions: &["tk"],
     media_types: &["text/plain"],

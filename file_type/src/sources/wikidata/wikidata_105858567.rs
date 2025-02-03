@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858567: FileFormat = FileFormat {
     id: 105_858_567,
-    puid: "wikidata/105858567",
+    source_type: SourceType::Wikidata,
     name: "C64 Hires bitmap",
     extensions: &["hir"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854710: FileFormat = FileFormat {
     id: 105_854_710,
-    puid: "wikidata/105854710",
+    source_type: SourceType::Wikidata,
     name: "mcm compressed archive",
     extensions: &["mcm"],
     media_types: &["application/octet-stream"],

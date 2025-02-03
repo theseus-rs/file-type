@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_12448632667719045031: FileFormat = FileFormat {
-    id: 12_448_632_667_719_045_031,
-    puid: "httpd/12448632667719045031",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "7z compressed",
     extensions: &["7z"],
     media_types: &["application/x-7z-compressed"],

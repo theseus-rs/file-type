@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_70000497: FileFormat = FileFormat {
     id: 70_000_497,
-    puid: "wikidata/70000497",
+    source_type: SourceType::Wikidata,
     name: "My Family Tree Family file format",
     extensions: &["familyx"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850896: FileFormat = FileFormat {
     id: 105_850_896,
-    puid: "wikidata/105850896",
+    source_type: SourceType::Wikidata,
     name: "PolyPlot card data",
     extensions: &["kar"],
     media_types: &["application/octet-stream"],

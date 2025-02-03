@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_68481753: FileFormat = FileFormat {
     id: 68_481_753,
-    puid: "wikidata/68481753",
+    source_type: SourceType::Wikidata,
     name: "AutoCAD drawing lock file format",
     extensions: &["dwl2"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852077: FileFormat = FileFormat {
     id: 105_852_077,
-    puid: "wikidata/105852077",
+    source_type: SourceType::Wikidata,
     name: "Sandcastle Help File Builder project",
     extensions: &["shfb"],
     media_types: &["text/xml"],

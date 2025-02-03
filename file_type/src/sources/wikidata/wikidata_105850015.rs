@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850015: FileFormat = FileFormat {
     id: 105_850_015,
-    puid: "wikidata/105850015",
+    source_type: SourceType::Wikidata,
     name: "ShowMiiWads configuration",
     extensions: &["cfg"],
     media_types: &[],

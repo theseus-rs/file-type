@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855899: FileFormat = FileFormat {
     id: 105_855_899,
-    puid: "wikidata/105855899",
+    source_type: SourceType::Wikidata,
     name: "DVD Cutting Master Format DDVID.DAT (v1.00)",
     extensions: &["dat"],
     media_types: &["application/octet-stream"],

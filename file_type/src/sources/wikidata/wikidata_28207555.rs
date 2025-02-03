@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28207555: FileFormat = FileFormat {
     id: 28_207_555,
-    puid: "wikidata/28207555",
+    source_type: SourceType::Wikidata,
     name: "eXtended Image File Format, version 3",
     extensions: &["xif"],
     media_types: &["image/vnd.xiff"],

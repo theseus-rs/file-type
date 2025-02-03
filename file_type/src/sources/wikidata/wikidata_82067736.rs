@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_82067736: FileFormat = FileFormat {
     id: 82_067_736,
-    puid: "wikidata/82067736",
+    source_type: SourceType::Wikidata,
     name: "MindMaple document",
     extensions: &["emm"],
     media_types: &["application/octet-stream"],

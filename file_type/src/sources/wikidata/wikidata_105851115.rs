@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851115: FileFormat = FileFormat {
     id: 105_851_115,
-    puid: "wikidata/105851115",
+    source_type: SourceType::Wikidata,
     name: "Stardock Tiles Skin",
     extensions: &["tileskinzip"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863676: FileFormat = FileFormat {
     id: 105_863_676,
-    puid: "wikidata/105863676",
+    source_type: SourceType::Wikidata,
     name: "MacWrite II document",
     extensions: &["mcw"],
     media_types: &["application/octet-stream"],

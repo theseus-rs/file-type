@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864455: FileFormat = FileFormat {
     id: 105_864_455,
-    puid: "wikidata/105864455",
+    source_type: SourceType::Wikidata,
     name: "Password Commander Pro database (v2.x)",
     extensions: &["pwd"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863866: FileFormat = FileFormat {
     id: 105_863_866,
-    puid: "wikidata/105863866",
+    source_type: SourceType::Wikidata,
     name: "MK-Jamz Ad Lib module",
     extensions: &["mkj"],
     media_types: &["application/octet-stream"],

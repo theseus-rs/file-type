@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_1035892117: FileFormat = FileFormat {
     id: 1_035_892_117,
-    puid: "linguist/1035892117",
+    source_type: SourceType::Linguist,
     name: "TSV",
     extensions: &["tsv", "vcf"],
     media_types: &[],

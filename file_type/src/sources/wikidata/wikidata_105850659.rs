@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850659: FileFormat = FileFormat {
     id: 105_850_659,
-    puid: "wikidata/105850659",
+    source_type: SourceType::Wikidata,
     name: "Hondata K-Manager Calibration data",
     extensions: &["kal"],
     media_types: &[],

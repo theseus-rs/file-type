@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856089: FileFormat = FileFormat {
     id: 105_856_089,
-    puid: "wikidata/105856089",
+    source_type: SourceType::Wikidata,
     name: "Dust3D XML model (v1.0)",
     extensions: &["ds3"],
     media_types: &["text/plain"],

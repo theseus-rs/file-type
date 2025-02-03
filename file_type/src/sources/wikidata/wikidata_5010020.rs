@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_5010020: FileFormat = FileFormat {
     id: 5_010_020,
-    puid: "wikidata/5010020",
+    source_type: SourceType::Wikidata,
     name: "CDXML",
     extensions: &["cdxml"],
     media_types: &["chemical/x-cdxml"],

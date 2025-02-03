@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862475: FileFormat = FileFormat {
     id: 105_862_475,
-    puid: "wikidata/105862475",
+    source_type: SourceType::Wikidata,
     name: "Metasequoia 3D scene",
     extensions: &["mqo"],
     media_types: &["text/plain"],

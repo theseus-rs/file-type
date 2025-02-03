@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856140: FileFormat = FileFormat {
     id: 105_856_140,
-    puid: "wikidata/105856140",
+    source_type: SourceType::Wikidata,
     name: "ISIS Schematic file",
     extensions: &["dsn"],
     media_types: &[],

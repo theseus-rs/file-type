@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857425: FileFormat = FileFormat {
     id: 105_857_425,
-    puid: "wikidata/105857425",
+    source_type: SourceType::Wikidata,
     name: "JDeveloper Java Workspace Settings",
     extensions: &["jws"],
     media_types: &["text/xml"],

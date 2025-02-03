@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861134: FileFormat = FileFormat {
     id: 105_861_134,
-    puid: "wikidata/105861134",
+    source_type: SourceType::Wikidata,
     name: "Lsnes movie capture",
     extensions: &["lsmv"],
     media_types: &["application/octet-stream"],

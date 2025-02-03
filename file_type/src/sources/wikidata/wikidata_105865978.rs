@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865978: FileFormat = FileFormat {
     id: 105_865_978,
-    puid: "wikidata/105865978",
+    source_type: SourceType::Wikidata,
     name: "Parrot ByteCode",
     extensions: &["pbc"],
     media_types: &["application/octet-stream"],

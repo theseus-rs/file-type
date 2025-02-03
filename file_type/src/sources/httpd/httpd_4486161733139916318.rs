@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_4486161733139916318: FileFormat = FileFormat {
-    id: 4_486_161_733_139_916_318,
-    puid: "httpd/4486161733139916318",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "msmetafile",
     extensions: &["wmf", "wmz", "emf", "emz"],
     media_types: &["application/x-msmetafile"],

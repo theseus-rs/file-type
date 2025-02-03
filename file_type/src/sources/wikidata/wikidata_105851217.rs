@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851217: FileFormat = FileFormat {
     id: 105_851_217,
-    puid: "wikidata/105851217",
+    source_type: SourceType::Wikidata,
     name: "Total Commander Tabs configuration",
     extensions: &["tab"],
     media_types: &["text/ini"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6901913721037133475: FileFormat = FileFormat {
-    id: 6_901_913_721_037_133_475,
-    puid: "httpd/6901913721037133475",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "resource lists diff xml",
     extensions: &["rld"],
     media_types: &["application/resource-lists-diff+xml"],

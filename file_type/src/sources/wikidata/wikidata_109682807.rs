@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_109682807: FileFormat = FileFormat {
     id: 109_682_807,
-    puid: "wikidata/109682807",
+    source_type: SourceType::Wikidata,
     name: "Sinar Digital Back format",
     extensions: &["sti"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854844: FileFormat = FileFormat {
     id: 105_854_844,
-    puid: "wikidata/105854844",
+    source_type: SourceType::Wikidata,
     name: "Quest Adventure Script (UTF-8) (v5)",
     extensions: &["aslx"],
     media_types: &["text/xml"],

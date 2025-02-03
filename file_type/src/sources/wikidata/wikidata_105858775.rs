@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858775: FileFormat = FileFormat {
     id: 105_858_775,
-    puid: "wikidata/105858775",
+    source_type: SourceType::Wikidata,
     name: "Tales Of Eternia Online game data archive (v2)",
     extensions: &["bnd"],
     media_types: &["application/octet-stream"],

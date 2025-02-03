@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862046: FileFormat = FileFormat {
     id: 105_862_046,
-    puid: "wikidata/105862046",
+    source_type: SourceType::Wikidata,
     name: "Aladdin 4D MTR",
     extensions: &["mtr"],
     media_types: &["application/octet-stream"],

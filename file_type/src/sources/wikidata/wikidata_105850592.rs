@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850592: FileFormat = FileFormat {
     id: 105_850_592,
-    puid: "wikidata/105850592",
+    source_type: SourceType::Wikidata,
     name: "Mactive AdBase data",
     extensions: &["cdb"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863015: FileFormat = FileFormat {
     id: 105_863_015,
-    puid: "wikidata/105863015",
+    source_type: SourceType::Wikidata,
     name: "MaxiDesk Phone Book",
     extensions: &["book"],
     media_types: &["application/octet-stream"],

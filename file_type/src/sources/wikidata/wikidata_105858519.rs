@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858519: FileFormat = FileFormat {
     id: 105_858_519,
-    puid: "wikidata/105858519",
+    source_type: SourceType::Wikidata,
     name: "ImageKnife Raw bitmap",
     extensions: &["raw"],
     media_types: &["application/octet-stream"],

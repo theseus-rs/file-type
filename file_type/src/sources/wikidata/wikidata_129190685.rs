@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_129190685: FileFormat = FileFormat {
     id: 129_190_685,
-    puid: "wikidata/129190685",
+    source_type: SourceType::Wikidata,
     name: "FStar file format",
     extensions: &["fst"],
     media_types: &["text/x-fstar"],

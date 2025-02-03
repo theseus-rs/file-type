@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865628: FileFormat = FileFormat {
     id: 105_865_628,
-    puid: "wikidata/105865628",
+    source_type: SourceType::Wikidata,
     name: "Pacific Warrior 2: Dogfight game data archive",
     extensions: &["pak"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865958: FileFormat = FileFormat {
     id: 105_865_958,
-    puid: "wikidata/105865958",
+    source_type: SourceType::Wikidata,
     name: "BNUPORT Patch Table",
     extensions: &["pat"],
     media_types: &["application/octet-stream"],

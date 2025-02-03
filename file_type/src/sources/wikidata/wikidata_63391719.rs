@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_63391719: FileFormat = FileFormat {
     id: 63_391_719,
-    puid: "wikidata/63391719",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Access Database, version 2007",
     extensions: &["accdb"],
     media_types: &[],

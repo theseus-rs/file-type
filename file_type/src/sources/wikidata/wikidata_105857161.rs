@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857161: FileFormat = FileFormat {
     id: 105_857_161,
-    puid: "wikidata/105857161",
+    source_type: SourceType::Wikidata,
     name: "HammerHead Rhythm Station pattern",
     extensions: &["hh"],
     media_types: &["application/octet-stream"],

@@ -1,15 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856460: FileFormat = FileFormat {
     id: 105_856_460,
-    puid: "wikidata/105856460",
+    source_type: SourceType::Wikidata,
     name: "Windows Imaging Format (generic)",
     extensions: &["esd", "swm", "wim"],
-    media_types: &[
-        "application/x-ms-wim",
-        "application/x-ms-wim",
-        "application/x-ms-wim",
-    ],
+    media_types: &["application/x-ms-wim"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

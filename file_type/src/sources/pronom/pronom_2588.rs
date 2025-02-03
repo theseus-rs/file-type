@@ -1,0 +1,51 @@
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
+    RelationshipType, SourceType, Token,
+};
+
+pub(crate) const PRONOM_2588: FileFormat = FileFormat {
+    id: 2_588,
+    source_type: SourceType::Pronom,
+    name: "Hierarchical File System Plus",
+    extensions: &["img", "dmg", "toast"],
+    media_types: &[],
+    internal_signatures: &[
+        InternalSignature {
+            byte_sequences: &[
+                ByteSequence {
+                    position_type: PositionType::BOF,
+                    offset: Some(1_024),
+                    regex: Regex {
+                        tokens: &[Token::Literal(&[0x48, 0x2B, 0x00, 0x04])],
+                    },
+                },
+                ByteSequence {
+                    position_type: PositionType::EOF,
+                    offset: Some(0),
+                    regex: Regex {
+                        tokens: &[Token::Literal(&[0x48, 0x2B, 0x00, 0x04])],
+                    },
+                },
+            ],
+        },
+        InternalSignature {
+            byte_sequences: &[
+                ByteSequence {
+                    position_type: PositionType::BOF,
+                    offset: Some(1_024),
+                    regex: Regex {
+                        tokens: &[Token::Literal(&[0x48, 0x58, 0x00, 0x05])],
+                    },
+                },
+                ByteSequence {
+                    position_type: PositionType::EOF,
+                    offset: Some(0),
+                    regex: Regex {
+                        tokens: &[Token::Literal(&[0x48, 0x58, 0x00, 0x05])],
+                    },
+                },
+            ],
+        },
+    ],
+    related_formats: &[],
+};

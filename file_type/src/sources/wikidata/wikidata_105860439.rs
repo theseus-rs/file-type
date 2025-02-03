@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860439: FileFormat = FileFormat {
     id: 105_860_439,
-    puid: "wikidata/105860439",
+    source_type: SourceType::Wikidata,
     name: "Okino plugin Run Time Information",
     extensions: &["rti"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855442: FileFormat = FileFormat {
     id: 105_855_442,
-    puid: "wikidata/105855442",
+    source_type: SourceType::Wikidata,
     name: "Cleanersoft Free Hide Folder data",
     extensions: &["fhf"],
     media_types: &[],

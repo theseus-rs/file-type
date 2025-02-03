@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851616: FileFormat = FileFormat {
     id: 105_851_616,
-    puid: "wikidata/105851616",
+    source_type: SourceType::Wikidata,
     name: "GPS track",
     extensions: &["twl"],
     media_types: &[],

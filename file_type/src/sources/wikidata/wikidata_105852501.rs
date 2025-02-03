@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852501: FileFormat = FileFormat {
     id: 105_852_501,
-    puid: "wikidata/105852501",
+    source_type: SourceType::Wikidata,
     name: "Cosmigo Pro Motion SPRites sequence/animation",
     extensions: &["spr"],
     media_types: &[],

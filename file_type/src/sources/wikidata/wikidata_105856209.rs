@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856209: FileFormat = FileFormat {
     id: 105_856_209,
-    puid: "wikidata/105856209",
+    source_type: SourceType::Wikidata,
     name: "DeleD map",
     extensions: &["dmf"],
     media_types: &[],

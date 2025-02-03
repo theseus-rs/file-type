@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860251: FileFormat = FileFormat {
     id: 105_860_251,
-    puid: "wikidata/105860251",
+    source_type: SourceType::Wikidata,
     name: "Sierra Robot Animation",
     extensions: &["rbt"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_9943181513677621699: FileFormat = FileFormat {
-    id: 9_943_181_513_677_621_699,
-    puid: "httpd/9943181513677621699",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "oasis opendocument spreadsheet",
     extensions: &["ods"],
     media_types: &["application/vnd.oasis.opendocument.spreadsheet"],

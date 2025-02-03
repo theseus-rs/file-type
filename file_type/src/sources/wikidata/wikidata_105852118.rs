@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852118: FileFormat = FileFormat {
     id: 105_852_118,
-    puid: "wikidata/105852118",
+    source_type: SourceType::Wikidata,
     name: "32-Bit Sequencer Script (v1.2)",
     extensions: &["scr"],
     media_types: &["text/plain"],

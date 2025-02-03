@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858146: FileFormat = FileFormat {
     id: 105_858_146,
-    puid: "wikidata/105858146",
+    source_type: SourceType::Wikidata,
     name: "Maptapper settings",
     extensions: &["ini"],
     media_types: &["application/octet-stream"],

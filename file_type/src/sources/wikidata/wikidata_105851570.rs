@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851570: FileFormat = FileFormat {
     id: 105_851_570,
-    puid: "wikidata/105851570",
+    source_type: SourceType::Wikidata,
     name: "Speedo font Typeface Definition File",
     extensions: &["tdf"],
     media_types: &["application/octet-stream"],

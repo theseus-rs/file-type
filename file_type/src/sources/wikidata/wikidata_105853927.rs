@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853927: FileFormat = FileFormat {
     id: 105_853_927,
-    puid: "wikidata/105853927",
+    source_type: SourceType::Wikidata,
     name: "ArcView Legend",
     extensions: &["avl"],
     media_types: &["text/plain"],

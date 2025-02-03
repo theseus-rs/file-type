@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858705: FileFormat = FileFormat {
     id: 105_858_705,
-    puid: "wikidata/105858705",
+    source_type: SourceType::Wikidata,
     name: "BSplayer Skin",
     extensions: &["bsz"],
     media_types: &["application/octet-stream"],

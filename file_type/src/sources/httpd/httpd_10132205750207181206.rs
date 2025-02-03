@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10132205750207181206: FileFormat = FileFormat {
-    id: 10_132_205_750_207_181_206,
-    puid: "httpd/10132205750207181206",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "simtech mindmapper",
     extensions: &["twd", "twds"],
     media_types: &["application/vnd.simtech-mindmapper"],

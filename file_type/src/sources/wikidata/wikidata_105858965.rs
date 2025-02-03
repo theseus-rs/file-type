@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858965: FileFormat = FileFormat {
     id: 105_858_965,
-    puid: "wikidata/105858965",
+    source_type: SourceType::Wikidata,
     name: "Naive Image format NII animated bitmaps",
-    extensions: &["nii", "nii"],
+    extensions: &["nii"],
     media_types: &["application/octet-stream", "image/nii"],
     internal_signatures: &[
         InternalSignature {

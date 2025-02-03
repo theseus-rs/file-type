@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_64859397: FileFormat = FileFormat {
     id: 64_859_397,
-    puid: "wikidata/64859397",
+    source_type: SourceType::Wikidata,
     name: "Family Tree Maker Compressed file format",
     extensions: &["fbc"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864658: FileFormat = FileFormat {
     id: 105_864_658,
-    puid: "wikidata/105864658",
+    source_type: SourceType::Wikidata,
     name: "PowerBackup Job",
     extensions: &["pbj"],
     media_types: &["text/xml"],

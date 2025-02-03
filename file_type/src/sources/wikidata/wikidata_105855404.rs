@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855404: FileFormat = FileFormat {
     id: 105_855_404,
-    puid: "wikidata/105855404",
+    source_type: SourceType::Wikidata,
     name: "foobar2000 component",
     extensions: &["fb2k-component"],
     media_types: &["application/zip"],

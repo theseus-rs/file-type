@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205519: FileFormat = FileFormat {
     id: 28_205_519,
-    puid: "wikidata/28205519",
+    source_type: SourceType::Wikidata,
     name: "ICDRAW Single Icon File",
     extensions: &["ibi"],
     media_types: &["application/octet-stream"],

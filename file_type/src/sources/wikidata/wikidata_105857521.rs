@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857521: FileFormat = FileFormat {
     id: 105_857_521,
-    puid: "wikidata/105857521",
+    source_type: SourceType::Wikidata,
     name: "MIRAX slide data (UTF-8)",
     extensions: &["ini"],
     media_types: &["text/plain"],

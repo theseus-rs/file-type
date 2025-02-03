@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_8500864032604176996: FileFormat = FileFormat {
-    id: 8_500_864_032_604_176_996,
-    puid: "httpd/8500864032604176996",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "frogans ltf",
     extensions: &["ltf"],
     media_types: &["application/vnd.frogans.ltf"],

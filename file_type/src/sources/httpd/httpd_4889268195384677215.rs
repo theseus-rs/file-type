@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_4889268195384677215: FileFormat = FileFormat {
-    id: 4_889_268_195_384_677_215,
-    puid: "httpd/4889268195384677215",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "pkix attr cert",
     extensions: &["ac"],
     media_types: &["application/pkix-attr-cert"],

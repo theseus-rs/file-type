@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857380: FileFormat = FileFormat {
     id: 105_857_380,
-    puid: "wikidata/105857380",
+    source_type: SourceType::Wikidata,
     name: "BeamNG vehicle definition format",
     extensions: &["jbeam"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850925: FileFormat = FileFormat {
     id: 105_850_925,
-    puid: "wikidata/105850925",
+    source_type: SourceType::Wikidata,
     name: "LTP Nuclear ZX tape image",
     extensions: &["ltp"],
     media_types: &["application/octet-stream"],

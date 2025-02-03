@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16688631424076391908: FileFormat = FileFormat {
-    id: 16_688_631_424_076_391_908,
-    puid: "httpd/16688631424076391908",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "syncml xml",
     extensions: &["xsm"],
     media_types: &["application/vnd.syncml+xml"],

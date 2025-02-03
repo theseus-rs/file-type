@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852847: FileFormat = FileFormat {
     id: 105_852_847,
-    puid: "wikidata/105852847",
+    source_type: SourceType::Wikidata,
     name: "blueMSX Shortcuts",
     extensions: &["shortcuts"],
     media_types: &["text/ini"],

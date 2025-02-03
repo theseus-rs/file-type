@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853837: FileFormat = FileFormat {
     id: 105_853_837,
-    puid: "wikidata/105853837",
+    source_type: SourceType::Wikidata,
     name: "Psion S3a/3c/Siena Agenda",
     extensions: &["agn"],
     media_types: &["application/octet-stream"],

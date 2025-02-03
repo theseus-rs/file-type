@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851081: FileFormat = FileFormat {
     id: 105_851_081,
-    puid: "wikidata/105851081",
+    source_type: SourceType::Wikidata,
     name: "Adobe PageMaker Template (v6.5)",
     extensions: &["t65"],
     media_types: &["application/x-pagemaker"],

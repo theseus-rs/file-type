@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_4027918: FileFormat = FileFormat {
     id: 4_027_918,
-    puid: "wikidata/4027918",
+    source_type: SourceType::Wikidata,
     name: "Java Application Descriptor",
     extensions: &["jad"],
     media_types: &["text/vnd.sun.j2me.app-descriptor"],

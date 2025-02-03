@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858632: FileFormat = FileFormat {
     id: 105_858_632,
-    puid: "wikidata/105858632",
+    source_type: SourceType::Wikidata,
     name: "Microsoft SQL Server Backup (compressed)",
     extensions: &["bak"],
     media_types: &["application/octet-stream"],

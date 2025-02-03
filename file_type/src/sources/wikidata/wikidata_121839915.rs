@@ -1,11 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_121839915: FileFormat = FileFormat {
     id: 121_839_915,
-    puid: "wikidata/121839915",
+    source_type: SourceType::Wikidata,
     name: "Encapsulated PostScript File Format 2.1",
     extensions: &["eps", "epsf"],
-    media_types: &["application/postscript", "application/postscript"],
+    media_types: &["application/postscript"],
     internal_signatures: &[],
     related_formats: &[],
 };

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_14364337678005556784: FileFormat = FileFormat {
-    id: 14_364_337_678_005_556_784,
-    puid: "httpd/14364337678005556784",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "shana informed interchange",
     extensions: &["iif"],
     media_types: &["application/vnd.shana.informed.interchange"],

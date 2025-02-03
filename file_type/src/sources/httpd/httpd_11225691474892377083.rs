@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_11225691474892377083: FileFormat = FileFormat {
-    id: 11_225_691_474_892_377_083,
-    puid: "httpd/11225691474892377083",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "xspf xml",
     extensions: &["xspf"],
     media_types: &["application/xspf+xml"],

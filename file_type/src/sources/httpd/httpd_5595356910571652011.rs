@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5595356910571652011: FileFormat = FileFormat {
-    id: 5_595_356_910_571_652_011,
-    puid: "httpd/5595356910571652011",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "umajin",
     extensions: &["umj"],
     media_types: &["application/vnd.umajin"],

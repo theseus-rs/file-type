@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855834: FileFormat = FileFormat {
     id: 105_855_834,
-    puid: "wikidata/105855834",
+    source_type: SourceType::Wikidata,
     name: "Atari CardFile PIM data (v4.0)",
     extensions: &["dat"],
     media_types: &["application/octet-stream"],

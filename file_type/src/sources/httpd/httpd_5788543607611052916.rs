@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5788543607611052916: FileFormat = FileFormat {
-    id: 5_788_543_607_611_052_916,
-    puid: "httpd/5788543607611052916",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mediastation cdkey",
     extensions: &["cdkey"],
     media_types: &["application/vnd.mediastation.cdkey"],

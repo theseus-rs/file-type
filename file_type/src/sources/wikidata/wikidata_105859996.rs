@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859996: FileFormat = FileFormat {
     id: 105_859_996,
-    puid: "wikidata/105859996",
+    source_type: SourceType::Wikidata,
     name: "Division dVS geometry",
     extensions: &["viz"],
     media_types: &["text/plain"],

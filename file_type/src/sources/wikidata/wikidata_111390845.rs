@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_111390845: FileFormat = FileFormat {
     id: 111_390_845,
-    puid: "wikidata/111390845",
+    source_type: SourceType::Wikidata,
     name: "Bryce Object File",
     extensions: &["obp"],
     media_types: &[],

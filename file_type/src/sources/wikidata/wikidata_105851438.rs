@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851438: FileFormat = FileFormat {
     id: 105_851_438,
-    puid: "wikidata/105851438",
+    source_type: SourceType::Wikidata,
     name: "Win994a cartdrige image",
     extensions: &["ticart"],
     media_types: &["TI-99/4A PC99 disk image"],

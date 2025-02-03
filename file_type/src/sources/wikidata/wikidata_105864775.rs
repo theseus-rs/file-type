@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864775: FileFormat = FileFormat {
     id: 105_864_775,
-    puid: "wikidata/105864775",
+    source_type: SourceType::Wikidata,
     name: "SilkExplorer - Performance Explorer Workspace",
     extensions: &["pex"],
     media_types: &[],

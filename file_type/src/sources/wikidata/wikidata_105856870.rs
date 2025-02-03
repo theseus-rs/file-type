@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856870: FileFormat = FileFormat {
     id: 105_856_870,
-    puid: "wikidata/105856870",
+    source_type: SourceType::Wikidata,
     name: "NTv2 Standard ASCII Grid Shift",
     extensions: &["gsa"],
     media_types: &["text/plain"],

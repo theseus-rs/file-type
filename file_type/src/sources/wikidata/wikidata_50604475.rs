@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_50604475: FileFormat = FileFormat {
     id: 50_604_475,
-    puid: "wikidata/50604475",
+    source_type: SourceType::Wikidata,
     name: "SNAP Processed Data File",
     extensions: &["snpdf"],
     media_types: &["application/octet-stream"],

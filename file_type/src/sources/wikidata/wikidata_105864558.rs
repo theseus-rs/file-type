@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864558: FileFormat = FileFormat {
     id: 105_864_558,
-    puid: "wikidata/105864558",
+    source_type: SourceType::Wikidata,
     name: "Portable Embosser Format",
     extensions: &["pef"],
     media_types: &["application/x-pef+xml"],

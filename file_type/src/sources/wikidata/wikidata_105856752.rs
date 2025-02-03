@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856752: FileFormat = FileFormat {
     id: 105_856_752,
-    puid: "wikidata/105856752",
+    source_type: SourceType::Wikidata,
     name: "JB BAHN scenery (Zoom2)",
     extensions: &["uz2"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853405: FileFormat = FileFormat {
     id: 105_853_405,
-    puid: "wikidata/105853405",
+    source_type: SourceType::Wikidata,
     name: "Imageworks 3D LUT format",
     extensions: &["spi3d"],
     media_types: &["text/plain"],

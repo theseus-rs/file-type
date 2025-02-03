@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849813: FileFormat = FileFormat {
     id: 105_849_813,
-    puid: "wikidata/105849813",
+    source_type: SourceType::Wikidata,
     name: "The Chessmaster 2000 saved game",
     extensions: &["cm"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858967: FileFormat = FileFormat {
     id: 105_858_967,
-    puid: "wikidata/105858967",
+    source_type: SourceType::Wikidata,
     name: "Blender physics external cache",
     extensions: &["bphys"],
     media_types: &["application/octet-stream"],

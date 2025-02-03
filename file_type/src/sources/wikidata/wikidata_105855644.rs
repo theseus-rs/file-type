@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855644: FileFormat = FileFormat {
     id: 105_855_644,
-    puid: "wikidata/105855644",
+    source_type: SourceType::Wikidata,
     name: "Office Upgrade Control",
     extensions: &["opc"],
     media_types: &["text/plain"],

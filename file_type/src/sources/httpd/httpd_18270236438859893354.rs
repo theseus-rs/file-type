@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_18270236438859893354: FileFormat = FileFormat {
-    id: 18_270_236_438_859_893_354,
-    puid: "httpd/18270236438859893354",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "bzip",
     extensions: &["bz"],
     media_types: &["application/x-bzip"],

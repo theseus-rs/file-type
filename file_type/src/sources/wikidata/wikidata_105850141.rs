@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850141: FileFormat = FileFormat {
     id: 105_850_141,
-    puid: "wikidata/105850141",
+    source_type: SourceType::Wikidata,
     name: "CHITUBOX profile Configuration",
     extensions: &["cfg"],
     media_types: &["text/plain"],

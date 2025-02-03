@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851162: FileFormat = FileFormat {
     id: 105_851_162,
-    puid: "wikidata/105851162",
+    source_type: SourceType::Wikidata,
     name: "Trelby document",
     extensions: &["trelby"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862910: FileFormat = FileFormat {
     id: 105_862_910,
-    puid: "wikidata/105862910",
+    source_type: SourceType::Wikidata,
     name: "MMFW Blobs",
     extensions: &["mmb"],
     media_types: &["application/octet-stream"],

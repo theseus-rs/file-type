@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851843: FileFormat = FileFormat {
     id: 105_851_843,
-    puid: "wikidata/105851843",
+    source_type: SourceType::Wikidata,
     name: "Spektrum DX serie transmitter settings",
     extensions: &["spm"],
     media_types: &["application/octet-stream"],

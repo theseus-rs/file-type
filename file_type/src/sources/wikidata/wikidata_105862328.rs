@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862328: FileFormat = FileFormat {
     id: 105_862_328,
-    puid: "wikidata/105862328",
+    source_type: SourceType::Wikidata,
     name: "Personal Finance Manager Plus data",
     extensions: &["mny"],
     media_types: &["application/octet-stream"],

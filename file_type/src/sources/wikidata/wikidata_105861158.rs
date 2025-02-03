@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861158: FileFormat = FileFormat {
     id: 105_861_158,
-    puid: "wikidata/105861158",
+    source_type: SourceType::Wikidata,
     name: "IBM Works for OS/2 word processor document",
     extensions: &["lwp"],
     media_types: &[],

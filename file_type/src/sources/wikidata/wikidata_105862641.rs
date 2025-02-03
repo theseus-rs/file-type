@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862641: FileFormat = FileFormat {
     id: 105_862_641,
-    puid: "wikidata/105862641",
+    source_type: SourceType::Wikidata,
     name: "MasterCook Cookbook File",
     extensions: &["mcf"],
     media_types: &[],

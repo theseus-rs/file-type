@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851713: FileFormat = FileFormat {
     id: 105_851_713,
-    puid: "wikidata/105851713",
+    source_type: SourceType::Wikidata,
     name: "Scrivener XML document",
     extensions: &["scrivx"],
     media_types: &[],

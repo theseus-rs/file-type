@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857581: FileFormat = FileFormat {
     id: 105_857_581,
-    puid: "wikidata/105857581",
+    source_type: SourceType::Wikidata,
     name: "Ivona voice info",
     extensions: &["dat"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863474: FileFormat = FileFormat {
     id: 105_863_474,
-    puid: "wikidata/105863474",
+    source_type: SourceType::Wikidata,
     name: "MioMotion movie",
     extensions: &["mio"],
     media_types: &[],

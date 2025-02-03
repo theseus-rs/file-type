@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850851: FileFormat = FileFormat {
     id: 105_850_851,
-    puid: "wikidata/105850851",
+    source_type: SourceType::Wikidata,
     name: "Thunderbyte registration Key",
     extensions: &["key"],
     media_types: &["application/octet-stream"],

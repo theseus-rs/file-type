@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858199: FileFormat = FileFormat {
     id: 105_858_199,
-    puid: "wikidata/105858199",
+    source_type: SourceType::Wikidata,
     name: "Sony Playstation Executable",
     extensions: &["exe"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863765: FileFormat = FileFormat {
     id: 105_863_765,
-    puid: "wikidata/105863765",
+    source_type: SourceType::Wikidata,
     name: "Symbian Machine-readable File graphics",
     extensions: &["mif"],
     media_types: &[],

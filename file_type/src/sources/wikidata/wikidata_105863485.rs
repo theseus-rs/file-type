@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863485: FileFormat = FileFormat {
     id: 105_863_485,
-    puid: "wikidata/105863485",
+    source_type: SourceType::Wikidata,
     name: "Gmsh Mesh",
     extensions: &["msh"],
     media_types: &["text/plain"],

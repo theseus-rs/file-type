@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855538: FileFormat = FileFormat {
     id: 105_855_538,
-    puid: "wikidata/105855538",
+    source_type: SourceType::Wikidata,
     name: "OziExplorer Map",
     extensions: &["ozfx3"],
     media_types: &[],

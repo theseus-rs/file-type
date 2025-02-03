@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865055: FileFormat = FileFormat {
     id: 105_865_055,
-    puid: "wikidata/105865055",
+    source_type: SourceType::Wikidata,
     name: "TM-MARS compiled Redcode program",
     extensions: &["prg"],
     media_types: &["text/plain"],

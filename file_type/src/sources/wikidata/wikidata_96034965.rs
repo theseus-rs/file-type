@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_96034965: FileFormat = FileFormat {
     id: 96_034_965,
-    puid: "wikidata/96034965",
+    source_type: SourceType::Wikidata,
     name: "JavaView 3D geometry format",
     extensions: &["jvx"],
     media_types: &[],

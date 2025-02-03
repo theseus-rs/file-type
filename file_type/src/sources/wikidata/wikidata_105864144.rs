@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864144: FileFormat = FileFormat {
     id: 105_864_144,
-    puid: "wikidata/105864144",
+    source_type: SourceType::Wikidata,
     name: "WinMorph project",
     extensions: &["mrf"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850339: FileFormat = FileFormat {
     id: 105_850_339,
-    puid: "wikidata/105850339",
+    source_type: SourceType::Wikidata,
     name: "PowerShell Cmdlet Definition XML",
     extensions: &["cdxml"],
     media_types: &["text/xml"],

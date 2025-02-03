@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861912: FileFormat = FileFormat {
     id: 105_861_912,
-    puid: "wikidata/105861912",
+    source_type: SourceType::Wikidata,
     name: "STEP7-Micro WIN PLC Program",
     extensions: &["mwp"],
     media_types: &[],

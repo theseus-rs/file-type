@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862769: FileFormat = FileFormat {
     id: 105_862_769,
-    puid: "wikidata/105862769",
+    source_type: SourceType::Wikidata,
     name: "OctaMED Music Editor module (v2.10)",
     extensions: &["med4"],
     media_types: &["audio/x-mod"],

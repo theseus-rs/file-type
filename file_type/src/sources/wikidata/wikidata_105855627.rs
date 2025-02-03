@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855627: FileFormat = FileFormat {
     id: 105_855_627,
-    puid: "wikidata/105855627",
+    source_type: SourceType::Wikidata,
     name: "OpenLP Theme",
     extensions: &["otz"],
     media_types: &[],

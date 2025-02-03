@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_224: FileFormat = FileFormat {
     id: 224,
-    puid: "linguist/224",
+    source_type: SourceType::Linguist,
     name: "Mathematica",
     extensions: &[
         "cdf",

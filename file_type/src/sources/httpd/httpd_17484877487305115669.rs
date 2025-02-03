@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_17484877487305115669: FileFormat = FileFormat {
-    id: 17_484_877_487_305_115_669,
-    puid: "httpd/17484877487305115669",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ms shortcut",
     extensions: &["lnk"],
     media_types: &["application/x-ms-shortcut"],

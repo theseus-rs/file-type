@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_21040751: FileFormat = FileFormat {
     id: 21_040_751,
-    puid: "wikidata/21040751",
+    source_type: SourceType::Wikidata,
     name: "Farandole Composer format",
     extensions: &["far"],
     media_types: &[],

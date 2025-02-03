@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5764838913370525935: FileFormat = FileFormat {
-    id: 5_764_838_913_370_525_935,
-    puid: "httpd/5764838913370525935",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ms pki seccat",
     extensions: &["cat"],
     media_types: &["application/vnd.ms-pki.seccat"],

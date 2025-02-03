@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_265: FileFormat = FileFormat {
     id: 265,
-    puid: "linguist/265",
+    source_type: SourceType::Linguist,
     name: "OpenRC runscript",
     extensions: &[],
     media_types: &["text/x-sh"],

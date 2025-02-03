@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855905: FileFormat = FileFormat {
     id: 105_855_905,
-    puid: "wikidata/105855905",
+    source_type: SourceType::Wikidata,
     name: "Turbo C Context",
     extensions: &["dsk"],
     media_types: &["application/octet-stream"],

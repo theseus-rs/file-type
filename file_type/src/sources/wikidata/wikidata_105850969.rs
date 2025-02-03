@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850969: FileFormat = FileFormat {
     id: 105_850_969,
-    puid: "wikidata/105850969",
+    source_type: SourceType::Wikidata,
     name: "Sony Ericsson Theme (for mobile phones)",
     extensions: &["thm"],
     media_types: &[],

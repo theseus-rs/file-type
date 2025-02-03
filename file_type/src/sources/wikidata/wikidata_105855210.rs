@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855210: FileFormat = FileFormat {
     id: 105_855_210,
-    puid: "wikidata/105855210",
+    source_type: SourceType::Wikidata,
     name: "FLIP Bitmap",
     extensions: &["fbi"],
     media_types: &["application/octet-stream"],

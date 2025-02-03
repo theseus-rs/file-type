@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860479: FileFormat = FileFormat {
     id: 105_860_479,
-    puid: "wikidata/105860479",
+    source_type: SourceType::Wikidata,
     name: "Eureka/Mercury Report",
     extensions: &["rpt"],
     media_types: &["text/plain"],

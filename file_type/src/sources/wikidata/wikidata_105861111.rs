@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861111: FileFormat = FileFormat {
     id: 105_861_111,
-    puid: "wikidata/105861111",
+    source_type: SourceType::Wikidata,
     name: "AIBB results log",
     extensions: &["log"],
     media_types: &["text/plain"],

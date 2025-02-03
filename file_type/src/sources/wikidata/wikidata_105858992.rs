@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858992: FileFormat = FileFormat {
     id: 105_858_992,
-    puid: "wikidata/105858992",
+    source_type: SourceType::Wikidata,
     name: "Panda3D Bam container",
     extensions: &["bam"],
     media_types: &["application/octet-stream"],

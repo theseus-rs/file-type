@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_2615400360932218329: FileFormat = FileFormat {
-    id: 2_615_400_360_932_218_329,
-    puid: "httpd/2615400360932218329",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "stardivision writer global",
     extensions: &["sgl"],
     media_types: &["application/vnd.stardivision.writer-global"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856570: FileFormat = FileFormat {
     id: 105_856_570,
-    puid: "wikidata/105856570",
+    source_type: SourceType::Wikidata,
     name: "Shockwave 3D Scene Export",
     extensions: &["w3d"],
     media_types: &[],

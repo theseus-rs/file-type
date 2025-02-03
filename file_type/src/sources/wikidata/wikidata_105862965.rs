@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862965: FileFormat = FileFormat {
     id: 105_862_965,
-    puid: "wikidata/105862965",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Jet DB Workgroup Information",
     extensions: &["mdw"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862995: FileFormat = FileFormat {
     id: 105_862_995,
-    puid: "wikidata/105862995",
+    source_type: SourceType::Wikidata,
     name: "The Terminator: Dawn of Fate game data archive",
     extensions: &["mpk"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28205699: FileFormat = FileFormat {
     id: 28_205_699,
-    puid: "wikidata/28205699",
+    source_type: SourceType::Wikidata,
     name: "Aperio SVS",
     extensions: &["svs"],
     media_types: &["application/octet-stream"],

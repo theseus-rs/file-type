@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866853: FileFormat = FileFormat {
     id: 105_866_853,
-    puid: "wikidata/105866853",
+    source_type: SourceType::Wikidata,
     name: "PSG chiptune",
     extensions: &["psg"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_27967406: FileFormat = FileFormat {
     id: 27_967_406,
-    puid: "wikidata/27967406",
+    source_type: SourceType::Wikidata,
     name: "Reality AdLib Tracker module",
     extensions: &["rad"],
     media_types: &["audio/x-mod"],

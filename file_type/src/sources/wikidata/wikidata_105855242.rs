@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855242: FileFormat = FileFormat {
     id: 105_855_242,
-    puid: "wikidata/105855242",
+    source_type: SourceType::Wikidata,
     name: "AutoCAD Fast-load AutoLISP (FAS4)",
     extensions: &["fas"],
     media_types: &[],

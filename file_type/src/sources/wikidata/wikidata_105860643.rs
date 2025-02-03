@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860643: FileFormat = FileFormat {
     id: 105_860_643,
-    puid: "wikidata/105860643",
+    source_type: SourceType::Wikidata,
     name: "Richard's Bridge Notation",
     extensions: &["rbn"],
     media_types: &["text/plain"],

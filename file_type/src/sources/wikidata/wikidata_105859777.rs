@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859777: FileFormat = FileFormat {
     id: 105_859_777,
-    puid: "wikidata/105859777",
+    source_type: SourceType::Wikidata,
     name: "Magic Lantern raw Video format v2.0",
     extensions: &["mlv"],
     media_types: &["application/octet-stream"],

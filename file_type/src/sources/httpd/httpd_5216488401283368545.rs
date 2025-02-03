@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_5216488401283368545: FileFormat = FileFormat {
-    id: 5_216_488_401_283_368_545,
-    puid: "httpd/5216488401283368545",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "msaccess",
     extensions: &["mdb"],
     media_types: &["application/x-msaccess"],

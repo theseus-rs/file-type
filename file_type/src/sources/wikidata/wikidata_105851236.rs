@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851236: FileFormat = FileFormat {
     id: 105_851_236,
-    puid: "wikidata/105851236",
+    source_type: SourceType::Wikidata,
     name: "eMule Web Interface template",
     extensions: &["tmpl"],
     media_types: &[],

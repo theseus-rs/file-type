@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856535: FileFormat = FileFormat {
     id: 105_856_535,
-    puid: "wikidata/105856535",
+    source_type: SourceType::Wikidata,
     name: "WarCraft III Recorded Game File",
     extensions: &["w3g"],
     media_types: &[],

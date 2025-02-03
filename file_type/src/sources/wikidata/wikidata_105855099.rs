@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855099: FileFormat = FileFormat {
     id: 105_855_099,
-    puid: "wikidata/105855099",
+    source_type: SourceType::Wikidata,
     name: "Creative Nomad II series MP3 players Voice File audio",
     extensions: &["nvf"],
     media_types: &[],

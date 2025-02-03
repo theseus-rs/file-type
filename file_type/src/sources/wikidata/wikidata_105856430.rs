@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856430: FileFormat = FileFormat {
     id: 105_856_430,
-    puid: "wikidata/105856430",
+    source_type: SourceType::Wikidata,
     name: "Lenovo OneKey Recovery info",
     extensions: &["wsi"],
     media_types: &["text/xml"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864796: FileFormat = FileFormat {
     id: 105_864_796,
-    puid: "wikidata/105864796",
+    source_type: SourceType::Wikidata,
     name: "Infernal Engine game data archive",
     extensions: &["pod"],
     media_types: &["application/octet-stream"],

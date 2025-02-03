@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852939: FileFormat = FileFormat {
     id: 105_852_939,
-    puid: "wikidata/105852939",
+    source_type: SourceType::Wikidata,
     name: "Opticks Surface",
     extensions: &["srf"],
     media_types: &["text/plain"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860717: FileFormat = FileFormat {
     id: 105_860_717,
-    puid: "wikidata/105860717",
+    source_type: SourceType::Wikidata,
     name: "Syzygy tablebase win/draw/loss",
     extensions: &["rtbw"],
     media_types: &["application/octet-stream"],

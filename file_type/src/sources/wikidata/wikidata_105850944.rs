@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850944: FileFormat = FileFormat {
     id: 105_850_944,
-    puid: "wikidata/105850944",
+    source_type: SourceType::Wikidata,
     name: "FL Studio Touch Keyboard Form",
     extensions: &["tkp"],
     media_types: &["text/ini"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860221: FileFormat = FileFormat {
     id: 105_860_221,
-    puid: "wikidata/105860221",
+    source_type: SourceType::Wikidata,
     name: "RegCleaner v4.3 Language File",
     extensions: &["rlg"],
     media_types: &[],

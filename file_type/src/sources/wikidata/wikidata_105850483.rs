@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850483: FileFormat = FileFormat {
     id: 105_850_483,
-    puid: "wikidata/105850483",
+    source_type: SourceType::Wikidata,
     name: "CursorXP theme",
     extensions: &["curxptheme"],
     media_types: &[],

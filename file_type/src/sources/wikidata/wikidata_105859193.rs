@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859193: FileFormat = FileFormat {
     id: 105_859_193,
-    puid: "wikidata/105859193",
+    source_type: SourceType::Wikidata,
     name: "Beasts and Bumpkins game data archive",
     extensions: &["box"],
     media_types: &["application/octet-stream"],

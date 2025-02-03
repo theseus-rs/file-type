@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859398: FileFormat = FileFormat {
     id: 105_859_398,
-    puid: "wikidata/105859398",
+    source_type: SourceType::Wikidata,
     name: "Micrografx QuickSilver graphic plugin",
     extensions: &["qsf"],
     media_types: &["application/octet-stream"],

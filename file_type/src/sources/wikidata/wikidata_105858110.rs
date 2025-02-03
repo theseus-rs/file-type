@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858110: FileFormat = FileFormat {
     id: 105_858_110,
-    puid: "wikidata/105858110",
+    source_type: SourceType::Wikidata,
     name: "EM400 disk image",
     extensions: &["e4i"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857357: FileFormat = FileFormat {
     id: 105_857_357,
-    puid: "wikidata/105857357",
+    source_type: SourceType::Wikidata,
     name: "Easy CD Creator's label (v5)",
     extensions: &["jwl"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859220: FileFormat = FileFormat {
     id: 105_859_220,
-    puid: "wikidata/105859220",
+    source_type: SourceType::Wikidata,
     name: "Bleeper Music Maker music",
     extensions: &["bmm"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855461: FileFormat = FileFormat {
     id: 105_855_461,
-    puid: "wikidata/105855461",
+    source_type: SourceType::Wikidata,
     name: "Fusion 360 shared project archive",
     extensions: &["f3z"],
     media_types: &["application/octet-stream"],

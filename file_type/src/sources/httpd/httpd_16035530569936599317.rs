@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_16035530569936599317: FileFormat = FileFormat {
-    id: 16_035_530_569_936_599_317,
-    puid: "httpd/16035530569936599317",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "hdf",
     extensions: &["hdf"],
     media_types: &["application/x-hdf"],

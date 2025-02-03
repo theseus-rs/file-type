@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856368: FileFormat = FileFormat {
     id: 105_856_368,
-    puid: "wikidata/105856368",
+    source_type: SourceType::Wikidata,
     name: "Symantec QandA Database File",
     extensions: &["dtf"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_28206485: FileFormat = FileFormat {
     id: 28_206_485,
-    puid: "wikidata/28206485",
+    source_type: SourceType::Wikidata,
     name: "Khronos Texture",
     extensions: &["ktx"],
     media_types: &["image/ktx"],

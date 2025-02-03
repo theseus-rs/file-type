@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852985: FileFormat = FileFormat {
     id: 105_852_985,
-    puid: "wikidata/105852985",
+    source_type: SourceType::Wikidata,
     name: "Quattro Pro Sound",
     extensions: &["snd"],
     media_types: &["application/octet-stream"],

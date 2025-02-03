@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852441: FileFormat = FileFormat {
     id: 105_852_441,
-    puid: "wikidata/105852441",
+    source_type: SourceType::Wikidata,
     name: "A'dam Music Composer Score",
     extensions: &["sco"],
     media_types: &["text/plain"],

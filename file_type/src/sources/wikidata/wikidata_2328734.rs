@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_2328734: FileFormat = FileFormat {
     id: 2_328_734,
-    puid: "wikidata/2328734",
+    source_type: SourceType::Wikidata,
     name: "JISP",
     extensions: &["jisp"],
     media_types: &["application/vnd.jisp"],

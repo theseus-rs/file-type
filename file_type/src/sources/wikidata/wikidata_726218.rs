@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_726218: FileFormat = FileFormat {
     id: 726_218,
-    puid: "wikidata/726218",
+    source_type: SourceType::Wikidata,
     name: "XML User Interface Language",
     extensions: &["xul"],
     media_types: &["application/vnd.mozilla.xul+xml"],

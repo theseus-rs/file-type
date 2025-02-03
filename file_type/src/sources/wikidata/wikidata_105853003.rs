@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853003: FileFormat = FileFormat {
     id: 105_853_003,
-    puid: "wikidata/105853003",
+    source_type: SourceType::Wikidata,
     name: "StarCraft 2 Unit Localization",
     extensions: &["s2ql"],
     media_types: &[],

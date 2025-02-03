@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858282: FileFormat = FileFormat {
     id: 105_858_282,
-    puid: "wikidata/105858282",
+    source_type: SourceType::Wikidata,
     name: "Eschalon Compressed font",
     extensions: &["ecmp"],
     media_types: &["application/octet-stream"],

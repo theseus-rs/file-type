@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861891: FileFormat = FileFormat {
     id: 105_861_891,
-    puid: "wikidata/105861891",
+    source_type: SourceType::Wikidata,
     name: "Megatracker module",
     extensions: &["mgt"],
     media_types: &["audio/x-mod"],

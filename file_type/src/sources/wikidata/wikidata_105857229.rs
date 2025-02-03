@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857229: FileFormat = FileFormat {
     id: 105_857_229,
-    puid: "wikidata/105857229",
+    source_type: SourceType::Wikidata,
     name: "FL Studio Hardcore Program",
     extensions: &["hdprg"],
     media_types: &["application/octet-stream"],

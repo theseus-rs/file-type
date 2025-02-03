@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865198: FileFormat = FileFormat {
     id: 105_865_198,
-    puid: "wikidata/105865198",
+    source_type: SourceType::Wikidata,
     name: "PowerSoft DataWindow - DataStore (Unicode)",
     extensions: &["psr"],
     media_types: &[],

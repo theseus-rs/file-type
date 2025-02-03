@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865291: FileFormat = FileFormat {
     id: 105_865_291,
-    puid: "wikidata/105865291",
+    source_type: SourceType::Wikidata,
     name: "Lightwork Pattern",
     extensions: &["pattern"],
     media_types: &["text/plain"],

@@ -1,16 +1,13 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_3928266: FileFormat = FileFormat {
     id: 3_928_266,
-    puid: "wikidata/3928266",
+    source_type: SourceType::Wikidata,
     name: "RF64",
-    extensions: &["rf64", "rf64", "wav", "wav"],
-    media_types: &[
-        "audio/vnd.wave",
-        "audio/vnd.wave",
-        "audio/vnd.wave",
-        "audio/vnd.wave",
-    ],
+    extensions: &["rf64", "wav"],
+    media_types: &["audio/vnd.wave"],
     internal_signatures: &[
         InternalSignature {
             byte_sequences: &[ByteSequence {

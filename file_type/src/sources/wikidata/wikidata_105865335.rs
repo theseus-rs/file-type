@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105865335: FileFormat = FileFormat {
     id: 105_865_335,
-    puid: "wikidata/105865335",
+    source_type: SourceType::Wikidata,
     name: "TPLOT graph source",
     extensions: &["plt"],
     media_types: &["text/plain"],

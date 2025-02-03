@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_8042316: FileFormat = FileFormat {
     id: 8_042_316,
-    puid: "wikidata/8042316",
+    source_type: SourceType::Wikidata,
     name: "XML Data Package",
     extensions: &["xdp"],
     media_types: &["application/vnd.adobe.xdp+xml"],

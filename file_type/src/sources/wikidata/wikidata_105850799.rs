@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850799: FileFormat = FileFormat {
     id: 105_850_799,
-    puid: "wikidata/105850799",
+    source_type: SourceType::Wikidata,
     name: "Microsoft Keyboard Layout Creator source (UTF-16-LE)",
     extensions: &["klc"],
     media_types: &["application/octet-stream"],

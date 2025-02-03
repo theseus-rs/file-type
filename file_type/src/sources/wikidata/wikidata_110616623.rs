@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_110616623: FileFormat = FileFormat {
     id: 110_616_623,
-    puid: "wikidata/110616623",
+    source_type: SourceType::Wikidata,
     name: "EMSA-MAS Spectral Data",
     extensions: &["msa"],
     media_types: &[],

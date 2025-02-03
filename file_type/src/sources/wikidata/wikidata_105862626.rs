@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862626: FileFormat = FileFormat {
     id: 105_862_626,
-    puid: "wikidata/105862626",
+    source_type: SourceType::Wikidata,
     name: "MegaCAD Macro",
     extensions: &["mac"],
     media_types: &["application/octet-stream"],

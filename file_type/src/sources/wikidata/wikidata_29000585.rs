@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_29000585: FileFormat = FileFormat {
     id: 29_000_585,
-    puid: "wikidata/29000585",
+    source_type: SourceType::Wikidata,
     name: "Dalvik VM DEX",
     extensions: &["dex"],
     media_types: &[],

@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_3372644123074246335: FileFormat = FileFormat {
-    id: 3_372_644_123_074_246_335,
-    puid: "httpd/3372644123074246335",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "groove injector",
     extensions: &["grv"],
     media_types: &["application/vnd.groove-injector"],

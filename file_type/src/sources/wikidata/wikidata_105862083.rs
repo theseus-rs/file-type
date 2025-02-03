@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105862083: FileFormat = FileFormat {
     id: 105_862_083,
-    puid: "wikidata/105862083",
+    source_type: SourceType::Wikidata,
     name: "Meta Raster Format XML metadata",
     extensions: &["mrf"],
     media_types: &["text/xml"],

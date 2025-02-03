@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859638: FileFormat = FileFormat {
     id: 105_859_638,
-    puid: "wikidata/105859638",
+    source_type: SourceType::Wikidata,
     name: "mSIGNA Vault",
     extensions: &["vault"],
     media_types: &["application/octet-stream"],

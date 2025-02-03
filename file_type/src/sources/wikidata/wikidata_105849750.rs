@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849750: FileFormat = FileFormat {
     id: 105_849_750,
-    puid: "wikidata/105849750",
+    source_type: SourceType::Wikidata,
     name: "Professor Layton game data package",
     extensions: &["cpck"],
     media_types: &[],

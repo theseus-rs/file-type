@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855913: FileFormat = FileFormat {
     id: 105_855_913,
-    puid: "wikidata/105855913",
+    source_type: SourceType::Wikidata,
     name: "Dolphin movie capture",
     extensions: &["dtm"],
     media_types: &["application/octet-stream"],

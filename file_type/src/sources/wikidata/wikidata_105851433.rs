@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851433: FileFormat = FileFormat {
     id: 105_851_433,
-    puid: "wikidata/105851433",
+    source_type: SourceType::Wikidata,
     name: "TuneUp Styler Logo Animation",
     extensions: &["tla"],
     media_types: &[],

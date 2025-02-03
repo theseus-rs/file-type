@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855149: FileFormat = FileFormat {
     id: 105_855_149,
-    puid: "wikidata/105855149",
+    source_type: SourceType::Wikidata,
     name: "JB BAHN vehicle (Zoom4)",
     extensions: &["fz4"],
     media_types: &[],

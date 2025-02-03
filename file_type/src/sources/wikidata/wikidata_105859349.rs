@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859349: FileFormat = FileFormat {
     id: 105_859_349,
-    puid: "wikidata/105859349",
+    source_type: SourceType::Wikidata,
     name: "3ds Quad colors",
     extensions: &["qop"],
     media_types: &["text/plain"],

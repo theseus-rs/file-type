@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859163: FileFormat = FileFormat {
     id: 105_859_163,
-    puid: "wikidata/105859163",
+    source_type: SourceType::Wikidata,
     name: "Xerox EDMICS-RLC bitmap (var.2)",
     extensions: &["rlc"],
     media_types: &["application/octet-stream"],

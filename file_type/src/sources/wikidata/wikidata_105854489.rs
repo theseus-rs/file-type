@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854489: FileFormat = FileFormat {
     id: 105_854_489,
-    puid: "wikidata/105854489",
+    source_type: SourceType::Wikidata,
     name: "Adobe Device Central Project",
     extensions: &["adcp"],
     media_types: &[],

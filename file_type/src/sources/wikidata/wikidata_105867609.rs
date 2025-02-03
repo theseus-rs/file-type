@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867609: FileFormat = FileFormat {
     id: 105_867_609,
-    puid: "wikidata/105867609",
+    source_type: SourceType::Wikidata,
     name: "Chess Assistant comments index",
     extensions: &["ndx"],
     media_types: &["application/octet-stream"],

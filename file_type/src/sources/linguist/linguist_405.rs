@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_405: FileFormat = FileFormat {
     id: 405,
-    puid: "linguist/405",
+    source_type: SourceType::Linguist,
     name: "Xojo",
     extensions: &[
         "xojo_code",

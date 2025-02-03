@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854382: FileFormat = FileFormat {
     id: 105_854_382,
-    puid: "wikidata/105854382",
+    source_type: SourceType::Wikidata,
     name: "Avira AntiVir Log status report",
     extensions: &["avl"],
     media_types: &["text/plain"],

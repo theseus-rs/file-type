@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855702: FileFormat = FileFormat {
     id: 105_855_702,
-    puid: "wikidata/105855702",
+    source_type: SourceType::Wikidata,
     name: "Oberon/F Document",
     extensions: &["odc"],
     media_types: &["application/octet-stream"],

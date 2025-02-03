@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861068: FileFormat = FileFormat {
     id: 105_861_068,
-    puid: "wikidata/105861068",
+    source_type: SourceType::Wikidata,
     name: "Look and Feel screen",
     extensions: &["lnf"],
     media_types: &["application/octet-stream"],

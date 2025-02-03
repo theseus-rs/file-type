@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866203: FileFormat = FileFormat {
     id: 105_866_203,
-    puid: "wikidata/105866203",
+    source_type: SourceType::Wikidata,
     name: "Sun SVR4 package data stream",
     extensions: &["pkg"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852739: FileFormat = FileFormat {
     id: 105_852_739,
-    puid: "wikidata/105852739",
+    source_type: SourceType::Wikidata,
     name: "MATLAB Simulink model Template",
     extensions: &["sltx"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851792: FileFormat = FileFormat {
     id: 105_851_792,
-    puid: "wikidata/105851792",
+    source_type: SourceType::Wikidata,
     name: "StockChartX data",
     extensions: &["stx"],
     media_types: &[],

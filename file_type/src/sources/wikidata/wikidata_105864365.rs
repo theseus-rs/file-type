@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864365: FileFormat = FileFormat {
     id: 105_864_365,
-    puid: "wikidata/105864365",
+    source_type: SourceType::Wikidata,
     name: "PCVIC VIC-20 emulator saved-session",
     extensions: &["pcv"],
     media_types: &["application/octet-stream"],

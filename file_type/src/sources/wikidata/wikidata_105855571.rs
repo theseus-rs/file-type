@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855571: FileFormat = FileFormat {
     id: 105_855_571,
-    puid: "wikidata/105855571",
+    source_type: SourceType::Wikidata,
     name: "C-Worthy Machine Dependant Overlay (v1.x)",
     extensions: &["ovl"],
     media_types: &["application/octet-stream"],

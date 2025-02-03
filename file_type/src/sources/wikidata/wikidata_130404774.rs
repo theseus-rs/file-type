@@ -1,10 +1,12 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_130404774: FileFormat = FileFormat {
     id: 130_404_774,
-    puid: "wikidata/130404774",
+    source_type: SourceType::Wikidata,
     name: "OpenEdge ABL source code file",
-    extensions: &["p", "p"],
+    extensions: &["p"],
     media_types: &["application/x-openedge", "text/x-openedge"],
     internal_signatures: &[],
     related_formats: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867173: FileFormat = FileFormat {
     id: 105_867_173,
-    puid: "wikidata/105867173",
+    source_type: SourceType::Wikidata,
     name: "the Word Encrypted New Testament Text Module",
     extensions: &["ntx"],
     media_types: &["application/octet-stream"],

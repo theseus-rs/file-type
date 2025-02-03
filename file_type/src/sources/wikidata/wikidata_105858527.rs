@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858527: FileFormat = FileFormat {
     id: 105_858_527,
-    puid: "wikidata/105858527",
+    source_type: SourceType::Wikidata,
     name: "MIUI Backup data",
     extensions: &["bak"],
     media_types: &["application/octet-stream"],

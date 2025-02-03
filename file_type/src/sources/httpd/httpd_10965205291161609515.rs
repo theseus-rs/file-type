@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_10965205291161609515: FileFormat = FileFormat {
-    id: 10_965_205_291_161_609_515,
-    puid: "httpd/10965205291161609515",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "ms htmlhelp",
     extensions: &["chm"],
     media_types: &["application/vnd.ms-htmlhelp"],

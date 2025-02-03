@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858250: FileFormat = FileFormat {
     id: 105_858_250,
-    puid: "wikidata/105858250",
+    source_type: SourceType::Wikidata,
     name: "Win32 Executable kkrunchy compressed",
     extensions: &["exe"],
     media_types: &[],

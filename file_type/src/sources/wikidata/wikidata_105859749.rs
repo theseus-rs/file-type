@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859749: FileFormat = FileFormat {
     id: 105_859_749,
-    puid: "wikidata/105859749",
+    source_type: SourceType::Wikidata,
     name: "Psygnosis YOP video",
     extensions: &["yop"],
     media_types: &["application/octet-stream"],

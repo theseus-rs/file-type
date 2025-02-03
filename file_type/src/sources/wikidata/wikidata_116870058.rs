@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_116870058: FileFormat = FileFormat {
     id: 116_870_058,
-    puid: "wikidata/116870058",
+    source_type: SourceType::Wikidata,
     name: "MOOF Disk Image",
     extensions: &["moof"],
     media_types: &[],

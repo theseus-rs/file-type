@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855455: FileFormat = FileFormat {
     id: 105_855_455,
-    puid: "wikidata/105855455",
+    source_type: SourceType::Wikidata,
     name: "Fanuc parameters file",
     extensions: &["mem", "st1h"],
     media_types: &[],

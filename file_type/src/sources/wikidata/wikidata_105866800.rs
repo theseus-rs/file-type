@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866800: FileFormat = FileFormat {
     id: 105_866_800,
-    puid: "wikidata/105866800",
+    source_type: SourceType::Wikidata,
     name: "PlayLisT for TSV video",
     extensions: &["plt"],
     media_types: &["video/x-plt"],

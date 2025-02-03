@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852067: FileFormat = FileFormat {
     id: 105_852_067,
-    puid: "wikidata/105852067",
+    source_type: SourceType::Wikidata,
     name: "SimplePlanes compressed Mod",
     extensions: &["spmod"],
     media_types: &["application/octet-stream"],

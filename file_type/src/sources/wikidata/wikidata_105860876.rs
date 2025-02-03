@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860876: FileFormat = FileFormat {
     id: 105_860_876,
-    puid: "wikidata/105860876",
+    source_type: SourceType::Wikidata,
     name: "RAGE Package Format (GTA IV Audio Midnight Club: LA)",
     extensions: &["rpf"],
     media_types: &["application/octet-stream"],

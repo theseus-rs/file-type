@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856018: FileFormat = FileFormat {
     id: 105_856_018,
-    puid: "wikidata/105856018",
+    source_type: SourceType::Wikidata,
     name: "Personal Font Maker Definitions (driver)",
     extensions: &["def"],
     media_types: &["application/octet-stream"],

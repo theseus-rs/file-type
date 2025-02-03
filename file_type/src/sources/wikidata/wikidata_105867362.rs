@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867362: FileFormat = FileFormat {
     id: 105_867_362,
-    puid: "wikidata/105867362",
+    source_type: SourceType::Wikidata,
     name: "Star Wars Jedi Knight: Jedi Academy bot Navigation/routes info",
     extensions: &["nav"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863999: FileFormat = FileFormat {
     id: 105_863_999,
-    puid: "wikidata/105863999",
+    source_type: SourceType::Wikidata,
     name: "MacPhun Noiseless image",
     extensions: &["mpn"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858717: FileFormat = FileFormat {
     id: 105_858_717,
-    puid: "wikidata/105858717",
+    source_type: SourceType::Wikidata,
     name: "BOLT game data archive",
     extensions: &["blt"],
     media_types: &["application/octet-stream"],

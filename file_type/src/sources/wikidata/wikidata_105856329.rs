@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856329: FileFormat = FileFormat {
     id: 105_856_329,
-    puid: "wikidata/105856329",
+    source_type: SourceType::Wikidata,
     name: "Delphi Diagram Portfolio",
     extensions: &["ddp"],
     media_types: &[],

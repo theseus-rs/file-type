@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105863606: FileFormat = FileFormat {
     id: 105_863_606,
-    puid: "wikidata/105863606",
+    source_type: SourceType::Wikidata,
     name: "Compass and Ruler Macro",
     extensions: &["mcr"],
     media_types: &["text/xml"],

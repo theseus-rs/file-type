@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857866: FileFormat = FileFormat {
     id: 105_857_866,
-    puid: "wikidata/105857866",
+    source_type: SourceType::Wikidata,
     name: "VarioCAM thermogram",
     extensions: &["irb"],
     media_types: &["application/octet-stream"],

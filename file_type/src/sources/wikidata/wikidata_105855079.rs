@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855079: FileFormat = FileFormat {
     id: 105_855_079,
-    puid: "wikidata/105855079",
+    source_type: SourceType::Wikidata,
     name: "Broderbund Mohawk game data archive",
     extensions: &["mhk"],
     media_types: &["application/octet-stream"],

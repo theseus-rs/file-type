@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105866411: FileFormat = FileFormat {
     id: 105_866_411,
-    puid: "wikidata/105866411",
+    source_type: SourceType::Wikidata,
     name: "MaxiPlan spreadsheet",
     extensions: &["plan"],
     media_types: &["application/octet-stream"],

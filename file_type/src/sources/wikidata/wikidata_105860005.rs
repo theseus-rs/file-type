@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105860005: FileFormat = FileFormat {
     id: 105_860_005,
-    puid: "wikidata/105860005",
+    source_type: SourceType::Wikidata,
     name: "Red Sector Demo-Maker vector object",
     extensions: &["vec"],
     media_types: &["application/octet-stream"],

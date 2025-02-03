@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850614: FileFormat = FileFormat {
     id: 105_850_614,
-    puid: "wikidata/105850614",
+    source_type: SourceType::Wikidata,
     name: "Sundial Clearlook document",
     extensions: &["ctx"],
     media_types: &["application/octet-stream"],

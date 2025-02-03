@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105853554: FileFormat = FileFormat {
     id: 105_853_554,
-    puid: "wikidata/105853554",
+    source_type: SourceType::Wikidata,
     name: "Magisk Modul",
     extensions: &["zip"],
     media_types: &["application/octet-stream"],

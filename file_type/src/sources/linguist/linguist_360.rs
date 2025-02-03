@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const LINGUIST_360: FileFormat = FileFormat {
     id: 360,
-    puid: "linguist/360",
+    source_type: SourceType::Linguist,
     name: "SubRip Text",
     extensions: &["srt"],
     media_types: &[],

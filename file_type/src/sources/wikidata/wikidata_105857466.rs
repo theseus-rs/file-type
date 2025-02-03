@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857466: FileFormat = FileFormat {
     id: 105_857_466,
-    puid: "wikidata/105857466",
+    source_type: SourceType::Wikidata,
     name: "360desktop 360-degree Desktop image",
     extensions: &["360"],
     media_types: &[],

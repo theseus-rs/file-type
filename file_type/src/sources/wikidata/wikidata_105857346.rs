@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857346: FileFormat = FileFormat {
     id: 105_857_346,
-    puid: "wikidata/105857346",
+    source_type: SourceType::Wikidata,
     name: "Jacksum fingerprints",
     extensions: &["jacksum"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105851771: FileFormat = FileFormat {
     id: 105_851_771,
-    puid: "wikidata/105851771",
+    source_type: SourceType::Wikidata,
     name: "AY STRC chiptune",
     extensions: &["strc"],
     media_types: &["application/octet-stream"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855816: FileFormat = FileFormat {
     id: 105_855_816,
-    puid: "wikidata/105855816",
+    source_type: SourceType::Wikidata,
     name: "Oric MFM disk image",
     extensions: &["dsk"],
     media_types: &["application/octet-stream"],

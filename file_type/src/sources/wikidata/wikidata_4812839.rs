@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_4812839: FileFormat = FileFormat {
     id: 4_812_839,
-    puid: "wikidata/4812839",
+    source_type: SourceType::Wikidata,
     name: "Atari SAP music format",
     extensions: &["sap"],
     media_types: &["audio/x-mod"],

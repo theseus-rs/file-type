@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105852497: FileFormat = FileFormat {
     id: 105_852_497,
-    puid: "wikidata/105852497",
+    source_type: SourceType::Wikidata,
     name: "Enable SpreadSheet",
     extensions: &["ssf"],
     media_types: &["application/octet-stream"],

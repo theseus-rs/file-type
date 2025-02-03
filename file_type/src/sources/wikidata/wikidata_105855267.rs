@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855267: FileFormat = FileFormat {
     id: 105_855_267,
-    puid: "wikidata/105855267",
+    source_type: SourceType::Wikidata,
     name: "Final Cut Pro X XML project",
     extensions: &["fcpxml"],
     media_types: &[],

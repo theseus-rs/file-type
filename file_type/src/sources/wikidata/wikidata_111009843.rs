@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_111009843: FileFormat = FileFormat {
     id: 111_009_843,
-    puid: "wikidata/111009843",
+    source_type: SourceType::Wikidata,
     name: "PrintMaster Sticker File format",
     extensions: &["sti"],
     media_types: &[],

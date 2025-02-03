@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850825: FileFormat = FileFormat {
     id: 105_850_825,
-    puid: "wikidata/105850825",
+    source_type: SourceType::Wikidata,
     name: "Kaspersky Anti-Virus update diff",
     extensions: &["dif"],
     media_types: &[],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855296: FileFormat = FileFormat {
     id: 105_855_296,
-    puid: "wikidata/105855296",
+    source_type: SourceType::Wikidata,
     name: "Patton-Patton Flow Charting 3 Export Filter",
     extensions: &["fef"],
     media_types: &["application/octet-stream"],

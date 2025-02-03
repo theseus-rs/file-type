@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857200: FileFormat = FileFormat {
     id: 105_857_200,
-    puid: "wikidata/105857200",
+    source_type: SourceType::Wikidata,
     name: "Hively Tracker module",
     extensions: &["hvl"],
     media_types: &["audio/x-mod"],

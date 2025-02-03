@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105857066: FileFormat = FileFormat {
     id: 105_857_066,
-    puid: "wikidata/105857066",
+    source_type: SourceType::Wikidata,
     name: "GNUMERIC spreedshet (XML, ungzipped)",
     extensions: &["gnumeric", "xml"],
     media_types: &[],

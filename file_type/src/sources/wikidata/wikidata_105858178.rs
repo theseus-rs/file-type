@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858178: FileFormat = FileFormat {
     id: 105_858_178,
-    puid: "wikidata/105858178",
+    source_type: SourceType::Wikidata,
     name: "Europa Universalis IV saved game",
     extensions: &["eu4"],
     media_types: &["text/plain"],

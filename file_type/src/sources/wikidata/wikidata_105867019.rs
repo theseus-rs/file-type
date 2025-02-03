@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105867019: FileFormat = FileFormat {
     id: 105_867_019,
-    puid: "wikidata/105867019",
+    source_type: SourceType::Wikidata,
     name: "Heath: The Unchosen Path game data archive",
     extensions: &["nrm"],
     media_types: &["application/octet-stream"],

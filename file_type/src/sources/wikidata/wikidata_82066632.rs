@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_82066632: FileFormat = FileFormat {
     id: 82_066_632,
-    puid: "wikidata/82066632",
+    source_type: SourceType::Wikidata,
     name: "Softimage Exported 3D Model",
     extensions: &["emdl"],
     media_types: &["application/octet-stream"],

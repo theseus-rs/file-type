@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_6423878811909784008: FileFormat = FileFormat {
-    id: 6_423_878_811_909_784_008,
-    puid: "httpd/6423878811909784008",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "mods xml",
     extensions: &["mods"],
     media_types: &["application/mods+xml"],

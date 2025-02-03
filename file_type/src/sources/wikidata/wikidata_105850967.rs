@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105850967: FileFormat = FileFormat {
     id: 105_850_967,
-    puid: "wikidata/105850967",
+    source_type: SourceType::Wikidata,
     name: "NeroAudio Peak file",
     extensions: &["tmp"],
     media_types: &[],

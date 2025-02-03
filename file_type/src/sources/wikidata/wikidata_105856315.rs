@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856315: FileFormat = FileFormat {
     id: 105_856_315,
-    puid: "wikidata/105856315",
+    source_type: SourceType::Wikidata,
     name: "Data Doctor Recovery NTFS data",
     extensions: &["dnt"],
     media_types: &[],

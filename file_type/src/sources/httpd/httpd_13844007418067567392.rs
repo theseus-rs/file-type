@@ -1,8 +1,8 @@
-use crate::format::FileFormat;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_13844007418067567392: FileFormat = FileFormat {
-    id: 13_844_007_418_067_567_392,
-    puid: "httpd/13844007418067567392",
+    id: 4_294_967_295,
+    source_type: SourceType::Httpd,
     name: "cosmocaller",
     extensions: &["cmc"],
     media_types: &["application/vnd.cosmocaller"],

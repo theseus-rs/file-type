@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105849769: FileFormat = FileFormat {
     id: 105_849_769,
-    puid: "wikidata/105849769",
+    source_type: SourceType::Wikidata,
     name: "Cartoon Studio Script",
     extensions: &["css"],
     media_types: &["text/plain"],

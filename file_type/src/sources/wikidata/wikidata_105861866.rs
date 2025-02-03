@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105861866: FileFormat = FileFormat {
     id: 105_861_866,
-    puid: "wikidata/105861866",
+    source_type: SourceType::Wikidata,
     name: "Freeplane MindMap",
     extensions: &["mm"],
     media_types: &["text/xml"],

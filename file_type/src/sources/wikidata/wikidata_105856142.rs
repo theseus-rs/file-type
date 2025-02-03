@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856142: FileFormat = FileFormat {
     id: 105_856_142,
-    puid: "wikidata/105856142",
+    source_type: SourceType::Wikidata,
     name: "WPSpell Dictionary",
     extensions: &["dct"],
     media_types: &["application/octet-stream"],

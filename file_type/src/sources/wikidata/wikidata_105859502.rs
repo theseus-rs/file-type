@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105859502: FileFormat = FileFormat {
     id: 105_859_502,
-    puid: "wikidata/105859502",
+    source_type: SourceType::Wikidata,
     name: "Vampire Engine MageSlayer game data archive",
     extensions: &["vpk"],
     media_types: &["application/octet-stream"],

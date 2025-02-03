@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_114889812: FileFormat = FileFormat {
     id: 114_889_812,
-    puid: "wikidata/114889812",
+    source_type: SourceType::Wikidata,
     name: "Scrapbook Factory Deluxe Caledar file",
     extensions: &["scl"],
     media_types: &[],

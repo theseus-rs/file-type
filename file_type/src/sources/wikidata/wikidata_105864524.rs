@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105864524: FileFormat = FileFormat {
     id: 105_864_524,
-    puid: "wikidata/105864524",
+    source_type: SourceType::Wikidata,
     name: "SpongeBob SquarePants: Lights,Camera,Pants! game data archive",
     extensions: &["pak"],
     media_types: &["application/octet-stream"],

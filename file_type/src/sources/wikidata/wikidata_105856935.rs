@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105856935: FileFormat = FileFormat {
     id: 105_856_935,
-    puid: "wikidata/105856935",
+    source_type: SourceType::Wikidata,
     name: "GLF 3D Font File Format",
     extensions: &["glf"],
     media_types: &[],

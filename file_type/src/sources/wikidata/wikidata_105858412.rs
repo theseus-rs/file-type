@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105858412: FileFormat = FileFormat {
     id: 105_858_412,
-    puid: "wikidata/105858412",
+    source_type: SourceType::Wikidata,
     name: "EarAche module",
     extensions: &["ea"],
     media_types: &["audio/x-mod"],

@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105855877: FileFormat = FileFormat {
     id: 105_855_877,
-    puid: "wikidata/105855877",
+    source_type: SourceType::Wikidata,
     name: "Talisman game data archive",
     extensions: &["dz"],
     media_types: &["application/octet-stream"],

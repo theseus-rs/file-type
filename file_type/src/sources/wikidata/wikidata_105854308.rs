@@ -1,8 +1,10 @@
-use crate::format::{ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Token};
+use crate::format::{
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
+};
 
 pub(crate) const WIKIDATA_105854308: FileFormat = FileFormat {
     id: 105_854_308,
-    puid: "wikidata/105854308",
+    source_type: SourceType::Wikidata,
     name: "XelaSoft Archive compressed data",
     extensions: &["xsa"],
     media_types: &["application/octet-stream"],
