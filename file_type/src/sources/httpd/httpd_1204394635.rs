@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_1204394635: FileFormat = FileFormat {
+    id: 1_204_394_635,
+    source_type: SourceType::Httpd,
+    name: "ms fontobject",
+    extensions: &["eot"],
+    media_types: &["application/vnd.ms-fontobject"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

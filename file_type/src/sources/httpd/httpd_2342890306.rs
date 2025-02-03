@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_2342890306: FileFormat = FileFormat {
+    id: 2_342_890_306,
+    source_type: SourceType::Httpd,
+    name: "picsel",
+    extensions: &["efif"],
+    media_types: &["application/vnd.picsel"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

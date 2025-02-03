@@ -14,9 +14,10 @@ File types are determined by examining a file or bytes against known file
 signatures and file extensions.
 
 Signature, extension and media type data are provided by:
-* [The National Archives PRONOM](https://www.nationalarchives.gov.uk/pronom/)
 * [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types)
+* [IANA](https://www.iana.org/assignments/media-types/media-types.xml)
 * [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml)
+* [The National Archives PRONOM](https://www.nationalarchives.gov.uk/pronom/)
 * [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List)
 
 # Example
@@ -66,6 +67,7 @@ assert_eq!(file_type.media_types(), vec!["image/png"]);
 |------------|----------------------------------------------------------------------------------------------------------------------------|----------|
 | `custom`   | Enables custom file types                                                                                                  | Yes      |
 | `httpd`    | Enables [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types) file types                         | No       |
+| `iana`     | Enables [IANA](https://www.iana.org/assignments/media-types/media-types.xml) file types                        | No       |
 | `linguist` | Enables [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) file types            | No       |
 | `pronom`   | Enables [PRONOM](https://www.nationalarchives.gov.uk/PRONOM) file types                                                    | Yes      |
 | `tokio`    | Enables using tokio for async                                                                                              | No       |

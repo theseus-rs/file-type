@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_3966587680: FileFormat = FileFormat {
+    id: 3_966_587_680,
+    source_type: SourceType::Iana,
+    name: "vnd.directv.mpeg",
+    extensions: &[],
+    media_types: &["video/vnd.directv.mpeg"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

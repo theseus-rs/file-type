@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_1825022136: FileFormat = FileFormat {
+    id: 1_825_022_136,
+    source_type: SourceType::Iana,
+    name: "vnd.informix-visionary (OBSOLETED in favor of application/vnd.visionary)",
+    extensions: &[],
+    media_types: &["application/vnd.informix-visionary"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

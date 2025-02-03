@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_3191008066: FileFormat = FileFormat {
+    id: 3_191_008_066,
+    source_type: SourceType::Iana,
+    name: "vnd.shana.informed.formdata",
+    extensions: &[],
+    media_types: &["application/vnd.shana.informed.formdata"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

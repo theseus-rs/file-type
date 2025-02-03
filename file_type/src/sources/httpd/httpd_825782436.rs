@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_825782436: FileFormat = FileFormat {
+    id: 825_782_436,
+    source_type: SourceType::Httpd,
+    name: "wasm",
+    extensions: &["wasm"],
+    media_types: &["application/wasm"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

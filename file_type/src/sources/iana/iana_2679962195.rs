@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_2679962195: FileFormat = FileFormat {
+    id: 2_679_962_195,
+    source_type: SourceType::Iana,
+    name: "vnd.amundsen.maze+xml",
+    extensions: &[],
+    media_types: &["application/vnd.amundsen.maze+xml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

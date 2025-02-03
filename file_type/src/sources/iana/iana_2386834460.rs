@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_2386834460: FileFormat = FileFormat {
+    id: 2_386_834_460,
+    source_type: SourceType::Iana,
+    name: "raptorfec",
+    extensions: &[],
+    media_types: &["video/raptorfec"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

@@ -8,9 +8,9 @@ version.workspace = true
 [dependencies]
 anyhow = { workspace = true }
 file_type = { path = "../../file_type", version = "0.4.1" }
+quick-xml = { workspace = true, features = ["serde", "serialize"] }
 rayon = { workspace = true }
 reqwest = { workspace = true, features = ["blocking"] }
-quick-xml = { workspace = true, features = ["serde", "serialize"] }
 serde = { workspace = true, features = ["derive"] }
 tracing = { workspace = true }
 tracing-subscriber = { workspace = true, features = ["env-filter"] }

@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_290087393: FileFormat = FileFormat {
+    id: 290_087_393,
+    source_type: SourceType::Httpd,
+    name: "fujixerox docuworks",
+    extensions: &["xdw"],
+    media_types: &["application/vnd.fujixerox.docuworks"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

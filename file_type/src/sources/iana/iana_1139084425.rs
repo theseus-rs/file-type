@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_1139084425: FileFormat = FileFormat {
+    id: 1_139_084_425,
+    source_type: SourceType::Iana,
+    name: "vnd.trolltech.linguist",
+    extensions: &[],
+    media_types: &["text/vnd.trolltech.linguist"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_2333141689: FileFormat = FileFormat {
+    id: 2_333_141_689,
+    source_type: SourceType::Iana,
+    name: "vnd.gnu.taler.merchant+json",
+    extensions: &[],
+    media_types: &["application/vnd.gnu.taler.merchant+json"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

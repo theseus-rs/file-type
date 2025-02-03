@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_996033646: FileFormat = FileFormat {
+    id: 996_033_646,
+    source_type: SourceType::Httpd,
+    name: "mseq",
+    extensions: &["mseq"],
+    media_types: &["application/vnd.mseq"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

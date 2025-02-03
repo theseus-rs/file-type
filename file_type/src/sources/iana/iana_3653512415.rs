@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_3653512415: FileFormat = FileFormat {
+    id: 3_653_512_415,
+    source_type: SourceType::Iana,
+    name: "dpx",
+    extensions: &[],
+    media_types: &["image/dpx"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

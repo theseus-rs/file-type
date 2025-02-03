@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_4161244575: FileFormat = FileFormat {
+    id: 4_161_244_575,
+    source_type: SourceType::Httpd,
+    name: "ms pki stl",
+    extensions: &["stl"],
+    media_types: &["application/vnd.ms-pki.stl"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

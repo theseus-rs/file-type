@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_4251501848: FileFormat = FileFormat {
+    id: 4_251_501_848,
+    source_type: SourceType::Iana,
+    name: "opc-nodeset+xml",
+    extensions: &[],
+    media_types: &["application/opc-nodeset+xml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

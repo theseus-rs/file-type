@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_2823327473: FileFormat = FileFormat {
+    id: 2_823_327_473,
+    source_type: SourceType::Iana,
+    name: "vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml",
+    extensions: &[],
+    media_types: &["application/vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

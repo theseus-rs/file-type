@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_1403183265: FileFormat = FileFormat {
+    id: 1_403_183_265,
+    source_type: SourceType::Iana,
+    name: "vnd.americandynamics.acc",
+    extensions: &[],
+    media_types: &["application/vnd.americandynamics.acc"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

@@ -70,7 +70,7 @@ async fn execute(dry_run: bool) -> Result<()> {
 
     let mime_types_data = response.text().await?;
     let mime_types = parse_mime_types(mime_types_data);
-    let mut file_formats = process_mime_types(mime_types)?;
+    let mut file_formats = process_mime_types(mime_types);
     file_formats.sort_by_key(|file_format| file_format.id);
     generate_source_code(&file_formats, &source_dir, dry_run).await?;
     Ok(())
@@ -105,8 +105,8 @@ fn parse_mime_types<S: AsRef<str>>(data: S) -> HashMap<String, Vec<String>> {
     mime_types
 }
 
-fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Result<Vec<FileFormat>> {
-    let mut file_formats = Vec::new();
+fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Vec<FileFormat> {
+    let mut file_formats = HashMap::new();
 
     for (mime_type, extensions) in mime_types {
         let extensions = extensions
@@ -125,24 +125,30 @@ fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Result<Vec<Fi
             .collect::<Vec<&str>>();
         let mut hasher = DefaultHasher::new();
         mime_type.hash(&mut hasher);
-        let hash = usize::try_from(hasher.finish())?;
+        let hash = hasher.finish();
+        let high = (hash >> 32) as u32;
+        #[expect(clippy::cast_possible_truncation)]
+        let low = hash as u32;
+        let id = high ^ low;
         let name = mime_type.as_str().split_once('/').unwrap_or_default().1;
         let name = name
             .trim_start_matches("vnd.")
             .trim_start_matches("x-")
             .replace(['-', '+', '.'], " ");
         let file_format = FileFormat {
-            id: hash,
+            id: id as usize,
             source_type: SourceType::Httpd,
             name: Box::leak(name.into_boxed_str()),
             extensions: Box::leak(extensions.into_boxed_slice()),
             media_types: Box::leak(media_types.into_boxed_slice()),
             ..Default::default()
         };
-        file_formats.push(file_format);
+        if let Some(file_format) = file_formats.insert(id, file_format) {
+            warn!("Duplicate ID: {id}, FileFormat: {file_format:?}");
+        }
     }
 
-    Ok(file_formats)
+    file_formats.values().cloned().collect()
 }
 
 async fn generate_source_code(

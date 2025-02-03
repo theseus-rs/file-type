@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_3019298279: FileFormat = FileFormat {
+    id: 3_019_298_279,
+    source_type: SourceType::Iana,
+    name: "vnd.nokia.landmarkcollection+xml",
+    extensions: &[],
+    media_types: &["application/vnd.nokia.landmarkcollection+xml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

@@ -47,7 +47,7 @@ use std::path::Path;
 /// assert_eq!(file_type.extensions(), vec!["png"]);
 /// assert_eq!(file_type.media_types(), vec!["image/png"]);
 /// ```
-#[derive(Clone, Debug)]
+#[derive(Clone, Debug, Eq, PartialEq)]
 pub struct FileType {
     id: &'static str,
     file_format: &'static FileFormat,
@@ -162,7 +162,6 @@ impl FileType {
     /// use file_type::FileType;
     ///
     /// let file_types = FileType::from_media_type("text/markdown");
-    /// assert_eq!(1, file_types.len());
     /// let file_type = file_types.first().expect("file format");
     /// assert_eq!(file_type.name(), "Markdown");
     /// assert_eq!(file_type.extensions(), vec!["md", "markdown"]);
@@ -285,6 +284,18 @@ impl FileType {
     }
 }
 
+impl Ord for FileType {
+    fn cmp(&self, other: &Self) -> Ordering {
+        self.file_format.cmp(other.file_format)
+    }
+}
+
+impl PartialOrd for FileType {
+    fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
+        Some(self.file_format.cmp(other.file_format))
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -334,7 +345,6 @@ mod tests {
     #[test]
     fn test_from_media_type() {
         let file_types = FileType::from_media_type("text/markdown");
-        assert_eq!(1, file_types.len());
         let file_type = file_types.first().expect("file format");
         assert_eq!(file_type.id(), "pronom/1959");
         assert_eq!(file_type.name(), "Markdown");

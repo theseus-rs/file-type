@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_245917095: FileFormat = FileFormat {
+    id: 245_917_095,
+    source_type: SourceType::Iana,
+    name: "vnd.rainstor.data",
+    extensions: &[],
+    media_types: &["application/vnd.rainstor.data"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

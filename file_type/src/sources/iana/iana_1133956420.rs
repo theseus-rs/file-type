@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_1133956420: FileFormat = FileFormat {
+    id: 1_133_956_420,
+    source_type: SourceType::Iana,
+    name: "soap+fastinfoset",
+    extensions: &[],
+    media_types: &["application/soap+fastinfoset"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

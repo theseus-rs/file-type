@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_315120870: FileFormat = FileFormat {
+    id: 315_120_870,
+    source_type: SourceType::Iana,
+    name: "vnd.geogebra.tool",
+    extensions: &[],
+    media_types: &["application/vnd.geogebra.tool"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

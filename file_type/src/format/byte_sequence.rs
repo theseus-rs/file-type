@@ -3,7 +3,7 @@ use crate::format::source::Source;
 use std::str::FromStr;
 
 /// The position type for a byte sequence
-#[derive(Clone, Debug, Default)]
+#[derive(Clone, Debug, Default, Eq, PartialEq)]
 pub enum PositionType {
     #[default]
     BOF,
@@ -12,7 +12,7 @@ pub enum PositionType {
 }
 
 /// A byte sequence used to identify a file format
-#[derive(Clone, Debug, Default)]
+#[derive(Clone, Debug, Default, Eq, PartialEq)]
 pub struct ByteSequence {
     pub position_type: PositionType,
     pub offset: Option<usize>,

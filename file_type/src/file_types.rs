@@ -60,14 +60,14 @@ fn initialize_signature_map() -> HashMap<u64, Vec<&'static FileType>> {
 /// Create a map of file extensions to file types.
 fn initialize_extension_map() -> HashMap<&'static str, Vec<&'static FileType>> {
     let mut extension_map = HashMap::new();
-    let file_types = &*FILE_TYPES;
 
-    for file_type in file_types.values() {
+    for file_type in FILE_TYPES.values() {
         for extension in file_type.extensions() {
             let extension = *extension;
-            let mut types = extension_map.get(extension).unwrap_or(&vec![]).clone();
-            types.push(file_type);
-            extension_map.insert(extension, types);
+            let mut file_types = extension_map.get(extension).unwrap_or(&vec![]).clone();
+            file_types.push(file_type);
+            file_types.sort();
+            extension_map.insert(extension, file_types);
         }
     }
 
@@ -77,13 +77,13 @@ fn initialize_extension_map() -> HashMap<&'static str, Vec<&'static FileType>> {
 /// Create a map of media types to file types.
 fn initialize_media_type_map() -> HashMap<&'static str, Vec<&'static FileType>> {
     let mut media_type_map = HashMap::new();
-    let file_types = &*FILE_TYPES;
-    for file_type in file_types.values() {
+    for file_type in FILE_TYPES.values() {
         for media_type in file_type.media_types() {
             let media_type = *media_type;
-            let mut types = media_type_map.get(media_type).unwrap_or(&vec![]).clone();
-            types.push(file_type);
-            media_type_map.insert(media_type, types);
+            let mut file_types = media_type_map.get(media_type).unwrap_or(&vec![]).clone();
+            file_types.push(file_type);
+            file_types.sort();
+            media_type_map.insert(media_type, file_types);
         }
     }
     media_type_map
@@ -124,7 +124,7 @@ where
 
 /// Compare the file types based on their priority; this is used to determine the most appropriate
 /// file type for a given file.  The order of the file types is determined by the relationship
-/// between the file format.
+/// between the file formats.
 fn cmp_file_types(a: &FileType, b: &FileType) -> Ordering {
     let a_file_format = a.file_format();
     let b_file_format = b.file_format();
@@ -163,15 +163,12 @@ fn cmp_file_types(a: &FileType, b: &FileType) -> Ordering {
         }
     }
 
-    match a_file_format.source_type.cmp(&b_file_format.source_type) {
-        Ordering::Equal => a_id.cmp(&b_id),
-        ordering => ordering,
-    }
+    a_file_format.cmp(b_file_format)
 }
 
 /// Compare the file types based on their priority and id.  The most general file type should be
 /// sorted first since these file types were not identified by signature. The order of the file
-/// types is determined by the relationship between the file format.
+/// types is determined by the relationship between the file formats.
 fn cmp_file_type_extensions(a: &FileType, b: &FileType) -> Ordering {
     let a_file_format = a.file_format();
     let b_file_format = b.file_format();
@@ -210,22 +207,7 @@ fn cmp_file_type_extensions(a: &FileType, b: &FileType) -> Ordering {
         }
     }
 
-    match a_file_format.source_type.cmp(&b_file_format.source_type) {
-        Ordering::Equal => a_id.cmp(&b_id),
-        ordering => ordering,
-    }
-}
-
-/// Return the order of a source type.
-fn source_type_order(source_type: &str) -> u8 {
-    match source_type {
-        "custom" => 0,
-        "pronom" => 1,
-        "wikidata" => 2,
-        "linguist" => 3,
-        "httpd" => 4,
-        _ => 5,
-    }
+    a_file_format.cmp(b_file_format)
 }
 
 /// Determines if a byte slice is binary or text data.
@@ -442,7 +424,6 @@ mod tests {
     #[test]
     fn test_from_media_type() {
         let file_types = from_media_type("text/markdown");
-        assert_eq!(1, file_types.len());
         let file_type = file_types.first().expect("file format");
         assert_eq!(file_type.id(), "pronom/1959");
         assert_eq!(file_type.name(), "Markdown");

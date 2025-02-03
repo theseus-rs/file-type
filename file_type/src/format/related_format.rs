@@ -1,7 +1,7 @@
 use crate::format::source::Source;
 
 /// The type of relationship between two format
-#[derive(Clone, Debug, Default)]
+#[derive(Clone, Debug, Default, Eq, PartialEq)]
 pub enum RelationshipType {
     CanContain,
     CanBeContainedBy,
@@ -16,7 +16,7 @@ pub enum RelationshipType {
 }
 
 /// A related format
-#[derive(Clone, Debug, Default)]
+#[derive(Clone, Debug, Default, Eq, PartialEq)]
 pub struct RelatedFormat {
     pub relationship_type: RelationshipType,
     pub id: usize,

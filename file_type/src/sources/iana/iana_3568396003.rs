@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_3568396003: FileFormat = FileFormat {
+    id: 3_568_396_003,
+    source_type: SourceType::Iana,
+    name: "vnd.coffeescript",
+    extensions: &[],
+    media_types: &["application/vnd.coffeescript"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

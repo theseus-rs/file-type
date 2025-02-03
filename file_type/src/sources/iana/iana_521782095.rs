@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_521782095: FileFormat = FileFormat {
+    id: 521_782_095,
+    source_type: SourceType::Iana,
+    name: "vnd.Mobius.MBK",
+    extensions: &[],
+    media_types: &["application/vnd.Mobius.MBK"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

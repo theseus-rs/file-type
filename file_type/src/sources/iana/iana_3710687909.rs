@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_3710687909: FileFormat = FileFormat {
+    id: 3_710_687_909,
+    source_type: SourceType::Iana,
+    name: "vnd.crick.clicker.template",
+    extensions: &[],
+    media_types: &["application/vnd.crick.clicker.template"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_3510859036: FileFormat = FileFormat {
+    id: 3_510_859_036,
+    source_type: SourceType::Httpd,
+    name: "pkcs7 mime",
+    extensions: &["p7m", "p7c"],
+    media_types: &["application/pkcs7-mime"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

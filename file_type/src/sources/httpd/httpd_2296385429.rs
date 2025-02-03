@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_2296385429: FileFormat = FileFormat {
+    id: 2_296_385_429,
+    source_type: SourceType::Httpd,
+    name: "irepository package xml",
+    extensions: &["irp"],
+    media_types: &["application/vnd.irepository.package+xml"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

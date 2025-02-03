@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_747456878: FileFormat = FileFormat {
+    id: 747_456_878,
+    source_type: SourceType::Httpd,
+    name: "macports portpkg",
+    extensions: &["portpkg"],
+    media_types: &["application/vnd.macports.portpkg"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_2434998181: FileFormat = FileFormat {
+    id: 2_434_998_181,
+    source_type: SourceType::Iana,
+    name: "vnd.sealed.3df",
+    extensions: &[],
+    media_types: &["application/vnd.sealed.3df"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

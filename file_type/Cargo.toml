@@ -27,6 +27,7 @@ tokio = { workspace = true, features = ["full"] }
 default = ["custom", "pronom"]
 custom = []
 httpd = []
+iana = []
 linguist = []
 pronom = []
 tokio = [

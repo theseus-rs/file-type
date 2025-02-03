@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_1618248985: FileFormat = FileFormat {
+    id: 1_618_248_985,
+    source_type: SourceType::Iana,
+    name: "tamp-update",
+    extensions: &[],
+    media_types: &["application/tamp-update"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_941850155: FileFormat = FileFormat {
+    id: 941_850_155,
+    source_type: SourceType::Httpd,
+    name: "eva",
+    extensions: &["eva"],
+    media_types: &["application/x-eva"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

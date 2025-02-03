@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const HTTPD_3069556335: FileFormat = FileFormat {
+    id: 3_069_556_335,
+    source_type: SourceType::Httpd,
+    name: "sun xml math",
+    extensions: &["sxm"],
+    media_types: &["application/vnd.sun.xml.math"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

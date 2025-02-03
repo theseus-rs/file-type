@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_223476613: FileFormat = FileFormat {
+    id: 223_476_613,
+    source_type: SourceType::Iana,
+    name: "vnd.yellowriver-custom-menu",
+    extensions: &[],
+    media_types: &["application/vnd.yellowriver-custom-menu"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

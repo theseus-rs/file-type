@@ -1,0 +1,11 @@
+use crate::format::{FileFormat, SourceType};
+
+pub(crate) const IANA_1489174872: FileFormat = FileFormat {
+    id: 1_489_174_872,
+    source_type: SourceType::Iana,
+    name: "vnd.cryptomator.vault",
+    extensions: &[],
+    media_types: &["application/vnd.cryptomator.vault"],
+    internal_signatures: &[],
+    related_formats: &[],
+};

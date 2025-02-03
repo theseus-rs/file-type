@@ -2,7 +2,7 @@ use crate::format::source::Source;
 use crate::format::{ByteSequence, PositionType};
 
 /// An internal signature.
-#[derive(Clone, Debug, Default)]
+#[derive(Clone, Debug, Default, Eq, PartialEq)]
 pub struct InternalSignature {
     pub byte_sequences: &'static [ByteSequence],
 }
