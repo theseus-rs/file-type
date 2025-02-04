@@ -67,11 +67,11 @@ assert_eq!(file_type.media_types(), vec!["image/png"]);
 |------------|----------------------------------------------------------------------------------------------------------------------------|----------|
 | `custom`   | Enables custom file types                                                                                                  | Yes      |
 | `httpd`    | Enables [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types) file types                         | No       |
-| `iana`     | Enables [IANA](https://www.iana.org/assignments/media-types/media-types.xml) file types                        | No       |
+| `iana`     | Enables [IANA](https://www.iana.org/assignments/media-types/media-types.xml) file types                                    | No       |
 | `linguist` | Enables [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) file types            | No       |
-| `pronom`   | Enables [PRONOM](https://www.nationalarchives.gov.uk/PRONOM) file types                                                    | Yes      |
+| `pronom`   | Enables [PRONOM](https://www.nationalarchives.gov.uk/PRONOM) file types                                                    | No       |
 | `tokio`    | Enables using tokio for async                                                                                              | No       |
-| `wikidata` | Enables [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List) file types | No       |
+| `wikidata` | Enables [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List) file types | Yes      |
 
 ## Supported File Types
 
@@ -88,10 +88,16 @@ Licensed under either of
 * Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or https://www.apache.org/licenses/LICENSE-2.0)
 * MIT license ([LICENSE-MIT](LICENSE-MIT) or https://opensource.org/licenses/MIT)
 
-AND
+Data is licensed under the following licenses:
 
-The PRONOM definitions are provided by The National Archives (UK) under the
-[Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+* The HTTPD definitions are provided by the Apache Software Foundation under the
+  [Apache License 2.0](https://github.com/apache/httpd/blob/trunk/LICENSE).
+* The IANA definitions are provided by the Internet Assigned Numbers Authority under the
+  [Creative Commons Zero (CC0)](https://www.iana.org/help/licensing-terms) license.
+* The PRONOM definitions are provided by The National Archives (UK) under the
+  [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+* The Wikidata definitions are provided by the Wikidata project under the
+  [Creative Commons Zero (CC0)](https://www.wikidata.org/wiki/Wikidata:Licensing) license.
 
 ## Contribution
 

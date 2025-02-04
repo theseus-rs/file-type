@@ -27,7 +27,7 @@ mime_guess = { workspace = true }
 tokio = { workspace = true, features = ["full"] }
 
 [features]
-default = ["custom", "pronom"]
+default = ["custom", "wikidata"]
 custom = []
 httpd = []
 iana = []

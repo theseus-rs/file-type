@@ -483,6 +483,7 @@ mod tests {
     }
 
     #[test]
+    #[cfg(feature = "pronom")]
     fn test_cmp_file_types() {
         let pronom_654 = FileType::from_id("pronom/654").expect("file type not found");
         let pronom_1314 = FileType::from_id("pronom/1314").expect("file type not found");

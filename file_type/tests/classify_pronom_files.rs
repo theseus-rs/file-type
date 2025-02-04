@@ -33,6 +33,7 @@ fn test_file(file_name: &str) -> Result<(String, &FileType)> {
     Ok((id, file_type))
 }
 
+#[cfg(feature = "pronom")]
 #[test]
 fn test_file_classification() -> Result<()> {
     let data_dir = data_dir();
@@ -66,12 +67,5 @@ fn test_file_classification() -> Result<()> {
     println!("Passed: {passed_tests}");
     println!("Errored: {errored_tests}");
     assert!(passed_tests > 1700);
-    Ok(())
-}
-
-#[test]
-fn test_single_file_classification() -> Result<()> {
-    let (id, file_type) = test_file("pronom-1507-signature-id-831.wav")?;
-    assert_eq!(file_type.id(), id);
     Ok(())
 }

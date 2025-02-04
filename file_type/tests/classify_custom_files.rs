@@ -28,6 +28,7 @@ fn test_file(file_name: &str, expected_id: &str, expected_media_type: Option<&st
     Ok(())
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_arrow_file() -> Result<()> {
     test_file(
@@ -37,6 +38,7 @@ fn test_arrow_file() -> Result<()> {
     )
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_avro_file() -> Result<()> {
     test_file(
@@ -46,11 +48,13 @@ fn test_avro_file() -> Result<()> {
     )
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_csv_file() -> Result<()> {
     test_file("users.csv", "pronom/45", Some("text/csv"))
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_duckdb_file() -> Result<()> {
     test_file(
@@ -60,16 +64,19 @@ fn test_duckdb_file() -> Result<()> {
     )
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_json_file() -> Result<()> {
     test_file("users.json", "pronom/1617", Some("application/json"))
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_jsonl_file() -> Result<()> {
     test_file("users.jsonl", "custom/4", Some("application/jsonl"))
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_ods_file() -> Result<()> {
     test_file(
@@ -79,6 +86,7 @@ fn test_ods_file() -> Result<()> {
     )
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_parquet_file() -> Result<()> {
     test_file(
@@ -88,6 +96,7 @@ fn test_parquet_file() -> Result<()> {
     )
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_sqlite3_file() -> Result<()> {
     test_file(
@@ -97,11 +106,13 @@ fn test_sqlite3_file() -> Result<()> {
     )
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_tsv_file() -> Result<()> {
     test_file("users.tsv", "pronom/40", Some("text/tab-separated-values"))
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_xlsx_file() -> Result<()> {
     test_file(
@@ -111,11 +122,13 @@ fn test_xlsx_file() -> Result<()> {
     )
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_xml_file() -> Result<()> {
     test_file("users.xml", "pronom/638", Some("text/xml"))
 }
 
+#[cfg(feature = "custom")]
 #[test]
 fn test_yaml_file() -> Result<()> {
     test_file("users.yaml", "pronom/1618", None)

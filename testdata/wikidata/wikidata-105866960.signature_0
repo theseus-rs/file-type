@@ -1,0 +1,9 @@
+Content-Type: multipart/mixed; boundary="KBoundary";
+MIME-Version: 1.0
+Content-Description: Ngage-Install-File; version="1.0"
+--KBoundary
+Content-Type: text/xml; charset="UTF-8"
+Content-ID: <RetailerInfo>
+
+<?xml version="1.0" encoding="UTF-8"?><par:RetailerInfo xmlns:par="http://www.n-gage.nokia.com/schemas/DPB/RetailerInfo/1.0"><par:RetailerName>Nokia Shop</par:RetailerName><par:RetailerID>4</par:RetailerID><par:ProtocolType>1</par:ProtocolType><par:NGageAccountSupport>1</par:NGageAccountSupport></par:RetailerInfo>
+

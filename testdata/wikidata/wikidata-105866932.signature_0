@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml xmlns = "http://www.irt.rwth-aachen.de/download/netlab/pntd/pnsmNet">
+  <net id = "n1"
+       type = "http://www.irt.rwth-aachen.de/download/netlab/pntd/pnsmNet">
+    <name>
+      <text>
