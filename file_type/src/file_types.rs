@@ -226,45 +226,36 @@ where
     let bytes = bytes.as_ref();
     let signature_key = Regex::key_from_bytes(bytes);
     let mut file_types: Vec<&'static FileType> = Vec::new();
+    if let Some(signatures) = SIGNATURE_MAP.get(&signature_key) {
+        file_types.extend(
+            signatures
+                .iter()
+                .filter(|file_type| file_type.file_format().is_match(bytes)),
+        );
+    }
     // Get all file types with a signature of 0; these are the file types that did not have a
     // BOF literal signature.
     if let Some(signatures) = SIGNATURE_MAP.get(&0) {
-        file_types.extend(signatures);
+        file_types.extend(
+            signatures
+                .iter()
+                .filter(|file_type| file_type.file_format().is_match(bytes)),
+        );
     }
-    if let Some(signatures) = SIGNATURE_MAP.get(&signature_key) {
-        file_types.extend(signatures);
-    }
-
-    let mut file_types: Vec<&'static FileType> = file_types
-        .iter()
-        .filter(|file_type| file_type.file_format().is_match(bytes))
-        .copied()
-        .collect();
 
     match file_types.len() {
         0 => {
             if let Some(extension) = extension {
-                let extension_map = &*EXTENSION_MAP;
-                if let Some(types) = extension_map.get(extension) {
-                    for file_type in types {
-                        file_types.push(file_type);
-                    }
-                    sort_by(&mut file_types, cmp_file_type_extensions);
+                // The extensions are pre-sorted; return the first one found as the best match
+                if let Some(file_type) = from_extension(extension).first() {
+                    return file_type;
                 };
             }
         }
         1 => {}
         _ => {
             if let Some(extension) = extension {
-                let mut types = Vec::new();
-                for file_type in &file_types {
-                    if file_type.extensions().contains(&extension) {
-                        types.push(*file_type);
-                    }
-                }
-                if !types.is_empty() {
-                    file_types = types;
-                }
+                file_types.retain(|file_type| file_type.extensions().contains(&extension));
             }
             sort_by(&mut file_types, cmp_file_types);
         }

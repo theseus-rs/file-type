@@ -74,7 +74,7 @@ fn test_jsonl_file() -> Result<()> {
 fn test_ods_file() -> Result<()> {
     test_file(
         "users.ods",
-        "pronom/1037",
+        "pronom/780",
         Some("application/vnd.oasis.opendocument.spreadsheet"),
     )
 }
