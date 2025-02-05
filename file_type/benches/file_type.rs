@@ -108,7 +108,9 @@ fn bench_lifecycle(criterion: &mut Criterion) -> anyhow::Result<()> {
     #[cfg(target_os = "linux")]
     {
         let cookie = magic::Cookie::open(Default::default())?;
-        let cookie = cookie.load(&Default::default()).expect("failed to load magic database");
+        let cookie = cookie
+            .load(&Default::default())
+            .expect("failed to load magic database");
 
         criterion.bench_function("magic::from_bytes", |bencher| {
             bencher.iter(|| {
@@ -130,7 +132,7 @@ fn bench_lifecycle(criterion: &mut Criterion) -> anyhow::Result<()> {
             });
         });
     }
-    
+
     //
     // Comparison testing to the mime_guess crate
     //
