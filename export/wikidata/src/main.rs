@@ -5,10 +5,11 @@
 
 use anyhow::Result;
 use file_type::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, Source, SourceType,
+    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType,
 };
 use reqwest::Client;
 use serde_json::Value;
+use source_generator::Source;
 use std::collections::HashMap;
 use std::env;
 use std::path::{Path, PathBuf};

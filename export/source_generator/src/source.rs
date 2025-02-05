@@ -1,5 +1,3 @@
-use std::fmt::Formatter;
-
 /// A trait for generating source code.
 pub trait Source {
     /// Generate the source code.

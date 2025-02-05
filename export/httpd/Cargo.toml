@@ -9,6 +9,7 @@ version.workspace = true
 anyhow = { workspace = true }
 file_type = { path = "../../file_type", version = "0.5.1" }
 reqwest = { workspace = true }
+source_generator = { path = "../source_generator", version = "0.5.1" }
 tokio = { workspace = true, features = ["full"]}
 tracing = { workspace = true }
 tracing-subscriber = { workspace = true, features = ["env-filter"] }

@@ -1,4 +1,3 @@
-use crate::format::source::Source;
 use crate::{Error, Result};
 use std::cmp::Ordering;
 use std::collections::HashMap;
@@ -118,53 +117,6 @@ impl Display for Token {
                 } else {
                     write!(f, "{{{min}-{max}}}")
                 }
-            }
-        }
-    }
-}
-
-impl Source for Token {
-    fn to_source(&self) -> String {
-        match self {
-            Token::Any(any_tokens) => {
-                let mut source_tokens = Vec::new();
-                for tokens in *any_tokens {
-                    let tokens = tokens
-                        .iter()
-                        .map(Source::to_source)
-                        .collect::<Vec<String>>()
-                        .join(", ");
-                    source_tokens.push(format!("&[{tokens}]"));
-                }
-                format!("Token::Any(&[{}])", source_tokens.join(", "))
-            }
-            Token::AnyWildcard => "Token::AnyWildcard".to_string(),
-            Token::Literal(bytes) => {
-                format!("Token::Literal(&{})", bytes.to_source())
-            }
-            Token::NotLiteral(bytes) => {
-                format!("Token::NotLiteral(&{})", bytes.to_source())
-            }
-            Token::NotRange(start, end) => {
-                format!(
-                    "Token::NotRange(&{}, &{})",
-                    start.to_source(),
-                    end.to_source()
-                )
-            }
-            Token::Range(start, end) => {
-                format!("Token::Range(&{}, &{})", start.to_source(), end.to_source())
-            }
-            Token::SingleWildcard => "Token::SingleWildcard".to_string(),
-            Token::WildcardCount(count) => {
-                format!("Token::WildcardCount({})", (*count).to_source())
-            }
-            Token::WildcardCountRange(min, max) => {
-                format!(
-                    "Token::WildcardCountRange({}, {})",
-                    (*min).to_source(),
-                    (*max).to_source()
-                )
             }
         }
     }
@@ -621,18 +573,6 @@ impl Display for Regex {
     }
 }
 
-impl Source for Regex {
-    fn to_source(&self) -> String {
-        let tokens = self
-            .tokens
-            .iter()
-            .map(Source::to_source)
-            .collect::<Vec<String>>()
-            .join(", ");
-        format!("Regex {{ tokens: &[{tokens}] }}")
-    }
-}
-
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -792,95 +732,6 @@ mod tests {
     }
 
     #[test]
-    fn test_token_source_any() {
-        let token = Token::Any(&[&[Token::Literal(&[0x01])]]);
-        assert_eq!(
-            token.to_source(),
-            "Token::Any(&[&[Token::Literal(&[0x01])]])"
-        );
-    }
-
-    #[test]
-    fn test_token_source_any_multiple() {
-        let token = Token::Any(&[
-            &[Token::Literal(&[0x01, 0x02])],
-            &[Token::Range(&[0x03], &[0x04])],
-            &[
-                Token::Literal(&[0x05, 0x06]),
-                Token::Range(&[0x07], &[0x08]),
-            ],
-        ]);
-        assert_eq!(
-            token.to_source(),
-            "Token::Any(&[&[Token::Literal(&[0x01, 0x02])], &[Token::Range(&[0x03], &[0x04])], &[Token::Literal(&[0x05, 0x06]), Token::Range(&[0x07], &[0x08])]])",
-        );
-    }
-
-    #[test]
-    fn test_token_source_any_wildcard() {
-        let token = Token::AnyWildcard;
-        assert_eq!(token.to_source(), "Token::AnyWildcard");
-    }
-
-    #[test]
-    fn test_token_source_literal_sequence() {
-        let token = Token::Literal(&[0x01, 0x02, 0x03]);
-        assert_eq!(token.to_source(), "Token::Literal(&[0x01, 0x02, 0x03])");
-    }
-
-    #[test]
-    fn test_token_source_not_literal_sequence() {
-        let token = Token::NotLiteral(&[0x01]);
-        assert_eq!(token.to_source(), "Token::NotLiteral(&[0x01])");
-    }
-
-    #[test]
-    fn test_token_source_not_literal_sequence_multiple() {
-        let token = Token::NotLiteral(&[0x01, 0x02, 0x03]);
-        assert_eq!(token.to_source(), "Token::NotLiteral(&[0x01, 0x02, 0x03])");
-    }
-
-    #[test]
-    fn test_token_source_not_range() {
-        let token = Token::NotRange(&[0x00], &[0xFF]);
-        assert_eq!(token.to_source(), "Token::NotRange(&[0x00], &[0xFF])");
-    }
-
-    #[test]
-    fn test_token_source_range() {
-        let token = Token::Range(&[0x00], &[0xFF]);
-        assert_eq!(token.to_source(), "Token::Range(&[0x00], &[0xFF])");
-    }
-
-    #[test]
-    fn test_token_source_single_wildcard() {
-        let token = Token::SingleWildcard;
-        assert_eq!(token.to_source(), "Token::SingleWildcard");
-    }
-
-    #[test]
-    fn test_token_source_wildcard_count() {
-        let token = Token::WildcardCount(1_234);
-        assert_eq!(token.to_source(), "Token::WildcardCount(1_234)");
-    }
-
-    #[test]
-    fn test_token_source_wildcard_count_range() {
-        let token = Token::WildcardCountRange(1, 2);
-        assert_eq!(token.to_source(), "Token::WildcardCountRange(1, 2)");
-    }
-
-    #[test]
-    fn test_token_source_wildcard_count_range_max() {
-        let token = Token::WildcardCountRange(1234, usize::MAX);
-        // The max value is u32::MAX to support 32-bit systems
-        assert_eq!(
-            token.to_source(),
-            "Token::WildcardCountRange(1_234, 4_294_967_295)"
-        );
-    }
-
-    #[test]
     fn test_regex_key() -> Result<()> {
         assert_eq!(Regex::new("")?.key(), 0);
         assert_eq!(Regex::new("00")?.key(), 0);
@@ -901,17 +752,6 @@ mod tests {
         let pattern = "(0102|0304|[05:06])*010203[!01][!00:FF][00:FF]??{1}{1-2}{42-*}";
         let regex = Regex::new(pattern)?;
         assert_eq!(regex.to_string(), pattern);
-        Ok(())
-    }
-
-    #[test]
-    fn test_regex_source() -> Result<()> {
-        let pattern = "(01)";
-        let regex = Regex::new(pattern)?;
-        assert_eq!(
-            regex.to_source(),
-            "Regex { tokens: &[Token::Any(&[&[Token::Literal(&[0x01])]])] }"
-        );
         Ok(())
     }
 

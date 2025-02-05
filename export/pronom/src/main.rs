@@ -7,10 +7,11 @@ mod format;
 
 use crate::format::pronom_report::PronomReport;
 use anyhow::Result;
-use file_type::format::{FileFormat, Source};
+use file_type::format::FileFormat;
 use quick_xml::de;
 use rayon::prelude::*;
 use reqwest::blocking::Client;
+use source_generator::Source;
 use std::collections::HashMap;
 use std::env;
 use std::fs::File;

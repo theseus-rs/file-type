@@ -1,4 +1,3 @@
-use crate::format::source::Source;
 use crate::format::{InternalSignature, RelatedFormat};
 use std::cmp::Ordering;
 
@@ -75,33 +74,6 @@ impl FileFormat {
     }
 }
 
-impl Source for FileFormat {
-    fn to_source(&self) -> String {
-        let extensions = self
-            .extensions
-            .iter()
-            .map(|extension| format!("{extension:?}"))
-            .collect::<Vec<String>>()
-            .join(", ");
-        let media_types = self
-            .media_types
-            .iter()
-            .map(|media_type| format!("{media_type:?}"))
-            .collect::<Vec<String>>()
-            .join(", ");
-        format!(
-            "FileFormat {{ id: {}, source_type: SourceType::{:?}, name: {:?}, extensions: &[{}], media_types: &[{}], internal_signatures: &[{}], related_formats: &[{}] }}",
-            self.id.to_source(),
-            self.source_type,
-            self.name,
-            extensions,
-            media_types,
-            self.internal_signatures.iter().map(Source::to_source).collect::<Vec<String>>().join(", "),
-            self.related_formats.iter().map(Source::to_source).collect::<Vec<String>>().join(", "),
-        )
-    }
-}
-
 impl Ord for FileFormat {
     fn cmp(&self, other: &Self) -> Ordering {
         match self.source_type.cmp(&other.source_type) {
@@ -163,23 +135,5 @@ mod tests {
             Ordering::Greater
         );
         assert_eq!(SourceType::Default.cmp(&SourceType::Custom), Ordering::Less);
-    }
-
-    #[test]
-    fn test_to_source() {
-        let file_format = FileFormat {
-            id: 664,
-            source_type: SourceType::Default,
-            name: "Portable Network Graphics",
-            extensions: &["png"],
-            media_types: &["image/png"],
-            internal_signatures: &[],
-            related_formats: &[],
-        };
-
-        assert_eq!(
-            file_format.to_source(),
-            "FileFormat { id: 664, source_type: SourceType::Default, name: \"Portable Network Graphics\", extensions: &[\"png\"], media_types: &[\"image/png\"], internal_signatures: &[], related_formats: &[] }"
-        );
     }
 }

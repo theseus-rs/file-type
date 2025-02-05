@@ -4,8 +4,9 @@
 #![deny(clippy::unwrap_used)]
 
 use anyhow::Result;
-use file_type::format::{FileFormat, Source, SourceType};
+use file_type::format::{FileFormat, SourceType};
 use reqwest::Client;
+use source_generator::Source;
 use std::collections::HashMap;
 use std::env;
 use std::hash::{DefaultHasher, Hash, Hasher};

@@ -4,6 +4,7 @@ default-members = [
     "export/iana",
     "export/linguist",
     "export/pronom",
+    "export/source_generator",
     "export/wikidata",
     "file_type",
 ]
@@ -12,6 +13,7 @@ members = [
     "export/iana",
     "export/linguist",
     "export/pronom",
+    "export/source_generator",
     "export/wikidata",
     "file_type",
 ]

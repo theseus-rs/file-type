@@ -4,9 +4,10 @@
 #![deny(clippy::unwrap_used)]
 
 use anyhow::Result;
-use file_type::format::{FileFormat, Source, SourceType};
+use file_type::format::{FileFormat, SourceType};
 use reqwest::Client;
 use serde_json::Value;
+use source_generator::Source;
 use std::env;
 use std::path::{Path, PathBuf};
 use std::time::Duration;

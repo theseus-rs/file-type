@@ -1,5 +1,4 @@
 use crate::format::regex::Regex;
-use crate::format::source::Source;
 use std::str::FromStr;
 
 /// The position type for a byte sequence
@@ -45,40 +44,5 @@ impl ByteSequence {
                 false
             }
         }
-    }
-}
-
-impl Source for ByteSequence {
-    fn to_source(&self) -> String {
-        let offset = match &self.offset {
-            Some(offset) => format!("Some({})", offset.to_source()),
-            None => "None".to_string(),
-        };
-
-        format!(
-            "ByteSequence {{ position_type: PositionType::{:?}, offset: {}, regex: {} }}",
-            self.position_type,
-            offset,
-            self.regex.to_source(),
-        )
-    }
-}
-
-#[cfg(test)]
-mod test {
-    use super::*;
-
-    #[test]
-    fn test_to_source() {
-        let regex = Regex::new("*").expect("Invalid regex");
-        let byte_sequence = ByteSequence {
-            position_type: PositionType::BOF,
-            offset: Some(0),
-            regex,
-        };
-        assert_eq!(
-            byte_sequence.to_source(),
-            "ByteSequence { position_type: PositionType::BOF, offset: Some(0), regex: Regex { tokens: &[Token::AnyWildcard] } }"
-        );
     }
 }
