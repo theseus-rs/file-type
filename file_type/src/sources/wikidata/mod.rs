@@ -1,5 +1,6 @@
 use crate::format::FileFormat;
 
+mod test_data;
 mod wikidata_100135637;
 mod wikidata_100136218;
 mod wikidata_100136955;

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<crickgrid>
+  <ci:crickinfo version="1" xmlns:ci="http://www.cricksoft.com/schemas/file/crickinfo.xsd">
+    <ci:targetapp name="Clicker" />
+    <ci:authorapp name="Clicker 5" version="
