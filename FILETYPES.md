@@ -1,4 +1,4 @@
-# File Types (18827)
+# File Types (18830)
 
 | Id | Name | Extensions | Media Types |
 | ---- | ---- | ----------- | ---------- |
@@ -2318,6 +2318,9 @@
 | wikidata/128693921 | BQN file | bqn |  |
 | linguist/330386870 | BQN | bqn |  |
 | wikidata/105858647 | Bradford Font (v2) | bf2 | application/octet-stream |
+| wikidata/132145897 | Braille Ready Format | brf |  |
+| wikidata/132146563 | BrailleBlaster XML File | bbx |  |
+| wikidata/132146755 | BrailleBlaster ZIP File | bbz |  |
 | wikidata/128693985 | Brainfuck file | bf | application/x-brainfuck |
 | linguist/38 | Brainfuck | b, bf | text/x-brainfuck |
 | wikidata/105858713 | BrainLED AlfaWave session | baw |  |

@@ -552,6 +552,7 @@ dependencies = [
  "anyhow",
  "file_type",
  "reqwest",
+ "source_generator",
  "tokio",
  "tracing",
  "tracing-subscriber",
@@ -637,6 +638,7 @@ dependencies = [
  "csv",
  "file_type",
  "reqwest",
+ "source_generator",
  "tokio",
  "tracing",
  "tracing-subscriber",
@@ -870,6 +872,7 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_yaml",
+ "source_generator",
  "tokio",
  "tracing",
  "tracing-subscriber",
@@ -1156,6 +1159,7 @@ dependencies = [
  "rayon",
  "reqwest",
  "serde",
+ "source_generator",
  "tracing",
  "tracing-subscriber",
 ]
@@ -1533,6 +1537,13 @@ checksum = "c970269d99b64e60ec3bd6ad27270092a5394c4e309314b18ae3fe575695fbe8"
 dependencies = [
  "libc",
  "windows-sys 0.52.0",
+]
+
+[[package]]
+name = "source_generator"
+version = "0.5.1"
+dependencies = [
+ "file_type",
 ]
 
 [[package]]
@@ -1994,6 +2005,7 @@ dependencies = [
  "reqwest",
  "serde",
  "serde_json",
+ "source_generator",
  "tokio",
  "tracing",
  "tracing-subscriber",

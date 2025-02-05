@@ -1,4 +1,3 @@
-use crate::format::source::Source;
 use crate::format::{ByteSequence, PositionType};
 
 /// An internal signature.
@@ -46,36 +45,5 @@ impl InternalSignature {
         self.byte_sequences
             .iter()
             .all(|byte_sequence| byte_sequence.is_match(bytes))
-    }
-}
-
-impl Source for InternalSignature {
-    fn to_source(&self) -> String {
-        format!(
-            "InternalSignature {{ byte_sequences: &[{}] }}",
-            self.byte_sequences
-                .iter()
-                .map(Source::to_source)
-                .collect::<Vec<String>>()
-                .join(", ")
-        )
-    }
-}
-
-#[cfg(test)]
-mod test {
-    use super::*;
-    use crate::format::ByteSequence;
-    use anyhow::Result;
-
-    #[test]
-    fn test_to_source() {
-        let internal_signature = InternalSignature {
-            byte_sequences: &[],
-        };
-        assert_eq!(
-            internal_signature.to_source(),
-            "InternalSignature { byte_sequences: &[] }"
-        );
     }
 }

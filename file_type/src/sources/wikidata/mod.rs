@@ -1,6 +1,5 @@
 use crate::format::FileFormat;
 
-mod test_data;
 mod wikidata_100135637;
 mod wikidata_100136218;
 mod wikidata_100136955;
@@ -9418,6 +9417,9 @@ mod wikidata_131861742;
 mod wikidata_131928771;
 mod wikidata_131994277;
 mod wikidata_131994390;
+mod wikidata_132145897;
+mod wikidata_132146563;
+mod wikidata_132146755;
 mod wikidata_1340077;
 mod wikidata_13422998;
 mod wikidata_13454995;
@@ -25317,4 +25319,7 @@ pub(crate) const FILE_FORMATS: &[&FileFormat] = &[
     &wikidata_131928771::WIKIDATA_131928771,
     &wikidata_131994277::WIKIDATA_131994277,
     &wikidata_131994390::WIKIDATA_131994390,
+    &wikidata_132145897::WIKIDATA_132145897,
+    &wikidata_132146563::WIKIDATA_132146563,
+    &wikidata_132146755::WIKIDATA_132146755,
 ];
