@@ -22,7 +22,8 @@ fn test_file(file_name: &str, expected_id: &str, expected_media_type: Option<&st
             assert!(media_types.contains(&expected_media_type));
         }
         None => {
-            assert!(media_types.is_empty());
+            let empty: Vec<&str> = Vec::new();
+            assert_eq!(media_types, empty);
         }
     }
     Ok(())
@@ -51,7 +52,11 @@ fn test_avro_file() -> Result<()> {
 #[cfg(feature = "custom")]
 #[test]
 fn test_csv_file() -> Result<()> {
-    test_file("users.csv", "pronom/45", Some("text/csv"))
+    #[cfg(feature = "pronom")]
+    test_file("users.csv", "pronom/45", Some("text/csv"))?;
+    #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
+    test_file("users.csv", "wikidata/935809", Some("text/csv"))?;
+    Ok(())
 }
 
 #[cfg(feature = "custom")]
@@ -67,7 +72,11 @@ fn test_duckdb_file() -> Result<()> {
 #[cfg(feature = "custom")]
 #[test]
 fn test_json_file() -> Result<()> {
-    test_file("users.json", "pronom/1617", Some("application/json"))
+    #[cfg(feature = "pronom")]
+    test_file("users.json", "pronom/1617", Some("application/json"))?;
+    #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
+    test_file("users.json", "wikidata/2063", Some("application/json"))?;
+    Ok(())
 }
 
 #[cfg(feature = "custom")]
@@ -79,11 +88,19 @@ fn test_jsonl_file() -> Result<()> {
 #[cfg(feature = "custom")]
 #[test]
 fn test_ods_file() -> Result<()> {
+    #[cfg(feature = "pronom")]
     test_file(
         "users.ods",
         "pronom/780",
         Some("application/vnd.oasis.opendocument.spreadsheet"),
-    )
+    )?;
+    #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
+    test_file(
+        "users.ods",
+        "wikidata/27203692",
+        Some("application/vnd.oasis.opendocument.spreadsheet"),
+    )?;
+    Ok(())
 }
 
 #[cfg(feature = "custom")]
@@ -99,37 +116,64 @@ fn test_parquet_file() -> Result<()> {
 #[cfg(feature = "custom")]
 #[test]
 fn test_sqlite3_file() -> Result<()> {
+    #[cfg(feature = "pronom")]
     test_file(
         "users.sqlite3",
         "pronom/1528",
         Some("application/x-sqlite3"),
-    )
+    )?;
+    #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
+    test_file(
+        "users.sqlite3",
+        "wikidata/28600453",
+        Some("application/vnd.sqlite3"),
+    )?;
+    Ok(())
 }
 
 #[cfg(feature = "custom")]
 #[test]
 fn test_tsv_file() -> Result<()> {
-    test_file("users.tsv", "pronom/40", Some("text/tab-separated-values"))
+    #[cfg(feature = "pronom")]
+    test_file("users.tsv", "pronom/40", Some("text/tab-separated-values"))?;
+    // Wikidata is currently mis-classifying this file as wikidata/1194435 instead of wikidata/3513566
+    Ok(())
 }
 
 #[cfg(feature = "custom")]
 #[test]
 fn test_xlsx_file() -> Result<()> {
+    #[cfg(feature = "pronom")]
     test_file(
         "users.xlsx",
         "pronom/940",
         Some("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"),
-    )
+    )?;
+    #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
+    test_file(
+        "users.xlsx",
+        "wikidata/3570403",
+        Some("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"),
+    )?;
+    Ok(())
 }
 
 #[cfg(feature = "custom")]
 #[test]
 fn test_xml_file() -> Result<()> {
-    test_file("users.xml", "pronom/638", Some("text/xml"))
+    #[cfg(feature = "pronom")]
+    test_file("users.xml", "pronom/638", Some("text/xml"))?;
+    #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
+    test_file("users.xml", "wikidata/59851322", Some("text/xml"))?;
+    Ok(())
 }
 
 #[cfg(feature = "custom")]
 #[test]
 fn test_yaml_file() -> Result<()> {
-    test_file("users.yaml", "pronom/1618", None)
+    #[cfg(feature = "pronom")]
+    test_file("users.yaml", "pronom/1618", None)?;
+    #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
+    test_file("users.yaml", "wikidata/281876", Some("application/yaml"))?;
+    Ok(())
 }

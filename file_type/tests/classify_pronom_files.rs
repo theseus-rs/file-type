@@ -1,18 +1,14 @@
-use anyhow::Result;
-use file_type::FileType;
-use std::fs;
-use std::path::PathBuf;
-
-const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
-
-fn data_dir() -> PathBuf {
-    PathBuf::from(CRATE_DIR)
+#[cfg(feature = "pronom")]
+fn data_dir() -> std::path::PathBuf {
+    let crate_dir = env!("CARGO_MANIFEST_DIR");
+    std::path::PathBuf::from(crate_dir)
         .join("..")
         .join("testdata")
         .join("pronom")
 }
 
-fn test_file(file_name: &str) -> Result<(String, &FileType)> {
+#[cfg(feature = "pronom")]
+fn test_file(file_name: &str) -> anyhow::Result<(String, &file_type::FileType)> {
     let data_dir = data_dir();
     let path = data_dir.join(file_name);
     let file_name = path
@@ -29,18 +25,18 @@ fn test_file(file_name: &str) -> Result<(String, &FileType)> {
         format!("{}/{}", parts[0], parts[1])
     };
 
-    let file_type = FileType::try_from_file_sync(path)?;
+    let file_type = file_type::FileType::try_from_file_sync(path)?;
     Ok((id, file_type))
 }
 
 #[cfg(feature = "pronom")]
 #[test]
-fn test_file_classification() -> Result<()> {
+fn test_file_classification() -> anyhow::Result<()> {
     let data_dir = data_dir();
     let mut passed_tests = 0;
     let mut errored_tests = 0;
 
-    for entry in fs::read_dir(data_dir)? {
+    for entry in std::fs::read_dir(data_dir)? {
         let path = entry?.path();
         if path.is_dir() {
             continue;

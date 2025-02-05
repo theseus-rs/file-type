@@ -348,6 +348,7 @@ pub(crate) fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<&'static Fil
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::format::SourceType;
     use std::path::PathBuf;
 
     const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
@@ -380,13 +381,26 @@ mod tests {
         assert!(media_types.contains_key("application/octet-stream"));
     }
 
+    #[cfg(feature = "pronom")]
     #[test]
-    fn test_from_id() {
-        let file_type = from_id("pronom/664").expect("file format");
-        assert_eq!(file_type.id(), "pronom/664");
-        assert_eq!(file_type.name(), "Portable Network Graphics");
-        assert_eq!(file_type.media_types(), vec!["image/png"]);
-        assert_eq!(file_type.extensions(), vec!["png"]);
+    fn test_from_id_pronom() {
+        let file_type = from_id("pronom/664").expect("file type not found");
+        assert_eq!(file_type.file_format().id, 664);
+        assert!(matches!(
+            file_type.file_format().source_type,
+            SourceType::Pronom
+        ));
+    }
+
+    #[cfg(feature = "wikidata")]
+    #[test]
+    fn test_from_id_wikidata() {
+        let file_type = from_id("wikidata/27229565").expect("file type not found");
+        assert_eq!(file_type.file_format().id, 27_229_565);
+        assert!(matches!(
+            file_type.file_format().source_type,
+            SourceType::Wikidata
+        ));
     }
 
     #[test]
@@ -414,21 +428,15 @@ mod tests {
 
     #[test]
     fn test_from_media_type() {
-        let file_types = from_media_type("text/markdown");
+        let file_types = from_media_type("image/png");
         let file_type = file_types.first().expect("file format");
-        assert_eq!(file_type.id(), "pronom/1959");
-        assert_eq!(file_type.name(), "Markdown");
-        assert_eq!(file_type.media_types(), vec!["text/markdown"]);
-        assert_eq!(file_type.extensions(), vec!["md", "markdown"]);
+        assert_eq!(file_type.extensions(), vec!["png"]);
     }
 
     #[test]
     fn test_from_bytes() {
         let value = b"\xCA\xFE\xBA\xBE".to_vec();
         let file_type = from_bytes(value.as_slice(), None);
-        assert_eq!(file_type.id(), "pronom/802");
-        assert_eq!(file_type.name(), "Java Class File");
-        assert_eq!(file_type.media_types(), Vec::<String>::new());
         assert_eq!(file_type.extensions(), vec!["class"]);
     }
 
@@ -439,8 +447,6 @@ mod tests {
         let file = tokio::fs::File::open(file_path).await?;
         let reader = tokio::io::BufReader::new(file);
         let file_type = try_from_reader(reader, None).await?;
-        assert_eq!(file_type.id(), "pronom/664");
-        assert_eq!(file_type.name(), "Portable Network Graphics");
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.extensions(), vec!["png"]);
         Ok(())
@@ -451,8 +457,6 @@ mod tests {
     async fn test_try_from_file() -> Result<()> {
         let file_path = test_file_path();
         let file_type = try_from_file(file_path).await?;
-        assert_eq!(file_type.id(), "pronom/664");
-        assert_eq!(file_type.name(), "Portable Network Graphics");
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.extensions(), vec!["png"]);
         Ok(())
@@ -464,8 +468,6 @@ mod tests {
         let file = std::fs::File::open(file_path)?;
         let reader = std::io::BufReader::new(file);
         let file_type = try_from_reader_sync(reader, None)?;
-        assert_eq!(file_type.id(), "pronom/664");
-        assert_eq!(file_type.name(), "Portable Network Graphics");
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.extensions(), vec!["png"]);
         Ok(())
@@ -475,15 +477,13 @@ mod tests {
     fn test_try_from_file_sync() -> Result<()> {
         let file_path = test_file_path();
         let file_type = try_from_file_sync(file_path)?;
-        assert_eq!(file_type.id(), "pronom/664");
-        assert_eq!(file_type.name(), "Portable Network Graphics");
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.extensions(), vec!["png"]);
         Ok(())
     }
 
-    #[test]
     #[cfg(feature = "pronom")]
+    #[test]
     fn test_cmp_file_types() {
         let pronom_654 = FileType::from_id("pronom/654").expect("file type not found");
         let pronom_1314 = FileType::from_id("pronom/1314").expect("file type not found");
@@ -497,6 +497,7 @@ mod tests {
         assert_eq!(file_types[2].id(), "pronom/654");
     }
 
+    #[cfg(feature = "pronom")]
     #[test]
     fn test_cmp_file_type_extensions() {
         let pronom_940 = FileType::from_id("pronom/940").expect("file type not found");

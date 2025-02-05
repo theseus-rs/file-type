@@ -28,8 +28,6 @@ Detect the file type from bytes:
 use file_type::FileType;
 
 let file_type = FileType::from_bytes(b"\xCA\xFE\xBA\xBE");
-assert_eq!(file_type.name(), "Java Class File");
-assert_eq!(file_type.media_types(), Vec::<String>::new());
 assert_eq!(file_type.extensions(), vec!["class"]);
 ```
 
@@ -42,8 +40,6 @@ use std::path::Path;
 async fn main() {
     let file_path = Path::new("image.png");
     let file_type = FileType::try_from_file(file_path).await.expect("file type not found");
-    assert_eq!(file_type.id(), "fmt/11");
-    assert_eq!(file_type.name(), "Portable Network Graphics");
     assert_eq!(file_type.extensions(), vec!["png"]);
     assert_eq!(file_type.media_types(), vec!["image/png"]);
 }
@@ -56,8 +52,6 @@ use std::path::Path;
 
 let file_path = Path::new("image.png");
 let file_type = FileType::try_from_file_sync(file_path).expect("file type not found");
-assert_eq!(file_type.id(), "fmt/11");
-assert_eq!(file_type.name(), "Portable Network Graphics");
 assert_eq!(file_type.extensions(), vec!["png"]);
 assert_eq!(file_type.media_types(), vec!["image/png"]);
 ```
