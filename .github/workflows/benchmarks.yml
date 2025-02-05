@@ -29,6 +29,9 @@ jobs:
       - name: Install benchmarking tools
         uses: bencherdev/bencher@main
 
+      - name: Install crate dependencies
+        run: brew install libmagic
+
       - name: Run benchmarks
         if: ${{ github.event_name == 'pull_request' }}
         env:
