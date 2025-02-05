@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1173754933: FileFormat = FileFormat {
     name: "adobe xfdf",
     extensions: &["xfdf"],
     media_types: &["application/vnd.adobe.xfdf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

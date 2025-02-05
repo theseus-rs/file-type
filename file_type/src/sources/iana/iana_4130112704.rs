@@ -6,6 +6,6 @@ pub(crate) const IANA_4130112704: FileFormat = FileFormat {
     name: "cbor-seq",
     extensions: &[],
     media_types: &["application/cbor-seq"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

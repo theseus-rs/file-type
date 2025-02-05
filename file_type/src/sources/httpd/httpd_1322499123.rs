@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1322499123: FileFormat = FileFormat {
     name: "xenc xml",
     extensions: &["xenc"],
     media_types: &["application/xenc+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

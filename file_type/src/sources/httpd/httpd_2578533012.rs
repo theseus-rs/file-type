@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2578533012: FileFormat = FileFormat {
     name: "kde kontour",
     extensions: &["kon"],
     media_types: &["application/vnd.kde.kontour"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

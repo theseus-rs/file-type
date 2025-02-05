@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131747923: FileFormat = FileFormat {
     id: 131_747_923,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131747923: FileFormat = FileFormat {
     name: "MNI polygonal surface mesh format",
     extensions: &["obj"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

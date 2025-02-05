@@ -6,6 +6,6 @@ pub(crate) const IANA_1185389084: FileFormat = FileFormat {
     name: "vnd.spotfire.dxp",
     extensions: &[],
     media_types: &["application/vnd.spotfire.dxp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

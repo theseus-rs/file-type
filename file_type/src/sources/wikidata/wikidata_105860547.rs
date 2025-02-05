@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105860547: FileFormat = FileFormat {
     id: 105_860_547,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105860547: FileFormat = FileFormat {
     name: "MicroTik RouterOS debugging / support dump",
     extensions: &["rif"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

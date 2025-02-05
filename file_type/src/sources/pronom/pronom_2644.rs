@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2644: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_2644: FileFormat = FileFormat {
     name: "JPEG 2000 Codestream",
     extensions: &["j2k", "jpc", "j2c"],
     media_types: &["image/jp2"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[
             ByteSequence {
                 position_type: PositionType::BOF,

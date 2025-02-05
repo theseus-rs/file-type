@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_329: FileFormat = FileFormat {
     name: "SCSS",
     extensions: &["scss"],
     media_types: &["text/x-scss"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

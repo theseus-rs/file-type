@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_98384424: FileFormat = FileFormat {
     name: "iCalendar",
     extensions: &["ical", "ics"],
     media_types: &["text/x-properties"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

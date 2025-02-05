@@ -6,6 +6,6 @@ pub(crate) const IANA_4105604214: FileFormat = FileFormat {
     name: "vnd.veraison.tsm-report+cbor",
     extensions: &[],
     media_types: &["application/vnd.veraison.tsm-report+cbor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

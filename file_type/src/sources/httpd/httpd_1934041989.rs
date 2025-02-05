@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1934041989: FileFormat = FileFormat {
     name: "ms xpsdocument",
     extensions: &["xps"],
     media_types: &["application/vnd.ms-xpsdocument"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

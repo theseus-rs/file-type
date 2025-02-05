@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_793969321: FileFormat = FileFormat {
     name: "Dhall",
     extensions: &["dhall"],
     media_types: &["text/x-haskell"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

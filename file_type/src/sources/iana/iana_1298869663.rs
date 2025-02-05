@@ -6,6 +6,6 @@ pub(crate) const IANA_1298869663: FileFormat = FileFormat {
     name: "vnd.think-cell.ppttc+json",
     extensions: &[],
     media_types: &["application/vnd.think-cell.ppttc+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

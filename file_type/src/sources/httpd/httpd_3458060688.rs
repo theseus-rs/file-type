@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3458060688: FileFormat = FileFormat {
     name: "winhlp",
     extensions: &["hlp"],
     media_types: &["application/winhlp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

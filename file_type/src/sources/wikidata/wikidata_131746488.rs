@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131746488: FileFormat = FileFormat {
     id: 131_746_488,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131746488: FileFormat = FileFormat {
     name: "Natron Project File",
     extensions: &["ntp"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

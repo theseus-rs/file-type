@@ -6,6 +6,6 @@ pub(crate) const IANA_3588544249: FileFormat = FileFormat {
     name: "express",
     extensions: &[],
     media_types: &["application/express"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

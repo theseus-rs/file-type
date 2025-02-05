@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3710687909: FileFormat = FileFormat {
     name: "crick clicker template",
     extensions: &["clkt"],
     media_types: &["application/vnd.crick.clicker.template"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

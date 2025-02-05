@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1: FileFormat = FileFormat {
     name: "ABAP",
     extensions: &["abap"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

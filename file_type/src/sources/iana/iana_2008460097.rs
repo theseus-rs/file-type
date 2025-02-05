@@ -6,6 +6,6 @@ pub(crate) const IANA_2008460097: FileFormat = FileFormat {
     name: "batch-SMTP",
     extensions: &[],
     media_types: &["application/batch-SMTP"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

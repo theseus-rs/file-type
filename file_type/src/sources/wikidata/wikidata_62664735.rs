@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_62664735: FileFormat = FileFormat {
     id: 62_664_735,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_62664735: FileFormat = FileFormat {
     name: "Wordperfect Secondary File, version 5.1 and 5.2",
     extensions: &["doc"],
     media_types: &["application/wordperfect5.1"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

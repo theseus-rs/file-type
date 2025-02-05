@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_364: FileFormat = FileFormat {
     name: "TLA",
     extensions: &["tla"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

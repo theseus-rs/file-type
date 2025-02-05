@@ -6,6 +6,6 @@ pub(crate) const IANA_495324254: FileFormat = FileFormat {
     name: "mpeg4-iod",
     extensions: &[],
     media_types: &["application/mpeg4-iod"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

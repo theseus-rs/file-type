@@ -6,6 +6,6 @@ pub(crate) const IANA_2078685981: FileFormat = FileFormat {
     name: "vnd.intertrust.nncp",
     extensions: &[],
     media_types: &["application/vnd.intertrust.nncp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

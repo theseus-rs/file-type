@@ -6,6 +6,6 @@ pub(crate) const IANA_1675095755: FileFormat = FileFormat {
     name: "3gpdash-qoe-report+xml",
     extensions: &[],
     media_types: &["application/3gpdash-qoe-report+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

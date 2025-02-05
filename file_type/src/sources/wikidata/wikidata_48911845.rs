@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_48911845: FileFormat = FileFormat {
     id: 48_911_845,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_48911845: FileFormat = FileFormat {
     name: "Hewlett Packard AdvanceWrite Text File",
     extensions: &["aw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

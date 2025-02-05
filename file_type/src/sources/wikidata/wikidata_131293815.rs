@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131293815: FileFormat = FileFormat {
     id: 131_293_815,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131293815: FileFormat = FileFormat {
     name: "Tera Term macro source code file",
     extensions: &["ttl"],
     media_types: &["text/x-teratermmacro"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

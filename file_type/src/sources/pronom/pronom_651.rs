@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_651: FileFormat = FileFormat {
@@ -9,8 +9,8 @@ pub(crate) const PRONOM_651: FileFormat = FileFormat {
     name: "Macromedia Flash",
     extensions: &["swf"],
     media_types: &["application/x-shockwave-flash"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[
                 ByteSequence {
                     position_type: PositionType::BOF,
@@ -28,7 +28,7 @@ pub(crate) const PRONOM_651: FileFormat = FileFormat {
                 },
             ],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

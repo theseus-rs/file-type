@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_18: FileFormat = FileFormat {
     name: "Apollo Guidance Computer",
     extensions: &["agc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

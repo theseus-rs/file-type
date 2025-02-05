@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2231888978: FileFormat = FileFormat {
     name: "gca compressed",
     extensions: &["gca"],
     media_types: &["application/x-gca-compressed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

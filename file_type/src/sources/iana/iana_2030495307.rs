@@ -6,6 +6,6 @@ pub(crate) const IANA_2030495307: FileFormat = FileFormat {
     name: "vnd.apple.installer+xml",
     extensions: &[],
     media_types: &["application/vnd.apple.installer+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

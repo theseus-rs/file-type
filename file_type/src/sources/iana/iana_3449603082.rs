@@ -6,6 +6,6 @@ pub(crate) const IANA_3449603082: FileFormat = FileFormat {
     name: "vnd.fujixerox.ART-EX",
     extensions: &[],
     media_types: &["application/vnd.fujixerox.ART-EX"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

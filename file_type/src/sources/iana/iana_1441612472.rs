@@ -6,6 +6,6 @@ pub(crate) const IANA_1441612472: FileFormat = FileFormat {
     name: "vnd.eszigno3+xml",
     extensions: &[],
     media_types: &["application/vnd.eszigno3+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

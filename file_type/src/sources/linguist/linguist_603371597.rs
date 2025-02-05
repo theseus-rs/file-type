@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_603371597: FileFormat = FileFormat {
     name: "V",
     extensions: &["v"],
     media_types: &["text/x-go"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

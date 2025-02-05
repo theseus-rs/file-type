@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_276: FileFormat = FileFormat {
     name: "Pan",
     extensions: &["pan"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

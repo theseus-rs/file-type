@@ -6,6 +6,6 @@ pub(crate) const IANA_1786091475: FileFormat = FileFormat {
     name: "CelB",
     extensions: &[],
     media_types: &["video/CelB"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

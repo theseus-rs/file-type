@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131620885: FileFormat = FileFormat {
     id: 131_620_885,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131620885: FileFormat = FileFormat {
     name: "MotionFX motion definition file",
     extensions: &["cfg"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

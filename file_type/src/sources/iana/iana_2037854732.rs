@@ -6,6 +6,6 @@ pub(crate) const IANA_2037854732: FileFormat = FileFormat {
     name: "prs.xsf+xml",
     extensions: &[],
     media_types: &["application/prs.xsf+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2720852336: FileFormat = FileFormat {
     name: "vnd.radgamettools.bink",
     extensions: &[],
     media_types: &["video/vnd.radgamettools.bink"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_508563686: FileFormat = FileFormat {
     name: "Vim Help File",
     extensions: &["txt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

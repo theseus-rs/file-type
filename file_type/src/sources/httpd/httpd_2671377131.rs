@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2671377131: FileFormat = FileFormat {
     name: "smart teacher",
     extensions: &["teacher"],
     media_types: &["application/vnd.smart.teacher"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

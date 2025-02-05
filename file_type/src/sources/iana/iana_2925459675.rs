@@ -6,6 +6,6 @@ pub(crate) const IANA_2925459675: FileFormat = FileFormat {
     name: "pkix-attr-cert",
     extensions: &[],
     media_types: &["application/pkix-attr-cert"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

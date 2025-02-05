@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125704051: FileFormat = FileFormat {
     id: 125_704_051,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125704051: FileFormat = FileFormat {
     name: "StarDraw 2.0 file",
     extensions: &["sgv"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

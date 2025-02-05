@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_839112914: FileFormat = FileFormat {
     name: "Polar",
     extensions: &["polar"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

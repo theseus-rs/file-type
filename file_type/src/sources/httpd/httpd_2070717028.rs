@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2070717028: FileFormat = FileFormat {
     name: "javascript",
     extensions: &["js", "mjs"],
     media_types: &["text/javascript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

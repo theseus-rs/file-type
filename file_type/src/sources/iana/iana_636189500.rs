@@ -6,6 +6,6 @@ pub(crate) const IANA_636189500: FileFormat = FileFormat {
     name: "vnd.apothekende.reservation+json",
     extensions: &[],
     media_types: &["application/vnd.apothekende.reservation+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

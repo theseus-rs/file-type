@@ -6,6 +6,6 @@ pub(crate) const IANA_3057648254: FileFormat = FileFormat {
     name: "vnd.contact.cmsg",
     extensions: &[],
     media_types: &["application/vnd.contact.cmsg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

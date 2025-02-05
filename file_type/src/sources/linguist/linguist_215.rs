@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_215: FileFormat = FileFormat {
     name: "M4",
     extensions: &["m4", "mc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

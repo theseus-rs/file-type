@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_392: FileFormat = FileFormat {
     name: "Wavefront Material",
     extensions: &["mtl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

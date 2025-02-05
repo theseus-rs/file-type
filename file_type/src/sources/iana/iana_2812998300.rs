@@ -6,6 +6,6 @@ pub(crate) const IANA_2812998300: FileFormat = FileFormat {
     name: "x-x509-ca-cert",
     extensions: &[],
     media_types: &["application/x-x509-ca-cert"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

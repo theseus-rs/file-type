@@ -6,6 +6,6 @@ pub(crate) const IANA_792947184: FileFormat = FileFormat {
     name: "vrml",
     extensions: &[],
     media_types: &["model/vrml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

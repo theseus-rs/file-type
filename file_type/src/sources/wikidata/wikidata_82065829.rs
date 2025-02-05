@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_82065829: FileFormat = FileFormat {
     id: 82_065_829,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_82065829: FileFormat = FileFormat {
     name: "ChiWriter high resolution screen font",
     extensions: &["eft"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

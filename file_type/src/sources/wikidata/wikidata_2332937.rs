@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_2332937: FileFormat = FileFormat {
     id: 2_332_937,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_2332937: FileFormat = FileFormat {
     name: "Windows Media Player Playlist",
     extensions: &["wpl"],
     media_types: &["application/vnd.ms-wpl"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

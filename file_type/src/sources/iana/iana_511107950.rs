@@ -6,6 +6,6 @@ pub(crate) const IANA_511107950: FileFormat = FileFormat {
     name: "vnd.nearst.inv+json",
     extensions: &[],
     media_types: &["application/vnd.nearst.inv+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

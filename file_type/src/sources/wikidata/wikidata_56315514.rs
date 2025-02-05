@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_56315514: FileFormat = FileFormat {
     id: 56_315_514,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_56315514: FileFormat = FileFormat {
     name: "UML diagram",
     extensions: &["uml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

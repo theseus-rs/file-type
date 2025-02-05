@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_99: FileFormat = FileFormat {
     name: "Eiffel",
     extensions: &["e"],
     media_types: &["text/x-eiffel"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

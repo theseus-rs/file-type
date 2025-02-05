@@ -6,6 +6,6 @@ pub(crate) const IANA_3830143595: FileFormat = FileFormat {
     name: "yaml",
     extensions: &[],
     media_types: &["application/yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

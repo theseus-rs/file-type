@@ -6,6 +6,6 @@ pub(crate) const IANA_1080843780: FileFormat = FileFormat {
     name: "vnd.wolfram.mathematica",
     extensions: &[],
     media_types: &["application/vnd.wolfram.mathematica"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

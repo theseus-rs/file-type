@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_426: FileFormat = FileFormat {
     name: "MQL4",
     extensions: &["mq4", "mqh"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

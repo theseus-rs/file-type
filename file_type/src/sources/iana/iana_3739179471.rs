@@ -6,6 +6,6 @@ pub(crate) const IANA_3739179471: FileFormat = FileFormat {
     name: "dskpp+xml",
     extensions: &[],
     media_types: &["application/dskpp+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

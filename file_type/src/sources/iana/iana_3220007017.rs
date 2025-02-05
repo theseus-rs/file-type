@@ -6,6 +6,6 @@ pub(crate) const IANA_3220007017: FileFormat = FileFormat {
     name: "pointer",
     extensions: &[],
     media_types: &["video/pointer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

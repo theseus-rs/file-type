@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_97358117: FileFormat = FileFormat {
     name: "Futhark",
     extensions: &["fut"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

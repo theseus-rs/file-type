@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_40: FileFormat = FileFormat {
     name: "Zeek",
     extensions: &["bro", "zeek"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2449335360: FileFormat = FileFormat {
     name: "kinar",
     extensions: &["kne", "knp"],
     media_types: &["application/vnd.kinar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

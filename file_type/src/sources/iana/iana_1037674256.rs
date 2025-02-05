@@ -6,6 +6,6 @@ pub(crate) const IANA_1037674256: FileFormat = FileFormat {
     name: "vnd.oma.poc.invocation-descriptor+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.poc.invocation-descriptor+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

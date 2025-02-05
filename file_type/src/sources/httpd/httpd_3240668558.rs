@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3240668558: FileFormat = FileFormat {
     name: "spotfire sfs",
     extensions: &["sfs"],
     media_types: &["application/vnd.spotfire.sfs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

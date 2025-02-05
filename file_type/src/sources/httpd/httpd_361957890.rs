@@ -6,6 +6,6 @@ pub(crate) const HTTPD_361957890: FileFormat = FileFormat {
     name: "syncml dm wbxml",
     extensions: &["bdm"],
     media_types: &["application/vnd.syncml.dm+wbxml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

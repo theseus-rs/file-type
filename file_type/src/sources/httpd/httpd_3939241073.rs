@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3939241073: FileFormat = FileFormat {
     name: "lotus wordpro",
     extensions: &["lwp"],
     media_types: &["application/vnd.lotus-wordpro"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

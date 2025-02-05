@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_430: FileFormat = FileFormat {
     name: "EBNF",
     extensions: &["ebnf"],
     media_types: &["text/x-ebnf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

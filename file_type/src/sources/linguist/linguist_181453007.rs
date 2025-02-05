@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_181453007: FileFormat = FileFormat {
     name: "MoonBit",
     extensions: &["mbt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

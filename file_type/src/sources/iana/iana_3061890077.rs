@@ -6,6 +6,6 @@ pub(crate) const IANA_3061890077: FileFormat = FileFormat {
     name: "vnd.xarin.cpj",
     extensions: &[],
     media_types: &["application/vnd.xarin.cpj"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

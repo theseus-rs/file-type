@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105858536: FileFormat = FileFormat {
     id: 105_858_536,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105858536: FileFormat = FileFormat {
     name: "EPOC/Symbian exported MultiBitMap",
     extensions: &["mbm"],
     media_types: &["image/x-epoc-mbm"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

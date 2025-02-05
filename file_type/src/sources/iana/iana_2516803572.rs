@@ -6,6 +6,6 @@ pub(crate) const IANA_2516803572: FileFormat = FileFormat {
     name: "vnd.etsi.asic-s+zip",
     extensions: &[],
     media_types: &["application/vnd.etsi.asic-s+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

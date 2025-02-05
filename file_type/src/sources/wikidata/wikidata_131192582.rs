@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131192582: FileFormat = FileFormat {
     id: 131_192_582,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131192582: FileFormat = FileFormat {
     name: "Uxntal source code file",
     extensions: &["tal"],
     media_types: &["text/x-uxntal"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

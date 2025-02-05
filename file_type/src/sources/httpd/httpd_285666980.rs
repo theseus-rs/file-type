@@ -6,6 +6,6 @@ pub(crate) const HTTPD_285666980: FileFormat = FileFormat {
     name: "glulx",
     extensions: &["ulx"],
     media_types: &["application/x-glulx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

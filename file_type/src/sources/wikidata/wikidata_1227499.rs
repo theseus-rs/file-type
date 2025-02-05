@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1227499: FileFormat = FileFormat {
     id: 1_227_499,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_1227499: FileFormat = FileFormat {
     name: "Direct Stream Digital",
     extensions: &["dsf"],
     media_types: &["audio/x-dsf"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

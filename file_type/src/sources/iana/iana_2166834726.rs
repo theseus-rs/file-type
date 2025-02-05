@@ -6,6 +6,6 @@ pub(crate) const IANA_2166834726: FileFormat = FileFormat {
     name: "sip",
     extensions: &[],
     media_types: &["message/sip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

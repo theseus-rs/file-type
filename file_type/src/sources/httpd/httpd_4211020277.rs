@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4211020277: FileFormat = FileFormat {
     name: "ms wma",
     extensions: &["wma"],
     media_types: &["audio/x-ms-wma"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

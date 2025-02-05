@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_527438264: FileFormat = FileFormat {
     name: "Debian Package Control File",
     extensions: &["dsc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

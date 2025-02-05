@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_270: FileFormat = FileFormat {
     name: "Oz",
     extensions: &["oz"],
     media_types: &["text/x-oz"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

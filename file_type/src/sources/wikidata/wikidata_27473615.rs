@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27473615: FileFormat = FileFormat {
     id: 27_473_615,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27473615: FileFormat = FileFormat {
     name: "Band Interleaved by Line Image File",
     extensions: &["bil"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_61984319: FileFormat = FileFormat {
     id: 61_984_319,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_61984319: FileFormat = FileFormat {
     name: "Microsoft Visual FoxPro Class Library",
     extensions: &["vcx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

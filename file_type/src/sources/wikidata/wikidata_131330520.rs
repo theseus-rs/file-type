@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131330520: FileFormat = FileFormat {
     id: 131_330_520,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131330520: FileFormat = FileFormat {
     name: "Typographic Number Theory file format",
     extensions: &["tnt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

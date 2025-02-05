@@ -6,6 +6,6 @@ pub(crate) const IANA_1428508957: FileFormat = FileFormat {
     name: "3gpp2",
     extensions: &[],
     media_types: &["audio/3gpp2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

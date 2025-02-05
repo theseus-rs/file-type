@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_29944575: FileFormat = FileFormat {
     id: 29_944_575,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_29944575: FileFormat = FileFormat {
     name: "OpenOffice Calc template, version 1.0",
     extensions: &["stc"],
     media_types: &["application/vnd.sun.xml.calc.template"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

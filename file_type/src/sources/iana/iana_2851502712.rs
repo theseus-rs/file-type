@@ -6,6 +6,6 @@ pub(crate) const IANA_2851502712: FileFormat = FileFormat {
     name: "vnd.ruckus.download",
     extensions: &[],
     media_types: &["application/vnd.ruckus.download"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

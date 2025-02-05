@@ -6,6 +6,6 @@ pub(crate) const IANA_1406852421: FileFormat = FileFormat {
     name: "vnd.opengex",
     extensions: &[],
     media_types: &["model/vnd.opengex"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

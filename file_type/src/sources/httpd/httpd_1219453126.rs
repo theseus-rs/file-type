@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1219453126: FileFormat = FileFormat {
     name: "dart",
     extensions: &["dart"],
     media_types: &["application/vnd.dart"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

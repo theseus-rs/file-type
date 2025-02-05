@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105855404: FileFormat = FileFormat {
     id: 105_855_404,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105855404: FileFormat = FileFormat {
     name: "foobar2000 component",
     extensions: &["fb2k-component"],
     media_types: &["application/zip"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

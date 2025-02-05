@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3279796176: FileFormat = FileFormat {
     name: "oxps",
     extensions: &["oxps"],
     media_types: &["application/oxps"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

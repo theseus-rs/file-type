@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_110226235: FileFormat = FileFormat {
     id: 110_226_235,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_110226235: FileFormat = FileFormat {
     name: "NeoDesk Icon File, version 3",
     extensions: &["nic"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

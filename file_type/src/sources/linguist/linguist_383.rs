@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_383: FileFormat = FileFormat {
     name: "UrWeb",
     extensions: &["ur", "urs"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3337385297: FileFormat = FileFormat {
     name: "timestamped-data",
     extensions: &[],
     media_types: &["application/timestamped-data"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1677: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_1677: FileFormat = FileFormat {
     name: "Notation3",
     extensions: &["n3"],
     media_types: &["text/n3"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

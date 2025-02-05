@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2066780158: FileFormat = FileFormat {
     name: "cml",
     extensions: &["cml"],
     media_types: &["chemical/x-cml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

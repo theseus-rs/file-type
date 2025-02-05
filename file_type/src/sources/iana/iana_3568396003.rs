@@ -6,6 +6,6 @@ pub(crate) const IANA_3568396003: FileFormat = FileFormat {
     name: "vnd.coffeescript",
     extensions: &[],
     media_types: &["application/vnd.coffeescript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

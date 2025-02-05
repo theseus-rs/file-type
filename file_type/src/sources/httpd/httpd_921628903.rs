@@ -6,6 +6,6 @@ pub(crate) const HTTPD_921628903: FileFormat = FileFormat {
     name: "ms works",
     extensions: &["wps", "wks", "wcm", "wdb"],
     media_types: &["application/vnd.ms-works"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

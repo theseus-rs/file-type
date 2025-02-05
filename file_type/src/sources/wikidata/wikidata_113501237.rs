@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_113501237: FileFormat = FileFormat {
     id: 113_501_237,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_113501237: FileFormat = FileFormat {
     name: "Time Stamp Token",
     extensions: &["tst"],
     media_types: &["application/vnd.etsi.timestamp-token"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

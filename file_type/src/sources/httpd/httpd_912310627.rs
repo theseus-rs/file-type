@@ -6,6 +6,6 @@ pub(crate) const HTTPD_912310627: FileFormat = FileFormat {
     name: "cmdf",
     extensions: &["cmdf"],
     media_types: &["chemical/x-cmdf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

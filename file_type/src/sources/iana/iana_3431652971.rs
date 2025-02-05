@@ -6,6 +6,6 @@ pub(crate) const IANA_3431652971: FileFormat = FileFormat {
     name: "vnd.nuera.ecelp7470",
     extensions: &[],
     media_types: &["audio/vnd.nuera.ecelp7470"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

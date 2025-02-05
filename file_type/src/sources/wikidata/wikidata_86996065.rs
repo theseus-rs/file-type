@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_86996065: FileFormat = FileFormat {
     id: 86_996_065,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_86996065: FileFormat = FileFormat {
     name: "PaperPort MAX 5-7",
     extensions: &["max"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

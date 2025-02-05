@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_79242714: FileFormat = FileFormat {
     id: 79_242_714,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_79242714: FileFormat = FileFormat {
     name: "Lotus Approach Database index",
     extensions: &["adx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

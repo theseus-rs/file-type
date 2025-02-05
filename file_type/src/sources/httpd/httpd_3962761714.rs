@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3962761714: FileFormat = FileFormat {
     name: "osgeo mapguide package",
     extensions: &["mgp"],
     media_types: &["application/vnd.osgeo.mapguide.package"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1585678573: FileFormat = FileFormat {
     name: "moss-keys",
     extensions: &[],
     media_types: &["application/moss-keys"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

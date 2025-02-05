@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2652912783: FileFormat = FileFormat {
     name: "jsonml json",
     extensions: &["jsonml"],
     media_types: &["application/jsonml+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

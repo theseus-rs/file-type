@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3280513078: FileFormat = FileFormat {
     name: "turtle",
     extensions: &["ttl"],
     media_types: &["text/turtle"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105855526: FileFormat = FileFormat {
     id: 105_855_526,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105855526: FileFormat = FileFormat {
     name: "6502 binary relocation format (v1)",
     extensions: &["o65"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

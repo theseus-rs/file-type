@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3932157629: FileFormat = FileFormat {
     name: "font tdpfr",
     extensions: &["pfr"],
     media_types: &["application/font-tdpfr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

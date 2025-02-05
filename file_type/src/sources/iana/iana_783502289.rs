@@ -6,6 +6,6 @@ pub(crate) const IANA_783502289: FileFormat = FileFormat {
     name: "index.cmd",
     extensions: &[],
     media_types: &["application/index.cmd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

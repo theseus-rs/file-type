@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1308395743: FileFormat = FileFormat {
     name: "basic",
     extensions: &["au", "snd"],
     media_types: &["audio/basic"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

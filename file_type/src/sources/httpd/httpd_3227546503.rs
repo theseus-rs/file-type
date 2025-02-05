@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3227546503: FileFormat = FileFormat {
     name: "shockwave flash",
     extensions: &["swf"],
     media_types: &["application/x-shockwave-flash"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

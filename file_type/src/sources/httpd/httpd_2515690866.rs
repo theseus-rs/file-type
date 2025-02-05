@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2515690866: FileFormat = FileFormat {
     name: "olpc sugar",
     extensions: &["xo"],
     media_types: &["application/vnd.olpc-sugar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

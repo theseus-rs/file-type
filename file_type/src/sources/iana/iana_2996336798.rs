@@ -6,6 +6,6 @@ pub(crate) const IANA_2996336798: FileFormat = FileFormat {
     name: "vnd.lotus-screencam",
     extensions: &[],
     media_types: &["application/vnd.lotus-screencam"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

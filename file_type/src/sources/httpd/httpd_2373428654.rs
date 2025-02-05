@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2373428654: FileFormat = FileFormat {
     name: "xfdl",
     extensions: &["xfdl"],
     media_types: &["application/vnd.xfdl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

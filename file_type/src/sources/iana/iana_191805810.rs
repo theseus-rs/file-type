@@ -6,6 +6,6 @@ pub(crate) const IANA_191805810: FileFormat = FileFormat {
     name: "vnd.banana-accounting",
     extensions: &[],
     media_types: &["application/vnd.banana-accounting"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

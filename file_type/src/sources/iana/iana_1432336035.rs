@@ -6,6 +6,6 @@ pub(crate) const IANA_1432336035: FileFormat = FileFormat {
     name: "lpf+zip",
     extensions: &[],
     media_types: &["application/lpf+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

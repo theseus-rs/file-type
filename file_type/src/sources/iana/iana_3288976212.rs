@@ -6,6 +6,6 @@ pub(crate) const IANA_3288976212: FileFormat = FileFormat {
     name: "vnd.pmi.widget",
     extensions: &[],
     media_types: &["application/vnd.pmi.widget"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

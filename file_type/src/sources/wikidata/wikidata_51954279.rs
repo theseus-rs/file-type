@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_51954279: FileFormat = FileFormat {
     id: 51_954_279,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_51954279: FileFormat = FileFormat {
     name: "Autodesk Animator CEL File Format",
     extensions: &["cel"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

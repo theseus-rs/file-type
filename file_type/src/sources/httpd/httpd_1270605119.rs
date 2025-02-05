@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1270605119: FileFormat = FileFormat {
     name: "stepmania stepchart",
     extensions: &["sm"],
     media_types: &["application/vnd.stepmania.stepchart"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

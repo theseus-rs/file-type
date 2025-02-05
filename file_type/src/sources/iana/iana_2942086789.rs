@@ -6,6 +6,6 @@ pub(crate) const IANA_2942086789: FileFormat = FileFormat {
     name: "prs.pti",
     extensions: &[],
     media_types: &["image/prs.pti"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

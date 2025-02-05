@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130271417: FileFormat = FileFormat {
     id: 130_271_417,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130271417: FileFormat = FileFormat {
     name: "Mako file format",
     extensions: &["mao"],
     media_types: &["application/x-mako"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

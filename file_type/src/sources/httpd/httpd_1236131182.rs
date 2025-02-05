@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1236131182: FileFormat = FileFormat {
     name: "joost joda archive",
     extensions: &["joda"],
     media_types: &["application/vnd.joost.joda-archive"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

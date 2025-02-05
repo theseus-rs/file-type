@@ -6,6 +6,6 @@ pub(crate) const IANA_2049626357: FileFormat = FileFormat {
     name: "vnd.shp",
     extensions: &[],
     media_types: &["application/vnd.shp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2213303567: FileFormat = FileFormat {
     name: "openxmlformats officedocument spreadsheetml template",
     extensions: &["xltx"],
     media_types: &["application/vnd.openxmlformats-officedocument.spreadsheetml.template"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

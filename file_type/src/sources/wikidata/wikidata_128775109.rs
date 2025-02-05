@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_128775109: FileFormat = FileFormat {
     id: 128_775_109,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_128775109: FileFormat = FileFormat {
     name: "Component Pascal source code file",
     extensions: &["cp"],
     media_types: &["text/x-component-pascal"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

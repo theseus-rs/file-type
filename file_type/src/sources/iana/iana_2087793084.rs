@@ -6,6 +6,6 @@ pub(crate) const IANA_2087793084: FileFormat = FileFormat {
     name: "vnd.vtu",
     extensions: &[],
     media_types: &["model/vnd.vtu"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1476854186: FileFormat = FileFormat {
     name: "ms powerpoint template macroenabled 12",
     extensions: &["potm"],
     media_types: &["application/vnd.ms-powerpoint.template.macroenabled.12"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

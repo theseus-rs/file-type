@@ -6,6 +6,6 @@ pub(crate) const IANA_3921585630: FileFormat = FileFormat {
     name: "vnd.mpegurl",
     extensions: &[],
     media_types: &["video/vnd.mpegurl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

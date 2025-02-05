@@ -6,6 +6,6 @@ pub(crate) const IANA_1553098306: FileFormat = FileFormat {
     name: "vnd.leap+json",
     extensions: &[],
     media_types: &["application/vnd.leap+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

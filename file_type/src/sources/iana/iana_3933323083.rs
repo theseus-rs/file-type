@@ -6,6 +6,6 @@ pub(crate) const IANA_3933323083: FileFormat = FileFormat {
     name: "1d-interleaved-parityfec",
     extensions: &[],
     media_types: &["audio/1d-interleaved-parityfec"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

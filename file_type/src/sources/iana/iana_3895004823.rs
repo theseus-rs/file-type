@@ -6,6 +6,6 @@ pub(crate) const IANA_3895004823: FileFormat = FileFormat {
     name: "AMR-WB",
     extensions: &[],
     media_types: &["audio/AMR-WB"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

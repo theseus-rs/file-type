@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_122731255: FileFormat = FileFormat {
     id: 122_731_255,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_122731255: FileFormat = FileFormat {
     name: "NCR G4 file format",
     extensions: &["ncr"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

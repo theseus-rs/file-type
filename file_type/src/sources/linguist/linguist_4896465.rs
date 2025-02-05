@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_4896465: FileFormat = FileFormat {
     name: "MiniYAML",
     extensions: &["yaml", "yml"],
     media_types: &["text/x-yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1952: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1952: FileFormat = FileFormat {
     name: "VectorWorks Plugin or Script",
     extensions: &["vso", "vst", "vsm"],
     media_types: &["application/vnd.vectorworks"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

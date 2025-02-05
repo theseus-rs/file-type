@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2590679499: FileFormat = FileFormat {
     name: "xm",
     extensions: &["xm"],
     media_types: &["audio/xm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

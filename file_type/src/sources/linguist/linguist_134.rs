@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_134: FileFormat = FileFormat {
     name: "Gosu",
     extensions: &["gs", "gst", "gsx", "vark"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

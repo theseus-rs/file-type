@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_685022663: FileFormat = FileFormat {
     name: "NPM Config",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

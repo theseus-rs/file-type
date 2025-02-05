@@ -6,6 +6,6 @@ pub(crate) const IANA_4246575942: FileFormat = FileFormat {
     name: "vnd.ms-playready.media.pyv",
     extensions: &[],
     media_types: &["video/vnd.ms-playready.media.pyv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

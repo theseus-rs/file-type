@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_85: FileFormat = FileFormat {
     name: "DTrace",
     extensions: &["d"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_407996372: FileFormat = FileFormat {
     name: "Cloud Firestore Security Rules",
     extensions: &[],
     media_types: &["text/css"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1396309803: FileFormat = FileFormat {
     name: "vnd.hhe.lesson-player",
     extensions: &[],
     media_types: &["application/vnd.hhe.lesson-player"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_124843583: FileFormat = FileFormat {
     id: 124_843_583,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_124843583: FileFormat = FileFormat {
     name: "XTiger template",
     extensions: &["xtd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

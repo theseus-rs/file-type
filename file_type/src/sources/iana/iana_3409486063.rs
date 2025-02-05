@@ -6,6 +6,6 @@ pub(crate) const IANA_3409486063: FileFormat = FileFormat {
     name: "vnd.dcmp+xml",
     extensions: &[],
     media_types: &["application/vnd.dcmp+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

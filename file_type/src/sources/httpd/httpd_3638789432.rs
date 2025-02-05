@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3638789432: FileFormat = FileFormat {
     name: "anser web funds transfer initiation",
     extensions: &["fti"],
     media_types: &["application/vnd.anser-web-funds-transfer-initiation"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

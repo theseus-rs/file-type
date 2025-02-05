@@ -6,6 +6,6 @@ pub(crate) const IANA_403771798: FileFormat = FileFormat {
     name: "oblivious-dns-message",
     extensions: &[],
     media_types: &["application/oblivious-dns-message"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

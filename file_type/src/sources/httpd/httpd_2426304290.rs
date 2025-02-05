@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2426304290: FileFormat = FileFormat {
     name: "nokia n gage data",
     extensions: &["ngdat"],
     media_types: &["application/vnd.nokia.n-gage.data"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

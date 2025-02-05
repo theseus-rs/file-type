@@ -6,6 +6,6 @@ pub(crate) const IANA_1204394635: FileFormat = FileFormat {
     name: "vnd.ms-fontobject",
     extensions: &[],
     media_types: &["application/vnd.ms-fontobject"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

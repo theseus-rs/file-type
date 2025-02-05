@@ -6,6 +6,6 @@ pub(crate) const HTTPD_430685397: FileFormat = FileFormat {
     name: "apple diskimage",
     extensions: &["dmg"],
     media_types: &["application/x-apple-diskimage"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

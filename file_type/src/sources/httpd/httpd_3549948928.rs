@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3549948928: FileFormat = FileFormat {
     name: "pls xml",
     extensions: &["pls"],
     media_types: &["application/pls+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3490406699: FileFormat = FileFormat {
     name: "signed",
     extensions: &[],
     media_types: &["multipart/signed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

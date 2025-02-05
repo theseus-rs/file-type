@@ -6,6 +6,6 @@ pub(crate) const IANA_1560688967: FileFormat = FileFormat {
     name: "vnd.japannet-verification-wakeup",
     extensions: &[],
     media_types: &["application/vnd.japannet-verification-wakeup"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3134068814: FileFormat = FileFormat {
     name: "sv4crc",
     extensions: &["sv4crc"],
     media_types: &["application/x-sv4crc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

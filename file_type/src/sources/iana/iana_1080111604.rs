@@ -6,6 +6,6 @@ pub(crate) const IANA_1080111604: FileFormat = FileFormat {
     name: "vnd.otps.ct-kip+xml",
     extensions: &[],
     media_types: &["application/vnd.otps.ct-kip+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4077824776: FileFormat = FileFormat {
     name: "commonspace",
     extensions: &["csp"],
     media_types: &["application/vnd.commonspace"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

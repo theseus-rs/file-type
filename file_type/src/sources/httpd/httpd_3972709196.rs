@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3972709196: FileFormat = FileFormat {
     name: "adobe xdp xml",
     extensions: &["xdp"],
     media_types: &["application/vnd.adobe.xdp+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

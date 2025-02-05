@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105863395: FileFormat = FileFormat {
     id: 105_863_395,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105863395: FileFormat = FileFormat {
     name: "Standard 4-channel Amiga module",
     extensions: &["mod"],
     media_types: &["audio/mod"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

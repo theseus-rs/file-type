@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_46: FileFormat = FileFormat {
     name: "CLIPS",
     extensions: &["clp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

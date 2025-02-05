@@ -6,6 +6,6 @@ pub(crate) const HTTPD_501733551: FileFormat = FileFormat {
     name: "svd",
     extensions: &["svd"],
     media_types: &["application/vnd.svd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

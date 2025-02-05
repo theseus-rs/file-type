@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3191008066: FileFormat = FileFormat {
     name: "shana informed formdata",
     extensions: &["ifm"],
     media_types: &["application/vnd.shana.informed.formdata"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

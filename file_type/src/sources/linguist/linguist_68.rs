@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_68: FileFormat = FileFormat {
     name: "Cool",
     extensions: &["cl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

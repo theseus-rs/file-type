@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3709208966: FileFormat = FileFormat {
     name: "dece pd",
     extensions: &["uvp", "uvvp"],
     media_types: &["video/vnd.dece.pd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

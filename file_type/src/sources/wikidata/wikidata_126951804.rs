@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_126951804: FileFormat = FileFormat {
     id: 126_951_804,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_126951804: FileFormat = FileFormat {
     name: "Prolog source code file",
     extensions: &["ecl", "pl", "pro", "prolog"],
     media_types: &["text/x-prolog"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

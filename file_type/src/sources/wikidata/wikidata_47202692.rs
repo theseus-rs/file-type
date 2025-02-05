@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_47202692: FileFormat = FileFormat {
     id: 47_202_692,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_47202692: FileFormat = FileFormat {
     name: "AppleWorks Database file format version 6",
     extensions: &["cwk"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

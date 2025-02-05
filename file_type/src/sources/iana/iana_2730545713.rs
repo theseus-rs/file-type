@@ -6,6 +6,6 @@ pub(crate) const IANA_2730545713: FileFormat = FileFormat {
     name: "merge-patch+json",
     extensions: &[],
     media_types: &["application/merge-patch+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

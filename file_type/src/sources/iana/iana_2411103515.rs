@@ -6,6 +6,6 @@ pub(crate) const IANA_2411103515: FileFormat = FileFormat {
     name: "vnd.syft+json",
     extensions: &[],
     media_types: &["application/vnd.syft+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

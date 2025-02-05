@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_59716426: FileFormat = FileFormat {
     name: "KerboScript",
     extensions: &["ks"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

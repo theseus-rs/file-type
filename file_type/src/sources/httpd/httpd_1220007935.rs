@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1220007935: FileFormat = FileFormat {
     name: "richtext",
     extensions: &["rtx"],
     media_types: &["text/richtext"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_79411734: FileFormat = FileFormat {
     name: "svg xml",
     extensions: &["svg", "svgz"],
     media_types: &["image/svg+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

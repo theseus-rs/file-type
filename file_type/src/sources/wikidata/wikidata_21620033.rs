@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_21620033: FileFormat = FileFormat {
     id: 21_620_033,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_21620033: FileFormat = FileFormat {
     name: "XDMF",
     extensions: &["xdmf", "xmf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

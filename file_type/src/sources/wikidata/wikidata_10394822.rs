@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_10394822: FileFormat = FileFormat {
     id: 10_394_822,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_10394822: FileFormat = FileFormat {
     name: "ZIP archive file format, version 6.3.2",
     extensions: &["zip", "zipx"],
     media_types: &["application/zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

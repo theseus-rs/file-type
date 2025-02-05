@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_339: FileFormat = FileFormat {
     name: "SaltStack",
     extensions: &["sls"],
     media_types: &["text/x-yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

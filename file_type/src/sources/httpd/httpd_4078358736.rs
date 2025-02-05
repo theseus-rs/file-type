@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4078358736: FileFormat = FileFormat {
     name: "ms powerpoint",
     extensions: &["ppt", "pps", "pot"],
     media_types: &["application/vnd.ms-powerpoint"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

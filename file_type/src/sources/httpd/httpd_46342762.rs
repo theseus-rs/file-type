@@ -6,6 +6,6 @@ pub(crate) const HTTPD_46342762: FileFormat = FileFormat {
     name: "mp2t",
     extensions: &["ts", "m2t", "m2ts", "mts"],
     media_types: &["video/mp2t"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

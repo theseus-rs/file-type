@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_657332628: FileFormat = FileFormat {
     name: "CWeb",
     extensions: &["w"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

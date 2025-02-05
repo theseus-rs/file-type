@@ -6,6 +6,6 @@ pub(crate) const IANA_4260785652: FileFormat = FileFormat {
     name: "vnd.cryptii.pipe+json",
     extensions: &[],
     media_types: &["application/vnd.cryptii.pipe+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

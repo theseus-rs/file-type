@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1054391671: FileFormat = FileFormat {
     name: "Go Checksums",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

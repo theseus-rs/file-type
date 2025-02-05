@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3583731876: FileFormat = FileFormat {
     name: "nokia n gage symbian install",
     extensions: &["n-gage"],
     media_types: &["application/vnd.nokia.n-gage.symbian.install"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130265836: FileFormat = FileFormat {
     id: 130_265_836,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130265836: FileFormat = FileFormat {
     name: "Linden Scripting Language source code file",
     extensions: &["lsl"],
     media_types: &["text/x-lsl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

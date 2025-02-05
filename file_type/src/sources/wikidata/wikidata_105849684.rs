@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105849684: FileFormat = FileFormat {
     id: 105_849_684,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105849684: FileFormat = FileFormat {
     name: "Csound unified file format",
     extensions: &["csd"],
     media_types: &["audio/csound"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

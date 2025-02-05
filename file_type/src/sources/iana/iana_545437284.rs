@@ -6,6 +6,6 @@ pub(crate) const IANA_545437284: FileFormat = FileFormat {
     name: "tamp-community-update-confirm",
     extensions: &[],
     media_types: &["application/tamp-community-update-confirm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

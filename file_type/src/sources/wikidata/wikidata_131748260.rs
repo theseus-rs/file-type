@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131748260: FileFormat = FileFormat {
     id: 131_748_260,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131748260: FileFormat = FileFormat {
     name: "Parallel Input Output file",
     extensions: &["pio"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

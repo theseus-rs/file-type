@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_12062708: FileFormat = FileFormat {
     id: 12_062_708,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_12062708: FileFormat = FileFormat {
     name: "CDW file format",
     extensions: &["cdw"],
     media_types: &["image/cdw"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

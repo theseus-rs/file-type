@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_91: FileFormat = FileFormat {
     name: "Dylan",
     extensions: &["dyl", "dylan", "intr", "lid"],
     media_types: &["text/x-dylan"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

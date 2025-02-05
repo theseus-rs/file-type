@@ -6,6 +6,6 @@ pub(crate) const IANA_303387740: FileFormat = FileFormat {
     name: "multipart-core",
     extensions: &[],
     media_types: &["application/multipart-core"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

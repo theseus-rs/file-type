@@ -6,6 +6,6 @@ pub(crate) const IANA_1298535354: FileFormat = FileFormat {
     name: "vnd.jcp.javame.midlet-rms",
     extensions: &[],
     media_types: &["application/vnd.jcp.javame.midlet-rms"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

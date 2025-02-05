@@ -6,6 +6,6 @@ pub(crate) const IANA_2996033275: FileFormat = FileFormat {
     name: "vnd.pagerduty+json",
     extensions: &[],
     media_types: &["application/vnd.pagerduty+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

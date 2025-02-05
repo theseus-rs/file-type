@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_96081191: FileFormat = FileFormat {
     id: 96_081_191,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_96081191: FileFormat = FileFormat {
     name: "SystemModeler experiment format",
     extensions: &["sme"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

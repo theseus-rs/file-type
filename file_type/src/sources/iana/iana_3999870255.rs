@@ -6,6 +6,6 @@ pub(crate) const IANA_3999870255: FileFormat = FileFormat {
     name: "vnd.mophun.application",
     extensions: &[],
     media_types: &["application/vnd.mophun.application"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

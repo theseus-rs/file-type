@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_115035850: FileFormat = FileFormat {
     id: 115_035_850,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_115035850: FileFormat = FileFormat {
     name: "Calc602 Project File 1.51",
     extensions: &["pc6"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

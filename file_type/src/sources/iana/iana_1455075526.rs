@@ -6,6 +6,6 @@ pub(crate) const IANA_1455075526: FileFormat = FileFormat {
     name: "obj",
     extensions: &[],
     media_types: &["model/obj"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

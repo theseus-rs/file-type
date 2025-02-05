@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_460509620: FileFormat = FileFormat {
     name: "Edge",
     extensions: &["edge"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

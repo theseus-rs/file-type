@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105850960: FileFormat = FileFormat {
     id: 105_850_960,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105850960: FileFormat = FileFormat {
     name: "Samourai Bitcoin wallet auto backup",
     extensions: &["txt"],
     media_types: &["text/json"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1685005414: FileFormat = FileFormat {
     name: "tab separated values",
     extensions: &["tsv"],
     media_types: &["text/tab-separated-values"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

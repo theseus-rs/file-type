@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111182292: FileFormat = FileFormat {
     id: 111_182_292,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111182292: FileFormat = FileFormat {
     name: "Lasso Database-Driven Web Page",
     extensions: &["lasso"],
     media_types: &["text/x-lasso"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

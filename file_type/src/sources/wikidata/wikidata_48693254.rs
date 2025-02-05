@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_48693254: FileFormat = FileFormat {
     id: 48_693_254,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_48693254: FileFormat = FileFormat {
     name: "WordStar for MSDOS Document, version 4",
     extensions: &["ws", "ws4"],
     media_types: &["application/x-wordstar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

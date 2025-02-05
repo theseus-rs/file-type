@@ -6,6 +6,6 @@ pub(crate) const IANA_2843860669: FileFormat = FileFormat {
     name: "vnd.msa-disk-image",
     extensions: &[],
     media_types: &["application/vnd.msa-disk-image"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

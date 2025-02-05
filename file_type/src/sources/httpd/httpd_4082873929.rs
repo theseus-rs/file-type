@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4082873929: FileFormat = FileFormat {
     name: "llamagraphics life balance exchange xml",
     extensions: &["lbe"],
     media_types: &["application/vnd.llamagraphics.life-balance.exchange+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2333141689: FileFormat = FileFormat {
     name: "vnd.gnu.taler.merchant+json",
     extensions: &[],
     media_types: &["application/vnd.gnu.taler.merchant+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

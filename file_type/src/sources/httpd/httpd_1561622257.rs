@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1561622257: FileFormat = FileFormat {
     name: "msaccess",
     extensions: &["mdb"],
     media_types: &["application/x-msaccess"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

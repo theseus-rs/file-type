@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_9: FileFormat = FileFormat {
     name: "ATS",
     extensions: &["dats", "hats", "sats"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

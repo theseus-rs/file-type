@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1027892786: FileFormat = FileFormat {
     name: "Smithy",
     extensions: &["smithy"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

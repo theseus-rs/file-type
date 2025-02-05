@@ -6,6 +6,6 @@ pub(crate) const IANA_1368694713: FileFormat = FileFormat {
     name: "msword",
     extensions: &[],
     media_types: &["application/msword"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

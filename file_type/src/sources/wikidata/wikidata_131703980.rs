@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131703980: FileFormat = FileFormat {
     id: 131_703_980,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131703980: FileFormat = FileFormat {
     name: "GE TRUCHAS file format",
     extensions: &["h5", "hdf5"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

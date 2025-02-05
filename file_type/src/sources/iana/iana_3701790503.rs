@@ -6,6 +6,6 @@ pub(crate) const IANA_3701790503: FileFormat = FileFormat {
     name: "vnd.dynageo",
     extensions: &[],
     media_types: &["application/vnd.dynageo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

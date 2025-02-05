@@ -6,6 +6,6 @@ pub(crate) const IANA_3683296436: FileFormat = FileFormat {
     name: "vnd.adobe.formscentral.fcdt",
     extensions: &[],
     media_types: &["application/vnd.adobe.formscentral.fcdt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

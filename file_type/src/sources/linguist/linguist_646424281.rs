@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_646424281: FileFormat = FileFormat {
     name: "Zig",
     extensions: &["zig", "zig.zon"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

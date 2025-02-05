@@ -6,6 +6,6 @@ pub(crate) const IANA_3834896132: FileFormat = FileFormat {
     name: "json-seq",
     extensions: &[],
     media_types: &["application/json-seq"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

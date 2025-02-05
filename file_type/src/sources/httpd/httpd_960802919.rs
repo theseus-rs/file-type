@@ -6,6 +6,6 @@ pub(crate) const HTTPD_960802919: FileFormat = FileFormat {
     name: "xara",
     extensions: &["xar"],
     media_types: &["application/vnd.xara"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

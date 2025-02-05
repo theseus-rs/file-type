@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_51913632: FileFormat = FileFormat {
     id: 51_913_632,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_51913632: FileFormat = FileFormat {
     name: "SDSC Image Tool Run-Length Encoded Bitmap",
     extensions: &["rle"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

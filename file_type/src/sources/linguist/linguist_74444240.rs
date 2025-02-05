@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_74444240: FileFormat = FileFormat {
     name: "Ignore List",
     extensions: &["gitignore"],
     media_types: &["text/x-sh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

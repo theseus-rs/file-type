@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_206: FileFormat = FileFormat {
     name: "Literate CoffeeScript",
     extensions: &["coffee.md", "litcoffee"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

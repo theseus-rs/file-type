@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857425: FileFormat = FileFormat {
     id: 105_857_425,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105857425: FileFormat = FileFormat {
     name: "JDeveloper Java Workspace Settings",
     extensions: &["jws"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

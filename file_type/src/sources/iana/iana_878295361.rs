@@ -6,6 +6,6 @@ pub(crate) const IANA_878295361: FileFormat = FileFormat {
     name: "vnd.desmume.movie",
     extensions: &[],
     media_types: &["application/vnd.desmume.movie"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

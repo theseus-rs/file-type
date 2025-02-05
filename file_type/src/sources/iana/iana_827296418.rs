@@ -6,6 +6,6 @@ pub(crate) const IANA_827296418: FileFormat = FileFormat {
     name: "jxl",
     extensions: &[],
     media_types: &["image/jxl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

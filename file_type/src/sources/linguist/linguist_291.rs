@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_291: FileFormat = FileFormat {
     name: "PostScript",
     extensions: &["eps", "epsi", "pfa", "ps"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

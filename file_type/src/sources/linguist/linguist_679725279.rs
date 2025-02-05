@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_679725279: FileFormat = FileFormat {
     name: "HOCON",
     extensions: &["hocon"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

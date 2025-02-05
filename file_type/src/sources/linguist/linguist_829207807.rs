@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_829207807: FileFormat = FileFormat {
     name: "CameLIGO",
     extensions: &["mligo"],
     media_types: &["text/x-ocaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

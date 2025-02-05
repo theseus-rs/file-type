@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_129082474: FileFormat = FileFormat {
     id: 129_082_474,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_129082474: FileFormat = FileFormat {
     name: "Elixir script file",
     extensions: &["exs"],
     media_types: &["text/x-elixir"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

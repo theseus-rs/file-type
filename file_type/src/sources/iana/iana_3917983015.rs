@@ -6,6 +6,6 @@ pub(crate) const IANA_3917983015: FileFormat = FileFormat {
     name: "vnd.dolby.mobile.2",
     extensions: &[],
     media_types: &["application/vnd.dolby.mobile.2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

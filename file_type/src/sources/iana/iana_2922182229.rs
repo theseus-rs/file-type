@@ -6,6 +6,6 @@ pub(crate) const IANA_2922182229: FileFormat = FileFormat {
     name: "vnd.dlna.mpeg-tts",
     extensions: &[],
     media_types: &["video/vnd.dlna.mpeg-tts"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

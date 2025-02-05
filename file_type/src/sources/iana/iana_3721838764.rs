@@ -6,6 +6,6 @@ pub(crate) const IANA_3721838764: FileFormat = FileFormat {
     name: "vnd.shana.informed.package",
     extensions: &[],
     media_types: &["application/vnd.shana.informed.package"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3889997362: FileFormat = FileFormat {
     name: "jpm",
     extensions: &["jpm", "jpgm"],
     media_types: &["video/jpm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

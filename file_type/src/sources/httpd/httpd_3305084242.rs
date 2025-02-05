@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3305084242: FileFormat = FileFormat {
     name: "dssc xml",
     extensions: &["xdssc"],
     media_types: &["application/dssc+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

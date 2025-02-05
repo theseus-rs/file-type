@@ -6,6 +6,6 @@ pub(crate) const IANA_237827459: FileFormat = FileFormat {
     name: "imdn+xml",
     extensions: &[],
     media_types: &["message/imdn+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

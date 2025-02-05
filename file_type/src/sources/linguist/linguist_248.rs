@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_248: FileFormat = FileFormat {
     name: "Nginx",
     extensions: &["nginx", "nginxconf", "vhost"],
     media_types: &["text/x-nginx-conf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

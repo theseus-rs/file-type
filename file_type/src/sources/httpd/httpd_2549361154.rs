@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2549361154: FileFormat = FileFormat {
     name: "authorware seg",
     extensions: &["aas"],
     media_types: &["application/x-authorware-seg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

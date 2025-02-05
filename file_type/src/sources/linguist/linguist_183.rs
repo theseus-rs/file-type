@@ -32,6 +32,6 @@ pub(crate) const LINGUIST_183: FileFormat = FileFormat {
         "xsjslib",
     ],
     media_types: &["text/javascript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

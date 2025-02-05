@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_28923963: FileFormat = FileFormat {
     name: "BASIC",
     extensions: &["bas"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

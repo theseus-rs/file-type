@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111285387: FileFormat = FileFormat {
     id: 111_285_387,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111285387: FileFormat = FileFormat {
     name: "Sound Tools HCOM format",
     extensions: &["hcom"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

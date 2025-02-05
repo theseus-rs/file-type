@@ -6,6 +6,6 @@ pub(crate) const IANA_2372650813: FileFormat = FileFormat {
     name: "cdmi-capability",
     extensions: &[],
     media_types: &["application/cdmi-capability"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

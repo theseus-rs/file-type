@@ -6,6 +6,6 @@ pub(crate) const IANA_2117373776: FileFormat = FileFormat {
     name: "vnd.android.ota",
     extensions: &[],
     media_types: &["application/vnd.android.ota"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_4001673838: FileFormat = FileFormat {
     name: "vnd.efi.iso",
     extensions: &[],
     media_types: &["application/vnd.efi.iso"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

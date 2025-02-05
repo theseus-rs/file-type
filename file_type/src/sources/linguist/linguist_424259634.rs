@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_424259634: FileFormat = FileFormat {
     name: "CodeQL",
     extensions: &["ql", "qll"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

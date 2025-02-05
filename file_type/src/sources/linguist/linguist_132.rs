@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_132: FileFormat = FileFormat {
     name: "Go",
     extensions: &["go"],
     media_types: &["text/x-go"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_79: FileFormat = FileFormat {
     name: "Cython",
     extensions: &["pxd", "pxi", "pyx"],
     media_types: &["text/x-cython"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3864329248: FileFormat = FileFormat {
     name: "vnd.debian.copyright",
     extensions: &[],
     media_types: &["text/vnd.debian.copyright"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

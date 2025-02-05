@@ -6,6 +6,6 @@ pub(crate) const IANA_13400192: FileFormat = FileFormat {
     name: "prs.implied-structure",
     extensions: &[],
     media_types: &["application/prs.implied-structure"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

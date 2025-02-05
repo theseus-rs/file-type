@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105851438: FileFormat = FileFormat {
     id: 105_851_438,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105851438: FileFormat = FileFormat {
     name: "Win994a cartdrige image",
     extensions: &["ticart"],
     media_types: &["TI-99/4A PC99 disk image"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

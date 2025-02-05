@@ -6,6 +6,6 @@ pub(crate) const HTTPD_446836469: FileFormat = FileFormat {
     name: "wap wbxml",
     extensions: &["wbxml"],
     media_types: &["application/vnd.wap.wbxml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

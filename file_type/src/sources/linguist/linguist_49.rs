@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_49: FileFormat = FileFormat {
     name: "COLLADA",
     extensions: &["dae"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

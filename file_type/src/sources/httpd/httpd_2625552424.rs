@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2625552424: FileFormat = FileFormat {
     name: "wolfram player",
     extensions: &["nbp"],
     media_types: &["application/vnd.wolfram.player"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

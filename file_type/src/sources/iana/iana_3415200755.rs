@@ -6,6 +6,6 @@ pub(crate) const IANA_3415200755: FileFormat = FileFormat {
     name: "vnd.mapbox-vector-tile",
     extensions: &[],
     media_types: &["application/vnd.mapbox-vector-tile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

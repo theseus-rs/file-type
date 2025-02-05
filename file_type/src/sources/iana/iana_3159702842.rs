@@ -6,6 +6,6 @@ pub(crate) const IANA_3159702842: FileFormat = FileFormat {
     name: "vnd.microsoft.windows.thumbnail-cache",
     extensions: &[],
     media_types: &["application/vnd.microsoft.windows.thumbnail-cache"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

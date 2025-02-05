@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_181: FileFormat = FileFormat {
     name: "Java",
     extensions: &["jav", "java", "jsh"],
     media_types: &["text/x-java"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

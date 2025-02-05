@@ -6,6 +6,6 @@ pub(crate) const IANA_914146169: FileFormat = FileFormat {
     name: "vnd.seemail",
     extensions: &[],
     media_types: &["application/vnd.seemail"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

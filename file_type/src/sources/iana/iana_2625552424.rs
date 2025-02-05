@@ -6,6 +6,6 @@ pub(crate) const IANA_2625552424: FileFormat = FileFormat {
     name: "vnd.wolfram.player",
     extensions: &[],
     media_types: &["application/vnd.wolfram.player"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_83794487: FileFormat = FileFormat {
     id: 83_794_487,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_83794487: FileFormat = FileFormat {
     name: "ZFO (Form) File",
     extensions: &["zfo"],
     media_types: &["application/vnd.software602.filler.form-xml-zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

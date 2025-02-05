@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1063909402: FileFormat = FileFormat {
     name: "criticaltools wbs xml",
     extensions: &["wbs"],
     media_types: &["application/vnd.criticaltools.wbs+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

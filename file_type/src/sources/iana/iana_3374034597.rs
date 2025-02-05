@@ -6,6 +6,6 @@ pub(crate) const IANA_3374034597: FileFormat = FileFormat {
     name: "dicom+json",
     extensions: &[],
     media_types: &["application/dicom+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

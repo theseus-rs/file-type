@@ -6,6 +6,6 @@ pub(crate) const IANA_1935310105: FileFormat = FileFormat {
     name: "vnd.etsi.aoc+xml",
     extensions: &[],
     media_types: &["application/vnd.etsi.aoc+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

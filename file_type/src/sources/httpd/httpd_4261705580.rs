@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4261705580: FileFormat = FileFormat {
     name: "stuffit",
     extensions: &["sit"],
     media_types: &["application/x-stuffit"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_76626073: FileFormat = FileFormat {
     name: "rpki-updown",
     extensions: &[],
     media_types: &["application/rpki-updown"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

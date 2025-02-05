@@ -6,6 +6,6 @@ pub(crate) const IANA_942105561: FileFormat = FileFormat {
     name: "rpki-manifest",
     extensions: &[],
     media_types: &["application/rpki-manifest"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1463413795: FileFormat = FileFormat {
     name: "vnd.futoin+json",
     extensions: &[],
     media_types: &["application/vnd.futoin+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2849086587: FileFormat = FileFormat {
     name: "vnd.vd-study",
     extensions: &[],
     media_types: &["application/vnd.vd-study"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

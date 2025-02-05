@@ -6,6 +6,6 @@ pub(crate) const IANA_3680692499: FileFormat = FileFormat {
     name: "vnd.shopkick+json",
     extensions: &[],
     media_types: &["application/vnd.shopkick+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

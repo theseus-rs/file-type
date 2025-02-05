@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111588438: FileFormat = FileFormat {
     id: 111_588_438,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111588438: FileFormat = FileFormat {
     name: "Roxio Label Creator Project File, versions 6-7",
     extensions: &["jwl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

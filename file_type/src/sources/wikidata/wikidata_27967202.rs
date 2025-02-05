@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27967202: FileFormat = FileFormat {
     id: 27_967_202,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_27967202: FileFormat = FileFormat {
     name: "Nerdtracker II module",
     extensions: &["ned"],
     media_types: &["audio/x-mod"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

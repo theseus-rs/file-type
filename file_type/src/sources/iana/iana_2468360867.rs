@@ -6,6 +6,6 @@ pub(crate) const IANA_2468360867: FileFormat = FileFormat {
     name: "td+json",
     extensions: &[],
     media_types: &["application/td+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

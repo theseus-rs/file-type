@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_127825832: FileFormat = FileFormat {
     id: 127_825_832,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_127825832: FileFormat = FileFormat {
     name: "Cinema DTS Subtitle file format",
     extensions: &["sbt"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

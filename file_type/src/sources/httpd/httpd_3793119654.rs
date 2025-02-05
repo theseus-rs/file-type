@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3793119654: FileFormat = FileFormat {
     name: "ms officetheme",
     extensions: &["thmx"],
     media_types: &["application/vnd.ms-officetheme"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2298246905: FileFormat = FileFormat {
     name: "vnd.fdsn.stationxml+xml",
     extensions: &[],
     media_types: &["application/vnd.fdsn.stationxml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

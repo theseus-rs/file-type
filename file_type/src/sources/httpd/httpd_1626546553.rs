@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1626546553: FileFormat = FileFormat {
     name: "isac fcs",
     extensions: &["fcs"],
     media_types: &["application/vnd.isac.fcs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

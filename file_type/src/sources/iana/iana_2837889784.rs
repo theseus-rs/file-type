@@ -6,6 +6,6 @@ pub(crate) const IANA_2837889784: FileFormat = FileFormat {
     name: "vnd.djvu",
     extensions: &[],
     media_types: &["image/vnd.djvu"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

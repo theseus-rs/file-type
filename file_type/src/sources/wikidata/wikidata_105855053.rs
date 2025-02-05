@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105855053: FileFormat = FileFormat {
     id: 105_855_053,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105855053: FileFormat = FileFormat {
     name: "ARIS Document File",
     extensions: &["adf"],
     media_types: &["x-application/adf"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

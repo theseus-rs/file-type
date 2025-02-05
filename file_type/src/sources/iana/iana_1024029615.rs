@@ -6,6 +6,6 @@ pub(crate) const IANA_1024029615: FileFormat = FileFormat {
     name: "vnd.commerce-battelle",
     extensions: &[],
     media_types: &["application/vnd.commerce-battelle"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

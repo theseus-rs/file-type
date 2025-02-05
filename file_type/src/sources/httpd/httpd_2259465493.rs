@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2259465493: FileFormat = FileFormat {
     name: "tgif",
     extensions: &["obj"],
     media_types: &["application/x-tgif"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

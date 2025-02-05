@@ -6,6 +6,6 @@ pub(crate) const IANA_2551344389: FileFormat = FileFormat {
     name: "elm+json",
     extensions: &[],
     media_types: &["application/elm+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

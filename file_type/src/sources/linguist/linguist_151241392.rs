@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_151241392: FileFormat = FileFormat {
     name: "Snakemake",
     extensions: &["smk", "snakefile"],
     media_types: &["text/x-python"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

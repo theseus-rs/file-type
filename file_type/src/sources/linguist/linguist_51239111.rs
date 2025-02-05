@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_51239111: FileFormat = FileFormat {
     name: "OASv3-yaml",
     extensions: &["yaml", "yml"],
     media_types: &["text/x-yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_918221: FileFormat = FileFormat {
     id: 918_221,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_918221: FileFormat = FileFormat {
     name: "Web Open Font Format",
     extensions: &["woff"],
     media_types: &["font/woff"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

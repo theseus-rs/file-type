@@ -6,6 +6,6 @@ pub(crate) const HTTPD_171816475: FileFormat = FileFormat {
     name: "lucent voice",
     extensions: &["lvp"],
     media_types: &["audio/vnd.lucent.voice"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

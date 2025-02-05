@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_287: FileFormat = FileFormat {
     name: "Pike",
     extensions: &["pike", "pmod"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

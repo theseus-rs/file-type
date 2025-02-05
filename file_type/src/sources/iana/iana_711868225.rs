@@ -6,6 +6,6 @@ pub(crate) const IANA_711868225: FileFormat = FileFormat {
     name: "H264-RCDO",
     extensions: &[],
     media_types: &["video/H264-RCDO"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

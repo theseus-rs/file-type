@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_557959099: FileFormat = FileFormat {
     name: "OpenAPI Specification v3",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

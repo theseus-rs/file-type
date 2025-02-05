@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2495353376: FileFormat = FileFormat {
     name: "oasis opendocument text master",
     extensions: &["odm"],
     media_types: &["application/vnd.oasis.opendocument.text-master"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_148: FileFormat = FileFormat {
     name: "HTML+ECR",
     extensions: &["ecr"],
     media_types: &["text/html"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_10: FileFormat = FileFormat {
     name: "ActionScript",
     extensions: &["as"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

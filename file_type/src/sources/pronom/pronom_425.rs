@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_425: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_425: FileFormat = FileFormat {
     name: "MPEG 1/2 Audio Layer 3 Streaming",
     extensions: &["m3u"],
     media_types: &["audio/mpeg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[RelatedFormat {
         relationship_type: RelationshipType::IsSubsequentVersionOf,
         id: 923,

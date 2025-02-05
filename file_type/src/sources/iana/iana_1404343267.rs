@@ -6,6 +6,6 @@ pub(crate) const IANA_1404343267: FileFormat = FileFormat {
     name: "sep-exi",
     extensions: &[],
     media_types: &["application/sep-exi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

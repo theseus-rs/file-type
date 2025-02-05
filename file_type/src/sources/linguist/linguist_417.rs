@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_417: FileFormat = FileFormat {
     name: "nesC",
     extensions: &["nc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

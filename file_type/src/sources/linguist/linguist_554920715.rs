@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_554920715: FileFormat = FileFormat {
     name: "SSH Config",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

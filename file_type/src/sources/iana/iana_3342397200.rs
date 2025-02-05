@@ -6,6 +6,6 @@ pub(crate) const IANA_3342397200: FileFormat = FileFormat {
     name: "vnd.net2phone.commcenter.command",
     extensions: &[],
     media_types: &["text/vnd.net2phone.commcenter.command"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

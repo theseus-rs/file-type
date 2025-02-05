@@ -6,6 +6,6 @@ pub(crate) const IANA_2125042282: FileFormat = FileFormat {
     name: "vnd.ibm.rights-management",
     extensions: &[],
     media_types: &["application/vnd.ibm.rights-management"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

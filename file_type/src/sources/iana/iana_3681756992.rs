@@ -6,6 +6,6 @@ pub(crate) const IANA_3681756992: FileFormat = FileFormat {
     name: "lostsync+xml",
     extensions: &[],
     media_types: &["application/lostsync+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

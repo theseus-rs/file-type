@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_66662117: FileFormat = FileFormat {
     id: 66_662_117,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_66662117: FileFormat = FileFormat {
     name: "Lotus Ami Pro Styles",
     extensions: &["sty"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

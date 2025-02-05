@@ -6,6 +6,6 @@ pub(crate) const HTTPD_744148218: FileFormat = FileFormat {
     name: "sql",
     extensions: &["sql"],
     media_types: &["application/x-sql"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

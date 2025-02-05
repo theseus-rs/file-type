@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2973898951: FileFormat = FileFormat {
     name: "portable pixmap",
     extensions: &["ppm"],
     media_types: &["image/x-portable-pixmap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

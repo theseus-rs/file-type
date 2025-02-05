@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_7271574: FileFormat = FileFormat {
     id: 7_271_574,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_7271574: FileFormat = FileFormat {
     name: "Quetzal file format",
     extensions: &["glksave", "sav"],
     media_types: &["application/x-glksave"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

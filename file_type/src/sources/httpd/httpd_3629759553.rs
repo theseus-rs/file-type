@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3629759553: FileFormat = FileFormat {
     name: "dvi",
     extensions: &["dvi"],
     media_types: &["application/x-dvi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

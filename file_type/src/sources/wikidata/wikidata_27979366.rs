@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27979366: FileFormat = FileFormat {
     id: 27_979_366,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27979366: FileFormat = FileFormat {
     name: "Flash Media Manifest",
     extensions: &["f4m"],
     media_types: &["application/f4m"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

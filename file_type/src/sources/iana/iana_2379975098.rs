@@ -6,6 +6,6 @@ pub(crate) const IANA_2379975098: FileFormat = FileFormat {
     name: "vnd.ipld.dag-cbor",
     extensions: &[],
     media_types: &["application/vnd.ipld.dag-cbor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

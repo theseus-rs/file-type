@@ -6,6 +6,6 @@ pub(crate) const IANA_1308820138: FileFormat = FileFormat {
     name: "vnd.motorola.flexsuite.fis",
     extensions: &[],
     media_types: &["application/vnd.motorola.flexsuite.fis"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1607493878: FileFormat = FileFormat {
     name: "MPV",
     extensions: &[],
     media_types: &["video/MPV"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

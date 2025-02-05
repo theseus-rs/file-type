@@ -6,6 +6,6 @@ pub(crate) const IANA_1717549863: FileFormat = FileFormat {
     name: "vnd.dolby.pulse.1",
     extensions: &[],
     media_types: &["audio/vnd.dolby.pulse.1"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

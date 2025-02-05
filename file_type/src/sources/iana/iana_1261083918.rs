@@ -6,6 +6,6 @@ pub(crate) const IANA_1261083918: FileFormat = FileFormat {
     name: "vnd.HandHeld-Entertainment+xml",
     extensions: &[],
     media_types: &["application/vnd.HandHeld-Entertainment+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

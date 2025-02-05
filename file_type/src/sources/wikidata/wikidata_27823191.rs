@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27823191: FileFormat = FileFormat {
     id: 27_823_191,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27823191: FileFormat = FileFormat {
     name: "Binary Terrain, version 1.0",
     extensions: &["bt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

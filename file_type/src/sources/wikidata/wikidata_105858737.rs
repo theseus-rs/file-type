@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105858737: FileFormat = FileFormat {
     id: 105_858_737,
@@ -8,8 +6,8 @@ pub(crate) const WIKIDATA_105858737: FileFormat = FileFormat {
     name: "ImageMagick Machine independent File Format bitmap",
     extensions: &["mif", "miff"],
     media_types: &["image/x-miff"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -21,7 +19,7 @@ pub(crate) const WIKIDATA_105858737: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

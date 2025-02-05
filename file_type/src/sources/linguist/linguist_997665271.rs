@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_997665271: FileFormat = FileFormat {
     name: "Glyph Bitmap Distribution Format",
     extensions: &["bdf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

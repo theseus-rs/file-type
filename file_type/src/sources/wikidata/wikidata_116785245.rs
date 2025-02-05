@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_116785245: FileFormat = FileFormat {
     id: 116_785_245,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_116785245: FileFormat = FileFormat {
     name: "602Pro PC Suite macro",
     extensions: &["cnt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

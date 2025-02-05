@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_52830687: FileFormat = FileFormat {
     id: 52_830_687,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_52830687: FileFormat = FileFormat {
     name: "Paint Shop Pro Image, version 8",
     extensions: &["pspimage"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_109996883: FileFormat = FileFormat {
     id: 109_996_883,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_109996883: FileFormat = FileFormat {
     name: "Primavera P6 Project Management XER File",
     extensions: &["xer"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

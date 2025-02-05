@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_813068465: FileFormat = FileFormat {
     name: "Noir",
     extensions: &["nr"],
     media_types: &["text/x-rustsrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

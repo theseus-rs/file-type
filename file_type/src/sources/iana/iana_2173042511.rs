@@ -6,6 +6,6 @@ pub(crate) const IANA_2173042511: FileFormat = FileFormat {
     name: "rpki-checklist",
     extensions: &[],
     media_types: &["application/rpki-checklist"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

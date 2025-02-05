@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1451282716: FileFormat = FileFormat {
     name: "stardivision writer global",
     extensions: &["sgl"],
     media_types: &["application/vnd.stardivision.writer-global"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

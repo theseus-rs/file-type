@@ -6,6 +6,6 @@ pub(crate) const IANA_2456605975: FileFormat = FileFormat {
     name: "stl",
     extensions: &[],
     media_types: &["model/stl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

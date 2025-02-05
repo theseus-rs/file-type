@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105859487: FileFormat = FileFormat {
     id: 105_859_487,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105859487: FileFormat = FileFormat {
     name: "Quintessential Player Kid Skin",
     extensions: &["qsk"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

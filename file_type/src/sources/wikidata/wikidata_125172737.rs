@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125172737: FileFormat = FileFormat {
     id: 125_172_737,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125172737: FileFormat = FileFormat {
     name: "MyNotex file",
     extensions: &["mnt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

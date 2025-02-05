@@ -6,6 +6,6 @@ pub(crate) const IANA_3572122093: FileFormat = FileFormat {
     name: "vnd.chipnuts.karaoke-mmd",
     extensions: &[],
     media_types: &["application/vnd.chipnuts.karaoke-mmd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

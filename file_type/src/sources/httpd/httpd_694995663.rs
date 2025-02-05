@@ -6,6 +6,6 @@ pub(crate) const HTTPD_694995663: FileFormat = FileFormat {
     name: "cooltalk",
     extensions: &["ice"],
     media_types: &["x-conference/x-cooltalk"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

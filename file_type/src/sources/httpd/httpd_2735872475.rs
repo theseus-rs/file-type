@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2735872475: FileFormat = FileFormat {
     name: "jam",
     extensions: &["jam"],
     media_types: &["application/vnd.jam"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

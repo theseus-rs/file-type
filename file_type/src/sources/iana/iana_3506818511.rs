@@ -6,6 +6,6 @@ pub(crate) const IANA_3506818511: FileFormat = FileFormat {
     name: "vnd.ms-playready.media.pya",
     extensions: &[],
     media_types: &["audio/vnd.ms-playready.media.pya"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

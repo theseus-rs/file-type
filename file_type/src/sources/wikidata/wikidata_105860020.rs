@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105860020: FileFormat = FileFormat {
     id: 105_860_020,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105860020: FileFormat = FileFormat {
     name: "MP4 Base Media v2 container video",
     extensions: &["mp4"],
     media_types: &["video/mp4"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

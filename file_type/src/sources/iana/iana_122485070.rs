@@ -6,6 +6,6 @@ pub(crate) const IANA_122485070: FileFormat = FileFormat {
     name: "scip",
     extensions: &[],
     media_types: &["audio/scip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

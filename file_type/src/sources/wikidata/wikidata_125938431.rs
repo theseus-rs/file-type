@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125938431: FileFormat = FileFormat {
     id: 125_938_431,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125938431: FileFormat = FileFormat {
     name: "Enigma Binary File 2",
     extensions: &["mus"],
     media_types: &["application/vnd.makemusic.notation"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

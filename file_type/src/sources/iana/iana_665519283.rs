@@ -6,6 +6,6 @@ pub(crate) const IANA_665519283: FileFormat = FileFormat {
     name: "vnd.afpc.foca-codedfont",
     extensions: &[],
     media_types: &["application/vnd.afpc.foca-codedfont"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

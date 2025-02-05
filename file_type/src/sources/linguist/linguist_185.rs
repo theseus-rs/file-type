@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_185: FileFormat = FileFormat {
     name: "Jupyter Notebook",
     extensions: &["ipynb"],
     media_types: &["application/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

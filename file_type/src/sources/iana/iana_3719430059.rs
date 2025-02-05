@@ -6,6 +6,6 @@ pub(crate) const IANA_3719430059: FileFormat = FileFormat {
     name: "application/resolve-response+jwt",
     extensions: &[],
     media_types: &["application/resolve-response+jwt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3415345080: FileFormat = FileFormat {
     name: "silverlight app",
     extensions: &["xap"],
     media_types: &["application/x-silverlight-app"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

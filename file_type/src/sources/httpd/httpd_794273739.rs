@@ -6,6 +6,6 @@ pub(crate) const HTTPD_794273739: FileFormat = FileFormat {
     name: "curl scurl",
     extensions: &["scurl"],
     media_types: &["text/vnd.curl.scurl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

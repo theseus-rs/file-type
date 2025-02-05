@@ -6,6 +6,6 @@ pub(crate) const IANA_1267216869: FileFormat = FileFormat {
     name: "vnd.CCTV",
     extensions: &[],
     media_types: &["video/vnd.CCTV"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_85415606: FileFormat = FileFormat {
     id: 85_415_606,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_85415606: FileFormat = FileFormat {
     name: "Sonic Scenarist Closed Caption Format",
     extensions: &["scc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

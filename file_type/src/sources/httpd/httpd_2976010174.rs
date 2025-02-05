@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2976010174: FileFormat = FileFormat {
     name: "mswrite",
     extensions: &["wri"],
     media_types: &["application/x-mswrite"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

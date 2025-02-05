@@ -6,6 +6,6 @@ pub(crate) const IANA_2438353208: FileFormat = FileFormat {
     name: "vnd.bint.med-plus",
     extensions: &[],
     media_types: &["multipart/vnd.bint.med-plus"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

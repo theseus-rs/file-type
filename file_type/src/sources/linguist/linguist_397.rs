@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_397: FileFormat = FileFormat {
     name: "X10",
     extensions: &["x10"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

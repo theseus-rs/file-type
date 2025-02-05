@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_851476558: FileFormat = FileFormat {
     name: "vCard",
     extensions: &["vcf"],
     media_types: &["text/x-properties"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

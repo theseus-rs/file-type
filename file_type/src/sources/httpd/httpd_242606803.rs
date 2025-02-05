@@ -6,6 +6,6 @@ pub(crate) const HTTPD_242606803: FileFormat = FileFormat {
     name: "7z compressed",
     extensions: &["7z"],
     media_types: &["application/x-7z-compressed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

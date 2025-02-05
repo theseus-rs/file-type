@@ -6,6 +6,6 @@ pub(crate) const IANA_3621718850: FileFormat = FileFormat {
     name: "mtl",
     extensions: &[],
     media_types: &["model/mtl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

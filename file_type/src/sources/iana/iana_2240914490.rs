@@ -6,6 +6,6 @@ pub(crate) const IANA_2240914490: FileFormat = FileFormat {
     name: "parallel",
     extensions: &[],
     media_types: &["multipart/parallel"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

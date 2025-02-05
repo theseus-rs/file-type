@@ -6,6 +6,6 @@ pub(crate) const IANA_960802919: FileFormat = FileFormat {
     name: "vnd.xara",
     extensions: &[],
     media_types: &["application/vnd.xara"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

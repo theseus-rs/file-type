@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1314711206: FileFormat = FileFormat {
     name: "pvi ptid1",
     extensions: &["ptid"],
     media_types: &["application/vnd.pvi.ptid1"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

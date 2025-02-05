@@ -6,6 +6,6 @@ pub(crate) const IANA_4273659658: FileFormat = FileFormat {
     name: "ST2110-41",
     extensions: &[],
     media_types: &["application/ST2110-41"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

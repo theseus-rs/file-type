@@ -6,6 +6,6 @@ pub(crate) const IANA_2652684279: FileFormat = FileFormat {
     name: "EmergencyCallData.eCall.MSD",
     extensions: &[],
     media_types: &["application/EmergencyCallData.eCall.MSD"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

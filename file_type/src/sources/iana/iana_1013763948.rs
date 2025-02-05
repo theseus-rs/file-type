@@ -6,6 +6,6 @@ pub(crate) const IANA_1013763948: FileFormat = FileFormat {
     name: "vnd.openblox.game+xml",
     extensions: &[],
     media_types: &["application/vnd.openblox.game+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

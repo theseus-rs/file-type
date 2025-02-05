@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_114134190: FileFormat = FileFormat {
     id: 114_134_190,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_114134190: FileFormat = FileFormat {
     name: "MOPAC dataset format",
     extensions: &["dat"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

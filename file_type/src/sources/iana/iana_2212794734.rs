@@ -6,6 +6,6 @@ pub(crate) const IANA_2212794734: FileFormat = FileFormat {
     name: "vnd.rig.cryptonote",
     extensions: &[],
     media_types: &["application/vnd.rig.cryptonote"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

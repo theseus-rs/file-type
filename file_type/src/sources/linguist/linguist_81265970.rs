@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_81265970: FileFormat = FileFormat {
     name: "Vim Snippet",
     extensions: &["snip", "snippet", "snippets"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

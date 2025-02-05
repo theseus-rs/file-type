@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_254: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_254: FileFormat = FileFormat {
     name: "PageMaker PC Document",
     extensions: &["p65", "t65", "pmd", "pmt"],
     media_types: &["application/vnd.pagemaker"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[
         RelatedFormat {
             relationship_type: RelationshipType::EquivalentTo,

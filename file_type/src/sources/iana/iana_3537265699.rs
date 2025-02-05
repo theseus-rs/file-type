@@ -6,6 +6,6 @@ pub(crate) const IANA_3537265699: FileFormat = FileFormat {
     name: "vnd.lotus-freelance",
     extensions: &[],
     media_types: &["application/vnd.lotus-freelance"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_676182775: FileFormat = FileFormat {
     name: "vnd.quobject-quoxdocument",
     extensions: &[],
     media_types: &["application/vnd.quobject-quoxdocument"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

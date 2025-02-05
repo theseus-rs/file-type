@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_51: FileFormat = FileFormat {
     name: "CSV",
     extensions: &["csv"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

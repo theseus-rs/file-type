@@ -6,6 +6,6 @@ pub(crate) const IANA_2742726075: FileFormat = FileFormat {
     name: "vnd.moml+xml",
     extensions: &[],
     media_types: &["model/vnd.moml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

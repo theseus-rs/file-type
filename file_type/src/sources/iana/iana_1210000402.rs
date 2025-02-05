@@ -6,6 +6,6 @@ pub(crate) const IANA_1210000402: FileFormat = FileFormat {
     name: "vnd.capasystems-pg+json",
     extensions: &[],
     media_types: &["application/vnd.capasystems-pg+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

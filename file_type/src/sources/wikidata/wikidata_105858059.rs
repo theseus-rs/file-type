@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105858059: FileFormat = FileFormat {
     id: 105_858_059,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105858059: FileFormat = FileFormat {
     name: "Infinity Engine graphic (v1)",
     extensions: &["mos"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

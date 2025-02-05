@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1051507719: FileFormat = FileFormat {
     name: "flv",
     extensions: &["flv"],
     media_types: &["video/x-flv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

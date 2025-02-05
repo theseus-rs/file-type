@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_411: FileFormat = FileFormat {
     name: "Zimpl",
     extensions: &["zimpl", "zmpl", "zpl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

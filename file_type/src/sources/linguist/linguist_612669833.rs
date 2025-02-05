@@ -9,6 +9,6 @@ pub(crate) const LINGUIST_612669833: FileFormat = FileFormat {
         "7", "8", "9", "man", "mdoc",
     ],
     media_types: &["text/troff"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

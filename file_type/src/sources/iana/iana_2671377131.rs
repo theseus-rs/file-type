@@ -6,6 +6,6 @@ pub(crate) const IANA_2671377131: FileFormat = FileFormat {
     name: "vnd.smart.teacher",
     extensions: &[],
     media_types: &["application/vnd.smart.teacher"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

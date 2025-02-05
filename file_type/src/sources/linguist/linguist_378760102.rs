@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_378760102: FileFormat = FileFormat {
     name: "YASnippet",
     extensions: &["yasnippet"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

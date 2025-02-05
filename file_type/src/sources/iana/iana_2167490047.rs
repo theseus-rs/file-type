@@ -6,6 +6,6 @@ pub(crate) const IANA_2167490047: FileFormat = FileFormat {
     name: "apng",
     extensions: &[],
     media_types: &["image/apng"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

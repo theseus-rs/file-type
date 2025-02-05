@@ -6,6 +6,6 @@ pub(crate) const IANA_251540190: FileFormat = FileFormat {
     name: "vnd.intercon.formnet",
     extensions: &[],
     media_types: &["application/vnd.intercon.formnet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

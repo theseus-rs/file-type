@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_367: FileFormat = FileFormat {
     name: "Tcl",
     extensions: &["adp", "sdc", "tcl", "tcl.in", "tm", "xdc"],
     media_types: &["text/x-tcl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

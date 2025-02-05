@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857388: FileFormat = FileFormat {
     id: 105_857_388,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105857388: FileFormat = FileFormat {
     name: "JSON Playlist File",
     extensions: &["jspf"],
     media_types: &["text/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

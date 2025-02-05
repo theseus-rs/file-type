@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27487424: FileFormat = FileFormat {
     id: 27_487_424,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27487424: FileFormat = FileFormat {
     name: "Shapefile projections definitions file",
     extensions: &["prj"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

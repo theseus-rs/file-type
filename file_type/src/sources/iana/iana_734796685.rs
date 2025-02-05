@@ -6,6 +6,6 @@ pub(crate) const IANA_734796685: FileFormat = FileFormat {
     name: "jscontact+json",
     extensions: &[],
     media_types: &["application/jscontact+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1084097919: FileFormat = FileFormat {
     name: "vnd.wrq-hp3000-labelled",
     extensions: &[],
     media_types: &["application/vnd.wrq-hp3000-labelled"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

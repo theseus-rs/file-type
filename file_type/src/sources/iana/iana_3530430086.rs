@@ -6,6 +6,6 @@ pub(crate) const IANA_3530430086: FileFormat = FileFormat {
     name: "vnd.coreos.ignition+json",
     extensions: &[],
     media_types: &["application/vnd.coreos.ignition+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_123693352: FileFormat = FileFormat {
     id: 123_693_352,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_123693352: FileFormat = FileFormat {
     name: "C++ Builder Unit",
     extensions: &["ccp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

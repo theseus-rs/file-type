@@ -6,6 +6,6 @@ pub(crate) const IANA_3519971946: FileFormat = FileFormat {
     name: "mmt-aei+xml",
     extensions: &[],
     media_types: &["application/mmt-aei+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

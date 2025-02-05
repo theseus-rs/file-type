@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1204394635: FileFormat = FileFormat {
     name: "ms fontobject",
     extensions: &["eot"],
     media_types: &["application/vnd.ms-fontobject"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

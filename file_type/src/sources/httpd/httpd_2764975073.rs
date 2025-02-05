@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2764975073: FileFormat = FileFormat {
     name: "recordare musicxml xml",
     extensions: &["musicxml"],
     media_types: &["application/vnd.recordare.musicxml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

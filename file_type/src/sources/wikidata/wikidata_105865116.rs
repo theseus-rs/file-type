@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105865116: FileFormat = FileFormat {
     id: 105_865_116,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105865116: FileFormat = FileFormat {
     name: "Pixilang compiled byte-code",
     extensions: &["pixicode"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

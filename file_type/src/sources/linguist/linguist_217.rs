@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_217: FileFormat = FileFormat {
     name: "MAXScript",
     extensions: &["mcr", "ms"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

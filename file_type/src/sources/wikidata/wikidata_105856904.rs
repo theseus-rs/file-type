@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856904: FileFormat = FileFormat {
     id: 105_856_904,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105856904: FileFormat = FileFormat {
     name: "Grisbi XML",
     extensions: &["gsb"],
     media_types: &["application/x-grisbi"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

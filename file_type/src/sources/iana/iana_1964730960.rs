@@ -6,6 +6,6 @@ pub(crate) const IANA_1964730960: FileFormat = FileFormat {
     name: "ATRAC-X",
     extensions: &[],
     media_types: &["audio/ATRAC-X"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

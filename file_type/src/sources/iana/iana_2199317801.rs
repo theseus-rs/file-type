@@ -6,6 +6,6 @@ pub(crate) const IANA_2199317801: FileFormat = FileFormat {
     name: "QSIG",
     extensions: &[],
     media_types: &["application/QSIG"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

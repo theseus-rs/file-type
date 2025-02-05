@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3328258557: FileFormat = FileFormat {
     name: "mp4",
     extensions: &["m4a", "mp4a"],
     media_types: &["audio/mp4"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

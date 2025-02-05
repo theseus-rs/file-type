@@ -6,6 +6,6 @@ pub(crate) const IANA_243018749: FileFormat = FileFormat {
     name: "coap-payload",
     extensions: &[],
     media_types: &["application/coap-payload"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

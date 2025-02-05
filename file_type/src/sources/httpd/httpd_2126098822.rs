@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2126098822: FileFormat = FileFormat {
     name: "omdoc xml",
     extensions: &["omdoc"],
     media_types: &["application/omdoc+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

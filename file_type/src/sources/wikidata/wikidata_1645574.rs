@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1645574: FileFormat = FileFormat {
     id: 1_645_574,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_1645574: FileFormat = FileFormat {
     name: "Protocol Buffers",
     extensions: &["binpb", "proto", "txtpb"],
     media_types: &["application/protobuf", "application/vnd.google.protobuf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

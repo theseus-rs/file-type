@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28551363: FileFormat = FileFormat {
     id: 28_551_363,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28551363: FileFormat = FileFormat {
     name: "Adobe Levels File",
     extensions: &["alv"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

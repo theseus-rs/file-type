@@ -6,6 +6,6 @@ pub(crate) const IANA_213517500: FileFormat = FileFormat {
     name: "vnd.mophun.certificate",
     extensions: &[],
     media_types: &["application/vnd.mophun.certificate"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

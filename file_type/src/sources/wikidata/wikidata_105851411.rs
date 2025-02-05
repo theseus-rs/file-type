@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105851411: FileFormat = FileFormat {
     id: 105_851_411,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105851411: FileFormat = FileFormat {
     name: "Windows 98-7 Desktop Theme (with rem)",
     extensions: &["the", "theme"],
     media_types: &["text/plain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

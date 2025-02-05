@@ -6,6 +6,6 @@ pub(crate) const IANA_472064312: FileFormat = FileFormat {
     name: "cccex",
     extensions: &[],
     media_types: &["application/cccex"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

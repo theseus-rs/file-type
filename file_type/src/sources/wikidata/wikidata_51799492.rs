@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_51799492: FileFormat = FileFormat {
     id: 51_799_492,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_51799492: FileFormat = FileFormat {
     name: "Quattro Pro Spreadsheet for DOS, versions 1-4",
     extensions: &["wkq", "wq1"],
     media_types: &["application/x-quattro-pro"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

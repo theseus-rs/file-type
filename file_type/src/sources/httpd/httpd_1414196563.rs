@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1414196563: FileFormat = FileFormat {
     name: "zip",
     extensions: &["zip"],
     media_types: &["application/zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

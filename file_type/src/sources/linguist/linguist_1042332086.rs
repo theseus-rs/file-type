@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1042332086: FileFormat = FileFormat {
     name: "Circom",
     extensions: &["circom"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1132854721: FileFormat = FileFormat {
     name: "avci",
     extensions: &[],
     media_types: &["image/avci"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

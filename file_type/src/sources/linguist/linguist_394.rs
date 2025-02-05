@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_394: FileFormat = FileFormat {
     name: "Web Ontology Language",
     extensions: &["owl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

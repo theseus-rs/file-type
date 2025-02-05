@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_5921560: FileFormat = FileFormat {
     id: 5_921_560,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_5921560: FileFormat = FileFormat {
     name: "Synthetic music mobile application format",
     extensions: &["m3f", "mmf", "mqf"],
     media_types: &["application/vnd.smaf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_258: FileFormat = FileFormat {
     name: "Objective-C++",
     extensions: &["mm"],
     media_types: &["text/x-objectivec"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2262689688: FileFormat = FileFormat {
     name: "vq-rtcpxr",
     extensions: &[],
     media_types: &["application/vq-rtcpxr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

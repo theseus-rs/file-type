@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2252083475: FileFormat = FileFormat {
     name: "musician",
     extensions: &["mus"],
     media_types: &["application/vnd.musician"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

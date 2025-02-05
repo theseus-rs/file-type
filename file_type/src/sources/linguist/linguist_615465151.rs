@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_615465151: FileFormat = FileFormat {
     name: "Caddyfile",
     extensions: &["caddyfile"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

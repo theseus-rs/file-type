@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_94901924: FileFormat = FileFormat {
     name: "TSX",
     extensions: &["tsx"],
     media_types: &["text/jsx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

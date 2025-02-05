@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_754574151: FileFormat = FileFormat {
     name: "Dune",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

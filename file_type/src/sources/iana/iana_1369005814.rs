@@ -6,6 +6,6 @@ pub(crate) const IANA_1369005814: FileFormat = FileFormat {
     name: "SMV0",
     extensions: &[],
     media_types: &["audio/SMV0"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

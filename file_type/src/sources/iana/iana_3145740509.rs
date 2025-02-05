@@ -6,6 +6,6 @@ pub(crate) const IANA_3145740509: FileFormat = FileFormat {
     name: "vnd.umajin",
     extensions: &[],
     media_types: &["application/vnd.umajin"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

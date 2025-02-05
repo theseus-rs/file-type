@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_118656070: FileFormat = FileFormat {
     name: "TL-Verilog",
     extensions: &["tlv"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

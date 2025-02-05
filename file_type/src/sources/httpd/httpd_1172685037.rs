@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1172685037: FileFormat = FileFormat {
     name: "sv4cpio",
     extensions: &["sv4cpio"],
     media_types: &["application/x-sv4cpio"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

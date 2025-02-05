@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_15829853: FileFormat = FileFormat {
     id: 15_829_853,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_15829853: FileFormat = FileFormat {
     name: "QGIS layer style",
     extensions: &["qml"],
     media_types: &["test/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105860292: FileFormat = FileFormat {
     id: 105_860_292,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105860292: FileFormat = FileFormat {
     name: "X-Stitch Designer Gold Template",
     extensions: &["rxt"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

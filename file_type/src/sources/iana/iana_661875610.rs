@@ -6,6 +6,6 @@ pub(crate) const IANA_661875610: FileFormat = FileFormat {
     name: "vnd.belightsoft.lhzl+zip",
     extensions: &[],
     media_types: &["application/vnd.belightsoft.lhzl+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

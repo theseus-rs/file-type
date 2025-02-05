@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2349685866: FileFormat = FileFormat {
     name: "groove account",
     extensions: &["gac"],
     media_types: &["application/vnd.groove-account"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

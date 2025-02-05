@@ -6,6 +6,6 @@ pub(crate) const IANA_3932422767: FileFormat = FileFormat {
     name: "x-mixed-replace",
     extensions: &[],
     media_types: &["multipart/x-mixed-replace"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

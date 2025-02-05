@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_738107771: FileFormat = FileFormat {
     name: "Godot Resource",
     extensions: &["gdnlib", "gdns", "tres", "tscn"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

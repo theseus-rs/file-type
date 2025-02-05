@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2587: FileFormat = FileFormat {
@@ -9,8 +9,8 @@ pub(crate) const PRONOM_2587: FileFormat = FileFormat {
     name: "Apple Partition Map ISO 9660 Hybrid",
     extensions: &["toast", "iso", "cdr"],
     media_types: &[],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(32_768),
@@ -26,7 +26,7 @@ pub(crate) const PRONOM_2587: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(32_768),

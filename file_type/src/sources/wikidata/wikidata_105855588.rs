@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105855588: FileFormat = FileFormat {
     id: 105_855_588,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105855588: FileFormat = FileFormat {
     name: "OpenVPN profile (var.1)",
     extensions: &["ovpn"],
     media_types: &["application/x-openvpn-profile"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

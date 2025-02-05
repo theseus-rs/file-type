@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3350827943: FileFormat = FileFormat {
     name: "gramps xml",
     extensions: &["gramps"],
     media_types: &["application/x-gramps-xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

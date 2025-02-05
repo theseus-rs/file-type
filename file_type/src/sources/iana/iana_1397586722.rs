@@ -6,6 +6,6 @@ pub(crate) const IANA_1397586722: FileFormat = FileFormat {
     name: "vnd.frogans.fnc (OBSOLETE)",
     extensions: &[],
     media_types: &["application/vnd.frogans.fnc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

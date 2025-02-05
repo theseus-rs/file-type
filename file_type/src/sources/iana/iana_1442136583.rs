@@ -6,6 +6,6 @@ pub(crate) const IANA_1442136583: FileFormat = FileFormat {
     name: "vnd.patentdive",
     extensions: &[],
     media_types: &["application/vnd.patentdive"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

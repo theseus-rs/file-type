@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_220689142: FileFormat = FileFormat {
     name: "Julia REPL",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

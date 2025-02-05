@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2190910405: FileFormat = FileFormat {
     name: "pawaafile",
     extensions: &["paw"],
     media_types: &["application/vnd.pawaafile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

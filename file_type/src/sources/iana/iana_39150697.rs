@@ -6,6 +6,6 @@ pub(crate) const IANA_39150697: FileFormat = FileFormat {
     name: "application/trust-chain+json",
     extensions: &[],
     media_types: &["application/trust-chain+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

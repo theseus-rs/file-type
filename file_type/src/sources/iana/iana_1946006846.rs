@@ -6,6 +6,6 @@ pub(crate) const IANA_1946006846: FileFormat = FileFormat {
     name: "alto-cdnifilter+json",
     extensions: &[],
     media_types: &["application/alto-cdnifilter+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

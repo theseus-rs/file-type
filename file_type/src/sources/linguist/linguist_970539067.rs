@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_970539067: FileFormat = FileFormat {
     name: "q",
     extensions: &["q"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

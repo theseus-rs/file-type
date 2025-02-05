@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856700: FileFormat = FileFormat {
     id: 105_856_700,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105856700: FileFormat = FileFormat {
     name: "Qt User Interface",
     extensions: &["ui"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

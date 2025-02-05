@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131145237: FileFormat = FileFormat {
     id: 131_145_237,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131145237: FileFormat = FileFormat {
     name: "SourcePawn source code file",
     extensions: &["sp"],
     media_types: &["text/x-sourcepawn"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

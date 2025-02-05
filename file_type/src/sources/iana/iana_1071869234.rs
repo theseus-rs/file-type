@@ -6,6 +6,6 @@ pub(crate) const IANA_1071869234: FileFormat = FileFormat {
     name: "relax-ng-compact-syntax",
     extensions: &[],
     media_types: &["application/relax-ng-compact-syntax"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

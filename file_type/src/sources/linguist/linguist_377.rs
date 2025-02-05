@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_377: FileFormat = FileFormat {
     name: "Twig",
     extensions: &["twig"],
     media_types: &["text/x-twig"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_193878515: FileFormat = FileFormat {
     name: "sdp",
     extensions: &[],
     media_types: &["application/sdp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

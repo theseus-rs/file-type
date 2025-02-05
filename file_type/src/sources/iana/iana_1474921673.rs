@@ -6,6 +6,6 @@ pub(crate) const IANA_1474921673: FileFormat = FileFormat {
     name: "vnd.omads-folder+xml",
     extensions: &[],
     media_types: &["application/vnd.omads-folder+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

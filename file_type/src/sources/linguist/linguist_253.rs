@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_253: FileFormat = FileFormat {
     name: "Nu",
     extensions: &["nu"],
     media_types: &["text/x-scheme"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

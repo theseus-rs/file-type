@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_348895984: FileFormat = FileFormat {
     name: "P4",
     extensions: &["p4"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

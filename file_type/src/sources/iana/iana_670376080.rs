@@ -6,6 +6,6 @@ pub(crate) const IANA_670376080: FileFormat = FileFormat {
     name: "sp-midi",
     extensions: &[],
     media_types: &["audio/sp-midi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

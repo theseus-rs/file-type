@@ -6,6 +6,6 @@ pub(crate) const IANA_2284811522: FileFormat = FileFormat {
     name: "spdx+json",
     extensions: &[],
     media_types: &["application/spdx+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1218352227: FileFormat = FileFormat {
     name: "vnd.realvnc.bed",
     extensions: &[],
     media_types: &["application/vnd.realvnc.bed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

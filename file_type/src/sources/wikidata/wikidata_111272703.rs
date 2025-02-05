@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111272703: FileFormat = FileFormat {
     id: 111_272_703,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111272703: FileFormat = FileFormat {
     name: "Floating Point raw 32-bit IEEE data",
     extensions: &["f32"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

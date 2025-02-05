@@ -6,6 +6,6 @@ pub(crate) const IANA_4088769950: FileFormat = FileFormat {
     name: "sql",
     extensions: &[],
     media_types: &["application/sql"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

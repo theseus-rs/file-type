@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_262: FileFormat = FileFormat {
     name: "Opal",
     extensions: &["opal"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

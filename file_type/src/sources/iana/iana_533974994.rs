@@ -6,6 +6,6 @@ pub(crate) const IANA_533974994: FileFormat = FileFormat {
     name: "vnd.oma.pal+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.pal+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

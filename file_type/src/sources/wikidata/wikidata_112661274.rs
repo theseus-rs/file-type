@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_112661274: FileFormat = FileFormat {
     id: 112_661_274,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_112661274: FileFormat = FileFormat {
     name: "Lightscape Solution file",
     extensions: &["ls"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

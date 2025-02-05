@@ -6,6 +6,6 @@ pub(crate) const HTTPD_827296418: FileFormat = FileFormat {
     name: "jxl",
     extensions: &["jxl"],
     media_types: &["image/jxl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

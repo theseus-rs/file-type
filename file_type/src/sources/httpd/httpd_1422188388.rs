@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1422188388: FileFormat = FileFormat {
     name: "dolby mlp",
     extensions: &["mlp"],
     media_types: &["application/vnd.dolby.mlp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_960360071: FileFormat = FileFormat {
     name: "vnd.hyper-item+json",
     extensions: &[],
     media_types: &["application/vnd.hyper-item+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

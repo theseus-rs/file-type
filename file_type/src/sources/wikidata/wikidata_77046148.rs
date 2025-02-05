@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_77046148: FileFormat = FileFormat {
     id: 77_046_148,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_77046148: FileFormat = FileFormat {
     name: "3ds Max XML Animation File",
     extensions: &["xaf"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_292377326: FileFormat = FileFormat {
     name: "Velocity Template Language",
     extensions: &["vtl"],
     media_types: &["text/velocity"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

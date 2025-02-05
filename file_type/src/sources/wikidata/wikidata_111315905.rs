@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111315905: FileFormat = FileFormat {
     id: 111_315_905,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111315905: FileFormat = FileFormat {
     name: "IBM MWave DSP synthesizer bank setup",
     extensions: &["ini"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

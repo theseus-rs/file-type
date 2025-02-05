@@ -6,6 +6,6 @@ pub(crate) const IANA_3216745495: FileFormat = FileFormat {
     name: "vnd.audiokoz",
     extensions: &[],
     media_types: &["audio/vnd.audiokoz"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

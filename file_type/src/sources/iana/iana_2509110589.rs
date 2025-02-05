@@ -6,6 +6,6 @@ pub(crate) const IANA_2509110589: FileFormat = FileFormat {
     name: "jrd+json",
     extensions: &[],
     media_types: &["application/jrd+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

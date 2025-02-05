@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_366607477: FileFormat = FileFormat {
     name: "HAProxy",
     extensions: &["cfg"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_4028023470: FileFormat = FileFormat {
     name: "rfc822-headers",
     extensions: &[],
     media_types: &["text/rfc822-headers"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

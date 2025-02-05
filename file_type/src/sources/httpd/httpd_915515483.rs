@@ -6,6 +6,6 @@ pub(crate) const HTTPD_915515483: FileFormat = FileFormat {
     name: "html",
     extensions: &["html", "htm"],
     media_types: &["text/html"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

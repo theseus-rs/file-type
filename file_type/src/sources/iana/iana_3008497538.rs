@@ -6,6 +6,6 @@ pub(crate) const IANA_3008497538: FileFormat = FileFormat {
     name: "vnd.ntt-local.sip-ta_tcp_stream",
     extensions: &[],
     media_types: &["application/vnd.ntt-local.sip-ta_tcp_stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

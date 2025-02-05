@@ -6,6 +6,6 @@ pub(crate) const IANA_820780064: FileFormat = FileFormat {
     name: "vnd.kenameaapp",
     extensions: &[],
     media_types: &["application/vnd.kenameaapp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

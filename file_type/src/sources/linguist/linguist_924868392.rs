@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_924868392: FileFormat = FileFormat {
     name: "OMNeT++ NED",
     extensions: &["ned"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

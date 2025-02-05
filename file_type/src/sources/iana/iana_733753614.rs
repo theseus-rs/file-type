@@ -6,6 +6,6 @@ pub(crate) const IANA_733753614: FileFormat = FileFormat {
     name: "vnd.trid.tpt",
     extensions: &[],
     media_types: &["application/vnd.trid.tpt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

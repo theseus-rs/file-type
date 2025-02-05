@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_314: FileFormat = FileFormat {
     name: "RPM Spec",
     extensions: &["spec"],
     media_types: &["text/x-rpm-spec"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

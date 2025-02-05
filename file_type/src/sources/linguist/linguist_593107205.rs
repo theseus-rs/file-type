@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_593107205: FileFormat = FileFormat {
     name: "QuickBASIC",
     extensions: &["bas"],
     media_types: &["text/x-vb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

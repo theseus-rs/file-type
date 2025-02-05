@@ -6,6 +6,6 @@ pub(crate) const IANA_3745496398: FileFormat = FileFormat {
     name: "vnd.sss-dtf",
     extensions: &[],
     media_types: &["application/vnd.sss-dtf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_234: FileFormat = FileFormat {
     name: "Modula-2",
     extensions: &["mod"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

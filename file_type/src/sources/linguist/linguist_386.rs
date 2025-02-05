@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_386: FileFormat = FileFormat {
     name: "Vala",
     extensions: &["vala", "vapi"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

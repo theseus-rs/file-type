@@ -6,6 +6,6 @@ pub(crate) const IANA_1695147511: FileFormat = FileFormat {
     name: "vnd.CELP",
     extensions: &[],
     media_types: &["audio/vnd.CELP"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

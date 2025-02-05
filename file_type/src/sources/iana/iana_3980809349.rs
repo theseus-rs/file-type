@@ -6,6 +6,6 @@ pub(crate) const IANA_3980809349: FileFormat = FileFormat {
     name: "vnd.nebumind.line",
     extensions: &[],
     media_types: &["application/vnd.nebumind.line"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

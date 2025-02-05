@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_285: FileFormat = FileFormat {
     name: "PicoLisp",
     extensions: &["l"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

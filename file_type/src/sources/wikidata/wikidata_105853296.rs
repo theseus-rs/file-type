@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105853296: FileFormat = FileFormat {
     id: 105_853_296,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105853296: FileFormat = FileFormat {
     name: "Stacker compressed volume (v4.x)",
     extensions: &["000"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

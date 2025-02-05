@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3174363614: FileFormat = FileFormat {
     name: "ms asf",
     extensions: &["asf", "asx"],
     media_types: &["video/x-ms-asf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_620086286: FileFormat = FileFormat {
     name: "directory - DEPRECATED by RFC6350",
     extensions: &[],
     media_types: &["text/directory"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

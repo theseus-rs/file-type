@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111341734: FileFormat = FileFormat {
     id: 111_341_734,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111341734: FileFormat = FileFormat {
     name: "Sound Designer II data forks",
     extensions: &["sd2"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

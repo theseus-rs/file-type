@@ -6,6 +6,6 @@ pub(crate) const IANA_717604115: FileFormat = FileFormat {
     name: "vnd.oai.workflows+json",
     extensions: &[],
     media_types: &["application/vnd.oai.workflows+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

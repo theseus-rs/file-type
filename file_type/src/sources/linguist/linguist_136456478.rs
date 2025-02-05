@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_136456478: FileFormat = FileFormat {
     name: "NMODL",
     extensions: &["mod"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

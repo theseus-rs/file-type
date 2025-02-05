@@ -6,6 +6,6 @@ pub(crate) const HTTPD_15491224: FileFormat = FileFormat {
     name: "gmx",
     extensions: &["gmx"],
     media_types: &["application/vnd.gmx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

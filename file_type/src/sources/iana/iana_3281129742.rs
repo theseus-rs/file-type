@@ -6,6 +6,6 @@ pub(crate) const IANA_3281129742: FileFormat = FileFormat {
     name: "vnd.etsi.iptvueprofile+xml",
     extensions: &[],
     media_types: &["application/vnd.etsi.iptvueprofile+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

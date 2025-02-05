@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_17: FileFormat = FileFormat {
     name: "Apex",
     extensions: &["apex", "cls", "trigger"],
     media_types: &["text/x-java"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

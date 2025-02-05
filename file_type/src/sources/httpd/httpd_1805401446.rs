@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1805401446: FileFormat = FileFormat {
     name: "authorware map",
     extensions: &["aam"],
     media_types: &["application/x-authorware-map"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

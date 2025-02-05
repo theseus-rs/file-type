@@ -6,6 +6,6 @@ pub(crate) const IANA_4115313787: FileFormat = FileFormat {
     name: "vnd.preminet",
     extensions: &[],
     media_types: &["application/vnd.preminet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

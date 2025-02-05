@@ -6,6 +6,6 @@ pub(crate) const IANA_791486801: FileFormat = FileFormat {
     name: "exi",
     extensions: &[],
     media_types: &["application/exi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

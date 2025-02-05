@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1196805: FileFormat = FileFormat {
     id: 1_196_805,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_1196805: FileFormat = FileFormat {
     name: "Resource Interchange File Format",
     extensions: &["riff"],
     media_types: &["application/x-riff"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

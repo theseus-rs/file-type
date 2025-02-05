@@ -6,6 +6,6 @@ pub(crate) const IANA_3509367414: FileFormat = FileFormat {
     name: "mods+xml",
     extensions: &[],
     media_types: &["application/mods+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

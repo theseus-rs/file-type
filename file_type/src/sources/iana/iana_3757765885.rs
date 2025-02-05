@@ -6,6 +6,6 @@ pub(crate) const IANA_3757765885: FileFormat = FileFormat {
     name: "vnd.flatland.3dml",
     extensions: &[],
     media_types: &["model/vnd.flatland.3dml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

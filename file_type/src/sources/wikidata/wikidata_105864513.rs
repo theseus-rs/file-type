@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105864513: FileFormat = FileFormat {
     id: 105_864_513,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105864513: FileFormat = FileFormat {
     name: "MATLAB Compiler Project",
     extensions: &["prj"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

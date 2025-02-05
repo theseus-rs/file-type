@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_231751931: FileFormat = FileFormat {
     name: "Monkey C",
     extensions: &["mc"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

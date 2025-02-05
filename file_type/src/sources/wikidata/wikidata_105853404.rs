@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105853404: FileFormat = FileFormat {
     id: 105_853_404,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105853404: FileFormat = FileFormat {
     name: "CloudCompare STereoLithography (binary)",
     extensions: &["stl"],
     media_types: &["model/x.stl-binary"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

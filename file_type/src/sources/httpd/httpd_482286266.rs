@@ -6,6 +6,6 @@ pub(crate) const HTTPD_482286266: FileFormat = FileFormat {
     name: "marcxml xml",
     extensions: &["mrcx"],
     media_types: &["application/marcxml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

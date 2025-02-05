@@ -6,6 +6,6 @@ pub(crate) const IANA_76276134: FileFormat = FileFormat {
     name: "timestamp-reply",
     extensions: &[],
     media_types: &["application/timestamp-reply"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

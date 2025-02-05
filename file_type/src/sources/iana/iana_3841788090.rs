@@ -6,6 +6,6 @@ pub(crate) const IANA_3841788090: FileFormat = FileFormat {
     name: "vnd.arastra.swi (OBSOLETED in favor of application/vnd.aristanetworks.swi)",
     extensions: &[],
     media_types: &["application/vnd.arastra.swi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

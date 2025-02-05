@@ -6,6 +6,6 @@ pub(crate) const IANA_3338420964: FileFormat = FileFormat {
     name: "vnd.maxmind.maxmind-db",
     extensions: &[],
     media_types: &["application/vnd.maxmind.maxmind-db"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

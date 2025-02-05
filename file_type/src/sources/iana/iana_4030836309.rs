@@ -6,6 +6,6 @@ pub(crate) const IANA_4030836309: FileFormat = FileFormat {
     name: "vnd.fut-misnet",
     extensions: &[],
     media_types: &["application/vnd.fut-misnet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

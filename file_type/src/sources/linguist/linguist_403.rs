@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_403: FileFormat = FileFormat {
     name: "XS",
     extensions: &["xs"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

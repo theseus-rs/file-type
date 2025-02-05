@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130134848: FileFormat = FileFormat {
     id: 130_134_848,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130134848: FileFormat = FileFormat {
     name: "Kusto query file",
     extensions: &["kql"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

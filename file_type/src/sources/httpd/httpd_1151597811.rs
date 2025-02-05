@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1151597811: FileFormat = FileFormat {
     name: "ktx",
     extensions: &["ktx"],
     media_types: &["image/ktx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1159758451: FileFormat = FileFormat {
     name: "3gpp-tt",
     extensions: &[],
     media_types: &["video/3gpp-tt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

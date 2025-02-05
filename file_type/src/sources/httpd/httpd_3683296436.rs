@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3683296436: FileFormat = FileFormat {
     name: "adobe formscentral fcdt",
     extensions: &["fcdt"],
     media_types: &["application/vnd.adobe.formscentral.fcdt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

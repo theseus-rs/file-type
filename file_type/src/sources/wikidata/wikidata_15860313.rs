@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_15860313: FileFormat = FileFormat {
     id: 15_860_313,
@@ -11,8 +9,8 @@ pub(crate) const WIKIDATA_15860313: FileFormat = FileFormat {
         "application/mathematica",
         "application/vnd.wolfram.mathematica",
     ],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -21,7 +19,7 @@ pub(crate) const WIKIDATA_15860313: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

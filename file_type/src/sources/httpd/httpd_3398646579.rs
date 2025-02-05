@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3398646579: FileFormat = FileFormat {
     name: "lzh compressed",
     extensions: &["lzh", "lha"],
     media_types: &["application/x-lzh-compressed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

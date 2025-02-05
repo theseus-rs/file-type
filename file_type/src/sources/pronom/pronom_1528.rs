@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1528: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1528: FileFormat = FileFormat {
     name: "SQLite Database File Format",
     extensions: &["sqlite", "db", "db3", "sqlite3"],
     media_types: &["application/x-sqlite3"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

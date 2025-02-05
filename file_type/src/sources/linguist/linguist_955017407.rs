@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_955017407: FileFormat = FileFormat {
     name: "Boogie",
     extensions: &["bpl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

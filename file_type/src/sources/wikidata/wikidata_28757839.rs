@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28757839: FileFormat = FileFormat {
     id: 28_757_839,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28757839: FileFormat = FileFormat {
     name: "Genecyst Backup RAM",
     extensions: &["gsv"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

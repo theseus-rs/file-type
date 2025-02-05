@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_409: FileFormat = FileFormat {
     name: "Yacc",
     extensions: &["y", "yacc", "yy"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

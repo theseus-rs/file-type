@@ -6,6 +6,6 @@ pub(crate) const IANA_2383623582: FileFormat = FileFormat {
     name: "vnd.openxmlformats-officedocument.themeOverride+xml",
     extensions: &[],
     media_types: &["application/vnd.openxmlformats-officedocument.themeOverride+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

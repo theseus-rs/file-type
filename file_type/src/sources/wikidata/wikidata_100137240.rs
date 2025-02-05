@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_100137240: FileFormat = FileFormat {
     id: 100_137_240,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_100137240: FileFormat = FileFormat {
     name: "VariCAD Drawing",
     extensions: &["dwb"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

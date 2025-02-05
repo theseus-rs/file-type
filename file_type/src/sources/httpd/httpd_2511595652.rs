@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2511595652: FileFormat = FileFormat {
     name: "mie",
     extensions: &["mie"],
     media_types: &["application/x-mie"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

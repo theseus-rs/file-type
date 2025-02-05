@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1063: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1063: FileFormat = FileFormat {
     name: "Secure DjVU",
     extensions: &["djvu", "djv"],
     media_types: &["image/vnd.djvu", "image/x-djvu"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

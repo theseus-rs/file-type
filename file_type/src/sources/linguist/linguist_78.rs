@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_78: FileFormat = FileFormat {
     name: "Cycript",
     extensions: &["cy"],
     media_types: &["text/javascript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

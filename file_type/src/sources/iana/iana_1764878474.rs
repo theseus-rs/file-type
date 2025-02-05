@@ -6,6 +6,6 @@ pub(crate) const IANA_1764878474: FileFormat = FileFormat {
     name: "vnd.dwf",
     extensions: &[],
     media_types: &["model/vnd.dwf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

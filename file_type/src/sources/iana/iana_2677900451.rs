@@ -6,6 +6,6 @@ pub(crate) const IANA_2677900451: FileFormat = FileFormat {
     name: "vnd.acucorp",
     extensions: &[],
     media_types: &["application/vnd.acucorp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

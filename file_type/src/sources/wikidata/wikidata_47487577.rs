@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_47487577: FileFormat = FileFormat {
     id: 47_487_577,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_47487577: FileFormat = FileFormat {
     name: "Alias Scene Description Language",
     extensions: &["sdl"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

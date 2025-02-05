@@ -6,6 +6,6 @@ pub(crate) const IANA_1724265822: FileFormat = FileFormat {
     name: "vnd.nokia.mobile-xmf",
     extensions: &[],
     media_types: &["audio/vnd.nokia.mobile-xmf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

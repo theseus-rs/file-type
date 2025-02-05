@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_61984331: FileFormat = FileFormat {
     id: 61_984_331,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_61984331: FileFormat = FileFormat {
     name: "FoxPro Project",
     extensions: &["pjx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

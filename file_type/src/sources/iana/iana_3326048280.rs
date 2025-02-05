@@ -6,6 +6,6 @@ pub(crate) const IANA_3326048280: FileFormat = FileFormat {
     name: "vnd.multiad.creator.cif",
     extensions: &[],
     media_types: &["application/vnd.multiad.creator.cif"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_748682461: FileFormat = FileFormat {
     name: "vnd.doremir.scorecloud-binary-document",
     extensions: &[],
     media_types: &["application/vnd.doremir.scorecloud-binary-document"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_884614762: FileFormat = FileFormat {
     name: "Adblock Filter List",
     extensions: &["txt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

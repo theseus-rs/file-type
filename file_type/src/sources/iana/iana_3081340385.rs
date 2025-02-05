@@ -6,6 +6,6 @@ pub(crate) const IANA_3081340385: FileFormat = FileFormat {
     name: "vnd.xacml+json",
     extensions: &[],
     media_types: &["application/vnd.xacml+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

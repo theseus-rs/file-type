@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_75597761: FileFormat = FileFormat {
     id: 75_597_761,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_75597761: FileFormat = FileFormat {
     name: "GeoGebra format, version 1.x",
     extensions: &["ggb"],
     media_types: &["application/vnd.geogebra.file"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

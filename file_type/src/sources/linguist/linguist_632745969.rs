@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_632745969: FileFormat = FileFormat {
     name: "Wollok",
     extensions: &["wlk"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

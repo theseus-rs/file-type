@@ -6,6 +6,6 @@ pub(crate) const IANA_2205295552: FileFormat = FileFormat {
     name: "vnd.dvb.ipdcesgaccess",
     extensions: &[],
     media_types: &["application/vnd.dvb.ipdcesgaccess"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

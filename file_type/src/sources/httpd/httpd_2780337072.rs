@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2780337072: FileFormat = FileFormat {
     name: "sfv",
     extensions: &["sfv"],
     media_types: &["text/x-sfv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

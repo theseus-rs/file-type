@@ -6,6 +6,6 @@ pub(crate) const IANA_1796523586: FileFormat = FileFormat {
     name: "alto-endpointprop+json",
     extensions: &[],
     media_types: &["application/alto-endpointprop+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

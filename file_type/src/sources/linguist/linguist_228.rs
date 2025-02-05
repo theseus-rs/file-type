@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_228: FileFormat = FileFormat {
     name: "Wikitext",
     extensions: &["mediawiki", "wiki", "wikitext"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_364278260: FileFormat = FileFormat {
     name: "xfig",
     extensions: &["fig"],
     media_types: &["application/x-xfig"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

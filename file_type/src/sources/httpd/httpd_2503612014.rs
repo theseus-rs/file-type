@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2503612014: FileFormat = FileFormat {
     name: "mobius msl",
     extensions: &["msl"],
     media_types: &["application/vnd.mobius.msl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

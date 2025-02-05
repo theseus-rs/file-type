@@ -6,6 +6,6 @@ pub(crate) const IANA_108293076: FileFormat = FileFormat {
     name: "remote-printing (OBSOLETE)",
     extensions: &[],
     media_types: &["application/remote-printing"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1079094050: FileFormat = FileFormat {
     name: "hsj2 (OBSOLETE)",
     extensions: &[],
     media_types: &["image/hsj2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

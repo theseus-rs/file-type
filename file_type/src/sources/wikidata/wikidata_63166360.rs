@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_63166360: FileFormat = FileFormat {
     id: 63_166_360,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_63166360: FileFormat = FileFormat {
     name: "Microsoft Office Binder Wizard for Windows, version 97-2003",
     extensions: &["obz"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

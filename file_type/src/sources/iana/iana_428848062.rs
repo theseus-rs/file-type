@@ -6,6 +6,6 @@ pub(crate) const IANA_428848062: FileFormat = FileFormat {
     name: "vnd.4SB",
     extensions: &[],
     media_types: &["audio/vnd.4SB"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

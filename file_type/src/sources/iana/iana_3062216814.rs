@@ -6,6 +6,6 @@ pub(crate) const IANA_3062216814: FileFormat = FileFormat {
     name: "prs.mayfile",
     extensions: &[],
     media_types: &["application/prs.mayfile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

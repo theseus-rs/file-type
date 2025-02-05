@@ -6,6 +6,6 @@ pub(crate) const IANA_2853877227: FileFormat = FileFormat {
     name: "jphc",
     extensions: &[],
     media_types: &["image/jphc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_703420198: FileFormat = FileFormat {
     name: "vnd.autopackage",
     extensions: &[],
     media_types: &["application/vnd.autopackage"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

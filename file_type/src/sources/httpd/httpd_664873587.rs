@@ -6,6 +6,6 @@ pub(crate) const HTTPD_664873587: FileFormat = FileFormat {
     name: "x3d vrml",
     extensions: &["x3dv", "x3dvz"],
     media_types: &["model/x3d+vrml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

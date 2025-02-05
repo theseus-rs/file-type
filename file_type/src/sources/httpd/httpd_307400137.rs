@@ -6,6 +6,6 @@ pub(crate) const HTTPD_307400137: FileFormat = FileFormat {
     name: "igloader",
     extensions: &["igl"],
     media_types: &["application/vnd.igloader"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

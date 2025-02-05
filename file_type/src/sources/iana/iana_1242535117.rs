@@ -6,6 +6,6 @@ pub(crate) const IANA_1242535117: FileFormat = FileFormat {
     name: "vnd.siren+json",
     extensions: &[],
     media_types: &["application/vnd.siren+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

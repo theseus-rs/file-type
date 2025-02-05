@@ -6,6 +6,6 @@ pub(crate) const IANA_320775993: FileFormat = FileFormat {
     name: "vnd.dm.delegation+xml",
     extensions: &[],
     media_types: &["application/vnd.dm.delegation+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

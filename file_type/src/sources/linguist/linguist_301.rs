@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_301: FileFormat = FileFormat {
     name: "PureBasic",
     extensions: &["pb", "pbi"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

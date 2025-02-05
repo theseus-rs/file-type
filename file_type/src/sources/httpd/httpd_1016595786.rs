@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1016595786: FileFormat = FileFormat {
     name: "inkml xml",
     extensions: &["ink", "inkml"],
     media_types: &["application/inkml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_672123413: FileFormat = FileFormat {
     name: "digest",
     extensions: &[],
     media_types: &["multipart/digest"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

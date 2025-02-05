@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_65533627: FileFormat = FileFormat {
     id: 65_533_627,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_65533627: FileFormat = FileFormat {
     name: "Food Data Exchange File format",
     extensions: &["fdx"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

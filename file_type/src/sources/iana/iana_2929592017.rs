@@ -6,6 +6,6 @@ pub(crate) const IANA_2929592017: FileFormat = FileFormat {
     name: "ttml+xml",
     extensions: &[],
     media_types: &["application/ttml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

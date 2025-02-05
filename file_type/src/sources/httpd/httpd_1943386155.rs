@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1943386155: FileFormat = FileFormat {
     name: "tmobile livetv",
     extensions: &["tmo"],
     media_types: &["application/vnd.tmobile-livetv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

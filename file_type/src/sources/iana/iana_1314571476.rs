@@ -6,6 +6,6 @@ pub(crate) const IANA_1314571476: FileFormat = FileFormat {
     name: "vnd.nokia.mp4vr",
     extensions: &[],
     media_types: &["video/vnd.nokia.mp4vr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

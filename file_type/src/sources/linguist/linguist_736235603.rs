@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_736235603: FileFormat = FileFormat {
     name: "PDDL",
     extensions: &["pddl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

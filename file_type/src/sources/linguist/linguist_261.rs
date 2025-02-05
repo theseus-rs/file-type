@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_261: FileFormat = FileFormat {
     name: "Opa",
     extensions: &["opa"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

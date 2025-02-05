@@ -6,6 +6,6 @@ pub(crate) const IANA_1255250193: FileFormat = FileFormat {
     name: "vnd.3gpp.mcdata-msgstore-ctrl-request+xml",
     extensions: &[],
     media_types: &["application/vnd.3gpp.mcdata-msgstore-ctrl-request+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

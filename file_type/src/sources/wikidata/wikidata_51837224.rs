@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_51837224: FileFormat = FileFormat {
     id: 51_837_224,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_51837224: FileFormat = FileFormat {
     name: "Paradox Database Table, version 7",
     extensions: &["db"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

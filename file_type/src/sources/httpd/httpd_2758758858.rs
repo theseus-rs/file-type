@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2758758858: FileFormat = FileFormat {
     name: "cmx",
     extensions: &["cmx"],
     media_types: &["image/x-cmx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1316700297: FileFormat = FileFormat {
     name: "wmf",
     extensions: &[],
     media_types: &["image/wmf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_985227236: FileFormat = FileFormat {
     name: "Object Data Instance Notation",
     extensions: &["odin"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

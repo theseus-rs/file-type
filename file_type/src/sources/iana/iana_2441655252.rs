@@ -6,6 +6,6 @@ pub(crate) const IANA_2441655252: FileFormat = FileFormat {
     name: "vnd.oma.drm.risd+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.drm.risd+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

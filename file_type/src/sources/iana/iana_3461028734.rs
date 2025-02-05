@@ -6,6 +6,6 @@ pub(crate) const IANA_3461028734: FileFormat = FileFormat {
     name: "samlmetadata+xml",
     extensions: &[],
     media_types: &["application/samlmetadata+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_316: FileFormat = FileFormat {
     name: "Racket",
     extensions: &["rkt", "rktd", "rktl", "scrbl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

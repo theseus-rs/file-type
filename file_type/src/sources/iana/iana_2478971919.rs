@@ -6,6 +6,6 @@ pub(crate) const IANA_2478971919: FileFormat = FileFormat {
     name: "vnd.sealedmedia.softseal.mov",
     extensions: &[],
     media_types: &["video/vnd.sealedmedia.softseal.mov"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

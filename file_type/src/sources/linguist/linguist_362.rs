@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_362: FileFormat = FileFormat {
     name: "Swift",
     extensions: &["swift"],
     media_types: &["text/x-swift"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

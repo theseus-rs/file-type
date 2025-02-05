@@ -6,6 +6,6 @@ pub(crate) const IANA_2784645113: FileFormat = FileFormat {
     name: "vnd.eln+zip",
     extensions: &[],
     media_types: &["application/vnd.eln+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

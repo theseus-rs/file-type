@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131430822: FileFormat = FileFormat {
     id: 131_430_822,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131430822: FileFormat = FileFormat {
     name: "XQuery Source File",
     extensions: &["xq", "xql", "xqm", "xquery", "xqy"],
     media_types: &["application/xquery", "text/xquery"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

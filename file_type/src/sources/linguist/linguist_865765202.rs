@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_865765202: FileFormat = FileFormat {
     name: "Record Jar",
     extensions: &[],
     media_types: &["text/x-properties"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

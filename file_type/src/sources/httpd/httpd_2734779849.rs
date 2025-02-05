@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2734779849: FileFormat = FileFormat {
     name: "gtw",
     extensions: &["gtw"],
     media_types: &["model/vnd.gtw"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

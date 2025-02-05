@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1747625988: FileFormat = FileFormat {
     name: "set payment initiation",
     extensions: &["setpay"],
     media_types: &["application/set-payment-initiation"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

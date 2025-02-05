@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_113162258: FileFormat = FileFormat {
     id: 113_162_258,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_113162258: FileFormat = FileFormat {
     name: "MyMailManager File",
     extensions: &["mml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

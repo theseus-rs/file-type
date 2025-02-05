@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_687511714: FileFormat = FileFormat {
     name: "ShellCheck Config",
     extensions: &[],
     media_types: &["text/x-properties"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

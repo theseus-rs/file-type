@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_767169629: FileFormat = FileFormat {
     name: "Spline Font Database",
     extensions: &["sfd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

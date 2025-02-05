@@ -6,6 +6,6 @@ pub(crate) const IANA_2662883759: FileFormat = FileFormat {
     name: "vnd.adobe.photoshop",
     extensions: &[],
     media_types: &["image/vnd.adobe.photoshop"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2229859570: FileFormat = FileFormat {
     name: "sensml+xml",
     extensions: &[],
     media_types: &["application/sensml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

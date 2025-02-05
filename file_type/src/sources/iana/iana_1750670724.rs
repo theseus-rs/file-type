@@ -6,6 +6,6 @@ pub(crate) const IANA_1750670724: FileFormat = FileFormat {
     name: "vnd.hzn-3d-crossword",
     extensions: &[],
     media_types: &["application/vnd.hzn-3d-crossword"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

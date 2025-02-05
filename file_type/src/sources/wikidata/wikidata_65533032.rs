@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_65533032: FileFormat = FileFormat {
     id: 65_533_032,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_65533032: FileFormat = FileFormat {
     name: "Menu file format",
     extensions: &["mnu"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

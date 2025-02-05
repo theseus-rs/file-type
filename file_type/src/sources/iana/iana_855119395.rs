@@ -6,6 +6,6 @@ pub(crate) const IANA_855119395: FileFormat = FileFormat {
     name: "vnd.uiq.theme",
     extensions: &[],
     media_types: &["application/vnd.uiq.theme"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

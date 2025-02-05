@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111393762: FileFormat = FileFormat {
     id: 111_393_762,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111393762: FileFormat = FileFormat {
     name: "Database Oasis Template",
     extensions: &["mkt", "mktx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

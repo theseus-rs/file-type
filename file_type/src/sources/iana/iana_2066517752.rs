@@ -6,6 +6,6 @@ pub(crate) const IANA_2066517752: FileFormat = FileFormat {
     name: "vnd.oipf.contentaccessstreaming+xml",
     extensions: &[],
     media_types: &["application/vnd.oipf.contentaccessstreaming+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

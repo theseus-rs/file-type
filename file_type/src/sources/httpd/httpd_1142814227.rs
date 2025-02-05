@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1142814227: FileFormat = FileFormat {
     name: "crick clicker palette",
     extensions: &["clkp"],
     media_types: &["application/vnd.crick.clicker.palette"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

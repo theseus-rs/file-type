@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_117: FileFormat = FileFormat {
     name: "G-code",
     extensions: &["cnc", "g", "gco", "gcode"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2918110073: FileFormat = FileFormat {
     name: "bufr",
     extensions: &[],
     media_types: &["application/bufr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

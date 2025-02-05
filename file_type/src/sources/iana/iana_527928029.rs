@@ -6,6 +6,6 @@ pub(crate) const IANA_527928029: FileFormat = FileFormat {
     name: "java-archive",
     extensions: &[],
     media_types: &["application/java-archive"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

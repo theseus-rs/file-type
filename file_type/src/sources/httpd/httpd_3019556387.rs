@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3019556387: FileFormat = FileFormat {
     name: "thraud xml",
     extensions: &["tfi"],
     media_types: &["application/thraud+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

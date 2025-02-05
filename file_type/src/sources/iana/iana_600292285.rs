@@ -6,6 +6,6 @@ pub(crate) const IANA_600292285: FileFormat = FileFormat {
     name: "prs.plucker",
     extensions: &[],
     media_types: &["application/prs.plucker"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

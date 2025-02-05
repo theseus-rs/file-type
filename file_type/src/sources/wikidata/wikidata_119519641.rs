@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_119519641: FileFormat = FileFormat {
     id: 119_519_641,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_119519641: FileFormat = FileFormat {
     name: "Windows Spelling Dictionary Identifier",
     extensions: &["dub"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_538732839: FileFormat = FileFormat {
     name: "Readline Config",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

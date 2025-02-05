@@ -6,6 +6,6 @@ pub(crate) const HTTPD_197220275: FileFormat = FileFormat {
     name: "android package archive",
     extensions: &["apk"],
     media_types: &["application/vnd.android.package-archive"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_855119395: FileFormat = FileFormat {
     name: "uiq theme",
     extensions: &["utz"],
     media_types: &["application/vnd.uiq.theme"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

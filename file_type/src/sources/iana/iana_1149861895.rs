@@ -6,6 +6,6 @@ pub(crate) const IANA_1149861895: FileFormat = FileFormat {
     name: "tamp-sequence-adjust",
     extensions: &[],
     media_types: &["application/tamp-sequence-adjust"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

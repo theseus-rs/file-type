@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1675515245: FileFormat = FileFormat {
     name: "blueice multipass",
     extensions: &["mpm"],
     media_types: &["application/vnd.blueice.multipass"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

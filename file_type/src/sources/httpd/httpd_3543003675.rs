@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3543003675: FileFormat = FileFormat {
     name: "cache manifest",
     extensions: &["appcache"],
     media_types: &["text/cache-manifest"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

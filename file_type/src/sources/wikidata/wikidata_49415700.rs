@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_49415700: FileFormat = FileFormat {
     id: 49_415_700,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_49415700: FileFormat = FileFormat {
     name: "CATIA file format, version 5",
     extensions: &["catmaterial"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

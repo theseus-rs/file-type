@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_290: FileFormat = FileFormat {
     name: "Pony",
     extensions: &["pony"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

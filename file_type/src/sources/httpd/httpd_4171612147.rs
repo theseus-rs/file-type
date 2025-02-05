@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4171612147: FileFormat = FileFormat {
     name: "sun xml calc",
     extensions: &["sxc"],
     media_types: &["application/vnd.sun.xml.calc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

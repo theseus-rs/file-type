@@ -6,6 +6,6 @@ pub(crate) const IANA_2401825161: FileFormat = FileFormat {
     name: "avif",
     extensions: &[],
     media_types: &["image/avif"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

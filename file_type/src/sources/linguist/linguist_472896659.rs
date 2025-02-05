@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_472896659: FileFormat = FileFormat {
     name: "FreeBASIC",
     extensions: &["bas", "bi"],
     media_types: &["text/x-vb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

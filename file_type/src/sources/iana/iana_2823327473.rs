@@ -6,6 +6,6 @@ pub(crate) const IANA_2823327473: FileFormat = FileFormat {
     name: "vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml",
     extensions: &[],
     media_types: &["application/vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

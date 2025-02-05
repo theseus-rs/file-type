@@ -6,6 +6,6 @@ pub(crate) const HTTPD_632170566: FileFormat = FileFormat {
     name: "handheld entertainment xml",
     extensions: &["zmm"],
     media_types: &["application/vnd.handheld-entertainment+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

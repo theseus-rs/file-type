@@ -6,6 +6,6 @@ pub(crate) const IANA_501733551: FileFormat = FileFormat {
     name: "vnd.svd",
     extensions: &[],
     media_types: &["application/vnd.svd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2904866414: FileFormat = FileFormat {
     name: "vnd.jisp",
     extensions: &[],
     media_types: &["application/vnd.jisp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_483127336: FileFormat = FileFormat {
     name: "mpeg",
     extensions: &["mpga", "mp2", "mp2a", "mp3", "m2a", "m3a"],
     media_types: &["audio/mpeg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_521782095: FileFormat = FileFormat {
     name: "vnd.Mobius.MBK",
     extensions: &[],
     media_types: &["application/vnd.Mobius.MBK"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

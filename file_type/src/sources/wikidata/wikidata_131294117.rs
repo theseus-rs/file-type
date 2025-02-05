@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131294117: FileFormat = FileFormat {
     id: 131_294_117,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131294117: FileFormat = FileFormat {
     name: "Terraform file format",
     extensions: &["hcl", "tf"],
     media_types: &["application/x-terraform", "application/x-tf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

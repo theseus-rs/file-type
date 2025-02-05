@@ -6,6 +6,6 @@ pub(crate) const IANA_2678541341: FileFormat = FileFormat {
     name: "vnd.tml",
     extensions: &[],
     media_types: &["application/vnd.tml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1223968204: FileFormat = FileFormat {
     name: "telephone-event",
     extensions: &[],
     media_types: &["audio/telephone-event"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

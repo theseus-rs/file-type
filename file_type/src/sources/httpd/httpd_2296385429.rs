@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2296385429: FileFormat = FileFormat {
     name: "irepository package xml",
     extensions: &["irp"],
     media_types: &["application/vnd.irepository.package+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

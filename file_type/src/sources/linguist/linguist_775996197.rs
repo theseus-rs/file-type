@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_775996197: FileFormat = FileFormat {
     name: "nanorc",
     extensions: &["nanorc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

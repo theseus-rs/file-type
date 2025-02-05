@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_91493841: FileFormat = FileFormat {
     name: "Clarity",
     extensions: &["clar"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_735623761: FileFormat = FileFormat {
     name: "Simple File Verification",
     extensions: &["sfv"],
     media_types: &["text/x-properties"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

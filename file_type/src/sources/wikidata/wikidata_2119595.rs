@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_2119595: FileFormat = FileFormat {
     id: 2_119_595,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_2119595: FileFormat = FileFormat {
     name: "Wavefront .obj file",
     extensions: &["object"],
     media_types: &["model/obj", "text/plain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_22: FileFormat = FileFormat {
     name: "AsciiDoc",
     extensions: &["adoc", "asc", "asciidoc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

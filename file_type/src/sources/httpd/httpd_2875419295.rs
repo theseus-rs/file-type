@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2875419295: FileFormat = FileFormat {
     name: "asm",
     extensions: &["s", "asm"],
     media_types: &["text/x-asm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

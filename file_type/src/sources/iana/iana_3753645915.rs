@@ -6,6 +6,6 @@ pub(crate) const IANA_3753645915: FileFormat = FileFormat {
     name: "yang-data+cbor",
     extensions: &[],
     media_types: &["application/yang-data+cbor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_942105561: FileFormat = FileFormat {
     name: "rpki manifest",
     extensions: &["mft"],
     media_types: &["application/rpki-manifest"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

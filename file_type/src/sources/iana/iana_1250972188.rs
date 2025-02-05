@@ -6,6 +6,6 @@ pub(crate) const IANA_1250972188: FileFormat = FileFormat {
     name: "scvp-vp-response",
     extensions: &[],
     media_types: &["application/scvp-vp-response"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

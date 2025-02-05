@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_684385621: FileFormat = FileFormat {
     name: "Pip Requirements",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

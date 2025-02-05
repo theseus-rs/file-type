@@ -6,6 +6,6 @@ pub(crate) const IANA_1971868232: FileFormat = FileFormat {
     name: "mhas",
     extensions: &[],
     media_types: &["audio/mhas"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

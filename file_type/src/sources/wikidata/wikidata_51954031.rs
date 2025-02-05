@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_51954031: FileFormat = FileFormat {
     id: 51_954_031,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_51954031: FileFormat = FileFormat {
     name: "MapBrowser/MapWriter Vector Map Data",
     extensions: &["cbd"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

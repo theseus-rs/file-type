@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1040646257: FileFormat = FileFormat {
     name: "LigoLANG",
     extensions: &["ligo"],
     media_types: &["text/x-pascal"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

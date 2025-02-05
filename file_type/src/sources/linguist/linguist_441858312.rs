@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_441858312: FileFormat = FileFormat {
     name: "Promela",
     extensions: &["pml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

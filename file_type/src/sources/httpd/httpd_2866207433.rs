@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2866207433: FileFormat = FileFormat {
     name: "mediastation cdkey",
     extensions: &["cdkey"],
     media_types: &["application/vnd.mediastation.cdkey"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

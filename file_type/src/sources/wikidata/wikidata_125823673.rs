@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125823673: FileFormat = FileFormat {
     id: 125_823_673,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125823673: FileFormat = FileFormat {
     name: "Gzipped Tar File",
     extensions: &["tgz"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

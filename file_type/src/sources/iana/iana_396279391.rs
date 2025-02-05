@@ -6,6 +6,6 @@ pub(crate) const IANA_396279391: FileFormat = FileFormat {
     name: "vnd.collection.next+json",
     extensions: &[],
     media_types: &["application/vnd.collection.next+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

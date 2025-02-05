@@ -6,6 +6,6 @@ pub(crate) const IANA_3653512415: FileFormat = FileFormat {
     name: "dpx",
     extensions: &[],
     media_types: &["image/dpx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27966955: FileFormat = FileFormat {
     id: 27_966_955,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27966955: FileFormat = FileFormat {
     name: "USF",
     extensions: &["miniusf", "usf", "usflib"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_110: FileFormat = FileFormat {
     name: "Fantom",
     extensions: &["fan"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

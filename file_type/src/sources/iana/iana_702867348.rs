@@ -6,6 +6,6 @@ pub(crate) const IANA_702867348: FileFormat = FileFormat {
     name: "ATRAC-ADVANCED-LOSSLESS",
     extensions: &[],
     media_types: &["audio/ATRAC-ADVANCED-LOSSLESS"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

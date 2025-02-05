@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3430275081: FileFormat = FileFormat {
     name: "ustar",
     extensions: &["ustar"],
     media_types: &["application/x-ustar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

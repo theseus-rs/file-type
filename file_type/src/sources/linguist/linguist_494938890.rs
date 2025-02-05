@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_494938890: FileFormat = FileFormat {
     name: "ZenScript",
     extensions: &["zs"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

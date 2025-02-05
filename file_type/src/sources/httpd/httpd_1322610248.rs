@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1322610248: FileFormat = FileFormat {
     name: "fortran",
     extensions: &["f", "for", "f77", "f90"],
     media_types: &["text/x-fortran"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

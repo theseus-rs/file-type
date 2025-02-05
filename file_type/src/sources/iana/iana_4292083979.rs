@@ -6,6 +6,6 @@ pub(crate) const IANA_4292083979: FileFormat = FileFormat {
     name: "provenance+xml",
     extensions: &[],
     media_types: &["application/provenance+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

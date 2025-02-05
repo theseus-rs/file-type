@@ -6,6 +6,6 @@ pub(crate) const HTTPD_863330050: FileFormat = FileFormat {
     name: "hdf",
     extensions: &["hdf"],
     media_types: &["application/x-hdf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

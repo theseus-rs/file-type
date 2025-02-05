@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1003190918: FileFormat = FileFormat {
     name: "medcalcdata",
     extensions: &["mc1"],
     media_types: &["application/vnd.medcalcdata"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

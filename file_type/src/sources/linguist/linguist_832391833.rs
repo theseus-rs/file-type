@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_832391833: FileFormat = FileFormat {
     name: "Portugol",
     extensions: &["por"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

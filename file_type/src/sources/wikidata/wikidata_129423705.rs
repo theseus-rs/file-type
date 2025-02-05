@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_129423705: FileFormat = FileFormat {
     id: 129_423_705,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_129423705: FileFormat = FileFormat {
     name: "Gosu source code file",
     extensions: &["gs"],
     media_types: &["text/x-gosu"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

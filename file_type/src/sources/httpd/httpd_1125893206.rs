@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1125893206: FileFormat = FileFormat {
     name: "ms xbap",
     extensions: &["xbap"],
     media_types: &["application/x-ms-xbap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

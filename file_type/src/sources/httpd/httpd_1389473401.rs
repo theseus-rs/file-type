@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1389473401: FileFormat = FileFormat {
     name: "kde kpresenter",
     extensions: &["kpr", "kpt"],
     media_types: &["application/vnd.kde.kpresenter"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1936666943: FileFormat = FileFormat {
     name: "vnd.kodak-descriptor",
     extensions: &[],
     media_types: &["application/vnd.kodak-descriptor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

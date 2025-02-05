@@ -6,6 +6,6 @@ pub(crate) const IANA_2321142532: FileFormat = FileFormat {
     name: "vnd.dreamfactory",
     extensions: &[],
     media_types: &["application/vnd.dreamfactory"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

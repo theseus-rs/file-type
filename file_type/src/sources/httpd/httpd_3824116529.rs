@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3824116529: FileFormat = FileFormat {
     name: "proteus magazine",
     extensions: &["mgz"],
     media_types: &["application/vnd.proteus.magazine"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

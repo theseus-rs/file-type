@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_382: FileFormat = FileFormat {
@@ -9,8 +9,8 @@ pub(crate) const PRONOM_382: FileFormat = FileFormat {
     name: "ZIP Format",
     extensions: &["zip"],
     media_types: &["application/zip"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[
                 ByteSequence {
                     position_type: PositionType::BOF,
@@ -33,7 +33,7 @@ pub(crate) const PRONOM_382: FileFormat = FileFormat {
                 },
             ],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

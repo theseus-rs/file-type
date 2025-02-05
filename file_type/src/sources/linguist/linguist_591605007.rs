@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_591605007: FileFormat = FileFormat {
     name: "Asymptote",
     extensions: &["asy"],
     media_types: &["text/x-kotlin"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

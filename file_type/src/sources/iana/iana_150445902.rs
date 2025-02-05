@@ -6,6 +6,6 @@ pub(crate) const IANA_150445902: FileFormat = FileFormat {
     name: "vnd.onepagertatx",
     extensions: &[],
     media_types: &["application/vnd.onepagertatx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

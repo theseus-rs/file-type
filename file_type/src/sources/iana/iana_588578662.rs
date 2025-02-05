@@ -6,6 +6,6 @@ pub(crate) const IANA_588578662: FileFormat = FileFormat {
     name: "VP9",
     extensions: &[],
     media_types: &["video/VP9"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

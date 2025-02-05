@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_330386870: FileFormat = FileFormat {
     name: "BQN",
     extensions: &["bqn"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

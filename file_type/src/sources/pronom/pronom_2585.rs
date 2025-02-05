@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2585: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_2585: FileFormat = FileFormat {
     name: "UDF-ISO 9660 Bridge Disc",
     extensions: &["toast", "iso", "cdr", "dmg"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[
             ByteSequence {
                 position_type: PositionType::BOF,

@@ -6,6 +6,6 @@ pub(crate) const IANA_1771736547: FileFormat = FileFormat {
     name: "vnd.bbf.usp.error",
     extensions: &[],
     media_types: &["application/vnd.bbf.usp.error"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

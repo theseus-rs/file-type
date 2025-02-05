@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_428: FileFormat = FileFormat {
     name: "Python console",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

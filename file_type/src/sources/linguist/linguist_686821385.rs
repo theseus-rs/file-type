@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_686821385: FileFormat = FileFormat {
     name: "Witcher Script",
     extensions: &["ws"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

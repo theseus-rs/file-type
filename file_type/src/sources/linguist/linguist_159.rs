@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_159: FileFormat = FileFormat {
     name: "Hy",
     extensions: &["hy"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

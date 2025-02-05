@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131062662: FileFormat = FileFormat {
     id: 131_062_662,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131062662: FileFormat = FileFormat {
     name: "SNOBOL4 file format",
     extensions: &["snobol"],
     media_types: &["text/x-snobol"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

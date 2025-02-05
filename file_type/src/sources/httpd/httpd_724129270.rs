@@ -6,6 +6,6 @@ pub(crate) const HTTPD_724129270: FileFormat = FileFormat {
     name: "h264",
     extensions: &["h264"],
     media_types: &["video/h264"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

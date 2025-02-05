@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2248450100: FileFormat = FileFormat {
     name: "3m post it notes",
     extensions: &["pwn"],
     media_types: &["application/vnd.3m.post-it-notes"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

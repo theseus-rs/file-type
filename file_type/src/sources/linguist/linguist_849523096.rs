@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_849523096: FileFormat = FileFormat {
     name: "Microsoft Visual Studio Solution",
     extensions: &["sln"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

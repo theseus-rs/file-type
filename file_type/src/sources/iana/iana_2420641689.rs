@@ -6,6 +6,6 @@ pub(crate) const IANA_2420641689: FileFormat = FileFormat {
     name: "vnd.c3voc.schedule+xml",
     extensions: &[],
     media_types: &["application/vnd.c3voc.schedule+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

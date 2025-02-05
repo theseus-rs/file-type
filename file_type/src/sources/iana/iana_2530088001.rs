@@ -6,6 +6,6 @@ pub(crate) const IANA_2530088001: FileFormat = FileFormat {
     name: "voicexml+xml",
     extensions: &[],
     media_types: &["application/voicexml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

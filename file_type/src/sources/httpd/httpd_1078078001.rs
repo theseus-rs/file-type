@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1078078001: FileFormat = FileFormat {
     name: "groove help",
     extensions: &["ghf"],
     media_types: &["application/vnd.groove-help"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2022828087: FileFormat = FileFormat {
     name: "vnd.framemaker",
     extensions: &[],
     media_types: &["application/vnd.framemaker"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

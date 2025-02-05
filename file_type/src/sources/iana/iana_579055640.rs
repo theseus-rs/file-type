@@ -6,6 +6,6 @@ pub(crate) const IANA_579055640: FileFormat = FileFormat {
     name: "dsr-es201108",
     extensions: &[],
     media_types: &["audio/dsr-es201108"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

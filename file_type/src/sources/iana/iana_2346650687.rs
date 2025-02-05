@@ -6,6 +6,6 @@ pub(crate) const IANA_2346650687: FileFormat = FileFormat {
     name: "vnd.japannet-verification",
     extensions: &[],
     media_types: &["application/vnd.japannet-verification"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

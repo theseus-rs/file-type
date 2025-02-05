@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_256: FileFormat = FileFormat {
     name: "ObjDump",
     extensions: &["objdump"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

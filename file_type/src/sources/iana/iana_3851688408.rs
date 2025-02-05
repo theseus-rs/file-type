@@ -6,6 +6,6 @@ pub(crate) const IANA_3851688408: FileFormat = FileFormat {
     name: "x400-bp",
     extensions: &[],
     media_types: &["application/x400-bp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

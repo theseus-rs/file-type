@@ -6,6 +6,6 @@ pub(crate) const IANA_1096371228: FileFormat = FileFormat {
     name: "vnd.IPTC.NITF",
     extensions: &[],
     media_types: &["text/vnd.IPTC.NITF"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

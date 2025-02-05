@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_970675279: FileFormat = FileFormat {
     name: "kvlang",
     extensions: &["kv"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

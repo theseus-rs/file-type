@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_41: FileFormat = FileFormat {
     name: "C",
     extensions: &["c", "cats", "h", "h.in", "idc"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

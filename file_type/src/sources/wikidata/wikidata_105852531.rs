@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105852531: FileFormat = FileFormat {
     id: 105_852_531,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105852531: FileFormat = FileFormat {
     name: "Labeler (v3.0) / Labels Unlimited (v2.0) Style",
     extensions: &["sty"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

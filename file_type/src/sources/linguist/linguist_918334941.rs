@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_918334941: FileFormat = FileFormat {
     name: "TSQL",
     extensions: &["sql"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

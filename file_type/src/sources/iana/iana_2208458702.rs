@@ -6,6 +6,6 @@ pub(crate) const IANA_2208458702: FileFormat = FileFormat {
     name: "urc-grpsheet+xml",
     extensions: &[],
     media_types: &["application/urc-grpsheet+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

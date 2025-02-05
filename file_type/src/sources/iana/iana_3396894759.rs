@@ -6,6 +6,6 @@ pub(crate) const IANA_3396894759: FileFormat = FileFormat {
     name: "rpki-signed-tal",
     extensions: &[],
     media_types: &["application/rpki-signed-tal"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

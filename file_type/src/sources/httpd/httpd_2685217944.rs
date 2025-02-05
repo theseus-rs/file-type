@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2685217944: FileFormat = FileFormat {
     name: "palm",
     extensions: &["pdb", "pqa", "oprc"],
     media_types: &["application/vnd.palm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

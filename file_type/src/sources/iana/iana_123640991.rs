@@ -6,6 +6,6 @@ pub(crate) const IANA_123640991: FileFormat = FileFormat {
     name: "whoispp-query",
     extensions: &[],
     media_types: &["application/whoispp-query"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_925464555: FileFormat = FileFormat {
     name: "vnd.rs-274x",
     extensions: &[],
     media_types: &["application/vnd.rs-274x"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

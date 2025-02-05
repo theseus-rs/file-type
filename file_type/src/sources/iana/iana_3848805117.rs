@@ -6,6 +6,6 @@ pub(crate) const IANA_3848805117: FileFormat = FileFormat {
     name: "vnd.acm.addressxfer+json",
     extensions: &[],
     media_types: &["application/vnd.acm.addressxfer+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_427393356: FileFormat = FileFormat {
     name: "unity",
     extensions: &["unityweb"],
     media_types: &["application/vnd.unity"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

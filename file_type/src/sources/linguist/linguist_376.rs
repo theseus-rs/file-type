@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_376: FileFormat = FileFormat {
     name: "Turtle",
     extensions: &["ttl"],
     media_types: &["text/turtle"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

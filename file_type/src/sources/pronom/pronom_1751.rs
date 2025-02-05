@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1751: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1751: FileFormat = FileFormat {
     name: "Ogg Opus Codec Compressed Multimedia File",
     extensions: &["ogg", "opus"],
     media_types: &["audio/ogg", "audio/opus"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

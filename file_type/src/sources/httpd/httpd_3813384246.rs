@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3813384246: FileFormat = FileFormat {
     name: "aristanetworks swi",
     extensions: &["swi"],
     media_types: &["application/vnd.aristanetworks.swi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

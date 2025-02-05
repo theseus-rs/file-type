@@ -6,6 +6,6 @@ pub(crate) const IANA_2210814693: FileFormat = FileFormat {
     name: "vnd.aplextor.warrp+json",
     extensions: &[],
     media_types: &["application/vnd.aplextor.warrp+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

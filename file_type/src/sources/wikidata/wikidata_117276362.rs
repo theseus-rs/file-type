@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_117276362: FileFormat = FileFormat {
     id: 117_276_362,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_117276362: FileFormat = FileFormat {
     name: "Ultimate Business Planner File",
     extensions: &["bp1"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

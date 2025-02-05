@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_81442128: FileFormat = FileFormat {
     name: "PEG.js",
     extensions: &["peggy", "pegjs"],
     media_types: &["text/javascript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

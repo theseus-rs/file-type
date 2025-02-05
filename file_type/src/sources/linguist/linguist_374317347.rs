@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_374317347: FileFormat = FileFormat {
     name: "OpenType Feature File",
     extensions: &["fea"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

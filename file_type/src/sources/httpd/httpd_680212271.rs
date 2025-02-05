@@ -6,6 +6,6 @@ pub(crate) const HTTPD_680212271: FileFormat = FileFormat {
     name: "fujixerox edmics rlc",
     extensions: &["rlc"],
     media_types: &["image/vnd.fujixerox.edmics-rlc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

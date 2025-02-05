@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_4051789: FileFormat = FileFormat {
     id: 4_051_789,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_4051789: FileFormat = FileFormat {
     name: "Trivial Graph Format",
     extensions: &["tgf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

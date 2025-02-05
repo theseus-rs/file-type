@@ -6,6 +6,6 @@ pub(crate) const HTTPD_597049660: FileFormat = FileFormat {
     name: "srgs xml",
     extensions: &["grxml"],
     media_types: &["application/srgs+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

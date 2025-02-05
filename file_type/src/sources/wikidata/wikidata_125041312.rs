@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125041312: FileFormat = FileFormat {
     id: 125_041_312,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125041312: FileFormat = FileFormat {
     name: "ZynAddSubFX Presets File",
     extensions: &["xpz"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

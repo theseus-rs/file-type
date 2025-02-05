@@ -6,6 +6,6 @@ pub(crate) const IANA_2693916822: FileFormat = FileFormat {
     name: "vnd.gentoo.eclass",
     extensions: &[],
     media_types: &["application/vnd.gentoo.eclass"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

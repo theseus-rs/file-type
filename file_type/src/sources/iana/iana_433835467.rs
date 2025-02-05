@@ -6,6 +6,6 @@ pub(crate) const IANA_433835467: FileFormat = FileFormat {
     name: "news-groupinfo",
     extensions: &[],
     media_types: &["application/news-groupinfo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

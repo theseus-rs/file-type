@@ -6,6 +6,6 @@ pub(crate) const IANA_2655715097: FileFormat = FileFormat {
     name: "vnd.msgpack",
     extensions: &[],
     media_types: &["application/vnd.msgpack"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

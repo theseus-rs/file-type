@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2125042282: FileFormat = FileFormat {
     name: "ibm rights management",
     extensions: &["irm"],
     media_types: &["application/vnd.ibm.rights-management"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

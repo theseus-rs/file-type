@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_388: FileFormat = FileFormat {
     name: "Vim Script",
     extensions: &["vba", "vim", "vimrc", "vmb"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2638993316: FileFormat = FileFormat {
     name: "hp hpid",
     extensions: &["hpid"],
     media_types: &["application/vnd.hp-hpid"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

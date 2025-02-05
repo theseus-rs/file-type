@@ -6,6 +6,6 @@ pub(crate) const IANA_1885045792: FileFormat = FileFormat {
     name: "prs.cyn",
     extensions: &[],
     media_types: &["application/prs.cyn"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

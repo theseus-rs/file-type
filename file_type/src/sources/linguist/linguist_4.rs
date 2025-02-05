@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_4: FileFormat = FileFormat {
     name: "ANTLR",
     extensions: &["g4"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

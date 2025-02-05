@@ -6,6 +6,6 @@ pub(crate) const HTTPD_290087393: FileFormat = FileFormat {
     name: "fujixerox docuworks",
     extensions: &["xdw"],
     media_types: &["application/vnd.fujixerox.docuworks"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_902995658: FileFormat = FileFormat {
     name: "Genero per",
     extensions: &["per"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

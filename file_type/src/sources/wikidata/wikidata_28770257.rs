@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28770257: FileFormat = FileFormat {
     id: 28_770_257,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_28770257: FileFormat = FileFormat {
     name: "HydroCAD Stormwater Modeling System Unit Hydrograph file",
     extensions: &["huh"],
     media_types: &["text/plain"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

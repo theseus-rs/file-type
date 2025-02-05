@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111665313: FileFormat = FileFormat {
     id: 111_665_313,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111665313: FileFormat = FileFormat {
     name: "AbiWord Gzip Compressed Document",
     extensions: &["zabw"],
     media_types: &["application/abiword"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

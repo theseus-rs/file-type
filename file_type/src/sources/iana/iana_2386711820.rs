@@ -6,6 +6,6 @@ pub(crate) const IANA_2386711820: FileFormat = FileFormat {
     name: "vnd.citationstyles.style+xml",
     extensions: &[],
     media_types: &["application/vnd.citationstyles.style+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

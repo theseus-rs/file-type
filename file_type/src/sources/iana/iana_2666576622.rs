@@ -6,6 +6,6 @@ pub(crate) const IANA_2666576622: FileFormat = FileFormat {
     name: "vnd.rhetorex.32kadpcm",
     extensions: &[],
     media_types: &["audio/vnd.rhetorex.32kadpcm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

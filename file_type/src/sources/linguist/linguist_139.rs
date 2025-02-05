@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_139: FileFormat = FileFormat {
     name: "GraphQL",
     extensions: &["gql", "graphql", "graphqls"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

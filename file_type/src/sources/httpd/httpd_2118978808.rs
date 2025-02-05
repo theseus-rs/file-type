@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2118978808: FileFormat = FileFormat {
     name: "syncml dm xml",
     extensions: &["xdm"],
     media_types: &["application/vnd.syncml.dm+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

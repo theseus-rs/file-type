@@ -6,6 +6,6 @@ pub(crate) const IANA_2787045701: FileFormat = FileFormat {
     name: "vnd.zbrush.pcx",
     extensions: &[],
     media_types: &["image/vnd.zbrush.pcx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

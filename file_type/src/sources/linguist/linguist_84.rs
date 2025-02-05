@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_84: FileFormat = FileFormat {
     name: "DNS Zone",
     extensions: &["arpa", "zone"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

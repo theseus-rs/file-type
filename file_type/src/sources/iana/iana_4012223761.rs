@@ -6,6 +6,6 @@ pub(crate) const IANA_4012223761: FileFormat = FileFormat {
     name: "hl7v2+xml",
     extensions: &[],
     media_types: &["application/hl7v2+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

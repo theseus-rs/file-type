@@ -6,6 +6,6 @@ pub(crate) const IANA_1253575532: FileFormat = FileFormat {
     name: "vnd.fujixerox.HBPL",
     extensions: &[],
     media_types: &["application/vnd.fujixerox.HBPL"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_71: FileFormat = FileFormat {
     name: "Creole",
     extensions: &["creole"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

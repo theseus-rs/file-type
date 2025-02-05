@@ -6,6 +6,6 @@ pub(crate) const IANA_1863426116: FileFormat = FileFormat {
     name: "vnd.oma.dcd",
     extensions: &[],
     media_types: &["application/vnd.oma.dcd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

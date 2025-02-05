@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_389: FileFormat = FileFormat {
     name: "Visual Basic .NET",
     extensions: &["vb", "vbhtml"],
     media_types: &["text/x-vb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

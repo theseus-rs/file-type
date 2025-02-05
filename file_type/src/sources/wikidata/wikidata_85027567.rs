@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_85027567: FileFormat = FileFormat {
     id: 85_027_567,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_85027567: FileFormat = FileFormat {
     name: "Autodesk Revit Family File, version 2008",
     extensions: &["rfa", "rft", "rte", "rvt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

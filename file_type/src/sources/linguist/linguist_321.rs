@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_321: FileFormat = FileFormat {
     name: "Redcode",
     extensions: &["cw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2066627270: FileFormat = FileFormat {
     name: "vnd.mif",
     extensions: &[],
     media_types: &["application/vnd.mif"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2129: FileFormat = FileFormat {
@@ -9,8 +9,8 @@ pub(crate) const PRONOM_2129: FileFormat = FileFormat {
     name: "Tweet JSON",
     extensions: &["json"],
     media_types: &["application/json"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[
                 ByteSequence {
                     position_type: PositionType::BOF,
@@ -37,7 +37,7 @@ pub(crate) const PRONOM_2129: FileFormat = FileFormat {
                 },
             ],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[
                 ByteSequence {
                     position_type: PositionType::BOF,
@@ -64,7 +64,7 @@ pub(crate) const PRONOM_2129: FileFormat = FileFormat {
                 },
             ],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[
                 ByteSequence {
                     position_type: PositionType::BOF,

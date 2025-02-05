@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_399230729: FileFormat = FileFormat {
     name: "VBA",
     extensions: &["bas", "cls", "frm", "vba"],
     media_types: &["text/x-vb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

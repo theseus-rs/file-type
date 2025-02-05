@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_758480799: FileFormat = FileFormat {
     name: "Lark",
     extensions: &["lark"],
     media_types: &["text/x-ebnf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

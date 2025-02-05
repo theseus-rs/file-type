@@ -6,6 +6,6 @@ pub(crate) const IANA_4064727687: FileFormat = FileFormat {
     name: "vnd.cryptomator.encrypted",
     extensions: &[],
     media_types: &["application/vnd.cryptomator.encrypted"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

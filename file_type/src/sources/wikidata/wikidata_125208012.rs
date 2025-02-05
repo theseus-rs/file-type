@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125208012: FileFormat = FileFormat {
     id: 125_208_012,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125208012: FileFormat = FileFormat {
     name: "TaskJuggler project",
     extensions: &["tjp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

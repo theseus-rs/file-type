@@ -6,6 +6,6 @@ pub(crate) const IANA_440186036: FileFormat = FileFormat {
     name: "vnd.wap.wbmp",
     extensions: &[],
     media_types: &["image/vnd.wap.wbmp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

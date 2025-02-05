@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3003002017: FileFormat = FileFormat {
     name: "solent sdkm xml",
     extensions: &["sdkm", "sdkd"],
     media_types: &["application/vnd.solent.sdkm+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

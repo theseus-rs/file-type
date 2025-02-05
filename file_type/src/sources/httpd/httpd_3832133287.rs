@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3832133287: FileFormat = FileFormat {
     name: "xv xml",
     extensions: &["mxml", "xhvml", "xvml", "xvm"],
     media_types: &["application/xv+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

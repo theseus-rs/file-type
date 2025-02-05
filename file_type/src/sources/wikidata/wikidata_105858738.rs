@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105858738: FileFormat = FileFormat {
     id: 105_858_738,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105858738: FileFormat = FileFormat {
     name: "AngelCode Bitmap Font Generator Configuration",
     extensions: &["bmfc"],
     media_types: &["text/plain"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

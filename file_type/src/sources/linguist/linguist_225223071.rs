@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_225223071: FileFormat = FileFormat {
     name: "Xmake",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

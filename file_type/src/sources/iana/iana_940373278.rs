@@ -6,6 +6,6 @@ pub(crate) const IANA_940373278: FileFormat = FileFormat {
     name: "cgm",
     extensions: &[],
     media_types: &["image/cgm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

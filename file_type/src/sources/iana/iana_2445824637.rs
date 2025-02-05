@@ -6,6 +6,6 @@ pub(crate) const IANA_2445824637: FileFormat = FileFormat {
     name: "vnd.parasolid.transmit.binary",
     extensions: &[],
     media_types: &["model/vnd.parasolid.transmit.binary"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

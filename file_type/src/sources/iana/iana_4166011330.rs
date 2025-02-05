@@ -6,6 +6,6 @@ pub(crate) const IANA_4166011330: FileFormat = FileFormat {
     name: "rtp-enc-aescm128",
     extensions: &[],
     media_types: &["audio/rtp-enc-aescm128"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

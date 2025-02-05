@@ -6,6 +6,6 @@ pub(crate) const IANA_996033646: FileFormat = FileFormat {
     name: "vnd.mseq",
     extensions: &[],
     media_types: &["application/vnd.mseq"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

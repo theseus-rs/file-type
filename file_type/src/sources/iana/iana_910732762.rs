@@ -6,6 +6,6 @@ pub(crate) const IANA_910732762: FileFormat = FileFormat {
     name: "vnd.kidspiration",
     extensions: &[],
     media_types: &["application/vnd.kidspiration"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

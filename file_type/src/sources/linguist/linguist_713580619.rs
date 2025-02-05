@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_713580619: FileFormat = FileFormat {
     name: "Wren",
     extensions: &["wren"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

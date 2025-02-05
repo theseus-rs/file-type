@@ -6,6 +6,6 @@ pub(crate) const IANA_307400137: FileFormat = FileFormat {
     name: "vnd.igloader",
     extensions: &[],
     media_types: &["application/vnd.igloader"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

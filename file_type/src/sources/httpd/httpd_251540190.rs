@@ -6,6 +6,6 @@ pub(crate) const HTTPD_251540190: FileFormat = FileFormat {
     name: "intercon formnet",
     extensions: &["xpw", "xpx"],
     media_types: &["application/vnd.intercon.formnet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

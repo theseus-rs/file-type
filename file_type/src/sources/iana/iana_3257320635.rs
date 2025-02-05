@@ -6,6 +6,6 @@ pub(crate) const IANA_3257320635: FileFormat = FileFormat {
     name: "vnd.debian.binary-package",
     extensions: &[],
     media_types: &["application/vnd.debian.binary-package"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

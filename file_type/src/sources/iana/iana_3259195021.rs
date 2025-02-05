@@ -6,6 +6,6 @@ pub(crate) const IANA_3259195021: FileFormat = FileFormat {
     name: "vnd.dna",
     extensions: &[],
     media_types: &["application/vnd.dna"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

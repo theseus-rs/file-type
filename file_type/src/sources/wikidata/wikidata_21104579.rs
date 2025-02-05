@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_21104579: FileFormat = FileFormat {
     id: 21_104_579,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_21104579: FileFormat = FileFormat {
     name: "Free Lossless Image Format",
     extensions: &["flif"],
     media_types: &["image/flif"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

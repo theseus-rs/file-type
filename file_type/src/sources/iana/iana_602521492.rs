@@ -6,6 +6,6 @@ pub(crate) const IANA_602521492: FileFormat = FileFormat {
     name: "tei+xml",
     extensions: &[],
     media_types: &["application/tei+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

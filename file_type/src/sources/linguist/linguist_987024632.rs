@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_987024632: FileFormat = FileFormat {
     name: "Singularity",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105862164: FileFormat = FileFormat {
     id: 105_862_164,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105862164: FileFormat = FileFormat {
     name: "Music Macro Language",
     extensions: &["mml"],
     media_types: &["text/plain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

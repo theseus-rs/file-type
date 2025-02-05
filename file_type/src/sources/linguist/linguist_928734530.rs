@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_928734530: FileFormat = FileFormat {
     name: "Svelte",
     extensions: &["svelte"],
     media_types: &["text/html"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

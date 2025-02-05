@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1235227822: FileFormat = FileFormat {
     name: "3gpp2 tcap",
     extensions: &["tcap"],
     media_types: &["application/vnd.3gpp2.tcap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

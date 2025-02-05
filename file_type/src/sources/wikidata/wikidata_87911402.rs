@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_87911402: FileFormat = FileFormat {
     id: 87_911_402,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_87911402: FileFormat = FileFormat {
     name: "Avery DesignPro Document 5",
     extensions: &["zdl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

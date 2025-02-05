@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3834774403: FileFormat = FileFormat {
     name: "futuresplash",
     extensions: &["spl"],
     media_types: &["application/x-futuresplash"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

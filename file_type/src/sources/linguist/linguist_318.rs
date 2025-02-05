@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_318: FileFormat = FileFormat {
     name: "Raw token data",
     extensions: &["raw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

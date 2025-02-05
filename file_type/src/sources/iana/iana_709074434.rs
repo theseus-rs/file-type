@@ -6,6 +6,6 @@ pub(crate) const IANA_709074434: FileFormat = FileFormat {
     name: "heic",
     extensions: &[],
     media_types: &["image/heic"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

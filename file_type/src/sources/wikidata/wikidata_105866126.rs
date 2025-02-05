@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105866126: FileFormat = FileFormat {
     id: 105_866_126,
@@ -8,8 +6,8 @@ pub(crate) const WIKIDATA_105866126: FileFormat = FileFormat {
     name: "PGP public key block",
     extensions: &["aexpk", "asc", "pgp", "pub"],
     media_types: &["application/pgp-keys"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -22,7 +20,7 @@ pub(crate) const WIKIDATA_105866126: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -35,7 +33,7 @@ pub(crate) const WIKIDATA_105866126: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -48,7 +46,7 @@ pub(crate) const WIKIDATA_105866126: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

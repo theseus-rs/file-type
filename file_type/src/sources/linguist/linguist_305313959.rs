@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_305313959: FileFormat = FileFormat {
     name: "Procfile",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

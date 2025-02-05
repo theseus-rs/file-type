@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_422: FileFormat = FileFormat {
     name: "TI Program",
     extensions: &["8xp", "8xp.txt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

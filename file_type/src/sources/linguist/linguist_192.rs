@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_192: FileFormat = FileFormat {
     name: "LOLCODE",
     extensions: &["lol"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

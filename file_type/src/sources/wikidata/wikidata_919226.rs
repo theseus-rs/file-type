@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_919226: FileFormat = FileFormat {
     id: 919_226,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_919226: FileFormat = FileFormat {
     name: "MPEG-1 Audio Layer I",
     extensions: &["m1a", "mp1"],
     media_types: &["audio/MPA", "audio/mpeg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

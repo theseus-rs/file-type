@@ -6,6 +6,6 @@ pub(crate) const IANA_1109068416: FileFormat = FileFormat {
     name: "dicom-rle",
     extensions: &[],
     media_types: &["image/dicom-rle"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

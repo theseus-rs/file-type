@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_880010326: FileFormat = FileFormat {
     name: "SELinux Policy",
     extensions: &["te"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2570913583: FileFormat = FileFormat {
     name: "delivery-status",
     extensions: &[],
     media_types: &["message/delivery-status"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

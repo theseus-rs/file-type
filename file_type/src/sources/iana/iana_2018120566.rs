@@ -6,6 +6,6 @@ pub(crate) const IANA_2018120566: FileFormat = FileFormat {
     name: "vnd.ms-excel.sheet.binary.macroEnabled.12",
     extensions: &[],
     media_types: &["application/vnd.ms-excel.sheet.binary.macroEnabled.12"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

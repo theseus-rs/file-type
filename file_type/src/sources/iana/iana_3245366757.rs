@@ -6,6 +6,6 @@ pub(crate) const IANA_3245366757: FileFormat = FileFormat {
     name: "vnd.sealed.mpeg1",
     extensions: &[],
     media_types: &["video/vnd.sealed.mpeg1"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_390788699: FileFormat = FileFormat {
     name: "CAP CDS",
     extensions: &["cds"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

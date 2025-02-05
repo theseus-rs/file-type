@@ -6,6 +6,6 @@ pub(crate) const IANA_993720141: FileFormat = FileFormat {
     name: "vnd.dvb.subtitle",
     extensions: &[],
     media_types: &["text/vnd.dvb.subtitle"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

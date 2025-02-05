@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1151772352: FileFormat = FileFormat {
     name: "install instructions",
     extensions: &["install"],
     media_types: &["application/x-install-instructions"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

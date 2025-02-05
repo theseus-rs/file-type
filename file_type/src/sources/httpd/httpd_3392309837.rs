@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3392309837: FileFormat = FileFormat {
     name: "rss xml",
     extensions: &["rss"],
     media_types: &["application/rss+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

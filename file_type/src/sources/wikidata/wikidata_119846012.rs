@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_119846012: FileFormat = FileFormat {
     id: 119_846_012,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_119846012: FileFormat = FileFormat {
     name: "Quicken Data File (Macintosh)",
     extensions: &["qdfm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

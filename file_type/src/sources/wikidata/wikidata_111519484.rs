@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111519484: FileFormat = FileFormat {
     id: 111_519_484,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111519484: FileFormat = FileFormat {
     name: "ESRI ArcInfo Grid .nit File",
     extensions: &["nit"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

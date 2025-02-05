@@ -6,6 +6,6 @@ pub(crate) const IANA_1485226161: FileFormat = FileFormat {
     name: "vnd.collabio.xodocuments.document",
     extensions: &[],
     media_types: &["application/vnd.collabio.xodocuments.document"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2269888961: FileFormat = FileFormat {
     name: "vnd.dvb.iptv.alfec-base",
     extensions: &[],
     media_types: &["application/vnd.dvb.iptv.alfec-base"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

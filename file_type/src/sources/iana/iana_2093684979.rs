@@ -6,6 +6,6 @@ pub(crate) const IANA_2093684979: FileFormat = FileFormat {
     name: "vnd.avistar+xml",
     extensions: &[],
     media_types: &["application/vnd.avistar+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

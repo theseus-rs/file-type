@@ -6,6 +6,6 @@ pub(crate) const IANA_3396801964: FileFormat = FileFormat {
     name: "atsc-rsat+xml",
     extensions: &[],
     media_types: &["application/atsc-rsat+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

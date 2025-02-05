@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_21462816: FileFormat = FileFormat {
     id: 21_462_816,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_21462816: FileFormat = FileFormat {
     name: "Android Secure encrypted file",
     extensions: &["asec"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

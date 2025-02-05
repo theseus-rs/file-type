@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2434472940: FileFormat = FileFormat {
     name: "airzip filesecure azf",
     extensions: &["azf"],
     media_types: &["application/vnd.airzip.filesecure.azf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

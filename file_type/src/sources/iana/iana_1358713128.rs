@@ -6,6 +6,6 @@ pub(crate) const IANA_1358713128: FileFormat = FileFormat {
     name: "vnd.qualcomm.brew-app-res",
     extensions: &[],
     media_types: &["application/vnd.qualcomm.brew-app-res"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_51837307: FileFormat = FileFormat {
     id: 51_837_307,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_51837307: FileFormat = FileFormat {
     name: "IBM DisplayWrite DCA Text File",
     extensions: &["dca"],
     media_types: &["application/dca-rft"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

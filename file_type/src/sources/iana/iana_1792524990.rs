@@ -6,6 +6,6 @@ pub(crate) const IANA_1792524990: FileFormat = FileFormat {
     name: "vnd.antix.game-component",
     extensions: &[],
     media_types: &["application/vnd.antix.game-component"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

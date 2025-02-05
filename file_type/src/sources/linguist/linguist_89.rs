@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_89: FileFormat = FileFormat {
     name: "Dockerfile",
     extensions: &["containerfile", "dockerfile"],
     media_types: &["text/x-dockerfile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105858509: FileFormat = FileFormat {
     id: 105_858_509,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105858509: FileFormat = FileFormat {
     name: "MGR bitmap (old, 1-bit, 32-bit aligned)",
     extensions: &["mgr"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

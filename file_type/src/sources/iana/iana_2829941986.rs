@@ -6,6 +6,6 @@ pub(crate) const IANA_2829941986: FileFormat = FileFormat {
     name: "taxii+json",
     extensions: &[],
     media_types: &["application/taxii+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

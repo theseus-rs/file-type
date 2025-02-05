@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_507: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_507: FileFormat = FileFormat {
     name: "Microsoft Visual FoxPro Table",
     extensions: &["dbx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

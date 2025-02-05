@@ -6,6 +6,6 @@ pub(crate) const IANA_1332168616: FileFormat = FileFormat {
     name: "vnd.ms-playready.initiator+xml",
     extensions: &[],
     media_types: &["application/vnd.ms-playready.initiator+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

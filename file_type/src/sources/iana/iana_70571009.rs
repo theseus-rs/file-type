@@ -6,6 +6,6 @@ pub(crate) const IANA_70571009: FileFormat = FileFormat {
     name: "dssc+der",
     extensions: &[],
     media_types: &["application/dssc+der"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

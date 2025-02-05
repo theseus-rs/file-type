@@ -6,6 +6,6 @@ pub(crate) const IANA_3678724516: FileFormat = FileFormat {
     name: "vnd.dvb.file",
     extensions: &[],
     media_types: &["video/vnd.dvb.file"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

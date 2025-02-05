@@ -6,6 +6,6 @@ pub(crate) const IANA_30119485: FileFormat = FileFormat {
     name: "vnd.tencent.tap",
     extensions: &[],
     media_types: &["image/vnd.tencent.tap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

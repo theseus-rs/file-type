@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_200: FileFormat = FileFormat {
     name: "LilyPond",
     extensions: &["ily", "ly"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

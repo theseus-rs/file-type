@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1485532216: FileFormat = FileFormat {
     name: "prs cww",
     extensions: &["cww"],
     media_types: &["application/prs.cww"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1692368822: FileFormat = FileFormat {
     name: "vnd.genomatix.tuxedo",
     extensions: &[],
     media_types: &["application/vnd.genomatix.tuxedo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

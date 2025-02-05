@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_128779413: FileFormat = FileFormat {
     id: 128_779_413,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_128779413: FileFormat = FileFormat {
     name: "Cryptographic Protocol Shapes Analyzer file",
     extensions: &["cpsa"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

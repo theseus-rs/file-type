@@ -4,9 +4,7 @@
 #![deny(clippy::unwrap_used)]
 
 use anyhow::Result;
-use file_type::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType,
-};
+use file_type::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType};
 use reqwest::Client;
 use serde_json::Value;
 use source_generator::Source;
@@ -151,7 +149,7 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
         if let Some(file_format) = file_formats.get(&id) {
             extensions = file_format.extensions.to_vec();
             media_types = file_format.media_types.to_vec();
-            internal_signatures = file_format.internal_signatures.to_vec();
+            internal_signatures = file_format.signatures.to_vec();
         }
 
         let name = binding
@@ -200,7 +198,7 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
                     offset: Some(0),
                     regex,
                 };
-                let internal_signature = InternalSignature {
+                let internal_signature = Signature {
                     byte_sequences: Box::leak(vec![byte_sequence].into_boxed_slice()),
                 };
                 internal_signatures.push(internal_signature);
@@ -215,7 +213,7 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
             name,
             extensions: Box::leak(extensions.into_boxed_slice()),
             media_types: Box::leak(media_types.into_boxed_slice()),
-            internal_signatures: Box::leak(internal_signatures.into_boxed_slice()),
+            signatures: Box::leak(internal_signatures.into_boxed_slice()),
             related_formats: &[],
         };
         file_formats.insert(id, file_format);

@@ -6,6 +6,6 @@ pub(crate) const IANA_361957890: FileFormat = FileFormat {
     name: "vnd.syncml.dm+wbxml",
     extensions: &[],
     media_types: &["application/vnd.syncml.dm+wbxml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

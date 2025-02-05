@@ -6,6 +6,6 @@ pub(crate) const HTTPD_212159430: FileFormat = FileFormat {
     name: "mac compactpro",
     extensions: &["cpt"],
     media_types: &["application/mac-compactpro"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

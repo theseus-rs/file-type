@@ -6,6 +6,6 @@ pub(crate) const IANA_234763682: FileFormat = FileFormat {
     name: "vnd.balsamiq.bmpr",
     extensions: &[],
     media_types: &["application/vnd.balsamiq.bmpr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

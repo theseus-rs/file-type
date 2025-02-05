@@ -6,6 +6,6 @@ pub(crate) const IANA_3546824522: FileFormat = FileFormat {
     name: "vnd.groove-injector",
     extensions: &[],
     media_types: &["application/vnd.groove-injector"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

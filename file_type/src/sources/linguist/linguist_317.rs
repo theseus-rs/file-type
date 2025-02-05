@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_317: FileFormat = FileFormat {
     name: "Ragel",
     extensions: &["rl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

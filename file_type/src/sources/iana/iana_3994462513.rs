@@ -6,6 +6,6 @@ pub(crate) const IANA_3994462513: FileFormat = FileFormat {
     name: "font-woff - DEPRECATED in favor of font/woff",
     extensions: &[],
     media_types: &["application/font-woff"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

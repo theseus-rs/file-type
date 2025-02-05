@@ -6,6 +6,6 @@ pub(crate) const IANA_53513821: FileFormat = FileFormat {
     name: "cose-x509",
     extensions: &[],
     media_types: &["application/cose-x509"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

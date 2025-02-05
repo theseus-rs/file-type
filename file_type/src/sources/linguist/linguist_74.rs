@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_74: FileFormat = FileFormat {
     name: "Csound Document",
     extensions: &["csd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

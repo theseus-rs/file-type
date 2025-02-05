@@ -6,6 +6,6 @@ pub(crate) const IANA_1553350424: FileFormat = FileFormat {
     name: "vnd.apache.parquet",
     extensions: &[],
     media_types: &["application/vnd.apache.parquet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

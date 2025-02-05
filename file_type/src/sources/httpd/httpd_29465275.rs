@@ -6,6 +6,6 @@ pub(crate) const HTTPD_29465275: FileFormat = FileFormat {
     name: "trueapp",
     extensions: &["tra"],
     media_types: &["application/vnd.trueapp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1630469437: FileFormat = FileFormat {
     name: "vnd.software602.filler.form-xml-zip",
     extensions: &[],
     media_types: &["application/vnd.software602.filler.form-xml-zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

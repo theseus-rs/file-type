@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_55594103: FileFormat = FileFormat {
     id: 55_594_103,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_55594103: FileFormat = FileFormat {
     name: "CAChe MolStruct CSF",
     extensions: &["csf"],
     media_types: &["chemical/x-cache-csf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

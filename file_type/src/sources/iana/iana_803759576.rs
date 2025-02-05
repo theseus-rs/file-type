@@ -6,6 +6,6 @@ pub(crate) const IANA_803759576: FileFormat = FileFormat {
     name: "vnd.mozilla.xul+xml",
     extensions: &[],
     media_types: &["application/vnd.mozilla.xul+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

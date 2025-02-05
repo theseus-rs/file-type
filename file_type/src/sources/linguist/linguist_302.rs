@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_302: FileFormat = FileFormat {
     name: "PureScript",
     extensions: &["purs"],
     media_types: &["text/x-haskell"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

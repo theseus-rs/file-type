@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3981745143: FileFormat = FileFormat {
     name: "webturbo",
     extensions: &["wtb"],
     media_types: &["application/vnd.webturbo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

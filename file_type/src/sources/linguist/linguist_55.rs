@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_55: FileFormat = FileFormat {
     name: "Chapel",
     extensions: &["chpl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1919128391: FileFormat = FileFormat {
     name: "vnd.microsoft.portable-executable",
     extensions: &[],
     media_types: &["application/vnd.microsoft.portable-executable"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

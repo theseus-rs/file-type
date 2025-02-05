@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2462859933: FileFormat = FileFormat {
     name: "ms pki seccat",
     extensions: &["cat"],
     media_types: &["application/vnd.ms-pki.seccat"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

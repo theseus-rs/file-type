@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105858640: FileFormat = FileFormat {
     id: 105_858_640,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105858640: FileFormat = FileFormat {
     name: "Microsoft QuickBASIC 4.5 tokenized source",
     extensions: &["bas"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

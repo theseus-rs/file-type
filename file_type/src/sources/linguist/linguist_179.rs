@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_179: FileFormat = FileFormat {
     name: "Pug",
     extensions: &["jade", "pug"],
     media_types: &["text/x-pug"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

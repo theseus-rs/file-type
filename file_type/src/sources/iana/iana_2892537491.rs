@@ -6,6 +6,6 @@ pub(crate) const IANA_2892537491: FileFormat = FileFormat {
     name: "vnd.smaf",
     extensions: &[],
     media_types: &["application/vnd.smaf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

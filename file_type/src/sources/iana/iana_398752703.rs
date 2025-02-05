@@ -6,6 +6,6 @@ pub(crate) const IANA_398752703: FileFormat = FileFormat {
     name: "vnd.sycle+xml",
     extensions: &[],
     media_types: &["application/vnd.sycle+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

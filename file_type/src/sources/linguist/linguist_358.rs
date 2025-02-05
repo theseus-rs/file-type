@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_358: FileFormat = FileFormat {
     name: "Stata",
     extensions: &["ado", "do", "doh", "ihlp", "mata", "matah", "sthlp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

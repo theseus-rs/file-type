@@ -6,6 +6,6 @@ pub(crate) const IANA_2515690866: FileFormat = FileFormat {
     name: "vnd.olpc-sugar",
     extensions: &[],
     media_types: &["application/vnd.olpc-sugar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

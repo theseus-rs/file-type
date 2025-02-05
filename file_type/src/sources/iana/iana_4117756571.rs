@@ -6,6 +6,6 @@ pub(crate) const IANA_4117756571: FileFormat = FileFormat {
     name: "vnd.gentoo.manifest",
     extensions: &[],
     media_types: &["application/vnd.gentoo.manifest"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

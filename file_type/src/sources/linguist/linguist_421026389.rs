@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_421026389: FileFormat = FileFormat {
     name: "CoNLL-U",
     extensions: &["conll", "conllu"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

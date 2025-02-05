@@ -6,6 +6,6 @@ pub(crate) const IANA_223476613: FileFormat = FileFormat {
     name: "vnd.yellowriver-custom-menu",
     extensions: &[],
     media_types: &["application/vnd.yellowriver-custom-menu"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

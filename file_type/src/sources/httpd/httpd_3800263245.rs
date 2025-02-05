@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3800263245: FileFormat = FileFormat {
     name: "msmetafile",
     extensions: &["wmf", "wmz", "emf", "emz"],
     media_types: &["application/x-msmetafile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

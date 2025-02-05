@@ -6,6 +6,6 @@ pub(crate) const IANA_1917324059: FileFormat = FileFormat {
     name: "vnd.ah-barcode",
     extensions: &[],
     media_types: &["application/vnd.ah-barcode"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_930058366: FileFormat = FileFormat {
     name: "in3d spot",
     extensions: &["spot"],
     media_types: &["text/vnd.in3d.spot"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1314711206: FileFormat = FileFormat {
     name: "vnd.pvi.ptid1",
     extensions: &[],
     media_types: &["application/vnd.pvi.ptid1"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3251275829: FileFormat = FileFormat {
     name: "vnd.FloGraphIt",
     extensions: &[],
     media_types: &["application/vnd.FloGraphIt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

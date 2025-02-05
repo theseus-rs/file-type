@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_108182078: FileFormat = FileFormat {
     id: 108_182_078,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_108182078: FileFormat = FileFormat {
     name: "Android App Bundle",
     extensions: &["aab"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

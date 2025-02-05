@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_113487065: FileFormat = FileFormat {
     id: 113_487_065,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_113487065: FileFormat = FileFormat {
     name: "Persuasion Windows Document 2.0",
     extensions: &["at2", "pr2"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

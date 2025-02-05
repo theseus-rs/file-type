@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_76: FileFormat = FileFormat {
     name: "Gherkin",
     extensions: &["feature", "story"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

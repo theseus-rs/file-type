@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2831585141: FileFormat = FileFormat {
     name: "mads xml",
     extensions: &["mads"],
     media_types: &["application/mads+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3460806808: FileFormat = FileFormat {
     name: "xpixmap",
     extensions: &["xpm"],
     media_types: &["image/x-xpixmap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

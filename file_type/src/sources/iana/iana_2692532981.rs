@@ -6,6 +6,6 @@ pub(crate) const IANA_2692532981: FileFormat = FileFormat {
     name: "vnd.3gpp.seal-location-info+xml",
     extensions: &[],
     media_types: &["application/vnd.3gpp.seal-location-info+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

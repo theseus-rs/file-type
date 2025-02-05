@@ -6,6 +6,6 @@ pub(crate) const IANA_2944600447: FileFormat = FileFormat {
     name: "wgsl",
     extensions: &[],
     media_types: &["text/wgsl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_202: FileFormat = FileFormat {
     name: "Linker Script",
     extensions: &["ld", "lds", "x"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

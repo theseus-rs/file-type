@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_182: FileFormat = FileFormat {
     name: "Java Server Pages",
     extensions: &["jsp", "tag"],
     media_types: &["application/x-jsp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

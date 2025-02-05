@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_128917606: FileFormat = FileFormat {
     id: 128_917_606,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_128917606: FileFormat = FileFormat {
     name: "Earl Grey source code file",
     extensions: &["eg"],
     media_types: &["text/x-earl-grey"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

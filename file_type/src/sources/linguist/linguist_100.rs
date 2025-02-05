@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_100: FileFormat = FileFormat {
     name: "Elixir",
     extensions: &["ex", "exs"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1902469027: FileFormat = FileFormat {
     name: "JT",
     extensions: &[],
     media_types: &["model/JT"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

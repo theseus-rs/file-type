@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_68480995: FileFormat = FileFormat {
     id: 68_480_995,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_68480995: FileFormat = FileFormat {
     name: "Kingsoft PowerWord Dictionary",
     extensions: &["dic"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

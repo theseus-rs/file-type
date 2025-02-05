@@ -6,6 +6,6 @@ pub(crate) const HTTPD_407511840: FileFormat = FileFormat {
     name: "mscardfile",
     extensions: &["crd"],
     media_types: &["application/x-mscardfile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

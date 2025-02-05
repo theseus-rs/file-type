@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27487495: FileFormat = FileFormat {
     id: 27_487_495,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27487495: FileFormat = FileFormat {
     name: "Shapefile spatial index of features part 2",
     extensions: &["fbx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

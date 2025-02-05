@@ -6,6 +6,6 @@ pub(crate) const HTTPD_157902401: FileFormat = FileFormat {
     name: "fujixerox edmics mmr",
     extensions: &["mmr"],
     media_types: &["image/vnd.fujixerox.edmics-mmr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2059809139: FileFormat = FileFormat {
     name: "vnd.adobe.flash.movie",
     extensions: &[],
     media_types: &["application/vnd.adobe.flash.movie"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

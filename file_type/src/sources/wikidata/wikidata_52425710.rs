@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_52425710: FileFormat = FileFormat {
     id: 52_425_710,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_52425710: FileFormat = FileFormat {
     name: "VisiCalc Database",
     extensions: &["dif"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

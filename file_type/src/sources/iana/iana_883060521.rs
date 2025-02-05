@@ -6,6 +6,6 @@ pub(crate) const IANA_883060521: FileFormat = FileFormat {
     name: "vnd.3gpp.interworking-data",
     extensions: &[],
     media_types: &["application/vnd.3gpp.interworking-data"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

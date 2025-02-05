@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_89855901: FileFormat = FileFormat {
     name: "StringTemplate",
     extensions: &["st"],
     media_types: &["text/html"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

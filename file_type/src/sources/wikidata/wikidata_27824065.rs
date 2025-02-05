@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27824065: FileFormat = FileFormat {
     id: 27_824_065,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27824065: FileFormat = FileFormat {
     name: "Internet Archive ARC, version 1.1",
     extensions: &["arc"],
     media_types: &["application/x-internet-archive"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_67: FileFormat = FileFormat {
     name: "Component Pascal",
     extensions: &["cp", "cps"],
     media_types: &["text/x-pascal"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

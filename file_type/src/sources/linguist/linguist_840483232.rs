@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_840483232: FileFormat = FileFormat {
     name: "Open Policy Agent",
     extensions: &["rego"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

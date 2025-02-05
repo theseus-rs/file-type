@@ -6,6 +6,6 @@ pub(crate) const IANA_3938229820: FileFormat = FileFormat {
     name: "vnd.sus-calendar",
     extensions: &[],
     media_types: &["application/vnd.sus-calendar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

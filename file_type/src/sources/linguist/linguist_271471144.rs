@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_271471144: FileFormat = FileFormat {
     name: "Sway",
     extensions: &["sw"],
     media_types: &["text/x-rustsrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

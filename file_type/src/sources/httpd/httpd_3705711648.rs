@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3705711648: FileFormat = FileFormat {
     name: "epson ssf",
     extensions: &["ssf"],
     media_types: &["application/vnd.epson.ssf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

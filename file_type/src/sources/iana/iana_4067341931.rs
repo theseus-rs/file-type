@@ -6,6 +6,6 @@ pub(crate) const IANA_4067341931: FileFormat = FileFormat {
     name: "vnd.ldev.productlicensing",
     extensions: &[],
     media_types: &["application/vnd.ldev.productlicensing"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

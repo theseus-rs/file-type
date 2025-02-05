@@ -1,4 +1,4 @@
-use crate::format::{InternalSignature, RelatedFormat};
+use crate::format::{RelatedFormat, Signature};
 use std::cmp::Ordering;
 
 /// The source of the file format
@@ -58,7 +58,7 @@ pub struct FileFormat {
     pub name: &'static str,
     pub extensions: &'static [&'static str],
     pub media_types: &'static [&'static str],
-    pub internal_signatures: &'static [InternalSignature],
+    pub signatures: &'static [Signature],
     pub related_formats: &'static [RelatedFormat],
 }
 
@@ -67,7 +67,7 @@ impl FileFormat {
     #[must_use]
     pub fn is_match(&self, bytes: &[u8]) -> bool {
         let matched = self
-            .internal_signatures
+            .signatures
             .iter()
             .any(|signature| signature.is_match(bytes));
         matched

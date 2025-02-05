@@ -6,6 +6,6 @@ pub(crate) const IANA_2764975073: FileFormat = FileFormat {
     name: "vnd.recordare.musicxml+xml",
     extensions: &[],
     media_types: &["application/vnd.recordare.musicxml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

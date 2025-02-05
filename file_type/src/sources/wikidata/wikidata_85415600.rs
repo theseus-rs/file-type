@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_85415600: FileFormat = FileFormat {
     id: 85_415_600,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_85415600: FileFormat = FileFormat {
     name: "Tweet JSON",
     extensions: &["json"],
     media_types: &["application/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

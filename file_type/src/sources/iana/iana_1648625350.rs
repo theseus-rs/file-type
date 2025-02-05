@@ -6,6 +6,6 @@ pub(crate) const IANA_1648625350: FileFormat = FileFormat {
     name: "vnd.sailingtracker.track",
     extensions: &[],
     media_types: &["application/vnd.sailingtracker.track"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

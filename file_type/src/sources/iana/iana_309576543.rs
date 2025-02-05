@@ -6,6 +6,6 @@ pub(crate) const IANA_309576543: FileFormat = FileFormat {
     name: "jxsi",
     extensions: &[],
     media_types: &["image/jxsi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1610331905: FileFormat = FileFormat {
     name: "vnd.valve.source.material",
     extensions: &[],
     media_types: &["application/vnd.valve.source.material"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

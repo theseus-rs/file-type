@@ -6,6 +6,6 @@ pub(crate) const IANA_3473425801: FileFormat = FileFormat {
     name: "vnd.clonk.c4group",
     extensions: &[],
     media_types: &["application/vnd.clonk.c4group"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

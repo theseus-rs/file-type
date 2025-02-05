@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3729972083: FileFormat = FileFormat {
     name: "mrsid image",
     extensions: &["sid"],
     media_types: &["image/x-mrsid-image"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

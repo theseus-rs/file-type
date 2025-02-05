@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_127784231: FileFormat = FileFormat {
     id: 127_784_231,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_127784231: FileFormat = FileFormat {
     name: "Logtalk source file",
     extensions: &["lgt"],
     media_types: &["text/x-logtalk"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

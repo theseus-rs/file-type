@@ -6,6 +6,6 @@ pub(crate) const IANA_1156879722: FileFormat = FileFormat {
     name: "prs.implied-executable",
     extensions: &[],
     media_types: &["application/prs.implied-executable"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_609977990: FileFormat = FileFormat {
     name: "RPGLE",
     extensions: &["rpgle", "sqlrpgle"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

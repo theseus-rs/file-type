@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_225697190: FileFormat = FileFormat {
     name: "Kusto",
     extensions: &["csl", "kql"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

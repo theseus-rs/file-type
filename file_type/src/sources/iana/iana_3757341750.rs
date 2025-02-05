@@ -6,6 +6,6 @@ pub(crate) const IANA_3757341750: FileFormat = FileFormat {
     name: "vnd.innopath.wamp.notification",
     extensions: &[],
     media_types: &["application/vnd.innopath.wamp.notification"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

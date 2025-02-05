@@ -6,6 +6,6 @@ pub(crate) const IANA_2866723734: FileFormat = FileFormat {
     name: "byteranges",
     extensions: &[],
     media_types: &["multipart/byteranges"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

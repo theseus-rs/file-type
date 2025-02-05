@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105859558: FileFormat = FileFormat {
     id: 105_859_558,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105859558: FileFormat = FileFormat {
     name: "Time Shift Video",
     extensions: &["tsv"],
     media_types: &["video/x-tsv"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

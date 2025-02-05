@@ -6,6 +6,6 @@ pub(crate) const IANA_337367164: FileFormat = FileFormat {
     name: "vnd.3gpp.mcptt-info+xml",
     extensions: &[],
     media_types: &["application/vnd.3gpp.mcptt-info+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

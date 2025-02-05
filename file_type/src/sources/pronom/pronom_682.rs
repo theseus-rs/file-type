@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_682: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_682: FileFormat = FileFormat {
     name: "Microsoft Excel 5.0/95 Workbook (xls)",
     extensions: &["xlw", "xls"],
     media_types: &["application/vnd.ms-excel"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[
         RelatedFormat {
             relationship_type: RelationshipType::HasLowerPriorityThan,

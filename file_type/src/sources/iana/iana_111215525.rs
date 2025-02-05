@@ -6,6 +6,6 @@ pub(crate) const IANA_111215525: FileFormat = FileFormat {
     name: "vnd.sealed.xls",
     extensions: &[],
     media_types: &["application/vnd.sealed.xls"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

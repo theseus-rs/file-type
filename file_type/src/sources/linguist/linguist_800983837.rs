@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_800983837: FileFormat = FileFormat {
     name: "Microsoft Developer Studio Project",
     extensions: &["dsp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

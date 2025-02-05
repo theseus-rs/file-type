@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1082: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1082: FileFormat = FileFormat {
     name: "MJ2 (Motion JPEG 2000)",
     extensions: &["mj2", "mjp2"],
     media_types: &["video/mj2"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

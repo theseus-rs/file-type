@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1383: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1383: FileFormat = FileFormat {
     name: "Radiance RGBE Image Format",
     extensions: &["hdr", "pic", "rgbe", "xyze"],
     media_types: &["image/vnd.radiance"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

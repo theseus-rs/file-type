@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_243: FileFormat = FileFormat {
     name: "Nemerle",
     extensions: &["n"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

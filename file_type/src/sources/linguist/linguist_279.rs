@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_279: FileFormat = FileFormat {
     name: "Parrot Assembly",
     extensions: &["pasm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

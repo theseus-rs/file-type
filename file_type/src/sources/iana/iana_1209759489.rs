@@ -6,6 +6,6 @@ pub(crate) const IANA_1209759489: FileFormat = FileFormat {
     name: "sbe",
     extensions: &[],
     media_types: &["application/sbe"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

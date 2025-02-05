@@ -6,6 +6,6 @@ pub(crate) const IANA_1827486075: FileFormat = FileFormat {
     name: "vnd.openxmlformats-officedocument.spreadsheetml.queryTable+xml",
     extensions: &[],
     media_types: &["application/vnd.openxmlformats-officedocument.spreadsheetml.queryTable+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_12: FileFormat = FileFormat {
     name: "Agda",
     extensions: &["agda"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_400: FileFormat = FileFormat {
     name: "XPages",
     extensions: &["xsp-config", "xsp.metadata"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

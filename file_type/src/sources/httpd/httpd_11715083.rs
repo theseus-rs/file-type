@@ -6,6 +6,6 @@ pub(crate) const HTTPD_11715083: FileFormat = FileFormat {
     name: "visio",
     extensions: &["vsd", "vst", "vss", "vsw"],
     media_types: &["application/vnd.visio"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3129244361: FileFormat = FileFormat {
     name: "vnd.etsi.mheg5",
     extensions: &[],
     media_types: &["application/vnd.etsi.mheg5"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

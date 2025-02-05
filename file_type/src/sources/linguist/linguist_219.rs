@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_219: FileFormat = FileFormat {
     name: "MUF",
     extensions: &["m", "muf"],
     media_types: &["text/x-forth"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

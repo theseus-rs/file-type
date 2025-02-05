@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2280676910: FileFormat = FileFormat {
     name: "publishare delta tree",
     extensions: &["qps"],
     media_types: &["application/vnd.publishare-delta-tree"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

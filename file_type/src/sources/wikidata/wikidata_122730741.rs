@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_122730741: FileFormat = FileFormat {
     id: 122_730_741,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_122730741: FileFormat = FileFormat {
     name: "Lazer View file",
     extensions: &["lv"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

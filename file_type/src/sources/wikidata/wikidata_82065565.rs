@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_82065565: FileFormat = FileFormat {
     id: 82_065_565,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_82065565: FileFormat = FileFormat {
     name: "PhotoShop Extended Digital Book",
     extensions: &["edb"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

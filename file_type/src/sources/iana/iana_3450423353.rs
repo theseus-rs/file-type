@@ -6,6 +6,6 @@ pub(crate) const IANA_3450423353: FileFormat = FileFormat {
     name: "vnd.cluetrust.cartomobile-config-pkg",
     extensions: &[],
     media_types: &["application/vnd.cluetrust.cartomobile-config-pkg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

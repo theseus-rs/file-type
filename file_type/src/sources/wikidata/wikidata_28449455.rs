@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28449455: FileFormat = FileFormat {
     id: 28_449_455,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28449455: FileFormat = FileFormat {
     name: "TOML",
     extensions: &["toml"],
     media_types: &["application/toml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

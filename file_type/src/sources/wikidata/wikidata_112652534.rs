@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_112652534: FileFormat = FileFormat {
     id: 112_652_534,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_112652534: FileFormat = FileFormat {
     name: "Astound 1.5 Library file format",
     extensions: &["asl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

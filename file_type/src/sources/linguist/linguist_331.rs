@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_331: FileFormat = FileFormat {
     name: "SPARQL",
     extensions: &["rq", "sparql"],
     media_types: &["application/sparql-query"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

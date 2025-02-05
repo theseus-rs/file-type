@@ -6,6 +6,6 @@ pub(crate) const IANA_2252256664: FileFormat = FileFormat {
     name: "scim+json",
     extensions: &[],
     media_types: &["application/scim+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

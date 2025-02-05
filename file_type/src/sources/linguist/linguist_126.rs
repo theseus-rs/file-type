@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_126: FileFormat = FileFormat {
     name: "Genshi",
     extensions: &["kid"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

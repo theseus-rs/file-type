@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1799191154: FileFormat = FileFormat {
     name: "oda",
     extensions: &["oda"],
     media_types: &["application/oda"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

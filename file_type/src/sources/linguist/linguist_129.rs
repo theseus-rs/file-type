@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_129: FileFormat = FileFormat {
     name: "Gettext Catalog",
     extensions: &["po", "pot"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

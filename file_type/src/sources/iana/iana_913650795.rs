@@ -6,6 +6,6 @@ pub(crate) const IANA_913650795: FileFormat = FileFormat {
     name: "vnd.relpipe",
     extensions: &[],
     media_types: &["application/vnd.relpipe"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

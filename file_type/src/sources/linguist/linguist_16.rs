@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_16: FileFormat = FileFormat {
     name: "ApacheConf",
     extensions: &["apacheconf", "vhost"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

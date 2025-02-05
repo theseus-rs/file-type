@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27350185: FileFormat = FileFormat {
     id: 27_350_185,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27350185: FileFormat = FileFormat {
     name: "ADRG Test Patch Image File",
     extensions: &["cph"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2645702580: FileFormat = FileFormat {
     name: "EmergencyCallData.DeviceInfo+xml",
     extensions: &[],
     media_types: &["application/EmergencyCallData.DeviceInfo+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

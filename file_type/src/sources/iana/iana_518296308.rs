@@ -6,6 +6,6 @@ pub(crate) const IANA_518296308: FileFormat = FileFormat {
     name: "vnd.etsi.iptvsync+xml",
     extensions: &[],
     media_types: &["application/vnd.etsi.iptvsync+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

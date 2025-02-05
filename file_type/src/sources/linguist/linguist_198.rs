@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_198: FileFormat = FileFormat {
     name: "Less",
     extensions: &["less"],
     media_types: &["text/css"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_288: FileFormat = FileFormat {
     name: "Pod",
     extensions: &["pod"],
     media_types: &["text/x-perl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

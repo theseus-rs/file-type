@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131389470: FileFormat = FileFormat {
     id: 131_389_470,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131389470: FileFormat = FileFormat {
     name: "Varnish Configuration Language file format",
     extensions: &["vcl"],
     media_types: &["text/x-vclsrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

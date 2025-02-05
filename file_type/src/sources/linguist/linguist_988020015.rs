@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_988020015: FileFormat = FileFormat {
     name: "Texinfo",
     extensions: &["texi", "texinfo", "txi"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

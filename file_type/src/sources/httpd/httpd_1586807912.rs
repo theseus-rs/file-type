@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1586807912: FileFormat = FileFormat {
     name: "msmediaview",
     extensions: &["mvb", "m13", "m14"],
     media_types: &["application/x-msmediaview"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_231021894: FileFormat = FileFormat {
     name: "Hosts File",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

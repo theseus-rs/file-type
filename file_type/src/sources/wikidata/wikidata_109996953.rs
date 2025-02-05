@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_109996953: FileFormat = FileFormat {
     id: 109_996_953,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_109996953: FileFormat = FileFormat {
     name: "Autocad DMP File",
     extensions: &["dmp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

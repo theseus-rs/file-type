@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_51917759: FileFormat = FileFormat {
     id: 51_917_759,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_51917759: FileFormat = FileFormat {
     name: "SDSC Image Tool X Window Dump Format",
     extensions: &["xwd"],
     media_types: &["image/xwd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

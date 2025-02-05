@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1037: FileFormat = FileFormat {
@@ -9,8 +9,8 @@ pub(crate) const PRONOM_1037: FileFormat = FileFormat {
     name: "OpenDocument Spreadsheet",
     extensions: &["ods", "ots"],
     media_types: &["application/vnd.oasis.opendocument.spreadsheet"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -34,7 +34,7 @@ pub(crate) const PRONOM_1037: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

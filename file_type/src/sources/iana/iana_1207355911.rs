@@ -6,6 +6,6 @@ pub(crate) const IANA_1207355911: FileFormat = FileFormat {
     name: "vnd.multiad.creator",
     extensions: &[],
     media_types: &["application/vnd.multiad.creator"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

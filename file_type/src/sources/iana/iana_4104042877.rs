@@ -6,6 +6,6 @@ pub(crate) const IANA_4104042877: FileFormat = FileFormat {
     name: "davmount+xml",
     extensions: &[],
     media_types: &["application/davmount+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

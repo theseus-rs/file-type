@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_461881235: FileFormat = FileFormat {
     name: "Git Revision List",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

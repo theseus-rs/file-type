@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_35: FileFormat = FileFormat {
     name: "BlitzMax",
     extensions: &["bmx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_408016005: FileFormat = FileFormat {
     name: "VBScript",
     extensions: &["vbs"],
     media_types: &["text/vbscript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

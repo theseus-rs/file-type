@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1698227038: FileFormat = FileFormat {
     name: "ms excel addin macroenabled 12",
     extensions: &["xlam"],
     media_types: &["application/vnd.ms-excel.addin.macroenabled.12"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

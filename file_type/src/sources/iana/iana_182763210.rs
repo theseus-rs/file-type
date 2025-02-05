@@ -6,6 +6,6 @@ pub(crate) const IANA_182763210: FileFormat = FileFormat {
     name: "vnd.motorola.reflex",
     extensions: &[],
     media_types: &["text/vnd.motorola.reflex"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

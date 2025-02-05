@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27487130: FileFormat = FileFormat {
     id: 27_487_130,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27487130: FileFormat = FileFormat {
     name: "Shapefile dBASE table",
     extensions: &["dbf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

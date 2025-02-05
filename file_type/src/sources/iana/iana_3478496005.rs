@@ -6,6 +6,6 @@ pub(crate) const IANA_3478496005: FileFormat = FileFormat {
     name: "vnd.astraea-software.iota",
     extensions: &[],
     media_types: &["application/vnd.astraea-software.iota"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

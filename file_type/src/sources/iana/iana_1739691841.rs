@@ -6,6 +6,6 @@ pub(crate) const IANA_1739691841: FileFormat = FileFormat {
     name: "zstd",
     extensions: &[],
     media_types: &["application/zstd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

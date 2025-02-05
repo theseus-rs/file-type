@@ -6,6 +6,6 @@ pub(crate) const IANA_434037104: FileFormat = FileFormat {
     name: "at+jwt",
     extensions: &[],
     media_types: &["application/at+jwt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -9,6 +9,6 @@ pub(crate) const LINGUIST_43: FileFormat = FileFormat {
         "ino", "ipp", "ixx", "re", "tcc", "tpp", "txx",
     ],
     media_types: &["text/x-c++src"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

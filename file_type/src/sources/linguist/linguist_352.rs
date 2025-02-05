@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_352: FileFormat = FileFormat {
     name: "Smalltalk",
     extensions: &["cs", "st"],
     media_types: &["text/x-stsrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_336943375: FileFormat = FileFormat {
     name: "F*",
     extensions: &["fst", "fsti"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

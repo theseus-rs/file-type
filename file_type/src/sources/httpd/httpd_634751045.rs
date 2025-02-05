@@ -6,6 +6,6 @@ pub(crate) const HTTPD_634751045: FileFormat = FileFormat {
     name: "cosmocaller",
     extensions: &["cmc"],
     media_types: &["application/vnd.cosmocaller"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

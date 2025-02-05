@@ -6,6 +6,6 @@ pub(crate) const IANA_1050342415: FileFormat = FileFormat {
     name: "vcard",
     extensions: &[],
     media_types: &["text/vcard"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

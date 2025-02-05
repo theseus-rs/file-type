@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_57: FileFormat = FileFormat {
     name: "ChucK",
     extensions: &["ck"],
     media_types: &["text/x-java"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

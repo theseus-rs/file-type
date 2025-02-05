@@ -6,6 +6,6 @@ pub(crate) const IANA_1141083706: FileFormat = FileFormat {
     name: "simpleSymbolContainer",
     extensions: &[],
     media_types: &["application/simpleSymbolContainer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

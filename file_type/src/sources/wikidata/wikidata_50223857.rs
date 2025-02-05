@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_50223857: FileFormat = FileFormat {
     id: 50_223_857,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_50223857: FileFormat = FileFormat {
     name: "ESRI ArcMap Document",
     extensions: &["mxd"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

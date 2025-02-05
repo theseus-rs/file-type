@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_97012602: FileFormat = FileFormat {
     id: 97_012_602,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_97012602: FileFormat = FileFormat {
     name: "gnuplot plot files",
     extensions: &["gp", "gplt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

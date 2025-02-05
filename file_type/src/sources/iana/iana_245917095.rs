@@ -6,6 +6,6 @@ pub(crate) const IANA_245917095: FileFormat = FileFormat {
     name: "vnd.rainstor.data",
     extensions: &[],
     media_types: &["application/vnd.rainstor.data"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_948240628: FileFormat = FileFormat {
     name: "mpeg",
     extensions: &[],
     media_types: &["video/mpeg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

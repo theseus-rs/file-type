@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_176061: FileFormat = FileFormat {
     id: 176_061,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_176061: FileFormat = FileFormat {
     name: "Virtual Reality Modeling Language",
     extensions: &["vrml", "wrl", "wrz"],
     media_types: &["application/x-cc3d", "model/vrml", "x-world/x-vrml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

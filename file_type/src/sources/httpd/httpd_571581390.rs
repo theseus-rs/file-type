@@ -6,6 +6,6 @@ pub(crate) const HTTPD_571581390: FileFormat = FileFormat {
     name: "accpac simply imp",
     extensions: &["imp"],
     media_types: &["application/vnd.accpac.simply.imp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

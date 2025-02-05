@@ -6,6 +6,6 @@ pub(crate) const IANA_1586454784: FileFormat = FileFormat {
     name: "vnd.vmx.cvsd",
     extensions: &[],
     media_types: &["audio/vnd.vmx.cvsd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

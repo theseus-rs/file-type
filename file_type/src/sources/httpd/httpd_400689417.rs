@@ -6,6 +6,6 @@ pub(crate) const HTTPD_400689417: FileFormat = FileFormat {
     name: "csv",
     extensions: &["csv"],
     media_types: &["text/csv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

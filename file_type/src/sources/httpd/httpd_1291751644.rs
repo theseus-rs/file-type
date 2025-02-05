@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1291751644: FileFormat = FileFormat {
     name: "fujixerox docuworks binder",
     extensions: &["xbd"],
     media_types: &["application/vnd.fujixerox.docuworks.binder"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

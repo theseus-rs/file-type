@@ -6,6 +6,6 @@ pub(crate) const IANA_2544030405: FileFormat = FileFormat {
     name: "fhirpath",
     extensions: &[],
     media_types: &["text/fhirpath"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

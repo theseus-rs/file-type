@@ -6,6 +6,6 @@ pub(crate) const IANA_572396452: FileFormat = FileFormat {
     name: "entity-statement+jwt",
     extensions: &[],
     media_types: &["application/entity-statement+jwt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

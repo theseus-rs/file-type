@@ -6,6 +6,6 @@ pub(crate) const IANA_3368114516: FileFormat = FileFormat {
     name: "vnd.yamaha.openscoreformat",
     extensions: &[],
     media_types: &["application/vnd.yamaha.openscoreformat"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

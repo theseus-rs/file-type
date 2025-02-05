@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1320060169: FileFormat = FileFormat {
     name: "bittorrent",
     extensions: &["torrent"],
     media_types: &["application/x-bittorrent"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

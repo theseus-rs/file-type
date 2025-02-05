@@ -6,6 +6,6 @@ pub(crate) const HTTPD_649945256: FileFormat = FileFormat {
     name: "frogans ltf",
     extensions: &["ltf"],
     media_types: &["application/vnd.frogans.ltf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

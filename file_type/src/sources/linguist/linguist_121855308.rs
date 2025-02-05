@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_121855308: FileFormat = FileFormat {
     name: "Berry",
     extensions: &["be"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

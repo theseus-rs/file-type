@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2452209651: FileFormat = FileFormat {
     name: "geospace",
     extensions: &["g3w"],
     media_types: &["application/vnd.geospace"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

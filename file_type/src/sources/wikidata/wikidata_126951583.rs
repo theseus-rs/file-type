@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_126951583: FileFormat = FileFormat {
     id: 126_951_583,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_126951583: FileFormat = FileFormat {
     name: "Kotlin Source Code File",
     extensions: &["kt", "kts"],
     media_types: &["text/x-kotlin"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

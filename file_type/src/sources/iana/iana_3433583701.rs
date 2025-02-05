@@ -6,6 +6,6 @@ pub(crate) const IANA_3433583701: FileFormat = FileFormat {
     name: "vnd.eclipse.ditto+json",
     extensions: &[],
     media_types: &["application/vnd.eclipse.ditto+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

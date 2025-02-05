@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_476447814: FileFormat = FileFormat {
     name: "Cylc",
     extensions: &["cylc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

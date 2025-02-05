@@ -6,6 +6,6 @@ pub(crate) const IANA_3214346991: FileFormat = FileFormat {
     name: "vnd.fujifilm.fb.docuworks.container",
     extensions: &[],
     media_types: &["application/vnd.fujifilm.fb.docuworks.container"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

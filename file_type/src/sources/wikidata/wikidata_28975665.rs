@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28975665: FileFormat = FileFormat {
     id: 28_975_665,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_28975665: FileFormat = FileFormat {
     name: "3D Studio Max ASCII Export Format",
     extensions: &["ase"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

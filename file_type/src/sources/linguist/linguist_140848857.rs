@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_140848857: FileFormat = FileFormat {
     name: "KiCad Legacy Layout",
     extensions: &["brd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

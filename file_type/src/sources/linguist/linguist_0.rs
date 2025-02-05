@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_0: FileFormat = FileFormat {
     name: "1C Enterprise",
     extensions: &["bsl", "os"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

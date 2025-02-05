@@ -6,6 +6,6 @@ pub(crate) const IANA_4189331919: FileFormat = FileFormat {
     name: "vnd.resilient.logic",
     extensions: &[],
     media_types: &["application/vnd.resilient.logic"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2321142532: FileFormat = FileFormat {
     name: "dreamfactory",
     extensions: &["dfac"],
     media_types: &["application/vnd.dreamfactory"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

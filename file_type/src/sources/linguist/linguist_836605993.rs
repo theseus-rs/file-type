@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_836605993: FileFormat = FileFormat {
     name: "WGSL",
     extensions: &["wgsl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

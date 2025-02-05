@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_50825843: FileFormat = FileFormat {
     id: 50_825_843,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_50825843: FileFormat = FileFormat {
     name: "AVCHD Index File",
     extensions: &["bdm", "bdmv"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

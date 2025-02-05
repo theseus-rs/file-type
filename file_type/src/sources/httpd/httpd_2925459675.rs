@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2925459675: FileFormat = FileFormat {
     name: "pkix attr cert",
     extensions: &["ac"],
     media_types: &["application/pkix-attr-cert"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

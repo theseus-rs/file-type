@@ -6,6 +6,6 @@ pub(crate) const IANA_4265724990: FileFormat = FileFormat {
     name: "vnd.gentoo.ebuild",
     extensions: &[],
     media_types: &["application/vnd.gentoo.ebuild"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

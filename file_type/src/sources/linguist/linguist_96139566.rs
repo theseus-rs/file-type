@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_96139566: FileFormat = FileFormat {
     name: "EditorConfig",
     extensions: &["editorconfig"],
     media_types: &["text/x-properties"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

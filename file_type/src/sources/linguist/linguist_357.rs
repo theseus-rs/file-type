@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_357: FileFormat = FileFormat {
     name: "Standard ML",
     extensions: &["fun", "ml", "sig", "sml"],
     media_types: &["text/x-ocaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

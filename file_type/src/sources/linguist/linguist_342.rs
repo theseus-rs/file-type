@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_342: FileFormat = FileFormat {
     name: "Scaml",
     extensions: &["scaml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

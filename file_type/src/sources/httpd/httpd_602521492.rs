@@ -6,6 +6,6 @@ pub(crate) const HTTPD_602521492: FileFormat = FileFormat {
     name: "tei xml",
     extensions: &["tei", "teicorpus"],
     media_types: &["application/tei+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_109: FileFormat = FileFormat {
     name: "Fancy",
     extensions: &["fancypack", "fy"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

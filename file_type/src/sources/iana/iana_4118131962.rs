@@ -6,6 +6,6 @@ pub(crate) const IANA_4118131962: FileFormat = FileFormat {
     name: "vnd.oma.poc.final-report+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.poc.final-report+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

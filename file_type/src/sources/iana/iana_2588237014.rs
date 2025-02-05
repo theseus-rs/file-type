@@ -6,6 +6,6 @@ pub(crate) const IANA_2588237014: FileFormat = FileFormat {
     name: "yang-data+xml",
     extensions: &[],
     media_types: &["application/yang-data+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27966964: FileFormat = FileFormat {
     id: 27_966_964,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_27966964: FileFormat = FileFormat {
     name: "4X IMA ADPCM",
     extensions: &["4xm"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

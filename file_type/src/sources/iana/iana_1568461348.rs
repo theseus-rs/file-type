@@ -6,6 +6,6 @@ pub(crate) const IANA_1568461348: FileFormat = FileFormat {
     name: "vnd.data-vision.rdz",
     extensions: &[],
     media_types: &["application/vnd.data-vision.rdz"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

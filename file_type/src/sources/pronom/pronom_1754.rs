@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1754: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1754: FileFormat = FileFormat {
     name: "WordPerfect",
     extensions: &["wp4", "wpd"],
     media_types: &["application/vnd.wordperfect"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[RelatedFormat {
         relationship_type: RelationshipType::IsPreviousVersionOf,
         id: 736,

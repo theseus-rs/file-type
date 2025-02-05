@@ -6,6 +6,6 @@ pub(crate) const IANA_4088672022: FileFormat = FileFormat {
     name: "vnd.cinderella",
     extensions: &[],
     media_types: &["application/vnd.cinderella"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

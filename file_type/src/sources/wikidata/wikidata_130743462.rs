@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130743462: FileFormat = FileFormat {
     id: 130_743_462,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130743462: FileFormat = FileFormat {
     name: "Scilab source code file",
     extensions: &["sce", "sci", "tst"],
     media_types: &["text/scilab"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

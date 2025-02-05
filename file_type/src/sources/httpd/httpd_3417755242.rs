@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3417755242: FileFormat = FileFormat {
     name: "oasis opendocument formula",
     extensions: &["odf"],
     media_types: &["application/vnd.oasis.opendocument.formula"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

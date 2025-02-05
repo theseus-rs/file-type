@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1452506864: FileFormat = FileFormat {
     name: "stardivision math",
     extensions: &["smf"],
     media_types: &["application/vnd.stardivision.math"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_94994568: FileFormat = FileFormat {
     id: 94_994_568,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_94994568: FileFormat = FileFormat {
     name: "Adobe InDesign ICML",
     extensions: &["icml"],
     media_types: &["application/x-indesign"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_73971162: FileFormat = FileFormat {
     name: "provenance-notation",
     extensions: &[],
     media_types: &["text/provenance-notation"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

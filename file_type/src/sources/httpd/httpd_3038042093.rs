@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3038042093: FileFormat = FileFormat {
     name: "portable anymap",
     extensions: &["pnm"],
     media_types: &["image/x-portable-anymap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

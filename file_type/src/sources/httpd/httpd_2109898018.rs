@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2109898018: FileFormat = FileFormat {
     name: "woff2",
     extensions: &["woff2"],
     media_types: &["font/woff2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

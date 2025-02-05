@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1702047748: FileFormat = FileFormat {
     name: "las las xml",
     extensions: &["lasxml"],
     media_types: &["application/vnd.las.las+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_113556934: FileFormat = FileFormat {
     id: 113_556_934,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_113556934: FileFormat = FileFormat {
     name: "BlindRead ImageCreator Image",
     extensions: &["iso"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

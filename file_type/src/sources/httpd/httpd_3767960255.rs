@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3767960255: FileFormat = FileFormat {
     name: "ms excel",
     extensions: &["xls", "xlm", "xla", "xlc", "xlt", "xlw"],
     media_types: &["application/vnd.ms-excel"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

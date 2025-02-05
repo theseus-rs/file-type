@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1057618448: FileFormat = FileFormat {
     name: "Imba",
     extensions: &["imba"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

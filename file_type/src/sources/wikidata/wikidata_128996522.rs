@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_128996522: FileFormat = FileFormat {
     id: 128_996_522,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_128996522: FileFormat = FileFormat {
     name: "Easytrieve file format",
     extensions: &["ezt"],
     media_types: &["text/x-easytrieve"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

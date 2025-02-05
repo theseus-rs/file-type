@@ -6,6 +6,6 @@ pub(crate) const IANA_4066570451: FileFormat = FileFormat {
     name: "vnd.epson.quickanime",
     extensions: &[],
     media_types: &["application/vnd.epson.quickanime"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

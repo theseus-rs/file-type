@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_459577965: FileFormat = FileFormat {
     name: "GEDCOM",
     extensions: &["ged"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

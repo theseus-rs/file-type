@@ -6,6 +6,6 @@ pub(crate) const IANA_2857477114: FileFormat = FileFormat {
     name: "vnd.kahootz",
     extensions: &[],
     media_types: &["application/vnd.kahootz"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

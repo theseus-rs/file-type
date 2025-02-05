@@ -6,6 +6,6 @@ pub(crate) const IANA_2563513024: FileFormat = FileFormat {
     name: "p21+zip",
     extensions: &[],
     media_types: &["application/p21+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_321684729: FileFormat = FileFormat {
     name: "CODEOWNERS",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

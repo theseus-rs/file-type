@@ -6,6 +6,6 @@ pub(crate) const HTTPD_509235866: FileFormat = FileFormat {
     name: "ms wpl",
     extensions: &["wpl"],
     media_types: &["application/vnd.ms-wpl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

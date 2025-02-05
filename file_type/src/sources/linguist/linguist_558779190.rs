@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_558779190: FileFormat = FileFormat {
     name: "Sweave",
     extensions: &["rnw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

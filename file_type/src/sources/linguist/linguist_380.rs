@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_380: FileFormat = FileFormat {
     name: "Unity3D Asset",
     extensions: &["anim", "asset", "mask", "mat", "meta", "prefab", "unity"],
     media_types: &["text/x-yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

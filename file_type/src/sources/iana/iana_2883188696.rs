@@ -6,6 +6,6 @@ pub(crate) const IANA_2883188696: FileFormat = FileFormat {
     name: "activemessage",
     extensions: &[],
     media_types: &["application/activemessage"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

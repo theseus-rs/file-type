@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1721268295: FileFormat = FileFormat {
     name: "metalink4 xml",
     extensions: &["meta4"],
     media_types: &["application/metalink4+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

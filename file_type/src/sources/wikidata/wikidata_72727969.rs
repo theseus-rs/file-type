@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_72727969: FileFormat = FileFormat {
     id: 72_727_969,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_72727969: FileFormat = FileFormat {
     name: "Windows for Pen Computing Notebook",
     extensions: &["ntb"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

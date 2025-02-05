@@ -6,6 +6,6 @@ pub(crate) const IANA_3164453447: FileFormat = FileFormat {
     name: "rlmi+xml",
     extensions: &[],
     media_types: &["application/rlmi+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

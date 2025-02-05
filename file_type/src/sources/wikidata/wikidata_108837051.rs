@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_108837051: FileFormat = FileFormat {
     id: 108_837_051,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_108837051: FileFormat = FileFormat {
     name: "Nero UDF CD-ROM Compilation",
     extensions: &["nru"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -9,6 +9,6 @@ pub(crate) const LINGUIST_303: FileFormat = FileFormat {
         "rpy", "spec", "tac", "wsgi", "xpy",
     ],
     media_types: &["text/x-python"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

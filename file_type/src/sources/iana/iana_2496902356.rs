@@ -6,6 +6,6 @@ pub(crate) const IANA_2496902356: FileFormat = FileFormat {
     name: "soap+xml",
     extensions: &[],
     media_types: &["application/soap+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

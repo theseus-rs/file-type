@@ -6,6 +6,6 @@ pub(crate) const IANA_3099405177: FileFormat = FileFormat {
     name: "vnd.everad.plj",
     extensions: &[],
     media_types: &["audio/vnd.everad.plj"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

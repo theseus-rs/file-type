@@ -6,6 +6,6 @@ pub(crate) const IANA_171816475: FileFormat = FileFormat {
     name: "vnd.lucent.voice",
     extensions: &[],
     media_types: &["audio/vnd.lucent.voice"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

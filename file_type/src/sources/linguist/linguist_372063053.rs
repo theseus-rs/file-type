@@ -19,6 +19,6 @@ pub(crate) const LINGUIST_372063053: FileFormat = FileFormat {
         "sha512",
     ],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3895195455: FileFormat = FileFormat {
     name: "vnd.afpc.modca-overlay",
     extensions: &[],
     media_types: &["application/vnd.afpc.modca-overlay"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

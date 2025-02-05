@@ -6,6 +6,6 @@ pub(crate) const IANA_1999796314: FileFormat = FileFormat {
     name: "vnd.sigrok.session",
     extensions: &[],
     media_types: &["application/vnd.sigrok.session"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

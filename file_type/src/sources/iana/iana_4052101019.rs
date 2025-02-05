@@ -6,6 +6,6 @@ pub(crate) const IANA_4052101019: FileFormat = FileFormat {
     name: "news-checkgroups",
     extensions: &[],
     media_types: &["application/news-checkgroups"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

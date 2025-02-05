@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_171666519: FileFormat = FileFormat {
     name: "NASL",
     extensions: &["inc", "nasl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2421251805: FileFormat = FileFormat {
     name: "aif+json",
     extensions: &[],
     media_types: &["application/aif+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

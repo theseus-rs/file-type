@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_664885656: FileFormat = FileFormat {
     name: "Jsonnet",
     extensions: &["jsonnet", "libsonnet"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

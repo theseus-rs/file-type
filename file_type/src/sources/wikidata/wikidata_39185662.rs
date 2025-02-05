@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_39185662: FileFormat = FileFormat {
     id: 39_185_662,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_39185662: FileFormat = FileFormat {
     name: "AHK script",
     extensions: &["ahk"],
     media_types: &["text/x-autohotkey"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

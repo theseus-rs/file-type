@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2721747258: FileFormat = FileFormat {
     name: "collection",
     extensions: &["ttc"],
     media_types: &["font/collection"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

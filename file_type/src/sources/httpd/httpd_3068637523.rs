@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3068637523: FileFormat = FileFormat {
     name: "gxf",
     extensions: &["gxf"],
     media_types: &["application/gxf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

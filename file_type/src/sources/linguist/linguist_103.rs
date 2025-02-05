@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_103: FileFormat = FileFormat {
     name: "EmberScript",
     extensions: &["em", "emberscript"],
     media_types: &["text/x-coffeescript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

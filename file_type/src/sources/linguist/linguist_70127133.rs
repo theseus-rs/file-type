@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_70127133: FileFormat = FileFormat {
     name: "Jai",
     extensions: &["jai"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

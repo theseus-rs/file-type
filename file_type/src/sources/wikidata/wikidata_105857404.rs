@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857404: FileFormat = FileFormat {
     id: 105_857_404,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105857404: FileFormat = FileFormat {
     name: "DroidPad custom layout",
     extensions: &["json"],
     media_types: &["application/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

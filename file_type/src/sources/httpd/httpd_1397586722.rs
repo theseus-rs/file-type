@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1397586722: FileFormat = FileFormat {
     name: "frogans fnc",
     extensions: &["fnc"],
     media_types: &["application/vnd.frogans.fnc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

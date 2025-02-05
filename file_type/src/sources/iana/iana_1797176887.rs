@@ -6,6 +6,6 @@ pub(crate) const IANA_1797176887: FileFormat = FileFormat {
     name: "jpm",
     extensions: &[],
     media_types: &["image/jpm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2586104738: FileFormat = FileFormat {
     name: "vnd.dece.ttml+xml",
     extensions: &[],
     media_types: &["application/vnd.dece.ttml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

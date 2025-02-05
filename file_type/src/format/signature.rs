@@ -1,13 +1,13 @@
 use crate::format::{ByteSequence, PositionType};
 
-/// An internal signature.
+/// A file signature.
 #[derive(Clone, Debug, Default, Eq, PartialEq)]
-pub struct InternalSignature {
+pub struct Signature {
     pub byte_sequences: &'static [ByteSequence],
 }
 
-impl InternalSignature {
-    /// Get the key for this internal signature.
+impl Signature {
+    /// Get the key for this signature.
     ///
     /// The key is the first 8 bytes on the first byte sequence that is an absolute position from
     /// the beginning of the file where the sequence is a literal.  If no such byte sequence exists,
@@ -38,10 +38,10 @@ impl InternalSignature {
         }
     }
 
-    /// Check if this internal signature is a match for the given bytes
+    /// Check if this signature is a match for the given bytes
     #[must_use]
     pub fn is_match(&self, bytes: &[u8]) -> bool {
-        // All byte sequences must match in order for the internal signature to match
+        // All byte sequences must match in order for the signature to match
         self.byte_sequences
             .iter()
             .all(|byte_sequence| byte_sequence.is_match(bytes))

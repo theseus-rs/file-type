@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1785152264: FileFormat = FileFormat {
     name: "ctc posml",
     extensions: &["pml"],
     media_types: &["application/vnd.ctc-posml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

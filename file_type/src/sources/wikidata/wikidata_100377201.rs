@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_100377201: FileFormat = FileFormat {
     id: 100_377_201,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_100377201: FileFormat = FileFormat {
     name: "HP TRIM Outlook Saved Message File",
     extensions: &["vmbx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

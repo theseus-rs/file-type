@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111009727: FileFormat = FileFormat {
     id: 111_009_727,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111009727: FileFormat = FileFormat {
     name: "PrintMaster Envelope File format",
     extensions: &["env"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

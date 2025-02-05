@@ -6,6 +6,6 @@ pub(crate) const IANA_1367197292: FileFormat = FileFormat {
     name: "oauth-authz-req+jwt",
     extensions: &[],
     media_types: &["application/oauth-authz-req+jwt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3841727505: FileFormat = FileFormat {
     name: "vnd.sealed.mht",
     extensions: &[],
     media_types: &["application/vnd.sealed.mht"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

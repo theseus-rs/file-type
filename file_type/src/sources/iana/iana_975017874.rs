@@ -6,6 +6,6 @@ pub(crate) const IANA_975017874: FileFormat = FileFormat {
     name: "vnd.sealed.csf",
     extensions: &[],
     media_types: &["application/vnd.sealed.csf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

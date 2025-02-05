@@ -6,6 +6,6 @@ pub(crate) const IANA_293757942: FileFormat = FileFormat {
     name: "vnd.xmi+xml",
     extensions: &[],
     media_types: &["application/vnd.xmi+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

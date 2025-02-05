@@ -6,6 +6,6 @@ pub(crate) const IANA_1886613558: FileFormat = FileFormat {
     name: "vnd.ubisoft.webplayer",
     extensions: &[],
     media_types: &["application/vnd.ubisoft.webplayer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

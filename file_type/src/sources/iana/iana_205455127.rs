@@ -6,6 +6,6 @@ pub(crate) const IANA_205455127: FileFormat = FileFormat {
     name: "EVRC-QCP",
     extensions: &[],
     media_types: &["audio/EVRC-QCP"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

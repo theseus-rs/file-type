@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2699558500: FileFormat = FileFormat {
     name: "hp hps",
     extensions: &["hps"],
     media_types: &["application/vnd.hp-hps"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

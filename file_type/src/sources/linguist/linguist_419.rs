@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_419: FileFormat = FileFormat {
     name: "reStructuredText",
     extensions: &["rest", "rest.txt", "rst", "rst.txt"],
     media_types: &["text/x-rst"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

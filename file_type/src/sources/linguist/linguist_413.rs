@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_413: FileFormat = FileFormat {
     name: "eC",
     extensions: &["ec", "eh"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

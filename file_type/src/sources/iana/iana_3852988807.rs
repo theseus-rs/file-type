@@ -6,6 +6,6 @@ pub(crate) const IANA_3852988807: FileFormat = FileFormat {
     name: "tve-trigger",
     extensions: &[],
     media_types: &["application/tve-trigger"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

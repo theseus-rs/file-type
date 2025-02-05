@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_834374816: FileFormat = FileFormat {
     name: "OASv2-json",
     extensions: &["json"],
     media_types: &["application/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

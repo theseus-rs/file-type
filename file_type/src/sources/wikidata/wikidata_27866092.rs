@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27866092: FileFormat = FileFormat {
     id: 27_866_092,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27866092: FileFormat = FileFormat {
     name: "Adobe Illustrator Artwork, version 1.0/1.1",
     extensions: &["ai"],
     media_types: &["application/postscript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

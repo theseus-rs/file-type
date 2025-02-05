@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_498022874: FileFormat = FileFormat {
     name: "Rez",
     extensions: &["r"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_292: FileFormat = FileFormat {
     name: "PowerBuilder",
     extensions: &["pbt", "sra", "sru", "srw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

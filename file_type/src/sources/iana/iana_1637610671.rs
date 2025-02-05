@@ -6,6 +6,6 @@ pub(crate) const IANA_1637610671: FileFormat = FileFormat {
     name: "MPA",
     extensions: &[],
     media_types: &["audio/MPA"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1638625101: FileFormat = FileFormat {
     name: "netcdf",
     extensions: &["nc", "cdf"],
     media_types: &["application/x-netcdf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

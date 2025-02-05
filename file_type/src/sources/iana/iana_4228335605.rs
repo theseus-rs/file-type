@@ -6,6 +6,6 @@ pub(crate) const IANA_4228335605: FileFormat = FileFormat {
     name: "vnd.osgi.dp",
     extensions: &[],
     media_types: &["application/vnd.osgi.dp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

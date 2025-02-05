@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_127785591: FileFormat = FileFormat {
     id: 127_785_591,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_127785591: FileFormat = FileFormat {
     name: "MetaPost PostScript file",
     extensions: &["mps"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

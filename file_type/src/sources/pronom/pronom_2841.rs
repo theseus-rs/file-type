@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2841: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_2841: FileFormat = FileFormat {
     name: "Finale Notation File",
     extensions: &["musx"],
     media_types: &["application/vnd.makemusic.notation"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

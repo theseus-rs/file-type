@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_795579337: FileFormat = FileFormat {
     name: "templ",
     extensions: &["templ"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

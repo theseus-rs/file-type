@@ -6,6 +6,6 @@ pub(crate) const IANA_920489276: FileFormat = FileFormat {
     name: "geopackage+sqlite3",
     extensions: &[],
     media_types: &["application/geopackage+sqlite3"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_237469033: FileFormat = FileFormat {
     name: "Yul",
     extensions: &["yul"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

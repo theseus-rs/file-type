@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_61963304: FileFormat = FileFormat {
     id: 61_963_304,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_61963304: FileFormat = FileFormat {
     name: "Microsoft Front Page Binary Tree Index",
     extensions: &["btr"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

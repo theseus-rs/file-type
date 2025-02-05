@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_969323346: FileFormat = FileFormat {
     name: "Dafny",
     extensions: &["dfy"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

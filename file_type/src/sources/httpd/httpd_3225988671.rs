@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3225988671: FileFormat = FileFormat {
     name: "3gpp2",
     extensions: &["3g2"],
     media_types: &["video/3gpp2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

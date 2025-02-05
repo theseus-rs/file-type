@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_306: FileFormat = FileFormat {
     name: "QMake",
     extensions: &["pri", "pro"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3780084386: FileFormat = FileFormat {
     name: "vnd.zzazz.deck+xml",
     extensions: &[],
     media_types: &["application/vnd.zzazz.deck+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

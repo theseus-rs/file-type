@@ -6,6 +6,6 @@ pub(crate) const IANA_592700294: FileFormat = FileFormat {
     name: "vnd.radisys.msml-audit+xml",
     extensions: &[],
     media_types: &["application/vnd.radisys.msml-audit+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

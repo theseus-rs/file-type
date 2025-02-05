@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1946098896: FileFormat = FileFormat {
     name: "yamaha hv script",
     extensions: &["hvs"],
     media_types: &["application/vnd.yamaha.hv-script"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

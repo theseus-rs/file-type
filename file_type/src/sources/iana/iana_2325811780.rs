@@ -6,6 +6,6 @@ pub(crate) const IANA_2325811780: FileFormat = FileFormat {
     name: "senml-etch+json",
     extensions: &[],
     media_types: &["application/senml-etch+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

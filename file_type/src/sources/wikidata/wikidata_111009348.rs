@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111009348: FileFormat = FileFormat {
     id: 111_009_348,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111009348: FileFormat = FileFormat {
     name: "PrintMaster Brochure File format",
     extensions: &["bro"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

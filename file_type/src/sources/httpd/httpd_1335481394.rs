@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1335481394: FileFormat = FileFormat {
     name: "noblenet directory",
     extensions: &["nnd"],
     media_types: &["application/vnd.noblenet-directory"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

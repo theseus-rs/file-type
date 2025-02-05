@@ -6,6 +6,6 @@ pub(crate) const IANA_1621583018: FileFormat = FileFormat {
     name: "t140c",
     extensions: &[],
     media_types: &["audio/t140c"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

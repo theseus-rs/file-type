@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_360194: FileFormat = FileFormat {
     id: 360_194,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_360194: FileFormat = FileFormat {
     name: "Adobe Type 1 ASCII Font Metrics",
     extensions: &["afm"],
     media_types: &["application/x-font-afm"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

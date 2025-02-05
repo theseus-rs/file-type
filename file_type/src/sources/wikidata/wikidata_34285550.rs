@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_34285550: FileFormat = FileFormat {
     id: 34_285_550,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_34285550: FileFormat = FileFormat {
     name: "Perl header",
     extensions: &["ph"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

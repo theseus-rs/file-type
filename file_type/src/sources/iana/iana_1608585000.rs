@@ -6,6 +6,6 @@ pub(crate) const IANA_1608585000: FileFormat = FileFormat {
     name: "vnd.valve.source.compiled-map",
     extensions: &[],
     media_types: &["model/vnd.valve.source.compiled-map"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

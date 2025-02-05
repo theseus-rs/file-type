@@ -6,6 +6,6 @@ pub(crate) const IANA_3355017942: FileFormat = FileFormat {
     name: "midi-clip",
     extensions: &[],
     media_types: &["audio/midi-clip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

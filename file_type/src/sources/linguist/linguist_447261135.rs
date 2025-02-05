@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_447261135: FileFormat = FileFormat {
     name: "JAR Manifest",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

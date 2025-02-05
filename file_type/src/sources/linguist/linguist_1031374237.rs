@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1031374237: FileFormat = FileFormat {
     name: "RPC",
     extensions: &["x"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

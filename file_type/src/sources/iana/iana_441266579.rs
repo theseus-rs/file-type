@@ -6,6 +6,6 @@ pub(crate) const IANA_441266579: FileFormat = FileFormat {
     name: "vnd.objectvideo",
     extensions: &[],
     media_types: &["video/vnd.objectvideo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

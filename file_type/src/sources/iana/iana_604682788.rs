@@ -6,6 +6,6 @@ pub(crate) const IANA_604682788: FileFormat = FileFormat {
     name: "gltf+json",
     extensions: &[],
     media_types: &["model/gltf+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

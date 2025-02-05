@@ -6,6 +6,6 @@ pub(crate) const IANA_1460453601: FileFormat = FileFormat {
     name: "mbms-envelope+xml",
     extensions: &[],
     media_types: &["application/mbms-envelope+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

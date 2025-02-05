@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_165: FileFormat = FileFormat {
     name: "Idris",
     extensions: &["idr", "lidr"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_65532981: FileFormat = FileFormat {
     id: 65_532_981,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_65532981: FileFormat = FileFormat {
     name: "Cookbook file format",
     extensions: &["mc2"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_649945256: FileFormat = FileFormat {
     name: "vnd.frogans.ltf (OBSOLETE)",
     extensions: &[],
     media_types: &["application/vnd.frogans.ltf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

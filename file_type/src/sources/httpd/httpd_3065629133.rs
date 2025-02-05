@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3065629133: FileFormat = FileFormat {
     name: "cloanto rp9",
     extensions: &["rp9"],
     media_types: &["application/vnd.cloanto.rp9"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

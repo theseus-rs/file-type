@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105855421: FileFormat = FileFormat {
     id: 105_855_421,
@@ -8,8 +6,8 @@ pub(crate) const WIKIDATA_105855421: FileFormat = FileFormat {
     name: "FinalBuilder Project (v4) / Automise Project (v1)",
     extensions: &["atp", "fbp4"],
     media_types: &["text/xml"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -23,7 +21,7 @@ pub(crate) const WIKIDATA_105855421: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

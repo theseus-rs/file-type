@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1432736077: FileFormat = FileFormat {
     name: "matroska",
     extensions: &["mka"],
     media_types: &["audio/x-matroska"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

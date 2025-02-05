@@ -6,6 +6,6 @@ pub(crate) const HTTPD_719940166: FileFormat = FileFormat {
     name: "is xpr",
     extensions: &["xpr"],
     media_types: &["application/vnd.is-xpr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3047948639: FileFormat = FileFormat {
     name: "bmi",
     extensions: &["bmi"],
     media_types: &["application/vnd.bmi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

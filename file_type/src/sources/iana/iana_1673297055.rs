@@ -6,6 +6,6 @@ pub(crate) const IANA_1673297055: FileFormat = FileFormat {
     name: "tiff-fx",
     extensions: &[],
     media_types: &["image/tiff-fx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

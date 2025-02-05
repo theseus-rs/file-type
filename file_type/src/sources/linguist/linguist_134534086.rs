@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_134534086: FileFormat = FileFormat {
     name: "WebAssembly Interface Type",
     extensions: &["wit"],
     media_types: &["text/x-webidl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

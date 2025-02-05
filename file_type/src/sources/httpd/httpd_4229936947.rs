@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4229936947: FileFormat = FileFormat {
     name: "shana informed interchange",
     extensions: &["iif"],
     media_types: &["application/vnd.shana.informed.interchange"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

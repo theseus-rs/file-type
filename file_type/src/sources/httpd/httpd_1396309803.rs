@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1396309803: FileFormat = FileFormat {
     name: "hhe lesson player",
     extensions: &["les"],
     media_types: &["application/vnd.hhe.lesson-player"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

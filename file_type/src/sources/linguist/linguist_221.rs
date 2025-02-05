@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_221: FileFormat = FileFormat {
     name: "Mako",
     extensions: &["mako", "mao"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

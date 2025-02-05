@@ -6,6 +6,6 @@ pub(crate) const IANA_1823253405: FileFormat = FileFormat {
     name: "vnd.orange.indata",
     extensions: &[],
     media_types: &["application/vnd.orange.indata"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

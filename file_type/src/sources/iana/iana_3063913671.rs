@@ -6,6 +6,6 @@ pub(crate) const IANA_3063913671: FileFormat = FileFormat {
     name: "vnd.imagemeter.image+zip",
     extensions: &[],
     media_types: &["application/vnd.imagemeter.image+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

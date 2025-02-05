@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_197: FileFormat = FileFormat {
     name: "Lean",
     extensions: &["hlean", "lean"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

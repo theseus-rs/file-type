@@ -6,6 +6,6 @@ pub(crate) const IANA_1929696087: FileFormat = FileFormat {
     name: "vnd.uri-map",
     extensions: &[],
     media_types: &["application/vnd.uri-map"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

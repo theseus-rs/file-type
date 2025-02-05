@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_27: FileFormat = FileFormat {
     name: "AutoIt",
     extensions: &["au3"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

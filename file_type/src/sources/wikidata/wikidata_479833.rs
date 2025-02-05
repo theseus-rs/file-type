@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_479833: FileFormat = FileFormat {
     id: 479_833,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_479833: FileFormat = FileFormat {
     name: "batch file",
     extensions: &["bat", "btm", "cmd", "vbs"],
     media_types: &["application/x-bat"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

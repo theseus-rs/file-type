@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1122188876: FileFormat = FileFormat {
     name: "dra",
     extensions: &["dra"],
     media_types: &["audio/vnd.dra"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

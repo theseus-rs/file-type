@@ -6,6 +6,6 @@ pub(crate) const IANA_3352753080: FileFormat = FileFormat {
     name: "vnd.sealedmedia.softseal.mpeg",
     extensions: &[],
     media_types: &["audio/vnd.sealedmedia.softseal.mpeg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

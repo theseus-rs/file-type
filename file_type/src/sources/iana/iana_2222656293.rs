@@ -6,6 +6,6 @@ pub(crate) const IANA_2222656293: FileFormat = FileFormat {
     name: "application/trust-mark+jwt",
     extensions: &[],
     media_types: &["application/trust-mark+jwt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

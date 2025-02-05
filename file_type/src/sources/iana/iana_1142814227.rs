@@ -6,6 +6,6 @@ pub(crate) const IANA_1142814227: FileFormat = FileFormat {
     name: "vnd.crick.clicker.palette",
     extensions: &[],
     media_types: &["application/vnd.crick.clicker.palette"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

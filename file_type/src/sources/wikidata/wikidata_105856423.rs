@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856423: FileFormat = FileFormat {
     id: 105_856_423,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105856423: FileFormat = FileFormat {
     name: "EPOC Word document",
     extensions: &["wrd"],
     media_types: &["application/x-epoc-word"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

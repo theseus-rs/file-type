@@ -6,6 +6,6 @@ pub(crate) const IANA_2584743258: FileFormat = FileFormat {
     name: "AML",
     extensions: &[],
     media_types: &["application/AML"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3850662786: FileFormat = FileFormat {
     name: "vnd.netfpx",
     extensions: &[],
     media_types: &["application/vnd.netfpx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

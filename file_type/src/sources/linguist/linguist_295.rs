@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_295: FileFormat = FileFormat {
     name: "Prolog",
     extensions: &["pl", "plt", "pro", "prolog", "yap"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

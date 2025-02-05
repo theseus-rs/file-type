@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_191: FileFormat = FileFormat {
     name: "LLVM",
     extensions: &["ll"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

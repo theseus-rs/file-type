@@ -6,6 +6,6 @@ pub(crate) const IANA_821312728: FileFormat = FileFormat {
     name: "vnd.cirpack.isdn-ext",
     extensions: &[],
     media_types: &["application/vnd.cirpack.isdn-ext"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

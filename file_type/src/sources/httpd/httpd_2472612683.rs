@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2472612683: FileFormat = FileFormat {
     name: "accpac simply aso",
     extensions: &["aso"],
     media_types: &["application/vnd.accpac.simply.aso"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

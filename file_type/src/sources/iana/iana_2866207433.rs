@@ -6,6 +6,6 @@ pub(crate) const IANA_2866207433: FileFormat = FileFormat {
     name: "vnd.mediastation.cdkey",
     extensions: &[],
     media_types: &["application/vnd.mediastation.cdkey"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

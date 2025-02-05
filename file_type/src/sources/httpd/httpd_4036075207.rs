@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4036075207: FileFormat = FileFormat {
     name: "vsf",
     extensions: &["vsf"],
     media_types: &["application/vnd.vsf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

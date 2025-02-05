@@ -6,6 +6,6 @@ pub(crate) const IANA_35181502: FileFormat = FileFormat {
     name: "vnd.century-systems.tcp_stream",
     extensions: &[],
     media_types: &["application/vnd.century-systems.tcp_stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

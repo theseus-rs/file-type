@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_171: FileFormat = FileFormat {
     name: "Isabelle ROOT",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

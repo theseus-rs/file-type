@@ -6,6 +6,6 @@ pub(crate) const IANA_3846578976: FileFormat = FileFormat {
     name: "vnd.gov.sk.xmldatacontainer+xml",
     extensions: &[],
     media_types: &["application/vnd.gov.sk.xmldatacontainer+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

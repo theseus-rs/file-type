@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105864782: FileFormat = FileFormat {
     id: 105_864_782,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105864782: FileFormat = FileFormat {
     name: "No Man's Sky game data",
     extensions: &["pak"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

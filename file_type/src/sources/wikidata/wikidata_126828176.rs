@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_126828176: FileFormat = FileFormat {
     id: 126_828_176,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_126828176: FileFormat = FileFormat {
     name: "Forth source code file",
     extensions: &["fs"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

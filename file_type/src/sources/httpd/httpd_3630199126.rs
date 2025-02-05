@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3630199126: FileFormat = FileFormat {
     name: "vcx",
     extensions: &["vcx"],
     media_types: &["application/vnd.vcx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

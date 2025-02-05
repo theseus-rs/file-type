@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_127605323: FileFormat = FileFormat {
     id: 127_605_323,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_127605323: FileFormat = FileFormat {
     name: "Ceylon source code file",
     extensions: &["ceylon"],
     media_types: &["text/x-ceylon"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

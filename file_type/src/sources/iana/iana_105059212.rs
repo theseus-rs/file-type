@@ -6,6 +6,6 @@ pub(crate) const IANA_105059212: FileFormat = FileFormat {
     name: "ATXML",
     extensions: &[],
     media_types: &["application/ATXML"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_337: FileFormat = FileFormat {
     name: "SVG",
     extensions: &["svg"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

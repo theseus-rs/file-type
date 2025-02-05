@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_29176339: FileFormat = FileFormat {
     name: "CIL",
     extensions: &["cil"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

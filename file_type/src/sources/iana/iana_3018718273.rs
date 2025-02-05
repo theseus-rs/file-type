@@ -6,6 +6,6 @@ pub(crate) const IANA_3018718273: FileFormat = FileFormat {
     name: "n-quads",
     extensions: &[],
     media_types: &["application/n-quads"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

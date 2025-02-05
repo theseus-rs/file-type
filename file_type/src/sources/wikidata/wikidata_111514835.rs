@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111514835: FileFormat = FileFormat {
     id: 111_514_835,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_111514835: FileFormat = FileFormat {
     name: "3D Movie Maker",
     extensions: &["3mm"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

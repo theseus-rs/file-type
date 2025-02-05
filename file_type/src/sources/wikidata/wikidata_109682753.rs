@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_109682753: FileFormat = FileFormat {
     id: 109_682_753,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_109682753: FileFormat = FileFormat {
     name: "WinAce Archive",
     extensions: &["rar"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

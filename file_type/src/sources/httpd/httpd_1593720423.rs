@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1593720423: FileFormat = FileFormat {
     name: "koan",
     extensions: &["skp", "skd", "skt", "skm"],
     media_types: &["application/vnd.koan"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

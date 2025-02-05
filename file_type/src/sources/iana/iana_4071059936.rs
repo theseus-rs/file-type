@@ -6,6 +6,6 @@ pub(crate) const IANA_4071059936: FileFormat = FileFormat {
     name: "global",
     extensions: &[],
     media_types: &["message/global"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

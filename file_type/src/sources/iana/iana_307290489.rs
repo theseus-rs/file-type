@@ -6,6 +6,6 @@ pub(crate) const IANA_307290489: FileFormat = FileFormat {
     name: "vnd.cisco.nse",
     extensions: &[],
     media_types: &["audio/vnd.cisco.nse"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

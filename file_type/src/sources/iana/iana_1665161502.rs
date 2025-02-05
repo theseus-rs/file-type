@@ -6,6 +6,6 @@ pub(crate) const IANA_1665161502: FileFormat = FileFormat {
     name: "dash+xml",
     extensions: &[],
     media_types: &["application/dash+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

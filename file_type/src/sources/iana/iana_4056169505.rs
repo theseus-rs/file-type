@@ -6,6 +6,6 @@ pub(crate) const IANA_4056169505: FileFormat = FileFormat {
     name: "hjif",
     extensions: &[],
     media_types: &["haptics/hjif"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

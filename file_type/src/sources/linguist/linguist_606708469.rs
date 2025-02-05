@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_606708469: FileFormat = FileFormat {
     name: "Tact",
     extensions: &["tact"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

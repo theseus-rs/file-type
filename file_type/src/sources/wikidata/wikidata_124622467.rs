@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_124622467: FileFormat = FileFormat {
     id: 124_622_467,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_124622467: FileFormat = FileFormat {
     name: "TEI/XML",
     extensions: &["odd", "xml"],
     media_types: &["application/tei+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

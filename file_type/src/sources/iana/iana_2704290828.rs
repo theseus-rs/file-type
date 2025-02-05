@@ -6,6 +6,6 @@ pub(crate) const IANA_2704290828: FileFormat = FileFormat {
     name: "cpl+xml",
     extensions: &[],
     media_types: &["application/cpl+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

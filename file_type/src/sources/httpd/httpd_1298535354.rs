@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1298535354: FileFormat = FileFormat {
     name: "jcp javame midlet rms",
     extensions: &["rms"],
     media_types: &["application/vnd.jcp.javame.midlet-rms"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

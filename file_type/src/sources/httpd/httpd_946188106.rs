@@ -6,6 +6,6 @@ pub(crate) const HTTPD_946188106: FileFormat = FileFormat {
     name: "vcalendar",
     extensions: &["vcs"],
     media_types: &["text/x-vcalendar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

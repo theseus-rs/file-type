@@ -6,6 +6,6 @@ pub(crate) const HTTPD_454801860: FileFormat = FileFormat {
     name: "fst",
     extensions: &["fst"],
     media_types: &["image/vnd.fst"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

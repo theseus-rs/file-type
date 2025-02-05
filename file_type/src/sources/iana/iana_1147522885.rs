@@ -6,6 +6,6 @@ pub(crate) const IANA_1147522885: FileFormat = FileFormat {
     name: "EDI-X12",
     extensions: &[],
     media_types: &["application/EDI-X12"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3579819166: FileFormat = FileFormat {
     name: "vnd.kdl",
     extensions: &[],
     media_types: &["application/vnd.kdl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

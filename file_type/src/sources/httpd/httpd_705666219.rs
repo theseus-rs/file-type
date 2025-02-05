@@ -6,6 +6,6 @@ pub(crate) const HTTPD_705666219: FileFormat = FileFormat {
     name: "midi",
     extensions: &["mid", "midi", "kar", "rmi"],
     media_types: &["audio/midi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

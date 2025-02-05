@@ -6,6 +6,6 @@ pub(crate) const IANA_3817748831: FileFormat = FileFormat {
     name: "vnd.liberty-request+xml",
     extensions: &[],
     media_types: &["application/vnd.liberty-request+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

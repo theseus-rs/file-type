@@ -6,6 +6,6 @@ pub(crate) const IANA_84177950: FileFormat = FileFormat {
     name: "vnd.uplanet.cacheop-wbxml",
     extensions: &[],
     media_types: &["application/vnd.uplanet.cacheop-wbxml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_119900149: FileFormat = FileFormat {
     name: "Slint",
     extensions: &["slint"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

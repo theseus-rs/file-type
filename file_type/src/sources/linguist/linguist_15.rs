@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_15: FileFormat = FileFormat {
     name: "Ant Build System",
     extensions: &[],
     media_types: &["application/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

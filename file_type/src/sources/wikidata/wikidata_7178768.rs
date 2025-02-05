@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_7178768: FileFormat = FileFormat {
     id: 7_178_768,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_7178768: FileFormat = FileFormat {
     name: "Petri Net Markup Language",
     extensions: &["pnml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

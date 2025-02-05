@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_7265393: FileFormat = FileFormat {
     id: 7_265_393,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_7265393: FileFormat = FileFormat {
     name: "QCP",
     extensions: &["qcp"],
     media_types: &["audio/qcelp", "audio/vnd.qcelp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

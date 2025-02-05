@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1027882: FileFormat = FileFormat {
     id: 1_027_882,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_1027882: FileFormat = FileFormat {
     name: "Short Payment Descriptor",
     extensions: &["spayd"],
     media_types: &["application/x-shortpaymentdescriptor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

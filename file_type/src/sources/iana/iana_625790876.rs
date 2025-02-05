@@ -6,6 +6,6 @@ pub(crate) const IANA_625790876: FileFormat = FileFormat {
     name: "sep+xml",
     extensions: &[],
     media_types: &["application/sep+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

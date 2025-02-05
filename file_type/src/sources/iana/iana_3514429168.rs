@@ -6,6 +6,6 @@ pub(crate) const IANA_3514429168: FileFormat = FileFormat {
     name: "vnd.street-stream",
     extensions: &[],
     media_types: &["application/vnd.street-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

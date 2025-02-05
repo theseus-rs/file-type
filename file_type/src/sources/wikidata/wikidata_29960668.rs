@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_29960668: FileFormat = FileFormat {
     id: 29_960_668,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_29960668: FileFormat = FileFormat {
     name: "RenderWare binary stream file",
     extensions: &["dff", "txd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

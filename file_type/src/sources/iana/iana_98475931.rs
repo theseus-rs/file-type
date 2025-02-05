@@ -6,6 +6,6 @@ pub(crate) const IANA_98475931: FileFormat = FileFormat {
     name: "manifest+json",
     extensions: &[],
     media_types: &["application/manifest+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

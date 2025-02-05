@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_372: FileFormat = FileFormat {
     name: "Text",
     extensions: &["fr", "nb", "ncl", "no", "txt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

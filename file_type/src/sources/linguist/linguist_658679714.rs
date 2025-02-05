@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_658679714: FileFormat = FileFormat {
     name: "WebVTT",
     extensions: &["vtt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

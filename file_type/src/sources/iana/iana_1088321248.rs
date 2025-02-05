@@ -6,6 +6,6 @@ pub(crate) const IANA_1088321248: FileFormat = FileFormat {
     name: "vnd.openvpi.dspx+json",
     extensions: &[],
     media_types: &["application/vnd.openvpi.dspx+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

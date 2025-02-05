@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_370: FileFormat = FileFormat {
     name: "Tea",
     extensions: &["tea"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

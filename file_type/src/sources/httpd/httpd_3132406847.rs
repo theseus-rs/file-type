@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3132406847: FileFormat = FileFormat {
     name: "latex",
     extensions: &["latex"],
     media_types: &["application/x-latex"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

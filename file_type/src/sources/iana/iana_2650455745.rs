@@ -6,6 +6,6 @@ pub(crate) const IANA_2650455745: FileFormat = FileFormat {
     name: "captive+json",
     extensions: &[],
     media_types: &["application/captive+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

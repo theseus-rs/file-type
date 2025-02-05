@@ -12,6 +12,6 @@ pub(crate) const LINGUIST_70: FileFormat = FileFormat {
         "cxx-objdump",
     ],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

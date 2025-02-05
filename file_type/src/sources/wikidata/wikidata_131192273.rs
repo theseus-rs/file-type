@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131192273: FileFormat = FileFormat {
     id: 131_192_273,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131192273: FileFormat = FileFormat {
     name: "Tact source code file",
     extensions: &["tact"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

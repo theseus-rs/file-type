@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_169: FileFormat = FileFormat {
     name: "Ioke",
     extensions: &["ik"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

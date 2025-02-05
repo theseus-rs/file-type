@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_29: FileFormat = FileFormat {
     name: "Batchfile",
     extensions: &["bat", "cmd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

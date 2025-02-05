@@ -6,6 +6,6 @@ pub(crate) const IANA_1105128667: FileFormat = FileFormat {
     name: "vnd.usdz+zip",
     extensions: &[],
     media_types: &["model/vnd.usdz+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

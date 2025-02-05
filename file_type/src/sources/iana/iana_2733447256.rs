@@ -6,6 +6,6 @@ pub(crate) const IANA_2733447256: FileFormat = FileFormat {
     name: "vnd.crick.clicker.wordbank",
     extensions: &[],
     media_types: &["application/vnd.crick.clicker.wordbank"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

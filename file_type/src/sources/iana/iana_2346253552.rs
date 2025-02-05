@@ -6,6 +6,6 @@ pub(crate) const IANA_2346253552: FileFormat = FileFormat {
     name: "vnd.comicbook-rar",
     extensions: &[],
     media_types: &["application/vnd.comicbook-rar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

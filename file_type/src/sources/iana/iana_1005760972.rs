@@ -6,6 +6,6 @@ pub(crate) const IANA_1005760972: FileFormat = FileFormat {
     name: "vnd.epson.msf",
     extensions: &[],
     media_types: &["application/vnd.epson.msf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3554138563: FileFormat = FileFormat {
     name: "vnd.meridian-slingshot",
     extensions: &[],
     media_types: &["application/vnd.meridian-slingshot"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

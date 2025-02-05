@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2978665677: FileFormat = FileFormat {
     name: "claymore",
     extensions: &["cla"],
     media_types: &["application/vnd.claymore"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_47012486: FileFormat = FileFormat {
     id: 47_012_486,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_47012486: FileFormat = FileFormat {
     name: "MultiMate Text File",
     extensions: &["dox", "fnx", "pat"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1136: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1136: FileFormat = FileFormat {
     name: "Internet Calendar and Scheduling format",
     extensions: &["ics"],
     media_types: &["text/calendar"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[
             ByteSequence {
                 position_type: PositionType::BOF,

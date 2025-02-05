@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_869538413: FileFormat = FileFormat {
     name: "Reason",
     extensions: &["re", "rei"],
     media_types: &["text/x-rustsrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

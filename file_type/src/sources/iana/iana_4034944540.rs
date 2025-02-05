@@ -6,6 +6,6 @@ pub(crate) const IANA_4034944540: FileFormat = FileFormat {
     name: "FFV1",
     extensions: &[],
     media_types: &["video/FFV1"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

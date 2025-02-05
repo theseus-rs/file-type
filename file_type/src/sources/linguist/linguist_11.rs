@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_11: FileFormat = FileFormat {
     name: "Ada",
     extensions: &["ada", "adb", "ads"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1689960738: FileFormat = FileFormat {
     name: "vnd.bbf.usp.msg+json",
     extensions: &[],
     media_types: &["application/vnd.bbf.usp.msg+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

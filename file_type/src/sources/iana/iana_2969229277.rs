@@ -6,6 +6,6 @@ pub(crate) const IANA_2969229277: FileFormat = FileFormat {
     name: "jf2feed+json",
     extensions: &[],
     media_types: &["application/jf2feed+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_323: FileFormat = FileFormat {
     name: "RenderScript",
     extensions: &["rs", "rsh"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

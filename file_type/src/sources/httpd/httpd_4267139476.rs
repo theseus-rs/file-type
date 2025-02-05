@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4267139476: FileFormat = FileFormat {
     name: "route66 link66 xml",
     extensions: &["link66"],
     media_types: &["application/vnd.route66.link66+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857123: FileFormat = FileFormat {
     id: 105_857_123,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105857123: FileFormat = FileFormat {
     name: "Game Definition File (UTF-8)",
     extensions: &["xml"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

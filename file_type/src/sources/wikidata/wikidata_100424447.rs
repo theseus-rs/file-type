@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_100424447: FileFormat = FileFormat {
     id: 100_424_447,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_100424447: FileFormat = FileFormat {
     name: "Minitab Worksheet, version 8-11",
     extensions: &["mtw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

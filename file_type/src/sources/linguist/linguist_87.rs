@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_87: FileFormat = FileFormat {
     name: "Dart",
     extensions: &["dart"],
     media_types: &["application/dart"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

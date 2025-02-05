@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28206538: FileFormat = FileFormat {
     id: 28_206_538,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28206538: FileFormat = FileFormat {
     name: "Magick Persistent Cache (.cache file)",
     extensions: &["cache"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

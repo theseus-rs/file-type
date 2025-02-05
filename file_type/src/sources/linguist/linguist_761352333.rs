@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_761352333: FileFormat = FileFormat {
     name: "Fortran Free Form",
     extensions: &["f03", "f08", "f90", "f95"],
     media_types: &["text/x-fortran"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

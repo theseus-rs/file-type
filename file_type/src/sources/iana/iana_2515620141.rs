@@ -6,6 +6,6 @@ pub(crate) const IANA_2515620141: FileFormat = FileFormat {
     name: "x3d+fastinfoset",
     extensions: &[],
     media_types: &["model/x3d+fastinfoset"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

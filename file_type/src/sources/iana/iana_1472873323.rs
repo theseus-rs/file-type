@@ -6,6 +6,6 @@ pub(crate) const IANA_1472873323: FileFormat = FileFormat {
     name: "swid+xml",
     extensions: &[],
     media_types: &["application/swid+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2185: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_2185: FileFormat = FileFormat {
     name: "GeoJSON",
     extensions: &["geojson"],
     media_types: &["application/geo+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

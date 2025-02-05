@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131341835: FileFormat = FileFormat {
     id: 131_341_835,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131341835: FileFormat = FileFormat {
     name: "UrbiScript source code file",
     extensions: &["u"],
     media_types: &["application/x-urbiscript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1331721474: FileFormat = FileFormat {
     name: "dec-dx",
     extensions: &[],
     media_types: &["application/dec-dx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_155: FileFormat = FileFormat {
     name: "Handlebars",
     extensions: &["handlebars", "hbs"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

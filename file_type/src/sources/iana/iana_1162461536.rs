@@ -6,6 +6,6 @@ pub(crate) const IANA_1162461536: FileFormat = FileFormat {
     name: "vnd.airzip.accelerator.azv",
     extensions: &[],
     media_types: &["image/vnd.airzip.accelerator.azv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

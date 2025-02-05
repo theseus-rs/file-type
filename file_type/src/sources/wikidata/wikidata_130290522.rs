@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130290522: FileFormat = FileFormat {
     id: 130_290_522,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130290522: FileFormat = FileFormat {
     name: "Meson file format",
     extensions: &["meson.build"],
     media_types: &["text/x-meson"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

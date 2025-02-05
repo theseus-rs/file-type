@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_65: FileFormat = FileFormat {
     name: "ColdFusion CFC",
     extensions: &["cfc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

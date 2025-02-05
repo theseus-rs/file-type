@@ -6,6 +6,6 @@ pub(crate) const IANA_1514583043: FileFormat = FileFormat {
     name: "vnd.nintendo.snes.rom",
     extensions: &[],
     media_types: &["application/vnd.nintendo.snes.rom"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

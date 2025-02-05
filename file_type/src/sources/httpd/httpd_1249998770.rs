@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1249998770: FileFormat = FileFormat {
     name: "flac",
     extensions: &["flac"],
     media_types: &["audio/x-flac"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

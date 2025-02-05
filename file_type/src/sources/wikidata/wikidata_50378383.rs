@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_50378383: FileFormat = FileFormat {
     id: 50_378_383,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_50378383: FileFormat = FileFormat {
     name: "INTERLIS Transfer File, version 1",
     extensions: &["itf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

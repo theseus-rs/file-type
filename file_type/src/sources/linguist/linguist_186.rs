@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_186: FileFormat = FileFormat {
     name: "KRL",
     extensions: &["krl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

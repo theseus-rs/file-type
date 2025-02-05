@@ -6,6 +6,6 @@ pub(crate) const IANA_522531130: FileFormat = FileFormat {
     name: "vnd.openxmlformats-package.relationships+xml",
     extensions: &[],
     media_types: &["application/vnd.openxmlformats-package.relationships+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

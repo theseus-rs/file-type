@@ -13,6 +13,6 @@ pub(crate) const LINGUIST_405: FileFormat = FileFormat {
         "xojo_window",
     ],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_4115926298: FileFormat = FileFormat {
     name: "vnd.sealed.eml",
     extensions: &[],
     media_types: &["application/vnd.sealed.eml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

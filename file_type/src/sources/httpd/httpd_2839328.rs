@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2839328: FileFormat = FileFormat {
     name: "cu seeme",
     extensions: &["cu"],
     media_types: &["application/cu-seeme"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

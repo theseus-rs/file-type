@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_115: FileFormat = FileFormat {
     name: "FreeMarker",
     extensions: &["ftl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

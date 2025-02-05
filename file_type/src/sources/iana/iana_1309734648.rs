@@ -6,6 +6,6 @@ pub(crate) const IANA_1309734648: FileFormat = FileFormat {
     name: "vnd.acm.chatbot+json",
     extensions: &[],
     media_types: &["application/vnd.acm.chatbot+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

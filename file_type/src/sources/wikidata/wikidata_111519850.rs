@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111519850: FileFormat = FileFormat {
     id: 111_519_850,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111519850: FileFormat = FileFormat {
     name: "Stata .do command file",
     extensions: &["do"],
     media_types: &["application/x-stata", "text/stata", "text/x-stata"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_84037847: FileFormat = FileFormat {
     id: 84_037_847,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_84037847: FileFormat = FileFormat {
     name: "WARC 1.1",
     extensions: &["warc"],
     media_types: &["application/warc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3024262940: FileFormat = FileFormat {
     name: "vnd.geoplan",
     extensions: &[],
     media_types: &["application/vnd.geoplan"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

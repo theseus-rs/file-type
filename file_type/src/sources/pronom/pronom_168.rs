@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_168: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_168: FileFormat = FileFormat {
     name: "Lotus 1-2-3 Worksheet",
     extensions: &["wk4"],
     media_types: &["application/lotus123", "application/vnd.lotus-1-2-3"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

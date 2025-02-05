@@ -6,6 +6,6 @@ pub(crate) const IANA_660911672: FileFormat = FileFormat {
     name: "csvm+json",
     extensions: &[],
     media_types: &["application/csvm+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

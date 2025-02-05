@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_973483626: FileFormat = FileFormat {
     name: "ZIL",
     extensions: &["mud", "zil"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1628556655: FileFormat = FileFormat {
     name: "vnd.hyperdrive+json",
     extensions: &[],
     media_types: &["application/vnd.hyperdrive+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

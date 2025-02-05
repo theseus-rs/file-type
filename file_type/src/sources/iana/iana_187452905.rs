@@ -6,6 +6,6 @@ pub(crate) const IANA_187452905: FileFormat = FileFormat {
     name: "vnd.openeye.oeb",
     extensions: &[],
     media_types: &["application/vnd.openeye.oeb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_396: FileFormat = FileFormat {
     name: "World of Warcraft Addon Data",
     extensions: &["toc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

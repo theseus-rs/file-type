@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4103675381: FileFormat = FileFormat {
     name: "epson salt",
     extensions: &["slt"],
     media_types: &["application/vnd.epson.salt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

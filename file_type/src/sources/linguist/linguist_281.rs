@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_281: FileFormat = FileFormat {
     name: "Pascal",
     extensions: &["dfm", "dpr", "inc", "lpr", "pas", "pascal", "pp"],
     media_types: &["text/x-pascal"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

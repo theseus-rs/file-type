@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_124080600: FileFormat = FileFormat {
     id: 124_080_600,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_124080600: FileFormat = FileFormat {
     name: "CSL-JSON",
     extensions: &["json"],
     media_types: &["application/vnd.citationstyles.csl+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

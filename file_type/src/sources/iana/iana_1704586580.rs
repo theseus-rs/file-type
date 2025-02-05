@@ -6,6 +6,6 @@ pub(crate) const IANA_1704586580: FileFormat = FileFormat {
     name: "vnd.cendio.thinlinc.clientconf",
     extensions: &[],
     media_types: &["application/vnd.cendio.thinlinc.clientconf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

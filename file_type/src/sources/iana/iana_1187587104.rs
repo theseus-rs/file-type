@@ -6,6 +6,6 @@ pub(crate) const IANA_1187587104: FileFormat = FileFormat {
     name: "tzif-leap",
     extensions: &[],
     media_types: &["application/tzif-leap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

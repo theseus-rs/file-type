@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2551238913: FileFormat = FileFormat {
     name: "prs btif",
     extensions: &["btif"],
     media_types: &["image/prs.btif"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

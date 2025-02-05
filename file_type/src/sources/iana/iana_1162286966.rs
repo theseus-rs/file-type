@@ -6,6 +6,6 @@ pub(crate) const IANA_1162286966: FileFormat = FileFormat {
     name: "vnd.geogebra.pinboard",
     extensions: &[],
     media_types: &["application/vnd.geogebra.pinboard"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

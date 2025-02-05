@@ -6,6 +6,6 @@ pub(crate) const HTTPD_628719206: FileFormat = FileFormat {
     name: "tiff",
     extensions: &["tiff", "tif"],
     media_types: &["image/tiff"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

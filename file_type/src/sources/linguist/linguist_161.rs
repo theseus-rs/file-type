@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_161: FileFormat = FileFormat {
     name: "IDL",
     extensions: &["dlm", "pro"],
     media_types: &["text/x-idl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

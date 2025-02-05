@@ -6,6 +6,6 @@ pub(crate) const IANA_2965536988: FileFormat = FileFormat {
     name: "javascript (OBSOLETED in favor of text/javascript)",
     extensions: &[],
     media_types: &["application/javascript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

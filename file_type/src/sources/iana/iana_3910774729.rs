@@ -6,6 +6,6 @@ pub(crate) const IANA_3910774729: FileFormat = FileFormat {
     name: "vnd.tri.onesource",
     extensions: &[],
     media_types: &["application/vnd.tri.onesource"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_698862642: FileFormat = FileFormat {
     name: "vnd.d3m-problem",
     extensions: &[],
     media_types: &["application/vnd.d3m-problem"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

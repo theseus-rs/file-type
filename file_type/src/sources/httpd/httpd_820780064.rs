@@ -6,6 +6,6 @@ pub(crate) const HTTPD_820780064: FileFormat = FileFormat {
     name: "kenameaapp",
     extensions: &["htke"],
     media_types: &["application/vnd.kenameaapp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

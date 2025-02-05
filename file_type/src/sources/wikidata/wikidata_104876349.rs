@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_104876349: FileFormat = FileFormat {
     id: 104_876_349,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_104876349: FileFormat = FileFormat {
     name: "JCAMP-DX",
     extensions: &["dx", "jcm", "jdx"],
     media_types: &["chemical/x-jcamp-dx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

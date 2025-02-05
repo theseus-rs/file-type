@@ -6,6 +6,6 @@ pub(crate) const IANA_2773031209: FileFormat = FileFormat {
     name: "vnd.afpc.afplinedata",
     extensions: &[],
     media_types: &["application/vnd.afpc.afplinedata"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

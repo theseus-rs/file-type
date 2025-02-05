@@ -6,6 +6,6 @@ pub(crate) const IANA_2710550582: FileFormat = FileFormat {
     name: "vnd.nokia.interleaved-multimedia",
     extensions: &[],
     media_types: &["video/vnd.nokia.interleaved-multimedia"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

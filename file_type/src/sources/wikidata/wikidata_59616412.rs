@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_59616412: FileFormat = FileFormat {
     id: 59_616_412,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_59616412: FileFormat = FileFormat {
     name: "CRT C64 Cartridge Image Format",
     extensions: &["crt"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

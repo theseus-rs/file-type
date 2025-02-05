@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_100669457: FileFormat = FileFormat {
     id: 100_669_457,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_100669457: FileFormat = FileFormat {
     name: "Apple iWork Document, version 14",
     extensions: &["iwa", "key", "numbers", "pages", "template"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

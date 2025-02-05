@@ -6,6 +6,6 @@ pub(crate) const IANA_3841211511: FileFormat = FileFormat {
     name: "dvcs",
     extensions: &[],
     media_types: &["application/dvcs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

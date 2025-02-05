@@ -6,6 +6,6 @@ pub(crate) const IANA_1217839522: FileFormat = FileFormat {
     name: "set-payment",
     extensions: &[],
     media_types: &["application/set-payment"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

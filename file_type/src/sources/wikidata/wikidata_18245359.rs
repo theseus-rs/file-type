@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_18245359: FileFormat = FileFormat {
     id: 18_245_359,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_18245359: FileFormat = FileFormat {
     name: "Control Panel Applet",
     extensions: &["cpl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

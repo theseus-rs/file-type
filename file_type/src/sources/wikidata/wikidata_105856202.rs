@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856202: FileFormat = FileFormat {
     id: 105_856_202,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105856202: FileFormat = FileFormat {
     name: "Advanced DB Master data (v3.0)",
     extensions: &["d01"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

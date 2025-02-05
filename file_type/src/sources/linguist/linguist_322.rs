@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_322: FileFormat = FileFormat {
     name: "Ren'Py",
     extensions: &["rpy"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

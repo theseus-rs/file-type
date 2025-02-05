@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1185389084: FileFormat = FileFormat {
     name: "spotfire dxp",
     extensions: &["dxp"],
     media_types: &["application/vnd.spotfire.dxp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

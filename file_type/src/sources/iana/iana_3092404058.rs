@@ -6,6 +6,6 @@ pub(crate) const IANA_3092404058: FileFormat = FileFormat {
     name: "voucher-jws+json",
     extensions: &[],
     media_types: &["application/voucher-jws+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

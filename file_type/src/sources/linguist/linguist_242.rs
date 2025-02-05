@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_242: FileFormat = FileFormat {
     name: "NSIS",
     extensions: &["nsh", "nsi"],
     media_types: &["text/x-nsis"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

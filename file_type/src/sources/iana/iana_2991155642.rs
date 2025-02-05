@@ -6,6 +6,6 @@ pub(crate) const IANA_2991155642: FileFormat = FileFormat {
     name: "vnd.ipunplugged.rcprofile",
     extensions: &[],
     media_types: &["application/vnd.ipunplugged.rcprofile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

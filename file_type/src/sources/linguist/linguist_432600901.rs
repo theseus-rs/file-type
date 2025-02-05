@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_432600901: FileFormat = FileFormat {
     name: "Gradle Kotlin DSL",
     extensions: &["gradle.kts"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

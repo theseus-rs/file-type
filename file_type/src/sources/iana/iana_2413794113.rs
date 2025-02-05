@@ -6,6 +6,6 @@ pub(crate) const IANA_2413794113: FileFormat = FileFormat {
     name: "EVRCWB1",
     extensions: &[],
     media_types: &["audio/EVRCWB1"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

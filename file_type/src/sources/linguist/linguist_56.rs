@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_56: FileFormat = FileFormat {
     name: "Charity",
     extensions: &["ch"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

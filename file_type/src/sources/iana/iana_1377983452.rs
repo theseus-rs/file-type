@@ -6,6 +6,6 @@ pub(crate) const IANA_1377983452: FileFormat = FileFormat {
     name: "vnd.apache.arrow.file",
     extensions: &[],
     media_types: &["application/vnd.apache.arrow.file"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

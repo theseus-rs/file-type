@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2190611199: FileFormat = FileFormat {
     name: "intu qbo",
     extensions: &["qbo"],
     media_types: &["application/vnd.intu.qbo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

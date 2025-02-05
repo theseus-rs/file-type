@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_251: FileFormat = FileFormat {
     name: "Nit",
     extensions: &["nit"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

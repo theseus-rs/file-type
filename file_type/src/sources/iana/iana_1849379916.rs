@@ -6,6 +6,6 @@ pub(crate) const IANA_1849379916: FileFormat = FileFormat {
     name: "x-www-form-urlencoded",
     extensions: &[],
     media_types: &["application/x-www-form-urlencoded"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

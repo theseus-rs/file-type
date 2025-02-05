@@ -6,6 +6,6 @@ pub(crate) const IANA_4131086905: FileFormat = FileFormat {
     name: "vnd.geometry-explorer",
     extensions: &[],
     media_types: &["application/vnd.geometry-explorer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1702047748: FileFormat = FileFormat {
     name: "vnd.las.las+xml",
     extensions: &[],
     media_types: &["application/vnd.las.las+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

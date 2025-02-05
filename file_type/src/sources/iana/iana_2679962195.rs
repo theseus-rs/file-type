@@ -6,6 +6,6 @@ pub(crate) const IANA_2679962195: FileFormat = FileFormat {
     name: "vnd.amundsen.maze+xml",
     extensions: &[],
     media_types: &["application/vnd.amundsen.maze+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_159747167: FileFormat = FileFormat {
     name: "3gpp pic bw small",
     extensions: &["psb"],
     media_types: &["application/vnd.3gpp.pic-bw-small"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

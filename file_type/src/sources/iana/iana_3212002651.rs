@@ -6,6 +6,6 @@ pub(crate) const IANA_3212002651: FileFormat = FileFormat {
     name: "vnd.yaoweme",
     extensions: &[],
     media_types: &["application/vnd.yaoweme"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

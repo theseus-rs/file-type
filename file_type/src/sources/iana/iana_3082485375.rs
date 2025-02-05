@@ -6,6 +6,6 @@ pub(crate) const IANA_3082485375: FileFormat = FileFormat {
     name: "vnd.datalog",
     extensions: &[],
     media_types: &["application/vnd.datalog"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

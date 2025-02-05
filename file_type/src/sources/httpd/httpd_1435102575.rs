@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1435102575: FileFormat = FileFormat {
     name: "yamaha hv dic",
     extensions: &["hvd"],
     media_types: &["application/vnd.yamaha.hv-dic"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

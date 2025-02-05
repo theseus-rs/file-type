@@ -6,6 +6,6 @@ pub(crate) const IANA_1283070147: FileFormat = FileFormat {
     name: "vnd.xmpie.ppkg",
     extensions: &[],
     media_types: &["application/vnd.xmpie.ppkg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

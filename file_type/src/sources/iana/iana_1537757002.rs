@@ -6,6 +6,6 @@ pub(crate) const IANA_1537757002: FileFormat = FileFormat {
     name: "EDIFACT",
     extensions: &[],
     media_types: &["application/EDIFACT"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

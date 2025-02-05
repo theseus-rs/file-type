@@ -6,6 +6,6 @@ pub(crate) const IANA_174520680: FileFormat = FileFormat {
     name: "TETRA_ACELP",
     extensions: &[],
     media_types: &["audio/TETRA_ACELP"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

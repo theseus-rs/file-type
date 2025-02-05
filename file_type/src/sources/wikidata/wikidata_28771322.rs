@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28771322: FileFormat = FileFormat {
     id: 28_771_322,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28771322: FileFormat = FileFormat {
     name: "Microsoft Works Database file format (backup file)",
     extensions: &["bdb"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

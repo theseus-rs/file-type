@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_201049282: FileFormat = FileFormat {
     name: "DirectX 3D File",
     extensions: &["x"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

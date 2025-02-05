@@ -6,6 +6,6 @@ pub(crate) const HTTPD_673108048: FileFormat = FileFormat {
     name: "cdmi domain",
     extensions: &["cdmid"],
     media_types: &["application/cdmi-domain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

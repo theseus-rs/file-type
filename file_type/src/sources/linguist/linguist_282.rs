@@ -8,6 +8,6 @@ pub(crate) const LINGUIST_282: FileFormat = FileFormat {
         "al", "cgi", "fcgi", "perl", "ph", "pl", "plx", "pm", "psgi", "t",
     ],
     media_types: &["text/x-perl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

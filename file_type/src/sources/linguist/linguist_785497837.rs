@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_785497837: FileFormat = FileFormat {
     name: "Avro IDL",
     extensions: &["avdl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

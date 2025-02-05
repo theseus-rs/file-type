@@ -6,6 +6,6 @@ pub(crate) const HTTPD_819675943: FileFormat = FileFormat {
     name: "research info systems",
     extensions: &["ris"],
     media_types: &["application/x-research-info-systems"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

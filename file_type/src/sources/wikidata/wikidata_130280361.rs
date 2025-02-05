@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130280361: FileFormat = FileFormat {
     id: 130_280_361,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130280361: FileFormat = FileFormat {
     name: "Mason file format",
     extensions: &["m"],
     media_types: &["application/x-mason"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

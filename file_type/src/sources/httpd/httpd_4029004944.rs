@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4029004944: FileFormat = FileFormat {
     name: "xml",
     extensions: &["xml", "xsl"],
     media_types: &["application/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

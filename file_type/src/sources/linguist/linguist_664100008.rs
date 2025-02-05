@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_664100008: FileFormat = FileFormat {
     name: "OMNeT++ MSG",
     extensions: &["msg"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

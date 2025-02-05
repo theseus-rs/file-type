@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_924: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_924: FileFormat = FileFormat {
     name: "MPEG-4 Media File",
     extensions: &["mp4", "m4v", "m4a", "f4v", "f4a"],
     media_types: &["application/mp4", "video/mp4"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(4),

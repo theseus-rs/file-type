@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_398: FileFormat = FileFormat {
     name: "XC",
     extensions: &["xc"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

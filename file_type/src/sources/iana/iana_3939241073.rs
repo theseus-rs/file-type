@@ -6,6 +6,6 @@ pub(crate) const IANA_3939241073: FileFormat = FileFormat {
     name: "vnd.lotus-wordpro",
     extensions: &[],
     media_types: &["application/vnd.lotus-wordpro"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

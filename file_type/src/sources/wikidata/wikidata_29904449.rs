@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_29904449: FileFormat = FileFormat {
     id: 29_904_449,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_29904449: FileFormat = FileFormat {
     name: "Psion Series 3 Word",
     extensions: &["wrd"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

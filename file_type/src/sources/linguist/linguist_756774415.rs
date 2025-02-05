@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_756774415: FileFormat = FileFormat {
     name: "Pact",
     extensions: &["pact"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

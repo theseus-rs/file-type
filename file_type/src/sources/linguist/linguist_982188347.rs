@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_982188347: FileFormat = FileFormat {
     name: "BibTeX",
     extensions: &["bib", "bibtex"],
     media_types: &["text/x-stex"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_356554395: FileFormat = FileFormat {
     name: "Toit",
     extensions: &["toit"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

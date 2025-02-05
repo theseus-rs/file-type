@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_121: FileFormat = FileFormat {
     name: "GCC Machine Description",
     extensions: &["md"],
     media_types: &["text/x-common-lisp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

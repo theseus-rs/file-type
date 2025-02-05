@@ -6,6 +6,6 @@ pub(crate) const IANA_509145227: FileFormat = FileFormat {
     name: "pidf+xml",
     extensions: &[],
     media_types: &["application/pidf+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

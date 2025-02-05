@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_129177252: FileFormat = FileFormat {
     id: 129_177_252,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_129177252: FileFormat = FileFormat {
     name: "Felix source code file",
     extensions: &["flx"],
     media_types: &["text/x-felix"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

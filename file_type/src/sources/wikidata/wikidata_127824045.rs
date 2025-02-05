@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_127824045: FileFormat = FileFormat {
     id: 127_824_045,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_127824045: FileFormat = FileFormat {
     name: "Cinema DTS Audio file format",
     extensions: &["apx", "aud", "aue"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

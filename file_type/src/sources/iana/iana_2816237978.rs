@@ -6,6 +6,6 @@ pub(crate) const IANA_2816237978: FileFormat = FileFormat {
     name: "prc",
     extensions: &[],
     media_types: &["model/prc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

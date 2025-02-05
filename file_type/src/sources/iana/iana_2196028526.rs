@@ -6,6 +6,6 @@ pub(crate) const IANA_2196028526: FileFormat = FileFormat {
     name: "prs.hpub+zip",
     extensions: &[],
     media_types: &["application/prs.hpub+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105854600: FileFormat = FileFormat {
     id: 105_854_600,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105854600: FileFormat = FileFormat {
     name: "Advanced Installer Project",
     extensions: &["aip"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

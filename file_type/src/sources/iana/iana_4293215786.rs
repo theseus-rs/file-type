@@ -6,6 +6,6 @@ pub(crate) const IANA_4293215786: FileFormat = FileFormat {
     name: "vnd.acucobol",
     extensions: &[],
     media_types: &["application/vnd.acucobol"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3293002092: FileFormat = FileFormat {
     name: "portable graymap",
     extensions: &["pgm"],
     media_types: &["image/x-portable-graymap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

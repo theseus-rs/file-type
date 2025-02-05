@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2522134023: FileFormat = FileFormat {
     name: "pics rules",
     extensions: &["prf"],
     media_types: &["application/pics-rules"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

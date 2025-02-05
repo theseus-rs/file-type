@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_47: FileFormat = FileFormat {
     name: "CMake",
     extensions: &["cmake", "cmake.in"],
     media_types: &["text/x-cmake"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

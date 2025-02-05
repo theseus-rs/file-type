@@ -6,6 +6,6 @@ pub(crate) const IANA_2873474993: FileFormat = FileFormat {
     name: "vnd.wfa.p2p",
     extensions: &[],
     media_types: &["application/vnd.wfa.p2p"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

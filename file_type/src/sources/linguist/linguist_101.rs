@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_101: FileFormat = FileFormat {
     name: "Elm",
     extensions: &["elm"],
     media_types: &["text/x-elm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

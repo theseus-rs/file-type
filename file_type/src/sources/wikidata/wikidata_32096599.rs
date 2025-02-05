@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_32096599: FileFormat = FileFormat {
     id: 32_096_599,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_32096599: FileFormat = FileFormat {
     name: "Gran Turismo File System",
     extensions: &["vol"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

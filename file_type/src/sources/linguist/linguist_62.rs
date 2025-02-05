@@ -8,6 +8,6 @@ pub(crate) const LINGUIST_62: FileFormat = FileFormat {
         "bb", "boot", "cl2", "clj", "cljc", "cljs", "cljs.hl", "cljscm", "cljx", "hic",
     ],
     media_types: &["text/x-clojure"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

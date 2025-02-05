@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1384959: FileFormat = FileFormat {
     id: 1_384_959,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_1384959: FileFormat = FileFormat {
     name: "Extensible Forms Description Language",
     extensions: &["frm", "xfd", "xfdl"],
     media_types: &["application/vnd.xfdl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

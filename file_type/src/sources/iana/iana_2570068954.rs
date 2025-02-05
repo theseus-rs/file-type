@@ -6,6 +6,6 @@ pub(crate) const IANA_2570068954: FileFormat = FileFormat {
     name: "vnd.pg.format",
     extensions: &[],
     media_types: &["application/vnd.pg.format"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

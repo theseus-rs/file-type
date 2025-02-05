@@ -6,6 +6,6 @@ pub(crate) const IANA_2560071141: FileFormat = FileFormat {
     name: "yin+xml",
     extensions: &[],
     media_types: &["application/yin+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

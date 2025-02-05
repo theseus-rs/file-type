@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_61727602: FileFormat = FileFormat {
     id: 61_727_602,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_61727602: FileFormat = FileFormat {
     name: "PrimeOCR file format, version 4.3",
     extensions: &["pro"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2413884375: FileFormat = FileFormat {
     name: "uvvu mp4",
     extensions: &["uvu", "uvvu"],
     media_types: &["video/vnd.uvvu.mp4"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

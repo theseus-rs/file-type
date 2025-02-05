@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_564186416: FileFormat = FileFormat {
     name: "ASP.NET",
     extensions: &["asax", "ascx", "ashx", "asmx", "aspx", "axd"],
     media_types: &["application/x-aspx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

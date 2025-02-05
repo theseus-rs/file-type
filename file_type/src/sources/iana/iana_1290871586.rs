@@ -6,6 +6,6 @@ pub(crate) const IANA_1290871586: FileFormat = FileFormat {
     name: "opus",
     extensions: &[],
     media_types: &["audio/opus"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

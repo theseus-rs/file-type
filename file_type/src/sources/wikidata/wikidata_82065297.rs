@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_82065297: FileFormat = FileFormat {
     id: 82_065_297,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_82065297: FileFormat = FileFormat {
     name: "Micrografx Media Manager Easy Catalog",
     extensions: &["ecf"],
     media_types: &["text/ini"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

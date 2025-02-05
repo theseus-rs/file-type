@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_289: FileFormat = FileFormat {
     name: "PogoScript",
     extensions: &["pogo"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

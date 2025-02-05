@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_29465145: FileFormat = FileFormat {
     id: 29_465_145,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_29465145: FileFormat = FileFormat {
     name: "Valve Material Type",
     extensions: &["vmt"],
     media_types: &["application/vnd.valve.source.material"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

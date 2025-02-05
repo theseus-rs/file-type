@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_7095768: FileFormat = FileFormat {
     id: 7_095_768,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_7095768: FileFormat = FileFormat {
     name: "OpenDRIVE",
     extensions: &["xodr"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

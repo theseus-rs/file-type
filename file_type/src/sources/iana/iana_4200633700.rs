@@ -6,6 +6,6 @@ pub(crate) const IANA_4200633700: FileFormat = FileFormat {
     name: "cid-edhoc+cbor-seq",
     extensions: &[],
     media_types: &["application/cid-edhoc+cbor-seq"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

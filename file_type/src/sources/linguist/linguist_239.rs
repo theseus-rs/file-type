@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_239: FileFormat = FileFormat {
     name: "Myghty",
     extensions: &["myt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

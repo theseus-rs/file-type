@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_461856962: FileFormat = FileFormat {
     name: "Nunjucks",
     extensions: &["njk"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

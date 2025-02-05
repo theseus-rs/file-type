@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_55832374: FileFormat = FileFormat {
     id: 55_832_374,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_55832374: FileFormat = FileFormat {
     name: "Event Trace Log file format",
     extensions: &["etl"],
     media_types: &["application/x-ms-etl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

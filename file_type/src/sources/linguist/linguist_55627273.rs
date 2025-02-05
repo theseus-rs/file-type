@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_55627273: FileFormat = FileFormat {
     name: "Carbon",
     extensions: &["carbon"],
     media_types: &["text/x-go"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

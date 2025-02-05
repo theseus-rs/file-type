@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4144641364: FileFormat = FileFormat {
     name: "xliff xml",
     extensions: &["xlf"],
     media_types: &["application/x-xliff+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

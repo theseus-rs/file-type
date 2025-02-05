@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_818804755: FileFormat = FileFormat {
     name: "Kaitai Struct",
     extensions: &["ksy"],
     media_types: &["text/x-yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

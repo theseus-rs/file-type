@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_113383187: FileFormat = FileFormat {
     id: 113_383_187,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_113383187: FileFormat = FileFormat {
     name: "Roxio Easy Media Creator Layout 8-10",
     extensions: &["roxio"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

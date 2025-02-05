@@ -6,6 +6,6 @@ pub(crate) const IANA_2280676910: FileFormat = FileFormat {
     name: "vnd.publishare-delta-tree",
     extensions: &[],
     media_types: &["application/vnd.publishare-delta-tree"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

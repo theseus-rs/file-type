@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4291861971: FileFormat = FileFormat {
     name: "cups ppd",
     extensions: &["ppd"],
     media_types: &["application/vnd.cups-ppd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

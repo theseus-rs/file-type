@@ -9,6 +9,6 @@ pub(crate) const LINGUIST_404627610: FileFormat = FileFormat {
         "gts", "ncl", "sol",
     ],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

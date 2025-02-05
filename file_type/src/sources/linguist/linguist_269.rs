@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_269: FileFormat = FileFormat {
     name: "Oxygene",
     extensions: &["oxygene"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

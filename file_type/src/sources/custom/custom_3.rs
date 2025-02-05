@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const CUSTOM_3: FileFormat = FileFormat {
     id: 3,
@@ -8,7 +6,7 @@ pub(crate) const CUSTOM_3: FileFormat = FileFormat {
     name: "DuckDB",
     extensions: &["duckdb"],
     media_types: &["application/vnd.duckdb.file"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

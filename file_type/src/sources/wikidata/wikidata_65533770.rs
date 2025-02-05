@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_65533770: FileFormat = FileFormat {
     id: 65_533_770,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_65533770: FileFormat = FileFormat {
     name: "Open Recipe Format",
     extensions: &["orf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

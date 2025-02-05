@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_130: FileFormat = FileFormat {
     name: "Glyph",
     extensions: &["glf"],
     media_types: &["text/x-tcl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

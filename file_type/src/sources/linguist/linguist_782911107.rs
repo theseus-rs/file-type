@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_782911107: FileFormat = FileFormat {
     name: "X BitMap",
     extensions: &["xbm"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

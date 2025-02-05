@@ -6,6 +6,6 @@ pub(crate) const IANA_1311001763: FileFormat = FileFormat {
     name: "ohttp-res",
     extensions: &[],
     media_types: &["message/ohttp-res"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

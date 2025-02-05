@@ -6,6 +6,6 @@ pub(crate) const HTTPD_721217963: FileFormat = FileFormat {
     name: "neurolanguage nlu",
     extensions: &["nlu"],
     media_types: &["application/vnd.neurolanguage.nlu"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

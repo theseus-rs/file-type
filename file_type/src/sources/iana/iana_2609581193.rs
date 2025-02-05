@@ -6,6 +6,6 @@ pub(crate) const IANA_2609581193: FileFormat = FileFormat {
     name: "vnd.esmertec.theme-descriptor",
     extensions: &[],
     media_types: &["text/vnd.esmertec.theme-descriptor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_246: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_246: FileFormat = FileFormat {
     name: "PageMaker PC Document",
     extensions: &["pm5", "pt5"],
     media_types: &["application/vnd.pagemaker"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(6),

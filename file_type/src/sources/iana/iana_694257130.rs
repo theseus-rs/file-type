@@ -6,6 +6,6 @@ pub(crate) const IANA_694257130: FileFormat = FileFormat {
     name: "vnd.ficlab.flt",
     extensions: &[],
     media_types: &["text/vnd.ficlab.flt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

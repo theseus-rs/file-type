@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105858239: FileFormat = FileFormat {
     id: 105_858_239,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105858239: FileFormat = FileFormat {
     name: "Fashion Tracker module",
     extensions: &["ex"],
     media_types: &["audio/x-mod"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

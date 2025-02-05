@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2560879221: FileFormat = FileFormat {
     name: "kde kspread",
     extensions: &["ksp"],
     media_types: &["application/vnd.kde.kspread"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

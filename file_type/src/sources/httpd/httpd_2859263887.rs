@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2859263887: FileFormat = FileFormat {
     name: "lotus approach",
     extensions: &["apr"],
     media_types: &["application/vnd.lotus-approach"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

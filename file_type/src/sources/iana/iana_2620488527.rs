@@ -6,6 +6,6 @@ pub(crate) const IANA_2620488527: FileFormat = FileFormat {
     name: "trickle-ice-sdpfrag",
     extensions: &[],
     media_types: &["application/trickle-ice-sdpfrag"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_43989854: FileFormat = FileFormat {
     id: 43_989_854,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_43989854: FileFormat = FileFormat {
     name: "ATCO-CIF",
     extensions: &["cif"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

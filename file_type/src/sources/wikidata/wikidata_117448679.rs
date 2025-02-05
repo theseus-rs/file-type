@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_117448679: FileFormat = FileFormat {
     id: 117_448_679,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_117448679: FileFormat = FileFormat {
     name: "Praat TextGrid",
     extensions: &["textgrid"],
     media_types: &["text/praat-textgrid"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

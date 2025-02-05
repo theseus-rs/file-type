@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_127120962: FileFormat = FileFormat {
     id: 127_120_962,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_127120962: FileFormat = FileFormat {
     name: "Matrix Market file format",
     extensions: &["mm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

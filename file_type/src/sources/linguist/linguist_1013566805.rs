@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1013566805: FileFormat = FileFormat {
     name: "LTspice Symbol",
     extensions: &["asy"],
     media_types: &["text/x-spreadsheet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

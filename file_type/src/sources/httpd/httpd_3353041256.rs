@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3353041256: FileFormat = FileFormat {
     name: "mobius mbk",
     extensions: &["mbk"],
     media_types: &["application/vnd.mobius.mbk"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_620599567: FileFormat = FileFormat {
     name: "Cairo",
     extensions: &["cairo"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

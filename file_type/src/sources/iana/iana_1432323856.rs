@@ -6,6 +6,6 @@ pub(crate) const IANA_1432323856: FileFormat = FileFormat {
     name: "vnd.paos.xml",
     extensions: &[],
     media_types: &["application/vnd.paos.xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

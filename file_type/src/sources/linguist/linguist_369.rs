@@ -9,6 +9,6 @@ pub(crate) const LINGUIST_369: FileFormat = FileFormat {
         "tex", "toc",
     ],
     media_types: &["text/x-stex"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

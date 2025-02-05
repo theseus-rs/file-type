@@ -6,6 +6,6 @@ pub(crate) const IANA_266187991: FileFormat = FileFormat {
     name: "vnd.dvb.notif-ia-registration-response+xml",
     extensions: &[],
     media_types: &["application/vnd.dvb.notif-ia-registration-response+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

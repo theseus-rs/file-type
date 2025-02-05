@@ -6,6 +6,6 @@ pub(crate) const IANA_1780460061: FileFormat = FileFormat {
     name: "mmt-usd+xml",
     extensions: &[],
     media_types: &["application/mmt-usd+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

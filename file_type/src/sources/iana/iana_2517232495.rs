@@ -6,6 +6,6 @@ pub(crate) const IANA_2517232495: FileFormat = FileFormat {
     name: "vnd.fsc.weblaunch",
     extensions: &[],
     media_types: &["application/vnd.fsc.weblaunch"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

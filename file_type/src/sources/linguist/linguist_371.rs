@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_371: FileFormat = FileFormat {
     name: "Terra",
     extensions: &["t"],
     media_types: &["text/x-lua"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

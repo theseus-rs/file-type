@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27355592: FileFormat = FileFormat {
     id: 27_355_592,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27355592: FileFormat = FileFormat {
     name: "ADRG Geo Data File",
     extensions: &["img"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

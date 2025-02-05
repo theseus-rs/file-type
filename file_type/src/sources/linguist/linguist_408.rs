@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_408: FileFormat = FileFormat {
     name: "YANG",
     extensions: &["yang"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_436568854: FileFormat = FileFormat {
     name: "Protocol Buffer Text Format",
     extensions: &["pbt", "pbtxt", "textproto"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

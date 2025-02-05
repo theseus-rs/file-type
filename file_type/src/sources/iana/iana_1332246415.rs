@@ -6,6 +6,6 @@ pub(crate) const IANA_1332246415: FileFormat = FileFormat {
     name: "x-wmf - DEPRECATED in favor of image/wmf",
     extensions: &[],
     media_types: &["image/x-wmf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

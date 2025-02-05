@@ -6,6 +6,6 @@ pub(crate) const IANA_724433143: FileFormat = FileFormat {
     name: "ohttp-keys",
     extensions: &[],
     media_types: &["application/ohttp-keys"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

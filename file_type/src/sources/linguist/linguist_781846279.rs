@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_781846279: FileFormat = FileFormat {
     name: "X PixMap",
     extensions: &["pm", "xpm"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856525: FileFormat = FileFormat {
     id: 105_856_525,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105856525: FileFormat = FileFormat {
     name: "Spiderman 2 sound/music data",
     extensions: &["wbk"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

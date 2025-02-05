@@ -6,6 +6,6 @@ pub(crate) const IANA_4264138929: FileFormat = FileFormat {
     name: "pwg-raster",
     extensions: &[],
     media_types: &["image/pwg-raster"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

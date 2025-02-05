@@ -6,6 +6,6 @@ pub(crate) const IANA_1825399547: FileFormat = FileFormat {
     name: "mj2",
     extensions: &[],
     media_types: &["video/mj2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

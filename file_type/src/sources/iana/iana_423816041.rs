@@ -6,6 +6,6 @@ pub(crate) const IANA_423816041: FileFormat = FileFormat {
     name: "wspolicy+xml",
     extensions: &[],
     media_types: &["application/wspolicy+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

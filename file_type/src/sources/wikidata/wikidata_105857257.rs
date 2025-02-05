@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857257: FileFormat = FileFormat {
     id: 105_857_257,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105857257: FileFormat = FileFormat {
     name: "Human Machine Interfaces MIDI Format (rev.1)",
     extensions: &["hmp"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

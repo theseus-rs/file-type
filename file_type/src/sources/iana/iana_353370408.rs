@@ -6,6 +6,6 @@ pub(crate) const IANA_353370408: FileFormat = FileFormat {
     name: "vnd.nato.openxmlformats-package.iepd+zip",
     extensions: &[],
     media_types: &["application/vnd.nato.openxmlformats-package.iepd+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_705203557: FileFormat = FileFormat {
     name: "crontab",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

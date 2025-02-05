@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4100053721: FileFormat = FileFormat {
     name: "adobe fxp",
     extensions: &["fxp", "fxpl"],
     media_types: &["application/vnd.adobe.fxp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

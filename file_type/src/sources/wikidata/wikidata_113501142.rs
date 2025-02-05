@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_113501142: FileFormat = FileFormat {
     id: 113_501_142,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_113501142: FileFormat = FileFormat {
     name: "Cintel Raw Image",
     extensions: &["cri", "dvcc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

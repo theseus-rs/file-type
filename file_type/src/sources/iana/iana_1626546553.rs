@@ -6,6 +6,6 @@ pub(crate) const IANA_1626546553: FileFormat = FileFormat {
     name: "vnd.isac.fcs",
     extensions: &[],
     media_types: &["application/vnd.isac.fcs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

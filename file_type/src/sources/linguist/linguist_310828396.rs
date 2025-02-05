@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_310828396: FileFormat = FileFormat {
     name: "Gemini",
     extensions: &["gmi"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

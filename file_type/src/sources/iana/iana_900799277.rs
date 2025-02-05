@@ -6,6 +6,6 @@ pub(crate) const IANA_900799277: FileFormat = FileFormat {
     name: "vnd.nokia.iSDS-radio-presets",
     extensions: &[],
     media_types: &["application/vnd.nokia.iSDS-radio-presets"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3083309523: FileFormat = FileFormat {
     name: "businessobjects",
     extensions: &["rep"],
     media_types: &["application/vnd.businessobjects"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

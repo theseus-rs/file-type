@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105862259: FileFormat = FileFormat {
     id: 105_862_259,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105862259: FileFormat = FileFormat {
     name: "Video Edit Magic project",
     extensions: &["mpj"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

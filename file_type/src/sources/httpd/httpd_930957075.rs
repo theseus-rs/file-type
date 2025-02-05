@@ -6,6 +6,6 @@ pub(crate) const HTTPD_930957075: FileFormat = FileFormat {
     name: "mynfc",
     extensions: &["taglet"],
     media_types: &["application/vnd.mynfc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

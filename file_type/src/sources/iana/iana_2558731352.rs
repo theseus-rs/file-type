@@ -6,6 +6,6 @@ pub(crate) const IANA_2558731352: FileFormat = FileFormat {
     name: "mizar",
     extensions: &[],
     media_types: &["text/mizar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

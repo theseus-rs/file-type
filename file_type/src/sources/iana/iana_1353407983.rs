@@ -6,6 +6,6 @@ pub(crate) const IANA_1353407983: FileFormat = FileFormat {
     name: "vnd.wap.wml",
     extensions: &[],
     media_types: &["text/vnd.wap.wml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

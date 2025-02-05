@@ -6,6 +6,6 @@ pub(crate) const IANA_98433844: FileFormat = FileFormat {
     name: "mbms-deregister+xml",
     extensions: &[],
     media_types: &["application/mbms-deregister+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

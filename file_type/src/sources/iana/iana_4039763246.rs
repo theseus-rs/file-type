@@ -6,6 +6,6 @@ pub(crate) const IANA_4039763246: FileFormat = FileFormat {
     name: "mrb-publish+xml",
     extensions: &[],
     media_types: &["application/mrb-publish+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

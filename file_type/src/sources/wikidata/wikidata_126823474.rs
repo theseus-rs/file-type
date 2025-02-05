@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_126823474: FileFormat = FileFormat {
     id: 126_823_474,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_126823474: FileFormat = FileFormat {
     name: "Visual F# Script File",
     extensions: &["fsx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

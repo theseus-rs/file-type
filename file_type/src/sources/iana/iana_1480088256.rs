@@ -6,6 +6,6 @@ pub(crate) const IANA_1480088256: FileFormat = FileFormat {
     name: "vnd.3gpp.access-transfer-events+xml",
     extensions: &[],
     media_types: &["application/vnd.3gpp.access-transfer-events+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

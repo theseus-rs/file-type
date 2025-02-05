@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105858775: FileFormat = FileFormat {
     id: 105_858_775,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105858775: FileFormat = FileFormat {
     name: "Tales Of Eternia Online game data archive (v2)",
     extensions: &["bnd"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

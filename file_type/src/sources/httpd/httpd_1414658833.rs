@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1414658833: FileFormat = FileFormat {
     name: "blorb",
     extensions: &["blb", "blorb"],
     media_types: &["application/x-blorb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

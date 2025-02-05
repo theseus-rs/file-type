@@ -8,6 +8,6 @@ pub(crate) const IANA_3163242823: FileFormat = FileFormat {
     media_types: &[
         "application/vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheDefinition+xml",
     ],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1886335: FileFormat = FileFormat {
     id: 1_886_335,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_1886335: FileFormat = FileFormat {
     name: "Maker Interchange Format",
     extensions: &["mif"],
     media_types: &["application/vnd.mif"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

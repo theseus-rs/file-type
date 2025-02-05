@@ -6,6 +6,6 @@ pub(crate) const IANA_3445500873: FileFormat = FileFormat {
     name: "vnd.ms-tnef",
     extensions: &[],
     media_types: &["application/vnd.ms-tnef"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

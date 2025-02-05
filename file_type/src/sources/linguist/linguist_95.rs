@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_95: FileFormat = FileFormat {
     name: "EJS",
     extensions: &["ect", "ejs", "ejs.t", "jst"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

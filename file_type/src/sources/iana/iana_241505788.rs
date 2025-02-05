@@ -6,6 +6,6 @@ pub(crate) const IANA_241505788: FileFormat = FileFormat {
     name: "vnd.nortel.vbk",
     extensions: &[],
     media_types: &["audio/vnd.nortel.vbk"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

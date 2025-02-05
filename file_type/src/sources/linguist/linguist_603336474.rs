@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_603336474: FileFormat = FileFormat {
     name: "KakouneScript",
     extensions: &["kak"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

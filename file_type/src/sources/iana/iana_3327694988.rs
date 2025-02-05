@@ -6,6 +6,6 @@ pub(crate) const IANA_3327694988: FileFormat = FileFormat {
     name: "vnd.sealed.swf",
     extensions: &[],
     media_types: &["video/vnd.sealed.swf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1035090139: FileFormat = FileFormat {
     name: "rdap+json",
     extensions: &[],
     media_types: &["application/rdap+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

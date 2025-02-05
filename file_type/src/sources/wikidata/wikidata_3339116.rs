@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_3339116: FileFormat = FileFormat {
     id: 3_339_116,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_3339116: FileFormat = FileFormat {
     name: "Newick tree format",
     extensions: &["newick"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

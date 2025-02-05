@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_19860869: FileFormat = FileFormat {
     id: 19_860_869,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_19860869: FileFormat = FileFormat {
     name: "Itinerary file",
     extensions: &["itn"],
     media_types: &["application/itn"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

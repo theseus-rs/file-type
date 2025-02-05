@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105865594: FileFormat = FileFormat {
     id: 105_865_594,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105865594: FileFormat = FileFormat {
     name: "P64 NRZI flux pulse disk image",
     extensions: &["p64"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

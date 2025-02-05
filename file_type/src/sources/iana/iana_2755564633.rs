@@ -6,6 +6,6 @@ pub(crate) const IANA_2755564633: FileFormat = FileFormat {
     name: "shaclc",
     extensions: &[],
     media_types: &["text/shaclc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

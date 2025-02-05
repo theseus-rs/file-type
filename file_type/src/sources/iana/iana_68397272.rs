@@ -6,6 +6,6 @@ pub(crate) const IANA_68397272: FileFormat = FileFormat {
     name: "vnd.fastbidsheet",
     extensions: &[],
     media_types: &["image/vnd.fastbidsheet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_354905259: FileFormat = FileFormat {
     name: "sbml xml",
     extensions: &["sbml"],
     media_types: &["application/sbml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

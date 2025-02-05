@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_127813473: FileFormat = FileFormat {
     id: 127_813_473,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_127813473: FileFormat = FileFormat {
     name: "OpenSCAD file format",
     extensions: &["scad"],
     media_types: &["application/x-openscad"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

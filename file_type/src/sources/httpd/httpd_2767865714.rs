@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2767865714: FileFormat = FileFormat {
     name: "hp jlyt",
     extensions: &["jlt"],
     media_types: &["application/vnd.hp-jlyt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

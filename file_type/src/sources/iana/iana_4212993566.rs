@@ -6,6 +6,6 @@ pub(crate) const IANA_4212993566: FileFormat = FileFormat {
     name: "vnd.etsi.tsl.der",
     extensions: &[],
     media_types: &["application/vnd.etsi.tsl.der"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

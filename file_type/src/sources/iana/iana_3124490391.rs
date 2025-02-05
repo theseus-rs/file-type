@@ -6,6 +6,6 @@ pub(crate) const IANA_3124490391: FileFormat = FileFormat {
     name: "xml-external-parsed-entity",
     extensions: &[],
     media_types: &["application/xml-external-parsed-entity"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

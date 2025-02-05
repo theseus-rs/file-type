@@ -6,6 +6,6 @@ pub(crate) const IANA_530427254: FileFormat = FileFormat {
     name: "applefile",
     extensions: &[],
     media_types: &["application/applefile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

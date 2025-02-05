@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3782623085: FileFormat = FileFormat {
     name: "atom xml",
     extensions: &["atom"],
     media_types: &["application/atom+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

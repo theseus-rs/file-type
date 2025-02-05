@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_3: FileFormat = FileFormat {
     name: "AMPL",
     extensions: &["ampl", "mod"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

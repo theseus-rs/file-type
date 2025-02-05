@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27996239: FileFormat = FileFormat {
     id: 27_996_239,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27996239: FileFormat = FileFormat {
     name: "Faster than Light saved game",
     extensions: &["sav"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

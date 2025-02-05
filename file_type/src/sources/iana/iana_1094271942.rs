@@ -6,6 +6,6 @@ pub(crate) const IANA_1094271942: FileFormat = FileFormat {
     name: "mbms-register-response+xml",
     extensions: &[],
     media_types: &["application/mbms-register-response+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1583301881: FileFormat = FileFormat {
     name: "intu qfx",
     extensions: &["qfx"],
     media_types: &["application/vnd.intu.qfx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

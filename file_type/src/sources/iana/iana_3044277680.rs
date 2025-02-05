@@ -6,6 +6,6 @@ pub(crate) const IANA_3044277680: FileFormat = FileFormat {
     name: "gnap-binding-jws",
     extensions: &[],
     media_types: &["application/gnap-binding-jws"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

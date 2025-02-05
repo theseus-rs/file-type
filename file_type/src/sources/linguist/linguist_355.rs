@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_355: FileFormat = FileFormat {
     name: "Squirrel",
     extensions: &["nut"],
     media_types: &["text/x-c++src"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

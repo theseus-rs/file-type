@@ -6,6 +6,6 @@ pub(crate) const IANA_2582906171: FileFormat = FileFormat {
     name: "cql-expression",
     extensions: &[],
     media_types: &["text/cql-expression"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

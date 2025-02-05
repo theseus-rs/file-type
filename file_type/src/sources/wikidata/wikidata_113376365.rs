@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_113376365: FileFormat = FileFormat {
     id: 113_376_365,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_113376365: FileFormat = FileFormat {
     name: "Yamaha Wave Audio Generic",
     extensions: &["f01", "s01", "u01", "w01"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

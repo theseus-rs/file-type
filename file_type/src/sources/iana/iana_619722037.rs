@@ -6,6 +6,6 @@ pub(crate) const IANA_619722037: FileFormat = FileFormat {
     name: "hmpg",
     extensions: &[],
     media_types: &["haptics/hmpg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

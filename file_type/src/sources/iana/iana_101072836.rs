@@ -6,6 +6,6 @@ pub(crate) const IANA_101072836: FileFormat = FileFormat {
     name: "vnd.syncml.ds.notification",
     extensions: &[],
     media_types: &["application/vnd.syncml.ds.notification"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

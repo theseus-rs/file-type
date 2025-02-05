@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3701790503: FileFormat = FileFormat {
     name: "dynageo",
     extensions: &["geo"],
     media_types: &["application/vnd.dynageo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

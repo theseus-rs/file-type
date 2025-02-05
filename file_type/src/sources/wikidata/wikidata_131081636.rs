@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131081636: FileFormat = FileFormat {
     id: 131_081_636,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131081636: FileFormat = FileFormat {
     name: "Snowball source code file",
     extensions: &["sbl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_113: FileFormat = FileFormat {
     name: "Formatted",
     extensions: &["eam.fs", "for"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

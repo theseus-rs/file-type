@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2981984339: FileFormat = FileFormat {
     name: "powerbuilder6",
     extensions: &["pbd"],
     media_types: &["application/vnd.powerbuilder6"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

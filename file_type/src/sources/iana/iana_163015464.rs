@@ -6,6 +6,6 @@ pub(crate) const IANA_163015464: FileFormat = FileFormat {
     name: "ibe-key-request+xml",
     extensions: &[],
     media_types: &["application/ibe-key-request+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

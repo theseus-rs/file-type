@@ -6,6 +6,6 @@ pub(crate) const IANA_2699770000: FileFormat = FileFormat {
     name: "vnd.omaloc-supl-init",
     extensions: &[],
     media_types: &["application/vnd.omaloc-supl-init"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

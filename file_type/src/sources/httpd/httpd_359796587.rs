@@ -6,6 +6,6 @@ pub(crate) const HTTPD_359796587: FileFormat = FileFormat {
     name: "noblenet sealer",
     extensions: &["nns"],
     media_types: &["application/vnd.noblenet-sealer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

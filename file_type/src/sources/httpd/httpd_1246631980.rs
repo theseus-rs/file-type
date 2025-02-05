@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1246631980: FileFormat = FileFormat {
     name: "fdsn seed",
     extensions: &["seed", "dataless"],
     media_types: &["application/vnd.fdsn.seed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

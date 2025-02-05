@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2572911062: FileFormat = FileFormat {
     name: "kde kivio",
     extensions: &["flw"],
     media_types: &["application/vnd.kde.kivio"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

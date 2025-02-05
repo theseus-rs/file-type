@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3752520368: FileFormat = FileFormat {
     name: "pkcs7 signature",
     extensions: &["p7s"],
     media_types: &["application/pkcs7-signature"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

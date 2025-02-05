@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1329015423: FileFormat = FileFormat {
     name: "ipfix",
     extensions: &["ipfix"],
     media_types: &["application/ipfix"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

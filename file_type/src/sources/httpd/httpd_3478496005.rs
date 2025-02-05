@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3478496005: FileFormat = FileFormat {
     name: "astraea software iota",
     extensions: &["iota"],
     media_types: &["application/vnd.astraea-software.iota"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

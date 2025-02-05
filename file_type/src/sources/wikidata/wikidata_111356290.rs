@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111356290: FileFormat = FileFormat {
     id: 111_356_290,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111356290: FileFormat = FileFormat {
     name: "Yamaha Motif ES sample data file",
     extensions: &["w8v"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

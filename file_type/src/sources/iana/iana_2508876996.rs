@@ -6,6 +6,6 @@ pub(crate) const IANA_2508876996: FileFormat = FileFormat {
     name: "vnd.pytha.pyox",
     extensions: &[],
     media_types: &["model/vnd.pytha.pyox"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

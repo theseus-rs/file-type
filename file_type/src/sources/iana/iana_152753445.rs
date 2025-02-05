@@ -6,6 +6,6 @@ pub(crate) const IANA_152753445: FileFormat = FileFormat {
     name: "SGML",
     extensions: &[],
     media_types: &["text/SGML"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

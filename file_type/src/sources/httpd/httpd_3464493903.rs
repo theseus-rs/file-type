@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3464493903: FileFormat = FileFormat {
     name: "msbinder",
     extensions: &["obd"],
     media_types: &["application/x-msbinder"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

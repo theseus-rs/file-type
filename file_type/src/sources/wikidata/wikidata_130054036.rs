@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130054036: FileFormat = FileFormat {
     id: 130_054_036,
@@ -13,6 +11,6 @@ pub(crate) const WIKIDATA_130054036: FileFormat = FileFormat {
         "text/juttle",
         "text/x-juttle",
     ],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

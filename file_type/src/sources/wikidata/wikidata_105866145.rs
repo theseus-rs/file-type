@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105866145: FileFormat = FileFormat {
     id: 105_866_145,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105866145: FileFormat = FileFormat {
     name: "PxTone Collage module (protected)",
     extensions: &["pttune"],
     media_types: &["audio/x-mod"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

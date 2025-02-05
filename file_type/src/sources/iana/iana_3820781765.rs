@@ -6,6 +6,6 @@ pub(crate) const IANA_3820781765: FileFormat = FileFormat {
     name: "shex",
     extensions: &[],
     media_types: &["text/shex"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

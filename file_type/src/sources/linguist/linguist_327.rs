@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_327: FileFormat = FileFormat {
     name: "Rust",
     extensions: &["rs", "rs.in"],
     media_types: &["text/x-rustsrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_931123626: FileFormat = FileFormat {
     name: "KDL",
     extensions: &["kdl"],
     media_types: &["text/x-yacas"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

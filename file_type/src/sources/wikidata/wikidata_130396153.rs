@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130396153: FileFormat = FileFormat {
     id: 130_396_153,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130396153: FileFormat = FileFormat {
     name: "Ooc source code file",
     extensions: &["ooc"],
     media_types: &["text/x-ooc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

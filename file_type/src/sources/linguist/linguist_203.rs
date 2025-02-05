@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_203: FileFormat = FileFormat {
     name: "Linux Kernel Module",
     extensions: &["mod"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

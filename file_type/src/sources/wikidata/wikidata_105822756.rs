@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105822756: FileFormat = FileFormat {
     id: 105_822_756,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105822756: FileFormat = FileFormat {
     name: "AMDIS RI Calibration Data",
     extensions: &["CAL"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

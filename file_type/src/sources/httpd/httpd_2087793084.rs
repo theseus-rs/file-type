@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2087793084: FileFormat = FileFormat {
     name: "vtu",
     extensions: &["vtu"],
     media_types: &["model/vnd.vtu"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

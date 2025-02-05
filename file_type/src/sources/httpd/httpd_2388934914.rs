@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2388934914: FileFormat = FileFormat {
     name: "cbr",
     extensions: &["cbr", "cba", "cbt", "cbz", "cb7"],
     media_types: &["application/x-cbr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_154740816: FileFormat = FileFormat {
     name: "geogebra slides",
     extensions: &["ggs"],
     media_types: &["application/vnd.geogebra.slides"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2608284529: FileFormat = FileFormat {
     name: "yang-patch+json",
     extensions: &[],
     media_types: &["application/yang-patch+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

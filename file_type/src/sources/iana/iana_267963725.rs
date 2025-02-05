@@ -6,6 +6,6 @@ pub(crate) const IANA_267963725: FileFormat = FileFormat {
     name: "auth-policy+xml",
     extensions: &[],
     media_types: &["application/auth-policy+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

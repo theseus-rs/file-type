@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_290345951: FileFormat = FileFormat {
     name: "GAML",
     extensions: &["gaml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

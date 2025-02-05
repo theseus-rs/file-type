@@ -6,6 +6,6 @@ pub(crate) const IANA_3311782725: FileFormat = FileFormat {
     name: "vnd.DMClientScript",
     extensions: &[],
     media_types: &["text/vnd.DMClientScript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

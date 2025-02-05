@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_49799499: FileFormat = FileFormat {
     id: 49_799_499,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_49799499: FileFormat = FileFormat {
     name: "Adobe Portable Document Catalog Index File, version 3.1",
     extensions: &["pdx"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

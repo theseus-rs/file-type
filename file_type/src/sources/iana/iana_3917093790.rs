@@ -6,6 +6,6 @@ pub(crate) const IANA_3917093790: FileFormat = FileFormat {
     name: "vnd.rosette.annotated-data-model",
     extensions: &[],
     media_types: &["model/vnd.rosette.annotated-data-model"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

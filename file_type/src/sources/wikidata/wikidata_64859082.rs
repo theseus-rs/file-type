@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_64859082: FileFormat = FileFormat {
     id: 64_859_082,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_64859082: FileFormat = FileFormat {
     name: "Family Tree Maker for DOS file format",
     extensions: &["ftm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2829476850: FileFormat = FileFormat {
     name: "vnd.si.simp (OBSOLETED by request)",
     extensions: &[],
     media_types: &["message/vnd.si.simp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

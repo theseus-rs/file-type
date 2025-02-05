@@ -6,6 +6,6 @@ pub(crate) const IANA_1811286897: FileFormat = FileFormat {
     name: "media_control+xml",
     extensions: &[],
     media_types: &["application/media_control+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

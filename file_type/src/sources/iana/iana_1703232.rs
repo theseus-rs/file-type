@@ -6,6 +6,6 @@ pub(crate) const IANA_1703232: FileFormat = FileFormat {
     name: "vnd.geo+json (OBSOLETED by [RFC7946] in favor of application/geo+json)",
     extensions: &[],
     media_types: &["application/vnd.geo+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

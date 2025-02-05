@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_545626333: FileFormat = FileFormat {
     name: "Beef",
     extensions: &["bf"],
     media_types: &["text/x-csharp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

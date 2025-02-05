@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2179273523: FileFormat = FileFormat {
     name: "hal xml",
     extensions: &["hal"],
     media_types: &["application/vnd.hal+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

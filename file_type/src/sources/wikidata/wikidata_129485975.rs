@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_129485975: FileFormat = FileFormat {
     id: 129_485_975,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_129485975: FileFormat = FileFormat {
     name: "GraphQL file format",
     extensions: &["graphql"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

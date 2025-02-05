@@ -6,6 +6,6 @@ pub(crate) const IANA_930058366: FileFormat = FileFormat {
     name: "vnd.in3d.spot",
     extensions: &[],
     media_types: &["text/vnd.in3d.spot"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

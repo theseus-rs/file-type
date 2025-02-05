@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1389: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1389: FileFormat = FileFormat {
     name: "Microsoft Word Template",
     extensions: &["dotx"],
     media_types: &["application/vnd.openxmlformats-officedocument.wordprocessingml.template"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[RelatedFormat {
         relationship_type: RelationshipType::IsSubtypeOf,
         id: 1_160,

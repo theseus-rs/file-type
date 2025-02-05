@@ -6,6 +6,6 @@ pub(crate) const IANA_1075391890: FileFormat = FileFormat {
     name: "vnd.ezpix-album",
     extensions: &[],
     media_types: &["application/vnd.ezpix-album"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

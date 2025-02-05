@@ -6,6 +6,6 @@ pub(crate) const IANA_1437839697: FileFormat = FileFormat {
     name: "LXF",
     extensions: &[],
     media_types: &["application/LXF"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

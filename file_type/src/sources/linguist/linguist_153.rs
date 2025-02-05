@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_153: FileFormat = FileFormat {
     name: "Hack",
     extensions: &["hack", "hh", "hhi", "php"],
     media_types: &["application/x-httpd-php"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

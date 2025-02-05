@@ -6,6 +6,6 @@ pub(crate) const IANA_3435203577: FileFormat = FileFormat {
     name: "eat+jwt",
     extensions: &[],
     media_types: &["application/eat+jwt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

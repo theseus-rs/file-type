@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856997: FileFormat = FileFormat {
     id: 105_856_997,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105856997: FileFormat = FileFormat {
     name: "MicroImages GPS Log (v1)",
     extensions: &["gps"],
     media_types: &["text/plain"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

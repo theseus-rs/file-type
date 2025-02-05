@@ -6,6 +6,6 @@ pub(crate) const IANA_1063909402: FileFormat = FileFormat {
     name: "vnd.criticaltools.wbs+xml",
     extensions: &[],
     media_types: &["application/vnd.criticaltools.wbs+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

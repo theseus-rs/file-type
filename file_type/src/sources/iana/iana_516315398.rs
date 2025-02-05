@@ -6,6 +6,6 @@ pub(crate) const IANA_516315398: FileFormat = FileFormat {
     name: "ivs",
     extensions: &[],
     media_types: &["haptics/ivs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_792408528: FileFormat = FileFormat {
     name: "Genie",
     extensions: &["gs"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

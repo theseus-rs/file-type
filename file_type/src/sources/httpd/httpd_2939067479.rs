@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2939067479: FileFormat = FileFormat {
     name: "gml xml",
     extensions: &["gml"],
     media_types: &["application/gml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

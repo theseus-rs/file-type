@@ -6,6 +6,6 @@ pub(crate) const IANA_1399920820: FileFormat = FileFormat {
     name: "prs.vcfbzip2",
     extensions: &[],
     media_types: &["application/prs.vcfbzip2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

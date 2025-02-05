@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_723589315: FileFormat = FileFormat {
     name: "Option List",
     extensions: &[],
     media_types: &["text/x-sh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

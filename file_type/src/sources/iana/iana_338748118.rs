@@ -6,6 +6,6 @@ pub(crate) const IANA_338748118: FileFormat = FileFormat {
     name: "vnd.informedcontrol.rms+xml",
     extensions: &[],
     media_types: &["application/vnd.informedcontrol.rms+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

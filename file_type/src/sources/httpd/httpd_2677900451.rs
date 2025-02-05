@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2677900451: FileFormat = FileFormat {
     name: "acucorp",
     extensions: &["atc", "acutc"],
     media_types: &["application/vnd.acucorp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

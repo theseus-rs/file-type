@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_664257356: FileFormat = FileFormat {
     name: "ShaderLab",
     extensions: &["shader"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

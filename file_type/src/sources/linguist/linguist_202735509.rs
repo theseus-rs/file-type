@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_202735509: FileFormat = FileFormat {
     name: "ObjectScript",
     extensions: &["cls"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

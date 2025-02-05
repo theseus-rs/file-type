@@ -6,6 +6,6 @@ pub(crate) const IANA_1631935144: FileFormat = FileFormat {
     name: "vnd.freelog.comic",
     extensions: &[],
     media_types: &["application/vnd.freelog.comic"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

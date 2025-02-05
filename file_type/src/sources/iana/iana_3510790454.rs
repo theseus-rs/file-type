@@ -6,6 +6,6 @@ pub(crate) const IANA_3510790454: FileFormat = FileFormat {
     name: "vnd.vidsoft.vidconference",
     extensions: &[],
     media_types: &["application/vnd.vidsoft.vidconference"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

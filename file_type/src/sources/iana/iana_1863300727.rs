@@ -6,6 +6,6 @@ pub(crate) const IANA_1863300727: FileFormat = FileFormat {
     name: "ip-mr_v2.5",
     extensions: &[],
     media_types: &["audio/ip-mr_v2.5"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

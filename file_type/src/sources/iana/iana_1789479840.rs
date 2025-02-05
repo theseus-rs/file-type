@@ -6,6 +6,6 @@ pub(crate) const IANA_1789479840: FileFormat = FileFormat {
     name: "vnd.vividence.scriptfile",
     extensions: &[],
     media_types: &["application/vnd.vividence.scriptfile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

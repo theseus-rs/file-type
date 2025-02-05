@@ -6,6 +6,6 @@ pub(crate) const IANA_3785618288: FileFormat = FileFormat {
     name: "xmpp+xml",
     extensions: &[],
     media_types: &["application/xmpp+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

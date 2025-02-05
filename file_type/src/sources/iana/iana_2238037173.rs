@@ -6,6 +6,6 @@ pub(crate) const IANA_2238037173: FileFormat = FileFormat {
     name: "wsdl+xml",
     extensions: &[],
     media_types: &["application/wsdl+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

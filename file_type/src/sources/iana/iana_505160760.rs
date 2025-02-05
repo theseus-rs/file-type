@@ -6,6 +6,6 @@ pub(crate) const IANA_505160760: FileFormat = FileFormat {
     name: "vnd.tmd.mediaflex.api+xml",
     extensions: &[],
     media_types: &["application/vnd.tmd.mediaflex.api+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

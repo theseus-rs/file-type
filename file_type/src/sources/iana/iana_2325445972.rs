@@ -6,6 +6,6 @@ pub(crate) const IANA_2325445972: FileFormat = FileFormat {
     name: "QCELP",
     extensions: &[],
     media_types: &["audio/QCELP"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

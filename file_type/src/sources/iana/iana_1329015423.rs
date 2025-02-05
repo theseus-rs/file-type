@@ -6,6 +6,6 @@ pub(crate) const IANA_1329015423: FileFormat = FileFormat {
     name: "ipfix",
     extensions: &[],
     media_types: &["application/ipfix"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

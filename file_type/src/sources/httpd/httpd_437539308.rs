@@ -6,6 +6,6 @@ pub(crate) const HTTPD_437539308: FileFormat = FileFormat {
     name: "cfs compressed",
     extensions: &["cfs"],
     media_types: &["application/x-cfs-compressed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

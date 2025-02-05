@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_129828012: FileFormat = FileFormat {
     id: 129_828_012,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_129828012: FileFormat = FileFormat {
     name: "Ioke source code file",
     extensions: &["ik"],
     media_types: &["text/x-iokesrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

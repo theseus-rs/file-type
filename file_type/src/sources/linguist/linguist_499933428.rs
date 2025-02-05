@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_499933428: FileFormat = FileFormat {
     name: "Prisma",
     extensions: &["prisma"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

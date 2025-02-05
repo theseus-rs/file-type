@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_77046033: FileFormat = FileFormat {
     id: 77_046_033,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_77046033: FileFormat = FileFormat {
     name: "Extensible 3D vector graphics (VRML)",
     extensions: &["x3dv"],
     media_types: &["model/x3d-vrml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

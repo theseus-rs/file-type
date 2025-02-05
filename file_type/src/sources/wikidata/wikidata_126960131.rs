@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_126960131: FileFormat = FileFormat {
     id: 126_960_131,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_126960131: FileFormat = FileFormat {
     name: "Standard ML source code file",
     extensions: &["sml"],
     media_types: &["application/x-standardml", "text/x-standardml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1028705371: FileFormat = FileFormat {
     name: "Janet",
     extensions: &["janet"],
     media_types: &["text/x-scheme"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

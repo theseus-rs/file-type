@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105860401: FileFormat = FileFormat {
     id: 105_860_401,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105860401: FileFormat = FileFormat {
     name: "DevExpress Report layout (v1)",
     extensions: &["repx"],
     media_types: &["text/plain"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

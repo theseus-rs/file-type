@@ -6,6 +6,6 @@ pub(crate) const IANA_1091729195: FileFormat = FileFormat {
     name: "partial",
     extensions: &[],
     media_types: &["message/partial"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

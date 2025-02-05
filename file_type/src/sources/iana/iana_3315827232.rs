@@ -6,6 +6,6 @@ pub(crate) const IANA_3315827232: FileFormat = FileFormat {
     name: "vnd.oasis.opendocument.text-template",
     extensions: &[],
     media_types: &["application/vnd.oasis.opendocument.text-template"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

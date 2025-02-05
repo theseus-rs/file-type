@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_73: FileFormat = FileFormat {
     name: "Csound",
     extensions: &["orc", "udo"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856135: FileFormat = FileFormat {
     id: 105_856_135,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105856135: FileFormat = FileFormat {
     name: "Cubic Player archive cache",
     extensions: &["dat"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

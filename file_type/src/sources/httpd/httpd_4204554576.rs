@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4204554576: FileFormat = FileFormat {
     name: "ms project",
     extensions: &["mpp", "mpt"],
     media_types: &["application/vnd.ms-project"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

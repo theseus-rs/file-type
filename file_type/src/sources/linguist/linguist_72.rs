@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_72: FileFormat = FileFormat {
     name: "Crystal",
     extensions: &["cr"],
     media_types: &["text/x-crystal"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1253658823: FileFormat = FileFormat {
     name: "vnd.evolv.ecig.theme",
     extensions: &[],
     media_types: &["application/vnd.evolv.ecig.theme"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

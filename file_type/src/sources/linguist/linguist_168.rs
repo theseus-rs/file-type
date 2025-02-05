@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_168: FileFormat = FileFormat {
     name: "Io",
     extensions: &["io"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

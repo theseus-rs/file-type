@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2030495307: FileFormat = FileFormat {
     name: "apple installer xml",
     extensions: &["mpkg"],
     media_types: &["application/vnd.apple.installer+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

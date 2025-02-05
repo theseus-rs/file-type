@@ -6,6 +6,6 @@ pub(crate) const IANA_146500985: FileFormat = FileFormat {
     name: "vnd.psfs",
     extensions: &[],
     media_types: &["application/vnd.psfs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

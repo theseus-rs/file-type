@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_31: FileFormat = FileFormat {
     name: "Bison",
     extensions: &["bison"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2553: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_2553: FileFormat = FileFormat {
     name: "Time Stamp Token",
     extensions: &["tst"],
     media_types: &["application/vnd.etsi.timestamp-token"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

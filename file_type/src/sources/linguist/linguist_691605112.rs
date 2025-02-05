@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_691605112: FileFormat = FileFormat {
     name: "dircolors",
     extensions: &["dircolors"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_123204255: FileFormat = FileFormat {
     id: 123_204_255,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_123204255: FileFormat = FileFormat {
     name: "Avid Media Composer Script",
     extensions: &["avc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

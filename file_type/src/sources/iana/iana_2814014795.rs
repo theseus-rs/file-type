@@ -6,6 +6,6 @@ pub(crate) const IANA_2814014795: FileFormat = FileFormat {
     name: "jwk-set+json",
     extensions: &[],
     media_types: &["application/jwk-set+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

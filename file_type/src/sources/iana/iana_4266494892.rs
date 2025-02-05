@@ -6,6 +6,6 @@ pub(crate) const IANA_4266494892: FileFormat = FileFormat {
     name: "rls-services+xml",
     extensions: &[],
     media_types: &["application/rls-services+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

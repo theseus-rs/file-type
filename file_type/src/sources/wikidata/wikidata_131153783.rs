@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131153783: FileFormat = FileFormat {
     id: 131_153_783,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131153783: FileFormat = FileFormat {
     name: "squid configuration file format",
     extensions: &["squid.conf"],
     media_types: &["text/x-squidconf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105853349: FileFormat = FileFormat {
     id: 105_853_349,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105853349: FileFormat = FileFormat {
     name: "Sega Master System/Game Gear/Coleco Music Format (v1.0)",
     extensions: &["sgc"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

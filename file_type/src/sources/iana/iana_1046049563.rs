@@ -6,6 +6,6 @@ pub(crate) const IANA_1046049563: FileFormat = FileFormat {
     name: "vnd.3lightssoftware.imagescal",
     extensions: &[],
     media_types: &["application/vnd.3lightssoftware.imagescal"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

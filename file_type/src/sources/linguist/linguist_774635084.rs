@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_774635084: FileFormat = FileFormat {
     name: "Jest Snapshot",
     extensions: &["snap"],
     media_types: &["application/javascript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

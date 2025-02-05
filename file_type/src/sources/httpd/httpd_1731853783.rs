@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1731853783: FileFormat = FileFormat {
     name: "setext",
     extensions: &["etx"],
     media_types: &["text/x-setext"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

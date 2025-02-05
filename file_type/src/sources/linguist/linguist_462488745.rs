@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_462488745: FileFormat = FileFormat {
     name: "mcfunction",
     extensions: &["mcfunction"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

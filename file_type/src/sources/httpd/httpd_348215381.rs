@@ -6,6 +6,6 @@ pub(crate) const HTTPD_348215381: FileFormat = FileFormat {
     name: "kde kchart",
     extensions: &["chrt"],
     media_types: &["application/vnd.kde.kchart"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

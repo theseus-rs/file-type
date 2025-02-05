@@ -6,6 +6,6 @@ pub(crate) const IANA_48899670: FileFormat = FileFormat {
     name: "jls",
     extensions: &[],
     media_types: &["image/jls"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

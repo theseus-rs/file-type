@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3334640110: FileFormat = FileFormat {
     name: "chemdraw xml",
     extensions: &["cdxml"],
     media_types: &["application/vnd.chemdraw+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

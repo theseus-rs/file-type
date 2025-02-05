@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_267: FileFormat = FileFormat {
     name: "Org",
     extensions: &["org"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

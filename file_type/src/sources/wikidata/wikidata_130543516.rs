@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130543516: FileFormat = FileFormat {
     id: 130_543_516,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130543516: FileFormat = FileFormat {
     name: "PyPy log file format",
     extensions: &["pypylog"],
     media_types: &["application/x-pypylog"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

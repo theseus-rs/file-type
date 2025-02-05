@@ -6,6 +6,6 @@ pub(crate) const IANA_600781183: FileFormat = FileFormat {
     name: "watcherinfo+xml",
     extensions: &[],
     media_types: &["application/watcherinfo+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

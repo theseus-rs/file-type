@@ -6,6 +6,6 @@ pub(crate) const IANA_3496799771: FileFormat = FileFormat {
     name: "vnd.tcpdump.pcap",
     extensions: &[],
     media_types: &["application/vnd.tcpdump.pcap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

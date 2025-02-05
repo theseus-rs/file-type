@@ -6,6 +6,6 @@ pub(crate) const HTTPD_913317735: FileFormat = FileFormat {
     name: "doom",
     extensions: &["wad"],
     media_types: &["application/x-doom"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

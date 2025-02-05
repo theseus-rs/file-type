@@ -6,6 +6,6 @@ pub(crate) const IANA_2472612683: FileFormat = FileFormat {
     name: "vnd.accpac.simply.aso",
     extensions: &[],
     media_types: &["application/vnd.accpac.simply.aso"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

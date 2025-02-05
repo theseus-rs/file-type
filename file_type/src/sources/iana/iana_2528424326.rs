@@ -6,6 +6,6 @@ pub(crate) const IANA_2528424326: FileFormat = FileFormat {
     name: "p2p-overlay+xml",
     extensions: &[],
     media_types: &["application/p2p-overlay+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

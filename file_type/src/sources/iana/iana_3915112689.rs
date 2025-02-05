@@ -6,6 +6,6 @@ pub(crate) const IANA_3915112689: FileFormat = FileFormat {
     name: "vnd.swiftview-ics",
     extensions: &[],
     media_types: &["application/vnd.swiftview-ics"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

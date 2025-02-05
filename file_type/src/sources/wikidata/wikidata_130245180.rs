@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130245180: FileFormat = FileFormat {
     id: 130_245_180,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130245180: FileFormat = FileFormat {
     name: "LLVM assembly code file",
     extensions: &["ll"],
     media_types: &["text/x-llvm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_117844080: FileFormat = FileFormat {
     id: 117_844_080,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_117844080: FileFormat = FileFormat {
     name: "JetFax file",
     extensions: &["jet"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

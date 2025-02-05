@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3679007507: FileFormat = FileFormat {
     name: "conference",
     extensions: &["nsc"],
     media_types: &["application/x-conference"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

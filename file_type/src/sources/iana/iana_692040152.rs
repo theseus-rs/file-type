@@ -6,6 +6,6 @@ pub(crate) const IANA_692040152: FileFormat = FileFormat {
     name: "vnd.svf",
     extensions: &[],
     media_types: &["image/vnd.svf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

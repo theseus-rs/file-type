@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3831603838: FileFormat = FileFormat {
     name: "fvt",
     extensions: &["fvt"],
     media_types: &["video/vnd.fvt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

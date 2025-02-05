@@ -6,6 +6,6 @@ pub(crate) const IANA_2043506452: FileFormat = FileFormat {
     name: "vnd.wfa.dpp",
     extensions: &[],
     media_types: &["application/vnd.wfa.dpp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

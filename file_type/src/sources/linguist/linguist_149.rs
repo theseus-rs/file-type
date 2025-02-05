@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_149: FileFormat = FileFormat {
     name: "HTML+EEX",
     extensions: &["heex", "html.eex", "leex"],
     media_types: &["text/html"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

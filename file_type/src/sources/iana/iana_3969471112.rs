@@ -6,6 +6,6 @@ pub(crate) const IANA_3969471112: FileFormat = FileFormat {
     name: "vnd.oma.cab-user-prefs+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.cab-user-prefs+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

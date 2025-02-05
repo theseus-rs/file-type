@@ -6,6 +6,6 @@ pub(crate) const IANA_3910194067: FileFormat = FileFormat {
     name: "vnd.fastcopy-disk-image",
     extensions: &[],
     media_types: &["application/vnd.fastcopy-disk-image"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

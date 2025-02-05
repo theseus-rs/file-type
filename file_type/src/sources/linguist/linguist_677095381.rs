@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_677095381: FileFormat = FileFormat {
     name: "Cabal Config",
     extensions: &["cabal"],
     media_types: &["text/x-haskell"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

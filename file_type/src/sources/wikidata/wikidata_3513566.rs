@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_3513566: FileFormat = FileFormat {
     id: 3_513_566,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_3513566: FileFormat = FileFormat {
     name: "tab-separated values",
     extensions: &["tab", "tsv"],
     media_types: &["text/tab-separated-values"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

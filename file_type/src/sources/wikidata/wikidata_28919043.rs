@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28919043: FileFormat = FileFormat {
     id: 28_919_043,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28919043: FileFormat = FileFormat {
     name: "Sony HDV",
     extensions: &["m2t"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

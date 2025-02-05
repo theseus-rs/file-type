@@ -6,6 +6,6 @@ pub(crate) const IANA_3019298279: FileFormat = FileFormat {
     name: "vnd.nokia.landmarkcollection+xml",
     extensions: &[],
     media_types: &["application/vnd.nokia.landmarkcollection+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

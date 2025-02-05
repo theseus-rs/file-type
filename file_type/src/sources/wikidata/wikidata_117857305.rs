@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_117857305: FileFormat = FileFormat {
     id: 117_857_305,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_117857305: FileFormat = FileFormat {
     name: "Ricoh DX-1 Adapter/Fax Card file",
     extensions: &["ric"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

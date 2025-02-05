@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2430076316: FileFormat = FileFormat {
     name: "fujitsu oasys",
     extensions: &["oas"],
     media_types: &["application/vnd.fujitsu.oasys"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

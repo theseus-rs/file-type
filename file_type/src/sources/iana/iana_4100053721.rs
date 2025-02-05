@@ -6,6 +6,6 @@ pub(crate) const IANA_4100053721: FileFormat = FileFormat {
     name: "vnd.adobe.fxp",
     extensions: &[],
     media_types: &["application/vnd.adobe.fxp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

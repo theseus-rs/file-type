@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4014908057: FileFormat = FileFormat {
     name: "mng",
     extensions: &["mng"],
     media_types: &["video/x-mng"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2803882134: FileFormat = FileFormat {
     name: "hbci",
     extensions: &["hbci"],
     media_types: &["application/vnd.hbci"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_387: FileFormat = FileFormat {
     name: "Verilog",
     extensions: &["v", "veo"],
     media_types: &["text/x-verilog"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

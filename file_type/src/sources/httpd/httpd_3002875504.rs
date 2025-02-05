@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3002875504: FileFormat = FileFormat {
     name: "uuencode",
     extensions: &["uu"],
     media_types: &["text/x-uuencode"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

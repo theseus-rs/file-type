@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_66689226: FileFormat = FileFormat {
     id: 66_689_226,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_66689226: FileFormat = FileFormat {
     name: "Access Add-in Data",
     extensions: &["mdt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

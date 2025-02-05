@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_26: FileFormat = FileFormat {
     name: "AutoHotkey",
     extensions: &["ahk", "ahkl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

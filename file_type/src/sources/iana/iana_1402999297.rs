@@ -6,6 +6,6 @@ pub(crate) const IANA_1402999297: FileFormat = FileFormat {
     name: "matroska",
     extensions: &[],
     media_types: &["video/matroska"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

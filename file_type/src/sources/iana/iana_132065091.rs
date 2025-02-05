@@ -6,6 +6,6 @@ pub(crate) const IANA_132065091: FileFormat = FileFormat {
     name: "iso.segment",
     extensions: &[],
     media_types: &["video/iso.segment"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

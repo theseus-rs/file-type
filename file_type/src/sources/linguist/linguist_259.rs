@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_259: FileFormat = FileFormat {
     name: "Objective-J",
     extensions: &["j", "sj"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

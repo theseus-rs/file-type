@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_51993886: FileFormat = FileFormat {
     id: 51_993_886,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_51993886: FileFormat = FileFormat {
     name: "IBM DisplayWrite Final Form Text File",
     extensions: &["fft"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

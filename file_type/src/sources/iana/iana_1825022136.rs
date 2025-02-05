@@ -6,6 +6,6 @@ pub(crate) const IANA_1825022136: FileFormat = FileFormat {
     name: "vnd.informix-visionary (OBSOLETED in favor of application/vnd.visionary)",
     extensions: &[],
     media_types: &["application/vnd.informix-visionary"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

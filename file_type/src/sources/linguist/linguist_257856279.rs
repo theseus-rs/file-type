@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_257856279: FileFormat = FileFormat {
     name: "GSC",
     extensions: &["csc", "gsc", "gsh"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

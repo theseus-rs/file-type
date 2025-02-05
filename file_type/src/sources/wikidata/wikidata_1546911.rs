@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1546911: FileFormat = FileFormat {
     id: 1_546_911,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_1546911: FileFormat = FileFormat {
     name: "Cross-Platform Installer Module",
     extensions: &["xpi"],
     media_types: &["application/x-xpinstall"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

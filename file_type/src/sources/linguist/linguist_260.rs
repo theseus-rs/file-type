@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_260: FileFormat = FileFormat {
     name: "Omgrofl",
     extensions: &["omgrofl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

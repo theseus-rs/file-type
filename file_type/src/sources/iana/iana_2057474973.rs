@@ -6,6 +6,6 @@ pub(crate) const IANA_2057474973: FileFormat = FileFormat {
     name: "g3fax",
     extensions: &[],
     media_types: &["image/g3fax"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

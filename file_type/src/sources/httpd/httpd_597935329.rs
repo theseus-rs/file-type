@@ -6,6 +6,6 @@ pub(crate) const HTTPD_597935329: FileFormat = FileFormat {
     name: "ds keypoint",
     extensions: &["kpxx"],
     media_types: &["application/vnd.ds-keypoint"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

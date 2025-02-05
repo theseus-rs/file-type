@@ -6,6 +6,6 @@ pub(crate) const IANA_214077991: FileFormat = FileFormat {
     name: "j2c",
     extensions: &[],
     media_types: &["image/j2c"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

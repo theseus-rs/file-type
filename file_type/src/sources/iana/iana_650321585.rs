@@ -6,6 +6,6 @@ pub(crate) const IANA_650321585: FileFormat = FileFormat {
     name: "vnd.cncf.helm.config.v1+json",
     extensions: &[],
     media_types: &["application/vnd.cncf.helm.config.v1+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

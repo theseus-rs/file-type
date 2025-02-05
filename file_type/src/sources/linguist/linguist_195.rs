@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_195: FileFormat = FileFormat {
     name: "Lasso",
     extensions: &["las", "lasso", "lasso8", "lasso9"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

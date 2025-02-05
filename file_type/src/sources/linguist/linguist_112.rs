@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_112: FileFormat = FileFormat {
     name: "Filterscript",
     extensions: &["fs"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

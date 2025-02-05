@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2570068954: FileFormat = FileFormat {
     name: "pg format",
     extensions: &["str"],
     media_types: &["application/vnd.pg.format"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

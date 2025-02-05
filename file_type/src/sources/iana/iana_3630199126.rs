@@ -6,6 +6,6 @@ pub(crate) const IANA_3630199126: FileFormat = FileFormat {
     name: "vnd.vcx",
     extensions: &[],
     media_types: &["application/vnd.vcx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

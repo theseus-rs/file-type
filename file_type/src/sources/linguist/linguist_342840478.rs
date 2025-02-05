@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_342840478: FileFormat = FileFormat {
     name: "Edje Data Collection",
     extensions: &["edc"],
     media_types: &["text/x-c++src"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

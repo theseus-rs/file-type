@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_37531557: FileFormat = FileFormat {
     name: "D2",
     extensions: &["d2"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

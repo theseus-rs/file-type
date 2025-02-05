@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_60371646: FileFormat = FileFormat {
     id: 60_371_646,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_60371646: FileFormat = FileFormat {
     name: "Quark Xpress Data File, version 10",
     extensions: &["qcd", "qct", "qtp", "qxp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

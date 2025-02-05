@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_29167502: FileFormat = FileFormat {
     id: 29_167_502,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_29167502: FileFormat = FileFormat {
     name: "Open Web App Manifest",
     extensions: &["webapp"],
     media_types: &["application/x-web-app-manifest+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

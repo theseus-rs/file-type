@@ -6,6 +6,6 @@ pub(crate) const IANA_220079965: FileFormat = FileFormat {
     name: "vnd.ms-wmdrm.meter-resp",
     extensions: &[],
     media_types: &["application/vnd.ms-wmdrm.meter-resp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

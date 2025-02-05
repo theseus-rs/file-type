@@ -6,6 +6,6 @@ pub(crate) const IANA_2978006526: FileFormat = FileFormat {
     name: "rtx",
     extensions: &[],
     media_types: &["text/rtx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_720859680: FileFormat = FileFormat {
     name: "Ballerina",
     extensions: &["bal"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1055641948: FileFormat = FileFormat {
     name: "Vyper",
     extensions: &["vy"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2477907789: FileFormat = FileFormat {
     name: "lotus notes",
     extensions: &["nsf"],
     media_types: &["application/vnd.lotus-notes"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

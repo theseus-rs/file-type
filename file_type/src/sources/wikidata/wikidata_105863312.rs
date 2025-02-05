@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105863312: FileFormat = FileFormat {
     id: 105_863_312,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105863312: FileFormat = FileFormat {
     name: "Mindjet MindManager Map",
     extensions: &["mmp"],
     media_types: &["application/vnd.mindjet.mindmanager"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

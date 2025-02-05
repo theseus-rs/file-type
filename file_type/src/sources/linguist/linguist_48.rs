@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_48: FileFormat = FileFormat {
     name: "COBOL",
     extensions: &["cbl", "ccp", "cob", "cobol", "cpy"],
     media_types: &["text/x-cobol"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

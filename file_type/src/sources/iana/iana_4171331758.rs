@@ -6,6 +6,6 @@ pub(crate) const IANA_4171331758: FileFormat = FileFormat {
     name: "oscore",
     extensions: &[],
     media_types: &["application/oscore"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

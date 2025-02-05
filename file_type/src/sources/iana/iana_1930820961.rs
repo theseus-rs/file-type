@@ -6,6 +6,6 @@ pub(crate) const IANA_1930820961: FileFormat = FileFormat {
     name: "fhir+xml",
     extensions: &[],
     media_types: &["application/fhir+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

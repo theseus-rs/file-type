@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1020148948: FileFormat = FileFormat {
     name: "Redirect Rules",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

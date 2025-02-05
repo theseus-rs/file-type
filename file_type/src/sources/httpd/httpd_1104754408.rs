@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1104754408: FileFormat = FileFormat {
     name: "xproc xml",
     extensions: &["xpl"],
     media_types: &["application/xproc+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

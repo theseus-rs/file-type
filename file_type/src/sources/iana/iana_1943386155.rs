@@ -6,6 +6,6 @@ pub(crate) const IANA_1943386155: FileFormat = FileFormat {
     name: "vnd.tmobile-livetv",
     extensions: &[],
     media_types: &["application/vnd.tmobile-livetv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

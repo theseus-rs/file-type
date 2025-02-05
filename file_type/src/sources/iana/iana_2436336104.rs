@@ -6,6 +6,6 @@ pub(crate) const IANA_2436336104: FileFormat = FileFormat {
     name: "vnd.onvif.metadata",
     extensions: &[],
     media_types: &["application/vnd.onvif.metadata"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

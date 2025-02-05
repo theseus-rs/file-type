@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1541256077: FileFormat = FileFormat {
     name: "mobipocket ebook",
     extensions: &["prc", "mobi"],
     media_types: &["application/x-mobipocket-ebook"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

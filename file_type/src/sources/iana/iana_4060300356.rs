@@ -6,6 +6,6 @@ pub(crate) const IANA_4060300356: FileFormat = FileFormat {
     name: "vnd.nato.bindingdataobject+cbor",
     extensions: &[],
     media_types: &["application/vnd.nato.bindingdataobject+cbor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

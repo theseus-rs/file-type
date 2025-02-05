@@ -6,6 +6,6 @@ pub(crate) const IANA_3811794466: FileFormat = FileFormat {
     name: "vnd.hp-PCL",
     extensions: &[],
     media_types: &["application/vnd.hp-PCL"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3612023431: FileFormat = FileFormat {
     name: "vnd.oci.image.manifest.v1+json",
     extensions: &[],
     media_types: &["application/vnd.oci.image.manifest.v1+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

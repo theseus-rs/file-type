@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_56291707: FileFormat = FileFormat {
     id: 56_291_707,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_56291707: FileFormat = FileFormat {
     name: "Common Workflow Language",
     extensions: &["cwl"],
     media_types: &["application/cwl", "application/cwl+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

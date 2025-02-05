@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2104699429: FileFormat = FileFormat {
     name: "font bdf",
     extensions: &["bdf"],
     media_types: &["application/x-font-bdf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

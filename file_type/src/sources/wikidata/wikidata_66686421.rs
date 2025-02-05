@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_66686421: FileFormat = FileFormat {
     id: 66_686_421,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_66686421: FileFormat = FileFormat {
     name: "Microsoft Works Word Processor 1-3 for DOS and 2 for Windows",
     extensions: &["wps"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

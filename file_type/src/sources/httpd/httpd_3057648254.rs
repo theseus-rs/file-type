@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3057648254: FileFormat = FileFormat {
     name: "contact cmsg",
     extensions: &["cdbcmsg"],
     media_types: &["application/vnd.contact.cmsg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

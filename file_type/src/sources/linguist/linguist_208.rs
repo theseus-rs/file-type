@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_208: FileFormat = FileFormat {
     name: "LiveScript",
     extensions: &["_ls", "ls"],
     media_types: &["text/x-livescript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

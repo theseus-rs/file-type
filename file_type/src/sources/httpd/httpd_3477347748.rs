@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3477347748: FileFormat = FileFormat {
     name: "java source",
     extensions: &["java"],
     media_types: &["text/x-java-source"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

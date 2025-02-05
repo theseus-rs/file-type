@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3229630693: FileFormat = FileFormat {
     name: "lotus organizer",
     extensions: &["org"],
     media_types: &["application/vnd.lotus-organizer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

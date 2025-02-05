@@ -6,6 +6,6 @@ pub(crate) const IANA_3334640110: FileFormat = FileFormat {
     name: "vnd.chemdraw+xml",
     extensions: &[],
     media_types: &["application/vnd.chemdraw+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

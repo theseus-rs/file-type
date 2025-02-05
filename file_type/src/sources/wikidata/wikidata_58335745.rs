@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_58335745: FileFormat = FileFormat {
     id: 58_335_745,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_58335745: FileFormat = FileFormat {
     name: "Acrobat Catalog Cat File",
     extensions: &["cat"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

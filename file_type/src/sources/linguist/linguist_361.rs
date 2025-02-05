@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_361: FileFormat = FileFormat {
     name: "SuperCollider",
     extensions: &["sc", "scd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

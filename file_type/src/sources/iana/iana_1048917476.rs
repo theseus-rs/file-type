@@ -6,6 +6,6 @@ pub(crate) const IANA_1048917476: FileFormat = FileFormat {
     name: "xcap-diff+xml",
     extensions: &[],
     media_types: &["application/xcap-diff+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

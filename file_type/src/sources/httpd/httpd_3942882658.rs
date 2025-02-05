@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3942882658: FileFormat = FileFormat {
     name: "prs lines tag",
     extensions: &["dsc"],
     media_types: &["text/prs.lines.tag"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105865405: FileFormat = FileFormat {
     id: 105_865_405,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105865405: FileFormat = FileFormat {
     name: "Parity Archive Volume Set (Par3)",
     extensions: &["pa3"],
     media_types: &["application/x-par3"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

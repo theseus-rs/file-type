@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_95110458: FileFormat = FileFormat {
     name: "Glimmer TS",
     extensions: &["gts"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

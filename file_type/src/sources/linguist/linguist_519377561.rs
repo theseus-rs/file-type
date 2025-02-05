@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_519377561: FileFormat = FileFormat {
     name: "Java Properties",
     extensions: &["properties"],
     media_types: &["text/x-properties"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

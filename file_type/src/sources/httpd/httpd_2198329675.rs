@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2198329675: FileFormat = FileFormat {
     name: "caf",
     extensions: &["caf"],
     media_types: &["audio/x-caf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

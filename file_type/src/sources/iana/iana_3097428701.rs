@@ -6,6 +6,6 @@ pub(crate) const IANA_3097428701: FileFormat = FileFormat {
     name: "concise-problem-details+cbor",
     extensions: &[],
     media_types: &["application/concise-problem-details+cbor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

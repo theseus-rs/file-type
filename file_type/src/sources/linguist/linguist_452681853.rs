@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_452681853: FileFormat = FileFormat {
     name: "ABAP CDS",
     extensions: &["asddls"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_150: FileFormat = FileFormat {
     name: "HTML+ERB",
     extensions: &["erb", "erb.deface", "rhtml"],
     media_types: &["application/x-erb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

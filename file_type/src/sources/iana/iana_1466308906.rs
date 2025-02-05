@@ -6,6 +6,6 @@ pub(crate) const IANA_1466308906: FileFormat = FileFormat {
     name: "grammar-ref-list",
     extensions: &[],
     media_types: &["text/grammar-ref-list"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

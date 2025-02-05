@@ -6,6 +6,6 @@ pub(crate) const IANA_3257052792: FileFormat = FileFormat {
     name: "DAT12",
     extensions: &[],
     media_types: &["audio/DAT12"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_127: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_127: FileFormat = FileFormat {
     name: "Hewlett Packard Vector Graphic Plotter File",
     extensions: &["plt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

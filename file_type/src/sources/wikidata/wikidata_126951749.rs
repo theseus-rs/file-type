@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_126951749: FileFormat = FileFormat {
     id: 126_951_749,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_126951749: FileFormat = FileFormat {
     name: "OCaml source code file",
     extensions: &["ml"],
     media_types: &["text/x-ocaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

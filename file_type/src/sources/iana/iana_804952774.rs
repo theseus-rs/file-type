@@ -6,6 +6,6 @@ pub(crate) const IANA_804952774: FileFormat = FileFormat {
     name: "sipc",
     extensions: &[],
     media_types: &["application/sipc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

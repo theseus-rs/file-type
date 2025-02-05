@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3699803402: FileFormat = FileFormat {
     name: "wav",
     extensions: &["wav"],
     media_types: &["audio/x-wav"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

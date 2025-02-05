@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3999870255: FileFormat = FileFormat {
     name: "mophun application",
     extensions: &["mpn"],
     media_types: &["application/vnd.mophun.application"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

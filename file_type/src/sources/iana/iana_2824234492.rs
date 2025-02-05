@@ -8,6 +8,6 @@ pub(crate) const IANA_2824234492: FileFormat = FileFormat {
     media_types: &[
         "application/vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml",
     ],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

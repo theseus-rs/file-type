@@ -6,6 +6,6 @@ pub(crate) const IANA_1072032137: FileFormat = FileFormat {
     name: "vnd.motorola.flexsuite.adsi",
     extensions: &[],
     media_types: &["application/vnd.motorola.flexsuite.adsi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

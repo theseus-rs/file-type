@@ -6,6 +6,6 @@ pub(crate) const IANA_27243476: FileFormat = FileFormat {
     name: "ohttp-req",
     extensions: &[],
     media_types: &["message/ohttp-req"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

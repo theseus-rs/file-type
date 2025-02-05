@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131684737: FileFormat = FileFormat {
     id: 131_684_737,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131684737: FileFormat = FileFormat {
     name: "Movie.BYU file format",
     extensions: &["g"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

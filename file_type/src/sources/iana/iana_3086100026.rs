@@ -6,6 +6,6 @@ pub(crate) const IANA_3086100026: FileFormat = FileFormat {
     name: "vnd.oxli.countgraph",
     extensions: &[],
     media_types: &["application/vnd.oxli.countgraph"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_245: FileFormat = FileFormat {
     name: "NetLinx+ERB",
     extensions: &["axi.erb", "axs.erb"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

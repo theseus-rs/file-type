@@ -6,6 +6,6 @@ pub(crate) const IANA_2986419294: FileFormat = FileFormat {
     name: "vnd.afpc.modca",
     extensions: &[],
     media_types: &["application/vnd.afpc.modca"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

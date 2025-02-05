@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28207395: FileFormat = FileFormat {
     id: 28_207_395,
@@ -10,6 +8,6 @@ pub(crate) const WIKIDATA_28207395: FileFormat = FileFormat {
         "73i", "82i", "83i", "85i", "86i", "89i", "8xi", "92i", "9xi", "v2i",
     ],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

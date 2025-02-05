@@ -6,6 +6,6 @@ pub(crate) const IANA_1066913277: FileFormat = FileFormat {
     name: "vnd.ncd.control",
     extensions: &[],
     media_types: &["application/vnd.ncd.control"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

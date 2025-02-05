@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_252961827: FileFormat = FileFormat {
     name: "Pyret",
     extensions: &["arr"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

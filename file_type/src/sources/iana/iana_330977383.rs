@@ -6,6 +6,6 @@ pub(crate) const IANA_330977383: FileFormat = FileFormat {
     name: "encaprtp",
     extensions: &[],
     media_types: &["application/encaprtp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

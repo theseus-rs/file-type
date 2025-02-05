@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_263: FileFormat = FileFormat {
     name: "OpenCL",
     extensions: &["cl", "opencl"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

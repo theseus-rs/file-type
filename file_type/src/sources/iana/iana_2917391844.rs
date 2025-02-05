@@ -6,6 +6,6 @@ pub(crate) const IANA_2917391844: FileFormat = FileFormat {
     name: "stratum",
     extensions: &[],
     media_types: &["application/stratum"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

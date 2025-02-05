@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_77: FileFormat = FileFormat {
     name: "Cuda",
     extensions: &["cu", "cuh"],
     media_types: &["text/x-c++src"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

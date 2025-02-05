@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28207548: FileFormat = FileFormat {
     id: 28_207_548,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28207548: FileFormat = FileFormat {
     name: "Xerox EDMICS-RLC",
     extensions: &["rlc"],
     media_types: &["image/vnd.fujixerox.edmics-rlc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

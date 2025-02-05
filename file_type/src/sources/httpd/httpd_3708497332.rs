@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3708497332: FileFormat = FileFormat {
     name: "srgs",
     extensions: &["gram"],
     media_types: &["application/srgs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

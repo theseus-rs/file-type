@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105858046: FileFormat = FileFormat {
     id: 105_858_046,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105858046: FileFormat = FileFormat {
     name: "R.D.S. warrior load format (v0.8)",
     extensions: &["int"],
     media_types: &["text/plain"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

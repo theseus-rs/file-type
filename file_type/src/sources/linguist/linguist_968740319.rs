@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_968740319: FileFormat = FileFormat {
     name: "Mint",
     extensions: &["mint"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_970323759: FileFormat = FileFormat {
     name: "debian package",
     extensions: &["deb", "udeb"],
     media_types: &["application/x-debian-package"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_919373872: FileFormat = FileFormat {
     name: "vnd.radisys.msml-dialog-fax-detect+xml",
     extensions: &[],
     media_types: &["application/vnd.radisys.msml-dialog-fax-detect+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

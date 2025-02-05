@@ -6,6 +6,6 @@ pub(crate) const IANA_868618244: FileFormat = FileFormat {
     name: "vnd.ahead.space",
     extensions: &[],
     media_types: &["application/vnd.ahead.space"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

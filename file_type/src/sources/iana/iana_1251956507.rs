@@ -6,6 +6,6 @@ pub(crate) const IANA_1251956507: FileFormat = FileFormat {
     name: "3gppHalForms+json",
     extensions: &[],
     media_types: &["application/3gppHalForms+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

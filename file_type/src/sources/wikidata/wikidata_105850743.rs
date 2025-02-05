@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105850743: FileFormat = FileFormat {
     id: 105_850_743,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105850743: FileFormat = FileFormat {
     name: "3DS MAX keyboard shortcuts (XML)",
     extensions: &["kbdx"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

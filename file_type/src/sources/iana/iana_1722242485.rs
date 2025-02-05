@@ -6,6 +6,6 @@ pub(crate) const IANA_1722242485: FileFormat = FileFormat {
     name: "vnd.google-earth.kmz",
     extensions: &[],
     media_types: &["application/vnd.google-earth.kmz"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

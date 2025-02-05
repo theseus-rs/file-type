@@ -6,6 +6,6 @@ pub(crate) const IANA_1808196427: FileFormat = FileFormat {
     name: "vnd.keyman.kmx",
     extensions: &[],
     media_types: &["application/vnd.keyman.kmx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

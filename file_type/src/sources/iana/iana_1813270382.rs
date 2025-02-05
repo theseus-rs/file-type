@@ -6,6 +6,6 @@ pub(crate) const IANA_1813270382: FileFormat = FileFormat {
     name: "xslt+xml",
     extensions: &[],
     media_types: &["application/xslt+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

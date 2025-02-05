@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3368099385: FileFormat = FileFormat {
     name: "mathml xml",
     extensions: &["mathml"],
     media_types: &["application/mathml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

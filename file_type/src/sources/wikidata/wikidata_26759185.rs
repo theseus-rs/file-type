@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_26759185: FileFormat = FileFormat {
     id: 26_759_185,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_26759185: FileFormat = FileFormat {
     name: "Drawing Interchange Binary Format",
     extensions: &["dxb"],
     media_types: &["application/x-dxb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

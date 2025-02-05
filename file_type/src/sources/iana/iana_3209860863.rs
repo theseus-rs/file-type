@@ -6,6 +6,6 @@ pub(crate) const IANA_3209860863: FileFormat = FileFormat {
     name: "vnd.nokia.videovoip",
     extensions: &[],
     media_types: &["video/vnd.nokia.videovoip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

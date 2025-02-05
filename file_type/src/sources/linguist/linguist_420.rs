@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_420: FileFormat = FileFormat {
     name: "wisp",
     extensions: &["wisp"],
     media_types: &["text/x-clojure"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

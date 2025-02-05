@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_387204628: FileFormat = FileFormat {
     name: "2-Dimensional Array",
     extensions: &["2da"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

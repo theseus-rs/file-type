@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_840372442: FileFormat = FileFormat {
     name: "Pep8",
     extensions: &["pep"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

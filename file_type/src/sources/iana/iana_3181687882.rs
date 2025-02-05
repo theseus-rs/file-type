@@ -6,6 +6,6 @@ pub(crate) const IANA_3181687882: FileFormat = FileFormat {
     name: "vnd.groove-tool-message",
     extensions: &[],
     media_types: &["application/vnd.groove-tool-message"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

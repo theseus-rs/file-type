@@ -6,6 +6,6 @@ pub(crate) const IANA_340992391: FileFormat = FileFormat {
     name: "vnd.xecrets-encrypted",
     extensions: &[],
     media_types: &["application/vnd.xecrets-encrypted"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

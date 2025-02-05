@@ -6,6 +6,6 @@ pub(crate) const HTTPD_440186036: FileFormat = FileFormat {
     name: "wap wbmp",
     extensions: &["wbmp"],
     media_types: &["image/vnd.wap.wbmp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

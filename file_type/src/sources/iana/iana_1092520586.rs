@@ -6,6 +6,6 @@ pub(crate) const IANA_1092520586: FileFormat = FileFormat {
     name: "vnd.vocalshaper.vsp4",
     extensions: &[],
     media_types: &["application/vnd.vocalshaper.vsp4"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

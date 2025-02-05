@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3736026393: FileFormat = FileFormat {
     name: "xpinstall",
     extensions: &["xpi"],
     media_types: &["application/x-xpinstall"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

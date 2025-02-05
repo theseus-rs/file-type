@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_254: FileFormat = FileFormat {
     name: "NumPy",
     extensions: &["numpy", "numpyw", "numsc"],
     media_types: &["text/x-python"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

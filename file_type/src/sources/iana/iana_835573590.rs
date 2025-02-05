@@ -6,6 +6,6 @@ pub(crate) const IANA_835573590: FileFormat = FileFormat {
     name: "vnd.yamaha.hv-voice",
     extensions: &[],
     media_types: &["application/vnd.yamaha.hv-voice"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

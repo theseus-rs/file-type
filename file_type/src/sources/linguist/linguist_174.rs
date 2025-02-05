@@ -28,6 +28,6 @@ pub(crate) const LINGUIST_174: FileFormat = FileFormat {
         "yyp",
     ],
     media_types: &["application/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

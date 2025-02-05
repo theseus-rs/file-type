@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2132147605: FileFormat = FileFormat {
     name: "webm",
     extensions: &["webm"],
     media_types: &["video/webm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

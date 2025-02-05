@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_448253929: FileFormat = FileFormat {
     name: "MLIR",
     extensions: &["mlir"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

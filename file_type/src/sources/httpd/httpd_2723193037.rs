@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2723193037: FileFormat = FileFormat {
     name: "kde kformula",
     extensions: &["kfo"],
     media_types: &["application/vnd.kde.kformula"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

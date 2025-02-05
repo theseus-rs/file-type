@@ -6,6 +6,6 @@ pub(crate) const HTTPD_747778669: FileFormat = FileFormat {
     name: "visionary",
     extensions: &["vis"],
     media_types: &["application/vnd.visionary"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

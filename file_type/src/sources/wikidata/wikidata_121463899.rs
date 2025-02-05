@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_121463899: FileFormat = FileFormat {
     id: 121_463_899,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_121463899: FileFormat = FileFormat {
     name: "Adobe Lightroom Database",
     extensions: &["lrdb"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1244006042: FileFormat = FileFormat {
     name: "vnd.etsi.pstn+xml",
     extensions: &[],
     media_types: &["application/vnd.etsi.pstn+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

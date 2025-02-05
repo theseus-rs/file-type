@@ -6,6 +6,6 @@ pub(crate) const IANA_3702053010: FileFormat = FileFormat {
     name: "vnd.ctct.ws+xml",
     extensions: &[],
     media_types: &["application/vnd.ctct.ws+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

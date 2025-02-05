@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1722616698: FileFormat = FileFormat {
     name: "ms shortcut",
     extensions: &["lnk"],
     media_types: &["application/x-ms-shortcut"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

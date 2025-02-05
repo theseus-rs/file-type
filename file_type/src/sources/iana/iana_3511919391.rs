@@ -6,6 +6,6 @@ pub(crate) const IANA_3511919391: FileFormat = FileFormat {
     name: "vnd.qcelp - DEPRECATED in favor of audio/qcelp",
     extensions: &[],
     media_types: &["audio/vnd.qcelp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

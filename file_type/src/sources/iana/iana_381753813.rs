@@ -6,6 +6,6 @@ pub(crate) const IANA_381753813: FileFormat = FileFormat {
     name: "mpeg4-generic",
     extensions: &[],
     media_types: &["application/mpeg4-generic"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

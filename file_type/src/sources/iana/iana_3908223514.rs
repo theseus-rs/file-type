@@ -6,6 +6,6 @@ pub(crate) const IANA_3908223514: FileFormat = FileFormat {
     name: "vnd.sealed.png",
     extensions: &[],
     media_types: &["image/vnd.sealed.png"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

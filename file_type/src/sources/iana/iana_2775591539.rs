@@ -6,6 +6,6 @@ pub(crate) const IANA_2775591539: FileFormat = FileFormat {
     name: "vnd.ecdis-update",
     extensions: &[],
     media_types: &["application/vnd.ecdis-update"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

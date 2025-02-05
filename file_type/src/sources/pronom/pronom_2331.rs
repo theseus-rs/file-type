@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2331: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_2331: FileFormat = FileFormat {
     name: "Microsoft Visio Drawing",
     extensions: &["vsd", "vst", "vss"],
     media_types: &["application/vnd.visio"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

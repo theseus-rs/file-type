@@ -6,6 +6,6 @@ pub(crate) const IANA_1378989873: FileFormat = FileFormat {
     name: "pvd+json",
     extensions: &[],
     media_types: &["application/pvd+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857152: FileFormat = FileFormat {
     id: 105_857_152,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105857152: FileFormat = FileFormat {
     name: "MAME Hash",
     extensions: &["hsi"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

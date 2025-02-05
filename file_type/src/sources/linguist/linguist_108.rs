@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_108: FileFormat = FileFormat {
     name: "Factor",
     extensions: &["factor"],
     media_types: &["text/x-factor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_157: FileFormat = FileFormat {
     name: "Haskell",
     extensions: &["hs", "hs-boot", "hsc"],
     media_types: &["text/x-haskell"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

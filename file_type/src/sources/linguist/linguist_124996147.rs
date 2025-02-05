@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_124996147: FileFormat = FileFormat {
     name: "ASL",
     extensions: &["asl", "dsl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

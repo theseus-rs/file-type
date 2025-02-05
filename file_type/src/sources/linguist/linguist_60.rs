@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_60: FileFormat = FileFormat {
     name: "Clean",
     extensions: &["dcl", "icl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

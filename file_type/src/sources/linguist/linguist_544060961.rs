@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_544060961: FileFormat = FileFormat {
     name: "Valve Data Format",
     extensions: &["vdf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

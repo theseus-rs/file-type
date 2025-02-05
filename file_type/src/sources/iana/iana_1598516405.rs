@@ -6,6 +6,6 @@ pub(crate) const IANA_1598516405: FileFormat = FileFormat {
     name: "xop+xml",
     extensions: &[],
     media_types: &["application/xop+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

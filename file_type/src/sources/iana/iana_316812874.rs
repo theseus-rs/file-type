@@ -6,6 +6,6 @@ pub(crate) const IANA_316812874: FileFormat = FileFormat {
     name: "multilingual",
     extensions: &[],
     media_types: &["multipart/multilingual"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

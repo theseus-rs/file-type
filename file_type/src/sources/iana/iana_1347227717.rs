@@ -6,6 +6,6 @@ pub(crate) const IANA_1347227717: FileFormat = FileFormat {
     name: "vnd.oma.bcast.associated-procedure-parameter+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.bcast.associated-procedure-parameter+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2837889784: FileFormat = FileFormat {
     name: "djvu",
     extensions: &["djvu", "djv"],
     media_types: &["image/vnd.djvu"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

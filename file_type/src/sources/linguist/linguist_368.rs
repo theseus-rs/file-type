@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_368: FileFormat = FileFormat {
     name: "Tcsh",
     extensions: &["csh", "tcsh"],
     media_types: &["text/x-sh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

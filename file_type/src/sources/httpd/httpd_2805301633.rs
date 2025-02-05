@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2805301633: FileFormat = FileFormat {
     name: "curl mcurl",
     extensions: &["mcurl"],
     media_types: &["text/vnd.curl.mcurl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

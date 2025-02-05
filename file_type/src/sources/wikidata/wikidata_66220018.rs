@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_66220018: FileFormat = FileFormat {
     id: 66_220_018,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_66220018: FileFormat = FileFormat {
     name: "Adobe GoLive Actions file format",
     extensions: &["actions"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

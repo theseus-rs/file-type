@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_422: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_422: FileFormat = FileFormat {
     name: "Real Video",
     extensions: &["rv"],
     media_types: &["video/vnd.rn-realvideo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1407868785: FileFormat = FileFormat {
     name: "vnd.age",
     extensions: &[],
     media_types: &["application/vnd.age"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

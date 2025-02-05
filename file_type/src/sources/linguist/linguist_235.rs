@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_235: FileFormat = FileFormat {
     name: "Module Management System",
     extensions: &["mmk", "mms"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

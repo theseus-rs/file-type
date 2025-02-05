@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1154399013: FileFormat = FileFormat {
     name: "onenote",
     extensions: &["onetoc", "onetoc2", "onetmp", "onepkg"],
     media_types: &["application/onenote"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

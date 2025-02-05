@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_83370520: FileFormat = FileFormat {
     id: 83_370_520,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_83370520: FileFormat = FileFormat {
     name: "Midi Sample dump Format",
     extensions: &["sds"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

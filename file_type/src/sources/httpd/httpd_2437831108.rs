@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2437831108: FileFormat = FileFormat {
     name: "kde karbon",
     extensions: &["karbon"],
     media_types: &["application/vnd.kde.karbon"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

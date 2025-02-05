@@ -6,6 +6,6 @@ pub(crate) const IANA_4103675381: FileFormat = FileFormat {
     name: "vnd.epson.salt",
     extensions: &[],
     media_types: &["application/vnd.epson.salt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

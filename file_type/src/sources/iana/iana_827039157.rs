@@ -6,6 +6,6 @@ pub(crate) const IANA_827039157: FileFormat = FileFormat {
     name: "vnd.Mobius.TXF",
     extensions: &[],
     media_types: &["application/vnd.Mobius.TXF"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

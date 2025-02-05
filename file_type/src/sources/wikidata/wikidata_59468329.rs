@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_59468329: FileFormat = FileFormat {
     id: 59_468_329,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_59468329: FileFormat = FileFormat {
     name: "Statistical Analysis System Data XPT (Unix)",
     extensions: &["xpt"],
     media_types: &["application/x-sas-xport"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };
