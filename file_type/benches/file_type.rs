@@ -106,31 +106,28 @@ fn bench_lifecycle(criterion: &mut Criterion) -> anyhow::Result<()> {
     // Comparison testing to the magic crate
     //
 
-    #[cfg(target_os = "linux")]
-    {
-        let cookie = magic::Cookie::open(Default::default())?;
-        let cookie = cookie.load(&Default::default()).unwrap();
+    let cookie = magic::Cookie::open(Default::default())?;
+    let cookie = cookie.load(&Default::default()).expect("failed to load magic database");
 
-        criterion.bench_function("magic::from_bytes", |bencher| {
-            bencher.iter(|| {
-                // human-readable description, more than a static name
-                cookie.set_flags(magic::cookie::Flags::ERROR).unwrap();
-                let _ = cookie.buffer(&bytes).unwrap();
+    criterion.bench_function("magic::from_bytes", |bencher| {
+        bencher.iter(|| {
+            // human-readable description, more than a static name
+            cookie.set_flags(magic::cookie::Flags::ERROR).unwrap();
+            let _ = cookie.buffer(&bytes).unwrap();
 
-                // file type extensions
-                cookie
-                    .set_flags(magic::cookie::Flags::ERROR | magic::cookie::Flags::EXTENSION)
-                    .unwrap();
-                let _ = cookie.buffer(&bytes).unwrap();
+            // file type extensions
+            cookie
+                .set_flags(magic::cookie::Flags::ERROR | magic::cookie::Flags::EXTENSION)
+                .unwrap();
+            let _ = cookie.buffer(&bytes).unwrap();
 
-                // media type
-                cookie
-                    .set_flags(magic::cookie::Flags::ERROR | magic::cookie::Flags::MIME_TYPE)
-                    .unwrap();
-                let _ = cookie.buffer(&bytes).unwrap();
-            });
+            // media type
+            cookie
+                .set_flags(magic::cookie::Flags::ERROR | magic::cookie::Flags::MIME_TYPE)
+                .unwrap();
+            let _ = cookie.buffer(&bytes).unwrap();
         });
-    }
+    });
 
     //
     // Comparison testing to the mime_guess crate
