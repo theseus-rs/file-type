@@ -13,7 +13,7 @@ permissions:
 jobs:
   benchmark:
     name: Run Benchmarks
-    runs-on: macos-15
+    runs-on: ubuntu-latest
     permissions:
       pull-requests: write
     steps:
@@ -30,7 +30,7 @@ jobs:
         uses: bencherdev/bencher@main
 
       - name: Install crate dependencies
-        run: brew install libmagic
+        run: sudo apt-get install libmagic1 libmagic-dev
 
       - name: Run benchmarks
         if: ${{ github.event_name == 'pull_request' }}
