@@ -13,7 +13,7 @@ permissions:
 jobs:
   benchmark:
     name: Run Benchmarks
-    runs-on: macos-14
+    runs-on: macos-15
     permissions:
       pull-requests: write
     steps:
