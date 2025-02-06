@@ -10,6 +10,15 @@ use std::sync::LazyLock;
 #[cfg(feature = "tokio")]
 use tokio::io::AsyncReadExt;
 
+const DEFAULT_1: &FileType = &FileType {
+    id: "default/1",
+    file_format: &sources::default::DEFAULT_1,
+};
+const DEFAULT_2: &FileType = &FileType {
+    id: "default/2",
+    file_format: &sources::default::DEFAULT_2,
+};
+
 static FILE_TYPES: LazyLock<HashMap<&'static str, FileType>> =
     LazyLock::new(initialize_file_formats);
 static SIGNATURE_MAP: LazyLock<HashMap<u64, Vec<&'static FileType>>> =
@@ -266,13 +275,10 @@ where
 
     if let Some(file_type) = file_types.first() {
         file_type
+    } else if is_binary(bytes) {
+        DEFAULT_1
     } else {
-        let default_id = if is_binary(bytes) {
-            "default/1"
-        } else {
-            "default/2"
-        };
-        FILE_TYPES.get(default_id).expect("No file type found")
+        DEFAULT_2
     }
 }
 

@@ -1,10 +1,10 @@
 use crate::format::FileFormat;
 
-mod custom_1;
-mod custom_2;
-mod custom_3;
-mod custom_4;
-mod custom_5;
+pub(crate) mod custom_1;
+pub(crate) mod custom_2;
+pub(crate) mod custom_3;
+pub(crate) mod custom_4;
+pub(crate) mod custom_5;
 
 pub(crate) const FILE_FORMATS: &[&FileFormat] = &[
     &custom_1::CUSTOM_1,
