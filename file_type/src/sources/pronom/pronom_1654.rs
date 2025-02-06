@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1654: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1654: FileFormat = FileFormat {
     name: "Serif DrawPlus Drawing",
     extensions: &["dpp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[
         RelatedFormat {
             relationship_type: RelationshipType::HasPriorityOver,

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_410: FileFormat = FileFormat {
     name: "Zephir",
     extensions: &["zep"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

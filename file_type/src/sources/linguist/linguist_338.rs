@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_338: FileFormat = FileFormat {
     name: "Sage",
     extensions: &["sage", "sagews"],
     media_types: &["text/x-python"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

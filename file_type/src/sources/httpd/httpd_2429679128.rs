@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2429679128: FileFormat = FileFormat {
     name: "mcd",
     extensions: &["mcd"],
     media_types: &["application/vnd.mcd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

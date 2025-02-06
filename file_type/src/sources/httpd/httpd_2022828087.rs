@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2022828087: FileFormat = FileFormat {
     name: "framemaker",
     extensions: &["fm", "frame", "maker", "book"],
     media_types: &["application/vnd.framemaker"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

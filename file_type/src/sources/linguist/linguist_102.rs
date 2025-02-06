@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_102: FileFormat = FileFormat {
     name: "Emacs Lisp",
     extensions: &["el", "emacs", "emacs.desktop"],
     media_types: &["text/x-common-lisp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

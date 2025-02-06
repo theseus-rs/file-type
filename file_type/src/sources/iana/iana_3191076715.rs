@@ -6,6 +6,6 @@ pub(crate) const IANA_3191076715: FileFormat = FileFormat {
     name: "example",
     extensions: &[],
     media_types: &["message/example"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

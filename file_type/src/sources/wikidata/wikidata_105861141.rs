@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105861141: FileFormat = FileFormat {
     id: 105_861_141,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105861141: FileFormat = FileFormat {
     name: "LEGO Digital Designer XML data",
     extensions: &["lxfml"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

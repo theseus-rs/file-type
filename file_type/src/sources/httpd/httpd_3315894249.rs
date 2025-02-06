@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3315894249: FileFormat = FileFormat {
     name: "tar",
     extensions: &["tar"],
     media_types: &["application/x-tar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

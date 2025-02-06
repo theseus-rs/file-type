@@ -6,6 +6,6 @@ pub(crate) const IANA_3796410060: FileFormat = FileFormat {
     name: "vnd.pwg-multiplexed",
     extensions: &[],
     media_types: &["application/vnd.pwg-multiplexed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1359614180: FileFormat = FileFormat {
     name: "gdl",
     extensions: &["gdl"],
     media_types: &["model/vnd.gdl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_619814037: FileFormat = FileFormat {
     name: "Scenic",
     extensions: &["scenic"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

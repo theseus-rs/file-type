@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28770336: FileFormat = FileFormat {
     id: 28_770_336,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28770336: FileFormat = FileFormat {
     name: "Lotus 1-2-3 Chart",
     extensions: &["pic"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_512838272: FileFormat = FileFormat {
     name: "MDX",
     extensions: &["mdx"],
     media_types: &["text/x-gfm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

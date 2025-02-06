@@ -6,6 +6,6 @@ pub(crate) const IANA_2097038630: FileFormat = FileFormat {
     name: "markdown",
     extensions: &[],
     media_types: &["text/markdown"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

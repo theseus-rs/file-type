@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_431: FileFormat = FileFormat {
     name: "Ring",
     extensions: &["ring"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

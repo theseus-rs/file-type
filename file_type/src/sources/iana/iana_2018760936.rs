@@ -6,6 +6,6 @@ pub(crate) const IANA_2018760936: FileFormat = FileFormat {
     name: "sipfrag",
     extensions: &[],
     media_types: &["message/sipfrag"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

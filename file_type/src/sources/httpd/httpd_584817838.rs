@@ -6,6 +6,6 @@ pub(crate) const HTTPD_584817838: FileFormat = FileFormat {
     name: "docbook xml",
     extensions: &["dbk"],
     media_types: &["application/docbook+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857597: FileFormat = FileFormat {
     id: 105_857_597,
@@ -8,8 +6,8 @@ pub(crate) const WIKIDATA_105857597: FileFormat = FileFormat {
     name: "ISO 10303-28 STEP-XML",
     extensions: &["ifcxml", "xml"],
     media_types: &["text/xml"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -22,7 +20,7 @@ pub(crate) const WIKIDATA_105857597: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

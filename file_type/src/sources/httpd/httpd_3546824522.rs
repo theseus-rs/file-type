@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3546824522: FileFormat = FileFormat {
     name: "groove injector",
     extensions: &["grv"],
     media_types: &["application/vnd.groove-injector"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

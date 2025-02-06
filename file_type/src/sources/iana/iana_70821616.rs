@@ -6,6 +6,6 @@ pub(crate) const IANA_70821616: FileFormat = FileFormat {
     name: "vnd.openxmlformats-officedocument.spreadsheetml.comments+xml",
     extensions: &[],
     media_types: &["application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

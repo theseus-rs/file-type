@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_29650318: FileFormat = FileFormat {
     id: 29_650_318,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_29650318: FileFormat = FileFormat {
     name: "PKPass",
     extensions: &["pkpass"],
     media_types: &["application/vnd.apple.pkpass"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1049349370: FileFormat = FileFormat {
     name: "atomsvc xml",
     extensions: &["atomsvc"],
     media_types: &["application/atomsvc+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

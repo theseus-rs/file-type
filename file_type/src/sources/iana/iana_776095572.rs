@@ -6,6 +6,6 @@ pub(crate) const IANA_776095572: FileFormat = FileFormat {
     name: "vc2",
     extensions: &[],
     media_types: &["video/vc2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

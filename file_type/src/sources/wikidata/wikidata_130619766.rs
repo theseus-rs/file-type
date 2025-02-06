@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130619766: FileFormat = FileFormat {
     id: 130_619_766,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130619766: FileFormat = FileFormat {
     name: "RelaxNG compact syntax file format",
     extensions: &["rnc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

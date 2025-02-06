@@ -6,6 +6,6 @@ pub(crate) const IANA_1800208423: FileFormat = FileFormat {
     name: "vnd.gpxsee.map+xml",
     extensions: &[],
     media_types: &["application/vnd.gpxsee.map+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

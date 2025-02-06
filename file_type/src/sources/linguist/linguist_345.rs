@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_345: FileFormat = FileFormat {
     name: "Self",
     extensions: &["self"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

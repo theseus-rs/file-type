@@ -6,6 +6,6 @@ pub(crate) const IANA_3905468255: FileFormat = FileFormat {
     name: "vnd.httphone",
     extensions: &[],
     media_types: &["application/vnd.httphone"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

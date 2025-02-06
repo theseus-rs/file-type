@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_122435691: FileFormat = FileFormat {
     id: 122_435_691,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_122435691: FileFormat = FileFormat {
     name: "NovaBACKUP Job",
     extensions: &["nbk"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

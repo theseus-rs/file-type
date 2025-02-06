@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1724364107: FileFormat = FileFormat {
     name: "hp pcl",
     extensions: &["pcl"],
     media_types: &["application/vnd.hp-pcl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2341024932: FileFormat = FileFormat {
     name: "vnd.senx.warpscript",
     extensions: &[],
     media_types: &["text/vnd.senx.warpscript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_257854243: FileFormat = FileFormat {
     name: "rpki-publication",
     extensions: &[],
     media_types: &["application/rpki-publication"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2589900362: FileFormat = FileFormat {
     name: "ktx2",
     extensions: &[],
     media_types: &["image/ktx2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

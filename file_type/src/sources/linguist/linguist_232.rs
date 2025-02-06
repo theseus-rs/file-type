@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_232: FileFormat = FileFormat {
     name: "Mirah",
     extensions: &["druby", "duby", "mirah"],
     media_types: &["text/x-ruby"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

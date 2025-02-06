@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_262764437: FileFormat = FileFormat {
     name: "PostCSS",
     extensions: &["pcss", "postcss"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

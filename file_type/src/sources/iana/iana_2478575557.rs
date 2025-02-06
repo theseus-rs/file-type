@@ -6,6 +6,6 @@ pub(crate) const IANA_2478575557: FileFormat = FileFormat {
     name: "vnd.ibm.MiniPay",
     extensions: &[],
     media_types: &["application/vnd.ibm.MiniPay"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

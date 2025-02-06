@@ -6,6 +6,6 @@ pub(crate) const IANA_1877781678: FileFormat = FileFormat {
     name: "vnd.oma.xcap-directory+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.xcap-directory+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

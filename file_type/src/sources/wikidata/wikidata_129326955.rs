@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_129326955: FileFormat = FileFormat {
     id: 129_326_955,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_129326955: FileFormat = FileFormat {
     name: "GDScript source code file",
     extensions: &["gd"],
     media_types: &["application/x-gdscript", "text/x-gdscript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

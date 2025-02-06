@@ -6,6 +6,6 @@ pub(crate) const IANA_3692448857: FileFormat = FileFormat {
     name: "vnd.pg.osasli",
     extensions: &[],
     media_types: &["application/vnd.pg.osasli"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_843084: FileFormat = FileFormat {
     id: 843_084,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_843084: FileFormat = FileFormat {
     name: "Microsoft Document Imaging Format",
     extensions: &["mdi"],
     media_types: &["image/vnd.ms-modi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

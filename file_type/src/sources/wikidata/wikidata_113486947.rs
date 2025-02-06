@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_113486947: FileFormat = FileFormat {
     id: 113_486_947,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_113486947: FileFormat = FileFormat {
     name: "Persuasion Mac Document 3.0",
     extensions: &["pr3"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

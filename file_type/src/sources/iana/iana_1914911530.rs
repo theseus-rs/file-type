@@ -6,6 +6,6 @@ pub(crate) const IANA_1914911530: FileFormat = FileFormat {
     name: "iLBC",
     extensions: &[],
     media_types: &["audio/iLBC"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3180556862: FileFormat = FileFormat {
     name: "vnd.yamaha.through-ngn",
     extensions: &[],
     media_types: &["application/vnd.yamaha.through-ngn"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

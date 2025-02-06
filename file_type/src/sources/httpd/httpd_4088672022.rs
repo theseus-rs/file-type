@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4088672022: FileFormat = FileFormat {
     name: "cinderella",
     extensions: &["cdy"],
     media_types: &["application/vnd.cinderella"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

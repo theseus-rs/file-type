@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2250922050: FileFormat = FileFormat {
     name: "fpx",
     extensions: &["fpx"],
     media_types: &["image/vnd.fpx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105852265: FileFormat = FileFormat {
     id: 105_852_265,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105852265: FileFormat = FileFormat {
     name: "EAGLE File Format schematic (v6+)",
     extensions: &["sch"],
     media_types: &["application/x-eagle-schematic"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

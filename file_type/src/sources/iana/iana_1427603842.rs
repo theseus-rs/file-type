@@ -6,6 +6,6 @@ pub(crate) const IANA_1427603842: FileFormat = FileFormat {
     name: "vnd.heroku+json",
     extensions: &[],
     media_types: &["application/vnd.heroku+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

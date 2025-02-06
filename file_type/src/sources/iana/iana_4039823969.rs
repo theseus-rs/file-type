@@ -6,6 +6,6 @@ pub(crate) const IANA_4039823969: FileFormat = FileFormat {
     name: "vnd.oipf.spdlist+xml",
     extensions: &[],
     media_types: &["application/vnd.oipf.spdlist+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

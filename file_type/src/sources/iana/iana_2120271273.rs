@@ -6,6 +6,6 @@ pub(crate) const IANA_2120271273: FileFormat = FileFormat {
     name: "MF4",
     extensions: &[],
     media_types: &["application/MF4"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

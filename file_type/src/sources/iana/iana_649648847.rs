@@ -6,6 +6,6 @@ pub(crate) const IANA_649648847: FileFormat = FileFormat {
     name: "vnd.openxmlformats-package.digital-signature-xmlsignature+xml",
     extensions: &[],
     media_types: &["application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

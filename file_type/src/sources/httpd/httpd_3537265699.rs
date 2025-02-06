@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3537265699: FileFormat = FileFormat {
     name: "lotus freelance",
     extensions: &["pre"],
     media_types: &["application/vnd.lotus-freelance"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1392872326: FileFormat = FileFormat {
     name: "route-apd+xml",
     extensions: &[],
     media_types: &["application/route-apd+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

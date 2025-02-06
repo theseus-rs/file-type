@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_70357595: FileFormat = FileFormat {
     id: 70_357_595,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_70357595: FileFormat = FileFormat {
     name: "Jupyter notebook file",
     extensions: &["ipynb"],
     media_types: &["application/x-ipynb+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

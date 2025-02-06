@@ -6,6 +6,6 @@ pub(crate) const IANA_2061607266: FileFormat = FileFormat {
     name: "geopose+json",
     extensions: &[],
     media_types: &["application/geopose+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

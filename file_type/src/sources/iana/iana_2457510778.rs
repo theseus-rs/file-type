@@ -6,6 +6,6 @@ pub(crate) const IANA_2457510778: FileFormat = FileFormat {
     name: "prs.implied-object+json-seq",
     extensions: &[],
     media_types: &["application/prs.implied-object+json-seq"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

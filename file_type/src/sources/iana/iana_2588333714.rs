@@ -6,6 +6,6 @@ pub(crate) const IANA_2588333714: FileFormat = FileFormat {
     name: "sgml-open-catalog",
     extensions: &[],
     media_types: &["application/sgml-open-catalog"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3473343428: FileFormat = FileFormat {
     name: "naplps",
     extensions: &[],
     media_types: &["image/naplps"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

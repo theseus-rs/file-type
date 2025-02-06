@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_201: FileFormat = FileFormat {
     name: "Limbo",
     extensions: &["b", "m"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

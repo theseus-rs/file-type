@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2857477114: FileFormat = FileFormat {
     name: "kahootz",
     extensions: &["ktz", "ktr"],
     media_types: &["application/vnd.kahootz"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

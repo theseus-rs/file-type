@@ -6,6 +6,6 @@ pub(crate) const HTTPD_747456878: FileFormat = FileFormat {
     name: "macports portpkg",
     extensions: &["portpkg"],
     media_types: &["application/vnd.macports.portpkg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

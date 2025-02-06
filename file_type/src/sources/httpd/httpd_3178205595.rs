@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3178205595: FileFormat = FileFormat {
     name: "iso9660 image",
     extensions: &["iso"],
     media_types: &["application/x-iso9660-image"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2519989976: FileFormat = FileFormat {
     name: "zlib",
     extensions: &[],
     media_types: &["application/zlib"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

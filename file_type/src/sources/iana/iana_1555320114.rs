@@ -6,6 +6,6 @@ pub(crate) const IANA_1555320114: FileFormat = FileFormat {
     name: "heif-sequence",
     extensions: &[],
     media_types: &["image/heif-sequence"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

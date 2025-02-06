@@ -6,6 +6,6 @@ pub(crate) const IANA_2508911387: FileFormat = FileFormat {
     name: "tamp-status-response",
     extensions: &[],
     media_types: &["application/tamp-status-response"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

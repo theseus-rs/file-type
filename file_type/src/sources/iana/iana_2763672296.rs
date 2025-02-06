@@ -6,6 +6,6 @@ pub(crate) const IANA_2763672296: FileFormat = FileFormat {
     name: "call-completion",
     extensions: &[],
     media_types: &["application/call-completion"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_4083988200: FileFormat = FileFormat {
     name: "raw",
     extensions: &[],
     media_types: &["video/raw"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

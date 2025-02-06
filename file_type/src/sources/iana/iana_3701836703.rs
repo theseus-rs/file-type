@@ -6,6 +6,6 @@ pub(crate) const IANA_3701836703: FileFormat = FileFormat {
     name: "vnd.openstreetmap.data+xml",
     extensions: &[],
     media_types: &["application/vnd.openstreetmap.data+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

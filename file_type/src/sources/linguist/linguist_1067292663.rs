@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1067292663: FileFormat = FileFormat {
     name: "Antlers",
     extensions: &["antlers.html", "antlers.php", "antlers.xml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

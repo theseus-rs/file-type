@@ -6,6 +6,6 @@ pub(crate) const IANA_640881317: FileFormat = FileFormat {
     name: "moss-signature",
     extensions: &[],
     media_types: &["application/moss-signature"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

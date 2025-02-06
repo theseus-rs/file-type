@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27967218: FileFormat = FileFormat {
     id: 27_967_218,
@@ -8,8 +6,8 @@ pub(crate) const WIKIDATA_27967218: FileFormat = FileFormat {
     name: "Scream Tracker 1 & 2 module",
     extensions: &["stm", "stx"],
     media_types: &["audio/x-mod"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -20,7 +18,7 @@ pub(crate) const WIKIDATA_27967218: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

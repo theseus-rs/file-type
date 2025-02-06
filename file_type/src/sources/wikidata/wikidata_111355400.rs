@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111355400: FileFormat = FileFormat {
     id: 111_355_400,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111355400: FileFormat = FileFormat {
     name: "Annotated speech file",
     extensions: &["vap"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

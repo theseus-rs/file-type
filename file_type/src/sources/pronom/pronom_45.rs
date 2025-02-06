@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_45: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_45: FileFormat = FileFormat {
     name: "Comma Separated Values",
     extensions: &["csv"],
     media_types: &["text/csv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

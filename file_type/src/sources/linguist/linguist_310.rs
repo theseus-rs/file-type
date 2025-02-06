@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_310: FileFormat = FileFormat {
     name: "REALbasic",
     extensions: &["rbbas", "rbfrm", "rbmnu", "rbres", "rbtbar", "rbuistate"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

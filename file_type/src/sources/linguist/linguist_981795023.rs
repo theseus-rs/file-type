@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_981795023: FileFormat = FileFormat {
     name: "TextMate Properties",
     extensions: &[],
     media_types: &["text/x-properties"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

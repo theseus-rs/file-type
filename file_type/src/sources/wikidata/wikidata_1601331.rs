@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1601331: FileFormat = FileFormat {
     id: 1_601_331,
@@ -8,8 +6,8 @@ pub(crate) const WIKIDATA_1601331: FileFormat = FileFormat {
     name: "Transport Neutral Encapsulation Format",
     extensions: &["dat", "tnef"],
     media_types: &["application/vnd.ms-tnef"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -18,7 +16,7 @@ pub(crate) const WIKIDATA_1601331: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

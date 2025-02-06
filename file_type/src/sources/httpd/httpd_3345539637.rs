@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3345539637: FileFormat = FileFormat {
     name: "marc",
     extensions: &["mrc"],
     media_types: &["application/marc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

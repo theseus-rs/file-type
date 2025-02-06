@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_33: FileFormat = FileFormat {
     name: "Blade",
     extensions: &["blade", "blade.php"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_211: FileFormat = FileFormat {
     name: "LookML",
     extensions: &["lkml", "lookml"],
     media_types: &["text/x-yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

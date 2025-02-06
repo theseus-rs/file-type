@@ -6,6 +6,6 @@ pub(crate) const IANA_910939751: FileFormat = FileFormat {
     name: "vnd.3gpp.mc-signalling-ear",
     extensions: &[],
     media_types: &["application/vnd.3gpp.mc-signalling-ear"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_199: FileFormat = FileFormat {
     name: "Lex",
     extensions: &["l", "lex"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

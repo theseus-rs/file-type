@@ -6,6 +6,6 @@ pub(crate) const HTTPD_39470048: FileFormat = FileFormat {
     name: "pdf",
     extensions: &["pdf"],
     media_types: &["application/pdf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

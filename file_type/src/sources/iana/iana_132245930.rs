@@ -6,6 +6,6 @@ pub(crate) const IANA_132245930: FileFormat = FileFormat {
     name: "vnd.verimatrix.vcas",
     extensions: &[],
     media_types: &["application/vnd.verimatrix.vcas"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

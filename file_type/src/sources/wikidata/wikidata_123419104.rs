@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_123419104: FileFormat = FileFormat {
     id: 123_419_104,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_123419104: FileFormat = FileFormat {
     name: "Real-time PCR Data Essential Spreadsheet Format",
     extensions: &["tsv"],
     media_types: &["text/tab-separated-values"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

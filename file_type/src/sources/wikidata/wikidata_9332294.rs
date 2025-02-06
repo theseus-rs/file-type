@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_9332294: FileFormat = FileFormat {
     id: 9_332_294,
@@ -8,8 +6,8 @@ pub(crate) const WIKIDATA_9332294: FileFormat = FileFormat {
     name: "SubRip text file format",
     extensions: &["srt"],
     media_types: &["application/x-subrip", "text/plain"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -18,7 +16,7 @@ pub(crate) const WIKIDATA_9332294: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const IANA_3307403234: FileFormat = FileFormat {
     name: "vnd.Kinar",
     extensions: &[],
     media_types: &["application/vnd.Kinar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

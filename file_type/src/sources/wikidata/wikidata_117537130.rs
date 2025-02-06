@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_117537130: FileFormat = FileFormat {
     id: 117_537_130,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_117537130: FileFormat = FileFormat {
     name: "WordPerfect Presentations 2",
     extensions: &["shw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

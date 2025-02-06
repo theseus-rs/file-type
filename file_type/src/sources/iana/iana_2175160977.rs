@@ -6,6 +6,6 @@ pub(crate) const IANA_2175160977: FileFormat = FileFormat {
     name: "ATF",
     extensions: &[],
     media_types: &["application/ATF"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28206185: FileFormat = FileFormat {
     id: 28_206_185,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28206185: FileFormat = FileFormat {
     name: "GIMP Pattern",
     extensions: &["pat"],
     media_types: &["image/x-gimp-pat"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

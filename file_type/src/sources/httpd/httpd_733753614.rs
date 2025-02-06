@@ -6,6 +6,6 @@ pub(crate) const HTTPD_733753614: FileFormat = FileFormat {
     name: "trid tpt",
     extensions: &["tpt"],
     media_types: &["application/vnd.trid.tpt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

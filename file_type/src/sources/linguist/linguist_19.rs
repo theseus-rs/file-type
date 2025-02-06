@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_19: FileFormat = FileFormat {
     name: "AppleScript",
     extensions: &["applescript", "scpt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3827382622: FileFormat = FileFormat {
     name: "mac binhex40",
     extensions: &["hqx"],
     media_types: &["application/mac-binhex40"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

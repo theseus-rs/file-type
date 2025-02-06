@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_129085220: FileFormat = FileFormat {
     id: 129_085_220,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_129085220: FileFormat = FileFormat {
     name: "elpi file format",
     extensions: &["elpi"],
     media_types: &["text/x-elpi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_395: FileFormat = FileFormat {
     name: "WebIDL",
     extensions: &["webidl"],
     media_types: &["text/x-webidl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

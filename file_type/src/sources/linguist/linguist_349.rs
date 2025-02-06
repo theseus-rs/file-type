@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_349: FileFormat = FileFormat {
     name: "Slash",
     extensions: &["sl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

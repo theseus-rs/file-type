@@ -6,6 +6,6 @@ pub(crate) const IANA_2837789170: FileFormat = FileFormat {
     name: "vnd.genozip",
     extensions: &[],
     media_types: &["application/vnd.genozip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

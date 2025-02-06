@@ -6,6 +6,6 @@ pub(crate) const IANA_1110936070: FileFormat = FileFormat {
     name: "vnd.ms-word.template.macroEnabled.12",
     extensions: &[],
     media_types: &["application/vnd.ms-word.template.macroEnabled.12"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

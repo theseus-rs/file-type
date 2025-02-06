@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_127378050: FileFormat = FileFormat {
     id: 127_378_050,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_127378050: FileFormat = FileFormat {
     name: "Pyrex Source Code File",
     extensions: &["pyx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

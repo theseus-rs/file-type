@@ -6,6 +6,6 @@ pub(crate) const IANA_4251501848: FileFormat = FileFormat {
     name: "opc-nodeset+xml",
     extensions: &[],
     media_types: &["application/opc-nodeset+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_238: FileFormat = FileFormat {
     name: "MoonScript",
     extensions: &["moon"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

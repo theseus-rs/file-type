@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2726424993: FileFormat = FileFormat {
     name: "oebps package xml",
     extensions: &["opf"],
     media_types: &["application/oebps-package+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

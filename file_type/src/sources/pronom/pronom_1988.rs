@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1988: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1988: FileFormat = FileFormat {
     name: "Synthetic Music Mobile Application Format",
     extensions: &["mmf"],
     media_types: &["application/vnd.yamaha.smaf-audio"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

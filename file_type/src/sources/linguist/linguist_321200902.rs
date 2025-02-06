@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_321200902: FileFormat = FileFormat {
     name: "Bicep",
     extensions: &["bicep", "bicepparam"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

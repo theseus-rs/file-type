@@ -6,6 +6,6 @@ pub(crate) const IANA_2439968924: FileFormat = FileFormat {
     name: "vnd.gml",
     extensions: &[],
     media_types: &["text/vnd.gml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

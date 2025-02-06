@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27967187: FileFormat = FileFormat {
     id: 27_967_187,
@@ -8,8 +6,8 @@ pub(crate) const WIKIDATA_27967187: FileFormat = FileFormat {
     name: "Future Composer v1.x module",
     extensions: &["fc", "fc13", "fc14", "smc", "smod"],
     media_types: &["audio/x-mod"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -18,7 +16,7 @@ pub(crate) const WIKIDATA_27967187: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -27,7 +25,7 @@ pub(crate) const WIKIDATA_27967187: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -36,7 +34,7 @@ pub(crate) const WIKIDATA_27967187: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -45,7 +43,7 @@ pub(crate) const WIKIDATA_27967187: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

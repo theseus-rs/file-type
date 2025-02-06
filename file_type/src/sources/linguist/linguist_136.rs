@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_136: FileFormat = FileFormat {
     name: "Gradle",
     extensions: &["gradle"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

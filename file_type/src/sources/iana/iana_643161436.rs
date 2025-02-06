@@ -6,6 +6,6 @@ pub(crate) const IANA_643161436: FileFormat = FileFormat {
     name: "EmergencyCallData.LegacyESN+json",
     extensions: &[],
     media_types: &["application/EmergencyCallData.LegacyESN+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

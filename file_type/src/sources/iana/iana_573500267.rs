@@ -6,6 +6,6 @@ pub(crate) const IANA_573500267: FileFormat = FileFormat {
     name: "parityfec",
     extensions: &[],
     media_types: &["audio/parityfec"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

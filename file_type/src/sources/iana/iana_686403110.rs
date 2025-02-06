@@ -6,6 +6,6 @@ pub(crate) const IANA_686403110: FileFormat = FileFormat {
     name: "sofa",
     extensions: &[],
     media_types: &["audio/sofa"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

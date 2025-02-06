@@ -6,6 +6,6 @@ pub(crate) const IANA_3655629976: FileFormat = FileFormat {
     name: "vnd.triscape.mxs",
     extensions: &[],
     media_types: &["application/vnd.triscape.mxs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

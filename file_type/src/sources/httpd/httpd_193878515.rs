@@ -6,6 +6,6 @@ pub(crate) const HTTPD_193878515: FileFormat = FileFormat {
     name: "sdp",
     extensions: &["sdp"],
     media_types: &["application/sdp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3483784792: FileFormat = FileFormat {
     name: "conference-info+xml",
     extensions: &[],
     media_types: &["application/conference-info+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

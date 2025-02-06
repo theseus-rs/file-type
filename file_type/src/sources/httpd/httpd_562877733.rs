@@ -6,6 +6,6 @@ pub(crate) const HTTPD_562877733: FileFormat = FileFormat {
     name: "rn realmedia vbr",
     extensions: &["rmvb"],
     media_types: &["application/vnd.rn-realmedia-vbr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

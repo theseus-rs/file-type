@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105849706: FileFormat = FileFormat {
     id: 105_849_706,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105849706: FileFormat = FileFormat {
     name: "Carbide Create model",
     extensions: &["c2d"],
     media_types: &["text/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

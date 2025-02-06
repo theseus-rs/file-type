@@ -6,6 +6,6 @@ pub(crate) const IANA_2887931485: FileFormat = FileFormat {
     name: "yang-sid+json",
     extensions: &[],
     media_types: &["application/yang-sid+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3759633579: FileFormat = FileFormat {
     name: "pkcs8",
     extensions: &["p8"],
     media_types: &["application/pkcs8"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

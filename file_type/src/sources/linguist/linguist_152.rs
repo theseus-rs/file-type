@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_152: FileFormat = FileFormat {
     name: "HTTP",
     extensions: &["http"],
     media_types: &["message/http"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

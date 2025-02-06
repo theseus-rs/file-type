@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_114093986: FileFormat = FileFormat {
     id: 114_093_986,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_114093986: FileFormat = FileFormat {
     name: "Sony SML File",
     extensions: &["sml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_501875647: FileFormat = FileFormat {
     name: "ReScript",
     extensions: &["res"],
     media_types: &["text/x-rustsrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

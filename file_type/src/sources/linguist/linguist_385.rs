@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_385: FileFormat = FileFormat {
     name: "VHDL",
     extensions: &["vhd", "vhdl", "vhf", "vhi", "vho", "vhs", "vht", "vhw"],
     media_types: &["text/x-vhdl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

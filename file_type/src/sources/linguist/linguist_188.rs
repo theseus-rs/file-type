@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_188: FileFormat = FileFormat {
     name: "Kit",
     extensions: &["kit"],
     media_types: &["text/html"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1061990033: FileFormat = FileFormat {
     name: "mosskey-data",
     extensions: &[],
     media_types: &["application/mosskey-data"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

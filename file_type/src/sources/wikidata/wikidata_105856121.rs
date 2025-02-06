@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856121: FileFormat = FileFormat {
     id: 105_856_121,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105856121: FileFormat = FileFormat {
     name: "Device Tree Source (with rem)",
     extensions: &["dts"],
     media_types: &["text/plain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

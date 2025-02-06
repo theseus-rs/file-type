@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_930281: FileFormat = FileFormat {
     id: 930_281,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_930281: FileFormat = FileFormat {
     name: "Windows thumbnail cache",
     extensions: &["db"],
     media_types: &["application/vnd.microsoft.windows.thumbnail-cache"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

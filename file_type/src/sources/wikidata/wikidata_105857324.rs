@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857324: FileFormat = FileFormat {
     id: 105_857_324,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105857324: FileFormat = FileFormat {
     name: "JAXB Bindings",
     extensions: &["jxb", "xjb"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

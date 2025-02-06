@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_176: FileFormat = FileFormat {
     name: "JSONLD",
     extensions: &["jsonld"],
     media_types: &["application/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

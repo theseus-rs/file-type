@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111490198: FileFormat = FileFormat {
     id: 111_490_198,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_111490198: FileFormat = FileFormat {
     name: "Canvas Image File",
     extensions: &["cvi"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

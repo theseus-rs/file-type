@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27866052: FileFormat = FileFormat {
     id: 27_866_052,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_27866052: FileFormat = FileFormat {
     name: "bzip2 Archive",
     extensions: &["bz2"],
     media_types: &["application/x-bzip2"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

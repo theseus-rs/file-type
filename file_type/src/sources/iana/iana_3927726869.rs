@@ -6,6 +6,6 @@ pub(crate) const IANA_3927726869: FileFormat = FileFormat {
     name: "framework-attributes+xml",
     extensions: &[],
     media_types: &["application/framework-attributes+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

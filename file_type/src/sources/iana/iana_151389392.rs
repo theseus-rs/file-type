@@ -6,6 +6,6 @@ pub(crate) const IANA_151389392: FileFormat = FileFormat {
     name: "alto-error+json",
     extensions: &[],
     media_types: &["application/alto-error+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

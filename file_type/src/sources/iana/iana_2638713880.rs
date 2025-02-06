@@ -6,6 +6,6 @@ pub(crate) const IANA_2638713880: FileFormat = FileFormat {
     name: "vnd.sealed.net",
     extensions: &[],
     media_types: &["application/vnd.sealed.net"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

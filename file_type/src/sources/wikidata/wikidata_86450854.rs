@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_86450854: FileFormat = FileFormat {
     id: 86_450_854,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_86450854: FileFormat = FileFormat {
     name: "ASICS",
     extensions: &["asics"],
     media_types: &["application/vnd.etsi.asic-s+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

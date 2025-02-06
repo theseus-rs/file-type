@@ -6,6 +6,6 @@ pub(crate) const HTTPD_658956131: FileFormat = FileFormat {
     name: "sun xml impress template",
     extensions: &["sti"],
     media_types: &["application/vnd.sun.xml.impress.template"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

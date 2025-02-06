@@ -6,6 +6,6 @@ pub(crate) const IANA_3667895505: FileFormat = FileFormat {
     name: "tamp-status-query",
     extensions: &[],
     media_types: &["application/tamp-status-query"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

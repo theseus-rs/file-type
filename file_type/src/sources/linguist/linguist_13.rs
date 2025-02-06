@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_13: FileFormat = FileFormat {
     name: "Alloy",
     extensions: &["als"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3529104613: FileFormat = FileFormat {
     name: "vnd.ntt-local.ogw_remote-access",
     extensions: &[],
     media_types: &["application/vnd.ntt-local.ogw_remote-access"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

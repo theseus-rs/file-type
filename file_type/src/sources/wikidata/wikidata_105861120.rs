@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105861120: FileFormat = FileFormat {
     id: 105_861_120,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105861120: FileFormat = FileFormat {
     name: "SyncTERM dialing directory",
     extensions: &["lst"],
     media_types: &["text/plain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2599515299: FileFormat = FileFormat {
     name: "vnd.oma.bcast.sgboot",
     extensions: &[],
     media_types: &["application/vnd.oma.bcast.sgboot"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

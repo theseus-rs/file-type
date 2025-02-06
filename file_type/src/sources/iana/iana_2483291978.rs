@@ -6,6 +6,6 @@ pub(crate) const IANA_2483291978: FileFormat = FileFormat {
     name: "vnd.planar",
     extensions: &[],
     media_types: &["video/vnd.planar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

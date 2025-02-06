@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_692635484: FileFormat = FileFormat {
     name: "Kickstart",
     extensions: &["ks"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

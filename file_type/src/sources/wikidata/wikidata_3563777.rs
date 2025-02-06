@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_3563777: FileFormat = FileFormat {
     id: 3_563_777,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_3563777: FileFormat = FileFormat {
     name: "MicroDVD",
     extensions: &["sub"],
     media_types: &["text/plain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

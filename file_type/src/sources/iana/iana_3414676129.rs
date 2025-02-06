@@ -6,6 +6,6 @@ pub(crate) const IANA_3414676129: FileFormat = FileFormat {
     name: "ocsp-request",
     extensions: &[],
     media_types: &["application/ocsp-request"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

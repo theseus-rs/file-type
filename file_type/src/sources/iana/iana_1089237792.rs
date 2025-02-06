@@ -6,6 +6,6 @@ pub(crate) const IANA_1089237792: FileFormat = FileFormat {
     name: "postscript",
     extensions: &[],
     media_types: &["application/postscript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

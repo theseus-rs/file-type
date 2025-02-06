@@ -6,6 +6,6 @@ pub(crate) const IANA_3587406333: FileFormat = FileFormat {
     name: "MELP",
     extensions: &[],
     media_types: &["audio/MELP"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

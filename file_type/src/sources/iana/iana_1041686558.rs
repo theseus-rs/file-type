@@ -6,6 +6,6 @@ pub(crate) const IANA_1041686558: FileFormat = FileFormat {
     name: "webpush-options+json",
     extensions: &[],
     media_types: &["application/webpush-options+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

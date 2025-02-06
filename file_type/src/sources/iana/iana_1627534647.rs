@@ -6,6 +6,6 @@ pub(crate) const IANA_1627534647: FileFormat = FileFormat {
     name: "vnd.bpf",
     extensions: &[],
     media_types: &["application/vnd.bpf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

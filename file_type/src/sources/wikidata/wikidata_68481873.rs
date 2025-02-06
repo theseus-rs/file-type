@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_68481873: FileFormat = FileFormat {
     id: 68_481_873,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_68481873: FileFormat = FileFormat {
     name: "Deep Zoom Image file format",
     extensions: &["dzi"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

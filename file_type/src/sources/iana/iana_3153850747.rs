@@ -6,6 +6,6 @@ pub(crate) const IANA_3153850747: FileFormat = FileFormat {
     name: "vnd.exstream-empower+zip",
     extensions: &[],
     media_types: &["application/vnd.exstream-empower+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

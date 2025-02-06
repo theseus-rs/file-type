@@ -6,6 +6,6 @@ pub(crate) const IANA_159891324: FileFormat = FileFormat {
     name: "msc-ivr+xml",
     extensions: &[],
     media_types: &["application/msc-ivr+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

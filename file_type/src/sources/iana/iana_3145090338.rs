@@ -6,6 +6,6 @@ pub(crate) const IANA_3145090338: FileFormat = FileFormat {
     name: "vnd.cups-raw",
     extensions: &[],
     media_types: &["application/vnd.cups-raw"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

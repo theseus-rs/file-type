@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_96642275: FileFormat = FileFormat {
     name: "B4X",
     extensions: &["bas"],
     media_types: &["text/x-vb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

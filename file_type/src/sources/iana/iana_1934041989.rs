@@ -6,6 +6,6 @@ pub(crate) const IANA_1934041989: FileFormat = FileFormat {
     name: "vnd.ms-xpsdocument",
     extensions: &[],
     media_types: &["application/vnd.ms-xpsdocument"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

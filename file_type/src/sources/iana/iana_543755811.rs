@@ -6,6 +6,6 @@ pub(crate) const IANA_543755811: FileFormat = FileFormat {
     name: "vnd.etsi.timestamp-token",
     extensions: &[],
     media_types: &["application/vnd.etsi.timestamp-token"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

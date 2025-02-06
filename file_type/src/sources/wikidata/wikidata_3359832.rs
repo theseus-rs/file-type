@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_3359832: FileFormat = FileFormat {
     id: 3_359_832,
@@ -8,8 +6,8 @@ pub(crate) const WIKIDATA_3359832: FileFormat = FileFormat {
     name: "Product Representation Compact",
     extensions: &["prc"],
     media_types: &["application/octet-stream", "model/prc"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -18,7 +16,7 @@ pub(crate) const WIKIDATA_3359832: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

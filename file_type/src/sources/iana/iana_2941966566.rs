@@ -6,6 +6,6 @@ pub(crate) const IANA_2941966566: FileFormat = FileFormat {
     name: "prs.texi",
     extensions: &[],
     media_types: &["text/prs.texi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

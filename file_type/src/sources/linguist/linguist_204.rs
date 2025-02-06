@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_204: FileFormat = FileFormat {
     name: "Liquid",
     extensions: &["liquid"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

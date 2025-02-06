@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_560883276: FileFormat = FileFormat {
     name: "hoon",
     extensions: &["hoon"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

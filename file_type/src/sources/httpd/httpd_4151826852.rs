@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4151826852: FileFormat = FileFormat {
     name: "quark quarkxpress",
     extensions: &["qxd", "qxt", "qwd", "qwt", "qxl", "qxb"],
     media_types: &["application/vnd.quark.quarkxpress"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1794933711: FileFormat = FileFormat {
     name: "jcr-cnd",
     extensions: &[],
     media_types: &["text/jcr-cnd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

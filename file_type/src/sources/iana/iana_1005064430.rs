@@ -6,6 +6,6 @@ pub(crate) const IANA_1005064430: FileFormat = FileFormat {
     name: "gltf-buffer",
     extensions: &[],
     media_types: &["application/gltf-buffer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105854008: FileFormat = FileFormat {
     id: 105_854_008,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105854008: FileFormat = FileFormat {
     name: "FMOD Sample Bank format (v3)",
     extensions: &["fsb"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

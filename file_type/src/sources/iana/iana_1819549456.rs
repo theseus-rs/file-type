@@ -6,6 +6,6 @@ pub(crate) const IANA_1819549456: FileFormat = FileFormat {
     name: "SMV-QCP",
     extensions: &[],
     media_types: &["audio/SMV-QCP"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

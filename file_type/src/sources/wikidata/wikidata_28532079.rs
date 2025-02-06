@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28532079: FileFormat = FileFormat {
     id: 28_532_079,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28532079: FileFormat = FileFormat {
     name: "Alchemy Format",
     extensions: &["alc"],
     media_types: &["chemical/x-alchemy"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

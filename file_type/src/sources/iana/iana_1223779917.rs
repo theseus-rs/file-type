@@ -6,6 +6,6 @@ pub(crate) const IANA_1223779917: FileFormat = FileFormat {
     name: "smil+xml",
     extensions: &[],
     media_types: &["application/smil+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

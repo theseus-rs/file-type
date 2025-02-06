@@ -6,6 +6,6 @@ pub(crate) const IANA_1724508731: FileFormat = FileFormat {
     name: "vnd.sun.j2me.app-descriptor",
     extensions: &[],
     media_types: &["text/vnd.sun.j2me.app-descriptor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1884967282: FileFormat = FileFormat {
     name: "vnd.snesdev-page-table",
     extensions: &[],
     media_types: &["application/vnd.snesdev-page-table"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111332700: FileFormat = FileFormat {
     id: 111_332_700,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111332700: FileFormat = FileFormat {
     name: "Roland S-5xx series floppy disk image",
     extensions: &["out", "sdk"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

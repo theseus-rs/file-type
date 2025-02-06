@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_2: FileFormat = FileFormat {
     name: "AGS Script",
     extensions: &["asc", "ash"],
     media_types: &["text/x-c++src"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

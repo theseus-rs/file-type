@@ -6,6 +6,6 @@ pub(crate) const IANA_891857693: FileFormat = FileFormat {
     name: "vnd.minisoft-hp3000-save",
     extensions: &[],
     media_types: &["application/vnd.minisoft-hp3000-save"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

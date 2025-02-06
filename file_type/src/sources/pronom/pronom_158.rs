@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_158: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_158: FileFormat = FileFormat {
     name: "Scalable Vector Graphics Compressed",
     extensions: &["svgz"],
     media_types: &["image/svg+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

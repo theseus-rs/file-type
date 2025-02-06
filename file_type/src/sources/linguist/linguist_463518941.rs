@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_463518941: FileFormat = FileFormat {
     name: "Hare",
     extensions: &["ha"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

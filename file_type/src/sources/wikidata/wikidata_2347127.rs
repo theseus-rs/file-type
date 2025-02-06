@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_2347127: FileFormat = FileFormat {
     id: 2_347_127,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_2347127: FileFormat = FileFormat {
     name: "Compressed image format",
     extensions: &["cso"],
     media_types: &["application/x-compressed-iso"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

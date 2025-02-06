@@ -6,6 +6,6 @@ pub(crate) const IANA_3075306099: FileFormat = FileFormat {
     name: "EDI-consent",
     extensions: &[],
     media_types: &["application/EDI-consent"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_49620373: FileFormat = FileFormat {
     id: 49_620_373,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_49620373: FileFormat = FileFormat {
     name: "Revit Workspace",
     extensions: &["rws"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

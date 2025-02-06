@@ -6,6 +6,6 @@ pub(crate) const IANA_2842844821: FileFormat = FileFormat {
     name: "session-info",
     extensions: &[],
     media_types: &["application/session-info"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

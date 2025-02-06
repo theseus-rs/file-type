@@ -6,6 +6,6 @@ pub(crate) const IANA_436281134: FileFormat = FileFormat {
     name: "vnd.curl",
     extensions: &[],
     media_types: &["application/vnd.curl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

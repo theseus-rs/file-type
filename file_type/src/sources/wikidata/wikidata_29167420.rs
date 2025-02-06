@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_29167420: FileFormat = FileFormat {
     id: 29_167_420,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_29167420: FileFormat = FileFormat {
     name: "Internet Adventure Game Engine source code",
     extensions: &["ic"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

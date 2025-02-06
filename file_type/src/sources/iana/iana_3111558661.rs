@@ -6,6 +6,6 @@ pub(crate) const IANA_3111558661: FileFormat = FileFormat {
     name: "senml-etch+cbor",
     extensions: &[],
     media_types: &["application/senml-etch+cbor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

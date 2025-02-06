@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_206353404: FileFormat = FileFormat {
     name: "Fluent",
     extensions: &["ftl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1720057282: FileFormat = FileFormat {
     name: "vnd.gentics.grd+json",
     extensions: &[],
     media_types: &["application/vnd.gentics.grd+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

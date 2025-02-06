@@ -6,6 +6,6 @@ pub(crate) const IANA_741089846: FileFormat = FileFormat {
     name: "fdt+xml",
     extensions: &[],
     media_types: &["application/fdt+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

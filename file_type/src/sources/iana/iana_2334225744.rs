@@ -6,6 +6,6 @@ pub(crate) const IANA_2334225744: FileFormat = FileFormat {
     name: "vnd.radisys.msml-basic-layout",
     extensions: &[],
     media_types: &["text/vnd.radisys.msml-basic-layout"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

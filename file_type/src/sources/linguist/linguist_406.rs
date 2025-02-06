@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_406: FileFormat = FileFormat {
     name: "Xtend",
     extensions: &["xtend"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

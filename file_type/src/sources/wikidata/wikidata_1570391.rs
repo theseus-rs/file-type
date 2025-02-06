@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1570391: FileFormat = FileFormat {
     id: 1_570_391,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_1570391: FileFormat = FileFormat {
     name: "Uuencoding",
     extensions: &["uu", "uue"],
     media_types: &["text/x-uuencode"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2985677434: FileFormat = FileFormat {
     name: "audiograph",
     extensions: &["aep"],
     media_types: &["application/vnd.audiograph"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1283475108: FileFormat = FileFormat {
     name: "prs.alvestrand.titrax-sheet",
     extensions: &[],
     media_types: &["application/prs.alvestrand.titrax-sheet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

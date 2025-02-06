@@ -6,6 +6,6 @@ pub(crate) const IANA_2640148687: FileFormat = FileFormat {
     name: "vnd.filmit.zfc",
     extensions: &[],
     media_types: &["application/vnd.filmit.zfc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

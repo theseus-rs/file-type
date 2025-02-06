@@ -6,6 +6,6 @@ pub(crate) const IANA_307107080: FileFormat = FileFormat {
     name: "prs.sid",
     extensions: &[],
     media_types: &["audio/prs.sid"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

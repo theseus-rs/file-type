@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111665213: FileFormat = FileFormat {
     id: 111_665_213,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111665213: FileFormat = FileFormat {
     name: "AbiWord Collaborative File Descriptor",
     extensions: &["abicollab"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

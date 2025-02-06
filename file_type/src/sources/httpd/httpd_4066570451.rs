@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4066570451: FileFormat = FileFormat {
     name: "epson quickanime",
     extensions: &["qam"],
     media_types: &["application/vnd.epson.quickanime"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

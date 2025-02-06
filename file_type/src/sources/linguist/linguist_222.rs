@@ -9,6 +9,6 @@ pub(crate) const LINGUIST_222: FileFormat = FileFormat {
         "workbook",
     ],
     media_types: &["text/x-gfm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

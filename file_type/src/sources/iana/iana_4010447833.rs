@@ -6,6 +6,6 @@ pub(crate) const IANA_4010447833: FileFormat = FileFormat {
     name: "vnd.quarantainenet",
     extensions: &[],
     media_types: &["application/vnd.quarantainenet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

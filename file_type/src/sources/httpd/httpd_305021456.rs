@@ -6,6 +6,6 @@ pub(crate) const HTTPD_305021456: FileFormat = FileFormat {
     name: "novadigm edx",
     extensions: &["edx"],
     media_types: &["application/vnd.novadigm.edx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

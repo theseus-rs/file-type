@@ -6,6 +6,6 @@ pub(crate) const IANA_3664925685: FileFormat = FileFormat {
     name: "vnd.espass-espass+zip",
     extensions: &[],
     media_types: &["application/vnd.espass-espass+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

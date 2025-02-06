@@ -6,6 +6,6 @@ pub(crate) const IANA_1674093862: FileFormat = FileFormat {
     name: "vnd.Mobius.DAF",
     extensions: &[],
     media_types: &["application/vnd.Mobius.DAF"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

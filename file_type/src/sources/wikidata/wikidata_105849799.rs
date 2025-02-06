@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105849799: FileFormat = FileFormat {
     id: 105_849_799,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105849799: FileFormat = FileFormat {
     name: "Lotus 123 configuration (V2.3)",
     extensions: &["cnf"],
     media_types: &["application/vnd.lotus-1-2-3"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

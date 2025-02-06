@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857568: FileFormat = FileFormat {
     id: 105_857_568,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105857568: FileFormat = FileFormat {
     name: "blueMSX machine settings",
     extensions: &["ini"],
     media_types: &["text/ini"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

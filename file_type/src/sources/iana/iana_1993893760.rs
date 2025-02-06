@@ -6,6 +6,6 @@ pub(crate) const IANA_1993893760: FileFormat = FileFormat {
     name: "vnd.cyclonedx+json",
     extensions: &[],
     media_types: &["application/vnd.cyclonedx+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

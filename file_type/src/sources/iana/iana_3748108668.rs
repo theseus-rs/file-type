@@ -6,6 +6,6 @@ pub(crate) const IANA_3748108668: FileFormat = FileFormat {
     name: "vnd.sealedmedia.softseal.pdf",
     extensions: &[],
     media_types: &["application/vnd.sealedmedia.softseal.pdf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

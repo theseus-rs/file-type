@@ -6,6 +6,6 @@ pub(crate) const IANA_3382036996: FileFormat = FileFormat {
     name: "vnd.oma.cab-address-book+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.cab-address-book+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

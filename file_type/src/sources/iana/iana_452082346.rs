@@ -6,6 +6,6 @@ pub(crate) const IANA_452082346: FileFormat = FileFormat {
     name: "pgp-keys",
     extensions: &[],
     media_types: &["application/pgp-keys"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_76514921: FileFormat = FileFormat {
     id: 76_514_921,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_76514921: FileFormat = FileFormat {
     name: "WinDev Window",
     extensions: &["wdw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

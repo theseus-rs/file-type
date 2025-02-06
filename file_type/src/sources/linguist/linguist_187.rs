@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_187: FileFormat = FileFormat {
     name: "KiCad Layout",
     extensions: &["kicad_mod", "kicad_pcb", "kicad_wks"],
     media_types: &["text/x-common-lisp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

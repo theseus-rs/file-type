@@ -6,6 +6,6 @@ pub(crate) const IANA_2155103555: FileFormat = FileFormat {
     name: "vnd.sbm.cid",
     extensions: &[],
     media_types: &["application/vnd.sbm.cid"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

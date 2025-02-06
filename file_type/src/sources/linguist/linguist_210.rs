@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_210: FileFormat = FileFormat {
     name: "Logtalk",
     extensions: &["lgt", "logtalk"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

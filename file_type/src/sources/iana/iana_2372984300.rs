@@ -6,6 +6,6 @@ pub(crate) const IANA_2372984300: FileFormat = FileFormat {
     name: "json-patch+json",
     extensions: &[],
     media_types: &["application/json-patch+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

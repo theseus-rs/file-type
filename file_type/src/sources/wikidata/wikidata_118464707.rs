@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_118464707: FileFormat = FileFormat {
     id: 118_464_707,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_118464707: FileFormat = FileFormat {
     name: "Open Media Framework Interchange 1.0",
     extensions: &["omf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

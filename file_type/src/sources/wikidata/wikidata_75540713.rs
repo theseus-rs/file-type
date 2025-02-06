@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_75540713: FileFormat = FileFormat {
     id: 75_540_713,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_75540713: FileFormat = FileFormat {
     name: "Ulead PhotoImpact Object",
     extensions: &["ufo"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

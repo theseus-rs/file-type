@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2480051928: FileFormat = FileFormat {
     name: "ms wvx",
     extensions: &["wvx"],
     media_types: &["video/x-ms-wvx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

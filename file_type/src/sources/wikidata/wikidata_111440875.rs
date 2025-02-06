@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111440875: FileFormat = FileFormat {
     id: 111_440_875,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111440875: FileFormat = FileFormat {
     name: "Tcl Script",
     extensions: &["tcl"],
     media_types: &["text/tcl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

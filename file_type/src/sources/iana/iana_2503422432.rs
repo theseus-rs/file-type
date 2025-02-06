@@ -6,6 +6,6 @@ pub(crate) const IANA_2503422432: FileFormat = FileFormat {
     name: "vnd.sketchometry",
     extensions: &[],
     media_types: &["application/vnd.sketchometry"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

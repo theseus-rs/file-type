@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2290373666: FileFormat = FileFormat {
     name: "dtbncx xml",
     extensions: &["ncx"],
     media_types: &["application/x-dtbncx+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

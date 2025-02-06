@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_76158562: FileFormat = FileFormat {
     id: 76_158_562,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_76158562: FileFormat = FileFormat {
     name: "VisKit 3d model",
     extensions: &["vk"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

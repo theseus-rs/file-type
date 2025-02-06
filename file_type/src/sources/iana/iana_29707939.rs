@@ -6,6 +6,6 @@ pub(crate) const IANA_29707939: FileFormat = FileFormat {
     name: "woff",
     extensions: &[],
     media_types: &["font/woff"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

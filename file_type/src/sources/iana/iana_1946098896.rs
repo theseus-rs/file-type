@@ -6,6 +6,6 @@ pub(crate) const IANA_1946098896: FileFormat = FileFormat {
     name: "vnd.yamaha.hv-script",
     extensions: &[],
     media_types: &["application/vnd.yamaha.hv-script"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

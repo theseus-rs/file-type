@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_23: FileFormat = FileFormat {
     name: "AspectJ",
     extensions: &["aj"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

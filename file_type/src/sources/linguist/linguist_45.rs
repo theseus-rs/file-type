@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_45: FileFormat = FileFormat {
     name: "C2hs Haskell",
     extensions: &["chs"],
     media_types: &["text/x-haskell"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

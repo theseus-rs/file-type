@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_330: FileFormat = FileFormat {
     name: "SMT",
     extensions: &["smt", "smt2"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

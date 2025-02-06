@@ -6,6 +6,6 @@ pub(crate) const IANA_3556509107: FileFormat = FileFormat {
     name: "clearmode",
     extensions: &[],
     media_types: &["audio/clearmode"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

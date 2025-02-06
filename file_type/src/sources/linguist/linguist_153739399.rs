@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_153739399: FileFormat = FileFormat {
     name: "OpenQASM",
     extensions: &["qasm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

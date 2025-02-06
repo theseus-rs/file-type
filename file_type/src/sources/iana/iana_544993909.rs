@@ -6,6 +6,6 @@ pub(crate) const IANA_544993909: FileFormat = FileFormat {
     name: "cdni",
     extensions: &[],
     media_types: &["application/cdni"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

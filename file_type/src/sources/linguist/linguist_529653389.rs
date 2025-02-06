@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_529653389: FileFormat = FileFormat {
     name: "E-mail",
     extensions: &["eml", "mbox"],
     media_types: &["application/mbox"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

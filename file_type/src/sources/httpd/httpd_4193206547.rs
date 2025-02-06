@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4193206547: FileFormat = FileFormat {
     name: "hp hpgl",
     extensions: &["hpgl"],
     media_types: &["application/vnd.hp-hpgl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

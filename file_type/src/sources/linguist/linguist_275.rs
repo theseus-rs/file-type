@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_275: FileFormat = FileFormat {
     name: "POV-Ray SDL",
     extensions: &["inc", "pov"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

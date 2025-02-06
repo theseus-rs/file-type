@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_401: FileFormat = FileFormat {
     name: "XProc",
     extensions: &["xpl", "xproc"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_105: FileFormat = FileFormat {
     name: "F#",
     extensions: &["fs", "fsi", "fsx"],
     media_types: &["text/x-fsharp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

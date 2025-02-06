@@ -6,6 +6,6 @@ pub(crate) const IANA_3079201304: FileFormat = FileFormat {
     name: "vnd.oma-scws-http-response",
     extensions: &[],
     media_types: &["application/vnd.oma-scws-http-response"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

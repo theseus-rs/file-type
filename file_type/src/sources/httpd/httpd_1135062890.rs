@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1135062890: FileFormat = FileFormat {
     name: "bzip2",
     extensions: &["bz2", "boz"],
     media_types: &["application/x-bzip2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

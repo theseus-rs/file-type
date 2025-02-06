@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_888779559: FileFormat = FileFormat {
     name: "Whiley",
     extensions: &["whiley"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

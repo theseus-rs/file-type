@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_239946126: FileFormat = FileFormat {
     name: "Fennel",
     extensions: &["fnl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

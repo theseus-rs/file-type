@@ -6,6 +6,6 @@ pub(crate) const IANA_3376783372: FileFormat = FileFormat {
     name: "vnd.digital-winds",
     extensions: &[],
     media_types: &["audio/vnd.digital-winds"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

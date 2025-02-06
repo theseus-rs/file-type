@@ -6,6 +6,6 @@ pub(crate) const HTTPD_335161041: FileFormat = FileFormat {
     name: "hydrostatix sof data",
     extensions: &["sfd-hdstx"],
     media_types: &["application/vnd.hydrostatix.sof-data"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

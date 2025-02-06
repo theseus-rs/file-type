@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3721838764: FileFormat = FileFormat {
     name: "shana informed package",
     extensions: &["ipk"],
     media_types: &["application/vnd.shana.informed.package"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

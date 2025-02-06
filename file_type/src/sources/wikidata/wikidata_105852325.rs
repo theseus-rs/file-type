@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105852325: FileFormat = FileFormat {
     id: 105_852_325,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105852325: FileFormat = FileFormat {
     name: "Programmer's Notepad Scheme (UTF-8)",
     extensions: &["scheme"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

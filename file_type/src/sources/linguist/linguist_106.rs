@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_106: FileFormat = FileFormat {
     name: "FLUX",
     extensions: &["flux", "fx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

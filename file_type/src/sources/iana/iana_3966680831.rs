@@ -6,6 +6,6 @@ pub(crate) const IANA_3966680831: FileFormat = FileFormat {
     name: "ulpfec",
     extensions: &[],
     media_types: &["video/ulpfec"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

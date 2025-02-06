@@ -6,6 +6,6 @@ pub(crate) const IANA_400689417: FileFormat = FileFormat {
     name: "csv",
     extensions: &[],
     media_types: &["text/csv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

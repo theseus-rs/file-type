@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105859425: FileFormat = FileFormat {
     id: 105_859_425,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105859425: FileFormat = FileFormat {
     name: "QuakeML seismological data",
     extensions: &["quakeml"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

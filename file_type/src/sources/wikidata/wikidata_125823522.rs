@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125823522: FileFormat = FileFormat {
     id: 125_823_522,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125823522: FileFormat = FileFormat {
     name: "Microsoft Help Attribute Definition file",
     extensions: &["hxw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

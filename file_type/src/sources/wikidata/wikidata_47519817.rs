@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_47519817: FileFormat = FileFormat {
     id: 47_519_817,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_47519817: FileFormat = FileFormat {
     name: "Serif PagePlus Publication file format, version 5",
     extensions: &["ppp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

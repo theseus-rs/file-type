@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_117035683: FileFormat = FileFormat {
     id: 117_035_683,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_117035683: FileFormat = FileFormat {
     name: "FloorPlan file",
     extensions: &["bmf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

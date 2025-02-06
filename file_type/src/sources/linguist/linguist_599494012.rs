@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_599494012: FileFormat = FileFormat {
     name: "Java Template Engine",
     extensions: &["jte"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

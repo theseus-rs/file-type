@@ -6,6 +6,6 @@ pub(crate) const IANA_1574026710: FileFormat = FileFormat {
     name: "ipp",
     extensions: &[],
     media_types: &["application/ipp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

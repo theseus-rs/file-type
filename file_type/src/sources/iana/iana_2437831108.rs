@@ -6,6 +6,6 @@ pub(crate) const IANA_2437831108: FileFormat = FileFormat {
     name: "vnd.kde.karbon",
     extensions: &[],
     media_types: &["application/vnd.kde.karbon"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

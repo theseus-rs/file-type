@@ -6,6 +6,6 @@ pub(crate) const IANA_3910326790: FileFormat = FileFormat {
     name: "VMR-WB",
     extensions: &[],
     media_types: &["audio/VMR-WB"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

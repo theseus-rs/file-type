@@ -6,6 +6,6 @@ pub(crate) const HTTPD_80973015: FileFormat = FileFormat {
     name: "oasis opendocument presentation",
     extensions: &["odp"],
     media_types: &["application/vnd.oasis.opendocument.presentation"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

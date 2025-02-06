@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28205449: FileFormat = FileFormat {
     id: 28_205_449,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28205449: FileFormat = FileFormat {
     name: "Design rule for Camera File system THM",
     extensions: &["thm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

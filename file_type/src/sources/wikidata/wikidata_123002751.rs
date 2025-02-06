@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_123002751: FileFormat = FileFormat {
     id: 123_002_751,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_123002751: FileFormat = FileFormat {
     name: "Scalable Vector Graphics 1.0",
     extensions: &["svg"],
     media_types: &["image/svg+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

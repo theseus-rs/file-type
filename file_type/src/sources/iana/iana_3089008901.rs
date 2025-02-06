@@ -6,6 +6,6 @@ pub(crate) const IANA_3089008901: FileFormat = FileFormat {
     name: "vnd.d2l.coursepackage1p0+zip",
     extensions: &[],
     media_types: &["application/vnd.d2l.coursepackage1p0+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

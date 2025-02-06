@@ -6,6 +6,6 @@ pub(crate) const IANA_2034259047: FileFormat = FileFormat {
     name: "vnd.oipf.mippvcontrolmessage+xml",
     extensions: &[],
     media_types: &["application/vnd.oipf.mippvcontrolmessage+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

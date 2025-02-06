@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1804860659: FileFormat = FileFormat {
     name: "ms cab compressed",
     extensions: &["cab"],
     media_types: &["application/vnd.ms-cab-compressed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

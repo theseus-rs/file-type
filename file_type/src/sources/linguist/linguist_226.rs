@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_226: FileFormat = FileFormat {
     name: "Maven POM",
     extensions: &[],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

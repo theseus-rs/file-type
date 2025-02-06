@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1441612472: FileFormat = FileFormat {
     name: "eszigno3 xml",
     extensions: &["es3", "et3"],
     media_types: &["application/vnd.eszigno3+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

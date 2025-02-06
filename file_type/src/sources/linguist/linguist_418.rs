@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_418: FileFormat = FileFormat {
     name: "ooc",
     extensions: &["ooc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

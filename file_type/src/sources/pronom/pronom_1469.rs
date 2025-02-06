@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1469: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1469: FileFormat = FileFormat {
     name: "PKCS #7 Cryptographic Message File",
     extensions: &["p7m", "p7b", "p7s"],
     media_types: &["application/pkcs7-mime", "application/pkcs7-signature"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

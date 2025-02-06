@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2657255065: FileFormat = FileFormat {
     name: "icon",
     extensions: &["ico"],
     media_types: &["image/x-icon"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

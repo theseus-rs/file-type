@@ -6,6 +6,6 @@ pub(crate) const HTTPD_617077046: FileFormat = FileFormat {
     name: "ms htmlhelp",
     extensions: &["chm"],
     media_types: &["application/vnd.ms-htmlhelp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2241674470: FileFormat = FileFormat {
     name: "vnd.motorola.flexsuite.gotap",
     extensions: &[],
     media_types: &["application/vnd.motorola.flexsuite.gotap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

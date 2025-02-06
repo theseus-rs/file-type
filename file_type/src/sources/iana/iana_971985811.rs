@@ -6,6 +6,6 @@ pub(crate) const IANA_971985811: FileFormat = FileFormat {
     name: "clue+xml",
     extensions: &[],
     media_types: &["application/clue+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_309: FileFormat = FileFormat {
     name: "RDoc",
     extensions: &["rdoc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

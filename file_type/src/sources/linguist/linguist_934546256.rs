@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_934546256: FileFormat = FileFormat {
     name: "Go Workspace",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

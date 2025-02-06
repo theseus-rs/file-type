@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2662883759: FileFormat = FileFormat {
     name: "adobe photoshop",
     extensions: &["psd"],
     media_types: &["image/vnd.adobe.photoshop"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

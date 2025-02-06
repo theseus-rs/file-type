@@ -6,6 +6,6 @@ pub(crate) const IANA_1347231439: FileFormat = FileFormat {
     name: "vnd.marlin.drm.license+xml",
     extensions: &[],
     media_types: &["application/vnd.marlin.drm.license+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

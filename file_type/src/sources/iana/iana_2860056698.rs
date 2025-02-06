@@ -6,6 +6,6 @@ pub(crate) const IANA_2860056698: FileFormat = FileFormat {
     name: "usac",
     extensions: &[],
     media_types: &["audio/usac"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

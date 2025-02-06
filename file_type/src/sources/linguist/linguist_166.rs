@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_166: FileFormat = FileFormat {
     name: "Inform 7",
     extensions: &["i7x", "ni"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

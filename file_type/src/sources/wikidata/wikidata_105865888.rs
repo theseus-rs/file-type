@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105865888: FileFormat = FileFormat {
     id: 105_865_888,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105865888: FileFormat = FileFormat {
     name: "Gerber Photoplot",
     extensions: &["pho"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

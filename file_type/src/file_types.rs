@@ -1,4 +1,4 @@
-use crate::format::{FileFormat, InternalSignature, Regex, RelationshipType};
+use crate::format::{FileFormat, Regex, RelationshipType, Signature};
 use crate::sources::FILE_FORMATS;
 use crate::{file_types, sources, Error, FileType, Result};
 use std::cmp::Ordering;
@@ -42,12 +42,12 @@ fn initialize_signature_map() -> HashMap<u64, Vec<&'static FileType>> {
 
     for file_type in FILE_TYPES.values() {
         let file_format = file_type.file_format();
-        let internal_signature_keys = file_format
-            .internal_signatures
+        let signature_keys = file_format
+            .signatures
             .iter()
-            .map(InternalSignature::key)
+            .map(Signature::key)
             .collect::<Vec<u64>>();
-        for key in internal_signature_keys {
+        for key in signature_keys {
             let mut file_types: Vec<&FileType> = signatures.remove(&key).unwrap_or_default();
             file_types.push(file_type);
             signatures.insert(key, file_types);

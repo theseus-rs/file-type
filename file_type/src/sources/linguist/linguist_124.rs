@@ -10,6 +10,6 @@ pub(crate) const LINGUIST_124: FileFormat = FileFormat {
         "vshader",
     ],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

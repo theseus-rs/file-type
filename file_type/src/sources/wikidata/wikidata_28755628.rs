@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28755628: FileFormat = FileFormat {
     id: 28_755_628,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28755628: FileFormat = FileFormat {
     name: "Exact Yearbook LST file",
     extensions: &["lst"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

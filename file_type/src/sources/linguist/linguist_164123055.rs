@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_164123055: FileFormat = FileFormat {
     name: "SmPL",
     extensions: &["cocci"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

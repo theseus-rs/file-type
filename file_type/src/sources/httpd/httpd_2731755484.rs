@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2731755484: FileFormat = FileFormat {
     name: "csh",
     extensions: &["csh"],
     media_types: &["application/x-csh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

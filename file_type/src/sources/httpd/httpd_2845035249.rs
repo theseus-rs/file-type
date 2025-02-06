@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2845035249: FileFormat = FileFormat {
     name: "stuffitx",
     extensions: &["sitx"],
     media_types: &["application/x-stuffitx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

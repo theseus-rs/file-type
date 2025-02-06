@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_144: FileFormat = FileFormat {
     name: "HCL",
     extensions: &["hcl", "nomad", "tf", "tfvars", "workflow"],
     media_types: &["text/x-ruby"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

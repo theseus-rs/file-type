@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856957: FileFormat = FileFormat {
     id: 105_856_957,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105856957: FileFormat = FileFormat {
     name: "GUI Design Studio WordSpace",
     extensions: &["gdws"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

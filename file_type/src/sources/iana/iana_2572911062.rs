@@ -6,6 +6,6 @@ pub(crate) const IANA_2572911062: FileFormat = FileFormat {
     name: "vnd.kde.kivio",
     extensions: &[],
     media_types: &["application/vnd.kde.kivio"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

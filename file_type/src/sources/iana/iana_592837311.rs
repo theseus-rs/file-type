@@ -6,6 +6,6 @@ pub(crate) const IANA_592837311: FileFormat = FileFormat {
     name: "simple-filter+xml",
     extensions: &[],
     media_types: &["application/simple-filter+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

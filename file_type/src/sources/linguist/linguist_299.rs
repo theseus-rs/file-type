@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_299: FileFormat = FileFormat {
     name: "Puppet",
     extensions: &["pp"],
     media_types: &["text/x-puppet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2190611199: FileFormat = FileFormat {
     name: "vnd.intu.qbo",
     extensions: &[],
     media_types: &["application/vnd.intu.qbo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

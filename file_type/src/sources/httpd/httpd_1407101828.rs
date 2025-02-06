@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1407101828: FileFormat = FileFormat {
     name: "dece data",
     extensions: &["uvf", "uvvf", "uvd", "uvvd"],
     media_types: &["application/vnd.dece.data"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

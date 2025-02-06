@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1568676772: FileFormat = FileFormat {
     name: "aiff",
     extensions: &["aif", "aiff", "aifc"],
     media_types: &["audio/x-aiff"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

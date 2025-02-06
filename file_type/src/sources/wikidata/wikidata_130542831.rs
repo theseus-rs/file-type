@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130542831: FileFormat = FileFormat {
     id: 130_542_831,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130542831: FileFormat = FileFormat {
     name: "Pug file format",
     extensions: &["jade", "pug"],
     media_types: &["text/x-jade", "text/x-pug"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

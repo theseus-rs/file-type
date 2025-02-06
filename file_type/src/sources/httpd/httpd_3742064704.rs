@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3742064704: FileFormat = FileFormat {
     name: "osgi subsystem",
     extensions: &["esa"],
     media_types: &["application/vnd.osgi.subsystem"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

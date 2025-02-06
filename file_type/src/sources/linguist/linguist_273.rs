@@ -9,6 +9,6 @@ pub(crate) const LINGUIST_273: FileFormat = FileFormat {
         "tpb", "tps", "trg", "vw",
     ],
     media_types: &["text/x-plsql"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

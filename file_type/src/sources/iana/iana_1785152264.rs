@@ -6,6 +6,6 @@ pub(crate) const IANA_1785152264: FileFormat = FileFormat {
     name: "vnd.ctc-posml",
     extensions: &[],
     media_types: &["application/vnd.ctc-posml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

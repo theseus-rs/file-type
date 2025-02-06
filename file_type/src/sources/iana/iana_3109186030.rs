@@ -6,6 +6,6 @@ pub(crate) const IANA_3109186030: FileFormat = FileFormat {
     name: "BV32",
     extensions: &[],
     media_types: &["audio/BV32"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

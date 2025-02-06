@@ -6,6 +6,6 @@ pub(crate) const IANA_1082371926: FileFormat = FileFormat {
     name: "vnd.gov.sk.e-form+xml (OBSOLETED by request)",
     extensions: &[],
     media_types: &["application/vnd.gov.sk.e-form+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

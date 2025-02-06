@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_6505523: FileFormat = FileFormat {
     id: 6_505_523,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_6505523: FileFormat = FileFormat {
     name: "Layered Image File Format",
     extensions: &["liff"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

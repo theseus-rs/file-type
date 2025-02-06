@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105853708: FileFormat = FileFormat {
     id: 105_853_708,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105853708: FileFormat = FileFormat {
     name: "Adobe Update Manager data",
     extensions: &["aum"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

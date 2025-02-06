@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27967122: FileFormat = FileFormat {
     id: 27_967_122,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27967122: FileFormat = FileFormat {
     name: "Brian Postma SoundMon v2.x & v3.x module",
     extensions: &["bp3"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

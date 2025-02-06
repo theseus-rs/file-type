@@ -6,6 +6,6 @@ pub(crate) const IANA_1125684053: FileFormat = FileFormat {
     name: "resource-lists-diff+xml",
     extensions: &[],
     media_types: &["application/resource-lists-diff+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

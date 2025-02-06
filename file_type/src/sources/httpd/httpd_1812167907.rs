@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1812167907: FileFormat = FileFormat {
     name: "bcpio",
     extensions: &["bcpio"],
     media_types: &["application/x-bcpio"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

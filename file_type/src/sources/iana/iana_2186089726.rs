@@ -6,6 +6,6 @@ pub(crate) const IANA_2186089726: FileFormat = FileFormat {
     name: "vnd.cyan.dean.root+xml",
     extensions: &[],
     media_types: &["application/vnd.cyan.dean.root+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

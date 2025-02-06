@@ -6,6 +6,6 @@ pub(crate) const IANA_2948043618: FileFormat = FileFormat {
     name: "fastsoap",
     extensions: &[],
     media_types: &["application/fastsoap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

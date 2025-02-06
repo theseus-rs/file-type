@@ -6,6 +6,6 @@ pub(crate) const IANA_1894883382: FileFormat = FileFormat {
     name: "vnd.erofs",
     extensions: &[],
     media_types: &["application/vnd.erofs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

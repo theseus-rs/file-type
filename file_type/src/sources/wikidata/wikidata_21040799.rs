@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_21040799: FileFormat = FileFormat {
     id: 21_040_799,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_21040799: FileFormat = FileFormat {
     name: "MadTracker 2 format",
     extensions: &["mt2"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3387561077: FileFormat = FileFormat {
     name: "wqd",
     extensions: &["wqd"],
     media_types: &["application/vnd.wqd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

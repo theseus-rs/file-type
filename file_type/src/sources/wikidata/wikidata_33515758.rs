@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_33515758: FileFormat = FileFormat {
     id: 33_515_758,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_33515758: FileFormat = FileFormat {
     name: "LAS 1.4 file format",
     extensions: &["las"],
     media_types: &["application/vnd.las"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

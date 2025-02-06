@@ -6,6 +6,6 @@ pub(crate) const IANA_2167893303: FileFormat = FileFormat {
     name: "pkix-pkipath",
     extensions: &[],
     media_types: &["application/pkix-pkipath"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

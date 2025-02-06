@@ -6,6 +6,6 @@ pub(crate) const IANA_2342890306: FileFormat = FileFormat {
     name: "vnd.picsel",
     extensions: &[],
     media_types: &["application/vnd.picsel"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

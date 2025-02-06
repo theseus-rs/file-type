@@ -6,6 +6,6 @@ pub(crate) const IANA_334794876: FileFormat = FileFormat {
     name: "vnd.cncf.helm.chart.content.v1.tar+gzip",
     extensions: &[],
     media_types: &["application/vnd.cncf.helm.chart.content.v1.tar+gzip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

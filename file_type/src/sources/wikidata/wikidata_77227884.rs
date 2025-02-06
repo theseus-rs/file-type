@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_77227884: FileFormat = FileFormat {
     id: 77_227_884,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_77227884: FileFormat = FileFormat {
     name: "Cal3D Xml morphanimation File",
     extensions: &["xpf"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

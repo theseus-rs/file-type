@@ -6,6 +6,6 @@ pub(crate) const IANA_484148083: FileFormat = FileFormat {
     name: "vnd.muvee.style",
     extensions: &[],
     media_types: &["application/vnd.muvee.style"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

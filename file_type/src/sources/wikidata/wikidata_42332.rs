@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_42332: FileFormat = FileFormat {
     id: 42_332,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_42332: FileFormat = FileFormat {
     name: "PDF",
     extensions: &["pdf"],
     media_types: &["application/pdf"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

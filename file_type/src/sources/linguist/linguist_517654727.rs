@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_517654727: FileFormat = FileFormat {
     name: "mIRC Script",
     extensions: &["mrc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

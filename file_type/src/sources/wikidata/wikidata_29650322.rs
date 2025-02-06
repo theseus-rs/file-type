@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_29650322: FileFormat = FileFormat {
     id: 29_650_322,
@@ -12,6 +10,6 @@ pub(crate) const WIKIDATA_29650322: FileFormat = FileFormat {
         "application/x-pkcs7-certificates",
         "application/x-pkcs7-certreqresp",
     ],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

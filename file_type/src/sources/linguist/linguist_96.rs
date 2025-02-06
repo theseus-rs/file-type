@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_96: FileFormat = FileFormat {
     name: "EQ",
     extensions: &["eq"],
     media_types: &["text/x-csharp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_861307175: FileFormat = FileFormat {
     name: "alto-networkmapfilter+json",
     extensions: &[],
     media_types: &["application/alto-networkmapfilter+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

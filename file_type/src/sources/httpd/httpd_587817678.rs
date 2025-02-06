@@ -6,6 +6,6 @@ pub(crate) const HTTPD_587817678: FileFormat = FileFormat {
     name: "nfo",
     extensions: &["nfo"],
     media_types: &["text/x-nfo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3450423353: FileFormat = FileFormat {
     name: "cluetrust cartomobile config pkg",
     extensions: &["c11amz"],
     media_types: &["application/vnd.cluetrust.cartomobile-config-pkg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_949062720: FileFormat = FileFormat {
     name: "vnd.afpc.foca-codepage",
     extensions: &[],
     media_types: &["application/vnd.afpc.foca-codepage"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

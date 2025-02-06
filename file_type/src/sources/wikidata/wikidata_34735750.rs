@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_34735750: FileFormat = FileFormat {
     id: 34_735_750,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_34735750: FileFormat = FileFormat {
     name: "SimTower saved game",
     extensions: &["tdt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

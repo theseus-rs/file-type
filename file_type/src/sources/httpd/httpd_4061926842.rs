@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4061926842: FileFormat = FileFormat {
     name: "dece zip",
     extensions: &["uvz", "uvvz"],
     media_types: &["application/vnd.dece.zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

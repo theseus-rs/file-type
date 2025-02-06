@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_114978471: FileFormat = FileFormat {
     id: 114_978_471,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_114978471: FileFormat = FileFormat {
     name: "Hollywood Screenwriter Script File",
     extensions: &["hws"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

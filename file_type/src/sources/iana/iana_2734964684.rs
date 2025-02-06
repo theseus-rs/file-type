@@ -6,6 +6,6 @@ pub(crate) const IANA_2734964684: FileFormat = FileFormat {
     name: "vnd.ntt-local.file-transfer",
     extensions: &[],
     media_types: &["application/vnd.ntt-local.file-transfer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111417217: FileFormat = FileFormat {
     id: 111_417_217,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111417217: FileFormat = FileFormat {
     name: "Assembly Language Source Code File",
     extensions: &["asm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

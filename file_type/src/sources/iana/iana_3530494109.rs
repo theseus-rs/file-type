@@ -6,6 +6,6 @@ pub(crate) const IANA_3530494109: FileFormat = FileFormat {
     name: "vnd.uplanet.cacheop",
     extensions: &[],
     media_types: &["application/vnd.uplanet.cacheop"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_716513858: FileFormat = FileFormat {
     name: "Proguard",
     extensions: &["pro"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

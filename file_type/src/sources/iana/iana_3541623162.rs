@@ -6,6 +6,6 @@ pub(crate) const IANA_3541623162: FileFormat = FileFormat {
     name: "mathematica",
     extensions: &[],
     media_types: &["application/mathematica"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

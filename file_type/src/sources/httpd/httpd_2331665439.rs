@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2331665439: FileFormat = FileFormat {
     name: "sun xml draw template",
     extensions: &["std"],
     media_types: &["application/vnd.sun.xml.draw.template"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

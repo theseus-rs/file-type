@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_481192983: FileFormat = FileFormat {
     name: "NEON",
     extensions: &["neon"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1393458892: FileFormat = FileFormat {
     name: "vnd.logipipe.circuit+zip",
     extensions: &[],
     media_types: &["application/vnd.logipipe.circuit+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

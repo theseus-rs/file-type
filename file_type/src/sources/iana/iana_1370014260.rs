@@ -6,6 +6,6 @@ pub(crate) const IANA_1370014260: FileFormat = FileFormat {
     name: "vnd.oma.cab-feature-handler+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.cab-feature-handler+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

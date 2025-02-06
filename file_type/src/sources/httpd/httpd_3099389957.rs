@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3099389957: FileFormat = FileFormat {
     name: "abiword",
     extensions: &["abw"],
     media_types: &["application/x-abiword"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

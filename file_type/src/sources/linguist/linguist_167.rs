@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_167: FileFormat = FileFormat {
     name: "Inno Setup",
     extensions: &["isl", "iss"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

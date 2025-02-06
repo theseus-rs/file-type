@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130553842: FileFormat = FileFormat {
     id: 130_553_842,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130553842: FileFormat = FileFormat {
     name: "QVT Operational Mapping language file format",
     extensions: &["qvto"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

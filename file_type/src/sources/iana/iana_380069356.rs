@@ -6,6 +6,6 @@ pub(crate) const IANA_380069356: FileFormat = FileFormat {
     name: "aces",
     extensions: &[],
     media_types: &["image/aces"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_359796587: FileFormat = FileFormat {
     name: "vnd.noblenet-sealer",
     extensions: &[],
     media_types: &["application/vnd.noblenet-sealer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

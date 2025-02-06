@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1075391890: FileFormat = FileFormat {
     name: "ezpix album",
     extensions: &["ez2"],
     media_types: &["application/vnd.ezpix-album"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

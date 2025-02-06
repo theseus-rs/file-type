@@ -6,6 +6,6 @@ pub(crate) const IANA_4185802974: FileFormat = FileFormat {
     name: "alto-propmap+json",
     extensions: &[],
     media_types: &["application/alto-propmap+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

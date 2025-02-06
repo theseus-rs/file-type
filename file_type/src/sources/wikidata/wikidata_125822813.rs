@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125822813: FileFormat = FileFormat {
     id: 125_822_813,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125822813: FileFormat = FileFormat {
     name: "Microsoft Help Combined Full-text Search file",
     extensions: &["chq"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

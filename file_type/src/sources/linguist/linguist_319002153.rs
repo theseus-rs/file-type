@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_319002153: FileFormat = FileFormat {
     name: "ReasonLIGO",
     extensions: &["religo"],
     media_types: &["text/x-rustsrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

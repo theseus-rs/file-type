@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3973073844: FileFormat = FileFormat {
     name: "ace compressed",
     extensions: &["ace"],
     media_types: &["application/x-ace-compressed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1252036055: FileFormat = FileFormat {
     name: "ms word template macroenabled 12",
     extensions: &["dotm"],
     media_types: &["application/vnd.ms-word.template.macroenabled.12"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

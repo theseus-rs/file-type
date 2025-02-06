@@ -24,6 +24,6 @@ pub(crate) const LINGUIST_423: FileFormat = FileFormat {
         "sublime_session",
     ],
     media_types: &["text/javascript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

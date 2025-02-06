@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_20: FileFormat = FileFormat {
     name: "Arc",
     extensions: &["arc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

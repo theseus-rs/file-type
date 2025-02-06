@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_61901831: FileFormat = FileFormat {
     id: 61_901_831,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_61901831: FileFormat = FileFormat {
     name: "Peak Graphical Waveform File",
     extensions: &["pk"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

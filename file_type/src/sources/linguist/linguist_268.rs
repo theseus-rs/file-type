@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_268: FileFormat = FileFormat {
     name: "Ox",
     extensions: &["ox", "oxh", "oxo"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

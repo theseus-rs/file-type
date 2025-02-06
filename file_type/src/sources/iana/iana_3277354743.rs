@@ -6,6 +6,6 @@ pub(crate) const IANA_3277354743: FileFormat = FileFormat {
     name: "vnd.apple.keynote",
     extensions: &[],
     media_types: &["application/vnd.apple.keynote"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

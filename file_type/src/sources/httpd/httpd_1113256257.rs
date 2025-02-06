@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1113256257: FileFormat = FileFormat {
     name: "sgml",
     extensions: &["sgml", "sgm"],
     media_types: &["text/sgml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

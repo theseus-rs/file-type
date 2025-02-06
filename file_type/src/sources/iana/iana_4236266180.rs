@@ -6,6 +6,6 @@ pub(crate) const IANA_4236266180: FileFormat = FileFormat {
     name: "mls",
     extensions: &[],
     media_types: &["message/mls"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

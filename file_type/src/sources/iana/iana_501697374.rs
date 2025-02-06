@@ -6,6 +6,6 @@ pub(crate) const IANA_501697374: FileFormat = FileFormat {
     name: "dca-rft",
     extensions: &[],
     media_types: &["application/dca-rft"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

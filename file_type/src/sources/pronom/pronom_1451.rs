@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1451: FileFormat = FileFormat {
@@ -9,8 +9,8 @@ pub(crate) const PRONOM_1451: FileFormat = FileFormat {
     name: "QuarkXPress Project",
     extensions: &["qpt", "qwd", "qxp"],
     media_types: &["application/vnd.Quark.QuarkXPress"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(2),
@@ -23,7 +23,7 @@ pub(crate) const PRONOM_1451: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(2),

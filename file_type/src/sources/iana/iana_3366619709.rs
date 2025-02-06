@@ -6,6 +6,6 @@ pub(crate) const IANA_3366619709: FileFormat = FileFormat {
     name: "vnd.ims.lti.v2.toolconsumerprofile+json",
     extensions: &[],
     media_types: &["application/vnd.ims.lti.v2.toolconsumerprofile+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

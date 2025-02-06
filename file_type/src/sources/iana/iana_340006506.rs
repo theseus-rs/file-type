@@ -6,6 +6,6 @@ pub(crate) const IANA_340006506: FileFormat = FileFormat {
     name: "H264-SVC",
     extensions: &[],
     media_types: &["video/H264-SVC"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

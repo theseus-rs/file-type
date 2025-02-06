@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1936666943: FileFormat = FileFormat {
     name: "kodak descriptor",
     extensions: &["sse"],
     media_types: &["application/vnd.kodak-descriptor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -8,6 +8,6 @@ pub(crate) const HTTPD_2985206074: FileFormat = FileFormat {
         "bin", "dms", "lrf", "mar", "so", "dist", "distz", "pkg", "bpk", "dump", "elc", "deploy",
     ],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

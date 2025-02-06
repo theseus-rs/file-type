@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_382: FileFormat = FileFormat {
     name: "UnrealScript",
     extensions: &["uc"],
     media_types: &["text/x-java"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2750313342: FileFormat = FileFormat {
     name: "vnd.oma.bcast.imd+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.bcast.imd+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

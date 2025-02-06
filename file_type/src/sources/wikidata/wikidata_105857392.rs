@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857392: FileFormat = FileFormat {
     id: 105_857_392,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105857392: FileFormat = FileFormat {
     name: "Java Web Start application descriptor",
     extensions: &["jnlp"],
     media_types: &["text.xnk"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

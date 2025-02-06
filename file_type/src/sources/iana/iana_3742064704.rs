@@ -6,6 +6,6 @@ pub(crate) const IANA_3742064704: FileFormat = FileFormat {
     name: "vnd.osgi.subsystem",
     extensions: &[],
     media_types: &["application/vnd.osgi.subsystem"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

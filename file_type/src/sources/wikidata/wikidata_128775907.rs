@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_128775907: FileFormat = FileFormat {
     id: 128_775_907,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_128775907: FileFormat = FileFormat {
     name: "Coq file format",
     extensions: &["v"],
     media_types: &["text/x-coq"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_456286408: FileFormat = FileFormat {
     name: "route-s-tsid+xml",
     extensions: &[],
     media_types: &["application/route-s-tsid+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130224300: FileFormat = FileFormat {
     id: 130_224_300,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130224300: FileFormat = FileFormat {
     name: "Lean 4 file format",
     extensions: &["lean"],
     media_types: &["text/x-lean4"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

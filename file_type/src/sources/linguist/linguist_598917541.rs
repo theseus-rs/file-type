@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_598917541: FileFormat = FileFormat {
     name: "OpenStep Property List",
     extensions: &["glyphs", "plist"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1353407983: FileFormat = FileFormat {
     name: "wap wml",
     extensions: &["wml"],
     media_types: &["text/vnd.wap.wml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

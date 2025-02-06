@@ -6,6 +6,6 @@ pub(crate) const IANA_76178463: FileFormat = FileFormat {
     name: "vnd.amadeus+json",
     extensions: &[],
     media_types: &["application/vnd.amadeus+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

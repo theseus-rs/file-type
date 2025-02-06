@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_465165328: FileFormat = FileFormat {
     name: "JetBrains MPS",
     extensions: &["mpl", "mps", "msd"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

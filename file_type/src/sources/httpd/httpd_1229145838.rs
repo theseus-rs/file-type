@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1229145838: FileFormat = FileFormat {
     name: "amiga ami",
     extensions: &["ami"],
     media_types: &["application/vnd.amiga.ami"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_95733139: FileFormat = FileFormat {
     id: 95_733_139,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_95733139: FileFormat = FileFormat {
     name: "RealAudio version 3",
     extensions: &["ra"],
     media_types: &["audio/vnd.rn-realaudio"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

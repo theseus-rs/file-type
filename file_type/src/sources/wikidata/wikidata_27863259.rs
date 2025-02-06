@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27863259: FileFormat = FileFormat {
     id: 27_863_259,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27863259: FileFormat = FileFormat {
     name: "Audio Interchange File Format, version 1.3",
     extensions: &["aif", "aiff"],
     media_types: &["audio/aiff", "audio/x-aiff"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

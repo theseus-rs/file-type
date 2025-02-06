@@ -6,6 +6,6 @@ pub(crate) const IANA_2944319513: FileFormat = FileFormat {
     name: "vnd.pwg-xhtml-print+xml",
     extensions: &[],
     media_types: &["application/vnd.pwg-xhtml-print+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

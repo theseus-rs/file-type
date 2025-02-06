@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2596531980: FileFormat = FileFormat {
     name: "rgb",
     extensions: &["rgb"],
     media_types: &["image/x-rgb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

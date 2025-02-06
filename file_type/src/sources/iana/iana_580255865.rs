@@ -6,6 +6,6 @@ pub(crate) const IANA_580255865: FileFormat = FileFormat {
     name: "prs.fallenstein.rst",
     extensions: &[],
     media_types: &["text/prs.fallenstein.rst"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

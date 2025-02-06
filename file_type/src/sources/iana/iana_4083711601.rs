@@ -6,6 +6,6 @@ pub(crate) const IANA_4083711601: FileFormat = FileFormat {
     name: "vnd.3gpp.mcdata-user-profile+xml",
     extensions: &[],
     media_types: &["application/vnd.3gpp.mcdata-user-profile+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3979434712: FileFormat = FileFormat {
     name: "heif",
     extensions: &[],
     media_types: &["image/heif"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

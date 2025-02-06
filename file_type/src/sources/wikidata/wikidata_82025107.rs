@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_82025107: FileFormat = FileFormat {
     id: 82_025_107,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_82025107: FileFormat = FileFormat {
     name: "Electronic Book Exchange",
     extensions: &["ebx"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

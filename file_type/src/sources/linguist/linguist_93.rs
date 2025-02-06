@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_93: FileFormat = FileFormat {
     name: "ECL",
     extensions: &["ecl", "eclxml"],
     media_types: &["text/x-ecl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

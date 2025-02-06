@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1375183586: FileFormat = FileFormat {
     name: "rim cod",
     extensions: &["cod"],
     media_types: &["application/vnd.rim.cod"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

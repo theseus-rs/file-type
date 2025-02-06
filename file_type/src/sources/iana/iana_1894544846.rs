@@ -6,6 +6,6 @@ pub(crate) const IANA_1894544846: FileFormat = FileFormat {
     name: "vnd.sun.wadl+xml",
     extensions: &[],
     media_types: &["application/vnd.sun.wadl+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

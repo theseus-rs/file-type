@@ -6,6 +6,6 @@ pub(crate) const IANA_2613145387: FileFormat = FileFormat {
     name: "hej2k",
     extensions: &[],
     media_types: &["image/hej2k"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

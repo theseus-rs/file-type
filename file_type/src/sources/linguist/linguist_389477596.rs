@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_389477596: FileFormat = FileFormat {
     name: "AngelScript",
     extensions: &["angelscript", "as"],
     media_types: &["text/x-c++src"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

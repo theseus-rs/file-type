@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1215761775: FileFormat = FileFormat {
     name: "3gpp pic bw large",
     extensions: &["plb"],
     media_types: &["application/vnd.3gpp.pic-bw-large"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3207609300: FileFormat = FileFormat {
     name: "vnd.wt.stf",
     extensions: &[],
     media_types: &["application/vnd.wt.stf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

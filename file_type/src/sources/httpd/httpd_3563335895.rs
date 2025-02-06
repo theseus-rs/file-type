@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3563335895: FileFormat = FileFormat {
     name: "rpki roa",
     extensions: &["roa"],
     media_types: &["application/rpki-roa"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

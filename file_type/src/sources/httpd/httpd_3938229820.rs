@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3938229820: FileFormat = FileFormat {
     name: "sus calendar",
     extensions: &["sus", "susp"],
     media_types: &["application/vnd.sus-calendar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

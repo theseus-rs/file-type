@@ -6,6 +6,6 @@ pub(crate) const IANA_3938668571: FileFormat = FileFormat {
     name: "vnd.pcos",
     extensions: &[],
     media_types: &["application/vnd.pcos"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_318: FileFormat = FileFormat {
@@ -12,7 +12,7 @@ pub(crate) const PRONOM_318: FileFormat = FileFormat {
         "e12", "e13", "e14", "e15", "e16", "e17", "e18", "e19", "e20",
     ],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[
             ByteSequence {
                 position_type: PositionType::BOF,

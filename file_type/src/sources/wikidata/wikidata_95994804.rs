@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_95994804: FileFormat = FileFormat {
     id: 95_994_804,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_95994804: FileFormat = FileFormat {
     name: "Spatial Data Transfer Standard format",
     extensions: &["ddf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1349874601: FileFormat = FileFormat {
     name: "ecowin chart",
     extensions: &["mag"],
     media_types: &["application/vnd.ecowin.chart"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

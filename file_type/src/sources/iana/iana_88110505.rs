@@ -6,6 +6,6 @@ pub(crate) const IANA_88110505: FileFormat = FileFormat {
     name: "vnd.motorola.flexsuite.kmr",
     extensions: &[],
     media_types: &["application/vnd.motorola.flexsuite.kmr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

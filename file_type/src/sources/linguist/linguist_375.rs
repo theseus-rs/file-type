@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_375: FileFormat = FileFormat {
     name: "Turing",
     extensions: &["t", "tu"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

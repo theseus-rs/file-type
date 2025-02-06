@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4174914276: FileFormat = FileFormat {
     name: "simtech mindmapper",
     extensions: &["twd", "twds"],
     media_types: &["application/vnd.simtech-mindmapper"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

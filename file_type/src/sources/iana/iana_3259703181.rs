@@ -6,6 +6,6 @@ pub(crate) const IANA_3259703181: FileFormat = FileFormat {
     name: "vnd.wasmflow.wafl",
     extensions: &[],
     media_types: &["application/vnd.wasmflow.wafl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_108837022: FileFormat = FileFormat {
     id: 108_837_022,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_108837022: FileFormat = FileFormat {
     name: "Nero Mixed Mode CD Compilation",
     extensions: &["nrm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

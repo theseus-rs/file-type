@@ -6,6 +6,6 @@ pub(crate) const IANA_3161118794: FileFormat = FileFormat {
     name: "cwl+json",
     extensions: &[],
     media_types: &["application/cwl+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

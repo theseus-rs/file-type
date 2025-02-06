@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2572352895: FileFormat = FileFormat {
     name: "freehand",
     extensions: &["fh", "fhc", "fh4", "fh5", "fh7"],
     media_types: &["image/x-freehand"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

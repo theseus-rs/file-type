@@ -6,6 +6,6 @@ pub(crate) const IANA_398590708: FileFormat = FileFormat {
     name: "vnd.oma.bcast.drm-trigger+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.bcast.drm-trigger+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

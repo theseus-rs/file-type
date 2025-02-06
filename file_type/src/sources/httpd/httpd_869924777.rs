@@ -6,6 +6,6 @@ pub(crate) const HTTPD_869924777: FileFormat = FileFormat {
     name: "xwindowdump",
     extensions: &["xwd"],
     media_types: &["image/x-xwindowdump"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

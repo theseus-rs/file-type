@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_83548831: FileFormat = FileFormat {
     id: 83_548_831,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_83548831: FileFormat = FileFormat {
     name: "Nearly Raw Raster Data, version 2",
     extensions: &["nrrd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2317675339: FileFormat = FileFormat {
     name: "oasis opendocument chart template",
     extensions: &["otc"],
     media_types: &["application/vnd.oasis.opendocument.chart-template"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

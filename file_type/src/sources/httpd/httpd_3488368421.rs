@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3488368421: FileFormat = FileFormat {
     name: "msmoney",
     extensions: &["mny"],
     media_types: &["application/x-msmoney"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

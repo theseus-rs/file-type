@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2517232495: FileFormat = FileFormat {
     name: "fsc weblaunch",
     extensions: &["fsc"],
     media_types: &["application/vnd.fsc.weblaunch"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2285752049: FileFormat = FileFormat {
     name: "tnauthlist",
     extensions: &[],
     media_types: &["application/tnauthlist"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

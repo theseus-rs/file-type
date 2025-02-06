@@ -6,6 +6,6 @@ pub(crate) const IANA_2880863704: FileFormat = FileFormat {
     name: "tlsrpt+gzip",
     extensions: &[],
     media_types: &["application/tlsrpt+gzip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

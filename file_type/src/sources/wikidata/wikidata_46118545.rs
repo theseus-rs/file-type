@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_46118545: FileFormat = FileFormat {
     id: 46_118_545,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_46118545: FileFormat = FileFormat {
     name: "Lotus Approach View File",
     extensions: &["apt"],
     media_types: &["application/vnd.lotus-approach"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

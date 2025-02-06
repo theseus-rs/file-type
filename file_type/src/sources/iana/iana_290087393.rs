@@ -6,6 +6,6 @@ pub(crate) const IANA_290087393: FileFormat = FileFormat {
     name: "vnd.fujixerox.docuworks",
     extensions: &[],
     media_types: &["application/vnd.fujixerox.docuworks"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

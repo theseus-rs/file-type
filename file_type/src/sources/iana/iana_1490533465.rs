@@ -6,6 +6,6 @@ pub(crate) const IANA_1490533465: FileFormat = FileFormat {
     name: "sensml+cbor",
     extensions: &[],
     media_types: &["application/sensml+cbor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

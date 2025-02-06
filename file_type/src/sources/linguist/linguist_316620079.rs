@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_316620079: FileFormat = FileFormat {
     name: "JCL",
     extensions: &["jcl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

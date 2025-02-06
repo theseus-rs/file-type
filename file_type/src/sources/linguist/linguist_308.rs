@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_308: FileFormat = FileFormat {
     name: "RAML",
     extensions: &["raml"],
     media_types: &["text/x-yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

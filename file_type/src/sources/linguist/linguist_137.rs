@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_137: FileFormat = FileFormat {
     name: "Grammatical Framework",
     extensions: &["gf"],
     media_types: &["text/x-haskell"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3593012719: FileFormat = FileFormat {
     name: "ms vob",
     extensions: &["vob"],
     media_types: &["video/x-ms-vob"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

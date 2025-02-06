@@ -6,6 +6,6 @@ pub(crate) const IANA_3429254293: FileFormat = FileFormat {
     name: "vnd.3gpp.mcvideo-transmission-request+xml",
     extensions: &[],
     media_types: &["application/vnd.3gpp.mcvideo-transmission-request+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

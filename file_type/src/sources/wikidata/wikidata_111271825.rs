@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111271825: FileFormat = FileFormat {
     id: 111_271_825,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111271825: FileFormat = FileFormat {
     name: "Yamaha DX7 voice SysEx dump",
     extensions: &["dx7"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

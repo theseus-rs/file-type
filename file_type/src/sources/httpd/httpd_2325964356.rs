@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2325964356: FileFormat = FileFormat {
     name: "c",
     extensions: &["c", "cc", "cxx", "cpp", "h", "hh", "dic"],
     media_types: &["text/x-c"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

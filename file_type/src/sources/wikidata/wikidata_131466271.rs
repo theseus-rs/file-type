@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131466271: FileFormat = FileFormat {
     id: 131_466_271,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131466271: FileFormat = FileFormat {
     name: "Guy’s Image Processing Lab file format",
     extensions: &["gipl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

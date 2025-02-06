@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_965696054: FileFormat = FileFormat {
     name: "TextGrid",
     extensions: &["TextGrid"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

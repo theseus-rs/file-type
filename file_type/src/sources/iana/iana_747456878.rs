@@ -6,6 +6,6 @@ pub(crate) const IANA_747456878: FileFormat = FileFormat {
     name: "vnd.macports.portpkg",
     extensions: &[],
     media_types: &["application/vnd.macports.portpkg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

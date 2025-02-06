@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_52005598: FileFormat = FileFormat {
     id: 52_005_598,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_52005598: FileFormat = FileFormat {
     name: "AMI Draw Vector Image",
     extensions: &["sdw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

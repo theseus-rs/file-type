@@ -6,6 +6,6 @@ pub(crate) const IANA_3690701309: FileFormat = FileFormat {
     name: "vnd.ms-mediapackage",
     extensions: &[],
     media_types: &["text/vnd.ms-mediapackage"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

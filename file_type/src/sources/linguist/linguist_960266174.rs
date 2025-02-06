@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_960266174: FileFormat = FileFormat {
     name: "Starlark",
     extensions: &["bzl", "star"],
     media_types: &["text/x-python"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

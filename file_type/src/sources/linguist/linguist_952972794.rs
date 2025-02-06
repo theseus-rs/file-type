@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_952972794: FileFormat = FileFormat {
     name: "ZAP",
     extensions: &["xzap", "zap"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

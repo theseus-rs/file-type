@@ -6,6 +6,6 @@ pub(crate) const IANA_315120870: FileFormat = FileFormat {
     name: "vnd.geogebra.tool",
     extensions: &[],
     media_types: &["application/vnd.geogebra.tool"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

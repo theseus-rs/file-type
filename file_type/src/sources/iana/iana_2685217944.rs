@@ -6,6 +6,6 @@ pub(crate) const IANA_2685217944: FileFormat = FileFormat {
     name: "vnd.palm",
     extensions: &[],
     media_types: &["application/vnd.palm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_847390359: FileFormat = FileFormat {
     name: "vnd.easykaraoke.cdgdownload",
     extensions: &[],
     media_types: &["application/vnd.easykaraoke.cdgdownload"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

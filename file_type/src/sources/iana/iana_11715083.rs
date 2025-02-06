@@ -6,6 +6,6 @@ pub(crate) const IANA_11715083: FileFormat = FileFormat {
     name: "vnd.visio",
     extensions: &[],
     media_types: &["application/vnd.visio"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

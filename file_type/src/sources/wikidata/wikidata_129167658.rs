@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_129167658: FileFormat = FileFormat {
     id: 129_167_658,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_129167658: FileFormat = FileFormat {
     name: "Ezhil file format",
     extensions: &["n"],
     media_types: &["text/x-ezhil"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

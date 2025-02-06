@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2018063706: FileFormat = FileFormat {
     name: "stardivision calc",
     extensions: &["sdc"],
     media_types: &["application/vnd.stardivision.calc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

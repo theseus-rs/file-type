@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_632765617: FileFormat = FileFormat {
     name: "Type Language",
     extensions: &["tl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

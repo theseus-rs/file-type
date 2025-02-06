@@ -6,6 +6,6 @@ pub(crate) const HTTPD_910732762: FileFormat = FileFormat {
     name: "kidspiration",
     extensions: &["kia"],
     media_types: &["application/vnd.kidspiration"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

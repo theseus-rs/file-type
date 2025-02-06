@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_120763430: FileFormat = FileFormat {
     id: 120_763_430,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_120763430: FileFormat = FileFormat {
     name: "Topo USA 2.0 File",
     extensions: &["tp2"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

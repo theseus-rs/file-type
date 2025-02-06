@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130373029: FileFormat = FileFormat {
     id: 130_373_029,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130373029: FileFormat = FileFormat {
     name: "Newspeak file format",
     extensions: &["ns2"],
     media_types: &["text/x-newspeak"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

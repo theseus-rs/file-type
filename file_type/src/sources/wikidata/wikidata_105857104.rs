@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857104: FileFormat = FileFormat {
     id: 105_857_104,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105857104: FileFormat = FileFormat {
     name: "GNU Privacy Guard public keyring (generic)",
     extensions: &["gpg"],
     media_types: &["application/pgp-keys"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

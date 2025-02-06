@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_151: FileFormat = FileFormat {
     name: "HTML+PHP",
     extensions: &["phtml"],
     media_types: &["application/x-httpd-php"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

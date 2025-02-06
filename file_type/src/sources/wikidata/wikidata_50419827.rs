@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_50419827: FileFormat = FileFormat {
     id: 50_419_827,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_50419827: FileFormat = FileFormat {
     name: "Microsoft PRX File",
     extensions: &["prx"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

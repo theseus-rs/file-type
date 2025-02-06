@@ -6,6 +6,6 @@ pub(crate) const IANA_2303840961: FileFormat = FileFormat {
     name: "vnd.3gpp.SRVCC-info+xml",
     extensions: &[],
     media_types: &["application/vnd.3gpp.SRVCC-info+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

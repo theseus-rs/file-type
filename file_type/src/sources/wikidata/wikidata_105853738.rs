@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105853738: FileFormat = FileFormat {
     id: 105_853_738,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105853738: FileFormat = FileFormat {
     name: "Windows 7 Jump List",
     extensions: &["automaticdestinations-ms"],
     media_types: &["application/CDFV2"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

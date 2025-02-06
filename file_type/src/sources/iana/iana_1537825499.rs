@@ -6,6 +6,6 @@ pub(crate) const IANA_1537825499: FileFormat = FileFormat {
     name: "vnd.zoo.kcl",
     extensions: &[],
     media_types: &["text/vnd.zoo.kcl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

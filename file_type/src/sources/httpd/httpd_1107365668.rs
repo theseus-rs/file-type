@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1107365668: FileFormat = FileFormat {
     name: "oasis opendocument spreadsheet",
     extensions: &["ods"],
     media_types: &["application/vnd.oasis.opendocument.spreadsheet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

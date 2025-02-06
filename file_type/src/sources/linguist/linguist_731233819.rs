@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_731233819: FileFormat = FileFormat {
     name: "NWScript",
     extensions: &["nss"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

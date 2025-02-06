@@ -6,6 +6,6 @@ pub(crate) const IANA_503630353: FileFormat = FileFormat {
     name: "mp21",
     extensions: &[],
     media_types: &["application/mp21"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

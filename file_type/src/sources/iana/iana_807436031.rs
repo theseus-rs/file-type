@@ -6,6 +6,6 @@ pub(crate) const IANA_807436031: FileFormat = FileFormat {
     name: "held+xml",
     extensions: &[],
     media_types: &["application/held+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

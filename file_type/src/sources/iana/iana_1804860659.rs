@@ -6,6 +6,6 @@ pub(crate) const IANA_1804860659: FileFormat = FileFormat {
     name: "vnd.ms-cab-compressed",
     extensions: &[],
     media_types: &["application/vnd.ms-cab-compressed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

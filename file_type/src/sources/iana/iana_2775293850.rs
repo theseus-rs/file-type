@@ -6,6 +6,6 @@ pub(crate) const IANA_2775293850: FileFormat = FileFormat {
     name: "troff",
     extensions: &[],
     media_types: &["text/troff"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

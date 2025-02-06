@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_638334590: FileFormat = FileFormat {
     name: "Mustache",
     extensions: &["mustache"],
     media_types: &["text/x-smarty"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

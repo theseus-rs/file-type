@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_246: FileFormat = FileFormat {
     name: "NetLogo",
     extensions: &["nlogo"],
     media_types: &["text/x-common-lisp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

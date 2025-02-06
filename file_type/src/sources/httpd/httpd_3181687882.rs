@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3181687882: FileFormat = FileFormat {
     name: "groove tool message",
     extensions: &["gtm"],
     media_types: &["application/vnd.groove-tool-message"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

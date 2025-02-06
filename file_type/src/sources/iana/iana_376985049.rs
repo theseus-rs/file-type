@@ -6,6 +6,6 @@ pub(crate) const IANA_376985049: FileFormat = FileFormat {
     name: "scaip+xml",
     extensions: &[],
     media_types: &["application/scaip+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

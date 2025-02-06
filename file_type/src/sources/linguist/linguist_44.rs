@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_44: FileFormat = FileFormat {
     name: "C-ObjDump",
     extensions: &["c-objdump"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

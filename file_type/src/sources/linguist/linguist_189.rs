@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_189: FileFormat = FileFormat {
     name: "Kotlin",
     extensions: &["kt", "ktm", "kts"],
     media_types: &["text/x-kotlin"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

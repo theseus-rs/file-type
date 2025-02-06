@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_436: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_436: FileFormat = FileFormat {
     name: "IBM DisplayWrite Revisable Form Text File",
     extensions: &["rft"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_122673484: FileFormat = FileFormat {
     id: 122_673_484,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_122673484: FileFormat = FileFormat {
     name: "Outline 4D Document",
     extensions: &["syv"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

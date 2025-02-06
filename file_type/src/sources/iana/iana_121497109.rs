@@ -6,6 +6,6 @@ pub(crate) const IANA_121497109: FileFormat = FileFormat {
     name: "vnd.piaccess.application-licence",
     extensions: &[],
     media_types: &["application/vnd.piaccess.application-licence"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

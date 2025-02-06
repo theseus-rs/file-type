@@ -6,6 +6,6 @@ pub(crate) const IANA_891056696: FileFormat = FileFormat {
     name: "vnd.MFER",
     extensions: &[],
     media_types: &["application/vnd.MFER"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

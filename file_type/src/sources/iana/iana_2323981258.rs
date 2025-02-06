@@ -6,6 +6,6 @@ pub(crate) const IANA_2323981258: FileFormat = FileFormat {
     name: "vnd.nokia.pcd+xml",
     extensions: &[],
     media_types: &["application/vnd.nokia.pcd+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

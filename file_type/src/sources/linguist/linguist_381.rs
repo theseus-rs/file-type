@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_381: FileFormat = FileFormat {
     name: "Uno",
     extensions: &["uno"],
     media_types: &["text/x-csharp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

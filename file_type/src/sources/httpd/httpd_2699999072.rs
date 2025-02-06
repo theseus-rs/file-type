@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2699999072: FileFormat = FileFormat {
     name: "chat",
     extensions: &["chat"],
     media_types: &["application/x-chat"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_577529595: FileFormat = FileFormat {
     name: "4D",
     extensions: &["4dm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

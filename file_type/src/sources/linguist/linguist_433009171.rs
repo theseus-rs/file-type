@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_433009171: FileFormat = FileFormat {
     name: "Answer Set Programming",
     extensions: &["lp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

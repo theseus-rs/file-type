@@ -6,6 +6,6 @@ pub(crate) const IANA_2215690392: FileFormat = FileFormat {
     name: "widget",
     extensions: &[],
     media_types: &["application/widget"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

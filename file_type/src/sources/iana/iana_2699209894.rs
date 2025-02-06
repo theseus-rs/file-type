@@ -6,6 +6,6 @@ pub(crate) const IANA_2699209894: FileFormat = FileFormat {
     name: "vnd.powerbuilder7",
     extensions: &[],
     media_types: &["application/vnd.powerbuilder7"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

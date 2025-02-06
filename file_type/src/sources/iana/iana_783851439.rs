@@ -6,6 +6,6 @@ pub(crate) const IANA_783851439: FileFormat = FileFormat {
     name: "uri-list",
     extensions: &[],
     media_types: &["text/uri-list"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

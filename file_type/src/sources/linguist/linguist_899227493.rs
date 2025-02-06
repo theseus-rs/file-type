@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_899227493: FileFormat = FileFormat {
     name: "RBS",
     extensions: &["rbs"],
     media_types: &["text/x-ruby"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2901791305: FileFormat = FileFormat {
     name: "ms wmx",
     extensions: &["wmx"],
     media_types: &["video/x-ms-wmx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

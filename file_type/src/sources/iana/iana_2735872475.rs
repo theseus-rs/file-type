@@ -6,6 +6,6 @@ pub(crate) const IANA_2735872475: FileFormat = FileFormat {
     name: "vnd.jam",
     extensions: &[],
     media_types: &["application/vnd.jam"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

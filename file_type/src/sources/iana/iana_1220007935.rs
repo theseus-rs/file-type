@@ -6,6 +6,6 @@ pub(crate) const IANA_1220007935: FileFormat = FileFormat {
     name: "richtext",
     extensions: &[],
     media_types: &["text/richtext"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

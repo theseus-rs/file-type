@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3913716454: FileFormat = FileFormat {
     name: "subrip",
     extensions: &["srt"],
     media_types: &["application/x-subrip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_385992043: FileFormat = FileFormat {
     name: "Mermaid",
     extensions: &["mermaid", "mmd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

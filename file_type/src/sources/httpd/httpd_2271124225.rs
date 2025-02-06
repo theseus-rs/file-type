@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2271124225: FileFormat = FileFormat {
     name: "rar compressed",
     extensions: &["rar"],
     media_types: &["application/x-rar-compressed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_76622680: FileFormat = FileFormat {
     id: 76_622_680,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_76622680: FileFormat = FileFormat {
     name: "Turboprint Wizard",
     extensions: &["wizard"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

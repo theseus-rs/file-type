@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3306561401: FileFormat = FileFormat {
     name: "tao intent module archive",
     extensions: &["tao"],
     media_types: &["application/vnd.tao.intent-module-archive"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

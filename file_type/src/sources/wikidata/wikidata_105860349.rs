@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105860349: FileFormat = FileFormat {
     id: 105_860_349,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105860349: FileFormat = FileFormat {
     name: "Rhino 3D Material",
     extensions: &["rmtl"],
     media_types: &["application/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const IANA_1554586014: FileFormat = FileFormat {
     name: "token-introspection+jwt",
     extensions: &[],
     media_types: &["application/token-introspection+jwt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

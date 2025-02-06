@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28757904: FileFormat = FileFormat {
     id: 28_757_904,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28757904: FileFormat = FileFormat {
     name: "Go script",
     extensions: &["go"],
     media_types: &["text/x-gosrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3651541187: FileFormat = FileFormat {
     name: "vnd.immervision-ivu",
     extensions: &[],
     media_types: &["application/vnd.immervision-ivu"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1416691203: FileFormat = FileFormat {
     name: "CDFX+XML",
     extensions: &[],
     media_types: &["application/CDFX+XML"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105851856: FileFormat = FileFormat {
     id: 105_851_856,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105851856: FileFormat = FileFormat {
     name: "EPOC Installation package (rel. 2,3,5)",
     extensions: &["sis"],
     media_types: &["x-epoc/x-sisx-app"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

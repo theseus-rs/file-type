@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131304603: FileFormat = FileFormat {
     id: 131_304_603,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131304603: FileFormat = FileFormat {
     name: "Transact-SQL file format",
     extensions: &["sql"],
     media_types: &["text/x-tsql"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

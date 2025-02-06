@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1054258749: FileFormat = FileFormat {
     name: "Gleam",
     extensions: &["gleam"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

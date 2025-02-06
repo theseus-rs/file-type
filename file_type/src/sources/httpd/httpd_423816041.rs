@@ -6,6 +6,6 @@ pub(crate) const HTTPD_423816041: FileFormat = FileFormat {
     name: "wspolicy xml",
     extensions: &["wspolicy"],
     media_types: &["application/wspolicy+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

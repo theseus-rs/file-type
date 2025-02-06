@@ -6,6 +6,6 @@ pub(crate) const IANA_3166445898: FileFormat = FileFormat {
     name: "mesh",
     extensions: &[],
     media_types: &["model/mesh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4012838875: FileFormat = FileFormat {
     name: "denovo fcselayout link",
     extensions: &["fe_launch"],
     media_types: &["application/vnd.denovo.fcselayout-link"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

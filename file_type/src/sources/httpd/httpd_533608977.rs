@@ -6,6 +6,6 @@ pub(crate) const HTTPD_533608977: FileFormat = FileFormat {
     name: "patch ops error xml",
     extensions: &["xer"],
     media_types: &["application/patch-ops-error+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

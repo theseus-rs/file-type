@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1718066417: FileFormat = FileFormat {
     name: "fli",
     extensions: &["fli"],
     media_types: &["video/x-fli"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

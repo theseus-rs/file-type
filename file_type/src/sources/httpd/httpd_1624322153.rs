@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1624322153: FileFormat = FileFormat {
     name: "ibm modcap",
     extensions: &["afp", "listafp", "list3820"],
     media_types: &["application/vnd.ibm.modcap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

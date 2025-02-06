@@ -6,6 +6,6 @@ pub(crate) const IANA_3305095848: FileFormat = FileFormat {
     name: "passport",
     extensions: &[],
     media_types: &["application/passport"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_358247048: FileFormat = FileFormat {
     name: "vnd.canon-cpdl",
     extensions: &[],
     media_types: &["application/vnd.canon-cpdl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

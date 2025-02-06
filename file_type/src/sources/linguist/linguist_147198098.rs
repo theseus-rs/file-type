@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_147198098: FileFormat = FileFormat {
     name: "Adobe Font Metrics",
     extensions: &["afm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

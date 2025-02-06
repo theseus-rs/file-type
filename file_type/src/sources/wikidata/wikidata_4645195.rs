@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_4645195: FileFormat = FileFormat {
     id: 4_645_195,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_4645195: FileFormat = FileFormat {
     name: "8-Bit Sampled Voice",
     extensions: &["8svx", "iff"],
     media_types: &["audio/8svx", "audio/x-8svx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

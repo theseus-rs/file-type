@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_334: FileFormat = FileFormat {
     name: "SQLPL",
     extensions: &["db2", "sql"],
     media_types: &["text/x-sql"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

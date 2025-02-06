@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_50375274: FileFormat = FileFormat {
     id: 50_375_274,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_50375274: FileFormat = FileFormat {
     name: "Microsoft OneNote Package File",
     extensions: &["onepkg"],
     media_types: &["application/onenote"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

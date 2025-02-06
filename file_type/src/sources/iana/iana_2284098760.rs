@@ -6,6 +6,6 @@ pub(crate) const IANA_2284098760: FileFormat = FileFormat {
     name: "u3d",
     extensions: &[],
     media_types: &["model/u3d"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

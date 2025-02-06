@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1218352227: FileFormat = FileFormat {
     name: "realvnc bed",
     extensions: &["bed"],
     media_types: &["application/vnd.realvnc.bed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

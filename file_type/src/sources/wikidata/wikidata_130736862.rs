@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130736862: FileFormat = FileFormat {
     id: 130_736_862,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130736862: FileFormat = FileFormat {
     name: "Scalate Server Page file",
     extensions: &["ssp"],
     media_types: &["application/x-ssp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

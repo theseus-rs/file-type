@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131471383: FileFormat = FileFormat {
     id: 131_471_383,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131471383: FileFormat = FileFormat {
     name: "Compressed MGH file format",
     extensions: &["mgh.gz", "mgz"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

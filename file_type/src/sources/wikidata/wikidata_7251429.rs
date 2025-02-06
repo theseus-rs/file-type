@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_7251429: FileFormat = FileFormat {
     id: 7_251_429,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_7251429: FileFormat = FileFormat {
     name: "Protein Data Bank",
     extensions: &["pdb"],
     media_types: &["chemical/x-pdb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2942315901: FileFormat = FileFormat {
     name: "dpgraph",
     extensions: &["dpg"],
     media_types: &["application/vnd.dpgraph"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

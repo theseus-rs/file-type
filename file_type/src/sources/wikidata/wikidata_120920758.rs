@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_120920758: FileFormat = FileFormat {
     id: 120_920_758,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_120920758: FileFormat = FileFormat {
     name: "Microsoft Money 2005 backup data",
     extensions: &["m14"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

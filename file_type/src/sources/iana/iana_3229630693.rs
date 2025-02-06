@@ -6,6 +6,6 @@ pub(crate) const IANA_3229630693: FileFormat = FileFormat {
     name: "vnd.lotus-organizer",
     extensions: &[],
     media_types: &["application/vnd.lotus-organizer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

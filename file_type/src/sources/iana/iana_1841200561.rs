@@ -6,6 +6,6 @@ pub(crate) const IANA_1841200561: FileFormat = FileFormat {
     name: "sru+xml",
     extensions: &[],
     media_types: &["application/sru+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

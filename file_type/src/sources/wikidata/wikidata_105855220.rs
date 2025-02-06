@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105855220: FileFormat = FileFormat {
     id: 105_855_220,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105855220: FileFormat = FileFormat {
     name: "XPS FixedDocument object",
     extensions: &["fdoc"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

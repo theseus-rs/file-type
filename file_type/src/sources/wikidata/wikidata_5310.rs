@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_5310: FileFormat = FileFormat {
     id: 5_310,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_5310: FileFormat = FileFormat {
     name: "LaTeX",
     extensions: &["tex"],
     media_types: &["application/x-latex"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

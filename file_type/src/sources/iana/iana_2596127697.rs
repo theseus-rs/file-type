@@ -6,6 +6,6 @@ pub(crate) const IANA_2596127697: FileFormat = FileFormat {
     name: "vnd.rapid",
     extensions: &[],
     media_types: &["application/vnd.rapid"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

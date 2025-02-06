@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_963512632: FileFormat = FileFormat {
     name: "Earthly",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

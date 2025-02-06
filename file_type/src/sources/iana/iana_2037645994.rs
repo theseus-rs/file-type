@@ -6,6 +6,6 @@ pub(crate) const IANA_2037645994: FileFormat = FileFormat {
     name: "vnd.ga4gh.passport+jwt",
     extensions: &[],
     media_types: &["application/vnd.ga4gh.passport+jwt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

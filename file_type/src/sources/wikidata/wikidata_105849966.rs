@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105849966: FileFormat = FileFormat {
     id: 105_849_966,
@@ -8,8 +6,8 @@ pub(crate) const WIKIDATA_105849966: FileFormat = FileFormat {
     name: "Clam AntiVirus Database",
     extensions: &["cld", "cud", "cvd", "info"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -20,7 +18,7 @@ pub(crate) const WIKIDATA_105849966: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -31,7 +29,7 @@ pub(crate) const WIKIDATA_105849966: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -42,7 +40,7 @@ pub(crate) const WIKIDATA_105849966: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

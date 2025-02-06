@@ -6,6 +6,6 @@ pub(crate) const HTTPD_354700864: FileFormat = FileFormat {
     name: "mpegurl",
     extensions: &["m3u"],
     media_types: &["audio/x-mpegurl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

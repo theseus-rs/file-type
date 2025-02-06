@@ -6,6 +6,6 @@ pub(crate) const IANA_4008059398: FileFormat = FileFormat {
     name: "mud+json",
     extensions: &[],
     media_types: &["application/mud+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

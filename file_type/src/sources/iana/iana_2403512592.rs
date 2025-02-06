@@ -6,6 +6,6 @@ pub(crate) const IANA_2403512592: FileFormat = FileFormat {
     name: "automationml-aml+xml",
     extensions: &[],
     media_types: &["application/automationml-aml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

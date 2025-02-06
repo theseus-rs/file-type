@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_264: FileFormat = FileFormat {
     name: "OpenEdge ABL",
     extensions: &["cls", "p", "w"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

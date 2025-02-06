@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_128622388: FileFormat = FileFormat {
     id: 128_622_388,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_128622388: FileFormat = FileFormat {
     name: "Augeas file format",
     extensions: &["aug"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

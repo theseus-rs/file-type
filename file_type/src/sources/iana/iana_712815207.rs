@@ -6,6 +6,6 @@ pub(crate) const IANA_712815207: FileFormat = FileFormat {
     name: "efi",
     extensions: &[],
     media_types: &["application/efi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

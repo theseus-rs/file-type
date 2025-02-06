@@ -6,6 +6,6 @@ pub(crate) const IANA_2205828326: FileFormat = FileFormat {
     name: "vnd.jsk.isdn-ngn",
     extensions: &[],
     media_types: &["application/vnd.jsk.isdn-ngn"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

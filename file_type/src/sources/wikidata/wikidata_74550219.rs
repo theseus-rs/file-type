@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_74550219: FileFormat = FileFormat {
     id: 74_550_219,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_74550219: FileFormat = FileFormat {
     name: "Micrografx clipart index",
     extensions: &["sbj"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

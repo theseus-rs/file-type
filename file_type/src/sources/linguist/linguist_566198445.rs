@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_566198445: FileFormat = FileFormat {
     name: "mdsvex",
     extensions: &["svx"],
     media_types: &["text/x-gfm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

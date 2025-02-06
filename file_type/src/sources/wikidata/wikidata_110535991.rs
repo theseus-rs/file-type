@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_110535991: FileFormat = FileFormat {
     id: 110_535_991,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_110535991: FileFormat = FileFormat {
     name: "Movie Magic Screenwriter backup document",
     extensions: &["bk"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

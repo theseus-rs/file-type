@@ -6,6 +6,6 @@ pub(crate) const IANA_826223537: FileFormat = FileFormat {
     name: "vnd.font-fontforge-sfd",
     extensions: &[],
     media_types: &["application/vnd.font-fontforge-sfd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

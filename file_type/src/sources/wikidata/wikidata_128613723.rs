@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_128613723: FileFormat = FileFormat {
     id: 128_613_723,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_128613723: FileFormat = FileFormat {
     name: "AspectJ file format",
     extensions: &["aj"],
     media_types: &["text/x-aspectj"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_965470757: FileFormat = FileFormat {
     name: "vnd.bzip3",
     extensions: &[],
     media_types: &["application/vnd.bzip3"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

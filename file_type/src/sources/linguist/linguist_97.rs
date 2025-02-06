@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_97: FileFormat = FileFormat {
     name: "Eagle",
     extensions: &["brd", "sch"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

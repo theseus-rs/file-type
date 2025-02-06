@@ -6,6 +6,6 @@ pub(crate) const IANA_3039970627: FileFormat = FileFormat {
     name: "vnd.net-fpx",
     extensions: &[],
     media_types: &["image/vnd.net-fpx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

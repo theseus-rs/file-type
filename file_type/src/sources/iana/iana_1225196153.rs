@@ -6,6 +6,6 @@ pub(crate) const IANA_1225196153: FileFormat = FileFormat {
     name: "vnd.globalgraphics.pgb",
     extensions: &[],
     media_types: &["image/vnd.globalgraphics.pgb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

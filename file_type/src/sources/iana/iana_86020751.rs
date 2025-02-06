@@ -6,6 +6,6 @@ pub(crate) const IANA_86020751: FileFormat = FileFormat {
     name: "PDX",
     extensions: &[],
     media_types: &["application/PDX"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

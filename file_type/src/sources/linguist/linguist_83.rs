@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_83: FileFormat = FileFormat {
     name: "DM",
     extensions: &["dm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

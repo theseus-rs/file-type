@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1401: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1401: FileFormat = FileFormat {
     name: "Microsoft Word (Generic)",
     extensions: &["doc"],
     media_types: &["application/msword"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[
         RelatedFormat {
             relationship_type: RelationshipType::HasLowerPriorityThan,

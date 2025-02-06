@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105866199: FileFormat = FileFormat {
     id: 105_866_199,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105866199: FileFormat = FileFormat {
     name: "Floppy Disk Emulator configuration",
     extensions: &["par"],
     media_types: &["text/play"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const IANA_3793119654: FileFormat = FileFormat {
     name: "vnd.ms-officetheme",
     extensions: &[],
     media_types: &["application/vnd.ms-officetheme"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_3077345: FileFormat = FileFormat {
     id: 3_077_345,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_3077345: FileFormat = FileFormat {
     name: "Polygon File Format",
     extensions: &["ply"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

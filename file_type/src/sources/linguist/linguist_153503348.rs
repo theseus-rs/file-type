@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_153503348: FileFormat = FileFormat {
     name: "Browserslist",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

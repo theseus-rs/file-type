@@ -1,6 +1,6 @@
 mod source;
 
-use file_type::format::{ByteSequence, FileFormat, InternalSignature, Regex, RelatedFormat, Token};
+use file_type::format::{ByteSequence, FileFormat, Regex, RelatedFormat, Signature, Token};
 
 pub use source::Source;
 
@@ -41,7 +41,7 @@ impl Source for FileFormat {
             self.name,
             extensions,
             media_types,
-            self.internal_signatures.iter().map(Source::to_source).collect::<Vec<String>>().join(", "),
+            self.signatures.iter().map(Source::to_source).collect::<Vec<String>>().join(", "),
             self.related_formats.iter().map(Source::to_source).collect::<Vec<String>>().join(", "),
         )
     }
@@ -69,7 +69,7 @@ impl Source for RelatedFormat {
     }
 }
 
-impl Source for InternalSignature {
+impl Source for Signature {
     fn to_source(&self) -> String {
         format!(
             "InternalSignature {{ byte_sequences: &[{}] }}",
@@ -156,7 +156,7 @@ mod test {
             name: "Portable Network Graphics",
             extensions: &["png"],
             media_types: &["image/png"],
-            internal_signatures: &[],
+            signatures: &[],
             related_formats: &[],
         };
 
@@ -191,7 +191,7 @@ mod test {
 
     #[test]
     fn test_signature_to_source() {
-        let internal_signature = InternalSignature {
+        let internal_signature = Signature {
             byte_sequences: &[],
         };
         assert_eq!(

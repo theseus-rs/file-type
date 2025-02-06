@@ -6,6 +6,6 @@ pub(crate) const IANA_1802856897: FileFormat = FileFormat {
     name: "vnd.hcl-bireports",
     extensions: &[],
     media_types: &["application/vnd.hcl-bireports"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

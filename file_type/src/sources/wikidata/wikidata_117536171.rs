@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_117536171: FileFormat = FileFormat {
     id: 117_536_171,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_117536171: FileFormat = FileFormat {
     name: "3D Studio (DOS) 2D/3D Loft Object File",
     extensions: &["lft"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

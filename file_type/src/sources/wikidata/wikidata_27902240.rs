@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27902240: FileFormat = FileFormat {
     id: 27_902_240,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27902240: FileFormat = FileFormat {
     name: "Amateur Data Interchange Format, ADI variant, version 3.0.4",
     extensions: &["adi"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

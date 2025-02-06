@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_34305583: FileFormat = FileFormat {
     id: 34_305_583,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_34305583: FileFormat = FileFormat {
     name: "Racket script",
     extensions: &["rkt", "rktd", "rktl"],
     media_types: &["application/x-racket", "text/x-racket"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

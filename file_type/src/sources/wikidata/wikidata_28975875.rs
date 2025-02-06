@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28975875: FileFormat = FileFormat {
     id: 28_975_875,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28975875: FileFormat = FileFormat {
     name: "OOGL TLIST Projective file",
     extensions: &["prj"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

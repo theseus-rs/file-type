@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105863210: FileFormat = FileFormat {
     id: 105_863_210,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105863210: FileFormat = FileFormat {
     name: "The Player 4.1a module",
     extensions: &["p41"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_173: FileFormat = FileFormat {
     name: "JFlex",
     extensions: &["flex", "jflex"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

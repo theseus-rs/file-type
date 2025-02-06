@@ -6,6 +6,6 @@ pub(crate) const IANA_2447158225: FileFormat = FileFormat {
     name: "vnd.openxmlformats-officedocument.drawing+xml",
     extensions: &[],
     media_types: &["application/vnd.openxmlformats-officedocument.drawing+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

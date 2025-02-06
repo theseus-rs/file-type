@@ -6,6 +6,6 @@ pub(crate) const IANA_582845968: FileFormat = FileFormat {
     name: "H265",
     extensions: &[],
     media_types: &["video/H265"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_61774372: FileFormat = FileFormat {
     id: 61_774_372,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_61774372: FileFormat = FileFormat {
     name: "WavPack Binary",
     extensions: &["wv"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

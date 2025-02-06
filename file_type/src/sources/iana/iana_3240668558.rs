@@ -6,6 +6,6 @@ pub(crate) const IANA_3240668558: FileFormat = FileFormat {
     name: "vnd.spotfire.sfs",
     extensions: &[],
     media_types: &["application/vnd.spotfire.sfs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

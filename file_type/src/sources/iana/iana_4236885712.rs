@@ -6,6 +6,6 @@ pub(crate) const IANA_4236885712: FileFormat = FileFormat {
     name: "asc",
     extensions: &[],
     media_types: &["audio/asc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

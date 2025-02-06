@@ -6,6 +6,6 @@ pub(crate) const IANA_863358936: FileFormat = FileFormat {
     name: "cnrp+xml",
     extensions: &[],
     media_types: &["application/cnrp+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

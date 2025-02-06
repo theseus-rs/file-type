@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3780084386: FileFormat = FileFormat {
     name: "zzazz deck xml",
     extensions: &["zaz"],
     media_types: &["application/vnd.zzazz.deck+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

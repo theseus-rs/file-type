@@ -6,6 +6,6 @@ pub(crate) const IANA_1803756610: FileFormat = FileFormat {
     name: "vnd.globalplatform.card-content-mgt-response",
     extensions: &[],
     media_types: &["application/vnd.globalplatform.card-content-mgt-response"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

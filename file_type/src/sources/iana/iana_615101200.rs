@@ -6,6 +6,6 @@ pub(crate) const IANA_615101200: FileFormat = FileFormat {
     name: "vnd.veryant.thin",
     extensions: &[],
     media_types: &["application/vnd.veryant.thin"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

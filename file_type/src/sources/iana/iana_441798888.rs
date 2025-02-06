@@ -6,6 +6,6 @@ pub(crate) const IANA_441798888: FileFormat = FileFormat {
     name: "vnd.apache.thrift.json",
     extensions: &[],
     media_types: &["application/vnd.apache.thrift.json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

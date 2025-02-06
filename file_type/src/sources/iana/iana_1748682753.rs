@@ -6,6 +6,6 @@ pub(crate) const IANA_1748682753: FileFormat = FileFormat {
     name: "vnd.laszip",
     extensions: &[],
     media_types: &["application/vnd.laszip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_341496207: FileFormat = FileFormat {
     name: "ecmascript",
     extensions: &["ecma"],
     media_types: &["application/ecmascript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

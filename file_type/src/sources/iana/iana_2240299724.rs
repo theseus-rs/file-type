@@ -6,6 +6,6 @@ pub(crate) const IANA_2240299724: FileFormat = FileFormat {
     name: "vnd.cns.anp1",
     extensions: &[],
     media_types: &["audio/vnd.cns.anp1"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

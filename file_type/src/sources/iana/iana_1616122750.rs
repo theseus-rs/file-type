@@ -6,6 +6,6 @@ pub(crate) const IANA_1616122750: FileFormat = FileFormat {
     name: "pkcs10",
     extensions: &[],
     media_types: &["application/pkcs10"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

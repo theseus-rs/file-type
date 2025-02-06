@@ -6,6 +6,6 @@ pub(crate) const IANA_2612689806: FileFormat = FileFormat {
     name: "vnd.adobe.partial-upload",
     extensions: &[],
     media_types: &["application/vnd.adobe.partial-upload"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

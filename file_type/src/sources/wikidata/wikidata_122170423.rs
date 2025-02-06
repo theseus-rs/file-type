@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_122170423: FileFormat = FileFormat {
     id: 122_170_423,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_122170423: FileFormat = FileFormat {
     name: "AmnezaVPN profile",
     extensions: &["vpn"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

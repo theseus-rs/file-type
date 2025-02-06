@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2395536891: FileFormat = FileFormat {
     name: "ms ims",
     extensions: &["ims"],
     media_types: &["application/vnd.ms-ims"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_51801521: FileFormat = FileFormat {
     id: 51_801_521,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_51801521: FileFormat = FileFormat {
     name: "Microsoft Excel Workspace",
     extensions: &["xlw"],
     media_types: &["application/vnd.ms-excel"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

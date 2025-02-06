@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_959889508: FileFormat = FileFormat {
     name: "Talon",
     extensions: &["talon"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_145: FileFormat = FileFormat {
     name: "HLSL",
     extensions: &["cginc", "fx", "fxh", "hlsl", "hlsli"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

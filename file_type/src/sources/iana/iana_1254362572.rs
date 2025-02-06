@@ -6,6 +6,6 @@ pub(crate) const IANA_1254362572: FileFormat = FileFormat {
     name: "vnd.dtg.local.html",
     extensions: &[],
     media_types: &["application/vnd.dtg.local.html"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2595581998: FileFormat = FileFormat {
     name: "ms wax",
     extensions: &["wax"],
     media_types: &["audio/x-ms-wax"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1337992840: FileFormat = FileFormat {
     name: "vnd.mix",
     extensions: &[],
     media_types: &["image/vnd.mix"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

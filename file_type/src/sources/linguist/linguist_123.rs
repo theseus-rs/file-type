@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_123: FileFormat = FileFormat {
     name: "GDScript",
     extensions: &["gd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

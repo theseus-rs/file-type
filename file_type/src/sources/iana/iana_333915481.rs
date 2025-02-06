@@ -6,6 +6,6 @@ pub(crate) const IANA_333915481: FileFormat = FileFormat {
     name: "enriched",
     extensions: &[],
     media_types: &["text/enriched"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

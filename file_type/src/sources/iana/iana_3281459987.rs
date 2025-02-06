@@ -6,6 +6,6 @@ pub(crate) const IANA_3281459987: FileFormat = FileFormat {
     name: "ief",
     extensions: &[],
     media_types: &["image/ief"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1102824002: FileFormat = FileFormat {
     name: "vivo",
     extensions: &["viv"],
     media_types: &["video/vnd.vivo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

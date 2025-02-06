@@ -6,6 +6,6 @@ pub(crate) const IANA_3083546734: FileFormat = FileFormat {
     name: "dicom+xml",
     extensions: &[],
     media_types: &["application/dicom+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

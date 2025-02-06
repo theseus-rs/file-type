@@ -6,6 +6,6 @@ pub(crate) const IANA_3127172354: FileFormat = FileFormat {
     name: "c2pa",
     extensions: &[],
     media_types: &["application/c2pa"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

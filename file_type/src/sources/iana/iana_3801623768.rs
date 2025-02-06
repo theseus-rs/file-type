@@ -6,6 +6,6 @@ pub(crate) const IANA_3801623768: FileFormat = FileFormat {
     name: "vnd.d3m-dataset",
     extensions: &[],
     media_types: &["application/vnd.d3m-dataset"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

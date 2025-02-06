@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3651541187: FileFormat = FileFormat {
     name: "immervision ivu",
     extensions: &["ivu"],
     media_types: &["application/vnd.immervision-ivu"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

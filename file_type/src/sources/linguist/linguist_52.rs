@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_52: FileFormat = FileFormat {
     name: "Cap'n Proto",
     extensions: &["capnp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

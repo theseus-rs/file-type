@@ -6,6 +6,6 @@ pub(crate) const HTTPD_843590016: FileFormat = FileFormat {
     name: "openxmlformats officedocument wordprocessingml document",
     extensions: &["docx"],
     media_types: &["application/vnd.openxmlformats-officedocument.wordprocessingml.document"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

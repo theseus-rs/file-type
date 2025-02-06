@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_173616037: FileFormat = FileFormat {
     name: "Rascal",
     extensions: &["rsc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

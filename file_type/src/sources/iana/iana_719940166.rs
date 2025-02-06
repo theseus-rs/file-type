@@ -6,6 +6,6 @@ pub(crate) const IANA_719940166: FileFormat = FileFormat {
     name: "vnd.is-xpr",
     extensions: &[],
     media_types: &["application/vnd.is-xpr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

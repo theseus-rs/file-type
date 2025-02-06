@@ -6,6 +6,6 @@ pub(crate) const IANA_1573981518: FileFormat = FileFormat {
     name: "private-token-response",
     extensions: &[],
     media_types: &["application/private-token-response"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

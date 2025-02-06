@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_123537020: FileFormat = FileFormat {
     id: 123_537_020,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_123537020: FileFormat = FileFormat {
     name: "QtiPlot document",
     extensions: &["qti"],
     media_types: &["application/x-qtiplot"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

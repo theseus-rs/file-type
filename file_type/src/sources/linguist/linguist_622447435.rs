@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_622447435: FileFormat = FileFormat {
     name: "KiCad Schematic",
     extensions: &["kicad_sch", "sch"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

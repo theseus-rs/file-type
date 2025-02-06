@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111356350: FileFormat = FileFormat {
     id: 111_356_350,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111356350: FileFormat = FileFormat {
     name: "Turtle Beach WaveFront program format",
     extensions: &["wfp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

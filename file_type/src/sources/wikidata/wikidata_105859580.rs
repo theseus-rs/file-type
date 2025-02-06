@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105859580: FileFormat = FileFormat {
     id: 105_859_580,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105859580: FileFormat = FileFormat {
     name: "ParaView VTK Unstructured grid",
     extensions: &["vtu"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

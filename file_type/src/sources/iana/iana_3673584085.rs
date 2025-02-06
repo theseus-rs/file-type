@@ -6,6 +6,6 @@ pub(crate) const IANA_3673584085: FileFormat = FileFormat {
     name: "vnd.uplanet.list-wbxml",
     extensions: &[],
     media_types: &["application/vnd.uplanet.list-wbxml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_129167131: FileFormat = FileFormat {
     id: 129_167_131,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_129167131: FileFormat = FileFormat {
     name: "Evoque file format",
     extensions: &["evoque"],
     media_types: &["application/x-evoque"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

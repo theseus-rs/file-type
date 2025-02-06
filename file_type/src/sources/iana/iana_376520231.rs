@@ -6,6 +6,6 @@ pub(crate) const IANA_376520231: FileFormat = FileFormat {
     name: "atsc-dwd+xml",
     extensions: &[],
     media_types: &["application/atsc-dwd+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

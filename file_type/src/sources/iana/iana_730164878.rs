@@ -6,6 +6,6 @@ pub(crate) const IANA_730164878: FileFormat = FileFormat {
     name: "vnd.amazon.mobi8-ebook",
     extensions: &[],
     media_types: &["application/vnd.amazon.mobi8-ebook"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

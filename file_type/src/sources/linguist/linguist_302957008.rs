@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_302957008: FileFormat = FileFormat {
     name: "GN",
     extensions: &["gn", "gni"],
     media_types: &["text/x-python"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

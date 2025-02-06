@@ -6,6 +6,6 @@ pub(crate) const IANA_667863728: FileFormat = FileFormat {
     name: "vnd.etsi.overload-control-policy-dataset+xml",
     extensions: &[],
     media_types: &["application/vnd.etsi.overload-control-policy-dataset+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

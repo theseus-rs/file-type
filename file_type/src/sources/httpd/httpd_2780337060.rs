@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2780337060: FileFormat = FileFormat {
     name: "mfer",
     extensions: &["mwf"],
     media_types: &["application/vnd.mfer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

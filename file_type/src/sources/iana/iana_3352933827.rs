@@ -6,6 +6,6 @@ pub(crate) const IANA_3352933827: FileFormat = FileFormat {
     name: "vnd.llamagraphics.life-balance.desktop",
     extensions: &[],
     media_types: &["application/vnd.llamagraphics.life-balance.desktop"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

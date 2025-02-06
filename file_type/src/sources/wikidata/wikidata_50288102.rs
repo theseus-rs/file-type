@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_50288102: FileFormat = FileFormat {
     id: 50_288_102,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_50288102: FileFormat = FileFormat {
     name: "Mathcad Document, binary file format",
     extensions: &["mcd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

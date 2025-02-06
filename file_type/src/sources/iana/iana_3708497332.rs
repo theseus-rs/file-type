@@ -6,6 +6,6 @@ pub(crate) const IANA_3708497332: FileFormat = FileFormat {
     name: "srgs",
     extensions: &[],
     media_types: &["application/srgs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

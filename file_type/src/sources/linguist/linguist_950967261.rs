@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_950967261: FileFormat = FileFormat {
     name: "Win32 Message File",
     extensions: &["mc"],
     media_types: &["text/x-properties"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

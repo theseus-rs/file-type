@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1035892117: FileFormat = FileFormat {
     name: "TSV",
     extensions: &["tsv", "vcf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

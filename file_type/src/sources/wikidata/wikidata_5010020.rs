@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_5010020: FileFormat = FileFormat {
     id: 5_010_020,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_5010020: FileFormat = FileFormat {
     name: "CDXML",
     extensions: &["cdxml"],
     media_types: &["chemical/x-cdxml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

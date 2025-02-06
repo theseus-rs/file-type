@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27960157: FileFormat = FileFormat {
     id: 27_960_157,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27960157: FileFormat = FileFormat {
     name: "Matroska Audio",
     extensions: &["mka"],
     media_types: &["audio/matroska", "audio/x-matroska"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

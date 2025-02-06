@@ -6,6 +6,6 @@ pub(crate) const IANA_911453044: FileFormat = FileFormat {
     name: "vnd.biopax.rdf+xml",
     extensions: &[],
     media_types: &["application/vnd.biopax.rdf+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

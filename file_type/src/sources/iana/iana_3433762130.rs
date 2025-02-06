@@ -6,6 +6,6 @@ pub(crate) const IANA_3433762130: FileFormat = FileFormat {
     name: "rfc+xml",
     extensions: &[],
     media_types: &["application/rfc+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

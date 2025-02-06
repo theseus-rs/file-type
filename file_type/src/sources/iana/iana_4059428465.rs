@@ -6,6 +6,6 @@ pub(crate) const IANA_4059428465: FileFormat = FileFormat {
     name: "vcard+json",
     extensions: &[],
     media_types: &["application/vcard+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

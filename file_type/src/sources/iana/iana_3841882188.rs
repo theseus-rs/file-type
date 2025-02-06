@@ -6,6 +6,6 @@ pub(crate) const IANA_3841882188: FileFormat = FileFormat {
     name: "vnd.wv.csp+wbxml",
     extensions: &[],
     media_types: &["application/vnd.wv.csp+wbxml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

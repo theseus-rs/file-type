@@ -6,6 +6,6 @@ pub(crate) const IANA_2007977406: FileFormat = FileFormat {
     name: "ibe-pp-data",
     extensions: &[],
     media_types: &["application/ibe-pp-data"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

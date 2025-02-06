@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_241: FileFormat = FileFormat {
     name: "NL",
     extensions: &["nl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

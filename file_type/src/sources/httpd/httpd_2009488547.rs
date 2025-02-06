@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2009488547: FileFormat = FileFormat {
     name: "sparql query",
     extensions: &["rq"],
     media_types: &["application/sparql-query"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

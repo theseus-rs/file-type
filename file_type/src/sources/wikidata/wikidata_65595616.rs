@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_65595616: FileFormat = FileFormat {
     id: 65_595_616,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_65595616: FileFormat = FileFormat {
     name: "Variant Call Format",
     extensions: &["vcf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

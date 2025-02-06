@@ -6,6 +6,6 @@ pub(crate) const IANA_3395190901: FileFormat = FileFormat {
     name: "ISUP",
     extensions: &[],
     media_types: &["application/ISUP"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

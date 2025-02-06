@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1767: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1767: FileFormat = FileFormat {
     name: "QCP Audio File Format",
     extensions: &["qcp"],
     media_types: &["audio/qcelp"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

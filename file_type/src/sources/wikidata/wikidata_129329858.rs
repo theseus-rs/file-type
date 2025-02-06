@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_129329858: FileFormat = FileFormat {
     id: 129_329_858,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_129329858: FileFormat = FileFormat {
     name: "Genshi file",
     extensions: &["kid"],
     media_types: &["application/x-genshi", "application/x-kid"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

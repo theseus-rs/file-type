@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1722242485: FileFormat = FileFormat {
     name: "google earth kmz",
     extensions: &["kmz"],
     media_types: &["application/vnd.google-earth.kmz"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

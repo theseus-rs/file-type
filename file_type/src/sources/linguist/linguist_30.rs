@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_30: FileFormat = FileFormat {
     name: "Befunge",
     extensions: &["befunge", "bf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

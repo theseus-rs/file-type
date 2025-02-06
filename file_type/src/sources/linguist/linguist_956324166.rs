@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_956324166: FileFormat = FileFormat {
     name: "Git Attributes",
     extensions: &[],
     media_types: &["text/x-sh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

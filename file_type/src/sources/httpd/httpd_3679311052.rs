@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3679311052: FileFormat = FileFormat {
     name: "fly",
     extensions: &["fly"],
     media_types: &["text/vnd.fly"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

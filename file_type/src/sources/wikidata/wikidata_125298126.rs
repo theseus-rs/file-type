@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125298126: FileFormat = FileFormat {
     id: 125_298_126,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125298126: FileFormat = FileFormat {
     name: "Scheme library definition",
     extensions: &["sld"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

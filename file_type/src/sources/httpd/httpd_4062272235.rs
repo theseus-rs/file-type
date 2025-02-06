@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4062272235: FileFormat = FileFormat {
     name: "java vm",
     extensions: &["class"],
     media_types: &["application/java-vm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

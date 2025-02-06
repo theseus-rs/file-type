@@ -6,6 +6,6 @@ pub(crate) const IANA_446836469: FileFormat = FileFormat {
     name: "vnd.wap.wbxml",
     extensions: &[],
     media_types: &["application/vnd.wap.wbxml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

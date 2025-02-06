@@ -6,6 +6,6 @@ pub(crate) const IANA_454801860: FileFormat = FileFormat {
     name: "vnd.fst",
     extensions: &[],
     media_types: &["image/vnd.fst"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

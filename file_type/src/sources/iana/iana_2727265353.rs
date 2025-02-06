@@ -6,6 +6,6 @@ pub(crate) const IANA_2727265353: FileFormat = FileFormat {
     name: "alto-costmap+json",
     extensions: &[],
     media_types: &["application/alto-costmap+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

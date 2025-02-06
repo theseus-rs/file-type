@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_82: FileFormat = FileFormat {
     name: "DIGITAL Command Language",
     extensions: &["com"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

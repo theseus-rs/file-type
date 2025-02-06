@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2819658116: FileFormat = FileFormat {
     name: "amazon ebook",
     extensions: &["azw"],
     media_types: &["application/vnd.amazon.ebook"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

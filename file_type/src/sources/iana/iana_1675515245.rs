@@ -6,6 +6,6 @@ pub(crate) const IANA_1675515245: FileFormat = FileFormat {
     name: "vnd.blueice.multipass",
     extensions: &[],
     media_types: &["application/vnd.blueice.multipass"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

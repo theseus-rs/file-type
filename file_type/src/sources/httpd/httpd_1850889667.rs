@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1850889667: FileFormat = FileFormat {
     name: "freearc",
     extensions: &["arc"],
     media_types: &["application/x-freearc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

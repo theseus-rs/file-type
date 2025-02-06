@@ -6,6 +6,6 @@ pub(crate) const IANA_398048020: FileFormat = FileFormat {
     name: "vnd.pocketlearn",
     extensions: &[],
     media_types: &["application/vnd.pocketlearn"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

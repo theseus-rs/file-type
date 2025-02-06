@@ -6,6 +6,6 @@ pub(crate) const IANA_3278585447: FileFormat = FileFormat {
     name: "vnd.groove-vcard",
     extensions: &[],
     media_types: &["application/vnd.groove-vcard"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

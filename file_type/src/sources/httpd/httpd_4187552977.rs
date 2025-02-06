@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4187552977: FileFormat = FileFormat {
     name: "atomcat xml",
     extensions: &["atomcat"],
     media_types: &["application/atomcat+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

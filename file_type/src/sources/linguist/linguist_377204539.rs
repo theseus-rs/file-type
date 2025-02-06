@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_377204539: FileFormat = FileFormat {
     name: "Linear Programming",
     extensions: &["lp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

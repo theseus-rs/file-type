@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1065388935: FileFormat = FileFormat {
     name: "x3d binary",
     extensions: &["x3db", "x3dbz"],
     media_types: &["model/x3d+binary"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

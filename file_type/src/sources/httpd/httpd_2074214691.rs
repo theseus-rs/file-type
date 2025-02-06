@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2074214691: FileFormat = FileFormat {
     name: "rtf",
     extensions: &["rtf"],
     media_types: &["application/rtf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

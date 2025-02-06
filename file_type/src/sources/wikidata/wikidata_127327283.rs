@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_127327283: FileFormat = FileFormat {
     id: 127_327_283,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_127327283: FileFormat = FileFormat {
     name: "Ada file",
     extensions: &["adb"],
     media_types: &["text/x-ada"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

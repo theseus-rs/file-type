@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_34303668: FileFormat = FileFormat {
     id: 34_303_668,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_34303668: FileFormat = FileFormat {
     name: "Syntactically Awesome StyleSheet",
     extensions: &["sass"],
     media_types: &["text/x-sass"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

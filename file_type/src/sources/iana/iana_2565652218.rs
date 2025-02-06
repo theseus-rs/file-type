@@ -6,6 +6,6 @@ pub(crate) const IANA_2565652218: FileFormat = FileFormat {
     name: "vnd.previewsystems.box",
     extensions: &[],
     media_types: &["application/vnd.previewsystems.box"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

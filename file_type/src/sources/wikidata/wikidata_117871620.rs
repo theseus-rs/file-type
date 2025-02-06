@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_117871620: FileFormat = FileFormat {
     id: 117_871_620,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_117871620: FileFormat = FileFormat {
     name: "U.S. Robotics WorldPort 2496 file",
     extensions: &["wpf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2162195667: FileFormat = FileFormat {
     name: "cpio",
     extensions: &["cpio"],
     media_types: &["application/x-cpio"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

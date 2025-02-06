@@ -6,6 +6,6 @@ pub(crate) const IANA_3278948029: FileFormat = FileFormat {
     name: "vnd.fujitsu.oasysprs",
     extensions: &[],
     media_types: &["application/vnd.fujitsu.oasysprs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

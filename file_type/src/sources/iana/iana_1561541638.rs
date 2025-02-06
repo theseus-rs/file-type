@@ -6,6 +6,6 @@ pub(crate) const IANA_1561541638: FileFormat = FileFormat {
     name: "vnd.in3d.3dml",
     extensions: &[],
     media_types: &["text/vnd.in3d.3dml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

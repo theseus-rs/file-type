@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1945973476: FileFormat = FileFormat {
     name: "cif",
     extensions: &["cif"],
     media_types: &["chemical/x-cif"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

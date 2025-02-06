@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2500122023: FileFormat = FileFormat {
     name: "otf",
     extensions: &["otf"],
     media_types: &["font/otf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

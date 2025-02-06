@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_988547172: FileFormat = FileFormat {
     name: "Common Workflow Language",
     extensions: &["cwl"],
     media_types: &["text/x-yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_112668672: FileFormat = FileFormat {
     id: 112_668_672,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_112668672: FileFormat = FileFormat {
     name: "Lightscape Blocks",
     extensions: &["blk"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

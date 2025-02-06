@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_938193433: FileFormat = FileFormat {
     name: "MiniZinc Data",
     extensions: &["dzn"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

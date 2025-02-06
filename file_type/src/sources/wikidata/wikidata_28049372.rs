@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28049372: FileFormat = FileFormat {
     id: 28_049_372,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_28049372: FileFormat = FileFormat {
     name: "ComputerEyes Raw Data Format, low resolution",
     extensions: &["ce1"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

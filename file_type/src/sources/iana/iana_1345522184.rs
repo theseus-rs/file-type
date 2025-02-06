@@ -6,6 +6,6 @@ pub(crate) const IANA_1345522184: FileFormat = FileFormat {
     name: "ppsp-tracker+json",
     extensions: &[],
     media_types: &["application/ppsp-tracker+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

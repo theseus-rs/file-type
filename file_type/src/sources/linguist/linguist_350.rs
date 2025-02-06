@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_350: FileFormat = FileFormat {
     name: "Slim",
     extensions: &["slim"],
     media_types: &["text/x-slim"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

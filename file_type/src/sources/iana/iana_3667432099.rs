@@ -6,6 +6,6 @@ pub(crate) const IANA_3667432099: FileFormat = FileFormat {
     name: "vnd.afpc.modca-cmtable",
     extensions: &[],
     media_types: &["application/vnd.afpc.modca-cmtable"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

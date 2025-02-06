@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_341: FileFormat = FileFormat {
     name: "Scala",
     extensions: &["kojo", "sbt", "sc", "scala"],
     media_types: &["text/x-scala"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

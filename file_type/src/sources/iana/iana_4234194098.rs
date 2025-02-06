@@ -6,6 +6,6 @@ pub(crate) const IANA_4234194098: FileFormat = FileFormat {
     name: "vnd.emclient.accessrequest+xml",
     extensions: &[],
     media_types: &["application/vnd.emclient.accessrequest+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

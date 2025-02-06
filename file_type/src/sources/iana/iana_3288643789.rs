@@ -6,6 +6,6 @@ pub(crate) const IANA_3288643789: FileFormat = FileFormat {
     name: "x-pki-message",
     extensions: &[],
     media_types: &["application/x-pki-message"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

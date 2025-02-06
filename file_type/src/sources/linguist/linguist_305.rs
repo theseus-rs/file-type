@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_305: FileFormat = FileFormat {
     name: "QML",
     extensions: &["qbs", "qml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

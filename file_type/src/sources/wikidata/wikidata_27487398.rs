@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27487398: FileFormat = FileFormat {
     id: 27_487_398,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27487398: FileFormat = FileFormat {
     name: "Shapefile geocoding index, ODB format",
     extensions: &["mxs"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

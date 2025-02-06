@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_474864066: FileFormat = FileFormat {
     name: "Muse",
     extensions: &["muse"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

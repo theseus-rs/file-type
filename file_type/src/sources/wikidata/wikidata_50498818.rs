@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_50498818: FileFormat = FileFormat {
     id: 50_498_818,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_50498818: FileFormat = FileFormat {
     name: "Geography Markup Language, version 3.2",
     extensions: &["gml"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

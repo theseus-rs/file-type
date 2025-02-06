@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856992: FileFormat = FileFormat {
     id: 105_856_992,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105856992: FileFormat = FileFormat {
     name: "GeoplanW data",
     extensions: &["g2w"],
     media_types: &["application/vnd.geoplan"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_32: FileFormat = FileFormat {
     name: "BitBake",
     extensions: &["bb", "bbappend", "bbclass", "inc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

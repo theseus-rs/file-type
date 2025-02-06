@@ -6,6 +6,6 @@ pub(crate) const IANA_4070986358: FileFormat = FileFormat {
     name: "vnd.chess-pgn",
     extensions: &[],
     media_types: &["application/vnd.chess-pgn"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

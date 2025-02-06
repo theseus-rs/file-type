@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130472499: FileFormat = FileFormat {
     id: 130_472_499,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130472499: FileFormat = FileFormat {
     name: "Pig source code file",
     extensions: &["pig"],
     media_types: &["text/x-pig"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

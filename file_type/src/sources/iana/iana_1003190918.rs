@@ -6,6 +6,6 @@ pub(crate) const IANA_1003190918: FileFormat = FileFormat {
     name: "vnd.medcalcdata",
     extensions: &[],
     media_types: &["application/vnd.medcalcdata"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

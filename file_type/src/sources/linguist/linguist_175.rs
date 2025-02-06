@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_175: FileFormat = FileFormat {
     name: "JSON5",
     extensions: &["json5"],
     media_types: &["application/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

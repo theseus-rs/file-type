@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4246575942: FileFormat = FileFormat {
     name: "ms playready media pyv",
     extensions: &["pyv"],
     media_types: &["video/vnd.ms-playready.media.pyv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

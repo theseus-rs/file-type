@@ -6,6 +6,6 @@ pub(crate) const HTTPD_941850155: FileFormat = FileFormat {
     name: "eva",
     extensions: &["eva"],
     media_types: &["application/x-eva"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

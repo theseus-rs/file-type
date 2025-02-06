@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_992375436: FileFormat = FileFormat {
     name: "cURL Config",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

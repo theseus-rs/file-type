@@ -6,6 +6,6 @@ pub(crate) const IANA_2227453058: FileFormat = FileFormat {
     name: "vnd.ericsson.quickcall",
     extensions: &[],
     media_types: &["application/vnd.ericsson.quickcall"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

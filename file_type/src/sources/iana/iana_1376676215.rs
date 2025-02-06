@@ -6,6 +6,6 @@ pub(crate) const IANA_1376676215: FileFormat = FileFormat {
     name: "msc-mixer+xml",
     extensions: &[],
     media_types: &["application/msc-mixer+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

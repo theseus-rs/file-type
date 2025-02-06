@@ -6,6 +6,6 @@ pub(crate) const IANA_3373238147: FileFormat = FileFormat {
     name: "vnd.1000minds.decision-model+xml",
     extensions: &[],
     media_types: &["application/vnd.1000minds.decision-model+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

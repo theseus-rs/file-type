@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130225235: FileFormat = FileFormat {
     id: 130_225_235,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130225235: FileFormat = FileFormat {
     name: "Limbo file format",
     extensions: &["b"],
     media_types: &["text/limbo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

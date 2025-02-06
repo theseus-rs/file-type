@@ -6,6 +6,6 @@ pub(crate) const IANA_4077824776: FileFormat = FileFormat {
     name: "vnd.commonspace",
     extensions: &[],
     media_types: &["application/vnd.commonspace"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

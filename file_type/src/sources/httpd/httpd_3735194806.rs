@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3735194806: FileFormat = FileFormat {
     name: "sema",
     extensions: &["sema"],
     media_types: &["application/vnd.sema"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

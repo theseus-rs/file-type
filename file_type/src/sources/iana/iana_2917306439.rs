@@ -6,6 +6,6 @@ pub(crate) const IANA_2917306439: FileFormat = FileFormat {
     name: "global-headers",
     extensions: &[],
     media_types: &["message/global-headers"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

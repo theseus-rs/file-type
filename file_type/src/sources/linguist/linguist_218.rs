@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_218: FileFormat = FileFormat {
     name: "MTML",
     extensions: &["mtml"],
     media_types: &["text/html"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

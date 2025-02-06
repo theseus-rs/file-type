@@ -6,6 +6,6 @@ pub(crate) const IANA_2377153967: FileFormat = FileFormat {
     name: "IOTP",
     extensions: &[],
     media_types: &["application/IOTP"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

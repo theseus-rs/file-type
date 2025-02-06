@@ -6,6 +6,6 @@ pub(crate) const IANA_39470048: FileFormat = FileFormat {
     name: "pdf",
     extensions: &[],
     media_types: &["application/pdf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

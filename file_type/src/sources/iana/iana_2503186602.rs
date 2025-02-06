@@ -6,6 +6,6 @@ pub(crate) const IANA_2503186602: FileFormat = FileFormat {
     name: "vnd.cab-jscript",
     extensions: &[],
     media_types: &["application/vnd.cab-jscript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

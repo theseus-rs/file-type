@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3085967537: FileFormat = FileFormat {
     name: "andrew inset",
     extensions: &["ez"],
     media_types: &["application/andrew-inset"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

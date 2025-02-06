@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3408491255: FileFormat = FileFormat {
     name: "msschedule",
     extensions: &["scd"],
     media_types: &["application/x-msschedule"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_4231354016: FileFormat = FileFormat {
     name: "32kadpcm",
     extensions: &[],
     media_types: &["audio/32kadpcm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

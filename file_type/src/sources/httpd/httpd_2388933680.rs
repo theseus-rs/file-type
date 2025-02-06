@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2388933680: FileFormat = FileFormat {
     name: "t3vm image",
     extensions: &["t3"],
     media_types: &["application/x-t3vm-image"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

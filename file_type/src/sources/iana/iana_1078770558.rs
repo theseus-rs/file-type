@@ -6,6 +6,6 @@ pub(crate) const IANA_1078770558: FileFormat = FileFormat {
     name: "x-emf - DEPRECATED in favor of image/emf",
     extensions: &[],
     media_types: &["image/x-emf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

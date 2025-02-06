@@ -6,6 +6,6 @@ pub(crate) const IANA_2039821742: FileFormat = FileFormat {
     name: "cwl+yaml",
     extensions: &[],
     media_types: &["application/cwl+yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

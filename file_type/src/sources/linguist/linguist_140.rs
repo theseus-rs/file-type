@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_140: FileFormat = FileFormat {
     name: "Graphviz (DOT)",
     extensions: &["dot", "gv"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

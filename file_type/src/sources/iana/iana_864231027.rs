@@ -6,6 +6,6 @@ pub(crate) const IANA_864231027: FileFormat = FileFormat {
     name: "vnd.ocf+cbor",
     extensions: &[],
     media_types: &["application/vnd.ocf+cbor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

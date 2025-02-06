@@ -6,6 +6,6 @@ pub(crate) const IANA_387630209: FileFormat = FileFormat {
     name: "vcard+xml",
     extensions: &[],
     media_types: &["application/vcard+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

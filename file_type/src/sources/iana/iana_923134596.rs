@@ -6,6 +6,6 @@ pub(crate) const IANA_923134596: FileFormat = FileFormat {
     name: "vnd.apple.numbers",
     extensions: &[],
     media_types: &["application/vnd.apple.numbers"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

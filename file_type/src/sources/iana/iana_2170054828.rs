@@ -6,6 +6,6 @@ pub(crate) const IANA_2170054828: FileFormat = FileFormat {
     name: "vnd.mason+json",
     extensions: &[],
     media_types: &["application/vnd.mason+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

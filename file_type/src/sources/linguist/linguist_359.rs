@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_359: FileFormat = FileFormat {
     name: "Stylus",
     extensions: &["styl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

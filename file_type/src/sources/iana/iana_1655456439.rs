@@ -6,6 +6,6 @@ pub(crate) const IANA_1655456439: FileFormat = FileFormat {
     name: "news (OBSOLETED by [RFC5537])",
     extensions: &[],
     media_types: &["message/news"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

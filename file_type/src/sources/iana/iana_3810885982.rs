@@ -6,6 +6,6 @@ pub(crate) const IANA_3810885982: FileFormat = FileFormat {
     name: "linkset+json",
     extensions: &[],
     media_types: &["application/linkset+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2276843213: FileFormat = FileFormat {
     name: "authorware bin",
     extensions: &["aab", "x32", "u32", "vox"],
     media_types: &["application/x-authorware-bin"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_356063509: FileFormat = FileFormat {
     name: "CUE",
     extensions: &["cue"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

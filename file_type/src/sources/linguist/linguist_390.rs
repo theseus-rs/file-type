@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_390: FileFormat = FileFormat {
     name: "Volt",
     extensions: &["volt"],
     media_types: &["text/x-d"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

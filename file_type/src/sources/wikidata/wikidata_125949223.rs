@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125949223: FileFormat = FileFormat {
     id: 125_949_223,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125949223: FileFormat = FileFormat {
     name: "ICC Profile iccMAX",
     extensions: &["icc", "icm"],
     media_types: &["application/vnd.iccprofile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

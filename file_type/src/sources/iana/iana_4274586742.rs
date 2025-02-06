@@ -6,6 +6,6 @@ pub(crate) const IANA_4274586742: FileFormat = FileFormat {
     name: "vnd.nokia.conml+wbxml",
     extensions: &[],
     media_types: &["application/vnd.nokia.conml+wbxml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

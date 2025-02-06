@@ -6,6 +6,6 @@ pub(crate) const HTTPD_611935444: FileFormat = FileFormat {
     name: "pascal",
     extensions: &["p", "pas"],
     media_types: &["text/x-pascal"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

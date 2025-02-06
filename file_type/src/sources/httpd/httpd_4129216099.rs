@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4129216099: FileFormat = FileFormat {
     name: "jpeg",
     extensions: &["jpgv"],
     media_types: &["video/jpeg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

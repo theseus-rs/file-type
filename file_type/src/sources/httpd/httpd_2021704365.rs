@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2021704365: FileFormat = FileFormat {
     name: "smv",
     extensions: &["smv"],
     media_types: &["video/x-smv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

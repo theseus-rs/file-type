@@ -6,6 +6,6 @@ pub(crate) const IANA_1236131182: FileFormat = FileFormat {
     name: "vnd.joost.joda-archive",
     extensions: &[],
     media_types: &["application/vnd.joost.joda-archive"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

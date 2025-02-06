@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_986054050: FileFormat = FileFormat {
     name: "Genero 4gl",
     extensions: &["4gl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

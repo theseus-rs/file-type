@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105864845: FileFormat = FileFormat {
     id: 105_864_845,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105864845: FileFormat = FileFormat {
     name: "Microsoft Windows Vista / 7 Prefetch data",
     extensions: &["pf"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

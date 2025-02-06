@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1276: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1276: FileFormat = FileFormat {
     name: "Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4p",
     extensions: &["pdf"],
     media_types: &["application/pdf"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[
             ByteSequence {
                 position_type: PositionType::BOF,

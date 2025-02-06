@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_196: FileFormat = FileFormat {
     name: "Latte",
     extensions: &["latte"],
     media_types: &["text/x-smarty"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

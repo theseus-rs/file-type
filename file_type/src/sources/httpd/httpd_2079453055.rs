@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2079453055: FileFormat = FileFormat {
     name: "tex tfm",
     extensions: &["tfm"],
     media_types: &["application/x-tex-tfm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

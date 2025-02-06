@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_614078284: FileFormat = FileFormat {
     name: "Xonsh",
     extensions: &["xsh"],
     media_types: &["text/x-python"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

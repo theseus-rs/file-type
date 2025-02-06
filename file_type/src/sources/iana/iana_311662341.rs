@@ -6,6 +6,6 @@ pub(crate) const IANA_311662341: FileFormat = FileFormat {
     name: "vnd.exstream-package",
     extensions: &[],
     media_types: &["application/vnd.exstream-package"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

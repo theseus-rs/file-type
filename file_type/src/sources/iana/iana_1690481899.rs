@@ -6,6 +6,6 @@ pub(crate) const IANA_1690481899: FileFormat = FileFormat {
     name: "vnd.shootproof+json",
     extensions: &[],
     media_types: &["application/vnd.shootproof+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

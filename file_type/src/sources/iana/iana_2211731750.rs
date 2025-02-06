@@ -6,6 +6,6 @@ pub(crate) const IANA_2211731750: FileFormat = FileFormat {
     name: "flexfec",
     extensions: &[],
     media_types: &["audio/flexfec"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

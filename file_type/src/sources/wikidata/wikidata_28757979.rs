@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28757979: FileFormat = FileFormat {
     id: 28_757_979,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28757979: FileFormat = FileFormat {
     name: "Windows Setup inf_loc file",
     extensions: &["inf_loc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

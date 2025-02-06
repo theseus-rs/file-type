@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_13454995: FileFormat = FileFormat {
     id: 13_454_995,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_13454995: FileFormat = FileFormat {
     name: "DVD data file and backup data file",
     extensions: &["bup", "ifo"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

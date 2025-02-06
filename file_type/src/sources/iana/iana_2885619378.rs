@@ -6,6 +6,6 @@ pub(crate) const IANA_2885619378: FileFormat = FileFormat {
     name: "vnd.youtube.yt (OBSOLETED in favor of video/vnd.youtube.yt)",
     extensions: &[],
     media_types: &["application/vnd.youtube.yt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

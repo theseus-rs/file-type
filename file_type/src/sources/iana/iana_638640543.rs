@@ -6,6 +6,6 @@ pub(crate) const IANA_638640543: FileFormat = FileFormat {
     name: "csta+xml",
     extensions: &[],
     media_types: &["application/csta+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

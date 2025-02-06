@@ -6,6 +6,6 @@ pub(crate) const IANA_2453250016: FileFormat = FileFormat {
     name: "kpml-request+xml",
     extensions: &[],
     media_types: &["application/kpml-request+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

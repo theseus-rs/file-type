@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_158: FileFormat = FileFormat {
     name: "Haxe",
     extensions: &["hx", "hxsl"],
     media_types: &["text/x-haxe"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

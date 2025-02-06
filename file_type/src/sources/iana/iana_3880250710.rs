@@ -6,6 +6,6 @@ pub(crate) const IANA_3880250710: FileFormat = FileFormat {
     name: "vnd.shade-save-file",
     extensions: &[],
     media_types: &["application/vnd.shade-save-file"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

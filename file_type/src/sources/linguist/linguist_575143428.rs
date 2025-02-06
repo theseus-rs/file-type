@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_575143428: FileFormat = FileFormat {
     name: "ImageJ Macro",
     extensions: &["ijm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

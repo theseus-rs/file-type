@@ -6,6 +6,6 @@ pub(crate) const IANA_520781800: FileFormat = FileFormat {
     name: "vnd.nato.bindingdataobject+json",
     extensions: &[],
     media_types: &["application/vnd.nato.bindingdataobject+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

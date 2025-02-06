@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2796: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_2796: FileFormat = FileFormat {
     name: "S-57 Electronic Navigational Chart",
     extensions: &["000", "001", "002", "003", "004", "006"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(5),

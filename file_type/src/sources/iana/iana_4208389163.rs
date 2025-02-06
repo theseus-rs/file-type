@@ -6,6 +6,6 @@ pub(crate) const IANA_4208389163: FileFormat = FileFormat {
     name: "jscalendar+json",
     extensions: &[],
     media_types: &["application/jscalendar+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

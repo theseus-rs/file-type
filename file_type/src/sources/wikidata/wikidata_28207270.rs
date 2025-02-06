@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28207270: FileFormat = FileFormat {
     id: 28_207_270,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28207270: FileFormat = FileFormat {
     name: "Secret Photos puzzle",
     extensions: &["xp0"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

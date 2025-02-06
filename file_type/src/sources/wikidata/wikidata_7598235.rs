@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_7598235: FileFormat = FileFormat {
     id: 7_598_235,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_7598235: FileFormat = FileFormat {
     name: "Standard Flowgram Format",
     extensions: &["sff"],
     media_types: &["chemical/seq-na-sff"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_119: FileFormat = FileFormat {
     name: "GAP",
     extensions: &["g", "gap", "gd", "gi", "tst"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1128848340: FileFormat = FileFormat {
     name: "adpcm",
     extensions: &["adp"],
     media_types: &["audio/adpcm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

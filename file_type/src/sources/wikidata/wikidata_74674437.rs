@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_74674437: FileFormat = FileFormat {
     id: 74_674_437,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_74674437: FileFormat = FileFormat {
     name: "Kindle app book info",
     extensions: &["ticr"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

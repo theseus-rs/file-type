@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_942714150: FileFormat = FileFormat {
     name: "Cue Sheet",
     extensions: &["cue"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

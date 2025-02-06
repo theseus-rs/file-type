@@ -6,6 +6,6 @@ pub(crate) const IANA_2166160279: FileFormat = FileFormat {
     name: "vnd.cybank",
     extensions: &[],
     media_types: &["application/vnd.cybank"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

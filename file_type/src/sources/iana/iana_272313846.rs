@@ -6,6 +6,6 @@ pub(crate) const IANA_272313846: FileFormat = FileFormat {
     name: "vnd.ms-artgalry",
     extensions: &[],
     media_types: &["application/vnd.ms-artgalry"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

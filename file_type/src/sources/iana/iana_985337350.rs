@@ -6,6 +6,6 @@ pub(crate) const IANA_985337350: FileFormat = FileFormat {
     name: "vnd.loom",
     extensions: &[],
     media_types: &["application/vnd.loom"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

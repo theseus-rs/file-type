@@ -6,6 +6,6 @@ pub(crate) const IANA_3093602065: FileFormat = FileFormat {
     name: "vnd.cncf.helm.chart.provenance.v1.prov",
     extensions: &[],
     media_types: &["application/vnd.cncf.helm.chart.provenance.v1.prov"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

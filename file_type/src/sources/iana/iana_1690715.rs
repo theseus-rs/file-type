@@ -6,6 +6,6 @@ pub(crate) const IANA_1690715: FileFormat = FileFormat {
     name: "vnd.iccprofile",
     extensions: &[],
     media_types: &["application/vnd.iccprofile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

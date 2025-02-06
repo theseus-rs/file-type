@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1125: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1125: FileFormat = FileFormat {
     name: "Chemical Draw Exchange Format",
     extensions: &["cdx"],
     media_types: &["chemical/x-cdx"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const IANA_3320182908: FileFormat = FileFormat {
     name: "vnd.oma.cab-subs-invite+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.cab-subs-invite+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

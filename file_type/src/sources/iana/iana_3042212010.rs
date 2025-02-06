@@ -6,6 +6,6 @@ pub(crate) const IANA_3042212010: FileFormat = FileFormat {
     name: "ibe-pkg-reply+xml",
     extensions: &[],
     media_types: &["application/ibe-pkg-reply+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_676218789: FileFormat = FileFormat {
     name: "dgc compressed",
     extensions: &["dgc"],
     media_types: &["application/x-dgc-compressed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_214: FileFormat = FileFormat {
     name: "M",
     extensions: &["m", "mumps"],
     media_types: &["text/x-mumps"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

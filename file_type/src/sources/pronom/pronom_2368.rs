@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2368: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_2368: FileFormat = FileFormat {
     name: "ELAN Annotation File",
     extensions: &["eaf"],
     media_types: &["application/eaf+xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[
             ByteSequence {
                 position_type: PositionType::BOF,

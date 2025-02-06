@@ -6,6 +6,6 @@ pub(crate) const IANA_721217963: FileFormat = FileFormat {
     name: "vnd.neurolanguage.nlu",
     extensions: &[],
     media_types: &["application/vnd.neurolanguage.nlu"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

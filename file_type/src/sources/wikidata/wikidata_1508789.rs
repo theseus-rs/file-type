@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1508789: FileFormat = FileFormat {
     id: 1_508_789,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_1508789: FileFormat = FileFormat {
     name: "Windows Contacts",
     extensions: &["contact"],
     media_types: &["text/x-ms-contact"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

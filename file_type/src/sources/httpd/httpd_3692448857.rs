@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3692448857: FileFormat = FileFormat {
     name: "pg osasli",
     extensions: &["ei6"],
     media_types: &["application/vnd.pg.osasli"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

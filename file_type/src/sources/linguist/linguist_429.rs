@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_429: FileFormat = FileFormat {
     name: "ABNF",
     extensions: &["abnf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1823613896: FileFormat = FileFormat {
     name: "vnd.oipf.spdiscovery+xml",
     extensions: &[],
     media_types: &["application/vnd.oipf.spdiscovery+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

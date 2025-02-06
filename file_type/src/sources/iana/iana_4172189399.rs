@@ -6,6 +6,6 @@ pub(crate) const IANA_4172189399: FileFormat = FileFormat {
     name: "vnd.3gpp2.bcmcsinfo+xml",
     extensions: &[],
     media_types: &["application/vnd.3gpp2.bcmcsinfo+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_210859652: FileFormat = FileFormat {
     name: "fuzzysheet",
     extensions: &["fzs"],
     media_types: &["application/vnd.fuzzysheet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

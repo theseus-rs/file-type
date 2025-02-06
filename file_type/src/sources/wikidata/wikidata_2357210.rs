@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_2357210: FileFormat = FileFormat {
     id: 2_357_210,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_2357210: FileFormat = FileFormat {
     name: "Structured Fax File",
     extensions: &["sff"],
     media_types: &["image/x-sff"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

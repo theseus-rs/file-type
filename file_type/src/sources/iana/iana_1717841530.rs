@@ -6,6 +6,6 @@ pub(crate) const IANA_1717841530: FileFormat = FileFormat {
     name: "tamp-error",
     extensions: &[],
     media_types: &["application/tamp-error"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

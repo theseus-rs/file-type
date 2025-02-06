@@ -6,6 +6,6 @@ pub(crate) const IANA_985613281: FileFormat = FileFormat {
     name: "vnd.SimTech-MindMapper",
     extensions: &[],
     media_types: &["application/vnd.SimTech-MindMapper"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

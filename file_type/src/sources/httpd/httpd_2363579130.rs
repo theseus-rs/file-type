@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2363579130: FileFormat = FileFormat {
     name: "dwg",
     extensions: &["dwg"],
     media_types: &["image/vnd.dwg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

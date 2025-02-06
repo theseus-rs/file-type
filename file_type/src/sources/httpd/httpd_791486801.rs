@@ -6,6 +6,6 @@ pub(crate) const HTTPD_791486801: FileFormat = FileFormat {
     name: "exi",
     extensions: &["exi"],
     media_types: &["application/exi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

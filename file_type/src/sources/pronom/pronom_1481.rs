@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1481: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_1481: FileFormat = FileFormat {
     name: "Thumbs DB file",
     extensions: &["db"],
     media_types: &["application/vnd.microsoft.windows.thumbnail-cache"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

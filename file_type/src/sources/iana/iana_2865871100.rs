@@ -6,6 +6,6 @@ pub(crate) const IANA_2865871100: FileFormat = FileFormat {
     name: "vnd.sap.vds",
     extensions: &[],
     media_types: &["model/vnd.sap.vds"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

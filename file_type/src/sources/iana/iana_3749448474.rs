@@ -6,6 +6,6 @@ pub(crate) const IANA_3749448474: FileFormat = FileFormat {
     name: "vnd.ms-windows.nwprinting.oob",
     extensions: &[],
     media_types: &["application/vnd.ms-windows.nwprinting.oob"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

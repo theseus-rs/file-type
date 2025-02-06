@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_558193693: FileFormat = FileFormat {
     name: "Qt Script",
     extensions: &["qs"],
     media_types: &["text/javascript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105852933: FileFormat = FileFormat {
     id: 105_852_933,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105852933: FileFormat = FileFormat {
     name: "Crimson Fields level (with rem)",
     extensions: &["src"],
     media_types: &["text/plain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_4012838875: FileFormat = FileFormat {
     name: "vnd.denovo.fcselayout-link",
     extensions: &[],
     media_types: &["application/vnd.denovo.fcselayout-link"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

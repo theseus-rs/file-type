@@ -6,6 +6,6 @@ pub(crate) const IANA_3251497569: FileFormat = FileFormat {
     name: "vnd.nacamar.ybrid+json",
     extensions: &[],
     media_types: &["application/vnd.nacamar.ybrid+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

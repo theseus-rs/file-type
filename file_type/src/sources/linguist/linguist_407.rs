@@ -17,6 +17,6 @@ pub(crate) const LINGUIST_407: FileFormat = FileFormat {
         "yml.mysql",
     ],
     media_types: &["text/x-yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

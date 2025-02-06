@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_88: FileFormat = FileFormat {
     name: "Diff",
     extensions: &["diff", "patch"],
     media_types: &["text/x-diff"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

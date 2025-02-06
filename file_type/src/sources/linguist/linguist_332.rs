@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_332: FileFormat = FileFormat {
     name: "SQF",
     extensions: &["hqf", "sqf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

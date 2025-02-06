@@ -6,6 +6,6 @@ pub(crate) const IANA_1735976981: FileFormat = FileFormat {
     name: "vnd.nato.bindingdataobject+xml",
     extensions: &[],
     media_types: &["application/vnd.nato.bindingdataobject+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

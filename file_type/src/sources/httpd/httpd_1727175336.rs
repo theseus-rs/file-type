@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1727175336: FileFormat = FileFormat {
     name: "dts hd",
     extensions: &["dtshd"],
     media_types: &["audio/vnd.dts.hd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

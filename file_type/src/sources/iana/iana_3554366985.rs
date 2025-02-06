@@ -6,6 +6,6 @@ pub(crate) const IANA_3554366985: FileFormat = FileFormat {
     name: "dns+json",
     extensions: &[],
     media_types: &["application/dns+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

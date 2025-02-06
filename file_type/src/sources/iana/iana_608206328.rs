@@ -6,6 +6,6 @@ pub(crate) const IANA_608206328: FileFormat = FileFormat {
     name: "alto-updatestreamcontrol+json",
     extensions: &[],
     media_types: &["application/alto-updatestreamcontrol+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

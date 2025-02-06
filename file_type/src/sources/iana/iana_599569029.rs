@@ -6,6 +6,6 @@ pub(crate) const IANA_599569029: FileFormat = FileFormat {
     name: "vnd.mitsubishi.misty-guard.trustweb",
     extensions: &[],
     media_types: &["application/vnd.mitsubishi.misty-guard.trustweb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28975862: FileFormat = FileFormat {
     id: 28_975_862,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28975862: FileFormat = FileFormat {
     name: "OOGL Bezier Surface BBP",
     extensions: &["bbp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

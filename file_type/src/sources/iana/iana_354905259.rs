@@ -6,6 +6,6 @@ pub(crate) const IANA_354905259: FileFormat = FileFormat {
     name: "sbml+xml",
     extensions: &[],
     media_types: &["application/sbml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

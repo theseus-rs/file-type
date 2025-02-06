@@ -6,6 +6,6 @@ pub(crate) const HTTPD_58922719: FileFormat = FileFormat {
     name: "silk",
     extensions: &["sil"],
     media_types: &["audio/silk"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

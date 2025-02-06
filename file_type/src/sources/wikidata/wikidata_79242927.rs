@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_79242927: FileFormat = FileFormat {
     id: 79_242_927,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_79242927: FileFormat = FileFormat {
     name: "Adobe After Effects Graphics",
     extensions: &["aegraphic"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

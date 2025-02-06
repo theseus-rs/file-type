@@ -6,6 +6,6 @@ pub(crate) const IANA_353142752: FileFormat = FileFormat {
     name: "media-policy-dataset+xml",
     extensions: &[],
     media_types: &["application/media-policy-dataset+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

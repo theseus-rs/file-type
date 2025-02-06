@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_668: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_668: FileFormat = FileFormat {
     name: "JPEG File Interchange Format",
     extensions: &["jpg", "jpe", "jpeg", "jif", "jfif", "jfi"],
     media_types: &["image/jpeg"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[
             ByteSequence {
                 position_type: PositionType::BOF,

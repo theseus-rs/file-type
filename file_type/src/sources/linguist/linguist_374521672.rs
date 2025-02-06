@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_374521672: FileFormat = FileFormat {
     name: "WDL",
     extensions: &["wdl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

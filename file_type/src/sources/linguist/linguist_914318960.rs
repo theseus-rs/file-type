@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_914318960: FileFormat = FileFormat {
     name: "JavaScript+ERB",
     extensions: &["js.erb"],
     media_types: &["application/javascript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

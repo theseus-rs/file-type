@@ -6,6 +6,6 @@ pub(crate) const IANA_2942315901: FileFormat = FileFormat {
     name: "vnd.dpgraph",
     extensions: &[],
     media_types: &["application/vnd.dpgraph"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

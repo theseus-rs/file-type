@@ -6,6 +6,6 @@ pub(crate) const IANA_2479691554: FileFormat = FileFormat {
     name: "spirits-event+xml",
     extensions: &[],
     media_types: &["application/spirits-event+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

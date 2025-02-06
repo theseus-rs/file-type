@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3923222572: FileFormat = FileFormat {
     name: "groove identity message",
     extensions: &["gim"],
     media_types: &["application/vnd.groove-identity-message"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

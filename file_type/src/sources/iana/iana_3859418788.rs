@@ -6,6 +6,6 @@ pub(crate) const IANA_3859418788: FileFormat = FileFormat {
     name: "n-triples",
     extensions: &[],
     media_types: &["application/n-triples"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

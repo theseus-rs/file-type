@@ -6,6 +6,6 @@ pub(crate) const IANA_4266951372: FileFormat = FileFormat {
     name: "vnd.nokia.ncd",
     extensions: &[],
     media_types: &["application/vnd.nokia.ncd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

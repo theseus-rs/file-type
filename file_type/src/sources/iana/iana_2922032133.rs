@@ -6,6 +6,6 @@ pub(crate) const IANA_2922032133: FileFormat = FileFormat {
     name: "feedback-report",
     extensions: &[],
     media_types: &["message/feedback-report"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

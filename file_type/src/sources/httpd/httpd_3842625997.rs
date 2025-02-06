@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3842625997: FileFormat = FileFormat {
     name: "msdownload",
     extensions: &["exe", "dll", "com", "bat", "msi"],
     media_types: &["application/x-msdownload"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_121544939: FileFormat = FileFormat {
     id: 121_544_939,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_121544939: FileFormat = FileFormat {
     name: "At Home 2011 Tax Return File",
     extensions: &["t11"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

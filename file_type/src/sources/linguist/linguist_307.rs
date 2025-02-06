@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_307: FileFormat = FileFormat {
     name: "R",
     extensions: &["r", "rd", "rsx"],
     media_types: &["text/x-rsrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

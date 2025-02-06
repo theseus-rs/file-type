@@ -6,6 +6,6 @@ pub(crate) const IANA_2167279598: FileFormat = FileFormat {
     name: "vnd.veritone.aion+json",
     extensions: &[],
     media_types: &["application/vnd.veritone.aion+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

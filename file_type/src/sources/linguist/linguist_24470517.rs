@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_24470517: FileFormat = FileFormat {
     name: "Survex data",
     extensions: &["svx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

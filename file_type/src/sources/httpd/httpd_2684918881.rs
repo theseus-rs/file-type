@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2684918881: FileFormat = FileFormat {
     name: "collada xml",
     extensions: &["dae"],
     media_types: &["model/vnd.collada+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

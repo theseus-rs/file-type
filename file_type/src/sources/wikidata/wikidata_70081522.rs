@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_70081522: FileFormat = FileFormat {
     id: 70_081_522,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_70081522: FileFormat = FileFormat {
     name: "TextPipe Filter List file format",
     extensions: &["fll"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

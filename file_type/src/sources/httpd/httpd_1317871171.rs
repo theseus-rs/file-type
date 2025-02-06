@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1317871171: FileFormat = FileFormat {
     name: "fmi flexstor",
     extensions: &["flx"],
     media_types: &["text/vnd.fmi.flexstor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

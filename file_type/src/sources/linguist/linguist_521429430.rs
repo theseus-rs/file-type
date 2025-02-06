@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_521429430: FileFormat = FileFormat {
     name: "Nearley",
     extensions: &["ne", "nearley"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1437034: FileFormat = FileFormat {
     id: 1_437_034,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_1437034: FileFormat = FileFormat {
     name: "Photoshop Big",
     extensions: &["psb"],
     media_types: &["image/vnd.adobe.photoshop"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

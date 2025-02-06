@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105865762: FileFormat = FileFormat {
     id: 105_865_762,
@@ -8,8 +6,8 @@ pub(crate) const WIKIDATA_105865762: FileFormat = FileFormat {
     name: "Picroma Plasma graphics (XML)",
     extensions: &["plx", "plxml", "xml"],
     media_types: &["text/xml"],
-    internal_signatures: &[
-        InternalSignature {
+    signatures: &[
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -23,7 +21,7 @@ pub(crate) const WIKIDATA_105865762: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
@@ -37,7 +35,7 @@ pub(crate) const WIKIDATA_105865762: FileFormat = FileFormat {
                 },
             }],
         },
-        InternalSignature {
+        Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),

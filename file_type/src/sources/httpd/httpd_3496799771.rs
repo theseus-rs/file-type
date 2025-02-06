@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3496799771: FileFormat = FileFormat {
     name: "tcpdump pcap",
     extensions: &["pcap", "cap", "dmp"],
     media_types: &["application/vnd.tcpdump.pcap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

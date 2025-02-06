@@ -6,6 +6,6 @@ pub(crate) const IANA_1671264184: FileFormat = FileFormat {
     name: "epp+xml",
     extensions: &[],
     media_types: &["application/epp+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

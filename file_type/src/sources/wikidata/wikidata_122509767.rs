@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_122509767: FileFormat = FileFormat {
     id: 122_509_767,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_122509767: FileFormat = FileFormat {
     name: "Pretty Good Privacy (PGP) Groups Data",
     extensions: &["pgr"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

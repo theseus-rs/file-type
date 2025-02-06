@@ -6,6 +6,6 @@ pub(crate) const IANA_234051258: FileFormat = FileFormat {
     name: "raptorfec",
     extensions: &[],
     media_types: &["text/raptorfec"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

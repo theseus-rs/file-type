@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111440583: FileFormat = FileFormat {
     id: 111_440_583,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111440583: FileFormat = FileFormat {
     name: "Lua source file",
     extensions: &["lua"],
     media_types: &["application/x-lua", "text/x-lua"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_452025714: FileFormat = FileFormat {
     name: "Elvish Transcript",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

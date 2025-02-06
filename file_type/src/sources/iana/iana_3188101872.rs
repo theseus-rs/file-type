@@ -6,6 +6,6 @@ pub(crate) const IANA_3188101872: FileFormat = FileFormat {
     name: "emf",
     extensions: &[],
     media_types: &["image/emf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_38: FileFormat = FileFormat {
     name: "Brainfuck",
     extensions: &["b", "bf"],
     media_types: &["text/x-brainfuck"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

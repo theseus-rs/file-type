@@ -6,6 +6,6 @@ pub(crate) const IANA_4187552977: FileFormat = FileFormat {
     name: "atomcat+xml",
     extensions: &[],
     media_types: &["application/atomcat+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

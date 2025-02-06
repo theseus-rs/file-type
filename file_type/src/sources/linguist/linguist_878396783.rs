@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_878396783: FileFormat = FileFormat {
     name: "Riot",
     extensions: &["riot"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

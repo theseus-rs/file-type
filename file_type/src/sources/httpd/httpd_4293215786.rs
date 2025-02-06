@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4293215786: FileFormat = FileFormat {
     name: "acucobol",
     extensions: &["acu"],
     media_types: &["application/vnd.acucobol"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

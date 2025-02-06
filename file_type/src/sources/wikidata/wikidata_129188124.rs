@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_129188124: FileFormat = FileFormat {
     id: 129_188_124,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_129188124: FileFormat = FileFormat {
     name: "FreeFem++ source code file",
     extensions: &["edp"],
     media_types: &["text/x-freefem"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

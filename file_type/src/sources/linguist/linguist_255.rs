@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_255: FileFormat = FileFormat {
     name: "OCaml",
     extensions: &["eliom", "eliomi", "ml", "ml4", "mli", "mll", "mly"],
     media_types: &["text/x-ocaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

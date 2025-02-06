@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_247: FileFormat = FileFormat {
     name: "NewLisp",
     extensions: &["lisp", "lsp", "nl"],
     media_types: &["text/x-common-lisp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

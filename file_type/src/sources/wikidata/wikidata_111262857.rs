@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111262857: FileFormat = FileFormat {
     id: 111_262_857,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111262857: FileFormat = FileFormat {
     name: "G.711 A-law european telephony format",
     extensions: &["alaw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

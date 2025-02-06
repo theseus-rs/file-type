@@ -6,6 +6,6 @@ pub(crate) const IANA_1684578751: FileFormat = FileFormat {
     name: "fwdred",
     extensions: &[],
     media_types: &["audio/fwdred"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

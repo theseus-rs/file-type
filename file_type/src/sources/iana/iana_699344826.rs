@@ -6,6 +6,6 @@ pub(crate) const IANA_699344826: FileFormat = FileFormat {
     name: "vnd.Quark.QuarkXPress",
     extensions: &[],
     media_types: &["application/vnd.Quark.QuarkXPress"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

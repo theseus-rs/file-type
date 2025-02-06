@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_114891689: FileFormat = FileFormat {
     id: 114_891_689,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_114891689: FileFormat = FileFormat {
     name: "Quicken Rental Property Manager File",
     extensions: &["qrp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

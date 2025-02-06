@@ -6,6 +6,6 @@ pub(crate) const IANA_3112925738: FileFormat = FileFormat {
     name: "lgr+xml",
     extensions: &[],
     media_types: &["application/lgr+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1107365668: FileFormat = FileFormat {
     name: "vnd.oasis.opendocument.spreadsheet",
     extensions: &[],
     media_types: &["application/vnd.oasis.opendocument.spreadsheet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

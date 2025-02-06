@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_240: FileFormat = FileFormat {
     name: "NCL",
     extensions: &["ncl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

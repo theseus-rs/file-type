@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4104042877: FileFormat = FileFormat {
     name: "davmount xml",
     extensions: &["davmount"],
     media_types: &["application/davmount+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

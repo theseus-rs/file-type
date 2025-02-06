@@ -6,6 +6,6 @@ pub(crate) const IANA_747798136: FileFormat = FileFormat {
     name: "tzif",
     extensions: &[],
     media_types: &["application/tzif"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

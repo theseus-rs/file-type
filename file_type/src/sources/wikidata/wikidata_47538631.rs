@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_47538631: FileFormat = FileFormat {
     id: 47_538_631,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_47538631: FileFormat = FileFormat {
     name: "AutoCAD Custom Dictionary",
     extensions: &["cus"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_53: FileFormat = FileFormat {
     name: "CartoCSS",
     extensions: &["mss"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

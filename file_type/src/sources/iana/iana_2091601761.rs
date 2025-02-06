@@ -6,6 +6,6 @@ pub(crate) const IANA_2091601761: FileFormat = FileFormat {
     name: "3mf",
     extensions: &[],
     media_types: &["model/3mf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1985331204: FileFormat = FileFormat {
     name: "vnd.novadigm.EDX",
     extensions: &[],
     media_types: &["application/vnd.novadigm.EDX"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

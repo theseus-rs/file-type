@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3884808644: FileFormat = FileFormat {
     name: "stardivision draw",
     extensions: &["sda"],
     media_types: &["application/vnd.stardivision.draw"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

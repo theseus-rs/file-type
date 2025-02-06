@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27203601: FileFormat = FileFormat {
     id: 27_203_601,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27203601: FileFormat = FileFormat {
     name: "OpenDocument Text, version 1.2",
     extensions: &["odt"],
     media_types: &["application/vnd.oasis.opendocument.text"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

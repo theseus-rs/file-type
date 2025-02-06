@@ -6,6 +6,6 @@ pub(crate) const IANA_2996835525: FileFormat = FileFormat {
     name: "vnd.eu.kasparian.car+json",
     extensions: &[],
     media_types: &["application/vnd.eu.kasparian.car+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

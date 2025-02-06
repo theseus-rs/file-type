@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_906694254: FileFormat = FileFormat {
     name: "FIRRTL",
     extensions: &["fir"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

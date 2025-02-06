@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_116446733: FileFormat = FileFormat {
     id: 116_446_733,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_116446733: FileFormat = FileFormat {
     name: "Microsoft Profit 1.0 Company File",
     extensions: &["pft"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

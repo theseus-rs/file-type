@@ -6,6 +6,6 @@ pub(crate) const IANA_3543003675: FileFormat = FileFormat {
     name: "cache-manifest",
     extensions: &[],
     media_types: &["text/cache-manifest"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

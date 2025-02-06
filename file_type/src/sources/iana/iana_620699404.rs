@@ -6,6 +6,6 @@ pub(crate) const IANA_620699404: FileFormat = FileFormat {
     name: "dialog-info+xml",
     extensions: &[],
     media_types: &["application/dialog-info+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2060: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_2060: FileFormat = FileFormat {
     name: "ZFO (Form) File",
     extensions: &["zfo"],
     media_types: &["application/vnd.software602.filler.form-xml-zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3439810779: FileFormat = FileFormat {
     name: "toml",
     extensions: &[],
     media_types: &["application/toml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

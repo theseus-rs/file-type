@@ -6,6 +6,6 @@ pub(crate) const IANA_837519450: FileFormat = FileFormat {
     name: "dpop+jwt",
     extensions: &[],
     media_types: &["application/dpop+jwt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

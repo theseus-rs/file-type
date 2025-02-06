@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1487990135: FileFormat = FileFormat {
     name: "ms wmd",
     extensions: &["wmd"],
     media_types: &["application/x-ms-wmd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

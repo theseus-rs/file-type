@@ -36,7 +36,7 @@ mod tests {
                 }
             }
 
-            for (index, signature) in file_format.internal_signatures.iter().enumerate() {
+            for (index, signature) in file_format.signatures.iter().enumerate() {
                 let path = wikidata.join(format!("wikidata-{id}.signature_{index}"));
                 let test_data_signature =
                     if let Some(byte_sequence) = signature.byte_sequences.first() {

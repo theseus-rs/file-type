@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_638334599: FileFormat = FileFormat {
     name: "Move",
     extensions: &["move"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

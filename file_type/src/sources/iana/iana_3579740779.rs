@@ -6,6 +6,6 @@ pub(crate) const IANA_3579740779: FileFormat = FileFormat {
     name: "vnd.dir-bi.plate-dl-nosuffix",
     extensions: &[],
     media_types: &["application/vnd.dir-bi.plate-dl-nosuffix"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

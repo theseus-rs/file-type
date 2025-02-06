@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_60413976: FileFormat = FileFormat {
     id: 60_413_976,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_60413976: FileFormat = FileFormat {
     name: "Encase Image File Format/Expert Witness Compression Format",
     extensions: &["e01"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

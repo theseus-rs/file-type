@@ -6,6 +6,6 @@ pub(crate) const IANA_1888920778: FileFormat = FileFormat {
     name: "evc",
     extensions: &[],
     media_types: &["video/evc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

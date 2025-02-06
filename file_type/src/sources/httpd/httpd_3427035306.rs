@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3427035306: FileFormat = FileFormat {
     name: "ms wmz",
     extensions: &["wmz"],
     media_types: &["application/x-ms-wmz"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

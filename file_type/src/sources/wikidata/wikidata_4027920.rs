@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_4027920: FileFormat = FileFormat {
     id: 4_027_920,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_4027920: FileFormat = FileFormat {
     name: "XAP",
     extensions: &["xap"],
     media_types: &["application/x-silverlight-app"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

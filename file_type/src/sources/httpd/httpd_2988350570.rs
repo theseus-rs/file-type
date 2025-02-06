@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2988350570: FileFormat = FileFormat {
     name: "font ghostscript",
     extensions: &["gsf"],
     media_types: &["application/x-font-ghostscript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

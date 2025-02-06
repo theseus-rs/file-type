@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_47539144: FileFormat = FileFormat {
     id: 47_539_144,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_47539144: FileFormat = FileFormat {
     name: "AutoCAD Batch Plot File, version 2000-2005",
     extensions: &["bp3"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3101228311: FileFormat = FileFormat {
     name: "lost+xml",
     extensions: &[],
     media_types: &["application/lost+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

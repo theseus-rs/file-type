@@ -6,6 +6,6 @@ pub(crate) const IANA_391104858: FileFormat = FileFormat {
     name: "reginfo+xml",
     extensions: &[],
     media_types: &["application/reginfo+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

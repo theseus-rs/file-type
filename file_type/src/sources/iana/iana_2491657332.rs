@@ -6,6 +6,6 @@ pub(crate) const IANA_2491657332: FileFormat = FileFormat {
     name: "beep+xml",
     extensions: &[],
     media_types: &["application/beep+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

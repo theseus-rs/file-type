@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1491964560: FileFormat = FileFormat {
     name: "nzb",
     extensions: &["nzb"],
     media_types: &["application/x-nzb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

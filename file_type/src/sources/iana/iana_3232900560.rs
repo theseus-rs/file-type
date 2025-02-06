@@ -6,6 +6,6 @@ pub(crate) const IANA_3232900560: FileFormat = FileFormat {
     name: "TETRA_ISI",
     extensions: &[],
     media_types: &["application/TETRA_ISI"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

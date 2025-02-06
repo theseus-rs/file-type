@@ -6,6 +6,6 @@ pub(crate) const IANA_2205754082: FileFormat = FileFormat {
     name: "xacml+xml",
     extensions: &[],
     media_types: &["application/xacml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_981279644: FileFormat = FileFormat {
     name: "dvb ait",
     extensions: &["ait"],
     media_types: &["application/vnd.dvb.ait"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

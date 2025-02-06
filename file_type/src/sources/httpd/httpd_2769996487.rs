@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2769996487: FileFormat = FileFormat {
     name: "apple mpegurl",
     extensions: &["m3u8"],
     media_types: &["application/vnd.apple.mpegurl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

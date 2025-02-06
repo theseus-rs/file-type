@@ -6,6 +6,6 @@ pub(crate) const IANA_825782436: FileFormat = FileFormat {
     name: "wasm",
     extensions: &[],
     media_types: &["application/wasm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

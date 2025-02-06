@@ -6,6 +6,6 @@ pub(crate) const IANA_3411046439: FileFormat = FileFormat {
     name: "vnd.fujifilm.fb.jfi+xml",
     extensions: &[],
     media_types: &["application/vnd.fujifilm.fb.jfi+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

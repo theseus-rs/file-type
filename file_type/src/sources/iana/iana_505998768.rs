@@ -6,6 +6,6 @@ pub(crate) const IANA_505998768: FileFormat = FileFormat {
     name: "cwt",
     extensions: &[],
     media_types: &["application/cwt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

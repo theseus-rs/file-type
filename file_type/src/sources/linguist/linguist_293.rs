@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_293: FileFormat = FileFormat {
     name: "PowerShell",
     extensions: &["ps1", "psd1", "psm1"],
     media_types: &["application/x-powershell"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

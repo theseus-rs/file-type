@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_104821916: FileFormat = FileFormat {
     id: 104_821_916,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_104821916: FileFormat = FileFormat {
     name: "Renoise instrument",
     extensions: &["rni", "xrni"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

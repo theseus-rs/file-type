@@ -6,6 +6,6 @@ pub(crate) const IANA_2335759688: FileFormat = FileFormat {
     name: "vnd.veraison.tsm-report+json",
     extensions: &[],
     media_types: &["application/vnd.veraison.tsm-report+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

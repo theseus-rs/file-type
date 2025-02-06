@@ -6,6 +6,6 @@ pub(crate) const IANA_2981225743: FileFormat = FileFormat {
     name: "tamp-apex-update-confirm",
     extensions: &[],
     media_types: &["application/tamp-apex-update-confirm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

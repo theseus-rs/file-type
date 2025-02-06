@@ -6,6 +6,6 @@ pub(crate) const IANA_2442714746: FileFormat = FileFormat {
     name: "iges",
     extensions: &[],
     media_types: &["application/iges"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_320003511: FileFormat = FileFormat {
     name: "pn realaudio plugin",
     extensions: &["rmp"],
     media_types: &["audio/x-pn-realaudio-plugin"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

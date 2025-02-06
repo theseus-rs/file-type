@@ -6,6 +6,6 @@ pub(crate) const IANA_3767960255: FileFormat = FileFormat {
     name: "vnd.ms-excel",
     extensions: &[],
     media_types: &["application/vnd.ms-excel"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

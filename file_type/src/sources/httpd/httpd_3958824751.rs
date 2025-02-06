@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3958824751: FileFormat = FileFormat {
     name: "adobe air application installer package zip",
     extensions: &["air"],
     media_types: &["application/vnd.adobe.air-application-installer-package+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

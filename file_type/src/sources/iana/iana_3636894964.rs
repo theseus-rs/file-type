@@ -6,6 +6,6 @@ pub(crate) const IANA_3636894964: FileFormat = FileFormat {
     name: "vnd.graphviz",
     extensions: &[],
     media_types: &["text/vnd.graphviz"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

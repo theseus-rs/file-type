@@ -6,6 +6,6 @@ pub(crate) const IANA_3693945932: FileFormat = FileFormat {
     name: "vnd.ipld.dag-json",
     extensions: &[],
     media_types: &["application/vnd.ipld.dag-json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857202: FileFormat = FileFormat {
     id: 105_857_202,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105857202: FileFormat = FileFormat {
     name: "Hydrogen song",
     extensions: &["h2song"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

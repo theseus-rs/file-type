@@ -6,6 +6,6 @@ pub(crate) const IANA_3966587680: FileFormat = FileFormat {
     name: "vnd.directv.mpeg",
     extensions: &[],
     media_types: &["video/vnd.directv.mpeg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

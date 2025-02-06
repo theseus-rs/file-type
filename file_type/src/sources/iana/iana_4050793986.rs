@@ -6,6 +6,6 @@ pub(crate) const IANA_4050793986: FileFormat = FileFormat {
     name: "vnd.smintio.portals.archive",
     extensions: &[],
     media_types: &["application/vnd.smintio.portals.archive"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

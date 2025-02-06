@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_298: FileFormat = FileFormat {
     name: "Public Key",
     extensions: &["asc", "pub"],
     media_types: &["application/pgp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

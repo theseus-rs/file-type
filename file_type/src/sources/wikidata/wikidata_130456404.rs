@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130456404: FileFormat = FileFormat {
     id: 130_456_404,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130456404: FileFormat = FileFormat {
     name: "Beancount fileformat",
     extensions: &["beancount"],
     media_types: &["text/plain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

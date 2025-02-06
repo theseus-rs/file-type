@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3386034869: FileFormat = FileFormat {
     name: "pkcs7 certreqresp",
     extensions: &["p7r"],
     media_types: &["application/x-pkcs7-certreqresp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

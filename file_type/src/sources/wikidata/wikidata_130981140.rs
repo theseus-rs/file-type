@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130981140: FileFormat = FileFormat {
     id: 130_981_140,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130981140: FileFormat = FileFormat {
     name: "Slurm script file format",
     extensions: &["sl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

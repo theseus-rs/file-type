@@ -6,6 +6,6 @@ pub(crate) const IANA_2985206074: FileFormat = FileFormat {
     name: "octet-stream",
     extensions: &[],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

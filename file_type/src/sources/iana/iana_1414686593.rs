@@ -6,6 +6,6 @@ pub(crate) const IANA_1414686593: FileFormat = FileFormat {
     name: "vnd.comicbook+zip",
     extensions: &[],
     media_types: &["application/vnd.comicbook+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

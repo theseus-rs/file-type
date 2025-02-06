@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_229: FileFormat = FileFormat {
     name: "Mercury",
     extensions: &["m", "moo"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

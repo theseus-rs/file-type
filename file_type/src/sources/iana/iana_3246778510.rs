@@ -6,6 +6,6 @@ pub(crate) const IANA_3246778510: FileFormat = FileFormat {
     name: "ccmp+xml",
     extensions: &[],
     media_types: &["application/ccmp+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

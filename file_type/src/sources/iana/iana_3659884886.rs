@@ -6,6 +6,6 @@ pub(crate) const IANA_3659884886: FileFormat = FileFormat {
     name: "vnd.bary",
     extensions: &[],
     media_types: &["model/vnd.bary"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

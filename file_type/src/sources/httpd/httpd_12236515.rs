@@ -6,6 +6,6 @@ pub(crate) const HTTPD_12236515: FileFormat = FileFormat {
     name: "pict",
     extensions: &["pic", "pct"],
     media_types: &["image/x-pict"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

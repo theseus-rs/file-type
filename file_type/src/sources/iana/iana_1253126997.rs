@@ -6,6 +6,6 @@ pub(crate) const IANA_1253126997: FileFormat = FileFormat {
     name: "vnd.yamaha.remote-setup",
     extensions: &[],
     media_types: &["application/vnd.yamaha.remote-setup"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

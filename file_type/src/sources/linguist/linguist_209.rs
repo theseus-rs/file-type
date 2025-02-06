@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_209: FileFormat = FileFormat {
     name: "Logos",
     extensions: &["x", "xi", "xm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

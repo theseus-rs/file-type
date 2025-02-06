@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_356: FileFormat = FileFormat {
     name: "Stan",
     extensions: &["stan"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

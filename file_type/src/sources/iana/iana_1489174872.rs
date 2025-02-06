@@ -6,6 +6,6 @@ pub(crate) const IANA_1489174872: FileFormat = FileFormat {
     name: "vnd.cryptomator.vault",
     extensions: &[],
     media_types: &["application/vnd.cryptomator.vault"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

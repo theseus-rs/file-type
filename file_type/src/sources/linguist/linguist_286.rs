@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_286: FileFormat = FileFormat {
     name: "PigLatin",
     extensions: &["pig"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

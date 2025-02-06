@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_844766630: FileFormat = FileFormat {
     name: "Ecmarkup",
     extensions: &["html"],
     media_types: &["text/html"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2627890512: FileFormat = FileFormat {
     name: "vnd.smart.notebook",
     extensions: &[],
     media_types: &["application/vnd.smart.notebook"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_111: FileFormat = FileFormat {
     name: "Filebench WML",
     extensions: &["f"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

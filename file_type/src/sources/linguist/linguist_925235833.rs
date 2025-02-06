@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_925235833: FileFormat = FileFormat {
     name: "EdgeQL",
     extensions: &["edgeql", "esdl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

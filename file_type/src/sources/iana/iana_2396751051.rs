@@ -6,6 +6,6 @@ pub(crate) const IANA_2396751051: FileFormat = FileFormat {
     name: "smpte336m",
     extensions: &[],
     media_types: &["application/smpte336m"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

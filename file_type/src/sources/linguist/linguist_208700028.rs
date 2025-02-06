@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_208700028: FileFormat = FileFormat {
     name: "X Font Directory Index",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

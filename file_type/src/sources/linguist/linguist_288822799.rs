@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_288822799: FileFormat = FileFormat {
     name: "Pkl",
     extensions: &["pkl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

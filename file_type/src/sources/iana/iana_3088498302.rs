@@ -6,6 +6,6 @@ pub(crate) const IANA_3088498302: FileFormat = FileFormat {
     name: "L20",
     extensions: &[],
     media_types: &["audio/L20"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_249: FileFormat = FileFormat {
     name: "Nim",
     extensions: &["nim", "nim.cfg", "nimble", "nimrod", "nims"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130712861: FileFormat = FileFormat {
     id: 130_712_861,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130712861: FileFormat = FileFormat {
     name: "Relation Query Language file format",
     extensions: &["rql"],
     media_types: &["text/x-rql"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

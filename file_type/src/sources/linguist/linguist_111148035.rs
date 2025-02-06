@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_111148035: FileFormat = FileFormat {
     name: "Dotenv",
     extensions: &["env"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2984449870: FileFormat = FileFormat {
     name: "vnd.sar",
     extensions: &[],
     media_types: &["application/vnd.sar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

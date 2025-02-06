@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_425: FileFormat = FileFormat {
     name: "Pic",
     extensions: &["chem", "pic"],
     media_types: &["text/troff"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

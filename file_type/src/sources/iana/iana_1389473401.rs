@@ -6,6 +6,6 @@ pub(crate) const IANA_1389473401: FileFormat = FileFormat {
     name: "vnd.kde.kpresenter",
     extensions: &[],
     media_types: &["application/vnd.kde.kpresenter"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

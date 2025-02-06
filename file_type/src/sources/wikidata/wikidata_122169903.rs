@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_122169903: FileFormat = FileFormat {
     id: 122_169_903,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_122169903: FileFormat = FileFormat {
     name: "PPA and PWDUMP Password Hashes",
     extensions: &["hdc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

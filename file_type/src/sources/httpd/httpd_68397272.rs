@@ -6,6 +6,6 @@ pub(crate) const HTTPD_68397272: FileFormat = FileFormat {
     name: "fastbidsheet",
     extensions: &["fbs"],
     media_types: &["image/vnd.fastbidsheet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

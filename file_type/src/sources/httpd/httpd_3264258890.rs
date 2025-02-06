@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3264258890: FileFormat = FileFormat {
     name: "yamaha smaf audio",
     extensions: &["saf"],
     media_types: &["application/vnd.yamaha.smaf-audio"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

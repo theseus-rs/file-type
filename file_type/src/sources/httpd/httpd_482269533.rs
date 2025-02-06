@@ -6,6 +6,6 @@ pub(crate) const HTTPD_482269533: FileFormat = FileFormat {
     name: "uoml xml",
     extensions: &["uoml"],
     media_types: &["application/vnd.uoml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

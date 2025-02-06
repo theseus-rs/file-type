@@ -6,6 +6,6 @@ pub(crate) const IANA_3899272655: FileFormat = FileFormat {
     name: "speex",
     extensions: &[],
     media_types: &["audio/speex"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

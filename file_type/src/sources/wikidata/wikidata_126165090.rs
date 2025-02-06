@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_126165090: FileFormat = FileFormat {
     id: 126_165_090,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_126165090: FileFormat = FileFormat {
     name: "Husqvarna-Viking Designer 1 Stitch File",
     extensions: &["mhv", "phv", "shv"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

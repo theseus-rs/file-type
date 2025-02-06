@@ -6,6 +6,6 @@ pub(crate) const IANA_1349874601: FileFormat = FileFormat {
     name: "vnd.ecowin.chart",
     extensions: &[],
     media_types: &["application/vnd.ecowin.chart"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

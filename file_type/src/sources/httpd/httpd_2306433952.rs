@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2306433952: FileFormat = FileFormat {
     name: "mobius dis",
     extensions: &["dis"],
     media_types: &["application/vnd.mobius.dis"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

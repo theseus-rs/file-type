@@ -6,6 +6,6 @@ pub(crate) const IANA_2006452535: FileFormat = FileFormat {
     name: "tracking-status",
     extensions: &[],
     media_types: &["message/tracking-status"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

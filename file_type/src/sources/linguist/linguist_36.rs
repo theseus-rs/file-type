@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_36: FileFormat = FileFormat {
     name: "Bluespec",
     extensions: &["bsv"],
     media_types: &["text/x-systemverilog"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1714512529: FileFormat = FileFormat {
     name: "ocsp-response",
     extensions: &[],
     media_types: &["application/ocsp-response"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

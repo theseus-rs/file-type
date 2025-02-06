@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_8041961: FileFormat = FileFormat {
     id: 8_041_961,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_8041961: FileFormat = FileFormat {
     name: "eXtensible Graph Markup and Modeling Language",
     extensions: &["XGMML"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

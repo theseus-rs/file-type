@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_446573572: FileFormat = FileFormat {
     name: "Nushell",
     extensions: &["nu"],
     media_types: &["text/x-sh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

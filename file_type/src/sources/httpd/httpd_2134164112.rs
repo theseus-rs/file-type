@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2134164112: FileFormat = FileFormat {
     name: "ms application",
     extensions: &["application"],
     media_types: &["application/x-ms-application"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

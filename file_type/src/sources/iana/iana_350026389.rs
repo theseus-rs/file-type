@@ -6,6 +6,6 @@ pub(crate) const IANA_350026389: FileFormat = FileFormat {
     name: "MP4V-ES",
     extensions: &[],
     media_types: &["video/MP4V-ES"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

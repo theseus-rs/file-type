@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_51601661: FileFormat = FileFormat {
     name: "Rich Text Format",
     extensions: &["rtf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

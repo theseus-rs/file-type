@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4147141993: FileFormat = FileFormat {
     name: "sgi movie",
     extensions: &["movie"],
     media_types: &["video/x-sgi-movie"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

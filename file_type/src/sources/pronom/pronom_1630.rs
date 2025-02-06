@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1630: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1630: FileFormat = FileFormat {
     name: "3MF 3D Manufacturing Format",
     extensions: &["3mf"],
     media_types: &["application/vnd.ms-3mfdocument"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[RelatedFormat {
         relationship_type: RelationshipType::HasPriorityOver,
         id: 1_456,

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3148619445: FileFormat = FileFormat {
     name: "msclip",
     extensions: &["clp"],
     media_types: &["application/x-msclip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

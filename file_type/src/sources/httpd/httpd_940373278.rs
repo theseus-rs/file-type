@@ -6,6 +6,6 @@ pub(crate) const HTTPD_940373278: FileFormat = FileFormat {
     name: "cgm",
     extensions: &["cgm"],
     media_types: &["image/cgm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

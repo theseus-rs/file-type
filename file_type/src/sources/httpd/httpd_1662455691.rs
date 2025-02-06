@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1662455691: FileFormat = FileFormat {
     name: "gpx xml",
     extensions: &["gpx"],
     media_types: &["application/gpx+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2434472940: FileFormat = FileFormat {
     name: "vnd.airzip.filesecure.azf",
     extensions: &[],
     media_types: &["application/vnd.airzip.filesecure.azf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

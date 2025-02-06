@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28771271: FileFormat = FileFormat {
     id: 28_771_271,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28771271: FileFormat = FileFormat {
     name: "MSA (Magic Shadow Archiver)",
     extensions: &["msa"],
     media_types: &["application/vnd.msa-disk-image"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

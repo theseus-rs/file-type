@@ -6,6 +6,6 @@ pub(crate) const IANA_814842370: FileFormat = FileFormat {
     name: "vnd.yamaha.smaf-phrase",
     extensions: &[],
     media_types: &["application/vnd.yamaha.smaf-phrase"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1593479457: FileFormat = FileFormat {
     name: "pidf-diff+xml",
     extensions: &[],
     media_types: &["application/pidf-diff+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_412: FileFormat = FileFormat {
     name: "desktop",
     extensions: &["desktop", "desktop.in", "service"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1593720423: FileFormat = FileFormat {
     name: "vnd.koan",
     extensions: &[],
     media_types: &["application/vnd.koan"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

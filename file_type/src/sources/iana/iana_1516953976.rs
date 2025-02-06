@@ -6,6 +6,6 @@ pub(crate) const IANA_1516953976: FileFormat = FileFormat {
     name: "vnd.ecowin.seriesupdate",
     extensions: &[],
     media_types: &["application/vnd.ecowin.seriesupdate"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1104570417: FileFormat = FileFormat {
     name: "disposition-notification",
     extensions: &[],
     media_types: &["message/disposition-notification"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

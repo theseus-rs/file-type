@@ -6,6 +6,6 @@ pub(crate) const IANA_3981745143: FileFormat = FileFormat {
     name: "vnd.webturbo",
     extensions: &[],
     media_types: &["application/vnd.webturbo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

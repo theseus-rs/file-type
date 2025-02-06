@@ -14,6 +14,6 @@ pub(crate) const LINGUIST_75622871: FileFormat = FileFormat {
         "tmTheme",
     ],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

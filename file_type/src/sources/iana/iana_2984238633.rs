@@ -6,6 +6,6 @@ pub(crate) const IANA_2984238633: FileFormat = FileFormat {
     name: "x3d+xml",
     extensions: &[],
     media_types: &["model/x3d+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

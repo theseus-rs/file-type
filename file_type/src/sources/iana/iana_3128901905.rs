@@ -6,6 +6,6 @@ pub(crate) const IANA_3128901905: FileFormat = FileFormat {
     name: "vnd.efi.img",
     extensions: &[],
     media_types: &["application/vnd.efi.img"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

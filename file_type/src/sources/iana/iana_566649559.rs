@@ -6,6 +6,6 @@ pub(crate) const IANA_566649559: FileFormat = FileFormat {
     name: "ODX",
     extensions: &[],
     media_types: &["application/ODX"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

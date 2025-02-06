@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105865559: FileFormat = FileFormat {
     id: 105_865_559,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105865559: FileFormat = FileFormat {
     name: "PsychoPy 2 Experiment",
     extensions: &["psyexp"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

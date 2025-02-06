@@ -6,6 +6,6 @@ pub(crate) const IANA_683669685: FileFormat = FileFormat {
     name: "secevent+jwt",
     extensions: &[],
     media_types: &["application/secevent+jwt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

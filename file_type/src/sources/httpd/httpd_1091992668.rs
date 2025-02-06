@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1091992668: FileFormat = FileFormat {
     name: "nuera ecelp9600",
     extensions: &["ecelp9600"],
     media_types: &["audio/vnd.nuera.ecelp9600"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1816229410: FileFormat = FileFormat {
     name: "ms photo",
     extensions: &["wdp"],
     media_types: &["image/vnd.ms-photo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

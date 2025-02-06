@@ -6,6 +6,6 @@ pub(crate) const IANA_3513742129: FileFormat = FileFormat {
     name: "vnd.japannet-directory-service",
     extensions: &[],
     media_types: &["application/vnd.japannet-directory-service"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

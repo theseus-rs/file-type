@@ -6,6 +6,6 @@ pub(crate) const IANA_1403183265: FileFormat = FileFormat {
     name: "vnd.americandynamics.acc",
     extensions: &[],
     media_types: &["application/vnd.americandynamics.acc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2212794734: FileFormat = FileFormat {
     name: "rig cryptonote",
     extensions: &["cryptonote"],
     media_types: &["application/vnd.rig.cryptonote"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

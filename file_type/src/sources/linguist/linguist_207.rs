@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_207: FileFormat = FileFormat {
     name: "Literate Haskell",
     extensions: &["lhs"],
     media_types: &["text/x-literate-haskell"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

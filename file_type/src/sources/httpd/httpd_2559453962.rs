@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2559453962: FileFormat = FileFormat {
     name: "calendar",
     extensions: &["ics", "ifb"],
     media_types: &["text/calendar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

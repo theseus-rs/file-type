@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_7391883: FileFormat = FileFormat {
     id: 7_391_883,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_7391883: FileFormat = FileFormat {
     name: "SNP file format",
     extensions: &["snp"],
     media_types: &["application/vnd.ms-access", "image/x-snp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

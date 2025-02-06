@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111333938: FileFormat = FileFormat {
     id: 111_333_938,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111333938: FileFormat = FileFormat {
     name: "Rockwell 2-bit ADPCM data",
     extensions: &["rockwell-2"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

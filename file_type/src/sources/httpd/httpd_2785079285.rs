@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2785079285: FileFormat = FileFormat {
     name: "immervision ivp",
     extensions: &["ivp"],
     media_types: &["application/vnd.immervision-ivp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

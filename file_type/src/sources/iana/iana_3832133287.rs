@@ -6,6 +6,6 @@ pub(crate) const IANA_3832133287: FileFormat = FileFormat {
     name: "xv+xml",
     extensions: &[],
     media_types: &["application/xv+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

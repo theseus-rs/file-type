@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_231: FileFormat = FileFormat {
     name: "MiniD",
     extensions: &["minid"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

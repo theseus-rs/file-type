@@ -6,6 +6,6 @@ pub(crate) const IANA_763411276: FileFormat = FileFormat {
     name: "vnd.ms-PrintDeviceCapabilities+xml",
     extensions: &[],
     media_types: &["application/vnd.ms-PrintDeviceCapabilities+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

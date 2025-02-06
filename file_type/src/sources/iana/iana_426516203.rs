@@ -6,6 +6,6 @@ pub(crate) const IANA_426516203: FileFormat = FileFormat {
     name: "vnd.semd",
     extensions: &[],
     media_types: &["application/vnd.semd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

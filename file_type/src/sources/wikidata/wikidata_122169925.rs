@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_122169925: FileFormat = FileFormat {
     id: 122_169_925,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_122169925: FileFormat = FileFormat {
     name: "GPU PWDUMP Password Hashes (NTLM)",
     extensions: &["pwdump"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

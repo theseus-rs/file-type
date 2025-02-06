@@ -6,6 +6,6 @@ pub(crate) const HTTPD_914146169: FileFormat = FileFormat {
     name: "seemail",
     extensions: &["see"],
     media_types: &["application/vnd.seemail"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

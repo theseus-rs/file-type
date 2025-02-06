@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_42: FileFormat = FileFormat {
     name: "C#",
     extensions: &["cake", "cs", "cs.pp", "csx", "linq"],
     media_types: &["text/x-csharp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

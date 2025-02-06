@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1984: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1984: FileFormat = FileFormat {
     name: "Hewlett Packard Graphics Language",
     extensions: &["000"],
     media_types: &["application/vnd.hp-HPGL"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[
             ByteSequence {
                 position_type: PositionType::BOF,

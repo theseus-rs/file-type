@@ -6,6 +6,6 @@ pub(crate) const IANA_4180165785: FileFormat = FileFormat {
     name: "mobile-xmf",
     extensions: &[],
     media_types: &["audio/mobile-xmf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_4004639731: FileFormat = FileFormat {
     name: "vnd.bluetooth.le.oob",
     extensions: &[],
     media_types: &["application/vnd.bluetooth.le.oob"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

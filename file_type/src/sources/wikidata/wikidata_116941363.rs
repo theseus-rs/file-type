@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_116941363: FileFormat = FileFormat {
     id: 116_941_363,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_116941363: FileFormat = FileFormat {
     name: "Print Perfect Document",
     extensions: &["pub"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

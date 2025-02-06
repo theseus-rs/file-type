@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_100297968: FileFormat = FileFormat {
     id: 100_297_968,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_100297968: FileFormat = FileFormat {
     name: "Flow Charting file format, version 4",
     extensions: &["gfc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

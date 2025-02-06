@@ -6,6 +6,6 @@ pub(crate) const IANA_1032815495: FileFormat = FileFormat {
     name: "atsc-dynamic-event-message",
     extensions: &[],
     media_types: &["application/atsc-dynamic-event-message"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

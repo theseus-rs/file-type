@@ -6,6 +6,6 @@ pub(crate) const IANA_2743500474: FileFormat = FileFormat {
     name: "vnd.maxar.archive.3tz+zip",
     extensions: &[],
     media_types: &["application/vnd.maxar.archive.3tz+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

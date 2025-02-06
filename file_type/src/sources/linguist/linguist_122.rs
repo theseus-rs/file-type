@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_122: FileFormat = FileFormat {
     name: "GDB",
     extensions: &["gdb", "gdbinit"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

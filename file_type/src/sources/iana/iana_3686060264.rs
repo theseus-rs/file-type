@@ -6,6 +6,6 @@ pub(crate) const IANA_3686060264: FileFormat = FileFormat {
     name: "vnd.ms-wmdrm.lic-chlg-req",
     extensions: &[],
     media_types: &["application/vnd.ms-wmdrm.lic-chlg-req"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

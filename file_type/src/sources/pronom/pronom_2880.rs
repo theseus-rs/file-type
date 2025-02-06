@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2880: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_2880: FileFormat = FileFormat {
     name: "Compressed MusicXML",
     extensions: &["mxl"],
     media_types: &["application/vnd.recordare.musicxml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

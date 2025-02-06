@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_891017: FileFormat = FileFormat {
     name: "LiveCode Script",
     extensions: &["livecodescript"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

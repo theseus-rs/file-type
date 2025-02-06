@@ -6,6 +6,6 @@ pub(crate) const HTTPD_982843725: FileFormat = FileFormat {
     name: "rdf xml",
     extensions: &["rdf"],
     media_types: &["application/rdf+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

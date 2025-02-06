@@ -6,6 +6,6 @@ pub(crate) const IANA_2520563939: FileFormat = FileFormat {
     name: "vnd.gridmp",
     extensions: &[],
     media_types: &["application/vnd.gridmp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

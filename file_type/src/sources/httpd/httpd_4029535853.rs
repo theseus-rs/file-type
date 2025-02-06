@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4029535853: FileFormat = FileFormat {
     name: "webp",
     extensions: &["webp"],
     media_types: &["image/webp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105855115: FileFormat = FileFormat {
     id: 105_855_115,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105855115: FileFormat = FileFormat {
     name: "Akoma Ntoso document",
     extensions: &["xml"],
     media_types: &["application/akn+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_61: FileFormat = FileFormat {
     name: "Click",
     extensions: &["click"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

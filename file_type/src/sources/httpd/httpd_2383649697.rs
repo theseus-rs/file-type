@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2383649697: FileFormat = FileFormat {
     name: "tcl",
     extensions: &["tcl"],
     media_types: &["application/x-tcl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

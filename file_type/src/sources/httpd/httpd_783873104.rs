@@ -6,6 +6,6 @@ pub(crate) const HTTPD_783873104: FileFormat = FileFormat {
     name: "opml",
     extensions: &["opml"],
     media_types: &["text/x-opml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

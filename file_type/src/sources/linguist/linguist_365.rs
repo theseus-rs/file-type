@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_365: FileFormat = FileFormat {
     name: "TOML",
     extensions: &["toml"],
     media_types: &["text/x-toml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

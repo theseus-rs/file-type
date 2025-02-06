@@ -6,6 +6,6 @@ pub(crate) const IANA_878383878: FileFormat = FileFormat {
     name: "vnd.motorola.videop",
     extensions: &[],
     media_types: &["video/vnd.motorola.videop"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

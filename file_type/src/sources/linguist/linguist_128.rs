@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_128: FileFormat = FileFormat {
     name: "Gentoo Eclass",
     extensions: &["eclass"],
     media_types: &["text/x-sh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

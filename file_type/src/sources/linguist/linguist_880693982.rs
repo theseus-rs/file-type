@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_880693982: FileFormat = FileFormat {
     name: "Euphoria",
     extensions: &["e", "ex"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

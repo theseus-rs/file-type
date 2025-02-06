@@ -6,6 +6,6 @@ pub(crate) const IANA_376588493: FileFormat = FileFormat {
     name: "rpki-ghostbusters",
     extensions: &[],
     media_types: &["application/rpki-ghostbusters"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

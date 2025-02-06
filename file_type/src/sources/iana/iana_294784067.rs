@@ -6,6 +6,6 @@ pub(crate) const IANA_294784067: FileFormat = FileFormat {
     name: "vnd.mermaid",
     extensions: &[],
     media_types: &["application/vnd.mermaid"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

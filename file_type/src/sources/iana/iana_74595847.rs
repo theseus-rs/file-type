@@ -6,6 +6,6 @@ pub(crate) const IANA_74595847: FileFormat = FileFormat {
     name: "bmp",
     extensions: &[],
     media_types: &["image/bmp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

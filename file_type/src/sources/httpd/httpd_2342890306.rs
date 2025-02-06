@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2342890306: FileFormat = FileFormat {
     name: "picsel",
     extensions: &["efif"],
     media_types: &["application/vnd.picsel"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

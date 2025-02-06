@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3641071795: FileFormat = FileFormat {
     name: "ibm secure container",
     extensions: &["sc"],
     media_types: &["application/vnd.ibm.secure-container"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_728656917: FileFormat = FileFormat {
     name: "G723",
     extensions: &[],
     media_types: &["audio/G723"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

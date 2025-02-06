@@ -6,6 +6,6 @@ pub(crate) const IANA_2190910405: FileFormat = FileFormat {
     name: "vnd.pawaafile",
     extensions: &[],
     media_types: &["application/vnd.pawaafile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

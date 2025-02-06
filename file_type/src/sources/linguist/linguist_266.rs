@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_266: FileFormat = FileFormat {
     name: "OpenSCAD",
     extensions: &["scad"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2346625709: FileFormat = FileFormat {
     name: "geonext",
     extensions: &["gxt"],
     media_types: &["application/vnd.geonext"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

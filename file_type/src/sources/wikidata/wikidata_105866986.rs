@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105866986: FileFormat = FileFormat {
     id: 105_866_986,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105866986: FileFormat = FileFormat {
     name: "Mathematica Notebook (headerless)",
     extensions: &["nb"],
     media_types: &["application/vnd.wolfram.mathematica"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

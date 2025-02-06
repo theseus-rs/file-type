@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_90: FileFormat = FileFormat {
     name: "Dogescript",
     extensions: &["djs"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

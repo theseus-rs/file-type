@@ -6,6 +6,6 @@ pub(crate) const IANA_2230729471: FileFormat = FileFormat {
     name: "vnd.grafeq",
     extensions: &[],
     media_types: &["application/vnd.grafeq"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

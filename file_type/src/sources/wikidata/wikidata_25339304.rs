@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_25339304: FileFormat = FileFormat {
     id: 25_339_304,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_25339304: FileFormat = FileFormat {
     name: "Timed Text Markup Language",
     extensions: &["dxfp", "ttml", "xml"],
     media_types: &["application/ttml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2480952760: FileFormat = FileFormat {
     name: "eat-bun+json",
     extensions: &[],
     media_types: &["application/eat-bun+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

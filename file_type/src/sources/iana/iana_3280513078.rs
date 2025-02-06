@@ -6,6 +6,6 @@ pub(crate) const IANA_3280513078: FileFormat = FileFormat {
     name: "turtle",
     extensions: &[],
     media_types: &["text/turtle"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

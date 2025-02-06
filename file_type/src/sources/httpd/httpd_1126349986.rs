@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1126349986: FileFormat = FileFormat {
     name: "pcx",
     extensions: &["pcx"],
     media_types: &["image/x-pcx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

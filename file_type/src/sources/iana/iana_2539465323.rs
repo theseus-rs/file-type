@@ -6,6 +6,6 @@ pub(crate) const IANA_2539465323: FileFormat = FileFormat {
     name: "png",
     extensions: &[],
     media_types: &["image/png"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

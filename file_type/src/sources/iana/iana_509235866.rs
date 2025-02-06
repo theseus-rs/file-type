@@ -6,6 +6,6 @@ pub(crate) const IANA_509235866: FileFormat = FileFormat {
     name: "vnd.ms-wpl",
     extensions: &[],
     media_types: &["application/vnd.ms-wpl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

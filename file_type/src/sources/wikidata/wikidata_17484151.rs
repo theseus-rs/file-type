@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_17484151: FileFormat = FileFormat {
     id: 17_484_151,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_17484151: FileFormat = FileFormat {
     name: "Scribus Document",
     extensions: &["scd", "scd.gz", "sla", "sla.gz", "slaz"],
     media_types: &["application/vnd.scribus"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

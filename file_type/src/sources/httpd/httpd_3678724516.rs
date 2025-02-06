@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3678724516: FileFormat = FileFormat {
     name: "dvb file",
     extensions: &["dvb"],
     media_types: &["video/vnd.dvb.file"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

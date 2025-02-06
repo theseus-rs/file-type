@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105851965: FileFormat = FileFormat {
     id: 105_851_965,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105851965: FileFormat = FileFormat {
     name: "Simple Vector Format (v1.10)",
     extensions: &["svf"],
     media_types: &["image/vnd.svf"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_156: FileFormat = FileFormat {
     name: "Harbour",
     extensions: &["hb"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

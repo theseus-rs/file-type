@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2799942788: FileFormat = FileFormat {
     name: "dvb subtitle",
     extensions: &["sub"],
     media_types: &["image/vnd.dvb.subtitle"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

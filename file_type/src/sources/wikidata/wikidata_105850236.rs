@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105850236: FileFormat = FileFormat {
     id: 105_850_236,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105850236: FileFormat = FileFormat {
     name: "Syslinux COM32 module (v4)",
     extensions: &["c32"],
     media_types: &["application/x-c32-comboot-syslinux-exec"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

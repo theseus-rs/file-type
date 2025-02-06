@@ -6,6 +6,6 @@ pub(crate) const IANA_634751045: FileFormat = FileFormat {
     name: "vnd.cosmocaller",
     extensions: &[],
     media_types: &["application/vnd.cosmocaller"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

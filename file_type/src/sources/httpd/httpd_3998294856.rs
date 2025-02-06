@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3998294856: FileFormat = FileFormat {
     name: "xaml xml",
     extensions: &["xaml"],
     media_types: &["application/xaml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

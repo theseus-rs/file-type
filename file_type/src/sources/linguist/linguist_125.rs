@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_125: FileFormat = FileFormat {
     name: "Game Maker Language",
     extensions: &["gml"],
     media_types: &["text/x-c++src"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

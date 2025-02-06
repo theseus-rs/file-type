@@ -6,6 +6,6 @@ pub(crate) const IANA_3037433719: FileFormat = FileFormat {
     name: "vnd.gerber",
     extensions: &[],
     media_types: &["application/vnd.gerber"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3400805137: FileFormat = FileFormat {
     name: "vnd.osa.netdeploy",
     extensions: &[],
     media_types: &["application/vnd.osa.netdeploy"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

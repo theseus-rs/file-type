@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_435000929: FileFormat = FileFormat {
     name: "DenizenScript",
     extensions: &["dsc"],
     media_types: &["text/x-yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

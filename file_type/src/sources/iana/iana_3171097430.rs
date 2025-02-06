@@ -6,6 +6,6 @@ pub(crate) const IANA_3171097430: FileFormat = FileFormat {
     name: "missing-blocks+cbor-seq",
     extensions: &[],
     media_types: &["application/missing-blocks+cbor-seq"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

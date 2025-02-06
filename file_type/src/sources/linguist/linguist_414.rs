@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_414: FileFormat = FileFormat {
     name: "edn",
     extensions: &["edn"],
     media_types: &["text/x-clojure"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1589663858: FileFormat = FileFormat {
     name: "vnd.wordlift",
     extensions: &[],
     media_types: &["application/vnd.wordlift"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_447538554: FileFormat = FileFormat {
     name: "ms wmv",
     extensions: &["wmv"],
     media_types: &["video/x-ms-wmv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

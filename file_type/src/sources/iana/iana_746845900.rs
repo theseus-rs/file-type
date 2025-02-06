@@ -6,6 +6,6 @@ pub(crate) const IANA_746845900: FileFormat = FileFormat {
     name: "vnd.canon-lips",
     extensions: &[],
     media_types: &["application/vnd.canon-lips"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

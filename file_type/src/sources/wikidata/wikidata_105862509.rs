@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105862509: FileFormat = FileFormat {
     id: 105_862_509,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105862509: FileFormat = FileFormat {
     name: "Max Patch",
     extensions: &["maxpat"],
     media_types: &["text/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

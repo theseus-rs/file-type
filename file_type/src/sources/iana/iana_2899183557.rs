@@ -6,6 +6,6 @@ pub(crate) const IANA_2899183557: FileFormat = FileFormat {
     name: "vnd.crypto-shade-file",
     extensions: &[],
     media_types: &["application/vnd.crypto-shade-file"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

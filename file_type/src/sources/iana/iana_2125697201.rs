@@ -6,6 +6,6 @@ pub(crate) const IANA_2125697201: FileFormat = FileFormat {
     name: "vnd.3M.Post-it-Notes",
     extensions: &[],
     media_types: &["application/vnd.3M.Post-it-Notes"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

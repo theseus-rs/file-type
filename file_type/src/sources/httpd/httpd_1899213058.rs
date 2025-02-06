@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1899213058: FileFormat = FileFormat {
     name: "mobius daf",
     extensions: &["daf"],
     media_types: &["application/vnd.mobius.daf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

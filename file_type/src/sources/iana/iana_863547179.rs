@@ -6,6 +6,6 @@ pub(crate) const IANA_863547179: FileFormat = FileFormat {
     name: "xml-dtd",
     extensions: &[],
     media_types: &["application/xml-dtd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

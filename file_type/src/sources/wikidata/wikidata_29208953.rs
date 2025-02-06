@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_29208953: FileFormat = FileFormat {
     id: 29_208_953,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_29208953: FileFormat = FileFormat {
     name: ".lzma File Format",
     extensions: &["lzma"],
     media_types: &["application/x-lzma"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

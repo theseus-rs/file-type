@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_8: FileFormat = FileFormat {
     name: "Classic ASP",
     extensions: &["asp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

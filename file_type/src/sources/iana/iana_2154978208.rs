@@ -6,6 +6,6 @@ pub(crate) const IANA_2154978208: FileFormat = FileFormat {
     name: "vnd.scribus",
     extensions: &[],
     media_types: &["application/vnd.scribus"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

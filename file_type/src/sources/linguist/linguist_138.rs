@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_138: FileFormat = FileFormat {
     name: "Graph Modeling Language",
     extensions: &["gml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

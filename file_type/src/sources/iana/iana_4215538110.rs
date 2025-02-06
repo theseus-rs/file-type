@@ -6,6 +6,6 @@ pub(crate) const IANA_4215538110: FileFormat = FileFormat {
     name: "fastinfoset",
     extensions: &[],
     media_types: &["application/fastinfoset"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

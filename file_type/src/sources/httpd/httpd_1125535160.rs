@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1125535160: FileFormat = FileFormat {
     name: "xbitmap",
     extensions: &["xbm"],
     media_types: &["image/x-xbitmap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

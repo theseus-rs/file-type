@@ -6,6 +6,6 @@ pub(crate) const IANA_2347897612: FileFormat = FileFormat {
     name: "MP2T",
     extensions: &[],
     media_types: &["video/MP2T"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

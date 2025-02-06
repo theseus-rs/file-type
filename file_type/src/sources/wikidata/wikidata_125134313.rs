@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125134313: FileFormat = FileFormat {
     id: 125_134_313,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125134313: FileFormat = FileFormat {
     name: "YAM emailcache",
     extensions: &["emailcache"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

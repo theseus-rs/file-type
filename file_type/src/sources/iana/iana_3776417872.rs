@@ -6,6 +6,6 @@ pub(crate) const IANA_3776417872: FileFormat = FileFormat {
     name: "gzip",
     extensions: &[],
     media_types: &["application/gzip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

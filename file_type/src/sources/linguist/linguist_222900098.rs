@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_222900098: FileFormat = FileFormat {
     name: "Soong",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

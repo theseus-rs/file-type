@@ -6,6 +6,6 @@ pub(crate) const IANA_2179273523: FileFormat = FileFormat {
     name: "vnd.hal+xml",
     extensions: &[],
     media_types: &["application/vnd.hal+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

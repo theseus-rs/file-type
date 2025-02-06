@@ -16,6 +16,6 @@ pub(crate) const LINGUIST_224: FileFormat = FileFormat {
         "wlt",
     ],
     media_types: &["text/x-mathematica"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

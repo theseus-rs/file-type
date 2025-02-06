@@ -6,6 +6,6 @@ pub(crate) const IANA_2464609837: FileFormat = FileFormat {
     name: "vnd.rip",
     extensions: &[],
     media_types: &["audio/vnd.rip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

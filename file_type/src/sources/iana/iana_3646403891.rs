@@ -6,6 +6,6 @@ pub(crate) const IANA_3646403891: FileFormat = FileFormat {
     name: "vemmi",
     extensions: &[],
     media_types: &["application/vemmi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

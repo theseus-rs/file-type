@@ -6,6 +6,6 @@ pub(crate) const IANA_3838445211: FileFormat = FileFormat {
     name: "vnd.ipld.raw",
     extensions: &[],
     media_types: &["application/vnd.ipld.raw"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

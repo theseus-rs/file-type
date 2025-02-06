@@ -8,6 +8,6 @@ pub(crate) const LINGUIST_272: FileFormat = FileFormat {
         "aw", "ctp", "fcgi", "inc", "php", "php3", "php4", "php5", "phps", "phpt",
     ],
     media_types: &["application/x-httpd-php"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

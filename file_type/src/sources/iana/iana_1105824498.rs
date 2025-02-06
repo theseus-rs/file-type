@@ -6,6 +6,6 @@ pub(crate) const IANA_1105824498: FileFormat = FileFormat {
     name: "3gpp-ims+xml",
     extensions: &[],
     media_types: &["application/3gpp-ims+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

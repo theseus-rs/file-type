@@ -6,6 +6,6 @@ pub(crate) const IANA_2008268890: FileFormat = FileFormat {
     name: "vnd.anki",
     extensions: &[],
     media_types: &["application/vnd.anki"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

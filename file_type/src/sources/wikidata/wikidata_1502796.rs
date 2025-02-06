@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1502796: FileFormat = FileFormat {
     id: 1_502_796,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_1502796: FileFormat = FileFormat {
     name: "GeoTIFF",
     extensions: &["tif"],
     media_types: &["image/tiff"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

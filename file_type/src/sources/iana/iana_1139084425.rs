@@ -6,6 +6,6 @@ pub(crate) const IANA_1139084425: FileFormat = FileFormat {
     name: "vnd.trolltech.linguist",
     extensions: &[],
     media_types: &["text/vnd.trolltech.linguist"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

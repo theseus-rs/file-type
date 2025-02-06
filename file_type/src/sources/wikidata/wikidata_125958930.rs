@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125958930: FileFormat = FileFormat {
     id: 125_958_930,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125958930: FileFormat = FileFormat {
     name: "Sibelius Score 1.2",
     extensions: &["sib"],
     media_types: &["application/x-sibelius-score"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

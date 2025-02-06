@@ -6,6 +6,6 @@ pub(crate) const IANA_141898700: FileFormat = FileFormat {
     name: "vnd.3gpp.crs+xml",
     extensions: &[],
     media_types: &["application/vnd.3gpp.crs+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

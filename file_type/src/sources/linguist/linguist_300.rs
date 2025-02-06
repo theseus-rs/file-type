@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_300: FileFormat = FileFormat {
     name: "Pure Data",
     extensions: &["pd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

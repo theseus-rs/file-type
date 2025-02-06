@@ -6,6 +6,6 @@ pub(crate) const IANA_4150371756: FileFormat = FileFormat {
     name: "vnd.futoin+cbor",
     extensions: &[],
     media_types: &["application/vnd.futoin+cbor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

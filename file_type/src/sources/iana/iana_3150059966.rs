@@ -6,6 +6,6 @@ pub(crate) const IANA_3150059966: FileFormat = FileFormat {
     name: "gif",
     extensions: &[],
     media_types: &["image/gif"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

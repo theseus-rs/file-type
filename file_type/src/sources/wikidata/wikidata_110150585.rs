@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_110150585: FileFormat = FileFormat {
     id: 110_150_585,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_110150585: FileFormat = FileFormat {
     name: "Serif DrawPlus Drawing, version 7",
     extensions: &["dpa", "dpp", "dpx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

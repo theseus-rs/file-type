@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1741: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_1741: FileFormat = FileFormat {
     name: "Microsoft Picture It! Image File",
     extensions: &["mix"],
     media_types: &["image/vnd.mix"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

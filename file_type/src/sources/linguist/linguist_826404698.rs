@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_826404698: FileFormat = FileFormat {
     name: "SugarSS",
     extensions: &["sss"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

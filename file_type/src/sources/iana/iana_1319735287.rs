@@ -6,6 +6,6 @@ pub(crate) const IANA_1319735287: FileFormat = FileFormat {
     name: "sparql-results+xml",
     extensions: &[],
     media_types: &["application/sparql-results+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

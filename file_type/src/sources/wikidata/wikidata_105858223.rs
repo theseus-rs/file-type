@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105858223: FileFormat = FileFormat {
     id: 105_858_223,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105858223: FileFormat = FileFormat {
     name: "EPLAN Macro",
     extensions: &["ema"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

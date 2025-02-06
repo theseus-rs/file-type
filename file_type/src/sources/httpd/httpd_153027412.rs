@@ -6,6 +6,6 @@ pub(crate) const HTTPD_153027412: FileFormat = FileFormat {
     name: "msvideo",
     extensions: &["avi"],
     media_types: &["video/x-msvideo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

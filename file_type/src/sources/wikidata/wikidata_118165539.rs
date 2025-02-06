@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_118165539: FileFormat = FileFormat {
     id: 118_165_539,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_118165539: FileFormat = FileFormat {
     name: "FotoFinish Image Format",
     extensions: &["sph"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

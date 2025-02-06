@@ -6,6 +6,6 @@ pub(crate) const IANA_2684918881: FileFormat = FileFormat {
     name: "vnd.collada+xml",
     extensions: &[],
     media_types: &["model/vnd.collada+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

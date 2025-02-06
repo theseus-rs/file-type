@@ -6,6 +6,6 @@ pub(crate) const IANA_3449934334: FileFormat = FileFormat {
     name: "vnd.shana.informed.formtemplate",
     extensions: &[],
     media_types: &["application/vnd.shana.informed.formtemplate"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

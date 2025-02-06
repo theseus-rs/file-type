@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_142: FileFormat = FileFormat {
     name: "Groovy",
     extensions: &["groovy", "grt", "gtpl", "gvy"],
     media_types: &["text/x-groovy"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

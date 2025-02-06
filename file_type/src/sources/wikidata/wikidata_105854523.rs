@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105854523: FileFormat = FileFormat {
     id: 105_854_523,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105854523: FileFormat = FileFormat {
     name: "FlashDevelop ActionScript 3 Project",
     extensions: &["as3proj"],
     media_types: &["application/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

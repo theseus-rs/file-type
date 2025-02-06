@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_114: FileFormat = FileFormat {
     name: "Forth",
     extensions: &["4th", "f", "for", "forth", "fr", "frt", "fs", "fth"],
     media_types: &["text/x-forth"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

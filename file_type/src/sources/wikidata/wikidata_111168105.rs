@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111168105: FileFormat = FileFormat {
     id: 111_168_105,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111168105: FileFormat = FileFormat {
     name: "ChemSketch 2.0 Document",
     extensions: &["sk2"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

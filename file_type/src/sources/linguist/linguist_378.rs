@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_378: FileFormat = FileFormat {
     name: "TypeScript",
     extensions: &["cts", "mts", "ts"],
     media_types: &["application/typescript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

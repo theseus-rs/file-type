@@ -6,6 +6,6 @@ pub(crate) const IANA_418496381: FileFormat = FileFormat {
     name: "vnd.uplanet.signal",
     extensions: &[],
     media_types: &["application/vnd.uplanet.signal"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2693170543: FileFormat = FileFormat {
     name: "sfnt",
     extensions: &[],
     media_types: &["font/sfnt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

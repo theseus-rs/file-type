@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130395727: FileFormat = FileFormat {
     id: 130_395_727,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130395727: FileFormat = FileFormat {
     name: "ODIN file format",
     extensions: &["odin"],
     media_types: &["text/odin"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

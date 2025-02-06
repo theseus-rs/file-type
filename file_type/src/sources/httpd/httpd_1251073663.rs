@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1251073663: FileFormat = FileFormat {
     name: "nitf",
     extensions: &["ntf", "nitf"],
     media_types: &["application/vnd.nitf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_4009336474: FileFormat = FileFormat {
     name: "DVI4",
     extensions: &[],
     media_types: &["audio/DVI4"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

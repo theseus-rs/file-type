@@ -6,6 +6,6 @@ pub(crate) const IANA_541997281: FileFormat = FileFormat {
     name: "vnd.opentimestamps.ots",
     extensions: &[],
     media_types: &["application/vnd.opentimestamps.ots"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

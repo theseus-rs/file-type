@@ -6,6 +6,6 @@ pub(crate) const IANA_15491224: FileFormat = FileFormat {
     name: "vnd.gmx - DEPRECATED",
     extensions: &[],
     media_types: &["application/vnd.gmx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

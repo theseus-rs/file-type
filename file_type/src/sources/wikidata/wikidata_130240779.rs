@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130240779: FileFormat = FileFormat {
     id: 130_240_779,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130240779: FileFormat = FileFormat {
     name: "Literate Haskell source code file",
     extensions: &["lhs"],
     media_types: &["text/x-literate-haskell"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

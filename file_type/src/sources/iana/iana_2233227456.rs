@@ -6,6 +6,6 @@ pub(crate) const IANA_2233227456: FileFormat = FileFormat {
     name: "vnd.fdsn.mseed",
     extensions: &[],
     media_types: &["application/vnd.fdsn.mseed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

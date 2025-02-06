@@ -6,6 +6,6 @@ pub(crate) const HTTPD_74595847: FileFormat = FileFormat {
     name: "bmp",
     extensions: &["bmp"],
     media_types: &["image/bmp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

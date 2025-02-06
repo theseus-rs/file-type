@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3207700065: FileFormat = FileFormat {
     name: "symbian install",
     extensions: &["sis", "sisx"],
     media_types: &["application/vnd.symbian.install"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

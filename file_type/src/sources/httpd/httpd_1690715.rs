@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1690715: FileFormat = FileFormat {
     name: "iccprofile",
     extensions: &["icc", "icm"],
     media_types: &["application/vnd.iccprofile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

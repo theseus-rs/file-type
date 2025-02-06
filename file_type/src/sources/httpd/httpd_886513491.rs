@@ -6,6 +6,6 @@ pub(crate) const HTTPD_886513491: FileFormat = FileFormat {
     name: "emma xml",
     extensions: &["emma"],
     media_types: &["application/emma+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

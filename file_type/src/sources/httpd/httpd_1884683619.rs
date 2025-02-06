@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1884683619: FileFormat = FileFormat {
     name: "pgp signature",
     extensions: &["asc", "sig"],
     media_types: &["application/pgp-signature"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

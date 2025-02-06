@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2904866414: FileFormat = FileFormat {
     name: "jisp",
     extensions: &["jisp"],
     media_types: &["application/vnd.jisp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

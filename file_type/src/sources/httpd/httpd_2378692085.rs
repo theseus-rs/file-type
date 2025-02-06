@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2378692085: FileFormat = FileFormat {
     name: "mspublisher",
     extensions: &["pub"],
     media_types: &["application/x-mspublisher"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_58103465: FileFormat = FileFormat {
     id: 58_103_465,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_58103465: FileFormat = FileFormat {
     name: "Adobe Font List",
     extensions: &["lst"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

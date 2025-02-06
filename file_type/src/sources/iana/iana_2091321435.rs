@@ -6,6 +6,6 @@ pub(crate) const IANA_2091321435: FileFormat = FileFormat {
     name: "vnd.windows.devicepairing",
     extensions: &[],
     media_types: &["application/vnd.windows.devicepairing"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

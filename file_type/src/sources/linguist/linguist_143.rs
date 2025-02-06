@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_143: FileFormat = FileFormat {
     name: "Groovy Server Pages",
     extensions: &["gsp"],
     media_types: &["application/x-jsp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

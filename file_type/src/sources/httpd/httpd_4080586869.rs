@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4080586869: FileFormat = FileFormat {
     name: "epub zip",
     extensions: &["epub"],
     media_types: &["application/epub+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

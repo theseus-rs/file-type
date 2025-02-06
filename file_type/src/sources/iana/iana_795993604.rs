@@ -6,6 +6,6 @@ pub(crate) const IANA_795993604: FileFormat = FileFormat {
     name: "vnd.latex-z",
     extensions: &[],
     media_types: &["text/vnd.latex-z"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

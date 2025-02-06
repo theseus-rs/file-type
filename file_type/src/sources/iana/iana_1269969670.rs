@@ -6,6 +6,6 @@ pub(crate) const IANA_1269969670: FileFormat = FileFormat {
     name: "vnd.RenLearn.rlprint",
     extensions: &[],
     media_types: &["application/vnd.RenLearn.rlprint"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

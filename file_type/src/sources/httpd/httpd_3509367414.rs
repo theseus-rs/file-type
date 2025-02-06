@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3509367414: FileFormat = FileFormat {
     name: "mods xml",
     extensions: &["mods"],
     media_types: &["application/mods+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

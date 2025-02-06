@@ -6,6 +6,6 @@ pub(crate) const IANA_3852266454: FileFormat = FileFormat {
     name: "vnd.wordperfect",
     extensions: &[],
     media_types: &["application/vnd.wordperfect"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

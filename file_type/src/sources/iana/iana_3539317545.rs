@@ -6,6 +6,6 @@ pub(crate) const IANA_3539317545: FileFormat = FileFormat {
     name: "atsc-rdt+json",
     extensions: &[],
     media_types: &["application/atsc-rdt+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

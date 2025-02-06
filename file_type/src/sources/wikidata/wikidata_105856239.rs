@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856239: FileFormat = FileFormat {
     id: 105_856_239,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105856239: FileFormat = FileFormat {
     name: "Borland Delphi - C++ Builder Form (var.1)",
     extensions: &["dfm"],
     media_types: &["text/plain"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

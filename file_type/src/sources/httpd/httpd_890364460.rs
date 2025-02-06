@@ -6,6 +6,6 @@ pub(crate) const HTTPD_890364460: FileFormat = FileFormat {
     name: "wais source",
     extensions: &["src"],
     media_types: &["application/x-wais-source"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

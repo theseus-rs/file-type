@@ -6,6 +6,6 @@ pub(crate) const IANA_2731887612: FileFormat = FileFormat {
     name: "pkcs8-encrypted",
     extensions: &[],
     media_types: &["application/pkcs8-encrypted"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105850120: FileFormat = FileFormat {
     id: 105_850_120,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105850120: FileFormat = FileFormat {
     name: "CorelDRAW drawing (zipped)",
     extensions: &["cdr"],
     media_types: &["application/x-coreldraw"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const IANA_1765471557: FileFormat = FileFormat {
     name: "aptx",
     extensions: &[],
     media_types: &["audio/aptx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

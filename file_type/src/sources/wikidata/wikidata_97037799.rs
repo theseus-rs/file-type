@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_97037799: FileFormat = FileFormat {
     id: 97_037_799,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_97037799: FileFormat = FileFormat {
     name: "HP Page Control Language",
     extensions: &["pcl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

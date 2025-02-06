@@ -103,7 +103,7 @@ impl FileFormat {
             name: Box::leak(self.name.clone().into_boxed_str()),
             extensions: Box::leak(extensions.into_boxed_slice()),
             media_types: Box::leak(media_types.into_boxed_slice()),
-            internal_signatures: Box::leak(internal_signatures.into_boxed_slice()),
+            signatures: Box::leak(internal_signatures.into_boxed_slice()),
             related_formats: Box::leak(related_formats.into_boxed_slice()),
         };
 

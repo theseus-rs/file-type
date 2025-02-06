@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_65990735: FileFormat = FileFormat {
     id: 65_990_735,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_65990735: FileFormat = FileFormat {
     name: "Adobe Premiere Library",
     extensions: &["plb"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

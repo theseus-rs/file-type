@@ -8,6 +8,6 @@ pub(crate) const LINGUIST_333: FileFormat = FileFormat {
         "cql", "ddl", "inc", "mysql", "prc", "sql", "tab", "udf", "viw",
     ],
     media_types: &["text/x-sql"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

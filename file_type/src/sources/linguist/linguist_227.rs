@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_227: FileFormat = FileFormat {
     name: "Max",
     extensions: &["maxhelp", "maxpat", "maxproj", "mxt", "pat"],
     media_types: &["application/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

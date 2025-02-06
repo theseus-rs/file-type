@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130001193: FileFormat = FileFormat {
     id: 130_001_193,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130001193: FileFormat = FileFormat {
     name: "Jsonnet source code file",
     extensions: &["jsonnet"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

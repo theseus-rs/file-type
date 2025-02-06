@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_277: FileFormat = FileFormat {
     name: "Papyrus",
     extensions: &["psc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

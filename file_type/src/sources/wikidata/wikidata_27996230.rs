@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27996230: FileFormat = FileFormat {
     id: 27_996_230,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27996230: FileFormat = FileFormat {
     name: "FileMaker Pro Database, version 5",
     extensions: &["fp5"],
     media_types: &["application/x-filemaker"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105852854: FileFormat = FileFormat {
     id: 105_852_854,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105852854: FileFormat = FileFormat {
     name: "Sublime Text Project",
     extensions: &["sublime-project"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

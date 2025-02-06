@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111272310: FileFormat = FileFormat {
     id: 111_272_310,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111272310: FileFormat = FileFormat {
     name: "Ensoniq SQ1/SQ2/KS32 instrument file",
     extensions: &["efq"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

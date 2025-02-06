@@ -6,6 +6,6 @@ pub(crate) const IANA_3029052439: FileFormat = FileFormat {
     name: "eac3",
     extensions: &[],
     media_types: &["audio/eac3"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

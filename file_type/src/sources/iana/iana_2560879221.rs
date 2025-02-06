@@ -6,6 +6,6 @@ pub(crate) const IANA_2560879221: FileFormat = FileFormat {
     name: "vnd.kde.kspread",
     extensions: &[],
     media_types: &["application/vnd.kde.kspread"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

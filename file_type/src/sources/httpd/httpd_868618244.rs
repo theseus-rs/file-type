@@ -6,6 +6,6 @@ pub(crate) const HTTPD_868618244: FileFormat = FileFormat {
     name: "ahead space",
     extensions: &["ahead"],
     media_types: &["application/vnd.ahead.space"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_135: FileFormat = FileFormat {
     name: "Grace",
     extensions: &["grace"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

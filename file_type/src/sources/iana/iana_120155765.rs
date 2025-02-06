@@ -6,6 +6,6 @@ pub(crate) const IANA_120155765: FileFormat = FileFormat {
     name: "vnd.familysearch.gedcom+zip",
     extensions: &[],
     media_types: &["application/vnd.familysearch.gedcom+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

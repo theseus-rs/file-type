@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_75: FileFormat = FileFormat {
     name: "Csound Score",
     extensions: &["sco"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

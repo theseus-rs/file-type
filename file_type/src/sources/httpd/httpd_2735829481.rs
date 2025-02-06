@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2735829481: FileFormat = FileFormat {
     name: "quicktime",
     extensions: &["qt", "mov"],
     media_types: &["video/quicktime"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

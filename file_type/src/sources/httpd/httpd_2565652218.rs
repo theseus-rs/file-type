@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2565652218: FileFormat = FileFormat {
     name: "previewsystems box",
     extensions: &["box"],
     media_types: &["application/vnd.previewsystems.box"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

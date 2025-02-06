@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_281876: FileFormat = FileFormat {
     id: 281_876,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_281876: FileFormat = FileFormat {
     name: "YAML",
     extensions: &["yaml", "yml"],
     media_types: &["application/yaml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2823079662: FileFormat = FileFormat {
     name: "grib",
     extensions: &[],
     media_types: &["application/grib"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1403183265: FileFormat = FileFormat {
     name: "americandynamics acc",
     extensions: &["acc"],
     media_types: &["application/vnd.americandynamics.acc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

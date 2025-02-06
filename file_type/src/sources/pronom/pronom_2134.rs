@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_2134: FileFormat = FileFormat {
@@ -9,7 +9,7 @@ pub(crate) const PRONOM_2134: FileFormat = FileFormat {
     name: "GL Transmission Format (Binary)",
     extensions: &["glb"],
     media_types: &["model/gltf-binary"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_880816037: FileFormat = FileFormat {
     name: "cmu raster",
     extensions: &["ras"],
     media_types: &["image/x-cmu-raster"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

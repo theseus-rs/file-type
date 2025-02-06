@@ -6,6 +6,6 @@ pub(crate) const IANA_1598499066: FileFormat = FileFormat {
     name: "vnd.dvb.esgcontainer",
     extensions: &[],
     media_types: &["application/vnd.dvb.esgcontainer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

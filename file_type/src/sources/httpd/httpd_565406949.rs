@@ -6,6 +6,6 @@ pub(crate) const HTTPD_565406949: FileFormat = FileFormat {
     name: "intergeo",
     extensions: &["i2g"],
     media_types: &["application/vnd.intergeo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

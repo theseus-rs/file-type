@@ -6,6 +6,6 @@ pub(crate) const HTTPD_835573590: FileFormat = FileFormat {
     name: "yamaha hv voice",
     extensions: &["hvp"],
     media_types: &["application/vnd.yamaha.hv-voice"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

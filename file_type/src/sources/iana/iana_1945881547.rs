@@ -6,6 +6,6 @@ pub(crate) const IANA_1945881547: FileFormat = FileFormat {
     name: "vnd.oma.lwm2m+tlv",
     extensions: &[],
     media_types: &["application/vnd.oma.lwm2m+tlv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

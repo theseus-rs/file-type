@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4131086905: FileFormat = FileFormat {
     name: "geometry explorer",
     extensions: &["gex", "gre"],
     media_types: &["application/vnd.geometry-explorer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

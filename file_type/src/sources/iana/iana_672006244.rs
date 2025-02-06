@@ -6,6 +6,6 @@ pub(crate) const IANA_672006244: FileFormat = FileFormat {
     name: "prs.prop.logic",
     extensions: &[],
     media_types: &["text/prs.prop.logic"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

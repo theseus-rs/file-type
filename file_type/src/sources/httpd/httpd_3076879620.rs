@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3076879620: FileFormat = FileFormat {
     name: "kde kword",
     extensions: &["kwd", "kwt"],
     media_types: &["application/vnd.kde.kword"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

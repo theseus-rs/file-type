@@ -6,6 +6,6 @@ pub(crate) const HTTPD_376588493: FileFormat = FileFormat {
     name: "rpki ghostbusters",
     extensions: &["gbr"],
     media_types: &["application/rpki-ghostbusters"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

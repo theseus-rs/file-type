@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_805122868: FileFormat = FileFormat {
     name: "YARA",
     extensions: &["yar", "yara"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

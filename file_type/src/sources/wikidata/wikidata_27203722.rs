@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27203722: FileFormat = FileFormat {
     id: 27_203_722,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27203722: FileFormat = FileFormat {
     name: "OpenDocument Spreadsheet, version 1.1",
     extensions: &["ods"],
     media_types: &["application/vnd.oasis.opendocument.spreadsheet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

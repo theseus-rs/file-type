@@ -6,6 +6,6 @@ pub(crate) const IANA_3003002017: FileFormat = FileFormat {
     name: "vnd.solent.sdkm+xml",
     extensions: &[],
     media_types: &["application/vnd.solent.sdkm+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

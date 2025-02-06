@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28955450: FileFormat = FileFormat {
     id: 28_955_450,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28955450: FileFormat = FileFormat {
     name: "GenBank file format",
     extensions: &["gb", "gbk", "gen"],
     media_types: &["chemical/x-genbank"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

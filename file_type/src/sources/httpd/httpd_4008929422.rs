@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4008929422: FileFormat = FileFormat {
     name: "csml",
     extensions: &["csml"],
     media_types: &["chemical/x-csml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

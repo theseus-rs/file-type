@@ -6,6 +6,6 @@ pub(crate) const IANA_3335845233: FileFormat = FileFormat {
     name: "ODA",
     extensions: &[],
     media_types: &["application/ODA"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

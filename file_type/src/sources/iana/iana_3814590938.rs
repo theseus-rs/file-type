@@ -6,6 +6,6 @@ pub(crate) const IANA_3814590938: FileFormat = FileFormat {
     name: "vnd.3gpp.seal-info+xml",
     extensions: &[],
     media_types: &["application/vnd.3gpp.seal-info+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

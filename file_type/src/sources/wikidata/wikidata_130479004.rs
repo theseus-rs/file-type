@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130479004: FileFormat = FileFormat {
     id: 130_479_004,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130479004: FileFormat = FileFormat {
     name: "Pointless source code file",
     extensions: &["ptls"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

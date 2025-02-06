@@ -6,6 +6,6 @@ pub(crate) const IANA_745551567: FileFormat = FileFormat {
     name: "vnd.restful+json",
     extensions: &[],
     media_types: &["application/vnd.restful+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

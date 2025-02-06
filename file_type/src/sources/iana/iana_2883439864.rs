@@ -6,6 +6,6 @@ pub(crate) const IANA_2883439864: FileFormat = FileFormat {
     name: "vnd.enliven",
     extensions: &[],
     media_types: &["application/vnd.enliven"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

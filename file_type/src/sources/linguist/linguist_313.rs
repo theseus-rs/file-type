@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_313: FileFormat = FileFormat {
     name: "RMarkdown",
     extensions: &["qmd", "rmd"],
     media_types: &["text/x-gfm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

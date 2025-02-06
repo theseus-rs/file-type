@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_271: FileFormat = FileFormat {
     name: "Pawn",
     extensions: &["inc", "pwn", "sma"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

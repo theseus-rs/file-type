@@ -6,6 +6,6 @@ pub(crate) const IANA_2978665677: FileFormat = FileFormat {
     name: "vnd.claymore",
     extensions: &[],
     media_types: &["application/vnd.claymore"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1803827993: FileFormat = FileFormat {
     name: "gnap-binding-rotation-jws",
     extensions: &[],
     media_types: &["application/gnap-binding-rotation-jws"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

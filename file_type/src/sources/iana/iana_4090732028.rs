@@ -6,6 +6,6 @@ pub(crate) const IANA_4090732028: FileFormat = FileFormat {
     name: "EVS",
     extensions: &[],
     media_types: &["audio/EVS"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

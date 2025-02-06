@@ -6,6 +6,6 @@ pub(crate) const IANA_3848466485: FileFormat = FileFormat {
     name: "font-sfnt - DEPRECATED in favor of font/sfnt",
     extensions: &[],
     media_types: &["application/font-sfnt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

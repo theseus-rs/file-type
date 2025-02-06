@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_112960222: FileFormat = FileFormat {
     id: 112_960_222,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_112960222: FileFormat = FileFormat {
     name: "GameExchange2 camera file",
     extensions: &["gcf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

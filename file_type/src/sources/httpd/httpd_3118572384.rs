@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3118572384: FileFormat = FileFormat {
     name: "sun xml writer",
     extensions: &["sxw"],
     media_types: &["application/vnd.sun.xml.writer"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

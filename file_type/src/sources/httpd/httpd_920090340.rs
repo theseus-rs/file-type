@@ -6,6 +6,6 @@ pub(crate) const HTTPD_920090340: FileFormat = FileFormat {
     name: "tads",
     extensions: &["gam"],
     media_types: &["application/x-tads"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_260369007: FileFormat = FileFormat {
     name: "sslkeylogfile",
     extensions: &[],
     media_types: &["application/sslkeylogfile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

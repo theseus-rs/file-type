@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_160: FileFormat = FileFormat {
     name: "HyPhy",
     extensions: &["bf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

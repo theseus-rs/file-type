@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_351: FileFormat = FileFormat {
     name: "Smali",
     extensions: &["smali"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

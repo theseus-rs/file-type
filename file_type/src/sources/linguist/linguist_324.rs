@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_324: FileFormat = FileFormat {
     name: "RobotFramework",
     extensions: &["resource", "robot"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

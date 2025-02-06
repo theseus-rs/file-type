@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_76622426: FileFormat = FileFormat {
     id: 76_622_426,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_76622426: FileFormat = FileFormat {
     name: "Autodesk Alias 2017 Model",
     extensions: &["wire"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

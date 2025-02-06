@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_328: FileFormat = FileFormat {
     name: "SAS",
     extensions: &["sas"],
     media_types: &["text/x-sas"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

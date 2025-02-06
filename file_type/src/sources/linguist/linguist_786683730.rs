@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_786683730: FileFormat = FileFormat {
     name: "HXML",
     extensions: &["hxml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

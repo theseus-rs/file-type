@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_29650311: FileFormat = FileFormat {
     id: 29_650_311,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_29650311: FileFormat = FileFormat {
     name: "POV-Ray scene description",
     extensions: &["inc", "pov"],
     media_types: &["model/x-pov", "text/x-povray"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

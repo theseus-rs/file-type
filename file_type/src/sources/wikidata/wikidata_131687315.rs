@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131687315: FileFormat = FileFormat {
     id: 131_687_315,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131687315: FileFormat = FileFormat {
     name: "HTML Email Markup Language format",
     extensions: &["heml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

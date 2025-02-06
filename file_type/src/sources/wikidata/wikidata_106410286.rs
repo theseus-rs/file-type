@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_106410286: FileFormat = FileFormat {
     id: 106_410_286,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_106410286: FileFormat = FileFormat {
     name: "ZISRAW (CZI)",
     extensions: &["czi"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

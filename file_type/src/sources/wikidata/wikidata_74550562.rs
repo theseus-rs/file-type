@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_74550562: FileFormat = FileFormat {
     id: 74_550_562,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_74550562: FileFormat = FileFormat {
     name: "SAP2000 DataBase",
     extensions: &["sdb"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

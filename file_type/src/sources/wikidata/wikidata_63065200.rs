@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_63065200: FileFormat = FileFormat {
     id: 63_065_200,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_63065200: FileFormat = FileFormat {
     name: "HDF4",
     extensions: &["h4", "hdf", "hdf4", "he4"],
     media_types: &["application/x-hdf", "application/x-hdf4"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

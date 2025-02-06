@@ -6,6 +6,6 @@ pub(crate) const IANA_1261369801: FileFormat = FileFormat {
     name: "ogg",
     extensions: &[],
     media_types: &["application/ogg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

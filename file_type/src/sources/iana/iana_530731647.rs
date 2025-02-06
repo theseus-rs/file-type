@@ -6,6 +6,6 @@ pub(crate) const IANA_530731647: FileFormat = FileFormat {
     name: "atomdeleted+xml",
     extensions: &[],
     media_types: &["application/atomdeleted+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

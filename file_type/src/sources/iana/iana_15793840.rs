@@ -6,6 +6,6 @@ pub(crate) const IANA_15793840: FileFormat = FileFormat {
     name: "vnd.nervana",
     extensions: &[],
     media_types: &["application/vnd.nervana"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

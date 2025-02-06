@@ -6,6 +6,6 @@ pub(crate) const IANA_2339108390: FileFormat = FileFormat {
     name: "emotionml+xml",
     extensions: &[],
     media_types: &["application/emotionml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

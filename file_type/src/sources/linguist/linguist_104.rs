@@ -8,6 +8,6 @@ pub(crate) const LINGUIST_104: FileFormat = FileFormat {
         "app", "app.src", "erl", "es", "escript", "hrl", "xrl", "yrl",
     ],
     media_types: &["text/x-erlang"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1698179595: FileFormat = FileFormat {
     name: "route-usd+xml",
     extensions: &[],
     media_types: &["application/route-usd+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

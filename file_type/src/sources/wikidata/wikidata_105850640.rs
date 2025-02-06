@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105850640: FileFormat = FileFormat {
     id: 105_850_640,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105850640: FileFormat = FileFormat {
     name: "16bit DOS COM ComProtector encrypted (v1.0)",
     extensions: &["com"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

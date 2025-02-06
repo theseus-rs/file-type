@@ -6,6 +6,6 @@ pub(crate) const IANA_2877491882: FileFormat = FileFormat {
     name: "A2L",
     extensions: &[],
     media_types: &["application/A2L"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

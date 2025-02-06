@@ -6,6 +6,6 @@ pub(crate) const IANA_3688277181: FileFormat = FileFormat {
     name: "flac",
     extensions: &[],
     media_types: &["audio/flac"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

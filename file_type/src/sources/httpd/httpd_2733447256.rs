@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2733447256: FileFormat = FileFormat {
     name: "crick clicker wordbank",
     extensions: &["clkw"],
     media_types: &["application/vnd.crick.clicker.wordbank"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

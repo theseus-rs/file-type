@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105854544: FileFormat = FileFormat {
     id: 105_854_544,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105854544: FileFormat = FileFormat {
     name: "Adobe Digital Editions Adobe Content Server Message",
     extensions: &["acsm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

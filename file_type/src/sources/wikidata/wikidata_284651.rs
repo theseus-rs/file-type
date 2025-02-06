@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_284651: FileFormat = FileFormat {
     id: 284_651,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_284651: FileFormat = FileFormat {
     name: "iCalendar",
     extensions: &["iCal", "iFBf", "icalendar", "ics", "ifb"],
     media_types: &["text/calendar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

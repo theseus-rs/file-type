@@ -6,6 +6,6 @@ pub(crate) const IANA_564146210: FileFormat = FileFormat {
     name: "macwriteii",
     extensions: &[],
     media_types: &["application/macwriteii"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

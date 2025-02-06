@@ -6,6 +6,6 @@ pub(crate) const IANA_3836321158: FileFormat = FileFormat {
     name: "vnd.marlin.drm.mdcf",
     extensions: &[],
     media_types: &["application/vnd.marlin.drm.mdcf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

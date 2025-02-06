@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_118906275: FileFormat = FileFormat {
     id: 118_906_275,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_118906275: FileFormat = FileFormat {
     name: "ASP Configuration file",
     extensions: &["asa"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

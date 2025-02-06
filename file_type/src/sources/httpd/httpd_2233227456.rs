@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2233227456: FileFormat = FileFormat {
     name: "fdsn mseed",
     extensions: &["mseed"],
     media_types: &["application/vnd.fdsn.mseed"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

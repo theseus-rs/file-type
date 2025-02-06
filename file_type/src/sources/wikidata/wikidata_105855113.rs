@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105855113: FileFormat = FileFormat {
     id: 105_855_113,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105855113: FileFormat = FileFormat {
     name: "EXT2 Extended Amiga Disk image File",
     extensions: &["adf"],
     media_types: &["application/x-amiga-disk-format"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

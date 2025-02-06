@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_202937027: FileFormat = FileFormat {
     name: "Motoko",
     extensions: &["mo"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_124663506: FileFormat = FileFormat {
     id: 124_663_506,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_124663506: FileFormat = FileFormat {
     name: "Transmission X-Ray Microscopy data format",
     extensions: &["txm", "txrm", "xrm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

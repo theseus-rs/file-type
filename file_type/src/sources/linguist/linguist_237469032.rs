@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_237469032: FileFormat = FileFormat {
     name: "Solidity",
     extensions: &["sol"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

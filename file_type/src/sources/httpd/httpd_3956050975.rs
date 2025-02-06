@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3956050975: FileFormat = FileFormat {
     name: "java jnlp file",
     extensions: &["jnlp"],
     media_types: &["application/x-java-jnlp-file"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

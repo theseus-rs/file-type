@@ -6,6 +6,6 @@ pub(crate) const IANA_2452209651: FileFormat = FileFormat {
     name: "vnd.geospace",
     extensions: &[],
     media_types: &["application/vnd.geospace"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

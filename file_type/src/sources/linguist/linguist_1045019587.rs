@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1045019587: FileFormat = FileFormat {
     name: "Mojo",
     extensions: &["mojo"],
     media_types: &["text/x-python"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

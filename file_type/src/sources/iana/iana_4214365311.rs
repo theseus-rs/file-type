@@ -6,6 +6,6 @@ pub(crate) const IANA_4214365311: FileFormat = FileFormat {
     name: "vnd.wfa.wsc",
     extensions: &[],
     media_types: &["message/vnd.wfa.wsc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

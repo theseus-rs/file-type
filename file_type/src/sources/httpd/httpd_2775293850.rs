@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2775293850: FileFormat = FileFormat {
     name: "troff",
     extensions: &["t", "tr", "roff", "man", "me", "ms"],
     media_types: &["text/troff"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

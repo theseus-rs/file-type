@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_84842889: FileFormat = FileFormat {
     id: 84_842_889,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_84842889: FileFormat = FileFormat {
     name: "GL Transmission Format, version 2 (text)",
     extensions: &["gltf"],
     media_types: &["application/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

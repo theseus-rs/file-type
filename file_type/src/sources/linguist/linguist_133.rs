@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_133: FileFormat = FileFormat {
     name: "Golo",
     extensions: &["golo"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

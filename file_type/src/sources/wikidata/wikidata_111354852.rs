@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111354852: FileFormat = FileFormat {
     id: 111_354_852,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111354852: FileFormat = FileFormat {
     name: "Yamaha Tyros 2 custom voice file",
     extensions: &["tvn"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

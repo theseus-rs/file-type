@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857557: FileFormat = FileFormat {
     id: 105_857_557,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105857557: FileFormat = FileFormat {
     name: "Autodesk Inventor Project",
     extensions: &["ipj"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

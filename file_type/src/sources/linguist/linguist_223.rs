@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_223: FileFormat = FileFormat {
     name: "Mask",
     extensions: &["mask"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

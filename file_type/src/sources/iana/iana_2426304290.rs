@@ -6,6 +6,6 @@ pub(crate) const IANA_2426304290: FileFormat = FileFormat {
     name: "vnd.nokia.n-gage.data",
     extensions: &[],
     media_types: &["application/vnd.nokia.n-gage.data"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_2609791: FileFormat = FileFormat {
     id: 2_609_791,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_2609791: FileFormat = FileFormat {
     name: "Blu-ray Disc Audio-Video MPEG-2 Transport Stream container file format",
     extensions: &["MTS", "m2ts"],
     media_types: &["video/MP2T"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

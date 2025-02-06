@@ -6,6 +6,6 @@ pub(crate) const IANA_571581390: FileFormat = FileFormat {
     name: "vnd.accpac.simply.imp",
     extensions: &[],
     media_types: &["application/vnd.accpac.simply.imp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

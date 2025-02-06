@@ -6,6 +6,6 @@ pub(crate) const DEFAULT_1: FileFormat = FileFormat {
     name: "Binary",
     extensions: &[],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

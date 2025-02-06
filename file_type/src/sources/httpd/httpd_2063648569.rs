@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2063648569: FileFormat = FileFormat {
     name: "groove tool template",
     extensions: &["tpl"],
     media_types: &["application/vnd.groove-tool-template"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

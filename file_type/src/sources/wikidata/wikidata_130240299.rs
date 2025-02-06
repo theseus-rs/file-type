@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130240299: FileFormat = FileFormat {
     id: 130_240_299,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130240299: FileFormat = FileFormat {
     name: "Literate Agda source code file",
     extensions: &["lagda"],
     media_types: &["text/x-literate-agda"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

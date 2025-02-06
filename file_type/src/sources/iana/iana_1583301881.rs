@@ -6,6 +6,6 @@ pub(crate) const IANA_1583301881: FileFormat = FileFormat {
     name: "vnd.intu.qfx",
     extensions: &[],
     media_types: &["application/vnd.intu.qfx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

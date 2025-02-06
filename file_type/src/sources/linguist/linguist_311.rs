@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_311: FileFormat = FileFormat {
     name: "REXX",
     extensions: &["pprx", "rex", "rexx"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

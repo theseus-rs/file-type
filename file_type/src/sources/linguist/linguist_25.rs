@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_25: FileFormat = FileFormat {
     name: "Augeas",
     extensions: &["aug"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

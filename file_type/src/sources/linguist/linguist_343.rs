@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_343: FileFormat = FileFormat {
     name: "Scheme",
     extensions: &["sch", "scm", "sld", "sls", "sps", "ss"],
     media_types: &["text/x-scheme"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

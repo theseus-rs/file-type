@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_535473: FileFormat = FileFormat {
     id: 535_473,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_535473: FileFormat = FileFormat {
     name: "PCX file format family",
     extensions: &["pcc", "pcx"],
     media_types: &["image/vnd.zbrush.pcx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

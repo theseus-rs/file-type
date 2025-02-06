@@ -6,6 +6,6 @@ pub(crate) const IANA_1157551608: FileFormat = FileFormat {
     name: "mipc",
     extensions: &[],
     media_types: &["application/mipc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

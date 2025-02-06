@@ -8,6 +8,6 @@ pub(crate) const LINGUIST_213: FileFormat = FileFormat {
         "fcgi", "lua", "nse", "p8", "pd_lua", "rbxs", "rockspec", "wlua",
     ],
     media_types: &["text/x-lua"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

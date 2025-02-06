@@ -6,6 +6,6 @@ pub(crate) const IANA_880276053: FileFormat = FileFormat {
     name: "vnd.yamaha.tunnel-udpencap",
     extensions: &[],
     media_types: &["application/vnd.yamaha.tunnel-udpencap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

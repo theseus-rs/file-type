@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_928121743: FileFormat = FileFormat {
     name: "HolyC",
     extensions: &["hc"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

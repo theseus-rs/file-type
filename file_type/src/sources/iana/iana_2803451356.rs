@@ -6,6 +6,6 @@ pub(crate) const IANA_2803451356: FileFormat = FileFormat {
     name: "ATFX",
     extensions: &[],
     media_types: &["application/ATFX"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

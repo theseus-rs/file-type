@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_284: FileFormat = FileFormat {
     name: "Pickle",
     extensions: &["pkl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

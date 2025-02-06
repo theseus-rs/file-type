@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105851415: FileFormat = FileFormat {
     id: 105_851_415,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105851415: FileFormat = FileFormat {
     name: "T'SoundSystem Source (with rem)",
     extensions: &["tss"],
     media_types: &["text/plain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

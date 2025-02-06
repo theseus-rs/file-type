@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1994: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_1994: FileFormat = FileFormat {
     name: "InDesign Markup Language Package",
     extensions: &["idml"],
     media_types: &["application/vnd.adobe.indesign-idml-package"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

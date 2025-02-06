@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1810849: FileFormat = FileFormat {
     id: 1_810_849,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_1810849: FileFormat = FileFormat {
     name: "XLIFF",
     extensions: &["xlf"],
     media_types: &["application/xliff+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

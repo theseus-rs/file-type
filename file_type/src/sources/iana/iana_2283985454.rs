@@ -6,6 +6,6 @@ pub(crate) const IANA_2283985454: FileFormat = FileFormat {
     name: "nasdata",
     extensions: &[],
     media_types: &["application/nasdata"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

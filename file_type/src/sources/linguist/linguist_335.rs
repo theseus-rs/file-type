@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_335: FileFormat = FileFormat {
     name: "SRecode Template",
     extensions: &["srt"],
     media_types: &["text/x-common-lisp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

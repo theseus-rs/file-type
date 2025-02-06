@@ -6,6 +6,6 @@ pub(crate) const IANA_1556358890: FileFormat = FileFormat {
     name: "jxsc",
     extensions: &[],
     media_types: &["image/jxsc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

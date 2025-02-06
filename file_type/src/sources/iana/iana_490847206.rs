@@ -6,6 +6,6 @@ pub(crate) const IANA_490847206: FileFormat = FileFormat {
     name: "cose-key-set",
     extensions: &[],
     media_types: &["application/cose-key-set"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

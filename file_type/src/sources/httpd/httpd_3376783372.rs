@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3376783372: FileFormat = FileFormat {
     name: "digital winds",
     extensions: &["eol"],
     media_types: &["audio/vnd.digital-winds"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

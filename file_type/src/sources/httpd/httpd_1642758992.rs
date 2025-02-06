@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1642758992: FileFormat = FileFormat {
     name: "flographit",
     extensions: &["gph"],
     media_types: &["application/vnd.flographit"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

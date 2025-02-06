@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2996336798: FileFormat = FileFormat {
     name: "lotus screencam",
     extensions: &["scm"],
     media_types: &["application/vnd.lotus-screencam"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

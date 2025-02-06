@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2707319756: FileFormat = FileFormat {
     name: "wap wmlscriptc",
     extensions: &["wmlsc"],
     media_types: &["application/vnd.wap.wmlscriptc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

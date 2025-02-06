@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2487060900: FileFormat = FileFormat {
     name: "shar",
     extensions: &["shar"],
     media_types: &["application/x-shar"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

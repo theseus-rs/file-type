@@ -6,6 +6,6 @@ pub(crate) const IANA_1601272524: FileFormat = FileFormat {
     name: "vnd.sbm.mid2",
     extensions: &[],
     media_types: &["application/vnd.sbm.mid2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

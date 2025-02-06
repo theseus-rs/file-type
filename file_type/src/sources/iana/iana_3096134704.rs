@@ -6,6 +6,6 @@ pub(crate) const IANA_3096134704: FileFormat = FileFormat {
     name: "vtt",
     extensions: &[],
     media_types: &["text/vtt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

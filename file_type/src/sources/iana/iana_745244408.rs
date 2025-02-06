@@ -6,6 +6,6 @@ pub(crate) const IANA_745244408: FileFormat = FileFormat {
     name: "vnd.aether.imp",
     extensions: &[],
     media_types: &["application/vnd.aether.imp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

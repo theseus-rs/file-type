@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_59: FileFormat = FileFormat {
     name: "Clarion",
     extensions: &["clw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

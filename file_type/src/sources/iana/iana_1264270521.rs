@@ -6,6 +6,6 @@ pub(crate) const IANA_1264270521: FileFormat = FileFormat {
     name: "vnd.iptc.g2.packageitem+xml",
     extensions: &[],
     media_types: &["application/vnd.iptc.g2.packageitem+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

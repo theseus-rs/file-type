@@ -6,6 +6,6 @@ pub(crate) const IANA_3315716607: FileFormat = FileFormat {
     name: "vnd.enphase.envoy",
     extensions: &[],
     media_types: &["application/vnd.enphase.envoy"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131389582: FileFormat = FileFormat {
     id: 131_389_582,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131389582: FileFormat = FileFormat {
     name: "Velocity file format",
     extensions: &["vm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

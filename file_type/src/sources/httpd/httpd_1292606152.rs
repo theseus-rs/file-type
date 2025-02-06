@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1292606152: FileFormat = FileFormat {
     name: "texinfo",
     extensions: &["texinfo", "texi"],
     media_types: &["application/x-texinfo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

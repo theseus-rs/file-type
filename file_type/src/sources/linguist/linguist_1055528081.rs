@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1055528081: FileFormat = FileFormat {
     name: "Bikeshed",
     extensions: &["bs"],
     media_types: &["text/html"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

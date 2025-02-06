@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3655629976: FileFormat = FileFormat {
     name: "triscape mxs",
     extensions: &["mxs"],
     media_types: &["application/vnd.triscape.mxs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

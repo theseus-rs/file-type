@@ -6,6 +6,6 @@ pub(crate) const IANA_3039503997: FileFormat = FileFormat {
     name: "link-format",
     extensions: &[],
     media_types: &["application/link-format"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

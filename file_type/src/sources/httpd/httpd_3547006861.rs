@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3547006861: FileFormat = FileFormat {
     name: "dtbresource xml",
     extensions: &["res"],
     media_types: &["application/x-dtbresource+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_109346033: FileFormat = FileFormat {
     id: 109_346_033,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_109346033: FileFormat = FileFormat {
     name: "osu! beatmap archive (.osz)",
     extensions: &["osz"],
     media_types: &["application/x-osu-beatmap-archive"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

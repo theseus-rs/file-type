@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_668457123: FileFormat = FileFormat {
     name: "Wget Config",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

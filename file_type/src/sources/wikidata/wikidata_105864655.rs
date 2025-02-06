@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105864655: FileFormat = FileFormat {
     id: 105_864_655,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105864655: FileFormat = FileFormat {
     name: "Microsoft PowerPoint (v3.0)",
     extensions: &["ppt"],
     media_types: &["application/vnd.ms-powerpoint"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

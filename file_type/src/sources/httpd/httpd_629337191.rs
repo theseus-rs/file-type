@@ -6,6 +6,6 @@ pub(crate) const HTTPD_629337191: FileFormat = FileFormat {
     name: "aac",
     extensions: &["aac"],
     media_types: &["audio/x-aac"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

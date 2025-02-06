@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_51842171: FileFormat = FileFormat {
     id: 51_842_171,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_51842171: FileFormat = FileFormat {
     name: "MacPaint Graphics",
     extensions: &["pnt"],
     media_types: &["image/mac"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

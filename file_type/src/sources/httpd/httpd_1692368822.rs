@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1692368822: FileFormat = FileFormat {
     name: "genomatix tuxedo",
     extensions: &["txd"],
     media_types: &["application/vnd.genomatix.tuxedo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

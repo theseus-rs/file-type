@@ -6,6 +6,6 @@ pub(crate) const IANA_1452186027: FileFormat = FileFormat {
     name: "dashdelta",
     extensions: &[],
     media_types: &["application/dashdelta"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

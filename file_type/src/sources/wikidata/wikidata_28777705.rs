@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28777705: FileFormat = FileFormat {
     id: 28_777_705,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28777705: FileFormat = FileFormat {
     name: "MyHeritage Family Tree Builder",
     extensions: &["zed"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

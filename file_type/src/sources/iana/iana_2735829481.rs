@@ -6,6 +6,6 @@ pub(crate) const IANA_2735829481: FileFormat = FileFormat {
     name: "quicktime",
     extensions: &[],
     media_types: &["video/quicktime"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

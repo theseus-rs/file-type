@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_451700185: FileFormat = FileFormat {
     name: "AIDL",
     extensions: &["aidl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

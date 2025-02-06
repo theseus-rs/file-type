@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_658971832: FileFormat = FileFormat {
     name: "AL",
     extensions: &["al"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3106227398: FileFormat = FileFormat {
     name: "stardivision impress",
     extensions: &["sdd"],
     media_types: &["application/vnd.stardivision.impress"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

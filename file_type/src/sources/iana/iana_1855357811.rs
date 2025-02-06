@@ -6,6 +6,6 @@ pub(crate) const IANA_1855357811: FileFormat = FileFormat {
     name: "nlsml+xml",
     extensions: &[],
     media_types: &["application/nlsml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

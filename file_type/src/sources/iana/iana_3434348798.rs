@@ -6,6 +6,6 @@ pub(crate) const IANA_3434348798: FileFormat = FileFormat {
     name: "vnd.eprints.data+xml",
     extensions: &[],
     media_types: &["application/vnd.eprints.data+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

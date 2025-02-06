@@ -6,6 +6,6 @@ pub(crate) const IANA_577779527: FileFormat = FileFormat {
     name: "bacnet-xdd+zip",
     extensions: &[],
     media_types: &["application/bacnet-xdd+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_856832701: FileFormat = FileFormat {
     name: "Terraform Template",
     extensions: &["tftpl"],
     media_types: &["text/x-ruby"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

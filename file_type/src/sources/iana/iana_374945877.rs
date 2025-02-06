@@ -6,6 +6,6 @@ pub(crate) const IANA_374945877: FileFormat = FileFormat {
     name: "xcap-el+xml",
     extensions: &[],
     media_types: &["application/xcap-el+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

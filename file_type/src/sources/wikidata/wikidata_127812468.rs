@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_127812468: FileFormat = FileFormat {
     id: 127_812_468,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_127812468: FileFormat = FileFormat {
     name: "Objective-C source code file",
     extensions: &["m"],
     media_types: &["text/x-objective-c"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

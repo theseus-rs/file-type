@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_402: FileFormat = FileFormat {
     name: "XQuery",
     extensions: &["xq", "xql", "xqm", "xquery", "xqy"],
     media_types: &["application/xquery"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_484148083: FileFormat = FileFormat {
     name: "muvee style",
     extensions: &["msty"],
     media_types: &["application/vnd.muvee.style"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

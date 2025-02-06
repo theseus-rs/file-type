@@ -6,6 +6,6 @@ pub(crate) const IANA_530516509: FileFormat = FileFormat {
     name: "reputon+json",
     extensions: &[],
     media_types: &["application/reputon+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

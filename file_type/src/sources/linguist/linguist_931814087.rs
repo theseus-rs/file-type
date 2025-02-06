@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_931814087: FileFormat = FileFormat {
     name: "HiveQL",
     extensions: &["hql", "q"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

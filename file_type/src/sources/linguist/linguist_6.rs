@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_6: FileFormat = FileFormat {
     name: "APL",
     extensions: &["apl", "dyalog"],
     media_types: &["text/apl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

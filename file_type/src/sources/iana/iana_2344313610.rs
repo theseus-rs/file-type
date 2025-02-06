@@ -6,6 +6,6 @@ pub(crate) const IANA_2344313610: FileFormat = FileFormat {
     name: "vnd.ciedi",
     extensions: &[],
     media_types: &["application/vnd.ciedi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

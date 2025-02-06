@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3368114516: FileFormat = FileFormat {
     name: "yamaha openscoreformat",
     extensions: &["osf"],
     media_types: &["application/vnd.yamaha.openscoreformat"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

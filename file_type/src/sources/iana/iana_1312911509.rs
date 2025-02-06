@@ -6,6 +6,6 @@ pub(crate) const IANA_1312911509: FileFormat = FileFormat {
     name: "vnd.oipf.cspg-hexbinary",
     extensions: &[],
     media_types: &["application/vnd.oipf.cspg-hexbinary"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

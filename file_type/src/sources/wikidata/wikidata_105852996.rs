@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105852996: FileFormat = FileFormat {
     id: 105_852_996,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105852996: FileFormat = FileFormat {
     name: "Caligari TrueSpace 3D object (v2.x)",
     extensions: &["sobj"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

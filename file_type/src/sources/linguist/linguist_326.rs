@@ -29,6 +29,6 @@ pub(crate) const LINGUIST_326: FileFormat = FileFormat {
         "watchr",
     ],
     media_types: &["text/x-ruby"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_22565941: FileFormat = FileFormat {
     name: "vnd.oma.scidm.messages+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.scidm.messages+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

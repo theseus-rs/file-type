@@ -6,6 +6,6 @@ pub(crate) const IANA_4015111843: FileFormat = FileFormat {
     name: "vnd.ms-PrintSchemaTicket+xml",
     extensions: &[],
     media_types: &["application/vnd.ms-PrintSchemaTicket+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

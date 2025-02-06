@@ -6,6 +6,6 @@ pub(crate) const IANA_311323204: FileFormat = FileFormat {
     name: "vnd.nokia.iptv.config+xml",
     extensions: &[],
     media_types: &["application/vnd.nokia.iptv.config+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

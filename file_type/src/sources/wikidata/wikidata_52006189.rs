@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_52006189: FileFormat = FileFormat {
     id: 52_006_189,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_52006189: FileFormat = FileFormat {
     name: "Micrografx Draw, version 4",
     extensions: &["drw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

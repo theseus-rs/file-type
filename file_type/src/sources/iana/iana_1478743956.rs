@@ -6,6 +6,6 @@ pub(crate) const IANA_1478743956: FileFormat = FileFormat {
     name: "vnd.gentoo.gpkg",
     extensions: &[],
     media_types: &["application/vnd.gentoo.gpkg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_894641667: FileFormat = FileFormat {
     name: "Slice",
     extensions: &["ice"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

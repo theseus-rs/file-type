@@ -6,6 +6,6 @@ pub(crate) const IANA_1335481394: FileFormat = FileFormat {
     name: "vnd.noblenet-directory",
     extensions: &[],
     media_types: &["application/vnd.noblenet-directory"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2586104738: FileFormat = FileFormat {
     name: "dece ttml xml",
     extensions: &["uvt", "uvvt"],
     media_types: &["application/vnd.dece.ttml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

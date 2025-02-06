@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105850372: FileFormat = FileFormat {
     id: 105_850_372,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105850372: FileFormat = FileFormat {
     name: "WildMidi Configuration",
     extensions: &["cfg"],
     media_types: &["text/plain"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

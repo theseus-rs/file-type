@@ -6,6 +6,6 @@ pub(crate) const IANA_157902401: FileFormat = FileFormat {
     name: "vnd.fujixerox.edmics-mmr",
     extensions: &[],
     media_types: &["image/vnd.fujixerox.edmics-mmr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

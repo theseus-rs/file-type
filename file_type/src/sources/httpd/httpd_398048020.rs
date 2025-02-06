@@ -6,6 +6,6 @@ pub(crate) const HTTPD_398048020: FileFormat = FileFormat {
     name: "pocketlearn",
     extensions: &["plf"],
     media_types: &["application/vnd.pocketlearn"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

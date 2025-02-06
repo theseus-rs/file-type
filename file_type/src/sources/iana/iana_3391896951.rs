@@ -6,6 +6,6 @@ pub(crate) const IANA_3391896951: FileFormat = FileFormat {
     name: "CPIM",
     extensions: &[],
     media_types: &["message/CPIM"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

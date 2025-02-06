@@ -6,6 +6,6 @@ pub(crate) const IANA_4192850660: FileFormat = FileFormat {
     name: "rtp-midi",
     extensions: &[],
     media_types: &["audio/rtp-midi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

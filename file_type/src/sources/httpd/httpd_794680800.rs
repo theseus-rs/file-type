@@ -6,6 +6,6 @@ pub(crate) const HTTPD_794680800: FileFormat = FileFormat {
     name: "applixware",
     extensions: &["aw"],
     media_types: &["application/applixware"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

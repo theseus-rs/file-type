@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_294: FileFormat = FileFormat {
     name: "Processing",
     extensions: &["pde"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

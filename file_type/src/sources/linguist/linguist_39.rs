@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_39: FileFormat = FileFormat {
     name: "Brightscript",
     extensions: &["brs"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

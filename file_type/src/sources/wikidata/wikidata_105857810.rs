@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105857810: FileFormat = FileFormat {
     id: 105_857_810,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105857810: FileFormat = FileFormat {
     name: "Toast disk image (old)",
     extensions: &["toast"],
     media_types: &["application/x-roxio-toast"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

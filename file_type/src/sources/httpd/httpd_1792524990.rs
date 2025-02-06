@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1792524990: FileFormat = FileFormat {
     name: "antix game component",
     extensions: &["atx"],
     media_types: &["application/vnd.antix.game-component"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

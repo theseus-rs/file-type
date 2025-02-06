@@ -6,6 +6,6 @@ pub(crate) const IANA_3444082853: FileFormat = FileFormat {
     name: "poc-settings+xml",
     extensions: &[],
     media_types: &["application/poc-settings+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

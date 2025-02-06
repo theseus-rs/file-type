@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_10397009: FileFormat = FileFormat {
     id: 10_397_009,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_10397009: FileFormat = FileFormat {
     name: "Arachne Plugin Manager file format",
     extensions: &["apm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

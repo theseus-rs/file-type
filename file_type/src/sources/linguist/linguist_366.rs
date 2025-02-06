@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_366: FileFormat = FileFormat {
     name: "TXL",
     extensions: &["txl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

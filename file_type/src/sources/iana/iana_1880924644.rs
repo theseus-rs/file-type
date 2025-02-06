@@ -6,6 +6,6 @@ pub(crate) const IANA_1880924644: FileFormat = FileFormat {
     name: "TSVCIS",
     extensions: &[],
     media_types: &["audio/TSVCIS"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

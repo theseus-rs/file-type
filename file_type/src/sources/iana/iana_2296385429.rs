@@ -6,6 +6,6 @@ pub(crate) const IANA_2296385429: FileFormat = FileFormat {
     name: "vnd.irepository.package+xml",
     extensions: &[],
     media_types: &["application/vnd.irepository.package+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

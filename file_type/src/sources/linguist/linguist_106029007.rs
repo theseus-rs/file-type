@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_106029007: FileFormat = FileFormat {
     name: "Praat",
     extensions: &["praat"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

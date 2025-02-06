@@ -6,6 +6,6 @@ pub(crate) const IANA_2204373978: FileFormat = FileFormat {
     name: "vnd.ims.imsccv1p2",
     extensions: &[],
     media_types: &["application/vnd.ims.imsccv1p2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1643328057: FileFormat = FileFormat {
     name: "stix+json",
     extensions: &[],
     media_types: &["application/stix+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

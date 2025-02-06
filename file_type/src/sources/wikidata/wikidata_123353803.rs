@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_123353803: FileFormat = FileFormat {
     id: 123_353_803,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_123353803: FileFormat = FileFormat {
     name: "C2PA Manifest",
     extensions: &["c2pa"],
     media_types: &["application/x-c2pa-manifest-store"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

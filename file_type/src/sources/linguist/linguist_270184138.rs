@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_270184138: FileFormat = FileFormat {
     name: "Cadence",
     extensions: &["cdc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

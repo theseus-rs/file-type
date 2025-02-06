@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4166067584: FileFormat = FileFormat {
     name: "mediaservercontrol xml",
     extensions: &["mscml"],
     media_types: &["application/mediaservercontrol+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

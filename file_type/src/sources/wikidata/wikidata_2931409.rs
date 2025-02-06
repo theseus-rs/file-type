@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_2931409: FileFormat = FileFormat {
     id: 2_931_409,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_2931409: FileFormat = FileFormat {
     name: "CFD General Notation System",
     extensions: &["cgns"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

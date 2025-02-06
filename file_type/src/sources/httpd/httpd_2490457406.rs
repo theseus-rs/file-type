@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2490457406: FileFormat = FileFormat {
     name: "font linux psf",
     extensions: &["psf"],
     media_types: &["application/x-font-linux-psf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

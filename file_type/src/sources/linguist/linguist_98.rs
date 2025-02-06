@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_98: FileFormat = FileFormat {
     name: "Ecere Projects",
     extensions: &["epj"],
     media_types: &["application/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

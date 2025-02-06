@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1162325134: FileFormat = FileFormat {
     name: "java serialized object",
     extensions: &["ser"],
     media_types: &["application/java-serialized-object"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

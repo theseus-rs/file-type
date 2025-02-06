@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_127411070: FileFormat = FileFormat {
     id: 127_411_070,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_127411070: FileFormat = FileFormat {
     name: "Nim source code file",
     extensions: &["nim", "nimrod"],
     media_types: &["text/x-nim"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

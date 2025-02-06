@@ -6,6 +6,6 @@ pub(crate) const IANA_2626880621: FileFormat = FileFormat {
     name: "vnd.fluxtime.clip",
     extensions: &[],
     media_types: &["application/vnd.fluxtime.clip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

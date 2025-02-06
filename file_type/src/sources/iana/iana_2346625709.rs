@@ -6,6 +6,6 @@ pub(crate) const IANA_2346625709: FileFormat = FileFormat {
     name: "vnd.geonext",
     extensions: &[],
     media_types: &["application/vnd.geonext"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

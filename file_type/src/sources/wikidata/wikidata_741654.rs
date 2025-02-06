@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_741654: FileFormat = FileFormat {
     id: 741_654,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_741654: FileFormat = FileFormat {
     name: "DirectDraw Surface",
     extensions: &["dds"],
     media_types: &["image/vnd-ms.dds"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

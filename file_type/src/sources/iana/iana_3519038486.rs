@@ -6,6 +6,6 @@ pub(crate) const IANA_3519038486: FileFormat = FileFormat {
     name: "csrattrs",
     extensions: &[],
     media_types: &["application/csrattrs"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

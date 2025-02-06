@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_274: FileFormat = FileFormat {
     name: "PLpgSQL",
     extensions: &["pgsql", "sql"],
     media_types: &["text/x-sql"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

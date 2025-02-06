@@ -6,6 +6,6 @@ pub(crate) const IANA_3962761714: FileFormat = FileFormat {
     name: "vnd.osgeo.mapguide.package",
     extensions: &[],
     media_types: &["application/vnd.osgeo.mapguide.package"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_187772328: FileFormat = FileFormat {
     name: "Altium Designer",
     extensions: &["OutJob", "PcbDoc", "PrjPCB", "SchDoc"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

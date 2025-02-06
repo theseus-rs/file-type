@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1670429068: FileFormat = FileFormat {
     name: "iges",
     extensions: &["igs", "iges"],
     media_types: &["model/iges"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

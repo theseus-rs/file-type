@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3145740509: FileFormat = FileFormat {
     name: "umajin",
     extensions: &["umj"],
     media_types: &["application/vnd.umajin"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

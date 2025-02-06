@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3207609300: FileFormat = FileFormat {
     name: "wt stf",
     extensions: &["stf"],
     media_types: &["application/vnd.wt.stf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

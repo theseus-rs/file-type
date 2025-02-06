@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856451: FileFormat = FileFormat {
     id: 105_856_451,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105856451: FileFormat = FileFormat {
     name: "Lotus Symphony Worksheet (V1)",
     extensions: &["wr1"],
     media_types: &["application/vnd.lotus-1-2-3"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

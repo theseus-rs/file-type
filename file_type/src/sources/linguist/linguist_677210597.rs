@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_677210597: FileFormat = FileFormat {
     name: "Oberon",
     extensions: &["ob2"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

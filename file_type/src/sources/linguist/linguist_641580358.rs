@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_641580358: FileFormat = FileFormat {
     name: "Bluespec BH",
     extensions: &["bs"],
     media_types: &["text/x-haskell"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

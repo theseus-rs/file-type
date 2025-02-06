@@ -20,12 +20,12 @@ pub(crate) struct InternalSignature {
 
 impl InternalSignature {
     /// Convert to the type used at runtime
-    pub fn to_runtime_type(&self) -> file_type::Result<file_type::format::InternalSignature> {
+    pub fn to_runtime_type(&self) -> file_type::Result<file_type::format::Signature> {
         let mut byte_sequences = Vec::new();
         for byte_sequence in &self.byte_sequences {
             byte_sequences.push(byte_sequence.to_runtime_type()?);
         }
-        let internal_signature = file_type::format::InternalSignature {
+        let internal_signature = file_type::format::Signature {
             byte_sequences: Box::leak(byte_sequences.into_boxed_slice()),
         };
         Ok(internal_signature)

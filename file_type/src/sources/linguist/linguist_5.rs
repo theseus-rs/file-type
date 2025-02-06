@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_5: FileFormat = FileFormat {
     name: "API Blueprint",
     extensions: &["apib"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_875380544: FileFormat = FileFormat {
     name: "DII",
     extensions: &[],
     media_types: &["application/DII"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

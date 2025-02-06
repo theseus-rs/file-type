@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1648625350: FileFormat = FileFormat {
     name: "sailingtracker track",
     extensions: &["st"],
     media_types: &["application/vnd.sailingtracker.track"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

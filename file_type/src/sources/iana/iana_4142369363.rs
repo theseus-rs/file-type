@@ -6,6 +6,6 @@ pub(crate) const IANA_4142369363: FileFormat = FileFormat {
     name: "MP4A-LATM",
     extensions: &[],
     media_types: &["audio/MP4A-LATM"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_128913262: FileFormat = FileFormat {
     id: 128_913_262,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_128913262: FileFormat = FileFormat {
     name: "DylanLID file format",
     extensions: &["lid"],
     media_types: &["text/x-dylan-lid"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

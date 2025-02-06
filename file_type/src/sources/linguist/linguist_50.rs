@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_50: FileFormat = FileFormat {
     name: "CSS",
     extensions: &["css"],
     media_types: &["text/css"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

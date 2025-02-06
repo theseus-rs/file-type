@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_2451637: FileFormat = FileFormat {
     id: 2_451_637,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_2451637: FileFormat = FileFormat {
     name: "torrent file",
     extensions: &["torrent"],
     media_types: &["application/x-bittorrent"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_11802013: FileFormat = FileFormat {
     id: 11_802_013,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_11802013: FileFormat = FileFormat {
     name: "Sega Dreamcast Texture Package Format",
     extensions: &["pvm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1435102575: FileFormat = FileFormat {
     name: "vnd.yamaha.hv-dic",
     extensions: &[],
     media_types: &["application/vnd.yamaha.hv-dic"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

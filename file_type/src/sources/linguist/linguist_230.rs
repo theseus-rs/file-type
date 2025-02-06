@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_230: FileFormat = FileFormat {
     name: "Metal",
     extensions: &["metal"],
     media_types: &["text/x-c++src"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

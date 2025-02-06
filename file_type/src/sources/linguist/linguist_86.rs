@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_86: FileFormat = FileFormat {
     name: "Darcs Patch",
     extensions: &["darcspatch", "dpatch"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

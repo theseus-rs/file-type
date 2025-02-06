@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_5519821: FileFormat = FileFormat {
     id: 5_519_821,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_5519821: FileFormat = FileFormat {
     name: "Game Boy Sound",
     extensions: &["gbs"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

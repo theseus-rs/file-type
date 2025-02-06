@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_28009448: FileFormat = FileFormat {
     id: 28_009_448,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_28009448: FileFormat = FileFormat {
     name: "ROM of Pokémon Mystery Dungeon Red Rescue Team",
     extensions: &["gba"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

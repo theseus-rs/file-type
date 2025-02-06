@@ -6,6 +6,6 @@ pub(crate) const IANA_2375393172: FileFormat = FileFormat {
     name: "vnd.presonus.multitrack",
     extensions: &[],
     media_types: &["audio/vnd.presonus.multitrack"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

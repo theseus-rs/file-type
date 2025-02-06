@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_34312361: FileFormat = FileFormat {
     id: 34_312_361,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_34312361: FileFormat = FileFormat {
     name: "Macromedia Director, uncompressed Macintosh variant",
     extensions: &["dir", "dxr"],
     media_types: &["application/x-director"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

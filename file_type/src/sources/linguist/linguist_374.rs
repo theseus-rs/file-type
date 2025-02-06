@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_374: FileFormat = FileFormat {
     name: "Thrift",
     extensions: &["thrift"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

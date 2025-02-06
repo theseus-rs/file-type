@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_47462143: FileFormat = FileFormat {
     id: 47_462_143,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_47462143: FileFormat = FileFormat {
     name: "Caligari TrueSpace file format",
     extensions: &["cob", "scn"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_233: FileFormat = FileFormat {
     name: "Modelica",
     extensions: &["mo"],
     media_types: &["text/x-modelica"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

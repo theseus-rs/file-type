@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_47538977: FileFormat = FileFormat {
     id: 47_538_977,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_47538977: FileFormat = FileFormat {
     name: "AutoCAD Template Menu File",
     extensions: &["mnu"],
     media_types: &["application/x-autocad"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

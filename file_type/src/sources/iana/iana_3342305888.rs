@@ -8,6 +8,6 @@ pub(crate) const IANA_3342305888: FileFormat = FileFormat {
     media_types: &[
         "application/vnd.openxmlformats-officedocument.presentationml.handoutMaster+xml",
     ],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

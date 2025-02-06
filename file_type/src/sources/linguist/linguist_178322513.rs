@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_178322513: FileFormat = FileFormat {
     name: "Nasal",
     extensions: &["nas"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

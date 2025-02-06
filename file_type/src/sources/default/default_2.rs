@@ -6,6 +6,6 @@ pub(crate) const DEFAULT_2: FileFormat = FileFormat {
     name: "Text",
     extensions: &[],
     media_types: &["text/plain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

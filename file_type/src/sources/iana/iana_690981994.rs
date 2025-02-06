@@ -6,6 +6,6 @@ pub(crate) const IANA_690981994: FileFormat = FileFormat {
     name: "vnd.artsquare",
     extensions: &[],
     media_types: &["application/vnd.artsquare"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

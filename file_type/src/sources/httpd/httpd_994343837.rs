@@ -6,6 +6,6 @@ pub(crate) const HTTPD_994343837: FileFormat = FileFormat {
     name: "rn realmedia",
     extensions: &["rm"],
     media_types: &["application/vnd.rn-realmedia"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

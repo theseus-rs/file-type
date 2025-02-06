@@ -6,6 +6,6 @@ pub(crate) const IANA_2360896668: FileFormat = FileFormat {
     name: "vnd.iptvforum.ttsmpeg2",
     extensions: &[],
     media_types: &["video/vnd.iptvforum.ttsmpeg2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1938163232: FileFormat = FileFormat {
     name: "zul",
     extensions: &["zir", "zirz"],
     media_types: &["application/vnd.zul"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

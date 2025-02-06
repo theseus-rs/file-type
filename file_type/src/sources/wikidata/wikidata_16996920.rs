@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_16996920: FileFormat = FileFormat {
     id: 16_996_920,
@@ -13,6 +11,6 @@ pub(crate) const WIKIDATA_16996920: FileFormat = FileFormat {
         "application/x-wine-extension-inf",
         "text/x-inf",
     ],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

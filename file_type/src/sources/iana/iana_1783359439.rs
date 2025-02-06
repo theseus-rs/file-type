@@ -6,6 +6,6 @@ pub(crate) const IANA_1783359439: FileFormat = FileFormat {
     name: "wita",
     extensions: &[],
     media_types: &["application/wita"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3259195021: FileFormat = FileFormat {
     name: "dna",
     extensions: &["dna"],
     media_types: &["application/vnd.dna"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

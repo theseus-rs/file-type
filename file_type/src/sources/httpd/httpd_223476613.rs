@@ -6,6 +6,6 @@ pub(crate) const HTTPD_223476613: FileFormat = FileFormat {
     name: "yellowriver custom menu",
     extensions: &["cmp"],
     media_types: &["application/vnd.yellowriver-custom-menu"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

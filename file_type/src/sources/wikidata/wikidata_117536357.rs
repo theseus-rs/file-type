@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_117536357: FileFormat = FileFormat {
     id: 117_536_357,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_117536357: FileFormat = FileFormat {
     name: "ArcSoft Album and SlideShow Files",
     extensions: &["abm", "sld"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

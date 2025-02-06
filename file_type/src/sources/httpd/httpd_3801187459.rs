@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3801187459: FileFormat = FileFormat {
     name: "mobius mqy",
     extensions: &["mqy"],
     media_types: &["application/vnd.mobius.mqy"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

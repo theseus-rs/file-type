@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3161366850: FileFormat = FileFormat {
     name: "ms lrm",
     extensions: &["lrm"],
     media_types: &["application/vnd.ms-lrm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

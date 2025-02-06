@@ -6,6 +6,6 @@ pub(crate) const IANA_3768247999: FileFormat = FileFormat {
     name: "vnd.bekitzur-stech+json",
     extensions: &[],
     media_types: &["application/vnd.bekitzur-stech+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

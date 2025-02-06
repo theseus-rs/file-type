@@ -6,6 +6,6 @@ pub(crate) const IANA_3017018011: FileFormat = FileFormat {
     name: "header-set",
     extensions: &[],
     media_types: &["multipart/header-set"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

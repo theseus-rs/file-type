@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3491555857: FileFormat = FileFormat {
     name: "cdlink",
     extensions: &["vcd"],
     media_types: &["application/x-cdlink"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

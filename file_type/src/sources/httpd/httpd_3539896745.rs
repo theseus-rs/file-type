@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3539896745: FileFormat = FileFormat {
     name: "oma dd2 xml",
     extensions: &["dd2"],
     media_types: &["application/vnd.oma.dd2+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

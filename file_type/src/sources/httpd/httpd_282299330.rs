@@ -6,6 +6,6 @@ pub(crate) const HTTPD_282299330: FileFormat = FileFormat {
     name: "msterminal",
     extensions: &["trm"],
     media_types: &["application/x-msterminal"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

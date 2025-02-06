@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_379: FileFormat = FileFormat {
     name: "Unified Parallel C",
     extensions: &["upc"],
     media_types: &["text/x-csrc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

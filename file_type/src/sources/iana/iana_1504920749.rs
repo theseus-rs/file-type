@@ -6,6 +6,6 @@ pub(crate) const IANA_1504920749: FileFormat = FileFormat {
     name: "vnd.google-earth.kml+xml",
     extensions: &[],
     media_types: &["application/vnd.google-earth.kml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

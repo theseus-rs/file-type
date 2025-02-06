@@ -6,6 +6,6 @@ pub(crate) const IANA_2689802737: FileFormat = FileFormat {
     name: "rtploopback",
     extensions: &[],
     media_types: &["audio/rtploopback"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

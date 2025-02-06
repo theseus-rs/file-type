@@ -6,6 +6,6 @@ pub(crate) const IANA_546384924: FileFormat = FileFormat {
     name: "vnd.medicalholodeck.recordxr",
     extensions: &[],
     media_types: &["application/vnd.medicalholodeck.recordxr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

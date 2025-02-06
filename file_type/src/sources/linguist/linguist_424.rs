@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_424: FileFormat = FileFormat {
     name: "CSON",
     extensions: &["cson"],
     media_types: &["text/x-coffeescript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

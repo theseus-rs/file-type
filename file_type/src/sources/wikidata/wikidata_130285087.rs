@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130285087: FileFormat = FileFormat {
     id: 130_285_087,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130285087: FileFormat = FileFormat {
     name: "Minecraft Add-ons Data Schema File",
     extensions: &["mcschema"],
     media_types: &["text/mcschema"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

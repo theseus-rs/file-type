@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3168124663: FileFormat = FileFormat {
     name: "gnumeric",
     extensions: &["gnumeric"],
     media_types: &["application/x-gnumeric"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

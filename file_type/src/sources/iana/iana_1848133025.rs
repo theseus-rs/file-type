@@ -6,6 +6,6 @@ pub(crate) const IANA_1848133025: FileFormat = FileFormat {
     name: "x3d-vrml",
     extensions: &[],
     media_types: &["model/x3d-vrml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1050471: FileFormat = FileFormat {
     id: 1_050_471,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_1050471: FileFormat = FileFormat {
     name: "Property list",
     extensions: &["plist"],
     media_types: &["application/x-plist"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

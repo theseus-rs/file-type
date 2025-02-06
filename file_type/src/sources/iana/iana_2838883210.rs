@@ -6,6 +6,6 @@ pub(crate) const IANA_2838883210: FileFormat = FileFormat {
     name: "CALS-1840",
     extensions: &[],
     media_types: &["application/CALS-1840"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

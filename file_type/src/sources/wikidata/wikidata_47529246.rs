@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_47529246: FileFormat = FileFormat {
     id: 47_529_246,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_47529246: FileFormat = FileFormat {
     name: "SuperScape Virtual Reality Format",
     extensions: &["svr"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

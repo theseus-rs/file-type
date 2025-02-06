@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_212327: FileFormat = FileFormat {
     id: 212_327,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_212327: FileFormat = FileFormat {
     name: "Document Type Definition",
     extensions: &["dtd"],
     media_types: &["application/xml-dtd"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

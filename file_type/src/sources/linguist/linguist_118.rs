@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_118: FileFormat = FileFormat {
     name: "GAMS",
     extensions: &["gms"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

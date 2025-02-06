@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_847830017: FileFormat = FileFormat {
     name: "sed",
     extensions: &["sed"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

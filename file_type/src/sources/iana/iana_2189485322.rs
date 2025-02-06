@@ -6,6 +6,6 @@ pub(crate) const IANA_2189485322: FileFormat = FileFormat {
     name: "vnd.octel.sbc",
     extensions: &[],
     media_types: &["audio/vnd.octel.sbc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3611738959: FileFormat = FileFormat {
     name: "eat-bun+cbor",
     extensions: &[],
     media_types: &["application/eat-bun+cbor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

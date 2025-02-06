@@ -6,6 +6,6 @@ pub(crate) const IANA_2500032212: FileFormat = FileFormat {
     name: "vnd.geocube+xml (OBSOLETED by request)",
     extensions: &[],
     media_types: &["application/vnd.geocube+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

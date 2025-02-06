@@ -6,6 +6,6 @@ pub(crate) const IANA_2434998181: FileFormat = FileFormat {
     name: "vnd.sealed.3df",
     extensions: &[],
     media_types: &["application/vnd.sealed.3df"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

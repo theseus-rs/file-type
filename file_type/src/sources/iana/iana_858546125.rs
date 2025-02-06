@@ -6,6 +6,6 @@ pub(crate) const IANA_858546125: FileFormat = FileFormat {
     name: "vnd.blink-idb-value-wrapper",
     extensions: &[],
     media_types: &["application/vnd.blink-idb-value-wrapper"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

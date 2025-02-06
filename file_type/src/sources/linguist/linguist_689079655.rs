@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_689079655: FileFormat = FileFormat {
     name: "OverpassQL",
     extensions: &["overpassql"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

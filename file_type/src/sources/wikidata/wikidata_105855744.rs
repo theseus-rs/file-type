@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105855744: FileFormat = FileFormat {
     id: 105_855_744,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105855744: FileFormat = FileFormat {
     name: "Dream Station 2.0 module",
     extensions: &["ds2"],
     media_types: &["audio/x-mod"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

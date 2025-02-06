@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_5354833: FileFormat = FileFormat {
     id: 5_354_833,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_5354833: FileFormat = FileFormat {
     name: "Qualcomm code-excited linear prediction",
     extensions: &["qcp"],
     media_types: &["audio/qcelp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

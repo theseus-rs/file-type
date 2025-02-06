@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4115982219: FileFormat = FileFormat {
     name: "ibm minipay",
     extensions: &["mpy"],
     media_types: &["application/vnd.ibm.minipay"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

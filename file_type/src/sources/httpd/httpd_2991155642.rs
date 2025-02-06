@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2991155642: FileFormat = FileFormat {
     name: "ipunplugged rcprofile",
     extensions: &["rcprofile"],
     media_types: &["application/vnd.ipunplugged.rcprofile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

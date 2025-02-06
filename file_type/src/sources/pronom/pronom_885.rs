@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_885: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_885: FileFormat = FileFormat {
     name: "Microsoft PowerPoint for Macintosh",
     extensions: &["ppt"],
     media_types: &["application/vnd.ms-powerpoint"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

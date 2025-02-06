@@ -6,6 +6,6 @@ pub(crate) const IANA_2638993316: FileFormat = FileFormat {
     name: "vnd.hp-hpid",
     extensions: &[],
     media_types: &["application/vnd.hp-hpid"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

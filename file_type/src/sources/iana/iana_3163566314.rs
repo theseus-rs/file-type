@@ -6,6 +6,6 @@ pub(crate) const IANA_3163566314: FileFormat = FileFormat {
     name: "vnd.dxr",
     extensions: &[],
     media_types: &["application/vnd.dxr"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

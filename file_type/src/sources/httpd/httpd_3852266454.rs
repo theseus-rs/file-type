@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3852266454: FileFormat = FileFormat {
     name: "wordperfect",
     extensions: &["wpd"],
     media_types: &["application/vnd.wordperfect"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

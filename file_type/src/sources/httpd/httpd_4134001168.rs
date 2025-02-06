@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4134001168: FileFormat = FileFormat {
     name: "openxmlformats officedocument presentationml presentation",
     extensions: &["pptx"],
     media_types: &["application/vnd.openxmlformats-officedocument.presentationml.presentation"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

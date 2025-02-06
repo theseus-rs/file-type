@@ -6,6 +6,6 @@ pub(crate) const IANA_3697061469: FileFormat = FileFormat {
     name: "vnd.gentoo.xpak",
     extensions: &[],
     media_types: &["application/vnd.gentoo.xpak"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

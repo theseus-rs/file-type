@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_95985389: FileFormat = FileFormat {
     id: 95_985_389,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_95985389: FileFormat = FileFormat {
     name: "Affymetrix CHP file format",
     extensions: &["chp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_14: FileFormat = FileFormat {
     name: "Alpine Abuild",
     extensions: &[],
     media_types: &["text/x-sh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

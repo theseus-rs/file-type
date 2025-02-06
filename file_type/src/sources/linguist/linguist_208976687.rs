@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_208976687: FileFormat = FileFormat {
     name: "Sieve",
     extensions: &["sieve"],
     media_types: &["application/sieve"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_393: FileFormat = FileFormat {
     name: "Wavefront Object",
     extensions: &["obj"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

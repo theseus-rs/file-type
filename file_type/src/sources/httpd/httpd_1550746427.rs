@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1550746427: FileFormat = FileFormat {
     name: "pkixcmp",
     extensions: &["pki"],
     media_types: &["application/pkixcmp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

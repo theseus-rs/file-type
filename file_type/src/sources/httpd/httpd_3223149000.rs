@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3223149000: FileFormat = FileFormat {
     name: "tga",
     extensions: &["tga"],
     media_types: &["image/x-tga"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

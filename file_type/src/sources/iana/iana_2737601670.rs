@@ -6,6 +6,6 @@ pub(crate) const IANA_2737601670: FileFormat = FileFormat {
     name: "vnd.afpc.cmoca-cmresource",
     extensions: &[],
     media_types: &["application/vnd.afpc.cmoca-cmresource"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_373: FileFormat = FileFormat {
     name: "Textile",
     extensions: &["textile"],
     media_types: &["text/x-textile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

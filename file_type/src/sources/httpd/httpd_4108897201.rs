@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4108897201: FileFormat = FileFormat {
     name: "chess pgn",
     extensions: &["pgn"],
     media_types: &["application/x-chess-pgn"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

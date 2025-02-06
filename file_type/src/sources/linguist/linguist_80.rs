@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_80: FileFormat = FileFormat {
     name: "D",
     extensions: &["d", "di"],
     media_types: &["text/x-d"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

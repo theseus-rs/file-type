@@ -6,6 +6,6 @@ pub(crate) const IANA_3205597145: FileFormat = FileFormat {
     name: "vnd.sosi",
     extensions: &[],
     media_types: &["text/vnd.sosi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3201493925: FileFormat = FileFormat {
     name: "pgp encrypted",
     extensions: &["pgp"],
     media_types: &["application/pgp-encrypted"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

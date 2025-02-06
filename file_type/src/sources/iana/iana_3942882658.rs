@@ -6,6 +6,6 @@ pub(crate) const IANA_3942882658: FileFormat = FileFormat {
     name: "prs.lines.tag",
     extensions: &[],
     media_types: &["text/prs.lines.tag"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

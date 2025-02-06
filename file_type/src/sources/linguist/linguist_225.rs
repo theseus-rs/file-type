@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_225: FileFormat = FileFormat {
     name: "MATLAB",
     extensions: &["m", "matlab"],
     media_types: &["text/x-octave"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

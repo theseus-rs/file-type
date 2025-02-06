@@ -6,6 +6,6 @@ pub(crate) const IANA_903062961: FileFormat = FileFormat {
     name: "vnd.oracle.resource+json",
     extensions: &[],
     media_types: &["application/vnd.oracle.resource+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

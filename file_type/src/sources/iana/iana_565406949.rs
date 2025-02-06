@@ -6,6 +6,6 @@ pub(crate) const IANA_565406949: FileFormat = FileFormat {
     name: "vnd.intergeo",
     extensions: &[],
     media_types: &["application/vnd.intergeo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

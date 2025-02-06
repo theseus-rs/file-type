@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856886: FileFormat = FileFormat {
     id: 105_856_886,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105856886: FileFormat = FileFormat {
     name: "Sensible Golf game save (Amiga)",
     extensions: &["glf"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

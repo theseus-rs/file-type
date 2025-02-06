@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_47489995: FileFormat = FileFormat {
     id: 47_489_995,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_47489995: FileFormat = FileFormat {
     name: "Adobe FrameMaker Document, version 6",
     extensions: &["fm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

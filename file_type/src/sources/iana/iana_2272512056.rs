@@ -6,6 +6,6 @@ pub(crate) const IANA_2272512056: FileFormat = FileFormat {
     name: "hyperstudio",
     extensions: &[],
     media_types: &["application/hyperstudio"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

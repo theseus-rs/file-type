@@ -6,6 +6,6 @@ pub(crate) const IANA_1195271443: FileFormat = FileFormat {
     name: "vnd.ms-modi",
     extensions: &[],
     media_types: &["image/vnd.ms-modi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

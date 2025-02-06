@@ -6,6 +6,6 @@ pub(crate) const HTTPD_664677117: FileFormat = FileFormat {
     name: "nokia radio preset",
     extensions: &["rpst"],
     media_types: &["application/vnd.nokia.radio-preset"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

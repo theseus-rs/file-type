@@ -6,6 +6,6 @@ pub(crate) const IANA_4235591232: FileFormat = FileFormat {
     name: "vnd.eudora.data",
     extensions: &[],
     media_types: &["application/vnd.eudora.data"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

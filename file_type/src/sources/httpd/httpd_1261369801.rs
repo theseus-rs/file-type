@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1261369801: FileFormat = FileFormat {
     name: "ogg",
     extensions: &["ogx"],
     media_types: &["application/ogg"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

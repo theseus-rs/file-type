@@ -6,6 +6,6 @@ pub(crate) const IANA_2554140704: FileFormat = FileFormat {
     name: "vnd.3gpp.bsf+xml",
     extensions: &[],
     media_types: &["application/vnd.3gpp.bsf+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

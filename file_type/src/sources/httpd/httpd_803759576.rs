@@ -6,6 +6,6 @@ pub(crate) const HTTPD_803759576: FileFormat = FileFormat {
     name: "mozilla xul xml",
     extensions: &["xul"],
     media_types: &["application/vnd.mozilla.xul+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

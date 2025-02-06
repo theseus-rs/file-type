@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105860126: FileFormat = FileFormat {
     id: 105_860_126,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105860126: FileFormat = FileFormat {
     name: "RenderWare 3d model (with rem)",
     extensions: &["rwx"],
     media_types: &["text/plain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

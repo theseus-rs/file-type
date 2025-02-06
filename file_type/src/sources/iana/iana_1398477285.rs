@@ -6,6 +6,6 @@ pub(crate) const IANA_1398477285: FileFormat = FileFormat {
     name: "vnd.firemonkeys.cloudcell",
     extensions: &[],
     media_types: &["application/vnd.firemonkeys.cloudcell"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

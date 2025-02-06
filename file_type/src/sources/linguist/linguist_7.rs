@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_7: FileFormat = FileFormat {
     name: "ASN.1",
     extensions: &["asn", "asn1"],
     media_types: &["text/x-ttcn-asn"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

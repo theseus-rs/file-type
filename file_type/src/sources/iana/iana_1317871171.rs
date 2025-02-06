@@ -6,6 +6,6 @@ pub(crate) const IANA_1317871171: FileFormat = FileFormat {
     name: "vnd.fmi.flexstor",
     extensions: &[],
     media_types: &["text/vnd.fmi.flexstor"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

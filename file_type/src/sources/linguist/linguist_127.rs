@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_127: FileFormat = FileFormat {
     name: "Gentoo Ebuild",
     extensions: &["ebuild"],
     media_types: &["text/x-sh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

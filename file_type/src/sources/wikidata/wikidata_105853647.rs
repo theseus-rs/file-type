@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105853647: FileFormat = FileFormat {
     id: 105_853_647,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105853647: FileFormat = FileFormat {
     name: "AlgoBuild project (v1.00)",
     extensions: &["algobuild"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

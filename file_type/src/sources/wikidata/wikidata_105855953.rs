@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105855953: FileFormat = FileFormat {
     id: 105_855_953,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105855953: FileFormat = FileFormat {
     name: "Vivid DiffSet (UTF-8)",
     extensions: &["dsx"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

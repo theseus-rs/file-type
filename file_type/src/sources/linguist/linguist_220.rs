@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_220: FileFormat = FileFormat {
     name: "Makefile",
     extensions: &["d", "mak", "make", "makefile", "mk", "mkfile"],
     media_types: &["text/x-cmake"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_244: FileFormat = FileFormat {
     name: "NetLinx",
     extensions: &["axi", "axs"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

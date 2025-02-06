@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3636894964: FileFormat = FileFormat {
     name: "graphviz",
     extensions: &["gv"],
     media_types: &["text/vnd.graphviz"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

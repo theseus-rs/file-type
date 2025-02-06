@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1505034774: FileFormat = FileFormat {
     name: "micrografx flo",
     extensions: &["flo"],
     media_types: &["application/vnd.micrografx.flo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

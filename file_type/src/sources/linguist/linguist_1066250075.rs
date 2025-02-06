@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_1066250075: FileFormat = FileFormat {
     name: "SWIG",
     extensions: &["i"],
     media_types: &["text/x-c++src"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2167893303: FileFormat = FileFormat {
     name: "pkix pkipath",
     extensions: &["pkipath"],
     media_types: &["application/pkix-pkipath"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

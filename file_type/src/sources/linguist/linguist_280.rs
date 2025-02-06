@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_280: FileFormat = FileFormat {
     name: "Parrot Internal Representation",
     extensions: &["pir"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

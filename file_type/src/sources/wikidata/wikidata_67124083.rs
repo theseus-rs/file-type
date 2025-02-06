@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_67124083: FileFormat = FileFormat {
     id: 67_124_083,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_67124083: FileFormat = FileFormat {
     name: "Print Artist label file format",
     extensions: &["lbl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

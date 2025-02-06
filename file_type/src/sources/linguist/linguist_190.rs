@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_190: FileFormat = FileFormat {
     name: "LFE",
     extensions: &["lfe"],
     media_types: &["text/x-common-lisp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

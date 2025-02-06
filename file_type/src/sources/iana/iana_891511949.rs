@@ -6,6 +6,6 @@ pub(crate) const IANA_891511949: FileFormat = FileFormat {
     name: "vnd.ecip.rlp",
     extensions: &[],
     media_types: &["application/vnd.ecip.rlp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

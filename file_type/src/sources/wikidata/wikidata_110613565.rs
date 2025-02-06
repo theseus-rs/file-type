@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_110613565: FileFormat = FileFormat {
     id: 110_613_565,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_110613565: FileFormat = FileFormat {
     name: "Mapbox Vector Tiles",
     extensions: &["mvt"],
     media_types: &["application/vnd.mapbox-vector-tile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

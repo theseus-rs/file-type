@@ -6,6 +6,6 @@ pub(crate) const IANA_3583731876: FileFormat = FileFormat {
     name: "vnd.nokia.n-gage.symbian.install (OBSOLETE; no replacement given)",
     extensions: &[],
     media_types: &["application/vnd.nokia.n-gage.symbian.install"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

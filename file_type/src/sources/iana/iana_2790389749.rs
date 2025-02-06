@@ -6,6 +6,6 @@ pub(crate) const IANA_2790389749: FileFormat = FileFormat {
     name: "private-token-issuer-directory",
     extensions: &[],
     media_types: &["application/private-token-issuer-directory"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

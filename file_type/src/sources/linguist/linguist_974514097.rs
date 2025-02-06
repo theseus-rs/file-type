@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_974514097: FileFormat = FileFormat {
     name: "DataWeave",
     extensions: &["dwl"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

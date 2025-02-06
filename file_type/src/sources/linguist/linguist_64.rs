@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_64: FileFormat = FileFormat {
     name: "ColdFusion",
     extensions: &["cfm", "cfml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

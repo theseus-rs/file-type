@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1250972188: FileFormat = FileFormat {
     name: "scvp vp response",
     extensions: &["spp"],
     media_types: &["application/scvp-vp-response"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

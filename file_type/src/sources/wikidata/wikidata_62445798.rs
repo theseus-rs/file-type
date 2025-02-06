@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_62445798: FileFormat = FileFormat {
     id: 62_445_798,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_62445798: FileFormat = FileFormat {
     name: "OWL XML Serialization",
     extensions: &["owx"],
     media_types: &["application/owl+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1053113605: FileFormat = FileFormat {
     name: "vnd.afpc.foca-charset",
     extensions: &[],
     media_types: &["application/vnd.afpc.foca-charset"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

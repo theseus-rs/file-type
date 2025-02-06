@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4226246988: FileFormat = FileFormat {
     name: "envoy",
     extensions: &["evy"],
     media_types: &["application/x-envoy"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_807968997: FileFormat = FileFormat {
     name: "Git Config",
     extensions: &["gitconfig"],
     media_types: &["text/x-properties"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

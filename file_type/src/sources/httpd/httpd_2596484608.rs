@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2596484608: FileFormat = FileFormat {
     name: "3ds",
     extensions: &["3ds"],
     media_types: &["image/x-3ds"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

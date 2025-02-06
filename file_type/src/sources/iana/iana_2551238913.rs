@@ -6,6 +6,6 @@ pub(crate) const IANA_2551238913: FileFormat = FileFormat {
     name: "prs.btif",
     extensions: &[],
     media_types: &["image/prs.btif"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_17072901: FileFormat = FileFormat {
     id: 17_072_901,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_17072901: FileFormat = FileFormat {
     name: "Open Game Engine Exchange",
     extensions: &["ogex"],
     media_types: &["model/vnd.opengex"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

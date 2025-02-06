@@ -6,6 +6,6 @@ pub(crate) const IANA_826043110: FileFormat = FileFormat {
     name: "LPC",
     extensions: &[],
     media_types: &["audio/LPC"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

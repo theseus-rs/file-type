@@ -6,6 +6,6 @@ pub(crate) const IANA_3963433202: FileFormat = FileFormat {
     name: "vnd.apexlang",
     extensions: &[],
     media_types: &["application/vnd.apexlang"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

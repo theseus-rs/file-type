@@ -6,6 +6,6 @@ pub(crate) const IANA_2465153865: FileFormat = FileFormat {
     name: "vnd.oipf.pae.gem",
     extensions: &[],
     media_types: &["application/vnd.oipf.pae.gem"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

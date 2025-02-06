@@ -6,6 +6,6 @@ pub(crate) const IANA_1341779795: FileFormat = FileFormat {
     name: "DV",
     extensions: &[],
     media_types: &["video/DV"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130443951: FileFormat = FileFormat {
     id: 130_443_951,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130443951: FileFormat = FileFormat {
     name: "Subsembly JSON",
     extensions: &["json"],
     media_types: &["application/json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

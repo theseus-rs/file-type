@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105851048: FileFormat = FileFormat {
     id: 105_851_048,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105851048: FileFormat = FileFormat {
     name: "Cargo manifest",
     extensions: &["toml"],
     media_types: &["text/ini"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

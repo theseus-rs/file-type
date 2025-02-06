@@ -6,6 +6,6 @@ pub(crate) const IANA_4048314563: FileFormat = FileFormat {
     name: "vnd.oipf.dae.xhtml+xml",
     extensions: &[],
     media_types: &["application/vnd.oipf.dae.xhtml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

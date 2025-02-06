@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_674736065: FileFormat = FileFormat {
     name: "robots.txt",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

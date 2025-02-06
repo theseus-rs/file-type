@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1568461348: FileFormat = FileFormat {
     name: "data vision rdz",
     extensions: &["rdz"],
     media_types: &["application/vnd.data-vision.rdz"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

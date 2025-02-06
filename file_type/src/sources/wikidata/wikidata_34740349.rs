@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_34740349: FileFormat = FileFormat {
     id: 34_740_349,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_34740349: FileFormat = FileFormat {
     name: "Softdisk Family Tree 1 Comment Data",
     extensions: &["fcm"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

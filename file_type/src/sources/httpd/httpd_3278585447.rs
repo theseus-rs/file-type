@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3278585447: FileFormat = FileFormat {
     name: "groove vcard",
     extensions: &["vcg"],
     media_types: &["application/vnd.groove-vcard"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

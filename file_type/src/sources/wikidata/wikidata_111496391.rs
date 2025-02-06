@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111496391: FileFormat = FileFormat {
     id: 111_496_391,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111496391: FileFormat = FileFormat {
     name: "Visual Basic Project Workspace File",
     extensions: &["vbw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

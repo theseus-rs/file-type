@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27959911: FileFormat = FileFormat {
     id: 27_959_911,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27959911: FileFormat = FileFormat {
     name: "ATRAC Advanced Lossless",
     extensions: &["aa3", "aal", "at3", "oma", "omg"],
     media_types: &["audio/ATRAC-ADVANCED-LOSSLESS"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_2884893317: FileFormat = FileFormat {
     name: "vnd.motorola.iprm",
     extensions: &[],
     media_types: &["application/vnd.motorola.iprm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -16,6 +16,6 @@ pub(crate) const LINGUIST_163: FileFormat = FileFormat {
         "url",
     ],
     media_types: &["text/x-properties"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

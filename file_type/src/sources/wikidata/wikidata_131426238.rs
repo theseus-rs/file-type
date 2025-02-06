@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_131426238: FileFormat = FileFormat {
     id: 131_426_238,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_131426238: FileFormat = FileFormat {
     name: "Whiley file format",
     extensions: &["whiley"],
     media_types: &["text/x-whiley"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

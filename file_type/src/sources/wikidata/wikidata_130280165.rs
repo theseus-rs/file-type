@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130280165: FileFormat = FileFormat {
     id: 130_280_165,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130280165: FileFormat = FileFormat {
     name: "Mask file format",
     extensions: &["mask"],
     media_types: &["text/x-mask"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

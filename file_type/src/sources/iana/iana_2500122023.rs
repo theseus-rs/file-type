@@ -6,6 +6,6 @@ pub(crate) const IANA_2500122023: FileFormat = FileFormat {
     name: "otf",
     extensions: &[],
     media_types: &["font/otf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

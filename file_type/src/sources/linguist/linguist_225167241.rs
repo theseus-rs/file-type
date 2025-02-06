@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_225167241: FileFormat = FileFormat {
     name: "XCompose",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105856382: FileFormat = FileFormat {
     id: 105_856_382,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105856382: FileFormat = FileFormat {
     name: "DeskMate document",
     extensions: &["doc"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

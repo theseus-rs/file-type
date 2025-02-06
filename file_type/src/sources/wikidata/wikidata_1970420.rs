@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_1970420: FileFormat = FileFormat {
     id: 1_970_420,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_1970420: FileFormat = FileFormat {
     name: "Simple file verification",
     extensions: &["sfv"],
     media_types: &["text/x-sfv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

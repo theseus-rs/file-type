@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1650765870: FileFormat = FileFormat {
     name: "mfmp",
     extensions: &["mfm"],
     media_types: &["application/vnd.mfmp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

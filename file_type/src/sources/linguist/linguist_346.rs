@@ -20,6 +20,6 @@ pub(crate) const LINGUIST_346: FileFormat = FileFormat {
         "zsh-theme",
     ],
     media_types: &["text/x-sh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_123385688: FileFormat = FileFormat {
     id: 123_385_688,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_123385688: FileFormat = FileFormat {
     name: "iSpace 1.0 Scene file",
     extensions: &["iss"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

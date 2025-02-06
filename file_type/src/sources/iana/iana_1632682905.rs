@@ -6,6 +6,6 @@ pub(crate) const IANA_1632682905: FileFormat = FileFormat {
     name: "expect-ct-report+json",
     extensions: &[],
     media_types: &["application/expect-ct-report+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

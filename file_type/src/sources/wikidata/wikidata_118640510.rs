@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_118640510: FileFormat = FileFormat {
     id: 118_640_510,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_118640510: FileFormat = FileFormat {
     name: "Anime Studio File",
     extensions: &["anme"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

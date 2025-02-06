@@ -6,6 +6,6 @@ pub(crate) const IANA_1779423644: FileFormat = FileFormat {
     name: "commonground",
     extensions: &[],
     media_types: &["application/commonground"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

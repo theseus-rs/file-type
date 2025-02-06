@@ -6,6 +6,6 @@ pub(crate) const IANA_159747167: FileFormat = FileFormat {
     name: "vnd.3gpp.pic-bw-small",
     extensions: &[],
     media_types: &["application/vnd.3gpp.pic-bw-small"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

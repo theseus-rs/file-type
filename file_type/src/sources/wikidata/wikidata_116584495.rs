@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_116584495: FileFormat = FileFormat {
     id: 116_584_495,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_116584495: FileFormat = FileFormat {
     name: "Microsoft Windows Snipping Tool Snip Data",
     extensions: &["snip"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

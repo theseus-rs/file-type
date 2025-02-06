@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105855131: FileFormat = FileFormat {
     id: 105_855_131,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105855131: FileFormat = FileFormat {
     name: "Flow Cytometry Standard format",
     extensions: &["fcs"],
     media_types: &["application/vnd.isac.fcs"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

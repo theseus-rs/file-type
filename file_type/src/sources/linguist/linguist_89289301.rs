@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_89289301: FileFormat = FileFormat {
     name: "TSPLIB data",
     extensions: &["tsp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_118139110: FileFormat = FileFormat {
     id: 118_139_110,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_118139110: FileFormat = FileFormat {
     name: "Calendar Creator 2.x Event File",
     extensions: &["cee"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

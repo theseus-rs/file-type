@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_117814466: FileFormat = FileFormat {
     id: 117_814_466,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_117814466: FileFormat = FileFormat {
     name: "AdTech perfectfax",
     extensions: &["adt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_769171922: FileFormat = FileFormat {
     name: "vnd.ascii-art",
     extensions: &[],
     media_types: &["text/vnd.ascii-art"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

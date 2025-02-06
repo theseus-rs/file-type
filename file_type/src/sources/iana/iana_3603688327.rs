@@ -6,6 +6,6 @@ pub(crate) const IANA_3603688327: FileFormat = FileFormat {
     name: "vnd.evolv.ecig.profile",
     extensions: &[],
     media_types: &["application/vnd.evolv.ecig.profile"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

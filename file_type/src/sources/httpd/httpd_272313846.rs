@@ -6,6 +6,6 @@ pub(crate) const HTTPD_272313846: FileFormat = FileFormat {
     name: "ms artgalry",
     extensions: &["cil"],
     media_types: &["application/vnd.ms-artgalry"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

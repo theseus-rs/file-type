@@ -6,6 +6,6 @@ pub(crate) const HTTPD_43235474: FileFormat = FileFormat {
     name: "oasis opendocument graphics template",
     extensions: &["otg"],
     media_types: &["application/vnd.oasis.opendocument.graphics-template"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

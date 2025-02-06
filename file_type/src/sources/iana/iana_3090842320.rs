@@ -6,6 +6,6 @@ pub(crate) const IANA_3090842320: FileFormat = FileFormat {
     name: "step+zip",
     extensions: &[],
     media_types: &["model/step+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

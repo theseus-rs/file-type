@@ -6,6 +6,6 @@ pub(crate) const IANA_887473226: FileFormat = FileFormat {
     name: "vorbis",
     extensions: &[],
     media_types: &["audio/vorbis"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

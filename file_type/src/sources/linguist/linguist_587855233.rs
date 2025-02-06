@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_587855233: FileFormat = FileFormat {
     name: "RON",
     extensions: &["ron"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

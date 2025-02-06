@@ -6,6 +6,6 @@ pub(crate) const IANA_3274693461: FileFormat = FileFormat {
     name: "nss",
     extensions: &[],
     media_types: &["application/nss"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3354284595: FileFormat = FileFormat {
     name: "mpa-robust",
     extensions: &[],
     media_types: &["audio/mpa-robust"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

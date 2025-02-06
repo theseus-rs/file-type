@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4161244575: FileFormat = FileFormat {
     name: "ms pki stl",
     extensions: &["stl"],
     media_types: &["application/vnd.ms-pki.stl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

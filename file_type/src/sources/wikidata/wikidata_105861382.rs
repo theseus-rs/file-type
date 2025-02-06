@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105861382: FileFormat = FileFormat {
     id: 105_861_382,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105861382: FileFormat = FileFormat {
     name: "Lazarus Project Session",
     extensions: &["lps"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

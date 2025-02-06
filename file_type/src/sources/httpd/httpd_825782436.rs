@@ -6,6 +6,6 @@ pub(crate) const HTTPD_825782436: FileFormat = FileFormat {
     name: "wasm",
     extensions: &["wasm"],
     media_types: &["application/wasm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

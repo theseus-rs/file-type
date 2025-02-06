@@ -6,6 +6,6 @@ pub(crate) const IANA_2726800377: FileFormat = FileFormat {
     name: "gff3",
     extensions: &[],
     media_types: &["text/gff3"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

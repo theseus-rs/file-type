@@ -6,6 +6,6 @@ pub(crate) const IANA_209994165: FileFormat = FileFormat {
     name: "set-registration-initiation",
     extensions: &[],
     media_types: &["application/set-registration-initiation"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

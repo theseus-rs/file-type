@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_421: FileFormat = FileFormat {
     name: "xBase",
     extensions: &["ch", "prg", "prw"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

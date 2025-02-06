@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_127784636: FileFormat = FileFormat {
     id: 127_784_636,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_127784636: FileFormat = FileFormat {
     name: "Metal Shading Language File",
     extensions: &["metal"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

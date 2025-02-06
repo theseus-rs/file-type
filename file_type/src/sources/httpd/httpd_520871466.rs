@@ -6,6 +6,6 @@ pub(crate) const HTTPD_520871466: FileFormat = FileFormat {
     name: "pkix cert",
     extensions: &["cer"],
     media_types: &["application/pkix-cert"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

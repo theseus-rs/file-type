@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_18609762: FileFormat = FileFormat {
     id: 18_609_762,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_18609762: FileFormat = FileFormat {
     name: "SPARQL Query Results JSON Format",
     extensions: &["srj"],
     media_types: &["application/sparql-results+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

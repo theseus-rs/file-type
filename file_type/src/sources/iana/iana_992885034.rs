@@ -6,6 +6,6 @@ pub(crate) const IANA_992885034: FileFormat = FileFormat {
     name: "vnd.gov.sk.e-form+zip",
     extensions: &[],
     media_types: &["application/vnd.gov.sk.e-form+zip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

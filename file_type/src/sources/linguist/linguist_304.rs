@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_304: FileFormat = FileFormat {
     name: "Python traceback",
     extensions: &["pytb"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

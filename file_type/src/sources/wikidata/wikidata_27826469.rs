@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27826469: FileFormat = FileFormat {
     id: 27_826_469,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_27826469: FileFormat = FileFormat {
     name: "Cascading Style Sheets Level 3",
     extensions: &["css"],
     media_types: &["text/css"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_49989968: FileFormat = FileFormat {
     id: 49_989_968,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_49989968: FileFormat = FileFormat {
     name: "Internet Explorer for Mac cache file",
     extensions: &["waf"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

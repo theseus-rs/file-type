@@ -6,6 +6,6 @@ pub(crate) const IANA_3679311052: FileFormat = FileFormat {
     name: "vnd.fly",
     extensions: &[],
     media_types: &["text/vnd.fly"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

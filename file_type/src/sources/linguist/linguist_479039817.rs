@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_479039817: FileFormat = FileFormat {
     name: "HTML+Razor",
     extensions: &["cshtml", "razor"],
     media_types: &["text/html"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

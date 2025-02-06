@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_969674868: FileFormat = FileFormat {
     name: "Windows Registry Entries",
     extensions: &["reg"],
     media_types: &["text/x-properties"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

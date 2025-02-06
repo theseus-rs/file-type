@@ -6,6 +6,6 @@ pub(crate) const IANA_4225338956: FileFormat = FileFormat {
     name: "vnd.dxf",
     extensions: &[],
     media_types: &["image/vnd.dxf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

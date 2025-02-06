@@ -6,6 +6,6 @@ pub(crate) const IANA_2721635507: FileFormat = FileFormat {
     name: "vnd.micrografx.igx",
     extensions: &[],
     media_types: &["application/vnd.micrografx.igx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_34167825: FileFormat = FileFormat {
     name: "Macaulay2",
     extensions: &["m2"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

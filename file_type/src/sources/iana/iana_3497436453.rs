@@ -6,6 +6,6 @@ pub(crate) const IANA_3497436453: FileFormat = FileFormat {
     name: "vnd.anser-web-certificate-issue-initiation",
     extensions: &[],
     media_types: &["application/vnd.anser-web-certificate-issue-initiation"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

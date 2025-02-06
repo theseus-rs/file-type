@@ -6,6 +6,6 @@ pub(crate) const IANA_1702118066: FileFormat = FileFormat {
     name: "vnd.gentoo.catmetadata+xml",
     extensions: &[],
     media_types: &["application/vnd.gentoo.catmetadata+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

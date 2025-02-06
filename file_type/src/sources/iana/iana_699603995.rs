@@ -6,6 +6,6 @@ pub(crate) const IANA_699603995: FileFormat = FileFormat {
     name: "external-body",
     extensions: &[],
     media_types: &["message/external-body"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

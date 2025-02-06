@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1195271443: FileFormat = FileFormat {
     name: "ms modi",
     extensions: &["mdi"],
     media_types: &["image/vnd.ms-modi"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

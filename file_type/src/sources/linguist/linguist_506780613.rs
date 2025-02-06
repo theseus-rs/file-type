@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_506780613: FileFormat = FileFormat {
     name: "Nextflow",
     extensions: &["nf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

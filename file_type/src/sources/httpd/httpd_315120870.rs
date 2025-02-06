@@ -6,6 +6,6 @@ pub(crate) const HTTPD_315120870: FileFormat = FileFormat {
     name: "geogebra tool",
     extensions: &["ggt"],
     media_types: &["application/vnd.geogebra.tool"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

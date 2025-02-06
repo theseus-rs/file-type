@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_117835509: FileFormat = FileFormat {
     id: 117_835_509,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_117835509: FileFormat = FileFormat {
     name: "Generic fax format",
     extensions: &["cg3"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

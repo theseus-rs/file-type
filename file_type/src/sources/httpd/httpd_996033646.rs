@@ -6,6 +6,6 @@ pub(crate) const HTTPD_996033646: FileFormat = FileFormat {
     name: "mseq",
     extensions: &["mseq"],
     media_types: &["application/vnd.mseq"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

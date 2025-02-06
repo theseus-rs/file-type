@@ -6,6 +6,6 @@ pub(crate) const IANA_3924954871: FileFormat = FileFormat {
     name: "prs.nprend",
     extensions: &[],
     media_types: &["application/prs.nprend"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

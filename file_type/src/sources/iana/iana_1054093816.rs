@@ -6,6 +6,6 @@ pub(crate) const IANA_1054093816: FileFormat = FileFormat {
     name: "vnd.oma.bcast.simple-symbol-container",
     extensions: &[],
     media_types: &["application/vnd.oma.bcast.simple-symbol-container"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

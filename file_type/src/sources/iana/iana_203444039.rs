@@ -6,6 +6,6 @@ pub(crate) const IANA_203444039: FileFormat = FileFormat {
     name: "vnd.panoply",
     extensions: &[],
     media_types: &["application/vnd.panoply"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

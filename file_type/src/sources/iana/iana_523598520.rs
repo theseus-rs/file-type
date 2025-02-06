@@ -6,6 +6,6 @@ pub(crate) const IANA_523598520: FileFormat = FileFormat {
     name: "vnd.intertrust.digibox",
     extensions: &[],
     media_types: &["application/vnd.intertrust.digibox"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1996196873: FileFormat = FileFormat {
     name: "bhttp",
     extensions: &[],
     media_types: &["message/bhttp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

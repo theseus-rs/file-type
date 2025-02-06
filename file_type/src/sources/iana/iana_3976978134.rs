@@ -6,6 +6,6 @@ pub(crate) const IANA_3976978134: FileFormat = FileFormat {
     name: "vnd.oma.cab-pcc+xml",
     extensions: &[],
     media_types: &["application/vnd.oma.cab-pcc+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

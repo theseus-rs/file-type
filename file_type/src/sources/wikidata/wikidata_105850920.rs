@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105850920: FileFormat = FileFormat {
     id: 105_850_920,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105850920: FileFormat = FileFormat {
     name: "Apache Tapestry Markup Language document",
     extensions: &["tml"],
     media_types: &["text/html"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

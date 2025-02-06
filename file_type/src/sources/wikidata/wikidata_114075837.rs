@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_114075837: FileFormat = FileFormat {
     id: 114_075_837,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_114075837: FileFormat = FileFormat {
     name: "Media Descriptor Sidecar File",
     extensions: &["mds"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

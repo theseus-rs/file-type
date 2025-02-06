@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_265: FileFormat = FileFormat {
     name: "OpenRC runscript",
     extensions: &[],
     media_types: &["text/x-sh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

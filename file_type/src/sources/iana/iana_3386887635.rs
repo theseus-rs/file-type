@@ -6,6 +6,6 @@ pub(crate) const IANA_3386887635: FileFormat = FileFormat {
     name: "vnd.obn",
     extensions: &[],
     media_types: &["application/vnd.obn"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

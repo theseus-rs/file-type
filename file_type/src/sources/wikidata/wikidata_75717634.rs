@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_75717634: FileFormat = FileFormat {
     id: 75_717_634,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_75717634: FileFormat = FileFormat {
     name: "Corel Photo Paint User Defined Filter",
     extensions: &["usr"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

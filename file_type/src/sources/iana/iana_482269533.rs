@@ -6,6 +6,6 @@ pub(crate) const IANA_482269533: FileFormat = FileFormat {
     name: "vnd.uoml+xml",
     extensions: &[],
     media_types: &["application/vnd.uoml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

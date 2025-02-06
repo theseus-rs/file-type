@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2035115041: FileFormat = FileFormat {
     name: "cdmi container",
     extensions: &["cdmic"],
     media_types: &["application/cdmi-container"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

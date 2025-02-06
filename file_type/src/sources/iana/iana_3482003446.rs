@@ -6,6 +6,6 @@ pub(crate) const IANA_3482003446: FileFormat = FileFormat {
     name: "atomicmail",
     extensions: &[],
     media_types: &["application/atomicmail"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

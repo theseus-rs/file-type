@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_477582706: FileFormat = FileFormat {
     name: "Motorola 68K Assembly",
     extensions: &["asm", "i", "inc", "s", "x68"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

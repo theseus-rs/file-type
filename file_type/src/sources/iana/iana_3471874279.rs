@@ -6,6 +6,6 @@ pub(crate) const IANA_3471874279: FileFormat = FileFormat {
     name: "jsonpath",
     extensions: &[],
     media_types: &["application/jsonpath"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

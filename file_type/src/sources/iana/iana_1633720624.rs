@@ -6,6 +6,6 @@ pub(crate) const IANA_1633720624: FileFormat = FileFormat {
     name: "tlsrpt+json",
     extensions: &[],
     media_types: &["application/tlsrpt+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

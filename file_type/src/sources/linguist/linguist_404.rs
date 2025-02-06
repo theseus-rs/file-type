@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_404: FileFormat = FileFormat {
     name: "XSLT",
     extensions: &["xsl", "xslt"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

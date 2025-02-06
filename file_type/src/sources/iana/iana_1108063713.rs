@@ -6,6 +6,6 @@ pub(crate) const IANA_1108063713: FileFormat = FileFormat {
     name: "prs.rdf-xml-crypt",
     extensions: &[],
     media_types: &["application/prs.rdf-xml-crypt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

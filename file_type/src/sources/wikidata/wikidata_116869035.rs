@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_116869035: FileFormat = FileFormat {
     id: 116_869_035,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_116869035: FileFormat = FileFormat {
     name: "Summitsoft Business Card",
     extensions: &["crd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

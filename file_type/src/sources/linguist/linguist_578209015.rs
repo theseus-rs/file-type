@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_578209015: FileFormat = FileFormat {
     name: "Astro",
     extensions: &["astro"],
     media_types: &["text/jsx"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

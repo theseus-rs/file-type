@@ -6,6 +6,6 @@ pub(crate) const IANA_2137429668: FileFormat = FileFormat {
     name: "vnd.wmf.bootstrap",
     extensions: &[],
     media_types: &["application/vnd.wmf.bootstrap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

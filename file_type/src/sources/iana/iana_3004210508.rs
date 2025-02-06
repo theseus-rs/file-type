@@ -6,6 +6,6 @@ pub(crate) const IANA_3004210508: FileFormat = FileFormat {
     name: "ecmascript (OBSOLETED in favor of text/javascript)",
     extensions: &[],
     media_types: &["text/ecmascript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

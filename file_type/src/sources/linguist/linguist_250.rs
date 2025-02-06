@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_250: FileFormat = FileFormat {
     name: "Ninja",
     extensions: &["ninja"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

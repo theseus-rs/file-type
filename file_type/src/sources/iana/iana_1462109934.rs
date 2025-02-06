@@ -6,6 +6,6 @@ pub(crate) const IANA_1462109934: FileFormat = FileFormat {
     name: "mbox",
     extensions: &[],
     media_types: &["application/mbox"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

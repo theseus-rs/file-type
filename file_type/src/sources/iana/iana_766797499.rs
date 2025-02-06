@@ -6,6 +6,6 @@ pub(crate) const IANA_766797499: FileFormat = FileFormat {
     name: "vnd.ufdl",
     extensions: &[],
     media_types: &["application/vnd.ufdl"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

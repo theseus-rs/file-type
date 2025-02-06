@@ -6,6 +6,6 @@ pub(crate) const IANA_1300491: FileFormat = FileFormat {
     name: "vnd.3gpp.mcdata-payload",
     extensions: &[],
     media_types: &["application/vnd.3gpp.mcdata-payload"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

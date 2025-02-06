@@ -6,6 +6,6 @@ pub(crate) const IANA_1119094700: FileFormat = FileFormat {
     name: "odm+xml",
     extensions: &[],
     media_types: &["application/odm+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

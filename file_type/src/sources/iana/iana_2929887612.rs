@@ -6,6 +6,6 @@ pub(crate) const IANA_2929887612: FileFormat = FileFormat {
     name: "urc-uisocketdesc+xml",
     extensions: &[],
     media_types: &["application/urc-uisocketdesc+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

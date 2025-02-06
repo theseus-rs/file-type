@@ -6,6 +6,6 @@ pub(crate) const IANA_3450804934: FileFormat = FileFormat {
     name: "vnd.dolby.heaac.2",
     extensions: &[],
     media_types: &["audio/vnd.dolby.heaac.2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

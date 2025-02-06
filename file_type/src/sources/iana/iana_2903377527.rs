@@ -6,6 +6,6 @@ pub(crate) const IANA_2903377527: FileFormat = FileFormat {
     name: "geo+json-seq",
     extensions: &[],
     media_types: &["application/geo+json-seq"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

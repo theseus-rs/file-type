@@ -6,6 +6,6 @@ pub(crate) const IANA_2814730858: FileFormat = FileFormat {
     name: "jxrA",
     extensions: &[],
     media_types: &["image/jxrA"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

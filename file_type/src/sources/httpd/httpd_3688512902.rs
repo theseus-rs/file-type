@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3688512902: FileFormat = FileFormat {
     name: "sh",
     extensions: &["sh"],
     media_types: &["application/x-sh"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

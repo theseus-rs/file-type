@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_126085944: FileFormat = FileFormat {
     id: 126_085_944,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_126085944: FileFormat = FileFormat {
     name: "IMF Package Asset Map",
     extensions: &["xml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

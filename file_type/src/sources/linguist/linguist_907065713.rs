@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_907065713: FileFormat = FileFormat {
     name: "Gemfile.lock",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

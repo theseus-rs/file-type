@@ -6,6 +6,6 @@ pub(crate) const IANA_3043571002: FileFormat = FileFormat {
     name: "coap-group+json",
     extensions: &[],
     media_types: &["application/coap-group+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

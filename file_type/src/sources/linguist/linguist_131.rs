@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_131: FileFormat = FileFormat {
     name: "Gnuplot",
     extensions: &["gnu", "gnuplot", "gp", "p", "plot", "plt"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

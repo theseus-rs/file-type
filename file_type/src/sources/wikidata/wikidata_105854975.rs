@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105854975: FileFormat = FileFormat {
     id: 105_854_975,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105854975: FileFormat = FileFormat {
     name: "YBS compressed archive",
     extensions: &["ybs"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

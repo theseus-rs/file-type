@@ -6,6 +6,6 @@ pub(crate) const IANA_4263354093: FileFormat = FileFormat {
     name: "jxsv",
     extensions: &[],
     media_types: &["video/jxsv"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3718262307: FileFormat = FileFormat {
     name: "s3m",
     extensions: &["s3m"],
     media_types: &["audio/s3m"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

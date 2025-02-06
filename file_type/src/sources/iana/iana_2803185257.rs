@@ -6,6 +6,6 @@ pub(crate) const IANA_2803185257: FileFormat = FileFormat {
     name: "cdmi-queue",
     extensions: &[],
     media_types: &["application/cdmi-queue"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

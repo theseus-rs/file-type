@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_154: FileFormat = FileFormat {
     name: "Haml",
     extensions: &["haml", "haml.deface"],
     media_types: &["text/x-haml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

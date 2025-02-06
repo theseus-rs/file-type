@@ -6,6 +6,6 @@ pub(crate) const IANA_3337832519: FileFormat = FileFormat {
     name: "vnd.japannet-payment-wakeup",
     extensions: &[],
     media_types: &["application/vnd.japannet-payment-wakeup"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

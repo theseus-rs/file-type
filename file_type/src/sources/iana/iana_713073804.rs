@@ -6,6 +6,6 @@ pub(crate) const IANA_713073804: FileFormat = FileFormat {
     name: "hl7v2",
     extensions: &[],
     media_types: &["text/hl7v2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

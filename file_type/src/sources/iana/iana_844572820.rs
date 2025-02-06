@@ -6,6 +6,6 @@ pub(crate) const IANA_844572820: FileFormat = FileFormat {
     name: "elm+xml",
     extensions: &[],
     media_types: &["application/elm+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

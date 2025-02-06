@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_284531423: FileFormat = FileFormat {
     name: "Jison",
     extensions: &["jison"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1877580679: FileFormat = FileFormat {
     name: "GSM",
     extensions: &[],
     media_types: &["audio/GSM"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

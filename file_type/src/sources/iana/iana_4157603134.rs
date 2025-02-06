@@ -6,6 +6,6 @@ pub(crate) const IANA_4157603134: FileFormat = FileFormat {
     name: "PCMU",
     extensions: &[],
     media_types: &["audio/PCMU"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

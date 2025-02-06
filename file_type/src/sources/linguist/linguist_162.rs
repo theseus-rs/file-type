@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_162: FileFormat = FileFormat {
     name: "IGOR Pro",
     extensions: &["ipf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

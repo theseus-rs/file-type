@@ -6,6 +6,6 @@ pub(crate) const IANA_650915217: FileFormat = FileFormat {
     name: "UEMCLIP",
     extensions: &[],
     media_types: &["audio/UEMCLIP"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

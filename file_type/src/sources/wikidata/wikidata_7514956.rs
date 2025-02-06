@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_7514956: FileFormat = FileFormat {
     id: 7_514_956,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_7514956: FileFormat = FileFormat {
     name: "Silicon Graphics Image",
     extensions: &["bw", "rgb", "rgba", "sgi"],
     media_types: &["image/sgi", "image/x-rgb", "image/x-sgi", "image/x-sgi-rgb"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

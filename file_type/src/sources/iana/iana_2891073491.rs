@@ -6,6 +6,6 @@ pub(crate) const IANA_2891073491: FileFormat = FileFormat {
     name: "cellml+xml",
     extensions: &[],
     media_types: &["application/cellml+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

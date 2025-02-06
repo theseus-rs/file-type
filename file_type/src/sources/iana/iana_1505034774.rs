@@ -6,6 +6,6 @@ pub(crate) const IANA_1505034774: FileFormat = FileFormat {
     name: "vnd.micrografx.flo",
     extensions: &[],
     media_types: &["application/vnd.micrografx.flo"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

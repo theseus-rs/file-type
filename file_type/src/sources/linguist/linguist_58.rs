@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_58: FileFormat = FileFormat {
     name: "Cirru",
     extensions: &["cirru"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

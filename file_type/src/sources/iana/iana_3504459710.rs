@@ -6,6 +6,6 @@ pub(crate) const IANA_3504459710: FileFormat = FileFormat {
     name: "logout+jwt",
     extensions: &[],
     media_types: &["application/logout+jwt"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

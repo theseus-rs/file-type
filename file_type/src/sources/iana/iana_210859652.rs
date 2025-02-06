@@ -6,6 +6,6 @@ pub(crate) const IANA_210859652: FileFormat = FileFormat {
     name: "vnd.fuzzysheet",
     extensions: &[],
     media_types: &["application/vnd.fuzzysheet"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

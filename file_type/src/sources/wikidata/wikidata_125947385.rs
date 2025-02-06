@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_125947385: FileFormat = FileFormat {
     id: 125_947_385,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_125947385: FileFormat = FileFormat {
     name: "Finale Notation File 2014+",
     extensions: &["musx"],
     media_types: &["application/vnd.makemusic.notation"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

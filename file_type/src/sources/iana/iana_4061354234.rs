@@ -6,6 +6,6 @@ pub(crate) const IANA_4061354234: FileFormat = FileFormat {
     name: "vnd.sybyl.mol2",
     extensions: &[],
     media_types: &["application/vnd.sybyl.mol2"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

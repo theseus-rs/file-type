@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_128906383: FileFormat = FileFormat {
     id: 128_906_383,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_128906383: FileFormat = FileFormat {
     name: "Dylan session file",
     extensions: &["dylan-console"],
     media_types: &["text/x-dylan-console"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

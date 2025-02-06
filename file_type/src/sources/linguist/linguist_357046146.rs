@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_357046146: FileFormat = FileFormat {
     name: "Closure Templates",
     extensions: &["soy"],
     media_types: &["text/x-soy"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

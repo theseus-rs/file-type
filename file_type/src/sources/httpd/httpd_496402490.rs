@@ -6,6 +6,6 @@ pub(crate) const HTTPD_496402490: FileFormat = FileFormat {
     name: "dece audio",
     extensions: &["uva", "uvva"],
     media_types: &["audio/vnd.dece.audio"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

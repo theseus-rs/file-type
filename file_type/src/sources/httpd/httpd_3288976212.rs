@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3288976212: FileFormat = FileFormat {
     name: "pmi widget",
     extensions: &["wg"],
     media_types: &["application/vnd.pmi.widget"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

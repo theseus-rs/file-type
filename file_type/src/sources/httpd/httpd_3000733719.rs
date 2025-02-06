@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3000733719: FileFormat = FileFormat {
     name: "rfc822",
     extensions: &["eml", "mime"],
     media_types: &["message/rfc822"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

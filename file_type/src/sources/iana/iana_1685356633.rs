@@ -6,6 +6,6 @@ pub(crate) const IANA_1685356633: FileFormat = FileFormat {
     name: "vnd.ms-powerpoint.template.macroEnabled.12",
     extensions: &[],
     media_types: &["application/vnd.ms-powerpoint.template.macroEnabled.12"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

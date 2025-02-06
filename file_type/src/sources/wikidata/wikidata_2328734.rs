@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_2328734: FileFormat = FileFormat {
     id: 2_328_734,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_2328734: FileFormat = FileFormat {
     name: "JISP",
     extensions: &["jisp"],
     media_types: &["application/vnd.jisp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

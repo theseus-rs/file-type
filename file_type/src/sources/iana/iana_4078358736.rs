@@ -6,6 +6,6 @@ pub(crate) const IANA_4078358736: FileFormat = FileFormat {
     name: "vnd.ms-powerpoint",
     extensions: &[],
     media_types: &["application/vnd.ms-powerpoint"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2230729471: FileFormat = FileFormat {
     name: "grafeq",
     extensions: &["gqf", "gqs"],
     media_types: &["application/vnd.grafeq"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

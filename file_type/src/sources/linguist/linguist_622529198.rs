@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_622529198: FileFormat = FileFormat {
     name: "Faust",
     extensions: &["dsp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

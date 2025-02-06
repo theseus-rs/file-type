@@ -6,6 +6,6 @@ pub(crate) const IANA_2898430558: FileFormat = FileFormat {
     name: "jais",
     extensions: &[],
     media_types: &["image/jais"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_116: FileFormat = FileFormat {
     name: "Frege",
     extensions: &["fr"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_122947210: FileFormat = FileFormat {
     id: 122_947_210,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_122947210: FileFormat = FileFormat {
     name: "Windows Enhanced Metafile, version 1.0",
     extensions: &["emf", "emz"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_1270605119: FileFormat = FileFormat {
     name: "vnd.stepmania.stepchart",
     extensions: &[],
     media_types: &["application/vnd.stepmania.stepchart"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

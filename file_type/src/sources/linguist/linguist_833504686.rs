@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_833504686: FileFormat = FileFormat {
     name: "PlantUML",
     extensions: &["iuml", "plantuml", "puml"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

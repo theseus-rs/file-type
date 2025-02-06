@@ -6,6 +6,6 @@ pub(crate) const IANA_3972709196: FileFormat = FileFormat {
     name: "vnd.adobe.xdp+xml",
     extensions: &[],
     media_types: &["application/vnd.adobe.xdp+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

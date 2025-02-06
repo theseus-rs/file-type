@@ -6,6 +6,6 @@ pub(crate) const IANA_4267139476: FileFormat = FileFormat {
     name: "vnd.route66.link66+xml",
     extensions: &[],
     media_types: &["application/vnd.route66.link66+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_47165345: FileFormat = FileFormat {
     id: 47_165_345,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_47165345: FileFormat = FileFormat {
     name: "Microsoft Project file format, version 2010",
     extensions: &["mpp"],
     media_types: &["application/vnd.ms-project"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

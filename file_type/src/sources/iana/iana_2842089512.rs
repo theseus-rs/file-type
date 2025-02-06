@@ -6,6 +6,6 @@ pub(crate) const IANA_2842089512: FileFormat = FileFormat {
     name: "vnd.nintendo.nitro.rom",
     extensions: &[],
     media_types: &["application/vnd.nintendo.nitro.rom"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

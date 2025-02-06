@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_686129783: FileFormat = FileFormat {
     name: "FIGlet Font",
     extensions: &["flf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

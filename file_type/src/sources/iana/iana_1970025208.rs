@@ -6,6 +6,6 @@ pub(crate) const IANA_1970025208: FileFormat = FileFormat {
     name: "vnd.s3sms",
     extensions: &[],
     media_types: &["application/vnd.s3sms"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

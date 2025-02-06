@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_96034965: FileFormat = FileFormat {
     id: 96_034_965,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_96034965: FileFormat = FileFormat {
     name: "JavaView 3D geometry format",
     extensions: &["jvx"],
     media_types: &[],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1603773142: FileFormat = FileFormat {
     name: "tex",
     extensions: &["tex"],
     media_types: &["application/x-tex"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

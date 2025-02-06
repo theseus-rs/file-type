@@ -6,6 +6,6 @@ pub(crate) const IANA_3065629133: FileFormat = FileFormat {
     name: "vnd.cloanto.rp9",
     extensions: &[],
     media_types: &["application/vnd.cloanto.rp9"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

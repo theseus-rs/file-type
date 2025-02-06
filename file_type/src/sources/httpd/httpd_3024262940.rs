@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3024262940: FileFormat = FileFormat {
     name: "geoplan",
     extensions: &["g2w"],
     media_types: &["application/vnd.geoplan"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

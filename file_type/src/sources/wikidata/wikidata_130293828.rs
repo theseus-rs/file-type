@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130293828: FileFormat = FileFormat {
     id: 130_293_828,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130293828: FileFormat = FileFormat {
     name: "MiniScript source code file",
     extensions: &["ms"],
     media_types: &["application/x-miniscript", "text/x-miniscript"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

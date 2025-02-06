@@ -6,6 +6,6 @@ pub(crate) const IANA_437786028: FileFormat = FileFormat {
     name: "vnd.cmles.radio-events",
     extensions: &[],
     media_types: &["audio/vnd.cmles.radio-events"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

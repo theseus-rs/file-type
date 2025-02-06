@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1050342415: FileFormat = FileFormat {
     name: "vcard",
     extensions: &["vcard"],
     media_types: &["text/vcard"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

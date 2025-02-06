@@ -6,6 +6,6 @@ pub(crate) const IANA_1624322153: FileFormat = FileFormat {
     name: "vnd.ibm.modcap (OBSOLETED in favor of application/vnd.afpc.modca)",
     extensions: &[],
     media_types: &["application/vnd.ibm.modcap"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

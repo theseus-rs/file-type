@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_110619974: FileFormat = FileFormat {
     id: 110_619_974,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_110619974: FileFormat = FileFormat {
     name: "Adobe Atmosphere world (.atmo)",
     extensions: &["3da", "aer", "atmo"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1841200561: FileFormat = FileFormat {
     name: "sru xml",
     extensions: &["sru"],
     media_types: &["application/sru+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

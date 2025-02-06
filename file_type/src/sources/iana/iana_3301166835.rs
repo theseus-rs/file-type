@@ -6,6 +6,6 @@ pub(crate) const IANA_3301166835: FileFormat = FileFormat {
     name: "vnd.radiance",
     extensions: &[],
     media_types: &["image/vnd.radiance"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3161366850: FileFormat = FileFormat {
     name: "vnd.ms-lrm",
     extensions: &[],
     media_types: &["application/vnd.ms-lrm"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

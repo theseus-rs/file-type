@@ -6,6 +6,6 @@ pub(crate) const HTTPD_350150928: FileFormat = FileFormat {
     name: "xspf xml",
     extensions: &["xspf"],
     media_types: &["application/xspf+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

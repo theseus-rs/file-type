@@ -6,6 +6,6 @@ pub(crate) const IANA_3327632904: FileFormat = FileFormat {
     name: "vnd.vectorworks",
     extensions: &[],
     media_types: &["application/vnd.vectorworks"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

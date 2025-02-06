@@ -6,6 +6,6 @@ pub(crate) const IANA_214210857: FileFormat = FileFormat {
     name: "cfw",
     extensions: &[],
     media_types: &["application/cfw"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

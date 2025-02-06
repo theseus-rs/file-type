@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111355025: FileFormat = FileFormat {
     id: 111_355_025,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111355025: FileFormat = FileFormat {
     name: "exponential 8-bit format",
     extensions: &["u255law"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

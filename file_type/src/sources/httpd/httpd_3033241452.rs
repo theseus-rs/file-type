@@ -8,6 +8,6 @@ pub(crate) const HTTPD_3033241452: FileFormat = FileFormat {
         "dir", "dcr", "dxr", "cst", "cct", "cxt", "w3d", "fgd", "swa",
     ],
     media_types: &["application/x-director"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

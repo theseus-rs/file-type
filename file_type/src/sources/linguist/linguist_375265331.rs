@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_375265331: FileFormat = FileFormat {
     name: "Quake",
     extensions: &[],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

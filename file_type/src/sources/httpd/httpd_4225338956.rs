@@ -6,6 +6,6 @@ pub(crate) const HTTPD_4225338956: FileFormat = FileFormat {
     name: "dxf",
     extensions: &["dxf"],
     media_types: &["image/vnd.dxf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

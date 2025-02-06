@@ -6,6 +6,6 @@ pub(crate) const HTTPD_1561541638: FileFormat = FileFormat {
     name: "in3d 3dml",
     extensions: &["3dml"],
     media_types: &["text/vnd.in3d.3dml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_681406187: FileFormat = FileFormat {
     name: "voice-message",
     extensions: &[],
     media_types: &["multipart/voice-message"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

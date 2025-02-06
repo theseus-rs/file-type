@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105854136: FileFormat = FileFormat {
     id: 105_854_136,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105854136: FileFormat = FileFormat {
     name: "PS/2 MicroChannel Adapter Description File (with rem)",
     extensions: &["adf"],
     media_types: &["text/plain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

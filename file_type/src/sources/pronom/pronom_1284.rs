@@ -1,6 +1,6 @@
 use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,
-    RelationshipType, SourceType, Token,
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
 };
 
 pub(crate) const PRONOM_1284: FileFormat = FileFormat {
@@ -9,6 +9,6 @@ pub(crate) const PRONOM_1284: FileFormat = FileFormat {
     name: "Wireless Bitmap",
     extensions: &["wbmp"],
     media_types: &["image/vnd-wap-wbmp"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

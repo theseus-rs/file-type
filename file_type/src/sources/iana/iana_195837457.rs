@@ -6,6 +6,6 @@ pub(crate) const IANA_195837457: FileFormat = FileFormat {
     name: "dls",
     extensions: &[],
     media_types: &["audio/dls"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

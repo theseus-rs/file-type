@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_194: FileFormat = FileFormat {
     name: "LabVIEW",
     extensions: &["lvclass", "lvlib", "lvproj"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_111262652: FileFormat = FileFormat {
     id: 111_262_652,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_111262652: FileFormat = FileFormat {
     name: "Muon DS404 patch file",
     extensions: &["404"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

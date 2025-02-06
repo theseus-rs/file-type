@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_117843186: FileFormat = FileFormat {
     id: 117_843_186,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_117843186: FileFormat = FileFormat {
     name: "Calculus EZ-Fax file",
     extensions: &["ezf"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

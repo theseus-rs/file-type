@@ -6,6 +6,6 @@ pub(crate) const HTTPD_792947184: FileFormat = FileFormat {
     name: "vrml",
     extensions: &["wrl", "vrml"],
     media_types: &["model/vrml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

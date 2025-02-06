@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2126647565: FileFormat = FileFormat {
     name: "xiff",
     extensions: &["xif"],
     media_types: &["image/vnd.xiff"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

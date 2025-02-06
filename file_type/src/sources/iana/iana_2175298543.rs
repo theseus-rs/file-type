@@ -6,6 +6,6 @@ pub(crate) const IANA_2175298543: FileFormat = FileFormat {
     name: "cybercash",
     extensions: &[],
     media_types: &["application/cybercash"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

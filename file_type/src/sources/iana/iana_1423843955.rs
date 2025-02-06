@@ -6,6 +6,6 @@ pub(crate) const IANA_1423843955: FileFormat = FileFormat {
     name: "alto-tipsparams+json",
     extensions: &[],
     media_types: &["application/alto-tipsparams+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

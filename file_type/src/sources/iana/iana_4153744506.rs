@@ -6,6 +6,6 @@ pub(crate) const IANA_4153744506: FileFormat = FileFormat {
     name: "vnd.dvb.ipdcroaming",
     extensions: &[],
     media_types: &["application/vnd.dvb.ipdcroaming"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3562786460: FileFormat = FileFormat {
     name: "H224",
     extensions: &[],
     media_types: &["application/H224"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

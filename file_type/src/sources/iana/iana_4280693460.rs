@@ -6,6 +6,6 @@ pub(crate) const IANA_4280693460: FileFormat = FileFormat {
     name: "pem-certificate-chain",
     extensions: &[],
     media_types: &["application/pem-certificate-chain"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

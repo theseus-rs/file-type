@@ -6,6 +6,6 @@ pub(crate) const HTTPD_3942621849: FileFormat = FileFormat {
     name: "mobius txf",
     extensions: &["txf"],
     media_types: &["application/vnd.mobius.txf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

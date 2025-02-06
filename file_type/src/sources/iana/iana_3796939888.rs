@@ -6,6 +6,6 @@ pub(crate) const IANA_3796939888: FileFormat = FileFormat {
     name: "urc-ressheet+xml",
     extensions: &[],
     media_types: &["application/urc-ressheet+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

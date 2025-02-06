@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105859500: FileFormat = FileFormat {
     id: 105_859_500,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_105859500: FileFormat = FileFormat {
     name: "VSIX Manifest (2011)",
     extensions: &["vsixmanifest"],
     media_types: &["text/xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

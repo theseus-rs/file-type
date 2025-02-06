@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2645641524: FileFormat = FileFormat {
     name: "mxf",
     extensions: &["mxf"],
     media_types: &["application/mxf"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

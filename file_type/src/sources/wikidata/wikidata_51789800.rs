@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_51789800: FileFormat = FileFormat {
     id: 51_789_800,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_51789800: FileFormat = FileFormat {
     name: "Microsoft Visio Drawing, version 5",
     extensions: &["vsd"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

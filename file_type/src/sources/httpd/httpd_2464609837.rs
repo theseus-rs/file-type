@@ -6,6 +6,6 @@ pub(crate) const HTTPD_2464609837: FileFormat = FileFormat {
     name: "rip",
     extensions: &["rip"],
     media_types: &["audio/vnd.rip"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_740040417: FileFormat = FileFormat {
     name: "vnd.etsi.iptvsad-npvr+xml",
     extensions: &[],
     media_types: &["application/vnd.etsi.iptvsad-npvr+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_212: FileFormat = FileFormat {
     name: "LoomScript",
     extensions: &["ls"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

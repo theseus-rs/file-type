@@ -6,6 +6,6 @@ pub(crate) const IANA_2437446151: FileFormat = FileFormat {
     name: "geoxacml+json",
     extensions: &[],
     media_types: &["application/geoxacml+json"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

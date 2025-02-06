@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_34273453: FileFormat = FileFormat {
     id: 34_273_453,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_34273453: FileFormat = FileFormat {
     name: "Keynote Zipped",
     extensions: &["key.zip"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

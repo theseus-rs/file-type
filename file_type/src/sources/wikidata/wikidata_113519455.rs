@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_113519455: FileFormat = FileFormat {
     id: 113_519_455,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_113519455: FileFormat = FileFormat {
     name: "PageMaker Mac Document 6.0",
     extensions: &["pm6", "pt6"],
     media_types: &["application/vnd.pagemaker"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

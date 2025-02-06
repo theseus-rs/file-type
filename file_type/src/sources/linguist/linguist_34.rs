@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_34: FileFormat = FileFormat {
     name: "BlitzBasic",
     extensions: &["bb", "decls"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

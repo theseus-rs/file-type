@@ -6,6 +6,6 @@ pub(crate) const HTTPD_372858196: FileFormat = FileFormat {
     name: "shf xml",
     extensions: &["shf"],
     media_types: &["application/shf+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

@@ -6,6 +6,6 @@ pub(crate) const IANA_3302833616: FileFormat = FileFormat {
     name: "vnd.openxmlformats-officedocument.spreadsheetml.pivotTable+xml",
     extensions: &[],
     media_types: &["application/vnd.openxmlformats-officedocument.spreadsheetml.pivotTable+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

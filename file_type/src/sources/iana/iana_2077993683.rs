@@ -6,6 +6,6 @@ pub(crate) const IANA_2077993683: FileFormat = FileFormat {
     name: "vnd.ibm.electronic-media",
     extensions: &[],
     media_types: &["application/vnd.ibm.electronic-media"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

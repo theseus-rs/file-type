@@ -6,6 +6,6 @@ pub(crate) const IANA_2158082698: FileFormat = FileFormat {
     name: "vnd.sealed.doc",
     extensions: &[],
     media_types: &["application/vnd.sealed.doc"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

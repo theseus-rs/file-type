@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_33517407: FileFormat = FileFormat {
     id: 33_517_407,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_33517407: FileFormat = FileFormat {
     name: "E57 Lidar Point Cloud Format",
     extensions: &["e57"],
     media_types: &["model/e57"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

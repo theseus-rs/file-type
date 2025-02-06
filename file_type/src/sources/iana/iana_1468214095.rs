@@ -6,6 +6,6 @@ pub(crate) const IANA_1468214095: FileFormat = FileFormat {
     name: "vnd.gentoo.pkgmetadata+xml",
     extensions: &[],
     media_types: &["application/vnd.gentoo.pkgmetadata+xml"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

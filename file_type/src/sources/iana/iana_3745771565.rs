@@ -6,6 +6,6 @@ pub(crate) const IANA_3745771565: FileFormat = FileFormat {
     name: "BMPEG",
     extensions: &[],
     media_types: &["video/BMPEG"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

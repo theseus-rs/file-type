@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_105851655: FileFormat = FileFormat {
     id: 105_851_655,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_105851655: FileFormat = FileFormat {
     name: "Fusion 360 Simulation Mesh DB",
     extensions: &["simmeshdb"],
     media_types: &["text/xml"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

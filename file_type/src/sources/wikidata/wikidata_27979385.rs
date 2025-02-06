@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_27979385: FileFormat = FileFormat {
     id: 27_979_385,
@@ -8,7 +6,7 @@ pub(crate) const WIKIDATA_27979385: FileFormat = FileFormat {
     name: "Fractal Image And Sequence Codec",
     extensions: &["fco"],
     media_types: &["application/octet-stream"],
-    internal_signatures: &[InternalSignature {
+    signatures: &[Signature {
         byte_sequences: &[ByteSequence {
             position_type: PositionType::BOF,
             offset: Some(0),

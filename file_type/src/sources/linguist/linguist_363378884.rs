@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_363378884: FileFormat = FileFormat {
     name: "Regular Expression",
     extensions: &["regex", "regexp"],
     media_types: &[],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

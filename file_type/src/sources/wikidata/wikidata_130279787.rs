@@ -1,6 +1,4 @@
-use crate::format::{
-    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_130279787: FileFormat = FileFormat {
     id: 130_279_787,
@@ -8,6 +6,6 @@ pub(crate) const WIKIDATA_130279787: FileFormat = FileFormat {
     name: "MAQL script file",
     extensions: &["maql"],
     media_types: &["application/x-gooddata-maql", "text/x-gooddata-maql"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

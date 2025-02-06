@@ -6,6 +6,6 @@ pub(crate) const IANA_96929146: FileFormat = FileFormat {
     name: "vnd.iptvforum.1dparityfec-2005",
     extensions: &[],
     media_types: &["video/vnd.iptvforum.1dparityfec-2005"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };

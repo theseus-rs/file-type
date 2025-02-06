@@ -6,6 +6,6 @@ pub(crate) const LINGUIST_325: FileFormat = FileFormat {
     name: "Rouge",
     extensions: &["rg"],
     media_types: &["text/x-clojure"],
-    internal_signatures: &[],
+    signatures: &[],
     related_formats: &[],
 };
