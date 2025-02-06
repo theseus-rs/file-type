@@ -1,18 +1,16 @@
-use anyhow::Result;
 use file_type::FileType;
-use std::fs;
-use std::path::PathBuf;
 
-const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
-
-fn data_dir() -> PathBuf {
-    PathBuf::from(CRATE_DIR)
+#[cfg(feature = "wikidata")]
+fn data_dir() -> std::path::PathBuf {
+    let crate_dir: &str = env!("CARGO_MANIFEST_DIR");
+    std::path::PathBuf::from(crate_dir)
         .join("..")
         .join("testdata")
         .join("wikidata")
 }
 
-fn test_file(file_name: &str) -> Result<(String, &FileType)> {
+#[cfg(feature = "wikidata")]
+fn test_file(file_name: &str) -> anyhow::Result<(String, &FileType)> {
     let data_dir = data_dir();
     let path = data_dir.join(file_name);
     let file_name = path
@@ -29,12 +27,12 @@ fn test_file(file_name: &str) -> Result<(String, &FileType)> {
 
 #[cfg(feature = "wikidata")]
 #[test]
-fn test_file_classification() -> Result<()> {
+fn test_file_classification() -> anyhow::Result<()> {
     let data_dir = data_dir();
     let mut passed_tests = 0;
     let mut errored_tests = 0;
 
-    for entry in fs::read_dir(data_dir)? {
+    for entry in std::fs::read_dir(data_dir)? {
         let path = entry?.path();
         if path.is_dir() {
             continue;

@@ -1,5 +1,5 @@
 use crate::format::{RelatedFormat, Signature};
-use std::cmp::Ordering;
+use core::cmp::Ordering;
 
 /// The source of the file format
 #[derive(Clone, Debug, Default, PartialEq, Eq)]

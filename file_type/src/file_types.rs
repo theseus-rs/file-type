@@ -1,7 +1,7 @@
 use crate::format::{FileFormat, Regex, RelationshipType, Signature};
 use crate::sources::FILE_FORMATS;
 use crate::{file_types, sources, Error, FileType, Result};
-use std::cmp::Ordering;
+use core::cmp::Ordering;
 use std::collections::HashMap;
 use std::fs::read_to_string;
 use std::io::{Read, Seek};
@@ -18,9 +18,6 @@ static EXTENSION_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_extension_map);
 static MEDIA_TYPE_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_media_type_map);
-const EMPTY_SIGNATURES: &Vec<&'static FileType> = &Vec::new();
-const EMPTY_EXTENSIONS: &Vec<&'static FileType> = &Vec::new();
-const EMPTY_MEDIA_TYPES: &Vec<&'static FileType> = &Vec::new();
 
 /// Deserialize the PRONOM XML file format data into a map of puid to `FileType`.
 fn initialize_file_formats() -> HashMap<&'static str, FileType> {
@@ -97,15 +94,21 @@ pub(crate) fn from_id<S: AsRef<str>>(id: S) -> Option<&'static FileType> {
 }
 
 /// Get the file types for a given extension.
-pub(crate) fn from_extension<S: AsRef<str>>(extension: S) -> &'static Vec<&'static FileType> {
+pub(crate) fn from_extension<S: AsRef<str>>(extension: S) -> &'static [&'static FileType] {
     let extension = extension.as_ref();
-    EXTENSION_MAP.get(extension).unwrap_or(EMPTY_EXTENSIONS)
+    let Some(extensions) = EXTENSION_MAP.get(extension) else {
+        return &[];
+    };
+    extensions
 }
 
 /// Get the file types for a given media type.
-pub(crate) fn from_media_type<S: AsRef<str>>(media_type: S) -> &'static Vec<&'static FileType> {
+pub(crate) fn from_media_type<S: AsRef<str>>(media_type: S) -> &'static [&'static FileType] {
     let media_type = media_type.as_ref();
-    MEDIA_TYPE_MAP.get(media_type).unwrap_or(EMPTY_MEDIA_TYPES)
+    let Some(media_types) = MEDIA_TYPE_MAP.get(media_type) else {
+        return &[];
+    };
+    media_types
 }
 
 /// Sort the file types without requiring a total order.

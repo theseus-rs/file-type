@@ -1,5 +1,5 @@
 use crate::format::regex::Regex;
-use std::str::FromStr;
+use core::str::FromStr;
 
 /// The position type for a byte sequence
 #[derive(Clone, Debug, Default, Eq, PartialEq)]
