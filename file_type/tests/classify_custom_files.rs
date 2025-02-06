@@ -1,17 +1,20 @@
-use anyhow::Result;
 use file_type::FileType;
-use std::path::PathBuf;
 
-const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
-
-fn data_dir() -> PathBuf {
-    PathBuf::from(CRATE_DIR)
+#[cfg(feature = "custom")]
+fn data_dir() -> std::path::PathBuf {
+    let crate_dir: &str = env!("CARGO_MANIFEST_DIR");
+    std::path::PathBuf::from(crate_dir)
         .join("..")
         .join("testdata")
         .join("custom")
 }
 
-fn test_file(file_name: &str, expected_id: &str, expected_media_type: Option<&str>) -> Result<()> {
+#[cfg(feature = "custom")]
+fn test_file(
+    file_name: &str,
+    expected_id: &str,
+    expected_media_type: Option<&str>,
+) -> anyhow::Result<()> {
     let data_dir = data_dir();
     let path = data_dir.join(file_name);
     let file_type = FileType::try_from_file_sync(path)?;
@@ -31,7 +34,7 @@ fn test_file(file_name: &str, expected_id: &str, expected_media_type: Option<&st
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_arrow_file() -> Result<()> {
+fn test_arrow_file() -> anyhow::Result<()> {
     test_file(
         "users.arrow",
         "custom/1",
@@ -41,7 +44,7 @@ fn test_arrow_file() -> Result<()> {
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_avro_file() -> Result<()> {
+fn test_avro_file() -> anyhow::Result<()> {
     test_file(
         "users.avro",
         "custom/2",
@@ -51,7 +54,7 @@ fn test_avro_file() -> Result<()> {
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_csv_file() -> Result<()> {
+fn test_csv_file() -> anyhow::Result<()> {
     #[cfg(feature = "pronom")]
     test_file("users.csv", "pronom/45", Some("text/csv"))?;
     #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
@@ -61,7 +64,7 @@ fn test_csv_file() -> Result<()> {
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_duckdb_file() -> Result<()> {
+fn test_duckdb_file() -> anyhow::Result<()> {
     test_file(
         "users.duckdb",
         "custom/3",
@@ -71,7 +74,7 @@ fn test_duckdb_file() -> Result<()> {
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_json_file() -> Result<()> {
+fn test_json_file() -> anyhow::Result<()> {
     #[cfg(feature = "pronom")]
     test_file("users.json", "pronom/1617", Some("application/json"))?;
     #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
@@ -81,13 +84,13 @@ fn test_json_file() -> Result<()> {
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_jsonl_file() -> Result<()> {
+fn test_jsonl_file() -> anyhow::Result<()> {
     test_file("users.jsonl", "custom/4", Some("application/jsonl"))
 }
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_ods_file() -> Result<()> {
+fn test_ods_file() -> anyhow::Result<()> {
     #[cfg(feature = "pronom")]
     test_file(
         "users.ods",
@@ -105,7 +108,7 @@ fn test_ods_file() -> Result<()> {
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_parquet_file() -> Result<()> {
+fn test_parquet_file() -> anyhow::Result<()> {
     test_file(
         "users.parquet",
         "custom/5",
@@ -115,7 +118,7 @@ fn test_parquet_file() -> Result<()> {
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_sqlite3_file() -> Result<()> {
+fn test_sqlite3_file() -> anyhow::Result<()> {
     #[cfg(feature = "pronom")]
     test_file(
         "users.sqlite3",
@@ -133,7 +136,7 @@ fn test_sqlite3_file() -> Result<()> {
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_tsv_file() -> Result<()> {
+fn test_tsv_file() -> anyhow::Result<()> {
     #[cfg(feature = "pronom")]
     test_file("users.tsv", "pronom/40", Some("text/tab-separated-values"))?;
     // Wikidata is currently mis-classifying this file as wikidata/1194435 instead of wikidata/3513566
@@ -142,7 +145,7 @@ fn test_tsv_file() -> Result<()> {
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_xlsx_file() -> Result<()> {
+fn test_xlsx_file() -> anyhow::Result<()> {
     #[cfg(feature = "pronom")]
     test_file(
         "users.xlsx",
@@ -160,7 +163,7 @@ fn test_xlsx_file() -> Result<()> {
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_xml_file() -> Result<()> {
+fn test_xml_file() -> anyhow::Result<()> {
     #[cfg(feature = "pronom")]
     test_file("users.xml", "pronom/638", Some("text/xml"))?;
     #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
@@ -170,7 +173,7 @@ fn test_xml_file() -> Result<()> {
 
 #[cfg(feature = "custom")]
 #[test]
-fn test_yaml_file() -> Result<()> {
+fn test_yaml_file() -> anyhow::Result<()> {
     #[cfg(feature = "pronom")]
     test_file("users.yaml", "pronom/1618", None)?;
     #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]

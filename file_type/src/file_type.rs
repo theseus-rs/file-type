@@ -1,8 +1,6 @@
 use crate::format::{FileFormat, RelationshipType};
 use crate::{file_types, Result};
-use std::cmp::Ordering;
-use std::io::{Read, Seek};
-use std::path::Path;
+use core::cmp::Ordering;
 
 /// A file type.  The file type is determined by examining the file or bytes against known file
 /// signatures and file extensions.
@@ -145,7 +143,7 @@ impl FileType {
     /// assert_eq!(file_type.media_types(), vec!["application/vnd.duckdb.file"]);
     /// ```
     #[must_use]
-    pub fn from_extension<S: AsRef<str>>(extension: S) -> &'static Vec<&'static Self> {
+    pub fn from_extension<S: AsRef<str>>(extension: S) -> &'static [&'static Self] {
         file_types::from_extension(extension)
     }
 
@@ -160,7 +158,7 @@ impl FileType {
     /// assert_eq!(file_type.extensions(), vec!["png"]);
     /// ```
     #[must_use]
-    pub fn from_media_type<S: AsRef<str>>(media_type: S) -> &'static Vec<&'static Self> {
+    pub fn from_media_type<S: AsRef<str>>(media_type: S) -> &'static [&'static Self] {
         file_types::from_media_type(media_type)
     }
 
@@ -224,7 +222,7 @@ impl FileType {
     /// }
     /// ```
     #[cfg(feature = "tokio")]
-    pub async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static Self> {
+    pub async fn try_from_file<P: AsRef<std::path::Path>>(path: P) -> Result<&'static Self> {
         file_types::try_from_file(path).await
     }
 
@@ -244,7 +242,7 @@ impl FileType {
     /// assert_eq!(file_type.extensions(), vec!["class"]);
     /// assert_eq!(file_type.media_types(), Vec::<String>::new());
     /// ```
-    pub fn try_from_reader_sync<R: Read>(reader: R) -> Result<&'static Self> {
+    pub fn try_from_reader_sync<R: std::io::Read>(reader: R) -> Result<&'static Self> {
         file_types::try_from_reader_sync(reader, None)
     }
 
@@ -263,7 +261,7 @@ impl FileType {
     /// assert_eq!(file_type.extensions(), vec!["png"]);
     /// assert_eq!(file_type.media_types(), vec!["image/png"]);
     /// ```
-    pub fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<&'static Self> {
+    pub fn try_from_file_sync<P: AsRef<std::path::Path>>(path: P) -> Result<&'static Self> {
         file_types::try_from_file_sync(path)
     }
 }

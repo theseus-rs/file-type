@@ -1,9 +1,8 @@
 use crate::{Error, Result};
-use std::cmp::Ordering;
-use std::collections::HashMap;
+use core::cmp::Ordering;
+use core::str::from_utf8;
 use std::fmt::Display;
 use std::io::{self, BufRead, BufReader, Read};
-use std::str::from_utf8;
 
 /// A token to match against a byte stream
 #[derive(Clone, Debug, Eq, PartialEq)]

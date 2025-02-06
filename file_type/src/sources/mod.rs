@@ -1,7 +1,5 @@
 use crate::format::FileFormat;
 use crate::FileType;
-use std::collections::HashMap;
-use std::sync::LazyLock;
 
 #[cfg(feature = "custom")]
 mod custom;
