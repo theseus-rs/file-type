@@ -110,9 +110,10 @@ Data is licensed under the following licenses:
 
 If this crate does not meet your requirements, you may want to consider the following alternatives:
 
-* [infer](https://crates.io/crates/infer)
-* [mime_guess](https://crates.io/crates/mime_guess)
 * [file-format](https://crates.io/crates/file-format)
+* [infer](https://crates.io/crates/infer)
+* [magic](https://crates.io/crates/magic)
+* [mime_guess](https://crates.io/crates/mime_guess)
 
 ## Contribution
 
