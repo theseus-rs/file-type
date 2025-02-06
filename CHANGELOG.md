@@ -13,7 +13,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - reduce use of std library
 - correct formatting
 - run benchmarks on linux
-- update magic benchmark to run on mac
 - add magic crate benchmark
 - refactor source code generation into a separate crate
 - update examples for wikidata default
