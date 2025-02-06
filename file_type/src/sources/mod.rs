@@ -2,8 +2,8 @@ use crate::format::FileFormat;
 use crate::FileType;
 
 #[cfg(feature = "custom")]
-mod custom;
-mod default;
+pub(crate) mod custom;
+pub(crate) mod default;
 #[cfg(feature = "httpd")]
 pub(crate) mod httpd;
 #[cfg(feature = "iana")]

@@ -41,8 +41,8 @@ use core::cmp::Ordering;
 /// ```
 #[derive(Clone, Debug, Eq, PartialEq)]
 pub struct FileType {
-    id: &'static str,
-    file_format: &'static FileFormat,
+    pub(crate) id: &'static str,
+    pub(crate) file_format: &'static FileFormat,
 }
 
 impl FileType {
