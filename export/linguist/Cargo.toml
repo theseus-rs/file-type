@@ -7,7 +7,7 @@ version.workspace = true
 
 [dependencies]
 anyhow = { workspace = true }
-file_type = { path = "../../file_type", version = "0.5.1" }
+file_type = { path = "../../file_type", version = "0.5.2" }
 reqwest = { workspace = true }
 serde = { workspace = true, features = ["derive"] }
 serde_json = { workspace = true }

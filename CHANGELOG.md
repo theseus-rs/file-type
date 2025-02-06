@@ -6,6 +6,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## `file_type` - [0.5.2](https://github.com/theseus-rs/file-type/compare/v0.5.1...v0.5.2) - 2025-02-06
+
+### Other
+- optimize default file type determination
+- reduce use of std library
+- correct formatting
+- run benchmarks on linux
+- update magic benchmark to run on mac
+- add magic crate benchmark
+- refactor source code generation into a separate crate
+- update examples for wikidata default
+- remove end time parameter from performance reports
+
 ## `file_type` - [0.5.1](https://github.com/theseus-rs/file-type/compare/v0.5.0...v0.5.1) - 2025-02-05
 
 ### Other
