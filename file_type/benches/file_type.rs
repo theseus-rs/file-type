@@ -34,12 +34,6 @@ fn bench_lifecycle(criterion: &mut Criterion) -> anyhow::Result<()> {
     let bytes = fs::read(&file)?;
     let large_bytes = large_bytes();
 
-    criterion.bench_function("file_type::from_id", |bencher| {
-        bencher.iter(|| {
-            let _ = FileType::from_id("pronom/1");
-        });
-    });
-
     criterion.bench_function("file_type::from_extension", |bencher| {
         bencher.iter(|| {
             let _ = FileType::from_extension(PNG_EXTENSION);

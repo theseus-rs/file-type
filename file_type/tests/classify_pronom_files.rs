@@ -8,7 +8,7 @@ fn data_dir() -> std::path::PathBuf {
 }
 
 #[cfg(feature = "pronom")]
-fn test_file(file_name: &str) -> anyhow::Result<(String, &file_type::FileType)> {
+fn test_file(file_name: &str) -> anyhow::Result<(usize, &file_type::FileType)> {
     let data_dir = data_dir();
     let path = data_dir.join(file_name);
     let file_name = path
@@ -19,10 +19,12 @@ fn test_file(file_name: &str) -> anyhow::Result<(String, &file_type::FileType)> 
     let file_name = file_name.split('.').next().expect("split").to_string();
     let id = if file_name.starts_with("x-fmt-") {
         let parts: Vec<&str> = file_name.split('-').collect();
-        format!("{}-{}/{}", parts[0], parts[1], parts[2])
+        let id: usize = parts[2].parse()?;
+        id
     } else {
         let parts: Vec<&str> = file_name.split('-').collect();
-        format!("{}/{}", parts[0], parts[1])
+        let id: usize = parts[1].parse()?;
+        id
     };
 
     let file_type = file_type::FileType::try_from_file_sync(path)?;
