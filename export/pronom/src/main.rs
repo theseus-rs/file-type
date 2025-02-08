@@ -154,7 +154,7 @@ fn generate_source_code(
         let name = format!("pronom_{}", file_format.id);
         let source_code = [
             "use crate::format::{".to_string(),
-            "    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, RelatedFormat,"
+            "    ByteSequence, FileFormat, Signature, PositionType, Regex, RelatedFormat,"
                 .to_string(),
             "    RelationshipType, SourceType, Token".to_string(),
             "};".to_string(),

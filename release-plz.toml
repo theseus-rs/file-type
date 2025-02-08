@@ -1,5 +1,4 @@
 [workspace]
-changelog_path = "./CHANGELOG.md"
 git_release_enable = true
 git_release_name = "v{{ version }}"
 git_tag_name = "v{{ version }}"

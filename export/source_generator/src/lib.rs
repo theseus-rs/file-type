@@ -35,7 +35,7 @@ impl Source for FileFormat {
             .collect::<Vec<String>>()
             .join(", ");
         format!(
-            "FileFormat {{ id: {}, source_type: SourceType::{:?}, name: {:?}, extensions: &[{}], media_types: &[{}], internal_signatures: &[{}], related_formats: &[{}] }}",
+            "FileFormat {{ id: {}, source_type: SourceType::{:?}, name: {:?}, extensions: &[{}], media_types: &[{}], signatures: &[{}], related_formats: &[{}] }}",
             self.id.to_source(),
             self.source_type,
             self.name,
@@ -72,7 +72,7 @@ impl Source for RelatedFormat {
 impl Source for Signature {
     fn to_source(&self) -> String {
         format!(
-            "InternalSignature {{ byte_sequences: &[{}] }}",
+            "Signature {{ byte_sequences: &[{}] }}",
             self.byte_sequences
                 .iter()
                 .map(Source::to_source)
@@ -162,7 +162,7 @@ mod test {
 
         assert_eq!(
             file_format.to_source(),
-            "FileFormat { id: 664, source_type: SourceType::Default, name: \"Portable Network Graphics\", extensions: &[\"png\"], media_types: &[\"image/png\"], internal_signatures: &[], related_formats: &[] }"
+            "FileFormat { id: 664, source_type: SourceType::Default, name: \"Portable Network Graphics\", extensions: &[\"png\"], media_types: &[\"image/png\"], signatures: &[], related_formats: &[] }"
         );
     }
 
@@ -196,7 +196,7 @@ mod test {
         };
         assert_eq!(
             internal_signature.to_source(),
-            "InternalSignature { byte_sequences: &[] }"
+            "Signature { byte_sequences: &[] }"
         );
     }
 

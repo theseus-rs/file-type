@@ -9421,6 +9421,9 @@ mod wikidata_131994390;
 mod wikidata_132145897;
 mod wikidata_132146563;
 mod wikidata_132146755;
+mod wikidata_132155960;
+mod wikidata_132156163;
+mod wikidata_132156191;
 mod wikidata_1340077;
 mod wikidata_13422998;
 mod wikidata_13454995;
@@ -25323,4 +25326,7 @@ pub(crate) const FILE_FORMATS: &[&FileFormat] = &[
     &wikidata_132145897::WIKIDATA_132145897,
     &wikidata_132146563::WIKIDATA_132146563,
     &wikidata_132146755::WIKIDATA_132146755,
+    &wikidata_132155960::WIKIDATA_132155960,
+    &wikidata_132156163::WIKIDATA_132156163,
+    &wikidata_132156191::WIKIDATA_132156191,
 ];
