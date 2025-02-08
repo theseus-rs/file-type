@@ -8,7 +8,7 @@ version.workspace = true
 [dependencies]
 anyhow = { workspace = true }
 csv = { workspace = true }
-file_type = { path = "../../file_type", version = "0.5.2" }
+file_type = { path = "../../file_type", version = "0.5.3" }
 reqwest = { workspace = true }
 source_generator = { path = "../source_generator", version = "0.5.1" }
 tokio = { workspace = true, features = ["full"]}
