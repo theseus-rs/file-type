@@ -1,0 +1,6 @@
+[alias]
+export-httpd = "run --manifest-path ./export/httpd/Cargo.toml --"
+export-iana = "run --manifest-path ./export/iana/Cargo.toml --"
+export-linguist = "run --manifest-path ./export/linguist/Cargo.toml --"
+export-pronom = "run --manifest-path ./export/pronom/Cargo.toml --"
+export-wikidata = "run --manifest-path ./export/wikidata/Cargo.toml --"

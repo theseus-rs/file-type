@@ -1,4 +1,4 @@
-# File Types (18830)
+# File Types (18833)
 
 | Id | Name | Extensions | Media Types |
 | ---- | ---- | ----------- | ---------- |
@@ -2319,6 +2319,7 @@
 | linguist/330386870 | BQN | bqn |  |
 | wikidata/105858647 | Bradford Font (v2) | bf2 | application/octet-stream |
 | wikidata/132145897 | Braille Ready Format | brf |  |
+| wikidata/132155960 | Braille text file format | brl |  |
 | wikidata/132146563 | BrailleBlaster XML File | bbx |  |
 | wikidata/132146755 | BrailleBlaster ZIP File | bbz |  |
 | wikidata/128693985 | Brainfuck file | bf | application/x-brainfuck |
@@ -10385,6 +10386,8 @@
 | wikidata/28205410 | Nikon Dust File | ndf |  |
 | wikidata/105867500 | Nikon Movie File | nmf | text/xml |
 | wikidata/127411070 | Nim source code file | nim, nimrod | text/x-nim |
+| wikidata/132156163 | NIMAS XML file format | xml |  |
+| wikidata/132156191 | NIMAS zipped file | zip |  |
 | linguist/249 | Nim | nim, nim.cfg, nimble, nimrod, nims |  |
 | linguist/250 | Ninja | ninja |  |
 | wikidata/105859647 | Nintendo 3DS Flipnote Studio 3D video | kwc, kwz | application/octet-stream |

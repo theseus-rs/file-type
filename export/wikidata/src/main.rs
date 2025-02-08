@@ -258,7 +258,7 @@ async fn generate_source_code(
         let name = format!("wikidata_{}", file_format.id);
         let source_code = [
             "use crate::format::{".to_string(),
-            "    ByteSequence, FileFormat, InternalSignature, PositionType, Regex, SourceType, Token"
+            "    ByteSequence, FileFormat, Signature, PositionType, Regex, SourceType, Token"
                 .to_string(),
             "};".to_string(),
             String::new(),
