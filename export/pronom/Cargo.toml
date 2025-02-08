@@ -12,7 +12,7 @@ quick-xml = { workspace = true, features = ["serde", "serialize"] }
 rayon = { workspace = true }
 reqwest = { workspace = true, features = ["blocking"] }
 serde = { workspace = true, features = ["derive"] }
-source_generator = { path = "../source_generator", version = "0.5.1" }
+source_generator = { path = "../source_generator", version = "0.5.2" }
 tracing = { workspace = true }
 tracing-subscriber = { workspace = true, features = ["env-filter"] }
 
