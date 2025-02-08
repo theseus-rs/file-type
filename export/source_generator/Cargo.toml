@@ -6,4 +6,4 @@ license.workspace = true
 version.workspace = true
 
 [dependencies]
-file_type = { path = "../../file_type", version = "0.5.2" }
+file_type = { path = "../../file_type", version = "0.6.0" }
