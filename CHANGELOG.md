@@ -1,4 +1,5 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
@@ -6,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## `file_type` - [0.5.2](https://github.com/theseus-rs/file-type/compare/v0.5.1...v0.5.2) - 2025-02-06
+## [0.5.2](https://github.com/theseus-rs/file-type/compare/v0.5.1...v0.5.2) - 2025-02-06
 
 ### Other
 - optimize default file type determination
@@ -18,14 +19,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - update examples for wikidata default
 - remove end time parameter from performance reports
 
-## `file_type` - [0.5.1](https://github.com/theseus-rs/file-type/compare/v0.5.0...v0.5.1) - 2025-02-05
+## [0.5.1](https://github.com/theseus-rs/file-type/compare/v0.5.0...v0.5.1) - 2025-02-05
 
 ### Other
 - add performance graphs to readme
 - update wikidata to be the default provider
 - reducing memory allocation during signature evaluation
 
-## `file_type` - [0.5.0](https://github.com/theseus-rs/file-type/compare/v0.4.1...v0.5.0) - 2025-02-03
+## [0.5.0](https://github.com/theseus-rs/file-type/compare/v0.4.1...v0.5.0) - 2025-02-03
 
 ### Added
 - add IANA media types
@@ -40,12 +41,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - remove walkdir
 - add wikidata to readme
 
-## `file_type` - [0.4.1](https://github.com/theseus-rs/file-type/compare/v0.4.0...v0.4.1) - 2025-02-01
+## [0.4.1](https://github.com/theseus-rs/file-type/compare/v0.4.0...v0.4.1) - 2025-02-01
 
 ### Added
 - remove dependencies
 
-## `file_type` - [0.4.0](https://github.com/theseus-rs/file-type/compare/v0.3.1...v0.4.0) - 2025-01-29
+## [0.4.0](https://github.com/theseus-rs/file-type/compare/v0.3.1...v0.4.0) - 2025-01-29
 
 ### Added
 - add wikidata file types
@@ -55,27 +56,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - remove jiff
 - remove thiserror
 
-## `file_type` - [0.3.1](https://github.com/theseus-rs/file-type/compare/v0.3.0...v0.3.1) - 2025-01-24
+## [0.3.1](https://github.com/theseus-rs/file-type/compare/v0.3.0...v0.3.1) - 2025-01-24
 
 ### Other
 - add jai linguist definition
 
-## `file_type` - [0.3.0](https://github.com/theseus-rs/file-type/compare/file_type-v0.2.4...file_type-v0.3.0) - 2025-01-18
+## [0.3.0](https://github.com/theseus-rs/file-type/compare/file_type-v0.2.4...file_type-v0.3.0) - 2025-01-18
 
 ### Added
 - optimize signature matching
 
-## `file_type` - [0.2.4](https://github.com/theseus-rs/file-type/compare/file_type-v0.2.3...file_type-v0.2.4) - 2025-01-17
+## [0.2.4](https://github.com/theseus-rs/file-type/compare/file_type-v0.2.3...file_type-v0.2.4) - 2025-01-17
 
 ### Added
 - add rayon feature
 
-## `file_type` - [0.2.3](https://github.com/theseus-rs/file-type/compare/file_type-v0.2.2...file_type-v0.2.3) - 2025-01-16
+## [0.2.3](https://github.com/theseus-rs/file-type/compare/file_type-v0.2.2...file_type-v0.2.3) - 2025-01-16
 
 ### Fixed
 - update tokio to be optionally enabled by a feature
 
-## `file_type` - [0.2.2](https://github.com/theseus-rs/file-type/compare/file_type-v0.2.1...file_type-v0.2.2) - 2025-01-11
+## [0.2.2](https://github.com/theseus-rs/file-type/compare/file_type-v0.2.1...file_type-v0.2.2) - 2025-01-11
 
 ### Added
 - update linguist definitions
@@ -86,7 +87,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Other
 - ignore tests failing on Windows
 
-## `file_type` - [0.2.1](https://github.com/theseus-rs/file-type/compare/file_type-v0.2.0...file_type-v0.2.1) - 2025-01-08
+## [0.2.1](https://github.com/theseus-rs/file-type/compare/file_type-v0.2.0...file_type-v0.2.1) - 2025-01-08
 
 ### Fixed
 - corrected classification sorting to select the most general file format
@@ -96,7 +97,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ignore tests failing on Windows
 - update crate documentation
 
-## `file_type` - [0.2.0](https://github.com/theseus-rs/file-type/compare/file_type-v0.1.0...file_type-v0.2.0) - 2025-01-07
+## [0.2.0](https://github.com/theseus-rs/file-type/compare/file_type-v0.1.0...file_type-v0.2.0) - 2025-01-07
 
 ### Fixed
 - remove unused UnknownFileType
@@ -115,7 +116,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - add ignored test cases for pronom file classification failures
 - add ignored test cases for pronom file classification failures
 
-## `file_type` - [0.1.0](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.5...file_type-v0.1.0) - 2025-01-05
+## [0.1.0](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.5...file_type-v0.1.0) - 2025-01-05
 
 ### Fixed
 - update default/1 to be binary, default/2 to be text and attempt to detect the default when no other file type could be determined
@@ -124,7 +125,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - correct lint error
 - update documentation
 
-## `file_type` - [0.0.5](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.4...file_type-v0.0.5) - 2025-01-04
+## [0.0.5](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.4...file_type-v0.0.5) - 2025-01-04
 
 ### Fixed
 - update internal signature to require all byte sequences match
@@ -135,7 +136,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - add benchmarks
 - update file type column header
 
-## `file_type` - [0.0.4](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.3...file_type-v0.0.4) - 2025-01-03
+## [0.0.4](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.3...file_type-v0.0.4) - 2025-01-03
 
 ### Added
 - add arrow, avro, duckdb, jsonl, and parquet file types
@@ -146,7 +147,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Other
 - add supported file types to file_type crate readme
 
-## `file_type` - [0.0.3](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.2...file_type-v0.0.3) - 2025-01-03
+## [0.0.3](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.2...file_type-v0.0.3) - 2025-01-03
 
 ### Other
 - update readme with supported file types
@@ -155,7 +156,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - add data sources to documentation
 - update test expectations
 
-## `file_type` - [0.0.2](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.1...file_type-v0.0.2) - 2025-01-03
+## [0.0.2](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.1...file_type-v0.0.2) - 2025-01-03
 
 ### Added
 - add apache httpd mime types
@@ -167,7 +168,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - improve test coverage
 - add file format tests
 
-## `file_type` - [0.0.1](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.0...file_type-v0.0.1) - 2025-01-02
+## [0.0.1](https://github.com/theseus-rs/file-type/compare/file_type-v0.0.0...file_type-v0.0.1) - 2025-01-02
 
 ### Other
 - update builds to use ubuntu-latest
@@ -176,7 +177,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - correct crate docs
 - correct badge links
 
-## `file_type` - [0.0.0](https://github.com/theseus-rs/file-type/compare/1994670af4e90cad19e5768817d41f9d24b8f445...file_type-v0.0.0) - 2025-01-02
+## [0.0.0](https://github.com/theseus-rs/file-type/compare/1994670af4e90cad19e5768817d41f9d24b8f445...file_type-v0.0.0) - 2025-01-02
 
 ### Added
 - initial commit
