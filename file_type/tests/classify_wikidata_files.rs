@@ -10,7 +10,7 @@ fn data_dir() -> std::path::PathBuf {
 }
 
 #[cfg(feature = "wikidata")]
-fn test_file(file_name: &str) -> anyhow::Result<(String, &FileType)> {
+fn test_file(file_name: &str) -> anyhow::Result<(usize, &FileType)> {
     let data_dir = data_dir();
     let path = data_dir.join(file_name);
     let file_name = path
@@ -20,7 +20,7 @@ fn test_file(file_name: &str) -> anyhow::Result<(String, &FileType)> {
         .to_string();
     let file_name = file_name.split('.').next().expect("split").to_string();
     let parts: Vec<&str> = file_name.split('-').collect();
-    let id = format!("{}/{}", parts[0], parts[1]);
+    let id: usize = parts[1].parse()?;
     let file_type = FileType::try_from_file_sync(path)?;
     Ok((id, file_type))
 }

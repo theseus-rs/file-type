@@ -1,4 +1,4 @@
-use crate::format::{FileFormat, RelationshipType};
+use crate::format::{FileFormat, RelationshipType, SourceType};
 use crate::{file_types, Result};
 use core::cmp::Ordering;
 
@@ -41,30 +41,27 @@ use core::cmp::Ordering;
 /// ```
 #[derive(Clone, Debug, Eq, PartialEq)]
 pub struct FileType {
-    pub(crate) id: &'static str,
     pub(crate) file_format: &'static FileFormat,
 }
 
 impl FileType {
     /// Create a new `FileType` from a `FileFormat`.
     pub(crate) fn new(file_format: &'static FileFormat) -> Self {
-        let id = file_format.source_type.format_id(file_format.id);
-        let id = Box::leak(id.into_boxed_str());
-        FileType { id, file_format }
+        FileType { file_format }
     }
 
     /// Get the file type identifier.
-    ///
-    /// # Example
-    /// ```
-    /// use file_type::FileType;
-    ///
-    /// let file_type = FileType::from_id("wikidata/27229565").expect("file type not found");
-    /// assert_eq!(file_type.id(), "wikidata/27229565");
-    /// ```
+    #[doc(hidden)]
     #[must_use]
-    pub fn id(&self) -> &'static str {
-        self.id
+    pub fn id(&self) -> usize {
+        self.file_format.id
+    }
+
+    /// Get the source for this file type.
+    #[doc(hidden)]
+    #[must_use]
+    pub fn source_type(&self) -> &SourceType {
+        &self.file_format.source_type
     }
 
     /// Get the human-readable name of the file type
@@ -73,8 +70,9 @@ impl FileType {
     /// ```
     /// use file_type::FileType;
     ///
-    /// let file_type = FileType::from_id("wikidata/27229565").expect("file type not found");
-    /// assert_eq!(file_type.name(), "Portable Network Graphics, version 1.0");
+    /// let file_types = FileType::from_media_type("image/png");
+    /// let file_type = file_types.first().expect("file format");
+    /// assert!(file_type.name().contains("Portable Network Graphics"));
     /// ```
     #[must_use]
     pub fn name(&self) -> &str {
@@ -112,24 +110,10 @@ impl FileType {
     }
 
     /// Get the file format information for this file type.
+    #[doc(hidden)]
     #[must_use]
-    pub(crate) fn file_format(&self) -> &FileFormat {
+    pub fn file_format(&self) -> &FileFormat {
         self.file_format
-    }
-
-    /// Get the file type for an identifier.
-    ///
-    /// # Example
-    /// ```
-    /// use file_type::FileType;
-    ///
-    /// let file_type = FileType::from_id("wikidata/27229565").expect("file type not found");
-    /// assert_eq!(file_type.extensions(), vec!["png"]);
-    /// assert_eq!(file_type.media_types(), vec!["image/png"]);
-    /// ```
-    #[must_use]
-    pub fn from_id<S: AsRef<str>>(id: S) -> Option<&'static Self> {
-        file_types::from_id(id)
     }
 
     /// Get the file types for a given extension.
@@ -281,6 +265,7 @@ impl PartialOrd for FileType {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::format::SourceType;
     use std::path::PathBuf;
 
     const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
@@ -291,40 +276,12 @@ mod tests {
         PathBuf::from(path)
     }
 
-    #[cfg(feature = "pronom")]
-    #[test]
-    fn test_from_id_pronom() {
-        let file_type = FileType::from_id("pronom/664").expect("file type not found");
-        assert_eq!(file_type.id(), "pronom/664");
-        assert_eq!(file_type.name(), "Portable Network Graphics");
-        assert_eq!(file_type.extensions(), vec!["png"]);
-        assert_eq!(file_type.media_types(), vec!["image/png"]);
-        assert_eq!(file_type.file_format().id, 664);
-    }
-
-    #[cfg(feature = "wikidata")]
-    #[test]
-    fn test_from_id_wikidata() {
-        let file_type = FileType::from_id("wikidata/27229565").expect("file type not found");
-        assert_eq!(file_type.id(), "wikidata/27229565");
-        assert_eq!(file_type.name(), "Portable Network Graphics, version 1.0");
-        assert_eq!(file_type.extensions(), vec!["png"]);
-        assert_eq!(file_type.media_types(), vec!["image/png"]);
-        assert_eq!(file_type.file_format().id, 27_229_565);
-    }
-
-    #[test]
-    fn test_from_id_not_found() {
-        let file_type = FileType::from_id("pronom/0");
-        assert!(file_type.is_none());
-    }
-
+    #[cfg(feature = "custom")]
     #[test]
     fn test_from_extension() {
         let file_types = FileType::from_extension("duckdb");
-        assert_eq!(1, file_types.len());
         let file_type = file_types.first().expect("file format");
-        assert_eq!(file_type.id(), "custom/3");
+        assert_eq!(file_type.id(), 3);
         assert_eq!(file_type.name(), "DuckDB");
         assert_eq!(file_type.media_types(), vec!["application/vnd.duckdb.file"]);
         assert_eq!(file_type.extensions(), vec!["duckdb"]);
@@ -353,7 +310,7 @@ mod tests {
     fn test_from_bytes_empty_default() {
         let value = Vec::new();
         let file_type = FileType::from_bytes(value.as_slice());
-        assert_eq!(file_type.id(), "default/1");
+        assert_eq!(file_type.id(), 1);
         assert_eq!(file_type.name(), "Binary");
         assert_eq!(file_type.extensions(), Vec::<String>::new());
         assert_eq!(file_type.media_types(), vec!["application/octet-stream"]);
@@ -363,7 +320,7 @@ mod tests {
     fn test_from_bytes_binary_default() {
         let value = b"\x00\x01\x02\x03";
         let file_type = FileType::from_bytes(value.as_slice());
-        assert_eq!(file_type.id(), "default/1");
+        assert_eq!(file_type.id(), 1);
         assert_eq!(file_type.name(), "Binary");
         assert_eq!(file_type.extensions(), Vec::<String>::new());
         assert_eq!(file_type.media_types(), vec!["application/octet-stream"]);
@@ -373,7 +330,7 @@ mod tests {
     fn test_from_bytes_text_default() {
         let value = b"hello, world\n";
         let file_type = FileType::from_bytes(value.as_slice());
-        assert_eq!(file_type.id(), "default/2");
+        assert_eq!(file_type.id(), 2);
         assert_eq!(file_type.name(), "Text");
         assert_eq!(file_type.extensions(), Vec::<String>::new());
         assert_eq!(file_type.media_types(), vec!["text/plain"]);
@@ -437,9 +394,15 @@ mod tests {
         let bytes = large_bytes();
         let file_type = FileType::from_bytes(&bytes);
         #[cfg(feature = "pronom")]
-        assert_eq!(file_type.id(), "pronom/1907");
+        {
+            assert_eq!(file_type.id(), 1907);
+            assert_eq!(file_type.file_format().source_type, SourceType::Pronom);
+        }
         #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
-        assert_eq!(file_type.id(), "wikidata/162839");
+        {
+            assert_eq!(file_type.id(), 162839);
+            assert_eq!(file_type.file_format().source_type, SourceType::Wikidata);
+        }
         assert_eq!(file_type.extensions(), vec!["xz"]);
     }
 }

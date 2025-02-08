@@ -11,16 +11,13 @@ use std::sync::LazyLock;
 use tokio::io::AsyncReadExt;
 
 const DEFAULT_1: &FileType = &FileType {
-    id: "default/1",
     file_format: &sources::default::DEFAULT_1,
 };
 const DEFAULT_2: &FileType = &FileType {
-    id: "default/2",
     file_format: &sources::default::DEFAULT_2,
 };
 
-static FILE_TYPES: LazyLock<HashMap<&'static str, FileType>> =
-    LazyLock::new(initialize_file_formats);
+static FILE_TYPES: LazyLock<Vec<FileType>> = LazyLock::new(initialize_file_formats);
 static SIGNATURE_MAP: LazyLock<HashMap<u64, Vec<&'static FileType>>> =
     LazyLock::new(initialize_signature_map);
 static EXTENSION_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
@@ -29,14 +26,13 @@ static MEDIA_TYPE_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_media_type_map);
 
 /// Deserialize the PRONOM XML file format data into a map of puid to `FileType`.
-fn initialize_file_formats() -> HashMap<&'static str, FileType> {
-    let mut file_types = HashMap::new();
+fn initialize_file_formats() -> Vec<FileType> {
+    let mut file_types = Vec::new();
     for file_formats in FILE_FORMATS {
         for file_format in *file_formats {
             let file_format = *file_format;
             let file_type = FileType::new(file_format);
-            let id = file_type.id();
-            file_types.insert(id, file_type);
+            file_types.push(file_type);
         }
     }
     file_types
@@ -46,7 +42,7 @@ fn initialize_file_formats() -> HashMap<&'static str, FileType> {
 fn initialize_signature_map() -> HashMap<u64, Vec<&'static FileType>> {
     let mut signatures = HashMap::new();
 
-    for file_type in FILE_TYPES.values() {
+    for file_type in FILE_TYPES.iter() {
         let file_format = file_type.file_format();
         let signature_keys = file_format
             .signatures
@@ -67,7 +63,7 @@ fn initialize_signature_map() -> HashMap<u64, Vec<&'static FileType>> {
 fn initialize_extension_map() -> HashMap<&'static str, Vec<&'static FileType>> {
     let mut extension_map = HashMap::new();
 
-    for file_type in FILE_TYPES.values() {
+    for file_type in FILE_TYPES.iter() {
         for extension in file_type.extensions() {
             let extension = *extension;
             let mut file_types = extension_map.get(extension).unwrap_or(&vec![]).clone();
@@ -83,7 +79,7 @@ fn initialize_extension_map() -> HashMap<&'static str, Vec<&'static FileType>> {
 /// Create a map of media types to file types.
 fn initialize_media_type_map() -> HashMap<&'static str, Vec<&'static FileType>> {
     let mut media_type_map = HashMap::new();
-    for file_type in FILE_TYPES.values() {
+    for file_type in FILE_TYPES.iter() {
         for media_type in file_type.media_types() {
             let media_type = *media_type;
             let mut file_types = media_type_map.get(media_type).unwrap_or(&vec![]).clone();
@@ -93,13 +89,6 @@ fn initialize_media_type_map() -> HashMap<&'static str, Vec<&'static FileType>> 
         }
     }
     media_type_map
-}
-
-/// Get the file type for an id.
-pub(crate) fn from_id<S: AsRef<str>>(id: S) -> Option<&'static FileType> {
-    let id = id.as_ref();
-    let file_formats = &*FILE_TYPES;
-    file_formats.get(id)
 }
 
 /// Get the file types for a given extension.
@@ -368,62 +357,34 @@ mod tests {
         PathBuf::from(path)
     }
 
-    #[test]
-    fn test_file_formats() {
-        let file_types = &*FILE_TYPES;
-        assert!(!file_types.is_empty());
-        assert!(file_types.contains_key("default/1"));
-        assert!(file_types.contains_key("default/2"));
+    fn find_file_type(source_type: &SourceType, id: usize) -> &'static FileType {
+        let file_type = FILE_TYPES.iter().find(|file_type| {
+            file_type.file_format().source_type == *source_type && file_type.file_format().id == id
+        });
+        file_type.expect("file type not found")
     }
 
     #[test]
-    fn test_extensions() {
-        let extensions = &*EXTENSION_MAP;
-        assert!(!extensions.is_empty());
+    fn test_file_formats() {
+        let default_1 = find_file_type(&SourceType::Default, 1);
+        assert_eq!(default_1.id(), 1);
+        let default_2 = find_file_type(&SourceType::Default, 2);
+        assert_eq!(default_2.id(), 2);
     }
 
     #[test]
     fn test_media_types() {
-        let media_types = &*MEDIA_TYPE_MAP;
-        assert!(!media_types.is_empty());
-        assert!(media_types.contains_key("text/plain"));
-        assert!(media_types.contains_key("application/octet-stream"));
+        assert!(!MEDIA_TYPE_MAP.is_empty());
+        assert!(MEDIA_TYPE_MAP.contains_key("text/plain"));
+        assert!(MEDIA_TYPE_MAP.contains_key("application/octet-stream"));
     }
 
-    #[cfg(feature = "pronom")]
-    #[test]
-    fn test_from_id_pronom() {
-        let file_type = from_id("pronom/664").expect("file type not found");
-        assert_eq!(file_type.file_format().id, 664);
-        assert!(matches!(
-            file_type.file_format().source_type,
-            SourceType::Pronom
-        ));
-    }
-
-    #[cfg(feature = "wikidata")]
-    #[test]
-    fn test_from_id_wikidata() {
-        let file_type = from_id("wikidata/27229565").expect("file type not found");
-        assert_eq!(file_type.file_format().id, 27_229_565);
-        assert!(matches!(
-            file_type.file_format().source_type,
-            SourceType::Wikidata
-        ));
-    }
-
-    #[test]
-    fn test_from_id_not_found() {
-        let file_type = from_id("pronom/0");
-        assert!(file_type.is_none());
-    }
-
+    #[cfg(feature = "custom")]
     #[test]
     fn test_from_extension() {
         let file_types = from_extension("duckdb");
-        assert_eq!(1, file_types.len());
         let file_type = file_types.first().expect("file format");
-        assert_eq!(file_type.id(), "custom/3");
+        assert_eq!(file_type.id(), 3);
         assert_eq!(file_type.name(), "DuckDB");
         assert_eq!(file_type.media_types(), vec!["application/vnd.duckdb.file"]);
         assert_eq!(file_type.extensions(), vec!["duckdb"]);
@@ -494,54 +455,55 @@ mod tests {
     #[cfg(feature = "pronom")]
     #[test]
     fn test_cmp_file_types() {
-        let pronom_654 = FileType::from_id("pronom/654").expect("file type not found");
-        let pronom_1314 = FileType::from_id("pronom/1314").expect("file type not found");
-        let pronom_1507 = FileType::from_id("pronom/1507").expect("file type not found");
+        let pronom_654 = find_file_type(&SourceType::Pronom, 654);
+        let pronom_1314 = find_file_type(&SourceType::Pronom, 1314);
+        let pronom_1507 = find_file_type(&SourceType::Pronom, 1507);
         let mut file_types = [pronom_654, pronom_1314, pronom_1507];
 
         sort_by(&mut file_types, cmp_file_types);
 
-        assert_eq!(file_types[0].id(), "pronom/1507");
-        assert_eq!(file_types[1].id(), "pronom/1314");
-        assert_eq!(file_types[2].id(), "pronom/654");
+        assert_eq!(file_types[0].id(), 1507);
+        assert_eq!(file_types[1].id(), 1314);
+        assert_eq!(file_types[2].id(), 654);
     }
 
     #[cfg(feature = "pronom")]
     #[test]
     fn test_cmp_file_type_extensions() {
-        let pronom_940 = FileType::from_id("pronom/940").expect("file type not found");
-        let pronom_1281 = FileType::from_id("pronom/1281").expect("file type not found");
-        let pronom_2679 = FileType::from_id("pronom/2679").expect("file type not found");
+        let pronom_940 = find_file_type(&SourceType::Pronom, 940);
+        let pronom_1281 = find_file_type(&SourceType::Pronom, 1281);
+        let pronom_2679 = find_file_type(&SourceType::Pronom, 2679);
         let mut file_types = [pronom_2679, pronom_940, pronom_1281];
 
         sort_by(&mut file_types, cmp_file_type_extensions);
 
-        assert_eq!(file_types[0].id(), "pronom/940");
-        assert_eq!(file_types[1].id(), "pronom/1281");
-        assert_eq!(file_types[2].id(), "pronom/2679");
+        assert_eq!(file_types[0].id(), 940);
+        assert_eq!(file_types[1].id(), 1281);
+        assert_eq!(file_types[2].id(), 2679);
     }
 
     #[test]
     fn create_supported_formats() -> anyhow::Result<()> {
-        let mut file_types = FILE_TYPES.values().collect::<Vec<_>>();
-        file_types.sort_by_key(|a| format!("{}|{}", a.name().to_lowercase(), a.id()));
+        let mut file_types = FILE_TYPES.iter().collect::<Vec<_>>();
+        file_types.sort();
 
         let file_types = file_types
             .iter()
             .map(|file_type| {
+                let source = format!("{:?}", file_type.source_type());
                 let id = file_type.id();
                 let name = file_type.name();
                 let media_types = file_type.media_types().join(", ");
                 let extensions = file_type.extensions().join(", ");
-                format!("| {id} | {name} | {extensions} | {media_types} |")
+                format!("| {source} | {id} | {name} | {extensions} | {media_types} |")
             })
             .collect::<Vec<String>>();
 
         let file_types = file_types.join("\n");
         let file_types = [
             format!("# File Types ({})\n", FILE_TYPES.len()),
-            "| Id | Name | Extensions | Media Types |".to_string(),
-            "| ---- | ---- | ----------- | ---------- |".to_string(),
+            "| Source | Id | Name | Extensions | Media Types |".to_string(),
+            "| ---- | ---- | ---- | ----------- | ---------- |".to_string(),
             file_types,
         ]
         .join("\n");

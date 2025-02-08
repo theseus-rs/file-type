@@ -15,14 +15,6 @@ pub enum SourceType {
 }
 
 impl SourceType {
-    /// Format the provided id with the source type in the format `{source_type}/{id}`
-    /// (e.g. `default/1`)
-    #[must_use]
-    pub fn format_id(&self, id: usize) -> String {
-        let source_type = format!("{self:?}").to_lowercase();
-        format!("{source_type}/{id}")
-    }
-
     /// Get the priority of the source type
     #[must_use]
     pub fn priority(&self) -> usize {
@@ -93,12 +85,6 @@ impl PartialOrd for FileFormat {
 mod tests {
     use super::*;
     use crate::format::{ByteSequence, PositionType};
-
-    #[test]
-    fn test_format_id() {
-        let source_type = SourceType::Custom;
-        assert_eq!(source_type.format_id(1), "custom/1");
-    }
 
     #[test]
     fn test_priority() {
