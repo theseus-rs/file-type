@@ -1,0 +1,10 @@
+[package]
+edition.workspace = true
+name = "test_data"
+publish = false
+license.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+file_type = { path = "../file_type", version = "0.6.0" }

@@ -1,5 +1,5 @@
 use crate::format::{FileFormat, Regex, RelationshipType, Signature};
-use crate::sources::FILE_FORMATS;
+use crate::sources::file_formats;
 use crate::{file_types, sources, Error, FileType, Result};
 use core::cmp::Ordering;
 use std::collections::HashMap;
@@ -17,7 +17,7 @@ const DEFAULT_2: &FileType = &FileType {
     file_format: &sources::default::DEFAULT_2,
 };
 
-static FILE_TYPES: LazyLock<Vec<FileType>> = LazyLock::new(initialize_file_formats);
+static FILE_TYPES: LazyLock<Vec<FileType>> = LazyLock::new(initialize_file_types);
 static SIGNATURE_MAP: LazyLock<HashMap<u64, Vec<&'static FileType>>> =
     LazyLock::new(initialize_signature_map);
 static EXTENSION_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
@@ -25,17 +25,9 @@ static EXTENSION_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
 static MEDIA_TYPE_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_media_type_map);
 
-/// Deserialize the PRONOM XML file format data into a map of puid to `FileType`.
-fn initialize_file_formats() -> Vec<FileType> {
-    let mut file_types = Vec::new();
-    for file_formats in FILE_FORMATS {
-        for file_format in *file_formats {
-            let file_format = *file_format;
-            let file_type = FileType::new(file_format);
-            file_types.push(file_type);
-        }
-    }
-    file_types
+/// Create a list of `FileType` from file formats.
+fn initialize_file_types() -> Vec<FileType> {
+    file_formats().map(FileType::new).collect()
 }
 
 /// Create a list of file types with signatures
@@ -353,7 +345,7 @@ mod tests {
     const TEST_FILE_NAME: &str = "pronom-664-signature-id-58.png";
 
     fn test_file_path() -> PathBuf {
-        let path = format!("{CRATE_DIR}/../testdata/pronom/{TEST_FILE_NAME}");
+        let path = format!("{CRATE_DIR}/../test_data/pronom/{TEST_FILE_NAME}");
         PathBuf::from(path)
     }
 

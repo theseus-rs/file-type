@@ -3,7 +3,7 @@ use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, So
 pub(crate) const WIKIDATA_1238229: FileFormat = FileFormat {
     id: 1_238_229,
     source_type: SourceType::Wikidata,
-    name: "STereoLithography",
+    name: "STL",
     extensions: &["stl"],
     media_types: &["model/stl"],
     signatures: &[

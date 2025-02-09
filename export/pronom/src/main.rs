@@ -133,7 +133,8 @@ fn generate_source_code(
         source_code.push(format!("mod {name};"));
     }
     source_code.push(String::new());
-    source_code.push("pub(crate) const FILE_FORMATS: &[&FileFormat] = &[".to_string());
+    source_code.push("#[doc(hidden)]".to_string());
+    source_code.push("pub const FILE_FORMATS: &[&FileFormat] = &[".to_string());
     for file_format in file_formats {
         let name = format!("pronom_{}", file_format.id);
         source_code.push(format!("    &{name}::{},", name.to_uppercase()));

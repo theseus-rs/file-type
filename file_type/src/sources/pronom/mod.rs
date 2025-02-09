@@ -2463,7 +2463,8 @@ mod pronom_997;
 mod pronom_998;
 mod pronom_999;
 
-pub(crate) const FILE_FORMATS: &[&FileFormat] = &[
+#[doc(hidden)]
+pub const FILE_FORMATS: &[&FileFormat] = &[
     &pronom_8::PRONOM_8,
     &pronom_11::PRONOM_11,
     &pronom_13::PRONOM_13,

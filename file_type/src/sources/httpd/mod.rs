@@ -772,7 +772,8 @@ mod httpd_993720141;
 mod httpd_994343837;
 mod httpd_996033646;
 
-pub(crate) const FILE_FORMATS: &[&FileFormat] = &[
+#[doc(hidden)]
+pub const FILE_FORMATS: &[&FileFormat] = &[
     &httpd_1690715::HTTPD_1690715,
     &httpd_2839328::HTTPD_2839328,
     &httpd_11715083::HTTPD_11715083,
