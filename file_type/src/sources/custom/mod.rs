@@ -6,7 +6,8 @@ pub(crate) mod custom_3;
 pub(crate) mod custom_4;
 pub(crate) mod custom_5;
 
-pub(crate) const FILE_FORMATS: &[&FileFormat] = &[
+#[doc(hidden)]
+pub const FILE_FORMATS: &[&FileFormat] = &[
     &custom_1::CUSTOM_1,
     &custom_2::CUSTOM_2,
     &custom_3::CUSTOM_3,

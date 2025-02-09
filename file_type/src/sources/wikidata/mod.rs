@@ -1,6 +1,5 @@
 use crate::format::FileFormat;
 
-mod test_data;
 mod wikidata_100135637;
 mod wikidata_100136218;
 mod wikidata_100136955;
@@ -12665,7 +12664,8 @@ mod wikidata_99973597;
 mod wikidata_99973606;
 mod wikidata_99976195;
 
-pub(crate) const FILE_FORMATS: &[&FileFormat] = &[
+#[doc(hidden)]
+pub const FILE_FORMATS: &[&FileFormat] = &[
     &wikidata_2053::WIKIDATA_2053,
     &wikidata_2063::WIKIDATA_2063,
     &wikidata_2115::WIKIDATA_2115,

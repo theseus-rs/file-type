@@ -759,7 +759,8 @@ mod linguist_992375436;
 mod linguist_997665271;
 mod linguist_998078858;
 
-pub(crate) const FILE_FORMATS: &[&FileFormat] = &[
+#[doc(hidden)]
+pub const FILE_FORMATS: &[&FileFormat] = &[
     &linguist_0::LINGUIST_0,
     &linguist_1::LINGUIST_1,
     &linguist_2::LINGUIST_2,

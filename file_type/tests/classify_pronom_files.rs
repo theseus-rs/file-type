@@ -3,7 +3,7 @@ fn data_dir() -> std::path::PathBuf {
     let crate_dir = env!("CARGO_MANIFEST_DIR");
     std::path::PathBuf::from(crate_dir)
         .join("..")
-        .join("testdata")
+        .join("test_data")
         .join("pronom")
 }
 

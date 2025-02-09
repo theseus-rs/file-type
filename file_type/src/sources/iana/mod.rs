@@ -2173,7 +2173,8 @@ mod iana_993720141;
 mod iana_996033646;
 mod iana_998993833;
 
-pub(crate) const FILE_FORMATS: &[&FileFormat] = &[
+#[doc(hidden)]
+pub const FILE_FORMATS: &[&FileFormat] = &[
     &iana_1300491::IANA_1300491,
     &iana_1564781::IANA_1564781,
     &iana_1690715::IANA_1690715,

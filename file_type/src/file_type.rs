@@ -272,7 +272,7 @@ mod tests {
     const TEST_FILE_NAME: &str = "pronom-664-signature-id-58.png";
 
     fn test_file_path() -> PathBuf {
-        let path = format!("{CRATE_DIR}/../testdata/pronom/{TEST_FILE_NAME}");
+        let path = format!("{CRATE_DIR}/../test_data/pronom/{TEST_FILE_NAME}");
         PathBuf::from(path)
     }
 

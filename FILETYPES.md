@@ -2625,7 +2625,7 @@
 | Wikidata | 1227499 | Direct Stream Digital | dsf | audio/x-dsf |
 | Wikidata | 1228359 | Disc Description Protocol | ddp |  |
 | Wikidata | 1228770 | Disk Masher System | dms |  |
-| Wikidata | 1238229 | STereoLithography | stl | model/stl |
+| Wikidata | 1238229 | STL | stl | model/stl |
 | Wikidata | 1241738 | M3U | m3u8 | audio/x-mpegurl |
 | Wikidata | 1250383 | XYZ file format | xyz | chemical/x-xyz |
 | Wikidata | 1258721 | NFO | nfo | text/x-nfo |

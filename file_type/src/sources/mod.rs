@@ -1,32 +1,54 @@
 use crate::format::FileFormat;
-use crate::FileType;
+use std::slice::Iter;
 
 #[cfg(feature = "custom")]
-pub(crate) mod custom;
-pub(crate) mod default;
+#[doc(hidden)]
+pub mod custom;
+#[doc(hidden)]
+pub mod default;
 #[cfg(feature = "httpd")]
-pub(crate) mod httpd;
+#[doc(hidden)]
+pub mod httpd;
 #[cfg(feature = "iana")]
-pub(crate) mod iana;
+#[doc(hidden)]
+pub mod iana;
 #[cfg(feature = "linguist")]
-pub(crate) mod linguist;
+#[doc(hidden)]
+pub mod linguist;
 #[cfg(feature = "pronom")]
-pub(crate) mod pronom;
+#[doc(hidden)]
+pub mod pronom;
 #[cfg(feature = "wikidata")]
-pub(crate) mod wikidata;
+#[doc(hidden)]
+pub mod wikidata;
 
-pub(crate) const FILE_FORMATS: &[&[&FileFormat]] = &[
+/// Returns an iterator over all enabled file formats.
+#[doc(hidden)]
+pub fn file_formats() -> impl Iterator<Item = &'static FileFormat> {
+    let chained = default::FILE_FORMATS.iter().copied();
     #[cfg(feature = "custom")]
-    custom::FILE_FORMATS,
-    default::FILE_FORMATS,
+    let chained = chained.chain(custom::FILE_FORMATS.iter().copied());
     #[cfg(feature = "httpd")]
-    httpd::FILE_FORMATS,
+    let chained = chained.chain(httpd::FILE_FORMATS.iter().copied());
     #[cfg(feature = "iana")]
-    iana::FILE_FORMATS,
+    let chained = chained.chain(iana::FILE_FORMATS.iter().copied());
     #[cfg(feature = "linguist")]
-    linguist::FILE_FORMATS,
+    let chained = chained.chain(linguist::FILE_FORMATS.iter().copied());
     #[cfg(feature = "pronom")]
-    pronom::FILE_FORMATS,
+    let chained = chained.chain(pronom::FILE_FORMATS.iter().copied());
     #[cfg(feature = "wikidata")]
-    wikidata::FILE_FORMATS,
-];
+    let chained = chained.chain(wikidata::FILE_FORMATS.iter().copied());
+
+    chained
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_file_formats() {
+        let file_formats: Vec<&FileFormat> = file_formats().collect();
+        assert!(!file_formats.is_empty());
+    }
+}

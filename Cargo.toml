@@ -7,6 +7,7 @@ default-members = [
     "export/source_generator",
     "export/wikidata",
     "file_type",
+    "test_data",
 ]
 members = [
     "export/httpd",
@@ -16,6 +17,7 @@ members = [
     "export/source_generator",
     "export/wikidata",
     "file_type",
+    "test_data",
 ]
 resolver = "2"
 

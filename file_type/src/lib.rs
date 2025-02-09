@@ -87,7 +87,7 @@ mod file_type;
 mod file_types;
 #[doc(hidden)]
 pub mod format;
-mod sources;
+pub mod sources;
 
 pub use error::{Error, Result};
 pub use file_type::FileType;
