@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.6.0](https://github.com/theseus-rs/file-type/compare/v0.5.2...v0.6.0) - 2025-02-08
 
 ### Other
-- [**breaking**]  reduce memory utilization by removing compose string ids
+- [**breaking**]  reduce memory utilization by removing composite string ids
 - update wikidata formats
 
 ## [0.5.2](https://github.com/theseus-rs/file-type/compare/v0.5.1...v0.5.2) - 2025-02-06
