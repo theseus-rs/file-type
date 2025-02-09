@@ -1,3 +1,4 @@
+use file_type::format::SourceType;
 use file_type::FileType;
 
 #[cfg(feature = "wikidata")]
@@ -45,7 +46,7 @@ fn test_file_classification() -> anyhow::Result<()> {
             .to_string();
         let (id, file_type) = test_file(&file_name)?;
 
-        if file_type.id() == id {
+        if file_type.id() == id && matches!(file_type.source_type(), &SourceType::Wikidata) {
             passed_tests += 1;
         } else {
             errored_tests += 1;

@@ -1,3 +1,4 @@
 # Test data generation
 
-The PRONOM test data is generated using the script provided by https://github.com/exponential-decay/skeleton-test-suite-generator.
+The crate generates files for testing purposes. The files are generated in the `test_data` directory for the source
+type they are generated from.

@@ -28,9 +28,11 @@ fn large_bytes() -> Vec<u8> {
 fn bench_lifecycle(criterion: &mut Criterion) -> anyhow::Result<()> {
     let file = PathBuf::from(CRATE_DIR)
         .join("..")
-        .join("../../test_data")
+        .join("..")
+        .join("..")
+        .join("test_data")
         .join("pronom")
-        .join("pronom-382-signature-id-200.zip");
+        .join("pronom-382-signature-0.zip");
     let bytes = fs::read(&file)?;
     let large_bytes = large_bytes();
 
