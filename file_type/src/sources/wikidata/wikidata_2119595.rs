@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_2119595: FileFormat = FileFormat {
     name: "Wavefront .obj file",
     extensions: &["object"],
     media_types: &["model/obj", "text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

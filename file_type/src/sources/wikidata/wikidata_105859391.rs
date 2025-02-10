@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105859391: FileFormat = FileFormat {
     name: "SlickRun MagicWord Pack",
     extensions: &["qrs"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x5B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

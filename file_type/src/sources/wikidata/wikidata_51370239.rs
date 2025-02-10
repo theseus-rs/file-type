@@ -25,24 +25,6 @@ pub(crate) const WIKIDATA_51370239: FileFormat = FileFormat {
                 },
             }],
         },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x7B, 0x5C, 0x70, 0x77, 0x69])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x7B, 0x5C, 0x70, 0x77, 0x64, 0x32])],
-                },
-            }],
-        },
     ],
     related_formats: &[],
 };

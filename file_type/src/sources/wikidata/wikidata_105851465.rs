@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105851465: FileFormat = FileFormat {
     name: "Garmin Training Center Database XML (V2)",
     extensions: &["tcx"],
     media_types: &["application/vnd.garmin.tcx+xml"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

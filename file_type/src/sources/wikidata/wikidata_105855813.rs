@@ -6,43 +6,17 @@ pub(crate) const WIKIDATA_105855813: FileFormat = FileFormat {
     name: "Zinc Data",
     extensions: &["dat", "z_t", "znc"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x5A, 0x69, 0x6E, 0x63, 0x20, 0x44, 0x61, 0x74, 0x61, 0x20, 0x46, 0x69,
-                        0x6C, 0x65,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x5A, 0x69, 0x6E, 0x63, 0x20, 0x44, 0x61, 0x74, 0x61, 0x20, 0x46, 0x69,
-                        0x6C, 0x65,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x5A, 0x69, 0x6E, 0x63, 0x20, 0x44, 0x61, 0x74, 0x61, 0x20, 0x46, 0x69,
-                        0x6C, 0x65,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x5A, 0x69, 0x6E, 0x63, 0x20, 0x44, 0x61, 0x74, 0x61, 0x20, 0x46, 0x69, 0x6C,
+                    0x65,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

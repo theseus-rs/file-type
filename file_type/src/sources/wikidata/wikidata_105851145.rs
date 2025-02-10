@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105851145: FileFormat = FileFormat {
     name: "SSI packed Library format",
     extensions: &["glb", "tlb"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x48, 0x4C, 0x49, 0x42])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x48, 0x4C, 0x49, 0x42])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x48, 0x4C, 0x49, 0x42])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

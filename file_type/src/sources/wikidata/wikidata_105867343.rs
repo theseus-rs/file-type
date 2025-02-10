@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105867343: FileFormat = FileFormat {
     name: "NetCDF Network Common Data Form",
     extensions: &["cdf", "nc"],
     media_types: &["application/netcdf"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x43, 0x44, 0x46])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x43, 0x44, 0x46])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x43, 0x44, 0x46])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

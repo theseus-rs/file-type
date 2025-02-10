@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105850422: FileFormat = FileFormat {
     name: "16bit DOS COM DS-COM Crypt protected (v1.27)",
     extensions: &["com"],
     media_types: &["application/octet-stream"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xBB])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

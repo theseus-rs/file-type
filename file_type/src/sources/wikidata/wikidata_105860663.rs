@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105860663: FileFormat = FileFormat {
     name: "RealFlight data",
     extensions: &["g3x", "rfx"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x4B, 0x03, 0x04])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x4B, 0x03, 0x04])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x50, 0x4B, 0x03, 0x04])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

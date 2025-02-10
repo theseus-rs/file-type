@@ -190,9 +190,7 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
         {
             let file_signature = file_signature.replace(' ', "");
 
-            if file_signature.len() < 4 {
-                warn!("id {id}; file signature to short: {file_signature}");
-            } else if let Ok(regex) = Regex::new(file_signature.as_str()) {
+            if let Ok(regex) = Regex::new(file_signature.as_str()) {
                 let byte_sequence = ByteSequence {
                     position_type: PositionType::BOF,
                     offset: Some(0),
@@ -201,7 +199,10 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
                 let internal_signature = Signature {
                     byte_sequences: Box::leak(vec![byte_sequence].into_boxed_slice()),
                 };
-                internal_signatures.push(internal_signature);
+
+                if !internal_signatures.contains(&internal_signature) {
+                    internal_signatures.push(internal_signature);
+                }
             } else {
                 warn!("id {id}; invalid regex: {file_signature}");
             }

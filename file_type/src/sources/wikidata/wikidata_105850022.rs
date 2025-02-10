@@ -6,34 +6,14 @@ pub(crate) const WIKIDATA_105850022: FileFormat = FileFormat {
     name: "CISO Compressed ISO CD image",
     extensions: &["ciso", "cso", "wbi"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x43, 0x49, 0x53, 0x4F])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x43, 0x49, 0x53, 0x4F])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x43, 0x49, 0x53, 0x4F])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x43, 0x49, 0x53, 0x4F])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

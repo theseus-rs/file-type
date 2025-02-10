@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105859647: FileFormat = FileFormat {
     name: "Nintendo 3DS Flipnote Studio 3D video",
     extensions: &["kwc", "kwz"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4B, 0x46, 0x48])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4B, 0x46, 0x48])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x4B, 0x46, 0x48])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105855957: FileFormat = FileFormat {
     name: "ColdFusion Verity engine fields definition",
     extensions: &["ddd"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

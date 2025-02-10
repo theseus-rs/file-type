@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105858506: FileFormat = FileFormat {
     name: "Radiance High Dynamic Range bitmap (small hdr)",
     extensions: &["hdr", "rgbe"],
     media_types: &["image/vnd.radiance"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x23, 0x3F, 0x52, 0x47, 0x42, 0x45])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x23, 0x3F, 0x52, 0x47, 0x42, 0x45])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23, 0x3F, 0x52, 0x47, 0x42, 0x45])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

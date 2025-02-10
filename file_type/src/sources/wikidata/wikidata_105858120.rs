@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105858120: FileFormat = FileFormat {
     name: "KLH10 RAW tape image directory (with rem)",
     extensions: &["tdr"],
     media_types: &["application/octet-stream"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

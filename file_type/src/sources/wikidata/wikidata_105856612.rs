@@ -6,29 +6,16 @@ pub(crate) const WIKIDATA_105856612: FileFormat = FileFormat {
     name: "Settlers II map",
     extensions: &["swd", "wld"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x57, 0x4F, 0x52, 0x4C, 0x44, 0x5F, 0x56, 0x31, 0x2E, 0x30,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x57, 0x4F, 0x52, 0x4C, 0x44, 0x5F, 0x56, 0x31, 0x2E, 0x30,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x57, 0x4F, 0x52, 0x4C, 0x44, 0x5F, 0x56, 0x31, 0x2E, 0x30,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

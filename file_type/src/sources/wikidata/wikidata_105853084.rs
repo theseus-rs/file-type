@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105853084: FileFormat = FileFormat {
     name: "SquashSF image file (little endian)",
     extensions: &["sfs", "squashfs"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x68, 0x73, 0x71, 0x73])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x68, 0x73, 0x71, 0x73])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x68, 0x73, 0x71, 0x73])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

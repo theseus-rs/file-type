@@ -229,7 +229,6 @@ impl Regex {
                         .map_or(bytes.len(), |pos| start + pos);
                     byte_index = end - 1;
                     let literal_bytes = hex_to_bytes(&bytes[start..end]);
-                    let literal_bytes = Box::leak(literal_bytes.into_boxed_slice());
                     tokens.push(Token::Literal(literal_bytes));
                 }
                 b'[' => {
@@ -265,22 +264,17 @@ impl Regex {
                             let start_range = &slice[0..separator];
                             let end_range = &slice[separator + 1..];
                             let start_range = hex_to_bytes(start_range);
-                            let start_range = Box::leak(start_range.into_boxed_slice());
                             let end_range = hex_to_bytes(end_range);
-                            let end_range = Box::leak(end_range.into_boxed_slice());
                             tokens.push(Token::NotRange(start_range, end_range));
                         } else {
                             let literal_bytes = hex_to_bytes(slice);
-                            let literal_bytes = Box::leak(literal_bytes.into_boxed_slice());
                             tokens.push(Token::NotLiteral(literal_bytes));
                         }
                     } else if separator > 0 {
                         let start_range = &slice[0..separator];
                         let end_range = &slice[separator + 1..];
                         let start_range = hex_to_bytes(start_range);
-                        let start_range = Box::leak(start_range.into_boxed_slice());
                         let end_range = hex_to_bytes(end_range);
-                        let end_range = Box::leak(end_range.into_boxed_slice());
                         tokens.push(Token::Range(start_range, end_range));
                     } else {
                         return Err(Error::new(format!(
@@ -510,14 +504,16 @@ impl Regex {
 /// ```none
 /// e.g. [0x30, 0x31] -> [0x01]
 /// ```
-fn hex_to_bytes(hex: &[u8]) -> Vec<u8> {
-    hex.chunks_exact(2)
+fn hex_to_bytes(hex: &[u8]) -> &'static [u8] {
+    let bytes = hex
+        .chunks_exact(2)
         .filter_map(|chunk| {
             from_utf8(chunk)
                 .ok()
                 .and_then(|s| u8::from_str_radix(s, 16).ok())
         })
-        .collect()
+        .collect::<Vec<u8>>();
+    Box::leak(bytes.into_boxed_slice())
 }
 
 impl Display for Regex {
@@ -640,7 +636,7 @@ mod tests {
     fn matches_pattern(pattern: &str, data: &str) -> Result<bool> {
         let regex = Regex::new(pattern)?;
         let data = hex_to_bytes(data.as_bytes());
-        let result = regex.is_match(data.as_slice());
+        let result = regex.is_match(data);
         Ok(result)
     }
 

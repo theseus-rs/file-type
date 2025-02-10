@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_28206876: FileFormat = FileFormat {
     name: "PCPaint PIC",
     extensions: &["clp", "pic"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xFD, 0x00, 0xB8, 0x00, 0x00, 0x00, 0x40])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xFD, 0x00, 0xB8, 0x00, 0x00, 0x00, 0x40])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xFD, 0x00, 0xB8, 0x00, 0x00, 0x00, 0x40])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

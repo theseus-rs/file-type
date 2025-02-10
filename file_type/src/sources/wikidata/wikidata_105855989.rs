@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105855989: FileFormat = FileFormat {
     name: "Device Tree Blob/Overlay",
     extensions: &["dtb", "dtbo"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xD0, 0x0D, 0xFE, 0xED, 0x00, 0x00])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xD0, 0x0D, 0xFE, 0xED, 0x00, 0x00])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xD0, 0x0D, 0xFE, 0xED, 0x00, 0x00])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

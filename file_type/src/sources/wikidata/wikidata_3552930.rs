@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_3552930: FileFormat = FileFormat {
     name: "VGM",
     extensions: &["vgm", "vgz"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x56, 0x67, 0x6D, 0x20])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x56, 0x67, 0x6D, 0x20])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x56, 0x67, 0x6D, 0x20])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

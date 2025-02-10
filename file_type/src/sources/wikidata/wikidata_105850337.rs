@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105850337: FileFormat = FileFormat {
     name: "Cabbage script (with rem)",
     extensions: &["csd"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

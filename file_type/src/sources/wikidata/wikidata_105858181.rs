@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105858181: FileFormat = FileFormat {
     name: "Encapsulated PostScript binary",
     extensions: &["eps", "ept"],
     media_types: &["image/x-eps"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xC5, 0xD0, 0xD3, 0xC6])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xC5, 0xD0, 0xD3, 0xC6])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xC5, 0xD0, 0xD3, 0xC6])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

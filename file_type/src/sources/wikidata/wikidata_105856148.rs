@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105856148: FileFormat = FileFormat {
     name: "Disk Masher System compressed disk image",
     extensions: &["dms", "fms"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x44, 0x4D, 0x53, 0x21])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x44, 0x4D, 0x53, 0x21])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x44, 0x4D, 0x53, 0x21])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

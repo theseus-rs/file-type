@@ -6,34 +6,14 @@ pub(crate) const WIKIDATA_27967404: FileFormat = FileFormat {
     name: "EdLib packed module",
     extensions: &["d00", "d01", "edl"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x00, 0x06, 0xFE, 0xFD])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x00, 0x06, 0xFE, 0xFD])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x00, 0x06, 0xFE, 0xFD])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x00, 0x06, 0xFE, 0xFD])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105856153: FileFormat = FileFormat {
     name: "Macintosh Disk image (BZlib compressed)",
     extensions: &["dmg"],
     media_types: &["application/x-apple-diskimage"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x78])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_58335687: FileFormat = FileFormat {
     name: "Asymetrix Toolbook File",
     extensions: &["sbk", "tbk"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x03, 0x4A, 0x42, 0x4F])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x03, 0x4A, 0x42, 0x4F])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x03, 0x4A, 0x42, 0x4F])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

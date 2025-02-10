@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_130405004: FileFormat = FileFormat {
     name: "Org file",
     extensions: &["org"],
     media_types: &["text/org"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

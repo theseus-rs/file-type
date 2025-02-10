@@ -6,34 +6,14 @@ pub(crate) const WIKIDATA_105858760: FileFormat = FileFormat {
     name: "HP ASII GROB bitmap",
     extensions: &["asc", "grb", "gro"],
     media_types: &["text/plain"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x47, 0x52, 0x4F, 0x42, 0x20])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x47, 0x52, 0x4F, 0x42, 0x20])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x47, 0x52, 0x4F, 0x42, 0x20])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x47, 0x52, 0x4F, 0x42, 0x20])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105851939: FileFormat = FileFormat {
     name: "GIMP Script-Fu Script",
     extensions: &["scm"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

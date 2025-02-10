@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105856737: FileFormat = FileFormat {
     name: "Xilinx User Constraints File",
     extensions: &["ucf"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

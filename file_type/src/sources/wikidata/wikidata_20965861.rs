@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_20965861: FileFormat = FileFormat {
     name: "Material Template Library",
     extensions: &["mtl"],
     media_types: &["model/mtl", "text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

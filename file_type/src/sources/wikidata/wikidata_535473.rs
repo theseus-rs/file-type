@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_535473: FileFormat = FileFormat {
     name: "PCX file format family",
     extensions: &["pcc", "pcx"],
     media_types: &["image/vnd.zbrush.pcx"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x0A])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

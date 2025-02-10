@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105858772: FileFormat = FileFormat {
     name: "Synu bitmap",
     extensions: &["syn", "synu"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x69, 0x6D, 0x61, 0x67, 0x65, 0x20])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x69, 0x6D, 0x61, 0x67, 0x65, 0x20])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x69, 0x6D, 0x61, 0x67, 0x65, 0x20])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

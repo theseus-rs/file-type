@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105854136: FileFormat = FileFormat {
     name: "PS/2 MicroChannel Adapter Description File (with rem)",
     extensions: &["adf"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_28770330: FileFormat = FileFormat {
     name: "LightWave Scene",
     extensions: &["lws", "scn"],
     media_types: &["image/x-lws"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4C, 0x57, 0x53, 0x43])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4C, 0x57, 0x53, 0x43])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x4C, 0x57, 0x53, 0x43])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

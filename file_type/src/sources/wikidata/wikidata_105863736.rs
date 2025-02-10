@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105863736: FileFormat = FileFormat {
     name: "MuSiCa text music format (with rem)",
     extensions: &["msd"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

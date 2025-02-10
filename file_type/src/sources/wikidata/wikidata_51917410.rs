@@ -12,15 +12,6 @@ pub(crate) const WIKIDATA_51917410: FileFormat = FileFormat {
                 position_type: PositionType::BOF,
                 offset: Some(0),
                 regex: Regex {
-                    tokens: &[Token::Literal(&[0x57, 0x49, 0x04])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
                     tokens: &[Token::Literal(&[0x43, 0x4F, 0x52, 0x57, 0x41, 0x56])],
                 },
             }],
@@ -31,15 +22,6 @@ pub(crate) const WIKIDATA_51917410: FileFormat = FileFormat {
                 offset: Some(0),
                 regex: Regex {
                     tokens: &[Token::Literal(&[0x57, 0x49, 0x04])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x43, 0x4F, 0x52, 0x57, 0x41, 0x56])],
                 },
             }],
         },

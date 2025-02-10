@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105856083: FileFormat = FileFormat {
     name: "TI-99 V9T9 Sector Dump Format",
     extensions: &["dsk", "tidisk"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x09, 0x44, 0x53, 0x4B])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x09, 0x44, 0x53, 0x4B])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x09, 0x44, 0x53, 0x4B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

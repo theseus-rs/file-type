@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105856655: FileFormat = FileFormat {
     name: "Hourglass movie capture",
     extensions: &["hgm", "wtf"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x66, 0x54, 0x77, 0x02])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x66, 0x54, 0x77, 0x02])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x66, 0x54, 0x77, 0x02])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

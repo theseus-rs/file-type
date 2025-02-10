@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105867269: FileFormat = FileFormat {
     name: "OS/2 Network Information File",
     extensions: &["nif"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x5B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105860194: FileFormat = FileFormat {
     name: "SQL Server Reporting Services Report Definition Language (UTF-8)",
     extensions: &["rdl", "rdlc"],
     media_types: &["text/xml"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xEF, 0xBB, 0xBF, 0x3C])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xEF, 0xBB, 0xBF, 0x3C])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xEF, 0xBB, 0xBF, 0x3C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105860126: FileFormat = FileFormat {
     name: "RenderWare 3d model (with rem)",
     extensions: &["rwx"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

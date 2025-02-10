@@ -6,29 +6,16 @@ pub(crate) const WIKIDATA_59660182: FileFormat = FileFormat {
     name: "qcow2",
     extensions: &["img", "qcow2"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x51, 0x46, 0x49, 0xFB, 0x00, 0x00, 0x00, 0x02,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x51, 0x46, 0x49, 0xFB, 0x00, 0x00, 0x00, 0x02,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x51, 0x46, 0x49, 0xFB, 0x00, 0x00, 0x00, 0x02,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

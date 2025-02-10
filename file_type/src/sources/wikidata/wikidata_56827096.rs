@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_56827096: FileFormat = FileFormat {
     name: "Web Assembly Binary Format",
     extensions: &["wasm"],
     media_types: &["application/octet-stream", "application/wasm"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x00, 0x61, 0x73, 0x6D])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x00, 0x61, 0x73, 0x6D])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x00, 0x61, 0x73, 0x6D])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

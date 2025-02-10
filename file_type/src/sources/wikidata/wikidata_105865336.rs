@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105865336: FileFormat = FileFormat {
     name: "PC-Axis data (var 1)",
     extensions: &["px"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x43])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

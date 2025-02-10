@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105851350: FileFormat = FileFormat {
     name: "Oric Tape image",
     extensions: &["dat", "tap"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x16, 0x16, 0x16, 0x24])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x16, 0x16, 0x16, 0x24])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x16, 0x16, 0x16, 0x24])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

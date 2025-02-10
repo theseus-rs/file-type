@@ -6,29 +6,16 @@ pub(crate) const WIKIDATA_105863602: FileFormat = FileFormat {
     name: "Mozilla mozLz4 compressed data (generic)",
     extensions: &["jsonlz4", "mozlz4"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x6D, 0x6F, 0x7A, 0x4C, 0x7A, 0x34, 0x30, 0x00,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x6D, 0x6F, 0x7A, 0x4C, 0x7A, 0x34, 0x30, 0x00,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x6D, 0x6F, 0x7A, 0x4C, 0x7A, 0x34, 0x30, 0x00,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

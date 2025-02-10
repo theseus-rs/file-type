@@ -6,34 +6,14 @@ pub(crate) const WIKIDATA_105853941: FileFormat = FileFormat {
     name: "UltraCompressor 2 archive split Part",
     extensions: &["p01", "p02", "p03"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x45, 0x14, 0x02, 0x0F])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x45, 0x14, 0x02, 0x0F])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x45, 0x14, 0x02, 0x0F])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x45, 0x14, 0x02, 0x0F])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

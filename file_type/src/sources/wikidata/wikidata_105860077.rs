@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105860077: FileFormat = FileFormat {
     name: "CRYO HNM6 video",
     extensions: &["hnm", "hns"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x48, 0x4E, 0x4D, 0x36])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x48, 0x4E, 0x4D, 0x36])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x48, 0x4E, 0x4D, 0x36])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

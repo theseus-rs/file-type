@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105857568: FileFormat = FileFormat {
     name: "blueMSX machine settings",
     extensions: &["ini"],
     media_types: &["text/ini"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x5B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105854319: FileFormat = FileFormat {
     name: "Top 4 compressed data",
     extensions: &["t4", "to4"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x54, 0x34, 0x1A, 0x00])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x54, 0x34, 0x1A, 0x00])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x54, 0x34, 0x1A, 0x00])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

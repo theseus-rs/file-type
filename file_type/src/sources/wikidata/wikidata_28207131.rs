@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_28207131: FileFormat = FileFormat {
     name: "Prism Paint",
     extensions: &["pnt", "tpi"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x4E, 0x54, 0x00])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x4E, 0x54, 0x00])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x50, 0x4E, 0x54, 0x00])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

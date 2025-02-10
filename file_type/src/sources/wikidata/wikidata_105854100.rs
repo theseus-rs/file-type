@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105854100: FileFormat = FileFormat {
     name: "TCPDUMP's style capture (big-endian)",
     extensions: &["acp", "pcap"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xA1, 0xB2, 0xC3, 0xD4])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xA1, 0xB2, 0xC3, 0xD4])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xA1, 0xB2, 0xC3, 0xD4])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105852417: FileFormat = FileFormat {
     name: "Microsoft SQL Server execution Plan",
     extensions: &["sqlplan"],
     media_types: &["application/xml"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

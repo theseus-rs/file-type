@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_29206892: FileFormat = FileFormat {
     name: "ICC profile, version 4.3.0.0",
     extensions: &["icc", "icm"],
     media_types: &["application/vnd.iccprofile"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x61, 0x63, 0x73, 0x70])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x61, 0x63, 0x73, 0x70])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x61, 0x63, 0x73, 0x70])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

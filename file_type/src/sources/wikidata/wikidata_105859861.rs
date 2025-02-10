@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105859861: FileFormat = FileFormat {
     name: "VBScript Encoded script (with rem)",
     extensions: &["vbe"],
     media_types: &["text/vbscript.encode"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x27])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105863312: FileFormat = FileFormat {
     name: "Mindjet MindManager Map",
     extensions: &["mmp"],
     media_types: &["application/vnd.mindjet.mindmanager"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x32])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

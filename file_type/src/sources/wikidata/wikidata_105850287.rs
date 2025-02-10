@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105850287: FileFormat = FileFormat {
     name: "CryEngine Project (v5)",
     extensions: &["cryproject"],
     media_types: &["application/json"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x7B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

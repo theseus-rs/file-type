@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_99184084: FileFormat = FileFormat {
     name: "Atom web feed",
     extensions: &["atom", "xml"],
     media_types: &["application/atom+xml"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

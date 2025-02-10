@@ -9,25 +9,14 @@ pub(crate) const WIKIDATA_15860313: FileFormat = FileFormat {
         "application/mathematica",
         "application/vnd.wolfram.mathematica",
     ],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x28, 0x2A])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x28, 0x2A])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x28, 0x2A])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

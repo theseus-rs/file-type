@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105854356: FileFormat = FileFormat {
     name: "X-Plane Airfoils",
     extensions: &["afl"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x0D])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

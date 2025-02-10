@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105858580: FileFormat = FileFormat {
     name: "VIPS bitmap",
     extensions: &["v", "vips"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x08, 0xF2, 0xA6, 0xB6])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x08, 0xF2, 0xA6, 0xB6])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x08, 0xF2, 0xA6, 0xB6])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

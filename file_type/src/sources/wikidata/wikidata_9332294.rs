@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_9332294: FileFormat = FileFormat {
     name: "SubRip text file format",
     extensions: &["srt"],
     media_types: &["application/x-subrip", "text/plain"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x31, 0x0D])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x31, 0x0D])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x31, 0x0D])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

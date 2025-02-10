@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105855639: FileFormat = FileFormat {
     name: "Wireshark traffic log",
     extensions: &["out", "txt"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x46, 0x72, 0x61, 0x6D, 0x65, 0x20])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x46, 0x72, 0x61, 0x6D, 0x65, 0x20])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x46, 0x72, 0x61, 0x6D, 0x65, 0x20])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

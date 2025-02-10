@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_94984970: FileFormat = FileFormat {
     name: "IGC",
     extensions: &["igc"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x41])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

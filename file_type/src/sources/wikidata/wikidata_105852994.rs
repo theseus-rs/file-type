@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105852994: FileFormat = FileFormat {
     name: "SatcoDX channel list",
     extensions: &["sdx"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x53])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

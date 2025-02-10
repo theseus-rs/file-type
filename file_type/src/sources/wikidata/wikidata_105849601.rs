@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105849601: FileFormat = FileFormat {
     name: "Help File Contents",
     extensions: &["cnt"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3A])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

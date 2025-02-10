@@ -6,34 +6,14 @@ pub(crate) const WIKIDATA_105858380: FileFormat = FileFormat {
     name: "Extensible Storage Engine DataBase",
     extensions: &["edb", "sdb", "stm"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xEF, 0xCD, 0xAB, 0x89])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xEF, 0xCD, 0xAB, 0x89])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xEF, 0xCD, 0xAB, 0x89])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xEF, 0xCD, 0xAB, 0x89])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

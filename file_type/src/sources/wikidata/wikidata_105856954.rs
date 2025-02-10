@@ -6,43 +6,14 @@ pub(crate) const WIKIDATA_105856954: FileFormat = FileFormat {
     name: "GenBank sequence record",
     extensions: &["gb", "gbk", "genbank", "gp"],
     media_types: &["chemical/seq-na-genbank"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4C, 0x4F, 0x43, 0x55, 0x53, 0x20])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4C, 0x4F, 0x43, 0x55, 0x53, 0x20])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4C, 0x4F, 0x43, 0x55, 0x53, 0x20])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4C, 0x4F, 0x43, 0x55, 0x53, 0x20])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x4C, 0x4F, 0x43, 0x55, 0x53, 0x20])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

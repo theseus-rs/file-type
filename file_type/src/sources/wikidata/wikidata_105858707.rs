@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105858707: FileFormat = FileFormat {
     name: "Blu-ray Disc Movie Information",
     extensions: &["bdm", "bdmv"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4D, 0x4F, 0x42, 0x4A, 0x30])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4D, 0x4F, 0x42, 0x4A, 0x30])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x4D, 0x4F, 0x42, 0x4A, 0x30])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

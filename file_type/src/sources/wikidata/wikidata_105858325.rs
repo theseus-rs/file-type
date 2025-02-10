@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105858325: FileFormat = FileFormat {
     name: "Extended-PSG chiptune format",
     extensions: &["epsg", "psg"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x45, 0x50, 0x53, 0x47, 0x1A])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x45, 0x50, 0x53, 0x47, 0x1A])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x45, 0x50, 0x53, 0x47, 0x1A])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

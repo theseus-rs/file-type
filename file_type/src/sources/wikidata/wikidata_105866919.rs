@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105866919: FileFormat = FileFormat {
     name: "NEXUS format",
     extensions: &["nex", "nxs"],
     media_types: &["text/plain"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x23, 0x4E, 0x45, 0x58, 0x55, 0x53])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x23, 0x4E, 0x45, 0x58, 0x55, 0x53])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23, 0x4E, 0x45, 0x58, 0x55, 0x53])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

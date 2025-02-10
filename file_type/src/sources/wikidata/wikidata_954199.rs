@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_954199: FileFormat = FileFormat {
     name: "MHTML",
     extensions: &["mht", "mhtml"],
     media_types: &["message/rfc822"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x46, 0x72, 0x6F, 0x6D, 0x3A, 0x20])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x46, 0x72, 0x6F, 0x6D, 0x3A, 0x20])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x46, 0x72, 0x6F, 0x6D, 0x3A, 0x20])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

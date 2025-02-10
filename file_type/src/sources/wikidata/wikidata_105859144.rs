@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105859144: FileFormat = FileFormat {
     name: "Kt Interchange File Format compressed bitmap",
     extensions: &["kif", "kiff"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4B, 0x49, 0x46, 0x46])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4B, 0x49, 0x46, 0x46])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x4B, 0x49, 0x46, 0x46])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

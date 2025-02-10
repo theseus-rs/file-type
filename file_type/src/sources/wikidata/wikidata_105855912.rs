@@ -6,31 +6,17 @@ pub(crate) const WIKIDATA_105855912: FileFormat = FileFormat {
     name: "DESI-III drawing",
     extensions: &["bin", "din"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x44, 0x45, 0x53, 0x49, 0x2D, 0x49, 0x49, 0x49, 0x2D, 0x42, 0x49, 0x4E,
-                        0x2D, 0x56,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x44, 0x45, 0x53, 0x49, 0x2D, 0x49, 0x49, 0x49, 0x2D, 0x42, 0x49, 0x4E,
-                        0x2D, 0x56,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x44, 0x45, 0x53, 0x49, 0x2D, 0x49, 0x49, 0x49, 0x2D, 0x42, 0x49, 0x4E, 0x2D,
+                    0x56,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

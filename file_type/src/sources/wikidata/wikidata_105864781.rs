@@ -6,43 +6,14 @@ pub(crate) const WIKIDATA_105864781: FileFormat = FileFormat {
     name: "Creative C/MS packed screen",
     extensions: &["hpc", "mpc", "pic", "tpc"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x61, 0x63, 0x6B, 0x1A])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x61, 0x63, 0x6B, 0x1A])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x61, 0x63, 0x6B, 0x1A])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x61, 0x63, 0x6B, 0x1A])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x50, 0x61, 0x63, 0x6B, 0x1A])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

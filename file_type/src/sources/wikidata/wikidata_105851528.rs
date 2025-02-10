@@ -6,29 +6,16 @@ pub(crate) const WIKIDATA_105851528: FileFormat = FileFormat {
     name: "WinHex data structure template",
     extensions: &["tpl", "txt"],
     media_types: &["text/plain"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x74, 0x65, 0x6D, 0x70, 0x6C, 0x61, 0x74, 0x65, 0x20, 0x22,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x74, 0x65, 0x6D, 0x70, 0x6C, 0x61, 0x74, 0x65, 0x20, 0x22,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x74, 0x65, 0x6D, 0x70, 0x6C, 0x61, 0x74, 0x65, 0x20, 0x22,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

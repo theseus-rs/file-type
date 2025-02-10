@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_25339304: FileFormat = FileFormat {
     name: "Timed Text Markup Language",
     extensions: &["dxfp", "ttml", "xml"],
     media_types: &["application/ttml+xml"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

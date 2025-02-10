@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105858719: FileFormat = FileFormat {
     name: "OME-TIFF bitmap",
     extensions: &["tif", "tiff"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x49, 0x49, 0x2A])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x49, 0x49, 0x2A])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x49, 0x49, 0x2A])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

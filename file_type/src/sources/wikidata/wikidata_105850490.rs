@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105850490: FileFormat = FileFormat {
     name: "SETool encrypted firmware",
     extensions: &["cry", "ssw"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x43, 0x72, 0x59, 0x70, 0x54, 0x76])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x43, 0x72, 0x59, 0x70, 0x54, 0x76])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x43, 0x72, 0x59, 0x70, 0x54, 0x76])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

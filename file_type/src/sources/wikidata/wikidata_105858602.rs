@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105858602: FileFormat = FileFormat {
     name: "HSI JPEG bitmap",
     extensions: &["hsi", "jpg"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x68, 0x73, 0x69, 0x31])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x68, 0x73, 0x69, 0x31])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x68, 0x73, 0x69, 0x31])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_28206114: FileFormat = FileFormat {
     name: "Fuzzy Bitmap",
     extensions: &["cbm", "fbm"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x25, 0x62, 0x69, 0x74, 0x6D, 0x61, 0x70])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x25, 0x62, 0x69, 0x74, 0x6D, 0x61, 0x70])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x25, 0x62, 0x69, 0x74, 0x6D, 0x61, 0x70])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

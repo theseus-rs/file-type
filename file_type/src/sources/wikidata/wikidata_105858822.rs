@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105858822: FileFormat = FileFormat {
     name: "Interleaf Image bitmap",
     extensions: &["iimg", "img"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x89, 0x4F, 0x50, 0x53])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x89, 0x4F, 0x50, 0x53])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x89, 0x4F, 0x50, 0x53])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

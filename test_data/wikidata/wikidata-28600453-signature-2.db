@@ -1,1 +1,0 @@
-SQLite format 3

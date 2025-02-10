@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_368782: FileFormat = FileFormat {
     name: "LHA",
     extensions: &["lha", "lzh"],
     media_types: &["application/x-lzh-compressed"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x2D, 0x6C, 0x68])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x2D, 0x6C, 0x68])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x2D, 0x6C, 0x68])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

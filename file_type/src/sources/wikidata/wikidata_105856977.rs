@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105856977: FileFormat = FileFormat {
     name: "GNU Gettext Machine Object (litte endian)",
     extensions: &["gmo", "mo"],
     media_types: &["application/x-gettext-translation"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xDE, 0x12, 0x04, 0x95])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xDE, 0x12, 0x04, 0x95])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xDE, 0x12, 0x04, 0x95])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

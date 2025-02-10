@@ -6,34 +6,14 @@ pub(crate) const WIKIDATA_105859039: FileFormat = FileFormat {
     name: "DICOM medical imaging bitmap",
     extensions: &["dcm", "dic", "dicom"],
     media_types: &["application/dicom"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x44, 0x49, 0x43, 0x4D])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x44, 0x49, 0x43, 0x4D])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x44, 0x49, 0x43, 0x4D])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x44, 0x49, 0x43, 0x4D])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

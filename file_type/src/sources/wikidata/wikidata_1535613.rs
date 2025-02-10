@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_1535613: FileFormat = FileFormat {
     name: "Styled Layer Descriptor",
     extensions: &["sld"],
     media_types: &["text/xml"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

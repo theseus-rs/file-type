@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_3359832: FileFormat = FileFormat {
     name: "Product Representation Compact",
     extensions: &["prc"],
     media_types: &["application/octet-stream", "model/prc"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x52, 0x43])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x52, 0x43])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x50, 0x52, 0x43])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

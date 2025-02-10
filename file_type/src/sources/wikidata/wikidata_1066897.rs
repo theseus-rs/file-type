@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_1066897: FileFormat = FileFormat {
     name: "LDAP Data Interchange Format",
     extensions: &["ldif"],
     media_types: &["text/plain", "text/x-ldif"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x64, 0x6E, 0x3A, 0x20])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x64, 0x6E, 0x3A, 0x20])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x64, 0x6E, 0x3A, 0x20])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

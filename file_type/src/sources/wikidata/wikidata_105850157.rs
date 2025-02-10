@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105850157: FileFormat = FileFormat {
     name: "FGT virus infected 16-bit COM executable",
     extensions: &["com", "img"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x53, 0x51, 0x52, 0x56, 0x57])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x53, 0x51, 0x52, 0x56, 0x57])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x50, 0x53, 0x51, 0x52, 0x56, 0x57])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

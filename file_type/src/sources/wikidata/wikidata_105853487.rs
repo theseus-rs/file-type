@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105853487: FileFormat = FileFormat {
     name: "Inno Setup data",
     extensions: &["bin", "dat"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x7A, 0x6C, 0x62, 0x1A])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x7A, 0x6C, 0x62, 0x1A])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x7A, 0x6C, 0x62, 0x1A])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

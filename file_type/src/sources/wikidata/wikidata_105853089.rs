@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105853089: FileFormat = FileFormat {
     name: "Squeeze Presets",
     extensions: &["spfx"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105856912: FileFormat = FileFormat {
     name: "Airline Tycoon game data archive",
     extensions: &["gli", "glj"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x47, 0x4C, 0x49, 0x42, 0x32])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x47, 0x4C, 0x49, 0x42, 0x32])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x47, 0x4C, 0x49, 0x42, 0x32])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

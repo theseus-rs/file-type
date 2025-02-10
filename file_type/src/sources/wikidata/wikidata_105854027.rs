@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105854027: FileFormat = FileFormat {
     name: "Vue D'Esprit 4 Atmosphere Preset",
     extensions: &["atm"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x00])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

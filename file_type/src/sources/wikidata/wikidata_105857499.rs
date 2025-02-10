@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105857499: FileFormat = FileFormat {
     name: "Shaper LUT (with rem)",
     extensions: &["3dl"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

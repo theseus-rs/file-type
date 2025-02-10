@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_77051850: FileFormat = FileFormat {
     name: "Cal3D Xml Animation File",
     extensions: &["xaf"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

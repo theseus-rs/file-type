@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105859270: FileFormat = FileFormat {
     name: "Tagged Image File Format Bitmap (little endian)",
     extensions: &["tif", "tiff"],
     media_types: &["image/tiff"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x49, 0x49, 0x2A, 0x00])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x49, 0x49, 0x2A, 0x00])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x49, 0x49, 0x2A, 0x00])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

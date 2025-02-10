@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105856962: FileFormat = FileFormat {
     name: "Game Description Language (with rem)",
     extensions: &["gdl"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

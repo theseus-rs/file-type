@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_27979366: FileFormat = FileFormat {
     name: "Flash Media Manifest",
     extensions: &["f4m"],
     media_types: &["application/f4m"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105855357: FileFormat = FileFormat {
     name: "Flatpack Reference (with rem)",
     extensions: &["flatpakref"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

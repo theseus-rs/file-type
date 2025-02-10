@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_28205733: FileFormat = FileFormat {
     name: "Award BIOS logo, version 1",
     extensions: &["bmp", "epa"],
     media_types: &["image/x-award-bioslogo"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x11, 0x09])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x11, 0x09])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x11, 0x09])],
+            },
+        }],
+    }],
     related_formats: &[],
 };
