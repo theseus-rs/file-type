@@ -29,26 +29,12 @@
 //! ```
 //!
 //! Detect the file type from a file:
-//! ```rust,no_run
-//! use file_type::FileType;
-//! use std::path::Path;
-//!
-//! #[tokio::main]
-//! async fn main() {
-//!     let file_path = Path::new("image.png");
-//!     let file_type = FileType::try_from_file(file_path).await.expect("file type not found");
-//!     assert_eq!(file_type.extensions(), vec!["png"]);
-//!     assert_eq!(file_type.media_types(), vec!["image/png"]);
-//! }
-//! ```
-//!
-//! Detect the file type from a file synchronously:
 //! ```no_run
 //! use file_type::FileType;
 //! use std::path::Path;
 //!
 //! let file_path = Path::new("image.png");
-//! let file_type = FileType::try_from_file_sync(file_path).expect("file type not found");
+//! let file_type = FileType::try_from_file(file_path).expect("file type not found");
 //! assert_eq!(file_type.extensions(), vec!["png"]);
 //! assert_eq!(file_type.media_types(), vec!["image/png"]);
 //! ```
@@ -62,7 +48,6 @@
 //! | `iana`     | Enables [IANA](https://www.iana.org/assignments/media-types/media-types.xml) file types                                    | No       |
 //! | `linguist` | Enables [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) file types            | No       |
 //! | `pronom`   | Enables [PRONOM](https://www.nationalarchives.gov.uk/PRONOM) file types                                                    | No       |
-//! | `tokio`    | Enables using tokio for async                                                                                              | No       |
 //! | `wikidata` | Enables [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List) file types | Yes      |
 //!
 //! ## Supported File Types

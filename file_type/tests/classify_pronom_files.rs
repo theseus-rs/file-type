@@ -21,7 +21,7 @@ fn test_file(file_name: &str) -> anyhow::Result<(usize, &file_type::FileType)> {
     let file_name = file_name.split('.').next().expect("split").to_string();
     let parts: Vec<&str> = file_name.split('-').collect();
     let id: usize = parts[1].parse()?;
-    let file_type = file_type::FileType::try_from_file_sync(path)?;
+    let file_type = file_type::FileType::try_from_file(path)?;
     Ok((id, file_type))
 }
 

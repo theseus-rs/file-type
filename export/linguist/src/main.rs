@@ -5,7 +5,7 @@
 
 use anyhow::Result;
 use file_type::format::{FileFormat, SourceType};
-use reqwest::Client;
+use reqwest::blocking::Client;
 use serde_json::Value;
 use source_generator::generate;
 use std::env;
@@ -27,12 +27,11 @@ struct Language {
     extensions: Vec<String>,
 }
 
-/// Downloads Linguist mime type data and saves it to the file_type crate data directory.
-#[tokio::main]
-async fn main() -> Result<()> {
+/// Downloads Linguist mime type data and saves it to the `file_type` crate data directory.
+fn main() -> Result<()> {
     initialize_tracing();
     let dry_run = env::var("DRY_RUN").is_ok();
-    execute(dry_run).await?;
+    execute(dry_run)?;
     Ok(())
 }
 
@@ -55,7 +54,7 @@ fn initialize_tracing() {
         .init();
 }
 
-async fn execute(dry_run: bool) -> Result<()> {
+fn execute(dry_run: bool) -> Result<()> {
     let source_dir = PathBuf::from(CRATE_DIR)
         .join("..")
         .join("..")
@@ -69,10 +68,9 @@ async fn execute(dry_run: bool) -> Result<()> {
         .get(MIME_TYPES_URL)
         .header("User-Agent", format!("{CRATE_NAME}/{CRATE_VERSION}"))
         .timeout(Duration::from_secs(30))
-        .send()
-        .await?;
+        .send()?;
 
-    let language_data = response.text().await?;
+    let language_data = response.text()?;
     let mime_types = parse_languages(language_data)?;
     let mut file_formats = process_languages(mime_types);
     file_formats.sort_by_key(|file_format| file_format.id);

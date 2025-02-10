@@ -6,8 +6,6 @@ use core::cmp::Ordering;
 use sources::default::{DEFAULT_1, DEFAULT_2};
 use std::io::Read;
 use std::path::Path;
-#[cfg(feature = "tokio")]
-use tokio::io::AsyncReadExt;
 
 /// Sort the file types without requiring a total order.
 fn sort_by<F, T>(file_types: &mut [&T], mut compare: F)
@@ -174,51 +172,8 @@ where
 /// Attempt to determine the `FileType` from a reader.
 ///
 /// # Errors
-/// if the there is an issue processing the reader
-#[cfg(feature = "tokio")]
-pub(crate) async fn try_from_reader<R>(
-    mut reader: R,
-    extension: Option<&str>,
-) -> Result<&'static FileType>
-where
-    R: tokio::io::AsyncRead + Unpin,
-{
-    let mut buffer = Vec::new();
-    reader
-        .read_to_end(&mut buffer)
-        .await
-        .map_err(|error| Error::new(error.to_string()))?;
-    let bytes = buffer.as_slice();
-    let file_type = from_bytes(bytes, extension);
-    Ok(file_type)
-}
-
-/// Attempt to determine the `FileType` from a file.
-///
-/// # Errors
-/// if the there is an issue reading the file
-#[cfg(feature = "tokio")]
-pub(crate) async fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static FileType> {
-    #[cfg(target_arch = "wasm32")]
-    let file_type = try_from_file_sync(path);
-    #[cfg(not(target_arch = "wasm32"))]
-    let file_type = {
-        let path = path.as_ref();
-        let extension = path.extension().and_then(|extension| extension.to_str());
-        let file = tokio::fs::File::open(path)
-            .await
-            .map_err(|error| Error::new(error.to_string()))?;
-        let reader = tokio::io::BufReader::new(file);
-        try_from_reader(reader, extension).await
-    };
-    file_type
-}
-
-/// Attempt to determine the `FileType` from a reader synchronously.
-///
-/// # Errors
 /// if the file type is unknown
-pub(crate) fn try_from_reader_sync<R: Read>(
+pub(crate) fn try_from_reader<R: Read>(
     mut reader: R,
     extension: Option<&str>,
 ) -> Result<&'static FileType> {
@@ -231,16 +186,16 @@ pub(crate) fn try_from_reader_sync<R: Read>(
     Ok(file_type)
 }
 
-/// Attempt to determine the `FileType` from a file synchronously.
+/// Attempt to determine the `FileType` from a file.
 ///
 /// # Errors
 /// if the file type is unknown
-pub(crate) fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<&'static FileType> {
+pub(crate) fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static FileType> {
     let path = path.as_ref();
     let extension = path.extension().and_then(|ext| ext.to_str());
     let file = std::fs::File::open(path).map_err(|error| Error::new(error.to_string()))?;
     let reader = std::io::BufReader::new(file);
-    try_from_reader_sync(reader, extension)
+    try_from_reader(reader, extension)
 }
 
 #[cfg(test)]
@@ -283,43 +238,21 @@ mod tests {
         assert_eq!(file_type.extensions(), vec!["class"]);
     }
 
-    #[tokio::test]
-    #[cfg(feature = "tokio")]
-    async fn test_try_from_reader() -> anyhow::Result<()> {
-        let file_path = test_file_path();
-        let file = tokio::fs::File::open(file_path).await?;
-        let reader = tokio::io::BufReader::new(file);
-        let file_type = try_from_reader(reader, None).await?;
-        assert_eq!(file_type.media_types(), vec!["image/png"]);
-        assert_eq!(file_type.extensions(), vec!["png"]);
-        Ok(())
-    }
-
-    #[tokio::test]
-    #[cfg(feature = "tokio")]
-    async fn test_try_from_file() -> Result<()> {
-        let file_path = test_file_path();
-        let file_type = try_from_file(file_path).await?;
-        assert_eq!(file_type.media_types(), vec!["image/png"]);
-        assert_eq!(file_type.extensions(), vec!["png"]);
-        Ok(())
-    }
-
     #[test]
-    fn test_try_from_reader_sync() -> anyhow::Result<()> {
+    fn test_try_from_reader() -> anyhow::Result<()> {
         let file_path = test_file_path();
         let file = std::fs::File::open(file_path)?;
         let reader = std::io::BufReader::new(file);
-        let file_type = try_from_reader_sync(reader, None)?;
+        let file_type = try_from_reader(reader, None)?;
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.extensions(), vec!["png"]);
         Ok(())
     }
 
     #[test]
-    fn test_try_from_file_sync() -> Result<()> {
+    fn test_try_from_file() -> Result<()> {
         let file_path = test_file_path();
-        let file_type = try_from_file_sync(file_path)?;
+        let file_type = try_from_file(file_path)?;
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         assert_eq!(file_type.extensions(), vec!["png"]);
         Ok(())

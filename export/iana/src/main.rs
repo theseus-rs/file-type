@@ -6,7 +6,7 @@
 use anyhow::Result;
 use csv::ReaderBuilder;
 use file_type::format::{FileFormat, SourceType};
-use reqwest::Client;
+use reqwest::blocking::Client;
 use source_generator::generate;
 use std::collections::HashMap;
 use std::env;
@@ -34,12 +34,11 @@ const CATEGORIES: &[&str] = &[
     "video",
 ];
 
-/// Downloads IANA mime type data and saves it to the file_type crate data directory.
-#[tokio::main]
-async fn main() -> Result<()> {
+/// Downloads IANA mime type data and saves it to the `file_type` crate data directory.
+fn main() -> Result<()> {
     initialize_tracing();
     let dry_run = env::var("DRY_RUN").is_ok();
-    execute(dry_run).await?;
+    execute(dry_run)?;
     Ok(())
 }
 
@@ -62,7 +61,7 @@ fn initialize_tracing() {
         .init();
 }
 
-async fn execute(dry_run: bool) -> Result<()> {
+fn execute(dry_run: bool) -> Result<()> {
     let source_dir = PathBuf::from(CRATE_DIR)
         .join("..")
         .join("..")
@@ -80,10 +79,9 @@ async fn execute(dry_run: bool) -> Result<()> {
             .get(url)
             .header("User-Agent", format!("{CRATE_NAME}/{CRATE_VERSION}"))
             .timeout(Duration::from_secs(30))
-            .send()
-            .await?;
+            .send()?;
 
-        let data = response.text().await?;
+        let data = response.text()?;
         parse_media_types(data, &mut file_formats)?;
     }
 

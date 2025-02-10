@@ -14,6 +14,7 @@ File types are determined by examining a file or bytes against known file
 signatures and file extensions.
 
 Signature, extension and media type data are provided by:
+
 * [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types)
 * [IANA](https://www.iana.org/assignments/media-types/media-types.xml)
 * [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml)
@@ -23,6 +24,7 @@ Signature, extension and media type data are provided by:
 # Example
 
 Detect the file type from bytes:
+
 ```rust
 use file_type::FileType;
 
@@ -31,26 +33,13 @@ assert_eq!(file_type.extensions(), vec!["class"]);
 ```
 
 Detect the file type from a file:
-```rust
-use file_type::FileType;
-use std::path::Path;
 
-#[tokio::main]
-async fn main() {
-    let file_path = Path::new("image.png");
-    let file_type = FileType::try_from_file(file_path).await.expect("file type not found");
-    assert_eq!(file_type.extensions(), vec!["png"]);
-    assert_eq!(file_type.media_types(), vec!["image/png"]);
-}
-```
-
-Detect the file type from a file synchronously:
 ```rust
 use file_type::FileType;
 use std::path::Path;
 
 let file_path = Path::new("image.png");
-let file_type = FileType::try_from_file_sync(file_path).expect("file type not found");
+let file_type = FileType::try_from_file(file_path).expect("file type not found");
 assert_eq!(file_type.extensions(), vec!["png"]);
 assert_eq!(file_type.media_types(), vec!["image/png"]);
 ```
@@ -64,7 +53,6 @@ assert_eq!(file_type.media_types(), vec!["image/png"]);
 | `iana`     | Enables [IANA](https://www.iana.org/assignments/media-types/media-types.xml) file types                                    | No       |
 | `linguist` | Enables [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) file types            | No       |
 | `pronom`   | Enables [PRONOM](https://www.nationalarchives.gov.uk/PRONOM) file types                                                    | No       |
-| `tokio`    | Enables using tokio for async                                                                                              | No       |
 | `wikidata` | Enables [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List) file types | Yes      |
 
 ## Supported File Types
@@ -78,12 +66,15 @@ This crate uses `#![forbid(unsafe_code)]` to ensure everything is implemented in
 ## Performance
 
 ### Comparative performance determining file type from bytes
+
 <a href="https://bencher.dev/perf/theseus-rs-file-type?lower_value=false&upper_value=false&lower_boundary=false&upper_boundary=false&x_axis=date_time&branches=e6bda651-ab44-4c6b-8db6-5b495b43ea40&testbeds=4927da7e-2d56-48e6-a579-d78b3787c104&benchmarks=bdf821ff-e1df-478f-923c-6dd28c4509e1%2C709db97a-d220-48b7-996a-2ee7cf2944bd%2Cfa2bef70-dfd4-4834-bbc9-eb3e30af67e5&measures=670fcc74-764a-40b6-8cd2-93076b6cc17d&start_time=1736357094394&tab=plots&plots_search=d92fa224-61b5-42b3-8643-c40fa14f8c11&key=true&reports_per_page=4&branches_per_page=8&testbeds_per_page=8&benchmarks_per_page=8&plots_per_page=8&reports_page=1&branches_page=1&testbeds_page=1&benchmarks_page=1&plots_page=1&utm_medium=share&utm_source=bencher&utm_content=img&utm_campaign=perf%2Bimg&utm_term=theseus-rs-file-type"><img src="https://api.bencher.dev/v0/projects/theseus-rs-file-type/perf/img?branches=e6bda651-ab44-4c6b-8db6-5b495b43ea40&heads=&testbeds=4927da7e-2d56-48e6-a579-d78b3787c104&benchmarks=bdf821ff-e1df-478f-923c-6dd28c4509e1%2C709db97a-d220-48b7-996a-2ee7cf2944bd%2Cfa2bef70-dfd4-4834-bbc9-eb3e30af67e5&measures=670fcc74-764a-40b6-8cd2-93076b6cc17d&start_time=1736357094394" title="theseus-rs/file-type" alt="theseus-rs/file-type - Bencher" /></a>
 
 ### Comparative performance determining file type from extension
+
 <a href="https://bencher.dev/perf/theseus-rs-file-type?lower_value=false&upper_value=false&lower_boundary=false&upper_boundary=false&x_axis=date_time&branches=e6bda651-ab44-4c6b-8db6-5b495b43ea40&testbeds=4927da7e-2d56-48e6-a579-d78b3787c104&benchmarks=5ea43253-b368-4799-b6bd-a08556196456%2C2328df4a-c516-403c-bc84-2b7c7ee0a0fa&measures=670fcc74-764a-40b6-8cd2-93076b6cc17d&start_time=1736357094393&tab=plots&plots_search=f1500077-7e42-4ded-b658-8dd1f35205d1&key=true&reports_per_page=4&branches_per_page=8&testbeds_per_page=8&benchmarks_per_page=8&plots_per_page=8&reports_page=1&branches_page=1&testbeds_page=1&benchmarks_page=1&plots_page=1&utm_medium=share&utm_source=bencher&utm_content=img&utm_campaign=perf%2Bimg&utm_term=theseus-rs-file-type"><img src="https://api.bencher.dev/v0/projects/theseus-rs-file-type/perf/img?branches=e6bda651-ab44-4c6b-8db6-5b495b43ea40&heads=&testbeds=4927da7e-2d56-48e6-a579-d78b3787c104&benchmarks=5ea43253-b368-4799-b6bd-a08556196456%2C2328df4a-c516-403c-bc84-2b7c7ee0a0fa&measures=670fcc74-764a-40b6-8cd2-93076b6cc17d&start_time=1736357094393" title="theseus-rs/file-type" alt="theseus-rs/file-type - Bencher" /></a>
 
 ### Comparative performance determining file type from media type
+
 <a href="https://bencher.dev/perf/theseus-rs-file-type?lower_value=false&upper_value=false&lower_boundary=false&upper_boundary=false&x_axis=date_time&branches=e6bda651-ab44-4c6b-8db6-5b495b43ea40&testbeds=4927da7e-2d56-48e6-a579-d78b3787c104&benchmarks=65468a2b-b06d-4c15-9491-694934dbd036%2C7d89adc9-2bf0-4449-9923-73e1ea4eabd8&measures=670fcc74-764a-40b6-8cd2-93076b6cc17d&start_time=1736357094389&tab=plots&plots_search=f564a523-53a7-491f-a650-7097249dc2cb&key=true&reports_per_page=4&branches_per_page=8&testbeds_per_page=8&benchmarks_per_page=8&plots_per_page=8&reports_page=1&branches_page=1&testbeds_page=1&benchmarks_page=1&plots_page=1&utm_medium=share&utm_source=bencher&utm_content=img&utm_campaign=perf%2Bimg&utm_term=theseus-rs-file-type"><img src="https://api.bencher.dev/v0/projects/theseus-rs-file-type/perf/img?branches=e6bda651-ab44-4c6b-8db6-5b495b43ea40&heads=&testbeds=4927da7e-2d56-48e6-a579-d78b3787c104&benchmarks=65468a2b-b06d-4c15-9491-694934dbd036%2C7d89adc9-2bf0-4449-9923-73e1ea4eabd8&measures=670fcc74-764a-40b6-8cd2-93076b6cc17d&start_time=1736357094389" title="theseus-rs/file-type" alt="theseus-rs/file-type - Bencher" /></a>
 
 ## License

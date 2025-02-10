@@ -16,26 +16,12 @@ use core::cmp::Ordering;
 /// ```
 ///
 /// Detect the file type from a file:
-/// ```rust,no_run
-/// use file_type::FileType;
-/// use std::path::Path;
-///
-/// #[tokio::main]
-/// async fn main() {
-///     let file_path = Path::new("image.png");
-///     let file_type = FileType::try_from_file(file_path).await.expect("file type not found");
-///     assert_eq!(file_type.extensions(), vec!["png"]);
-///     assert_eq!(file_type.media_types(), vec!["image/png"]);
-/// }
-/// ```
-///
-/// Detect the file type from a file synchronously:
 /// ```no_run
 /// use file_type::FileType;
 /// use std::path::Path;
 ///
 /// let file_path = Path::new("image.png");
-/// let file_type = FileType::try_from_file_sync(file_path).expect("file type not found");
+/// let file_type = FileType::try_from_file(file_path).expect("file type not found");
 /// assert_eq!(file_type.extensions(), vec!["png"]);
 /// assert_eq!(file_type.media_types(), vec!["image/png"]);
 /// ```
@@ -176,23 +162,16 @@ impl FileType {
     /// # Example
     /// ```
     /// use file_type::FileType;
-    /// use tokio::io::BufReader;
+    /// use std::io::BufReader;
     ///
-    /// #[tokio::main]
-    /// async fn main() {
-    ///     let bytes = b"\xCA\xFE\xBA\xBE";
-    ///     let reader = BufReader::new(&bytes[..]);
-    ///     let file_type = FileType::try_from_reader(reader).await.expect("file type not found");
-    ///     assert_eq!(file_type.extensions(), vec!["class"]);
-    ///     assert_eq!(file_type.media_types(), Vec::<String>::new());
-    /// }
+    /// let bytes = b"\xCA\xFE\xBA\xBE";
+    /// let reader = BufReader::new(&bytes[..]);
+    /// let file_type = FileType::try_from_reader(reader).expect("file type not found");
+    /// assert_eq!(file_type.extensions(), vec!["class"]);
+    /// assert_eq!(file_type.media_types(), Vec::<String>::new());
     /// ```
-    #[cfg(feature = "tokio")]
-    pub async fn try_from_reader<R>(reader: R) -> Result<&'static Self>
-    where
-        R: tokio::io::AsyncRead + Unpin,
-    {
-        file_types::try_from_reader(reader, None).await
+    pub fn try_from_reader<R: std::io::Read>(reader: R) -> Result<&'static Self> {
+        file_types::try_from_reader(reader, None)
     }
 
     /// Attempt to determine the `FileType` from a file.
@@ -205,56 +184,13 @@ impl FileType {
     /// use file_type::FileType;
     /// use std::path::Path;
     ///
-    /// #[tokio::main]
-    /// async fn main() {
-    ///     let file_path = Path::new("image.png");
-    ///     let file_type = FileType::try_from_file(file_path).await.expect("file type not found");
-    ///     assert_eq!(file_type.extensions(), vec!["png"]);
-    ///     assert_eq!(file_type.media_types(), vec!["image/png"]);
-    /// }
-    /// ```
-    #[cfg(feature = "tokio")]
-    pub async fn try_from_file<P: AsRef<std::path::Path>>(path: P) -> Result<&'static Self> {
-        file_types::try_from_file(path).await
-    }
-
-    /// Attempt to determine the `FileType` from a reader synchronously.
-    ///
-    /// # Errors
-    /// if the file type is unknown
-    ///
-    /// # Example
-    /// ```
-    /// use file_type::FileType;
-    /// use std::io::BufReader;
-    ///
-    /// let bytes = b"\xCA\xFE\xBA\xBE";
-    /// let reader = BufReader::new(&bytes[..]);
-    /// let file_type = FileType::try_from_reader_sync(reader).expect("file type not found");
-    /// assert_eq!(file_type.extensions(), vec!["class"]);
-    /// assert_eq!(file_type.media_types(), Vec::<String>::new());
-    /// ```
-    pub fn try_from_reader_sync<R: std::io::Read>(reader: R) -> Result<&'static Self> {
-        file_types::try_from_reader_sync(reader, None)
-    }
-
-    /// Attempt to determine the `FileType` from a file synchronously.
-    ///
-    /// # Errors
-    /// if the file type is unknown
-    ///
-    /// # Example
-    /// ```no_run
-    /// use file_type::FileType;
-    /// use std::path::Path;
-    ///
     /// let file_path = Path::new("image.png");
-    /// let file_type = FileType::try_from_file_sync(file_path).expect("file type not found");
+    /// let file_type = FileType::try_from_file(file_path).expect("file type not found");
     /// assert_eq!(file_type.extensions(), vec!["png"]);
     /// assert_eq!(file_type.media_types(), vec!["image/png"]);
     /// ```
-    pub fn try_from_file_sync<P: AsRef<std::path::Path>>(path: P) -> Result<&'static Self> {
-        file_types::try_from_file_sync(path)
+    pub fn try_from_file<P: AsRef<std::path::Path>>(path: P) -> Result<&'static Self> {
+        file_types::try_from_file(path)
     }
 }
 
@@ -357,40 +293,19 @@ mod tests {
         assert_eq!(file_type.media_types(), vec!["text/plain"]);
     }
 
-    #[tokio::test]
-    #[cfg(feature = "tokio")]
-    async fn test_try_from_reader() -> Result<()> {
-        let bytes = b"\xCA\xFE\xBA\xBE";
-        let reader = tokio::io::BufReader::new(&bytes[..]);
-        let file_type = FileType::try_from_reader(reader).await?;
-        assert_eq!(file_type.extensions(), vec!["class"]);
-        assert_eq!(file_type.media_types(), Vec::<String>::new());
-        Ok(())
-    }
-
-    #[tokio::test]
-    #[cfg(feature = "tokio")]
-    async fn test_try_from_file() -> Result<()> {
-        let file_path = test_file_path();
-        let file_type = FileType::try_from_file(file_path).await?;
-        assert_eq!(file_type.extensions(), vec!["png"]);
-        assert_eq!(file_type.media_types(), vec!["image/png"]);
-        Ok(())
-    }
-
     #[test]
-    fn test_try_from_reader_sync() -> Result<()> {
+    fn test_try_from_reader() -> Result<()> {
         let bytes = b"\xCA\xFE\xBA\xBE";
         let reader = std::io::BufReader::new(&bytes[..]);
-        let file_type = FileType::try_from_reader_sync(reader)?;
+        let file_type = FileType::try_from_reader(reader)?;
         assert_eq!(file_type.extensions(), vec!["class"]);
         Ok(())
     }
 
     #[test]
-    fn test_try_from_file_sync() -> Result<()> {
+    fn test_try_from_file() -> Result<()> {
         let file_path = test_file_path();
-        let file_type = FileType::try_from_file_sync(file_path)?;
+        let file_type = FileType::try_from_file(file_path)?;
         assert_eq!(file_type.extensions(), vec!["png"]);
         assert_eq!(file_type.media_types(), vec!["image/png"]);
         Ok(())
