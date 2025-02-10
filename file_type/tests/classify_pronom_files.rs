@@ -1,3 +1,5 @@
+use file_type::format::SourceType;
+
 #[cfg(feature = "pronom")]
 fn data_dir() -> std::path::PathBuf {
     let crate_dir = env!("CARGO_MANIFEST_DIR");
@@ -17,16 +19,8 @@ fn test_file(file_name: &str) -> anyhow::Result<(usize, &file_type::FileType)> {
         .to_string_lossy()
         .to_string();
     let file_name = file_name.split('.').next().expect("split").to_string();
-    let id = if file_name.starts_with("x-fmt-") {
-        let parts: Vec<&str> = file_name.split('-').collect();
-        let id: usize = parts[2].parse()?;
-        id
-    } else {
-        let parts: Vec<&str> = file_name.split('-').collect();
-        let id: usize = parts[1].parse()?;
-        id
-    };
-
+    let parts: Vec<&str> = file_name.split('-').collect();
+    let id: usize = parts[1].parse()?;
     let file_type = file_type::FileType::try_from_file_sync(path)?;
     Ok((id, file_type))
 }
@@ -51,7 +45,7 @@ fn test_file_classification() -> anyhow::Result<()> {
             .to_string();
         let (id, file_type) = test_file(&file_name)?;
 
-        if file_type.id() == id {
+        if file_type.id() == id && matches!(file_type.source_type(), &SourceType::Pronom) {
             passed_tests += 1;
         } else {
             errored_tests += 1;

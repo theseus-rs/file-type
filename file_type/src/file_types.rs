@@ -342,7 +342,7 @@ mod tests {
     use std::path::PathBuf;
 
     const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
-    const TEST_FILE_NAME: &str = "pronom-664-signature-id-58.png";
+    const TEST_FILE_NAME: &str = "pronom-664-signature-0.png";
 
     fn test_file_path() -> PathBuf {
         let path = format!("{CRATE_DIR}/../test_data/pronom/{TEST_FILE_NAME}");

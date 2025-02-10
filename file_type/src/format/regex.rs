@@ -18,44 +18,6 @@ pub enum Token {
     WildcardCountRange(usize, usize),
 }
 
-impl Token {
-    /// Generate matching test data for the token
-    #[must_use]
-    pub fn test_data(&self) -> Vec<u8> {
-        match self {
-            Token::Any(any_tokens) => {
-                let mut data = Vec::new();
-                for tokens in *any_tokens {
-                    for token in *tokens {
-                        data.extend(token.test_data());
-                    }
-                }
-                data
-            }
-            Token::AnyWildcard => vec![0x01, 0x02, 0x03],
-            Token::Literal(bytes) => bytes.to_vec(),
-            Token::NotLiteral(bytes) => {
-                let mut data = Vec::new();
-                for byte in *bytes {
-                    data.push(byte.wrapping_add(1));
-                }
-                data
-            }
-            Token::NotRange(_start, end) => {
-                let mut data = Vec::new();
-                for byte in *end {
-                    data.push(byte.wrapping_add(1));
-                }
-                data
-            }
-            Token::Range(start, _end) => start.to_vec(),
-            Token::SingleWildcard => vec![0x00],
-            Token::WildcardCount(count) => vec![0x00; *count],
-            Token::WildcardCountRange(min, _max) => vec![0x00; *min],
-        }
-    }
-}
-
 impl Display for Token {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         match self {
@@ -537,16 +499,6 @@ impl Regex {
         }
         (true, haystack_index)
     }
-
-    /// Generate matching test data for the regex
-    #[must_use]
-    pub fn test_data(&self) -> Vec<u8> {
-        let mut data = Vec::new();
-        for token in self.tokens {
-            data.extend(token.test_data());
-        }
-        data
-    }
 }
 
 /// Convert a byte array of hexadecimal values to a byte array
@@ -577,79 +529,6 @@ mod tests {
     use super::*;
     use core::fmt;
     use std::fmt::Formatter;
-
-    #[test]
-    fn test_token_test_data_any() {
-        let token = Token::Any(&[&[Token::Literal(&[0x01])]]);
-        assert_eq!(token.test_data(), vec![0x01]);
-    }
-
-    #[test]
-    fn test_token_test_data_any_multiple() {
-        let token = Token::Any(&[
-            &[Token::Literal(&[0x01, 0x02])],
-            &[Token::Range(&[0x03], &[0x04])],
-            &[
-                Token::Literal(&[0x05, 0x06]),
-                Token::Range(&[0x07], &[0x08]),
-            ],
-        ]);
-        assert_eq!(token.test_data(), vec![0x01, 0x02, 0x03, 0x05, 0x06, 0x07]);
-    }
-
-    #[test]
-    fn test_token_test_data_any_wildcard() {
-        let token = Token::AnyWildcard;
-        assert_eq!(token.test_data(), vec![0x01, 0x02, 0x03]);
-    }
-
-    #[test]
-    fn test_token_test_data_literal_sequence() {
-        let token = Token::Literal(&[0x01, 0x02, 0x03]);
-        assert_eq!(token.test_data(), vec![0x01, 0x02, 0x03]);
-    }
-
-    #[test]
-    fn test_token_test_data_not_literal_sequence() {
-        let token = Token::NotLiteral(&[0x01]);
-        assert_eq!(token.test_data(), vec![0x02]);
-    }
-
-    #[test]
-    fn test_token_test_data_not_literal_sequence_multiple() {
-        let token = Token::NotLiteral(&[0x01, 0x02, 0x03]);
-        assert_eq!(token.test_data(), vec![0x02, 0x03, 0x04]);
-    }
-
-    #[test]
-    fn test_token_test_data_not_range() {
-        let token = Token::NotRange(&[0x00], &[0x41]);
-        assert_eq!(token.test_data(), vec![0x42]);
-    }
-
-    #[test]
-    fn test_token_test_data_range() {
-        let token = Token::Range(&[0x00], &[0xFF]);
-        assert_eq!(token.test_data(), vec![0x00]);
-    }
-
-    #[test]
-    fn test_token_test_data_single_wildcard() {
-        let token = Token::SingleWildcard;
-        assert_eq!(token.test_data(), vec![0x00]);
-    }
-
-    #[test]
-    fn test_token_test_data_wildcard_count() {
-        let token = Token::WildcardCount(1);
-        assert_eq!(token.test_data(), vec![0x00]);
-    }
-
-    #[test]
-    fn test_token_test_data_wildcard_count_range() {
-        let token = Token::WildcardCountRange(2, 4);
-        assert_eq!(token.test_data(), vec![0x00, 0x00]);
-    }
 
     #[test]
     fn test_token_display_any() {
@@ -998,15 +877,5 @@ mod tests {
                 }
             }
         }
-    }
-
-    #[test]
-    fn test_regex_test_data() -> Result<()> {
-        let regex = Regex::new("0102[!03]{1-2}07??42")?;
-        assert_eq!(
-            regex.test_data(),
-            vec![0x01, 0x02, 0x04, 0x00, 0x07, 0x00, 0x42]
-        );
-        Ok(())
     }
 }
