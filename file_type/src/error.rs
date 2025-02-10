@@ -17,6 +17,7 @@ impl Error {
     }
 }
 
+#[cfg(feature = "std")]
 impl std::error::Error for Error {}
 
 impl core::fmt::Display for Error {

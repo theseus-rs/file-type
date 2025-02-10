@@ -1,11 +1,8 @@
 use crate::format::{Regex, RelationshipType, UNIDENTIFIED_KEY};
-use crate::{signatures, sources, Error, FileType, Result};
-use alloc::string::ToString;
+use crate::{signatures, sources, FileType};
 use alloc::vec::Vec;
 use core::cmp::Ordering;
 use sources::default::{DEFAULT_1, DEFAULT_2};
-use std::io::Read;
-use std::path::Path;
 
 /// Sort the file types without requiring a total order.
 fn sort_by<F, T>(file_types: &mut [&T], mut compare: F)
@@ -169,52 +166,12 @@ where
     }
 }
 
-/// Attempt to determine the `FileType` from a reader.
-///
-/// # Errors
-/// if the file type is unknown
-pub(crate) fn try_from_reader<R: Read>(
-    mut reader: R,
-    extension: Option<&str>,
-) -> Result<&'static FileType> {
-    let mut buffer = Vec::new();
-    reader
-        .read_to_end(&mut buffer)
-        .map_err(|error| Error::new(error.to_string()))?;
-    let bytes = buffer.as_slice();
-    let file_type = from_bytes(bytes, extension);
-    Ok(file_type)
-}
-
-/// Attempt to determine the `FileType` from a file.
-///
-/// # Errors
-/// if the file type is unknown
-pub(crate) fn try_from_file<P: AsRef<Path>>(path: P) -> Result<&'static FileType> {
-    let path = path.as_ref();
-    let extension = path.extension().and_then(|ext| ext.to_str());
-    let file = std::fs::File::open(path).map_err(|error| Error::new(error.to_string()))?;
-    let reader = std::io::BufReader::new(file);
-    try_from_reader(reader, extension)
-}
-
 #[cfg(test)]
 mod tests {
     use super::*;
     use crate::format::SourceType;
     use crate::sources::file_types;
-    use std::path::PathBuf;
-
-    const TEST_FILE_NAME: &str = "pronom-664-signature-0.png";
-
-    fn test_file_path() -> PathBuf {
-        let crate_dir = env!("CARGO_MANIFEST_DIR");
-        PathBuf::from(crate_dir)
-            .join("..")
-            .join("test_data")
-            .join("pronom")
-            .join(TEST_FILE_NAME)
-    }
+    use alloc::vec;
 
     fn find_file_type(source_type: &SourceType, id: usize) -> &'static FileType {
         let file_type = file_types().find(|file_type| {
@@ -236,26 +193,6 @@ mod tests {
         let value = b"\xCA\xFE\xBA\xBE".to_vec();
         let file_type = from_bytes(value.as_slice(), None);
         assert_eq!(file_type.extensions(), vec!["class"]);
-    }
-
-    #[test]
-    fn test_try_from_reader() -> anyhow::Result<()> {
-        let file_path = test_file_path();
-        let file = std::fs::File::open(file_path)?;
-        let reader = std::io::BufReader::new(file);
-        let file_type = try_from_reader(reader, None)?;
-        assert_eq!(file_type.media_types(), vec!["image/png"]);
-        assert_eq!(file_type.extensions(), vec!["png"]);
-        Ok(())
-    }
-
-    #[test]
-    fn test_try_from_file() -> Result<()> {
-        let file_path = test_file_path();
-        let file_type = try_from_file(file_path)?;
-        assert_eq!(file_type.media_types(), vec!["image/png"]);
-        assert_eq!(file_type.extensions(), vec!["png"]);
-        Ok(())
     }
 
     #[cfg(feature = "pronom")]

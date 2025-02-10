@@ -22,13 +22,14 @@ magic = { workspace = true }
 mime_guess = { workspace = true }
 
 [features]
-all = ["custom", "httpd", "iana", "linguist", "pronom", "wikidata"]
-default = ["custom", "wikidata"]
+all = ["custom", "httpd", "iana", "linguist", "pronom", "std", "wikidata"]
+default = ["custom", "std", "wikidata"]
 custom = []
 httpd = []
 iana = []
 linguist = []
 pronom = []
+std = []
 wikidata = []
 
 [[bench]]
