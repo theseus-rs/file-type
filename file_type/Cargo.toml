@@ -11,6 +11,7 @@ rust-version.workspace = true
 version.workspace = true
 
 [dependencies]
+phf = { workspace = true }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 tokio = { workspace = true, optional = true, features = ["io-util"] }
@@ -28,6 +29,7 @@ mime_guess = { workspace = true }
 tokio = { workspace = true, features = ["full"] }
 
 [features]
+all = ["custom", "httpd", "iana", "linguist", "pronom", "tokio", "wikidata"]
 default = ["custom", "wikidata"]
 custom = []
 httpd = []
