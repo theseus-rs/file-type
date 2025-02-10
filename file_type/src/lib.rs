@@ -80,6 +80,7 @@
 #![deny(clippy::pedantic)]
 #![deny(clippy::unwrap_in_result)]
 #![deny(clippy::unwrap_used)]
+extern crate alloc;
 extern crate core;
 
 mod error;

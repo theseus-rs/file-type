@@ -1,5 +1,4 @@
 use crate::format::FileFormat;
-use std::slice::Iter;
 
 #[cfg(feature = "custom")]
 #[doc(hidden)]
@@ -45,6 +44,7 @@ pub fn file_formats() -> impl Iterator<Item = &'static FileFormat> {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use alloc::vec::Vec;
 
     #[test]
     fn test_file_formats() {

@@ -1,3 +1,5 @@
+use alloc::string::{String, ToString};
+
 /// File type result type
 pub type Result<T, E = Error> = core::result::Result<T, E>;
 

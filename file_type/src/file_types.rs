@@ -1,6 +1,9 @@
 use crate::format::{FileFormat, Regex, RelationshipType, Signature};
 use crate::sources::file_formats;
 use crate::{file_types, sources, Error, FileType, Result};
+use alloc::string::ToString;
+use alloc::vec;
+use alloc::vec::Vec;
 use core::cmp::Ordering;
 use std::collections::HashMap;
 use std::fs::read_to_string;
@@ -341,12 +344,15 @@ mod tests {
     use crate::format::SourceType;
     use std::path::PathBuf;
 
-    const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
     const TEST_FILE_NAME: &str = "pronom-664-signature-0.png";
 
     fn test_file_path() -> PathBuf {
-        let path = format!("{CRATE_DIR}/../test_data/pronom/{TEST_FILE_NAME}");
-        PathBuf::from(path)
+        let crate_dir = env!("CARGO_MANIFEST_DIR");
+        PathBuf::from(crate_dir)
+            .join("..")
+            .join("test_data")
+            .join("pronom")
+            .join(TEST_FILE_NAME)
     }
 
     fn find_file_type(source_type: &SourceType, id: usize) -> &'static FileType {
@@ -472,36 +478,5 @@ mod tests {
         assert_eq!(file_types[0].id(), 940);
         assert_eq!(file_types[1].id(), 1281);
         assert_eq!(file_types[2].id(), 2679);
-    }
-
-    #[test]
-    fn create_supported_formats() -> anyhow::Result<()> {
-        let mut file_types = FILE_TYPES.iter().collect::<Vec<_>>();
-        file_types.sort();
-
-        let file_types = file_types
-            .iter()
-            .map(|file_type| {
-                let source = format!("{:?}", file_type.source_type());
-                let id = file_type.id();
-                let name = file_type.name();
-                let media_types = file_type.media_types().join(", ");
-                let extensions = file_type.extensions().join(", ");
-                format!("| {source} | {id} | {name} | {extensions} | {media_types} |")
-            })
-            .collect::<Vec<String>>();
-
-        let file_types = file_types.join("\n");
-        let file_types = [
-            format!("# File Types ({})\n", FILE_TYPES.len()),
-            "| Source | Id | Name | Extensions | Media Types |".to_string(),
-            "| ---- | ---- | ---- | ----------- | ---------- |".to_string(),
-            file_types,
-        ]
-        .join("\n");
-
-        let file_name = PathBuf::from(CRATE_DIR).join("..").join("FILETYPES.md");
-        std::fs::write(file_name, file_types)?;
-        Ok(())
     }
 }

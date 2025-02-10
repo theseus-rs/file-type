@@ -1,8 +1,11 @@
 use crate::{Error, Result};
+use alloc::boxed::Box;
+use alloc::format;
+use alloc::string::{String, ToString};
+use alloc::vec::Vec;
 use core::cmp::Ordering;
+use core::fmt::Display;
 use core::str::from_utf8;
-use std::fmt::Display;
-use std::io::{self, BufRead, BufReader, Read};
 
 /// A token to match against a byte stream
 #[derive(Clone, Debug, Eq, PartialEq)]
@@ -19,7 +22,7 @@ pub enum Token {
 }
 
 impl Display for Token {
-    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+    fn fmt(&self, f: &mut core::fmt::Formatter<'_>) -> core::fmt::Result {
         match self {
             Token::Any(any_tokens) => {
                 write!(f, "(")?;
@@ -516,7 +519,7 @@ fn hex_to_bytes(hex: &[u8]) -> Vec<u8> {
 }
 
 impl Display for Regex {
-    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+    fn fmt(&self, f: &mut core::fmt::Formatter<'_>) -> core::fmt::Result {
         for token in self.tokens {
             write!(f, "{token}")?;
         }
@@ -528,7 +531,6 @@ impl Display for Regex {
 mod tests {
     use super::*;
     use core::fmt;
-    use std::fmt::Formatter;
 
     #[test]
     fn test_token_display_any() {
