@@ -13,12 +13,6 @@ version.workspace = true
 [dependencies]
 phf = { workspace = true }
 
-[target.'cfg(target_arch = "wasm32")'.dependencies]
-tokio = { workspace = true, optional = true, features = ["io-util"] }
-
-[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
-tokio = { workspace = true, optional = true, features = ["fs", "io-util"] }
-
 [dev-dependencies]
 anyhow = { workspace = true }
 criterion = { workspace = true }
@@ -26,19 +20,15 @@ file-format = { workspace = true }
 infer = { workspace = true }
 magic = { workspace = true }
 mime_guess = { workspace = true }
-tokio = { workspace = true, features = ["full"] }
 
 [features]
-all = ["custom", "httpd", "iana", "linguist", "pronom", "tokio", "wikidata"]
+all = ["custom", "httpd", "iana", "linguist", "pronom", "wikidata"]
 default = ["custom", "wikidata"]
 custom = []
 httpd = []
 iana = []
 linguist = []
 pronom = []
-tokio = [
-    "dep:tokio",
-]
 wikidata = []
 
 [[bench]]

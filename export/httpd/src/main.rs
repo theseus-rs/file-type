@@ -5,7 +5,7 @@
 
 use anyhow::Result;
 use file_type::format::{FileFormat, SourceType};
-use reqwest::Client;
+use reqwest::blocking::Client;
 use source_generator::generate;
 use std::collections::HashMap;
 use std::env;
@@ -22,12 +22,11 @@ const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
 const MIME_TYPES_URL: &str =
     "https://raw.githubusercontent.com/apache/httpd/refs/heads/trunk/docs/conf/mime.types";
 
-/// Downloads Apache HTTPD mime type data and saves it to the file_type crate data directory.
-#[tokio::main]
-async fn main() -> Result<()> {
+/// Downloads Apache HTTPD mime type data and saves it to the `file_type` crate data directory.
+fn main() -> Result<()> {
     initialize_tracing();
     let dry_run = env::var("DRY_RUN").is_ok();
-    execute(dry_run).await?;
+    execute(dry_run)?;
     Ok(())
 }
 
@@ -50,7 +49,7 @@ fn initialize_tracing() {
         .init();
 }
 
-async fn execute(dry_run: bool) -> Result<()> {
+fn execute(dry_run: bool) -> Result<()> {
     let source_dir = PathBuf::from(CRATE_DIR)
         .join("..")
         .join("..")
@@ -64,10 +63,9 @@ async fn execute(dry_run: bool) -> Result<()> {
         .get(MIME_TYPES_URL)
         .header("User-Agent", format!("{CRATE_NAME}/{CRATE_VERSION}"))
         .timeout(Duration::from_secs(30))
-        .send()
-        .await?;
+        .send()?;
 
-    let mime_types_data = response.text().await?;
+    let mime_types_data = response.text()?;
     let mime_types = parse_mime_types(mime_types_data);
     let mut file_formats = process_mime_types(mime_types);
     file_formats.sort_by_key(|file_format| file_format.id);

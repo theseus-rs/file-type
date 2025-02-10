@@ -54,7 +54,7 @@ fn bench_lifecycle(criterion: &mut Criterion) -> anyhow::Result<()> {
 
     criterion.bench_function("file_type::try_from_file", |bencher| {
         bencher.iter(|| {
-            let _ = FileType::try_from_file_sync(&file);
+            let _ = FileType::try_from_file(&file);
         });
     });
 

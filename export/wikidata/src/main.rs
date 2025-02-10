@@ -5,7 +5,7 @@
 
 use anyhow::Result;
 use file_type::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType};
-use reqwest::Client;
+use reqwest::blocking::Client;
 use serde_json::Value;
 use source_generator::generate;
 use std::collections::HashMap;
@@ -62,12 +62,11 @@ const SPARQL_URL: &str = "https://query.wikidata.org/sparql?query=%23List%20of%2
 // GROUP BY ?idExtension ?extension ?mediaType ?pronomId ?idExtensionLabel ?fileSignature
 // ORDER BY ?extension ?mediaType
 
-/// Downloads Wikidata file format data and saves it to the file_type crate data directory.
-#[tokio::main]
-async fn main() -> Result<()> {
+/// Downloads Wikidata file format data and saves it to the `file_type` crate data directory.
+fn main() -> Result<()> {
     initialize_tracing();
     let dry_run = env::var("DRY_RUN").is_ok();
-    execute(dry_run).await?;
+    execute(dry_run)?;
     Ok(())
 }
 
@@ -90,7 +89,7 @@ fn initialize_tracing() {
         .init();
 }
 
-async fn execute(dry_run: bool) -> Result<()> {
+fn execute(dry_run: bool) -> Result<()> {
     let source_dir = PathBuf::from(CRATE_DIR)
         .join("..")
         .join("..")
@@ -105,10 +104,9 @@ async fn execute(dry_run: bool) -> Result<()> {
         .header("Accept", "application/json")
         .header("User-Agent", format!("{CRATE_NAME}/{CRATE_VERSION}"))
         .timeout(Duration::from_secs(30))
-        .send()
-        .await?;
+        .send()?;
 
-    let json: Value = response.json().await?;
+    let json: Value = response.json()?;
     let mut file_formats = parse_json(&json);
     file_formats.sort_by_key(|file_format| file_format.id);
     generate(&file_formats, &source_dir, dry_run)?;

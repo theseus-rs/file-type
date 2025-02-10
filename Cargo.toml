@@ -50,6 +50,5 @@ reqwest = "0.12.12"
 serde = "1.0.217"
 serde_json = "1.0.138"
 serde_yaml = "0.9.34"
-tokio = { version = "1.43.0", default-features = false, features = ["macros", "rt", "sync"] }
 tracing = "0.1.41"
 tracing-subscriber = "0.3.19"

@@ -19,7 +19,7 @@ fn test_file(
 ) -> anyhow::Result<()> {
     let data_dir = data_dir();
     let path = data_dir.join(file_name);
-    let file_type = FileType::try_from_file_sync(path)?;
+    let file_type = FileType::try_from_file(path)?;
     assert_eq!(file_type.id(), expected_id);
     assert_eq!(file_type.source_type(), expected_source_type);
     let media_types = file_type.media_types();
