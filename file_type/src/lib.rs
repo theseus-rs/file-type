@@ -28,15 +28,22 @@
 //! assert_eq!(file_type.extensions(), vec!["class"]);
 //! ```
 //!
-//! Detect the file type from a file:
-//! ```no_run
+//! Retrieve a file type from an extension:
+//! ```
 //! use file_type::FileType;
-//! use std::path::Path;
 //!
-//! let file_path = Path::new("image.png");
-//! let file_type = FileType::try_from_file(file_path).expect("file type not found");
-//! assert_eq!(file_type.extensions(), vec!["png"]);
+//! let file_types = FileType::from_extension("png");
+//! let file_type = file_types.first().expect("file format");
 //! assert_eq!(file_type.media_types(), vec!["image/png"]);
+//! ```
+//!
+//! Retrieve a file type from a media type:
+//! ```
+//! use file_type::FileType;
+//!
+//! let file_types = FileType::from_media_type("image/png");
+//! let file_type = file_types.first().expect("file format");
+//! assert_eq!(file_type.extensions(), vec!["png"]);
 //! ```
 //!
 //! ## Feature flags
@@ -48,6 +55,7 @@
 //! | `iana`     | Enables [IANA](https://www.iana.org/assignments/media-types/media-types.xml) file types                                    | No       |
 //! | `linguist` | Enables [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) file types            | No       |
 //! | `pronom`   | Enables [PRONOM](https://www.nationalarchives.gov.uk/PRONOM) file types                                                    | No       |
+//! | `std`      | Enables support for the Rust standard library                                                                              | Yes      |
 //! | `wikidata` | Enables [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List) file types | Yes      |
 //!
 //! ## Supported File Types
@@ -58,6 +66,7 @@
 //!
 //! This crate uses `#![forbid(unsafe_code)]` to ensure everything is implemented in 100% safe Rust.
 
+#![cfg_attr(not(feature = "std"), no_std)]
 #![forbid(unsafe_code)]
 #![forbid(clippy::allow_attributes)]
 #![allow(dead_code)]

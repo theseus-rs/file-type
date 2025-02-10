@@ -1,6 +1,7 @@
 use crate::format::{FileFormat, SourceType};
-use crate::{extensions, file_types, media_types, Result};
+use crate::{extensions, file_types, media_types};
 use core::cmp::Ordering;
+use std::io::Read;
 
 /// A file type.  The file type is determined by examining the file or bytes against known file
 /// signatures and file extensions.
@@ -15,15 +16,22 @@ use core::cmp::Ordering;
 /// assert_eq!(file_type.extensions(), vec!["class"]);
 /// ```
 ///
-/// Detect the file type from a file:
-/// ```no_run
+/// Retrieve a file type from an extension:
+/// ```
 /// use file_type::FileType;
-/// use std::path::Path;
 ///
-/// let file_path = Path::new("image.png");
-/// let file_type = FileType::try_from_file(file_path).expect("file type not found");
-/// assert_eq!(file_type.extensions(), vec!["png"]);
+/// let file_types = FileType::from_extension("png");
+/// let file_type = file_types.first().expect("file format");
 /// assert_eq!(file_type.media_types(), vec!["image/png"]);
+/// ```
+///
+/// Retrieve a file type from a media type:
+/// ```
+/// use file_type::FileType;
+///
+/// let file_types = FileType::from_media_type("image/png");
+/// let file_type = file_types.first().expect("file format");
+/// assert_eq!(file_type.extensions(), vec!["png"]);
 /// ```
 #[derive(Clone, Debug, Eq, PartialEq)]
 pub struct FileType {
@@ -170,8 +178,15 @@ impl FileType {
     /// assert_eq!(file_type.extensions(), vec!["class"]);
     /// assert_eq!(file_type.media_types(), Vec::<String>::new());
     /// ```
-    pub fn try_from_reader<R: std::io::Read>(reader: R) -> Result<&'static Self> {
-        file_types::try_from_reader(reader, None)
+    #[cfg(feature = "std")]
+    pub fn try_from_reader<R: std::io::Read>(mut reader: R) -> crate::Result<&'static Self> {
+        let mut buffer = Vec::new();
+        reader
+            .read_to_end(&mut buffer)
+            .map_err(|error| crate::Error::new(error.to_string()))?;
+        let bytes = buffer.as_slice();
+        let file_type = file_types::from_bytes(bytes, None);
+        Ok(file_type)
     }
 
     /// Attempt to determine the `FileType` from a file.
@@ -189,8 +204,20 @@ impl FileType {
     /// assert_eq!(file_type.extensions(), vec!["png"]);
     /// assert_eq!(file_type.media_types(), vec!["image/png"]);
     /// ```
-    pub fn try_from_file<P: AsRef<std::path::Path>>(path: P) -> Result<&'static Self> {
-        file_types::try_from_file(path)
+    #[cfg(feature = "std")]
+    pub fn try_from_file<P: AsRef<std::path::Path>>(path: P) -> crate::Result<&'static Self> {
+        let path = path.as_ref();
+        let extension = path.extension().and_then(|ext| ext.to_str());
+        let file =
+            std::fs::File::open(path).map_err(|error| crate::Error::new(error.to_string()))?;
+        let mut reader = std::io::BufReader::new(file);
+        let mut buffer = Vec::new();
+        reader
+            .read_to_end(&mut buffer)
+            .map_err(|error| crate::Error::new(error.to_string()))?;
+        let bytes = buffer.as_slice();
+        let file_type = file_types::from_bytes(bytes, extension);
+        Ok(file_type)
     }
 }
 
@@ -213,18 +240,6 @@ mod tests {
     use alloc::string::String;
     use alloc::vec;
     use alloc::vec::Vec;
-    use std::path::PathBuf;
-
-    const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
-    const TEST_FILE_NAME: &str = "pronom-664-signature-0.png";
-
-    fn test_file_path() -> PathBuf {
-        PathBuf::from(CRATE_DIR)
-            .join("..")
-            .join("test_data")
-            .join("pronom")
-            .join(TEST_FILE_NAME)
-    }
 
     #[cfg(feature = "custom")]
     #[test]
@@ -293,8 +308,9 @@ mod tests {
         assert_eq!(file_type.media_types(), vec!["text/plain"]);
     }
 
+    #[cfg(feature = "std")]
     #[test]
-    fn test_try_from_reader() -> Result<()> {
+    fn test_try_from_reader() -> crate::Result<()> {
         let bytes = b"\xCA\xFE\xBA\xBE";
         let reader = std::io::BufReader::new(&bytes[..]);
         let file_type = FileType::try_from_reader(reader)?;
@@ -302,9 +318,15 @@ mod tests {
         Ok(())
     }
 
+    #[cfg(feature = "std")]
     #[test]
-    fn test_try_from_file() -> Result<()> {
-        let file_path = test_file_path();
+    fn test_try_from_file() -> crate::Result<()> {
+        let crate_dir = env!("CARGO_MANIFEST_DIR");
+        let file_path = std::path::PathBuf::from(crate_dir)
+            .join("..")
+            .join("test_data")
+            .join("pronom")
+            .join("pronom-664-signature-0.png");
         let file_type = FileType::try_from_file(file_path)?;
         assert_eq!(file_type.extensions(), vec!["png"]);
         assert_eq!(file_type.media_types(), vec!["image/png"]);
