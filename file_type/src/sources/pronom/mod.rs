@@ -1,4 +1,4 @@
-use crate::format::FileFormat;
+use crate::FileType;
 
 mod pronom_100;
 mod pronom_1000;
@@ -2464,7 +2464,7 @@ mod pronom_998;
 mod pronom_999;
 
 #[doc(hidden)]
-pub const FILE_FORMATS: &[&FileFormat] = &[
+pub const FILE_TYPES: &[&FileType] = &[
     &pronom_8::PRONOM_8,
     &pronom_11::PRONOM_11,
     &pronom_13::PRONOM_13,

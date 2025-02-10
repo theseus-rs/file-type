@@ -1566,7 +1566,9 @@ dependencies = [
 name = "source_generator"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "file_type",
+ "tracing",
 ]
 
 [[package]]

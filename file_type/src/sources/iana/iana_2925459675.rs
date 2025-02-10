@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_2925459675: FileFormat = FileFormat {
-    id: 2_925_459_675,
-    source_type: SourceType::Iana,
-    name: "pkix-attr-cert",
-    extensions: &[],
-    media_types: &["application/pkix-attr-cert"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_2925459675: FileType = FileType {
+    file_format: &FileFormat {
+        id: 2_925_459_675,
+        source_type: SourceType::Iana,
+        name: "pkix-attr-cert",
+        extensions: &[],
+        media_types: &["application/pkix-attr-cert"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

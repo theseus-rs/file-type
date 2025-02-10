@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_62561174: FileFormat = FileFormat {
-    id: 62_561_174,
-    source_type: SourceType::Wikidata,
-    name: "Pagemaker Document",
-    extensions: &["p65", "pmd", "pmt"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_62561174: FileType = FileType {
+    file_format: &FileFormat {
+        id: 62_561_174,
+        source_type: SourceType::Wikidata,
+        name: "Pagemaker Document",
+        extensions: &["p65", "pmd", "pmt"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,4 +1,4 @@
-use crate::format::FileFormat;
+use crate::FileType;
 
 mod wikidata_100135637;
 mod wikidata_100136218;
@@ -9423,6 +9423,8 @@ mod wikidata_132146755;
 mod wikidata_132155960;
 mod wikidata_132156163;
 mod wikidata_132156191;
+mod wikidata_132189411;
+mod wikidata_132189848;
 mod wikidata_1340077;
 mod wikidata_13422998;
 mod wikidata_13454995;
@@ -12665,7 +12667,7 @@ mod wikidata_99973606;
 mod wikidata_99976195;
 
 #[doc(hidden)]
-pub const FILE_FORMATS: &[&FileFormat] = &[
+pub const FILE_TYPES: &[&FileType] = &[
     &wikidata_2053::WIKIDATA_2053,
     &wikidata_2063::WIKIDATA_2063,
     &wikidata_2115::WIKIDATA_2115,
@@ -25329,4 +25331,6 @@ pub const FILE_FORMATS: &[&FileFormat] = &[
     &wikidata_132155960::WIKIDATA_132155960,
     &wikidata_132156163::WIKIDATA_132156163,
     &wikidata_132156191::WIKIDATA_132156191,
+    &wikidata_132189411::WIKIDATA_132189411,
+    &wikidata_132189848::WIKIDATA_132189848,
 ];

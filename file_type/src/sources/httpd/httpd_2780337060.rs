@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_2780337060: FileFormat = FileFormat {
-    id: 2_780_337_060,
-    source_type: SourceType::Httpd,
-    name: "mfer",
-    extensions: &["mwf"],
-    media_types: &["application/vnd.mfer"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_2780337060: FileType = FileType {
+    file_format: &FileFormat {
+        id: 2_780_337_060,
+        source_type: SourceType::Httpd,
+        name: "mfer",
+        extensions: &["mwf"],
+        media_types: &["application/vnd.mfer"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

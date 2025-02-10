@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_46118844: FileFormat = FileFormat {
-    id: 46_118_844,
-    source_type: SourceType::Wikidata,
-    name: "Lotus Freelance Smartmaster Graphics",
-    extensions: &["mas"],
-    media_types: &["application/vnd.lotus-freelance"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_46118844: FileType = FileType {
+    file_format: &FileFormat {
+        id: 46_118_844,
+        source_type: SourceType::Wikidata,
+        name: "Lotus Freelance Smartmaster Graphics",
+        extensions: &["mas"],
+        media_types: &["application/vnd.lotus-freelance"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

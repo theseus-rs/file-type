@@ -1,24 +1,24 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::FileType;
 
-pub(crate) const PRONOM_1461: FileFormat = FileFormat {
-    id: 1_461,
-    source_type: SourceType::Pronom,
-    name: "Panasonic Raw",
-    extensions: &["rw2"],
-    media_types: &[],
-    signatures: &[Signature {
-        byte_sequences: &[ByteSequence {
-            position_type: PositionType::BOF,
-            offset: Some(0),
-            regex: Regex {
-                tokens: &[Token::Literal(&[
-                    0x49, 0x49, 0x55, 0x00, 0x18, 0x00, 0x00, 0x00, 0x88, 0xE7, 0x74, 0xD8,
-                ])],
-            },
+pub(crate) const PRONOM_1461: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_461,
+        source_type: SourceType::Pronom,
+        name: "Panasonic Raw",
+        extensions: &["rw2"],
+        media_types: &[],
+        signatures: &[Signature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[
+                        0x49, 0x49, 0x55, 0x00, 0x18, 0x00, 0x00, 0x00, 0x88, 0xE7, 0x74, 0xD8,
+                    ])],
+                },
+            }],
         }],
-    }],
-    related_formats: &[],
+        related_formats: &[],
+    },
 };

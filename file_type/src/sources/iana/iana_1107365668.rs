@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_1107365668: FileFormat = FileFormat {
-    id: 1_107_365_668,
-    source_type: SourceType::Iana,
-    name: "vnd.oasis.opendocument.spreadsheet",
-    extensions: &[],
-    media_types: &["application/vnd.oasis.opendocument.spreadsheet"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_1107365668: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_107_365_668,
+        source_type: SourceType::Iana,
+        name: "vnd.oasis.opendocument.spreadsheet",
+        extensions: &[],
+        media_types: &["application/vnd.oasis.opendocument.spreadsheet"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

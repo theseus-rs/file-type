@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_119496138: FileFormat = FileFormat {
-    id: 119_496_138,
-    source_type: SourceType::Wikidata,
-    name: "WinFax format",
-    extensions: &["wfx"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_119496138: FileType = FileType {
+    file_format: &FileFormat {
+        id: 119_496_138,
+        source_type: SourceType::Wikidata,
+        name: "WinFax format",
+        extensions: &["wfx"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

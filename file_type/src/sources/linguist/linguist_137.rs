@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_137: FileFormat = FileFormat {
-    id: 137,
-    source_type: SourceType::Linguist,
-    name: "Grammatical Framework",
-    extensions: &["gf"],
-    media_types: &["text/x-haskell"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_137: FileType = FileType {
+    file_format: &FileFormat {
+        id: 137,
+        source_type: SourceType::Linguist,
+        name: "Grammatical Framework",
+        extensions: &["gf"],
+        media_types: &["text/x-haskell"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

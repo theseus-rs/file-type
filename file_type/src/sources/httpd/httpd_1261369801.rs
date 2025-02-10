@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_1261369801: FileFormat = FileFormat {
-    id: 1_261_369_801,
-    source_type: SourceType::Httpd,
-    name: "ogg",
-    extensions: &["ogx"],
-    media_types: &["application/ogg"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_1261369801: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_261_369_801,
+        source_type: SourceType::Httpd,
+        name: "ogg",
+        extensions: &["ogx"],
+        media_types: &["application/ogg"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

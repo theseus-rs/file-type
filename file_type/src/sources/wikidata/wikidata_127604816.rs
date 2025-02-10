@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_127604816: FileFormat = FileFormat {
-    id: 127_604_816,
-    source_type: SourceType::Wikidata,
-    name: "AMPL model file",
-    extensions: &["mod"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_127604816: FileType = FileType {
+    file_format: &FileFormat {
+        id: 127_604_816,
+        source_type: SourceType::Wikidata,
+        name: "AMPL model file",
+        extensions: &["mod"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

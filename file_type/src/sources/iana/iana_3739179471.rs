@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3739179471: FileFormat = FileFormat {
-    id: 3_739_179_471,
-    source_type: SourceType::Iana,
-    name: "dskpp+xml",
-    extensions: &[],
-    media_types: &["application/dskpp+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3739179471: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_739_179_471,
+        source_type: SourceType::Iana,
+        name: "dskpp+xml",
+        extensions: &[],
+        media_types: &["application/dskpp+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

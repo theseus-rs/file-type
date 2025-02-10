@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_1392872326: FileFormat = FileFormat {
-    id: 1_392_872_326,
-    source_type: SourceType::Iana,
-    name: "route-apd+xml",
-    extensions: &[],
-    media_types: &["application/route-apd+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_1392872326: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_392_872_326,
+        source_type: SourceType::Iana,
+        name: "route-apd+xml",
+        extensions: &[],
+        media_types: &["application/route-apd+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,14 +1,14 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_926: FileFormat = FileFormat {
-    id: 926,
-    source_type: SourceType::Pronom,
-    name: "Mathematica Notebook",
-    extensions: &["nb"],
-    media_types: &["application/mathematica"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const PRONOM_926: FileType = FileType {
+    file_format: &FileFormat {
+        id: 926,
+        source_type: SourceType::Pronom,
+        name: "Mathematica Notebook",
+        extensions: &["nb"],
+        media_types: &["application/mathematica"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

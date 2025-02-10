@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_2395536891: FileFormat = FileFormat {
-    id: 2_395_536_891,
-    source_type: SourceType::Httpd,
-    name: "ms ims",
-    extensions: &["ims"],
-    media_types: &["application/vnd.ms-ims"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_2395536891: FileType = FileType {
+    file_format: &FileFormat {
+        id: 2_395_536_891,
+        source_type: SourceType::Httpd,
+        name: "ms ims",
+        extensions: &["ims"],
+        media_types: &["application/vnd.ms-ims"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_228: FileFormat = FileFormat {
-    id: 228,
-    source_type: SourceType::Linguist,
-    name: "Wikitext",
-    extensions: &["mediawiki", "wiki", "wikitext"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_228: FileType = FileType {
+    file_format: &FileFormat {
+        id: 228,
+        source_type: SourceType::Linguist,
+        name: "Wikitext",
+        extensions: &["mediawiki", "wiki", "wikitext"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

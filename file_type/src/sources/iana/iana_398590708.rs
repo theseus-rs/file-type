@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_398590708: FileFormat = FileFormat {
-    id: 398_590_708,
-    source_type: SourceType::Iana,
-    name: "vnd.oma.bcast.drm-trigger+xml",
-    extensions: &[],
-    media_types: &["application/vnd.oma.bcast.drm-trigger+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_398590708: FileType = FileType {
+    file_format: &FileFormat {
+        id: 398_590_708,
+        source_type: SourceType::Iana,
+        name: "vnd.oma.bcast.drm-trigger+xml",
+        extensions: &[],
+        media_types: &["application/vnd.oma.bcast.drm-trigger+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

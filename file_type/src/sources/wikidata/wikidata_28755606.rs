@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_28755606: FileFormat = FileFormat {
-    id: 28_755_606,
-    source_type: SourceType::Wikidata,
-    name: "Exact Yearbook DAT file",
-    extensions: &["dat"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_28755606: FileType = FileType {
+    file_format: &FileFormat {
+        id: 28_755_606,
+        source_type: SourceType::Wikidata,
+        name: "Exact Yearbook DAT file",
+        extensions: &["dat"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

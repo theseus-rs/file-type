@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_20191913: FileFormat = FileFormat {
-    id: 20_191_913,
-    source_type: SourceType::Wikidata,
-    name: "Apple Help File Format",
-    extensions: &["lproj"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_20191913: FileType = FileType {
+    file_format: &FileFormat {
+        id: 20_191_913,
+        source_type: SourceType::Wikidata,
+        name: "Apple Help File Format",
+        extensions: &["lproj"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

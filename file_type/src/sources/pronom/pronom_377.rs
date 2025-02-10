@@ -1,14 +1,14 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_377: FileFormat = FileFormat {
-    id: 377,
-    source_type: SourceType::Pronom,
-    name: "Microsoft Visio Drawing",
-    extensions: &[],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const PRONOM_377: FileType = FileType {
+    file_format: &FileFormat {
+        id: 377,
+        source_type: SourceType::Pronom,
+        name: "Microsoft Visio Drawing",
+        extensions: &[],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_59851506: FileFormat = FileFormat {
-    id: 59_851_506,
-    source_type: SourceType::Wikidata,
-    name: "DROID File Collection File Format",
-    extensions: &["xml"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_59851506: FileType = FileType {
+    file_format: &FileFormat {
+        id: 59_851_506,
+        source_type: SourceType::Wikidata,
+        name: "DROID File Collection File Format",
+        extensions: &["xml"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

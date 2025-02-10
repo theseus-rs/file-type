@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_130736862: FileFormat = FileFormat {
-    id: 130_736_862,
-    source_type: SourceType::Wikidata,
-    name: "Scalate Server Page file",
-    extensions: &["ssp"],
-    media_types: &["application/x-ssp"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_130736862: FileType = FileType {
+    file_format: &FileFormat {
+        id: 130_736_862,
+        source_type: SourceType::Wikidata,
+        name: "Scalate Server Page file",
+        extensions: &["ssp"],
+        media_types: &["application/x-ssp"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_248: FileFormat = FileFormat {
-    id: 248,
-    source_type: SourceType::Linguist,
-    name: "Nginx",
-    extensions: &["nginx", "nginxconf", "vhost"],
-    media_types: &["text/x-nginx-conf"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_248: FileType = FileType {
+    file_format: &FileFormat {
+        id: 248,
+        source_type: SourceType::Linguist,
+        name: "Nginx",
+        extensions: &["nginx", "nginxconf", "vhost"],
+        media_types: &["text/x-nginx-conf"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_27967191: FileFormat = FileFormat {
-    id: 27_967_191,
-    source_type: SourceType::Wikidata,
-    name: "Grave Composer module",
-    extensions: &["wow"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_27967191: FileType = FileType {
+    file_format: &FileFormat {
+        id: 27_967_191,
+        source_type: SourceType::Wikidata,
+        name: "Grave Composer module",
+        extensions: &["wow"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

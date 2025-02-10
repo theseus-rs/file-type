@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_81265970: FileFormat = FileFormat {
-    id: 81_265_970,
-    source_type: SourceType::Linguist,
-    name: "Vim Snippet",
-    extensions: &["snip", "snippet", "snippets"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_81265970: FileType = FileType {
+    file_format: &FileFormat {
+        id: 81_265_970,
+        source_type: SourceType::Linguist,
+        name: "Vim Snippet",
+        extensions: &["snip", "snippet", "snippets"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3732056058: FileFormat = FileFormat {
-    id: 3_732_056_058,
-    source_type: SourceType::Iana,
-    name: "vnd.openxmlformats-officedocument.drawingml.diagramData+xml",
-    extensions: &[],
-    media_types: &["application/vnd.openxmlformats-officedocument.drawingml.diagramData+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3732056058: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_732_056_058,
+        source_type: SourceType::Iana,
+        name: "vnd.openxmlformats-officedocument.drawingml.diagramData+xml",
+        extensions: &[],
+        media_types: &["application/vnd.openxmlformats-officedocument.drawingml.diagramData+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

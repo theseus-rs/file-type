@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_124970024: FileFormat = FileFormat {
-    id: 124_970_024,
-    source_type: SourceType::Wikidata,
-    name: "MIX metadata file",
-    extensions: &["mixmeta"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_124970024: FileType = FileType {
+    file_format: &FileFormat {
+        id: 124_970_024,
+        source_type: SourceType::Wikidata,
+        name: "MIX metadata file",
+        extensions: &["mixmeta"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

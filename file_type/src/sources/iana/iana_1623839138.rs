@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_1623839138: FileFormat = FileFormat {
-    id: 1_623_839_138,
-    source_type: SourceType::Iana,
-    name: "1d-interleaved-parityfec",
-    extensions: &[],
-    media_types: &["text/1d-interleaved-parityfec"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_1623839138: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_623_839_138,
+        source_type: SourceType::Iana,
+        name: "1d-interleaved-parityfec",
+        extensions: &[],
+        media_types: &["text/1d-interleaved-parityfec"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

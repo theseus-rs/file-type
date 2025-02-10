@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_1283475108: FileFormat = FileFormat {
-    id: 1_283_475_108,
-    source_type: SourceType::Iana,
-    name: "prs.alvestrand.titrax-sheet",
-    extensions: &[],
-    media_types: &["application/prs.alvestrand.titrax-sheet"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_1283475108: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_283_475_108,
+        source_type: SourceType::Iana,
+        name: "prs.alvestrand.titrax-sheet",
+        extensions: &[],
+        media_types: &["application/prs.alvestrand.titrax-sheet"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

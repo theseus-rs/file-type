@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_130357389: FileFormat = FileFormat {
-    id: 130_357_389,
-    source_type: SourceType::Wikidata,
-    name: "MOOCode file format",
-    extensions: &["moo"],
-    media_types: &["text/x-moocode"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_130357389: FileType = FileType {
+    file_format: &FileFormat {
+        id: 130_357_389,
+        source_type: SourceType::Wikidata,
+        name: "MOOCode file format",
+        extensions: &["moo"],
+        media_types: &["text/x-moocode"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

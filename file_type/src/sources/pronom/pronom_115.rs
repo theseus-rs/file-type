@@ -1,14 +1,14 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_115: FileFormat = FileFormat {
-    id: 115,
-    source_type: SourceType::Pronom,
-    name: "Microsoft Outlook Address Book",
-    extensions: &["olk"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const PRONOM_115: FileType = FileType {
+    file_format: &FileFormat {
+        id: 115,
+        source_type: SourceType::Pronom,
+        name: "Microsoft Outlook Address Book",
+        extensions: &["olk"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

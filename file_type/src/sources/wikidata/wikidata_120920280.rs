@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_120920280: FileFormat = FileFormat {
-    id: 120_920_280,
-    source_type: SourceType::Wikidata,
-    name: "Microsoft Money 2002 data",
-    extensions: &["m10"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_120920280: FileType = FileType {
+    file_format: &FileFormat {
+        id: 120_920_280,
+        source_type: SourceType::Wikidata,
+        name: "Microsoft Money 2002 data",
+        extensions: &["m10"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

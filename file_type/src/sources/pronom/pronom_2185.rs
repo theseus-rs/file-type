@@ -1,14 +1,14 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_2185: FileFormat = FileFormat {
-    id: 2_185,
-    source_type: SourceType::Pronom,
-    name: "GeoJSON",
-    extensions: &["geojson"],
-    media_types: &["application/geo+json"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const PRONOM_2185: FileType = FileType {
+    file_format: &FileFormat {
+        id: 2_185,
+        source_type: SourceType::Pronom,
+        name: "GeoJSON",
+        extensions: &["geojson"],
+        media_types: &["application/geo+json"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

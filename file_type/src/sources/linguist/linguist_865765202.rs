@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_865765202: FileFormat = FileFormat {
-    id: 865_765_202,
-    source_type: SourceType::Linguist,
-    name: "Record Jar",
-    extensions: &[],
-    media_types: &["text/x-properties"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_865765202: FileType = FileType {
+    file_format: &FileFormat {
+        id: 865_765_202,
+        source_type: SourceType::Linguist,
+        name: "Record Jar",
+        extensions: &[],
+        media_types: &["text/x-properties"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

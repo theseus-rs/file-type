@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3297666299: FileFormat = FileFormat {
-    id: 3_297_666_299,
-    source_type: SourceType::Iana,
-    name: "vnd.afpc.modca-formdef",
-    extensions: &[],
-    media_types: &["application/vnd.afpc.modca-formdef"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3297666299: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_297_666_299,
+        source_type: SourceType::Iana,
+        name: "vnd.afpc.modca-formdef",
+        extensions: &[],
+        media_types: &["application/vnd.afpc.modca-formdef"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

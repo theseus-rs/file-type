@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_94994568: FileFormat = FileFormat {
-    id: 94_994_568,
-    source_type: SourceType::Wikidata,
-    name: "Adobe InDesign ICML",
-    extensions: &["icml"],
-    media_types: &["application/x-indesign"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_94994568: FileType = FileType {
+    file_format: &FileFormat {
+        id: 94_994_568,
+        source_type: SourceType::Wikidata,
+        name: "Adobe InDesign ICML",
+        extensions: &["icml"],
+        media_types: &["application/x-indesign"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

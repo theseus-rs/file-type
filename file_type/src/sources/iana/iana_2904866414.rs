@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_2904866414: FileFormat = FileFormat {
-    id: 2_904_866_414,
-    source_type: SourceType::Iana,
-    name: "vnd.jisp",
-    extensions: &[],
-    media_types: &["application/vnd.jisp"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_2904866414: FileType = FileType {
+    file_format: &FileFormat {
+        id: 2_904_866_414,
+        source_type: SourceType::Iana,
+        name: "vnd.jisp",
+        extensions: &[],
+        media_types: &["application/vnd.jisp"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

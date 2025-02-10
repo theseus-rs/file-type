@@ -1,17 +1,17 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, RelatedFormat, RelationshipType, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_1428: FileFormat = FileFormat {
-    id: 1_428,
-    source_type: SourceType::Pronom,
-    name: "Microsoft PowerPoint Show",
-    extensions: &["ppsx"],
-    media_types: &["application/vnd.openxmlformats-officedocument.presentationml.slideshow"],
-    signatures: &[],
-    related_formats: &[RelatedFormat {
-        relationship_type: RelationshipType::IsSubtypeOf,
-        id: 941,
-    }],
+pub(crate) const PRONOM_1428: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_428,
+        source_type: SourceType::Pronom,
+        name: "Microsoft PowerPoint Show",
+        extensions: &["ppsx"],
+        media_types: &["application/vnd.openxmlformats-officedocument.presentationml.slideshow"],
+        signatures: &[],
+        related_formats: &[RelatedFormat {
+            relationship_type: RelationshipType::IsSubtypeOf,
+            id: 941,
+        }],
+    },
 };

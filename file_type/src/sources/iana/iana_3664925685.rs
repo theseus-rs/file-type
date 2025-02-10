@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3664925685: FileFormat = FileFormat {
-    id: 3_664_925_685,
-    source_type: SourceType::Iana,
-    name: "vnd.espass-espass+zip",
-    extensions: &[],
-    media_types: &["application/vnd.espass-espass+zip"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3664925685: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_664_925_685,
+        source_type: SourceType::Iana,
+        name: "vnd.espass-espass+zip",
+        extensions: &[],
+        media_types: &["application/vnd.espass-espass+zip"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

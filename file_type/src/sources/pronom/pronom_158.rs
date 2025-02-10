@@ -1,14 +1,14 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_158: FileFormat = FileFormat {
-    id: 158,
-    source_type: SourceType::Pronom,
-    name: "Scalable Vector Graphics Compressed",
-    extensions: &["svgz"],
-    media_types: &["image/svg+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const PRONOM_158: FileType = FileType {
+    file_format: &FileFormat {
+        id: 158,
+        source_type: SourceType::Pronom,
+        name: "Scalable Vector Graphics Compressed",
+        extensions: &["svgz"],
+        media_types: &["image/svg+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

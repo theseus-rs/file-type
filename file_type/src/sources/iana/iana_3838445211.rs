@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3838445211: FileFormat = FileFormat {
-    id: 3_838_445_211,
-    source_type: SourceType::Iana,
-    name: "vnd.ipld.raw",
-    extensions: &[],
-    media_types: &["application/vnd.ipld.raw"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3838445211: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_838_445_211,
+        source_type: SourceType::Iana,
+        name: "vnd.ipld.raw",
+        extensions: &[],
+        media_types: &["application/vnd.ipld.raw"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

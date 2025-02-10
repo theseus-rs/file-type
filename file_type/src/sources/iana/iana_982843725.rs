@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_982843725: FileFormat = FileFormat {
-    id: 982_843_725,
-    source_type: SourceType::Iana,
-    name: "rdf+xml",
-    extensions: &[],
-    media_types: &["application/rdf+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_982843725: FileType = FileType {
+    file_format: &FileFormat {
+        id: 982_843_725,
+        source_type: SourceType::Iana,
+        name: "rdf+xml",
+        extensions: &[],
+        media_types: &["application/rdf+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

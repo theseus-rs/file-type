@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_234763682: FileFormat = FileFormat {
-    id: 234_763_682,
-    source_type: SourceType::Iana,
-    name: "vnd.balsamiq.bmpr",
-    extensions: &[],
-    media_types: &["application/vnd.balsamiq.bmpr"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_234763682: FileType = FileType {
+    file_format: &FileFormat {
+        id: 234_763_682,
+        source_type: SourceType::Iana,
+        name: "vnd.balsamiq.bmpr",
+        extensions: &[],
+        media_types: &["application/vnd.balsamiq.bmpr"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

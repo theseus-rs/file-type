@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_48782238: FileFormat = FileFormat {
-    id: 48_782_238,
-    source_type: SourceType::Wikidata,
-    name: "Microsoft Word for MS-DOS Document, version 5",
-    extensions: &["doc"],
-    media_types: &["application/msword"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_48782238: FileType = FileType {
+    file_format: &FileFormat {
+        id: 48_782_238,
+        source_type: SourceType::Wikidata,
+        name: "Microsoft Word for MS-DOS Document, version 5",
+        extensions: &["doc"],
+        media_types: &["application/msword"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

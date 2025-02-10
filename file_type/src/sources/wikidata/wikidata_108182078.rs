@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_108182078: FileFormat = FileFormat {
-    id: 108_182_078,
-    source_type: SourceType::Wikidata,
-    name: "Android App Bundle",
-    extensions: &["aab"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_108182078: FileType = FileType {
+    file_format: &FileFormat {
+        id: 108_182_078,
+        source_type: SourceType::Wikidata,
+        name: "Android App Bundle",
+        extensions: &["aab"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

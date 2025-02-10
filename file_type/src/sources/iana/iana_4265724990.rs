@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_4265724990: FileFormat = FileFormat {
-    id: 4_265_724_990,
-    source_type: SourceType::Iana,
-    name: "vnd.gentoo.ebuild",
-    extensions: &[],
-    media_types: &["application/vnd.gentoo.ebuild"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_4265724990: FileType = FileType {
+    file_format: &FileFormat {
+        id: 4_265_724_990,
+        source_type: SourceType::Iana,
+        name: "vnd.gentoo.ebuild",
+        extensions: &[],
+        media_types: &["application/vnd.gentoo.ebuild"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

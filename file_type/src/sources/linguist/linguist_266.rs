@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_266: FileFormat = FileFormat {
-    id: 266,
-    source_type: SourceType::Linguist,
-    name: "OpenSCAD",
-    extensions: &["scad"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_266: FileType = FileType {
+    file_format: &FileFormat {
+        id: 266,
+        source_type: SourceType::Linguist,
+        name: "OpenSCAD",
+        extensions: &["scad"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

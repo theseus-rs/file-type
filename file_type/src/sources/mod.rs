@@ -1,4 +1,4 @@
-use crate::format::FileFormat;
+use crate::FileType;
 
 #[cfg(feature = "custom")]
 #[doc(hidden)]
@@ -21,22 +21,22 @@ pub mod pronom;
 #[doc(hidden)]
 pub mod wikidata;
 
-/// Returns an iterator over all enabled file formats.
+/// Returns an iterator over all enabled file types.
 #[doc(hidden)]
-pub fn file_formats() -> impl Iterator<Item = &'static FileFormat> {
-    let chained = default::FILE_FORMATS.iter().copied();
+pub fn file_types() -> impl Iterator<Item = &'static FileType> {
+    let chained = default::FILE_TYPES.iter().copied();
     #[cfg(feature = "custom")]
-    let chained = chained.chain(custom::FILE_FORMATS.iter().copied());
+    let chained = chained.chain(custom::FILE_TYPES.iter().copied());
     #[cfg(feature = "httpd")]
-    let chained = chained.chain(httpd::FILE_FORMATS.iter().copied());
+    let chained = chained.chain(httpd::FILE_TYPES.iter().copied());
     #[cfg(feature = "iana")]
-    let chained = chained.chain(iana::FILE_FORMATS.iter().copied());
+    let chained = chained.chain(iana::FILE_TYPES.iter().copied());
     #[cfg(feature = "linguist")]
-    let chained = chained.chain(linguist::FILE_FORMATS.iter().copied());
+    let chained = chained.chain(linguist::FILE_TYPES.iter().copied());
     #[cfg(feature = "pronom")]
-    let chained = chained.chain(pronom::FILE_FORMATS.iter().copied());
+    let chained = chained.chain(pronom::FILE_TYPES.iter().copied());
     #[cfg(feature = "wikidata")]
-    let chained = chained.chain(wikidata::FILE_FORMATS.iter().copied());
+    let chained = chained.chain(wikidata::FILE_TYPES.iter().copied());
 
     chained
 }
@@ -47,8 +47,8 @@ mod tests {
     use alloc::vec::Vec;
 
     #[test]
-    fn test_file_formats() {
-        let file_formats: Vec<&FileFormat> = file_formats().collect();
+    fn test_file_types() {
+        let file_formats: Vec<&FileType> = file_types().collect();
         assert!(!file_formats.is_empty());
     }
 }

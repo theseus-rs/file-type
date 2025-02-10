@@ -1,4 +1,4 @@
-use crate::format::{FileFormat, RelationshipType, SourceType};
+use crate::format::{FileFormat, SourceType};
 use crate::{file_types, Result};
 use core::cmp::Ordering;
 

@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_3145740509: FileFormat = FileFormat {
-    id: 3_145_740_509,
-    source_type: SourceType::Httpd,
-    name: "umajin",
-    extensions: &["umj"],
-    media_types: &["application/vnd.umajin"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_3145740509: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_145_740_509,
+        source_type: SourceType::Httpd,
+        name: "umajin",
+        extensions: &["umj"],
+        media_types: &["application/vnd.umajin"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

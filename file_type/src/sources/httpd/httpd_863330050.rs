@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_863330050: FileFormat = FileFormat {
-    id: 863_330_050,
-    source_type: SourceType::Httpd,
-    name: "hdf",
-    extensions: &["hdf"],
-    media_types: &["application/x-hdf"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_863330050: FileType = FileType {
+    file_format: &FileFormat {
+        id: 863_330_050,
+        source_type: SourceType::Httpd,
+        name: "hdf",
+        extensions: &["hdf"],
+        media_types: &["application/x-hdf"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

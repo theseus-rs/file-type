@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_95999881: FileFormat = FileFormat {
-    id: 95_999_881,
-    source_type: SourceType::Wikidata,
-    name: "NDK seismographic data format",
-    extensions: &["ndk"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_95999881: FileType = FileType {
+    file_format: &FileFormat {
+        id: 95_999_881,
+        source_type: SourceType::Wikidata,
+        name: "NDK seismographic data format",
+        extensions: &["ndk"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,14 +1,14 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_104: FileFormat = FileFormat {
-    id: 104,
-    source_type: SourceType::Pronom,
-    name: "AutoLISP File",
-    extensions: &["lsp"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const PRONOM_104: FileType = FileType {
+    file_format: &FileFormat {
+        id: 104,
+        source_type: SourceType::Pronom,
+        name: "AutoLISP File",
+        extensions: &["lsp"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

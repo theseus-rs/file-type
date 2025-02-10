@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_559288930: FileFormat = FileFormat {
-    id: 559_288_930,
-    source_type: SourceType::Iana,
-    name: "vnd.ms-powerpoint.addin.macroEnabled.12",
-    extensions: &[],
-    media_types: &["application/vnd.ms-powerpoint.addin.macroEnabled.12"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_559288930: FileType = FileType {
+    file_format: &FileFormat {
+        id: 559_288_930,
+        source_type: SourceType::Iana,
+        name: "vnd.ms-powerpoint.addin.macroEnabled.12",
+        extensions: &[],
+        media_types: &["application/vnd.ms-powerpoint.addin.macroEnabled.12"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

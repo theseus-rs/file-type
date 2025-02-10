@@ -3,7 +3,6 @@ use alloc::boxed::Box;
 use alloc::format;
 use alloc::string::{String, ToString};
 use alloc::vec::Vec;
-use core::cmp::Ordering;
 use core::fmt::Display;
 use core::str::from_utf8;
 
@@ -528,7 +527,6 @@ impl Display for Regex {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use core::fmt;
 
     #[test]
     fn test_token_display_any() {

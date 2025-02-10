@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_131850479: FileFormat = FileFormat {
-    id: 131_850_479,
-    source_type: SourceType::Wikidata,
-    name: "OpenVDB file format",
-    extensions: &["vdb"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_131850479: FileType = FileType {
+    file_format: &FileFormat {
+        id: 131_850_479,
+        source_type: SourceType::Wikidata,
+        name: "OpenVDB file format",
+        extensions: &["vdb"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

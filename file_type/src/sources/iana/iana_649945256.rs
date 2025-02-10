@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_649945256: FileFormat = FileFormat {
-    id: 649_945_256,
-    source_type: SourceType::Iana,
-    name: "vnd.frogans.ltf (OBSOLETE)",
-    extensions: &[],
-    media_types: &["application/vnd.frogans.ltf"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_649945256: FileType = FileType {
+    file_format: &FileFormat {
+        id: 649_945_256,
+        source_type: SourceType::Iana,
+        name: "vnd.frogans.ltf (OBSOLETE)",
+        extensions: &[],
+        media_types: &["application/vnd.frogans.ltf"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

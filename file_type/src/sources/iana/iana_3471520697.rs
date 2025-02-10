@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3471520697: FileFormat = FileFormat {
-    id: 3_471_520_697,
-    source_type: SourceType::Iana,
-    name: "vnd.uplanet.channel-wbxml",
-    extensions: &[],
-    media_types: &["application/vnd.uplanet.channel-wbxml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3471520697: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_471_520_697,
+        source_type: SourceType::Iana,
+        name: "vnd.uplanet.channel-wbxml",
+        extensions: &[],
+        media_types: &["application/vnd.uplanet.channel-wbxml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

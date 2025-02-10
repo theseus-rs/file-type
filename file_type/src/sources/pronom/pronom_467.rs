@@ -1,22 +1,22 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::FileType;
 
-pub(crate) const PRONOM_467: FileFormat = FileFormat {
-    id: 467,
-    source_type: SourceType::Pronom,
-    name: "ChiWriter Document",
-    extensions: &["chi"],
-    media_types: &[],
-    signatures: &[Signature {
-        byte_sequences: &[ByteSequence {
-            position_type: PositionType::BOF,
-            offset: Some(0),
-            regex: Regex {
-                tokens: &[Token::Literal(&[0x5C, 0x31, 0x63, 0x77, 0x20, 0x33, 0x2E])],
-            },
+pub(crate) const PRONOM_467: FileType = FileType {
+    file_format: &FileFormat {
+        id: 467,
+        source_type: SourceType::Pronom,
+        name: "ChiWriter Document",
+        extensions: &["chi"],
+        media_types: &[],
+        signatures: &[Signature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x5C, 0x31, 0x63, 0x77, 0x20, 0x33, 0x2E])],
+                },
+            }],
         }],
-    }],
-    related_formats: &[],
+        related_formats: &[],
+    },
 };

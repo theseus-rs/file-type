@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3841788090: FileFormat = FileFormat {
-    id: 3_841_788_090,
-    source_type: SourceType::Iana,
-    name: "vnd.arastra.swi (OBSOLETED in favor of application/vnd.aristanetworks.swi)",
-    extensions: &[],
-    media_types: &["application/vnd.arastra.swi"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3841788090: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_841_788_090,
+        source_type: SourceType::Iana,
+        name: "vnd.arastra.swi (OBSOLETED in favor of application/vnd.aristanetworks.swi)",
+        extensions: &[],
+        media_types: &["application/vnd.arastra.swi"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

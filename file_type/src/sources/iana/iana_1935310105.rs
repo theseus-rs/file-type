@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_1935310105: FileFormat = FileFormat {
-    id: 1_935_310_105,
-    source_type: SourceType::Iana,
-    name: "vnd.etsi.aoc+xml",
-    extensions: &[],
-    media_types: &["application/vnd.etsi.aoc+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_1935310105: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_935_310_105,
+        source_type: SourceType::Iana,
+        name: "vnd.etsi.aoc+xml",
+        extensions: &[],
+        media_types: &["application/vnd.etsi.aoc+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

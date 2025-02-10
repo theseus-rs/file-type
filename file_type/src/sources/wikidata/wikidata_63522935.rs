@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_63522935: FileFormat = FileFormat {
-    id: 63_522_935,
-    source_type: SourceType::Wikidata,
-    name: "Parametric Technology Pro/ENGINEER File Format",
-    extensions: &["prt"],
-    media_types: &["application/pro_eng"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_63522935: FileType = FileType {
+    file_format: &FileFormat {
+        id: 63_522_935,
+        source_type: SourceType::Wikidata,
+        name: "Parametric Technology Pro/ENGINEER File Format",
+        extensions: &["prt"],
+        media_types: &["application/pro_eng"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

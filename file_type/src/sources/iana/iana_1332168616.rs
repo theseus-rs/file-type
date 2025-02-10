@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_1332168616: FileFormat = FileFormat {
-    id: 1_332_168_616,
-    source_type: SourceType::Iana,
-    name: "vnd.ms-playready.initiator+xml",
-    extensions: &[],
-    media_types: &["application/vnd.ms-playready.initiator+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_1332168616: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_332_168_616,
+        source_type: SourceType::Iana,
+        name: "vnd.ms-playready.initiator+xml",
+        extensions: &[],
+        media_types: &["application/vnd.ms-playready.initiator+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

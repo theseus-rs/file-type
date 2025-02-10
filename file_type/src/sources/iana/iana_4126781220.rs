@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_4126781220: FileFormat = FileFormat {
-    id: 4_126_781_220,
-    source_type: SourceType::Iana,
-    name: "vnd.nokia.catalogs",
-    extensions: &[],
-    media_types: &["application/vnd.nokia.catalogs"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_4126781220: FileType = FileType {
+    file_format: &FileFormat {
+        id: 4_126_781_220,
+        source_type: SourceType::Iana,
+        name: "vnd.nokia.catalogs",
+        extensions: &[],
+        media_types: &["application/vnd.nokia.catalogs"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

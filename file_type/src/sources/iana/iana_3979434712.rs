@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3979434712: FileFormat = FileFormat {
-    id: 3_979_434_712,
-    source_type: SourceType::Iana,
-    name: "heif",
-    extensions: &[],
-    media_types: &["image/heif"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3979434712: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_979_434_712,
+        source_type: SourceType::Iana,
+        name: "heif",
+        extensions: &[],
+        media_types: &["image/heif"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

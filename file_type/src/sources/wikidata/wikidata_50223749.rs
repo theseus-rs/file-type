@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_50223749: FileFormat = FileFormat {
-    id: 50_223_749,
-    source_type: SourceType::Wikidata,
-    name: "compressed MusicXML",
-    extensions: &["mxl"],
-    media_types: &["application/vnd.recordare.musicxml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_50223749: FileType = FileType {
+    file_format: &FileFormat {
+        id: 50_223_749,
+        source_type: SourceType::Wikidata,
+        name: "compressed MusicXML",
+        extensions: &["mxl"],
+        media_types: &["application/vnd.recordare.musicxml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_111283532: FileFormat = FileFormat {
-    id: 111_283_532,
-    source_type: SourceType::Wikidata,
-    name: "Casio FZ-1 bank dump format",
-    extensions: &["fzb"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_111283532: FileType = FileType {
+    file_format: &FileFormat {
+        id: 111_283_532,
+        source_type: SourceType::Wikidata,
+        name: "Casio FZ-1 bank dump format",
+        extensions: &["fzb"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

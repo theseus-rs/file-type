@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3212002651: FileFormat = FileFormat {
-    id: 3_212_002_651,
-    source_type: SourceType::Iana,
-    name: "vnd.yaoweme",
-    extensions: &[],
-    media_types: &["application/vnd.yaoweme"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3212002651: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_212_002_651,
+        source_type: SourceType::Iana,
+        name: "vnd.yaoweme",
+        extensions: &[],
+        media_types: &["application/vnd.yaoweme"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

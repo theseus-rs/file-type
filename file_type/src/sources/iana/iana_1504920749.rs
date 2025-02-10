@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_1504920749: FileFormat = FileFormat {
-    id: 1_504_920_749,
-    source_type: SourceType::Iana,
-    name: "vnd.google-earth.kml+xml",
-    extensions: &[],
-    media_types: &["application/vnd.google-earth.kml+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_1504920749: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_504_920_749,
+        source_type: SourceType::Iana,
+        name: "vnd.google-earth.kml+xml",
+        extensions: &[],
+        media_types: &["application/vnd.google-earth.kml+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

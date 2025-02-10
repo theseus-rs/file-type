@@ -1,15 +1,18 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_777561: FileFormat = FileFormat {
-    id: 777_561,
-    source_type: SourceType::Wikidata,
-    name: "BinHex",
-    extensions: &["hcx", "hex", "hqx"],
-    media_types: &[
-        "application/binhex",
-        "application/mac-binhex",
-        "application/mac-binhex40",
-    ],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_777561: FileType = FileType {
+    file_format: &FileFormat {
+        id: 777_561,
+        source_type: SourceType::Wikidata,
+        name: "BinHex",
+        extensions: &["hcx", "hex", "hqx"],
+        media_types: &[
+            "application/binhex",
+            "application/mac-binhex",
+            "application/mac-binhex40",
+        ],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

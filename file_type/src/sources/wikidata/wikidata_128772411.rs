@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_128772411: FileFormat = FileFormat {
-    id: 128_772_411,
-    source_type: SourceType::Wikidata,
-    name: "ClojureScript file format",
-    extensions: &["cljs"],
-    media_types: &["application/x-clojurescript", "text/x-clojurescript"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_128772411: FileType = FileType {
+    file_format: &FileFormat {
+        id: 128_772_411,
+        source_type: SourceType::Wikidata,
+        name: "ClojureScript file format",
+        extensions: &["cljs"],
+        media_types: &["application/x-clojurescript", "text/x-clojurescript"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

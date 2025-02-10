@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_939688699: FileFormat = FileFormat {
-    id: 939_688_699,
-    source_type: SourceType::Iana,
-    name: "ogg",
-    extensions: &[],
-    media_types: &["video/ogg"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_939688699: FileType = FileType {
+    file_format: &FileFormat {
+        id: 939_688_699,
+        source_type: SourceType::Iana,
+        name: "ogg",
+        extensions: &[],
+        media_types: &["video/ogg"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

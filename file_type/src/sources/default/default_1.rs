@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const DEFAULT_1: FileFormat = FileFormat {
-    id: 1,
-    source_type: SourceType::Default,
-    name: "Binary",
-    extensions: &[],
-    media_types: &["application/octet-stream"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const DEFAULT_1: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1,
+        source_type: SourceType::Default,
+        name: "Binary",
+        extensions: &[],
+        media_types: &["application/octet-stream"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

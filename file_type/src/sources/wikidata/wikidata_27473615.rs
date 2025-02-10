@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_27473615: FileFormat = FileFormat {
-    id: 27_473_615,
-    source_type: SourceType::Wikidata,
-    name: "Band Interleaved by Line Image File",
-    extensions: &["bil"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_27473615: FileType = FileType {
+    file_format: &FileFormat {
+        id: 27_473_615,
+        source_type: SourceType::Wikidata,
+        name: "Band Interleaved by Line Image File",
+        extensions: &["bil"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

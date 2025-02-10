@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_72961170: FileFormat = FileFormat {
-    id: 72_961_170,
-    source_type: SourceType::Wikidata,
-    name: "Prescription Drug Event format",
-    extensions: &["pde"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_72961170: FileType = FileType {
+    file_format: &FileFormat {
+        id: 72_961_170,
+        source_type: SourceType::Wikidata,
+        name: "Prescription Drug Event format",
+        extensions: &["pde"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

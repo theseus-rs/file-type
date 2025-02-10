@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_130530984: FileFormat = FileFormat {
-    id: 130_530_984,
-    source_type: SourceType::Wikidata,
-    name: "Promela file format",
-    extensions: &["pm", "pml", "pr", "prm", "prom", "promela"],
-    media_types: &["text/x-promela"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_130530984: FileType = FileType {
+    file_format: &FileFormat {
+        id: 130_530_984,
+        source_type: SourceType::Wikidata,
+        name: "Promela file format",
+        extensions: &["pm", "pml", "pr", "prm", "prom", "promela"],
+        media_types: &["text/x-promela"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

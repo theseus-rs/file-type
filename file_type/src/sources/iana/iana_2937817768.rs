@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_2937817768: FileFormat = FileFormat {
-    id: 2_937_817_768,
-    source_type: SourceType::Iana,
-    name: "vnd.dvb.notif-generic+xml",
-    extensions: &[],
-    media_types: &["application/vnd.dvb.notif-generic+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_2937817768: FileType = FileType {
+    file_format: &FileFormat {
+        id: 2_937_817_768,
+        source_type: SourceType::Iana,
+        name: "vnd.dvb.notif-generic+xml",
+        extensions: &[],
+        media_types: &["application/vnd.dvb.notif-generic+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

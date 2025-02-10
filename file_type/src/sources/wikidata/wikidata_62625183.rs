@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_62625183: FileFormat = FileFormat {
-    id: 62_625_183,
-    source_type: SourceType::Wikidata,
-    name: "PowerShell script",
-    extensions: &["ps1", "psm1"],
-    media_types: &["application/x-powershell", "text/x-powershell"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_62625183: FileType = FileType {
+    file_format: &FileFormat {
+        id: 62_625_183,
+        source_type: SourceType::Wikidata,
+        name: "PowerShell script",
+        extensions: &["ps1", "psm1"],
+        media_types: &["application/x-powershell", "text/x-powershell"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

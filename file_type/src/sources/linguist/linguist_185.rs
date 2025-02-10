@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_185: FileFormat = FileFormat {
-    id: 185,
-    source_type: SourceType::Linguist,
-    name: "Jupyter Notebook",
-    extensions: &["ipynb"],
-    media_types: &["application/json"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_185: FileType = FileType {
+    file_format: &FileFormat {
+        id: 185,
+        source_type: SourceType::Linguist,
+        name: "Jupyter Notebook",
+        extensions: &["ipynb"],
+        media_types: &["application/json"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_28205883: FileFormat = FileFormat {
-    id: 28_205_883,
-    source_type: SourceType::Wikidata,
-    name: "Desktop Color Separation",
-    extensions: &["c", "dcs", "eps", "k", "m", "y"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_28205883: FileType = FileType {
+    file_format: &FileFormat {
+        id: 28_205_883,
+        source_type: SourceType::Wikidata,
+        name: "Desktop Color Separation",
+        extensions: &["c", "dcs", "eps", "k", "m", "y"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

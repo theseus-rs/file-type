@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_76626073: FileFormat = FileFormat {
-    id: 76_626_073,
-    source_type: SourceType::Iana,
-    name: "rpki-updown",
-    extensions: &[],
-    media_types: &["application/rpki-updown"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_76626073: FileType = FileType {
+    file_format: &FileFormat {
+        id: 76_626_073,
+        source_type: SourceType::Iana,
+        name: "rpki-updown",
+        extensions: &[],
+        media_types: &["application/rpki-updown"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

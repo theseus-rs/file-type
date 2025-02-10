@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3306561401: FileFormat = FileFormat {
-    id: 3_306_561_401,
-    source_type: SourceType::Iana,
-    name: "vnd.tao.intent-module-archive",
-    extensions: &[],
-    media_types: &["application/vnd.tao.intent-module-archive"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3306561401: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_306_561_401,
+        source_type: SourceType::Iana,
+        name: "vnd.tao.intent-module-archive",
+        extensions: &[],
+        media_types: &["application/vnd.tao.intent-module-archive"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

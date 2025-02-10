@@ -1,18 +1,19 @@
 use crate::test_signature::TestSignature;
 use anyhow::Result;
-use file_type::format::{FileFormat, SourceType};
+use file_type::format::SourceType;
+use file_type::FileType;
 use std::fs::File;
 use std::io::Write;
 use std::path::PathBuf;
 
-pub(crate) fn generate(source_type: &SourceType, file_formats: &[&FileFormat]) -> Result<()> {
+pub(crate) fn generate(source_type: &SourceType, file_types: &[&FileType]) -> Result<()> {
     let crate_dir = env!("CARGO_MANIFEST_DIR");
     let source_type_name = format!("{source_type:?}").to_lowercase();
     let test_data_path = PathBuf::from(crate_dir).join(&source_type_name);
-    for file_format in file_formats.iter().copied() {
-        let id = file_format.id;
+    for file_type in file_types {
+        let id = file_type.id();
 
-        for extension in file_format.extensions {
+        for extension in file_type.extensions() {
             // Skip if the extension contains invalid characters
             if !is_valid_extension(extension) {
                 eprintln!("Invalid extension: {extension}");
@@ -25,12 +26,12 @@ pub(crate) fn generate(source_type: &SourceType, file_formats: &[&FileFormat]) -
             }
         }
 
-        let extension = match file_format.extensions.first() {
+        let extension = match file_type.extensions().first() {
             Some(extension) if is_valid_extension(extension) => format!(".{extension}"),
             _ => String::new(),
         };
 
-        for (index, signature) in file_format.signatures.iter().enumerate() {
+        for (index, signature) in file_type.file_format().signatures.iter().enumerate() {
             let path = test_data_path.join(format!(
                 "{source_type_name}-{id}-signature-{index}{extension}"
             ));

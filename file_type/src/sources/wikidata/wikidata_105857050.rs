@@ -1,19 +1,22 @@
 use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_105857050: FileFormat = FileFormat {
-    id: 105_857_050,
-    source_type: SourceType::Wikidata,
-    name: "DISGCL script",
-    extensions: &["gcl"],
-    media_types: &["text/plain"],
-    signatures: &[Signature {
-        byte_sequences: &[ByteSequence {
-            position_type: PositionType::BOF,
-            offset: Some(0),
-            regex: Regex {
-                tokens: &[Token::Literal(&[0x25, 0x47, 0x43, 0x4C])],
-            },
+pub(crate) const WIKIDATA_105857050: FileType = FileType {
+    file_format: &FileFormat {
+        id: 105_857_050,
+        source_type: SourceType::Wikidata,
+        name: "DISGCL script",
+        extensions: &["gcl"],
+        media_types: &["text/plain"],
+        signatures: &[Signature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x25, 0x47, 0x43, 0x4C])],
+                },
+            }],
         }],
-    }],
-    related_formats: &[],
+        related_formats: &[],
+    },
 };

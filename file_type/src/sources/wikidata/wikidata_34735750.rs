@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_34735750: FileFormat = FileFormat {
-    id: 34_735_750,
-    source_type: SourceType::Wikidata,
-    name: "SimTower saved game",
-    extensions: &["tdt"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_34735750: FileType = FileType {
+    file_format: &FileFormat {
+        id: 34_735_750,
+        source_type: SourceType::Wikidata,
+        name: "SimTower saved game",
+        extensions: &["tdt"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

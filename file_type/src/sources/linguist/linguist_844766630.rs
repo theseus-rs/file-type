@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_844766630: FileFormat = FileFormat {
-    id: 844_766_630,
-    source_type: SourceType::Linguist,
-    name: "Ecmarkup",
-    extensions: &["html"],
-    media_types: &["text/html"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_844766630: FileType = FileType {
+    file_format: &FileFormat {
+        id: 844_766_630,
+        source_type: SourceType::Linguist,
+        name: "Ecmarkup",
+        extensions: &["html"],
+        media_types: &["text/html"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

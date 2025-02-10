@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_27473282: FileFormat = FileFormat {
-    id: 27_473_282,
-    source_type: SourceType::Wikidata,
-    name: "CADRG Legend File",
-    extensions: &["lgd"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_27473282: FileType = FileType {
+    file_format: &FileFormat {
+        id: 27_473_282,
+        source_type: SourceType::Wikidata,
+        name: "CADRG Legend File",
+        extensions: &["lgd"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

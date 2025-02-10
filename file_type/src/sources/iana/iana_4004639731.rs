@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_4004639731: FileFormat = FileFormat {
-    id: 4_004_639_731,
-    source_type: SourceType::Iana,
-    name: "vnd.bluetooth.le.oob",
-    extensions: &[],
-    media_types: &["application/vnd.bluetooth.le.oob"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_4004639731: FileType = FileType {
+    file_format: &FileFormat {
+        id: 4_004_639_731,
+        source_type: SourceType::Iana,
+        name: "vnd.bluetooth.le.oob",
+        extensions: &[],
+        media_types: &["application/vnd.bluetooth.le.oob"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

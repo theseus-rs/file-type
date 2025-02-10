@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_125: FileFormat = FileFormat {
-    id: 125,
-    source_type: SourceType::Linguist,
-    name: "Game Maker Language",
-    extensions: &["gml"],
-    media_types: &["text/x-c++src"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_125: FileType = FileType {
+    file_format: &FileFormat {
+        id: 125,
+        source_type: SourceType::Linguist,
+        name: "Game Maker Language",
+        extensions: &["gml"],
+        media_types: &["text/x-c++src"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

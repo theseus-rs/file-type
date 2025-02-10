@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_29960668: FileFormat = FileFormat {
-    id: 29_960_668,
-    source_type: SourceType::Wikidata,
-    name: "RenderWare binary stream file",
-    extensions: &["dff", "txd"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_29960668: FileType = FileType {
+    file_format: &FileFormat {
+        id: 29_960_668,
+        source_type: SourceType::Wikidata,
+        name: "RenderWare binary stream file",
+        extensions: &["dff", "txd"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

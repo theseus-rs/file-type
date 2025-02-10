@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_28758111: FileFormat = FileFormat {
-    id: 28_758_111,
-    source_type: SourceType::Wikidata,
-    name: "Internet Explorer favorites",
-    extensions: &["url"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_28758111: FileType = FileType {
+    file_format: &FileFormat {
+        id: 28_758_111,
+        source_type: SourceType::Wikidata,
+        name: "Internet Explorer favorites",
+        extensions: &["url"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,26 +1,18 @@
-use crate::format::{FileFormat, Regex, RelationshipType, Signature, UNIDENTIFIED_KEY};
-use crate::sources::file_formats;
-use crate::{file_types, sources, Error, FileType, Result};
+use crate::format::{Regex, RelationshipType, Signature, UNIDENTIFIED_KEY};
+use crate::sources::file_types;
+use crate::{sources, Error, FileType, Result};
 use alloc::string::ToString;
 use alloc::vec;
 use alloc::vec::Vec;
 use core::cmp::Ordering;
+use sources::default::{DEFAULT_1, DEFAULT_2};
 use std::collections::HashMap;
-use std::fs::read_to_string;
-use std::io::{Read, Seek};
+use std::io::Read;
 use std::path::Path;
 use std::sync::LazyLock;
 #[cfg(feature = "tokio")]
 use tokio::io::AsyncReadExt;
 
-const DEFAULT_1: &FileType = &FileType {
-    file_format: &sources::default::DEFAULT_1,
-};
-const DEFAULT_2: &FileType = &FileType {
-    file_format: &sources::default::DEFAULT_2,
-};
-
-static FILE_TYPES: LazyLock<Vec<FileType>> = LazyLock::new(initialize_file_types);
 static SIGNATURE_MAP: LazyLock<HashMap<u64, Vec<&'static FileType>>> =
     LazyLock::new(initialize_signature_map);
 static EXTENSION_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
@@ -28,16 +20,11 @@ static EXTENSION_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
 static MEDIA_TYPE_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
     LazyLock::new(initialize_media_type_map);
 
-/// Create a list of `FileType` from file formats.
-fn initialize_file_types() -> Vec<FileType> {
-    file_formats().map(FileType::new).collect()
-}
-
 /// Create a list of file types with signatures
 fn initialize_signature_map() -> HashMap<u64, Vec<&'static FileType>> {
     let mut signatures = HashMap::new();
 
-    for file_type in FILE_TYPES.iter() {
+    for file_type in file_types() {
         let file_format = file_type.file_format();
         let signature_keys = file_format
             .signatures
@@ -58,7 +45,7 @@ fn initialize_signature_map() -> HashMap<u64, Vec<&'static FileType>> {
 fn initialize_extension_map() -> HashMap<&'static str, Vec<&'static FileType>> {
     let mut extension_map = HashMap::new();
 
-    for file_type in FILE_TYPES.iter() {
+    for file_type in file_types() {
         for extension in file_type.extensions() {
             let extension = *extension;
             let mut file_types = extension_map.get(extension).unwrap_or(&vec![]).clone();
@@ -74,7 +61,7 @@ fn initialize_extension_map() -> HashMap<&'static str, Vec<&'static FileType>> {
 /// Create a map of media types to file types.
 fn initialize_media_type_map() -> HashMap<&'static str, Vec<&'static FileType>> {
     let mut media_type_map = HashMap::new();
-    for file_type in FILE_TYPES.iter() {
+    for file_type in file_types() {
         for media_type in file_type.media_types() {
             let media_type = *media_type;
             let mut file_types = media_type_map.get(media_type).unwrap_or(&vec![]).clone();
@@ -260,9 +247,9 @@ where
     if let Some(file_type) = file_types.first() {
         file_type
     } else if is_binary(bytes) {
-        DEFAULT_1
+        &DEFAULT_1
     } else {
-        DEFAULT_2
+        &DEFAULT_2
     }
 }
 
@@ -356,7 +343,7 @@ mod tests {
     }
 
     fn find_file_type(source_type: &SourceType, id: usize) -> &'static FileType {
-        let file_type = FILE_TYPES.iter().find(|file_type| {
+        let file_type = file_types().find(|file_type| {
             file_type.file_format().source_type == *source_type && file_type.file_format().id == id
         });
         file_type.expect("file type not found")

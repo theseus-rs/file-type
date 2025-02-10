@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_1480088256: FileFormat = FileFormat {
-    id: 1_480_088_256,
-    source_type: SourceType::Iana,
-    name: "vnd.3gpp.access-transfer-events+xml",
-    extensions: &[],
-    media_types: &["application/vnd.3gpp.access-transfer-events+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_1480088256: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_480_088_256,
+        source_type: SourceType::Iana,
+        name: "vnd.3gpp.access-transfer-events+xml",
+        extensions: &[],
+        media_types: &["application/vnd.3gpp.access-transfer-events+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

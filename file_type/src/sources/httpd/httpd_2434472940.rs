@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_2434472940: FileFormat = FileFormat {
-    id: 2_434_472_940,
-    source_type: SourceType::Httpd,
-    name: "airzip filesecure azf",
-    extensions: &["azf"],
-    media_types: &["application/vnd.airzip.filesecure.azf"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_2434472940: FileType = FileType {
+    file_format: &FileFormat {
+        id: 2_434_472_940,
+        source_type: SourceType::Httpd,
+        name: "airzip filesecure azf",
+        extensions: &["azf"],
+        media_types: &["application/vnd.airzip.filesecure.azf"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

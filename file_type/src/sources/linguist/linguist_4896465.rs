@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_4896465: FileFormat = FileFormat {
-    id: 4_896_465,
-    source_type: SourceType::Linguist,
-    name: "MiniYAML",
-    extensions: &["yaml", "yml"],
-    media_types: &["text/x-yaml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_4896465: FileType = FileType {
+    file_format: &FileFormat {
+        id: 4_896_465,
+        source_type: SourceType::Linguist,
+        name: "MiniYAML",
+        extensions: &["yaml", "yml"],
+        media_types: &["text/x-yaml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

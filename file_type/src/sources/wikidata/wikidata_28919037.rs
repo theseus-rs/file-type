@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_28919037: FileFormat = FileFormat {
-    id: 28_919_037,
-    source_type: SourceType::Wikidata,
-    name: "Type-2 DV AVI",
-    extensions: &["avi"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_28919037: FileType = FileType {
+    file_format: &FileFormat {
+        id: 28_919_037,
+        source_type: SourceType::Wikidata,
+        name: "Type-2 DV AVI",
+        extensions: &["avi"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_735623761: FileFormat = FileFormat {
-    id: 735_623_761,
-    source_type: SourceType::Linguist,
-    name: "Simple File Verification",
-    extensions: &["sfv"],
-    media_types: &["text/x-properties"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_735623761: FileType = FileType {
+    file_format: &FileFormat {
+        id: 735_623_761,
+        source_type: SourceType::Linguist,
+        name: "Simple File Verification",
+        extensions: &["sfv"],
+        media_types: &["text/x-properties"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

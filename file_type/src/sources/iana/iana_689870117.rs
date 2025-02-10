@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_689870117: FileFormat = FileFormat {
-    id: 689_870_117,
-    source_type: SourceType::Iana,
-    name: "cea-2018+xml",
-    extensions: &[],
-    media_types: &["application/cea-2018+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_689870117: FileType = FileType {
+    file_format: &FileFormat {
+        id: 689_870_117,
+        source_type: SourceType::Iana,
+        name: "cea-2018+xml",
+        extensions: &[],
+        media_types: &["application/cea-2018+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

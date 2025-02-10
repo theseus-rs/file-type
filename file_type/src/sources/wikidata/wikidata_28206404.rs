@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_28206404: FileFormat = FileFormat {
-    id: 28_206_404,
-    source_type: SourceType::Wikidata,
-    name: "JEDMICS C4",
-    extensions: &["c4", "ct4"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_28206404: FileType = FileType {
+    file_format: &FileFormat {
+        id: 28_206_404,
+        source_type: SourceType::Wikidata,
+        name: "JEDMICS C4",
+        extensions: &["c4", "ct4"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

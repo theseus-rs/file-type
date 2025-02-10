@@ -1,14 +1,14 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_190: FileFormat = FileFormat {
-    id: 190,
-    source_type: SourceType::Pronom,
-    name: "Stationery for Mac OS X",
-    extensions: &["doc"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const PRONOM_190: FileType = FileType {
+    file_format: &FileFormat {
+        id: 190,
+        source_type: SourceType::Pronom,
+        name: "Stationery for Mac OS X",
+        extensions: &["doc"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

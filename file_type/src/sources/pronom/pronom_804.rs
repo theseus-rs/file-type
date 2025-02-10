@@ -1,14 +1,14 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_804: FileFormat = FileFormat {
-    id: 804,
-    source_type: SourceType::Pronom,
-    name: "HTML Extension File",
-    extensions: &["htx"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const PRONOM_804: FileType = FileType {
+    file_format: &FileFormat {
+        id: 804,
+        source_type: SourceType::Pronom,
+        name: "HTML Extension File",
+        extensions: &["htx"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

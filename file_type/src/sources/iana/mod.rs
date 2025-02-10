@@ -1,4 +1,4 @@
-use crate::format::FileFormat;
+use crate::FileType;
 
 mod iana_1003190918;
 mod iana_1004793834;
@@ -2174,7 +2174,7 @@ mod iana_996033646;
 mod iana_998993833;
 
 #[doc(hidden)]
-pub const FILE_FORMATS: &[&FileFormat] = &[
+pub const FILE_TYPES: &[&FileType] = &[
     &iana_1300491::IANA_1300491,
     &iana_1564781::IANA_1564781,
     &iana_1690715::IANA_1690715,
