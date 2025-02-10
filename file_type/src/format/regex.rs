@@ -7,6 +7,8 @@ use core::cmp::Ordering;
 use core::fmt::Display;
 use core::str::from_utf8;
 
+pub const UNIDENTIFIED_KEY: u64 = 0x42;
+
 /// A token to match against a byte stream
 #[derive(Clone, Debug, Eq, PartialEq)]
 pub enum Token {
@@ -182,7 +184,7 @@ impl Regex {
     pub fn key(&self) -> u64 {
         match self.tokens.first() {
             Some(Token::Literal(bytes)) => Regex::key_from_bytes(bytes),
-            _ => 0,
+            _ => UNIDENTIFIED_KEY,
         }
     }
 
@@ -613,7 +615,7 @@ mod tests {
 
     #[test]
     fn test_regex_key() -> Result<()> {
-        assert_eq!(Regex::new("")?.key(), 0);
+        assert_eq!(Regex::new("")?.key(), UNIDENTIFIED_KEY);
         assert_eq!(Regex::new("00")?.key(), 0);
         assert_eq!(Regex::new("0000000000000001")?.key(), 1);
         assert_eq!(Regex::new("01")?.key(), 72_057_594_037_927_936);

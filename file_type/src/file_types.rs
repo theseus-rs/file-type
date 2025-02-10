@@ -1,4 +1,4 @@
-use crate::format::{FileFormat, Regex, RelationshipType, Signature};
+use crate::format::{FileFormat, Regex, RelationshipType, Signature, UNIDENTIFIED_KEY};
 use crate::sources::file_formats;
 use crate::{file_types, sources, Error, FileType, Result};
 use alloc::string::ToString;
@@ -229,9 +229,9 @@ where
                 .filter(|file_type| file_type.file_format().is_match(bytes)),
         );
     }
-    // Get all file types with a signature of 0; these are the file types that did not have a
-    // BOF literal signature.
-    if let Some(signatures) = SIGNATURE_MAP.get(&0) {
+    // Get all file types with unidentified signature key; these are the file types that did not
+    // have a BOF literal signature.
+    if let Some(signatures) = SIGNATURE_MAP.get(&UNIDENTIFIED_KEY) {
         file_types.extend(
             signatures
                 .iter()
