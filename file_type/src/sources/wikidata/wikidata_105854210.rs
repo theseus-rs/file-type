@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105854210: FileFormat = FileFormat {
     name: "NIST Sphere waveform audio",
     extensions: &["nist", "sph"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4E, 0x49, 0x53, 0x54, 0x5F, 0x31, 0x41])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4E, 0x49, 0x53, 0x54, 0x5F, 0x31, 0x41])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x4E, 0x49, 0x53, 0x54, 0x5F, 0x31, 0x41])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105849694: FileFormat = FileFormat {
     name: "Celestia script",
     extensions: &["cel"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x7B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

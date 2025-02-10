@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105856497: FileFormat = FileFormat {
     name: "Khoros Visual Programming Workspace (with rem)",
     extensions: &["wk"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

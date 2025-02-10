@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105861120: FileFormat = FileFormat {
     name: "SyncTERM dialing directory",
     extensions: &["lst"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x09])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

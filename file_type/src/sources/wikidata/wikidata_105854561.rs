@@ -6,43 +6,14 @@ pub(crate) const WIKIDATA_105854561: FileFormat = FileFormat {
     name: "ar archive",
     extensions: &["a", "ar", "lbr", "lib"],
     media_types: &["application/x-archive"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x21, 0x3C, 0x61, 0x72, 0x63, 0x68, 0x3E])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x21, 0x3C, 0x61, 0x72, 0x63, 0x68, 0x3E])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x21, 0x3C, 0x61, 0x72, 0x63, 0x68, 0x3E])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x21, 0x3C, 0x61, 0x72, 0x63, 0x68, 0x3E])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x21, 0x3C, 0x61, 0x72, 0x63, 0x68, 0x3E])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

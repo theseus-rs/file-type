@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105850690: FileFormat = FileFormat {
     name: "Kaitai Struct language (with rem)",
     extensions: &["ksy"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

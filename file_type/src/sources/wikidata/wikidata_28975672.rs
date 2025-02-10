@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_28975672: FileFormat = FileFormat {
     name: "CINEMA 4D",
     extensions: &["c4d"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x43, 0x34, 0x44, 0x43, 0x34, 0x44, 0x36])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x43, 0x34, 0x44, 0x43, 0x34, 0x44, 0x36])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x43, 0x34, 0x44, 0x43, 0x34, 0x44, 0x36])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

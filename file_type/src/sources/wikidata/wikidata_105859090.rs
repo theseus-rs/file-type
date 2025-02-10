@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105859090: FileFormat = FileFormat {
     name: "PrintFox/Pagefox bitmap (320x200)",
     extensions: &["bin", "bs"],
     media_types: &["application/octet-stream"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x42])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

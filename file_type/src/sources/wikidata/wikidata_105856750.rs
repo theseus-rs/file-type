@@ -6,29 +6,16 @@ pub(crate) const WIKIDATA_105856750: FileFormat = FileFormat {
     name: "Universal Go Format",
     extensions: &["ugf", "ugi"],
     media_types: &["text/ini"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x5B, 0x48, 0x65, 0x61, 0x64, 0x65, 0x72, 0x5D,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x5B, 0x48, 0x65, 0x61, 0x64, 0x65, 0x72, 0x5D,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x5B, 0x48, 0x65, 0x61, 0x64, 0x65, 0x72, 0x5D,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

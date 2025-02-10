@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105862347: FileFormat = FileFormat {
     name: "OctaMED MMD1 module",
     extensions: &["med", "mmd1"],
     media_types: &["audio/x-mod"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4D, 0x4D, 0x44, 0x31])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4D, 0x4D, 0x44, 0x31])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x4D, 0x4D, 0x44, 0x31])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

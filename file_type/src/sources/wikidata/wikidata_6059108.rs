@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_6059108: FileFormat = FileFormat {
     name: "Intuit Interchange Format",
     extensions: &["iif"],
     media_types: &["application/qbooks", "application/qbookspro", "text/iif"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x21])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

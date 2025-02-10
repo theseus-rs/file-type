@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105858052: FileFormat = FileFormat {
     name: "Inkscape extension descriptor",
     extensions: &["inx"],
     media_types: &["text/xml"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

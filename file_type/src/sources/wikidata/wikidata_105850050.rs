@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105850050: FileFormat = FileFormat {
     name: "Cabal info (with rem)",
     extensions: &["cabal"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x2D])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

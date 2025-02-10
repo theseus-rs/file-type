@@ -6,31 +6,17 @@ pub(crate) const WIKIDATA_105857067: FileFormat = FileFormat {
     name: "Greenfish Icon Editor Pro",
     extensions: &["gfi", "gfie"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x67, 0x66, 0x64, 0x74, 0x3C, 0x01, 0x5C, 0x00, 0x00, 0x00, 0x00, 0x3C,
-                        0x08, 0x6D, 0x65, 0x74, 0x61, 0x64, 0x61, 0x74, 0x61,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x67, 0x66, 0x64, 0x74, 0x3C, 0x01, 0x5C, 0x00, 0x00, 0x00, 0x00, 0x3C,
-                        0x08, 0x6D, 0x65, 0x74, 0x61, 0x64, 0x61, 0x74, 0x61,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x67, 0x66, 0x64, 0x74, 0x3C, 0x01, 0x5C, 0x00, 0x00, 0x00, 0x00, 0x3C, 0x08,
+                    0x6D, 0x65, 0x74, 0x61, 0x64, 0x61, 0x74, 0x61,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

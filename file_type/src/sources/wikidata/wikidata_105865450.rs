@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105865450: FileFormat = FileFormat {
     name: "Protocol Data Unit message data",
     extensions: &["pdu"],
     media_types: &["application/octet-stream"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x8C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,52 +6,14 @@ pub(crate) const WIKIDATA_264627: FileFormat = FileFormat {
     name: "Glulx",
     extensions: &["blb", "blorb", "gblorb", "glb", "ulx"],
     media_types: &["application/x-glulx"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x47, 0x6C, 0x75, 0x6C])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x47, 0x6C, 0x75, 0x6C])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x47, 0x6C, 0x75, 0x6C])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x47, 0x6C, 0x75, 0x6C])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x47, 0x6C, 0x75, 0x6C])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x47, 0x6C, 0x75, 0x6C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

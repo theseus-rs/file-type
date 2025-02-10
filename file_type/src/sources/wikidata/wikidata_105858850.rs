@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105858850: FileFormat = FileFormat {
     name: "PC Paint/Pictor bitmap",
     extensions: &["clp", "pic"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x34, 0x12])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x34, 0x12])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x34, 0x12])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,31 +6,17 @@ pub(crate) const WIKIDATA_105864309: FileFormat = FileFormat {
     name: "Philips Drum System data (generic)",
     extensions: &["drm", "dsq"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x50, 0x68, 0x69, 0x6C, 0x69, 0x70, 0x73, 0x20, 0x44, 0x72, 0x75, 0x6D,
-                        0x20, 0x53, 0x79, 0x73, 0x74, 0x65, 0x6D, 0x00,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x50, 0x68, 0x69, 0x6C, 0x69, 0x70, 0x73, 0x20, 0x44, 0x72, 0x75, 0x6D,
-                        0x20, 0x53, 0x79, 0x73, 0x74, 0x65, 0x6D, 0x00,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x50, 0x68, 0x69, 0x6C, 0x69, 0x70, 0x73, 0x20, 0x44, 0x72, 0x75, 0x6D, 0x20,
+                    0x53, 0x79, 0x73, 0x74, 0x65, 0x6D, 0x00,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

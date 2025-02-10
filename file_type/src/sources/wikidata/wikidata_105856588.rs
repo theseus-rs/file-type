@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105856588: FileFormat = FileFormat {
     name: "WordStar 7 document",
     extensions: &["doc", "ws7"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x1D, 0x7D, 0x00, 0x00, 0x70])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x1D, 0x7D, 0x00, 0x00, 0x70])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x1D, 0x7D, 0x00, 0x00, 0x70])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

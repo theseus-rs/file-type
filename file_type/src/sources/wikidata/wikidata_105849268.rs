@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105849268: FileFormat = FileFormat {
     name: "GameMaker Studio Project",
     extensions: &["yyp"],
     media_types: &["text/json"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x7B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

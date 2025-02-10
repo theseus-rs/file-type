@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105860424: FileFormat = FileFormat {
     name: "Maxon Resource Creation Tool data",
     extensions: &["rct"],
     media_types: &["application/octet-stream"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x2A])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

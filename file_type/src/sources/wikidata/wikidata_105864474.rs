@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105864474: FileFormat = FileFormat {
     name: "PSpice Probe configuration",
     extensions: &["prb"],
     media_types: &["text/ini"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x5B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105849706: FileFormat = FileFormat {
     name: "Carbide Create model",
     extensions: &["c2d"],
     media_types: &["text/json"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x7B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

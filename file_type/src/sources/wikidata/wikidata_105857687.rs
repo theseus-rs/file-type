@@ -6,29 +6,16 @@ pub(crate) const WIKIDATA_105857687: FileFormat = FileFormat {
     name: "QCOW3 disk image",
     extensions: &["img", "qcow3"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x51, 0x46, 0x49, 0xFB, 0x00, 0x00, 0x00, 0x03,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x51, 0x46, 0x49, 0xFB, 0x00, 0x00, 0x00, 0x03,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x51, 0x46, 0x49, 0xFB, 0x00, 0x00, 0x00, 0x03,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

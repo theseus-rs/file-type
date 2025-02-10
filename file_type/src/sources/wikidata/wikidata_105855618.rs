@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105855618: FileFormat = FileFormat {
     name: "Openlab Raw Format",
     extensions: &["olr", "olrw"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4F, 0x4C, 0x52, 0x57])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4F, 0x4C, 0x52, 0x57])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x4F, 0x4C, 0x52, 0x57])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

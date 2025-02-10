@@ -6,29 +6,16 @@ pub(crate) const WIKIDATA_84842911: FileFormat = FileFormat {
     name: "GL Transmission Format (Binary)",
     extensions: &["glb"],
     media_types: &["application/octet-stream", "model/gltf-binary"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x67, 0x6C, 0x54, 0x46, 0x02, 0x00, 0x00, 0x00,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x67, 0x6C, 0x54, 0x46, 0x02, 0x00, 0x00, 0x00,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x67, 0x6C, 0x54, 0x46, 0x02, 0x00, 0x00, 0x00,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

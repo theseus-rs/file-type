@@ -6,29 +6,16 @@ pub(crate) const WIKIDATA_105858618: FileFormat = FileFormat {
     name: "Blassic source (binary)",
     extensions: &["bas", "blc"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x42, 0x6C, 0x61, 0x73, 0x73, 0x69, 0x63, 0x00,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x42, 0x6C, 0x61, 0x73, 0x73, 0x69, 0x63, 0x00,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x42, 0x6C, 0x61, 0x73, 0x73, 0x69, 0x63, 0x00,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

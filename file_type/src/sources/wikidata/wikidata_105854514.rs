@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105854514: FileFormat = FileFormat {
     name: "MP3 audio (ID3 v1.x tag)",
     extensions: &["mp3"],
     media_types: &["audio/mpeg3"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xFF])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

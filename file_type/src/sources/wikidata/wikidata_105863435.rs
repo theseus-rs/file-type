@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105863435: FileFormat = FileFormat {
     name: "Extensible Binary Meta Language / Matroska stream",
     extensions: &["mka", "mkv"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x1A, 0x45, 0xDF, 0xA3])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x1A, 0x45, 0xDF, 0xA3])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x1A, 0x45, 0xDF, 0xA3])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

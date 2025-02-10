@@ -6,34 +6,14 @@ pub(crate) const WIKIDATA_28205670: FileFormat = FileFormat {
     name: "Alias PIX",
     extensions: &["als", "img", "pix"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x00, 0x00, 0x00, 0x05, 0x00, 0x18])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x00, 0x00, 0x00, 0x05, 0x00, 0x18])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x00, 0x00, 0x00, 0x05, 0x00, 0x18])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x00, 0x00, 0x00, 0x05, 0x00, 0x18])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

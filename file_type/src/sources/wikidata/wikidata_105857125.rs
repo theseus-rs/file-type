@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105857125: FileFormat = FileFormat {
     name: "Videoscape GEO mesh",
     extensions: &["geo", "v3d"],
     media_types: &["text/plain"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x33, 0x44, 0x47])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x33, 0x44, 0x47])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x33, 0x44, 0x47])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

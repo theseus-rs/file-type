@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105850732: FileFormat = FileFormat {
     name: "Java KeyStore",
     extensions: &["jks", "keystore"],
     media_types: &["application/x-java-keystore"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xFE, 0xED, 0xFE, 0xED])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xFE, 0xED, 0xFE, 0xED])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xFE, 0xED, 0xFE, 0xED])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

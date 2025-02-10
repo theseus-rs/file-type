@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105867402: FileFormat = FileFormat {
     name: "NSIS script (with rem)",
     extensions: &["nsi"],
     media_types: &["text/plain", "text/x-nsis"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

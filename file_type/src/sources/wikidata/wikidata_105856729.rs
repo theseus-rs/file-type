@@ -6,29 +6,16 @@ pub(crate) const WIKIDATA_105856729: FileFormat = FileFormat {
     name: "Universal Scene Description (binary)",
     extensions: &["usd", "usdc"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x50, 0x58, 0x52, 0x2D, 0x55, 0x53, 0x44, 0x43,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x50, 0x58, 0x52, 0x2D, 0x55, 0x53, 0x44, 0x43,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x50, 0x58, 0x52, 0x2D, 0x55, 0x53, 0x44, 0x43,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

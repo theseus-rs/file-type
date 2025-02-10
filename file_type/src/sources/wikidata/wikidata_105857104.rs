@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105857104: FileFormat = FileFormat {
     name: "GNU Privacy Guard public keyring (generic)",
     extensions: &["gpg"],
     media_types: &["application/pgp-keys"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x99])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

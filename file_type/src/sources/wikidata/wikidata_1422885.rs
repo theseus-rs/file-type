@@ -6,34 +6,14 @@ pub(crate) const WIKIDATA_1422885: FileFormat = FileFormat {
     name: "MrSID",
     extensions: &["sid"],
     media_types: &["image/x-mrsid", "image/x-mrsid-image", "image/x.mrsid"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x6D, 0x73, 0x69, 0x64])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x6D, 0x73, 0x69, 0x64])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x6D, 0x73, 0x69, 0x64])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x6D, 0x73, 0x69, 0x64])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

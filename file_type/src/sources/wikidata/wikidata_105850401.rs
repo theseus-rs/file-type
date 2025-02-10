@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105850401: FileFormat = FileFormat {
     name: "Poser character rigging",
     extensions: &["cr2"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x7B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

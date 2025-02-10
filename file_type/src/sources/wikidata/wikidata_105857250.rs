@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105857250: FileFormat = FileFormat {
     name: "RoboHelp data",
     extensions: &["hpr"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x5B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

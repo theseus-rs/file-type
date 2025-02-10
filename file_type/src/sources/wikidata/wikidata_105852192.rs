@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105852192: FileFormat = FileFormat {
     name: "Breakdown game data archive",
     extensions: &["sth", "stw"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x73, 0x74, 0x72, 0x6D, 0x70, 0x6B])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x73, 0x74, 0x72, 0x6D, 0x70, 0x6B])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x73, 0x74, 0x72, 0x6D, 0x70, 0x6B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

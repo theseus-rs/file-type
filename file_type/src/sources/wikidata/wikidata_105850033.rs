@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105850033: FileFormat = FileFormat {
     name: "Xilinx Core Generator System Project (with rem)",
     extensions: &["cgp"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

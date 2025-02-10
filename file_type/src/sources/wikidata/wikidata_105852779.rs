@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105852779: FileFormat = FileFormat {
     name: "IEEE DASC Standard Delay Format (with rem)",
     extensions: &["sdf", "sdo"],
     media_types: &["text/plain"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x2F, 0x2F])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x2F, 0x2F])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x2F, 0x2F])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

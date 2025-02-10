@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105858965: FileFormat = FileFormat {
     name: "Naive Image format NII animated bitmaps",
     extensions: &["nii"],
     media_types: &["application/octet-stream", "image/nii"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x6E, 0xC3, 0xAF, 0x49])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x6E, 0xC3, 0xAF, 0x49])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x6E, 0xC3, 0xAF, 0x49])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105856554: FileFormat = FileFormat {
     name: "Weaving Interchange Format",
     extensions: &["wif"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x5B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

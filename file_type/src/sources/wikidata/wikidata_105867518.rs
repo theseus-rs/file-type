@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105867518: FileFormat = FileFormat {
     name: "Haines NFF scene",
     extensions: &["nff"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x76])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

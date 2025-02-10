@@ -6,51 +6,16 @@ pub(crate) const WIKIDATA_105865805: FileFormat = FileFormat {
     name: "PC64 flexible container format",
     extensions: &["p00", "r00", "s00", "u00"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x43, 0x36, 0x34, 0x46, 0x69, 0x6C, 0x65, 0x00,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x43, 0x36, 0x34, 0x46, 0x69, 0x6C, 0x65, 0x00,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x43, 0x36, 0x34, 0x46, 0x69, 0x6C, 0x65, 0x00,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x43, 0x36, 0x34, 0x46, 0x69, 0x6C, 0x65, 0x00,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x43, 0x36, 0x34, 0x46, 0x69, 0x6C, 0x65, 0x00,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

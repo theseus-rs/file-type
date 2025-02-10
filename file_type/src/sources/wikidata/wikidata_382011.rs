@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_382011: FileFormat = FileFormat {
     name: "Program information file",
     extensions: &["pif"],
     media_types: &["application/x-pif"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x00])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

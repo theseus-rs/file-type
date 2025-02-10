@@ -6,29 +6,16 @@ pub(crate) const WIKIDATA_105865219: FileFormat = FileFormat {
     name: "ArchiCAD Plan Archive",
     extensions: &["pla", "pln"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x52, 0x4F, 0x46, 0x20, 0x46, 0x44, 0x42, 0x20,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x52, 0x4F, 0x46, 0x20, 0x46, 0x44, 0x42, 0x20,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x52, 0x4F, 0x46, 0x20, 0x46, 0x44, 0x42, 0x20,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

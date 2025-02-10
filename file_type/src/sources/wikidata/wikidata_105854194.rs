@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105854194: FileFormat = FileFormat {
     name: "DEC-WSE Object File Format (text, start with LF)",
     extensions: &["aoff"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x0A])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

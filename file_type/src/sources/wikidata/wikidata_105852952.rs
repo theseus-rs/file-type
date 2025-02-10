@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105852952: FileFormat = FileFormat {
     name: "A'dam Music Composer Script (with rem)",
     extensions: &["scr"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

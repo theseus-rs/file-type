@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_1601331: FileFormat = FileFormat {
     name: "Transport Neutral Encapsulation Format",
     extensions: &["dat", "tnef"],
     media_types: &["application/vnd.ms-tnef"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x78, 0x9F, 0x3E, 0x22])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x78, 0x9F, 0x3E, 0x22])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x78, 0x9F, 0x3E, 0x22])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

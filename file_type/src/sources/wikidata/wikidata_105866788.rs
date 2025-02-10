@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105866788: FileFormat = FileFormat {
     name: "PGN (Portable Gaming Notation) Compressed format",
     extensions: &["pgc"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x05])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

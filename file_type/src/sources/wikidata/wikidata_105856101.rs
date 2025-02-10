@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105856101: FileFormat = FileFormat {
     name: "Dockerfile",
     extensions: &["dockerfile"],
     media_types: &["text/x-dockerfile", "text/x-dockerfile-config"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x46, 0x52, 0x4F, 0x4D, 0x20])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x46, 0x52, 0x4F, 0x4D, 0x20])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x46, 0x52, 0x4F, 0x4D, 0x20])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_17484151: FileFormat = FileFormat {
     name: "Scribus Document",
     extensions: &["scd", "scd.gz", "sla", "sla.gz", "slaz"],
     media_types: &["application/vnd.scribus"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

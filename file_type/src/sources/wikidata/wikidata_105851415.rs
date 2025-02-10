@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105851415: FileFormat = FileFormat {
     name: "T'SoundSystem Source (with rem)",
     extensions: &["tss"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x7B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

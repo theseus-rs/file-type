@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105856803: FileFormat = FileFormat {
     name: "Ruby Gem::Specification",
     extensions: &["gemspec"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

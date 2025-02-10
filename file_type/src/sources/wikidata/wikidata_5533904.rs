@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_5533904: FileFormat = FileFormat {
     name: "GeoJSON",
     extensions: &["geojson"],
     media_types: &["application/geo+json"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x7B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

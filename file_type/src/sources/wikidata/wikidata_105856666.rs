@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105856666: FileFormat = FileFormat {
     name: "Unreal Engine Project",
     extensions: &["uproject"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x7B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

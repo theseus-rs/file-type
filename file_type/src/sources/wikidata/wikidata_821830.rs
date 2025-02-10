@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_821830: FileFormat = FileFormat {
     name: "Symbolic Link",
     extensions: &["slk", "sylk"],
     media_types: &["application/x-sylk"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x49, 0x44, 0x3B, 0x50])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x49, 0x44, 0x3B, 0x50])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x49, 0x44, 0x3B, 0x50])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_27959996: FileFormat = FileFormat {
     name: "OptimFROG",
     extensions: &["ofr", "ofs"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4F, 0x46, 0x52, 0x20])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4F, 0x46, 0x52, 0x20])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x4F, 0x46, 0x52, 0x20])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

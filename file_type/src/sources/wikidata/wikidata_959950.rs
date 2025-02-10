@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_959950: FileFormat = FileFormat {
     name: "eXtensible Business Reporting Language",
     extensions: &["xbrl", "xml"],
     media_types: &["application/xml"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3C])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

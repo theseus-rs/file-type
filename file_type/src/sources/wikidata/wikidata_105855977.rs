@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105855977: FileFormat = FileFormat {
     name: "COMit modems configuration",
     extensions: &["dat", "dos"],
     media_types: &["text/plain"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4D, 0x4F, 0x44, 0x45, 0x4D, 0x3D])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x4D, 0x4F, 0x44, 0x45, 0x4D, 0x3D])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x4D, 0x4F, 0x44, 0x45, 0x4D, 0x3D])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

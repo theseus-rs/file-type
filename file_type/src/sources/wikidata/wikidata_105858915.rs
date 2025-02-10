@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105858915: FileFormat = FileFormat {
     name: "VDC BitMap (v3)",
     extensions: &["bm", "vbm"],
     media_types: &["image/x-commodore-vbm"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x42, 0x4D, 0xCB, 0x03])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x42, 0x4D, 0xCB, 0x03])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x42, 0x4D, 0xCB, 0x03])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

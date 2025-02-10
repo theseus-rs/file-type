@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105863791: FileFormat = FileFormat {
     name: "Extended M3U playlist (UTF-8)",
     extensions: &["m3u", "m3u8"],
     media_types: &["audio/x-mpegurl"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xEF, 0xBB, 0xBF, 0x23])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xEF, 0xBB, 0xBF, 0x23])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xEF, 0xBB, 0xBF, 0x23])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

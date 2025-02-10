@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105859106: FileFormat = FileFormat {
     name: "ImgStar bitmap",
     extensions: &["cpx", "flt"],
     media_types: &["application/octet-stream"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x49, 0x4C, 0x69, 0x62])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x49, 0x4C, 0x69, 0x62])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x49, 0x4C, 0x69, 0x62])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

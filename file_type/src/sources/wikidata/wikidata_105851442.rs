@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_105851442: FileFormat = FileFormat {
     name: "TrueType/OpenType Font Collection (generic)",
     extensions: &["otc", "ttc"],
     media_types: &["font/collection"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x74, 0x74, 0x63, 0x66])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x74, 0x74, 0x63, 0x66])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x74, 0x74, 0x63, 0x66])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_74021144: FileFormat = FileFormat {
     name: "PICS Rating System",
     extensions: &["rat"],
     media_types: &[],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x28])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

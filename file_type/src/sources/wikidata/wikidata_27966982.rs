@@ -6,25 +6,14 @@ pub(crate) const WIKIDATA_27966982: FileFormat = FileFormat {
     name: "AC1D-DC1A Packer",
     extensions: &["ac1", "ac1d"],
     media_types: &[],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xAC, 0x1D, 0x00, 0x00])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0xAC, 0x1D, 0x00, 0x00])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0xAC, 0x1D, 0x00, 0x00])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

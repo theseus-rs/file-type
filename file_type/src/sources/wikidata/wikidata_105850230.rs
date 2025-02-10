@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105850230: FileFormat = FileFormat {
     name: "EISA add-on card Configuration (with rem)",
     extensions: &["cfg"],
     media_types: &["application/octet-stream"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x3B])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

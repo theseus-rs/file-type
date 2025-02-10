@@ -6,29 +6,16 @@ pub(crate) const WIKIDATA_1052000: FileFormat = FileFormat {
     name: "qcow",
     extensions: &["img", "qcow"],
     media_types: &["application/x-qemu-disk"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x51, 0x46, 0x49, 0xFB, 0x00, 0x00, 0x00, 0x01,
-                    ])],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x51, 0x46, 0x49, 0xFB, 0x00, 0x00, 0x00, 0x01,
-                    ])],
-                },
-            }],
-        },
-    ],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[
+                    0x51, 0x46, 0x49, 0xFB, 0x00, 0x00, 0x00, 0x01,
+                ])],
+            },
+        }],
+    }],
     related_formats: &[],
 };

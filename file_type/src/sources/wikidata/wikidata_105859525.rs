@@ -6,6 +6,14 @@ pub(crate) const WIKIDATA_105859525: FileFormat = FileFormat {
     name: "VLBI Experiment (with rem)",
     extensions: &["vex"],
     media_types: &["text/plain"],
-    signatures: &[],
+    signatures: &[Signature {
+        byte_sequences: &[ByteSequence {
+            position_type: PositionType::BOF,
+            offset: Some(0),
+            regex: Regex {
+                tokens: &[Token::Literal(&[0x2A])],
+            },
+        }],
+    }],
     related_formats: &[],
 };
