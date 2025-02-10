@@ -83,10 +83,13 @@ extern crate alloc;
 extern crate core;
 
 mod error;
+mod extensions;
 mod file_type;
 mod file_types;
 #[doc(hidden)]
 pub mod format;
+mod media_types;
+mod signatures;
 pub mod sources;
 
 pub use error::{Error, Result};

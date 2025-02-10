@@ -1,95 +1,13 @@
-use crate::format::{Regex, RelationshipType, Signature, UNIDENTIFIED_KEY};
-use crate::sources::file_types;
-use crate::{sources, Error, FileType, Result};
+use crate::format::{Regex, RelationshipType, UNIDENTIFIED_KEY};
+use crate::{signatures, sources, Error, FileType, Result};
 use alloc::string::ToString;
-use alloc::vec;
 use alloc::vec::Vec;
 use core::cmp::Ordering;
 use sources::default::{DEFAULT_1, DEFAULT_2};
-use std::collections::HashMap;
 use std::io::Read;
 use std::path::Path;
-use std::sync::LazyLock;
 #[cfg(feature = "tokio")]
 use tokio::io::AsyncReadExt;
-
-static SIGNATURE_MAP: LazyLock<HashMap<u64, Vec<&'static FileType>>> =
-    LazyLock::new(initialize_signature_map);
-static EXTENSION_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
-    LazyLock::new(initialize_extension_map);
-static MEDIA_TYPE_MAP: LazyLock<HashMap<&'static str, Vec<&'static FileType>>> =
-    LazyLock::new(initialize_media_type_map);
-
-/// Create a list of file types with signatures
-fn initialize_signature_map() -> HashMap<u64, Vec<&'static FileType>> {
-    let mut signatures = HashMap::new();
-
-    for file_type in file_types() {
-        let file_format = file_type.file_format();
-        let signature_keys = file_format
-            .signatures
-            .iter()
-            .map(Signature::key)
-            .collect::<Vec<u64>>();
-        for key in signature_keys {
-            let mut file_types: Vec<&FileType> = signatures.remove(&key).unwrap_or_default();
-            file_types.push(file_type);
-            signatures.insert(key, file_types);
-        }
-    }
-
-    signatures
-}
-
-/// Create a map of file extensions to file types.
-fn initialize_extension_map() -> HashMap<&'static str, Vec<&'static FileType>> {
-    let mut extension_map = HashMap::new();
-
-    for file_type in file_types() {
-        for extension in file_type.extensions() {
-            let extension = *extension;
-            let mut file_types = extension_map.get(extension).unwrap_or(&vec![]).clone();
-            file_types.push(file_type);
-            file_types.sort();
-            extension_map.insert(extension, file_types);
-        }
-    }
-
-    extension_map
-}
-
-/// Create a map of media types to file types.
-fn initialize_media_type_map() -> HashMap<&'static str, Vec<&'static FileType>> {
-    let mut media_type_map = HashMap::new();
-    for file_type in file_types() {
-        for media_type in file_type.media_types() {
-            let media_type = *media_type;
-            let mut file_types = media_type_map.get(media_type).unwrap_or(&vec![]).clone();
-            file_types.push(file_type);
-            file_types.sort();
-            media_type_map.insert(media_type, file_types);
-        }
-    }
-    media_type_map
-}
-
-/// Get the file types for a given extension.
-pub(crate) fn from_extension<S: AsRef<str>>(extension: S) -> &'static [&'static FileType] {
-    let extension = extension.as_ref();
-    let Some(extensions) = EXTENSION_MAP.get(extension) else {
-        return &[];
-    };
-    extensions
-}
-
-/// Get the file types for a given media type.
-pub(crate) fn from_media_type<S: AsRef<str>>(media_type: S) -> &'static [&'static FileType] {
-    let media_type = media_type.as_ref();
-    let Some(media_types) = MEDIA_TYPE_MAP.get(media_type) else {
-        return &[];
-    };
-    media_types
-}
 
 /// Sort the file types without requiring a total order.
 fn sort_by<F, T>(file_types: &mut [&T], mut compare: F)
@@ -209,7 +127,7 @@ where
     let bytes = bytes.as_ref();
     let signature_key = Regex::key_from_bytes(bytes);
     let mut file_types: Vec<&'static FileType> = Vec::new();
-    if let Some(signatures) = SIGNATURE_MAP.get(&signature_key) {
+    if let Some(signatures) = signatures::MAP.get(&signature_key) {
         file_types.extend(
             signatures
                 .iter()
@@ -218,7 +136,7 @@ where
     }
     // Get all file types with unidentified signature key; these are the file types that did not
     // have a BOF literal signature.
-    if let Some(signatures) = SIGNATURE_MAP.get(&UNIDENTIFIED_KEY) {
+    if let Some(signatures) = signatures::MAP.get(&UNIDENTIFIED_KEY) {
         file_types.extend(
             signatures
                 .iter()
@@ -230,7 +148,7 @@ where
         0 => {
             if let Some(extension) = extension {
                 // The extensions are pre-sorted; return the first one found as the best match
-                if let Some(file_type) = from_extension(extension).first() {
+                if let Some(file_type) = FileType::from_extension(extension).first() {
                     return file_type;
                 };
             }
@@ -329,6 +247,7 @@ pub(crate) fn try_from_file_sync<P: AsRef<Path>>(path: P) -> Result<&'static Fil
 mod tests {
     use super::*;
     use crate::format::SourceType;
+    use crate::sources::file_types;
     use std::path::PathBuf;
 
     const TEST_FILE_NAME: &str = "pronom-664-signature-0.png";
@@ -355,37 +274,6 @@ mod tests {
         assert_eq!(default_1.id(), 1);
         let default_2 = find_file_type(&SourceType::Default, 2);
         assert_eq!(default_2.id(), 2);
-    }
-
-    #[test]
-    fn test_media_types() {
-        assert!(!MEDIA_TYPE_MAP.is_empty());
-        assert!(MEDIA_TYPE_MAP.contains_key("text/plain"));
-        assert!(MEDIA_TYPE_MAP.contains_key("application/octet-stream"));
-    }
-
-    #[cfg(feature = "custom")]
-    #[test]
-    fn test_from_extension() {
-        let file_types = from_extension("duckdb");
-        let file_type = file_types.first().expect("file format");
-        assert_eq!(file_type.id(), 3);
-        assert_eq!(file_type.name(), "DuckDB");
-        assert_eq!(file_type.media_types(), vec!["application/vnd.duckdb.file"]);
-        assert_eq!(file_type.extensions(), vec!["duckdb"]);
-    }
-
-    #[test]
-    fn test_from_extension_not_found() {
-        let file_types = from_extension("foo");
-        assert!(file_types.is_empty());
-    }
-
-    #[test]
-    fn test_from_media_type() {
-        let file_types = from_media_type("image/png");
-        let file_type = file_types.first().expect("file format");
-        assert_eq!(file_type.extensions(), vec!["png"]);
     }
 
     #[test]

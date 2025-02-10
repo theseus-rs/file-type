@@ -14,14 +14,19 @@ pub fn generate(file_formats: &Vec<FileFormat>, source_dir: &Path, dry_run: bool
     let mut source_code = vec!["use crate::FileType;".to_string(), String::new()];
     for file_format in file_formats {
         let name = format!("{source}_{}", file_format.id);
-        source_code.push(format!("mod {name};"));
+        source_code.push(format!("pub(crate) mod {name};"));
+    }
+    source_code.push(String::new());
+    for file_format in file_formats {
+        let name = format!("{source}_{}", file_format.id);
+        source_code.push(format!("pub(crate) use {name}::{};", name.to_uppercase()));
     }
     source_code.push(String::new());
     source_code.push("#[doc(hidden)]".to_string());
     source_code.push("pub const FILE_TYPES: &[&FileType] = &[".to_string());
     for file_format in file_formats {
         let name = format!("{source}_{}", file_format.id);
-        source_code.push(format!("    &{name}::{},", name.to_uppercase()));
+        source_code.push(format!("    &{},", name.to_uppercase()));
     }
     source_code.push("];".to_string());
     source_code.push(String::new());

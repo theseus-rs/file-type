@@ -1,5 +1,5 @@
 use crate::format::{FileFormat, SourceType};
-use crate::{file_types, Result};
+use crate::{extensions, file_types, media_types, Result};
 use core::cmp::Ordering;
 
 /// A file type.  The file type is determined by examining the file or bytes against known file
@@ -128,7 +128,11 @@ impl FileType {
     /// ```
     #[must_use]
     pub fn from_extension<S: AsRef<str>>(extension: S) -> &'static [&'static Self] {
-        file_types::from_extension(extension)
+        let extension = extension.as_ref();
+        let Some(extensions) = extensions::MAP.get(extension) else {
+            return &[];
+        };
+        extensions
     }
 
     /// Get the file types for a given media type.
@@ -143,7 +147,11 @@ impl FileType {
     /// ```
     #[must_use]
     pub fn from_media_type<S: AsRef<str>>(media_type: S) -> &'static [&'static Self] {
-        file_types::from_media_type(media_type)
+        let media_type = media_type.as_ref();
+        let Some(media_types) = media_types::MAP.get(media_type) else {
+            return &[];
+        };
+        media_types
     }
 
     /// Attempt to determine the `FileType` from a byte slice.
@@ -310,6 +318,13 @@ mod tests {
     fn test_from_media_type_not_found() {
         let file_types = FileType::from_media_type("foo/bar");
         assert_eq!(0, file_types.len());
+    }
+
+    #[test]
+    fn test_media_types() {
+        assert!(!media_types::MAP.is_empty());
+        assert!(media_types::MAP.contains_key("text/plain"));
+        assert!(media_types::MAP.contains_key("application/octet-stream"));
     }
 
     #[test]
