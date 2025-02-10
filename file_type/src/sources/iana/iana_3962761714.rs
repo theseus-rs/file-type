@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3962761714: FileFormat = FileFormat {
-    id: 3_962_761_714,
-    source_type: SourceType::Iana,
-    name: "vnd.osgeo.mapguide.package",
-    extensions: &[],
-    media_types: &["application/vnd.osgeo.mapguide.package"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3962761714: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_962_761_714,
+        source_type: SourceType::Iana,
+        name: "vnd.osgeo.mapguide.package",
+        extensions: &[],
+        media_types: &["application/vnd.osgeo.mapguide.package"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

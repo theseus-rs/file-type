@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_2489989862: FileFormat = FileFormat {
-    id: 2_489_989_862,
-    source_type: SourceType::Iana,
-    name: "vnd.ms-excel.sheet.macroEnabled.12",
-    extensions: &[],
-    media_types: &["application/vnd.ms-excel.sheet.macroEnabled.12"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_2489989862: FileType = FileType {
+    file_format: &FileFormat {
+        id: 2_489_989_862,
+        source_type: SourceType::Iana,
+        name: "vnd.ms-excel.sheet.macroEnabled.12",
+        extensions: &[],
+        media_types: &["application/vnd.ms-excel.sheet.macroEnabled.12"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

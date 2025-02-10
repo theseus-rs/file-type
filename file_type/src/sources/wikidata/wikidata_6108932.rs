@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_6108932: FileFormat = FileFormat {
-    id: 6_108_932,
-    source_type: SourceType::Wikidata,
-    name: "JSGF",
-    extensions: &["jsgf"],
-    media_types: &["application/jsgf", "application/x-jsgf", "text/jsgf"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_6108932: FileType = FileType {
+    file_format: &FileFormat {
+        id: 6_108_932,
+        source_type: SourceType::Wikidata,
+        name: "JSGF",
+        extensions: &["jsgf"],
+        media_types: &["application/jsgf", "application/x-jsgf", "text/jsgf"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

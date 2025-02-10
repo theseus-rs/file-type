@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3287889921: FileFormat = FileFormat {
-    id: 3_287_889_921,
-    source_type: SourceType::Iana,
-    name: "vnd.dolby.pl2z",
-    extensions: &[],
-    media_types: &["audio/vnd.dolby.pl2z"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3287889921: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_287_889_921,
+        source_type: SourceType::Iana,
+        name: "vnd.dolby.pl2z",
+        extensions: &[],
+        media_types: &["audio/vnd.dolby.pl2z"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

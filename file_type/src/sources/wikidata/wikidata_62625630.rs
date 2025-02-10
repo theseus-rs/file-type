@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_62625630: FileFormat = FileFormat {
-    id: 62_625_630,
-    source_type: SourceType::Wikidata,
-    name: "Structured Query Language script",
-    extensions: &["sql"],
-    media_types: &["application/sql", "text/x-sql"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_62625630: FileType = FileType {
+    file_format: &FileFormat {
+        id: 62_625_630,
+        source_type: SourceType::Wikidata,
+        name: "Structured Query Language script",
+        extensions: &["sql"],
+        media_types: &["application/sql", "text/x-sql"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

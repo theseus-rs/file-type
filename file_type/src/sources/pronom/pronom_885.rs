@@ -1,14 +1,14 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_885: FileFormat = FileFormat {
-    id: 885,
-    source_type: SourceType::Pronom,
-    name: "Microsoft PowerPoint for Macintosh",
-    extensions: &["ppt"],
-    media_types: &["application/vnd.ms-powerpoint"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const PRONOM_885: FileType = FileType {
+    file_format: &FileFormat {
+        id: 885,
+        source_type: SourceType::Pronom,
+        name: "Microsoft PowerPoint for Macintosh",
+        extensions: &["ppt"],
+        media_types: &["application/vnd.ms-powerpoint"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

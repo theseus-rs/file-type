@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_131287554: FileFormat = FileFormat {
-    id: 131_287_554,
-    source_type: SourceType::Wikidata,
-    name: "tcsh script file format",
-    extensions: &["csh", "tcsh"],
-    media_types: &["application/x-csh"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_131287554: FileType = FileType {
+    file_format: &FileFormat {
+        id: 131_287_554,
+        source_type: SourceType::Wikidata,
+        name: "tcsh script file format",
+        extensions: &["csh", "tcsh"],
+        media_types: &["application/x-csh"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

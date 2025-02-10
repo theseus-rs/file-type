@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3620682676: FileFormat = FileFormat {
-    id: 3_620_682_676,
-    source_type: SourceType::Iana,
-    name: "vnd.xmpie.dpkg",
-    extensions: &[],
-    media_types: &["application/vnd.xmpie.dpkg"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3620682676: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_620_682_676,
+        source_type: SourceType::Iana,
+        name: "vnd.xmpie.dpkg",
+        extensions: &[],
+        media_types: &["application/vnd.xmpie.dpkg"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

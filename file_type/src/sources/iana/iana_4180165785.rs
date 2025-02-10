@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_4180165785: FileFormat = FileFormat {
-    id: 4_180_165_785,
-    source_type: SourceType::Iana,
-    name: "mobile-xmf",
-    extensions: &[],
-    media_types: &["audio/mobile-xmf"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_4180165785: FileType = FileType {
+    file_format: &FileFormat {
+        id: 4_180_165_785,
+        source_type: SourceType::Iana,
+        name: "mobile-xmf",
+        extensions: &[],
+        media_types: &["audio/mobile-xmf"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

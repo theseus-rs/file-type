@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_109996995: FileFormat = FileFormat {
-    id: 109_996_995,
-    source_type: SourceType::Wikidata,
-    name: "OrgPlus Template",
-    extensions: &["opxt"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_109996995: FileType = FileType {
+    file_format: &FileFormat {
+        id: 109_996_995,
+        source_type: SourceType::Wikidata,
+        name: "OrgPlus Template",
+        extensions: &["opxt"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

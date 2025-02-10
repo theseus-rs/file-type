@@ -1,7 +1,9 @@
+mod generator;
 mod source;
 
 use file_type::format::{ByteSequence, FileFormat, Regex, RelatedFormat, Signature, Token};
 
+pub use generator::generate;
 pub use source::Source;
 
 impl Source for ByteSequence {

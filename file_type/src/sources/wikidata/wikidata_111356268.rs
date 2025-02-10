@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_111356268: FileFormat = FileFormat {
-    id: 111_356_268,
-    source_type: SourceType::Wikidata,
-    name: "Yamaha Motif ES 'voices' format",
-    extensions: &["w7v"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_111356268: FileType = FileType {
+    file_format: &FileFormat {
+        id: 111_356_268,
+        source_type: SourceType::Wikidata,
+        name: "Yamaha Motif ES 'voices' format",
+        extensions: &["w7v"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

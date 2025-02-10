@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_27959836: FileFormat = FileFormat {
-    id: 27_959_836,
-    source_type: SourceType::Wikidata,
-    name: "Raw FL Studio Project",
-    extensions: &["flp"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_27959836: FileType = FileType {
+    file_format: &FileFormat {
+        id: 27_959_836,
+        source_type: SourceType::Wikidata,
+        name: "Raw FL Studio Project",
+        extensions: &["flp"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

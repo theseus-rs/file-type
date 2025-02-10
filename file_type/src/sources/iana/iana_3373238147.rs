@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3373238147: FileFormat = FileFormat {
-    id: 3_373_238_147,
-    source_type: SourceType::Iana,
-    name: "vnd.1000minds.decision-model+xml",
-    extensions: &[],
-    media_types: &["application/vnd.1000minds.decision-model+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3373238147: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_373_238_147,
+        source_type: SourceType::Iana,
+        name: "vnd.1000minds.decision-model+xml",
+        extensions: &[],
+        media_types: &["application/vnd.1000minds.decision-model+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

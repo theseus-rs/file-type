@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_1335481394: FileFormat = FileFormat {
-    id: 1_335_481_394,
-    source_type: SourceType::Httpd,
-    name: "noblenet directory",
-    extensions: &["nnd"],
-    media_types: &["application/vnd.noblenet-directory"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_1335481394: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_335_481_394,
+        source_type: SourceType::Httpd,
+        name: "noblenet directory",
+        extensions: &["nnd"],
+        media_types: &["application/vnd.noblenet-directory"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

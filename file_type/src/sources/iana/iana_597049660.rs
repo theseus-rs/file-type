@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_597049660: FileFormat = FileFormat {
-    id: 597_049_660,
-    source_type: SourceType::Iana,
-    name: "srgs+xml",
-    extensions: &[],
-    media_types: &["application/srgs+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_597049660: FileType = FileType {
+    file_format: &FileFormat {
+        id: 597_049_660,
+        source_type: SourceType::Iana,
+        name: "srgs+xml",
+        extensions: &[],
+        media_types: &["application/srgs+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_59608885: FileFormat = FileFormat {
-    id: 59_608_885,
-    source_type: SourceType::Wikidata,
-    name: "PKCS #7 Cryptographic message file",
-    extensions: &["p7m"],
-    media_types: &["application/pkcs7-mime"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_59608885: FileType = FileType {
+    file_format: &FileFormat {
+        id: 59_608_885,
+        source_type: SourceType::Wikidata,
+        name: "PKCS #7 Cryptographic message file",
+        extensions: &["p7m"],
+        media_types: &["application/pkcs7-mime"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

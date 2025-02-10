@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_131010270: FileFormat = FileFormat {
-    id: 131_010_270,
-    source_type: SourceType::Wikidata,
-    name: "Smarty template file",
-    extensions: &["tpl"],
-    media_types: &["application/x-smarty"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_131010270: FileType = FileType {
+    file_format: &FileFormat {
+        id: 131_010_270,
+        source_type: SourceType::Wikidata,
+        name: "Smarty template file",
+        extensions: &["tpl"],
+        media_types: &["application/x-smarty"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

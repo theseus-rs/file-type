@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_7514956: FileFormat = FileFormat {
-    id: 7_514_956,
-    source_type: SourceType::Wikidata,
-    name: "Silicon Graphics Image",
-    extensions: &["bw", "rgb", "rgba", "sgi"],
-    media_types: &["image/sgi", "image/x-rgb", "image/x-sgi", "image/x-sgi-rgb"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_7514956: FileType = FileType {
+    file_format: &FileFormat {
+        id: 7_514_956,
+        source_type: SourceType::Wikidata,
+        name: "Silicon Graphics Image",
+        extensions: &["bw", "rgb", "rgba", "sgi"],
+        media_types: &["image/sgi", "image/x-rgb", "image/x-sgi", "image/x-sgi-rgb"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

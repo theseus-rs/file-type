@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_2195732661: FileFormat = FileFormat {
-    id: 2_195_732_661,
-    source_type: SourceType::Iana,
-    name: "gnap-binding-rotation-jwsd",
-    extensions: &[],
-    media_types: &["application/gnap-binding-rotation-jwsd"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_2195732661: FileType = FileType {
+    file_format: &FileFormat {
+        id: 2_195_732_661,
+        source_type: SourceType::Iana,
+        name: "gnap-binding-rotation-jwsd",
+        extensions: &[],
+        media_types: &["application/gnap-binding-rotation-jwsd"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

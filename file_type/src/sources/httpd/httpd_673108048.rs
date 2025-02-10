@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_673108048: FileFormat = FileFormat {
-    id: 673_108_048,
-    source_type: SourceType::Httpd,
-    name: "cdmi domain",
-    extensions: &["cdmid"],
-    media_types: &["application/cdmi-domain"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_673108048: FileType = FileType {
+    file_format: &FileFormat {
+        id: 673_108_048,
+        source_type: SourceType::Httpd,
+        name: "cdmi domain",
+        extensions: &["cdmid"],
+        media_types: &["application/cdmi-domain"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

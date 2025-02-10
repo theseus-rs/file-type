@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_2468360867: FileFormat = FileFormat {
-    id: 2_468_360_867,
-    source_type: SourceType::Iana,
-    name: "td+json",
-    extensions: &[],
-    media_types: &["application/td+json"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_2468360867: FileType = FileType {
+    file_format: &FileFormat {
+        id: 2_468_360_867,
+        source_type: SourceType::Iana,
+        name: "td+json",
+        extensions: &[],
+        media_types: &["application/td+json"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

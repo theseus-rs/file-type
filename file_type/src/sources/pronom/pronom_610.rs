@@ -1,27 +1,27 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, RelatedFormat, RelationshipType, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_610: FileFormat = FileFormat {
-    id: 610,
-    source_type: SourceType::Pronom,
-    name: "Tagged Image File Format",
-    extensions: &[],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 672,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 673,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 752,
-        },
-    ],
+pub(crate) const PRONOM_610: FileType = FileType {
+    file_format: &FileFormat {
+        id: 610,
+        source_type: SourceType::Pronom,
+        name: "Tagged Image File Format",
+        extensions: &[],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 672,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 673,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 752,
+            },
+        ],
+    },
 };

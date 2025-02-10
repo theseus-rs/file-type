@@ -1,22 +1,22 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::FileType;
 
-pub(crate) const PRONOM_1063: FileFormat = FileFormat {
-    id: 1_063,
-    source_type: SourceType::Pronom,
-    name: "Secure DjVU",
-    extensions: &["djvu", "djv"],
-    media_types: &["image/vnd.djvu", "image/x-djvu"],
-    signatures: &[Signature {
-        byte_sequences: &[ByteSequence {
-            position_type: PositionType::BOF,
-            offset: Some(0),
-            regex: Regex {
-                tokens: &[Token::Literal(&[0x53, 0x44, 0x4A, 0x56])],
-            },
+pub(crate) const PRONOM_1063: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_063,
+        source_type: SourceType::Pronom,
+        name: "Secure DjVU",
+        extensions: &["djvu", "djv"],
+        media_types: &["image/vnd.djvu", "image/x-djvu"],
+        signatures: &[Signature {
+            byte_sequences: &[ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex: Regex {
+                    tokens: &[Token::Literal(&[0x53, 0x44, 0x4A, 0x56])],
+                },
+            }],
         }],
-    }],
-    related_formats: &[],
+        related_formats: &[],
+    },
 };

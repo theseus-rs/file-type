@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_2495353376: FileFormat = FileFormat {
-    id: 2_495_353_376,
-    source_type: SourceType::Httpd,
-    name: "oasis opendocument text master",
-    extensions: &["odm"],
-    media_types: &["application/vnd.oasis.opendocument.text-master"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_2495353376: FileType = FileType {
+    file_format: &FileFormat {
+        id: 2_495_353_376,
+        source_type: SourceType::Httpd,
+        name: "oasis opendocument text master",
+        extensions: &["odm"],
+        media_types: &["application/vnd.oasis.opendocument.text-master"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

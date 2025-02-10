@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_213710802: FileFormat = FileFormat {
-    id: 213_710_802,
-    source_type: SourceType::Iana,
-    name: "vnd.3gpp.mcvideo-ue-config+xml",
-    extensions: &[],
-    media_types: &["application/vnd.3gpp.mcvideo-ue-config+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_213710802: FileType = FileType {
+    file_format: &FileFormat {
+        id: 213_710_802,
+        source_type: SourceType::Iana,
+        name: "vnd.3gpp.mcvideo-ue-config+xml",
+        extensions: &[],
+        media_types: &["application/vnd.3gpp.mcvideo-ue-config+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

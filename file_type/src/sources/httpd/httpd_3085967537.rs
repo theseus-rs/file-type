@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_3085967537: FileFormat = FileFormat {
-    id: 3_085_967_537,
-    source_type: SourceType::Httpd,
-    name: "andrew inset",
-    extensions: &["ez"],
-    media_types: &["application/andrew-inset"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_3085967537: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_085_967_537,
+        source_type: SourceType::Httpd,
+        name: "andrew inset",
+        extensions: &["ez"],
+        media_types: &["application/andrew-inset"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

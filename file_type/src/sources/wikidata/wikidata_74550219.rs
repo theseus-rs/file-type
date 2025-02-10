@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_74550219: FileFormat = FileFormat {
-    id: 74_550_219,
-    source_type: SourceType::Wikidata,
-    name: "Micrografx clipart index",
-    extensions: &["sbj"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_74550219: FileType = FileType {
+    file_format: &FileFormat {
+        id: 74_550_219,
+        source_type: SourceType::Wikidata,
+        name: "Micrografx clipart index",
+        extensions: &["sbj"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

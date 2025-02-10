@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3749448474: FileFormat = FileFormat {
-    id: 3_749_448_474,
-    source_type: SourceType::Iana,
-    name: "vnd.ms-windows.nwprinting.oob",
-    extensions: &[],
-    media_types: &["application/vnd.ms-windows.nwprinting.oob"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3749448474: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_749_448_474,
+        source_type: SourceType::Iana,
+        name: "vnd.ms-windows.nwprinting.oob",
+        extensions: &[],
+        media_types: &["application/vnd.ms-windows.nwprinting.oob"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -6,15 +6,13 @@
 use anyhow::Result;
 use file_type::format::{FileFormat, SourceType};
 use reqwest::Client;
-use source_generator::Source;
+use source_generator::generate;
 use std::collections::HashMap;
 use std::env;
 use std::hash::{DefaultHasher, Hash, Hasher};
-use std::path::{Path, PathBuf};
+use std::path::PathBuf;
 use std::time::Duration;
-use tokio::fs::File;
-use tokio::io::AsyncWriteExt;
-use tracing::{info, warn};
+use tracing::warn;
 use tracing_subscriber::filter::LevelFilter;
 use tracing_subscriber::{fmt, EnvFilter};
 
@@ -73,7 +71,7 @@ async fn execute(dry_run: bool) -> Result<()> {
     let mime_types = parse_mime_types(mime_types_data);
     let mut file_formats = process_mime_types(mime_types);
     file_formats.sort_by_key(|file_format| file_format.id);
-    generate_source_code(&file_formats, &source_dir, dry_run).await?;
+    generate(&file_formats, &source_dir, dry_run)?;
     Ok(())
 }
 
@@ -150,62 +148,6 @@ fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Vec<FileForma
     }
 
     file_formats.values().cloned().collect()
-}
-
-async fn generate_source_code(
-    file_formats: &Vec<FileFormat>,
-    source_dir: &Path,
-    dry_run: bool,
-) -> Result<()> {
-    // Generate the module file
-    let mut source_code = vec!["use crate::format::FileFormat;".to_string(), String::new()];
-    for file_format in file_formats {
-        let name = format!("httpd_{}", file_format.id);
-        source_code.push(format!("mod {name};"));
-    }
-    source_code.push(String::new());
-    source_code.push("#[doc(hidden)]".to_string());
-    source_code.push("pub const FILE_FORMATS: &[&FileFormat] = &[".to_string());
-    for file_format in file_formats {
-        let name = format!("httpd_{}", file_format.id);
-        source_code.push(format!("    &{}::{},", name, name.to_uppercase()));
-    }
-    source_code.push("];".to_string());
-    source_code.push(String::new());
-    let file_name = source_dir.join("mod.rs");
-    if dry_run {
-        warn!("[dry-run] Writing {}", file_name.to_string_lossy());
-    } else {
-        info!("Writing {}", file_name.to_string_lossy());
-        let mut source_file = File::create(file_name).await?;
-        source_file
-            .write_all(source_code.join("\n").as_bytes())
-            .await?;
-    }
-
-    // Generate source files for each file format
-    for file_format in file_formats {
-        let name = format!("httpd_{}", file_format.id);
-        let source_code = [
-            "use crate::format::{FileFormat, SourceType};".to_string(),
-            String::new(),
-            format!(
-                "pub(crate) const {}: FileFormat = {};",
-                name.to_uppercase(),
-                file_format.to_source(),
-            ),
-        ]
-        .join("\n");
-        let file_name = source_dir.join(format!("{name}.rs"));
-        if dry_run {
-            warn!("[dry-run] Writing {}", file_name.to_string_lossy());
-        } else {
-            info!("Writing {}", file_name.to_string_lossy());
-            let mut source_file = File::create(file_name).await?;
-            source_file.write_all(source_code.as_bytes()).await?;
-        }
-    }
-    Ok(())
 }
 
 #[cfg(test)]

@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_131294117: FileFormat = FileFormat {
-    id: 131_294_117,
-    source_type: SourceType::Wikidata,
-    name: "Terraform file format",
-    extensions: &["hcl", "tf"],
-    media_types: &["application/x-terraform", "application/x-tf"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_131294117: FileType = FileType {
+    file_format: &FileFormat {
+        id: 131_294_117,
+        source_type: SourceType::Wikidata,
+        name: "Terraform file format",
+        extensions: &["hcl", "tf"],
+        media_types: &["application/x-terraform", "application/x-tf"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

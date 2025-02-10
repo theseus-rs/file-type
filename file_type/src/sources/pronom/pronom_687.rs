@@ -2,25 +2,179 @@ use crate::format::{
     ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
     SourceType, Token,
 };
+use crate::FileType;
 
-pub(crate) const PRONOM_687: FileFormat = FileFormat {
-    id: 687,
-    source_type: SourceType::Pronom,
-    name: "MPEG 1/2 Audio Layer 3",
-    extensions: &["mp3"],
-    media_types: &["audio/mpeg"],
-    signatures: &[
-        Signature {
-            byte_sequences: &[
-                ByteSequence {
-                    position_type: PositionType::BOF,
-                    offset: Some(0),
-                    regex: Regex {
-                        tokens: &[Token::Literal(&[0x49, 0x44, 0x33])],
+pub(crate) const PRONOM_687: FileType = FileType {
+    file_format: &FileFormat {
+        id: 687,
+        source_type: SourceType::Pronom,
+        name: "MPEG 1/2 Audio Layer 3",
+        extensions: &["mp3"],
+        media_types: &["audio/mpeg"],
+        signatures: &[
+            Signature {
+                byte_sequences: &[
+                    ByteSequence {
+                        position_type: PositionType::BOF,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[Token::Literal(&[0x49, 0x44, 0x33])],
+                        },
                     },
-                },
-                ByteSequence {
-                    position_type: PositionType::EOF,
+                    ByteSequence {
+                        position_type: PositionType::EOF,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[
+                                Token::Literal(&[0xFF, 0xFB]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xFB]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xFB]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xFB]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xFB]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xFB]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xFB]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(47, 1_795),
+                            ],
+                        },
+                    },
+                ],
+            },
+            Signature {
+                byte_sequences: &[
+                    ByteSequence {
+                        position_type: PositionType::BOF,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[Token::Literal(&[0x49, 0x44, 0x33])],
+                        },
+                    },
+                    ByteSequence {
+                        position_type: PositionType::EOF,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[
+                                Token::Literal(&[0xFF, 0xF3]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xF3]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xF3]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xF3]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xF3]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xF3]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xF3]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(47, 1_795),
+                            ],
+                        },
+                    },
+                ],
+            },
+            Signature {
+                byte_sequences: &[
+                    ByteSequence {
+                        position_type: PositionType::BOF,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[Token::Literal(&[0x49, 0x44, 0x33])],
+                        },
+                    },
+                    ByteSequence {
+                        position_type: PositionType::EOF,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[
+                                Token::Literal(&[0xFF, 0xFA]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xFA]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xFA]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xFA]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xFA]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xFA]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xFA]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(47, 1_795),
+                            ],
+                        },
+                    },
+                ],
+            },
+            Signature {
+                byte_sequences: &[
+                    ByteSequence {
+                        position_type: PositionType::BOF,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[Token::Literal(&[0x49, 0x44, 0x33])],
+                        },
+                    },
+                    ByteSequence {
+                        position_type: PositionType::EOF,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[
+                                Token::Literal(&[0xFF, 0xF2]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xF2]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xF2]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xF2]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xF2]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xF2]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(46, 1_439),
+                                Token::Literal(&[0xFF, 0xF2]),
+                                Token::Range(&[0x10], &[0xEB]),
+                                Token::WildcardCountRange(47, 1_795),
+                            ],
+                        },
+                    },
+                ],
+            },
+            Signature {
+                byte_sequences: &[ByteSequence {
+                    position_type: PositionType::BOF,
                     offset: Some(0),
                     regex: Regex {
                         tokens: &[
@@ -44,23 +198,22 @@ pub(crate) const PRONOM_687: FileFormat = FileFormat {
                             Token::WildcardCountRange(46, 1_439),
                             Token::Literal(&[0xFF, 0xFB]),
                             Token::Range(&[0x10], &[0xEB]),
-                            Token::WildcardCountRange(47, 1_795),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xFB]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xFB]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xFB]),
+                            Token::Range(&[0x10], &[0xEB]),
                         ],
                     },
-                },
-            ],
-        },
-        Signature {
-            byte_sequences: &[
-                ByteSequence {
+                }],
+            },
+            Signature {
+                byte_sequences: &[ByteSequence {
                     position_type: PositionType::BOF,
-                    offset: Some(0),
-                    regex: Regex {
-                        tokens: &[Token::Literal(&[0x49, 0x44, 0x33])],
-                    },
-                },
-                ByteSequence {
-                    position_type: PositionType::EOF,
                     offset: Some(0),
                     regex: Regex {
                         tokens: &[
@@ -84,23 +237,22 @@ pub(crate) const PRONOM_687: FileFormat = FileFormat {
                             Token::WildcardCountRange(46, 1_439),
                             Token::Literal(&[0xFF, 0xF3]),
                             Token::Range(&[0x10], &[0xEB]),
-                            Token::WildcardCountRange(47, 1_795),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xF3]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xF3]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xF3]),
+                            Token::Range(&[0x10], &[0xEB]),
                         ],
                     },
-                },
-            ],
-        },
-        Signature {
-            byte_sequences: &[
-                ByteSequence {
+                }],
+            },
+            Signature {
+                byte_sequences: &[ByteSequence {
                     position_type: PositionType::BOF,
-                    offset: Some(0),
-                    regex: Regex {
-                        tokens: &[Token::Literal(&[0x49, 0x44, 0x33])],
-                    },
-                },
-                ByteSequence {
-                    position_type: PositionType::EOF,
                     offset: Some(0),
                     regex: Regex {
                         tokens: &[
@@ -124,23 +276,22 @@ pub(crate) const PRONOM_687: FileFormat = FileFormat {
                             Token::WildcardCountRange(46, 1_439),
                             Token::Literal(&[0xFF, 0xFA]),
                             Token::Range(&[0x10], &[0xEB]),
-                            Token::WildcardCountRange(47, 1_795),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xFA]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xFA]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xFA]),
+                            Token::Range(&[0x10], &[0xEB]),
                         ],
                     },
-                },
-            ],
-        },
-        Signature {
-            byte_sequences: &[
-                ByteSequence {
+                }],
+            },
+            Signature {
+                byte_sequences: &[ByteSequence {
                     position_type: PositionType::BOF,
-                    offset: Some(0),
-                    regex: Regex {
-                        tokens: &[Token::Literal(&[0x49, 0x44, 0x33])],
-                    },
-                },
-                ByteSequence {
-                    position_type: PositionType::EOF,
                     offset: Some(0),
                     regex: Regex {
                         tokens: &[
@@ -164,360 +315,212 @@ pub(crate) const PRONOM_687: FileFormat = FileFormat {
                             Token::WildcardCountRange(46, 1_439),
                             Token::Literal(&[0xFF, 0xF2]),
                             Token::Range(&[0x10], &[0xEB]),
-                            Token::WildcardCountRange(47, 1_795),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xF2]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xF2]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xF2]),
+                            Token::Range(&[0x10], &[0xEB]),
                         ],
                     },
-                },
-            ],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[
-                        Token::Literal(&[0xFF, 0xFB]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFB]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFB]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFB]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFB]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFB]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFB]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFB]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFB]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFB]),
-                        Token::Range(&[0x10], &[0xEB]),
-                    ],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[
-                        Token::Literal(&[0xFF, 0xF3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                    ],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[
-                        Token::Literal(&[0xFF, 0xFA]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFA]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFA]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFA]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFA]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFA]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFA]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFA]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFA]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xFA]),
-                        Token::Range(&[0x10], &[0xEB]),
-                    ],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[
-                        Token::Literal(&[0xFF, 0xF2]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF2]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF2]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF2]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF2]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF2]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF2]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF2]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF2]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xF2]),
-                        Token::Range(&[0x10], &[0xEB]),
-                    ],
-                },
-            }],
-        },
-        Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[
-                        Token::Literal(&[0xFF, 0xE3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xE3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xE3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xE3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xE3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xE3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xE3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xE3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xE3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                        Token::WildcardCountRange(46, 1_439),
-                        Token::Literal(&[0xFF, 0xE3]),
-                        Token::Range(&[0x10], &[0xEB]),
-                    ],
-                },
-            }],
-        },
-    ],
-    related_formats: &[
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 613,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 614,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 615,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 616,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 617,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 618,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 625,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 637,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 646,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 647,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 648,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 649,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 650,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 651,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 652,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 653,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 872,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 1_016,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 1_099,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 1_192,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 1_357,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 1_986,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_098,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_290,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_291,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_292,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_384,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_400,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_401,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_486,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_539,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_557,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_597,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_663,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_686,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_719,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_731,
-        },
-        RelatedFormat {
-            relationship_type: RelationshipType::HasLowerPriorityThan,
-            id: 2_762,
-        },
-    ],
+                }],
+            },
+            Signature {
+                byte_sequences: &[ByteSequence {
+                    position_type: PositionType::BOF,
+                    offset: Some(0),
+                    regex: Regex {
+                        tokens: &[
+                            Token::Literal(&[0xFF, 0xE3]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xE3]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xE3]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xE3]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xE3]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xE3]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xE3]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xE3]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xE3]),
+                            Token::Range(&[0x10], &[0xEB]),
+                            Token::WildcardCountRange(46, 1_439),
+                            Token::Literal(&[0xFF, 0xE3]),
+                            Token::Range(&[0x10], &[0xEB]),
+                        ],
+                    },
+                }],
+            },
+        ],
+        related_formats: &[
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 613,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 614,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 615,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 616,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 617,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 618,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 625,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 637,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 646,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 647,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 648,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 649,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 650,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 651,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 652,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 653,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 872,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 1_016,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 1_099,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 1_192,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 1_357,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 1_986,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_098,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_290,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_291,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_292,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_384,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_400,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_401,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_486,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_539,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_557,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_597,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_663,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_686,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_719,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_731,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 2_762,
+            },
+        ],
+    },
 };

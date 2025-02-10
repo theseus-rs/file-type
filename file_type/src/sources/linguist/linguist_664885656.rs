@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_664885656: FileFormat = FileFormat {
-    id: 664_885_656,
-    source_type: SourceType::Linguist,
-    name: "Jsonnet",
-    extensions: &["jsonnet", "libsonnet"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_664885656: FileType = FileType {
+    file_format: &FileFormat {
+        id: 664_885_656,
+        source_type: SourceType::Linguist,
+        name: "Jsonnet",
+        extensions: &["jsonnet", "libsonnet"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

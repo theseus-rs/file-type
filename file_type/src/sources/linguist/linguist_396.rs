@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_396: FileFormat = FileFormat {
-    id: 396,
-    source_type: SourceType::Linguist,
-    name: "World of Warcraft Addon Data",
-    extensions: &["toc"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_396: FileType = FileType {
+    file_format: &FileFormat {
+        id: 396,
+        source_type: SourceType::Linguist,
+        name: "World of Warcraft Addon Data",
+        extensions: &["toc"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

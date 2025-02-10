@@ -1,31 +1,31 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::FileType;
 
-pub(crate) const PRONOM_2380: FileFormat = FileFormat {
-    id: 2_380,
-    source_type: SourceType::Pronom,
-    name: "Standard Data Format",
-    extensions: &["sdf"],
-    media_types: &[],
-    signatures: &[Signature {
-        byte_sequences: &[
-            ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x47, 0x30])],
+pub(crate) const PRONOM_2380: FileType = FileType {
+    file_format: &FileFormat {
+        id: 2_380,
+        source_type: SourceType::Pronom,
+        name: "Standard Data Format",
+        extensions: &["sdf"],
+        media_types: &[],
+        signatures: &[Signature {
+            byte_sequences: &[
+                ByteSequence {
+                    position_type: PositionType::BOF,
+                    offset: Some(0),
+                    regex: Regex {
+                        tokens: &[Token::Literal(&[0x47, 0x30])],
+                    },
                 },
-            },
-            ByteSequence {
-                position_type: PositionType::EOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x0D, 0x0A, 0x1A])],
+                ByteSequence {
+                    position_type: PositionType::EOF,
+                    offset: Some(0),
+                    regex: Regex {
+                        tokens: &[Token::Literal(&[0x0D, 0x0A, 0x1A])],
+                    },
                 },
-            },
-        ],
-    }],
-    related_formats: &[],
+            ],
+        }],
+        related_formats: &[],
+    },
 };

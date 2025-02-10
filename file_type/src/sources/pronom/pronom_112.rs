@@ -1,14 +1,14 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_112: FileFormat = FileFormat {
-    id: 112,
-    source_type: SourceType::Pronom,
-    name: "AutoCAD Source Menu File",
-    extensions: &["mns"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const PRONOM_112: FileType = FileType {
+    file_format: &FileFormat {
+        id: 112,
+        source_type: SourceType::Pronom,
+        name: "AutoCAD Source Menu File",
+        extensions: &["mns"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

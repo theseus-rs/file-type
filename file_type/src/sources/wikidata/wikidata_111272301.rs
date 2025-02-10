@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_111272301: FileFormat = FileFormat {
-    id: 111_272_301,
-    source_type: SourceType::Wikidata,
-    name: "Ensoniq ASR instrument file",
-    extensions: &["efa"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_111272301: FileType = FileType {
+    file_format: &FileFormat {
+        id: 111_272_301,
+        source_type: SourceType::Wikidata,
+        name: "Ensoniq ASR instrument file",
+        extensions: &["efa"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_79242714: FileFormat = FileFormat {
-    id: 79_242_714,
-    source_type: SourceType::Wikidata,
-    name: "Lotus Approach Database index",
-    extensions: &["adx"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_79242714: FileType = FileType {
+    file_format: &FileFormat {
+        id: 79_242_714,
+        source_type: SourceType::Wikidata,
+        name: "Lotus Approach Database index",
+        extensions: &["adx"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

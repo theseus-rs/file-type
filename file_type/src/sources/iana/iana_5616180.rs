@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_5616180: FileFormat = FileFormat {
-    id: 5_616_180,
-    source_type: SourceType::Iana,
-    name: "vnd.collabio.xodocuments.document-template",
-    extensions: &[],
-    media_types: &["application/vnd.collabio.xodocuments.document-template"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_5616180: FileType = FileType {
+    file_format: &FileFormat {
+        id: 5_616_180,
+        source_type: SourceType::Iana,
+        name: "vnd.collabio.xodocuments.document-template",
+        extensions: &[],
+        media_types: &["application/vnd.collabio.xodocuments.document-template"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

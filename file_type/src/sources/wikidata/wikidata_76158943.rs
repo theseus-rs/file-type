@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_76158943: FileFormat = FileFormat {
-    id: 76_158_943,
-    source_type: SourceType::Wikidata,
-    name: "MegaPaint VPO",
-    extensions: &["vpo"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_76158943: FileType = FileType {
+    file_format: &FileFormat {
+        id: 76_158_943,
+        source_type: SourceType::Wikidata,
+        name: "MegaPaint VPO",
+        extensions: &["vpo"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

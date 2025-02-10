@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3736746635: FileFormat = FileFormat {
-    id: 3_736_746_635,
-    source_type: SourceType::Iana,
-    name: "prs.implied-object+json",
-    extensions: &[],
-    media_types: &["application/prs.implied-object+json"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3736746635: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_736_746_635,
+        source_type: SourceType::Iana,
+        name: "prs.implied-object+json",
+        extensions: &[],
+        media_types: &["application/prs.implied-object+json"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

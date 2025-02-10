@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_122583807: FileFormat = FileFormat {
-    id: 122_583_807,
-    source_type: SourceType::Wikidata,
-    name: "Zetafax Fax Image File (Fine)",
-    extensions: &["g3f"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_122583807: FileType = FileType {
+    file_format: &FileFormat {
+        id: 122_583_807,
+        source_type: SourceType::Wikidata,
+        name: "Zetafax Fax Image File (Fine)",
+        extensions: &["g3f"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

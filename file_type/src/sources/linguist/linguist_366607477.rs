@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_366607477: FileFormat = FileFormat {
-    id: 366_607_477,
-    source_type: SourceType::Linguist,
-    name: "HAProxy",
-    extensions: &["cfg"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_366607477: FileType = FileType {
+    file_format: &FileFormat {
+        id: 366_607_477,
+        source_type: SourceType::Linguist,
+        name: "HAProxy",
+        extensions: &["cfg"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

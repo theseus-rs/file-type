@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_508563686: FileFormat = FileFormat {
-    id: 508_563_686,
-    source_type: SourceType::Linguist,
-    name: "Vim Help File",
-    extensions: &["txt"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_508563686: FileType = FileType {
+    file_format: &FileFormat {
+        id: 508_563_686,
+        source_type: SourceType::Linguist,
+        name: "Vim Help File",
+        extensions: &["txt"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

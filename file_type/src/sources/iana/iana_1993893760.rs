@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_1993893760: FileFormat = FileFormat {
-    id: 1_993_893_760,
-    source_type: SourceType::Iana,
-    name: "vnd.cyclonedx+json",
-    extensions: &[],
-    media_types: &["application/vnd.cyclonedx+json"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_1993893760: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_993_893_760,
+        source_type: SourceType::Iana,
+        name: "vnd.cyclonedx+json",
+        extensions: &[],
+        media_types: &["application/vnd.cyclonedx+json"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_362916929: FileFormat = FileFormat {
-    id: 362_916_929,
-    source_type: SourceType::Iana,
-    name: "vnd.syncml.dmddf+xml",
-    extensions: &[],
-    media_types: &["application/vnd.syncml.dmddf+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_362916929: FileType = FileType {
+    file_format: &FileFormat {
+        id: 362_916_929,
+        source_type: SourceType::Iana,
+        name: "vnd.syncml.dmddf+xml",
+        extensions: &[],
+        media_types: &["application/vnd.syncml.dmddf+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

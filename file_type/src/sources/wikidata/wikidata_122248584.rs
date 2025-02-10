@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_122248584: FileFormat = FileFormat {
-    id: 122_248_584,
-    source_type: SourceType::Wikidata,
-    name: "YUV Video File",
-    extensions: &["yuv"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_122248584: FileType = FileType {
+    file_format: &FileFormat {
+        id: 122_248_584,
+        source_type: SourceType::Wikidata,
+        name: "YUV Video File",
+        extensions: &["yuv"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_358247048: FileFormat = FileFormat {
-    id: 358_247_048,
-    source_type: SourceType::Iana,
-    name: "vnd.canon-cpdl",
-    extensions: &[],
-    media_types: &["application/vnd.canon-cpdl"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_358247048: FileType = FileType {
+    file_format: &FileFormat {
+        id: 358_247_048,
+        source_type: SourceType::Iana,
+        name: "vnd.canon-cpdl",
+        extensions: &[],
+        media_types: &["application/vnd.canon-cpdl"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

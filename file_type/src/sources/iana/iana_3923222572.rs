@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3923222572: FileFormat = FileFormat {
-    id: 3_923_222_572,
-    source_type: SourceType::Iana,
-    name: "vnd.groove-identity-message",
-    extensions: &[],
-    media_types: &["application/vnd.groove-identity-message"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3923222572: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_923_222_572,
+        source_type: SourceType::Iana,
+        name: "vnd.groove-identity-message",
+        extensions: &[],
+        media_types: &["application/vnd.groove-identity-message"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

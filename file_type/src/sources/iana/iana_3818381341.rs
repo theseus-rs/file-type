@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3818381341: FileFormat = FileFormat {
-    id: 3_818_381_341,
-    source_type: SourceType::Iana,
-    name: "vnd.openxmlformats-package.core-properties+xml",
-    extensions: &[],
-    media_types: &["application/vnd.openxmlformats-package.core-properties+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3818381341: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_818_381_341,
+        source_type: SourceType::Iana,
+        name: "vnd.openxmlformats-package.core-properties+xml",
+        extensions: &[],
+        media_types: &["application/vnd.openxmlformats-package.core-properties+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

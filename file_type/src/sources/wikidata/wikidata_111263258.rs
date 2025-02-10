@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_111263258: FileFormat = FileFormat {
-    id: 111_263_258,
-    source_type: SourceType::Wikidata,
-    name: "Soundcap/SoundEdit instrument",
-    extensions: &["dewf"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_111263258: FileType = FileType {
+    file_format: &FileFormat {
+        id: 111_263_258,
+        source_type: SourceType::Wikidata,
+        name: "Soundcap/SoundEdit instrument",
+        extensions: &["dewf"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

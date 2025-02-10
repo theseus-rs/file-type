@@ -1,4 +1,4 @@
-use crate::format::FileFormat;
+use crate::FileType;
 
 mod httpd_1003190918;
 mod httpd_1005760972;
@@ -773,7 +773,7 @@ mod httpd_994343837;
 mod httpd_996033646;
 
 #[doc(hidden)]
-pub const FILE_FORMATS: &[&FileFormat] = &[
+pub const FILE_TYPES: &[&FileType] = &[
     &httpd_1690715::HTTPD_1690715,
     &httpd_2839328::HTTPD_2839328,
     &httpd_11715083::HTTPD_11715083,

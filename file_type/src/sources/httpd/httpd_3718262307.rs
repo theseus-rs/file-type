@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_3718262307: FileFormat = FileFormat {
-    id: 3_718_262_307,
-    source_type: SourceType::Httpd,
-    name: "s3m",
-    extensions: &["s3m"],
-    media_types: &["audio/s3m"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_3718262307: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_718_262_307,
+        source_type: SourceType::Httpd,
+        name: "s3m",
+        extensions: &["s3m"],
+        media_types: &["audio/s3m"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

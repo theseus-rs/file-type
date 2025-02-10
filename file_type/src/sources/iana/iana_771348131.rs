@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_771348131: FileFormat = FileFormat {
-    id: 771_348_131,
-    source_type: SourceType::Iana,
-    name: "jwk+json",
-    extensions: &[],
-    media_types: &["application/jwk+json"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_771348131: FileType = FileType {
+    file_format: &FileFormat {
+        id: 771_348_131,
+        source_type: SourceType::Iana,
+        name: "jwk+json",
+        extensions: &[],
+        media_types: &["application/jwk+json"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

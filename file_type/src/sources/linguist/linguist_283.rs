@@ -1,13 +1,17 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_283: FileFormat = FileFormat {
-    id: 283,
-    source_type: SourceType::Linguist,
-    name: "Raku",
-    extensions: &[
-        "6pl", "6pm", "nqp", "p6", "p6l", "p6m", "pl", "pl6", "pm", "pm6", "raku", "rakumod", "t",
-    ],
-    media_types: &["text/x-perl"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_283: FileType = FileType {
+    file_format: &FileFormat {
+        id: 283,
+        source_type: SourceType::Linguist,
+        name: "Raku",
+        extensions: &[
+            "6pl", "6pm", "nqp", "p6", "p6l", "p6m", "pl", "pl6", "pm", "pm6", "raku", "rakumod",
+            "t",
+        ],
+        media_types: &["text/x-perl"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,14 +1,14 @@
-use crate::format::{
-    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
-    SourceType, Token,
-};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const PRONOM_863: FileFormat = FileFormat {
-    id: 863,
-    source_type: SourceType::Pronom,
-    name: "Revit Workspace",
-    extensions: &["rws"],
-    media_types: &["application/octet-stream"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const PRONOM_863: FileType = FileType {
+    file_format: &FileFormat {
+        id: 863,
+        source_type: SourceType::Pronom,
+        name: "Revit Workspace",
+        extensions: &["rws"],
+        media_types: &["application/octet-stream"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

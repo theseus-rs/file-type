@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_130363500: FileFormat = FileFormat {
-    id: 130_363_500,
-    source_type: SourceType::Wikidata,
-    name: "NCL file",
-    extensions: &["ncl"],
-    media_types: &["text/ncl"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_130363500: FileType = FileType {
+    file_format: &FileFormat {
+        id: 130_363_500,
+        source_type: SourceType::Wikidata,
+        name: "NCL file",
+        extensions: &["ncl"],
+        media_types: &["text/ncl"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

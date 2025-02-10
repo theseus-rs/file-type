@@ -14,8 +14,8 @@ mod test_signature;
 
 fn main() -> anyhow::Result<()> {
     supported_formats::generate()?;
-    generator::generate(&SourceType::Pronom, pronom::FILE_FORMATS)?;
-    generator::generate(&SourceType::Wikidata, wikidata::FILE_FORMATS)
+    generator::generate(&SourceType::Pronom, pronom::FILE_TYPES)?;
+    generator::generate(&SourceType::Wikidata, wikidata::FILE_TYPES)
 }
 
 #[cfg(test)]

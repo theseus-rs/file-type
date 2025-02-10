@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_52230534: FileFormat = FileFormat {
-    id: 52_230_534,
-    source_type: SourceType::Wikidata,
-    name: "Polynomial Texture Map",
-    extensions: &["ptm"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_52230534: FileType = FileType {
+    file_format: &FileFormat {
+        id: 52_230_534,
+        source_type: SourceType::Wikidata,
+        name: "Polynomial Texture Map",
+        extensions: &["ptm"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

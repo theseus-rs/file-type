@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_821312728: FileFormat = FileFormat {
-    id: 821_312_728,
-    source_type: SourceType::Iana,
-    name: "vnd.cirpack.isdn-ext",
-    extensions: &[],
-    media_types: &["application/vnd.cirpack.isdn-ext"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_821312728: FileType = FileType {
+    file_format: &FileFormat {
+        id: 821_312_728,
+        source_type: SourceType::Iana,
+        name: "vnd.cirpack.isdn-ext",
+        extensions: &[],
+        media_types: &["application/vnd.cirpack.isdn-ext"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

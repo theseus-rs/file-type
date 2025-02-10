@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_130062600: FileFormat = FileFormat {
-    id: 130_062_600,
-    source_type: SourceType::Wikidata,
-    name: "Kal source code file",
-    extensions: &["kal"],
-    media_types: &["application/kal", "text/kal"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_130062600: FileType = FileType {
+    file_format: &FileFormat {
+        id: 130_062_600,
+        source_type: SourceType::Wikidata,
+        name: "Kal source code file",
+        extensions: &["kal"],
+        media_types: &["application/kal", "text/kal"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_27863097: FileFormat = FileFormat {
-    id: 27_863_097,
-    source_type: SourceType::Wikidata,
-    name: "3GPP file format",
-    extensions: &["3gp"],
-    media_types: &["audio/3gpp", "video/3gpp"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_27863097: FileType = FileType {
+    file_format: &FileFormat {
+        id: 27_863_097,
+        source_type: SourceType::Wikidata,
+        name: "3GPP file format",
+        extensions: &["3gp"],
+        media_types: &["audio/3gpp", "video/3gpp"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

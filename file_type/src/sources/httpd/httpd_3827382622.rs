@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_3827382622: FileFormat = FileFormat {
-    id: 3_827_382_622,
-    source_type: SourceType::Httpd,
-    name: "mac binhex40",
-    extensions: &["hqx"],
-    media_types: &["application/mac-binhex40"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_3827382622: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_827_382_622,
+        source_type: SourceType::Httpd,
+        name: "mac binhex40",
+        extensions: &["hqx"],
+        media_types: &["application/mac-binhex40"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

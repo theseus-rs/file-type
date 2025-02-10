@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_103: FileFormat = FileFormat {
-    id: 103,
-    source_type: SourceType::Linguist,
-    name: "EmberScript",
-    extensions: &["em", "emberscript"],
-    media_types: &["text/x-coffeescript"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_103: FileType = FileType {
+    file_format: &FileFormat {
+        id: 103,
+        source_type: SourceType::Linguist,
+        name: "EmberScript",
+        extensions: &["em", "emberscript"],
+        media_types: &["text/x-coffeescript"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

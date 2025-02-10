@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_572396452: FileFormat = FileFormat {
-    id: 572_396_452,
-    source_type: SourceType::Iana,
-    name: "entity-statement+jwt",
-    extensions: &[],
-    media_types: &["application/entity-statement+jwt"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_572396452: FileType = FileType {
+    file_format: &FileFormat {
+        id: 572_396_452,
+        source_type: SourceType::Iana,
+        name: "entity-statement+jwt",
+        extensions: &[],
+        media_types: &["application/entity-statement+jwt"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_4292083979: FileFormat = FileFormat {
-    id: 4_292_083_979,
-    source_type: SourceType::Iana,
-    name: "provenance+xml",
-    extensions: &[],
-    media_types: &["application/provenance+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_4292083979: FileType = FileType {
+    file_format: &FileFormat {
+        id: 4_292_083_979,
+        source_type: SourceType::Iana,
+        name: "provenance+xml",
+        extensions: &[],
+        media_types: &["application/provenance+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

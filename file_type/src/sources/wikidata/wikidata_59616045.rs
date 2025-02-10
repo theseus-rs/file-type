@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_59616045: FileFormat = FileFormat {
-    id: 59_616_045,
-    source_type: SourceType::Wikidata,
-    name: "Zope export file",
-    extensions: &["zexp"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_59616045: FileType = FileType {
+    file_format: &FileFormat {
+        id: 59_616_045,
+        source_type: SourceType::Wikidata,
+        name: "Zope export file",
+        extensions: &["zexp"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

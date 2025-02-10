@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_973156789: FileFormat = FileFormat {
-    id: 973_156_789,
-    source_type: SourceType::Iana,
-    name: "vnd.Mobius.MSL",
-    extensions: &[],
-    media_types: &["application/vnd.Mobius.MSL"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_973156789: FileType = FileType {
+    file_format: &FileFormat {
+        id: 973_156_789,
+        source_type: SourceType::Iana,
+        name: "vnd.Mobius.MSL",
+        extensions: &[],
+        media_types: &["application/vnd.Mobius.MSL"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

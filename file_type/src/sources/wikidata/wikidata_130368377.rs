@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_130368377: FileFormat = FileFormat {
-    id: 130_368_377,
-    source_type: SourceType::Wikidata,
-    name: "nesC source code file",
-    extensions: &["nc"],
-    media_types: &["text/x-nescsrc"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_130368377: FileType = FileType {
+    file_format: &FileFormat {
+        id: 130_368_377,
+        source_type: SourceType::Wikidata,
+        name: "nesC source code file",
+        extensions: &["nc"],
+        media_types: &["text/x-nescsrc"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

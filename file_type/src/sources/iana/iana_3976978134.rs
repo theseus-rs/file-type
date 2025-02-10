@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3976978134: FileFormat = FileFormat {
-    id: 3_976_978_134,
-    source_type: SourceType::Iana,
-    name: "vnd.oma.cab-pcc+xml",
-    extensions: &[],
-    media_types: &["application/vnd.oma.cab-pcc+xml"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3976978134: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_976_978_134,
+        source_type: SourceType::Iana,
+        name: "vnd.oma.cab-pcc+xml",
+        extensions: &[],
+        media_types: &["application/vnd.oma.cab-pcc+xml"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

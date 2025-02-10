@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_658971832: FileFormat = FileFormat {
-    id: 658_971_832,
-    source_type: SourceType::Linguist,
-    name: "AL",
-    extensions: &["al"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_658971832: FileType = FileType {
+    file_format: &FileFormat {
+        id: 658_971_832,
+        source_type: SourceType::Linguist,
+        name: "AL",
+        extensions: &["al"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

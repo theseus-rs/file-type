@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_59390827: FileFormat = FileFormat {
-    id: 59_390_827,
-    source_type: SourceType::Wikidata,
-    name: "Domino XML Document Export",
-    extensions: &["dxl"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_59390827: FileType = FileType {
+    file_format: &FileFormat {
+        id: 59_390_827,
+        source_type: SourceType::Wikidata,
+        name: "Domino XML Document Export",
+        extensions: &["dxl"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

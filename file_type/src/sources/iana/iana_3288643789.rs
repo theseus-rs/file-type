@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3288643789: FileFormat = FileFormat {
-    id: 3_288_643_789,
-    source_type: SourceType::Iana,
-    name: "x-pki-message",
-    extensions: &[],
-    media_types: &["application/x-pki-message"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3288643789: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_288_643_789,
+        source_type: SourceType::Iana,
+        name: "x-pki-message",
+        extensions: &[],
+        media_types: &["application/x-pki-message"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

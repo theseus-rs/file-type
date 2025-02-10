@@ -1,15 +1,18 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_124: FileFormat = FileFormat {
-    id: 124,
-    source_type: SourceType::Linguist,
-    name: "GLSL",
-    extensions: &[
-        "fp", "frag", "frg", "fs", "fsh", "fshader", "geo", "geom", "glsl", "glslf", "glslv", "gs",
-        "gshader", "rchit", "rmiss", "shader", "tesc", "tese", "vert", "vrx", "vs", "vsh",
-        "vshader",
-    ],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_124: FileType = FileType {
+    file_format: &FileFormat {
+        id: 124,
+        source_type: SourceType::Linguist,
+        name: "GLSL",
+        extensions: &[
+            "fp", "frag", "frg", "fs", "fsh", "fshader", "geo", "geom", "glsl", "glslf", "glslv",
+            "gs", "gshader", "rchit", "rmiss", "shader", "tesc", "tese", "vert", "vrx", "vs",
+            "vsh", "vshader",
+        ],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

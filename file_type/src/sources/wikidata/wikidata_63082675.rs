@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_63082675: FileFormat = FileFormat {
-    id: 63_082_675,
-    source_type: SourceType::Wikidata,
-    name: "Waveform Audio (WAVEFORMATEXTENSIBLE)",
-    extensions: &["wav", "wave"],
-    media_types: &["audio/x-wav"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_63082675: FileType = FileType {
+    file_format: &FileFormat {
+        id: 63_082_675,
+        source_type: SourceType::Wikidata,
+        name: "Waveform Audio (WAVEFORMATEXTENSIBLE)",
+        extensions: &["wav", "wave"],
+        media_types: &["audio/x-wav"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

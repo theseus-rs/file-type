@@ -76,7 +76,6 @@
 #![forbid(unsafe_code)]
 #![forbid(clippy::allow_attributes)]
 #![allow(dead_code)]
-#![allow(unused_imports)]
 #![deny(clippy::pedantic)]
 #![deny(clippy::unwrap_in_result)]
 #![deny(clippy::unwrap_used)]

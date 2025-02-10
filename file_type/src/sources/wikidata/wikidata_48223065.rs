@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_48223065: FileFormat = FileFormat {
-    id: 48_223_065,
-    source_type: SourceType::Wikidata,
-    name: "Turbo Debugger Keystroke Recording File",
-    extensions: &["tdk"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_48223065: FileType = FileType {
+    file_format: &FileFormat {
+        id: 48_223_065,
+        source_type: SourceType::Wikidata,
+        name: "Turbo Debugger Keystroke Recording File",
+        extensions: &["tdk"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

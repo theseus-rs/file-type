@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_52059869: FileFormat = FileFormat {
-    id: 52_059_869,
-    source_type: SourceType::Wikidata,
-    name: "Micrografx Designer format, version 3.1",
-    extensions: &["drw"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_52059869: FileType = FileType {
+    file_format: &FileFormat {
+        id: 52_059_869,
+        source_type: SourceType::Wikidata,
+        name: "Micrografx Designer format, version 3.1",
+        extensions: &["drw"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

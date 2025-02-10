@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_1050342415: FileFormat = FileFormat {
-    id: 1_050_342_415,
-    source_type: SourceType::Httpd,
-    name: "vcard",
-    extensions: &["vcard"],
-    media_types: &["text/vcard"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_1050342415: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_050_342_415,
+        source_type: SourceType::Httpd,
+        name: "vcard",
+        extensions: &["vcard"],
+        media_types: &["text/vcard"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

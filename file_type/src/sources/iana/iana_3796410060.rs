@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3796410060: FileFormat = FileFormat {
-    id: 3_796_410_060,
-    source_type: SourceType::Iana,
-    name: "vnd.pwg-multiplexed",
-    extensions: &[],
-    media_types: &["application/vnd.pwg-multiplexed"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3796410060: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_796_410_060,
+        source_type: SourceType::Iana,
+        name: "vnd.pwg-multiplexed",
+        extensions: &[],
+        media_types: &["application/vnd.pwg-multiplexed"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const HTTPD_1850889667: FileFormat = FileFormat {
-    id: 1_850_889_667,
-    source_type: SourceType::Httpd,
-    name: "freearc",
-    extensions: &["arc"],
-    media_types: &["application/x-freearc"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const HTTPD_1850889667: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_850_889_667,
+        source_type: SourceType::Httpd,
+        name: "freearc",
+        extensions: &["arc"],
+        media_types: &["application/x-freearc"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

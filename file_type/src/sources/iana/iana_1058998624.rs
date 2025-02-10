@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_1058998624: FileFormat = FileFormat {
-    id: 1_058_998_624,
-    source_type: SourceType::Iana,
-    name: "vnd.motorola.flexsuite",
-    extensions: &[],
-    media_types: &["application/vnd.motorola.flexsuite"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_1058998624: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_058_998_624,
+        source_type: SourceType::Iana,
+        name: "vnd.motorola.flexsuite",
+        extensions: &[],
+        media_types: &["application/vnd.motorola.flexsuite"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_4060300356: FileFormat = FileFormat {
-    id: 4_060_300_356,
-    source_type: SourceType::Iana,
-    name: "vnd.nato.bindingdataobject+cbor",
-    extensions: &[],
-    media_types: &["application/vnd.nato.bindingdataobject+cbor"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_4060300356: FileType = FileType {
+    file_format: &FileFormat {
+        id: 4_060_300_356,
+        source_type: SourceType::Iana,
+        name: "vnd.nato.bindingdataobject+cbor",
+        extensions: &[],
+        media_types: &["application/vnd.nato.bindingdataobject+cbor"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

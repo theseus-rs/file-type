@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_1516953976: FileFormat = FileFormat {
-    id: 1_516_953_976,
-    source_type: SourceType::Iana,
-    name: "vnd.ecowin.seriesupdate",
-    extensions: &[],
-    media_types: &["application/vnd.ecowin.seriesupdate"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_1516953976: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_516_953_976,
+        source_type: SourceType::Iana,
+        name: "vnd.ecowin.seriesupdate",
+        extensions: &[],
+        media_types: &["application/vnd.ecowin.seriesupdate"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

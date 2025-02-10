@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_151: FileFormat = FileFormat {
-    id: 151,
-    source_type: SourceType::Linguist,
-    name: "HTML+PHP",
-    extensions: &["phtml"],
-    media_types: &["application/x-httpd-php"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_151: FileType = FileType {
+    file_format: &FileFormat {
+        id: 151,
+        source_type: SourceType::Linguist,
+        name: "HTML+PHP",
+        extensions: &["phtml"],
+        media_types: &["application/x-httpd-php"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

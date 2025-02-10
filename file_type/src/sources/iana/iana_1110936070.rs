@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_1110936070: FileFormat = FileFormat {
-    id: 1_110_936_070,
-    source_type: SourceType::Iana,
-    name: "vnd.ms-word.template.macroEnabled.12",
-    extensions: &[],
-    media_types: &["application/vnd.ms-word.template.macroEnabled.12"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_1110936070: FileType = FileType {
+    file_format: &FileFormat {
+        id: 1_110_936_070,
+        source_type: SourceType::Iana,
+        name: "vnd.ms-word.template.macroEnabled.12",
+        extensions: &[],
+        media_types: &["application/vnd.ms-word.template.macroEnabled.12"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

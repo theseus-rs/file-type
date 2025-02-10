@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const IANA_3459914175: FileFormat = FileFormat {
-    id: 3_459_914_175,
-    source_type: SourceType::Iana,
-    name: "vnd.sealedmedia.softseal.html",
-    extensions: &[],
-    media_types: &["application/vnd.sealedmedia.softseal.html"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const IANA_3459914175: FileType = FileType {
+    file_format: &FileFormat {
+        id: 3_459_914_175,
+        source_type: SourceType::Iana,
+        name: "vnd.sealedmedia.softseal.html",
+        extensions: &[],
+        media_types: &["application/vnd.sealedmedia.softseal.html"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

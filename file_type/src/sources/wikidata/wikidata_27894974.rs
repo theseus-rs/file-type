@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_27894974: FileFormat = FileFormat {
-    id: 27_894_974,
-    source_type: SourceType::Wikidata,
-    name: "Windows Media Redirector",
-    extensions: &["wmx"],
-    media_types: &["video/x-ms-wmx"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_27894974: FileType = FileType {
+    file_format: &FileFormat {
+        id: 27_894_974,
+        source_type: SourceType::Wikidata,
+        name: "Windows Media Redirector",
+        extensions: &["wmx"],
+        media_types: &["video/x-ms-wmx"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

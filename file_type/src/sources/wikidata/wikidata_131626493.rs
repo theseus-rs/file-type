@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_131626493: FileFormat = FileFormat {
-    id: 131_626_493,
-    source_type: SourceType::Wikidata,
-    name: "Tabulat data file format",
-    extensions: &["dat"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_131626493: FileType = FileType {
+    file_format: &FileFormat {
+        id: 131_626_493,
+        source_type: SourceType::Wikidata,
+        name: "Tabulat data file format",
+        extensions: &["dat"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

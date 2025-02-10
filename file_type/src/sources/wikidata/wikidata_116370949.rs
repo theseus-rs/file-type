@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_116370949: FileFormat = FileFormat {
-    id: 116_370_949,
-    source_type: SourceType::Wikidata,
-    name: "DFPWM",
-    extensions: &["dfpwm"],
-    media_types: &["audio/dfpwm"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_116370949: FileType = FileType {
+    file_format: &FileFormat {
+        id: 116_370_949,
+        source_type: SourceType::Wikidata,
+        name: "DFPWM",
+        extensions: &["dfpwm"],
+        media_types: &["audio/dfpwm"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

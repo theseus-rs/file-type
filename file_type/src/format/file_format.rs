@@ -84,7 +84,6 @@ impl PartialOrd for FileFormat {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::format::{ByteSequence, PositionType};
 
     #[test]
     fn test_priority() {

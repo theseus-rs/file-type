@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_28771271: FileFormat = FileFormat {
-    id: 28_771_271,
-    source_type: SourceType::Wikidata,
-    name: "MSA (Magic Shadow Archiver)",
-    extensions: &["msa"],
-    media_types: &["application/vnd.msa-disk-image"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_28771271: FileType = FileType {
+    file_format: &FileFormat {
+        id: 28_771_271,
+        source_type: SourceType::Wikidata,
+        name: "MSA (Magic Shadow Archiver)",
+        extensions: &["msa"],
+        media_types: &["application/vnd.msa-disk-image"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

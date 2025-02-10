@@ -1,11 +1,14 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const WIKIDATA_81413909: FileFormat = FileFormat {
-    id: 81_413_909,
-    source_type: SourceType::Wikidata,
-    name: "Macromedia Director Shockwave Cast",
-    extensions: &["cct"],
-    media_types: &[],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const WIKIDATA_81413909: FileType = FileType {
+    file_format: &FileFormat {
+        id: 81_413_909,
+        source_type: SourceType::Wikidata,
+        name: "Macromedia Director Shockwave Cast",
+        extensions: &["cct"],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    },
 };

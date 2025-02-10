@@ -1,11 +1,14 @@
 use crate::format::{FileFormat, SourceType};
+use crate::FileType;
 
-pub(crate) const LINGUIST_128: FileFormat = FileFormat {
-    id: 128,
-    source_type: SourceType::Linguist,
-    name: "Gentoo Eclass",
-    extensions: &["eclass"],
-    media_types: &["text/x-sh"],
-    signatures: &[],
-    related_formats: &[],
+pub(crate) const LINGUIST_128: FileType = FileType {
+    file_format: &FileFormat {
+        id: 128,
+        source_type: SourceType::Linguist,
+        name: "Gentoo Eclass",
+        extensions: &["eclass"],
+        media_types: &["text/x-sh"],
+        signatures: &[],
+        related_formats: &[],
+    },
 };
