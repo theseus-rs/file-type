@@ -6,6 +6,6 @@ mod signature;
 
 pub use byte_sequence::{ByteSequence, PositionType};
 pub use file_format::{FileFormat, SourceType};
-pub use regex::{Regex, Token};
+pub use regex::{Regex, Token, UNIDENTIFIED_KEY};
 pub use related_format::{RelatedFormat, RelationshipType};
 pub use signature::Signature;
