@@ -28,8 +28,6 @@ fn large_bytes() -> Vec<u8> {
 fn bench_lifecycle(criterion: &mut Criterion) -> anyhow::Result<()> {
     let file = PathBuf::from(CRATE_DIR)
         .join("..")
-        .join("..")
-        .join("..")
         .join("test_data")
         .join("pronom")
         .join("pronom-382-signature-0.zip");
