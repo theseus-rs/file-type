@@ -1,4 +1,4 @@
-# File Types (18835)
+# File Types (18839)
 
 | Source | Id | Name | Extensions | Media Types |
 | ---- | ---- | ---- | ----------- | ---------- |
@@ -2807,7 +2807,6 @@
 | Wikidata | 5421818 | Extended Log Format | log |  |
 | Wikidata | 5421923 | Extensible MPEG-4 Textual Format | xmt | application/mpeg4-iod-xmt |
 | Wikidata | 5448342 | File change log | log |  |
-| Wikidata | 5508789 | Functional Mock-up Interface | fmu |  |
 | Wikidata | 5513478 | GIFT | gift |  |
 | Wikidata | 5514807 | GUIDO music notation | gmn |  |
 | Wikidata | 5519821 | Game Boy Sound | gbs | application/octet-stream |
@@ -15136,6 +15135,11 @@
 | Wikidata | 132156191 | NIMAS zipped file | zip |  |
 | Wikidata | 132189411 | Sao Mai Braille file format | smb |  |
 | Wikidata | 132189848 | Spanish Braille file format | bra |  |
+| Wikidata | 132230252 | Not eXactly C source code file | nxc |  |
+| Wikidata | 132232221 | Next Byte Codes file format | nbc |  |
+| Wikidata | 132291887 | functional mock-up unit | fmu |  |
+| Wikidata | 132348514 | React TypeScript File format | tsx |  |
+| Wikidata | 132427122 | CBOR | cbor | application/cbor |
 | Linguist | 0 | 1C Enterprise | bsl, os |  |
 | Linguist | 1 | ABAP | abap |  |
 | Linguist | 2 | AGS Script | asc, ash | text/x-c++src |
