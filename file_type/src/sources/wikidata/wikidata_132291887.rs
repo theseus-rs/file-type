@@ -1,11 +1,11 @@
 use crate::format::{FileFormat, SourceType};
 use crate::FileType;
 
-pub(crate) const WIKIDATA_5508789: FileType = FileType {
+pub(crate) const WIKIDATA_132291887: FileType = FileType {
     file_format: &FileFormat {
-        id: 5_508_789,
+        id: 132_291_887,
         source_type: SourceType::Wikidata,
-        name: "Functional Mock-up Interface",
+        name: "functional mock-up unit",
         extensions: &["fmu"],
         media_types: &[],
         signatures: &[],

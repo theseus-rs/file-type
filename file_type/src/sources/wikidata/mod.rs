@@ -9425,6 +9425,11 @@ pub(crate) mod wikidata_132156163;
 pub(crate) mod wikidata_132156191;
 pub(crate) mod wikidata_132189411;
 pub(crate) mod wikidata_132189848;
+pub(crate) mod wikidata_132230252;
+pub(crate) mod wikidata_132232221;
+pub(crate) mod wikidata_132291887;
+pub(crate) mod wikidata_132348514;
+pub(crate) mod wikidata_132427122;
 pub(crate) mod wikidata_1340077;
 pub(crate) mod wikidata_13422998;
 pub(crate) mod wikidata_13454995;
@@ -11686,7 +11691,6 @@ pub(crate) mod wikidata_5421818;
 pub(crate) mod wikidata_5421923;
 pub(crate) mod wikidata_5448342;
 pub(crate) mod wikidata_548264;
-pub(crate) mod wikidata_5508789;
 pub(crate) mod wikidata_5513478;
 pub(crate) mod wikidata_5514807;
 pub(crate) mod wikidata_5519821;
@@ -22091,6 +22095,11 @@ pub(crate) use wikidata_132156163::WIKIDATA_132156163;
 pub(crate) use wikidata_132156191::WIKIDATA_132156191;
 pub(crate) use wikidata_132189411::WIKIDATA_132189411;
 pub(crate) use wikidata_132189848::WIKIDATA_132189848;
+pub(crate) use wikidata_132230252::WIKIDATA_132230252;
+pub(crate) use wikidata_132232221::WIKIDATA_132232221;
+pub(crate) use wikidata_132291887::WIKIDATA_132291887;
+pub(crate) use wikidata_132348514::WIKIDATA_132348514;
+pub(crate) use wikidata_132427122::WIKIDATA_132427122;
 pub(crate) use wikidata_1340077::WIKIDATA_1340077;
 pub(crate) use wikidata_13422998::WIKIDATA_13422998;
 pub(crate) use wikidata_13454995::WIKIDATA_13454995;
@@ -24352,7 +24361,6 @@ pub(crate) use wikidata_5421818::WIKIDATA_5421818;
 pub(crate) use wikidata_5421923::WIKIDATA_5421923;
 pub(crate) use wikidata_5448342::WIKIDATA_5448342;
 pub(crate) use wikidata_548264::WIKIDATA_548264;
-pub(crate) use wikidata_5508789::WIKIDATA_5508789;
 pub(crate) use wikidata_5513478::WIKIDATA_5513478;
 pub(crate) use wikidata_5514807::WIKIDATA_5514807;
 pub(crate) use wikidata_5519821::WIKIDATA_5519821;
@@ -25670,7 +25678,6 @@ pub const FILE_TYPES: &[&FileType] = &[
     &WIKIDATA_5421818,
     &WIKIDATA_5421923,
     &WIKIDATA_5448342,
-    &WIKIDATA_5508789,
     &WIKIDATA_5513478,
     &WIKIDATA_5514807,
     &WIKIDATA_5519821,
@@ -37999,4 +38006,9 @@ pub const FILE_TYPES: &[&FileType] = &[
     &WIKIDATA_132156191,
     &WIKIDATA_132189411,
     &WIKIDATA_132189848,
+    &WIKIDATA_132230252,
+    &WIKIDATA_132232221,
+    &WIKIDATA_132291887,
+    &WIKIDATA_132348514,
+    &WIKIDATA_132427122,
 ];
