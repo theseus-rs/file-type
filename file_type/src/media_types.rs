@@ -17258,6 +17258,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
         (
             "application/cbor",
             &[
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_132427122,
                 #[cfg(feature = "iana")]
                 &iana::IANA_4288107160,
             ],
