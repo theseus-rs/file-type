@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.1](https://github.com/theseus-rs/file-type/compare/v0.7.0...v0.7.1) - 2025-02-16
+
+### Added
+- update wikidata formats (add CBOR)
+
 ## [0.7.0](https://github.com/theseus-rs/file-type/compare/v0.6.0...v0.7.0) - 2025-02-10
 
 ### Added
