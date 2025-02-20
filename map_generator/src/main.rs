@@ -9,9 +9,9 @@
 #![deny(clippy::unwrap_used)]
 
 use anyhow::Result;
+use file_type::FileType;
 use file_type::format::{Signature, SourceType};
 use file_type::sources::file_types;
-use file_type::FileType;
 use std::collections::HashMap;
 use std::env;
 use std::fs::File;

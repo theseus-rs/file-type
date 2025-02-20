@@ -1,5 +1,5 @@
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 use crate::FileType;
+use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
 pub(crate) const WIKIDATA_8042316: FileType = FileType {
     file_format: &FileFormat {

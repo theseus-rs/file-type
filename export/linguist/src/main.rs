@@ -12,13 +12,12 @@ use std::env;
 use std::path::PathBuf;
 use std::time::Duration;
 use tracing_subscriber::filter::LevelFilter;
-use tracing_subscriber::{fmt, EnvFilter};
+use tracing_subscriber::{EnvFilter, fmt};
 
 const CRATE_NAME: &str = env!("CARGO_PKG_NAME");
 const CRATE_VERSION: &str = env!("CARGO_PKG_VERSION");
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
-const MIME_TYPES_URL: &str =
-    "https://raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml";
+const MIME_TYPES_URL: &str = "https://raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml";
 
 struct Language {
     id: usize,
@@ -165,7 +164,6 @@ mod tests {
 
     #[test]
     fn test_main() {
-        env::set_var("DRY_RUN", "true");
         let result = main();
         assert!(result.is_ok());
     }

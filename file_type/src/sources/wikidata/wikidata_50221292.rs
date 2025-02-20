@@ -1,5 +1,5 @@
-use crate::format::{FileFormat, SourceType};
 use crate::FileType;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const WIKIDATA_50221292: FileType = FileType {
     file_format: &FileFormat {

@@ -89,7 +89,10 @@ mod test {
         assert_eq!(compression_types.name, "Pulse Code Modulation");
         assert_eq!(compression_types.aliases, "");
         assert_eq!(compression_types.families, "");
-        assert_eq!(compression_types.description, "Uncompressed audio encoding method, which uses linear sampling at a wide range of sampling frequencies and resolutions.");
+        assert_eq!(
+            compression_types.description,
+            "Uncompressed audio encoding method, which uses linear sampling at a wide range of sampling frequencies and resolutions."
+        );
         assert!(matches!(compression_types.lossiness, Lossiness::Lossless));
         assert_eq!(compression_types.documentation, "");
         assert_eq!(compression_types.ipr, "");

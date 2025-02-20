@@ -1,5 +1,5 @@
-use crate::format::{FileFormat, SourceType};
 use crate::FileType;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const IANA_2379975098: FileType = FileType {
     file_format: &FileFormat {

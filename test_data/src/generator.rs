@@ -1,7 +1,7 @@
 use crate::test_signature::TestSignature;
 use anyhow::Result;
-use file_type::format::SourceType;
 use file_type::FileType;
+use file_type::format::SourceType;
 use std::fs::File;
 use std::io::Write;
 use std::path::PathBuf;

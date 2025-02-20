@@ -1,5 +1,5 @@
-use crate::format::{FileFormat, SourceType};
 use crate::FileType;
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const HTTPD_1504920749: FileType = FileType {
     file_format: &FileFormat {

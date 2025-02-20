@@ -15,7 +15,7 @@ use std::path::PathBuf;
 use std::time::Duration;
 use tracing::{info, warn};
 use tracing_subscriber::filter::LevelFilter;
-use tracing_subscriber::{fmt, EnvFilter};
+use tracing_subscriber::{EnvFilter, fmt};
 
 const CRATE_NAME: &str = env!("CARGO_PKG_NAME");
 const CRATE_VERSION: &str = env!("CARGO_PKG_VERSION");
@@ -138,7 +138,6 @@ mod tests {
 
     #[test]
     fn test_main() {
-        env::set_var("DRY_RUN", "true");
         let result = main();
         assert!(result.is_ok());
     }

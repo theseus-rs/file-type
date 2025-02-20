@@ -1,4 +1,14 @@
-use crate::format::{FileFormat, SourceType};
 use crate::FileType;
+use crate::format::{FileFormat, SourceType};
 
-pub(crate) const WIKIDATA_26211539: FileType = FileType { file_format: &FileFormat { id: 26_211_539, source_type: SourceType::Wikidata, name: "Office Open XML Presentation Document, Strict, ISO/IEC 29500:2012, with Microsoft extensions", extensions: &["pptx"], media_types: &["application/vnd.openxmlformats-officedocument.presentationml.presentation"], signatures: &[], related_formats: &[] } };
+pub(crate) const WIKIDATA_26211539: FileType = FileType {
+    file_format: &FileFormat {
+        id: 26_211_539,
+        source_type: SourceType::Wikidata,
+        name: "Office Open XML Presentation Document, Strict, ISO/IEC 29500:2012, with Microsoft extensions",
+        extensions: &["pptx"],
+        media_types: &["application/vnd.openxmlformats-officedocument.presentationml.presentation"],
+        signatures: &[],
+        related_formats: &[],
+    },
+};
