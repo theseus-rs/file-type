@@ -8,7 +8,7 @@ pub(crate) const PRONOM_456: FileType = FileType {
     file_format: &FileFormat {
         id: 456,
         source_type: SourceType::Pronom,
-        name: "Adobe FrameMaker Document",
+        name: "Visualization Toolkit",
         extensions: &["fm"],
         media_types: &["application/vnd.framemaker"],
         signatures: &[Signature {

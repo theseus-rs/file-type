@@ -8,7 +8,7 @@ pub(crate) const PRONOM_1270: FileType = FileType {
     file_format: &FileFormat {
         id: 1_270,
         source_type: SourceType::Pronom,
-        name: "ePub format",
+        name: "ePub Format",
         extensions: &["epub"],
         media_types: &["application/epub+zip"],
         signatures: &[Signature {

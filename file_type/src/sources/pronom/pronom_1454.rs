@@ -24,9 +24,15 @@ pub(crate) const PRONOM_1454: FileType = FileType {
                 },
             }],
         }],
-        related_formats: &[RelatedFormat {
-            relationship_type: RelationshipType::IsPreviousVersionOf,
-            id: 1_455,
-        }],
+        related_formats: &[
+            RelatedFormat {
+                relationship_type: RelationshipType::IsPreviousVersionOf,
+                id: 1_455,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::IsPreviousVersionOf,
+                id: 3_889,
+            },
+        ],
     },
 };

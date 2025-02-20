@@ -20,7 +20,7 @@ pub(crate) const PRONOM_916: FileType = FileType {
                         Token::Literal(&[0x49, 0x49, 0x2A, 0x00]),
                         Token::WildcardCountRange(0, 512),
                         Token::Literal(&[0x53, 0x4F, 0x4E, 0x59]),
-                        Token::WildcardCountRange(0, 2_048),
+                        Token::WildcardCountRange(0, 6_144),
                         Token::Literal(&[0x00, 0xB0, 0x01, 0x00, 0x04, 0x00, 0x00, 0x00, 0x02]),
                     ],
                 },

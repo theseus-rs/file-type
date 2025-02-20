@@ -1,5 +1,8 @@
 use crate::FileType;
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{
+    ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
+    SourceType, Token,
+};
 
 pub(crate) const PRONOM_1364: FileType = FileType {
     file_format: &FileFormat {
@@ -19,6 +22,9 @@ pub(crate) const PRONOM_1364: FileType = FileType {
                 },
             }],
         }],
-        related_formats: &[],
+        related_formats: &[RelatedFormat {
+            relationship_type: RelationshipType::IsPreviousVersionOf,
+            id: 3_891,
+        }],
     },
 };
