@@ -15,18 +15,26 @@ pub(crate) const PRONOM_2882: FileType = FileType {
             Signature {
                 byte_sequences: &[ByteSequence {
                     position_type: PositionType::BOF,
-                    offset: Some(0),
+                    offset: Some(2),
                     regex: Regex {
-                        tokens: &[Token::Literal(&[0x00, 0x00, 0x4D, 0x4D, 0x58, 0x50, 0x52])],
+                        tokens: &[
+                            Token::Literal(&[0x4D, 0x4D, 0x58, 0x50, 0x52]),
+                            Token::WildcardCount(2),
+                            Token::Literal(&[0x53]),
+                        ],
                     },
                 }],
             },
             Signature {
                 byte_sequences: &[ByteSequence {
                     position_type: PositionType::BOF,
-                    offset: Some(0),
+                    offset: Some(2),
                     regex: Regex {
-                        tokens: &[Token::Literal(&[0x00, 0x00, 0x49, 0x49, 0x58, 0x50, 0x52])],
+                        tokens: &[
+                            Token::Literal(&[0x49, 0x49, 0x58, 0x50, 0x52]),
+                            Token::WildcardCount(1),
+                            Token::Literal(&[0x53]),
+                        ],
                     },
                 }],
             },

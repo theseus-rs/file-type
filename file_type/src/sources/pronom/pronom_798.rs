@@ -9,7 +9,7 @@ pub(crate) const PRONOM_798: FileType = FileType {
         id: 798,
         source_type: SourceType::Pronom,
         name: "Geographic Tagged Image File Format (GeoTIFF)",
-        extensions: &["tif", "tiff"],
+        extensions: &["tif", "tiff", "cog"],
         media_types: &["image/tiff"],
         signatures: &[
             Signature {

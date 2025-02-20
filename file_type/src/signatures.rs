@@ -24183,8 +24183,6 @@ pub(crate) static MAP: phf::Map<u64, &'static [&'static FileType]> = ::phf::Map 
             &[
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_255,
-                #[cfg(feature = "pronom")]
-                &pronom::PRONOM_2882,
             ],
         ),
         (
@@ -28120,6 +28118,8 @@ pub(crate) static MAP: phf::Map<u64, &'static [&'static FileType]> = ::phf::Map 
                 &pronom::PRONOM_2318,
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_2881,
+                #[cfg(feature = "pronom")]
+                &pronom::PRONOM_2882,
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_2883,
             ],
@@ -52281,6 +52281,8 @@ pub(crate) static MAP: phf::Map<u64, &'static [&'static FileType]> = ::phf::Map 
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_2881,
                 #[cfg(feature = "pronom")]
+                &pronom::PRONOM_2882,
+                #[cfg(feature = "pronom")]
                 &pronom::PRONOM_2883,
             ],
         ),
@@ -52690,8 +52692,6 @@ pub(crate) static MAP: phf::Map<u64, &'static [&'static FileType]> = ::phf::Map 
             &[
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_255,
-                #[cfg(feature = "pronom")]
-                &pronom::PRONOM_2882,
             ],
         ),
         (

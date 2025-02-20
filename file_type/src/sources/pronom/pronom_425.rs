@@ -6,7 +6,7 @@ pub(crate) const PRONOM_425: FileType = FileType {
         id: 425,
         source_type: SourceType::Pronom,
         name: "MPEG 1/2 Audio Layer 3 Streaming",
-        extensions: &["m3u"],
+        extensions: &["m3u", "m3u8"],
         media_types: &["audio/mpeg"],
         signatures: &[],
         related_formats: &[RelatedFormat {

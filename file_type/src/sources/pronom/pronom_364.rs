@@ -7,7 +7,7 @@ pub(crate) const PRONOM_364: FileType = FileType {
         source_type: SourceType::Pronom,
         name: "Microsoft Outlook Personal Folders (ANSI)",
         extensions: &["pst"],
-        media_types: &[],
+        media_types: &["application/vnd.ms-outlook"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

@@ -438,6 +438,22 @@ pub(crate) const PRONOM_638: FileType = FileType {
                 id: 2_873,
             },
             RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 3_891,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 3_906,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 3_907,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 3_909,
+            },
+            RelatedFormat {
                 relationship_type: RelationshipType::HasPriorityOver,
                 id: 639,
             },

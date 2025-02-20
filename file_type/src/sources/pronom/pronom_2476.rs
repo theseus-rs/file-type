@@ -21,7 +21,6 @@ pub(crate) const PRONOM_2476: FileType = FileType {
                         ]),
                         Token::Literal(&[0x22]),
                         Token::AnyWildcard,
-                        Token::AnyWildcard,
                         Token::Literal(&[0x22]),
                         Token::WildcardCountRange(0, 1),
                         Token::Literal(&[
