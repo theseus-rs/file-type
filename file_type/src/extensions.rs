@@ -1,3 +1,4 @@
+use crate::FileType;
 #[cfg(feature = "custom")]
 use crate::sources::custom;
 #[cfg(feature = "httpd")]
@@ -8,7 +9,6 @@ use crate::sources::linguist;
 use crate::sources::pronom;
 #[cfg(feature = "wikidata")]
 use crate::sources::wikidata;
-use crate::FileType;
 
 #[expect(clippy::unreadable_literal)]
 pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::phf::Map {

@@ -1,5 +1,5 @@
-use crate::format::{FileFormat, RelatedFormat, RelationshipType, SourceType};
 use crate::FileType;
+use crate::format::{FileFormat, RelatedFormat, RelationshipType, SourceType};
 
 pub(crate) const PRONOM_1617: FileType = FileType {
     file_format: &FileFormat {

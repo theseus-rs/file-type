@@ -1,5 +1,5 @@
-use file_type::format::SourceType;
 use file_type::FileType;
+use file_type::format::SourceType;
 
 #[cfg(feature = "wikidata")]
 fn data_dir() -> std::path::PathBuf {

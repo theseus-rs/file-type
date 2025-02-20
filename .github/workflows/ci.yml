@@ -86,7 +86,10 @@ jobs:
         if: ${{ matrix.platform != 'linux-x64' && !startsWith(matrix.platform, 'wasm32-') }}
         env:
           CARGO_TERM_COLOR: always
+          DRY_RUN: true
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          MAX_FMT_PUID: 1
+          MAX_X_FMT_PUID: 1
           RUST_BACKTRACE: 1
           RUST_LOG: info
         run: |
@@ -96,7 +99,10 @@ jobs:
         if: ${{ matrix.platform == 'linux-x64' }}
         env:
           CARGO_TERM_COLOR: always
+          DRY_RUN: true
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          MAX_FMT_PUID: 1
+          MAX_X_FMT_PUID: 1
           RUST_BACKTRACE: 1
           RUST_LOG: info
           RUST_LOG_SPAN_EVENTS: full

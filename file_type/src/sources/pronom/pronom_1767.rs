@@ -1,8 +1,8 @@
+use crate::FileType;
 use crate::format::{
     ByteSequence, FileFormat, PositionType, Regex, RelatedFormat, RelationshipType, Signature,
     SourceType, Token,
 };
-use crate::FileType;
 
 pub(crate) const PRONOM_1767: FileType = FileType {
     file_format: &FileFormat {

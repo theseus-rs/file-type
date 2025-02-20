@@ -1,5 +1,5 @@
 use crate::format::{Regex, RelationshipType, UNIDENTIFIED_KEY};
-use crate::{signatures, sources, FileType};
+use crate::{FileType, signatures, sources};
 use alloc::vec::Vec;
 use core::cmp::Ordering;
 use sources::default::{DEFAULT_1, DEFAULT_2};

@@ -43,8 +43,16 @@ impl Source for FileFormat {
             self.name,
             extensions,
             media_types,
-            self.signatures.iter().map(Source::to_source).collect::<Vec<String>>().join(", "),
-            self.related_formats.iter().map(Source::to_source).collect::<Vec<String>>().join(", "),
+            self.signatures
+                .iter()
+                .map(Source::to_source)
+                .collect::<Vec<String>>()
+                .join(", "),
+            self.related_formats
+                .iter()
+                .map(Source::to_source)
+                .collect::<Vec<String>>()
+                .join(", "),
         )
     }
 }
