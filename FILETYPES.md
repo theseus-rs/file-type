@@ -1,4 +1,4 @@
-# File Types (15150)
+# File Types (15162)
 
 | Source | Id | Name | Extensions | Media Types |
 | ---- | ---- | ---- | ----------- | ---------- |
@@ -4187,7 +4187,7 @@
 | Wikidata | 28777712 | NFF | nff |  |
 | Wikidata | 28777713 | NetImmerse file format | nif |  |
 | Wikidata | 28777714 | NII | nii |  |
-| Wikidata | 28777715 | NSIS | exe |  |
+| Wikidata | 28777715 | NSIS file format | exe |  |
 | Wikidata | 28777718 | National Transmission Format | ntf |  |
 | Wikidata | 28786544 | Netscape bookmarks | htm, html |  |
 | Wikidata | 28786562 | Nickfile | nk2 | application/octet-stream |
@@ -14559,7 +14559,7 @@
 | Wikidata | 123693374 | Pascal unit file | pas |  |
 | Wikidata | 123693494 | Module Definition file | def |  |
 | Wikidata | 124080600 | CSL-JSON | json | application/vnd.citationstyles.csl+json |
-| Wikidata | 124097900 | .txt file | txt |  |
+| Wikidata | 124097900 | .txt file | txt | text/plain |
 | Wikidata | 124158014 | Drawing Interchange File Format (ASCII), version 2007-2008-2009 | dxf | image/vnd.dxf |
 | Wikidata | 124429367 | Pyramix Media File | pmf |  |
 | Wikidata | 124622467 | TEI/XML | odd, xml | application/tei+xml |
@@ -15152,3 +15152,15 @@
 | Wikidata | 132540435 | Well Properties file format | wprops |  |
 | Wikidata | 132540526 | Tile Drain Properties file format | tprops |  |
 | Wikidata | 132541013 | Channel Properties file format | cprops |  |
+| Wikidata | 132633442 | Modula-3 linker information file format | ax |  |
+| Wikidata | 132633477 | Modula-3 base program file format | b |  |
+| Wikidata | 132633572 | Modula-3 M2SDS data file format | rfx |  |
+| Wikidata | 132634065 | Crontab file format | tab |  |
+| Wikidata | 132635828 | PL/M Source Code File | plm |  |
+| Wikidata | 132636962 | PureBasic source code file | pb |  |
+| Wikidata | 132639172 | Scriptol source file | sol |  |
+| Wikidata | 132640072 | PL/SQL source file | pls |  |
+| Wikidata | 132640155 | PL/SQL binary | plb |  |
+| Wikidata | 132641321 | Package source file | pks |  |
+| Wikidata | 132641461 | Package binary file | pkb |  |
+| Wikidata | 132641591 | Combined package specification plus body file | pck |  |

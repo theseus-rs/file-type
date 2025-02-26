@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_124097900: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: ".txt file",
         extensions: &["txt"],
-        media_types: &[],
+        media_types: &["text/plain"],
         signatures: &[],
         related_formats: &[],
     },
