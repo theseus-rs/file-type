@@ -9442,6 +9442,18 @@ pub(crate) mod wikidata_132540296;
 pub(crate) mod wikidata_132540435;
 pub(crate) mod wikidata_132540526;
 pub(crate) mod wikidata_132541013;
+pub(crate) mod wikidata_132633442;
+pub(crate) mod wikidata_132633477;
+pub(crate) mod wikidata_132633572;
+pub(crate) mod wikidata_132634065;
+pub(crate) mod wikidata_132635828;
+pub(crate) mod wikidata_132636962;
+pub(crate) mod wikidata_132639172;
+pub(crate) mod wikidata_132640072;
+pub(crate) mod wikidata_132640155;
+pub(crate) mod wikidata_132641321;
+pub(crate) mod wikidata_132641461;
+pub(crate) mod wikidata_132641591;
 pub(crate) mod wikidata_1340077;
 pub(crate) mod wikidata_13422998;
 pub(crate) mod wikidata_13454995;
@@ -25363,6 +25375,18 @@ pub(crate) use wikidata_132540296::WIKIDATA_132540296;
 pub(crate) use wikidata_132540435::WIKIDATA_132540435;
 pub(crate) use wikidata_132540526::WIKIDATA_132540526;
 pub(crate) use wikidata_132541013::WIKIDATA_132541013;
+pub(crate) use wikidata_132633442::WIKIDATA_132633442;
+pub(crate) use wikidata_132633477::WIKIDATA_132633477;
+pub(crate) use wikidata_132633572::WIKIDATA_132633572;
+pub(crate) use wikidata_132634065::WIKIDATA_132634065;
+pub(crate) use wikidata_132635828::WIKIDATA_132635828;
+pub(crate) use wikidata_132636962::WIKIDATA_132636962;
+pub(crate) use wikidata_132639172::WIKIDATA_132639172;
+pub(crate) use wikidata_132640072::WIKIDATA_132640072;
+pub(crate) use wikidata_132640155::WIKIDATA_132640155;
+pub(crate) use wikidata_132641321::WIKIDATA_132641321;
+pub(crate) use wikidata_132641461::WIKIDATA_132641461;
+pub(crate) use wikidata_132641591::WIKIDATA_132641591;
 
 #[doc(hidden)]
 pub const FILE_TYPES: &[&FileType] = &[
@@ -38047,4 +38071,16 @@ pub const FILE_TYPES: &[&FileType] = &[
     &WIKIDATA_132540435,
     &WIKIDATA_132540526,
     &WIKIDATA_132541013,
+    &WIKIDATA_132633442,
+    &WIKIDATA_132633477,
+    &WIKIDATA_132633572,
+    &WIKIDATA_132634065,
+    &WIKIDATA_132635828,
+    &WIKIDATA_132636962,
+    &WIKIDATA_132639172,
+    &WIKIDATA_132640072,
+    &WIKIDATA_132640155,
+    &WIKIDATA_132641321,
+    &WIKIDATA_132641461,
+    &WIKIDATA_132641591,
 ];

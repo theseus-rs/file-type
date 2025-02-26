@@ -32716,6 +32716,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
                 #[cfg(feature = "wikidata")]
                 &wikidata::WIKIDATA_116701684,
                 #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_124097900,
+                #[cfg(feature = "wikidata")]
                 &wikidata::WIKIDATA_130456404,
                 #[cfg(feature = "wikidata")]
                 &wikidata::WIKIDATA_131417573,
