@@ -1,12 +1,12 @@
 use crate::FileType;
 use crate::format::{FileFormat, SourceType};
 
-pub(crate) const LINGUIST_24: FileType = FileType {
+pub(crate) const LINGUIST_239357863: FileType = FileType {
     file_format: &FileFormat {
-        id: 24,
+        id: 239_357_863,
         source_type: SourceType::Linguist,
-        name: "Assembly",
-        extensions: &["a51", "asm", "i", "inc", "nas", "nasm", "s"],
+        name: "Slang",
+        extensions: &["slang"],
         media_types: &[],
         signatures: &[],
         related_formats: &[],

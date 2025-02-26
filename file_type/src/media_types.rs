@@ -36042,6 +36042,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
                 #[cfg(feature = "linguist")]
                 &linguist::LINGUIST_403,
                 #[cfg(feature = "linguist")]
+                &linguist::LINGUIST_327071,
+                #[cfg(feature = "linguist")]
                 &linguist::LINGUIST_231751931,
                 #[cfg(feature = "linguist")]
                 &linguist::LINGUIST_257856279,

@@ -1,13 +1,13 @@
 use crate::FileType;
 use crate::format::{FileFormat, SourceType};
 
-pub(crate) const LINGUIST_24: FileType = FileType {
+pub(crate) const LINGUIST_327071: FileType = FileType {
     file_format: &FileFormat {
-        id: 24,
+        id: 327_071,
         source_type: SourceType::Linguist,
-        name: "Assembly",
-        extensions: &["a51", "asm", "i", "inc", "nas", "nasm", "s"],
-        media_types: &[],
+        name: "ISPC",
+        extensions: &["ispc"],
+        media_types: &["text/x-csrc"],
         signatures: &[],
         related_formats: &[],
     },
