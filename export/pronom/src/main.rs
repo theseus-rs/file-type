@@ -29,7 +29,7 @@ const BASE_URL: &str = "https://www.nationalarchives.gov.uk/PRONOM/";
 fn main() -> Result<()> {
     initialize_tracing();
 
-    let mut max_fmt_puid = 2009;
+    let mut max_fmt_puid = 2039;
     if let Ok(fmt_puid) = env::var("MAX_FMT_PUID") {
         if let Ok(fmt_puid) = fmt_puid.parse::<i64>() {
             max_fmt_puid = fmt_puid;
