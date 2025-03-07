@@ -8,7 +8,7 @@ version.workspace = true
 [dependencies]
 anyhow = { workspace = true }
 csv = { workspace = true }
-file_type = { path = "../../file_type", version = "0.7.3" }
+file_type = { path = "../../file_type", version = "0.7.4" }
 reqwest = { workspace = true, features = ["blocking"] }
 source_generator = { path = "../source_generator", version = "0.1.0" }
 tracing = { workspace = true }
