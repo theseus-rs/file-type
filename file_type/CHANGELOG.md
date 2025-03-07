@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.4](https://github.com/theseus-rs/file-type/compare/v0.7.3...v0.7.4) - 2025-03-07
+
+### Added
+- update iana, linguist and wikidata file types
+
 ## [0.7.3](https://github.com/theseus-rs/file-type/compare/v0.7.2...v0.7.3) - 2025-02-26
 
 ### Added
