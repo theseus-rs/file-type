@@ -1,21 +1,19 @@
 use crate::FileType;
 use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
-pub(crate) const WIKIDATA_1052000: FileType = FileType {
+pub(crate) const WIKIDATA_60767426: FileType = FileType {
     file_format: &FileFormat {
-        id: 1_052_000,
+        id: 60_767_426,
         source_type: SourceType::Wikidata,
-        name: "qcow",
-        extensions: &["img", "qcow", "qcow2", "qcow3"],
-        media_types: &["application/x-qemu-disk"],
+        name: "Apache ORC",
+        extensions: &["orc"],
+        media_types: &[],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
                 regex: Regex {
-                    tokens: &[Token::Literal(&[
-                        0x51, 0x46, 0x49, 0xFB, 0x00, 0x00, 0x00, 0x01,
-                    ])],
+                    tokens: &[Token::Literal(&[0x4F, 0x52, 0x43])],
                 },
             }],
         }],

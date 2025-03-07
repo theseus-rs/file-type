@@ -6090,6 +6090,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
             &[
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_3900,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_133144524,
             ],
         ),
         (
@@ -6564,6 +6566,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
                 &wikidata::WIKIDATA_117192692,
                 #[cfg(feature = "wikidata")]
                 &wikidata::WIKIDATA_119496056,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_132890817,
                 #[cfg(feature = "linguist")]
                 &linguist::LINGUIST_318,
             ],
@@ -12882,6 +12886,10 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
                 &pronom::PRONOM_3898,
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_3899,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_133082989,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_133088216,
             ],
         ),
         (
@@ -23414,6 +23422,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_3904,
                 #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_60767426,
+                #[cfg(feature = "wikidata")]
                 &wikidata::WIKIDATA_105855651,
                 #[cfg(feature = "wikidata")]
                 &wikidata::WIKIDATA_105855681,
@@ -26655,6 +26665,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
         (
             "qcow2",
             &[
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_1052000,
                 #[cfg(feature = "wikidata")]
                 &wikidata::WIKIDATA_59660182,
             ],
@@ -39149,6 +39161,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
                 &wikidata::WIKIDATA_47165345,
                 #[cfg(feature = "wikidata")]
                 &wikidata::WIKIDATA_58367950,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_133146964,
                 #[cfg(feature = "httpd")]
                 &httpd::HTTPD_4204554576,
             ],
@@ -40921,7 +40935,11 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_3884,
                 #[cfg(feature = "wikidata")]
-                &wikidata::WIKIDATA_18812775,
+                &wikidata::WIKIDATA_132818017,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_132818283,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_132818449,
             ],
         ),
         (
@@ -46307,6 +46325,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
                 &wikidata::WIKIDATA_105851939,
                 #[cfg(feature = "linguist")]
                 &linguist::LINGUIST_343,
+                #[cfg(feature = "linguist")]
+                &linguist::LINGUIST_436081647,
                 #[cfg(feature = "httpd")]
                 &httpd::HTTPD_2996336798,
             ],
@@ -52276,6 +52296,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
             &[
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_3886,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_132889698,
             ],
         ),
         (
@@ -57630,6 +57652,10 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
                 &wikidata::WIKIDATA_105853855,
                 #[cfg(feature = "wikidata")]
                 &wikidata::WIKIDATA_105854995,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_133042215,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_133042568,
             ],
         ),
         (
@@ -68586,6 +68612,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
             &[
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_3888,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_132890210,
             ],
         ),
         (
@@ -82863,6 +82891,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
         (
             "qcow3",
             &[
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_1052000,
                 #[cfg(feature = "wikidata")]
                 &wikidata::WIKIDATA_105857687,
             ],

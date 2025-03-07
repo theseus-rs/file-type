@@ -1,4 +1,4 @@
-# File Types (15192)
+# File Types (15204)
 
 | Source | Id | Name | Extensions | Media Types |
 | ---- | ---- | ---- | ----------- | ---------- |
@@ -2625,7 +2625,7 @@
 | Wikidata | 1035647 | Card Verifiable Certificate | cv, cvcert |  |
 | Wikidata | 1036298 | HighMAT | hmt |  |
 | Wikidata | 1050471 | Property list | plist | application/x-plist |
-| Wikidata | 1052000 | qcow | img, qcow | application/x-qemu-disk |
+| Wikidata | 1052000 | qcow | img, qcow, qcow2, qcow3 | application/x-qemu-disk |
 | Wikidata | 1066897 | LDAP Data Interchange Format | ldif | text/plain, text/x-ldif |
 | Wikidata | 1067761 | Windows Media Audio 9 Lossless | wma |  |
 | Wikidata | 1068805 | .properties | properties | text/plain |
@@ -2998,7 +2998,6 @@
 | Wikidata | 18609754 | SPARQL Query Results XML Format | srx | application/sparql-results+xml |
 | Wikidata | 18609762 | SPARQL Query Results JSON Format | srj | application/sparql-results+json |
 | Wikidata | 18653981 | Standard Delay Format | sdf, sdo |  |
-| Wikidata | 18812775 | VTK format | vtk |  |
 | Wikidata | 19599377 | AppleLink Package Compression Format | pkg |  |
 | Wikidata | 19860869 | Itinerary file | itn | application/itn |
 | Wikidata | 19969536 | DSV version 6 format | dsv, dsv6 |  |
@@ -5140,6 +5139,7 @@
 | Wikidata | 60628185 | Wordperfect Secondary File, version 5 | doc |  |
 | Wikidata | 60662339 | AutoCAD Plot Configuration File, version 1 | pcp |  |
 | Wikidata | 60662390 | Inkwriter Template | pdt |  |
+| Wikidata | 60767426 | Apache ORC | orc |  |
 | Wikidata | 60806040 | Microsoft Excel 3.0 Worksheet (xls) | xls |  |
 | Wikidata | 60806257 | Microsoft Excel 4.0 Worksheet (xls) | xls |  |
 | Wikidata | 60873199 | Excel 95 Workbook | xls |  |
@@ -7801,7 +7801,7 @@
 | Wikidata | 105853823 | ArmPack Archive File | ap |  |
 | Wikidata | 105853825 | AMOS source (v1.23) | amos | application/octet-stream |
 | Wikidata | 105853828 | Atari800Win Plus Trainer | a8t | application/octet-stream |
-| Wikidata | 105853831 | Sony OpenMG Audio | oma | application/octet-stream |
+| Wikidata | 105853831 | Sony OpenMG Audio | oma | application/octet-stream, audio/ATRAC-ADVANCED-LOSSLESS |
 | Wikidata | 105853836 | Dar archive | dar | application/x-dar |
 | Wikidata | 105853837 | Psion S3a/3c/Siena Agenda | agn | application/octet-stream |
 | Wikidata | 105853841 | PPMZ compressed data | ppmz | application/octet-stream |
@@ -12604,7 +12604,7 @@
 | Wikidata | 105864502 | Portable Heap Dump dump | phd |  |
 | Wikidata | 105864503 | L3DT Project | proj | text/xml |
 | Wikidata | 105864504 | PROGRESS Procedure Library (v11) | pl | application/octet-stream |
-| Wikidata | 105864509 | GraphPad Prism XML document | pzfx | text/xml |
+| Wikidata | 105864509 | GraphPad Prism XML document | pzfx | application/x-graphpad-prism-pzfx |
 | Wikidata | 105864513 | MATLAB Compiler Project | prj | text/xml |
 | Wikidata | 105864524 | SpongeBob SquarePants: Lights,Camera,Pants! game data archive | pak | application/octet-stream |
 | Wikidata | 105864528 | Phoenix Visual Designer project | pbp |  |
@@ -15194,3 +15194,15 @@
 | Wikidata | 132641321 | Package source file | pks |  |
 | Wikidata | 132641461 | Package binary file | pkb |  |
 | Wikidata | 132641591 | Combined package specification plus body file | pck |  |
+| Wikidata | 132818017 | Visualization Toolkit 1.0 file | vtk |  |
+| Wikidata | 132818283 | Visualization Toolkit 2.0 file | vtk |  |
+| Wikidata | 132818449 | Visualization Toolkit 4.2 file | vtk |  |
+| Wikidata | 132889698 | RawACF file | rawacf |  |
+| Wikidata | 132890210 | Axon Binary Format | abf |  |
+| Wikidata | 132890817 | KryoFlux Stream 3 | raw |  |
+| Wikidata | 133042215 | askSam Document for Windows 2-3 | ask |  |
+| Wikidata | 133042568 | askSam Document for Windows 4-7 | ask |  |
+| Wikidata | 133082989 | CD Architect Project File 4 | cdp |  |
+| Wikidata | 133088216 | CD Architect Project File 5 | cdp |  |
+| Wikidata | 133144524 | Codebook Exchange Format | qdc |  |
+| Wikidata | 133146964 | Microsoft Project file, version 1 | mpp | application/vnd.ms-project |
