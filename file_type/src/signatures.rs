@@ -52041,6 +52041,8 @@ pub(crate) static MAP: phf::Map<u64, &'static [&'static FileType]> = ::phf::Map 
             &[
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_3904,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_60767426,
             ],
         ),
         (

@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_105864509: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "GraphPad Prism XML document",
         extensions: &["pzfx"],
-        media_types: &["text/xml"],
+        media_types: &["application/x-graphpad-prism-pzfx"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

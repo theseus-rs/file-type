@@ -9454,6 +9454,18 @@ pub(crate) mod wikidata_132640155;
 pub(crate) mod wikidata_132641321;
 pub(crate) mod wikidata_132641461;
 pub(crate) mod wikidata_132641591;
+pub(crate) mod wikidata_132818017;
+pub(crate) mod wikidata_132818283;
+pub(crate) mod wikidata_132818449;
+pub(crate) mod wikidata_132889698;
+pub(crate) mod wikidata_132890210;
+pub(crate) mod wikidata_132890817;
+pub(crate) mod wikidata_133042215;
+pub(crate) mod wikidata_133042568;
+pub(crate) mod wikidata_133082989;
+pub(crate) mod wikidata_133088216;
+pub(crate) mod wikidata_133144524;
+pub(crate) mod wikidata_133146964;
 pub(crate) mod wikidata_1340077;
 pub(crate) mod wikidata_13422998;
 pub(crate) mod wikidata_13454995;
@@ -9536,7 +9548,6 @@ pub(crate) mod wikidata_184473;
 pub(crate) mod wikidata_18609754;
 pub(crate) mod wikidata_18609762;
 pub(crate) mod wikidata_18653981;
-pub(crate) mod wikidata_18812775;
 pub(crate) mod wikidata_188199;
 pub(crate) mod wikidata_1886335;
 pub(crate) mod wikidata_1893311;
@@ -11892,6 +11903,7 @@ pub(crate) mod wikidata_60628025;
 pub(crate) mod wikidata_60628185;
 pub(crate) mod wikidata_60662339;
 pub(crate) mod wikidata_60662390;
+pub(crate) mod wikidata_60767426;
 pub(crate) mod wikidata_60806040;
 pub(crate) mod wikidata_60806257;
 pub(crate) mod wikidata_60873199;
@@ -13191,7 +13203,6 @@ pub(crate) use wikidata_18413771::WIKIDATA_18413771;
 pub(crate) use wikidata_18609754::WIKIDATA_18609754;
 pub(crate) use wikidata_18609762::WIKIDATA_18609762;
 pub(crate) use wikidata_18653981::WIKIDATA_18653981;
-pub(crate) use wikidata_18812775::WIKIDATA_18812775;
 pub(crate) use wikidata_19599377::WIKIDATA_19599377;
 pub(crate) use wikidata_19860869::WIKIDATA_19860869;
 pub(crate) use wikidata_19969536::WIKIDATA_19969536;
@@ -15333,6 +15344,7 @@ pub(crate) use wikidata_60628025::WIKIDATA_60628025;
 pub(crate) use wikidata_60628185::WIKIDATA_60628185;
 pub(crate) use wikidata_60662339::WIKIDATA_60662339;
 pub(crate) use wikidata_60662390::WIKIDATA_60662390;
+pub(crate) use wikidata_60767426::WIKIDATA_60767426;
 pub(crate) use wikidata_60806040::WIKIDATA_60806040;
 pub(crate) use wikidata_60806257::WIKIDATA_60806257;
 pub(crate) use wikidata_60873199::WIKIDATA_60873199;
@@ -25387,6 +25399,18 @@ pub(crate) use wikidata_132640155::WIKIDATA_132640155;
 pub(crate) use wikidata_132641321::WIKIDATA_132641321;
 pub(crate) use wikidata_132641461::WIKIDATA_132641461;
 pub(crate) use wikidata_132641591::WIKIDATA_132641591;
+pub(crate) use wikidata_132818017::WIKIDATA_132818017;
+pub(crate) use wikidata_132818283::WIKIDATA_132818283;
+pub(crate) use wikidata_132818449::WIKIDATA_132818449;
+pub(crate) use wikidata_132889698::WIKIDATA_132889698;
+pub(crate) use wikidata_132890210::WIKIDATA_132890210;
+pub(crate) use wikidata_132890817::WIKIDATA_132890817;
+pub(crate) use wikidata_133042215::WIKIDATA_133042215;
+pub(crate) use wikidata_133042568::WIKIDATA_133042568;
+pub(crate) use wikidata_133082989::WIKIDATA_133082989;
+pub(crate) use wikidata_133088216::WIKIDATA_133088216;
+pub(crate) use wikidata_133144524::WIKIDATA_133144524;
+pub(crate) use wikidata_133146964::WIKIDATA_133146964;
 
 #[doc(hidden)]
 pub const FILE_TYPES: &[&FileType] = &[
@@ -25887,7 +25911,6 @@ pub const FILE_TYPES: &[&FileType] = &[
     &WIKIDATA_18609754,
     &WIKIDATA_18609762,
     &WIKIDATA_18653981,
-    &WIKIDATA_18812775,
     &WIKIDATA_19599377,
     &WIKIDATA_19860869,
     &WIKIDATA_19969536,
@@ -28029,6 +28052,7 @@ pub const FILE_TYPES: &[&FileType] = &[
     &WIKIDATA_60628185,
     &WIKIDATA_60662339,
     &WIKIDATA_60662390,
+    &WIKIDATA_60767426,
     &WIKIDATA_60806040,
     &WIKIDATA_60806257,
     &WIKIDATA_60873199,
@@ -38083,4 +38107,16 @@ pub const FILE_TYPES: &[&FileType] = &[
     &WIKIDATA_132641321,
     &WIKIDATA_132641461,
     &WIKIDATA_132641591,
+    &WIKIDATA_132818017,
+    &WIKIDATA_132818283,
+    &WIKIDATA_132818449,
+    &WIKIDATA_132889698,
+    &WIKIDATA_132890210,
+    &WIKIDATA_132890817,
+    &WIKIDATA_133042215,
+    &WIKIDATA_133042568,
+    &WIKIDATA_133082989,
+    &WIKIDATA_133088216,
+    &WIKIDATA_133144524,
+    &WIKIDATA_133146964,
 ];

@@ -131,6 +131,16 @@ fn test_ods_file() -> anyhow::Result<()> {
 
 #[cfg(feature = "custom")]
 #[test]
+fn test_orc_file() -> anyhow::Result<()> {
+    #[cfg(feature = "pronom")]
+    test_file("users.orc", 3_904, &SourceType::Pronom, None)?;
+    #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
+    test_file("users.orc", 60_767_426, &SourceType::Wikidata, None)?;
+    Ok(())
+}
+
+#[cfg(feature = "custom")]
+#[test]
 fn test_parquet_file() -> anyhow::Result<()> {
     test_file(
         "users.parquet",
