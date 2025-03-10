@@ -19,7 +19,7 @@ use tracing_subscriber::{EnvFilter, fmt};
 const CRATE_NAME: &str = env!("CARGO_PKG_NAME");
 const CRATE_VERSION: &str = env!("CARGO_PKG_VERSION");
 const CRATE_DIR: &str = env!("CARGO_MANIFEST_DIR");
-const SPARQL_URL: &str = "https://query.wikidata.org/sparql?query=%23List%20of%20computer%20file%20formats%20with%20all%20identification%20patterns%0ASELECT%20DISTINCT%20%3FidExtension%20%3Fextension%20%3FmediaType%20%3FpronomId%20%3FidExtensionLabel%20%3FfileSignature%0AWHERE%0A%7B%0A%20%20%23%20Find%20instances%20of%20file%20format%20(Q235557)%0A%20%20%3FidExtension%20wdt%3AP31%20wd%3AQ235557%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%23%20Get%20the%20file%20extension%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP1195%20%3Fextension%20.%0A%20%20%0A%20%20%23%20Optional%3A%20Get%20the%20MIME%2Fmedia%20type%20if%20available%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP1163%20%3FmediaType%20%7D%0A%20%20%0A%20%20%23%20Optional%3A%20Get%20the%20PRONOM%20ID%20if%20available%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP2748%20%3FpronomId%20%7D%0A%20%20%0A%20%20%23%20Optional%3A%20Get%20file%20signatures%2Fmagic%20numbers%20if%20available%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP4152%20%3FfileSignature%20%7D%0A%20%20%0A%20%20%23%20Optional%3A%20Get%20byte%20sequences%20if%20available%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP5933%20%3FbyteSequence%20%7D%0A%20%20%0A%20%20%23%20Optional%3A%20Get%20offset%20patterns%20if%20available%0A%20%20OPTIONAL%20%7B%20%0A%20%20%20%20%3FidExtension%20p%3AP5933%20%3Fstatement%20.%0A%20%20%20%20%3Fstatement%20ps%3AP5933%20%3FoffsetPattern%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20pq%3AP4153%20%3Foffset%20.%0A%20%20%7D%0A%20%20%0A%20%20%23%20Optional%3A%20Get%20magic%20numbers%20if%20available%20(different%20from%20file%20signatures)%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP3508%20%3FmagicNumber%20%7D%0A%20%20%0A%20%20%23%20Optional%3A%20Get%20format%20identification%20notes%20if%20available%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP2561%20%3FidentificationNote%20%7D%0A%20%20%0A%20%20%23%20Add%20labels%20in%20English%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20%7D%0A%7D%0AGROUP%20BY%20%3FidExtension%20%3Fextension%20%3FmediaType%20%3FpronomId%20%3FidExtensionLabel%20%3FfileSignature%0AORDER%20BY%20%3Fextension%20%3FmediaType";
+const SPARQL_URL: &str = "https://query.wikidata.org/sparql?query=SELECT%20DISTINCT%20%3FidExtension%20%3Fextension%20%3FmediaType%20%3FpronomId%20%3FidExtensionLabel%20%3FfileSignature%0AWHERE%0A%7B%0A%20%20%23%20Find%20instances%20of%20file%20format%20(Q235557)%0A%20%20%3FidExtension%20wdt%3AP31%20wd%3AQ235557%0A%0A%20%20%23%20Optional%3A%20Get%20the%20extension%20if%20available%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP1195%20%3Fextension%20%7D%0A%20%20%0A%20%20%23%20Optional%3A%20Get%20the%20MIME%2Fmedia%20type%20if%20available%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP1163%20%3FmediaType%20%7D%0A%0A%20%20%23%20Optional%3A%20Get%20the%20PRONOM%20ID%20if%20available%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP2748%20%3FpronomId%20%7D%0A%0A%20%20%23%20Optional%3A%20Get%20file%20signatures%2Fmagic%20numbers%20if%20available%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP4152%20%3FfileSignature%20%7D%0A%0A%20%20%23%20Optional%3A%20Get%20byte%20sequences%20if%20available%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP5933%20%3FbyteSequence%20%7D%0A%0A%20%20%23%20Optional%3A%20Get%20offset%20patterns%20if%20available%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3FidExtension%20p%3AP5933%20%3Fstatement%20.%0A%20%20%20%20%3Fstatement%20ps%3AP5933%20%3FoffsetPattern%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20pq%3AP4153%20%3Foffset%20.%0A%20%20%7D%0A%0A%20%20%23%20Optional%3A%20Get%20magic%20numbers%20if%20available%20(different%20from%20file%20signatures)%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP3508%20%3FmagicNumber%20%7D%0A%0A%20%20%23%20Optional%3A%20Get%20format%20identification%20notes%20if%20available%0A%20%20OPTIONAL%20%7B%20%3FidExtension%20wdt%3AP2561%20%3FidentificationNote%20%7D%0A%0A%20%20%23%20Add%20labels%20in%20English%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20%7D%0A%7D%0AGROUP%20BY%20%3FidExtension%20%3Fextension%20%3FmediaType%20%3FpronomId%20%3FidExtensionLabel%20%3FfileSignature%0AORDER%20BY%20%3Fextension%20%3FmediaType%0A";
 
 // SPARQL
 //
@@ -27,9 +27,10 @@ const SPARQL_URL: &str = "https://query.wikidata.org/sparql?query=%23List%20of%2
 // WHERE
 // {
 //   # Find instances of file format (Q235557)
-//   ?idExtension wdt:P31 wd:Q235557 ;
-//                # Get the file extension
-//                wdt:P1195 ?extension .
+//   ?idExtension wdt:P31 wd:Q235557
+//
+//   # Optional: Get the extension if available
+//   OPTIONAL { ?idExtension wdt:P1195 ?extension }
 //
 //   # Optional: Get the MIME/media type if available
 //   OPTIONAL { ?idExtension wdt:P1163 ?mediaType }
@@ -202,6 +203,11 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
             } else {
                 warn!("id {id}; invalid regex: {file_signature}");
             }
+        }
+
+        if extensions.is_empty() && media_types.is_empty() && internal_signatures.is_empty() {
+            warn!("Skipping {id}:{name}; no identifier data");
+            continue;
         }
 
         let file_format = FileFormat {
