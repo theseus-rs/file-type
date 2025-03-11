@@ -13292,6 +13292,12 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
                 &pronom::PRONOM_3913,
                 #[cfg(feature = "pronom")]
                 &pronom::PRONOM_3914,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_105857177,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_105857311,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_105857317,
             ],
         ),
         (
@@ -39163,6 +39169,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
                 &wikidata::WIKIDATA_58367950,
                 #[cfg(feature = "wikidata")]
                 &wikidata::WIKIDATA_133146964,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_133249811,
                 #[cfg(feature = "httpd")]
                 &httpd::HTTPD_4204554576,
             ],
@@ -60950,6 +60958,8 @@ pub(crate) static MAP: phf::Map<&'static str, &'static [&'static FileType]> = ::
                 &wikidata::WIKIDATA_105855637,
                 #[cfg(feature = "wikidata")]
                 &wikidata::WIKIDATA_118383473,
+                #[cfg(feature = "wikidata")]
+                &wikidata::WIKIDATA_133252316,
                 #[cfg(feature = "httpd")]
                 &httpd::HTTPD_2726424993,
             ],

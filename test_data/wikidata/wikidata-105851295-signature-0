@@ -1,0 +1,6 @@
+This file was created using TFile (C) Copyright Eddy Carroll 1990.
+
+TFile creates special files which don't contain data, but instead prevent
+AmigaDOS from overwriting the information on some tracks on this disk.
+
+This file contains disk track 

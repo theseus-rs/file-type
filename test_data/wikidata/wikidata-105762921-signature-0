@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="mediaGateway">
+      <section name="mediaGatewayConfig" type="Ozeki.MediaGateway.Config.MediaGatewayAppConfig, VoIPSDK"/>
+    </sectionGroup>
+  </configSections>
+  <mediaGateway>
+    <mediaGatewayConfig>
+      <providers>
+        <add type="
