@@ -45,14 +45,12 @@ impl FileType {
     }
 
     /// Get the file type identifier.
-    #[doc(hidden)]
     #[must_use]
     pub fn id(&self) -> usize {
         self.file_format.id
     }
 
     /// Get the source for this file type.
-    #[doc(hidden)]
     #[must_use]
     pub fn source_type(&self) -> &SourceType {
         &self.file_format.source_type
