@@ -7,7 +7,7 @@ version.workspace = true
 
 [dependencies]
 anyhow = { workspace = true }
-file_type = { path = "../../file_type", version = "0.7.5" }
+file_type = { path = "../../file_type", version = "0.7.6" }
 quick-xml = { workspace = true, features = ["serde", "serialize"] }
 rayon = { workspace = true }
 reqwest = { workspace = true, features = ["blocking"] }

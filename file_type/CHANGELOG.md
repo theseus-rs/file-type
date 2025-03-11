@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.7.6](https://github.com/theseus-rs/file-type/compare/v0.7.5...v0.7.6) - 2025-03-11
+
+### Added
+- enable docs for id and source type
+
 ## [0.7.5](https://github.com/theseus-rs/file-type/compare/v0.7.4...v0.7.5) - 2025-03-11
 
 ### Added
