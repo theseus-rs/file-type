@@ -65,8 +65,6 @@ fn generate_signatures_map(source_dir: &Path) -> Result<()> {
     let mut file = BufWriter::new(file);
     let use_statements = [
         "use crate::FileType;",
-        "#[cfg(feature = \"custom\")]",
-        "use crate::sources::custom;",
         "#[cfg(feature = \"pronom\")]",
         "use crate::sources::pronom;",
         "#[cfg(feature = \"wikidata\")]",
@@ -113,8 +111,6 @@ fn generate_extension_map(source_dir: &Path) -> Result<()> {
     let mut file = BufWriter::new(file);
     let use_statements = [
         "use crate::FileType;",
-        "#[cfg(feature = \"custom\")]",
-        "use crate::sources::custom;",
         "#[cfg(feature = \"httpd\")]",
         "use crate::sources::httpd;",
         "#[cfg(feature = \"linguist\")]",
@@ -163,10 +159,8 @@ fn generate_media_types_map(source_dir: &Path) -> Result<()> {
     let path = source_dir.join("media_types.rs");
     let file = File::create(&path)?;
     let mut file = BufWriter::new(file);
-    let use_statements = vec![
+    let use_statements = [
         "use crate::FileType;",
-        "#[cfg(feature = \"custom\")]",
-        "use crate::sources::custom;",
         "use crate::sources::default;",
         "#[cfg(feature = \"httpd\")]",
         "use crate::sources::httpd;",

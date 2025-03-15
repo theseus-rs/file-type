@@ -1,12 +1,12 @@
 use crate::FileType;
 use crate::format::{FileFormat, SourceType};
 
-pub(crate) const WIKIDATA_1587964: FileType = FileType {
+pub(crate) const WIKIDATA_133270072: FileType = FileType {
     file_format: &FileFormat {
-        id: 1_587_964,
+        id: 133_270_072,
         source_type: SourceType::Wikidata,
-        name: "Harwell-Boeing file format",
-        extensions: &["hb", "rua"],
+        name: "GeoConcept text file",
+        extensions: &["gxt"],
         media_types: &[],
         signatures: &[],
         related_formats: &[],

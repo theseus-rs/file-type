@@ -1,8 +1,5 @@
 use crate::FileType;
 
-#[cfg(feature = "custom")]
-#[doc(hidden)]
-pub mod custom;
 #[doc(hidden)]
 pub mod default;
 #[cfg(feature = "httpd")]
@@ -25,8 +22,6 @@ pub mod wikidata;
 #[doc(hidden)]
 pub fn file_types() -> impl Iterator<Item = &'static FileType> {
     let chained = default::FILE_TYPES.iter().copied();
-    #[cfg(feature = "custom")]
-    let chained = chained.chain(custom::FILE_TYPES.iter().copied());
     #[cfg(feature = "httpd")]
     let chained = chained.chain(httpd::FILE_TYPES.iter().copied());
     #[cfg(feature = "iana")]

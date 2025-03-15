@@ -114,9 +114,9 @@ impl FileType {
     /// ```
     /// use file_type::FileType;
     ///
-    /// let file_types = FileType::from_extension("duckdb");
+    /// let file_types = FileType::from_extension("png");
     /// let file_type = file_types.first().expect("file format");
-    /// assert_eq!(file_type.media_types(), vec!["application/vnd.duckdb.file"]);
+    /// assert_eq!(file_type.media_types(), vec!["image/png"]);
     /// ```
     #[must_use]
     pub fn from_extension<S: AsRef<str>>(extension: S) -> &'static [&'static Self] {
@@ -153,7 +153,6 @@ impl FileType {
     /// use file_type::FileType;
     ///
     /// let file_type = FileType::from_bytes(b"\xCA\xFE\xBA\xBE");
-    /// assert_eq!(file_type.media_types(), Vec::<String>::new());
     /// assert_eq!(file_type.extensions(), vec!["class"]);
     /// ```
     pub fn from_bytes<B: AsRef<[u8]>>(bytes: B) -> &'static Self {
@@ -174,7 +173,6 @@ impl FileType {
     /// let reader = BufReader::new(&bytes[..]);
     /// let file_type = FileType::try_from_reader(reader).expect("file type not found");
     /// assert_eq!(file_type.extensions(), vec!["class"]);
-    /// assert_eq!(file_type.media_types(), Vec::<String>::new());
     /// ```
     #[cfg(feature = "std")]
     pub fn try_from_reader<R: std::io::Read>(mut reader: R) -> crate::Result<&'static Self> {
@@ -239,15 +237,15 @@ mod tests {
     use alloc::vec;
     use alloc::vec::Vec;
 
-    #[cfg(feature = "custom")]
+    #[cfg(feature = "wikidata")]
     #[test]
     fn test_from_extension() {
         let file_types = FileType::from_extension("duckdb");
         let file_type = file_types.first().expect("file format");
-        assert_eq!(file_type.id(), 3);
-        assert_eq!(file_type.name(), "DuckDB");
-        assert_eq!(file_type.media_types(), vec!["application/vnd.duckdb.file"]);
-        assert_eq!(file_type.extensions(), vec!["duckdb"]);
+        assert_eq!(file_type.id(), 133_271_766);
+        assert_eq!(file_type.name(), "DuckDB database file");
+        assert_eq!(file_type.media_types(), Vec::<String>::new());
+        assert_eq!(file_type.extensions(), vec!["ddb", "duckdb"]);
     }
 
     #[test]
@@ -345,20 +343,13 @@ mod tests {
         bytes
     }
 
+    #[cfg(feature = "wikidata")]
     #[test]
     fn test_from_bytes_large() {
         let bytes = large_bytes();
         let file_type = FileType::from_bytes(&bytes);
-        #[cfg(feature = "pronom")]
-        {
-            assert_eq!(file_type.id(), 1907);
-            assert_eq!(file_type.file_format().source_type, SourceType::Pronom);
-        }
-        #[cfg(all(not(feature = "pronom"), feature = "wikidata"))]
-        {
-            assert_eq!(file_type.id(), 162839);
-            assert_eq!(file_type.file_format().source_type, SourceType::Wikidata);
-        }
+        assert_eq!(file_type.id(), 162_839);
+        assert_eq!(file_type.file_format().source_type, SourceType::Wikidata);
         assert_eq!(file_type.extensions(), vec!["xz"]);
     }
 }

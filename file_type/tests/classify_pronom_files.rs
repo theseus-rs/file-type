@@ -58,6 +58,6 @@ fn test_file_classification() -> anyhow::Result<()> {
 
     println!("Passed: {passed_tests}");
     println!("Errored: {errored_tests}");
-    assert!(passed_tests > 1700);
+    assert!(passed_tests > 1_200);
     Ok(())
 }

@@ -56,7 +56,6 @@ assert_eq!(file_type.extensions(), vec!["png"]);
 
 | Name       | Description                                                                                                                | Default? |
 |------------|----------------------------------------------------------------------------------------------------------------------------|----------|
-| `custom`   | Enables custom file types                                                                                                  | Yes      |
 | `httpd`    | Enables [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types) file types                         | No       |
 | `iana`     | Enables [IANA](https://www.iana.org/assignments/media-types/media-types.xml) file types                                    | No       |
 | `linguist` | Enables [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) file types            | No       |
