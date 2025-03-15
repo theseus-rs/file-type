@@ -1,2506 +1,9 @@
-# File Types (16135)
+# File Types (19846)
 
 | Source | Id | Name | Extensions | Media Types |
 | ---- | ---- | ---- | ----------- | ---------- |
 | Default | 1 | Binary |  | application/octet-stream |
 | Default | 2 | Text |  | text/plain |
-| Custom | 1 | Apache Arrow | arrow | application/vnd.apache.arrow.file |
-| Custom | 2 | Apache Avro | avro | application/vnd.apache.avro.file |
-| Custom | 3 | DuckDB | duckdb | application/vnd.duckdb.file |
-| Custom | 4 | JSON Lines | jsonl | application/jsonl |
-| Custom | 5 | Apache Parquet | parquet | application/vnd.apache.parquet |
-| Pronom | 8 | Microsoft Word for Macintosh Document | mcw | application/msword |
-| Pronom | 11 | Microsoft Word for Macintosh Document |  |  |
-| Pronom | 13 | Online Description Tool Format | odt |  |
-| Pronom | 14 | Write for Windows Document | wri |  |
-| Pronom | 15 | Works for Macintosh Document |  |  |
-| Pronom | 16 | FoxPro Database | dbf |  |
-| Pronom | 17 | FoxPro Database | dbf |  |
-| Pronom | 18 | dBASE Database | dbf |  |
-| Pronom | 19 | dBASE Database | dbf |  |
-| Pronom | 20 | dBASE Database | dbf | application/dbase |
-| Pronom | 27 | Revisable-Form-Text Document Content Architecture |  |  |
-| Pronom | 28 | Write for Windows Document | wri |  |
-| Pronom | 40 | Tab-separated Values | tsv, tab | text/tab-separated-values |
-| Pronom | 41 | Macintosh Text File |  | text/plain |
-| Pronom | 42 | MS-DOS Text File |  | text/plain |
-| Pronom | 43 | Unicode Text File |  | text/plain |
-| Pronom | 44 | Microsoft Excel Template | xlt | application/vnd.ms-excel |
-| Pronom | 45 | Comma Separated Values | csv | text/csv |
-| Pronom | 48 | 3D Studio | 3ds |  |
-| Pronom | 49 | Adobe Illustrator | ai | application/postscript |
-| Pronom | 50 | 7-bit ANSI Text | ans | text/plain |
-| Pronom | 51 | 7-bit ASCII Text | asc | text/plain |
-| Pronom | 52 | Microsoft Excel Backup | xlk |  |
-| Pronom | 53 | AutoCAD Block Attribute Template | blk |  |
-| Pronom | 55 | OS/2 Bitmap |  |  |
-| Pronom | 56 | AutoCAD Batch Plot File | bp2, bpl |  |
-| Pronom | 57 | AutoCAD Batch Plot File | bp3 |  |
-| Pronom | 59 | CALS Compressed Bitmap | cal |  |
-| Pronom | 60 | CorelDraw Drawing | cdr |  |
-| Pronom | 61 | CorelDraw Template | cdt |  |
-| Pronom | 62 | CorelDraw Compressed Drawing | cdx, cjw |  |
-| Pronom | 63 | Harvard Graphics Chart | ch3 |  |
-| Pronom | 64 | Corel R.A.V.E. | clk |  |
-| Pronom | 65 | Corel Presentation Exchange File | cmx |  |
-| Pronom | 66 | Corel Presentation Exchange File | cmx |  |
-| Pronom | 67 | CorelDraw Compressed Drawing | cpx |  |
-| Pronom | 68 | AutoCAD Colour-Dependant Plot Style Table | ctb |  |
-| Pronom | 69 | AutoCAD Custom Dictionary | cus |  |
-| Pronom | 70 | AutoCAD dbConnect Query Set | dbq |  |
-| Pronom | 71 | AutoCAD dbConnect Template Set | dbt |  |
-| Pronom | 72 | Data Interchange Format | dif |  |
-| Pronom | 73 | Wordperfect Secondary File | doc |  |
-| Pronom | 74 | Wordperfect Secondary File | doc |  |
-| Pronom | 75 | WordPerfect for MS-DOS/Windows Document | doc, wpd, wp6, wp, w60, w61, w62 | application/vnd.wordperfect |
-| Pronom | 76 | Microsoft Word Document Template | dot |  |
-| Pronom | 77 | Microsoft Excel ODBC Query | dqy |  |
-| Pronom | 78 | Micrografx Draw | drw |  |
-| Pronom | 79 | Visual Basic Macro | dvb |  |
-| Pronom | 80 | AutoCAD Design Web Format | dwf | application/dwf, application/x-dwf, drawing/x-dwf, image/vnd.dwf, image/x-dwf, model/vnd.dwf |
-| Pronom | 82 | AutoCAD Drawing Standards File | dws |  |
-| Pronom | 83 | AutoCAD Drawing Template | dwt |  |
-| Pronom | 85 | Drawing Interchange Format Style Extract | dxx |  |
-| Pronom | 86 | Encapsulated PostScript File Format | eps, epsf | application/postscript |
-| Pronom | 87 | Macromedia Freehand | fh5, fh4 |  |
-| Pronom | 88 | AutoCAD Font Mapping Table | fmp |  |
-| Pronom | 89 | Frame Vector Metafile | fmv |  |
-| Pronom | 90 | Kodak FlashPix Image | fpx | image/vnd.fpx |
-| Pronom | 91 | Ventura Publisher Vector Graphics | gem |  |
-| Pronom | 95 | Microsoft Excel Web Query | iqy |  |
-| Pronom | 100 | AutoCAD Last Saved Layer State | las |  |
-| Pronom | 101 | AutoCAD Linetype Definition File | lin |  |
-| Pronom | 102 | AutoCAD Landscape Library | lli |  |
-| Pronom | 103 | Log File | log |  |
-| Pronom | 104 | AutoLISP File | lsp |  |
-| Pronom | 105 | Microsoft Word for Macintosh Document | mcw | application/msword |
-| Pronom | 106 | Microsoft Word for Macintosh Document | mcw | application/msword |
-| Pronom | 107 | Microsoft Access Database File | mdb, mda |  |
-| Pronom | 108 | OS/2 Presentation Manager Metafile (MET) | met |  |
-| Pronom | 109 | AutoCAD Compiled Menu | mnc |  |
-| Pronom | 110 | AutoLISP Menu Source File | mnl |  |
-| Pronom | 111 | AutoCAD Menu Resource File | mnr, mnt |  |
-| Pronom | 112 | AutoCAD Source Menu File | mns |  |
-| Pronom | 114 | AutoCAD Template Menu File | mnu |  |
-| Pronom | 115 | Microsoft Outlook Address Book | olk |  |
-| Pronom | 116 | Microsoft Excel OLAP Query | oqy |  |
-| Pronom | 117 | Microsoft Outlook Personal Address Book | pab |  |
-| Pronom | 118 | CorelDraw Pattern | pat |  |
-| Pronom | 119 | AutoCAD Plot Configuration File | pc2 |  |
-| Pronom | 120 | AutoCAD Plot Configuration File | pc3 |  |
-| Pronom | 121 | AutoCAD Plot Configuration File | pcp |  |
-| Pronom | 122 | Macintosh PICT Image | pct, pict | image/x-pict |
-| Pronom | 125 | Inkwriter/Notetaker Template | pdt |  |
-| Pronom | 126 | Lotus 1-2-3 Chart | pic |  |
-| Pronom | 127 | Hewlett Packard Vector Graphic Plotter File | plt |  |
-| Pronom | 129 | Microsoft Powerpoint Design Template | pot |  |
-| Pronom | 130 | Picture Publisher Bitmap | pp5 |  |
-| Pronom | 131 | Microsoft Powerpoint Add-In | ppa |  |
-| Pronom | 132 | Microsoft Powerpoint Presentation Show | pps | application/vnd.ms-powerpoint |
-| Pronom | 133 | Microsoft PowerPoint Presentation | ppt | application/vnd.ms-powerpoint |
-| Pronom | 134 | Microsoft Powerpoint Presentation | ppt | application/vnd.ms-powerpoint |
-| Pronom | 135 | Microsoft Powerpoint Presentation | ppt | application/vnd.ms-powerpoint |
-| Pronom | 136 | Freelance File | pre |  |
-| Pronom | 137 | Microsoft Print File | prn |  |
-| Pronom | 138 | Postscript | ps | application/postscript |
-| Pronom | 139 | Adobe Photoshop | psd, pdd | image/vnd.adobe.photoshop |
-| Pronom | 140 | Postscript Support File | psf |  |
-| Pronom | 141 | Pocket Word Document | psw, pwd |  |
-| Pronom | 143 | Inkwriter/Notetaker Document | pwi |  |
-| Pronom | 144 | Pocket Word Template | pwt |  |
-| Pronom | 145 | Microsoft Excel OLE DB Query | rqy |  |
-| Pronom | 146 | AutoCAD ACIS Export File | sat |  |
-| Pronom | 147 | Schedule+ Contacts | scd |  |
-| Pronom | 148 | AutoCAD Script | scr |  |
-| Pronom | 149 | Harvard Graphics Show | sh3 |  |
-| Pronom | 150 | 3D Studio (DOS) 2D Shape File | shp |  |
-| Pronom | 151 | AutoCAD Compiled Shape/Font File | shx |  |
-| Pronom | 152 | AutoCAD Slide Library | slb |  |
-| Pronom | 153 | AutoCAD Slide | sld | application/sld, application/x-sld, image/x-sld |
-| Pronom | 154 | Microsoft Symbolic Link (SYLK) File | slk |  |
-| Pronom | 155 | AutoCAD Named Plot Style Table | stb |  |
-| Pronom | 156 | STL (Standard Tessellation Language) ASCII | stl |  |
-| Pronom | 158 | Scalable Vector Graphics Compressed | svgz | image/svg+xml |
-| Pronom | 162 | Fixed Width Values Text File |  | text/plain |
-| Pronom | 163 | Plain Text File | txt | text/plain |
-| Pronom | 164 | AutoCAD External Database Configuration File | udl |  |
-| Pronom | 165 | Microsoft Visio Drawing | vsd, vst, vss | application/vnd.visio |
-| Pronom | 166 | Lotus 1-2-3 Worksheet | wk1, wk2 | application/vnd.lotus-1-2-3, application/x-123 |
-| Pronom | 167 | Lotus 1-2-3 Worksheet | wk3 | application/lotus123, application/vnd.lotus-1-2-3 |
-| Pronom | 168 | Lotus 1-2-3 Worksheet | wk4 | application/lotus123, application/vnd.lotus-1-2-3 |
-| Pronom | 169 | Lotus 1-2-3 Worksheet | wks | application/vnd.lotus-1-2-3, application/x-123 |
-| Pronom | 170 | Microsoft Works Spreadsheet |  |  |
-| Pronom | 171 | Windows Metafile Image | wmf | image/wmf |
-| Pronom | 175 | Microsoft Works for Windows |  |  |
-| Pronom | 176 | Quattro Pro Spreadsheet for DOS | wq1, wkq |  |
-| Pronom | 177 | Quattro Pro Spreadsheet for DOS | wq2, wkq |  |
-| Pronom | 178 | Microsoft Excel Macro | xla, xlm | application/vnd.ms-excel |
-| Pronom | 179 | Microsoft Excel Add-In | xla, xll |  |
-| Pronom | 180 | Microsoft Excel Toolbar | xlb |  |
-| Pronom | 181 | Microsoft Excel Chart | xlc |  |
-| Pronom | 182 | AutoCAD Xref Log | xlg |  |
-| Pronom | 186 | Microsoft Excel Workspace File | xlw |  |
-| Pronom | 188 | Microsoft Word for Macintosh Document |  |  |
-| Pronom | 189 | MS-DOS Text File with line breaks |  | text/plain |
-| Pronom | 190 | Stationery for Mac OS X | doc |  |
-| Pronom | 191 | Speller Custom Dictionary | dic |  |
-| Pronom | 192 | Speller Exclude Dictionary | dic |  |
-| Pronom | 193 | AutoCAD Device-Independent Binary Plotter File | adi |  |
-| Pronom | 194 | Audio Interchange File Format |  |  |
-| Pronom | 195 | Audio Interchange File Format (compressed) | aifc | audio/x-aiff |
-| Pronom | 197 | Electronic Arts Music | asf |  |
-| Pronom | 198 | Active Server Page | asp |  |
-| Pronom | 199 | NeXT/Sun sound | au | audio/basic |
-| Pronom | 201 | Silicon Graphics Image | bw, rgb | image/x-sgi-bw |
-| Pronom | 202 | Calendar Creator Plus Data File | cce |  |
-| Pronom | 203 | Computer Graphics Metafile ASCII | cgm | image/cgm |
-| Pronom | 204 | OS/2 Change Control File | cin |  |
-| Pronom | 205 | Corel Photo-Paint Image | cpt |  |
-| Pronom | 206 | Stats+ Data File |  |  |
-| Pronom | 207 | Scitex Continuous Tone Bitmap | ct, sct |  |
-| Pronom | 208 | Paradox Database Table | db |  |
-| Pronom | 209 | IBM DisplayWrite DCA Text File | dca |  |
-| Pronom | 210 | Desktop Color Separation File | dcs |  |
-| Pronom | 211 | Visual FoxPro Database Container File | dcx |  |
-| Pronom | 213 | Micrografx Designer | dsf |  |
-| Pronom | 214 | Digital Video | dv | video/dv |
-| Pronom | 215 | Microsoft Windows Enhanced Metafile | emf | image/emf |
-| Pronom | 216 | AutoDesk FLIC Animation | fli |  |
-| Pronom | 218 | AutoCAD Film Roll | flm |  |
-| Pronom | 219 | Ventura Publisher | gen |  |
-| Pronom | 221 | Interchange File | iff |  |
-| Pronom | 222 | Initial Graphics Exchange Specification (IGES) | iges, igs | model/iges |
-| Pronom | 223 | GEM Image | img |  |
-| Pronom | 227 | Java Servlet Page | jsp | text/html |
-| Pronom | 228 | MacPaint Image | mac |  |
-| Pronom | 229 | Adobe FrameMaker Interchange Format | mif | application/vnd.mif |
-| Pronom | 235 | NAP Metafile | nap |  |
-| Pronom | 236 | Portable Bitmap Image - ASCII | pbm | image/x-portable-bitmap |
-| Pronom | 237 | Kodak PhotoCD Image |  |  |
-| Pronom | 238 | PICS Animation | pcs |  |
-| Pronom | 239 | Adobe PhotoDeluxe | pdd |  |
-| Pronom | 240 | Broderbund Print Shop Deluxe | pcc, pdb, pdc, pda, pdl, pds, pdg |  |
-| Pronom | 241 | PHP Script Page | php | text/html |
-| Pronom | 242 | PC Paint Bitmap | pic |  |
-| Pronom | 244 | Inset Systems Bitmap | pix |  |
-| Pronom | 245 | Microsoft FoxPro Library | plb |  |
-| Pronom | 246 | PageMaker PC Document | pm5, pt5 | application/vnd.pagemaker |
-| Pronom | 247 | PageMaker PC Document | pm6, pt6 | application/vnd.pagemaker |
-| Pronom | 248 | MacPaint Graphics | pnt |  |
-| Pronom | 249 | Picture Publisher Bitmap | pp4 |  |
-| Pronom | 250 | Microsoft PowerPoint Graphics File | ppi |  |
-| Pronom | 251 | Portable Pixel Map - ASCII | ppm | image/x-portable-pixmap |
-| Pronom | 252 | Microsoft Visual Modeller Petal file (ASCII) | ptl |  |
-| Pronom | 253 | Instalit Script | pvd |  |
-| Pronom | 254 | PageMaker PC Document | p65, t65, pmd, pmt | application/vnd.pagemaker |
-| Pronom | 255 | QuarkXPress Data File | qxd, qxt, qxp, qcd, qxl, qxb, qwd, qwt, qpt | application/vnd.Quark.QuarkXPress |
-| Pronom | 256 | RealAudio Metafile | ram | audio/vnd.rn-realaudio, audio/x-pn-realaudio |
-| Pronom | 257 | Sun Raster Image | ras, sun | image/x-sun-raster |
-| Pronom | 258 | Raw Bitmap | raw |  |
-| Pronom | 259 | Silicon Graphics RGB File |  |  |
-| Pronom | 260 | Painter RIFF Image File | rif |  |
-| Pronom | 261 | SDSC Image Tool Wavefront Raster Image | rla |  |
-| Pronom | 262 | SDSC Image Tool Run-Length Encoded Bitmap | rle |  |
-| Pronom | 263 | RealMedia | rm, rmvb | application/vnd.rn-realmedia |
-| Pronom | 264 | AMI Professional Document | sam | application/vnd.lotus-wordpro |
-| Pronom | 265 | SAS for MS-DOS Catalog | sct |  |
-| Pronom | 266 | Unisys (Sperry) System Data File | sdf |  |
-| Pronom | 267 | IRIS Graphics |  |  |
-| Pronom | 268 | Standard Generalized Markup Language | sgml, sgm | text/sgml |
-| Pronom | 269 | NeXt Sound |  |  |
-| Pronom | 271 | DataFlex Query Tag Name | tag |  |
-| Pronom | 272 | Pagemaker TableEditor Graphics | tbl |  |
-| Pronom | 273 | Turbo Debugger Keystroke Recording File | tdk |  |
-| Pronom | 274 | PageMaker Time Stamp File | tym |  |
-| Pronom | 275 | CCITT G.711 Audio | ulaw |  |
-| Pronom | 279 | Corel Wavelet Compressed Bitmap | wi, wvl |  |
-| Pronom | 281 | WordPerfect for Windows Document | w52, wp, wpd, wp5 | application/vnd.wordperfect |
-| Pronom | 284 | Microsoft Word for Windows Macro | wpm |  |
-| Pronom | 285 | WordStar for MS-DOS Document | ws, ws5 |  |
-| Pronom | 286 | WordStar for Windows Document | wsd, ws, wsw |  |
-| Pronom | 287 | X-Windows Bitmap Image | xbm | image/x-xbitmap |
-| Pronom | 289 | X-Windows Pixmap Image | xpm | image/x-xpixmap |
-| Pronom | 290 | SDSC Image Tool X Window Dump Format | xwd |  |
-| Pronom | 291 | XYWrite Document | xy |  |
-| Pronom | 292 | XYWrite Document | xy3 |  |
-| Pronom | 299 | Lotus 1-2-3 Worksheet |  |  |
-| Pronom | 300 | Quicken Data File | abd, qdf, qel |  |
-| Pronom | 302 | Microsoft Paint | msp |  |
-| Pronom | 304 | GEM Metafile Format | gem |  |
-| Pronom | 306 | Microsoft Powerpoint Packaged Presentation | ppz |  |
-| Pronom | 308 | Adobe ACD | acd |  |
-| Pronom | 309 | ESRI Arc/Info Binary Grid | adf |  |
-| Pronom | 310 | Internet Archive | arc | application/x-internet-archive |
-| Pronom | 311 | Applixware Spreadsheet | as |  |
-| Pronom | 313 | MapBrowser/MapWriter Vector Map Data | cbd |  |
-| Pronom | 314 | CD Audio | cda | application/x-cdf |
-| Pronom | 315 | Autodesk Animator CEL File Format | cel |  |
-| Pronom | 316 | Cascading Style Sheet | css | text/css |
-| Pronom | 317 | ESRI MapInfo Data File | mid |  |
-| Pronom | 318 | ESRI Arc/Info Export File | e00, x00, e01, e02, e03, e04, e05, e06, e07, e08, e09, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20 |  |
-| Pronom | 319 | Geography Markup Language | gml | application/gml+xml |
-| Pronom | 320 | Applixware Bitmap | im |  |
-| Pronom | 321 | Intergraph Raster Image | ing |  |
-| Pronom | 322 | MIDI Audio | mid, midi | audio/midi |
-| Pronom | 323 | ESRI MapInfo Export File | mif |  |
-| Pronom | 324 | Microsoft Project Export File | mpx | application/x-project |
-| Pronom | 325 | Paint Shop Pro Image | psp |  |
-| Pronom | 326 | Paint Shop Pro Image | psp |  |
-| Pronom | 328 | ESRI Arc/View ShapeFile | shp |  |
-| Pronom | 331 | Encapsulated PostScript File Format | eps, epsf, ps | application/postscript |
-| Pronom | 332 | Encapsulated PostScript File Format | eps, epsf | application/postscript |
-| Pronom | 342 | WordStar for MS-DOS Document | ws |  |
-| Pronom | 343 | WordStar for MS-DOS Document | ws, ws6 |  |
-| Pronom | 350 | Microsoft Access Database File | mdb, mda, mde, mdt |  |
-| Pronom | 351 | Microsoft Access Database File | mdb, mda, mdt, mde |  |
-| Pronom | 352 | Microsoft Access Database File | mdb, mde |  |
-| Pronom | 353 | Microsoft Access Database File | mdb, mde |  |
-| Pronom | 355 | Microsoft FoxPro Database | dbf |  |
-| Pronom | 359 | Microsoft Project | mpp | application/vnd.ms-project |
-| Pronom | 360 | Microsoft Project | mpp | application/vnd.ms-project |
-| Pronom | 361 | Microsoft Project | mpp | application/vnd.ms-project |
-| Pronom | 362 | Microsoft Project |  |  |
-| Pronom | 363 | Microsoft Project | mpp | application/vnd.ms-project |
-| Pronom | 364 | Microsoft Outlook Personal Folders (ANSI) | pst | application/vnd.ms-outlook |
-| Pronom | 365 | Microsoft Outlook Personal Folders (Unicode) | pst |  |
-| Pronom | 366 | Microsoft Outlook Personal Folders |  |  |
-| Pronom | 367 | Microsoft Outlook Personal Folders |  |  |
-| Pronom | 370 | Microsoft Publisher | pub | application/x-mspublisher |
-| Pronom | 371 | Microsoft Publisher | pub | application/x-mspublisher |
-| Pronom | 372 | Microsoft Publisher | pub | application/x-mspublisher |
-| Pronom | 373 | Microsoft Publisher | pub | application/x-mspublisher |
-| Pronom | 374 | Microsoft Publisher | pub | application/x-mspublisher |
-| Pronom | 375 | Microsoft Publisher | pub | application/x-mspublisher |
-| Pronom | 376 | Microsoft Visio Drawing | vsd, vss, vst | application/vnd.visio |
-| Pronom | 377 | Microsoft Visio Drawing |  |  |
-| Pronom | 378 | WordStar for MS-DOS Document | ws, ws4 |  |
-| Pronom | 379 | WordStar for MS-DOS Document | ws, ws7 |  |
-| Pronom | 380 | WordStar for Windows Document | ws, wsw |  |
-| Pronom | 382 | ZIP Format | zip | application/zip |
-| Pronom | 384 | RAR Archive | rar | application/vnd.rar |
-| Pronom | 385 | Tape Archive Format | tar | application/x-tar |
-| Pronom | 386 | GZIP Format | gz, z | application/gzip |
-| Pronom | 387 | BZIP Compressed Archive | bz |  |
-| Pronom | 388 | BZIP2 Compressed Archive | bz2 | application/x-bzip2 |
-| Pronom | 389 | ZOO Compressed Archive | zoo |  |
-| Pronom | 402 | OS/2 Bitmap | bmp | image/bmp |
-| Pronom | 403 | dBASE Database | dbf |  |
-| Pronom | 404 | dBASE Database | dbf |  |
-| Pronom | 405 | Microsoft Word for MS-DOS Document |  |  |
-| Pronom | 406 | Microsoft Word for MS-DOS Document | doc | application/msword |
-| Pronom | 407 | Microsoft Word for MS-DOS Document | doc | application/msword |
-| Pronom | 408 | Microsoft Word for MS-DOS Document | doc | application/msword |
-| Pronom | 422 | Real Video | rv | video/vnd.rn-realvideo |
-| Pronom | 424 | RealAudio | ra | audio/vnd.rn-realaudio |
-| Pronom | 425 | MPEG 1/2 Audio Layer 3 Streaming | m3u, m3u8 | audio/mpeg |
-| Pronom | 429 | XML Schema Definition | xsd | application/xml |
-| Pronom | 430 | Extensible Stylesheet Language | xsl | application/xml |
-| Pronom | 433 | 8-bit ANSI Text | ans | text/plain |
-| Pronom | 434 | 8-bit ASCII Text | asc | text/plain |
-| Pronom | 435 | IBM DisplayWrite Final Form Text File | fft |  |
-| Pronom | 436 | IBM DisplayWrite Revisable Form Text File | rft |  |
-| Pronom | 437 | DEC Data Exchange File | dx | application/dec-dx. |
-| Pronom | 438 | DEC WPS Plus Document | wpl |  |
-| Pronom | 439 | IBM DisplayWrite Document |  |  |
-| Pronom | 440 | IBM DisplayWrite Document |  |  |
-| Pronom | 441 | AMI Draw Vector Image | sdw |  |
-| Pronom | 444 | CorelDraw Drawing | cdr |  |
-| Pronom | 445 | CorelDraw Drawing | cdr |  |
-| Pronom | 446 | Hewlett Packard Graphics Language | hpgl | application/vnd.hp-HPGL |
-| Pronom | 447 | Micrografx Draw | drw |  |
-| Pronom | 448 | Micrografx Draw | drw, drt |  |
-| Pronom | 449 | Micrografx Designer | drw |  |
-| Pronom | 450 | Paint Shop Pro Image | psp, pspimage |  |
-| Pronom | 451 | Paint Shop Pro Image | psp, pspimage |  |
-| Pronom | 452 | X-Windows Bitmap Image | xbm | image/x-xbitmap |
-| Pronom | 453 | X-Windows Screen Dump File | xdm, xwd | image/x-xwindowdump |
-| Pronom | 455 | ACBM Graphics | acb |  |
-| Pronom | 456 | Visualization Toolkit | fm | application/vnd.framemaker |
-| Pronom | 457 | Aldus Freehand Drawing | fh3 |  |
-| Pronom | 458 | Aldus Freehand Drawing | fh4 |  |
-| Pronom | 463 | Apple Sound | afc |  |
-| Pronom | 464 | AutoSketch Drawing | skf |  |
-| Pronom | 465 | Paradox Database Memo Field (Binary Large Object) | dbq, mb |  |
-| Pronom | 466 | Btrieve Database | btr |  |
-| Pronom | 467 | ChiWriter Document | chi |  |
-| Pronom | 468 | CorelCHART Document | cch |  |
-| Pronom | 469 | dBASE Text Memo | dbt |  |
-| Pronom | 470 | DesignCAD Drawing | dc2, dc |  |
-| Pronom | 472 | DesignCAD for Windows Drawing | dw2 |  |
-| Pronom | 473 | Digital Terrain Elevation Data | dted, dt0, dt1, dt2, avg, min, max |  |
-| Pronom | 474 | Document Type Definition | dtd |  |
-| Pronom | 475 | Dr Halo Bitmap | cut |  |
-| Pronom | 476 | ESRI Arc/View Project | apr |  |
-| Pronom | 477 | FileMaker Pro Database | fp3, fmp, fp, fm | application/x-filemaker |
-| Pronom | 478 | FileMaker Pro Database | fp5, fmp, fp, fm |  |
-| Pronom | 482 | Fractal Image | fif |  |
-| Pronom | 483 | Framework Database | fw, fw2 |  |
-| Pronom | 485 | Framework Database | fw3 |  |
-| Pronom | 486 | Framework Database | fw4 |  |
-| Pronom | 487 | Harvard Graphics Show | shw |  |
-| Pronom | 488 | Harvard Graphics Vector Graphics | cht |  |
-| Pronom | 489 | Hewlett Packard AdvanceWrite Text File | aw |  |
-| Pronom | 490 | IntelliDraw Vector Graphics | idw |  |
-| Pronom | 491 | InterBase Database | gdb |  |
-| Pronom | 492 | Interleaf Document | doc |  |
-| Pronom | 493 | JustWrite Text Document | jw, jwt |  |
-| Pronom | 494 | Lotus 1-2-3 Spreadsheet Formatting File | fm1, fmt |  |
-| Pronom | 495 | Lotus 1-2-3 Spreadsheet Formatting File | fm3 |  |
-| Pronom | 496 | Lotus Approach View File | apr | application/vnd.lotus-approach |
-| Pronom | 497 | Lotus Approach View File | apt | application/vnd.lotus-approach |
-| Pronom | 498 | Lotus Freelance Smartmaster Graphics | mas | application/vnd.lotus-freelance |
-| Pronom | 499 | Lotus Notes Database | ns2, nsf | application/vnd.lotus-notes |
-| Pronom | 500 | Lotus Notes Database | ns3, nsf | application/vnd.lotus-notes |
-| Pronom | 501 | Lotus Notes Database | ns4, nsf | application/vnd.lotus-notes |
-| Pronom | 503 | Lotus Notes File | box |  |
-| Pronom | 504 | Lotus WordPro Document | lwp | application/lwp, application/vnd.lotus-wordpro |
-| Pronom | 505 | Macromedia Director | dir, dxr | application/x-director |
-| Pronom | 506 | Microsoft FoxPro Memo | fpt, frt, vct, pjt |  |
-| Pronom | 507 | Microsoft Visual FoxPro Table | dbx |  |
-| Pronom | 508 | Microsoft Works Database | bdb |  |
-| Pronom | 509 | Microsoft Works Document | bps |  |
-| Pronom | 510 | Microstation CAD Drawing | dgn |  |
-| Pronom | 511 | MultiMate Text File | dox, fnx, pat |  |
-| Pronom | 512 | Multipage Zsoft Paintbrush Bitmap Graphics | dcx | image/x-dcx |
-| Pronom | 513 | Nota Bene Text File | nb |  |
-| Pronom | 514 | OmniPage Pro Document | met |  |
-| Pronom | 515 | PageMaker Document | pm3 |  |
-| Pronom | 516 | PageMaker PC Document | pm4, pt4 | application/vnd.pagemaker |
-| Pronom | 518 | Professional Write Text File | pw |  |
-| Pronom | 520 | SAP Document | ali |  |
-| Pronom | 521 | SAS Data File | ssd |  |
-| Pronom | 522 | SAS for MS-DOS Database | ssd |  |
-| Pronom | 523 | Scanstudio 16-Colour Bitmap | adc |  |
-| Pronom | 524 | Silicon Graphics Graphics File |  |  |
-| Pronom | 525 | StarOffice Calc | sdc |  |
-| Pronom | 526 | StarOffice Impress | sdd |  |
-| Pronom | 527 | StatGraphics Data File | aws |  |
-| Pronom | 528 | StratGraphics Data File | asf |  |
-| Pronom | 529 | SuperCalc Spreadsheet | cal |  |
-| Pronom | 530 | SuperCalc Spreadsheet | cal |  |
-| Pronom | 531 | TeX Binary File | dvi | application/x-dvi |
-| Pronom | 532 | TeX/LaTeX Device Independent Document | dvi | application/x-dvi |
-| Pronom | 533 | Truevision TGA Bitmap | tga, icb, vda, vst, afi, bpx |  |
-| Pronom | 538 | VisiCalc Database | dif |  |
-| Pronom | 539 | Vista Pro Graphics | dem |  |
-| Pronom | 542 | WordStar for MS-DOS Document | ws3, ws |  |
-| Pronom | 547 | XYWrite for Windows Document | xyw |  |
-| Pronom | 548 | XYWrite Document | xyp |  |
-| Pronom | 549 | XYWrite Document | xy4 |  |
-| Pronom | 552 | CorelDraw Drawing | cdr |  |
-| Pronom | 553 | CorelDraw Drawing | cdr |  |
-| Pronom | 554 | Paint Shop Pro Image | pspimage |  |
-| Pronom | 555 | Paint Shop Pro Image | psp |  |
-| Pronom | 556 | CorelDraw Drawing | cdr |  |
-| Pronom | 557 | CorelDraw Drawing | cdr |  |
-| Pronom | 558 | dBASE for Windows database | dbf |  |
-| Pronom | 559 | Dia Graphics Format | dia |  |
-| Pronom | 609 | Tagged Image File Format |  |  |
-| Pronom | 610 | Tagged Image File Format |  |  |
-| Pronom | 611 | Tagged Image File Format |  |  |
-| Pronom | 612 | Tagged Image File Format |  |  |
-| Pronom | 613 | Acrobat PDF 1.0 - Portable Document Format | pdf | application/pdf |
-| Pronom | 614 | Acrobat PDF 1.1 - Portable Document Format | pdf | application/pdf |
-| Pronom | 615 | Acrobat PDF 1.2 - Portable Document Format | pdf | application/pdf |
-| Pronom | 616 | Acrobat PDF 1.3 - Portable Document Format | pdf | application/pdf |
-| Pronom | 617 | Acrobat PDF 1.4 - Portable Document Format | pdf | application/pdf |
-| Pronom | 618 | Acrobat PDF 1.5 - Portable Document Format | pdf | application/pdf |
-| Pronom | 619 | Graphics Interchange Format | gif | image/gif |
-| Pronom | 620 | Graphics Interchange Format | gif | image/gif |
-| Pronom | 621 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
-| Pronom | 622 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
-| Pronom | 623 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
-| Pronom | 624 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
-| Pronom | 625 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
-| Pronom | 626 | Rich Text Format | rtf | application/rtf, text/rtf |
-| Pronom | 627 | Rich Text Format |  |  |
-| Pronom | 628 | Rich Text Format |  |  |
-| Pronom | 629 | Rich Text Format |  |  |
-| Pronom | 630 | Rich Text Format |  |  |
-| Pronom | 631 | Rich Text Format | rtf | application/rtf, text/rtf |
-| Pronom | 632 | Rich Text Format |  |  |
-| Pronom | 633 | Rich Text Format | rtf | application/rtf, text/rtf |
-| Pronom | 634 | Scalable Vector Graphics | svg | image/svg+xml |
-| Pronom | 635 | Scalable Vector Graphics | svg | image/svg+xml |
-| Pronom | 637 | Acrobat PDF 1.6 - Portable Document Format | pdf | application/pdf |
-| Pronom | 638 | Extensible Markup Language | xml | application/xml, text/xml |
-| Pronom | 639 | Hypertext Markup Language | htm, html | text/html |
-| Pronom | 640 | Hypertext Markup Language | htm, html | text/html |
-| Pronom | 641 | Hypertext Markup Language | htm, html | text/html |
-| Pronom | 642 | Hypertext Markup Language | htm, html | text/html |
-| Pronom | 643 | Extensible Hypertext Markup Language | html, htm | application/xhtml+xml |
-| Pronom | 644 | Extensible Hypertext Markup Language | htm, html | application/xhtml+xml |
-| Pronom | 645 | Hypertext Markup Language | htm, html | text/html |
-| Pronom | 646 | Macromedia Flash | swf | application/x-shockwave-flash |
-| Pronom | 647 | Macromedia Flash | swf | application/x-shockwave-flash |
-| Pronom | 648 | Macromedia Flash | swf | application/x-shockwave-flash |
-| Pronom | 649 | Macromedia Flash | swf | application/x-shockwave-flash |
-| Pronom | 650 | Macromedia Flash | swf | application/x-shockwave-flash |
-| Pronom | 651 | Macromedia Flash | swf | application/x-shockwave-flash |
-| Pronom | 652 | Macromedia Flash | swf | application/x-shockwave-flash |
-| Pronom | 653 | Macromedia FLV | flv | video/x-flv |
-| Pronom | 654 | Waveform Audio | wav | audio/x-wav |
-| Pronom | 655 | Audio/Video Interleaved Format | avi | video/x-msvideo |
-| Pronom | 656 | Broadcast WAVE | wav | audio/x-wav |
-| Pronom | 657 | Flexible Image Transport System | fits | application/fits, image/fits |
-| Pronom | 658 | Quicktime | mov, qtm | video/quicktime |
-| Pronom | 659 | MPEG-1 Program Stream | mpeg, mpg | video/mpeg |
-| Pronom | 660 | MPEG-2 Program Stream | mpeg, mpg, mod | video/mpeg |
-| Pronom | 661 | Virtual Reality Modeling Language | wrl | model/vrml |
-| Pronom | 662 | Virtual Reality Modeling Language | wrl | model/vrml |
-| Pronom | 664 | Portable Network Graphics | png | image/png |
-| Pronom | 665 | Portable Network Graphics | png | image/png |
-| Pronom | 666 | Portable Network Graphics | png | image/png |
-| Pronom | 667 | JPEG File Interchange Format | jpeg, jpe, jpg, jif, jfif, jfi | image/jpeg |
-| Pronom | 668 | JPEG File Interchange Format | jpg, jpe, jpeg, jif, jfif, jfi | image/jpeg |
-| Pronom | 669 | JPEG File Interchange Format | jpg, jpe, jpeg, jif, jfif, jfi | image/jpeg |
-| Pronom | 670 | Raw JPEG Stream | jpe, jpg, jpeg, jif, jfif, jfi | image/jpeg |
-| Pronom | 671 | Still Picture Interchange File Format | spf, jpg | image/jpeg |
-| Pronom | 672 | Exchangeable Image File Format (Uncompressed) | tif, tiff | image/tiff |
-| Pronom | 673 | Exchangeable Image File Format (Uncompressed) | tif, tiff | image/tiff |
-| Pronom | 674 | Exchangeable Image File Format (Audio) | wav | audio/x-wav |
-| Pronom | 675 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
-| Pronom | 676 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
-| Pronom | 677 | Still Picture Interchange File Format |  | image/jpeg |
-| Pronom | 678 | Microsoft Excel 2.x Worksheet (xls) | xls | application/vnd.ms-excel |
-| Pronom | 679 | Microsoft Excel 3.0 Worksheet (xls) | xls | application/vnd.ms-excel |
-| Pronom | 680 | Microsoft Excel 4.0 Worksheet (xls) | xls | application/vnd.ms-excel |
-| Pronom | 681 | Microsoft Excel 4.0 Workbook (xls) | xlw | application/vnd.ms-excel |
-| Pronom | 682 | Microsoft Excel 5.0/95 Workbook (xls) | xlw, xls | application/vnd.ms-excel |
-| Pronom | 683 | Excel 95 Workbook (xls) |  |  |
-| Pronom | 684 | Microsoft Excel 97 Workbook (xls) | xls, xlw | application/vnd.ms-excel |
-| Pronom | 685 | Microsoft Excel 2000-2003 Workbook (xls) | xlw, xls | application/vnd.ms-excel |
-| Pronom | 686 | JP2 (JPEG 2000 part 1) | jp2 | image/jp2 |
-| Pronom | 687 | MPEG 1/2 Audio Layer 3 | mp3 | audio/mpeg |
-| Pronom | 688 | Microsoft Word Document | doc | application/msword |
-| Pronom | 690 | Microsoft Word Document | doc, wbk | application/msword |
-| Pronom | 691 | Advanced Systems Format | asf | application/vnd.ms-asf |
-| Pronom | 692 | Windows Media Audio | wma, asf | audio/x-ms-wma |
-| Pronom | 693 | Windows Media Video | asf, wmv | video/x-ms-wmv |
-| Pronom | 694 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 695 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 696 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 697 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 698 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 699 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 700 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 701 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 702 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 703 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 704 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 705 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 706 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 707 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 708 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 709 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 710 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 711 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 712 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 713 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 714 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 715 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 716 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 717 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 718 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 719 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 720 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 721 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 722 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 723 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 724 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 725 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 727 | Windows Bitmap | ddb, bmp | image/bmp |
-| Pronom | 728 | Windows Bitmap | bmp, dib | image/bmp |
-| Pronom | 729 | Windows Bitmap | dib, bmp | image/bmp |
-| Pronom | 730 | Windows Bitmap | dib, bmp | image/bmp |
-| Pronom | 731 | Windows Bitmap | bmp, dib | image/bmp |
-| Pronom | 732 | Windows Bitmap | bmp, dib | image/bmp |
-| Pronom | 733 | Microsoft Word for Windows Document | doc | application/msword |
-| Pronom | 734 | Microsoft Word for Windows Document | doc | application/msword |
-| Pronom | 735 | Broadcast WAVE | wav | audio/x-wav |
-| Pronom | 736 | WordPerfect for MS-DOS Document | wp, wp5, wpd, w50, doc | application/vnd.wordperfect |
-| Pronom | 737 | WordPerfect for MS-DOS/Windows Document | wp5, wpd, w51, wp, doc | application/vnd.wordperfect |
-| Pronom | 738 | WordPerfect Graphics Metafile | wpg |  |
-| Pronom | 739 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
-| Pronom | 740 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
-| Pronom | 741 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
-| Pronom | 742 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
-| Pronom | 743 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
-| Pronom | 744 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
-| Pronom | 745 | OpenOffice Writer | sxw | application/vnd.sun.xml.writer |
-| Pronom | 746 | OpenOffice Calc | sxc | application/vnd.sun.xml.calc |
-| Pronom | 747 | OpenOffice Impress | sxi | application/vnd.sun.xml.impress |
-| Pronom | 748 | OpenOffice Draw | sxd | application/vnd.sun.xml.draw |
-| Pronom | 749 | Exchangeable Image File Format (Audio) | wav | audio/x-wav |
-| Pronom | 750 | Exchangeable Image File Format (Audio) | wav | audio/x-wav |
-| Pronom | 751 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
-| Pronom | 752 | Exchangeable Image File Format (Uncompressed) | tif, tiff | image/tiff |
-| Pronom | 753 | Rich Text Format | rtf | application/rtf, text/rtf |
-| Pronom | 754 | StarOffice Writer | sdw | application/vnd.stardivision.writer |
-| Pronom | 755 | StarOffice Draw | sda | application/vnd.stardivision.draw |
-| Pronom | 756 | StarOffice Draw |  |  |
-| Pronom | 757 | StarOffice Writer |  |  |
-| Pronom | 758 | StarOffice Calc |  |  |
-| Pronom | 759 | StarOffice Impress |  |  |
-| Pronom | 761 | Drawing Interchange Binary Format | dxb |  |
-| Pronom | 766 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 767 | OLE2 Compound Document Format |  |  |
-| Pronom | 768 | DROID Signature File Format | xml | text/xml |
-| Pronom | 769 | DROID File Collection File Format | xml | text/xml |
-| Pronom | 770 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| Pronom | 771 | PostScript | ps | application/postscript |
-| Pronom | 772 | PostScript | ps | application/postscript |
-| Pronom | 773 | PostScript | ps | application/postscript |
-| Pronom | 774 | MS-DOS Executable | exe |  |
-| Pronom | 775 | Windows New Executable | exe |  |
-| Pronom | 776 | Windows Portable Executable | exe, dll, sys | application/vnd.microsoft.portable-executable |
-| Pronom | 777 | Java Archive Format | jar | application/java-archive |
-| Pronom | 778 | OpenDocument Format |  |  |
-| Pronom | 779 | OpenDocument Text | odt, ott | application/vnd.oasis.opendocument.text |
-| Pronom | 780 | OpenDocument Spreadsheet | ods, ots | application/vnd.oasis.opendocument.spreadsheet |
-| Pronom | 781 | OpenDocument Presentation | odp, otp | application/vnd.oasis.opendocument.presentation |
-| Pronom | 782 | OpenDocument Graphics | odg, otg | application/vnd.oasis.opendocument.graphics |
-| Pronom | 783 | OpenDocument Database Format | odb |  |
-| Pronom | 784 | Waveform Audio (PCMWAVEFORMAT) | wav, wave | audio/x-wav |
-| Pronom | 785 | Waveform Audio (WAVEFORMATEX) | wav, wave | audio/x-wav |
-| Pronom | 786 | Waveform Audio (WAVEFORMATEXTENSIBLE) | wav, wave | audio/x-wav |
-| Pronom | 787 | Acrobat PDF/X - Portable Document Format - Exchange 1:1999 | pdf | application/pdf |
-| Pronom | 788 | Acrobat PDF/X - Portable Document Format - Exchange 1:2001 | pdf | application/pdf |
-| Pronom | 789 | Acrobat PDF/X - Portable Document Format - Exchange 1a:2003 | pdf | application/pdf |
-| Pronom | 790 | Acrobat PDF/X - Portable Document Format - Exchange 2:2003 | pdf | application/pdf |
-| Pronom | 791 | Acrobat PDF/X - Portable Document Format - Exchange 3:2003 | pdf | application/pdf |
-| Pronom | 792 | JTIP (JPEG Tiled Image Pyramid) |  |  |
-| Pronom | 793 | JPEG-LS | jls |  |
-| Pronom | 794 | JPX (JPEG 2000 part 2) | jpx, jpf | image/jpx |
-| Pronom | 795 | Digital Negative Format (DNG) | dng, tif, tiff | image/dng, image/tiff |
-| Pronom | 796 | Tagged Image File Format for Image Technology (TIFF/IT) | tif, tiff | image/tiff |
-| Pronom | 797 | Tagged Image File Format for Electronic Photography (TIFF/EP) | tif, tiff | image/tiff |
-| Pronom | 798 | Geographic Tagged Image File Format (GeoTIFF) | tif, tiff, cog | image/tiff |
-| Pronom | 799 | Tagged Image File Format for Internet Fax (TIFF-FX) | tif, tiff, tfx | image/tiff |
-| Pronom | 800 | Batch file (executable) | bat |  |
-| Pronom | 801 | Windows Cabinet File | cab | application/vnd.ms-cab-compressed |
-| Pronom | 802 | Java Class File | class |  |
-| Pronom | 803 | BinHex Binary Text | hqx | application/mac-binhex40 |
-| Pronom | 804 | HTML Extension File | htx |  |
-| Pronom | 805 | Icon file format | ico | image/vnd.microsoft.icon, image/x-icon |
-| Pronom | 806 | DVD data file and backup data file | ifo, bup |  |
-| Pronom | 807 | Windows Setup File | inf | application/inf |
-| Pronom | 808 | Text Configuration file | ini |  |
-| Pronom | 809 | Java Language Source Code File | java |  |
-| Pronom | 810 | JavaScript file | js | application/javascript |
-| Pronom | 811 | Deluxe Paint bitmap | lbm |  |
-| Pronom | 812 | Generic Library File | lib |  |
-| Pronom | 813 | License file | lic |  |
-| Pronom | 814 | Acrobat Language definition file | lng |  |
-| Pronom | 815 | Microsoft Windows Shortcut | lnk |  |
-| Pronom | 818 | Acrobat PDF/X - Portable Document Format - Exchange 1a:2001 | pdf | application/pdf |
-| Pronom | 819 | Acrobat PDF/X - Portable Document Format - Exchange 3:2002 | pdf | application/pdf |
-| Pronom | 820 | MHTML | mht, mhtml | multipart/related |
-| Pronom | 822 | Microsoft Outlook Email Message | msg, oft |  |
-| Pronom | 824 | EBCDIC-US | ebcdic |  |
-| Pronom | 826 | 3DM | 3dm |  |
-| Pronom | 827 | 3DM | 3dm |  |
-| Pronom | 828 | 3DM | 3dm |  |
-| Pronom | 831 | 3DM | 3dm |  |
-| Pronom | 843 | CATIA Model | mod, model |  |
-| Pronom | 848 | CATIA Project | project |  |
-| Pronom | 849 | CATIA Material Description | catmaterial |  |
-| Pronom | 851 | CATIA Model (Part Description) | catpart |  |
-| Pronom | 852 | CATIA Product Description | catproduct |  |
-| Pronom | 854 | AutoCAD Database File Locking Information | dwl | application/octet-stream |
-| Pronom | 856 | form*Z Project File | fmz | application/octet-stream |
-| Pronom | 857 | Revit Family File | rfa | application/octet-stream |
-| Pronom | 858 | Revit Family Template | rft | application/octet-stream |
-| Pronom | 859 | Revit Template | rte | application/octet-stream |
-| Pronom | 861 | Revit External Group | rvg | application/octet-stream |
-| Pronom | 862 | Revit Project | rvt | application/octet-stream |
-| Pronom | 863 | Revit Workspace | rws | application/octet-stream |
-| Pronom | 864 | Steel Detailing Neutral Format | sdn | text/plain |
-| Pronom | 865 | Adobe InDesign Document | ind, indd, indt | application/octet-stream |
-| Pronom | 866 | SketchUp Document | skb, skp |  |
-| Pronom | 867 | SketchUp Document |  |  |
-| Pronom | 869 | TrueType Font | ttf | font/ttf |
-| Pronom | 870 | Microsoft Internet Shortcut | url | text/plain |
-| Pronom | 872 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 876 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
-| Pronom | 877 | Microsoft Excel for Macintosh |  |  |
-| Pronom | 878 | Microsoft Excel for Macintosh |  |  |
-| Pronom | 879 | Microsoft Excel for Macintosh |  |  |
-| Pronom | 881 | Microsoft Excel for Macintosh |  |  |
-| Pronom | 882 | Microsoft Excel for Macintosh |  |  |
-| Pronom | 883 | Microsoft Excel for Macintosh |  |  |
-| Pronom | 884 | Microsoft Excel for Macintosh |  |  |
-| Pronom | 885 | Microsoft PowerPoint for Macintosh | ppt | application/vnd.ms-powerpoint |
-| Pronom | 886 | Microsoft PowerPoint for Macintosh |  |  |
-| Pronom | 887 | Microsoft PowerPoint for Macintosh | ppt | application/vnd.ms-powerpoint |
-| Pronom | 888 | Microsoft PowerPoint for Macintosh |  |  |
-| Pronom | 889 | Microsoft Multiplan | mod |  |
-| Pronom | 890 | Microsoft Works Word Processor 1-3 for DOS and 2 for Windows | wps |  |
-| Pronom | 891 | Microsoft Works Word Processor for DOS |  |  |
-| Pronom | 893 | Microsoft Works Word Processor for DOS |  |  |
-| Pronom | 894 | Microsoft Works Spreadsheet | wks |  |
-| Pronom | 895 | Microsoft Works Spreadsheet for DOS |  |  |
-| Pronom | 896 | Microsoft Works Spreadsheet for DOS |  |  |
-| Pronom | 897 | Microsoft Works Database for DOS | wdb |  |
-| Pronom | 898 | Microsoft Works Database for DOS | wdb |  |
-| Pronom | 899 | Microsoft Works Database for DOS | wdb |  |
-| Pronom | 904 | PrimeOCR | pro |  |
-| Pronom | 905 | PrimeOCR | pro |  |
-| Pronom | 906 | Prime OCR | pro |  |
-| Pronom | 907 | PrimeOCR | pro |  |
-| Pronom | 908 | PrimeOCR | pro |  |
-| Pronom | 909 | PrimeOCR | pro |  |
-| Pronom | 910 | Microsoft Office Open XML |  |  |
-| Pronom | 912 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| Pronom | 916 | Sony ARW RAW Image File | arw |  |
-| Pronom | 917 | Kodak Digital Camera Raw Image File | dcr |  |
-| Pronom | 918 | Digital Moving Picture Exchange Bitmap | dpx |  |
-| Pronom | 919 | FileMaker Pro Database | fp7 |  |
-| Pronom | 920 | ERDAS IMAGINE Gray-scale Bitmap Image | gis |  |
-| Pronom | 921 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 922 | InstallShield Compiled Rules File | inx |  |
-| Pronom | 923 | MPEG Audio Stream Layer II | mp2, mpw, mpa | audio/mpeg |
-| Pronom | 924 | MPEG-4 Media File | mp4, m4v, m4a, f4v, f4a | application/mp4, video/mp4 |
-| Pronom | 925 | Material Exchange Format | mxf | application/mxf |
-| Pronom | 926 | Mathematica Notebook | nb | application/mathematica |
-| Pronom | 927 | Nikon Digital SLR Camera Raw Image File | nef, nrw |  |
-| Pronom | 929 | Ogg Vorbis Codec Compressed Multimedia File | ogg | audio/ogg |
-| Pronom | 930 | RealVideo Clip | rv |  |
-| Pronom | 931 | Synchronized Multimedia Integration Language (Generic) | smil, smi |  |
-| Pronom | 932 | Structured Query Language Data | sql |  |
-| Pronom | 933 | Obsidium Project File | opf |  |
-| Pronom | 934 | Binary File | bin |  |
-| Pronom | 935 | Sound Designer II Audio File | sd2 |  |
-| Pronom | 936 | Statistica Report File | str |  |
-| Pronom | 937 | Kodak Photo CD Image | pcd |  |
-| Pronom | 938 | Information or Setup File | inf |  |
-| Pronom | 939 | ScanIt Document | sid |  |
-| Pronom | 940 | Microsoft Excel for Windows | xlsx | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
-| Pronom | 941 | Microsoft Powerpoint for Windows | pptx | application/vnd.openxmlformats-officedocument.presentationml.presentation |
-| Pronom | 942 | Microsoft Visio XML Drawing | vdx | application/vnd.visio |
-| Pronom | 945 | PaintShop Pro Browser Cache File | jbf |  |
-| Pronom | 946 | Microsoft FrontPage | lck |  |
-| Pronom | 948 | Microsoft Works Database for Windows | wdb |  |
-| Pronom | 950 | Microsoft Works Spreadsheet for Windows |  |  |
-| Pronom | 951 | Microsoft Works Word Processor for Windows |  |  |
-| Pronom | 952 | Microsoft Works Database for Windows | wdb |  |
-| Pronom | 953 | Microsoft Works Database for Windows | wdb |  |
-| Pronom | 954 | Microsoft Works Database for Windows | wdb |  |
-| Pronom | 955 | Microsoft Works Database for Windows | wdb |  |
-| Pronom | 956 | Microsoft Works Database for Windows | wdb |  |
-| Pronom | 957 | Microsoft Works Spreadsheet for Windows |  |  |
-| Pronom | 958 | Microsoft Works Spreadsheet for Windows |  |  |
-| Pronom | 959 | Microsoft Works Spreadsheet for Windows |  |  |
-| Pronom | 960 | Microsoft Works Spreadsheet for Windows |  |  |
-| Pronom | 961 | Microsoft Works Spreadsheet for Windows |  |  |
-| Pronom | 962 | Microsoft Works Word Processor for Windows |  |  |
-| Pronom | 963 | Microsoft Works Word Processor 3-4 for Windows | wps |  |
-| Pronom | 964 | Microsoft Works Word Processor for Windows |  |  |
-| Pronom | 965 | Microsoft Works Word Processor for Windows |  |  |
-| Pronom | 966 | Microsoft Works Word Processor for Windows |  |  |
-| Pronom | 967 | Microsoft Office Binder File for Windows | obd |  |
-| Pronom | 968 | Microsoft Office Binder Template for Windows | obt |  |
-| Pronom | 969 | Microsoft Office Binder Wizard for Windows | obz |  |
-| Pronom | 970 | Microsoft Office Binder File for Windows | obd |  |
-| Pronom | 971 | Microsoft Office Binder Template for Windows | obt |  |
-| Pronom | 972 | Microsoft Office Binder Wizard for Windows | obz |  |
-| Pronom | 973 | GPS Exchange Format | gpx |  |
-| Pronom | 975 | Keyhole Markup Language (XML) | kml | application/vnd.google-earth.kml+xml |
-| Pronom | 977 | Structured Data Exchange Format |  |  |
-| Pronom | 978 | Microsoft Works Database for Windows | wdb |  |
-| Pronom | 979 | Microsoft Works Spreadsheet for Windows |  |  |
-| Pronom | 981 | Microsoft Works Word Processor Windows |  |  |
-| Pronom | 982 | Microsoft Works Database for Windows | wdb |  |
-| Pronom | 983 | Microsoft Works Spreadsheet for Windows |  |  |
-| Pronom | 989 | Microsoft Works Word Processor Windows |  |  |
-| Pronom | 990 | Microsoft Works Database for Windows | wdb |  |
-| Pronom | 991 | Microsoft Works Spreadsheet for Windows |  |  |
-| Pronom | 992 | Microsoft Works Word Processor Windows |  |  |
-| Pronom | 993 | DjVu File Format | djvu, djv | image/vnd.djvu, image/x-djvu |
-| Pronom | 994 | Microsoft Works Database for Windows | wdb |  |
-| Pronom | 995 | Microsoft Works Spreadsheet for Windows |  |  |
-| Pronom | 996 | Microsoft Works Word Processor 5-6 | wps |  |
-| Pronom | 997 | Microsoft Works Database for DOS | wdb |  |
-| Pronom | 998 | Microsoft Works Database for DOS | wdb |  |
-| Pronom | 999 | Microsoft Works Database for DOS | wdb |  |
-| Pronom | 1000 | Microsoft Works Spreadsheet for DOS |  |  |
-| Pronom | 1001 | Microsoft Works Spreadsheet for DOS |  |  |
-| Pronom | 1002 | Microsoft Works Spreadsheet for DOS |  |  |
-| Pronom | 1003 | Microsoft Works Word Processor DOS |  |  |
-| Pronom | 1004 | Microsoft Works Word Processor DOS |  |  |
-| Pronom | 1005 | Microsoft Works Word Processor DOS |  |  |
-| Pronom | 1006 | Microsoft Works Database for Macintosh | wdb |  |
-| Pronom | 1007 | Microsoft Works Database for Macintosh | wdb |  |
-| Pronom | 1008 | Microsoft Works Spreadsheet for Macintosh | wks |  |
-| Pronom | 1009 | Microsoft Works Spreadsheet for Macintosh | wks |  |
-| Pronom | 1010 | Microsoft Works Word Processor Macintosh | wps |  |
-| Pronom | 1011 | Microsoft Works Word Processor Macintosh | wps |  |
-| Pronom | 1013 | SPSS Output File (spv) | spv |  |
-| Pronom | 1015 | Microsoft Access Database File | accdb |  |
-| Pronom | 1016 | Acrobat PDF 1.7 - Portable Document Format | pdf | application/pdf |
-| Pronom | 1017 | ESRI Arc/View Shapefile Index | shx |  |
-| Pronom | 1018 | Internet Message Format | eml | message/rfc822 |
-| Pronom | 1019 | FLAC (Free Lossless Audio Codec) | flac | audio/flac |
-| Pronom | 1020 | LaTeX (Master document) |  |  |
-| Pronom | 1021 | LaTeX (Subdocument) |  |  |
-| Pronom | 1022 | netCDF-3 Classic | nc, cdf | application/netcdf, application/x-netcdf |
-| Pronom | 1023 | netCDF-3 64-bit | nc, cdf | application/netcdf, application/x-netcdf |
-| Pronom | 1024 | Gridded Binary | grb, wmo |  |
-| Pronom | 1025 | Gridded Binary | grb, wmo |  |
-| Pronom | 1026 | HDF5 | hdf, h5, hdf5, nc |  |
-| Pronom | 1027 | HDF5 | hdf5, h5, hdf, nc |  |
-| Pronom | 1028 | Microsoft Front Page Server Extension Configuration |  |  |
-| Pronom | 1029 | WARC | warc | application/warc |
-| Pronom | 1033 | OpenDocument Text | odt, ott | application/vnd.oasis.opendocument.text |
-| Pronom | 1034 | OpenDocument Text | odt, ott | application/vnd.oasis.opendocument.text |
-| Pronom | 1035 | OpenDocument Presentation | odp, otp | application/vnd.oasis.opendocument.presentation |
-| Pronom | 1036 | OpenDocument Presentation | odp, otp | application/vnd.oasis.opendocument.presentation |
-| Pronom | 1037 | OpenDocument Spreadsheet | ods, ots | application/vnd.oasis.opendocument.spreadsheet |
-| Pronom | 1038 | OpenDocument Spreadsheet | ods, ots | application/vnd.oasis.opendocument.spreadsheet |
-| Pronom | 1039 | OpenDocument Graphics | odg, otg | application/vnd.oasis.opendocument.graphics |
-| Pronom | 1040 | OpenDocument Graphics | odg, otg | application/vnd.oasis.opendocument.graphics |
-| Pronom | 1042 | Autodesk Animator Pro FLIC | flc |  |
-| Pronom | 1043 | Autodesk Animator (FlicLib) | fli |  |
-| Pronom | 1044 | ChiWriter Document | chi |  |
-| Pronom | 1045 | Computer Graphics Metafile ASCII | cgm | image/cgm |
-| Pronom | 1047 | Computer Graphics Metafile ASCII | cgm | image/cgm |
-| Pronom | 1048 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=1 |
-| Pronom | 1049 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=2 |
-| Pronom | 1050 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=3 |
-| Pronom | 1051 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=4 |
-| Pronom | 1052 | Quicken Interchange Format | qif | application/qif |
-| Pronom | 1053 | Quicken Data Format | qdf |  |
-| Pronom | 1054 | Open Financial Exchange | ofx, qfx | application/x-ofx |
-| Pronom | 1055 | Open Financial Exchange | ofx, qfx | application/x-ofx |
-| Pronom | 1056 | Open Financial Exchange | ofx, qfx | application/x-ofx |
-| Pronom | 1057 | Open Financial Exchange | ofx, qfx | application/x-ofx |
-| Pronom | 1058 | Open Financial Exchange | ofx, qfx | application/x-ofx |
-| Pronom | 1059 | Play SID Audio | sid, psid | audio/prs.sid |
-| Pronom | 1060 | Play SID Audio | sid, psid | audio/prs.sid |
-| Pronom | 1061 | Real SID Audio | sid | audio/prs.sid |
-| Pronom | 1062 | Macromedia Director | dir, dxr | application/x-director |
-| Pronom | 1063 | Secure DjVU | djvu, djv | image/vnd.djvu, image/x-djvu |
-| Pronom | 1064 | ESRI Spatial Index File | sbn, sbx |  |
-| Pronom | 1065 | ESRI Shapefile Projection (Well-Known Text) Format | prj |  |
-| Pronom | 1066 | ESRI Shapefile Header Index | aih |  |
-| Pronom | 1067 | Portable Form File | pff |  |
-| Pronom | 1068 | Extended Module Audio File | xm | audio/xm |
-| Pronom | 1069 | EndNote Style File | ens | application/x-endnote-style |
-| Pronom | 1070 | EndNote Library | enl |  |
-| Pronom | 1071 | EndNote Connection File | enz | application/x-endnote-connect, application/x-endnote-connection |
-| Pronom | 1072 | EndNote Filter File | enf |  |
-| Pronom | 1073 | EndNote Import File | enw, enr | application/x-endnote-refer |
-| Pronom | 1074 | Shell Archive Format | shar | application/x-sh, application/x-shar |
-| Pronom | 1075 | Peak Graphical Waveform File | pk |  |
-| Pronom | 1076 | Autorun Configuration File | inf |  |
-| Pronom | 1077 | ESRI Arc/View Project | apr, def |  |
-| Pronom | 1078 | Chemical Markup Language | cml |  |
-| Pronom | 1079 | Crystallographic Information Framework | cif |  |
-| Pronom | 1080 | Dreamweaver Lock File | lck |  |
-| Pronom | 1081 | Graphic Workshop for Windows Thumbnail File | thn |  |
-| Pronom | 1082 | MJ2 (Motion JPEG 2000) | mj2, mjp2 | video/mj2 |
-| Pronom | 1083 | Interchange File Format Interleaved Bitmap | iff, lbm |  |
-| Pronom | 1084 | Interchange File Format 8-bit Sampled Voice | iff, 8svx |  |
-| Pronom | 1085 | Lotus WordPro Document | lwp | application/lwp, application/vnd.lotus-wordpro |
-| Pronom | 1086 | Macintosh PICT Image | pct, pict, pic | image/x-pict |
-| Pronom | 1087 | Microsoft Project Export File | mpx | application/x-project |
-| Pronom | 1088 | Microsoft Project Export File | mpx | application/x-project |
-| Pronom | 1089 | Microsoft Windows Enhanced Metafile | emf | image/emf |
-| Pronom | 1090 | Microsoft Windows Enhanced Metafile | emf | image/emf |
-| Pronom | 1091 | Microsoft Word for Macintosh Document | mcw | application/msword |
-| Pronom | 1092 | MPEG 1/2 Audio Layer I | mp1 | audio/mpeg |
-| Pronom | 1093 | Paint Shop Pro Image | pspimage |  |
-| Pronom | 1094 | Paint Shop Pro Image | pspimage |  |
-| Pronom | 1095 | Paradox Database Table | db |  |
-| Pronom | 1096 | Paradox Database Table | db |  |
-| Pronom | 1097 | Paradox Database Table | db |  |
-| Pronom | 1099 | Tagged Image File Format | tif, tiff | image/tiff |
-| Pronom | 1100 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| Pronom | 1101 | Rich Text Format | rtf | application/rtf, text/rtf |
-| Pronom | 1102 | Adaptive Multi-Rate Audio | amr | audio/amr |
-| Pronom | 1103 | 3GPP Audio/Video File | 3gp, 3gpp | audio/3gpp, video/3gpp |
-| Pronom | 1104 | Internet Data Query File | idq |  |
-| Pronom | 1105 | Microsoft Front Page Binary Tree Index | btr |  |
-| Pronom | 1107 | pulse EKKO data file | dt1 |  |
-| Pronom | 1108 | pulse EKKO header file | hd |  |
-| Pronom | 1109 | GSSI SIR-10 RADAN data file | dzt |  |
-| Pronom | 1110 | SEG Y Data Exchange Format | segy |  |
-| Pronom | 1111 | National Imagery Transmission Format | ntf | application/vnd.nitf |
-| Pronom | 1112 | National Imagery Transmission Format | ntf | application/vnd.nitf |
-| Pronom | 1113 | National Imagery Transmission Format | ntf | application/vnd.nitf |
-| Pronom | 1114 | ESRI World File Format | tfw, jgw, pgw, bpw, tifw, blw, bilw, jpgw, rasterw, btw, sdw |  |
-| Pronom | 1115 | ASPRS Lidar Data Exchange Format | las, laz |  |
-| Pronom | 1116 | ASPRS Lidar Data Exchange Format | las, laz |  |
-| Pronom | 1117 | ASPRS Lidar Data Exchange Format | las, laz |  |
-| Pronom | 1118 | Enhanced Compression Wavelet | ecw |  |
-| Pronom | 1119 | Earth Resource Satellite Image Header Format | ers |  |
-| Pronom | 1120 | FoxPro Database | dbf |  |
-| Pronom | 1121 | Microsoft Visual FoxPro Database Table File | dbf |  |
-| Pronom | 1122 | FoxPro Compound Index File | cdx |  |
-| Pronom | 1123 | FoxPro Report | frx |  |
-| Pronom | 1124 | Microsoft Visual FoxPro Report | frx |  |
-| Pronom | 1125 | Chemical Draw Exchange Format | cdx | chemical/x-cdx |
-| Pronom | 1126 | Microsoft Visual FoxPro Class Library | vcx |  |
-| Pronom | 1127 | Microsoft Visual FoxPro Project | pjx |  |
-| Pronom | 1128 | FoxPro Project | pjx |  |
-| Pronom | 1129 | Microsoft Visual FoxPro database container (table files) | dbc |  |
-| Pronom | 1131 | Microsoft Visual FoxPro database container (memo files) | dct |  |
-| Pronom | 1132 | VICAR (Video Image Communication and Retrieval) Planetary File Format | img, vic, vicar |  |
-| Pronom | 1133 | Microsoft Windows Cursor | cur | image/x-win-bitmap |
-| Pronom | 1134 | Microsoft Animated Cursor Format | ani |  |
-| Pronom | 1135 | VCalendar format | vcs | text/x-vCalendar |
-| Pronom | 1136 | Internet Calendar and Scheduling format | ics | text/calendar |
-| Pronom | 1137 | Log ASCII Standard Format | las |  |
-| Pronom | 1138 | Log ASCII Standard Format | las |  |
-| Pronom | 1139 | Log ASCII Standard Format | las |  |
-| Pronom | 1140 | MrSID Image Format (Multi-resolution Seamless Image Database) | sid |  |
-| Pronom | 1141 | Borland Reflex flat datafile | rxd |  |
-| Pronom | 1142 | DS_Store File (MAC) | ds_store |  |
-| Pronom | 1143 | vCard | vcf, vcard | text/vcard |
-| Pronom | 1144 | PocketMobi (Palm Resource) File | mobi, prc |  |
-| Pronom | 1145 | Enigma Binary File (Finale) | mus |  |
-| Pronom | 1146 | Enigma Transportable File (Finale) | etf |  |
-| Pronom | 1147 | Stuffit X Archive File | sitx |  |
-| Pronom | 1148 | Macromedia FreeHand MX | fh11 |  |
-| Pronom | 1149 | X-Windows Screen Dump | xwd, xdm |  |
-| Pronom | 1150 | Truevision TGA Bitmap | tga, icb, vda, vst |  |
-| Pronom | 1151 | SuperCalc Spreadsheet | cal |  |
-| Pronom | 1152 | RealAudio | ra |  |
-| Pronom | 1153 | Portable Any Map | pam |  |
-| Pronom | 1154 | Portable Grey Map - Binary | pgmb, pgm |  |
-| Pronom | 1155 | Portable Grey Map - ASCII | pgma, pgm |  |
-| Pronom | 1156 | Portable Pixel Map - Binary | ppm, ppmb |  |
-| Pronom | 1157 | Portable Bitmap Image - Binary | pbmb, pnm |  |
-| Pronom | 1158 | Internet Archive | arc |  |
-| Pronom | 1159 | RAR Archive | rar | application/vnd.rar |
-| Pronom | 1160 | Microsoft Word for Windows | docx, wbk | application/vnd.openxmlformats-officedocument.wordprocessingml.document |
-| Pronom | 1191 | Scalable Vector Graphics Tiny | svg |  |
-| Pronom | 1192 | Audio Interchange File Format | aif, aiff |  |
-| Pronom | 1194 | Cinema 4D | c4d |  |
-| Pronom | 1198 | Apple Core Audio Format | caf |  |
-| Pronom | 1199 | Adobe Illustrator | ai | application/postscript |
-| Pronom | 1200 | Adobe Illustrator | ai | application/postscript |
-| Pronom | 1201 | Adobe Illustrator | ai | application/postscript |
-| Pronom | 1202 | Adobe Illustrator | ai | application/postscript |
-| Pronom | 1203 | Adobe Illustrator | ai | application/postscript |
-| Pronom | 1204 | Adobe Illustrator | ai, eps | application/postscript |
-| Pronom | 1205 | Adobe Illustrator | ai | application/postscript |
-| Pronom | 1206 | OpenDocument Database Format | odb |  |
-| Pronom | 1207 | Video Object File (MPEG-2 subset) | vob |  |
-| Pronom | 1210 | Harris Matrix | hm |  |
-| Pronom | 1211 | CorelDraw Drawing | cdr |  |
-| Pronom | 1213 | CorelDraw Drawing | cdr |  |
-| Pronom | 1215 | CorelDraw Drawing | cdr |  |
-| Pronom | 1216 | CorelDraw Drawing | cdr |  |
-| Pronom | 1217 | Corel R.A.V.E. | clk |  |
-| Pronom | 1218 | Corel R.A.V.E. | clk |  |
-| Pronom | 1220 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 1221 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 1222 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 1223 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
-| Pronom | 1224 | Digital Negative Format (DNG) | dng | image/dng |
-| Pronom | 1225 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
-| Pronom | 1226 | BSDIFF | bsdiff |  |
-| Pronom | 1227 | Microsoft Project | mpp | application/vnd.ms-project |
-| Pronom | 1228 | Windows Media Video (WVC1) | wmv |  |
-| Pronom | 1229 | Microsoft Visio (generic) | vsd | application/vnd.visio |
-| Pronom | 1230 | Microsoft Visio Drawing | vsd | application/vnd.visio |
-| Pronom | 1231 | OpenDocument Database Format | odb |  |
-| Pronom | 1232 | Microsoft Excel Macro-Enabled | xlsm | application/vnd.ms-excel.sheet.macroEnabled.12 |
-| Pronom | 1233 | Adobe Portable Document Catalog Index File | pdx |  |
-| Pronom | 1234 | Adobe Portable Document Catalog Index File | pdx |  |
-| Pronom | 1235 | Adobe Portable Document Catalog Index File | pdx |  |
-| Pronom | 1236 | Adobe Portable Document Catalog Index File | pdx |  |
-| Pronom | 1237 | VectorWorks | vwx | application/vnd.vectorworks |
-| Pronom | 1238 | VectorWorks | vwx | application/vnd.vectorworks |
-| Pronom | 1239 | Acrobat Catalog Cat File | cat |  |
-| Pronom | 1240 | Verity Collection Stop List | stp |  |
-| Pronom | 1241 | Verity Collection Index About File | abt |  |
-| Pronom | 1242 | Verity Collection Index Pending Transaction File | trn |  |
-| Pronom | 1243 | Verity Collection Index Style Policy | plc |  |
-| Pronom | 1244 | Verity Collection Document Dataset Descriptor Style Set | ddd |  |
-| Pronom | 1245 | Verity Collection Document Index Descriptor Style Set | did |  |
-| Pronom | 1246 | Verity Collection Word List Descriptor Style Set | wld |  |
-| Pronom | 1247 | Verity Collection Partition Definition Descriptor Style Set | pdd |  |
-| Pronom | 1248 | Verity Collection Index Descriptor File | wld, ddd, did, pdd |  |
-| Pronom | 1249 | MS-DOS Compression Format (SZDD Variant) |  |  |
-| Pronom | 1250 | JPM (JPEG 2000 part 6) | jpm | image/jpm |
-| Pronom | 1251 | CorelDraw Drawing | cdr |  |
-| Pronom | 1252 | CorelDraw Drawing | cdr |  |
-| Pronom | 1253 | CorelDraw Drawing | cdr |  |
-| Pronom | 1254 | CorelDraw Drawing | cdr |  |
-| Pronom | 1255 | ISO 9660 Disk Image File | iso, toast, cdr, dmg, bin |  |
-| Pronom | 1256 | MS DOS Compression Format (KWAJ Variant) |  |  |
-| Pronom | 1257 | Asymetrix Toolbook File | tbk, sbk |  |
-| Pronom | 1258 | Hypertext Markup Language | htm, html | text/html |
-| Pronom | 1259 | Sony Digital Voice File/Sony Memory Stick Voice File | msv, dvf |  |
-| Pronom | 1260 | Microsoft Office Owner File | doc, docx |  |
-| Pronom | 1261 | Windows Help File | hlp |  |
-| Pronom | 1262 | Microsoft Management Console Snap-in Control file | msc |  |
-| Pronom | 1263 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| Pronom | 1264 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| Pronom | 1265 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| Pronom | 1266 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| Pronom | 1267 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| Pronom | 1268 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| Pronom | 1269 | Apple iBook format | ibooks | application/x-ibooks+zip |
-| Pronom | 1270 | ePub Format | epub | application/epub+zip |
-| Pronom | 1271 | 7Zip format | 7z |  |
-| Pronom | 1272 | Rocket Book eBook format | rb |  |
-| Pronom | 1273 | Macromedia (Adobe) Director Compressed Resource file | dcr |  |
-| Pronom | 1274 | Macro Enabled Microsoft Powerpoint | pptm | application/vnd.ms-powerpoint.presentation.macroEnabled.12 |
-| Pronom | 1275 | Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4 | pdf | application/pdf |
-| Pronom | 1276 | Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4p | pdf | application/pdf |
-| Pronom | 1277 | Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5g | pdf | application/pdf |
-| Pronom | 1278 | Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5pg | pdf | application/pdf |
-| Pronom | 1279 | Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5n | pdf | application/pdf |
-| Pronom | 1280 | Acrobat PDF/E - Portable Document Format for Engineering PDF/E-1 | pdf | application/pdf |
-| Pronom | 1281 | Microsoft Office Encrypted Document | xlsx, pptx, docx |  |
-| Pronom | 1282 | ATCO-CIF | cif |  |
-| Pronom | 1283 | TransXchange File Format | txc |  |
-| Pronom | 1284 | Wireless Bitmap | wbmp | image/vnd-wap-wbmp |
-| Pronom | 1285 | ActiveX License Package file | lpk |  |
-| Pronom | 1286 | VivoActive | viv | video/vnd-vivo |
-| Pronom | 1287 | Internet Explorer for Mac cache file | waf |  |
-| Pronom | 1288 | PostScript | ps | application/postscript |
-| Pronom | 1289 | Bentley V8 DGN | dgn |  |
-| Pronom | 1290 | AppleDouble Resource Fork |  | multipart/appledouble |
-| Pronom | 1291 | Standard Flowgram Format | sff |  |
-| Pronom | 1292 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1293 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1294 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1295 | Quarter Inch Cartridge Host Interchange Format | qic |  |
-| Pronom | 1296 | Adobe PostScript Font Metrics file | pfm |  |
-| Pronom | 1297 | PowerProject Teamplan | pdb |  |
-| Pronom | 1298 | PowerProject | pp |  |
-| Pronom | 1299 | PowerProject | pp |  |
-| Pronom | 1300 | PowerProject | pp |  |
-| Pronom | 1301 | PowerProject | pp |  |
-| Pronom | 1302 | PowerProject | pp |  |
-| Pronom | 1303 | PowerProject | pp |  |
-| Pronom | 1304 | PowerProject | pp |  |
-| Pronom | 1305 | Broad Band eBook | lrf |  |
-| Pronom | 1306 | Polynomial Texture Map | ptm |  |
-| Pronom | 1307 | OpenType Font File | otf | font/otf |
-| Pronom | 1308 | Adobe Multiple Master Metrics font file | mmm |  |
-| Pronom | 1309 | Open Project File | pod |  |
-| Pronom | 1310 | Macro enabled Microsoft Word Document OOXML | docm | application/vnd.ms-word.document.macroEnabled.12 |
-| Pronom | 1311 | Microsoft Office Theme | thmx | application/vnd.ms-officetheme |
-| Pronom | 1312 | Adobe Printer Font Binary | pfb |  |
-| Pronom | 1313 | Adobe Font List | lst |  |
-| Pronom | 1314 | Broadcast WAVE | wav | audio/x-wav |
-| Pronom | 1315 | Multiple-image Network Graphics | mng | video/x-mng |
-| Pronom | 1316 | JPEG Network Graphics | jng | image/x-jng |
-| Pronom | 1317 | eRuby HTML document | rhtml, rhtm |  |
-| Pronom | 1318 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 1319 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 1320 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| Pronom | 1321 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| Pronom | 1322 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| Pronom | 1323 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| Pronom | 1324 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| Pronom | 1325 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| Pronom | 1326 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
-| Pronom | 1327 | Cinema 4D | c4d |  |
-| Pronom | 1328 | Digital Moving Picture Exchange Bitmap | dpx |  |
-| Pronom | 1329 | GEM Metafile Format | gem |  |
-| Pronom | 1330 | GEM Metafile Format | gem |  |
-| Pronom | 1331 | Macromedia FreeHand | fh7 |  |
-| Pronom | 1333 | Macromedia FreeHand | fh8 |  |
-| Pronom | 1334 | Macromedia FreeHand | fh9 |  |
-| Pronom | 1335 | Macromedia FreeHand | fh10 |  |
-| Pronom | 1336 | Adobe InDesign Document | ind, indd, indt |  |
-| Pronom | 1337 | Adobe InDesign Document | ind, indd, indt |  |
-| Pronom | 1338 | Adobe InDesign Document | ind, indd, indt |  |
-| Pronom | 1339 | Adobe InDesign Document | ind, indd, indt |  |
-| Pronom | 1340 | Adobe InDesign Document | ind, indd, indt |  |
-| Pronom | 1341 | Microsoft Excel Chart | xlc | application/vnd.ms-excel |
-| Pronom | 1342 | Microsoft Excel Chart | xlc | application/vnd.ms-excel |
-| Pronom | 1343 | Microsoft Excel Macro | xlm | application/vnd.ms-excel |
-| Pronom | 1344 | Microsoft Excel Macro | xlm | application/vnd.ms-excel |
-| Pronom | 1345 | Adobe Illustrator | ai, eps | application/postscript |
-| Pronom | 1346 | Adobe Illustrator | ai, pdf | application/postscript |
-| Pronom | 1347 | Adobe Illustrator | ai, pdf | application/postscript |
-| Pronom | 1348 | Adobe Illustrator | ai, pdf | application/postscript |
-| Pronom | 1349 | Adobe Illustrator | ai, pdf | application/postscript |
-| Pronom | 1350 | Adobe Illustrator | ai, pdf | application/postscript |
-| Pronom | 1351 | Adobe Illustrator | ai, pdf | application/postscript |
-| Pronom | 1352 | Adobe Illustrator | ai, pdf | application/postscript |
-| Pronom | 1353 | Adobe Illustrator | ai, pdf | application/postscript |
-| Pronom | 1354 | WebP | webp | image/webp |
-| Pronom | 1355 | WebP | webp | image/webp |
-| Pronom | 1356 | WebP | webp | image/webp |
-| Pronom | 1357 | Matroska | mkv, mk3d, mka, mks |  |
-| Pronom | 1358 | Extensible Metadata Platform Packet | xmp |  |
-| Pronom | 1359 | Domino XML Document Export | dxl |  |
-| Pronom | 1360 | Domino XML Database Export | dxl |  |
-| Pronom | 1361 | WebM | webm | video/webm |
-| Pronom | 1362 | Digital Imaging and Communications in Medicine File Format | dcm | application/dicom |
-| Pronom | 1363 | GraphPad Prism | pzm |  |
-| Pronom | 1364 | GraphPad Prism | pzf |  |
-| Pronom | 1365 | Image Cytometry Standard | ics |  |
-| Pronom | 1366 | Image Cytometry Standard | ics |  |
-| Pronom | 1367 | X3D | x3d |  |
-| Pronom | 1368 | X3D | x3d |  |
-| Pronom | 1369 | X3D | x3d |  |
-| Pronom | 1370 | X3D | x3d |  |
-| Pronom | 1371 | Vector Markup Language | vml, html, htm |  |
-| Pronom | 1372 | Windows Media Metafile | wmx, wax, wvx, asx |  |
-| Pronom | 1373 | MPEG-2 Transport Stream | m2t, ts, m2ts |  |
-| Pronom | 1374 | LifeTechnologies SDS | sds |  |
-| Pronom | 1375 | LifeTechnologies ABIF | abif |  |
-| Pronom | 1380 | Redcode RAW (R3D) Media File | r3d |  |
-| Pronom | 1381 | Windows Media Playlist | wpl | application/vnd.ms-wpl |
-| Pronom | 1382 | JPEG Extended Range | wdp, jxr | image/jxr |
-| Pronom | 1383 | Radiance RGBE Image Format | hdr, pic, rgbe, xyze | image/vnd.radiance |
-| Pronom | 1384 | Canon RAW | cr2 |  |
-| Pronom | 1385 | Canon RAW | crw |  |
-| Pronom | 1386 | Microsoft PhotoDraw | mix | image/vnd.mix |
-| Pronom | 1387 | Microsoft Excel Non-XML Binary Workbook | xlsb | application/vnd.ms-excel.sheet.binary.macroEnabled.12 |
-| Pronom | 1388 | Apple Lossless Audio Codec | m4a, mp4 |  |
-| Pronom | 1389 | Microsoft Word Template | dotx | application/vnd.openxmlformats-officedocument.wordprocessingml.template |
-| Pronom | 1390 | Microsoft Excel Template | xltx | application/vnd.openxmlformats-officedocument.spreadsheetml.template |
-| Pronom | 1391 | Microsoft Word Macro-Enabled Document Template | dotm | application/vnd.ms-word.template.macroEnabled.12 |
-| Pronom | 1392 | eXtensible ARchive format | xar |  |
-| Pronom | 1393 | Statistical Analysis System Catalogue XPT (Windows) | xpt |  |
-| Pronom | 1394 | Statistical Analysis System Catalogue XPT (Unix) | xpt |  |
-| Pronom | 1395 | Statistical Analysis System Data XPT (Windows) | xpt |  |
-| Pronom | 1396 | Statistical Analysis System Data XPT (Unix) | xpt |  |
-| Pronom | 1397 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
-| Pronom | 1398 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
-| Pronom | 1399 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
-| Pronom | 1400 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
-| Pronom | 1401 | Microsoft Word (Generic) | doc | application/msword |
-| Pronom | 1406 | ARJ File Format | arj |  |
-| Pronom | 1407 | LDAP Data Interchange Format | ldif |  |
-| Pronom | 1408 | Mork | mab, msf, dat |  |
-| Pronom | 1409 | RAR Archive | rar | application/vnd.rar |
-| Pronom | 1410 | Windows Imaging Format | wim, swm |  |
-| Pronom | 1411 | Gimp Image File Format | xcf |  |
-| Pronom | 1412 | Web Open Font Format | woff | font/woff |
-| Pronom | 1413 | GeoGebra | ggb | application/vnd.geogebra.file |
-| Pronom | 1414 | GeoGebra | geo | application/vnd.geogebra.file |
-| Pronom | 1415 | GeoGebra | ggb | application/vnd.geogebra.file |
-| Pronom | 1416 | GeoGebra | ggb | application/vnd.geogebra.file |
-| Pronom | 1417 | GeoGebra | ggb | application/vnd.geogebra.file |
-| Pronom | 1418 | GeoGebra | ggb | application/vnd.geogebra.file |
-| Pronom | 1419 | SmartDraw | sdr |  |
-| Pronom | 1420 | RIFF Palette Format | pal |  |
-| Pronom | 1423 | Stuffit Archive File | sit | application/x-stuffit |
-| Pronom | 1424 | Apple Disk Copy Image | dmg, smi, img, image |  |
-| Pronom | 1425 | LHA File Format | lha, lzh |  |
-| Pronom | 1426 | Microsoft Excel Macro-Enabled Template | xltm | application/vnd.ms-excel.template.macroEnabled.12 |
-| Pronom | 1427 | Microsoft Excel Macro-Enabled Add-In | xlam | application/vnd.ms-excel.addin.macroEnabled.12 |
-| Pronom | 1428 | Microsoft PowerPoint Show | ppsx | application/vnd.openxmlformats-officedocument.presentationml.slideshow |
-| Pronom | 1429 | Microsoft PowerPoint Macro-Enabled Show | ppsm | application/vnd.ms-powerpoint.slideshow.macroEnabled.12 |
-| Pronom | 1430 | Microsoft PowerPoint Template | potx | application/vnd.openxmlformats-officedocument.presentationml.template |
-| Pronom | 1431 | Microsoft PowerPoint Macro-Enabled Template | potm | application/vnd.ms-powerpoint.template.macroEnabled.12 |
-| Pronom | 1432 | Microsoft PowerPoint Macro-Enabled Add-In | ppam | application/vnd.ms-powerpoint.addin.macroEnabled.12 |
-| Pronom | 1433 | Microsoft Compiled HTML Help | chm, chw | application/vnd.ms-htmlhelp |
-| Pronom | 1434 | CPIO | cpio |  |
-| Pronom | 1436 | Microsoft PowerPoint Macro-Enabled Slide | sldm | application/vnd.ms-powerpoint.slide.macroEnabled.12 |
-| Pronom | 1437 | Microsoft OneNote | one | application/msonenote |
-| Pronom | 1438 | SPSS Data File | sav |  |
-| Pronom | 1439 | MPEG-2 Elementary Stream | mpg, mpeg, m2v |  |
-| Pronom | 1440 | Epson Raw Image Format | erf |  |
-| Pronom | 1441 | Fujifilm RAW Image Format | raf |  |
-| Pronom | 1442 | ASTM E57 3D File Format | e57 | model/e57 |
-| Pronom | 1443 | Nullsoft Scriptable Install System | nsi |  |
-| Pronom | 1444 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
-| Pronom | 1445 | Apple iWork Keynote | key |  |
-| Pronom | 1446 | Microsoft Expression Media | ivc |  |
-| Pronom | 1447 | Media View Pro | mpcatalog |  |
-| Pronom | 1448 | MPEG-1 Elementary Stream | mpg, mpeg, m1v |  |
-| Pronom | 1449 | QuarkXPress Report File | qxp report, xtg, qxp%20report | application/vnd.Quark.QuarkXPress |
-| Pronom | 1450 | QuarkXPress Project | qpt, qwd, qxp | application/vnd.Quark.QuarkXPress |
-| Pronom | 1451 | QuarkXPress Project | qpt, qwd, qxp | application/vnd.Quark.QuarkXPress |
-| Pronom | 1452 | INTERLIS Transfer File | xtf |  |
-| Pronom | 1453 | INTERLIS Model File | ili |  |
-| Pronom | 1454 | KryoFlux | raw |  |
-| Pronom | 1455 | KryoFlux | raw |  |
-| Pronom | 1456 | Open XML Paper Specification | xps, oxps | application/oxps |
-| Pronom | 1457 | Cypher Query Language | cql |  |
-| Pronom | 1458 | Industry Foundation Classes | ifc |  |
-| Pronom | 1459 | Adobe Type 1 Mac Font File |  |  |
-| Pronom | 1460 | Sigma RAW Image | x3f |  |
-| Pronom | 1461 | Panasonic Raw | rw2 |  |
-| Pronom | 1462 | Industry Foundation Classes XML | ifcXML |  |
-| Pronom | 1463 | Gerber Format | gbr | application/vnd.gerber |
-| Pronom | 1464 | Chasys Draw image file | cd5 |  |
-| Pronom | 1465 | ART image format | art |  |
-| Pronom | 1466 | Photoshop Curve File | acv, atf |  |
-| Pronom | 1467 | Olympus RAW | orf |  |
-| Pronom | 1468 | Minolta RAW | mrw |  |
-| Pronom | 1469 | PKCS #7 Cryptographic Message File | p7m, p7b, p7s | application/pkcs7-mime, application/pkcs7-signature |
-| Pronom | 1470 | Serif PagePlus Publication | ppp |  |
-| Pronom | 1471 | Serif PagePlus Publication | ppp |  |
-| Pronom | 1472 | Serif PagePlus Publication | ppp |  |
-| Pronom | 1473 | Serif PagePlus Publication | ppp |  |
-| Pronom | 1474 | Serif PagePlus Publication | ppp |  |
-| Pronom | 1475 | Serif PagePlus Publication | ppp |  |
-| Pronom | 1476 | Serif PagePlus Publication | ppp |  |
-| Pronom | 1477 | Serif PagePlus Publication | ppp |  |
-| Pronom | 1478 | Serif PagePlus Publication | ppp |  |
-| Pronom | 1479 | Serif PagePlus Publication | ppp |  |
-| Pronom | 1480 | Serif PagePlus Publication | ppp |  |
-| Pronom | 1481 | Thumbs DB file | db | application/vnd.microsoft.windows.thumbnail-cache |
-| Pronom | 1482 | Advanced Function Presentation | afp |  |
-| Pronom | 1483 | Vectorworks | vwx | application/vnd.vectorworks |
-| Pronom | 1484 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
-| Pronom | 1485 | Vectorworks | vwx | application/vnd.vectorworks |
-| Pronom | 1486 | Better Portable Graphics | bpg |  |
-| Pronom | 1487 | Executable and Linkable Format | elf, o |  |
-| Pronom | 1488 | Executable and Linkable Format | elf, o |  |
-| Pronom | 1489 | Executable and Linkable Format | elf, o |  |
-| Pronom | 1490 | Executable and Linkable Format | elf, o |  |
-| Pronom | 1491 | Mach-O |  |  |
-| Pronom | 1492 | Mach-O |  |  |
-| Pronom | 1493 | Dalvik Executable Format | dex |  |
-| Pronom | 1494 | Optimised Dalvik Executable Format | odex |  |
-| Pronom | 1495 | Sibelius | sib |  |
-| Pronom | 1496 | Additive Manufacturing File Format | amf |  |
-| Pronom | 1497 | Standard for the Exchange of Product model data | step, stp, p21 |  |
-| Pronom | 1498 | Industry Foundation Classes | ifc |  |
-| Pronom | 1499 | Industry Foundation Classes | ifc |  |
-| Pronom | 1500 | Processing Development Environment | pde |  |
-| Pronom | 1501 | Universal 3D File Format | u3d |  |
-| Pronom | 1502 | Broadcast WAVE | wav | audio/x-wav |
-| Pronom | 1503 | Broadcast WAVE | wav | audio/x-wav |
-| Pronom | 1504 | Broadcast WAVE | wav | audio/x-wav |
-| Pronom | 1505 | Broadcast WAVE | wav | audio/x-wav |
-| Pronom | 1506 | Broadcast WAVE | wav | audio/x-wav |
-| Pronom | 1507 | Broadcast WAVE | wav | audio/x-wav |
-| Pronom | 1508 | Broadcast WAVE | wav, rf64 | audio/x-wav |
-| Pronom | 1509 | Broadcast WAVE | wav, rf64 | audio/x-wav |
-| Pronom | 1510 | Broadcast WAVE | wav | audio/x-wav |
-| Pronom | 1511 | RF64 | wav, rf64 |  |
-| Pronom | 1512 | RF64 Multichannel Broadcast Wave format | wav, rf64 |  |
-| Pronom | 1513 | Extensible Music Format | xmf, mxmf |  |
-| Pronom | 1514 | Impulse Tracker Module | it |  |
-| Pronom | 1515 | MOD Audio Module | mod |  |
-| Pronom | 1516 | Scream Tracker Module | stm |  |
-| Pronom | 1517 | Scream Tracker Module | s3m |  |
-| Pronom | 1518 | MultiTracker Module | mtm |  |
-| Pronom | 1519 | MBOX | mbox | application/mbox |
-| Pronom | 1520 | VLW Font File | vlw |  |
-| Pronom | 1521 | Oktalyzer Audio file | okt |  |
-| Pronom | 1522 | Farandole Composer Module | far |  |
-| Pronom | 1523 | Keyhole Markup Language (Container) | kmz | application/vnd.google-earth.kmz |
-| Pronom | 1524 | Microsoft Project | mpp | application/vnd.ms-project |
-| Pronom | 1525 | Virtual Disk Image | vdi |  |
-| Pronom | 1526 | Cartesian Perceptual Compression image format | cpi, cpc |  |
-| Pronom | 1527 | RealLegal E-Transcript | ptx |  |
-| Pronom | 1528 | SQLite Database File Format | sqlite, db, db3, sqlite3 | application/x-sqlite3 |
-| Pronom | 1529 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
-| Pronom | 1530 | Bink Video Format | bik |  |
-| Pronom | 1531 | Bink Video Format | bik2, bk2 | video/vnd.radgamettools.bink |
-| Pronom | 1532 | FL Studio project file (FLP) | flp |  |
-| Pronom | 1533 | SuperScape Virtual Reality Format | svr |  |
-| Pronom | 1534 | Dolby Digital AC-3 | ac3 | audio/ac3 |
-| Pronom | 1535 | ClarisWorks | cwk |  |
-| Pronom | 1536 | ClarisWorks | cwk |  |
-| Pronom | 1537 | ClarisWorks Drawing | cwk |  |
-| Pronom | 1538 | ClarisWorks Word Processor | cwk |  |
-| Pronom | 1539 | ClarisWorks Spreadsheet | cwk |  |
-| Pronom | 1540 | ClarisWorks Database | cwk |  |
-| Pronom | 1541 | ClarisWorks Painting | cwk |  |
-| Pronom | 1542 | ClarisWorks/AppleWorks Drawing | cwk |  |
-| Pronom | 1543 | ClarisWorks/AppleWorks Word Processor | cwk |  |
-| Pronom | 1544 | ClarisWorks/AppleWorks Spreadsheet | cwk |  |
-| Pronom | 1545 | ClarisWorks/AppleWorks Database | cwk |  |
-| Pronom | 1546 | ClarisWorks/AppleWorks Painting | cwk |  |
-| Pronom | 1547 | AppleWorks Drawing | cwk |  |
-| Pronom | 1548 | AppleWorks Word Processor | cwk |  |
-| Pronom | 1549 | AppleWorks Spreadsheet | cwk |  |
-| Pronom | 1550 | AppleWorks Database | cwk |  |
-| Pronom | 1551 | AppleWorks Painting | cwk |  |
-| Pronom | 1552 | AppleWorks Presentation | cwk |  |
-| Pronom | 1553 | Microsoft Word Document (Password Protected) | wbk, doc | application/msword |
-| Pronom | 1554 | Microsoft Word Document Template (Password Protected) | dot | application/msword |
-| Pronom | 1555 | Zope Export File | zexp |  |
-| Pronom | 1556 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1557 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1558 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1559 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1560 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1561 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1562 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1563 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1564 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1565 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1566 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1567 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1568 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1569 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1570 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1571 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1572 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1573 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1574 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1575 | Adobe Flash | swf | application/x-shockwave-flash |
-| Pronom | 1576 | Microsoft Network Monitor Packet Capture | cap |  |
-| Pronom | 1577 | Microsoft Network Monitor Packet Capture | cap |  |
-| Pronom | 1578 | pcap Packet Capture | pcap, cap, dmp | application/vnd.tcpdump.pcap |
-| Pronom | 1579 | pcap Next Generation Packet Capture | pcapng | application/vnd.tcpdump.pcap |
-| Pronom | 1580 | Snoop Packet Capture | snoop |  |
-| Pronom | 1581 | PowerVR Object Data | pod |  |
-| Pronom | 1582 | Material Exchange Format | mxf | application/mxf |
-| Pronom | 1583 | Material Exchange Format | mxf | application/mxf |
-| Pronom | 1584 | Material Exchange Format | mxf | application/mxf |
-| Pronom | 1585 | Material Exchange Format | mxf | application/mxf |
-| Pronom | 1586 | Material Exchange Format | mxf | application/mxf |
-| Pronom | 1587 | Material Exchange Format | mxf | application/mxf |
-| Pronom | 1588 | Material Exchange Format | mxf | application/mxf |
-| Pronom | 1589 | Material Exchange Format | mxf | application/mxf |
-| Pronom | 1590 | Material Exchange Format | mxf | application/mxf |
-| Pronom | 1591 | Unified Emulator Format | uef, hq.uef |  |
-| Pronom | 1592 | RPM Package Manager file | rpm, src.rpm |  |
-| Pronom | 1593 | RPM Package Manager file | rpm, src.rpm |  |
-| Pronom | 1594 | RPM Package Manager file | rpm, src.rpm |  |
-| Pronom | 1595 | Adobe After Effects | aep |  |
-| Pronom | 1596 | Apple ProRes | mov |  |
-| Pronom | 1598 | The Neuroimaging Informatics Technology Initiative File Format | nii |  |
-| Pronom | 1599 | WriteNow |  |  |
-| Pronom | 1600 | CSV Schema | csvs | text/csv-schema |
-| Pronom | 1601 | TAP (ZX Spectrum) | tap |  |
-| Pronom | 1602 | TAP (Commodore 64) | tap |  |
-| Pronom | 1603 | Encase Image File/Expert Witness Compression File | e01 | application/encase |
-| Pronom | 1604 | Logical File Evidence Format | l01 |  |
-| Pronom | 1605 | XAML Binary Format | xbf |  |
-| Pronom | 1606 | MATLAB Mat File | mat, fig |  |
-| Pronom | 1607 | HDF5 | h5, hdf, hdf5, nc |  |
-| Pronom | 1608 | StarOffice Calc | sdc |  |
-| Pronom | 1609 | StarOffice Calc | sdc |  |
-| Pronom | 1610 | StarOffice Draw | sdd |  |
-| Pronom | 1611 | StarOffice Draw | sdd |  |
-| Pronom | 1612 | StarOffice Writer | sdw |  |
-| Pronom | 1613 | StarOffice Writer | sdw |  |
-| Pronom | 1614 | StarOffice Impress | sdd |  |
-| Pronom | 1615 | StarOffice Impress | sdd |  |
-| Pronom | 1616 | NUT Open Container Format | nut |  |
-| Pronom | 1617 | JSON Data Interchange Format | json | application/json |
-| Pronom | 1618 | YAML | yaml, yml |  |
-| Pronom | 1619 | CD-ROM/XA (eXtended Architecture) | dat |  |
-| Pronom | 1620 | T64 Tape Image Format | t64 |  |
-| Pronom | 1621 | G64 GCR-encoded Disk Image Format | g41, g64, g71 |  |
-| Pronom | 1622 | CRT C64 Cartridge Image Format | crt |  |
-| Pronom | 1623 | P00 C64 Image Format | p00, p01, p02, p03, p04 |  |
-| Pronom | 1624 | Apple iWork Pages | pages |  |
-| Pronom | 1626 | Apple iWork Numbers | numbers |  |
-| Pronom | 1627 | Scriptware Script Format | sw3 |  |
-| Pronom | 1628 | Serif DrawPlus Drawing | dpp |  |
-| Pronom | 1629 | MATLAB Mat File | mat, fig |  |
-| Pronom | 1630 | 3MF 3D Manufacturing Format | 3mf | application/vnd.ms-3mfdocument |
-| Pronom | 1631 | Qsplat Model | qs |  |
-| Pronom | 1632 | Polygon File Format | ply |  |
-| Pronom | 1633 | Open Inventor File Format | iv |  |
-| Pronom | 1634 | Open Inventor File Format | iv |  |
-| Pronom | 1635 | Quattro Pro Spreadsheet for Windows | wb1 |  |
-| Pronom | 1636 | Quattro Pro Spreadsheet for Windows | wb2 |  |
-| Pronom | 1637 | Quattro Pro Spreadsheet | wb3 |  |
-| Pronom | 1638 | Quattro Pro Spreadsheet | qpw |  |
-| Pronom | 1639 | Outlook Express Message Database | dbx |  |
-| Pronom | 1640 | Outlook Express Folder Database | dbx |  |
-| Pronom | 1641 | ADX Audio Format | adx |  |
-| Pronom | 1642 | Interleaved ADX Audio Format (AIX) | aix |  |
-| Pronom | 1643 | AccessData Custom Content Image | ad1, ad2, ad3, ad4, ad5 |  |
-| Pronom | 1644 | AccessData Custom Content Image (Encrypted) | ad1, ad2, ad3, ad4, ad5 |  |
-| Pronom | 1645 | Advanced Forensic Format | aff |  |
-| Pronom | 1646 | ClarisWorks Drawing | cwk |  |
-| Pronom | 1647 | ClarisWorks Word Processor | cwk |  |
-| Pronom | 1648 | ClarisWorks Spreadsheet | cwk |  |
-| Pronom | 1649 | ClarisWorks Database | cwk |  |
-| Pronom | 1650 | ClarisWorks Painting | cwk |  |
-| Pronom | 1651 | NuFile Exchange Archival Library | shk, sdk, bxy |  |
-| Pronom | 1652 | Genealogical Data Communication (GEDCOM) Format | ged |  |
-| Pronom | 1653 | Serif DrawPlus Drawing | dpp |  |
-| Pronom | 1654 | Serif DrawPlus Drawing | dpp |  |
-| Pronom | 1655 | Personal Ancestral File (PAF) | paf |  |
-| Pronom | 1656 | Personal Ancestral File (PAF) | paf |  |
-| Pronom | 1657 | Personal Ancestral File (PAF) | paf |  |
-| Pronom | 1658 | Navisworks Document | nwd, nwc |  |
-| Pronom | 1659 | Navisworks Document | nwd, nwc |  |
-| Pronom | 1660 | Navisworks Document | nwd, nwc |  |
-| Pronom | 1661 | Navisworks Document | nwd, nwc |  |
-| Pronom | 1663 | Maya Binary File Format | mb |  |
-| Pronom | 1664 | Maya Binary File Format | mb |  |
-| Pronom | 1666 | Maya ASCII File Format | ma |  |
-| Pronom | 1667 | 3DM | 3dm |  |
-| Pronom | 1669 | STL (Standard Tessellation Language) Binary | stl |  |
-| Pronom | 1670 | Apple Safari Webarchive | webarchive |  |
-| Pronom | 1671 | Microsoft Reader eBook | lit |  |
-| Pronom | 1672 | MySQL Table Definition Format | frm |  |
-| Pronom | 1673 | CDX Internet Archive Index | cdx |  |
-| Pronom | 1674 | Perl Script | pl |  |
-| Pronom | 1675 | Adobe Content Server Message File | acsm | application/vnd.adobe.adept+xml |
-| Pronom | 1676 | Free Lossless Image Format (FLIF) | flif | image/flif |
-| Pronom | 1677 | Notation3 | n3 | text/n3 |
-| Pronom | 1678 | Turtle | ttl | text/turtle |
-| Pronom | 1679 | RDF/XML | rdf | application/rdf+xml |
-| Pronom | 1680 | Pagemaker Document (Generic) | p65, pmd, pmt | application/vnd.pagemaker |
-| Pronom | 1681 | Corel Presentation | shw |  |
-| Pronom | 1682 | Corel Presentation | shw |  |
-| Pronom | 1683 | Fortran | f90, f95, f03, f, for |  |
-| Pronom | 1684 | JSON-LD | jsonld |  |
-| Pronom | 1685 | Microsoft Document Imaging File Format | mdi | image/vnd.ms-modi |
-| Pronom | 1686 | Wordstar 2000 |  |  |
-| Pronom | 1687 | Siegfried Signature File | sig |  |
-| Pronom | 1688 | AXD HTTP Handler File | axd |  |
-| Pronom | 1689 | BASIC File | bas |  |
-| Pronom | 1690 | HTML Components | htc |  |
-| Pronom | 1691 | SafeGuard Encrypted Virtual Disk | vol, hdr |  |
-| Pronom | 1692 | QuadriSpace Format | qsd, qsl, qsm, qst |  |
-| Pronom | 1693 | Feather | feather |  |
-| Pronom | 1694 | AbiWord Document | abw |  |
-| Pronom | 1695 | AbiWord Document Template | awt |  |
-| Pronom | 1696 | Compound WordPerfect for Windows Document | wpd, doc, wp6, wp, w60 | application/vnd.wordperfect |
-| Pronom | 1697 | i2 Analysts Notebook | anb |  |
-| Pronom | 1698 | Gaussian Input Data File | gjf |  |
-| Pronom | 1699 | JEOL NMR Spectroscopy | jdf |  |
-| Pronom | 1700 | MusicXML | xml, musicxml | application/vnd.recordare.musicxml+xml |
-| Pronom | 1701 | Compressed MusicXML | mxl | application/vnd.recordare.musicxml |
-| Pronom | 1702 | Zoomify Image Format | zif |  |
-| Pronom | 1704 | Windows Portable Executable | exe, dll, sys | application/vnd.microsoft.portable-executable |
-| Pronom | 1705 | Windows Portable Executable | exe, dll, sys | application/vnd.microsoft.portable-executable |
-| Pronom | 1706 | Microsoft Works Spreadsheet | xlr |  |
-| Pronom | 1707 | Blender 3D | blend |  |
-| Pronom | 1708 | Blender 3D | blend |  |
-| Pronom | 1709 | Bluetooth Snoop Packet Capture | log |  |
-| Pronom | 1710 | Variant Call Format | vcf |  |
-| Pronom | 1711 | Variant Call Format | vcf |  |
-| Pronom | 1712 | Variant Call Format | vcf |  |
-| Pronom | 1713 | Variant Call Format | vcf |  |
-| Pronom | 1714 | CRAM File Format | cram |  |
-| Pronom | 1715 | CRAM File Format | cram |  |
-| Pronom | 1716 | CRAM File Format | cram |  |
-| Pronom | 1717 | Microsoft Paint | msp |  |
-| Pronom | 1718 | Caligari trueSpace File Format | cob, scn |  |
-| Pronom | 1719 | Caligari trueSpace File Format | cob, scn |  |
-| Pronom | 1720 | Mapsforge Binary Map File Format | map |  |
-| Pronom | 1721 | ESRI ArcMap Document | mxd, mxt |  |
-| Pronom | 1722 | AmiraMesh | am, amiramesh, hx |  |
-| Pronom | 1723 | AmiraMesh | am, amiramesh, hx |  |
-| Pronom | 1724 | AmiraMesh | am, amiramesh, hx |  |
-| Pronom | 1725 | AmiraMesh | am, amiramesh, hx |  |
-| Pronom | 1726 | AmiraMesh | am, amiramesh, hx |  |
-| Pronom | 1727 | Xar Image Format | xar |  |
-| Pronom | 1728 | Microsoft xWMA | xwma |  |
-| Pronom | 1729 | Microsoft Visio Drawing | vsdx | application/vnd.ms-visio.drawing.main+xml |
-| Pronom | 1730 | Microsoft Visio Stencil | vssx | application/vnd.ms-visio.stencil.main+xml |
-| Pronom | 1731 | Microsoft Visio Template | vstx | application/vnd.ms-visio.template.main+xml |
-| Pronom | 1732 | Microsoft Visio Macro-Enabled Drawing | vsdm | application/vnd.ms-visio.drawing.macroEnabled.main+xml |
-| Pronom | 1733 | Microsoft Visio Macro-Enabled Stencil | vssm | application/vnd.ms-visio.stencil.macroEnabled.main+xml |
-| Pronom | 1734 | Microsoft Visio Macro-Enabled Template | vstm | application/vnd.ms-visio.template.macroEnabled.main+xml |
-| Pronom | 1735 | Magick Image File Format | mif |  |
-| Pronom | 1736 | Mathcad Document | mcd |  |
-| Pronom | 1737 | Mathcad Document | xmcd |  |
-| Pronom | 1738 | Simple Vector Format | svf | image/vnd-svf |
-| Pronom | 1739 | Simple Vector Format | svf | image/vnd-svf |
-| Pronom | 1740 | Animated Portable Network Graphics | png, apng | image/vnd.mozilla.apng |
-| Pronom | 1741 | Microsoft Picture It! Image File | mix | image/vnd.mix |
-| Pronom | 1742 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
-| Pronom | 1743 | Python Source Code File | py |  |
-| Pronom | 1744 | Python Compiled File | pyc |  |
-| Pronom | 1745 | Python Compiled File | pyc |  |
-| Pronom | 1746 | Back Up File | bak |  |
-| Pronom | 1747 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
-| Pronom | 1748 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
-| Pronom | 1749 | Ogg Multimedia Container | ogg, ogv, spx, opus | application/ogg |
-| Pronom | 1750 | Ogg Theora Video | ogv, ogg | video/ogg |
-| Pronom | 1751 | Ogg Opus Codec Compressed Multimedia File | ogg, opus | audio/ogg, audio/opus |
-| Pronom | 1752 | Ogg FLAC Compressed Multimedia File | ogg | audio/ogg |
-| Pronom | 1753 | Ogg Speex Codec Multimedia File | ogg, spx | audio/ogg, audio/speex |
-| Pronom | 1754 | WordPerfect | wp4, wpd | application/vnd.wordperfect |
-| Pronom | 1755 | MIME Email | eml | message/rfc822 |
-| Pronom | 1756 | Sonic Foundry WAVE 64 | w64, wav |  |
-| Pronom | 1757 | True Audio | tta | audio/tta |
-| Pronom | 1758 | True Audio | tta | audio/tta |
-| Pronom | 1759 | Adaptive Multi-Rate Wideband Audio | awb | audio/amr-wb |
-| Pronom | 1760 | Downloadable Sounds Audio | dls | audio/dls |
-| Pronom | 1761 | RIFF-based MIDI | rmi |  |
-| Pronom | 1762 | DirectMusic Segment File Format | sgt |  |
-| Pronom | 1763 | DirectMusic Style File Format | sty |  |
-| Pronom | 1764 | Portable Sound Format | psf, psf1, psflib, minipsf, minipsf1, gsf, gsflib, minigsf |  |
-| Pronom | 1765 | DOS Sound and Music Interface Advanced Module Format | amf |  |
-| Pronom | 1766 | Mobile eXtensible Music Format | mxmf | audio/mobile-xmf |
-| Pronom | 1767 | QCP Audio File Format | qcp | audio/qcelp |
-| Pronom | 1768 | OMNIC Spectral Data File | spa |  |
-| Pronom | 1769 | Final Draft Document | fdr |  |
-| Pronom | 1770 | Music Encoding Initiative | mei |  |
-| Pronom | 1771 | AppleDouble Resource Fork |  | multipart/appledouble |
-| Pronom | 1772 | AppleSingle | as | application/applefile |
-| Pronom | 1773 | AppleSingle | as | application/applefile |
-| Pronom | 1774 | Rich Text Format | rtf | application/rtf |
-| Pronom | 1775 | Khronos Texture File | ktx | image/ktx |
-| Pronom | 1776 | Microsoft Windows Movie Maker File | mswmm |  |
-| Pronom | 1777 | Dolby MLP Lossless Audio | mlp | audio/vnd.dolby.mlp |
-| Pronom | 1778 | DTS Coherent Acoustics (DCA) Audio | dts | audio/vnd.dts |
-| Pronom | 1779 | Notation Interchange File Format | nif | application/vnd.music-niff |
-| Pronom | 1780 | Jamcracker Tracker Module | jam |  |
-| Pronom | 1781 | MagicaVoxel Vox format | vox |  |
-| Pronom | 1782 | AutoCAD Design Web Format(DWFx) | dwfx |  |
-| Pronom | 1783 | 3DS Max | max, chr |  |
-| Pronom | 1784 | XML Property List | plist |  |
-| Pronom | 1785 | AAE Sidecar Format | aae |  |
-| Pronom | 1786 | EazyDraw File Format | ezdraw |  |
-| Pronom | 1787 | iMovieProj File Format | iMovieProj |  |
-| Pronom | 1788 | NIB File Format | nib |  |
-| Pronom | 1789 | Binary Property List | plist, nib, aae, iMovieProj, ezdraw |  |
-| Pronom | 1790 | Valve Texture Format | vtf | image/vnd.valve.source.texture |
-| Pronom | 1791 | Extensible Metadata Platform Format | xmp |  |
-| Pronom | 1792 | Microsoft OneNote Package File | onepkg |  |
-| Pronom | 1793 | ESRI ArcScene Document | sxd |  |
-| Pronom | 1794 | ESRI ArcGlobe Document | 3dd |  |
-| Pronom | 1795 | ESRI File Geodatabase |  |  |
-| Pronom | 1796 | SHA256 File | sha256 |  |
-| Pronom | 1797 | SHA1 File | sha1 |  |
-| Pronom | 1798 | MD5 File | md5 |  |
-| Pronom | 1799 | Jeffs Image Format | jif |  |
-| Pronom | 1800 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
-| Pronom | 1801 | Adobe Photoshop Large Document Format | psb | image/vnd.adobe.photoshop |
-| Pronom | 1802 | SPSS Portable Data Format | por |  |
-| Pronom | 1803 | OpenRaster Image Format | ora | image/openraster |
-| Pronom | 1804 | Krita Document Format | kra | application/x-krita |
-| Pronom | 1805 | TZX Format | tzx |  |
-| Pronom | 1806 | OpenEXR | exr | image/x-exr |
-| Pronom | 1807 | Nearly Raw Raster Data | nrrd |  |
-| Pronom | 1808 | Nearly Raw Raster Data | nrrd |  |
-| Pronom | 1809 | Nearly Raw Raster Data | nrrd |  |
-| Pronom | 1810 | Nearly Raw Raster Data | nrrd |  |
-| Pronom | 1811 | Nearly Raw Raster Data | nrrd |  |
-| Pronom | 1812 | Digital Speech Standard | dss |  |
-| Pronom | 1813 | DSS Pro | ds2 |  |
-| Pronom | 1814 | FBX (Filmbox) Binary |  |  |
-| Pronom | 1815 | FBX (Filmbox) Text | fbx |  |
-| Pronom | 1816 | INTERLIS Transfer File | xml, xtf |  |
-| Pronom | 1817 | INTERLIS Model File | ili |  |
-| Pronom | 1818 | INTERLIS Transfer File | itf |  |
-| Pronom | 1819 | INTERLIS Model File | ili |  |
-| Pronom | 1820 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
-| Pronom | 1821 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
-| Pronom | 1822 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
-| Pronom | 1823 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
-| Pronom | 1824 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
-| Pronom | 1825 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
-| Pronom | 1826 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
-| Pronom | 1827 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
-| Pronom | 1828 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
-| Pronom | 1829 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
-| Pronom | 1830 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
-| Pronom | 1831 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
-| Pronom | 1832 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
-| Pronom | 1833 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
-| Pronom | 1834 | Stata Data (DTA) Format | dta |  |
-| Pronom | 1835 | Stata Data (DTA) Format | dta |  |
-| Pronom | 1836 | Stata Data (DTA) Format | dta |  |
-| Pronom | 1837 | Stata Data (DTA) Format | dta |  |
-| Pronom | 1838 | Stata Data (DTA) Format | dta |  |
-| Pronom | 1839 | Stata Data (DTA) Format | dta |  |
-| Pronom | 1840 | Stata Data (DTA) Format | dta |  |
-| Pronom | 1841 | Stata Data (DTA) Format | dta |  |
-| Pronom | 1842 | Stata Data (DTA) Format | dta |  |
-| Pronom | 1843 | Redcode RAW (R3D) Media File | r3d |  |
-| Pronom | 1844 | Redcode Metadata (RMD) File | rmd |  |
-| Pronom | 1845 | DirectDraw Surface | dds |  |
-| Pronom | 1846 | HDF | hdf, h4 |  |
-| Pronom | 1847 | WordPerfect Graphics Metafile | wpg |  |
-| Pronom | 1848 | Microsoft PRX File | prx |  |
-| Pronom | 1849 | AutoShade Rendering Slide | rnd |  |
-| Pronom | 1850 | Q&A Word Processor Document |  |  |
-| Pronom | 1851 | Draco File Format | drc |  |
-| Pronom | 1852 | Geography Markup Language | gml | application/gml+xml |
-| Pronom | 1853 | OGR GFS File | gfs |  |
-| Pronom | 1854 | QuickDraw 3D Metafile (ASCII) | 3dmf |  |
-| Pronom | 1855 | QuickDraw 3D Metafile (Binary) | 3dmf |  |
-| Pronom | 1856 | Windows Journal Format | jnt, jtp |  |
-| Pronom | 1857 | BKNAS Seismic Data Format | bknas |  |
-| Pronom | 1858 | Adobe Audio Waveform | pek |  |
-| Pronom | 1859 | AVCHD Clip Information File | cpi, clpi |  |
-| Pronom | 1860 | M2TS | mts, m2ts |  |
-| Pronom | 1861 | SNAP Main Data File | mdf |  |
-| Pronom | 1862 | SNAP Archive Data File | adf |  |
-| Pronom | 1863 | SNAP Processed Data File | snpdf |  |
-| Pronom | 1864 | FileMaker Pro Database | fm |  |
-| Pronom | 1866 | Phase One Raw Image | cap, capture |  |
-| Pronom | 1867 | Phase One IIQ Raw Image | iiq |  |
-| Pronom | 1868 | Hasselblad 3FR Raw Image | 3fr |  |
-| Pronom | 1870 | Leaf Mosaic Raw Image | mos |  |
-| Pronom | 1871 | Portable Database | pdb |  |
-| Pronom | 1872 | Portable Database | pdb |  |
-| Pronom | 1873 | Portable Database | pdb |  |
-| Pronom | 1874 | Silo | silo |  |
-| Pronom | 1875 | Silo | silo |  |
-| Pronom | 1876 | Cue Sheet | cue |  |
-| Pronom | 1877 | Preferred Executable Format |  |  |
-| Pronom | 1878 | Apple Disk Image | dmg | application/x-apple-diskimage |
-| Pronom | 1879 | FileMaker Pro Database |  |  |
-| Pronom | 1880 | Google Document Link File | gslides, gdoc, gsheet, gdraw, gmap, gsite, gform |  |
-| Pronom | 1881 | AVCHD Playlist File | mpl, mpls |  |
-| Pronom | 1882 | AVCHD Movie Object File | bdm, bdmv |  |
-| Pronom | 1883 | AVCHD Index File | bdm, bdmv |  |
-| Pronom | 1884 | AVCHD Thumbnail Index File | tid |  |
-| Pronom | 1886 | Microsoft Program Database | pdb |  |
-| Pronom | 1887 | Microsoft Program Database | pdb |  |
-| Pronom | 1888 | ASP Application Directive File | asax |  |
-| Pronom | 1889 | ASP Control Directive File | ascx |  |
-| Pronom | 1890 | ASP WebService Directive File | asmx |  |
-| Pronom | 1891 | Hangul Word Processor Document | hwp |  |
-| Pronom | 1892 | Hangul Word Processor Document | hwp |  |
-| Pronom | 1893 | TRIM Context Reference File | tr5, txt |  |
-| Pronom | 1894 | Monkey's Audio File | ape |  |
-| Pronom | 1895 | FAT Disk Image | img, ima, dsk |  |
-| Pronom | 1896 | Visual Basic (VB) File | vb |  |
-| Pronom | 1897 | VBScript (VBS) File | vbs |  |
-| Pronom | 1898 | Exclude File | exclude |  |
-| Pronom | 1899 | Scribus Document | sla, scd | application/vnd.scribus |
-| Pronom | 1900 | Alias Pix Image File | pix, ico |  |
-| Pronom | 1901 | Alias Scene Description Language | sdl |  |
-| Pronom | 1902 | The Neuroimaging Informatics Technology Initiative File Format | nii |  |
-| Pronom | 1903 | PEA Archive Format | pea |  |
-| Pronom | 1904 | FreeArc Archive Format | arc |  |
-| Pronom | 1905 | ZPAQ Archive Format | zpaq |  |
-| Pronom | 1906 | TCR eBook | tcr |  |
-| Pronom | 1907 | XZ File Format | xz |  |
-| Pronom | 1908 | yEnc Encoded File | yenc |  |
-| Pronom | 1909 | High Efficiency Image File Format | heic | image/heif |
-| Pronom | 1910 | Uuencoded File | uue |  |
-| Pronom | 1911 | AutoCAD Hatch Pattern | pat |  |
-| Pronom | 1912 | Seattle FilmWorks SFW Image Format | sfw |  |
-| Pronom | 1913 | Hierarchical File System | img |  |
-| Pronom | 1914 | Python Compiled File | pyc |  |
-| Pronom | 1915 | Python Compiled File | pyc |  |
-| Pronom | 1916 | Python Compiled File | pyc |  |
-| Pronom | 1917 | Python Compiled File | pyc |  |
-| Pronom | 1918 | Python Compiled File | pyc |  |
-| Pronom | 1919 | Python Compiled File | pyc |  |
-| Pronom | 1920 | Python Compiled File | pyc |  |
-| Pronom | 1921 | Python Compiled File | pyc |  |
-| Pronom | 1922 | Python Compiled File | pyc |  |
-| Pronom | 1923 | Python Compiled File | pyc |  |
-| Pronom | 1924 | Python Compiled File | pyc |  |
-| Pronom | 1925 | Python Compiled File | pyc |  |
-| Pronom | 1926 | Python Compiled File | pyc |  |
-| Pronom | 1929 | Jupyter Python Notebook | ipynb |  |
-| Pronom | 1930 | DIFFRACplus Raw Data File Format | raw |  |
-| Pronom | 1931 | DIFFRACplus Raw Data File Format | raw |  |
-| Pronom | 1932 | VAMAS Surface Chemical Analysis Standard Data Transfer Format | vms |  |
-| Pronom | 1933 | Origin Project Format | opj, ogg, ogm, ogw |  |
-| Pronom | 1934 | Origin Project Format | opju, oggu, ogmu, ogwu |  |
-| Pronom | 1935 | JASCO JWS Format | jws |  |
-| Pronom | 1936 | Sony SR2 RAW Image File | sr2 |  |
-| Pronom | 1937 | Sony ARW RAW Image File | arw |  |
-| Pronom | 1938 | Progressive Graphics File | pgf |  |
-| Pronom | 1939 | PDF 2.0 - Portable Document Format | pdf | application/pdf |
-| Pronom | 1940 | C3D File Format | c3d |  |
-| Pronom | 1941 | Gatan Digital Micrograph File Format (DM3) | dm3 |  |
-| Pronom | 1942 | Netscape Bookmark File Format | htm, html |  |
-| Pronom | 1943 | Farbfeld Image Format | ff |  |
-| Pronom | 1944 | GPS Exchange Format | gpx |  |
-| Pronom | 1945 | SQLite Database File Format | sqlite, db |  |
-| Pronom | 1946 | MiniCAD | mcd | application/vnd.vectorworks |
-| Pronom | 1947 | MiniCAD | mcd | application/vnd.vectorworks |
-| Pronom | 1948 | MiniCAD/VectorWorks | mcd, vwx | application/vnd.vectorworks |
-| Pronom | 1949 | VectorWorks | vwx | application/vnd.vectorworks |
-| Pronom | 1950 | VectorWorks | vwx | application/vnd.vectorworks |
-| Pronom | 1951 | VectorWorks | vwx | application/vnd.vectorworks |
-| Pronom | 1952 | VectorWorks Plugin or Script | vso, vst, vsm | application/vnd.vectorworks |
-| Pronom | 1953 | ZISRAW (CZI) File Format | czi |  |
-| Pronom | 1954 | CompuServe WinCIM Message Format | plx, msg |  |
-| Pronom | 1955 | Maxwell Render Material File | mxm |  |
-| Pronom | 1956 | Maxwell Render Image Format | mxi |  |
-| Pronom | 1957 | SIDOUN WinAVA Format | swa |  |
-| Pronom | 1958 | Maxwell Render Scene File Format | mxs |  |
-| Pronom | 1959 | Markdown | md, markdown | text/markdown |
-| Pronom | 1960 | 4X Movie File | 4xm, 4xa |  |
-| Pronom | 1961 | Lightwright Show File | lw1, lw |  |
-| Pronom | 1962 | Lightwright Show File | lw2 |  |
-| Pronom | 1963 | Lightwright Show File | lw3 |  |
-| Pronom | 1964 | Lightwright Show File | lw4 |  |
-| Pronom | 1965 | Lightwright Show File | lw5 |  |
-| Pronom | 1966 | Lightwright Show File | lw6 |  |
-| Pronom | 1967 | Folio Infobase File | nfo |  |
-| Pronom | 1968 | Folio Infobase File | nfo |  |
-| Pronom | 1969 | Folio Infobase File | nfo |  |
-| Pronom | 1970 | Folio Shadow File | sdw |  |
-| Pronom | 1971 | Folio Shadow File | sdw |  |
-| Pronom | 1972 | Folio Flat File | fff |  |
-| Pronom | 1973 | Folio Definition File | def |  |
-| Pronom | 1974 | Praat Picture File | prapic |  |
-| Pronom | 1975 | Praat Script File | praat |  |
-| Pronom | 1976 | Niton Data Transfer | ndt |  |
-| Pronom | 1977 | Softimage 3D Picture File Format | pic |  |
-| Pronom | 1978 | Maya Icons or Swatches file | icons, swatches |  |
-| Pronom | 1979 | Maya IFF Image File | iff, ico |  |
-| Pronom | 1980 | Alias Studio Wire File |  |  |
-| Pronom | 1981 | Alias PowerAnimator File |  |  |
-| Pronom | 1982 | Web Open Font Format | woff2 | font/woff2 |
-| Pronom | 1983 | FrameMD5 | framemd5, md5 |  |
-| Pronom | 1984 | Hewlett Packard Graphics Language | 000 | application/vnd.hp-HPGL |
-| Pronom | 1985 | Alias Studio Wire File |  |  |
-| Pronom | 1986 | Nullsoft Streaming Video | nsv |  |
-| Pronom | 1987 | MicroStation Material Library | mat |  |
-| Pronom | 1988 | Synthetic Music Mobile Application Format | mmf | application/vnd.yamaha.smaf-audio |
-| Pronom | 1989 | Away3D Data Format | awd |  |
-| Pronom | 1990 | Cinema 4D | c4d |  |
-| Pronom | 1991 | Bodypaint 3D | b3d |  |
-| Pronom | 1992 | Blitz3D File Format | b3d |  |
-| Pronom | 1993 | MicroStation Material Palette | pal |  |
-| Pronom | 1994 | InDesign Markup Language Package | idml | application/vnd.adobe.indesign-idml-package |
-| Pronom | 1995 | Apple Icon Image Format | icns |  |
-| Pronom | 1996 | Dr. Halo Image Palette | pal |  |
-| Pronom | 1997 | Apple iWork Template | template |  |
-| Pronom | 1998 | Ogre Mesh 1.x | mesh |  |
-| Pronom | 1999 | Ogre Mesh XML | xml |  |
-| Pronom | 2000 | Adobe SWC Package | swc |  |
-| Pronom | 2001 | Adobe InDesign Book | indb |  |
-| Pronom | 2002 | Adobe InDesign Library | indl |  |
-| Pronom | 2003 | ZModeler Z3D | z3d |  |
-| Pronom | 2004 | ZModeler Z3D | z3d |  |
-| Pronom | 2005 | ZModeler Z3D | z3d |  |
-| Pronom | 2006 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
-| Pronom | 2007 | MyISAM Indexes File | myi |  |
-| Pronom | 2008 | RData | rdata |  |
-| Pronom | 2009 | RData | rdata |  |
-| Pronom | 2010 | PowerDraw |  |  |
-| Pronom | 2011 | PowerCADD |  |  |
-| Pronom | 2012 | Guymager Acquisition Info File | info |  |
-| Pronom | 2013 | QuickDraw 3D Metafile (Binary) | 3dmf |  |
-| Pronom | 2014 | Strata StudioPro Vis Format |  |  |
-| Pronom | 2015 | LightWave 3D Object | lw |  |
-| Pronom | 2016 | Impulse 3D Data Description Object | iob |  |
-| Pronom | 2017 | Sony SFK File | sfk |  |
-| Pronom | 2018 | Virtools File Format | cmo, nmo, vmo, nms |  |
-| Pronom | 2019 | COLLADA Digital Asset Exchange (DAE) | dae | model/vnd.collada+xml |
-| Pronom | 2020 | Wavefront OBJ File | obj |  |
-| Pronom | 2021 | Wavefront Material Template Library | mtl |  |
-| Pronom | 2022 | HP System Software Manager CVA File | cva |  |
-| Pronom | 2023 | Zoner Callisto Metafile | zmf |  |
-| Pronom | 2024 | Cakewalk WRK Project | wrk |  |
-| Pronom | 2025 | Reduced Resolution Dataset | img, ovr, rrd, aux, aoi, cff, fft, gcc, sig, sml |  |
-| Pronom | 2026 | Lotus Freelance Show | prz | application/vnd.lotus-freelance |
-| Pronom | 2027 | Leonardo Image Format | leo |  |
-| Pronom | 2028 | SubRip Subtitle File | srt |  |
-| Pronom | 2029 | Gnumeric | gnumeric | application/x-gnumeric |
-| Pronom | 2030 | WordPerfect for Macintosh Document |  | application/vnd.wordperfect |
-| Pronom | 2031 | WordPerfect for Macintosh Document |  | application/vnd.wordperfect |
-| Pronom | 2032 | WordPerfect for Macintosh Document |  | application/vnd.wordperfect |
-| Pronom | 2033 | PaperPort MAX | max |  |
-| Pronom | 2034 | PaperPort MAX | max |  |
-| Pronom | 2035 | PaperPort MAX | max |  |
-| Pronom | 2036 | Sparky | ucsf |  |
-| Pronom | 2037 | NMRView | nv |  |
-| Pronom | 2040 | NMRPipe | dat, pipe, ft2, ft3 |  |
-| Pronom | 2041 | Sibelius Sound Set Definition | set |  |
-| Pronom | 2042 | SK-XML | ddoc |  |
-| Pronom | 2044 | DIGIDOC-XML | ddoc |  |
-| Pronom | 2045 | DIGIDOC-XML | ddoc |  |
-| Pronom | 2046 | DIGIDOC-XML | ddoc |  |
-| Pronom | 2052 | Smacker Video | smk | video/vnd.radgamettools.smacker |
-| Pronom | 2053 | EclipseCrossword Puzzle File | ecw |  |
-| Pronom | 2054 | EclipseCrossword Word List File | ewl |  |
-| Pronom | 2055 | FileMaker Pro Database | fmp12 |  |
-| Pronom | 2056 | Band Interleaved By Line (BIL) Image Encoding | bil |  |
-| Pronom | 2057 | Band Interleaved By Pixel (BIP) Image Encoding | bip |  |
-| Pronom | 2058 | Band Sequential (BSQ) Image Encoding | bsq |  |
-| Pronom | 2059 | FO File | fo | application/vnd.software602.filler.form+xml |
-| Pronom | 2060 | ZFO (Form) File | zfo | application/vnd.software602.filler.form-xml-zip |
-| Pronom | 2061 | ZFO (Message) File | zfo | application/vnd.software602.filler.form-xml-zip |
-| Pronom | 2062 | ZFO (Sent Message) File | zfo | application/vnd.software602.filler.form-xml-zip |
-| Pronom | 2063 | ZFO (Proof of Delivery) File | zfo | application/vnd.software602.filler.form-xml-zip |
-| Pronom | 2064 | SOSI | sos | text/vnd.sosi |
-| Pronom | 2065 | SOSI | sos | text/vnd.sosi |
-| Pronom | 2066 | SOSI | sos | text/vnd.sosi |
-| Pronom | 2067 | SOSI | sos | text/vnd.sosi |
-| Pronom | 2068 | SOSI | sos | text/vnd.sosi |
-| Pronom | 2069 | Electronically Certified Document (EDOC) | edoc | application/vnd.etsi.asic-e+zip |
-| Pronom | 2070 | Raw Flux Image | rfi |  |
-| Pronom | 2071 | ESRI Code Page File | cpg |  |
-| Pronom | 2072 | Cardfile | crd |  |
-| Pronom | 2073 | Windows Address Book | wab |  |
-| Pronom | 2074 | MapInfo Workspace File | wor |  |
-| Pronom | 2075 | AutoCAD Temporary File | ac$ |  |
-| Pronom | 2076 | Microsoft Access Workgroup Information File | mdw |  |
-| Pronom | 2077 | SketchUp Document | skb, skp |  |
-| Pronom | 2078 | SketchUp Document | skp, skb |  |
-| Pronom | 2079 | SketchUp Document | skp, skb |  |
-| Pronom | 2080 | SketchUp Document | skp, skb |  |
-| Pronom | 2081 | SketchUp Document | skp, skb |  |
-| Pronom | 2082 | SketchUp Document | skp, skb |  |
-| Pronom | 2083 | SketchUp Document | skp, skb |  |
-| Pronom | 2084 | SketchUp Document | skp, skb |  |
-| Pronom | 2085 | SketchUp Document | skp, skb |  |
-| Pronom | 2086 | SketchUp Document | skp, skb |  |
-| Pronom | 2087 | SketchUp Document | skp, skb |  |
-| Pronom | 2088 | SketchUp Document | skp, skb |  |
-| Pronom | 2089 | SketchUp Document | skp, skb |  |
-| Pronom | 2090 | SketchUp Document | skp, skb |  |
-| Pronom | 2091 | SketchUp Document | skp, skb |  |
-| Pronom | 2092 | Sonic Scenarist Closed Caption Format | scc |  |
-| Pronom | 2093 | 3M Printscape | psc |  |
-| Pronom | 2094 | SureThing Project File | std |  |
-| Pronom | 2095 | Cindex Document | cdx, tpl |  |
-| Pronom | 2096 | Cindex Document | ucdx, utpl |  |
-| Pronom | 2097 | Cindex Document | ucdx, utpl |  |
-| Pronom | 2098 | NCH Dictation Audio File | dct |  |
-| Pronom | 2099 | WARC | warc | application/warc |
-| Pronom | 2100 | PFS:First Choice Document | doc |  |
-| Pronom | 2101 | PFS:First Choice Document | doc |  |
-| Pronom | 2102 | PFS:First Choice Database | fol |  |
-| Pronom | 2103 | PFS:First Choice Graph | gra |  |
-| Pronom | 2104 | Envoy Document File | evy |  |
-| Pronom | 2105 | Envoy Document File | evy |  |
-| Pronom | 2106 | IESNA LM-63 Photometric Data File | ies |  |
-| Pronom | 2107 | RFFlow Chart | flo |  |
-| Pronom | 2108 | RFFlow Chart | flo |  |
-| Pronom | 2109 | RFFlow Chart | flo |  |
-| Pronom | 2110 | EIOffice Document | eio |  |
-| Pronom | 2111 | 602Text Document | wpd, wpt |  |
-| Pronom | 2112 | 602Tab Spreadsheet | wls |  |
-| Pronom | 2113 | Calendar Creator Event | ce3 |  |
-| Pronom | 2114 | Calendar Creator File | cc3 |  |
-| Pronom | 2115 | Calendar Creator File | cc5 |  |
-| Pronom | 2116 | Calendar Creator File | bcc |  |
-| Pronom | 2117 | Broderbund Print Shop Deluxe | pdb, pds, pcb, pdc, pcc, pce, pdg, pdl, pso, pdp, pho, pcp, ppi, pda |  |
-| Pronom | 2118 | Broderbund The Print Shop/PrintMaster/American Greetings Project | ban, bro, biz, cal, car, cer, env, fax, sig, cft, hcr, lbl, let, nws, not, pcr, php, tsh, web, sti |  |
-| Pronom | 2119 | The Print Shop Project | psproj |  |
-| Pronom | 2120 | PrintMaster Gold Project | ban, cal, car, let, sig |  |
-| Pronom | 2121 | Microsoft Shell Scrap Object File | shs |  |
-| Pronom | 2122 | LocoScript Document |  |  |
-| Pronom | 2123 | LocoScript Document |  |  |
-| Pronom | 2124 | LocoScript Document |  |  |
-| Pronom | 2125 | LocoScript Document |  |  |
-| Pronom | 2126 | LocoScript PC |  |  |
-| Pronom | 2127 | LocoScript Professional |  |  |
-| Pronom | 2128 | LocoFile |  |  |
-| Pronom | 2129 | Tweet JSON | json | application/json |
-| Pronom | 2130 | CorelCHART Document | cch |  |
-| Pronom | 2131 | CorelCHART Document | cch |  |
-| Pronom | 2132 | GL Transmission Format (Text) | gltf | application/json |
-| Pronom | 2133 | GL Transmission Format (Text) | gltf | application/json |
-| Pronom | 2134 | GL Transmission Format (Binary) | glb | model/gltf-binary |
-| Pronom | 2135 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2136 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2137 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2138 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2139 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2140 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2141 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2142 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2143 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2144 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2145 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2146 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2147 | Avery Label Pro Document | lpd |  |
-| Pronom | 2148 | Avery DesignPro Document | zdp |  |
-| Pronom | 2149 | Avery DesignPro Document | zdl |  |
-| Pronom | 2150 | HP Photo Album | albm |  |
-| Pronom | 2151 | Sony PictureGear Studio PhotoAlbum | amu, amd |  |
-| Pronom | 2152 | Sony PictureGear Studio PrintStudio | lmu, lmd |  |
-| Pronom | 2153 | Sony PictureGear Studio Binder | bxu, bxt |  |
-| Pronom | 2154 | LEADTools Lead 1Bit Compressed Image | cmp |  |
-| Pronom | 2155 | LEADToolsCompressed Image | cmp |  |
-| Pronom | 2156 | RootsMagic Database | rmgc |  |
-| Pronom | 2157 | PaperPort MAX | max |  |
-| Pronom | 2158 | BDOC | bdoc | application/vnd.bdoc-1.0 |
-| Pronom | 2159 | Associated Signature Container Simple (ASiC-S) | asics, scs | application/vnd.etsi.asic-s+zip |
-| Pronom | 2160 | BDOC | bdoc, asice | application/vnd.etsi.asic-e+zip |
-| Pronom | 2161 | PTGui Project File | pts |  |
-| Pronom | 2162 | PTGui Project File | pts |  |
-| Pronom | 2163 | Legacy Family Tree Database | fdb |  |
-| Pronom | 2164 | Autodesk Revit File | rvt, rfa, rte, rft |  |
-| Pronom | 2165 | Autodesk Revit Project File | rvt, rte, rft |  |
-| Pronom | 2166 | Autodesk Revit Family File | rfa, rft |  |
-| Pronom | 2167 | Autodesk Revit Family File | rfa, rft |  |
-| Pronom | 2168 | Autodesk Revit Project File | rvt, rte |  |
-| Pronom | 2169 | Autodesk Revit Family File | rfa, rft |  |
-| Pronom | 2170 | FamilyTree Maker Database | ftw, fbk |  |
-| Pronom | 2171 | FamilyTree Maker Database | ftw, fbk |  |
-| Pronom | 2172 | QuickBooks Backup File | qbb |  |
-| Pronom | 2173 | WARC | warc | application/warc |
-| Pronom | 2174 | Virtual Format (Raster) | vrt |  |
-| Pronom | 2175 | Virtual Format (Vector) | vrt |  |
-| Pronom | 2176 | MicroStation Base File | bse |  |
-| Pronom | 2177 | Softdisk Text Compressor | ctx |  |
-| Pronom | 2178 | Picture Publisher Bitmap | ppf |  |
-| Pronom | 2179 | Amiga Disk File | adf |  |
-| Pronom | 2180 | Microsoft MapPoint Document | ptm |  |
-| Pronom | 2181 | DeluxePaint Animation File | anm |  |
-| Pronom | 2182 | V-Ray Material | vismat |  |
-| Pronom | 2183 | Debug File | dbg |  |
-| Pronom | 2184 | ESRI Published Map Format | pmf |  |
-| Pronom | 2185 | GeoJSON | geojson | application/geo+json |
-| Pronom | 2186 | Nero CoverDesigner File | ncd |  |
-| Pronom | 2187 | Error File | err |  |
-| Pronom | 2188 | Advanced Disk Catalog | adc |  |
-| Pronom | 2189 | OmniPage Pro Document | opd |  |
-| Pronom | 2190 | OmniPage Document | opd |  |
-| Pronom | 2191 | OmniPage Document | opd |  |
-| Pronom | 2192 | xdomea | xml |  |
-| Pronom | 2193 | xdomea | xml |  |
-| Pronom | 2194 | xdomea | xml |  |
-| Pronom | 2195 | xdomea | xml |  |
-| Pronom | 2196 | xdomea | xml |  |
-| Pronom | 2197 | xdomea | xml |  |
-| Pronom | 2198 | xdomea |  |  |
-| Pronom | 2199 | VariCAD Drawing | dwb |  |
-| Pronom | 2200 | Embedded OpenType (EOT) File Format | eot | application/vnd.ms-fontobject |
-| Pronom | 2201 | Embedded OpenType (EOT) File Format | eot | application/vnd.ms-fontobject |
-| Pronom | 2202 | Embedded OpenType (EOT) File Format | eot | application/vnd.ms-fontobject |
-| Pronom | 2203 | Bruker PDZ | pdz, xpdz |  |
-| Pronom | 2204 | Muvee autoProducer Project File | mve |  |
-| Pronom | 2205 | Muvee autoProducer Project File | mvex |  |
-| Pronom | 2206 | Muvee Reveal Project File | rvl |  |
-| Pronom | 2207 | Drawing Interchange Format (ASCII) | dxf | image/vnd.dxf |
-| Pronom | 2208 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
-| Pronom | 2209 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
-| Pronom | 2210 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
-| Pronom | 2211 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
-| Pronom | 2212 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
-| Pronom | 2213 | AutoCAD Drawing | dwg | image/vnd.dwg |
-| Pronom | 2214 | FinePrint | fp |  |
-| Pronom | 2215 | FARO Laser Scan File | fls |  |
-| Pronom | 2216 | FARO WorkSpace File | fws |  |
-| Pronom | 2217 | DiskDoubler |  |  |
-| Pronom | 2218 | Ichitaro Document | jtd, jtt, $td | application/x-js-taro |
-| Pronom | 2219 | Student Writing Center Report | rp, rpt |  |
-| Pronom | 2220 | Student Writing Center Journal | jn, jnt |  |
-| Pronom | 2221 | Student Writing Center Sign | sg, sgt |  |
-| Pronom | 2222 | Student Writing Center Newsletter | nl, nlt |  |
-| Pronom | 2223 | Student Writing Center Letter | lt, ltt |  |
-| Pronom | 2224 | Flow Charting | cht |  |
-| Pronom | 2225 | Flow Charting | fcd |  |
-| Pronom | 2226 | Flow Charting | gfc |  |
-| Pronom | 2227 | Flow Charting | fc5 |  |
-| Pronom | 2228 | Flow Charting | fcx |  |
-| Pronom | 2229 | Flow Charting | pdq |  |
-| Pronom | 2230 | Flow Charting Graphic Flowcharting Image | gfi |  |
-| Pronom | 2231 | Corel Gallery Clipart | bmf |  |
-| Pronom | 2232 | PFS:Write Document | pfs |  |
-| Pronom | 2233 | GST Publisher File | dtp |  |
-| Pronom | 2234 | GST Publisher File | dtp |  |
-| Pronom | 2235 | Corel Print House Document | cph, cpd |  |
-| Pronom | 2236 | Corel Print House Document | cph, cpd |  |
-| Pronom | 2237 | Corel Print House/Print Office Document | cph, cpd, cpo |  |
-| Pronom | 2238 | Corel Print House/Print Office Document | cph, cpd, cpo |  |
-| Pronom | 2239 | Corel Print House/Print Office Document | cph, cpd, cpo |  |
-| Pronom | 2240 | Corel Photo House Image | cps |  |
-| Pronom | 2241 | HP TRIM Outlook Saved Message File | vmbx, mbx |  |
-| Pronom | 2242 | WordPerfect Encrypted Document | wp | application/vnd.wordperfect |
-| Pronom | 2243 | MacDraw |  |  |
-| Pronom | 2244 | MacDraw |  |  |
-| Pronom | 2245 | MacDraw |  |  |
-| Pronom | 2246 | MacDraw |  |  |
-| Pronom | 2247 | MacPaint Image |  |  |
-| Pronom | 2248 | Minitab Worksheet | mtw |  |
-| Pronom | 2249 | Minitab Portable Worksheet | mtp |  |
-| Pronom | 2250 | Minitab Worksheet | mtw |  |
-| Pronom | 2251 | Minitab Worksheet | mtw |  |
-| Pronom | 2252 | Minitab Project | mpj |  |
-| Pronom | 2253 | Minitab Worksheet | mtw |  |
-| Pronom | 2254 | Minitab Project | mpj |  |
-| Pronom | 2255 | Minitab Worksheet | mtw |  |
-| Pronom | 2256 | Minitab Project | mpj |  |
-| Pronom | 2257 | Apple iWork Pages | pages |  |
-| Pronom | 2258 | Apple iWork Numbers |  |  |
-| Pronom | 2259 | Apple iWork Document | iwa, key, pages, numbers, template |  |
-| Pronom | 2260 | QuarkXPress Document |  | application/vnd.Quark.QuarkXPress |
-| Pronom | 2261 | QuarkXPress Document |  | application/vnd.Quark.QuarkXPress |
-| Pronom | 2262 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2263 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2264 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2265 | XLD4 (Bitmap Image) | q4 |  |
-| Pronom | 2266 | XLD4 (Graphic Data Document) | q4d |  |
-| Pronom | 2269 | Aldus FreeHand Drawing |  |  |
-| Pronom | 2270 | Aldus FreeHand Drawing |  |  |
-| Pronom | 2272 | PDF Portfolio | pdf |  |
-| Pronom | 2274 | Lotus 1-2-3 Worksheet | 123 | application/vnd.lotus-1-2-3, application/x-123 |
-| Pronom | 2275 | Lotus 1-2-3 Worksheet | 123 | application/vnd.lotus-1-2-3, application/x-123 |
-| Pronom | 2277 | Web Video Text Tracks (WebVTT) Format | vtt | text/vtt |
-| Pronom | 2278 | Primavera P6 Project Management XER File | xer |  |
-| Pronom | 2279 | Autocad DMP File | dmp |  |
-| Pronom | 2280 | OrgPlus File | opx, opxt, ops |  |
-| Pronom | 2281 | Arts & Letters Graphics File | ged |  |
-| Pronom | 2282 | Stuffit Archive File | sit | application/x-stuffit |
-| Pronom | 2283 | Stuffit Archive File | sit | application/x-stuffit |
-| Pronom | 2284 | Autorun Maestro Menu File | mnu |  |
-| Pronom | 2285 | Comic Book Archive | cb7, cba, cbr, cbt, cbz |  |
-| Pronom | 2286 | Ableton Live Set | als |  |
-| Pronom | 2287 | Maestro Music File |  |  |
-| Pronom | 2288 | OrCAD Layout File | max |  |
-| Pronom | 2289 | InstallShield Executable | ex_ |  |
-| Pronom | 2290 | STOS Memory Bank | mbk |  |
-| Pronom | 2291 | multiArtist File | mg1, mg2, mg4, mg8 |  |
-| Pronom | 2292 | MAKIchan Graphics File | mki, mag, max |  |
-| Pronom | 2293 | MIG Graphics File | mig |  |
-| Pronom | 2294 | Multi Palette Picture File | mpp |  |
-| Pronom | 2295 | Magic Shadow Archiver Disk Image File | msa | application/vnd.msa-disk-image |
-| Pronom | 2296 | Archimedes Tracker Module | musx |  |
-| Pronom | 2297 | TEI P4 XML - Single Text File | xml, tei, odd | application/tei+xml |
-| Pronom | 2298 | TEI P4 XML - Corpus File | xml, tei, odd | application/tei+xml |
-| Pronom | 2299 | TEI P5 - Single Text File | xml, tei, odd | application/tei+xml |
-| Pronom | 2300 | TEI P5 XML - Corpus File | xml, tei, odd | application/tei+xml |
-| Pronom | 2301 | Unisig |  |  |
-| Pronom | 2302 | XIFF (Xerox Image File Format) | xif | image/vnd.xiff |
-| Pronom | 2303 | XIFF (Xerox Image File Format) | xif | image/vnd.xiff |
-| Pronom | 2304 | Micrografx In-A-Vision Drawing | pic |  |
-| Pronom | 2305 | Access Report Snapshot | snp |  |
-| Pronom | 2306 | Mar Archive | mar, mac |  |
-| Pronom | 2307 | JPEG XL Codestream | jxl | image/jxl |
-| Pronom | 2308 | JPEG XL | jxl | image/jxl |
-| Pronom | 2309 | Novell Address Book | nab |  |
-| Pronom | 2310 | Timeline Maker Document | tlm, tlm3, tlm4, tlmp |  |
-| Pronom | 2311 | Phantom CINE Video File | cine, cin |  |
-| Pronom | 2312 | Phantom CINE Compressed Video File | cci |  |
-| Pronom | 2313 | HyperCard Stack |  |  |
-| Pronom | 2314 | Harvard Graphics Presentation | prs |  |
-| Pronom | 2315 | Harvard Graphics Presentation | pr4 |  |
-| Pronom | 2316 | NTI JewelCase Maker | jwc |  |
-| Pronom | 2317 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
-| Pronom | 2318 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
-| Pronom | 2319 | ZoomBrowser Ex Thumbnail Cache | info |  |
-| Pronom | 2320 | XV Thumbnail | p7 |  |
-| Pronom | 2321 | Cool Edit/Adobe Audition Session File | ses |  |
-| Pronom | 2322 | Adobe Audition Session File | sesx |  |
-| Pronom | 2323 | Adobe Acrobat Forms Data Format | fdf | application/vnd.fdf |
-| Pronom | 2324 | XML Forms Data Format | xfdf | application/vnd.adobe.xfdf |
-| Pronom | 2325 | Agisoft Project Archive | psz |  |
-| Pronom | 2326 | Agisoft Project File | psx |  |
-| Pronom | 2327 | Agisoft Tiled Model | tls |  |
-| Pronom | 2328 | Agisoft Point Cloud | oc3 |  |
-| Pronom | 2329 | EinScan RGE 3D Range File | rge |  |
-| Pronom | 2330 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
-| Pronom | 2331 | Microsoft Visio Drawing | vsd, vst, vss | application/vnd.visio |
-| Pronom | 2332 | Microsoft Visio Drawing | vsd, vst, vss | application/vnd.visio |
-| Pronom | 2333 | Microsoft Visio Drawing | vsd, vst, vss, vsw | application/vnd.visio |
-| Pronom | 2335 | Microsoft Publisher | pub | application/x-mspublisher |
-| Pronom | 2336 | Microsoft Publisher | pub | application/x-mspublisher |
-| Pronom | 2337 | Microsoft Publisher | pub | application/x-mspublisher |
-| Pronom | 2338 | Microsoft Publisher | pub | application/x-mspublisher |
-| Pronom | 2339 | Microsoft Publisher | pub | application/x-mspublisher |
-| Pronom | 2340 | Microsoft Publisher | pub | application/x-mspublisher |
-| Pronom | 2341 | Serif PhotoPlus Image | spp |  |
-| Pronom | 2342 | Serif PhotoPlus Image | spp |  |
-| Pronom | 2343 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| Pronom | 2344 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| Pronom | 2345 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| Pronom | 2346 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| Pronom | 2347 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| Pronom | 2348 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| Pronom | 2349 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| Pronom | 2350 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| Pronom | 2351 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
-| Pronom | 2352 | Serif DrawPlus Drawing | dpp, dpa |  |
-| Pronom | 2353 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| Pronom | 2354 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| Pronom | 2355 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| Pronom | 2356 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| Pronom | 2357 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| Pronom | 2358 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| Pronom | 2359 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| Pronom | 2360 | Serif PagePlus Publication | ppp, ppb, ppx |  |
-| Pronom | 2361 | Serif PagePlus Publication | ppp, ppt |  |
-| Pronom | 2362 | CompuServe RLE | rle |  |
-| Pronom | 2363 | Raster Matrix Format | rsw |  |
-| Pronom | 2364 | NeoDisk Icon File | nic |  |
-| Pronom | 2366 | Visual Basic Form File | frm |  |
-| Pronom | 2367 | Visual Basic Form File | frm |  |
-| Pronom | 2368 | ELAN Annotation File | eaf | application/eaf+xml |
-| Pronom | 2369 | ELAN Preference File | pfsx |  |
-| Pronom | 2370 | NeoDesk Icon File | nic |  |
-| Pronom | 2371 | Daisy-Dot Font File | nlq |  |
-| Pronom | 2372 | Daisy-Dot Font File | nlq |  |
-| Pronom | 2373 | Visual Basics MAK File | mak |  |
-| Pronom | 2374 | Bentley Microstation Hidden Line File | hln |  |
-| Pronom | 2375 | MATLAB Mat File | mat |  |
-| Pronom | 2376 | NetWare Loadable Module | nlm |  |
-| Pronom | 2377 | Surprise! Adlib Tracker v2.0 | sa2 |  |
-| Pronom | 2378 | Septentrio Binary Format | sbf |  |
-| Pronom | 2379 | DNA Sequence Chromatogram File | scf |  |
-| Pronom | 2380 | Standard Data Format | sdf |  |
-| Pronom | 2381 | Starlink Data Format | sdf |  |
-| Pronom | 2382 | Cyber Paint Sequence | seq |  |
-| Pronom | 2383 | SelF-eXtracting LHA/LZH Compressed Files | sfx |  |
-| Pronom | 2384 | Beam Software SIFF File | son, vb |  |
-| Pronom | 2385 | Sample Vision Audio File Format | smp |  |
-| Pronom | 2386 | SpritePad Image Format | spd |  |
-| Pronom | 2387 | AutoDesk Indexed Point Cloud | pcg |  |
-| Pronom | 2388 | ERDAS Imagine Large Raster Spill File | ige |  |
-| Pronom | 2389 | Associated Signature Container Extended (ASiC-E) | asice, sce | application/vnd.etsi.asic-e+zip |
-| Pronom | 2390 | reStructuredText | rst |  |
-| Pronom | 2391 | ColdFusion Markup Language | cfm |  |
-| Pronom | 2392 | ISDOC Information System Document | isdoc |  |
-| Pronom | 2393 | ISDOCX Information System Document | isdocx |  |
-| Pronom | 2394 | Bitstream Speedo Fonts | spd |  |
-| Pronom | 2395 | ISDOC Information System Document | isdoc |  |
-| Pronom | 2396 | ISDOCX Information System Document | isdocx |  |
-| Pronom | 2397 | OrCAD Project File | opj |  |
-| Pronom | 2398 | Visual Basic Project File | vbp |  |
-| Pronom | 2399 | Visual Basic Project Workspace File | vbw |  |
-| Pronom | 2400 | Spectrum 512 Compressed | Spectrum 512 Smooshed | spc, sps |  |
-| Pronom | 2401 | Spectrum 512 Uncompressed | Spectrum 512 Uncompressed Enhanced | spu |  |
-| Pronom | 2402 | Spectrum 512 Extended | spx |  |
-| Pronom | 2403 | Spectrum 512 Extended | spx |  |
-| Pronom | 2404 | SPYne Containers | spy |  |
-| Pronom | 2405 | Envision Publisher File | evp |  |
-| Pronom | 2406 | Envision Publisher Font Files | svf |  |
-| Pronom | 2407 | Vim SWAP File | swp |  |
-| Pronom | 2408 | SXG (ZX Spectrum) Graphic File | sxg |  |
-| Pronom | 2409 | ADRIFT Text Adventure File | taf |  |
-| Pronom | 2410 | TurboCalc Document | tcd |  |
-| Pronom | 2411 | TheDraw Save File | td |  |
-| Pronom | 2412 | COKE Format (Atari Falcon) | tg1 |  |
-| Pronom | 2413 | TGIF File Format | tgif, obj |  |
-| Pronom | 2414 | Taquart Interlace Picture | tip |  |
-| Pronom | 2416 | Visual Basic Binary Form File | frx |  |
-| Pronom | 2418 | ESRI ArcInfo Coverage Annotation File | txt |  |
-| Pronom | 2419 | ASEG-GDF2 Description File | des |  |
-| Pronom | 2420 | ASEG-GDF2- Data Definition File | dfn |  |
-| Pronom | 2421 | ESRI ArcInfo DAT File (External) | dat |  |
-| Pronom | 2422 | Canon Raw | cr3 |  |
-| Pronom | 2423 | ESRI ArcInfo Grid .nit File | nit |  |
-| Pronom | 2424 | PageMaker Template File | pt5 |  |
-| Pronom | 2425 | Stata .do Command File | do |  |
-| Pronom | 2426 | R Program File | r |  |
-| Pronom | 2427 | ESRI ArcInfo DAT File (Internal) |  |  |
-| Pronom | 2428 | Type Library | tlb |  |
-| Pronom | 2429 | Type Library | tlb |  |
-| Pronom | 2430 | TUNDRA | tnd |  |
-| Pronom | 2431 | EggPaint (Atari Falcon) | trp |  |
-| Pronom | 2432 | True Colour Sprites [Spooky Sprites] (Atari Falcon) | trs |  |
-| Pronom | 2433 | Packed-Ice True Colour Sprites [Spooky Sprites] (Atari Falcon) | trs |  |
-| Pronom | 2434 | True Colour Picture [Spooky Sprites] (Atari Falcon) | trp, tru |  |
-| Pronom | 2435 | Packed-Ice True Colour Picture [Spooky Sprites] (Atari Falcon) | trp, tru |  |
-| Pronom | 2436 | exFAT (Extensible File Allocation Table) Disc Image | img |  |
-| Pronom | 2437 | Viacom New Media Graphics | vnm, 000 |  |
-| Pronom | 2438 | WRAptor Compressed File | wra, wr3 |  |
-| Pronom | 2439 | XBIN (eXtended BIN) | xb |  |
-| Pronom | 2440 | XML Shareable Playlist Format | xspf |  |
-| Pronom | 2441 | Esri ArcExplorer Project File | aep |  |
-| Pronom | 2442 | CATIA Drawing | catdrawing |  |
-| Pronom | 2443 | BibTeX Database File | bib |  |
-| Pronom | 2444 | Devicetree Blob (DTB) | dtb |  |
-| Pronom | 2445 | SGML/XML Entity File | ent | application/xml-external-parsed-entity |
-| Pronom | 2446 | Pascal Source Code | pas |  |
-| Pronom | 2447 | Aero Studio Song | aero |  |
-| Pronom | 2448 | AHX-Module Format (formerly THX module format) | ahx |  |
-| Pronom | 2449 | Asylum Music Format | amf |  |
-| Pronom | 2450 | Art Of Noise | aon |  |
-| Pronom | 2451 | Art Of Noise | aon |  |
-| Pronom | 2452 | ESRI Colour File Format | clr |  |
-| Pronom | 2453 | MicroStation Symbology Resource File | rsc |  |
-| Pronom | 2454 | Z Print Build File | zbd |  |
-| Pronom | 2455 | Adobe InDesign Document | indd, ind |  |
-| Pronom | 2456 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2457 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2458 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2459 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2460 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2461 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2462 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2463 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2464 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2465 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2466 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2467 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2468 | Adobe InDesign Interchange Document | inx |  |
-| Pronom | 2469 | Adobe InDesign Library | indl |  |
-| Pronom | 2470 | Lenel Network Video Recorder File | lnr |  |
-| Pronom | 2471 | Roxio Label Creator Project File | jwl |  |
-| Pronom | 2472 | Roxio Label Creator Project File | jwl |  |
-| Pronom | 2473 | Roxio Label Creator Project File | jwl |  |
-| Pronom | 2474 | Inspiration Software File | isf |  |
-| Pronom | 2475 | Crystal Reports File | rpt | application/x-rpt |
-| Pronom | 2476 | AGS 4 Data Format | ags |  |
-| Pronom | 2477 | Bayesian Interchange Format File | bif |  |
-| Pronom | 2478 | Garmin Flexible and Interoperable Data Transfer File | fit |  |
-| Pronom | 2479 | Typescript | ts, tsx |  |
-| Pronom | 2480 | STAD PAC File | pac, seq |  |
-| Pronom | 2481 | Palm Database ImageViewer Format | pdb |  |
-| Pronom | 2482 | cdrLabel Label File | clb |  |
-| Pronom | 2483 | Microsoft Help Contents File | cnt |  |
-| Pronom | 2484 | XIMG (Extended GEM Bit Image) | ximg, img |  |
-| Pronom | 2485 | XL-Paint MaX | max, xlp |  |
-| Pronom | 2486 | XL-Paint | raw |  |
-| Pronom | 2487 | Arts & Letters Clip Art Library | yal |  |
-| Pronom | 2488 | Yamaha Wave Audio | s01, u01, f01, w01 |  |
-| Pronom | 2498 | Yamaha TX Wave Audio | txw, w01, w02, w03, w04, w05, w06, w07, w08, w09, w10, w11, w12, w13, w14, w15, w16, w17, w18, w19, w20, w21, w22 |  |
-| Pronom | 2499 | YAODL (Yet Another Object Description Language) File | ydl |  |
-| Pronom | 2500 | RED Thumbnail File | rtn |  |
-| Pronom | 2501 | Easy CD Creator Layout | Roxio Easy CD Creator Layout | rcl, cl5 |  |
-| Pronom | 2502 | Roxio Easy Media Creator Layout | rcl |  |
-| Pronom | 2503 | Roxio Easy Media Creator - Classic Creator File | rcl |  |
-| Pronom | 2504 | Roxio Easy Media Creator Layout | roxio |  |
-| Pronom | 2505 | Roxio Data Project File | rox |  |
-| Pronom | 2506 | Roxio Audio Project File | rox |  |
-| Pronom | 2507 | Z Compressed Data | z |  |
-| Pronom | 2508 | Linux/i386 Binary Executable File ZMAGIC | so, o |  |
-| Pronom | 2509 | ZBrush MatCap | zmt |  |
-| Pronom | 2510 | ZyXEL Voice Format Audio | zvd, zyx, ad2 |  |
-| Pronom | 2511 | IntelliFont Font File | type, lib |  |
-| Pronom | 2512 | Covox ADPCM Audio Files | v8, cvx, v2s, v3s, v4s, vmf |  |
-| Pronom | 2513 | Microsoft Office File List | xml |  |
-| Pronom | 2514 | MATLAB Script File | m |  |
-| Pronom | 2515 | Garmin track log file | gmn |  |
-| Pronom | 2516 | INTREPID Standard Information File | isi |  |
-| Pronom | 2517 | OBO Flat File Format | obo |  |
-| Pronom | 2518 | EndNote Library | enl |  |
-| Pronom | 2519 | EndNote Compressed Library | enlx |  |
-| Pronom | 2520 | EndNote Library | enl |  |
-| Pronom | 2521 | EndNote Compressed Library | enlx |  |
-| Pronom | 2522 | PageMaker Mac Document |  | application/vnd.pagemaker |
-| Pronom | 2523 | PageMaker Mac Document |  | application/vnd.pagemaker |
-| Pronom | 2524 | Microsoft Word for MS-DOS Document | doc | application/msword |
-| Pronom | 2525 | Microsoft Word for MS-DOS Glossary File | gly | application/msword |
-| Pronom | 2526 | Microsoft Word for MS-DOS Style Sheet File | sty | application/msword |
-| Pronom | 2527 | Microsoft Word for MS-DOS Printer Description File | prd | application/msword |
-| Pronom | 2528 | ESRI ArcGIS Raw Raster Reader/ Writer | hdr |  |
-| Pronom | 2529 | Asymetrix Compel Presentation | cpl, art |  |
-| Pronom | 2530 | Asymetrix Compel Presentation | cpl, art |  |
-| Pronom | 2531 | 602 Text file | 602 |  |
-| Pronom | 2532 | ESRI Attribute Index Files | ain |  |
-| Pronom | 2533 | Calc602 Spreadsheet file | bak, tc6 |  |
-| Pronom | 2534 | Calc602 Spreadsheet file | bak, tc6 |  |
-| Pronom | 2535 | 602 Graph/Chart File | gc6 |  |
-| Pronom | 2536 | OGC GeoPackage | gpkg | application/geopackage+sqlite3 |
-| Pronom | 2537 | Persuasion Mac Document | pr1 |  |
-| Pronom | 2538 | Persuasion Mac Document | pr2 |  |
-| Pronom | 2539 | Persuasion Mac Document | pr2 |  |
-| Pronom | 2540 | Persuasion Mac Document | pr3 |  |
-| Pronom | 2541 | Persuasion Mac Document | pn4 |  |
-| Pronom | 2542 | Persuasion Windows Document | pr2, at2 |  |
-| Pronom | 2543 | Persuasion Windows Document | pr3, at3, pn4, at4 |  |
-| Pronom | 2544 | Persuasion Player File | ppf |  |
-| Pronom | 2545 | Persuasion Presentation Interchange File | prf |  |
-| Pronom | 2546 | Persuasion Auto-Template Interchange File | atf |  |
-| Pronom | 2547 | Software602 Printer Configuration File | cfg |  |
-| Pronom | 2548 | Calc602 Macro File | mc6 |  |
-| Pronom | 2549 | Calc602 Project File | pc6 |  |
-| Pronom | 2550 | CATIA Model File | model |  |
-| Pronom | 2551 | Applet Effect Factory Config File | data |  |
-| Pronom | 2552 | Cintel Raw Image/DaVinci Resolve Image | cri, dvcc |  |
-| Pronom | 2553 | Time Stamp Token | tst | application/vnd.etsi.timestamp-token |
-| Pronom | 2554 | PageMaker Mac Document | p65, t65, pmd, pmt | application/vnd.pagemaker |
-| Pronom | 2555 | PageMaker Mac Document | pm6, pt6 | application/vnd.pagemaker |
-| Pronom | 2556 | Portable Compiled Format | pcf |  |
-| Pronom | 2557 | Pablo Paint Raster Image | ppp, pa3 |  |
-| Pronom | 2558 | BIM Metadata File | bim |  |
-| Pronom | 2567 | Wordcraft Chapter Files | 001 |  |
-| Pronom | 2568 | LegalDocML Document | xml |  |
-| Pronom | 2569 | Capture One Settings File | cos |  |
-| Pronom | 2570 | Geosoft Map Description File | mdf |  |
-| Pronom | 2571 | Pro Tools Session File | ptx |  |
-| Pronom | 2572 | dBASE Windows Form File | wfm |  |
-| Pronom | 2573 | Esri Shapefile Geospatial Metadata File | xml |  |
-| Pronom | 2575 | Data File | dat |  |
-| Pronom | 2576 | PowerGraphics Image File | pgr |  |
-| Pronom | 2577 | Prism Paint Bitmap | pnt, tpi |  |
-| Pronom | 2578 | PaintShop Plus Compressed Format | psc, da4 |  |
-| Pronom | 2579 | Portfolio Graphics Compressed File | pgc |  |
-| Pronom | 2580 | C/C++ Header File | h, hpp, hxx |  |
-| Pronom | 2581 | Creative Voice File | voc |  |
-| Pronom | 2583 | Flow Cytometry Standard File | fcs | application/vnd.isac.fcs |
-| Pronom | 2584 | UDF Disc Image | toast, iso, cdr, dmg |  |
-| Pronom | 2585 | UDF-ISO 9660 Bridge Disc | toast, iso, cdr, dmg |  |
-| Pronom | 2586 | Apple Partition Map Disk Image | toast, iso, cdr, dmg, bin, img |  |
-| Pronom | 2587 | Apple Partition Map ISO 9660 Hybrid | toast, iso, cdr |  |
-| Pronom | 2588 | Hierarchical File System Plus | img, dmg, toast |  |
-| Pronom | 2589 | Nero Burning ROM Image File | nrg |  |
-| Pronom | 2590 | Psion Series 3 Bitmap | pic |  |
-| Pronom | 2591 | PixArt Bitmap | pix |  |
-| Pronom | 2592 | Rocky Interlace Picture | rip |  |
-| Pronom | 2593 | Microsoft PowerPoint Presentation | ppt | application/vnd.ms-PowerPoint |
-| Pronom | 2594 | Microsoft PowerPoint Presentation | ppt | application/vnd.ms-PowerPoint |
-| Pronom | 2595 | Canon MIF File | mif |  |
-| Pronom | 2596 | Canon CIF File | cif |  |
-| Pronom | 2597 | Canon SIF File | sif |  |
-| Pronom | 2599 | OpenDocument Database Format | odb | application/vnd.oasis.opendocument.base |
-| Pronom | 2600 | OpenDocument Graphics | odg | application/vnd.oasis.opendocument.graphics |
-| Pronom | 2602 | OpenDocument Presentation | odp | application/vnd.oasis.opendocument.presentation |
-| Pronom | 2603 | OpenDocument Spreadsheet | ods | application/vnd.oasis.opendocument.spreadsheet |
-| Pronom | 2604 | OpenDocument Text | odt | application/vnd.oasis.opendocument.text |
-| Pronom | 2605 | Apple Partition Map - ISO 9660 - UDF Hybrid Disk Image | iso, toast, dmg |  |
-| Pronom | 2607 | Media Descriptor File | mdf |  |
-| Pronom | 2608 | Media Descriptor Sidecar File | mds |  |
-| Pronom | 2610 | CloneCD Control File | ccd |  |
-| Pronom | 2611 | MacBinary |  |  |
-| Pronom | 2612 | MacBinary | bin |  |
-| Pronom | 2613 | MacBinary | bin |  |
-| Pronom | 2614 | Sony SLV File | slv |  |
-| Pronom | 2615 | Media Hash List | mhl |  |
-| Pronom | 2616 | Sony SML File | sml |  |
-| Pronom | 2617 | Calc602 Project File | pc6 |  |
-| Pronom | 2618 | C Source Code File | c |  |
-| Pronom | 2619 | C++ Source Code File | cpp, cxx, cc |  |
-| Pronom | 2620 | GenBank Flat File | gb, gbk |  |
-| Pronom | 2621 | ESRI Persistent Auxiliary Metadata File | xml, aux.xml |  |
-| Pronom | 2622 | Casio QV CAM | cam |  |
-| Pronom | 2623 | Calc602 Spreadsheet File | bak, tc6 |  |
-| Pronom | 2624 | 602 Graph/Chart File | gc6 |  |
-| Pronom | 2625 | Calc602 Project File | pc6 |  |
-| Pronom | 2626 | Extensible Markup Language | xml | application/xml, text/xml |
-| Pronom | 2627 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
-| Pronom | 2628 | Dynamic Publisher Picture File | pct |  |
-| Pronom | 2629 | Dynamic Publisher Font File | fnt |  |
-| Pronom | 2630 | Koala MicroIllustrator Graphic File | pic |  |
-| Pronom | 2631 | Pentax PEF Image File | pef | image/dng |
-| Pronom | 2632 | The Spectral Geologist Dataset | tsg |  |
-| Pronom | 2633 | The Spectral Geologist Dataset | tsg |  |
-| Pronom | 2634 | Animatic Film Format | flm |  |
-| Pronom | 2635 | FLR Database File | flr |  |
-| Pronom | 2636 | Funpaint Image File | fun, fp2, vic |  |
-| Pronom | 2637 | G9B Graphics Format Bitmap | g9b |  |
-| Pronom | 2638 | Gunpaint Image File | gun |  |
-| Pronom | 2639 | GX2 Graphics File | gx2, ega |  |
-| Pronom | 2640 | Help Librarian File | hlp, dat, dta |  |
-| Pronom | 2641 | Haiku Vector Icon Format | hvif |  |
-| Pronom | 2642 | ICDRAW Single Icon File | ibi |  |
-| Pronom | 2643 | ICDRAW Group Icon File | ib3 |  |
-| Pronom | 2644 | JPEG 2000 Codestream | j2k, jpc, j2c | image/jp2 |
-| Pronom | 2645 | Asymetrix Toolbook File | tbk, sbk |  |
-| Pronom | 2647 | Wireless Markup Language (WML) Document | wml | text/vnd.wap.wml |
-| Pronom | 2648 | SHA512 File | sha512 |  |
-| Pronom | 2649 | CHAT Transcription Format | cha | text/x-chat |
-| Pronom | 2650 | FLExText Interlinear XML Format | flextext |  |
-| Pronom | 2651 | Multimedia Viewer Book | mvb |  |
-| Pronom | 2652 | Praat TextGrid | textgrid | text/praat-textgrid |
-| Pronom | 2653 | Transcriber AG TAG Format | tag |  |
-| Pronom | 2654 | Transcriber TRS Format | trs |  |
-| Pronom | 2655 | B Source Code File | b |  |
-| Pronom | 2656 | Microsoft Access Database File | mdb, mda |  |
-| Pronom | 2657 | Microsoft Access Database File | mdb, mda |  |
-| Pronom | 2658 | Microsoft Access Encrypted Database File | mdb, mda |  |
-| Pronom | 2659 | Microsoft Access Encrypted Database File | mdb, mda |  |
-| Pronom | 2660 | Microsoft Access Encrypted Database File | mdb, mda |  |
-| Pronom | 2661 | Raw PIMA SWIR Reflectance Spectral File | fos |  |
-| Pronom | 2662 | Vips Image | v, vips |  |
-| Pronom | 2663 | Audio Data Transport Stream | aac, adts | audio/aac, audio/vnd.dlna.adts |
-| Pronom | 2664 | xdomea | xml |  |
-| Pronom | 2665 | Adobe Color Book for Windows | acb |  |
-| Pronom | 2666 | Adobe Color Swatch | aco |  |
-| Pronom | 2667 | Adobe Swatch Exchange | ase |  |
-| Pronom | 2668 | Direct Stream Digital Stream File | dsf |  |
-| Pronom | 2669 | Direct Stream Digital Interchange File Format | dff |  |
-| Pronom | 2670 | MacCaption File | mcc |  |
-| Pronom | 2671 | MacCaption File | mcc |  |
-| Pronom | 2672 | MacCaption Project | cca |  |
-| Pronom | 2673 | Audacity Audio Block File | au |  |
-| Pronom | 2674 | Audacity Project File | aup |  |
-| Pronom | 2675 | Audacity Project File | aup |  |
-| Pronom | 2676 | Audacity Project File | aup |  |
-| Pronom | 2677 | Audacity Project File | aup3 |  |
-| Pronom | 2678 | DOCX Strict OOXML Document | docx | application/vnd.openxmlformats-officedocument.wordprocessingml.document |
-| Pronom | 2679 | XLSX Strict OOXML Spreadsheet | xlsx | application/vnd.openxmlformats-officedocument.wordprocessingml.document |
-| Pronom | 2681 | PPTX Strict OOXML Presentation | pptx | application/vnd.openxmlformats-officedocument.presentationml.presentation |
-| Pronom | 2682 | 3D Studio (DOS) 2D/3D Loft Object File | lft |  |
-| Pronom | 2683 | 3D Studio (DOS) Project File | prj |  |
-| Pronom | 2684 | ArcSoft PhotoStudio File | psf |  |
-| Pronom | 2685 | ArcSoft Album and SlideShow Files for PhotoStudio and PhotoImpression | abm, sld |  |
-| Pronom | 2686 | GoDot 4Bit Graphics Format | 4bt |  |
-| Pronom | 2687 | Archiver Format | a |  |
-| Pronom | 2688 | Brio Query File | bqy |  |
-| Pronom | 2689 | WordPerfect Presentations | shw |  |
-| Pronom | 2690 | Leica Project File | lgs |  |
-| Pronom | 2691 | Microsoft Publisher Packaged Document | puz |  |
-| Pronom | 2692 | WACZ | wacz | application/x-wacz |
-| Pronom | 2693 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
-| Pronom | 2694 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
-| Pronom | 2695 | Human Machine Interfaces HMI File | hmi |  |
-| Pronom | 2696 | GNU Image Manipulation Program Palette File | gpl |  |
-| Pronom | 2697 | Final Draft Document | fdx |  |
-| Pronom | 2698 | Fountain Markup Language File | spmd, fountain |  |
-| Pronom | 2699 | Esri ArcMap Label file | lxp |  |
-| Pronom | 2700 | Trelby Document File | trelby |  |
-| Pronom | 2701 | General Purpose RAW | gpr |  |
-| Pronom | 2702 | WordPerfect Macro File | wpm, wcm |  |
-| Pronom | 2704 | DAV Video Format | dav |  |
-| Pronom | 2705 | Camtasia Recording File | camrec |  |
-| Pronom | 2706 | Camtasia Studio Project | camproj |  |
-| Pronom | 2707 | Open Media Framework Interchange | omf |  |
-| Pronom | 2709 | Open Media Framework Interchange | omf |  |
-| Pronom | 2710 | Enhanced Image Package | eip |  |
-| Pronom | 2711 | Capture One Session File | cos |  |
-| Pronom | 2712 | Microsoft Excel Workspace File | xlw | application/vnd.ms-excel |
-| Pronom | 2713 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
-| Pronom | 2714 | dBASE Report Form Definition File | frm |  |
-| Pronom | 2715 | Quicken 3 Database File | qst |  |
-| Pronom | 2716 | Adobe Illustrator CC Artwork | ai, ait |  |
-| Pronom | 2717 | Adobe Illustrator CC 2020 Artwork | ai, ait |  |
-| Pronom | 2718 | Adobe Illustrator CC 2020 Artwork | ai, ait |  |
-| Pronom | 2719 | SWiSH Movie File | swi |  |
-| Pronom | 2720 | Microsoft Powerpoint for Macintosh | ppt | application/vnd.ms-PowerPoint |
-| Pronom | 2721 | Microsoft Powerpoint for Macintosh | ppt | application/vnd.ms-PowerPoint |
-| Pronom | 2722 | Leapfrog Geo 3D Scene Format | lfsc |  |
-| Pronom | 2723 | SPSS PC File Format |  |  |
-| Pronom | 2724 | Yamaha PSR Disk Manager File | mng |  |
-| Pronom | 2725 | Common Interface File | cif, mca |  |
-| Pronom | 2726 | Guitar Pro File | gtp |  |
-| Pronom | 2727 | Guitar Pro File | gp3, gp4, gp5 |  |
-| Pronom | 2728 | Esko ArtPro File | ap |  |
-| Pronom | 2729 | Maptech BSB Documentation File | bsb, kap |  |
-| Pronom | 2730 | HMM Packfile | pak |  |
-| Pronom | 2731 | GST Art File | art |  |
-| Pronom | 2732 | GST Art File | art |  |
-| Pronom | 2733 | vCard | vcf, vcard | text/vcard |
-| Pronom | 2734 | vCard | vcf, vcard | text/vcard |
-| Pronom | 2735 | vCard | vcf, vcard | text/vcard |
-| Pronom | 2736 | OPML File | opml |  |
-| Pronom | 2738 | OPML File | opml |  |
-| Pronom | 2739 | CloudCompare Entity File | bin |  |
-| Pronom | 2740 | Encapsulated PostScript File Format | eps, epsf | application/postscript |
-| Pronom | 2741 | Resource Interchange File Format (RIFF) |  |  |
-| Pronom | 2742 | Common Instrument File (CIF) | ci1 |  |
-| Pronom | 2744 | Common Instrument File (CIF) | ci2 |  |
-| Pronom | 2745 | Open Access III Document | ext |  |
-| Pronom | 2746 | Memory Stick Voice File (MSV) | msv |  |
-| Pronom | 2747 | Digital Voice File (DVF) | dvf |  |
-| Pronom | 2748 | Memory Stick Voice File (MSV)/Digital Voice File (DVF) | msv, dvf |  |
-| Pronom | 2749 | Microsoft Agent File | acs |  |
-| Pronom | 2750 | RagTime Document File |  |  |
-| Pronom | 2751 | RagTime Document File | rtd, rtt |  |
-| Pronom | 2752 | Nokia Picture Message | npm |  |
-| Pronom | 2753 | Ptex File Format | ptx |  |
-| Pronom | 2754 | Perfect ZX Tape (PZX) Image Format | pzx |  |
-| Pronom | 2755 | RIS Citation | ris | application/x-research-info-systems |
-| Pronom | 2756 | Mass Spectrometry Markup Language | mxml |  |
-| Pronom | 2757 | SGI Movie File | mv, movie |  |
-| Pronom | 2758 | Norton Change Directory Persistent Cache File | ncd |  |
-| Pronom | 2759 | Garmin Vehicle Images File | srf |  |
-| Pronom | 2760 | Pasti Floppy Disk Image | stx |  |
-| Pronom | 2761 | Universal Scene Description ASCII File | usda |  |
-| Pronom | 2762 | VBM (VDC BitMap) File | vbm |  |
-| Pronom | 2763 | Micrografx Icon File | icn |  |
-| Pronom | 2764 | Jupiter Tesselation (JT) File | jt |  |
-| Pronom | 2765 | TibetDoc Word Document | dct |  |
-| Pronom | 2766 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| Pronom | 2767 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| Pronom | 2770 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
-| Pronom | 2771 | Graphisoft Archicad Project | pln, pla |  |
-| Pronom | 2772 | Graphisoft BIMx Hyper-Model | bimx |  |
-| Pronom | 2773 | ActiveMime Object | mso |  |
-| Pronom | 2774 | Autodesk Alias Wire Format |  |  |
-| Pronom | 2775 | BigTIFF | tif, tf8, btf |  |
-| Pronom | 2776 | MetaCard Stack | mc, rev |  |
-| Pronom | 2777 | Revolution Stack | rev, livecode |  |
-| Pronom | 2778 | LiveCode Stack | rev, livecode |  |
-| Pronom | 2779 | LiveCode Stack | rev, livecode |  |
-| Pronom | 2781 | LiveCode Stack |  |  |
-| Pronom | 2782 | LiveCode Stack | rev, livecode |  |
-| Pronom | 2783 | CorelDraw Drawing | cdr |  |
-| Pronom | 2784 | CorelDraw Drawing | cdr |  |
-| Pronom | 2785 | CorelDraw Drawing | cdr |  |
-| Pronom | 2787 | CorelDraw Drawing | cdr |  |
-| Pronom | 2789 | CorelDraw Drawing | cdr |  |
-| Pronom | 2790 | CorelDraw Drawing | cdr |  |
-| Pronom | 2791 | CorelDraw Drawing | cdr |  |
-| Pronom | 2792 | CorelDraw Drawing | cdr |  |
-| Pronom | 2793 | CorelDraw Drawing | cdr |  |
-| Pronom | 2794 | CorelDraw Drawing | cdr |  |
-| Pronom | 2795 | CorelDraw Drawing | cdr |  |
-| Pronom | 2796 | S-57 Electronic Navigational Chart | 000, 001, 002, 003, 004, 006 |  |
-| Pronom | 2797 | PCRaster | csf, map |  |
-| Pronom | 2798 | Amazon Kindle eBook File | azw, azw3, mobi, amr |  |
-| Pronom | 2799 | Lotus Screencam Data File | scm | application/vnd.lotus-screencam |
-| Pronom | 2800 | Auto FX PhotoGraphic Edges Image File | afx |  |
-| Pronom | 2801 | EBU Subtitling Data Exchange Format | stl |  |
-| Pronom | 2802 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2803 | Adobe InDesign Document | indd, ind, indt |  |
-| Pronom | 2804 | Digital Negative Format (DNG) | dng | image/dng |
-| Pronom | 2805 | Common Loudspeaker Format (CLF) | cf1 |  |
-| Pronom | 2807 | Common Loudspeaker Format (CLF) | cf2 |  |
-| Pronom | 2808 | Draw.io Diagram (XML) File | drawio, xml |  |
-| Pronom | 2809 | OpenWayback CDXJ File Format | cdx, cdxj |  |
-| Pronom | 2810 | Common Data Format dotCDF | cdf |  |
-| Pronom | 2812 | Common Data Format dotCDF | cdf |  |
-| Pronom | 2813 | Common Data Format dotCDF | cdf |  |
-| Pronom | 2814 | Pro Tools Session File | ptf, pts |  |
-| Pronom | 2816 | PechaMaker Format | pxp |  |
-| Pronom | 2817 | Zoom Project Settings | hprj |  |
-| Pronom | 2819 | Zoom Project Settings | hprj |  |
-| Pronom | 2820 | Graphisoft Archicad Project | pla, pln |  |
-| Pronom | 2821 | Sandboxels Save File | sbxls |  |
-| Pronom | 2822 | Program Embroidery Stitch (PES) File | pes |  |
-| Pronom | 2823 | Melco OFM Project | ofm |  |
-| Pronom | 2824 | Melco OFM Project | ofm |  |
-| Pronom | 2825 | Disklavier E-Seq Music | fil, esq |  |
-| Pronom | 2826 | Shorten (codec) | shn |  |
-| Pronom | 2827 | SolidWorks Material Database File | sldmat |  |
-| Pronom | 2828 | NEC Thermo Tracer Image File | tmp |  |
-| Pronom | 2829 | JPH (JPEG 2000 part 15) | jph | image/jph |
-| Pronom | 2830 | Papyrus Document | pap, pav, pbf |  |
-| Pronom | 2831 | Final Writer Document | fw |  |
-| Pronom | 2833 | Solidworks Design Document Files | sldprt, slddrw, sldasm, sld, sldlfp, slddrt |  |
-| Pronom | 2834 | Atrac Codec File | aea |  |
-| Pronom | 2835 | ETC Express/Expression Show File | shw |  |
-| Pronom | 2836 | MOXCEL | mxl |  |
-| Pronom | 2837 | Enigma Binary File (Finale) | mus |  |
-| Pronom | 2839 | Enigma Binary File (Finale) | mus |  |
-| Pronom | 2840 | Finale Performance Assessment | fpa |  |
-| Pronom | 2841 | Finale Notation File | musx | application/vnd.makemusic.notation |
-| Pronom | 2842 | ICC Profile | icc, icm | application/vnd.iccprofile |
-| Pronom | 2843 | ICC Profile | icc, icm | application/vnd.iccprofile |
-| Pronom | 2844 | ICC Profile | icc, icm | application/vnd.iccprofile |
-| Pronom | 2848 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2849 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2851 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2852 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2854 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2855 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2856 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2857 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2859 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2860 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2861 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2862 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2863 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2864 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2865 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2866 | Sibelius Score | sib | application/x-sibelius-score |
-| Pronom | 2868 | Sibelius Scorch | sco |  |
-| Pronom | 2869 | WinFax Fax Image | fxr, fxm, fxs |  |
-| Pronom | 2870 | SPIR-V | spirv |  |
-| Pronom | 2871 | IMF Package Asset Map | xml |  |
-| Pronom | 2872 | IMF Package Packing List | xml |  |
-| Pronom | 2873 | IMF Package Composition Playlist | xml |  |
-| Pronom | 2874 | Husqvarna Embroidery Stitch File | hus |  |
-| Pronom | 2876 | Husqvarna / Pfaff Embroidery Stitch File | vip |  |
-| Pronom | 2877 | Husqvarna / TruE Embroidery Stitch File | vp3 |  |
-| Pronom | 2878 | Husqvarna / Premier+ Embroidery Stitch File | vp4 |  |
-| Pronom | 2879 | Husqvarna-Viking Designer 1 Stitch File | shv, mhv, phv |  |
-| Pronom | 2880 | Compressed MusicXML | mxl | application/vnd.recordare.musicxml |
-| Pronom | 2881 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
-| Pronom | 2882 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
-| Pronom | 2883 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
-| Pronom | 3881 | Protein Data Bank File | pdb |  |
-| Pronom | 3882 | Visualization Toolkit | vtk |  |
-| Pronom | 3883 | Visualization Toolkit | vtk |  |
-| Pronom | 3884 | Visualization Toolkit | vtk |  |
-| Pronom | 3886 | RawACF | rawacf |  |
-| Pronom | 3888 | Axon Binary Format | abf |  |
-| Pronom | 3889 | KryoFlux Stream | raw |  |
-| Pronom | 3890 | Binvox | binvox |  |
-| Pronom | 3891 | GraphPad Prism | pzfx | application/x-graphpad-prism-pzfx |
-| Pronom | 3892 | Sony OpenMG Audio | oma | audio/ATRAC-ADVANCED-LOSSLESS |
-| Pronom | 3893 | askSam Document for DOS | ask |  |
-| Pronom | 3894 | askSam Document for Windows | ask |  |
-| Pronom | 3895 | askSam Document for Windows | ask |  |
-| Pronom | 3896 | askSam Document for Windows | ask |  |
-| Pronom | 3897 | Parquet File | parquet |  |
-| Pronom | 3898 | CD Architect Project File | cdp |  |
-| Pronom | 3899 | CD Architect Project File | cdp |  |
-| Pronom | 3900 | Codebook Exchange Format | qdc |  |
-| Pronom | 3901 | Microsoft Project | mpp | application/vnd.ms-project |
-| Pronom | 3902 | Microsoft Project | mpp |  |
-| Pronom | 3903 | Apache Avro | avro |  |
-| Pronom | 3904 | Apache ORC | orc |  |
-| Pronom | 3905 | HxC Floppy Emulator Disk Image | hfe |  |
-| Pronom | 3906 | Open Packaging Format | opf |  |
-| Pronom | 3907 | Daisy Talking Book Navigation Control File | ncx |  |
-| Pronom | 3909 | Daisy Talking Book Resource File | res |  |
-| Pronom | 3910 | Plextalk Project File (imph) | imph |  |
-| Pronom | 3911 | Plextalk Project File (imdn) | imdn |  |
-| Pronom | 3912 | Plextalk Project File (imtt) | imtt |  |
-| Pronom | 3913 | HxC Floppy Emulator Disk Image | hfe |  |
-| Pronom | 3914 | HxC Floppy Emulator Stream Image | hfe |  |
 | Wikidata | 2053 | HTML5 | htm, html | text/html |
 | Wikidata | 2063 | JSON | json | application/json |
 | Wikidata | 2115 | XML | xml | application/xml, text/xml |
@@ -2692,10 +195,11 @@
 | Wikidata | 1544897 | Tag Library Descriptor | tld |  |
 | Wikidata | 1545782 | Smart Game Format | sgf |  |
 | Wikidata | 1546911 | Cross-Platform Installer Module | xpi | application/x-xpinstall |
+| Wikidata | 1563051 | HDRi | tif, tiff |  |
 | Wikidata | 1566078 | HTML Application | hta | application/hta |
 | Wikidata | 1569639 | Interchange File Format | iff | application/x-iff |
 | Wikidata | 1570391 | Uuencoding | uu, uue | text/x-uuencode |
-| Wikidata | 1587964 | Harwell-Boeing file format | rua |  |
+| Wikidata | 1587964 | Harwell-Boeing file format | hb, rua |  |
 | Wikidata | 1589482 | JT | JT |  |
 | Wikidata | 1593782 | FASTA format | fa, fasta | chemical/seq-aa-fasta, chemical/seq-na-fasta, text/plain |
 | Wikidata | 1601331 | Transport Neutral Encapsulation Format | dat, tnef | application/vnd.ms-tnef |
@@ -4278,7 +1782,7 @@
 | Wikidata | 28807546 | Microsoft Office Binder File for Windows 97-2000 | obd |  |
 | Wikidata | 28846076 | Classification Results File Format | clr |  |
 | Wikidata | 28848214 | Statistical Package for the Social Sciences data file | sav | application/x-spss-sav |
-| Wikidata | 28915683 | Apache Parquet | parquet |  |
+| Wikidata | 28915683 | Apache Parquet | parquet | application/vnd.apache.parquet |
 | Wikidata | 28919030 | AC-3 Compressed Audio (Dolby Digital), Revision A | ac3 | audio/ac3 |
 | Wikidata | 28919035 | Type-1 DV AVI | avi |  |
 | Wikidata | 28919037 | Type-2 DV AVI | avi |  |
@@ -16137,3 +13641,6210 @@
 | Wikidata | 133146964 | Microsoft Project file, version 1 | mpp | application/vnd.ms-project |
 | Wikidata | 133249811 | Microsoft Project file, version 3 | mpp |  |
 | Wikidata | 133252316 | Open Packaging Format 3 | opf |  |
+| Wikidata | 133258216 | Daisy Talking Book Navigation Control File 3 | ncx |  |
+| Wikidata | 133263297 | Daisy Talking Book Resource File 3 | res |  |
+| Wikidata | 133263690 | Plextalk Project File (imph) | imph |  |
+| Wikidata | 133264096 | Plextalk Project File (imdn) | imdn |  |
+| Wikidata | 133269479 | Plextalk Project File (imtt) | imtt |  |
+| Wikidata | 133270072 | GeoConcept text file | gxt |  |
+| Wikidata | 133271766 | DuckDB database file | ddb, duckdb |  |
+| Wikidata | 133285299 | Apache Arrow | arrow | application/vnd.apache.arrow.file |
+| Pronom | 8 | Microsoft Word for Macintosh Document | mcw | application/msword |
+| Pronom | 11 | Microsoft Word for Macintosh Document |  |  |
+| Pronom | 13 | Online Description Tool Format | odt |  |
+| Pronom | 14 | Write for Windows Document | wri |  |
+| Pronom | 15 | Works for Macintosh Document |  |  |
+| Pronom | 16 | FoxPro Database | dbf |  |
+| Pronom | 17 | FoxPro Database | dbf |  |
+| Pronom | 18 | dBASE Database | dbf |  |
+| Pronom | 19 | dBASE Database | dbf |  |
+| Pronom | 20 | dBASE Database | dbf | application/dbase |
+| Pronom | 27 | Revisable-Form-Text Document Content Architecture |  |  |
+| Pronom | 28 | Write for Windows Document | wri |  |
+| Pronom | 40 | Tab-separated Values | tsv, tab | text/tab-separated-values |
+| Pronom | 41 | Macintosh Text File |  | text/plain |
+| Pronom | 42 | MS-DOS Text File |  | text/plain |
+| Pronom | 43 | Unicode Text File |  | text/plain |
+| Pronom | 44 | Microsoft Excel Template | xlt | application/vnd.ms-excel |
+| Pronom | 45 | Comma Separated Values | csv | text/csv |
+| Pronom | 48 | 3D Studio | 3ds |  |
+| Pronom | 49 | Adobe Illustrator | ai | application/postscript |
+| Pronom | 50 | 7-bit ANSI Text | ans | text/plain |
+| Pronom | 51 | 7-bit ASCII Text | asc | text/plain |
+| Pronom | 52 | Microsoft Excel Backup | xlk |  |
+| Pronom | 53 | AutoCAD Block Attribute Template | blk |  |
+| Pronom | 55 | OS/2 Bitmap |  |  |
+| Pronom | 56 | AutoCAD Batch Plot File | bp2, bpl |  |
+| Pronom | 57 | AutoCAD Batch Plot File | bp3 |  |
+| Pronom | 59 | CALS Compressed Bitmap | cal |  |
+| Pronom | 60 | CorelDraw Drawing | cdr |  |
+| Pronom | 61 | CorelDraw Template | cdt |  |
+| Pronom | 62 | CorelDraw Compressed Drawing | cdx, cjw |  |
+| Pronom | 63 | Harvard Graphics Chart | ch3 |  |
+| Pronom | 64 | Corel R.A.V.E. | clk |  |
+| Pronom | 65 | Corel Presentation Exchange File | cmx |  |
+| Pronom | 66 | Corel Presentation Exchange File | cmx |  |
+| Pronom | 67 | CorelDraw Compressed Drawing | cpx |  |
+| Pronom | 68 | AutoCAD Colour-Dependant Plot Style Table | ctb |  |
+| Pronom | 69 | AutoCAD Custom Dictionary | cus |  |
+| Pronom | 70 | AutoCAD dbConnect Query Set | dbq |  |
+| Pronom | 71 | AutoCAD dbConnect Template Set | dbt |  |
+| Pronom | 72 | Data Interchange Format | dif |  |
+| Pronom | 73 | Wordperfect Secondary File | doc |  |
+| Pronom | 74 | Wordperfect Secondary File | doc |  |
+| Pronom | 75 | WordPerfect for MS-DOS/Windows Document | doc, wpd, wp6, wp, w60, w61, w62 | application/vnd.wordperfect |
+| Pronom | 76 | Microsoft Word Document Template | dot |  |
+| Pronom | 77 | Microsoft Excel ODBC Query | dqy |  |
+| Pronom | 78 | Micrografx Draw | drw |  |
+| Pronom | 79 | Visual Basic Macro | dvb |  |
+| Pronom | 80 | AutoCAD Design Web Format | dwf | application/dwf, application/x-dwf, drawing/x-dwf, image/vnd.dwf, image/x-dwf, model/vnd.dwf |
+| Pronom | 82 | AutoCAD Drawing Standards File | dws |  |
+| Pronom | 83 | AutoCAD Drawing Template | dwt |  |
+| Pronom | 85 | Drawing Interchange Format Style Extract | dxx |  |
+| Pronom | 86 | Encapsulated PostScript File Format | eps, epsf | application/postscript |
+| Pronom | 87 | Macromedia Freehand | fh5, fh4 |  |
+| Pronom | 88 | AutoCAD Font Mapping Table | fmp |  |
+| Pronom | 89 | Frame Vector Metafile | fmv |  |
+| Pronom | 90 | Kodak FlashPix Image | fpx | image/vnd.fpx |
+| Pronom | 91 | Ventura Publisher Vector Graphics | gem |  |
+| Pronom | 95 | Microsoft Excel Web Query | iqy |  |
+| Pronom | 100 | AutoCAD Last Saved Layer State | las |  |
+| Pronom | 101 | AutoCAD Linetype Definition File | lin |  |
+| Pronom | 102 | AutoCAD Landscape Library | lli |  |
+| Pronom | 103 | Log File | log |  |
+| Pronom | 104 | AutoLISP File | lsp |  |
+| Pronom | 105 | Microsoft Word for Macintosh Document | mcw | application/msword |
+| Pronom | 106 | Microsoft Word for Macintosh Document | mcw | application/msword |
+| Pronom | 107 | Microsoft Access Database File | mdb, mda |  |
+| Pronom | 108 | OS/2 Presentation Manager Metafile (MET) | met |  |
+| Pronom | 109 | AutoCAD Compiled Menu | mnc |  |
+| Pronom | 110 | AutoLISP Menu Source File | mnl |  |
+| Pronom | 111 | AutoCAD Menu Resource File | mnr, mnt |  |
+| Pronom | 112 | AutoCAD Source Menu File | mns |  |
+| Pronom | 114 | AutoCAD Template Menu File | mnu |  |
+| Pronom | 115 | Microsoft Outlook Address Book | olk |  |
+| Pronom | 116 | Microsoft Excel OLAP Query | oqy |  |
+| Pronom | 117 | Microsoft Outlook Personal Address Book | pab |  |
+| Pronom | 118 | CorelDraw Pattern | pat |  |
+| Pronom | 119 | AutoCAD Plot Configuration File | pc2 |  |
+| Pronom | 120 | AutoCAD Plot Configuration File | pc3 |  |
+| Pronom | 121 | AutoCAD Plot Configuration File | pcp |  |
+| Pronom | 122 | Macintosh PICT Image | pct, pict | image/x-pict |
+| Pronom | 125 | Inkwriter/Notetaker Template | pdt |  |
+| Pronom | 126 | Lotus 1-2-3 Chart | pic |  |
+| Pronom | 127 | Hewlett Packard Vector Graphic Plotter File | plt |  |
+| Pronom | 129 | Microsoft Powerpoint Design Template | pot |  |
+| Pronom | 130 | Picture Publisher Bitmap | pp5 |  |
+| Pronom | 131 | Microsoft Powerpoint Add-In | ppa |  |
+| Pronom | 132 | Microsoft Powerpoint Presentation Show | pps | application/vnd.ms-powerpoint |
+| Pronom | 133 | Microsoft PowerPoint Presentation | ppt | application/vnd.ms-powerpoint |
+| Pronom | 134 | Microsoft Powerpoint Presentation | ppt | application/vnd.ms-powerpoint |
+| Pronom | 135 | Microsoft Powerpoint Presentation | ppt | application/vnd.ms-powerpoint |
+| Pronom | 136 | Freelance File | pre |  |
+| Pronom | 137 | Microsoft Print File | prn |  |
+| Pronom | 138 | Postscript | ps | application/postscript |
+| Pronom | 139 | Adobe Photoshop | psd, pdd | image/vnd.adobe.photoshop |
+| Pronom | 140 | Postscript Support File | psf |  |
+| Pronom | 141 | Pocket Word Document | psw, pwd |  |
+| Pronom | 143 | Inkwriter/Notetaker Document | pwi |  |
+| Pronom | 144 | Pocket Word Template | pwt |  |
+| Pronom | 145 | Microsoft Excel OLE DB Query | rqy |  |
+| Pronom | 146 | AutoCAD ACIS Export File | sat |  |
+| Pronom | 147 | Schedule+ Contacts | scd |  |
+| Pronom | 148 | AutoCAD Script | scr |  |
+| Pronom | 149 | Harvard Graphics Show | sh3 |  |
+| Pronom | 150 | 3D Studio (DOS) 2D Shape File | shp |  |
+| Pronom | 151 | AutoCAD Compiled Shape/Font File | shx |  |
+| Pronom | 152 | AutoCAD Slide Library | slb |  |
+| Pronom | 153 | AutoCAD Slide | sld | application/sld, application/x-sld, image/x-sld |
+| Pronom | 154 | Microsoft Symbolic Link (SYLK) File | slk |  |
+| Pronom | 155 | AutoCAD Named Plot Style Table | stb |  |
+| Pronom | 156 | STL (Standard Tessellation Language) ASCII | stl |  |
+| Pronom | 158 | Scalable Vector Graphics Compressed | svgz | image/svg+xml |
+| Pronom | 162 | Fixed Width Values Text File |  | text/plain |
+| Pronom | 163 | Plain Text File | txt | text/plain |
+| Pronom | 164 | AutoCAD External Database Configuration File | udl |  |
+| Pronom | 165 | Microsoft Visio Drawing | vsd, vst, vss | application/vnd.visio |
+| Pronom | 166 | Lotus 1-2-3 Worksheet | wk1, wk2 | application/vnd.lotus-1-2-3, application/x-123 |
+| Pronom | 167 | Lotus 1-2-3 Worksheet | wk3 | application/lotus123, application/vnd.lotus-1-2-3 |
+| Pronom | 168 | Lotus 1-2-3 Worksheet | wk4 | application/lotus123, application/vnd.lotus-1-2-3 |
+| Pronom | 169 | Lotus 1-2-3 Worksheet | wks | application/vnd.lotus-1-2-3, application/x-123 |
+| Pronom | 170 | Microsoft Works Spreadsheet |  |  |
+| Pronom | 171 | Windows Metafile Image | wmf | image/wmf |
+| Pronom | 175 | Microsoft Works for Windows |  |  |
+| Pronom | 176 | Quattro Pro Spreadsheet for DOS | wq1, wkq |  |
+| Pronom | 177 | Quattro Pro Spreadsheet for DOS | wq2, wkq |  |
+| Pronom | 178 | Microsoft Excel Macro | xla, xlm | application/vnd.ms-excel |
+| Pronom | 179 | Microsoft Excel Add-In | xla, xll |  |
+| Pronom | 180 | Microsoft Excel Toolbar | xlb |  |
+| Pronom | 181 | Microsoft Excel Chart | xlc |  |
+| Pronom | 182 | AutoCAD Xref Log | xlg |  |
+| Pronom | 186 | Microsoft Excel Workspace File | xlw |  |
+| Pronom | 188 | Microsoft Word for Macintosh Document |  |  |
+| Pronom | 189 | MS-DOS Text File with line breaks |  | text/plain |
+| Pronom | 190 | Stationery for Mac OS X | doc |  |
+| Pronom | 191 | Speller Custom Dictionary | dic |  |
+| Pronom | 192 | Speller Exclude Dictionary | dic |  |
+| Pronom | 193 | AutoCAD Device-Independent Binary Plotter File | adi |  |
+| Pronom | 194 | Audio Interchange File Format |  |  |
+| Pronom | 195 | Audio Interchange File Format (compressed) | aifc | audio/x-aiff |
+| Pronom | 197 | Electronic Arts Music | asf |  |
+| Pronom | 198 | Active Server Page | asp |  |
+| Pronom | 199 | NeXT/Sun sound | au | audio/basic |
+| Pronom | 201 | Silicon Graphics Image | bw, rgb | image/x-sgi-bw |
+| Pronom | 202 | Calendar Creator Plus Data File | cce |  |
+| Pronom | 203 | Computer Graphics Metafile ASCII | cgm | image/cgm |
+| Pronom | 204 | OS/2 Change Control File | cin |  |
+| Pronom | 205 | Corel Photo-Paint Image | cpt |  |
+| Pronom | 206 | Stats+ Data File |  |  |
+| Pronom | 207 | Scitex Continuous Tone Bitmap | ct, sct |  |
+| Pronom | 208 | Paradox Database Table | db |  |
+| Pronom | 209 | IBM DisplayWrite DCA Text File | dca |  |
+| Pronom | 210 | Desktop Color Separation File | dcs |  |
+| Pronom | 211 | Visual FoxPro Database Container File | dcx |  |
+| Pronom | 213 | Micrografx Designer | dsf |  |
+| Pronom | 214 | Digital Video | dv | video/dv |
+| Pronom | 215 | Microsoft Windows Enhanced Metafile | emf | image/emf |
+| Pronom | 216 | AutoDesk FLIC Animation | fli |  |
+| Pronom | 218 | AutoCAD Film Roll | flm |  |
+| Pronom | 219 | Ventura Publisher | gen |  |
+| Pronom | 221 | Interchange File | iff |  |
+| Pronom | 222 | Initial Graphics Exchange Specification (IGES) | iges, igs | model/iges |
+| Pronom | 223 | GEM Image | img |  |
+| Pronom | 227 | Java Servlet Page | jsp | text/html |
+| Pronom | 228 | MacPaint Image | mac |  |
+| Pronom | 229 | Adobe FrameMaker Interchange Format | mif | application/vnd.mif |
+| Pronom | 235 | NAP Metafile | nap |  |
+| Pronom | 236 | Portable Bitmap Image - ASCII | pbm | image/x-portable-bitmap |
+| Pronom | 237 | Kodak PhotoCD Image |  |  |
+| Pronom | 238 | PICS Animation | pcs |  |
+| Pronom | 239 | Adobe PhotoDeluxe | pdd |  |
+| Pronom | 240 | Broderbund Print Shop Deluxe | pcc, pdb, pdc, pda, pdl, pds, pdg |  |
+| Pronom | 241 | PHP Script Page | php | text/html |
+| Pronom | 242 | PC Paint Bitmap | pic |  |
+| Pronom | 244 | Inset Systems Bitmap | pix |  |
+| Pronom | 245 | Microsoft FoxPro Library | plb |  |
+| Pronom | 246 | PageMaker PC Document | pm5, pt5 | application/vnd.pagemaker |
+| Pronom | 247 | PageMaker PC Document | pm6, pt6 | application/vnd.pagemaker |
+| Pronom | 248 | MacPaint Graphics | pnt |  |
+| Pronom | 249 | Picture Publisher Bitmap | pp4 |  |
+| Pronom | 250 | Microsoft PowerPoint Graphics File | ppi |  |
+| Pronom | 251 | Portable Pixel Map - ASCII | ppm | image/x-portable-pixmap |
+| Pronom | 252 | Microsoft Visual Modeller Petal file (ASCII) | ptl |  |
+| Pronom | 253 | Instalit Script | pvd |  |
+| Pronom | 254 | PageMaker PC Document | p65, t65, pmd, pmt | application/vnd.pagemaker |
+| Pronom | 255 | QuarkXPress Data File | qxd, qxt, qxp, qcd, qxl, qxb, qwd, qwt, qpt | application/vnd.Quark.QuarkXPress |
+| Pronom | 256 | RealAudio Metafile | ram | audio/vnd.rn-realaudio, audio/x-pn-realaudio |
+| Pronom | 257 | Sun Raster Image | ras, sun | image/x-sun-raster |
+| Pronom | 258 | Raw Bitmap | raw |  |
+| Pronom | 259 | Silicon Graphics RGB File |  |  |
+| Pronom | 260 | Painter RIFF Image File | rif |  |
+| Pronom | 261 | SDSC Image Tool Wavefront Raster Image | rla |  |
+| Pronom | 262 | SDSC Image Tool Run-Length Encoded Bitmap | rle |  |
+| Pronom | 263 | RealMedia | rm, rmvb | application/vnd.rn-realmedia |
+| Pronom | 264 | AMI Professional Document | sam | application/vnd.lotus-wordpro |
+| Pronom | 265 | SAS for MS-DOS Catalog | sct |  |
+| Pronom | 266 | Unisys (Sperry) System Data File | sdf |  |
+| Pronom | 267 | IRIS Graphics |  |  |
+| Pronom | 268 | Standard Generalized Markup Language | sgml, sgm | text/sgml |
+| Pronom | 269 | NeXt Sound |  |  |
+| Pronom | 271 | DataFlex Query Tag Name | tag |  |
+| Pronom | 272 | Pagemaker TableEditor Graphics | tbl |  |
+| Pronom | 273 | Turbo Debugger Keystroke Recording File | tdk |  |
+| Pronom | 274 | PageMaker Time Stamp File | tym |  |
+| Pronom | 275 | CCITT G.711 Audio | ulaw |  |
+| Pronom | 279 | Corel Wavelet Compressed Bitmap | wi, wvl |  |
+| Pronom | 281 | WordPerfect for Windows Document | w52, wp, wpd, wp5 | application/vnd.wordperfect |
+| Pronom | 284 | Microsoft Word for Windows Macro | wpm |  |
+| Pronom | 285 | WordStar for MS-DOS Document | ws, ws5 |  |
+| Pronom | 286 | WordStar for Windows Document | wsd, ws, wsw |  |
+| Pronom | 287 | X-Windows Bitmap Image | xbm | image/x-xbitmap |
+| Pronom | 289 | X-Windows Pixmap Image | xpm | image/x-xpixmap |
+| Pronom | 290 | SDSC Image Tool X Window Dump Format | xwd |  |
+| Pronom | 291 | XYWrite Document | xy |  |
+| Pronom | 292 | XYWrite Document | xy3 |  |
+| Pronom | 299 | Lotus 1-2-3 Worksheet |  |  |
+| Pronom | 300 | Quicken Data File | abd, qdf, qel |  |
+| Pronom | 302 | Microsoft Paint | msp |  |
+| Pronom | 304 | GEM Metafile Format | gem |  |
+| Pronom | 306 | Microsoft Powerpoint Packaged Presentation | ppz |  |
+| Pronom | 308 | Adobe ACD | acd |  |
+| Pronom | 309 | ESRI Arc/Info Binary Grid | adf |  |
+| Pronom | 310 | Internet Archive | arc | application/x-internet-archive |
+| Pronom | 311 | Applixware Spreadsheet | as |  |
+| Pronom | 313 | MapBrowser/MapWriter Vector Map Data | cbd |  |
+| Pronom | 314 | CD Audio | cda | application/x-cdf |
+| Pronom | 315 | Autodesk Animator CEL File Format | cel |  |
+| Pronom | 316 | Cascading Style Sheet | css | text/css |
+| Pronom | 317 | ESRI MapInfo Data File | mid |  |
+| Pronom | 318 | ESRI Arc/Info Export File | e00, x00, e01, e02, e03, e04, e05, e06, e07, e08, e09, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20 |  |
+| Pronom | 319 | Geography Markup Language | gml | application/gml+xml |
+| Pronom | 320 | Applixware Bitmap | im |  |
+| Pronom | 321 | Intergraph Raster Image | ing |  |
+| Pronom | 322 | MIDI Audio | mid, midi | audio/midi |
+| Pronom | 323 | ESRI MapInfo Export File | mif |  |
+| Pronom | 324 | Microsoft Project Export File | mpx | application/x-project |
+| Pronom | 325 | Paint Shop Pro Image | psp |  |
+| Pronom | 326 | Paint Shop Pro Image | psp |  |
+| Pronom | 328 | ESRI Arc/View ShapeFile | shp |  |
+| Pronom | 331 | Encapsulated PostScript File Format | eps, epsf, ps | application/postscript |
+| Pronom | 332 | Encapsulated PostScript File Format | eps, epsf | application/postscript |
+| Pronom | 342 | WordStar for MS-DOS Document | ws |  |
+| Pronom | 343 | WordStar for MS-DOS Document | ws, ws6 |  |
+| Pronom | 350 | Microsoft Access Database File | mdb, mda, mde, mdt |  |
+| Pronom | 351 | Microsoft Access Database File | mdb, mda, mdt, mde |  |
+| Pronom | 352 | Microsoft Access Database File | mdb, mde |  |
+| Pronom | 353 | Microsoft Access Database File | mdb, mde |  |
+| Pronom | 355 | Microsoft FoxPro Database | dbf |  |
+| Pronom | 359 | Microsoft Project | mpp | application/vnd.ms-project |
+| Pronom | 360 | Microsoft Project | mpp | application/vnd.ms-project |
+| Pronom | 361 | Microsoft Project | mpp | application/vnd.ms-project |
+| Pronom | 362 | Microsoft Project |  |  |
+| Pronom | 363 | Microsoft Project | mpp | application/vnd.ms-project |
+| Pronom | 364 | Microsoft Outlook Personal Folders (ANSI) | pst | application/vnd.ms-outlook |
+| Pronom | 365 | Microsoft Outlook Personal Folders (Unicode) | pst |  |
+| Pronom | 366 | Microsoft Outlook Personal Folders |  |  |
+| Pronom | 367 | Microsoft Outlook Personal Folders |  |  |
+| Pronom | 370 | Microsoft Publisher | pub | application/x-mspublisher |
+| Pronom | 371 | Microsoft Publisher | pub | application/x-mspublisher |
+| Pronom | 372 | Microsoft Publisher | pub | application/x-mspublisher |
+| Pronom | 373 | Microsoft Publisher | pub | application/x-mspublisher |
+| Pronom | 374 | Microsoft Publisher | pub | application/x-mspublisher |
+| Pronom | 375 | Microsoft Publisher | pub | application/x-mspublisher |
+| Pronom | 376 | Microsoft Visio Drawing | vsd, vss, vst | application/vnd.visio |
+| Pronom | 377 | Microsoft Visio Drawing |  |  |
+| Pronom | 378 | WordStar for MS-DOS Document | ws, ws4 |  |
+| Pronom | 379 | WordStar for MS-DOS Document | ws, ws7 |  |
+| Pronom | 380 | WordStar for Windows Document | ws, wsw |  |
+| Pronom | 382 | ZIP Format | zip | application/zip |
+| Pronom | 384 | RAR Archive | rar | application/vnd.rar |
+| Pronom | 385 | Tape Archive Format | tar | application/x-tar |
+| Pronom | 386 | GZIP Format | gz, z | application/gzip |
+| Pronom | 387 | BZIP Compressed Archive | bz |  |
+| Pronom | 388 | BZIP2 Compressed Archive | bz2 | application/x-bzip2 |
+| Pronom | 389 | ZOO Compressed Archive | zoo |  |
+| Pronom | 402 | OS/2 Bitmap | bmp | image/bmp |
+| Pronom | 403 | dBASE Database | dbf |  |
+| Pronom | 404 | dBASE Database | dbf |  |
+| Pronom | 405 | Microsoft Word for MS-DOS Document |  |  |
+| Pronom | 406 | Microsoft Word for MS-DOS Document | doc | application/msword |
+| Pronom | 407 | Microsoft Word for MS-DOS Document | doc | application/msword |
+| Pronom | 408 | Microsoft Word for MS-DOS Document | doc | application/msword |
+| Pronom | 422 | Real Video | rv | video/vnd.rn-realvideo |
+| Pronom | 424 | RealAudio | ra | audio/vnd.rn-realaudio |
+| Pronom | 425 | MPEG 1/2 Audio Layer 3 Streaming | m3u, m3u8 | audio/mpeg |
+| Pronom | 429 | XML Schema Definition | xsd | application/xml |
+| Pronom | 430 | Extensible Stylesheet Language | xsl | application/xml |
+| Pronom | 433 | 8-bit ANSI Text | ans | text/plain |
+| Pronom | 434 | 8-bit ASCII Text | asc | text/plain |
+| Pronom | 435 | IBM DisplayWrite Final Form Text File | fft |  |
+| Pronom | 436 | IBM DisplayWrite Revisable Form Text File | rft |  |
+| Pronom | 437 | DEC Data Exchange File | dx | application/dec-dx. |
+| Pronom | 438 | DEC WPS Plus Document | wpl |  |
+| Pronom | 439 | IBM DisplayWrite Document |  |  |
+| Pronom | 440 | IBM DisplayWrite Document |  |  |
+| Pronom | 441 | AMI Draw Vector Image | sdw |  |
+| Pronom | 444 | CorelDraw Drawing | cdr |  |
+| Pronom | 445 | CorelDraw Drawing | cdr |  |
+| Pronom | 446 | Hewlett Packard Graphics Language | hpgl | application/vnd.hp-HPGL |
+| Pronom | 447 | Micrografx Draw | drw |  |
+| Pronom | 448 | Micrografx Draw | drw, drt |  |
+| Pronom | 449 | Micrografx Designer | drw |  |
+| Pronom | 450 | Paint Shop Pro Image | psp, pspimage |  |
+| Pronom | 451 | Paint Shop Pro Image | psp, pspimage |  |
+| Pronom | 452 | X-Windows Bitmap Image | xbm | image/x-xbitmap |
+| Pronom | 453 | X-Windows Screen Dump File | xdm, xwd | image/x-xwindowdump |
+| Pronom | 455 | ACBM Graphics | acb |  |
+| Pronom | 456 | Visualization Toolkit | fm | application/vnd.framemaker |
+| Pronom | 457 | Aldus Freehand Drawing | fh3 |  |
+| Pronom | 458 | Aldus Freehand Drawing | fh4 |  |
+| Pronom | 463 | Apple Sound | afc |  |
+| Pronom | 464 | AutoSketch Drawing | skf |  |
+| Pronom | 465 | Paradox Database Memo Field (Binary Large Object) | dbq, mb |  |
+| Pronom | 466 | Btrieve Database | btr |  |
+| Pronom | 467 | ChiWriter Document | chi |  |
+| Pronom | 468 | CorelCHART Document | cch |  |
+| Pronom | 469 | dBASE Text Memo | dbt |  |
+| Pronom | 470 | DesignCAD Drawing | dc2, dc |  |
+| Pronom | 472 | DesignCAD for Windows Drawing | dw2 |  |
+| Pronom | 473 | Digital Terrain Elevation Data | dted, dt0, dt1, dt2, avg, min, max |  |
+| Pronom | 474 | Document Type Definition | dtd |  |
+| Pronom | 475 | Dr Halo Bitmap | cut |  |
+| Pronom | 476 | ESRI Arc/View Project | apr |  |
+| Pronom | 477 | FileMaker Pro Database | fp3, fmp, fp, fm | application/x-filemaker |
+| Pronom | 478 | FileMaker Pro Database | fp5, fmp, fp, fm |  |
+| Pronom | 482 | Fractal Image | fif |  |
+| Pronom | 483 | Framework Database | fw, fw2 |  |
+| Pronom | 485 | Framework Database | fw3 |  |
+| Pronom | 486 | Framework Database | fw4 |  |
+| Pronom | 487 | Harvard Graphics Show | shw |  |
+| Pronom | 488 | Harvard Graphics Vector Graphics | cht |  |
+| Pronom | 489 | Hewlett Packard AdvanceWrite Text File | aw |  |
+| Pronom | 490 | IntelliDraw Vector Graphics | idw |  |
+| Pronom | 491 | InterBase Database | gdb |  |
+| Pronom | 492 | Interleaf Document | doc |  |
+| Pronom | 493 | JustWrite Text Document | jw, jwt |  |
+| Pronom | 494 | Lotus 1-2-3 Spreadsheet Formatting File | fm1, fmt |  |
+| Pronom | 495 | Lotus 1-2-3 Spreadsheet Formatting File | fm3 |  |
+| Pronom | 496 | Lotus Approach View File | apr | application/vnd.lotus-approach |
+| Pronom | 497 | Lotus Approach View File | apt | application/vnd.lotus-approach |
+| Pronom | 498 | Lotus Freelance Smartmaster Graphics | mas | application/vnd.lotus-freelance |
+| Pronom | 499 | Lotus Notes Database | ns2, nsf | application/vnd.lotus-notes |
+| Pronom | 500 | Lotus Notes Database | ns3, nsf | application/vnd.lotus-notes |
+| Pronom | 501 | Lotus Notes Database | ns4, nsf | application/vnd.lotus-notes |
+| Pronom | 503 | Lotus Notes File | box |  |
+| Pronom | 504 | Lotus WordPro Document | lwp | application/lwp, application/vnd.lotus-wordpro |
+| Pronom | 505 | Macromedia Director | dir, dxr | application/x-director |
+| Pronom | 506 | Microsoft FoxPro Memo | fpt, frt, vct, pjt |  |
+| Pronom | 507 | Microsoft Visual FoxPro Table | dbx |  |
+| Pronom | 508 | Microsoft Works Database | bdb |  |
+| Pronom | 509 | Microsoft Works Document | bps |  |
+| Pronom | 510 | Microstation CAD Drawing | dgn |  |
+| Pronom | 511 | MultiMate Text File | dox, fnx, pat |  |
+| Pronom | 512 | Multipage Zsoft Paintbrush Bitmap Graphics | dcx | image/x-dcx |
+| Pronom | 513 | Nota Bene Text File | nb |  |
+| Pronom | 514 | OmniPage Pro Document | met |  |
+| Pronom | 515 | PageMaker Document | pm3 |  |
+| Pronom | 516 | PageMaker PC Document | pm4, pt4 | application/vnd.pagemaker |
+| Pronom | 518 | Professional Write Text File | pw |  |
+| Pronom | 520 | SAP Document | ali |  |
+| Pronom | 521 | SAS Data File | ssd |  |
+| Pronom | 522 | SAS for MS-DOS Database | ssd |  |
+| Pronom | 523 | Scanstudio 16-Colour Bitmap | adc |  |
+| Pronom | 524 | Silicon Graphics Graphics File |  |  |
+| Pronom | 525 | StarOffice Calc | sdc |  |
+| Pronom | 526 | StarOffice Impress | sdd |  |
+| Pronom | 527 | StatGraphics Data File | aws |  |
+| Pronom | 528 | StratGraphics Data File | asf |  |
+| Pronom | 529 | SuperCalc Spreadsheet | cal |  |
+| Pronom | 530 | SuperCalc Spreadsheet | cal |  |
+| Pronom | 531 | TeX Binary File | dvi | application/x-dvi |
+| Pronom | 532 | TeX/LaTeX Device Independent Document | dvi | application/x-dvi |
+| Pronom | 533 | Truevision TGA Bitmap | tga, icb, vda, vst, afi, bpx |  |
+| Pronom | 538 | VisiCalc Database | dif |  |
+| Pronom | 539 | Vista Pro Graphics | dem |  |
+| Pronom | 542 | WordStar for MS-DOS Document | ws3, ws |  |
+| Pronom | 547 | XYWrite for Windows Document | xyw |  |
+| Pronom | 548 | XYWrite Document | xyp |  |
+| Pronom | 549 | XYWrite Document | xy4 |  |
+| Pronom | 552 | CorelDraw Drawing | cdr |  |
+| Pronom | 553 | CorelDraw Drawing | cdr |  |
+| Pronom | 554 | Paint Shop Pro Image | pspimage |  |
+| Pronom | 555 | Paint Shop Pro Image | psp |  |
+| Pronom | 556 | CorelDraw Drawing | cdr |  |
+| Pronom | 557 | CorelDraw Drawing | cdr |  |
+| Pronom | 558 | dBASE for Windows database | dbf |  |
+| Pronom | 559 | Dia Graphics Format | dia |  |
+| Pronom | 609 | Tagged Image File Format |  |  |
+| Pronom | 610 | Tagged Image File Format |  |  |
+| Pronom | 611 | Tagged Image File Format |  |  |
+| Pronom | 612 | Tagged Image File Format |  |  |
+| Pronom | 613 | Acrobat PDF 1.0 - Portable Document Format | pdf | application/pdf |
+| Pronom | 614 | Acrobat PDF 1.1 - Portable Document Format | pdf | application/pdf |
+| Pronom | 615 | Acrobat PDF 1.2 - Portable Document Format | pdf | application/pdf |
+| Pronom | 616 | Acrobat PDF 1.3 - Portable Document Format | pdf | application/pdf |
+| Pronom | 617 | Acrobat PDF 1.4 - Portable Document Format | pdf | application/pdf |
+| Pronom | 618 | Acrobat PDF 1.5 - Portable Document Format | pdf | application/pdf |
+| Pronom | 619 | Graphics Interchange Format | gif | image/gif |
+| Pronom | 620 | Graphics Interchange Format | gif | image/gif |
+| Pronom | 621 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
+| Pronom | 622 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
+| Pronom | 623 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
+| Pronom | 624 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
+| Pronom | 625 | PCX | pcx, pcc | image/vnd.zbrush.pcx |
+| Pronom | 626 | Rich Text Format | rtf | application/rtf, text/rtf |
+| Pronom | 627 | Rich Text Format |  |  |
+| Pronom | 628 | Rich Text Format |  |  |
+| Pronom | 629 | Rich Text Format |  |  |
+| Pronom | 630 | Rich Text Format |  |  |
+| Pronom | 631 | Rich Text Format | rtf | application/rtf, text/rtf |
+| Pronom | 632 | Rich Text Format |  |  |
+| Pronom | 633 | Rich Text Format | rtf | application/rtf, text/rtf |
+| Pronom | 634 | Scalable Vector Graphics | svg | image/svg+xml |
+| Pronom | 635 | Scalable Vector Graphics | svg | image/svg+xml |
+| Pronom | 637 | Acrobat PDF 1.6 - Portable Document Format | pdf | application/pdf |
+| Pronom | 638 | Extensible Markup Language | xml | application/xml, text/xml |
+| Pronom | 639 | Hypertext Markup Language | htm, html | text/html |
+| Pronom | 640 | Hypertext Markup Language | htm, html | text/html |
+| Pronom | 641 | Hypertext Markup Language | htm, html | text/html |
+| Pronom | 642 | Hypertext Markup Language | htm, html | text/html |
+| Pronom | 643 | Extensible Hypertext Markup Language | html, htm | application/xhtml+xml |
+| Pronom | 644 | Extensible Hypertext Markup Language | htm, html | application/xhtml+xml |
+| Pronom | 645 | Hypertext Markup Language | htm, html | text/html |
+| Pronom | 646 | Macromedia Flash | swf | application/x-shockwave-flash |
+| Pronom | 647 | Macromedia Flash | swf | application/x-shockwave-flash |
+| Pronom | 648 | Macromedia Flash | swf | application/x-shockwave-flash |
+| Pronom | 649 | Macromedia Flash | swf | application/x-shockwave-flash |
+| Pronom | 650 | Macromedia Flash | swf | application/x-shockwave-flash |
+| Pronom | 651 | Macromedia Flash | swf | application/x-shockwave-flash |
+| Pronom | 652 | Macromedia Flash | swf | application/x-shockwave-flash |
+| Pronom | 653 | Macromedia FLV | flv | video/x-flv |
+| Pronom | 654 | Waveform Audio | wav | audio/x-wav |
+| Pronom | 655 | Audio/Video Interleaved Format | avi | video/x-msvideo |
+| Pronom | 656 | Broadcast WAVE | wav | audio/x-wav |
+| Pronom | 657 | Flexible Image Transport System | fits | application/fits, image/fits |
+| Pronom | 658 | Quicktime | mov, qtm | video/quicktime |
+| Pronom | 659 | MPEG-1 Program Stream | mpeg, mpg | video/mpeg |
+| Pronom | 660 | MPEG-2 Program Stream | mpeg, mpg, mod | video/mpeg |
+| Pronom | 661 | Virtual Reality Modeling Language | wrl | model/vrml |
+| Pronom | 662 | Virtual Reality Modeling Language | wrl | model/vrml |
+| Pronom | 664 | Portable Network Graphics | png | image/png |
+| Pronom | 665 | Portable Network Graphics | png | image/png |
+| Pronom | 666 | Portable Network Graphics | png | image/png |
+| Pronom | 667 | JPEG File Interchange Format | jpeg, jpe, jpg, jif, jfif, jfi | image/jpeg |
+| Pronom | 668 | JPEG File Interchange Format | jpg, jpe, jpeg, jif, jfif, jfi | image/jpeg |
+| Pronom | 669 | JPEG File Interchange Format | jpg, jpe, jpeg, jif, jfif, jfi | image/jpeg |
+| Pronom | 670 | Raw JPEG Stream | jpe, jpg, jpeg, jif, jfif, jfi | image/jpeg |
+| Pronom | 671 | Still Picture Interchange File Format | spf, jpg | image/jpeg |
+| Pronom | 672 | Exchangeable Image File Format (Uncompressed) | tif, tiff | image/tiff |
+| Pronom | 673 | Exchangeable Image File Format (Uncompressed) | tif, tiff | image/tiff |
+| Pronom | 674 | Exchangeable Image File Format (Audio) | wav | audio/x-wav |
+| Pronom | 675 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
+| Pronom | 676 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
+| Pronom | 677 | Still Picture Interchange File Format |  | image/jpeg |
+| Pronom | 678 | Microsoft Excel 2.x Worksheet (xls) | xls | application/vnd.ms-excel |
+| Pronom | 679 | Microsoft Excel 3.0 Worksheet (xls) | xls | application/vnd.ms-excel |
+| Pronom | 680 | Microsoft Excel 4.0 Worksheet (xls) | xls | application/vnd.ms-excel |
+| Pronom | 681 | Microsoft Excel 4.0 Workbook (xls) | xlw | application/vnd.ms-excel |
+| Pronom | 682 | Microsoft Excel 5.0/95 Workbook (xls) | xlw, xls | application/vnd.ms-excel |
+| Pronom | 683 | Excel 95 Workbook (xls) |  |  |
+| Pronom | 684 | Microsoft Excel 97 Workbook (xls) | xls, xlw | application/vnd.ms-excel |
+| Pronom | 685 | Microsoft Excel 2000-2003 Workbook (xls) | xlw, xls | application/vnd.ms-excel |
+| Pronom | 686 | JP2 (JPEG 2000 part 1) | jp2 | image/jp2 |
+| Pronom | 687 | MPEG 1/2 Audio Layer 3 | mp3 | audio/mpeg |
+| Pronom | 688 | Microsoft Word Document | doc | application/msword |
+| Pronom | 690 | Microsoft Word Document | doc, wbk | application/msword |
+| Pronom | 691 | Advanced Systems Format | asf | application/vnd.ms-asf |
+| Pronom | 692 | Windows Media Audio | wma, asf | audio/x-ms-wma |
+| Pronom | 693 | Windows Media Video | asf, wmv | video/x-ms-wmv |
+| Pronom | 694 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 695 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 696 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 697 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 698 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 699 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 700 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 701 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 702 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 703 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 704 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 705 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 706 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 707 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 708 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 709 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 710 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 711 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 712 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 713 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 714 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 715 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 716 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 717 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 718 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 719 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 720 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 721 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 722 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 723 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 724 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 725 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 727 | Windows Bitmap | ddb, bmp | image/bmp |
+| Pronom | 728 | Windows Bitmap | bmp, dib | image/bmp |
+| Pronom | 729 | Windows Bitmap | dib, bmp | image/bmp |
+| Pronom | 730 | Windows Bitmap | dib, bmp | image/bmp |
+| Pronom | 731 | Windows Bitmap | bmp, dib | image/bmp |
+| Pronom | 732 | Windows Bitmap | bmp, dib | image/bmp |
+| Pronom | 733 | Microsoft Word for Windows Document | doc | application/msword |
+| Pronom | 734 | Microsoft Word for Windows Document | doc | application/msword |
+| Pronom | 735 | Broadcast WAVE | wav | audio/x-wav |
+| Pronom | 736 | WordPerfect for MS-DOS Document | wp, wp5, wpd, w50, doc | application/vnd.wordperfect |
+| Pronom | 737 | WordPerfect for MS-DOS/Windows Document | wp5, wpd, w51, wp, doc | application/vnd.wordperfect |
+| Pronom | 738 | WordPerfect Graphics Metafile | wpg |  |
+| Pronom | 739 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
+| Pronom | 740 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
+| Pronom | 741 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
+| Pronom | 742 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
+| Pronom | 743 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
+| Pronom | 744 | Drawing Interchange File Format (Binary) | dxf | image/vnd.dxf |
+| Pronom | 745 | OpenOffice Writer | sxw | application/vnd.sun.xml.writer |
+| Pronom | 746 | OpenOffice Calc | sxc | application/vnd.sun.xml.calc |
+| Pronom | 747 | OpenOffice Impress | sxi | application/vnd.sun.xml.impress |
+| Pronom | 748 | OpenOffice Draw | sxd | application/vnd.sun.xml.draw |
+| Pronom | 749 | Exchangeable Image File Format (Audio) | wav | audio/x-wav |
+| Pronom | 750 | Exchangeable Image File Format (Audio) | wav | audio/x-wav |
+| Pronom | 751 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
+| Pronom | 752 | Exchangeable Image File Format (Uncompressed) | tif, tiff | image/tiff |
+| Pronom | 753 | Rich Text Format | rtf | application/rtf, text/rtf |
+| Pronom | 754 | StarOffice Writer | sdw | application/vnd.stardivision.writer |
+| Pronom | 755 | StarOffice Draw | sda | application/vnd.stardivision.draw |
+| Pronom | 756 | StarOffice Draw |  |  |
+| Pronom | 757 | StarOffice Writer |  |  |
+| Pronom | 758 | StarOffice Calc |  |  |
+| Pronom | 759 | StarOffice Impress |  |  |
+| Pronom | 761 | Drawing Interchange Binary Format | dxb |  |
+| Pronom | 766 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 767 | OLE2 Compound Document Format |  |  |
+| Pronom | 768 | DROID Signature File Format | xml | text/xml |
+| Pronom | 769 | DROID File Collection File Format | xml | text/xml |
+| Pronom | 770 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| Pronom | 771 | PostScript | ps | application/postscript |
+| Pronom | 772 | PostScript | ps | application/postscript |
+| Pronom | 773 | PostScript | ps | application/postscript |
+| Pronom | 774 | MS-DOS Executable | exe |  |
+| Pronom | 775 | Windows New Executable | exe |  |
+| Pronom | 776 | Windows Portable Executable | exe, dll, sys | application/vnd.microsoft.portable-executable |
+| Pronom | 777 | Java Archive Format | jar | application/java-archive |
+| Pronom | 778 | OpenDocument Format |  |  |
+| Pronom | 779 | OpenDocument Text | odt, ott | application/vnd.oasis.opendocument.text |
+| Pronom | 780 | OpenDocument Spreadsheet | ods, ots | application/vnd.oasis.opendocument.spreadsheet |
+| Pronom | 781 | OpenDocument Presentation | odp, otp | application/vnd.oasis.opendocument.presentation |
+| Pronom | 782 | OpenDocument Graphics | odg, otg | application/vnd.oasis.opendocument.graphics |
+| Pronom | 783 | OpenDocument Database Format | odb |  |
+| Pronom | 784 | Waveform Audio (PCMWAVEFORMAT) | wav, wave | audio/x-wav |
+| Pronom | 785 | Waveform Audio (WAVEFORMATEX) | wav, wave | audio/x-wav |
+| Pronom | 786 | Waveform Audio (WAVEFORMATEXTENSIBLE) | wav, wave | audio/x-wav |
+| Pronom | 787 | Acrobat PDF/X - Portable Document Format - Exchange 1:1999 | pdf | application/pdf |
+| Pronom | 788 | Acrobat PDF/X - Portable Document Format - Exchange 1:2001 | pdf | application/pdf |
+| Pronom | 789 | Acrobat PDF/X - Portable Document Format - Exchange 1a:2003 | pdf | application/pdf |
+| Pronom | 790 | Acrobat PDF/X - Portable Document Format - Exchange 2:2003 | pdf | application/pdf |
+| Pronom | 791 | Acrobat PDF/X - Portable Document Format - Exchange 3:2003 | pdf | application/pdf |
+| Pronom | 792 | JTIP (JPEG Tiled Image Pyramid) |  |  |
+| Pronom | 793 | JPEG-LS | jls |  |
+| Pronom | 794 | JPX (JPEG 2000 part 2) | jpx, jpf | image/jpx |
+| Pronom | 795 | Digital Negative Format (DNG) | dng, tif, tiff | image/dng, image/tiff |
+| Pronom | 796 | Tagged Image File Format for Image Technology (TIFF/IT) | tif, tiff | image/tiff |
+| Pronom | 797 | Tagged Image File Format for Electronic Photography (TIFF/EP) | tif, tiff | image/tiff |
+| Pronom | 798 | Geographic Tagged Image File Format (GeoTIFF) | tif, tiff, cog | image/tiff |
+| Pronom | 799 | Tagged Image File Format for Internet Fax (TIFF-FX) | tif, tiff, tfx | image/tiff |
+| Pronom | 800 | Batch file (executable) | bat |  |
+| Pronom | 801 | Windows Cabinet File | cab | application/vnd.ms-cab-compressed |
+| Pronom | 802 | Java Class File | class |  |
+| Pronom | 803 | BinHex Binary Text | hqx | application/mac-binhex40 |
+| Pronom | 804 | HTML Extension File | htx |  |
+| Pronom | 805 | Icon file format | ico | image/vnd.microsoft.icon, image/x-icon |
+| Pronom | 806 | DVD data file and backup data file | ifo, bup |  |
+| Pronom | 807 | Windows Setup File | inf | application/inf |
+| Pronom | 808 | Text Configuration file | ini |  |
+| Pronom | 809 | Java Language Source Code File | java |  |
+| Pronom | 810 | JavaScript file | js | application/javascript |
+| Pronom | 811 | Deluxe Paint bitmap | lbm |  |
+| Pronom | 812 | Generic Library File | lib |  |
+| Pronom | 813 | License file | lic |  |
+| Pronom | 814 | Acrobat Language definition file | lng |  |
+| Pronom | 815 | Microsoft Windows Shortcut | lnk |  |
+| Pronom | 818 | Acrobat PDF/X - Portable Document Format - Exchange 1a:2001 | pdf | application/pdf |
+| Pronom | 819 | Acrobat PDF/X - Portable Document Format - Exchange 3:2002 | pdf | application/pdf |
+| Pronom | 820 | MHTML | mht, mhtml | multipart/related |
+| Pronom | 822 | Microsoft Outlook Email Message | msg, oft |  |
+| Pronom | 824 | EBCDIC-US | ebcdic |  |
+| Pronom | 826 | 3DM | 3dm |  |
+| Pronom | 827 | 3DM | 3dm |  |
+| Pronom | 828 | 3DM | 3dm |  |
+| Pronom | 831 | 3DM | 3dm |  |
+| Pronom | 843 | CATIA Model | mod, model |  |
+| Pronom | 848 | CATIA Project | project |  |
+| Pronom | 849 | CATIA Material Description | catmaterial |  |
+| Pronom | 851 | CATIA Model (Part Description) | catpart |  |
+| Pronom | 852 | CATIA Product Description | catproduct |  |
+| Pronom | 854 | AutoCAD Database File Locking Information | dwl | application/octet-stream |
+| Pronom | 856 | form*Z Project File | fmz | application/octet-stream |
+| Pronom | 857 | Revit Family File | rfa | application/octet-stream |
+| Pronom | 858 | Revit Family Template | rft | application/octet-stream |
+| Pronom | 859 | Revit Template | rte | application/octet-stream |
+| Pronom | 861 | Revit External Group | rvg | application/octet-stream |
+| Pronom | 862 | Revit Project | rvt | application/octet-stream |
+| Pronom | 863 | Revit Workspace | rws | application/octet-stream |
+| Pronom | 864 | Steel Detailing Neutral Format | sdn | text/plain |
+| Pronom | 865 | Adobe InDesign Document | ind, indd, indt | application/octet-stream |
+| Pronom | 866 | SketchUp Document | skb, skp |  |
+| Pronom | 867 | SketchUp Document |  |  |
+| Pronom | 869 | TrueType Font | ttf | font/ttf |
+| Pronom | 870 | Microsoft Internet Shortcut | url | text/plain |
+| Pronom | 872 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 876 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
+| Pronom | 877 | Microsoft Excel for Macintosh |  |  |
+| Pronom | 878 | Microsoft Excel for Macintosh |  |  |
+| Pronom | 879 | Microsoft Excel for Macintosh |  |  |
+| Pronom | 881 | Microsoft Excel for Macintosh |  |  |
+| Pronom | 882 | Microsoft Excel for Macintosh |  |  |
+| Pronom | 883 | Microsoft Excel for Macintosh |  |  |
+| Pronom | 884 | Microsoft Excel for Macintosh |  |  |
+| Pronom | 885 | Microsoft PowerPoint for Macintosh | ppt | application/vnd.ms-powerpoint |
+| Pronom | 886 | Microsoft PowerPoint for Macintosh |  |  |
+| Pronom | 887 | Microsoft PowerPoint for Macintosh | ppt | application/vnd.ms-powerpoint |
+| Pronom | 888 | Microsoft PowerPoint for Macintosh |  |  |
+| Pronom | 889 | Microsoft Multiplan | mod |  |
+| Pronom | 890 | Microsoft Works Word Processor 1-3 for DOS and 2 for Windows | wps |  |
+| Pronom | 891 | Microsoft Works Word Processor for DOS |  |  |
+| Pronom | 893 | Microsoft Works Word Processor for DOS |  |  |
+| Pronom | 894 | Microsoft Works Spreadsheet | wks |  |
+| Pronom | 895 | Microsoft Works Spreadsheet for DOS |  |  |
+| Pronom | 896 | Microsoft Works Spreadsheet for DOS |  |  |
+| Pronom | 897 | Microsoft Works Database for DOS | wdb |  |
+| Pronom | 898 | Microsoft Works Database for DOS | wdb |  |
+| Pronom | 899 | Microsoft Works Database for DOS | wdb |  |
+| Pronom | 904 | PrimeOCR | pro |  |
+| Pronom | 905 | PrimeOCR | pro |  |
+| Pronom | 906 | Prime OCR | pro |  |
+| Pronom | 907 | PrimeOCR | pro |  |
+| Pronom | 908 | PrimeOCR | pro |  |
+| Pronom | 909 | PrimeOCR | pro |  |
+| Pronom | 910 | Microsoft Office Open XML |  |  |
+| Pronom | 912 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| Pronom | 916 | Sony ARW RAW Image File | arw |  |
+| Pronom | 917 | Kodak Digital Camera Raw Image File | dcr |  |
+| Pronom | 918 | Digital Moving Picture Exchange Bitmap | dpx |  |
+| Pronom | 919 | FileMaker Pro Database | fp7 |  |
+| Pronom | 920 | ERDAS IMAGINE Gray-scale Bitmap Image | gis |  |
+| Pronom | 921 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 922 | InstallShield Compiled Rules File | inx |  |
+| Pronom | 923 | MPEG Audio Stream Layer II | mp2, mpw, mpa | audio/mpeg |
+| Pronom | 924 | MPEG-4 Media File | mp4, m4v, m4a, f4v, f4a | application/mp4, video/mp4 |
+| Pronom | 925 | Material Exchange Format | mxf | application/mxf |
+| Pronom | 926 | Mathematica Notebook | nb | application/mathematica |
+| Pronom | 927 | Nikon Digital SLR Camera Raw Image File | nef, nrw |  |
+| Pronom | 929 | Ogg Vorbis Codec Compressed Multimedia File | ogg | audio/ogg |
+| Pronom | 930 | RealVideo Clip | rv |  |
+| Pronom | 931 | Synchronized Multimedia Integration Language (Generic) | smil, smi |  |
+| Pronom | 932 | Structured Query Language Data | sql |  |
+| Pronom | 933 | Obsidium Project File | opf |  |
+| Pronom | 934 | Binary File | bin |  |
+| Pronom | 935 | Sound Designer II Audio File | sd2 |  |
+| Pronom | 936 | Statistica Report File | str |  |
+| Pronom | 937 | Kodak Photo CD Image | pcd |  |
+| Pronom | 938 | Information or Setup File | inf |  |
+| Pronom | 939 | ScanIt Document | sid |  |
+| Pronom | 940 | Microsoft Excel for Windows | xlsx | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
+| Pronom | 941 | Microsoft Powerpoint for Windows | pptx | application/vnd.openxmlformats-officedocument.presentationml.presentation |
+| Pronom | 942 | Microsoft Visio XML Drawing | vdx | application/vnd.visio |
+| Pronom | 945 | PaintShop Pro Browser Cache File | jbf |  |
+| Pronom | 946 | Microsoft FrontPage | lck |  |
+| Pronom | 948 | Microsoft Works Database for Windows | wdb |  |
+| Pronom | 950 | Microsoft Works Spreadsheet for Windows |  |  |
+| Pronom | 951 | Microsoft Works Word Processor for Windows |  |  |
+| Pronom | 952 | Microsoft Works Database for Windows | wdb |  |
+| Pronom | 953 | Microsoft Works Database for Windows | wdb |  |
+| Pronom | 954 | Microsoft Works Database for Windows | wdb |  |
+| Pronom | 955 | Microsoft Works Database for Windows | wdb |  |
+| Pronom | 956 | Microsoft Works Database for Windows | wdb |  |
+| Pronom | 957 | Microsoft Works Spreadsheet for Windows |  |  |
+| Pronom | 958 | Microsoft Works Spreadsheet for Windows |  |  |
+| Pronom | 959 | Microsoft Works Spreadsheet for Windows |  |  |
+| Pronom | 960 | Microsoft Works Spreadsheet for Windows |  |  |
+| Pronom | 961 | Microsoft Works Spreadsheet for Windows |  |  |
+| Pronom | 962 | Microsoft Works Word Processor for Windows |  |  |
+| Pronom | 963 | Microsoft Works Word Processor 3-4 for Windows | wps |  |
+| Pronom | 964 | Microsoft Works Word Processor for Windows |  |  |
+| Pronom | 965 | Microsoft Works Word Processor for Windows |  |  |
+| Pronom | 966 | Microsoft Works Word Processor for Windows |  |  |
+| Pronom | 967 | Microsoft Office Binder File for Windows | obd |  |
+| Pronom | 968 | Microsoft Office Binder Template for Windows | obt |  |
+| Pronom | 969 | Microsoft Office Binder Wizard for Windows | obz |  |
+| Pronom | 970 | Microsoft Office Binder File for Windows | obd |  |
+| Pronom | 971 | Microsoft Office Binder Template for Windows | obt |  |
+| Pronom | 972 | Microsoft Office Binder Wizard for Windows | obz |  |
+| Pronom | 973 | GPS Exchange Format | gpx |  |
+| Pronom | 975 | Keyhole Markup Language (XML) | kml | application/vnd.google-earth.kml+xml |
+| Pronom | 977 | Structured Data Exchange Format |  |  |
+| Pronom | 978 | Microsoft Works Database for Windows | wdb |  |
+| Pronom | 979 | Microsoft Works Spreadsheet for Windows |  |  |
+| Pronom | 981 | Microsoft Works Word Processor Windows |  |  |
+| Pronom | 982 | Microsoft Works Database for Windows | wdb |  |
+| Pronom | 983 | Microsoft Works Spreadsheet for Windows |  |  |
+| Pronom | 989 | Microsoft Works Word Processor Windows |  |  |
+| Pronom | 990 | Microsoft Works Database for Windows | wdb |  |
+| Pronom | 991 | Microsoft Works Spreadsheet for Windows |  |  |
+| Pronom | 992 | Microsoft Works Word Processor Windows |  |  |
+| Pronom | 993 | DjVu File Format | djvu, djv | image/vnd.djvu, image/x-djvu |
+| Pronom | 994 | Microsoft Works Database for Windows | wdb |  |
+| Pronom | 995 | Microsoft Works Spreadsheet for Windows |  |  |
+| Pronom | 996 | Microsoft Works Word Processor 5-6 | wps |  |
+| Pronom | 997 | Microsoft Works Database for DOS | wdb |  |
+| Pronom | 998 | Microsoft Works Database for DOS | wdb |  |
+| Pronom | 999 | Microsoft Works Database for DOS | wdb |  |
+| Pronom | 1000 | Microsoft Works Spreadsheet for DOS |  |  |
+| Pronom | 1001 | Microsoft Works Spreadsheet for DOS |  |  |
+| Pronom | 1002 | Microsoft Works Spreadsheet for DOS |  |  |
+| Pronom | 1003 | Microsoft Works Word Processor DOS |  |  |
+| Pronom | 1004 | Microsoft Works Word Processor DOS |  |  |
+| Pronom | 1005 | Microsoft Works Word Processor DOS |  |  |
+| Pronom | 1006 | Microsoft Works Database for Macintosh | wdb |  |
+| Pronom | 1007 | Microsoft Works Database for Macintosh | wdb |  |
+| Pronom | 1008 | Microsoft Works Spreadsheet for Macintosh | wks |  |
+| Pronom | 1009 | Microsoft Works Spreadsheet for Macintosh | wks |  |
+| Pronom | 1010 | Microsoft Works Word Processor Macintosh | wps |  |
+| Pronom | 1011 | Microsoft Works Word Processor Macintosh | wps |  |
+| Pronom | 1013 | SPSS Output File (spv) | spv |  |
+| Pronom | 1015 | Microsoft Access Database File | accdb |  |
+| Pronom | 1016 | Acrobat PDF 1.7 - Portable Document Format | pdf | application/pdf |
+| Pronom | 1017 | ESRI Arc/View Shapefile Index | shx |  |
+| Pronom | 1018 | Internet Message Format | eml | message/rfc822 |
+| Pronom | 1019 | FLAC (Free Lossless Audio Codec) | flac | audio/flac |
+| Pronom | 1020 | LaTeX (Master document) |  |  |
+| Pronom | 1021 | LaTeX (Subdocument) |  |  |
+| Pronom | 1022 | netCDF-3 Classic | nc, cdf | application/netcdf, application/x-netcdf |
+| Pronom | 1023 | netCDF-3 64-bit | nc, cdf | application/netcdf, application/x-netcdf |
+| Pronom | 1024 | Gridded Binary | grb, wmo |  |
+| Pronom | 1025 | Gridded Binary | grb, wmo |  |
+| Pronom | 1026 | HDF5 | hdf, h5, hdf5, nc |  |
+| Pronom | 1027 | HDF5 | hdf5, h5, hdf, nc |  |
+| Pronom | 1028 | Microsoft Front Page Server Extension Configuration |  |  |
+| Pronom | 1029 | WARC | warc | application/warc |
+| Pronom | 1033 | OpenDocument Text | odt, ott | application/vnd.oasis.opendocument.text |
+| Pronom | 1034 | OpenDocument Text | odt, ott | application/vnd.oasis.opendocument.text |
+| Pronom | 1035 | OpenDocument Presentation | odp, otp | application/vnd.oasis.opendocument.presentation |
+| Pronom | 1036 | OpenDocument Presentation | odp, otp | application/vnd.oasis.opendocument.presentation |
+| Pronom | 1037 | OpenDocument Spreadsheet | ods, ots | application/vnd.oasis.opendocument.spreadsheet |
+| Pronom | 1038 | OpenDocument Spreadsheet | ods, ots | application/vnd.oasis.opendocument.spreadsheet |
+| Pronom | 1039 | OpenDocument Graphics | odg, otg | application/vnd.oasis.opendocument.graphics |
+| Pronom | 1040 | OpenDocument Graphics | odg, otg | application/vnd.oasis.opendocument.graphics |
+| Pronom | 1042 | Autodesk Animator Pro FLIC | flc |  |
+| Pronom | 1043 | Autodesk Animator (FlicLib) | fli |  |
+| Pronom | 1044 | ChiWriter Document | chi |  |
+| Pronom | 1045 | Computer Graphics Metafile ASCII | cgm | image/cgm |
+| Pronom | 1047 | Computer Graphics Metafile ASCII | cgm | image/cgm |
+| Pronom | 1048 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=1 |
+| Pronom | 1049 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=2 |
+| Pronom | 1050 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=3 |
+| Pronom | 1051 | Computer Graphics Metafile (Binary) | cgm | image/cgm; version=4 |
+| Pronom | 1052 | Quicken Interchange Format | qif | application/qif |
+| Pronom | 1053 | Quicken Data Format | qdf |  |
+| Pronom | 1054 | Open Financial Exchange | ofx, qfx | application/x-ofx |
+| Pronom | 1055 | Open Financial Exchange | ofx, qfx | application/x-ofx |
+| Pronom | 1056 | Open Financial Exchange | ofx, qfx | application/x-ofx |
+| Pronom | 1057 | Open Financial Exchange | ofx, qfx | application/x-ofx |
+| Pronom | 1058 | Open Financial Exchange | ofx, qfx | application/x-ofx |
+| Pronom | 1059 | Play SID Audio | sid, psid | audio/prs.sid |
+| Pronom | 1060 | Play SID Audio | sid, psid | audio/prs.sid |
+| Pronom | 1061 | Real SID Audio | sid | audio/prs.sid |
+| Pronom | 1062 | Macromedia Director | dir, dxr | application/x-director |
+| Pronom | 1063 | Secure DjVU | djvu, djv | image/vnd.djvu, image/x-djvu |
+| Pronom | 1064 | ESRI Spatial Index File | sbn, sbx |  |
+| Pronom | 1065 | ESRI Shapefile Projection (Well-Known Text) Format | prj |  |
+| Pronom | 1066 | ESRI Shapefile Header Index | aih |  |
+| Pronom | 1067 | Portable Form File | pff |  |
+| Pronom | 1068 | Extended Module Audio File | xm | audio/xm |
+| Pronom | 1069 | EndNote Style File | ens | application/x-endnote-style |
+| Pronom | 1070 | EndNote Library | enl |  |
+| Pronom | 1071 | EndNote Connection File | enz | application/x-endnote-connect, application/x-endnote-connection |
+| Pronom | 1072 | EndNote Filter File | enf |  |
+| Pronom | 1073 | EndNote Import File | enw, enr | application/x-endnote-refer |
+| Pronom | 1074 | Shell Archive Format | shar | application/x-sh, application/x-shar |
+| Pronom | 1075 | Peak Graphical Waveform File | pk |  |
+| Pronom | 1076 | Autorun Configuration File | inf |  |
+| Pronom | 1077 | ESRI Arc/View Project | apr, def |  |
+| Pronom | 1078 | Chemical Markup Language | cml |  |
+| Pronom | 1079 | Crystallographic Information Framework | cif |  |
+| Pronom | 1080 | Dreamweaver Lock File | lck |  |
+| Pronom | 1081 | Graphic Workshop for Windows Thumbnail File | thn |  |
+| Pronom | 1082 | MJ2 (Motion JPEG 2000) | mj2, mjp2 | video/mj2 |
+| Pronom | 1083 | Interchange File Format Interleaved Bitmap | iff, lbm |  |
+| Pronom | 1084 | Interchange File Format 8-bit Sampled Voice | iff, 8svx |  |
+| Pronom | 1085 | Lotus WordPro Document | lwp | application/lwp, application/vnd.lotus-wordpro |
+| Pronom | 1086 | Macintosh PICT Image | pct, pict, pic | image/x-pict |
+| Pronom | 1087 | Microsoft Project Export File | mpx | application/x-project |
+| Pronom | 1088 | Microsoft Project Export File | mpx | application/x-project |
+| Pronom | 1089 | Microsoft Windows Enhanced Metafile | emf | image/emf |
+| Pronom | 1090 | Microsoft Windows Enhanced Metafile | emf | image/emf |
+| Pronom | 1091 | Microsoft Word for Macintosh Document | mcw | application/msword |
+| Pronom | 1092 | MPEG 1/2 Audio Layer I | mp1 | audio/mpeg |
+| Pronom | 1093 | Paint Shop Pro Image | pspimage |  |
+| Pronom | 1094 | Paint Shop Pro Image | pspimage |  |
+| Pronom | 1095 | Paradox Database Table | db |  |
+| Pronom | 1096 | Paradox Database Table | db |  |
+| Pronom | 1097 | Paradox Database Table | db |  |
+| Pronom | 1099 | Tagged Image File Format | tif, tiff | image/tiff |
+| Pronom | 1100 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| Pronom | 1101 | Rich Text Format | rtf | application/rtf, text/rtf |
+| Pronom | 1102 | Adaptive Multi-Rate Audio | amr | audio/amr |
+| Pronom | 1103 | 3GPP Audio/Video File | 3gp, 3gpp | audio/3gpp, video/3gpp |
+| Pronom | 1104 | Internet Data Query File | idq |  |
+| Pronom | 1105 | Microsoft Front Page Binary Tree Index | btr |  |
+| Pronom | 1107 | pulse EKKO data file | dt1 |  |
+| Pronom | 1108 | pulse EKKO header file | hd |  |
+| Pronom | 1109 | GSSI SIR-10 RADAN data file | dzt |  |
+| Pronom | 1110 | SEG Y Data Exchange Format | segy |  |
+| Pronom | 1111 | National Imagery Transmission Format | ntf | application/vnd.nitf |
+| Pronom | 1112 | National Imagery Transmission Format | ntf | application/vnd.nitf |
+| Pronom | 1113 | National Imagery Transmission Format | ntf | application/vnd.nitf |
+| Pronom | 1114 | ESRI World File Format | tfw, jgw, pgw, bpw, tifw, blw, bilw, jpgw, rasterw, btw, sdw |  |
+| Pronom | 1115 | ASPRS Lidar Data Exchange Format | las, laz |  |
+| Pronom | 1116 | ASPRS Lidar Data Exchange Format | las, laz |  |
+| Pronom | 1117 | ASPRS Lidar Data Exchange Format | las, laz |  |
+| Pronom | 1118 | Enhanced Compression Wavelet | ecw |  |
+| Pronom | 1119 | Earth Resource Satellite Image Header Format | ers |  |
+| Pronom | 1120 | FoxPro Database | dbf |  |
+| Pronom | 1121 | Microsoft Visual FoxPro Database Table File | dbf |  |
+| Pronom | 1122 | FoxPro Compound Index File | cdx |  |
+| Pronom | 1123 | FoxPro Report | frx |  |
+| Pronom | 1124 | Microsoft Visual FoxPro Report | frx |  |
+| Pronom | 1125 | Chemical Draw Exchange Format | cdx | chemical/x-cdx |
+| Pronom | 1126 | Microsoft Visual FoxPro Class Library | vcx |  |
+| Pronom | 1127 | Microsoft Visual FoxPro Project | pjx |  |
+| Pronom | 1128 | FoxPro Project | pjx |  |
+| Pronom | 1129 | Microsoft Visual FoxPro database container (table files) | dbc |  |
+| Pronom | 1131 | Microsoft Visual FoxPro database container (memo files) | dct |  |
+| Pronom | 1132 | VICAR (Video Image Communication and Retrieval) Planetary File Format | img, vic, vicar |  |
+| Pronom | 1133 | Microsoft Windows Cursor | cur | image/x-win-bitmap |
+| Pronom | 1134 | Microsoft Animated Cursor Format | ani |  |
+| Pronom | 1135 | VCalendar format | vcs | text/x-vCalendar |
+| Pronom | 1136 | Internet Calendar and Scheduling format | ics | text/calendar |
+| Pronom | 1137 | Log ASCII Standard Format | las |  |
+| Pronom | 1138 | Log ASCII Standard Format | las |  |
+| Pronom | 1139 | Log ASCII Standard Format | las |  |
+| Pronom | 1140 | MrSID Image Format (Multi-resolution Seamless Image Database) | sid |  |
+| Pronom | 1141 | Borland Reflex flat datafile | rxd |  |
+| Pronom | 1142 | DS_Store File (MAC) | ds_store |  |
+| Pronom | 1143 | vCard | vcf, vcard | text/vcard |
+| Pronom | 1144 | PocketMobi (Palm Resource) File | mobi, prc |  |
+| Pronom | 1145 | Enigma Binary File (Finale) | mus |  |
+| Pronom | 1146 | Enigma Transportable File (Finale) | etf |  |
+| Pronom | 1147 | Stuffit X Archive File | sitx |  |
+| Pronom | 1148 | Macromedia FreeHand MX | fh11 |  |
+| Pronom | 1149 | X-Windows Screen Dump | xwd, xdm |  |
+| Pronom | 1150 | Truevision TGA Bitmap | tga, icb, vda, vst |  |
+| Pronom | 1151 | SuperCalc Spreadsheet | cal |  |
+| Pronom | 1152 | RealAudio | ra |  |
+| Pronom | 1153 | Portable Any Map | pam |  |
+| Pronom | 1154 | Portable Grey Map - Binary | pgmb, pgm |  |
+| Pronom | 1155 | Portable Grey Map - ASCII | pgma, pgm |  |
+| Pronom | 1156 | Portable Pixel Map - Binary | ppm, ppmb |  |
+| Pronom | 1157 | Portable Bitmap Image - Binary | pbmb, pnm |  |
+| Pronom | 1158 | Internet Archive | arc |  |
+| Pronom | 1159 | RAR Archive | rar | application/vnd.rar |
+| Pronom | 1160 | Microsoft Word for Windows | docx, wbk | application/vnd.openxmlformats-officedocument.wordprocessingml.document |
+| Pronom | 1191 | Scalable Vector Graphics Tiny | svg |  |
+| Pronom | 1192 | Audio Interchange File Format | aif, aiff |  |
+| Pronom | 1194 | Cinema 4D | c4d |  |
+| Pronom | 1198 | Apple Core Audio Format | caf |  |
+| Pronom | 1199 | Adobe Illustrator | ai | application/postscript |
+| Pronom | 1200 | Adobe Illustrator | ai | application/postscript |
+| Pronom | 1201 | Adobe Illustrator | ai | application/postscript |
+| Pronom | 1202 | Adobe Illustrator | ai | application/postscript |
+| Pronom | 1203 | Adobe Illustrator | ai | application/postscript |
+| Pronom | 1204 | Adobe Illustrator | ai, eps | application/postscript |
+| Pronom | 1205 | Adobe Illustrator | ai | application/postscript |
+| Pronom | 1206 | OpenDocument Database Format | odb |  |
+| Pronom | 1207 | Video Object File (MPEG-2 subset) | vob |  |
+| Pronom | 1210 | Harris Matrix | hm |  |
+| Pronom | 1211 | CorelDraw Drawing | cdr |  |
+| Pronom | 1213 | CorelDraw Drawing | cdr |  |
+| Pronom | 1215 | CorelDraw Drawing | cdr |  |
+| Pronom | 1216 | CorelDraw Drawing | cdr |  |
+| Pronom | 1217 | Corel R.A.V.E. | clk |  |
+| Pronom | 1218 | Corel R.A.V.E. | clk |  |
+| Pronom | 1220 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 1221 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 1222 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 1223 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
+| Pronom | 1224 | Digital Negative Format (DNG) | dng | image/dng |
+| Pronom | 1225 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
+| Pronom | 1226 | BSDIFF | bsdiff |  |
+| Pronom | 1227 | Microsoft Project | mpp | application/vnd.ms-project |
+| Pronom | 1228 | Windows Media Video (WVC1) | wmv |  |
+| Pronom | 1229 | Microsoft Visio (generic) | vsd | application/vnd.visio |
+| Pronom | 1230 | Microsoft Visio Drawing | vsd | application/vnd.visio |
+| Pronom | 1231 | OpenDocument Database Format | odb |  |
+| Pronom | 1232 | Microsoft Excel Macro-Enabled | xlsm | application/vnd.ms-excel.sheet.macroEnabled.12 |
+| Pronom | 1233 | Adobe Portable Document Catalog Index File | pdx |  |
+| Pronom | 1234 | Adobe Portable Document Catalog Index File | pdx |  |
+| Pronom | 1235 | Adobe Portable Document Catalog Index File | pdx |  |
+| Pronom | 1236 | Adobe Portable Document Catalog Index File | pdx |  |
+| Pronom | 1237 | VectorWorks | vwx | application/vnd.vectorworks |
+| Pronom | 1238 | VectorWorks | vwx | application/vnd.vectorworks |
+| Pronom | 1239 | Acrobat Catalog Cat File | cat |  |
+| Pronom | 1240 | Verity Collection Stop List | stp |  |
+| Pronom | 1241 | Verity Collection Index About File | abt |  |
+| Pronom | 1242 | Verity Collection Index Pending Transaction File | trn |  |
+| Pronom | 1243 | Verity Collection Index Style Policy | plc |  |
+| Pronom | 1244 | Verity Collection Document Dataset Descriptor Style Set | ddd |  |
+| Pronom | 1245 | Verity Collection Document Index Descriptor Style Set | did |  |
+| Pronom | 1246 | Verity Collection Word List Descriptor Style Set | wld |  |
+| Pronom | 1247 | Verity Collection Partition Definition Descriptor Style Set | pdd |  |
+| Pronom | 1248 | Verity Collection Index Descriptor File | wld, ddd, did, pdd |  |
+| Pronom | 1249 | MS-DOS Compression Format (SZDD Variant) |  |  |
+| Pronom | 1250 | JPM (JPEG 2000 part 6) | jpm | image/jpm |
+| Pronom | 1251 | CorelDraw Drawing | cdr |  |
+| Pronom | 1252 | CorelDraw Drawing | cdr |  |
+| Pronom | 1253 | CorelDraw Drawing | cdr |  |
+| Pronom | 1254 | CorelDraw Drawing | cdr |  |
+| Pronom | 1255 | ISO 9660 Disk Image File | iso, toast, cdr, dmg, bin |  |
+| Pronom | 1256 | MS DOS Compression Format (KWAJ Variant) |  |  |
+| Pronom | 1257 | Asymetrix Toolbook File | tbk, sbk |  |
+| Pronom | 1258 | Hypertext Markup Language | htm, html | text/html |
+| Pronom | 1259 | Sony Digital Voice File/Sony Memory Stick Voice File | msv, dvf |  |
+| Pronom | 1260 | Microsoft Office Owner File | doc, docx |  |
+| Pronom | 1261 | Windows Help File | hlp |  |
+| Pronom | 1262 | Microsoft Management Console Snap-in Control file | msc |  |
+| Pronom | 1263 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| Pronom | 1264 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| Pronom | 1265 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| Pronom | 1266 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| Pronom | 1267 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| Pronom | 1268 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| Pronom | 1269 | Apple iBook format | ibooks | application/x-ibooks+zip |
+| Pronom | 1270 | ePub Format | epub | application/epub+zip |
+| Pronom | 1271 | 7Zip format | 7z |  |
+| Pronom | 1272 | Rocket Book eBook format | rb |  |
+| Pronom | 1273 | Macromedia (Adobe) Director Compressed Resource file | dcr |  |
+| Pronom | 1274 | Macro Enabled Microsoft Powerpoint | pptm | application/vnd.ms-powerpoint.presentation.macroEnabled.12 |
+| Pronom | 1275 | Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4 | pdf | application/pdf |
+| Pronom | 1276 | Acrobat PDF/X - Portable Document Format - Exchange PDF/X-4p | pdf | application/pdf |
+| Pronom | 1277 | Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5g | pdf | application/pdf |
+| Pronom | 1278 | Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5pg | pdf | application/pdf |
+| Pronom | 1279 | Acrobat PDF/X - Portable Document Format - Exchange PDF/X-5n | pdf | application/pdf |
+| Pronom | 1280 | Acrobat PDF/E - Portable Document Format for Engineering PDF/E-1 | pdf | application/pdf |
+| Pronom | 1281 | Microsoft Office Encrypted Document | xlsx, pptx, docx |  |
+| Pronom | 1282 | ATCO-CIF | cif |  |
+| Pronom | 1283 | TransXchange File Format | txc |  |
+| Pronom | 1284 | Wireless Bitmap | wbmp | image/vnd-wap-wbmp |
+| Pronom | 1285 | ActiveX License Package file | lpk |  |
+| Pronom | 1286 | VivoActive | viv | video/vnd-vivo |
+| Pronom | 1287 | Internet Explorer for Mac cache file | waf |  |
+| Pronom | 1288 | PostScript | ps | application/postscript |
+| Pronom | 1289 | Bentley V8 DGN | dgn |  |
+| Pronom | 1290 | AppleDouble Resource Fork |  | multipart/appledouble |
+| Pronom | 1291 | Standard Flowgram Format | sff |  |
+| Pronom | 1292 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1293 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1294 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1295 | Quarter Inch Cartridge Host Interchange Format | qic |  |
+| Pronom | 1296 | Adobe PostScript Font Metrics file | pfm |  |
+| Pronom | 1297 | PowerProject Teamplan | pdb |  |
+| Pronom | 1298 | PowerProject | pp |  |
+| Pronom | 1299 | PowerProject | pp |  |
+| Pronom | 1300 | PowerProject | pp |  |
+| Pronom | 1301 | PowerProject | pp |  |
+| Pronom | 1302 | PowerProject | pp |  |
+| Pronom | 1303 | PowerProject | pp |  |
+| Pronom | 1304 | PowerProject | pp |  |
+| Pronom | 1305 | Broad Band eBook | lrf |  |
+| Pronom | 1306 | Polynomial Texture Map | ptm |  |
+| Pronom | 1307 | OpenType Font File | otf | font/otf |
+| Pronom | 1308 | Adobe Multiple Master Metrics font file | mmm |  |
+| Pronom | 1309 | Open Project File | pod |  |
+| Pronom | 1310 | Macro enabled Microsoft Word Document OOXML | docm | application/vnd.ms-word.document.macroEnabled.12 |
+| Pronom | 1311 | Microsoft Office Theme | thmx | application/vnd.ms-officetheme |
+| Pronom | 1312 | Adobe Printer Font Binary | pfb |  |
+| Pronom | 1313 | Adobe Font List | lst |  |
+| Pronom | 1314 | Broadcast WAVE | wav | audio/x-wav |
+| Pronom | 1315 | Multiple-image Network Graphics | mng | video/x-mng |
+| Pronom | 1316 | JPEG Network Graphics | jng | image/x-jng |
+| Pronom | 1317 | eRuby HTML document | rhtml, rhtm |  |
+| Pronom | 1318 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 1319 | Drawing Interchange File Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 1320 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| Pronom | 1321 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| Pronom | 1322 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| Pronom | 1323 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| Pronom | 1324 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| Pronom | 1325 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| Pronom | 1326 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
+| Pronom | 1327 | Cinema 4D | c4d |  |
+| Pronom | 1328 | Digital Moving Picture Exchange Bitmap | dpx |  |
+| Pronom | 1329 | GEM Metafile Format | gem |  |
+| Pronom | 1330 | GEM Metafile Format | gem |  |
+| Pronom | 1331 | Macromedia FreeHand | fh7 |  |
+| Pronom | 1333 | Macromedia FreeHand | fh8 |  |
+| Pronom | 1334 | Macromedia FreeHand | fh9 |  |
+| Pronom | 1335 | Macromedia FreeHand | fh10 |  |
+| Pronom | 1336 | Adobe InDesign Document | ind, indd, indt |  |
+| Pronom | 1337 | Adobe InDesign Document | ind, indd, indt |  |
+| Pronom | 1338 | Adobe InDesign Document | ind, indd, indt |  |
+| Pronom | 1339 | Adobe InDesign Document | ind, indd, indt |  |
+| Pronom | 1340 | Adobe InDesign Document | ind, indd, indt |  |
+| Pronom | 1341 | Microsoft Excel Chart | xlc | application/vnd.ms-excel |
+| Pronom | 1342 | Microsoft Excel Chart | xlc | application/vnd.ms-excel |
+| Pronom | 1343 | Microsoft Excel Macro | xlm | application/vnd.ms-excel |
+| Pronom | 1344 | Microsoft Excel Macro | xlm | application/vnd.ms-excel |
+| Pronom | 1345 | Adobe Illustrator | ai, eps | application/postscript |
+| Pronom | 1346 | Adobe Illustrator | ai, pdf | application/postscript |
+| Pronom | 1347 | Adobe Illustrator | ai, pdf | application/postscript |
+| Pronom | 1348 | Adobe Illustrator | ai, pdf | application/postscript |
+| Pronom | 1349 | Adobe Illustrator | ai, pdf | application/postscript |
+| Pronom | 1350 | Adobe Illustrator | ai, pdf | application/postscript |
+| Pronom | 1351 | Adobe Illustrator | ai, pdf | application/postscript |
+| Pronom | 1352 | Adobe Illustrator | ai, pdf | application/postscript |
+| Pronom | 1353 | Adobe Illustrator | ai, pdf | application/postscript |
+| Pronom | 1354 | WebP | webp | image/webp |
+| Pronom | 1355 | WebP | webp | image/webp |
+| Pronom | 1356 | WebP | webp | image/webp |
+| Pronom | 1357 | Matroska | mkv, mk3d, mka, mks |  |
+| Pronom | 1358 | Extensible Metadata Platform Packet | xmp |  |
+| Pronom | 1359 | Domino XML Document Export | dxl |  |
+| Pronom | 1360 | Domino XML Database Export | dxl |  |
+| Pronom | 1361 | WebM | webm | video/webm |
+| Pronom | 1362 | Digital Imaging and Communications in Medicine File Format | dcm | application/dicom |
+| Pronom | 1363 | GraphPad Prism | pzm |  |
+| Pronom | 1364 | GraphPad Prism | pzf |  |
+| Pronom | 1365 | Image Cytometry Standard | ics |  |
+| Pronom | 1366 | Image Cytometry Standard | ics |  |
+| Pronom | 1367 | X3D | x3d |  |
+| Pronom | 1368 | X3D | x3d |  |
+| Pronom | 1369 | X3D | x3d |  |
+| Pronom | 1370 | X3D | x3d |  |
+| Pronom | 1371 | Vector Markup Language | vml, html, htm |  |
+| Pronom | 1372 | Windows Media Metafile | wmx, wax, wvx, asx |  |
+| Pronom | 1373 | MPEG-2 Transport Stream | m2t, ts, m2ts |  |
+| Pronom | 1374 | LifeTechnologies SDS | sds |  |
+| Pronom | 1375 | LifeTechnologies ABIF | abif |  |
+| Pronom | 1380 | Redcode RAW (R3D) Media File | r3d |  |
+| Pronom | 1381 | Windows Media Playlist | wpl | application/vnd.ms-wpl |
+| Pronom | 1382 | JPEG Extended Range | wdp, jxr | image/jxr |
+| Pronom | 1383 | Radiance RGBE Image Format | hdr, pic, rgbe, xyze | image/vnd.radiance |
+| Pronom | 1384 | Canon RAW | cr2 |  |
+| Pronom | 1385 | Canon RAW | crw |  |
+| Pronom | 1386 | Microsoft PhotoDraw | mix | image/vnd.mix |
+| Pronom | 1387 | Microsoft Excel Non-XML Binary Workbook | xlsb | application/vnd.ms-excel.sheet.binary.macroEnabled.12 |
+| Pronom | 1388 | Apple Lossless Audio Codec | m4a, mp4 |  |
+| Pronom | 1389 | Microsoft Word Template | dotx | application/vnd.openxmlformats-officedocument.wordprocessingml.template |
+| Pronom | 1390 | Microsoft Excel Template | xltx | application/vnd.openxmlformats-officedocument.spreadsheetml.template |
+| Pronom | 1391 | Microsoft Word Macro-Enabled Document Template | dotm | application/vnd.ms-word.template.macroEnabled.12 |
+| Pronom | 1392 | eXtensible ARchive format | xar |  |
+| Pronom | 1393 | Statistical Analysis System Catalogue XPT (Windows) | xpt |  |
+| Pronom | 1394 | Statistical Analysis System Catalogue XPT (Unix) | xpt |  |
+| Pronom | 1395 | Statistical Analysis System Data XPT (Windows) | xpt |  |
+| Pronom | 1396 | Statistical Analysis System Data XPT (Unix) | xpt |  |
+| Pronom | 1397 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
+| Pronom | 1398 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
+| Pronom | 1399 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
+| Pronom | 1400 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
+| Pronom | 1401 | Microsoft Word (Generic) | doc | application/msword |
+| Pronom | 1406 | ARJ File Format | arj |  |
+| Pronom | 1407 | LDAP Data Interchange Format | ldif |  |
+| Pronom | 1408 | Mork | mab, msf, dat |  |
+| Pronom | 1409 | RAR Archive | rar | application/vnd.rar |
+| Pronom | 1410 | Windows Imaging Format | wim, swm |  |
+| Pronom | 1411 | Gimp Image File Format | xcf |  |
+| Pronom | 1412 | Web Open Font Format | woff | font/woff |
+| Pronom | 1413 | GeoGebra | ggb | application/vnd.geogebra.file |
+| Pronom | 1414 | GeoGebra | geo | application/vnd.geogebra.file |
+| Pronom | 1415 | GeoGebra | ggb | application/vnd.geogebra.file |
+| Pronom | 1416 | GeoGebra | ggb | application/vnd.geogebra.file |
+| Pronom | 1417 | GeoGebra | ggb | application/vnd.geogebra.file |
+| Pronom | 1418 | GeoGebra | ggb | application/vnd.geogebra.file |
+| Pronom | 1419 | SmartDraw | sdr |  |
+| Pronom | 1420 | RIFF Palette Format | pal |  |
+| Pronom | 1423 | Stuffit Archive File | sit | application/x-stuffit |
+| Pronom | 1424 | Apple Disk Copy Image | dmg, smi, img, image |  |
+| Pronom | 1425 | LHA File Format | lha, lzh |  |
+| Pronom | 1426 | Microsoft Excel Macro-Enabled Template | xltm | application/vnd.ms-excel.template.macroEnabled.12 |
+| Pronom | 1427 | Microsoft Excel Macro-Enabled Add-In | xlam | application/vnd.ms-excel.addin.macroEnabled.12 |
+| Pronom | 1428 | Microsoft PowerPoint Show | ppsx | application/vnd.openxmlformats-officedocument.presentationml.slideshow |
+| Pronom | 1429 | Microsoft PowerPoint Macro-Enabled Show | ppsm | application/vnd.ms-powerpoint.slideshow.macroEnabled.12 |
+| Pronom | 1430 | Microsoft PowerPoint Template | potx | application/vnd.openxmlformats-officedocument.presentationml.template |
+| Pronom | 1431 | Microsoft PowerPoint Macro-Enabled Template | potm | application/vnd.ms-powerpoint.template.macroEnabled.12 |
+| Pronom | 1432 | Microsoft PowerPoint Macro-Enabled Add-In | ppam | application/vnd.ms-powerpoint.addin.macroEnabled.12 |
+| Pronom | 1433 | Microsoft Compiled HTML Help | chm, chw | application/vnd.ms-htmlhelp |
+| Pronom | 1434 | CPIO | cpio |  |
+| Pronom | 1436 | Microsoft PowerPoint Macro-Enabled Slide | sldm | application/vnd.ms-powerpoint.slide.macroEnabled.12 |
+| Pronom | 1437 | Microsoft OneNote | one | application/msonenote |
+| Pronom | 1438 | SPSS Data File | sav |  |
+| Pronom | 1439 | MPEG-2 Elementary Stream | mpg, mpeg, m2v |  |
+| Pronom | 1440 | Epson Raw Image Format | erf |  |
+| Pronom | 1441 | Fujifilm RAW Image Format | raf |  |
+| Pronom | 1442 | ASTM E57 3D File Format | e57 | model/e57 |
+| Pronom | 1443 | Nullsoft Scriptable Install System | nsi |  |
+| Pronom | 1444 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
+| Pronom | 1445 | Apple iWork Keynote | key |  |
+| Pronom | 1446 | Microsoft Expression Media | ivc |  |
+| Pronom | 1447 | Media View Pro | mpcatalog |  |
+| Pronom | 1448 | MPEG-1 Elementary Stream | mpg, mpeg, m1v |  |
+| Pronom | 1449 | QuarkXPress Report File | qxp report, xtg, qxp%20report | application/vnd.Quark.QuarkXPress |
+| Pronom | 1450 | QuarkXPress Project | qpt, qwd, qxp | application/vnd.Quark.QuarkXPress |
+| Pronom | 1451 | QuarkXPress Project | qpt, qwd, qxp | application/vnd.Quark.QuarkXPress |
+| Pronom | 1452 | INTERLIS Transfer File | xtf |  |
+| Pronom | 1453 | INTERLIS Model File | ili |  |
+| Pronom | 1454 | KryoFlux | raw |  |
+| Pronom | 1455 | KryoFlux | raw |  |
+| Pronom | 1456 | Open XML Paper Specification | xps, oxps | application/oxps |
+| Pronom | 1457 | Cypher Query Language | cql |  |
+| Pronom | 1458 | Industry Foundation Classes | ifc |  |
+| Pronom | 1459 | Adobe Type 1 Mac Font File |  |  |
+| Pronom | 1460 | Sigma RAW Image | x3f |  |
+| Pronom | 1461 | Panasonic Raw | rw2 |  |
+| Pronom | 1462 | Industry Foundation Classes XML | ifcXML |  |
+| Pronom | 1463 | Gerber Format | gbr | application/vnd.gerber |
+| Pronom | 1464 | Chasys Draw image file | cd5 |  |
+| Pronom | 1465 | ART image format | art |  |
+| Pronom | 1466 | Photoshop Curve File | acv, atf |  |
+| Pronom | 1467 | Olympus RAW | orf |  |
+| Pronom | 1468 | Minolta RAW | mrw |  |
+| Pronom | 1469 | PKCS #7 Cryptographic Message File | p7m, p7b, p7s | application/pkcs7-mime, application/pkcs7-signature |
+| Pronom | 1470 | Serif PagePlus Publication | ppp |  |
+| Pronom | 1471 | Serif PagePlus Publication | ppp |  |
+| Pronom | 1472 | Serif PagePlus Publication | ppp |  |
+| Pronom | 1473 | Serif PagePlus Publication | ppp |  |
+| Pronom | 1474 | Serif PagePlus Publication | ppp |  |
+| Pronom | 1475 | Serif PagePlus Publication | ppp |  |
+| Pronom | 1476 | Serif PagePlus Publication | ppp |  |
+| Pronom | 1477 | Serif PagePlus Publication | ppp |  |
+| Pronom | 1478 | Serif PagePlus Publication | ppp |  |
+| Pronom | 1479 | Serif PagePlus Publication | ppp |  |
+| Pronom | 1480 | Serif PagePlus Publication | ppp |  |
+| Pronom | 1481 | Thumbs DB file | db | application/vnd.microsoft.windows.thumbnail-cache |
+| Pronom | 1482 | Advanced Function Presentation | afp |  |
+| Pronom | 1483 | Vectorworks | vwx | application/vnd.vectorworks |
+| Pronom | 1484 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
+| Pronom | 1485 | Vectorworks | vwx | application/vnd.vectorworks |
+| Pronom | 1486 | Better Portable Graphics | bpg |  |
+| Pronom | 1487 | Executable and Linkable Format | elf, o |  |
+| Pronom | 1488 | Executable and Linkable Format | elf, o |  |
+| Pronom | 1489 | Executable and Linkable Format | elf, o |  |
+| Pronom | 1490 | Executable and Linkable Format | elf, o |  |
+| Pronom | 1491 | Mach-O |  |  |
+| Pronom | 1492 | Mach-O |  |  |
+| Pronom | 1493 | Dalvik Executable Format | dex |  |
+| Pronom | 1494 | Optimised Dalvik Executable Format | odex |  |
+| Pronom | 1495 | Sibelius | sib |  |
+| Pronom | 1496 | Additive Manufacturing File Format | amf |  |
+| Pronom | 1497 | Standard for the Exchange of Product model data | step, stp, p21 |  |
+| Pronom | 1498 | Industry Foundation Classes | ifc |  |
+| Pronom | 1499 | Industry Foundation Classes | ifc |  |
+| Pronom | 1500 | Processing Development Environment | pde |  |
+| Pronom | 1501 | Universal 3D File Format | u3d |  |
+| Pronom | 1502 | Broadcast WAVE | wav | audio/x-wav |
+| Pronom | 1503 | Broadcast WAVE | wav | audio/x-wav |
+| Pronom | 1504 | Broadcast WAVE | wav | audio/x-wav |
+| Pronom | 1505 | Broadcast WAVE | wav | audio/x-wav |
+| Pronom | 1506 | Broadcast WAVE | wav | audio/x-wav |
+| Pronom | 1507 | Broadcast WAVE | wav | audio/x-wav |
+| Pronom | 1508 | Broadcast WAVE | wav, rf64 | audio/x-wav |
+| Pronom | 1509 | Broadcast WAVE | wav, rf64 | audio/x-wav |
+| Pronom | 1510 | Broadcast WAVE | wav | audio/x-wav |
+| Pronom | 1511 | RF64 | wav, rf64 |  |
+| Pronom | 1512 | RF64 Multichannel Broadcast Wave format | wav, rf64 |  |
+| Pronom | 1513 | Extensible Music Format | xmf, mxmf |  |
+| Pronom | 1514 | Impulse Tracker Module | it |  |
+| Pronom | 1515 | MOD Audio Module | mod |  |
+| Pronom | 1516 | Scream Tracker Module | stm |  |
+| Pronom | 1517 | Scream Tracker Module | s3m |  |
+| Pronom | 1518 | MultiTracker Module | mtm |  |
+| Pronom | 1519 | MBOX | mbox | application/mbox |
+| Pronom | 1520 | VLW Font File | vlw |  |
+| Pronom | 1521 | Oktalyzer Audio file | okt |  |
+| Pronom | 1522 | Farandole Composer Module | far |  |
+| Pronom | 1523 | Keyhole Markup Language (Container) | kmz | application/vnd.google-earth.kmz |
+| Pronom | 1524 | Microsoft Project | mpp | application/vnd.ms-project |
+| Pronom | 1525 | Virtual Disk Image | vdi |  |
+| Pronom | 1526 | Cartesian Perceptual Compression image format | cpi, cpc |  |
+| Pronom | 1527 | RealLegal E-Transcript | ptx |  |
+| Pronom | 1528 | SQLite Database File Format | sqlite, db, db3, sqlite3 | application/x-sqlite3 |
+| Pronom | 1529 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
+| Pronom | 1530 | Bink Video Format | bik |  |
+| Pronom | 1531 | Bink Video Format | bik2, bk2 | video/vnd.radgamettools.bink |
+| Pronom | 1532 | FL Studio project file (FLP) | flp |  |
+| Pronom | 1533 | SuperScape Virtual Reality Format | svr |  |
+| Pronom | 1534 | Dolby Digital AC-3 | ac3 | audio/ac3 |
+| Pronom | 1535 | ClarisWorks | cwk |  |
+| Pronom | 1536 | ClarisWorks | cwk |  |
+| Pronom | 1537 | ClarisWorks Drawing | cwk |  |
+| Pronom | 1538 | ClarisWorks Word Processor | cwk |  |
+| Pronom | 1539 | ClarisWorks Spreadsheet | cwk |  |
+| Pronom | 1540 | ClarisWorks Database | cwk |  |
+| Pronom | 1541 | ClarisWorks Painting | cwk |  |
+| Pronom | 1542 | ClarisWorks/AppleWorks Drawing | cwk |  |
+| Pronom | 1543 | ClarisWorks/AppleWorks Word Processor | cwk |  |
+| Pronom | 1544 | ClarisWorks/AppleWorks Spreadsheet | cwk |  |
+| Pronom | 1545 | ClarisWorks/AppleWorks Database | cwk |  |
+| Pronom | 1546 | ClarisWorks/AppleWorks Painting | cwk |  |
+| Pronom | 1547 | AppleWorks Drawing | cwk |  |
+| Pronom | 1548 | AppleWorks Word Processor | cwk |  |
+| Pronom | 1549 | AppleWorks Spreadsheet | cwk |  |
+| Pronom | 1550 | AppleWorks Database | cwk |  |
+| Pronom | 1551 | AppleWorks Painting | cwk |  |
+| Pronom | 1552 | AppleWorks Presentation | cwk |  |
+| Pronom | 1553 | Microsoft Word Document (Password Protected) | wbk, doc | application/msword |
+| Pronom | 1554 | Microsoft Word Document Template (Password Protected) | dot | application/msword |
+| Pronom | 1555 | Zope Export File | zexp |  |
+| Pronom | 1556 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1557 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1558 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1559 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1560 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1561 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1562 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1563 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1564 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1565 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1566 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1567 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1568 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1569 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1570 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1571 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1572 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1573 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1574 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1575 | Adobe Flash | swf | application/x-shockwave-flash |
+| Pronom | 1576 | Microsoft Network Monitor Packet Capture | cap |  |
+| Pronom | 1577 | Microsoft Network Monitor Packet Capture | cap |  |
+| Pronom | 1578 | pcap Packet Capture | pcap, cap, dmp | application/vnd.tcpdump.pcap |
+| Pronom | 1579 | pcap Next Generation Packet Capture | pcapng | application/vnd.tcpdump.pcap |
+| Pronom | 1580 | Snoop Packet Capture | snoop |  |
+| Pronom | 1581 | PowerVR Object Data | pod |  |
+| Pronom | 1582 | Material Exchange Format | mxf | application/mxf |
+| Pronom | 1583 | Material Exchange Format | mxf | application/mxf |
+| Pronom | 1584 | Material Exchange Format | mxf | application/mxf |
+| Pronom | 1585 | Material Exchange Format | mxf | application/mxf |
+| Pronom | 1586 | Material Exchange Format | mxf | application/mxf |
+| Pronom | 1587 | Material Exchange Format | mxf | application/mxf |
+| Pronom | 1588 | Material Exchange Format | mxf | application/mxf |
+| Pronom | 1589 | Material Exchange Format | mxf | application/mxf |
+| Pronom | 1590 | Material Exchange Format | mxf | application/mxf |
+| Pronom | 1591 | Unified Emulator Format | uef, hq.uef |  |
+| Pronom | 1592 | RPM Package Manager file | rpm, src.rpm |  |
+| Pronom | 1593 | RPM Package Manager file | rpm, src.rpm |  |
+| Pronom | 1594 | RPM Package Manager file | rpm, src.rpm |  |
+| Pronom | 1595 | Adobe After Effects | aep |  |
+| Pronom | 1596 | Apple ProRes | mov |  |
+| Pronom | 1598 | The Neuroimaging Informatics Technology Initiative File Format | nii |  |
+| Pronom | 1599 | WriteNow |  |  |
+| Pronom | 1600 | CSV Schema | csvs | text/csv-schema |
+| Pronom | 1601 | TAP (ZX Spectrum) | tap |  |
+| Pronom | 1602 | TAP (Commodore 64) | tap |  |
+| Pronom | 1603 | Encase Image File/Expert Witness Compression File | e01 | application/encase |
+| Pronom | 1604 | Logical File Evidence Format | l01 |  |
+| Pronom | 1605 | XAML Binary Format | xbf |  |
+| Pronom | 1606 | MATLAB Mat File | mat, fig |  |
+| Pronom | 1607 | HDF5 | h5, hdf, hdf5, nc |  |
+| Pronom | 1608 | StarOffice Calc | sdc |  |
+| Pronom | 1609 | StarOffice Calc | sdc |  |
+| Pronom | 1610 | StarOffice Draw | sdd |  |
+| Pronom | 1611 | StarOffice Draw | sdd |  |
+| Pronom | 1612 | StarOffice Writer | sdw |  |
+| Pronom | 1613 | StarOffice Writer | sdw |  |
+| Pronom | 1614 | StarOffice Impress | sdd |  |
+| Pronom | 1615 | StarOffice Impress | sdd |  |
+| Pronom | 1616 | NUT Open Container Format | nut |  |
+| Pronom | 1617 | JSON Data Interchange Format | json | application/json |
+| Pronom | 1618 | YAML | yaml, yml |  |
+| Pronom | 1619 | CD-ROM/XA (eXtended Architecture) | dat |  |
+| Pronom | 1620 | T64 Tape Image Format | t64 |  |
+| Pronom | 1621 | G64 GCR-encoded Disk Image Format | g41, g64, g71 |  |
+| Pronom | 1622 | CRT C64 Cartridge Image Format | crt |  |
+| Pronom | 1623 | P00 C64 Image Format | p00, p01, p02, p03, p04 |  |
+| Pronom | 1624 | Apple iWork Pages | pages |  |
+| Pronom | 1626 | Apple iWork Numbers | numbers |  |
+| Pronom | 1627 | Scriptware Script Format | sw3 |  |
+| Pronom | 1628 | Serif DrawPlus Drawing | dpp |  |
+| Pronom | 1629 | MATLAB Mat File | mat, fig |  |
+| Pronom | 1630 | 3MF 3D Manufacturing Format | 3mf | application/vnd.ms-3mfdocument |
+| Pronom | 1631 | Qsplat Model | qs |  |
+| Pronom | 1632 | Polygon File Format | ply |  |
+| Pronom | 1633 | Open Inventor File Format | iv |  |
+| Pronom | 1634 | Open Inventor File Format | iv |  |
+| Pronom | 1635 | Quattro Pro Spreadsheet for Windows | wb1 |  |
+| Pronom | 1636 | Quattro Pro Spreadsheet for Windows | wb2 |  |
+| Pronom | 1637 | Quattro Pro Spreadsheet | wb3 |  |
+| Pronom | 1638 | Quattro Pro Spreadsheet | qpw |  |
+| Pronom | 1639 | Outlook Express Message Database | dbx |  |
+| Pronom | 1640 | Outlook Express Folder Database | dbx |  |
+| Pronom | 1641 | ADX Audio Format | adx |  |
+| Pronom | 1642 | Interleaved ADX Audio Format (AIX) | aix |  |
+| Pronom | 1643 | AccessData Custom Content Image | ad1, ad2, ad3, ad4, ad5 |  |
+| Pronom | 1644 | AccessData Custom Content Image (Encrypted) | ad1, ad2, ad3, ad4, ad5 |  |
+| Pronom | 1645 | Advanced Forensic Format | aff |  |
+| Pronom | 1646 | ClarisWorks Drawing | cwk |  |
+| Pronom | 1647 | ClarisWorks Word Processor | cwk |  |
+| Pronom | 1648 | ClarisWorks Spreadsheet | cwk |  |
+| Pronom | 1649 | ClarisWorks Database | cwk |  |
+| Pronom | 1650 | ClarisWorks Painting | cwk |  |
+| Pronom | 1651 | NuFile Exchange Archival Library | shk, sdk, bxy |  |
+| Pronom | 1652 | Genealogical Data Communication (GEDCOM) Format | ged |  |
+| Pronom | 1653 | Serif DrawPlus Drawing | dpp |  |
+| Pronom | 1654 | Serif DrawPlus Drawing | dpp |  |
+| Pronom | 1655 | Personal Ancestral File (PAF) | paf |  |
+| Pronom | 1656 | Personal Ancestral File (PAF) | paf |  |
+| Pronom | 1657 | Personal Ancestral File (PAF) | paf |  |
+| Pronom | 1658 | Navisworks Document | nwd, nwc |  |
+| Pronom | 1659 | Navisworks Document | nwd, nwc |  |
+| Pronom | 1660 | Navisworks Document | nwd, nwc |  |
+| Pronom | 1661 | Navisworks Document | nwd, nwc |  |
+| Pronom | 1663 | Maya Binary File Format | mb |  |
+| Pronom | 1664 | Maya Binary File Format | mb |  |
+| Pronom | 1666 | Maya ASCII File Format | ma |  |
+| Pronom | 1667 | 3DM | 3dm |  |
+| Pronom | 1669 | STL (Standard Tessellation Language) Binary | stl |  |
+| Pronom | 1670 | Apple Safari Webarchive | webarchive |  |
+| Pronom | 1671 | Microsoft Reader eBook | lit |  |
+| Pronom | 1672 | MySQL Table Definition Format | frm |  |
+| Pronom | 1673 | CDX Internet Archive Index | cdx |  |
+| Pronom | 1674 | Perl Script | pl |  |
+| Pronom | 1675 | Adobe Content Server Message File | acsm | application/vnd.adobe.adept+xml |
+| Pronom | 1676 | Free Lossless Image Format (FLIF) | flif | image/flif |
+| Pronom | 1677 | Notation3 | n3 | text/n3 |
+| Pronom | 1678 | Turtle | ttl | text/turtle |
+| Pronom | 1679 | RDF/XML | rdf | application/rdf+xml |
+| Pronom | 1680 | Pagemaker Document (Generic) | p65, pmd, pmt | application/vnd.pagemaker |
+| Pronom | 1681 | Corel Presentation | shw |  |
+| Pronom | 1682 | Corel Presentation | shw |  |
+| Pronom | 1683 | Fortran | f90, f95, f03, f, for |  |
+| Pronom | 1684 | JSON-LD | jsonld |  |
+| Pronom | 1685 | Microsoft Document Imaging File Format | mdi | image/vnd.ms-modi |
+| Pronom | 1686 | Wordstar 2000 |  |  |
+| Pronom | 1687 | Siegfried Signature File | sig |  |
+| Pronom | 1688 | AXD HTTP Handler File | axd |  |
+| Pronom | 1689 | BASIC File | bas |  |
+| Pronom | 1690 | HTML Components | htc |  |
+| Pronom | 1691 | SafeGuard Encrypted Virtual Disk | vol, hdr |  |
+| Pronom | 1692 | QuadriSpace Format | qsd, qsl, qsm, qst |  |
+| Pronom | 1693 | Feather | feather |  |
+| Pronom | 1694 | AbiWord Document | abw |  |
+| Pronom | 1695 | AbiWord Document Template | awt |  |
+| Pronom | 1696 | Compound WordPerfect for Windows Document | wpd, doc, wp6, wp, w60 | application/vnd.wordperfect |
+| Pronom | 1697 | i2 Analysts Notebook | anb |  |
+| Pronom | 1698 | Gaussian Input Data File | gjf |  |
+| Pronom | 1699 | JEOL NMR Spectroscopy | jdf |  |
+| Pronom | 1700 | MusicXML | xml, musicxml | application/vnd.recordare.musicxml+xml |
+| Pronom | 1701 | Compressed MusicXML | mxl | application/vnd.recordare.musicxml |
+| Pronom | 1702 | Zoomify Image Format | zif |  |
+| Pronom | 1704 | Windows Portable Executable | exe, dll, sys | application/vnd.microsoft.portable-executable |
+| Pronom | 1705 | Windows Portable Executable | exe, dll, sys | application/vnd.microsoft.portable-executable |
+| Pronom | 1706 | Microsoft Works Spreadsheet | xlr |  |
+| Pronom | 1707 | Blender 3D | blend |  |
+| Pronom | 1708 | Blender 3D | blend |  |
+| Pronom | 1709 | Bluetooth Snoop Packet Capture | log |  |
+| Pronom | 1710 | Variant Call Format | vcf |  |
+| Pronom | 1711 | Variant Call Format | vcf |  |
+| Pronom | 1712 | Variant Call Format | vcf |  |
+| Pronom | 1713 | Variant Call Format | vcf |  |
+| Pronom | 1714 | CRAM File Format | cram |  |
+| Pronom | 1715 | CRAM File Format | cram |  |
+| Pronom | 1716 | CRAM File Format | cram |  |
+| Pronom | 1717 | Microsoft Paint | msp |  |
+| Pronom | 1718 | Caligari trueSpace File Format | cob, scn |  |
+| Pronom | 1719 | Caligari trueSpace File Format | cob, scn |  |
+| Pronom | 1720 | Mapsforge Binary Map File Format | map |  |
+| Pronom | 1721 | ESRI ArcMap Document | mxd, mxt |  |
+| Pronom | 1722 | AmiraMesh | am, amiramesh, hx |  |
+| Pronom | 1723 | AmiraMesh | am, amiramesh, hx |  |
+| Pronom | 1724 | AmiraMesh | am, amiramesh, hx |  |
+| Pronom | 1725 | AmiraMesh | am, amiramesh, hx |  |
+| Pronom | 1726 | AmiraMesh | am, amiramesh, hx |  |
+| Pronom | 1727 | Xar Image Format | xar |  |
+| Pronom | 1728 | Microsoft xWMA | xwma |  |
+| Pronom | 1729 | Microsoft Visio Drawing | vsdx | application/vnd.ms-visio.drawing.main+xml |
+| Pronom | 1730 | Microsoft Visio Stencil | vssx | application/vnd.ms-visio.stencil.main+xml |
+| Pronom | 1731 | Microsoft Visio Template | vstx | application/vnd.ms-visio.template.main+xml |
+| Pronom | 1732 | Microsoft Visio Macro-Enabled Drawing | vsdm | application/vnd.ms-visio.drawing.macroEnabled.main+xml |
+| Pronom | 1733 | Microsoft Visio Macro-Enabled Stencil | vssm | application/vnd.ms-visio.stencil.macroEnabled.main+xml |
+| Pronom | 1734 | Microsoft Visio Macro-Enabled Template | vstm | application/vnd.ms-visio.template.macroEnabled.main+xml |
+| Pronom | 1735 | Magick Image File Format | mif |  |
+| Pronom | 1736 | Mathcad Document | mcd |  |
+| Pronom | 1737 | Mathcad Document | xmcd |  |
+| Pronom | 1738 | Simple Vector Format | svf | image/vnd-svf |
+| Pronom | 1739 | Simple Vector Format | svf | image/vnd-svf |
+| Pronom | 1740 | Animated Portable Network Graphics | png, apng | image/vnd.mozilla.apng |
+| Pronom | 1741 | Microsoft Picture It! Image File | mix | image/vnd.mix |
+| Pronom | 1742 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
+| Pronom | 1743 | Python Source Code File | py |  |
+| Pronom | 1744 | Python Compiled File | pyc |  |
+| Pronom | 1745 | Python Compiled File | pyc |  |
+| Pronom | 1746 | Back Up File | bak |  |
+| Pronom | 1747 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
+| Pronom | 1748 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
+| Pronom | 1749 | Ogg Multimedia Container | ogg, ogv, spx, opus | application/ogg |
+| Pronom | 1750 | Ogg Theora Video | ogv, ogg | video/ogg |
+| Pronom | 1751 | Ogg Opus Codec Compressed Multimedia File | ogg, opus | audio/ogg, audio/opus |
+| Pronom | 1752 | Ogg FLAC Compressed Multimedia File | ogg | audio/ogg |
+| Pronom | 1753 | Ogg Speex Codec Multimedia File | ogg, spx | audio/ogg, audio/speex |
+| Pronom | 1754 | WordPerfect | wp4, wpd | application/vnd.wordperfect |
+| Pronom | 1755 | MIME Email | eml | message/rfc822 |
+| Pronom | 1756 | Sonic Foundry WAVE 64 | w64, wav |  |
+| Pronom | 1757 | True Audio | tta | audio/tta |
+| Pronom | 1758 | True Audio | tta | audio/tta |
+| Pronom | 1759 | Adaptive Multi-Rate Wideband Audio | awb | audio/amr-wb |
+| Pronom | 1760 | Downloadable Sounds Audio | dls | audio/dls |
+| Pronom | 1761 | RIFF-based MIDI | rmi |  |
+| Pronom | 1762 | DirectMusic Segment File Format | sgt |  |
+| Pronom | 1763 | DirectMusic Style File Format | sty |  |
+| Pronom | 1764 | Portable Sound Format | psf, psf1, psflib, minipsf, minipsf1, gsf, gsflib, minigsf |  |
+| Pronom | 1765 | DOS Sound and Music Interface Advanced Module Format | amf |  |
+| Pronom | 1766 | Mobile eXtensible Music Format | mxmf | audio/mobile-xmf |
+| Pronom | 1767 | QCP Audio File Format | qcp | audio/qcelp |
+| Pronom | 1768 | OMNIC Spectral Data File | spa |  |
+| Pronom | 1769 | Final Draft Document | fdr |  |
+| Pronom | 1770 | Music Encoding Initiative | mei |  |
+| Pronom | 1771 | AppleDouble Resource Fork |  | multipart/appledouble |
+| Pronom | 1772 | AppleSingle | as | application/applefile |
+| Pronom | 1773 | AppleSingle | as | application/applefile |
+| Pronom | 1774 | Rich Text Format | rtf | application/rtf |
+| Pronom | 1775 | Khronos Texture File | ktx | image/ktx |
+| Pronom | 1776 | Microsoft Windows Movie Maker File | mswmm |  |
+| Pronom | 1777 | Dolby MLP Lossless Audio | mlp | audio/vnd.dolby.mlp |
+| Pronom | 1778 | DTS Coherent Acoustics (DCA) Audio | dts | audio/vnd.dts |
+| Pronom | 1779 | Notation Interchange File Format | nif | application/vnd.music-niff |
+| Pronom | 1780 | Jamcracker Tracker Module | jam |  |
+| Pronom | 1781 | MagicaVoxel Vox format | vox |  |
+| Pronom | 1782 | AutoCAD Design Web Format(DWFx) | dwfx |  |
+| Pronom | 1783 | 3DS Max | max, chr |  |
+| Pronom | 1784 | XML Property List | plist |  |
+| Pronom | 1785 | AAE Sidecar Format | aae |  |
+| Pronom | 1786 | EazyDraw File Format | ezdraw |  |
+| Pronom | 1787 | iMovieProj File Format | iMovieProj |  |
+| Pronom | 1788 | NIB File Format | nib |  |
+| Pronom | 1789 | Binary Property List | plist, nib, aae, iMovieProj, ezdraw |  |
+| Pronom | 1790 | Valve Texture Format | vtf | image/vnd.valve.source.texture |
+| Pronom | 1791 | Extensible Metadata Platform Format | xmp |  |
+| Pronom | 1792 | Microsoft OneNote Package File | onepkg |  |
+| Pronom | 1793 | ESRI ArcScene Document | sxd |  |
+| Pronom | 1794 | ESRI ArcGlobe Document | 3dd |  |
+| Pronom | 1795 | ESRI File Geodatabase |  |  |
+| Pronom | 1796 | SHA256 File | sha256 |  |
+| Pronom | 1797 | SHA1 File | sha1 |  |
+| Pronom | 1798 | MD5 File | md5 |  |
+| Pronom | 1799 | Jeffs Image Format | jif |  |
+| Pronom | 1800 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
+| Pronom | 1801 | Adobe Photoshop Large Document Format | psb | image/vnd.adobe.photoshop |
+| Pronom | 1802 | SPSS Portable Data Format | por |  |
+| Pronom | 1803 | OpenRaster Image Format | ora | image/openraster |
+| Pronom | 1804 | Krita Document Format | kra | application/x-krita |
+| Pronom | 1805 | TZX Format | tzx |  |
+| Pronom | 1806 | OpenEXR | exr | image/x-exr |
+| Pronom | 1807 | Nearly Raw Raster Data | nrrd |  |
+| Pronom | 1808 | Nearly Raw Raster Data | nrrd |  |
+| Pronom | 1809 | Nearly Raw Raster Data | nrrd |  |
+| Pronom | 1810 | Nearly Raw Raster Data | nrrd |  |
+| Pronom | 1811 | Nearly Raw Raster Data | nrrd |  |
+| Pronom | 1812 | Digital Speech Standard | dss |  |
+| Pronom | 1813 | DSS Pro | ds2 |  |
+| Pronom | 1814 | FBX (Filmbox) Binary |  |  |
+| Pronom | 1815 | FBX (Filmbox) Text | fbx |  |
+| Pronom | 1816 | INTERLIS Transfer File | xml, xtf |  |
+| Pronom | 1817 | INTERLIS Model File | ili |  |
+| Pronom | 1818 | INTERLIS Transfer File | itf |  |
+| Pronom | 1819 | INTERLIS Model File | ili |  |
+| Pronom | 1820 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
+| Pronom | 1821 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
+| Pronom | 1822 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
+| Pronom | 1823 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
+| Pronom | 1824 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
+| Pronom | 1825 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
+| Pronom | 1826 | Statistical Analysis System Data (Windows) | sas7bdat, sd7 |  |
+| Pronom | 1827 | Statistical Analysis System Data (Unix) | sas7bdat, sd7 |  |
+| Pronom | 1828 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
+| Pronom | 1829 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
+| Pronom | 1830 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
+| Pronom | 1831 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
+| Pronom | 1832 | Statistical Analysis System Catalog (Windows) | sas7bcat, sc7 |  |
+| Pronom | 1833 | Statistical Analysis System Catalog (Unix) | sas7bcat, sc7 |  |
+| Pronom | 1834 | Stata Data (DTA) Format | dta |  |
+| Pronom | 1835 | Stata Data (DTA) Format | dta |  |
+| Pronom | 1836 | Stata Data (DTA) Format | dta |  |
+| Pronom | 1837 | Stata Data (DTA) Format | dta |  |
+| Pronom | 1838 | Stata Data (DTA) Format | dta |  |
+| Pronom | 1839 | Stata Data (DTA) Format | dta |  |
+| Pronom | 1840 | Stata Data (DTA) Format | dta |  |
+| Pronom | 1841 | Stata Data (DTA) Format | dta |  |
+| Pronom | 1842 | Stata Data (DTA) Format | dta |  |
+| Pronom | 1843 | Redcode RAW (R3D) Media File | r3d |  |
+| Pronom | 1844 | Redcode Metadata (RMD) File | rmd |  |
+| Pronom | 1845 | DirectDraw Surface | dds |  |
+| Pronom | 1846 | HDF | hdf, h4 |  |
+| Pronom | 1847 | WordPerfect Graphics Metafile | wpg |  |
+| Pronom | 1848 | Microsoft PRX File | prx |  |
+| Pronom | 1849 | AutoShade Rendering Slide | rnd |  |
+| Pronom | 1850 | Q&A Word Processor Document |  |  |
+| Pronom | 1851 | Draco File Format | drc |  |
+| Pronom | 1852 | Geography Markup Language | gml | application/gml+xml |
+| Pronom | 1853 | OGR GFS File | gfs |  |
+| Pronom | 1854 | QuickDraw 3D Metafile (ASCII) | 3dmf |  |
+| Pronom | 1855 | QuickDraw 3D Metafile (Binary) | 3dmf |  |
+| Pronom | 1856 | Windows Journal Format | jnt, jtp |  |
+| Pronom | 1857 | BKNAS Seismic Data Format | bknas |  |
+| Pronom | 1858 | Adobe Audio Waveform | pek |  |
+| Pronom | 1859 | AVCHD Clip Information File | cpi, clpi |  |
+| Pronom | 1860 | M2TS | mts, m2ts |  |
+| Pronom | 1861 | SNAP Main Data File | mdf |  |
+| Pronom | 1862 | SNAP Archive Data File | adf |  |
+| Pronom | 1863 | SNAP Processed Data File | snpdf |  |
+| Pronom | 1864 | FileMaker Pro Database | fm |  |
+| Pronom | 1866 | Phase One Raw Image | cap, capture |  |
+| Pronom | 1867 | Phase One IIQ Raw Image | iiq |  |
+| Pronom | 1868 | Hasselblad 3FR Raw Image | 3fr |  |
+| Pronom | 1870 | Leaf Mosaic Raw Image | mos |  |
+| Pronom | 1871 | Portable Database | pdb |  |
+| Pronom | 1872 | Portable Database | pdb |  |
+| Pronom | 1873 | Portable Database | pdb |  |
+| Pronom | 1874 | Silo | silo |  |
+| Pronom | 1875 | Silo | silo |  |
+| Pronom | 1876 | Cue Sheet | cue |  |
+| Pronom | 1877 | Preferred Executable Format |  |  |
+| Pronom | 1878 | Apple Disk Image | dmg | application/x-apple-diskimage |
+| Pronom | 1879 | FileMaker Pro Database |  |  |
+| Pronom | 1880 | Google Document Link File | gslides, gdoc, gsheet, gdraw, gmap, gsite, gform |  |
+| Pronom | 1881 | AVCHD Playlist File | mpl, mpls |  |
+| Pronom | 1882 | AVCHD Movie Object File | bdm, bdmv |  |
+| Pronom | 1883 | AVCHD Index File | bdm, bdmv |  |
+| Pronom | 1884 | AVCHD Thumbnail Index File | tid |  |
+| Pronom | 1886 | Microsoft Program Database | pdb |  |
+| Pronom | 1887 | Microsoft Program Database | pdb |  |
+| Pronom | 1888 | ASP Application Directive File | asax |  |
+| Pronom | 1889 | ASP Control Directive File | ascx |  |
+| Pronom | 1890 | ASP WebService Directive File | asmx |  |
+| Pronom | 1891 | Hangul Word Processor Document | hwp |  |
+| Pronom | 1892 | Hangul Word Processor Document | hwp |  |
+| Pronom | 1893 | TRIM Context Reference File | tr5, txt |  |
+| Pronom | 1894 | Monkey's Audio File | ape |  |
+| Pronom | 1895 | FAT Disk Image | img, ima, dsk |  |
+| Pronom | 1896 | Visual Basic (VB) File | vb |  |
+| Pronom | 1897 | VBScript (VBS) File | vbs |  |
+| Pronom | 1898 | Exclude File | exclude |  |
+| Pronom | 1899 | Scribus Document | sla, scd | application/vnd.scribus |
+| Pronom | 1900 | Alias Pix Image File | pix, ico |  |
+| Pronom | 1901 | Alias Scene Description Language | sdl |  |
+| Pronom | 1902 | The Neuroimaging Informatics Technology Initiative File Format | nii |  |
+| Pronom | 1903 | PEA Archive Format | pea |  |
+| Pronom | 1904 | FreeArc Archive Format | arc |  |
+| Pronom | 1905 | ZPAQ Archive Format | zpaq |  |
+| Pronom | 1906 | TCR eBook | tcr |  |
+| Pronom | 1907 | XZ File Format | xz |  |
+| Pronom | 1908 | yEnc Encoded File | yenc |  |
+| Pronom | 1909 | High Efficiency Image File Format | heic | image/heif |
+| Pronom | 1910 | Uuencoded File | uue |  |
+| Pronom | 1911 | AutoCAD Hatch Pattern | pat |  |
+| Pronom | 1912 | Seattle FilmWorks SFW Image Format | sfw |  |
+| Pronom | 1913 | Hierarchical File System | img |  |
+| Pronom | 1914 | Python Compiled File | pyc |  |
+| Pronom | 1915 | Python Compiled File | pyc |  |
+| Pronom | 1916 | Python Compiled File | pyc |  |
+| Pronom | 1917 | Python Compiled File | pyc |  |
+| Pronom | 1918 | Python Compiled File | pyc |  |
+| Pronom | 1919 | Python Compiled File | pyc |  |
+| Pronom | 1920 | Python Compiled File | pyc |  |
+| Pronom | 1921 | Python Compiled File | pyc |  |
+| Pronom | 1922 | Python Compiled File | pyc |  |
+| Pronom | 1923 | Python Compiled File | pyc |  |
+| Pronom | 1924 | Python Compiled File | pyc |  |
+| Pronom | 1925 | Python Compiled File | pyc |  |
+| Pronom | 1926 | Python Compiled File | pyc |  |
+| Pronom | 1929 | Jupyter Python Notebook | ipynb |  |
+| Pronom | 1930 | DIFFRACplus Raw Data File Format | raw |  |
+| Pronom | 1931 | DIFFRACplus Raw Data File Format | raw |  |
+| Pronom | 1932 | VAMAS Surface Chemical Analysis Standard Data Transfer Format | vms |  |
+| Pronom | 1933 | Origin Project Format | opj, ogg, ogm, ogw |  |
+| Pronom | 1934 | Origin Project Format | opju, oggu, ogmu, ogwu |  |
+| Pronom | 1935 | JASCO JWS Format | jws |  |
+| Pronom | 1936 | Sony SR2 RAW Image File | sr2 |  |
+| Pronom | 1937 | Sony ARW RAW Image File | arw |  |
+| Pronom | 1938 | Progressive Graphics File | pgf |  |
+| Pronom | 1939 | PDF 2.0 - Portable Document Format | pdf | application/pdf |
+| Pronom | 1940 | C3D File Format | c3d |  |
+| Pronom | 1941 | Gatan Digital Micrograph File Format (DM3) | dm3 |  |
+| Pronom | 1942 | Netscape Bookmark File Format | htm, html |  |
+| Pronom | 1943 | Farbfeld Image Format | ff |  |
+| Pronom | 1944 | GPS Exchange Format | gpx |  |
+| Pronom | 1945 | SQLite Database File Format | sqlite, db |  |
+| Pronom | 1946 | MiniCAD | mcd | application/vnd.vectorworks |
+| Pronom | 1947 | MiniCAD | mcd | application/vnd.vectorworks |
+| Pronom | 1948 | MiniCAD/VectorWorks | mcd, vwx | application/vnd.vectorworks |
+| Pronom | 1949 | VectorWorks | vwx | application/vnd.vectorworks |
+| Pronom | 1950 | VectorWorks | vwx | application/vnd.vectorworks |
+| Pronom | 1951 | VectorWorks | vwx | application/vnd.vectorworks |
+| Pronom | 1952 | VectorWorks Plugin or Script | vso, vst, vsm | application/vnd.vectorworks |
+| Pronom | 1953 | ZISRAW (CZI) File Format | czi |  |
+| Pronom | 1954 | CompuServe WinCIM Message Format | plx, msg |  |
+| Pronom | 1955 | Maxwell Render Material File | mxm |  |
+| Pronom | 1956 | Maxwell Render Image Format | mxi |  |
+| Pronom | 1957 | SIDOUN WinAVA Format | swa |  |
+| Pronom | 1958 | Maxwell Render Scene File Format | mxs |  |
+| Pronom | 1959 | Markdown | md, markdown | text/markdown |
+| Pronom | 1960 | 4X Movie File | 4xm, 4xa |  |
+| Pronom | 1961 | Lightwright Show File | lw1, lw |  |
+| Pronom | 1962 | Lightwright Show File | lw2 |  |
+| Pronom | 1963 | Lightwright Show File | lw3 |  |
+| Pronom | 1964 | Lightwright Show File | lw4 |  |
+| Pronom | 1965 | Lightwright Show File | lw5 |  |
+| Pronom | 1966 | Lightwright Show File | lw6 |  |
+| Pronom | 1967 | Folio Infobase File | nfo |  |
+| Pronom | 1968 | Folio Infobase File | nfo |  |
+| Pronom | 1969 | Folio Infobase File | nfo |  |
+| Pronom | 1970 | Folio Shadow File | sdw |  |
+| Pronom | 1971 | Folio Shadow File | sdw |  |
+| Pronom | 1972 | Folio Flat File | fff |  |
+| Pronom | 1973 | Folio Definition File | def |  |
+| Pronom | 1974 | Praat Picture File | prapic |  |
+| Pronom | 1975 | Praat Script File | praat |  |
+| Pronom | 1976 | Niton Data Transfer | ndt |  |
+| Pronom | 1977 | Softimage 3D Picture File Format | pic |  |
+| Pronom | 1978 | Maya Icons or Swatches file | icons, swatches |  |
+| Pronom | 1979 | Maya IFF Image File | iff, ico |  |
+| Pronom | 1980 | Alias Studio Wire File |  |  |
+| Pronom | 1981 | Alias PowerAnimator File |  |  |
+| Pronom | 1982 | Web Open Font Format | woff2 | font/woff2 |
+| Pronom | 1983 | FrameMD5 | framemd5, md5 |  |
+| Pronom | 1984 | Hewlett Packard Graphics Language | 000 | application/vnd.hp-HPGL |
+| Pronom | 1985 | Alias Studio Wire File |  |  |
+| Pronom | 1986 | Nullsoft Streaming Video | nsv |  |
+| Pronom | 1987 | MicroStation Material Library | mat |  |
+| Pronom | 1988 | Synthetic Music Mobile Application Format | mmf | application/vnd.yamaha.smaf-audio |
+| Pronom | 1989 | Away3D Data Format | awd |  |
+| Pronom | 1990 | Cinema 4D | c4d |  |
+| Pronom | 1991 | Bodypaint 3D | b3d |  |
+| Pronom | 1992 | Blitz3D File Format | b3d |  |
+| Pronom | 1993 | MicroStation Material Palette | pal |  |
+| Pronom | 1994 | InDesign Markup Language Package | idml | application/vnd.adobe.indesign-idml-package |
+| Pronom | 1995 | Apple Icon Image Format | icns |  |
+| Pronom | 1996 | Dr. Halo Image Palette | pal |  |
+| Pronom | 1997 | Apple iWork Template | template |  |
+| Pronom | 1998 | Ogre Mesh 1.x | mesh |  |
+| Pronom | 1999 | Ogre Mesh XML | xml |  |
+| Pronom | 2000 | Adobe SWC Package | swc |  |
+| Pronom | 2001 | Adobe InDesign Book | indb |  |
+| Pronom | 2002 | Adobe InDesign Library | indl |  |
+| Pronom | 2003 | ZModeler Z3D | z3d |  |
+| Pronom | 2004 | ZModeler Z3D | z3d |  |
+| Pronom | 2005 | ZModeler Z3D | z3d |  |
+| Pronom | 2006 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
+| Pronom | 2007 | MyISAM Indexes File | myi |  |
+| Pronom | 2008 | RData | rdata |  |
+| Pronom | 2009 | RData | rdata |  |
+| Pronom | 2010 | PowerDraw |  |  |
+| Pronom | 2011 | PowerCADD |  |  |
+| Pronom | 2012 | Guymager Acquisition Info File | info |  |
+| Pronom | 2013 | QuickDraw 3D Metafile (Binary) | 3dmf |  |
+| Pronom | 2014 | Strata StudioPro Vis Format |  |  |
+| Pronom | 2015 | LightWave 3D Object | lw |  |
+| Pronom | 2016 | Impulse 3D Data Description Object | iob |  |
+| Pronom | 2017 | Sony SFK File | sfk |  |
+| Pronom | 2018 | Virtools File Format | cmo, nmo, vmo, nms |  |
+| Pronom | 2019 | COLLADA Digital Asset Exchange (DAE) | dae | model/vnd.collada+xml |
+| Pronom | 2020 | Wavefront OBJ File | obj |  |
+| Pronom | 2021 | Wavefront Material Template Library | mtl |  |
+| Pronom | 2022 | HP System Software Manager CVA File | cva |  |
+| Pronom | 2023 | Zoner Callisto Metafile | zmf |  |
+| Pronom | 2024 | Cakewalk WRK Project | wrk |  |
+| Pronom | 2025 | Reduced Resolution Dataset | img, ovr, rrd, aux, aoi, cff, fft, gcc, sig, sml |  |
+| Pronom | 2026 | Lotus Freelance Show | prz | application/vnd.lotus-freelance |
+| Pronom | 2027 | Leonardo Image Format | leo |  |
+| Pronom | 2028 | SubRip Subtitle File | srt |  |
+| Pronom | 2029 | Gnumeric | gnumeric | application/x-gnumeric |
+| Pronom | 2030 | WordPerfect for Macintosh Document |  | application/vnd.wordperfect |
+| Pronom | 2031 | WordPerfect for Macintosh Document |  | application/vnd.wordperfect |
+| Pronom | 2032 | WordPerfect for Macintosh Document |  | application/vnd.wordperfect |
+| Pronom | 2033 | PaperPort MAX | max |  |
+| Pronom | 2034 | PaperPort MAX | max |  |
+| Pronom | 2035 | PaperPort MAX | max |  |
+| Pronom | 2036 | Sparky | ucsf |  |
+| Pronom | 2037 | NMRView | nv |  |
+| Pronom | 2040 | NMRPipe | dat, pipe, ft2, ft3 |  |
+| Pronom | 2041 | Sibelius Sound Set Definition | set |  |
+| Pronom | 2042 | SK-XML | ddoc |  |
+| Pronom | 2044 | DIGIDOC-XML | ddoc |  |
+| Pronom | 2045 | DIGIDOC-XML | ddoc |  |
+| Pronom | 2046 | DIGIDOC-XML | ddoc |  |
+| Pronom | 2052 | Smacker Video | smk | video/vnd.radgamettools.smacker |
+| Pronom | 2053 | EclipseCrossword Puzzle File | ecw |  |
+| Pronom | 2054 | EclipseCrossword Word List File | ewl |  |
+| Pronom | 2055 | FileMaker Pro Database | fmp12 |  |
+| Pronom | 2056 | Band Interleaved By Line (BIL) Image Encoding | bil |  |
+| Pronom | 2057 | Band Interleaved By Pixel (BIP) Image Encoding | bip |  |
+| Pronom | 2058 | Band Sequential (BSQ) Image Encoding | bsq |  |
+| Pronom | 2059 | FO File | fo | application/vnd.software602.filler.form+xml |
+| Pronom | 2060 | ZFO (Form) File | zfo | application/vnd.software602.filler.form-xml-zip |
+| Pronom | 2061 | ZFO (Message) File | zfo | application/vnd.software602.filler.form-xml-zip |
+| Pronom | 2062 | ZFO (Sent Message) File | zfo | application/vnd.software602.filler.form-xml-zip |
+| Pronom | 2063 | ZFO (Proof of Delivery) File | zfo | application/vnd.software602.filler.form-xml-zip |
+| Pronom | 2064 | SOSI | sos | text/vnd.sosi |
+| Pronom | 2065 | SOSI | sos | text/vnd.sosi |
+| Pronom | 2066 | SOSI | sos | text/vnd.sosi |
+| Pronom | 2067 | SOSI | sos | text/vnd.sosi |
+| Pronom | 2068 | SOSI | sos | text/vnd.sosi |
+| Pronom | 2069 | Electronically Certified Document (EDOC) | edoc | application/vnd.etsi.asic-e+zip |
+| Pronom | 2070 | Raw Flux Image | rfi |  |
+| Pronom | 2071 | ESRI Code Page File | cpg |  |
+| Pronom | 2072 | Cardfile | crd |  |
+| Pronom | 2073 | Windows Address Book | wab |  |
+| Pronom | 2074 | MapInfo Workspace File | wor |  |
+| Pronom | 2075 | AutoCAD Temporary File | ac$ |  |
+| Pronom | 2076 | Microsoft Access Workgroup Information File | mdw |  |
+| Pronom | 2077 | SketchUp Document | skb, skp |  |
+| Pronom | 2078 | SketchUp Document | skp, skb |  |
+| Pronom | 2079 | SketchUp Document | skp, skb |  |
+| Pronom | 2080 | SketchUp Document | skp, skb |  |
+| Pronom | 2081 | SketchUp Document | skp, skb |  |
+| Pronom | 2082 | SketchUp Document | skp, skb |  |
+| Pronom | 2083 | SketchUp Document | skp, skb |  |
+| Pronom | 2084 | SketchUp Document | skp, skb |  |
+| Pronom | 2085 | SketchUp Document | skp, skb |  |
+| Pronom | 2086 | SketchUp Document | skp, skb |  |
+| Pronom | 2087 | SketchUp Document | skp, skb |  |
+| Pronom | 2088 | SketchUp Document | skp, skb |  |
+| Pronom | 2089 | SketchUp Document | skp, skb |  |
+| Pronom | 2090 | SketchUp Document | skp, skb |  |
+| Pronom | 2091 | SketchUp Document | skp, skb |  |
+| Pronom | 2092 | Sonic Scenarist Closed Caption Format | scc |  |
+| Pronom | 2093 | 3M Printscape | psc |  |
+| Pronom | 2094 | SureThing Project File | std |  |
+| Pronom | 2095 | Cindex Document | cdx, tpl |  |
+| Pronom | 2096 | Cindex Document | ucdx, utpl |  |
+| Pronom | 2097 | Cindex Document | ucdx, utpl |  |
+| Pronom | 2098 | NCH Dictation Audio File | dct |  |
+| Pronom | 2099 | WARC | warc | application/warc |
+| Pronom | 2100 | PFS:First Choice Document | doc |  |
+| Pronom | 2101 | PFS:First Choice Document | doc |  |
+| Pronom | 2102 | PFS:First Choice Database | fol |  |
+| Pronom | 2103 | PFS:First Choice Graph | gra |  |
+| Pronom | 2104 | Envoy Document File | evy |  |
+| Pronom | 2105 | Envoy Document File | evy |  |
+| Pronom | 2106 | IESNA LM-63 Photometric Data File | ies |  |
+| Pronom | 2107 | RFFlow Chart | flo |  |
+| Pronom | 2108 | RFFlow Chart | flo |  |
+| Pronom | 2109 | RFFlow Chart | flo |  |
+| Pronom | 2110 | EIOffice Document | eio |  |
+| Pronom | 2111 | 602Text Document | wpd, wpt |  |
+| Pronom | 2112 | 602Tab Spreadsheet | wls |  |
+| Pronom | 2113 | Calendar Creator Event | ce3 |  |
+| Pronom | 2114 | Calendar Creator File | cc3 |  |
+| Pronom | 2115 | Calendar Creator File | cc5 |  |
+| Pronom | 2116 | Calendar Creator File | bcc |  |
+| Pronom | 2117 | Broderbund Print Shop Deluxe | pdb, pds, pcb, pdc, pcc, pce, pdg, pdl, pso, pdp, pho, pcp, ppi, pda |  |
+| Pronom | 2118 | Broderbund The Print Shop/PrintMaster/American Greetings Project | ban, bro, biz, cal, car, cer, env, fax, sig, cft, hcr, lbl, let, nws, not, pcr, php, tsh, web, sti |  |
+| Pronom | 2119 | The Print Shop Project | psproj |  |
+| Pronom | 2120 | PrintMaster Gold Project | ban, cal, car, let, sig |  |
+| Pronom | 2121 | Microsoft Shell Scrap Object File | shs |  |
+| Pronom | 2122 | LocoScript Document |  |  |
+| Pronom | 2123 | LocoScript Document |  |  |
+| Pronom | 2124 | LocoScript Document |  |  |
+| Pronom | 2125 | LocoScript Document |  |  |
+| Pronom | 2126 | LocoScript PC |  |  |
+| Pronom | 2127 | LocoScript Professional |  |  |
+| Pronom | 2128 | LocoFile |  |  |
+| Pronom | 2129 | Tweet JSON | json | application/json |
+| Pronom | 2130 | CorelCHART Document | cch |  |
+| Pronom | 2131 | CorelCHART Document | cch |  |
+| Pronom | 2132 | GL Transmission Format (Text) | gltf | application/json |
+| Pronom | 2133 | GL Transmission Format (Text) | gltf | application/json |
+| Pronom | 2134 | GL Transmission Format (Binary) | glb | model/gltf-binary |
+| Pronom | 2135 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2136 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2137 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2138 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2139 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2140 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2141 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2142 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2143 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2144 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2145 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2146 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2147 | Avery Label Pro Document | lpd |  |
+| Pronom | 2148 | Avery DesignPro Document | zdp |  |
+| Pronom | 2149 | Avery DesignPro Document | zdl |  |
+| Pronom | 2150 | HP Photo Album | albm |  |
+| Pronom | 2151 | Sony PictureGear Studio PhotoAlbum | amu, amd |  |
+| Pronom | 2152 | Sony PictureGear Studio PrintStudio | lmu, lmd |  |
+| Pronom | 2153 | Sony PictureGear Studio Binder | bxu, bxt |  |
+| Pronom | 2154 | LEADTools Lead 1Bit Compressed Image | cmp |  |
+| Pronom | 2155 | LEADToolsCompressed Image | cmp |  |
+| Pronom | 2156 | RootsMagic Database | rmgc |  |
+| Pronom | 2157 | PaperPort MAX | max |  |
+| Pronom | 2158 | BDOC | bdoc | application/vnd.bdoc-1.0 |
+| Pronom | 2159 | Associated Signature Container Simple (ASiC-S) | asics, scs | application/vnd.etsi.asic-s+zip |
+| Pronom | 2160 | BDOC | bdoc, asice | application/vnd.etsi.asic-e+zip |
+| Pronom | 2161 | PTGui Project File | pts |  |
+| Pronom | 2162 | PTGui Project File | pts |  |
+| Pronom | 2163 | Legacy Family Tree Database | fdb |  |
+| Pronom | 2164 | Autodesk Revit File | rvt, rfa, rte, rft |  |
+| Pronom | 2165 | Autodesk Revit Project File | rvt, rte, rft |  |
+| Pronom | 2166 | Autodesk Revit Family File | rfa, rft |  |
+| Pronom | 2167 | Autodesk Revit Family File | rfa, rft |  |
+| Pronom | 2168 | Autodesk Revit Project File | rvt, rte |  |
+| Pronom | 2169 | Autodesk Revit Family File | rfa, rft |  |
+| Pronom | 2170 | FamilyTree Maker Database | ftw, fbk |  |
+| Pronom | 2171 | FamilyTree Maker Database | ftw, fbk |  |
+| Pronom | 2172 | QuickBooks Backup File | qbb |  |
+| Pronom | 2173 | WARC | warc | application/warc |
+| Pronom | 2174 | Virtual Format (Raster) | vrt |  |
+| Pronom | 2175 | Virtual Format (Vector) | vrt |  |
+| Pronom | 2176 | MicroStation Base File | bse |  |
+| Pronom | 2177 | Softdisk Text Compressor | ctx |  |
+| Pronom | 2178 | Picture Publisher Bitmap | ppf |  |
+| Pronom | 2179 | Amiga Disk File | adf |  |
+| Pronom | 2180 | Microsoft MapPoint Document | ptm |  |
+| Pronom | 2181 | DeluxePaint Animation File | anm |  |
+| Pronom | 2182 | V-Ray Material | vismat |  |
+| Pronom | 2183 | Debug File | dbg |  |
+| Pronom | 2184 | ESRI Published Map Format | pmf |  |
+| Pronom | 2185 | GeoJSON | geojson | application/geo+json |
+| Pronom | 2186 | Nero CoverDesigner File | ncd |  |
+| Pronom | 2187 | Error File | err |  |
+| Pronom | 2188 | Advanced Disk Catalog | adc |  |
+| Pronom | 2189 | OmniPage Pro Document | opd |  |
+| Pronom | 2190 | OmniPage Document | opd |  |
+| Pronom | 2191 | OmniPage Document | opd |  |
+| Pronom | 2192 | xdomea | xml |  |
+| Pronom | 2193 | xdomea | xml |  |
+| Pronom | 2194 | xdomea | xml |  |
+| Pronom | 2195 | xdomea | xml |  |
+| Pronom | 2196 | xdomea | xml |  |
+| Pronom | 2197 | xdomea | xml |  |
+| Pronom | 2198 | xdomea |  |  |
+| Pronom | 2199 | VariCAD Drawing | dwb |  |
+| Pronom | 2200 | Embedded OpenType (EOT) File Format | eot | application/vnd.ms-fontobject |
+| Pronom | 2201 | Embedded OpenType (EOT) File Format | eot | application/vnd.ms-fontobject |
+| Pronom | 2202 | Embedded OpenType (EOT) File Format | eot | application/vnd.ms-fontobject |
+| Pronom | 2203 | Bruker PDZ | pdz, xpdz |  |
+| Pronom | 2204 | Muvee autoProducer Project File | mve |  |
+| Pronom | 2205 | Muvee autoProducer Project File | mvex |  |
+| Pronom | 2206 | Muvee Reveal Project File | rvl |  |
+| Pronom | 2207 | Drawing Interchange Format (ASCII) | dxf | image/vnd.dxf |
+| Pronom | 2208 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
+| Pronom | 2209 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
+| Pronom | 2210 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
+| Pronom | 2211 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
+| Pronom | 2212 | Drawing Interchange Format (Binary) | dxf | image/vnd.dxf |
+| Pronom | 2213 | AutoCAD Drawing | dwg | image/vnd.dwg |
+| Pronom | 2214 | FinePrint | fp |  |
+| Pronom | 2215 | FARO Laser Scan File | fls |  |
+| Pronom | 2216 | FARO WorkSpace File | fws |  |
+| Pronom | 2217 | DiskDoubler |  |  |
+| Pronom | 2218 | Ichitaro Document | jtd, jtt, $td | application/x-js-taro |
+| Pronom | 2219 | Student Writing Center Report | rp, rpt |  |
+| Pronom | 2220 | Student Writing Center Journal | jn, jnt |  |
+| Pronom | 2221 | Student Writing Center Sign | sg, sgt |  |
+| Pronom | 2222 | Student Writing Center Newsletter | nl, nlt |  |
+| Pronom | 2223 | Student Writing Center Letter | lt, ltt |  |
+| Pronom | 2224 | Flow Charting | cht |  |
+| Pronom | 2225 | Flow Charting | fcd |  |
+| Pronom | 2226 | Flow Charting | gfc |  |
+| Pronom | 2227 | Flow Charting | fc5 |  |
+| Pronom | 2228 | Flow Charting | fcx |  |
+| Pronom | 2229 | Flow Charting | pdq |  |
+| Pronom | 2230 | Flow Charting Graphic Flowcharting Image | gfi |  |
+| Pronom | 2231 | Corel Gallery Clipart | bmf |  |
+| Pronom | 2232 | PFS:Write Document | pfs |  |
+| Pronom | 2233 | GST Publisher File | dtp |  |
+| Pronom | 2234 | GST Publisher File | dtp |  |
+| Pronom | 2235 | Corel Print House Document | cph, cpd |  |
+| Pronom | 2236 | Corel Print House Document | cph, cpd |  |
+| Pronom | 2237 | Corel Print House/Print Office Document | cph, cpd, cpo |  |
+| Pronom | 2238 | Corel Print House/Print Office Document | cph, cpd, cpo |  |
+| Pronom | 2239 | Corel Print House/Print Office Document | cph, cpd, cpo |  |
+| Pronom | 2240 | Corel Photo House Image | cps |  |
+| Pronom | 2241 | HP TRIM Outlook Saved Message File | vmbx, mbx |  |
+| Pronom | 2242 | WordPerfect Encrypted Document | wp | application/vnd.wordperfect |
+| Pronom | 2243 | MacDraw |  |  |
+| Pronom | 2244 | MacDraw |  |  |
+| Pronom | 2245 | MacDraw |  |  |
+| Pronom | 2246 | MacDraw |  |  |
+| Pronom | 2247 | MacPaint Image |  |  |
+| Pronom | 2248 | Minitab Worksheet | mtw |  |
+| Pronom | 2249 | Minitab Portable Worksheet | mtp |  |
+| Pronom | 2250 | Minitab Worksheet | mtw |  |
+| Pronom | 2251 | Minitab Worksheet | mtw |  |
+| Pronom | 2252 | Minitab Project | mpj |  |
+| Pronom | 2253 | Minitab Worksheet | mtw |  |
+| Pronom | 2254 | Minitab Project | mpj |  |
+| Pronom | 2255 | Minitab Worksheet | mtw |  |
+| Pronom | 2256 | Minitab Project | mpj |  |
+| Pronom | 2257 | Apple iWork Pages | pages |  |
+| Pronom | 2258 | Apple iWork Numbers |  |  |
+| Pronom | 2259 | Apple iWork Document | iwa, key, pages, numbers, template |  |
+| Pronom | 2260 | QuarkXPress Document |  | application/vnd.Quark.QuarkXPress |
+| Pronom | 2261 | QuarkXPress Document |  | application/vnd.Quark.QuarkXPress |
+| Pronom | 2262 | QuarkXPress Document | qxd, qxt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2263 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2264 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2265 | XLD4 (Bitmap Image) | q4 |  |
+| Pronom | 2266 | XLD4 (Graphic Data Document) | q4d |  |
+| Pronom | 2269 | Aldus FreeHand Drawing |  |  |
+| Pronom | 2270 | Aldus FreeHand Drawing |  |  |
+| Pronom | 2272 | PDF Portfolio | pdf |  |
+| Pronom | 2274 | Lotus 1-2-3 Worksheet | 123 | application/vnd.lotus-1-2-3, application/x-123 |
+| Pronom | 2275 | Lotus 1-2-3 Worksheet | 123 | application/vnd.lotus-1-2-3, application/x-123 |
+| Pronom | 2277 | Web Video Text Tracks (WebVTT) Format | vtt | text/vtt |
+| Pronom | 2278 | Primavera P6 Project Management XER File | xer |  |
+| Pronom | 2279 | Autocad DMP File | dmp |  |
+| Pronom | 2280 | OrgPlus File | opx, opxt, ops |  |
+| Pronom | 2281 | Arts & Letters Graphics File | ged |  |
+| Pronom | 2282 | Stuffit Archive File | sit | application/x-stuffit |
+| Pronom | 2283 | Stuffit Archive File | sit | application/x-stuffit |
+| Pronom | 2284 | Autorun Maestro Menu File | mnu |  |
+| Pronom | 2285 | Comic Book Archive | cb7, cba, cbr, cbt, cbz |  |
+| Pronom | 2286 | Ableton Live Set | als |  |
+| Pronom | 2287 | Maestro Music File |  |  |
+| Pronom | 2288 | OrCAD Layout File | max |  |
+| Pronom | 2289 | InstallShield Executable | ex_ |  |
+| Pronom | 2290 | STOS Memory Bank | mbk |  |
+| Pronom | 2291 | multiArtist File | mg1, mg2, mg4, mg8 |  |
+| Pronom | 2292 | MAKIchan Graphics File | mki, mag, max |  |
+| Pronom | 2293 | MIG Graphics File | mig |  |
+| Pronom | 2294 | Multi Palette Picture File | mpp |  |
+| Pronom | 2295 | Magic Shadow Archiver Disk Image File | msa | application/vnd.msa-disk-image |
+| Pronom | 2296 | Archimedes Tracker Module | musx |  |
+| Pronom | 2297 | TEI P4 XML - Single Text File | xml, tei, odd | application/tei+xml |
+| Pronom | 2298 | TEI P4 XML - Corpus File | xml, tei, odd | application/tei+xml |
+| Pronom | 2299 | TEI P5 - Single Text File | xml, tei, odd | application/tei+xml |
+| Pronom | 2300 | TEI P5 XML - Corpus File | xml, tei, odd | application/tei+xml |
+| Pronom | 2301 | Unisig |  |  |
+| Pronom | 2302 | XIFF (Xerox Image File Format) | xif | image/vnd.xiff |
+| Pronom | 2303 | XIFF (Xerox Image File Format) | xif | image/vnd.xiff |
+| Pronom | 2304 | Micrografx In-A-Vision Drawing | pic |  |
+| Pronom | 2305 | Access Report Snapshot | snp |  |
+| Pronom | 2306 | Mar Archive | mar, mac |  |
+| Pronom | 2307 | JPEG XL Codestream | jxl | image/jxl |
+| Pronom | 2308 | JPEG XL | jxl | image/jxl |
+| Pronom | 2309 | Novell Address Book | nab |  |
+| Pronom | 2310 | Timeline Maker Document | tlm, tlm3, tlm4, tlmp |  |
+| Pronom | 2311 | Phantom CINE Video File | cine, cin |  |
+| Pronom | 2312 | Phantom CINE Compressed Video File | cci |  |
+| Pronom | 2313 | HyperCard Stack |  |  |
+| Pronom | 2314 | Harvard Graphics Presentation | prs |  |
+| Pronom | 2315 | Harvard Graphics Presentation | pr4 |  |
+| Pronom | 2316 | NTI JewelCase Maker | jwc |  |
+| Pronom | 2317 | QuarkXPress Project | qxp, qpt, qwd | application/vnd.Quark.QuarkXPress |
+| Pronom | 2318 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
+| Pronom | 2319 | ZoomBrowser Ex Thumbnail Cache | info |  |
+| Pronom | 2320 | XV Thumbnail | p7 |  |
+| Pronom | 2321 | Cool Edit/Adobe Audition Session File | ses |  |
+| Pronom | 2322 | Adobe Audition Session File | sesx |  |
+| Pronom | 2323 | Adobe Acrobat Forms Data Format | fdf | application/vnd.fdf |
+| Pronom | 2324 | XML Forms Data Format | xfdf | application/vnd.adobe.xfdf |
+| Pronom | 2325 | Agisoft Project Archive | psz |  |
+| Pronom | 2326 | Agisoft Project File | psx |  |
+| Pronom | 2327 | Agisoft Tiled Model | tls |  |
+| Pronom | 2328 | Agisoft Point Cloud | oc3 |  |
+| Pronom | 2329 | EinScan RGE 3D Range File | rge |  |
+| Pronom | 2330 | Exchangeable Image File Format (Compressed) | jpg, jpeg | image/jpeg |
+| Pronom | 2331 | Microsoft Visio Drawing | vsd, vst, vss | application/vnd.visio |
+| Pronom | 2332 | Microsoft Visio Drawing | vsd, vst, vss | application/vnd.visio |
+| Pronom | 2333 | Microsoft Visio Drawing | vsd, vst, vss, vsw | application/vnd.visio |
+| Pronom | 2335 | Microsoft Publisher | pub | application/x-mspublisher |
+| Pronom | 2336 | Microsoft Publisher | pub | application/x-mspublisher |
+| Pronom | 2337 | Microsoft Publisher | pub | application/x-mspublisher |
+| Pronom | 2338 | Microsoft Publisher | pub | application/x-mspublisher |
+| Pronom | 2339 | Microsoft Publisher | pub | application/x-mspublisher |
+| Pronom | 2340 | Microsoft Publisher | pub | application/x-mspublisher |
+| Pronom | 2341 | Serif PhotoPlus Image | spp |  |
+| Pronom | 2342 | Serif PhotoPlus Image | spp |  |
+| Pronom | 2343 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| Pronom | 2344 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| Pronom | 2345 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| Pronom | 2346 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| Pronom | 2347 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| Pronom | 2348 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| Pronom | 2349 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| Pronom | 2350 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| Pronom | 2351 | Serif DrawPlus Drawing | dpp, dpa, dpx |  |
+| Pronom | 2352 | Serif DrawPlus Drawing | dpp, dpa |  |
+| Pronom | 2353 | Serif PagePlus Publication | ppp, ppb, ppx |  |
+| Pronom | 2354 | Serif PagePlus Publication | ppp, ppb, ppx |  |
+| Pronom | 2355 | Serif PagePlus Publication | ppp, ppb, ppx |  |
+| Pronom | 2356 | Serif PagePlus Publication | ppp, ppb, ppx |  |
+| Pronom | 2357 | Serif PagePlus Publication | ppp, ppb, ppx |  |
+| Pronom | 2358 | Serif PagePlus Publication | ppp, ppb, ppx |  |
+| Pronom | 2359 | Serif PagePlus Publication | ppp, ppb, ppx |  |
+| Pronom | 2360 | Serif PagePlus Publication | ppp, ppb, ppx |  |
+| Pronom | 2361 | Serif PagePlus Publication | ppp, ppt |  |
+| Pronom | 2362 | CompuServe RLE | rle |  |
+| Pronom | 2363 | Raster Matrix Format | rsw |  |
+| Pronom | 2364 | NeoDisk Icon File | nic |  |
+| Pronom | 2366 | Visual Basic Form File | frm |  |
+| Pronom | 2367 | Visual Basic Form File | frm |  |
+| Pronom | 2368 | ELAN Annotation File | eaf | application/eaf+xml |
+| Pronom | 2369 | ELAN Preference File | pfsx |  |
+| Pronom | 2370 | NeoDesk Icon File | nic |  |
+| Pronom | 2371 | Daisy-Dot Font File | nlq |  |
+| Pronom | 2372 | Daisy-Dot Font File | nlq |  |
+| Pronom | 2373 | Visual Basics MAK File | mak |  |
+| Pronom | 2374 | Bentley Microstation Hidden Line File | hln |  |
+| Pronom | 2375 | MATLAB Mat File | mat |  |
+| Pronom | 2376 | NetWare Loadable Module | nlm |  |
+| Pronom | 2377 | Surprise! Adlib Tracker v2.0 | sa2 |  |
+| Pronom | 2378 | Septentrio Binary Format | sbf |  |
+| Pronom | 2379 | DNA Sequence Chromatogram File | scf |  |
+| Pronom | 2380 | Standard Data Format | sdf |  |
+| Pronom | 2381 | Starlink Data Format | sdf |  |
+| Pronom | 2382 | Cyber Paint Sequence | seq |  |
+| Pronom | 2383 | SelF-eXtracting LHA/LZH Compressed Files | sfx |  |
+| Pronom | 2384 | Beam Software SIFF File | son, vb |  |
+| Pronom | 2385 | Sample Vision Audio File Format | smp |  |
+| Pronom | 2386 | SpritePad Image Format | spd |  |
+| Pronom | 2387 | AutoDesk Indexed Point Cloud | pcg |  |
+| Pronom | 2388 | ERDAS Imagine Large Raster Spill File | ige |  |
+| Pronom | 2389 | Associated Signature Container Extended (ASiC-E) | asice, sce | application/vnd.etsi.asic-e+zip |
+| Pronom | 2390 | reStructuredText | rst |  |
+| Pronom | 2391 | ColdFusion Markup Language | cfm |  |
+| Pronom | 2392 | ISDOC Information System Document | isdoc |  |
+| Pronom | 2393 | ISDOCX Information System Document | isdocx |  |
+| Pronom | 2394 | Bitstream Speedo Fonts | spd |  |
+| Pronom | 2395 | ISDOC Information System Document | isdoc |  |
+| Pronom | 2396 | ISDOCX Information System Document | isdocx |  |
+| Pronom | 2397 | OrCAD Project File | opj |  |
+| Pronom | 2398 | Visual Basic Project File | vbp |  |
+| Pronom | 2399 | Visual Basic Project Workspace File | vbw |  |
+| Pronom | 2400 | Spectrum 512 Compressed | Spectrum 512 Smooshed | spc, sps |  |
+| Pronom | 2401 | Spectrum 512 Uncompressed | Spectrum 512 Uncompressed Enhanced | spu |  |
+| Pronom | 2402 | Spectrum 512 Extended | spx |  |
+| Pronom | 2403 | Spectrum 512 Extended | spx |  |
+| Pronom | 2404 | SPYne Containers | spy |  |
+| Pronom | 2405 | Envision Publisher File | evp |  |
+| Pronom | 2406 | Envision Publisher Font Files | svf |  |
+| Pronom | 2407 | Vim SWAP File | swp |  |
+| Pronom | 2408 | SXG (ZX Spectrum) Graphic File | sxg |  |
+| Pronom | 2409 | ADRIFT Text Adventure File | taf |  |
+| Pronom | 2410 | TurboCalc Document | tcd |  |
+| Pronom | 2411 | TheDraw Save File | td |  |
+| Pronom | 2412 | COKE Format (Atari Falcon) | tg1 |  |
+| Pronom | 2413 | TGIF File Format | tgif, obj |  |
+| Pronom | 2414 | Taquart Interlace Picture | tip |  |
+| Pronom | 2416 | Visual Basic Binary Form File | frx |  |
+| Pronom | 2418 | ESRI ArcInfo Coverage Annotation File | txt |  |
+| Pronom | 2419 | ASEG-GDF2 Description File | des |  |
+| Pronom | 2420 | ASEG-GDF2- Data Definition File | dfn |  |
+| Pronom | 2421 | ESRI ArcInfo DAT File (External) | dat |  |
+| Pronom | 2422 | Canon Raw | cr3 |  |
+| Pronom | 2423 | ESRI ArcInfo Grid .nit File | nit |  |
+| Pronom | 2424 | PageMaker Template File | pt5 |  |
+| Pronom | 2425 | Stata .do Command File | do |  |
+| Pronom | 2426 | R Program File | r |  |
+| Pronom | 2427 | ESRI ArcInfo DAT File (Internal) |  |  |
+| Pronom | 2428 | Type Library | tlb |  |
+| Pronom | 2429 | Type Library | tlb |  |
+| Pronom | 2430 | TUNDRA | tnd |  |
+| Pronom | 2431 | EggPaint (Atari Falcon) | trp |  |
+| Pronom | 2432 | True Colour Sprites [Spooky Sprites] (Atari Falcon) | trs |  |
+| Pronom | 2433 | Packed-Ice True Colour Sprites [Spooky Sprites] (Atari Falcon) | trs |  |
+| Pronom | 2434 | True Colour Picture [Spooky Sprites] (Atari Falcon) | trp, tru |  |
+| Pronom | 2435 | Packed-Ice True Colour Picture [Spooky Sprites] (Atari Falcon) | trp, tru |  |
+| Pronom | 2436 | exFAT (Extensible File Allocation Table) Disc Image | img |  |
+| Pronom | 2437 | Viacom New Media Graphics | vnm, 000 |  |
+| Pronom | 2438 | WRAptor Compressed File | wra, wr3 |  |
+| Pronom | 2439 | XBIN (eXtended BIN) | xb |  |
+| Pronom | 2440 | XML Shareable Playlist Format | xspf |  |
+| Pronom | 2441 | Esri ArcExplorer Project File | aep |  |
+| Pronom | 2442 | CATIA Drawing | catdrawing |  |
+| Pronom | 2443 | BibTeX Database File | bib |  |
+| Pronom | 2444 | Devicetree Blob (DTB) | dtb |  |
+| Pronom | 2445 | SGML/XML Entity File | ent | application/xml-external-parsed-entity |
+| Pronom | 2446 | Pascal Source Code | pas |  |
+| Pronom | 2447 | Aero Studio Song | aero |  |
+| Pronom | 2448 | AHX-Module Format (formerly THX module format) | ahx |  |
+| Pronom | 2449 | Asylum Music Format | amf |  |
+| Pronom | 2450 | Art Of Noise | aon |  |
+| Pronom | 2451 | Art Of Noise | aon |  |
+| Pronom | 2452 | ESRI Colour File Format | clr |  |
+| Pronom | 2453 | MicroStation Symbology Resource File | rsc |  |
+| Pronom | 2454 | Z Print Build File | zbd |  |
+| Pronom | 2455 | Adobe InDesign Document | indd, ind |  |
+| Pronom | 2456 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2457 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2458 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2459 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2460 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2461 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2462 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2463 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2464 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2465 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2466 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2467 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2468 | Adobe InDesign Interchange Document | inx |  |
+| Pronom | 2469 | Adobe InDesign Library | indl |  |
+| Pronom | 2470 | Lenel Network Video Recorder File | lnr |  |
+| Pronom | 2471 | Roxio Label Creator Project File | jwl |  |
+| Pronom | 2472 | Roxio Label Creator Project File | jwl |  |
+| Pronom | 2473 | Roxio Label Creator Project File | jwl |  |
+| Pronom | 2474 | Inspiration Software File | isf |  |
+| Pronom | 2475 | Crystal Reports File | rpt | application/x-rpt |
+| Pronom | 2476 | AGS 4 Data Format | ags |  |
+| Pronom | 2477 | Bayesian Interchange Format File | bif |  |
+| Pronom | 2478 | Garmin Flexible and Interoperable Data Transfer File | fit |  |
+| Pronom | 2479 | Typescript | ts, tsx |  |
+| Pronom | 2480 | STAD PAC File | pac, seq |  |
+| Pronom | 2481 | Palm Database ImageViewer Format | pdb |  |
+| Pronom | 2482 | cdrLabel Label File | clb |  |
+| Pronom | 2483 | Microsoft Help Contents File | cnt |  |
+| Pronom | 2484 | XIMG (Extended GEM Bit Image) | ximg, img |  |
+| Pronom | 2485 | XL-Paint MaX | max, xlp |  |
+| Pronom | 2486 | XL-Paint | raw |  |
+| Pronom | 2487 | Arts & Letters Clip Art Library | yal |  |
+| Pronom | 2488 | Yamaha Wave Audio | s01, u01, f01, w01 |  |
+| Pronom | 2498 | Yamaha TX Wave Audio | txw, w01, w02, w03, w04, w05, w06, w07, w08, w09, w10, w11, w12, w13, w14, w15, w16, w17, w18, w19, w20, w21, w22 |  |
+| Pronom | 2499 | YAODL (Yet Another Object Description Language) File | ydl |  |
+| Pronom | 2500 | RED Thumbnail File | rtn |  |
+| Pronom | 2501 | Easy CD Creator Layout | Roxio Easy CD Creator Layout | rcl, cl5 |  |
+| Pronom | 2502 | Roxio Easy Media Creator Layout | rcl |  |
+| Pronom | 2503 | Roxio Easy Media Creator - Classic Creator File | rcl |  |
+| Pronom | 2504 | Roxio Easy Media Creator Layout | roxio |  |
+| Pronom | 2505 | Roxio Data Project File | rox |  |
+| Pronom | 2506 | Roxio Audio Project File | rox |  |
+| Pronom | 2507 | Z Compressed Data | z |  |
+| Pronom | 2508 | Linux/i386 Binary Executable File ZMAGIC | so, o |  |
+| Pronom | 2509 | ZBrush MatCap | zmt |  |
+| Pronom | 2510 | ZyXEL Voice Format Audio | zvd, zyx, ad2 |  |
+| Pronom | 2511 | IntelliFont Font File | type, lib |  |
+| Pronom | 2512 | Covox ADPCM Audio Files | v8, cvx, v2s, v3s, v4s, vmf |  |
+| Pronom | 2513 | Microsoft Office File List | xml |  |
+| Pronom | 2514 | MATLAB Script File | m |  |
+| Pronom | 2515 | Garmin track log file | gmn |  |
+| Pronom | 2516 | INTREPID Standard Information File | isi |  |
+| Pronom | 2517 | OBO Flat File Format | obo |  |
+| Pronom | 2518 | EndNote Library | enl |  |
+| Pronom | 2519 | EndNote Compressed Library | enlx |  |
+| Pronom | 2520 | EndNote Library | enl |  |
+| Pronom | 2521 | EndNote Compressed Library | enlx |  |
+| Pronom | 2522 | PageMaker Mac Document |  | application/vnd.pagemaker |
+| Pronom | 2523 | PageMaker Mac Document |  | application/vnd.pagemaker |
+| Pronom | 2524 | Microsoft Word for MS-DOS Document | doc | application/msword |
+| Pronom | 2525 | Microsoft Word for MS-DOS Glossary File | gly | application/msword |
+| Pronom | 2526 | Microsoft Word for MS-DOS Style Sheet File | sty | application/msword |
+| Pronom | 2527 | Microsoft Word for MS-DOS Printer Description File | prd | application/msword |
+| Pronom | 2528 | ESRI ArcGIS Raw Raster Reader/ Writer | hdr |  |
+| Pronom | 2529 | Asymetrix Compel Presentation | cpl, art |  |
+| Pronom | 2530 | Asymetrix Compel Presentation | cpl, art |  |
+| Pronom | 2531 | 602 Text file | 602 |  |
+| Pronom | 2532 | ESRI Attribute Index Files | ain |  |
+| Pronom | 2533 | Calc602 Spreadsheet file | bak, tc6 |  |
+| Pronom | 2534 | Calc602 Spreadsheet file | bak, tc6 |  |
+| Pronom | 2535 | 602 Graph/Chart File | gc6 |  |
+| Pronom | 2536 | OGC GeoPackage | gpkg | application/geopackage+sqlite3 |
+| Pronom | 2537 | Persuasion Mac Document | pr1 |  |
+| Pronom | 2538 | Persuasion Mac Document | pr2 |  |
+| Pronom | 2539 | Persuasion Mac Document | pr2 |  |
+| Pronom | 2540 | Persuasion Mac Document | pr3 |  |
+| Pronom | 2541 | Persuasion Mac Document | pn4 |  |
+| Pronom | 2542 | Persuasion Windows Document | pr2, at2 |  |
+| Pronom | 2543 | Persuasion Windows Document | pr3, at3, pn4, at4 |  |
+| Pronom | 2544 | Persuasion Player File | ppf |  |
+| Pronom | 2545 | Persuasion Presentation Interchange File | prf |  |
+| Pronom | 2546 | Persuasion Auto-Template Interchange File | atf |  |
+| Pronom | 2547 | Software602 Printer Configuration File | cfg |  |
+| Pronom | 2548 | Calc602 Macro File | mc6 |  |
+| Pronom | 2549 | Calc602 Project File | pc6 |  |
+| Pronom | 2550 | CATIA Model File | model |  |
+| Pronom | 2551 | Applet Effect Factory Config File | data |  |
+| Pronom | 2552 | Cintel Raw Image/DaVinci Resolve Image | cri, dvcc |  |
+| Pronom | 2553 | Time Stamp Token | tst | application/vnd.etsi.timestamp-token |
+| Pronom | 2554 | PageMaker Mac Document | p65, t65, pmd, pmt | application/vnd.pagemaker |
+| Pronom | 2555 | PageMaker Mac Document | pm6, pt6 | application/vnd.pagemaker |
+| Pronom | 2556 | Portable Compiled Format | pcf |  |
+| Pronom | 2557 | Pablo Paint Raster Image | ppp, pa3 |  |
+| Pronom | 2558 | BIM Metadata File | bim |  |
+| Pronom | 2567 | Wordcraft Chapter Files | 001 |  |
+| Pronom | 2568 | LegalDocML Document | xml |  |
+| Pronom | 2569 | Capture One Settings File | cos |  |
+| Pronom | 2570 | Geosoft Map Description File | mdf |  |
+| Pronom | 2571 | Pro Tools Session File | ptx |  |
+| Pronom | 2572 | dBASE Windows Form File | wfm |  |
+| Pronom | 2573 | Esri Shapefile Geospatial Metadata File | xml |  |
+| Pronom | 2575 | Data File | dat |  |
+| Pronom | 2576 | PowerGraphics Image File | pgr |  |
+| Pronom | 2577 | Prism Paint Bitmap | pnt, tpi |  |
+| Pronom | 2578 | PaintShop Plus Compressed Format | psc, da4 |  |
+| Pronom | 2579 | Portfolio Graphics Compressed File | pgc |  |
+| Pronom | 2580 | C/C++ Header File | h, hpp, hxx |  |
+| Pronom | 2581 | Creative Voice File | voc |  |
+| Pronom | 2583 | Flow Cytometry Standard File | fcs | application/vnd.isac.fcs |
+| Pronom | 2584 | UDF Disc Image | toast, iso, cdr, dmg |  |
+| Pronom | 2585 | UDF-ISO 9660 Bridge Disc | toast, iso, cdr, dmg |  |
+| Pronom | 2586 | Apple Partition Map Disk Image | toast, iso, cdr, dmg, bin, img |  |
+| Pronom | 2587 | Apple Partition Map ISO 9660 Hybrid | toast, iso, cdr |  |
+| Pronom | 2588 | Hierarchical File System Plus | img, dmg, toast |  |
+| Pronom | 2589 | Nero Burning ROM Image File | nrg |  |
+| Pronom | 2590 | Psion Series 3 Bitmap | pic |  |
+| Pronom | 2591 | PixArt Bitmap | pix |  |
+| Pronom | 2592 | Rocky Interlace Picture | rip |  |
+| Pronom | 2593 | Microsoft PowerPoint Presentation | ppt | application/vnd.ms-PowerPoint |
+| Pronom | 2594 | Microsoft PowerPoint Presentation | ppt | application/vnd.ms-PowerPoint |
+| Pronom | 2595 | Canon MIF File | mif |  |
+| Pronom | 2596 | Canon CIF File | cif |  |
+| Pronom | 2597 | Canon SIF File | sif |  |
+| Pronom | 2599 | OpenDocument Database Format | odb | application/vnd.oasis.opendocument.base |
+| Pronom | 2600 | OpenDocument Graphics | odg | application/vnd.oasis.opendocument.graphics |
+| Pronom | 2602 | OpenDocument Presentation | odp | application/vnd.oasis.opendocument.presentation |
+| Pronom | 2603 | OpenDocument Spreadsheet | ods | application/vnd.oasis.opendocument.spreadsheet |
+| Pronom | 2604 | OpenDocument Text | odt | application/vnd.oasis.opendocument.text |
+| Pronom | 2605 | Apple Partition Map - ISO 9660 - UDF Hybrid Disk Image | iso, toast, dmg |  |
+| Pronom | 2607 | Media Descriptor File | mdf |  |
+| Pronom | 2608 | Media Descriptor Sidecar File | mds |  |
+| Pronom | 2610 | CloneCD Control File | ccd |  |
+| Pronom | 2611 | MacBinary |  |  |
+| Pronom | 2612 | MacBinary | bin |  |
+| Pronom | 2613 | MacBinary | bin |  |
+| Pronom | 2614 | Sony SLV File | slv |  |
+| Pronom | 2615 | Media Hash List | mhl |  |
+| Pronom | 2616 | Sony SML File | sml |  |
+| Pronom | 2617 | Calc602 Project File | pc6 |  |
+| Pronom | 2618 | C Source Code File | c |  |
+| Pronom | 2619 | C++ Source Code File | cpp, cxx, cc |  |
+| Pronom | 2620 | GenBank Flat File | gb, gbk |  |
+| Pronom | 2621 | ESRI Persistent Auxiliary Metadata File | xml, aux.xml |  |
+| Pronom | 2622 | Casio QV CAM | cam |  |
+| Pronom | 2623 | Calc602 Spreadsheet File | bak, tc6 |  |
+| Pronom | 2624 | 602 Graph/Chart File | gc6 |  |
+| Pronom | 2625 | Calc602 Project File | pc6 |  |
+| Pronom | 2626 | Extensible Markup Language | xml | application/xml, text/xml |
+| Pronom | 2627 | SIARD (Software-Independent Archiving of Relational Databases) | siard |  |
+| Pronom | 2628 | Dynamic Publisher Picture File | pct |  |
+| Pronom | 2629 | Dynamic Publisher Font File | fnt |  |
+| Pronom | 2630 | Koala MicroIllustrator Graphic File | pic |  |
+| Pronom | 2631 | Pentax PEF Image File | pef | image/dng |
+| Pronom | 2632 | The Spectral Geologist Dataset | tsg |  |
+| Pronom | 2633 | The Spectral Geologist Dataset | tsg |  |
+| Pronom | 2634 | Animatic Film Format | flm |  |
+| Pronom | 2635 | FLR Database File | flr |  |
+| Pronom | 2636 | Funpaint Image File | fun, fp2, vic |  |
+| Pronom | 2637 | G9B Graphics Format Bitmap | g9b |  |
+| Pronom | 2638 | Gunpaint Image File | gun |  |
+| Pronom | 2639 | GX2 Graphics File | gx2, ega |  |
+| Pronom | 2640 | Help Librarian File | hlp, dat, dta |  |
+| Pronom | 2641 | Haiku Vector Icon Format | hvif |  |
+| Pronom | 2642 | ICDRAW Single Icon File | ibi |  |
+| Pronom | 2643 | ICDRAW Group Icon File | ib3 |  |
+| Pronom | 2644 | JPEG 2000 Codestream | j2k, jpc, j2c | image/jp2 |
+| Pronom | 2645 | Asymetrix Toolbook File | tbk, sbk |  |
+| Pronom | 2647 | Wireless Markup Language (WML) Document | wml | text/vnd.wap.wml |
+| Pronom | 2648 | SHA512 File | sha512 |  |
+| Pronom | 2649 | CHAT Transcription Format | cha | text/x-chat |
+| Pronom | 2650 | FLExText Interlinear XML Format | flextext |  |
+| Pronom | 2651 | Multimedia Viewer Book | mvb |  |
+| Pronom | 2652 | Praat TextGrid | textgrid | text/praat-textgrid |
+| Pronom | 2653 | Transcriber AG TAG Format | tag |  |
+| Pronom | 2654 | Transcriber TRS Format | trs |  |
+| Pronom | 2655 | B Source Code File | b |  |
+| Pronom | 2656 | Microsoft Access Database File | mdb, mda |  |
+| Pronom | 2657 | Microsoft Access Database File | mdb, mda |  |
+| Pronom | 2658 | Microsoft Access Encrypted Database File | mdb, mda |  |
+| Pronom | 2659 | Microsoft Access Encrypted Database File | mdb, mda |  |
+| Pronom | 2660 | Microsoft Access Encrypted Database File | mdb, mda |  |
+| Pronom | 2661 | Raw PIMA SWIR Reflectance Spectral File | fos |  |
+| Pronom | 2662 | Vips Image | v, vips |  |
+| Pronom | 2663 | Audio Data Transport Stream | aac, adts | audio/aac, audio/vnd.dlna.adts |
+| Pronom | 2664 | xdomea | xml |  |
+| Pronom | 2665 | Adobe Color Book for Windows | acb |  |
+| Pronom | 2666 | Adobe Color Swatch | aco |  |
+| Pronom | 2667 | Adobe Swatch Exchange | ase |  |
+| Pronom | 2668 | Direct Stream Digital Stream File | dsf |  |
+| Pronom | 2669 | Direct Stream Digital Interchange File Format | dff |  |
+| Pronom | 2670 | MacCaption File | mcc |  |
+| Pronom | 2671 | MacCaption File | mcc |  |
+| Pronom | 2672 | MacCaption Project | cca |  |
+| Pronom | 2673 | Audacity Audio Block File | au |  |
+| Pronom | 2674 | Audacity Project File | aup |  |
+| Pronom | 2675 | Audacity Project File | aup |  |
+| Pronom | 2676 | Audacity Project File | aup |  |
+| Pronom | 2677 | Audacity Project File | aup3 |  |
+| Pronom | 2678 | DOCX Strict OOXML Document | docx | application/vnd.openxmlformats-officedocument.wordprocessingml.document |
+| Pronom | 2679 | XLSX Strict OOXML Spreadsheet | xlsx | application/vnd.openxmlformats-officedocument.wordprocessingml.document |
+| Pronom | 2681 | PPTX Strict OOXML Presentation | pptx | application/vnd.openxmlformats-officedocument.presentationml.presentation |
+| Pronom | 2682 | 3D Studio (DOS) 2D/3D Loft Object File | lft |  |
+| Pronom | 2683 | 3D Studio (DOS) Project File | prj |  |
+| Pronom | 2684 | ArcSoft PhotoStudio File | psf |  |
+| Pronom | 2685 | ArcSoft Album and SlideShow Files for PhotoStudio and PhotoImpression | abm, sld |  |
+| Pronom | 2686 | GoDot 4Bit Graphics Format | 4bt |  |
+| Pronom | 2687 | Archiver Format | a |  |
+| Pronom | 2688 | Brio Query File | bqy |  |
+| Pronom | 2689 | WordPerfect Presentations | shw |  |
+| Pronom | 2690 | Leica Project File | lgs |  |
+| Pronom | 2691 | Microsoft Publisher Packaged Document | puz |  |
+| Pronom | 2692 | WACZ | wacz | application/x-wacz |
+| Pronom | 2693 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
+| Pronom | 2694 | Digital Negative Format (DNG) | dng | image/dng, image/tiff |
+| Pronom | 2695 | Human Machine Interfaces HMI File | hmi |  |
+| Pronom | 2696 | GNU Image Manipulation Program Palette File | gpl |  |
+| Pronom | 2697 | Final Draft Document | fdx |  |
+| Pronom | 2698 | Fountain Markup Language File | spmd, fountain |  |
+| Pronom | 2699 | Esri ArcMap Label file | lxp |  |
+| Pronom | 2700 | Trelby Document File | trelby |  |
+| Pronom | 2701 | General Purpose RAW | gpr |  |
+| Pronom | 2702 | WordPerfect Macro File | wpm, wcm |  |
+| Pronom | 2704 | DAV Video Format | dav |  |
+| Pronom | 2705 | Camtasia Recording File | camrec |  |
+| Pronom | 2706 | Camtasia Studio Project | camproj |  |
+| Pronom | 2707 | Open Media Framework Interchange | omf |  |
+| Pronom | 2709 | Open Media Framework Interchange | omf |  |
+| Pronom | 2710 | Enhanced Image Package | eip |  |
+| Pronom | 2711 | Capture One Session File | cos |  |
+| Pronom | 2712 | Microsoft Excel Workspace File | xlw | application/vnd.ms-excel |
+| Pronom | 2713 | Adobe Air | air | application/vnd.adobe.air-application-installer-package+zip |
+| Pronom | 2714 | dBASE Report Form Definition File | frm |  |
+| Pronom | 2715 | Quicken 3 Database File | qst |  |
+| Pronom | 2716 | Adobe Illustrator CC Artwork | ai, ait |  |
+| Pronom | 2717 | Adobe Illustrator CC 2020 Artwork | ai, ait |  |
+| Pronom | 2718 | Adobe Illustrator CC 2020 Artwork | ai, ait |  |
+| Pronom | 2719 | SWiSH Movie File | swi |  |
+| Pronom | 2720 | Microsoft Powerpoint for Macintosh | ppt | application/vnd.ms-PowerPoint |
+| Pronom | 2721 | Microsoft Powerpoint for Macintosh | ppt | application/vnd.ms-PowerPoint |
+| Pronom | 2722 | Leapfrog Geo 3D Scene Format | lfsc |  |
+| Pronom | 2723 | SPSS PC File Format |  |  |
+| Pronom | 2724 | Yamaha PSR Disk Manager File | mng |  |
+| Pronom | 2725 | Common Interface File | cif, mca |  |
+| Pronom | 2726 | Guitar Pro File | gtp |  |
+| Pronom | 2727 | Guitar Pro File | gp3, gp4, gp5 |  |
+| Pronom | 2728 | Esko ArtPro File | ap |  |
+| Pronom | 2729 | Maptech BSB Documentation File | bsb, kap |  |
+| Pronom | 2730 | HMM Packfile | pak |  |
+| Pronom | 2731 | GST Art File | art |  |
+| Pronom | 2732 | GST Art File | art |  |
+| Pronom | 2733 | vCard | vcf, vcard | text/vcard |
+| Pronom | 2734 | vCard | vcf, vcard | text/vcard |
+| Pronom | 2735 | vCard | vcf, vcard | text/vcard |
+| Pronom | 2736 | OPML File | opml |  |
+| Pronom | 2738 | OPML File | opml |  |
+| Pronom | 2739 | CloudCompare Entity File | bin |  |
+| Pronom | 2740 | Encapsulated PostScript File Format | eps, epsf | application/postscript |
+| Pronom | 2741 | Resource Interchange File Format (RIFF) |  |  |
+| Pronom | 2742 | Common Instrument File (CIF) | ci1 |  |
+| Pronom | 2744 | Common Instrument File (CIF) | ci2 |  |
+| Pronom | 2745 | Open Access III Document | ext |  |
+| Pronom | 2746 | Memory Stick Voice File (MSV) | msv |  |
+| Pronom | 2747 | Digital Voice File (DVF) | dvf |  |
+| Pronom | 2748 | Memory Stick Voice File (MSV)/Digital Voice File (DVF) | msv, dvf |  |
+| Pronom | 2749 | Microsoft Agent File | acs |  |
+| Pronom | 2750 | RagTime Document File |  |  |
+| Pronom | 2751 | RagTime Document File | rtd, rtt |  |
+| Pronom | 2752 | Nokia Picture Message | npm |  |
+| Pronom | 2753 | Ptex File Format | ptx |  |
+| Pronom | 2754 | Perfect ZX Tape (PZX) Image Format | pzx |  |
+| Pronom | 2755 | RIS Citation | ris | application/x-research-info-systems |
+| Pronom | 2756 | Mass Spectrometry Markup Language | mxml |  |
+| Pronom | 2757 | SGI Movie File | mv, movie |  |
+| Pronom | 2758 | Norton Change Directory Persistent Cache File | ncd |  |
+| Pronom | 2759 | Garmin Vehicle Images File | srf |  |
+| Pronom | 2760 | Pasti Floppy Disk Image | stx |  |
+| Pronom | 2761 | Universal Scene Description ASCII File | usda |  |
+| Pronom | 2762 | VBM (VDC BitMap) File | vbm |  |
+| Pronom | 2763 | Micrografx Icon File | icn |  |
+| Pronom | 2764 | Jupiter Tesselation (JT) File | jt |  |
+| Pronom | 2765 | TibetDoc Word Document | dct |  |
+| Pronom | 2766 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| Pronom | 2767 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| Pronom | 2770 | Acrobat PDF/A - Portable Document Format | pdf | application/pdf |
+| Pronom | 2771 | Graphisoft Archicad Project | pln, pla |  |
+| Pronom | 2772 | Graphisoft BIMx Hyper-Model | bimx |  |
+| Pronom | 2773 | ActiveMime Object | mso |  |
+| Pronom | 2774 | Autodesk Alias Wire Format |  |  |
+| Pronom | 2775 | BigTIFF | tif, tf8, btf |  |
+| Pronom | 2776 | MetaCard Stack | mc, rev |  |
+| Pronom | 2777 | Revolution Stack | rev, livecode |  |
+| Pronom | 2778 | LiveCode Stack | rev, livecode |  |
+| Pronom | 2779 | LiveCode Stack | rev, livecode |  |
+| Pronom | 2781 | LiveCode Stack |  |  |
+| Pronom | 2782 | LiveCode Stack | rev, livecode |  |
+| Pronom | 2783 | CorelDraw Drawing | cdr |  |
+| Pronom | 2784 | CorelDraw Drawing | cdr |  |
+| Pronom | 2785 | CorelDraw Drawing | cdr |  |
+| Pronom | 2787 | CorelDraw Drawing | cdr |  |
+| Pronom | 2789 | CorelDraw Drawing | cdr |  |
+| Pronom | 2790 | CorelDraw Drawing | cdr |  |
+| Pronom | 2791 | CorelDraw Drawing | cdr |  |
+| Pronom | 2792 | CorelDraw Drawing | cdr |  |
+| Pronom | 2793 | CorelDraw Drawing | cdr |  |
+| Pronom | 2794 | CorelDraw Drawing | cdr |  |
+| Pronom | 2795 | CorelDraw Drawing | cdr |  |
+| Pronom | 2796 | S-57 Electronic Navigational Chart | 000, 001, 002, 003, 004, 006 |  |
+| Pronom | 2797 | PCRaster | csf, map |  |
+| Pronom | 2798 | Amazon Kindle eBook File | azw, azw3, mobi, amr |  |
+| Pronom | 2799 | Lotus Screencam Data File | scm | application/vnd.lotus-screencam |
+| Pronom | 2800 | Auto FX PhotoGraphic Edges Image File | afx |  |
+| Pronom | 2801 | EBU Subtitling Data Exchange Format | stl |  |
+| Pronom | 2802 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2803 | Adobe InDesign Document | indd, ind, indt |  |
+| Pronom | 2804 | Digital Negative Format (DNG) | dng | image/dng |
+| Pronom | 2805 | Common Loudspeaker Format (CLF) | cf1 |  |
+| Pronom | 2807 | Common Loudspeaker Format (CLF) | cf2 |  |
+| Pronom | 2808 | Draw.io Diagram (XML) File | drawio, xml |  |
+| Pronom | 2809 | OpenWayback CDXJ File Format | cdx, cdxj |  |
+| Pronom | 2810 | Common Data Format dotCDF | cdf |  |
+| Pronom | 2812 | Common Data Format dotCDF | cdf |  |
+| Pronom | 2813 | Common Data Format dotCDF | cdf |  |
+| Pronom | 2814 | Pro Tools Session File | ptf, pts |  |
+| Pronom | 2816 | PechaMaker Format | pxp |  |
+| Pronom | 2817 | Zoom Project Settings | hprj |  |
+| Pronom | 2819 | Zoom Project Settings | hprj |  |
+| Pronom | 2820 | Graphisoft Archicad Project | pla, pln |  |
+| Pronom | 2821 | Sandboxels Save File | sbxls |  |
+| Pronom | 2822 | Program Embroidery Stitch (PES) File | pes |  |
+| Pronom | 2823 | Melco OFM Project | ofm |  |
+| Pronom | 2824 | Melco OFM Project | ofm |  |
+| Pronom | 2825 | Disklavier E-Seq Music | fil, esq |  |
+| Pronom | 2826 | Shorten (codec) | shn |  |
+| Pronom | 2827 | SolidWorks Material Database File | sldmat |  |
+| Pronom | 2828 | NEC Thermo Tracer Image File | tmp |  |
+| Pronom | 2829 | JPH (JPEG 2000 part 15) | jph | image/jph |
+| Pronom | 2830 | Papyrus Document | pap, pav, pbf |  |
+| Pronom | 2831 | Final Writer Document | fw |  |
+| Pronom | 2833 | Solidworks Design Document Files | sldprt, slddrw, sldasm, sld, sldlfp, slddrt |  |
+| Pronom | 2834 | Atrac Codec File | aea |  |
+| Pronom | 2835 | ETC Express/Expression Show File | shw |  |
+| Pronom | 2836 | MOXCEL | mxl |  |
+| Pronom | 2837 | Enigma Binary File (Finale) | mus |  |
+| Pronom | 2839 | Enigma Binary File (Finale) | mus |  |
+| Pronom | 2840 | Finale Performance Assessment | fpa |  |
+| Pronom | 2841 | Finale Notation File | musx | application/vnd.makemusic.notation |
+| Pronom | 2842 | ICC Profile | icc, icm | application/vnd.iccprofile |
+| Pronom | 2843 | ICC Profile | icc, icm | application/vnd.iccprofile |
+| Pronom | 2844 | ICC Profile | icc, icm | application/vnd.iccprofile |
+| Pronom | 2848 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2849 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2851 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2852 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2854 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2855 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2856 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2857 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2859 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2860 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2861 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2862 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2863 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2864 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2865 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2866 | Sibelius Score | sib | application/x-sibelius-score |
+| Pronom | 2868 | Sibelius Scorch | sco |  |
+| Pronom | 2869 | WinFax Fax Image | fxr, fxm, fxs |  |
+| Pronom | 2870 | SPIR-V | spirv |  |
+| Pronom | 2871 | IMF Package Asset Map | xml |  |
+| Pronom | 2872 | IMF Package Packing List | xml |  |
+| Pronom | 2873 | IMF Package Composition Playlist | xml |  |
+| Pronom | 2874 | Husqvarna Embroidery Stitch File | hus |  |
+| Pronom | 2876 | Husqvarna / Pfaff Embroidery Stitch File | vip |  |
+| Pronom | 2877 | Husqvarna / TruE Embroidery Stitch File | vp3 |  |
+| Pronom | 2878 | Husqvarna / Premier+ Embroidery Stitch File | vp4 |  |
+| Pronom | 2879 | Husqvarna-Viking Designer 1 Stitch File | shv, mhv, phv |  |
+| Pronom | 2880 | Compressed MusicXML | mxl | application/vnd.recordare.musicxml |
+| Pronom | 2881 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
+| Pronom | 2882 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
+| Pronom | 2883 | QuarkXPress Project | qxp, qwd, qpt | application/vnd.Quark.QuarkXPress |
+| Pronom | 3881 | Protein Data Bank File | pdb |  |
+| Pronom | 3882 | Visualization Toolkit | vtk |  |
+| Pronom | 3883 | Visualization Toolkit | vtk |  |
+| Pronom | 3884 | Visualization Toolkit | vtk |  |
+| Pronom | 3886 | RawACF | rawacf |  |
+| Pronom | 3888 | Axon Binary Format | abf |  |
+| Pronom | 3889 | KryoFlux Stream | raw |  |
+| Pronom | 3890 | Binvox | binvox |  |
+| Pronom | 3891 | GraphPad Prism | pzfx | application/x-graphpad-prism-pzfx |
+| Pronom | 3892 | Sony OpenMG Audio | oma | audio/ATRAC-ADVANCED-LOSSLESS |
+| Pronom | 3893 | askSam Document for DOS | ask |  |
+| Pronom | 3894 | askSam Document for Windows | ask |  |
+| Pronom | 3895 | askSam Document for Windows | ask |  |
+| Pronom | 3896 | askSam Document for Windows | ask |  |
+| Pronom | 3897 | Parquet File | parquet |  |
+| Pronom | 3898 | CD Architect Project File | cdp |  |
+| Pronom | 3899 | CD Architect Project File | cdp |  |
+| Pronom | 3900 | Codebook Exchange Format | qdc |  |
+| Pronom | 3901 | Microsoft Project | mpp | application/vnd.ms-project |
+| Pronom | 3902 | Microsoft Project | mpp |  |
+| Pronom | 3903 | Apache Avro | avro |  |
+| Pronom | 3904 | Apache ORC | orc |  |
+| Pronom | 3905 | HxC Floppy Emulator Disk Image | hfe |  |
+| Pronom | 3906 | Open Packaging Format | opf |  |
+| Pronom | 3907 | Daisy Talking Book Navigation Control File | ncx |  |
+| Pronom | 3909 | Daisy Talking Book Resource File | res |  |
+| Pronom | 3910 | Plextalk Project File (imph) | imph |  |
+| Pronom | 3911 | Plextalk Project File (imdn) | imdn |  |
+| Pronom | 3912 | Plextalk Project File (imtt) | imtt |  |
+| Pronom | 3913 | HxC Floppy Emulator Disk Image | hfe |  |
+| Pronom | 3914 | HxC Floppy Emulator Stream Image | hfe |  |
+| Linguist | 0 | 1C Enterprise | bsl, os |  |
+| Linguist | 1 | ABAP | abap |  |
+| Linguist | 2 | AGS Script | asc, ash | text/x-c++src |
+| Linguist | 3 | AMPL | ampl, mod |  |
+| Linguist | 4 | ANTLR | g4 |  |
+| Linguist | 5 | API Blueprint | apib |  |
+| Linguist | 6 | APL | apl, dyalog | text/apl |
+| Linguist | 7 | ASN.1 | asn, asn1 | text/x-ttcn-asn |
+| Linguist | 8 | Classic ASP | asp |  |
+| Linguist | 9 | ATS | dats, hats, sats |  |
+| Linguist | 10 | ActionScript | as |  |
+| Linguist | 11 | Ada | ada, adb, ads |  |
+| Linguist | 12 | Agda | agda |  |
+| Linguist | 13 | Alloy | als |  |
+| Linguist | 14 | Alpine Abuild |  | text/x-sh |
+| Linguist | 15 | Ant Build System |  | application/xml |
+| Linguist | 16 | ApacheConf | apacheconf, vhost |  |
+| Linguist | 17 | Apex | apex, cls, trigger | text/x-java |
+| Linguist | 18 | Apollo Guidance Computer | agc |  |
+| Linguist | 19 | AppleScript | applescript, scpt |  |
+| Linguist | 20 | Arc | arc |  |
+| Linguist | 22 | AsciiDoc | adoc, asc, asciidoc |  |
+| Linguist | 23 | AspectJ | aj |  |
+| Linguist | 24 | Assembly | a51, asm, i, inc, nas, nasm, s |  |
+| Linguist | 25 | Augeas | aug |  |
+| Linguist | 26 | AutoHotkey | ahk, ahkl |  |
+| Linguist | 27 | AutoIt | au3 |  |
+| Linguist | 28 | Awk | auk, awk, gawk, mawk, nawk |  |
+| Linguist | 29 | Batchfile | bat, cmd |  |
+| Linguist | 30 | Befunge | befunge, bf |  |
+| Linguist | 31 | Bison | bison |  |
+| Linguist | 32 | BitBake | bb, bbappend, bbclass, inc |  |
+| Linguist | 33 | Blade | blade, blade.php |  |
+| Linguist | 34 | BlitzBasic | bb, decls |  |
+| Linguist | 35 | BlitzMax | bmx |  |
+| Linguist | 36 | Bluespec | bsv | text/x-systemverilog |
+| Linguist | 37 | Boo | boo |  |
+| Linguist | 38 | Brainfuck | b, bf | text/x-brainfuck |
+| Linguist | 39 | Brightscript | brs |  |
+| Linguist | 40 | Zeek | bro, zeek |  |
+| Linguist | 41 | C | c, cats, h, h.in, idc | text/x-csrc |
+| Linguist | 42 | C# | cake, cs, cs.pp, csx, linq | text/x-csharp |
+| Linguist | 43 | C++ | c++, cc, cp, cpp, cppm, cxx, h, h++, hh, hpp, hxx, inc, inl, ino, ipp, ixx, re, tcc, tpp, txx | text/x-c++src |
+| Linguist | 44 | C-ObjDump | c-objdump |  |
+| Linguist | 45 | C2hs Haskell | chs | text/x-haskell |
+| Linguist | 46 | CLIPS | clp |  |
+| Linguist | 47 | CMake | cmake, cmake.in | text/x-cmake |
+| Linguist | 48 | COBOL | cbl, ccp, cob, cobol, cpy | text/x-cobol |
+| Linguist | 49 | COLLADA | dae | text/xml |
+| Linguist | 50 | CSS | css | text/css |
+| Linguist | 51 | CSV | csv |  |
+| Linguist | 52 | Cap'n Proto | capnp |  |
+| Linguist | 53 | CartoCSS | mss |  |
+| Linguist | 54 | Ceylon | ceylon |  |
+| Linguist | 55 | Chapel | chpl |  |
+| Linguist | 56 | Charity | ch |  |
+| Linguist | 57 | ChucK | ck | text/x-java |
+| Linguist | 58 | Cirru | cirru |  |
+| Linguist | 59 | Clarion | clw |  |
+| Linguist | 60 | Clean | dcl, icl |  |
+| Linguist | 61 | Click | click |  |
+| Linguist | 62 | Clojure | bb, boot, cl2, clj, cljc, cljs, cljs.hl, cljscm, cljx, hic | text/x-clojure |
+| Linguist | 63 | CoffeeScript | _coffee, cake, cjsx, coffee, iced | text/x-coffeescript |
+| Linguist | 64 | ColdFusion | cfm, cfml |  |
+| Linguist | 65 | ColdFusion CFC | cfc |  |
+| Linguist | 66 | Common Lisp | asd, cl, l, lisp, lsp, ny, podsl, sexp | text/x-common-lisp |
+| Linguist | 67 | Component Pascal | cp, cps | text/x-pascal |
+| Linguist | 68 | Cool | cl |  |
+| Linguist | 69 | Coq | coq, v |  |
+| Linguist | 70 | Cpp-ObjDump | c++-objdump, c++objdump, cpp-objdump, cppobjdump, cxx-objdump |  |
+| Linguist | 71 | Creole | creole |  |
+| Linguist | 72 | Crystal | cr | text/x-crystal |
+| Linguist | 73 | Csound | orc, udo |  |
+| Linguist | 74 | Csound Document | csd |  |
+| Linguist | 75 | Csound Score | sco |  |
+| Linguist | 76 | Gherkin | feature, story |  |
+| Linguist | 77 | Cuda | cu, cuh | text/x-c++src |
+| Linguist | 78 | Cycript | cy | text/javascript |
+| Linguist | 79 | Cython | pxd, pxi, pyx | text/x-cython |
+| Linguist | 80 | D | d, di | text/x-d |
+| Linguist | 81 | D-ObjDump | d-objdump |  |
+| Linguist | 82 | DIGITAL Command Language | com |  |
+| Linguist | 83 | DM | dm |  |
+| Linguist | 84 | DNS Zone | arpa, zone |  |
+| Linguist | 85 | DTrace | d | text/x-csrc |
+| Linguist | 86 | Darcs Patch | darcspatch, dpatch |  |
+| Linguist | 87 | Dart | dart | application/dart |
+| Linguist | 88 | Diff | diff, patch | text/x-diff |
+| Linguist | 89 | Dockerfile | containerfile, dockerfile | text/x-dockerfile |
+| Linguist | 90 | Dogescript | djs |  |
+| Linguist | 91 | Dylan | dyl, dylan, intr, lid | text/x-dylan |
+| Linguist | 92 | E | e |  |
+| Linguist | 93 | ECL | ecl, eclxml | text/x-ecl |
+| Linguist | 94 | ECLiPSe | ecl |  |
+| Linguist | 95 | EJS | ect, ejs, ejs.t, jst |  |
+| Linguist | 96 | EQ | eq | text/x-csharp |
+| Linguist | 97 | Eagle | brd, sch | text/xml |
+| Linguist | 98 | Ecere Projects | epj | application/json |
+| Linguist | 99 | Eiffel | e | text/x-eiffel |
+| Linguist | 100 | Elixir | ex, exs |  |
+| Linguist | 101 | Elm | elm | text/x-elm |
+| Linguist | 102 | Emacs Lisp | el, emacs, emacs.desktop | text/x-common-lisp |
+| Linguist | 103 | EmberScript | em, emberscript | text/x-coffeescript |
+| Linguist | 104 | Erlang | app, app.src, erl, es, escript, hrl, xrl, yrl | text/x-erlang |
+| Linguist | 105 | F# | fs, fsi, fsx | text/x-fsharp |
+| Linguist | 106 | FLUX | flux, fx |  |
+| Linguist | 107 | Fortran | f, f77, for, fpp | text/x-fortran |
+| Linguist | 108 | Factor | factor | text/x-factor |
+| Linguist | 109 | Fancy | fancypack, fy |  |
+| Linguist | 110 | Fantom | fan |  |
+| Linguist | 111 | Filebench WML | f |  |
+| Linguist | 112 | Filterscript | fs |  |
+| Linguist | 113 | Formatted | eam.fs, for |  |
+| Linguist | 114 | Forth | 4th, f, for, forth, fr, frt, fs, fth | text/x-forth |
+| Linguist | 115 | FreeMarker | ftl |  |
+| Linguist | 116 | Frege | fr |  |
+| Linguist | 117 | G-code | cnc, g, gco, gcode |  |
+| Linguist | 118 | GAMS | gms |  |
+| Linguist | 119 | GAP | g, gap, gd, gi, tst |  |
+| Linguist | 120 | Unix Assembly | ms, s |  |
+| Linguist | 121 | GCC Machine Description | md | text/x-common-lisp |
+| Linguist | 122 | GDB | gdb, gdbinit |  |
+| Linguist | 123 | GDScript | gd |  |
+| Linguist | 124 | GLSL | fp, frag, frg, fs, fsh, fshader, geo, geom, glsl, glslf, glslv, gs, gshader, rchit, rmiss, shader, tesc, tese, vert, vrx, vs, vsh, vshader |  |
+| Linguist | 125 | Game Maker Language | gml | text/x-c++src |
+| Linguist | 126 | Genshi | kid | text/xml |
+| Linguist | 127 | Gentoo Ebuild | ebuild | text/x-sh |
+| Linguist | 128 | Gentoo Eclass | eclass | text/x-sh |
+| Linguist | 129 | Gettext Catalog | po, pot |  |
+| Linguist | 130 | Glyph | glf | text/x-tcl |
+| Linguist | 131 | Gnuplot | gnu, gnuplot, gp, p, plot, plt |  |
+| Linguist | 132 | Go | go | text/x-go |
+| Linguist | 133 | Golo | golo |  |
+| Linguist | 134 | Gosu | gs, gst, gsx, vark |  |
+| Linguist | 135 | Grace | grace |  |
+| Linguist | 136 | Gradle | gradle |  |
+| Linguist | 137 | Grammatical Framework | gf | text/x-haskell |
+| Linguist | 138 | Graph Modeling Language | gml |  |
+| Linguist | 139 | GraphQL | gql, graphql, graphqls |  |
+| Linguist | 140 | Graphviz (DOT) | dot, gv |  |
+| Linguist | 141 | Roff | 1, 1in, 1m, 1x, 2, 3, 3in, 3m, 3p, 3pm, 3qt, 3x, 4, 5, 6, 7, 8, 9, l, man, mdoc, me, ms, n, nr, rno, roff, tmac | text/troff |
+| Linguist | 142 | Groovy | groovy, grt, gtpl, gvy | text/x-groovy |
+| Linguist | 143 | Groovy Server Pages | gsp | application/x-jsp |
+| Linguist | 144 | HCL | hcl, nomad, tf, tfvars, workflow | text/x-ruby |
+| Linguist | 145 | HLSL | cginc, fx, fxh, hlsl, hlsli |  |
+| Linguist | 146 | HTML | hta, htm, html, html.hl, inc, xht, xhtml | text/html |
+| Linguist | 147 | Jinja | j2, jinja, jinja2 | text/x-django |
+| Linguist | 148 | HTML+ECR | ecr | text/html |
+| Linguist | 149 | HTML+EEX | heex, html.eex, leex | text/html |
+| Linguist | 150 | HTML+ERB | erb, erb.deface, rhtml | application/x-erb |
+| Linguist | 151 | HTML+PHP | phtml | application/x-httpd-php |
+| Linguist | 152 | HTTP | http | message/http |
+| Linguist | 153 | Hack | hack, hh, hhi, php | application/x-httpd-php |
+| Linguist | 154 | Haml | haml, haml.deface | text/x-haml |
+| Linguist | 155 | Handlebars | handlebars, hbs |  |
+| Linguist | 156 | Harbour | hb |  |
+| Linguist | 157 | Haskell | hs, hs-boot, hsc | text/x-haskell |
+| Linguist | 158 | Haxe | hx, hxsl | text/x-haxe |
+| Linguist | 159 | Hy | hy |  |
+| Linguist | 160 | HyPhy | bf |  |
+| Linguist | 161 | IDL | dlm, pro | text/x-idl |
+| Linguist | 162 | IGOR Pro | ipf |  |
+| Linguist | 163 | INI | cfg, cnf, dof, ini, lektorproject, prefs, pro, properties, url | text/x-properties |
+| Linguist | 164 | IRC log | irclog, weechatlog | text/mirc |
+| Linguist | 165 | Idris | idr, lidr |  |
+| Linguist | 166 | Inform 7 | i7x, ni |  |
+| Linguist | 167 | Inno Setup | isl, iss |  |
+| Linguist | 168 | Io | io |  |
+| Linguist | 169 | Ioke | ik |  |
+| Linguist | 170 | Isabelle | thy |  |
+| Linguist | 171 | Isabelle ROOT |  |  |
+| Linguist | 172 | J | ijs |  |
+| Linguist | 173 | JFlex | flex, jflex |  |
+| Linguist | 174 | JSON | 4DForm, 4DProject, JSON-tmLanguage, avsc, geojson, gltf, har, ice, json, json.example, jsonl, mcmeta, sarif, tact, tfstate, tfstate.backup, topojson, webapp, webmanifest, yy, yyp | application/json |
+| Linguist | 175 | JSON5 | json5 | application/json |
+| Linguist | 176 | JSONLD | jsonld | application/json |
+| Linguist | 177 | JSONiq | jq | application/json |
+| Linguist | 179 | Pug | jade, pug | text/x-pug |
+| Linguist | 180 | Jasmin | j |  |
+| Linguist | 181 | Java | jav, java, jsh | text/x-java |
+| Linguist | 182 | Java Server Pages | jsp, tag | application/x-jsp |
+| Linguist | 183 | JavaScript | _js, bones, cjs, es, es6, frag, gs, jake, javascript, js, jsb, jscad, jsfl, jslib, jsm, jspre, jss, jsx, mjs, njs, pac, sjs, ssjs, xsjs, xsjslib | text/javascript |
+| Linguist | 184 | Julia | jl | text/x-julia |
+| Linguist | 185 | Jupyter Notebook | ipynb | application/json |
+| Linguist | 186 | KRL | krl |  |
+| Linguist | 187 | KiCad Layout | kicad_mod, kicad_pcb, kicad_wks | text/x-common-lisp |
+| Linguist | 188 | Kit | kit | text/html |
+| Linguist | 189 | Kotlin | kt, ktm, kts | text/x-kotlin |
+| Linguist | 190 | LFE | lfe | text/x-common-lisp |
+| Linguist | 191 | LLVM | ll |  |
+| Linguist | 192 | LOLCODE | lol |  |
+| Linguist | 193 | LSL | lsl, lslp |  |
+| Linguist | 194 | LabVIEW | lvclass, lvlib, lvproj | text/xml |
+| Linguist | 195 | Lasso | las, lasso, lasso8, lasso9 |  |
+| Linguist | 196 | Latte | latte | text/x-smarty |
+| Linguist | 197 | Lean | hlean, lean |  |
+| Linguist | 198 | Less | less | text/css |
+| Linguist | 199 | Lex | l, lex |  |
+| Linguist | 200 | LilyPond | ily, ly |  |
+| Linguist | 201 | Limbo | b, m |  |
+| Linguist | 202 | Linker Script | ld, lds, x |  |
+| Linguist | 203 | Linux Kernel Module | mod |  |
+| Linguist | 204 | Liquid | liquid |  |
+| Linguist | 205 | Literate Agda | lagda |  |
+| Linguist | 206 | Literate CoffeeScript | coffee.md, litcoffee |  |
+| Linguist | 207 | Literate Haskell | lhs | text/x-literate-haskell |
+| Linguist | 208 | LiveScript | _ls, ls | text/x-livescript |
+| Linguist | 209 | Logos | x, xi, xm |  |
+| Linguist | 210 | Logtalk | lgt, logtalk |  |
+| Linguist | 211 | LookML | lkml, lookml | text/x-yaml |
+| Linguist | 212 | LoomScript | ls |  |
+| Linguist | 213 | Lua | fcgi, lua, nse, p8, pd_lua, rbxs, rockspec, wlua | text/x-lua |
+| Linguist | 214 | M | m, mumps | text/x-mumps |
+| Linguist | 215 | M4 | m4, mc |  |
+| Linguist | 216 | M4Sugar | m4 |  |
+| Linguist | 217 | MAXScript | mcr, ms |  |
+| Linguist | 218 | MTML | mtml | text/html |
+| Linguist | 219 | MUF | m, muf | text/x-forth |
+| Linguist | 220 | Makefile | d, mak, make, makefile, mk, mkfile | text/x-cmake |
+| Linguist | 221 | Mako | mako, mao |  |
+| Linguist | 222 | Markdown | livemd, markdown, md, mdown, mdwn, mkd, mkdn, mkdown, ronn, scd, workbook | text/x-gfm |
+| Linguist | 223 | Mask | mask |  |
+| Linguist | 224 | Mathematica | cdf, m, ma, mathematica, mt, nb, nbp, wl, wlt | text/x-mathematica |
+| Linguist | 225 | MATLAB | m, matlab | text/x-octave |
+| Linguist | 226 | Maven POM |  | text/xml |
+| Linguist | 227 | Max | maxhelp, maxpat, maxproj, mxt, pat | application/json |
+| Linguist | 228 | Wikitext | mediawiki, wiki, wikitext |  |
+| Linguist | 229 | Mercury | m, moo |  |
+| Linguist | 230 | Metal | metal | text/x-c++src |
+| Linguist | 231 | MiniD | minid |  |
+| Linguist | 232 | Mirah | druby, duby, mirah | text/x-ruby |
+| Linguist | 233 | Modelica | mo | text/x-modelica |
+| Linguist | 234 | Modula-2 | mod |  |
+| Linguist | 235 | Module Management System | mmk, mms |  |
+| Linguist | 236 | Monkey | monkey, monkey2 |  |
+| Linguist | 237 | Moocode | moo |  |
+| Linguist | 238 | MoonScript | moon |  |
+| Linguist | 239 | Myghty | myt |  |
+| Linguist | 240 | NCL | ncl |  |
+| Linguist | 241 | NL | nl |  |
+| Linguist | 242 | NSIS | nsh, nsi | text/x-nsis |
+| Linguist | 243 | Nemerle | n |  |
+| Linguist | 244 | NetLinx | axi, axs |  |
+| Linguist | 245 | NetLinx+ERB | axi.erb, axs.erb |  |
+| Linguist | 246 | NetLogo | nlogo | text/x-common-lisp |
+| Linguist | 247 | NewLisp | lisp, lsp, nl | text/x-common-lisp |
+| Linguist | 248 | Nginx | nginx, nginxconf, vhost | text/x-nginx-conf |
+| Linguist | 249 | Nim | nim, nim.cfg, nimble, nimrod, nims |  |
+| Linguist | 250 | Ninja | ninja |  |
+| Linguist | 251 | Nit | nit |  |
+| Linguist | 252 | Nix | nix |  |
+| Linguist | 253 | Nu | nu | text/x-scheme |
+| Linguist | 254 | NumPy | numpy, numpyw, numsc | text/x-python |
+| Linguist | 255 | OCaml | eliom, eliomi, ml, ml4, mli, mll, mly | text/x-ocaml |
+| Linguist | 256 | ObjDump | objdump |  |
+| Linguist | 257 | Objective-C | h, m | text/x-objectivec |
+| Linguist | 258 | Objective-C++ | mm | text/x-objectivec |
+| Linguist | 259 | Objective-J | j, sj |  |
+| Linguist | 260 | Omgrofl | omgrofl |  |
+| Linguist | 261 | Opa | opa |  |
+| Linguist | 262 | Opal | opal |  |
+| Linguist | 263 | OpenCL | cl, opencl | text/x-csrc |
+| Linguist | 264 | OpenEdge ABL | cls, p, w |  |
+| Linguist | 265 | OpenRC runscript |  | text/x-sh |
+| Linguist | 266 | OpenSCAD | scad |  |
+| Linguist | 267 | Org | org |  |
+| Linguist | 268 | Ox | ox, oxh, oxo |  |
+| Linguist | 269 | Oxygene | oxygene |  |
+| Linguist | 270 | Oz | oz | text/x-oz |
+| Linguist | 271 | Pawn | inc, pwn, sma |  |
+| Linguist | 272 | PHP | aw, ctp, fcgi, inc, php, php3, php4, php5, phps, phpt | application/x-httpd-php |
+| Linguist | 273 | PLSQL | bdy, ddl, fnc, pck, pkb, pks, plb, pls, plsql, prc, spc, sql, tpb, tps, trg, vw | text/x-plsql |
+| Linguist | 274 | PLpgSQL | pgsql, sql | text/x-sql |
+| Linguist | 275 | POV-Ray SDL | inc, pov |  |
+| Linguist | 276 | Pan | pan |  |
+| Linguist | 277 | Papyrus | psc |  |
+| Linguist | 278 | Parrot | parrot |  |
+| Linguist | 279 | Parrot Assembly | pasm |  |
+| Linguist | 280 | Parrot Internal Representation | pir |  |
+| Linguist | 281 | Pascal | dfm, dpr, inc, lpr, pas, pascal, pp | text/x-pascal |
+| Linguist | 282 | Perl | al, cgi, fcgi, perl, ph, pl, plx, pm, psgi, t | text/x-perl |
+| Linguist | 283 | Raku | 6pl, 6pm, nqp, p6, p6l, p6m, pl, pl6, pm, pm6, raku, rakumod, t | text/x-perl |
+| Linguist | 284 | Pickle | pkl |  |
+| Linguist | 285 | PicoLisp | l |  |
+| Linguist | 286 | PigLatin | pig |  |
+| Linguist | 287 | Pike | pike, pmod |  |
+| Linguist | 288 | Pod | pod | text/x-perl |
+| Linguist | 289 | PogoScript | pogo |  |
+| Linguist | 290 | Pony | pony |  |
+| Linguist | 291 | PostScript | eps, epsi, pfa, ps |  |
+| Linguist | 292 | PowerBuilder | pbt, sra, sru, srw |  |
+| Linguist | 293 | PowerShell | ps1, psd1, psm1 | application/x-powershell |
+| Linguist | 294 | Processing | pde |  |
+| Linguist | 295 | Prolog | pl, plt, pro, prolog, yap |  |
+| Linguist | 296 | Propeller Spin | spin |  |
+| Linguist | 297 | Protocol Buffer | proto | text/x-protobuf |
+| Linguist | 298 | Public Key | asc, pub | application/pgp |
+| Linguist | 299 | Puppet | pp | text/x-puppet |
+| Linguist | 300 | Pure Data | pd |  |
+| Linguist | 301 | PureBasic | pb, pbi |  |
+| Linguist | 302 | PureScript | purs | text/x-haskell |
+| Linguist | 303 | Python | cgi, fcgi, gyp, gypi, lmi, py, py3, pyde, pyi, pyp, pyt, pyw, rpy, spec, tac, wsgi, xpy | text/x-python |
+| Linguist | 304 | Python traceback | pytb |  |
+| Linguist | 305 | QML | qbs, qml |  |
+| Linguist | 306 | QMake | pri, pro |  |
+| Linguist | 307 | R | r, rd, rsx | text/x-rsrc |
+| Linguist | 308 | RAML | raml | text/x-yaml |
+| Linguist | 309 | RDoc | rdoc |  |
+| Linguist | 310 | REALbasic | rbbas, rbfrm, rbmnu, rbres, rbtbar, rbuistate |  |
+| Linguist | 311 | REXX | pprx, rex, rexx |  |
+| Linguist | 313 | RMarkdown | qmd, rmd | text/x-gfm |
+| Linguist | 314 | RPM Spec | spec | text/x-rpm-spec |
+| Linguist | 315 | RUNOFF | rnh, rno |  |
+| Linguist | 316 | Racket | rkt, rktd, rktl, scrbl |  |
+| Linguist | 317 | Ragel | rl |  |
+| Linguist | 318 | Raw token data | raw |  |
+| Linguist | 319 | Rebol | r, r2, r3, reb, rebol |  |
+| Linguist | 320 | Red | red, reds |  |
+| Linguist | 321 | Redcode | cw |  |
+| Linguist | 322 | Ren'Py | rpy |  |
+| Linguist | 323 | RenderScript | rs, rsh |  |
+| Linguist | 324 | RobotFramework | resource, robot |  |
+| Linguist | 325 | Rouge | rg | text/x-clojure |
+| Linguist | 326 | Ruby | builder, eye, fcgi, gemspec, god, jbuilder, mspec, pluginspec, podspec, prawn, rabl, rake, rb, rbi, rbuild, rbw, rbx, ru, ruby, spec, thor, watchr | text/x-ruby |
+| Linguist | 327 | Rust | rs, rs.in | text/x-rustsrc |
+| Linguist | 328 | SAS | sas | text/x-sas |
+| Linguist | 329 | SCSS | scss | text/x-scss |
+| Linguist | 330 | SMT | smt, smt2 |  |
+| Linguist | 331 | SPARQL | rq, sparql | application/sparql-query |
+| Linguist | 332 | SQF | hqf, sqf |  |
+| Linguist | 333 | SQL | cql, ddl, inc, mysql, prc, sql, tab, udf, viw | text/x-sql |
+| Linguist | 334 | SQLPL | db2, sql | text/x-sql |
+| Linguist | 335 | SRecode Template | srt | text/x-common-lisp |
+| Linguist | 336 | STON | ston |  |
+| Linguist | 337 | SVG | svg | text/xml |
+| Linguist | 338 | Sage | sage, sagews | text/x-python |
+| Linguist | 339 | SaltStack | sls | text/x-yaml |
+| Linguist | 340 | Sass | sass | text/x-sass |
+| Linguist | 341 | Scala | kojo, sbt, sc, scala | text/x-scala |
+| Linguist | 342 | Scaml | scaml |  |
+| Linguist | 343 | Scheme | sch, scm, sld, sls, sps, ss | text/x-scheme |
+| Linguist | 344 | Scilab | sce, sci, tst |  |
+| Linguist | 345 | Self | self |  |
+| Linguist | 346 | Shell | bash, bats, cgi, command, fcgi, ksh, sh, sh.in, tmux, tool, trigger, zsh, zsh-theme | text/x-sh |
+| Linguist | 347 | ShellSession | sh-session | text/x-sh |
+| Linguist | 348 | Shen | shen |  |
+| Linguist | 349 | Slash | sl |  |
+| Linguist | 350 | Slim | slim | text/x-slim |
+| Linguist | 351 | Smali | smali |  |
+| Linguist | 352 | Smalltalk | cs, st | text/x-stsrc |
+| Linguist | 353 | Smarty | tpl | text/x-smarty |
+| Linguist | 354 | SourcePawn | inc, sp |  |
+| Linguist | 355 | Squirrel | nut | text/x-c++src |
+| Linguist | 356 | Stan | stan |  |
+| Linguist | 357 | Standard ML | fun, ml, sig, sml | text/x-ocaml |
+| Linguist | 358 | Stata | ado, do, doh, ihlp, mata, matah, sthlp |  |
+| Linguist | 359 | Stylus | styl |  |
+| Linguist | 360 | SubRip Text | srt |  |
+| Linguist | 361 | SuperCollider | sc, scd |  |
+| Linguist | 362 | Swift | swift | text/x-swift |
+| Linguist | 363 | SystemVerilog | sv, svh, vh | text/x-systemverilog |
+| Linguist | 364 | TLA | tla |  |
+| Linguist | 365 | TOML | toml | text/x-toml |
+| Linguist | 366 | TXL | txl |  |
+| Linguist | 367 | Tcl | adp, sdc, tcl, tcl.in, tm, xdc | text/x-tcl |
+| Linguist | 368 | Tcsh | csh, tcsh | text/x-sh |
+| Linguist | 369 | TeX | aux, bbx, cbx, cls, dtx, ins, lbx, ltx, mkii, mkiv, mkvi, sty, tex, toc | text/x-stex |
+| Linguist | 370 | Tea | tea |  |
+| Linguist | 371 | Terra | t | text/x-lua |
+| Linguist | 372 | Text | fr, nb, ncl, no, txt |  |
+| Linguist | 373 | Textile | textile | text/x-textile |
+| Linguist | 374 | Thrift | thrift |  |
+| Linguist | 375 | Turing | t, tu |  |
+| Linguist | 376 | Turtle | ttl | text/turtle |
+| Linguist | 377 | Twig | twig | text/x-twig |
+| Linguist | 378 | TypeScript | cts, mts, ts | application/typescript |
+| Linguist | 379 | Unified Parallel C | upc | text/x-csrc |
+| Linguist | 380 | Unity3D Asset | anim, asset, mask, mat, meta, prefab, unity | text/x-yaml |
+| Linguist | 381 | Uno | uno | text/x-csharp |
+| Linguist | 382 | UnrealScript | uc | text/x-java |
+| Linguist | 383 | UrWeb | ur, urs |  |
+| Linguist | 384 | VCL | vcl |  |
+| Linguist | 385 | VHDL | vhd, vhdl, vhf, vhi, vho, vhs, vht, vhw | text/x-vhdl |
+| Linguist | 386 | Vala | vala, vapi |  |
+| Linguist | 387 | Verilog | v, veo | text/x-verilog |
+| Linguist | 388 | Vim Script | vba, vim, vimrc, vmb |  |
+| Linguist | 389 | Visual Basic .NET | vb, vbhtml | text/x-vb |
+| Linguist | 390 | Volt | volt | text/x-d |
+| Linguist | 391 | Vue | vue |  |
+| Linguist | 392 | Wavefront Material | mtl |  |
+| Linguist | 393 | Wavefront Object | obj |  |
+| Linguist | 394 | Web Ontology Language | owl |  |
+| Linguist | 395 | WebIDL | webidl | text/x-webidl |
+| Linguist | 396 | World of Warcraft Addon Data | toc |  |
+| Linguist | 397 | X10 | x10 |  |
+| Linguist | 398 | XC | xc | text/x-csrc |
+| Linguist | 399 | XML | adml, admx, ant, axaml, axml, builds, ccproj, ccxml, clixml, cproject, cscfg, csdef, csl, csproj, ct, depproj, dita, ditamap, ditaval, dll.config, dotsettings, filters, fsproj, fxml, glade, gml, gmx, gpx, grxml, gst, hzp, iml, ivy, jelly, jsproj, kml, launch, mdpolicy, mjml, mm, mod, mojo, mxml, natvis, ncl, ndproj, nproj, nuspec, odd, osm, pkgproj, pluginspec, proj, props, ps1xml, psc1, pt, qhelp, rdf, res, resx, rs, rss, sch, scxml, sfproj, shproj, srdf, storyboard, sublime-snippet, sw, targets, tml, ts, tsx, typ, ui, urdf, ux, vbproj, vcxproj, vsixmanifest, vssettings, vstemplate, vxml, wixproj, workflow, wsdl, wsf, wxi, wxl, wxs, x3d, xacro, xaml, xib, xlf, xliff, xmi, xml, xml.dist, xmp, xproj, xsd, xspec, xul, zcml | text/xml |
+| Linguist | 400 | XPages | xsp-config, xsp.metadata | text/xml |
+| Linguist | 401 | XProc | xpl, xproc | text/xml |
+| Linguist | 402 | XQuery | xq, xql, xqm, xquery, xqy | application/xquery |
+| Linguist | 403 | XS | xs | text/x-csrc |
+| Linguist | 404 | XSLT | xsl, xslt | text/xml |
+| Linguist | 405 | Xojo | xojo_code, xojo_menu, xojo_report, xojo_script, xojo_toolbar, xojo_window |  |
+| Linguist | 406 | Xtend | xtend |  |
+| Linguist | 407 | YAML | mir, reek, rviz, sublime-syntax, syntax, yaml, yaml-tmlanguage, yaml.sed, yml, yml.mysql | text/x-yaml |
+| Linguist | 408 | YANG | yang |  |
+| Linguist | 409 | Yacc | y, yacc, yy |  |
+| Linguist | 410 | Zephir | zep |  |
+| Linguist | 411 | Zimpl | zimpl, zmpl, zpl |  |
+| Linguist | 412 | desktop | desktop, desktop.in, service |  |
+| Linguist | 413 | eC | ec, eh |  |
+| Linguist | 414 | edn | edn | text/x-clojure |
+| Linguist | 415 | fish | fish |  |
+| Linguist | 416 | mupad | mu |  |
+| Linguist | 417 | nesC | nc |  |
+| Linguist | 418 | ooc | ooc |  |
+| Linguist | 419 | reStructuredText | rest, rest.txt, rst, rst.txt | text/x-rst |
+| Linguist | 420 | wisp | wisp | text/x-clojure |
+| Linguist | 421 | xBase | ch, prg, prw |  |
+| Linguist | 422 | TI Program | 8xp, 8xp.txt |  |
+| Linguist | 423 | JSON with Comments | code-snippets, code-workspace, jsonc, sublime-build, sublime-color-scheme, sublime-commands, sublime-completions, sublime-keymap, sublime-macro, sublime-menu, sublime-mousemap, sublime-project, sublime-settings, sublime-theme, sublime-workspace, sublime_metrics, sublime_session | text/javascript |
+| Linguist | 424 | CSON | cson | text/x-coffeescript |
+| Linguist | 425 | Pic | chem, pic | text/troff |
+| Linguist | 426 | MQL4 | mq4, mqh |  |
+| Linguist | 427 | MQL5 | mq5, mqh |  |
+| Linguist | 428 | Python console |  |  |
+| Linguist | 429 | ABNF | abnf |  |
+| Linguist | 430 | EBNF | ebnf | text/x-ebnf |
+| Linguist | 431 | Ring | ring |  |
+| Linguist | 327071 | ISPC | ispc | text/x-csrc |
+| Linguist | 891017 | LiveCode Script | livecodescript |  |
+| Linguist | 4896465 | MiniYAML | yaml, yml | text/x-yaml |
+| Linguist | 5523150 | Glimmer JS | gjs |  |
+| Linguist | 24470517 | Survex data | svx |  |
+| Linguist | 28923963 | BASIC | bas |  |
+| Linguist | 29176339 | CIL | cil |  |
+| Linguist | 34167825 | Macaulay2 | m2 |  |
+| Linguist | 37531557 | D2 | d2 |  |
+| Linguist | 51239111 | OASv3-yaml | yaml, yml | text/x-yaml |
+| Linguist | 51601661 | Rich Text Format | rtf |  |
+| Linguist | 55627273 | Carbon | carbon | text/x-go |
+| Linguist | 59716426 | KerboScript | ks |  |
+| Linguist | 70127133 | Jai | jai |  |
+| Linguist | 74444240 | Ignore List | gitignore | text/x-sh |
+| Linguist | 75622871 | XML Property List | plist, stTheme, tmCommand, tmLanguage, tmPreferences, tmSnippet, tmTheme | text/xml |
+| Linguist | 81265970 | Vim Snippet | snip, snippet, snippets |  |
+| Linguist | 81442128 | PEG.js | peggy, pegjs | text/javascript |
+| Linguist | 89289301 | TSPLIB data | tsp |  |
+| Linguist | 89855901 | StringTemplate | st | text/html |
+| Linguist | 91493841 | Clarity | clar |  |
+| Linguist | 94901924 | TSX | tsx | text/jsx |
+| Linguist | 95110458 | Glimmer TS | gts |  |
+| Linguist | 96139566 | EditorConfig | editorconfig | text/x-properties |
+| Linguist | 96642275 | B4X | bas | text/x-vb |
+| Linguist | 97358117 | Futhark | fut |  |
+| Linguist | 98384424 | iCalendar | ical, ics | text/x-properties |
+| Linguist | 105187618 | OASv2-yaml | yaml, yml | text/x-yaml |
+| Linguist | 106029007 | Praat | praat |  |
+| Linguist | 111148035 | Dotenv | env |  |
+| Linguist | 118656070 | TL-Verilog | tlv |  |
+| Linguist | 119900149 | Slint | slint |  |
+| Linguist | 121855308 | Berry | be |  |
+| Linguist | 124996147 | ASL | asl, dsl |  |
+| Linguist | 128447695 | Just | just |  |
+| Linguist | 134534086 | WebAssembly Interface Type | wit | text/x-webidl |
+| Linguist | 136456478 | NMODL | mod |  |
+| Linguist | 140848857 | KiCad Legacy Layout | brd |  |
+| Linguist | 147198098 | Adobe Font Metrics | afm |  |
+| Linguist | 151241392 | Snakemake | smk, snakefile | text/x-python |
+| Linguist | 153503348 | Browserslist |  |  |
+| Linguist | 153739399 | OpenQASM | qasm |  |
+| Linguist | 155357471 | Pod 6 | pod, pod6 |  |
+| Linguist | 164123055 | SmPL | cocci |  |
+| Linguist | 171666519 | NASL | inc, nasl |  |
+| Linguist | 173616037 | Rascal | rsc |  |
+| Linguist | 178322513 | Nasal | nas |  |
+| Linguist | 181453007 | MoonBit | mbt |  |
+| Linguist | 187772328 | Altium Designer | OutJob, PcbDoc, PrjPCB, SchDoc |  |
+| Linguist | 201049282 | DirectX 3D File | x |  |
+| Linguist | 202735509 | ObjectScript | cls |  |
+| Linguist | 202937027 | Motoko | mo |  |
+| Linguist | 206353404 | Fluent | ftl |  |
+| Linguist | 208700028 | X Font Directory Index |  |  |
+| Linguist | 208976687 | Sieve | sieve | application/sieve |
+| Linguist | 220689142 | Julia REPL |  |  |
+| Linguist | 222900098 | Soong |  |  |
+| Linguist | 225167241 | XCompose |  |  |
+| Linguist | 225223071 | Xmake |  |  |
+| Linguist | 225697190 | Kusto | csl, kql |  |
+| Linguist | 231021894 | Hosts File |  |  |
+| Linguist | 231751931 | Monkey C | mc | text/x-csrc |
+| Linguist | 237469032 | Solidity | sol |  |
+| Linguist | 237469033 | Yul | yul |  |
+| Linguist | 238874535 | MiniZinc | mzn |  |
+| Linguist | 239357863 | Slang | slang |  |
+| Linguist | 239946126 | Fennel | fnl |  |
+| Linguist | 252961827 | Pyret | arr |  |
+| Linguist | 257856279 | GSC | csc, gsc, gsh | text/x-csrc |
+| Linguist | 262764437 | PostCSS | pcss, postcss |  |
+| Linguist | 270184138 | Cadence | cdc |  |
+| Linguist | 271471144 | Sway | sw | text/x-rustsrc |
+| Linguist | 284531423 | Jison | jison |  |
+| Linguist | 288822799 | Pkl | pkl |  |
+| Linguist | 290345951 | GAML | gaml |  |
+| Linguist | 292377326 | Velocity Template Language | vtl | text/velocity |
+| Linguist | 302957008 | GN | gn, gni | text/x-python |
+| Linguist | 305313959 | Procfile |  |  |
+| Linguist | 310828396 | Gemini | gmi |  |
+| Linguist | 316620079 | JCL | jcl |  |
+| Linguist | 319002153 | ReasonLIGO | religo | text/x-rustsrc |
+| Linguist | 321200902 | Bicep | bicep, bicepparam |  |
+| Linguist | 321684729 | CODEOWNERS |  |  |
+| Linguist | 330386870 | BQN | bqn |  |
+| Linguist | 336943375 | F* | fst, fsti |  |
+| Linguist | 342840477 | Easybuild | eb | text/x-python |
+| Linguist | 342840478 | Edje Data Collection | edc | text/x-c++src |
+| Linguist | 348895984 | P4 | p4 |  |
+| Linguist | 356063509 | CUE | cue |  |
+| Linguist | 356554395 | Toit | toit |  |
+| Linguist | 357046146 | Closure Templates | soy | text/x-soy |
+| Linguist | 363378884 | Regular Expression | regex, regexp |  |
+| Linguist | 365050359 | Luau | luau | text/x-lua |
+| Linguist | 366607477 | HAProxy | cfg |  |
+| Linguist | 372063053 | Checksums | crc32, md2, md4, md5, sha1, sha2, sha224, sha256, sha256sum, sha3, sha384, sha512 |  |
+| Linguist | 374317347 | OpenType Feature File | fea |  |
+| Linguist | 374521672 | WDL | wdl |  |
+| Linguist | 375265331 | Quake |  |  |
+| Linguist | 377204539 | Linear Programming | lp |  |
+| Linguist | 378760102 | YASnippet | yasnippet |  |
+| Linguist | 385992043 | Mermaid | mermaid, mmd |  |
+| Linguist | 387204628 | 2-Dimensional Array | 2da |  |
+| Linguist | 389477596 | AngelScript | angelscript, as | text/x-c++src |
+| Linguist | 390788699 | CAP CDS | cds |  |
+| Linguist | 399230729 | VBA | bas, cls, frm, vba | text/x-vb |
+| Linguist | 404627610 | Gerber Image | cmp, gbl, gbo, gbp, gbr, gbs, gko, gml, gpb, gpt, gtl, gto, gtp, gts, ncl, sol |  |
+| Linguist | 406395330 | Jison Lex | jisonlex |  |
+| Linguist | 407996372 | Cloud Firestore Security Rules |  | text/css |
+| Linguist | 408016005 | VBScript | vbs | text/vbscript |
+| Linguist | 421026389 | CoNLL-U | conll, conllu |  |
+| Linguist | 424259634 | CodeQL | ql, qll |  |
+| Linguist | 424510560 | STAR | star |  |
+| Linguist | 432600901 | Gradle Kotlin DSL | gradle.kts |  |
+| Linguist | 433009171 | Answer Set Programming | lp |  |
+| Linguist | 435000929 | DenizenScript | dsc | text/x-yaml |
+| Linguist | 436081647 | Tree-sitter Query | scm |  |
+| Linguist | 436568854 | Protocol Buffer Text Format | pbt, pbtxt, textproto |  |
+| Linguist | 439829048 | Curry | curry |  |
+| Linguist | 440182480 | Roc | roc |  |
+| Linguist | 441858312 | Promela | pml |  |
+| Linguist | 446573572 | Nushell | nu | text/x-sh |
+| Linguist | 447261135 | JAR Manifest |  |  |
+| Linguist | 448253929 | MLIR | mlir |  |
+| Linguist | 451700185 | AIDL | aidl |  |
+| Linguist | 452025714 | Elvish Transcript |  |  |
+| Linguist | 452681853 | ABAP CDS | asddls |  |
+| Linguist | 455147478 | Lean 4 | lean |  |
+| Linguist | 455361735 | STL | stl |  |
+| Linguist | 459577965 | GEDCOM | ged |  |
+| Linguist | 460509620 | Edge | edge |  |
+| Linguist | 461856962 | Nunjucks | njk |  |
+| Linguist | 461881235 | Git Revision List |  |  |
+| Linguist | 462488745 | mcfunction | mcfunction |  |
+| Linguist | 463518941 | Hare | ha |  |
+| Linguist | 465165328 | JetBrains MPS | mpl, mps, msd | text/xml |
+| Linguist | 472896659 | FreeBASIC | bas, bi | text/x-vb |
+| Linguist | 474864066 | Muse | muse |  |
+| Linguist | 476447814 | Cylc | cylc |  |
+| Linguist | 477582706 | Motorola 68K Assembly | asm, i, inc, s, x68 |  |
+| Linguist | 479039817 | HTML+Razor | cshtml, razor | text/html |
+| Linguist | 481192983 | NEON | neon |  |
+| Linguist | 494938890 | ZenScript | zs |  |
+| Linguist | 498022874 | Rez | r |  |
+| Linguist | 499933428 | Prisma | prisma |  |
+| Linguist | 501875647 | ReScript | res | text/x-rustsrc |
+| Linguist | 506780613 | Nextflow | nf |  |
+| Linguist | 508563686 | Vim Help File | txt |  |
+| Linguist | 512838272 | MDX | mdx | text/x-gfm |
+| Linguist | 517654727 | mIRC Script | mrc |  |
+| Linguist | 519377561 | Java Properties | properties | text/x-properties |
+| Linguist | 521429430 | Nearley | ne, nearley |  |
+| Linguist | 527438264 | Debian Package Control File | dsc |  |
+| Linguist | 529653389 | E-mail | eml, mbox | application/mbox |
+| Linguist | 538732839 | Readline Config |  |  |
+| Linguist | 544060961 | Valve Data Format | vdf |  |
+| Linguist | 545626333 | Beef | bf | text/x-csharp |
+| Linguist | 554920715 | SSH Config |  |  |
+| Linguist | 557959099 | OpenAPI Specification v3 |  |  |
+| Linguist | 558193693 | Qt Script | qs | text/javascript |
+| Linguist | 558779190 | Sweave | rnw |  |
+| Linguist | 560883276 | hoon | hoon |  |
+| Linguist | 564186416 | ASP.NET | asax, ascx, ashx, asmx, aspx, axd | application/x-aspx |
+| Linguist | 564743864 | Modula-3 | i3, ig, m3, mg |  |
+| Linguist | 566198445 | mdsvex | svx | text/x-gfm |
+| Linguist | 570996448 | Elvish | elv |  |
+| Linguist | 575143428 | ImageJ Macro | ijm |  |
+| Linguist | 577529595 | 4D | 4dm |  |
+| Linguist | 578209015 | Astro | astro | text/jsx |
+| Linguist | 587855233 | RON | ron |  |
+| Linguist | 591605007 | Asymptote | asy | text/x-kotlin |
+| Linguist | 592853203 | RouterOS Script | rsc |  |
+| Linguist | 593107205 | QuickBASIC | bas | text/x-vb |
+| Linguist | 598917541 | OpenStep Property List | glyphs, plist |  |
+| Linguist | 599494012 | Java Template Engine | jte |  |
+| Linguist | 603336474 | KakouneScript | kak |  |
+| Linguist | 603371597 | V | v | text/x-go |
+| Linguist | 606708469 | Tact | tact |  |
+| Linguist | 609977990 | RPGLE | rpgle, sqlrpgle |  |
+| Linguist | 612669833 | Roff Manpage | 1, 1in, 1m, 1x, 2, 3, 3in, 3m, 3p, 3pm, 3qt, 3x, 4, 5, 6, 7, 8, 9, man, mdoc | text/troff |
+| Linguist | 614078284 | Xonsh | xsh | text/x-python |
+| Linguist | 615465151 | Caddyfile | caddyfile |  |
+| Linguist | 619814037 | Scenic | scenic |  |
+| Linguist | 620599567 | Cairo | cairo |  |
+| Linguist | 622447435 | KiCad Schematic | kicad_sch, sch |  |
+| Linguist | 622529198 | Faust | dsp |  |
+| Linguist | 632745969 | Wollok | wlk |  |
+| Linguist | 632765617 | Type Language | tl |  |
+| Linguist | 638334590 | Mustache | mustache | text/x-smarty |
+| Linguist | 638334599 | Move | move |  |
+| Linguist | 641580358 | Bluespec BH | bs | text/x-haskell |
+| Linguist | 646424281 | Zig | zig, zig.zon |  |
+| Linguist | 657332628 | CWeb | w |  |
+| Linguist | 658679714 | WebVTT | vtt |  |
+| Linguist | 658971832 | AL | al |  |
+| Linguist | 664100008 | OMNeT++ MSG | msg |  |
+| Linguist | 664257356 | ShaderLab | shader |  |
+| Linguist | 664885656 | Jsonnet | jsonnet, libsonnet |  |
+| Linguist | 668457123 | Wget Config |  |  |
+| Linguist | 674736065 | robots.txt |  |  |
+| Linguist | 677095381 | Cabal Config | cabal | text/x-haskell |
+| Linguist | 677210597 | Oberon | ob2 |  |
+| Linguist | 679594952 | Visual Basic 6.0 | Dsr, bas, cls, ctl, frm | text/x-vb |
+| Linguist | 679725279 | HOCON | hocon |  |
+| Linguist | 684385621 | Pip Requirements |  |  |
+| Linguist | 685022663 | NPM Config |  |  |
+| Linguist | 686129783 | FIGlet Font | flf |  |
+| Linguist | 686821385 | Witcher Script | ws |  |
+| Linguist | 687511714 | ShellCheck Config |  | text/x-properties |
+| Linguist | 689079655 | OverpassQL | overpassql |  |
+| Linguist | 691605112 | dircolors | dircolors |  |
+| Linguist | 692635484 | Kickstart | ks |  |
+| Linguist | 697448245 | Q# | qs |  |
+| Linguist | 704730682 | Typst | typ |  |
+| Linguist | 705203557 | crontab |  |  |
+| Linguist | 713580619 | Wren | wren |  |
+| Linguist | 716513858 | Proguard | pro |  |
+| Linguist | 720859680 | Ballerina | bal |  |
+| Linguist | 723589315 | Option List |  | text/x-sh |
+| Linguist | 731233819 | NWScript | nss | text/x-csrc |
+| Linguist | 735623761 | Simple File Verification | sfv | text/x-properties |
+| Linguist | 736235603 | PDDL | pddl |  |
+| Linguist | 738107771 | Godot Resource | gdnlib, gdns, tres, tscn |  |
+| Linguist | 754574151 | Dune |  |  |
+| Linguist | 756774415 | Pact | pact |  |
+| Linguist | 758480799 | Lark | lark | text/x-ebnf |
+| Linguist | 761352333 | Fortran Free Form | f03, f08, f90, f95 | text/x-fortran |
+| Linguist | 767169629 | Spline Font Database | sfd |  |
+| Linguist | 774635084 | Jest Snapshot | snap | application/javascript |
+| Linguist | 775996197 | nanorc | nanorc |  |
+| Linguist | 781846279 | X PixMap | pm, xpm | text/x-csrc |
+| Linguist | 782911107 | X BitMap | xbm | text/x-csrc |
+| Linguist | 785497837 | Avro IDL | avdl |  |
+| Linguist | 786683730 | HXML | hxml |  |
+| Linguist | 792408528 | Genie | gs |  |
+| Linguist | 793969321 | Dhall | dhall | text/x-haskell |
+| Linguist | 795579337 | templ | templ |  |
+| Linguist | 799141244 | Meson |  |  |
+| Linguist | 800983837 | Microsoft Developer Studio Project | dsp |  |
+| Linguist | 805122868 | YARA | yar, yara |  |
+| Linguist | 807968997 | Git Config | gitconfig | text/x-properties |
+| Linguist | 813068465 | Noir | nr | text/x-rustsrc |
+| Linguist | 818804755 | Kaitai Struct | ksy | text/x-yaml |
+| Linguist | 826404698 | SugarSS | sss |  |
+| Linguist | 829207807 | CameLIGO | mligo | text/x-ocaml |
+| Linguist | 832391833 | Portugol | por |  |
+| Linguist | 833504686 | PlantUML | iuml, plantuml, puml |  |
+| Linguist | 834374816 | OASv2-json | json | application/json |
+| Linguist | 836605993 | WGSL | wgsl |  |
+| Linguist | 838252715 | Ink | ink |  |
+| Linguist | 839112914 | Polar | polar |  |
+| Linguist | 840372442 | Pep8 | pep |  |
+| Linguist | 840483232 | Open Policy Agent | rego |  |
+| Linguist | 844766630 | Ecmarkup | html | text/html |
+| Linguist | 847830017 | sed | sed |  |
+| Linguist | 848295328 | OpenAPI Specification v2 |  |  |
+| Linguist | 849523096 | Microsoft Visual Studio Solution | sln |  |
+| Linguist | 850806976 | Cypher | cyp, cypher |  |
+| Linguist | 851476558 | vCard | vcf | text/x-properties |
+| Linguist | 856832701 | Terraform Template | tftpl | text/x-ruby |
+| Linguist | 865765202 | Record Jar |  | text/x-properties |
+| Linguist | 869538413 | Reason | re, rei | text/x-rustsrc |
+| Linguist | 878396783 | Riot | riot |  |
+| Linguist | 880010326 | SELinux Policy | te |  |
+| Linguist | 880693982 | Euphoria | e, ex |  |
+| Linguist | 884614762 | Adblock Filter List | txt |  |
+| Linguist | 888779559 | Whiley | whiley |  |
+| Linguist | 889244082 | Odin | odin |  |
+| Linguist | 891399890 | Cairo Zero | cairo |  |
+| Linguist | 894641667 | Slice | ice |  |
+| Linguist | 899227493 | RBS | rbs | text/x-ruby |
+| Linguist | 902995658 | Genero per | per |  |
+| Linguist | 905371884 | jq | jq |  |
+| Linguist | 906694254 | FIRRTL | fir |  |
+| Linguist | 907065713 | Gemfile.lock |  |  |
+| Linguist | 914318960 | JavaScript+ERB | js.erb | application/javascript |
+| Linguist | 918334941 | TSQL | sql |  |
+| Linguist | 924868392 | OMNeT++ NED | ned |  |
+| Linguist | 925235833 | EdgeQL | edgeql, esdl |  |
+| Linguist | 928121743 | HolyC | hc | text/x-csrc |
+| Linguist | 928734530 | Svelte | svelte | text/html |
+| Linguist | 931123626 | KDL | kdl | text/x-yacas |
+| Linguist | 931814087 | HiveQL | hql, q |  |
+| Linguist | 932782397 | Marko | marko | text/html |
+| Linguist | 934546256 | Go Workspace |  |  |
+| Linguist | 938193433 | MiniZinc Data | dzn |  |
+| Linguist | 942714150 | Cue Sheet | cue |  |
+| Linguist | 943571030 | BrighterScript | bs |  |
+| Linguist | 947461016 | Go Module |  |  |
+| Linguist | 950967261 | Win32 Message File | mc | text/x-properties |
+| Linguist | 952272597 | TypeSpec | tsp |  |
+| Linguist | 952972794 | ZAP | xzap, zap |  |
+| Linguist | 955017407 | Boogie | bpl |  |
+| Linguist | 956324166 | Git Attributes |  | text/x-sh |
+| Linguist | 956556503 | WebAssembly | wast, wat | text/x-common-lisp |
+| Linguist | 959889508 | Talon | talon |  |
+| Linguist | 960266174 | Starlark | bzl, star | text/x-python |
+| Linguist | 963512632 | Earthly |  |  |
+| Linguist | 965696054 | TextGrid | TextGrid |  |
+| Linguist | 968740319 | Mint | mint |  |
+| Linguist | 969323346 | Dafny | dfy |  |
+| Linguist | 969674868 | Windows Registry Entries | reg | text/x-properties |
+| Linguist | 970539067 | q | q |  |
+| Linguist | 970675279 | kvlang | kv |  |
+| Linguist | 973483626 | ZIL | mud, zil |  |
+| Linguist | 974514097 | DataWeave | dwl |  |
+| Linguist | 980062566 | OASv3-json | json | application/json |
+| Linguist | 981795023 | TextMate Properties |  | text/x-properties |
+| Linguist | 982188347 | BibTeX | bib, bibtex | text/x-stex |
+| Linguist | 985227236 | Object Data Instance Notation | odin |  |
+| Linguist | 986054050 | Genero 4gl | 4gl |  |
+| Linguist | 987024632 | Singularity |  |  |
+| Linguist | 988020015 | Texinfo | texi, texinfo, txi |  |
+| Linguist | 988547172 | Common Workflow Language | cwl | text/x-yaml |
+| Linguist | 992375436 | cURL Config |  |  |
+| Linguist | 997665271 | Glyph Bitmap Distribution Format | bdf |  |
+| Linguist | 998078858 | Jolie | iol, ol |  |
+| Linguist | 1013566805 | LTspice Symbol | asy | text/x-spreadsheet |
+| Linguist | 1020148948 | Redirect Rules |  |  |
+| Linguist | 1027892786 | Smithy | smithy | text/x-csrc |
+| Linguist | 1028705371 | Janet | janet | text/x-scheme |
+| Linguist | 1031374237 | RPC | x |  |
+| Linguist | 1035892117 | TSV | tsv, vcf |  |
+| Linguist | 1040646257 | LigoLANG | ligo | text/x-pascal |
+| Linguist | 1042332086 | Circom | circom |  |
+| Linguist | 1045019587 | Mojo | mojo | text/x-python |
+| Linguist | 1054258749 | Gleam | gleam |  |
+| Linguist | 1054391671 | Go Checksums |  |  |
+| Linguist | 1055528081 | Bikeshed | bs | text/html |
+| Linguist | 1055641948 | Vyper | vy |  |
+| Linguist | 1057618448 | Imba | imba |  |
+| Linguist | 1066250075 | SWIG | i | text/x-c++src |
+| Linguist | 1067292663 | Antlers | antlers.html, antlers.php, antlers.xml |  |
+| Httpd | 1690715 | iccprofile | icc, icm | application/vnd.iccprofile |
+| Httpd | 2839328 | cu seeme | cu | application/cu-seeme |
+| Httpd | 11715083 | visio | vsd, vst, vss, vsw | application/vnd.visio |
+| Httpd | 12236515 | pict | pic, pct | image/x-pict |
+| Httpd | 15491224 | gmx | gmx | application/vnd.gmx |
+| Httpd | 29465275 | trueapp | tra | application/vnd.trueapp |
+| Httpd | 29707939 | woff | woff | font/woff |
+| Httpd | 39470048 | pdf | pdf | application/pdf |
+| Httpd | 43235474 | oasis opendocument graphics template | otg | application/vnd.oasis.opendocument.graphics-template |
+| Httpd | 46342762 | mp2t | ts, m2t, m2ts, mts | video/mp2t |
+| Httpd | 58922719 | silk | sil | audio/silk |
+| Httpd | 68397272 | fastbidsheet | fbs | image/vnd.fastbidsheet |
+| Httpd | 70571009 | dssc der | dssc | application/dssc+der |
+| Httpd | 74595847 | bmp | bmp | image/bmp |
+| Httpd | 79411734 | svg xml | svg, svgz | image/svg+xml |
+| Httpd | 80973015 | oasis opendocument presentation | odp | application/vnd.oasis.opendocument.presentation |
+| Httpd | 85710420 | pkcs12 | p12, pfx | application/x-pkcs12 |
+| Httpd | 108802647 | xhtml xml | xhtml, xht | application/xhtml+xml |
+| Httpd | 149374338 | portable bitmap | pbm | image/x-portable-bitmap |
+| Httpd | 152912554 | semf | semf | application/vnd.semf |
+| Httpd | 153027412 | msvideo | avi | video/x-msvideo |
+| Httpd | 154740816 | geogebra slides | ggs | application/vnd.geogebra.slides |
+| Httpd | 157902401 | fujixerox edmics mmr | mmr | image/vnd.fujixerox.edmics-mmr |
+| Httpd | 159747167 | 3gpp pic bw small | psb | application/vnd.3gpp.pic-bw-small |
+| Httpd | 170630255 | 3gpp pic bw var | pvb | application/vnd.3gpp.pic-bw-var |
+| Httpd | 171816475 | lucent voice | lvp | audio/vnd.lucent.voice |
+| Httpd | 187716829 | cluetrust cartomobile config | c11amc | application/vnd.cluetrust.cartomobile-config |
+| Httpd | 193878515 | sdp | sdp | application/sdp |
+| Httpd | 197220275 | android package archive | apk | application/vnd.android.package-archive |
+| Httpd | 209994165 | set registration initiation | setreg | application/set-registration-initiation |
+| Httpd | 210535888 | ms word document macroenabled 12 | docm | application/vnd.ms-word.document.macroenabled.12 |
+| Httpd | 210553567 | oasis opendocument presentation template | otp | application/vnd.oasis.opendocument.presentation-template |
+| Httpd | 210859652 | fuzzysheet | fzs | application/vnd.fuzzysheet |
+| Httpd | 212159430 | mac compactpro | cpt | application/mac-compactpro |
+| Httpd | 213517500 | mophun certificate | mpc | application/vnd.mophun.certificate |
+| Httpd | 214394448 | wap wmlscript | wmls | text/vnd.wap.wmlscript |
+| Httpd | 223476613 | yellowriver custom menu | cmp | application/vnd.yellowriver-custom-menu |
+| Httpd | 242606803 | 7z compressed | 7z | application/x-7z-compressed |
+| Httpd | 251540190 | intercon formnet | xpw, xpx | application/vnd.intercon.formnet |
+| Httpd | 268653089 | oasis opendocument text web | oth | application/vnd.oasis.opendocument.text-web |
+| Httpd | 272313846 | ms artgalry | cil | application/vnd.ms-artgalry |
+| Httpd | 282299330 | msterminal | trm | application/x-msterminal |
+| Httpd | 285666980 | glulx | ulx | application/x-glulx |
+| Httpd | 290087393 | fujixerox docuworks | xdw | application/vnd.fujixerox.docuworks |
+| Httpd | 305021456 | novadigm edx | edx | application/vnd.novadigm.edx |
+| Httpd | 307400137 | igloader | igl | application/vnd.igloader |
+| Httpd | 310539211 | ogg | oga, ogg, spx, opus | audio/ogg |
+| Httpd | 315120870 | geogebra tool | ggt | application/vnd.geogebra.tool |
+| Httpd | 320003511 | pn realaudio plugin | rmp | audio/x-pn-realaudio-plugin |
+| Httpd | 320775819 | openxmlformats officedocument presentationml slide | sldx | application/vnd.openxmlformats-officedocument.presentationml.slide |
+| Httpd | 335161041 | hydrostatix sof data | sfd-hdstx | application/vnd.hydrostatix.sof-data |
+| Httpd | 341496207 | ecmascript | ecma | application/ecmascript |
+| Httpd | 348215381 | kde kchart | chrt | application/vnd.kde.kchart |
+| Httpd | 350150928 | xspf xml | xspf | application/xspf+xml |
+| Httpd | 354700864 | mpegurl | m3u | audio/x-mpegurl |
+| Httpd | 354905259 | sbml xml | sbml | application/sbml+xml |
+| Httpd | 359796587 | noblenet sealer | nns | application/vnd.noblenet-sealer |
+| Httpd | 361957890 | syncml dm wbxml | bdm | application/vnd.syncml.dm+wbxml |
+| Httpd | 364278260 | xfig | fig | application/x-xfig |
+| Httpd | 371549797 | dece video | uvv, uvvv | video/vnd.dece.video |
+| Httpd | 372858196 | shf xml | shf | application/shf+xml |
+| Httpd | 376588493 | rpki ghostbusters | gbr | application/rpki-ghostbusters |
+| Httpd | 391104858 | reginfo xml | rif | application/reginfo+xml |
+| Httpd | 393446519 | cdx | cdx | chemical/x-cdx |
+| Httpd | 396796185 | gtar | gtar | application/x-gtar |
+| Httpd | 398048020 | pocketlearn | plf | application/vnd.pocketlearn |
+| Httpd | 399630772 | ezpix package | ez3 | application/vnd.ezpix-package |
+| Httpd | 400689417 | csv | csv | text/csv |
+| Httpd | 407511840 | mscardfile | crd | application/x-mscardfile |
+| Httpd | 423816041 | wspolicy xml | wspolicy | application/wspolicy+xml |
+| Httpd | 426516203 | semd | semd | application/vnd.semd |
+| Httpd | 427393356 | unity | unityweb | application/vnd.unity |
+| Httpd | 430685397 | apple diskimage | dmg | application/x-apple-diskimage |
+| Httpd | 437539308 | cfs compressed | cfs | application/x-cfs-compressed |
+| Httpd | 440186036 | wap wbmp | wbmp | image/vnd.wap.wbmp |
+| Httpd | 446836469 | wap wbxml | wbxml | application/vnd.wap.wbxml |
+| Httpd | 447538554 | ms wmv | wmv | video/x-ms-wmv |
+| Httpd | 454801860 | fst | fst | image/vnd.fst |
+| Httpd | 482269533 | uoml xml | uoml | application/vnd.uoml+xml |
+| Httpd | 482286266 | marcxml xml | mrcx | application/marcxml+xml |
+| Httpd | 483127336 | mpeg | mpga, mp2, mp2a, mp3, m2a, m3a | audio/mpeg |
+| Httpd | 484148083 | muvee style | msty | application/vnd.muvee.style |
+| Httpd | 496402490 | dece audio | uva, uvva | audio/vnd.dece.audio |
+| Httpd | 501733551 | svd | svd | application/vnd.svd |
+| Httpd | 503630353 | mp21 | m21, mp21 | application/mp21 |
+| Httpd | 509235866 | ms wpl | wpl | application/vnd.ms-wpl |
+| Httpd | 511568138 | geogebra file | ggb | application/vnd.geogebra.file |
+| Httpd | 513487635 | n3 | n3 | text/n3 |
+| Httpd | 520871466 | pkix cert | cer | application/pkix-cert |
+| Httpd | 527928029 | java archive | jar | application/java-archive |
+| Httpd | 533608977 | patch ops error xml | xer | application/patch-ops-error+xml |
+| Httpd | 542051880 | zmachine | z1, z2, z3, z4, z5, z6, z7, z8 | application/x-zmachine |
+| Httpd | 545120659 | dts | dts | audio/vnd.dts |
+| Httpd | 562877733 | rn realmedia vbr | rmvb | application/vnd.rn-realmedia-vbr |
+| Httpd | 565406949 | intergeo | i2g | application/vnd.intergeo |
+| Httpd | 571581390 | accpac simply imp | imp | application/vnd.accpac.simply.imp |
+| Httpd | 584817838 | docbook xml | dbk | application/docbook+xml |
+| Httpd | 587817678 | nfo | nfo | text/x-nfo |
+| Httpd | 591863795 | openxmlformats officedocument presentationml template | potx | application/vnd.openxmlformats-officedocument.presentationml.template |
+| Httpd | 597049660 | srgs xml | grxml | application/srgs+xml |
+| Httpd | 597935329 | ds keypoint | kpxx | application/vnd.ds-keypoint |
+| Httpd | 602521492 | tei xml | tei, teicorpus | application/tei+xml |
+| Httpd | 611935444 | pascal | p, pas | text/x-pascal |
+| Httpd | 617077046 | ms htmlhelp | chm | application/vnd.ms-htmlhelp |
+| Httpd | 628719206 | tiff | tiff, tif | image/tiff |
+| Httpd | 629337191 | aac | aac | audio/x-aac |
+| Httpd | 632170566 | handheld entertainment xml | zmm | application/vnd.handheld-entertainment+xml |
+| Httpd | 634751045 | cosmocaller | cmc | application/vnd.cosmocaller |
+| Httpd | 649945256 | frogans ltf | ltf | application/vnd.frogans.ltf |
+| Httpd | 658956131 | sun xml impress template | sti | application/vnd.sun.xml.impress.template |
+| Httpd | 664677117 | nokia radio preset | rpst | application/vnd.nokia.radio-preset |
+| Httpd | 664873587 | x3d vrml | x3dv, x3dvz | model/x3d+vrml |
+| Httpd | 668848572 | fujitsu oasys3 | oa3 | application/vnd.fujitsu.oasys3 |
+| Httpd | 670748266 | ttf | ttf | font/ttf |
+| Httpd | 673108048 | cdmi domain | cdmid | application/cdmi-domain |
+| Httpd | 676218789 | dgc compressed | dgc | application/x-dgc-compressed |
+| Httpd | 676611139 | vcard | vcf | text/x-vcard |
+| Httpd | 680212271 | fujixerox edmics rlc | rlc | image/vnd.fujixerox.edmics-rlc |
+| Httpd | 694995663 | cooltalk | ice | x-conference/x-cooltalk |
+| Httpd | 705666219 | midi | mid, midi, kar, rmi | audio/midi |
+| Httpd | 719940166 | is xpr | xpr | application/vnd.is-xpr |
+| Httpd | 721217963 | neurolanguage nlu | nlu | application/vnd.neurolanguage.nlu |
+| Httpd | 723583282 | cdmi object | cdmio | application/cdmi-object |
+| Httpd | 724129270 | h264 | h264 | video/h264 |
+| Httpd | 733753614 | trid tpt | tpt | application/vnd.trid.tpt |
+| Httpd | 744148218 | sql | sql | application/x-sql |
+| Httpd | 747456878 | macports portpkg | portpkg | application/vnd.macports.portpkg |
+| Httpd | 747778669 | visionary | vis | application/vnd.visionary |
+| Httpd | 766797499 | ufdl | ufd, ufdl | application/vnd.ufdl |
+| Httpd | 783851439 | uri list | uri, uris, urls | text/uri-list |
+| Httpd | 783873104 | opml | opml | text/x-opml |
+| Httpd | 791486801 | exi | exi | application/exi |
+| Httpd | 792947184 | vrml | wrl, vrml | model/vrml |
+| Httpd | 794273739 | curl scurl | scurl | text/vnd.curl.scurl |
+| Httpd | 794680800 | applixware | aw | application/applixware |
+| Httpd | 803759576 | mozilla xul xml | xul | application/vnd.mozilla.xul+xml |
+| Httpd | 812449347 | yamaha openscoreformat osfpvg xml | osfpvg | application/vnd.yamaha.openscoreformat.osfpvg+xml |
+| Httpd | 814842370 | yamaha smaf phrase | spf | application/vnd.yamaha.smaf-phrase |
+| Httpd | 819675943 | research info systems | ris | application/x-research-info-systems |
+| Httpd | 820780064 | kenameaapp | htke | application/vnd.kenameaapp |
+| Httpd | 825782436 | wasm | wasm | application/wasm |
+| Httpd | 827296418 | jxl | jxl | image/jxl |
+| Httpd | 835049151 | ms powerpoint slideshow macroenabled 12 | ppsm | application/vnd.ms-powerpoint.slideshow.macroenabled.12 |
+| Httpd | 835573590 | yamaha hv voice | hvp | application/vnd.yamaha.hv-voice |
+| Httpd | 843590016 | openxmlformats officedocument wordprocessingml document | docx | application/vnd.openxmlformats-officedocument.wordprocessingml.document |
+| Httpd | 855119395 | uiq theme | utz | application/vnd.uiq.theme |
+| Httpd | 863330050 | hdf | hdf | application/x-hdf |
+| Httpd | 863547179 | xml dtd | dtd | application/xml-dtd |
+| Httpd | 868618244 | ahead space | ahead | application/vnd.ahead.space |
+| Httpd | 869924777 | xwindowdump | xwd | image/x-xwindowdump |
+| Httpd | 880816037 | cmu raster | ras | image/x-cmu-raster |
+| Httpd | 886513491 | emma xml | emma | application/emma+xml |
+| Httpd | 890364460 | wais source | src | application/x-wais-source |
+| Httpd | 910732762 | kidspiration | kia | application/vnd.kidspiration |
+| Httpd | 912310627 | cmdf | cmdf | chemical/x-cmdf |
+| Httpd | 913317735 | doom | wad | application/x-doom |
+| Httpd | 914146169 | seemail | see | application/vnd.seemail |
+| Httpd | 915515483 | html | html, htm | text/html |
+| Httpd | 920090340 | tads | gam | application/x-tads |
+| Httpd | 921628903 | ms works | wps, wks, wcm, wdb | application/vnd.ms-works |
+| Httpd | 929475271 | sun xml impress | sxi | application/vnd.sun.xml.impress |
+| Httpd | 930058366 | in3d spot | spot | text/vnd.in3d.spot |
+| Httpd | 930957075 | mynfc | taglet | application/vnd.mynfc |
+| Httpd | 939688699 | ogg | ogv | video/ogg |
+| Httpd | 940373278 | cgm | cgm | image/cgm |
+| Httpd | 941850155 | eva | eva | application/x-eva |
+| Httpd | 942105561 | rpki manifest | mft | application/rpki-manifest |
+| Httpd | 946188106 | vcalendar | vcs | text/x-vcalendar |
+| Httpd | 948240628 | mpeg | mpeg, mpg, mpe, m1v, m2v | video/mpeg |
+| Httpd | 958964055 | bzip | bz | application/x-bzip |
+| Httpd | 960802919 | xara | xar | application/vnd.xara |
+| Httpd | 964127301 | pskc xml | pskcxml | application/pskc+xml |
+| Httpd | 970323759 | debian package | deb, udeb | application/x-debian-package |
+| Httpd | 981279644 | dvb ait | ait | application/vnd.dvb.ait |
+| Httpd | 982843725 | rdf xml | rdf | application/rdf+xml |
+| Httpd | 993720141 | dvb subtitle | sub | text/vnd.dvb.subtitle |
+| Httpd | 994343837 | rn realmedia | rm | application/vnd.rn-realmedia |
+| Httpd | 996033646 | mseq | mseq | application/vnd.mseq |
+| Httpd | 1003190918 | medcalcdata | mc1 | application/vnd.medcalcdata |
+| Httpd | 1005760972 | epson msf | msf | application/vnd.epson.msf |
+| Httpd | 1016595786 | inkml xml | ink, inkml | application/inkml+xml |
+| Httpd | 1048917476 | xcap diff xml | xdf | application/xcap-diff+xml |
+| Httpd | 1049248689 | dece hd | uvh, uvvh | video/vnd.dece.hd |
+| Httpd | 1049349370 | atomsvc xml | atomsvc | application/atomsvc+xml |
+| Httpd | 1050342415 | vcard | vcard | text/vcard |
+| Httpd | 1051507719 | flv | flv | video/x-flv |
+| Httpd | 1063909402 | criticaltools wbs xml | wbs | application/vnd.criticaltools.wbs+xml |
+| Httpd | 1065388935 | x3d binary | x3db, x3dbz | model/x3d+binary |
+| Httpd | 1071533059 | stepmania package | smzip | application/vnd.stepmania.package |
+| Httpd | 1071869234 | relax ng compact syntax | rnc | application/relax-ng-compact-syntax |
+| Httpd | 1075391890 | ezpix album | ez2 | application/vnd.ezpix-album |
+| Httpd | 1078078001 | groove help | ghf | application/vnd.groove-help |
+| Httpd | 1089237792 | postscript | ai, eps, ps | application/postscript |
+| Httpd | 1091992668 | nuera ecelp9600 | ecelp9600 | audio/vnd.nuera.ecelp9600 |
+| Httpd | 1102824002 | vivo | viv | video/vnd.vivo |
+| Httpd | 1104754408 | xproc xml | xpl | application/xproc+xml |
+| Httpd | 1107365668 | oasis opendocument spreadsheet | ods | application/vnd.oasis.opendocument.spreadsheet |
+| Httpd | 1113256257 | sgml | sgml, sgm | text/sgml |
+| Httpd | 1122188876 | dra | dra | audio/vnd.dra |
+| Httpd | 1125535160 | xbitmap | xbm | image/x-xbitmap |
+| Httpd | 1125684053 | resource lists diff xml | rld | application/resource-lists-diff+xml |
+| Httpd | 1125893206 | ms xbap | xbap | application/x-ms-xbap |
+| Httpd | 1126349986 | pcx | pcx | image/x-pcx |
+| Httpd | 1128718114 | mobius plc | plc | application/vnd.mobius.plc |
+| Httpd | 1128848340 | adpcm | adp | audio/adpcm |
+| Httpd | 1135062890 | bzip2 | bz2, boz | application/x-bzip2 |
+| Httpd | 1142814227 | crick clicker palette | clkp | application/vnd.crick.clicker.palette |
+| Httpd | 1151597811 | ktx | ktx | image/ktx |
+| Httpd | 1151772352 | install instructions | install | application/x-install-instructions |
+| Httpd | 1154399013 | onenote | onetoc, onetoc2, onetmp, onepkg | application/onenote |
+| Httpd | 1161045142 | yang | yang | application/yang |
+| Httpd | 1162325134 | java serialized object | ser | application/java-serialized-object |
+| Httpd | 1172685037 | sv4cpio | sv4cpio | application/x-sv4cpio |
+| Httpd | 1173754933 | adobe xfdf | xfdf | application/vnd.adobe.xfdf |
+| Httpd | 1184282371 | ccxml xml | ccxml | application/ccxml+xml |
+| Httpd | 1185389084 | spotfire dxp | dxp | application/vnd.spotfire.dxp |
+| Httpd | 1195271443 | ms modi | mdi | image/vnd.ms-modi |
+| Httpd | 1204394635 | ms fontobject | eot | application/vnd.ms-fontobject |
+| Httpd | 1211430670 | oasis opendocument text | odt | application/vnd.oasis.opendocument.text |
+| Httpd | 1215761775 | 3gpp pic bw large | plb | application/vnd.3gpp.pic-bw-large |
+| Httpd | 1218352227 | realvnc bed | bed | application/vnd.realvnc.bed |
+| Httpd | 1219453126 | dart | dart | application/vnd.dart |
+| Httpd | 1220007935 | richtext | rtx | text/richtext |
+| Httpd | 1222670581 | dece sd | uvs, uvvs | video/vnd.dece.sd |
+| Httpd | 1223779917 | smil xml | smi, smil | application/smil+xml |
+| Httpd | 1229145838 | amiga ami | ami | application/vnd.amiga.ami |
+| Httpd | 1235227822 | 3gpp2 tcap | tcap | application/vnd.3gpp2.tcap |
+| Httpd | 1236131182 | joost joda archive | joda | application/vnd.joost.joda-archive |
+| Httpd | 1246631980 | fdsn seed | seed, dataless | application/vnd.fdsn.seed |
+| Httpd | 1249998770 | flac | flac | audio/x-flac |
+| Httpd | 1250972188 | scvp vp response | spp | application/scvp-vp-response |
+| Httpd | 1251073663 | nitf | ntf, nitf | application/vnd.nitf |
+| Httpd | 1252036055 | ms word template macroenabled 12 | dotm | application/vnd.ms-word.template.macroenabled.12 |
+| Httpd | 1255195553 | 3gpp | 3gp | video/3gpp |
+| Httpd | 1261369801 | ogg | ogx | application/ogg |
+| Httpd | 1270605119 | stepmania stepchart | sm | application/vnd.stepmania.stepchart |
+| Httpd | 1291751644 | fujixerox docuworks binder | xbd | application/vnd.fujixerox.docuworks.binder |
+| Httpd | 1292606152 | texinfo | texinfo, texi | application/x-texinfo |
+| Httpd | 1298535354 | jcp javame midlet rms | rms | application/vnd.jcp.javame.midlet-rms |
+| Httpd | 1308395743 | basic | au, snd | audio/basic |
+| Httpd | 1314711206 | pvi ptid1 | ptid | application/vnd.pvi.ptid1 |
+| Httpd | 1317871171 | fmi flexstor | flx | text/vnd.fmi.flexstor |
+| Httpd | 1319735287 | sparql results xml | srx | application/sparql-results+xml |
+| Httpd | 1320060169 | bittorrent | torrent | application/x-bittorrent |
+| Httpd | 1322499123 | xenc xml | xenc | application/xenc+xml |
+| Httpd | 1322610248 | fortran | f, for, f77, f90 | text/x-fortran |
+| Httpd | 1329015423 | ipfix | ipfix | application/ipfix |
+| Httpd | 1335481394 | noblenet directory | nnd | application/vnd.noblenet-directory |
+| Httpd | 1349874601 | ecowin chart | mag | application/vnd.ecowin.chart |
+| Httpd | 1353407983 | wap wml | wml | text/vnd.wap.wml |
+| Httpd | 1359614180 | gdl | gdl | model/vnd.gdl |
+| Httpd | 1368694713 | msword | doc, dot | application/msword |
+| Httpd | 1375183586 | rim cod | cod | application/vnd.rim.cod |
+| Httpd | 1389473401 | kde kpresenter | kpr, kpt | application/vnd.kde.kpresenter |
+| Httpd | 1396309803 | hhe lesson player | les | application/vnd.hhe.lesson-player |
+| Httpd | 1397586722 | frogans fnc | fnc | application/vnd.frogans.fnc |
+| Httpd | 1400753887 | css | css | text/css |
+| Httpd | 1403183265 | americandynamics acc | acc | application/vnd.americandynamics.acc |
+| Httpd | 1407101828 | dece data | uvf, uvvf, uvd, uvvd | application/vnd.dece.data |
+| Httpd | 1414196563 | zip | zip | application/zip |
+| Httpd | 1414658833 | blorb | blb, blorb | application/x-blorb |
+| Httpd | 1415644375 | stardivision writer | sdw, vor | application/vnd.stardivision.writer |
+| Httpd | 1422188388 | dolby mlp | mlp | application/vnd.dolby.mlp |
+| Httpd | 1432736077 | matroska | mka | audio/x-matroska |
+| Httpd | 1435102575 | yamaha hv dic | hvd | application/vnd.yamaha.hv-dic |
+| Httpd | 1439758621 | m4v | m4v | video/x-m4v |
+| Httpd | 1441612472 | eszigno3 xml | es3, et3 | application/vnd.eszigno3+xml |
+| Httpd | 1451282716 | stardivision writer global | sgl | application/vnd.stardivision.writer-global |
+| Httpd | 1452506864 | stardivision math | smf | application/vnd.stardivision.math |
+| Httpd | 1462109934 | mbox | mbox | application/mbox |
+| Httpd | 1476854186 | ms powerpoint template macroenabled 12 | potm | application/vnd.ms-powerpoint.template.macroenabled.12 |
+| Httpd | 1485532216 | prs cww | cww | application/prs.cww |
+| Httpd | 1487990135 | ms wmd | wmd | application/x-ms-wmd |
+| Httpd | 1491964560 | nzb | nzb | application/x-nzb |
+| Httpd | 1504920749 | google earth kml xml | kml | application/vnd.google-earth.kml+xml |
+| Httpd | 1505034774 | micrografx flo | flo | application/vnd.micrografx.flo |
+| Httpd | 1541256077 | mobipocket ebook | prc, mobi | application/x-mobipocket-ebook |
+| Httpd | 1541299051 | oasis opendocument image template | oti | application/vnd.oasis.opendocument.image-template |
+| Httpd | 1550746427 | pkixcmp | pki | application/pkixcmp |
+| Httpd | 1561541638 | in3d 3dml | 3dml | text/vnd.in3d.3dml |
+| Httpd | 1561622257 | msaccess | mdb | application/x-msaccess |
+| Httpd | 1568461348 | data vision rdz | rdz | application/vnd.data-vision.rdz |
+| Httpd | 1568676772 | aiff | aif, aiff, aifc | audio/x-aiff |
+| Httpd | 1583301881 | intu qfx | qfx | application/vnd.intu.qfx |
+| Httpd | 1586807912 | msmediaview | mvb, m13, m14 | application/x-msmediaview |
+| Httpd | 1593720423 | koan | skp, skd, skt, skm | application/vnd.koan |
+| Httpd | 1598516405 | xop xml | xop | application/xop+xml |
+| Httpd | 1603773142 | tex | tex | application/x-tex |
+| Httpd | 1616122750 | pkcs10 | p10 | application/pkcs10 |
+| Httpd | 1623729236 | lotus 1 2 3 | 123 | application/vnd.lotus-1-2-3 |
+| Httpd | 1624322153 | ibm modcap | afp, listafp, list3820 | application/vnd.ibm.modcap |
+| Httpd | 1626546553 | isac fcs | fcs | application/vnd.isac.fcs |
+| Httpd | 1638625101 | netcdf | nc, cdf | application/x-netcdf |
+| Httpd | 1642758992 | flographit | gph | application/vnd.flographit |
+| Httpd | 1648625350 | sailingtracker track | st | application/vnd.sailingtracker.track |
+| Httpd | 1650765870 | mfmp | mfm | application/vnd.mfmp |
+| Httpd | 1661538476 | crick clicker keyboard | clkk | application/vnd.crick.clicker.keyboard |
+| Httpd | 1662455691 | gpx xml | gpx | application/gpx+xml |
+| Httpd | 1670429068 | iges | igs, iges | model/iges |
+| Httpd | 1674336038 | ms excel sheet binary macroenabled 12 | xlsb | application/vnd.ms-excel.sheet.binary.macroenabled.12 |
+| Httpd | 1675515245 | blueice multipass | mpm | application/vnd.blueice.multipass |
+| Httpd | 1685005414 | tab separated values | tsv | text/tab-separated-values |
+| Httpd | 1687570688 | mp4 | mp4, mp4v, mpg4 | video/mp4 |
+| Httpd | 1692368822 | genomatix tuxedo | txd | application/vnd.genomatix.tuxedo |
+| Httpd | 1698227038 | ms excel addin macroenabled 12 | xlam | application/vnd.ms-excel.addin.macroenabled.12 |
+| Httpd | 1702047748 | las las xml | lasxml | application/vnd.las.las+xml |
+| Httpd | 1718066417 | fli | fli | video/x-fli |
+| Httpd | 1721268295 | metalink4 xml | meta4 | application/metalink4+xml |
+| Httpd | 1722242485 | google earth kmz | kmz | application/vnd.google-earth.kmz |
+| Httpd | 1722616698 | ms shortcut | lnk | application/x-ms-shortcut |
+| Httpd | 1724364107 | hp pcl | pcl | application/vnd.hp-pcl |
+| Httpd | 1724508731 | sun j2me app descriptor | jad | text/vnd.sun.j2me.app-descriptor |
+| Httpd | 1727175336 | dts hd | dtshd | audio/vnd.dts.hd |
+| Httpd | 1731853783 | setext | etx | text/x-setext |
+| Httpd | 1747625988 | set payment initiation | setpay | application/set-payment-initiation |
+| Httpd | 1764878474 | dwf | dwf | model/vnd.dwf |
+| Httpd | 1785152264 | ctc posml | pml | application/vnd.ctc-posml |
+| Httpd | 1792524990 | antix game component | atx | application/vnd.antix.game-component |
+| Httpd | 1799191154 | oda | oda | application/oda |
+| Httpd | 1804860659 | ms cab compressed | cab | application/vnd.ms-cab-compressed |
+| Httpd | 1805401446 | authorware map | aam | application/x-authorware-map |
+| Httpd | 1808585833 | ms powerpoint addin macroenabled 12 | ppam | application/vnd.ms-powerpoint.addin.macroenabled.12 |
+| Httpd | 1812167907 | bcpio | bcpio | application/x-bcpio |
+| Httpd | 1813270382 | xslt xml | xslt | application/xslt+xml |
+| Httpd | 1814942741 | ms powerpoint slide macroenabled 12 | sldm | application/vnd.ms-powerpoint.slide.macroenabled.12 |
+| Httpd | 1816229410 | ms photo | wdp | image/vnd.ms-photo |
+| Httpd | 1825399547 | mj2 | mj2, mjp2 | video/mj2 |
+| Httpd | 1841200561 | sru xml | sru | application/sru+xml |
+| Httpd | 1850889667 | freearc | arc | application/x-freearc |
+| Httpd | 1875755222 | h263 | h263 | video/h263 |
+| Httpd | 1884683619 | pgp signature | asc, sig | application/pgp-signature |
+| Httpd | 1899213058 | mobius daf | daf | application/vnd.mobius.daf |
+| Httpd | 1934041989 | ms xpsdocument | xps | application/vnd.ms-xpsdocument |
+| Httpd | 1936666943 | kodak descriptor | sse | application/vnd.kodak-descriptor |
+| Httpd | 1938163232 | zul | zir, zirz | application/vnd.zul |
+| Httpd | 1943386155 | tmobile livetv | tmo | application/vnd.tmobile-livetv |
+| Httpd | 1945973476 | cif | cif | chemical/x-cif |
+| Httpd | 1946098896 | yamaha hv script | hvs | application/vnd.yamaha.hv-script |
+| Httpd | 1968309032 | recordare musicxml | mxl | application/vnd.recordare.musicxml |
+| Httpd | 1979343886 | mp4 | mp4s | application/mp4 |
+| Httpd | 1993520449 | sgi | sgi | image/sgi |
+| Httpd | 2009488547 | sparql query | rq | application/sparql-query |
+| Httpd | 2018063706 | stardivision calc | sdc | application/vnd.stardivision.calc |
+| Httpd | 2021704365 | smv | smv | video/x-smv |
+| Httpd | 2022828087 | framemaker | fm, frame, maker, book | application/vnd.framemaker |
+| Httpd | 2030495307 | apple installer xml | mpkg | application/vnd.apple.installer+xml |
+| Httpd | 2035115041 | cdmi container | cdmic | application/cdmi-container |
+| Httpd | 2057474973 | g3fax | g3 | image/g3fax |
+| Httpd | 2063648569 | groove tool template | tpl | application/vnd.groove-tool-template |
+| Httpd | 2066627270 | mif | mif | application/vnd.mif |
+| Httpd | 2066780158 | cml | cml | chemical/x-cml |
+| Httpd | 2070717028 | javascript | js, mjs | text/javascript |
+| Httpd | 2074214691 | rtf | rtf | application/rtf |
+| Httpd | 2079453055 | tex tfm | tfm | application/x-tex-tfm |
+| Httpd | 2087793084 | vtu | vtu | model/vnd.vtu |
+| Httpd | 2104699429 | font bdf | bdf | application/x-font-bdf |
+| Httpd | 2109898018 | woff2 | woff2 | font/woff2 |
+| Httpd | 2118978808 | syncml dm xml | xdm | application/vnd.syncml.dm+xml |
+| Httpd | 2125042282 | ibm rights management | irm | application/vnd.ibm.rights-management |
+| Httpd | 2126098822 | omdoc xml | omdoc | application/omdoc+xml |
+| Httpd | 2126647565 | xiff | xif | image/vnd.xiff |
+| Httpd | 2132147605 | webm | webm | video/webm |
+| Httpd | 2134164112 | ms application | application | application/x-ms-application |
+| Httpd | 2150627582 | resource lists xml | rl | application/resource-lists+xml |
+| Httpd | 2162195667 | cpio | cpio | application/x-cpio |
+| Httpd | 2165814283 | novadigm ext | ext | application/vnd.novadigm.ext |
+| Httpd | 2167893303 | pkix pkipath | pkipath | application/pkix-pkipath |
+| Httpd | 2179273523 | hal xml | hal | application/vnd.hal+xml |
+| Httpd | 2182987234 | json | json | application/json |
+| Httpd | 2188619739 | noblenet web | nnw | application/vnd.noblenet-web |
+| Httpd | 2190611199 | intu qbo | qbo | application/vnd.intu.qbo |
+| Httpd | 2190910405 | pawaafile | paw | application/vnd.pawaafile |
+| Httpd | 2191419818 | sun xml writer global | sxg | application/vnd.sun.xml.writer.global |
+| Httpd | 2198329675 | caf | caf | audio/x-caf |
+| Httpd | 2208184241 | rsd xml | rsd | application/rsd+xml |
+| Httpd | 2212794734 | rig cryptonote | cryptonote | application/vnd.rig.cryptonote |
+| Httpd | 2213303567 | openxmlformats officedocument spreadsheetml template | xltx | application/vnd.openxmlformats-officedocument.spreadsheetml.template |
+| Httpd | 2215690392 | widget | wgt | application/widget |
+| Httpd | 2230729471 | grafeq | gqf, gqs | application/vnd.grafeq |
+| Httpd | 2231888978 | gca compressed | gca | application/x-gca-compressed |
+| Httpd | 2233227456 | fdsn mseed | mseed | application/vnd.fdsn.mseed |
+| Httpd | 2238037173 | wsdl xml | wsdl | application/wsdl+xml |
+| Httpd | 2248450100 | 3m post it notes | pwn | application/vnd.3m.post-it-notes |
+| Httpd | 2250922050 | fpx | fpx | image/vnd.fpx |
+| Httpd | 2252083475 | musician | mus | application/vnd.musician |
+| Httpd | 2259465493 | tgif | obj | application/x-tgif |
+| Httpd | 2265180570 | wap wmlc | wmlc | application/vnd.wap.wmlc |
+| Httpd | 2269607461 | fujixerox ddd | ddd | application/vnd.fujixerox.ddd |
+| Httpd | 2271124225 | rar compressed | rar | application/x-rar-compressed |
+| Httpd | 2272512056 | hyperstudio | stk | application/hyperstudio |
+| Httpd | 2276843213 | authorware bin | aab, x32, u32, vox | application/x-authorware-bin |
+| Httpd | 2280676910 | publishare delta tree | qps | application/vnd.publishare-delta-tree |
+| Httpd | 2283615656 | nuera ecelp4800 | ecelp4800 | audio/vnd.nuera.ecelp4800 |
+| Httpd | 2288395329 | curl | curl | text/vnd.curl |
+| Httpd | 2290373666 | dtbncx xml | ncx | application/x-dtbncx+xml |
+| Httpd | 2296385429 | irepository package xml | irp | application/vnd.irepository.package+xml |
+| Httpd | 2306433952 | mobius dis | dis | application/vnd.mobius.dis |
+| Httpd | 2317675339 | oasis opendocument chart template | otc | application/vnd.oasis.opendocument.chart-template |
+| Httpd | 2321142532 | dreamfactory | dfac | application/vnd.dreamfactory |
+| Httpd | 2325964356 | c | c, cc, cxx, cpp, h, hh, dic | text/x-c |
+| Httpd | 2331665439 | sun xml draw template | std | application/vnd.sun.xml.draw.template |
+| Httpd | 2342890306 | picsel | efif | application/vnd.picsel |
+| Httpd | 2346625709 | geonext | gxt | application/vnd.geonext |
+| Httpd | 2349685866 | groove account | gac | application/vnd.groove-account |
+| Httpd | 2363579130 | dwg | dwg | image/vnd.dwg |
+| Httpd | 2372650813 | cdmi capability | cdmia | application/cdmi-capability |
+| Httpd | 2373428654 | xfdl | xfdl | application/vnd.xfdl |
+| Httpd | 2378692085 | mspublisher | pub | application/x-mspublisher |
+| Httpd | 2383649697 | tcl | tcl | application/x-tcl |
+| Httpd | 2388933680 | t3vm image | t3 | application/x-t3vm-image |
+| Httpd | 2388934914 | cbr | cbr, cba, cbt, cbz, cb7 | application/x-cbr |
+| Httpd | 2395536891 | ms ims | ims | application/vnd.ms-ims |
+| Httpd | 2401825161 | avif | avif | image/avif |
+| Httpd | 2407196801 | metalink xml | metalink | application/metalink+xml |
+| Httpd | 2413884375 | uvvu mp4 | uvu, uvvu | video/vnd.uvvu.mp4 |
+| Httpd | 2426304290 | nokia n gage data | ngdat | application/vnd.nokia.n-gage.data |
+| Httpd | 2429679128 | mcd | mcd | application/vnd.mcd |
+| Httpd | 2430076316 | fujitsu oasys | oas | application/vnd.fujitsu.oasys |
+| Httpd | 2434472940 | airzip filesecure azf | azf | application/vnd.airzip.filesecure.azf |
+| Httpd | 2437831108 | kde karbon | karbon | application/vnd.kde.karbon |
+| Httpd | 2449335360 | kinar | kne, knp | application/vnd.kinar |
+| Httpd | 2452209651 | geospace | g3w | application/vnd.geospace |
+| Httpd | 2462859933 | ms pki seccat | cat | application/vnd.ms-pki.seccat |
+| Httpd | 2464609837 | rip | rip | audio/vnd.rip |
+| Httpd | 2472612683 | accpac simply aso | aso | application/vnd.accpac.simply.aso |
+| Httpd | 2477907789 | lotus notes | nsf | application/vnd.lotus-notes |
+| Httpd | 2480051928 | ms wvx | wvx | video/x-ms-wvx |
+| Httpd | 2487060900 | shar | shar | application/x-shar |
+| Httpd | 2490457406 | font linux psf | psf | application/x-font-linux-psf |
+| Httpd | 2495353376 | oasis opendocument text master | odm | application/vnd.oasis.opendocument.text-master |
+| Httpd | 2500122023 | otf | otf | font/otf |
+| Httpd | 2503612014 | mobius msl | msl | application/vnd.mobius.msl |
+| Httpd | 2511595652 | mie | mie | application/x-mie |
+| Httpd | 2515690866 | olpc sugar | xo | application/vnd.olpc-sugar |
+| Httpd | 2517232495 | fsc weblaunch | fsc | application/vnd.fsc.weblaunch |
+| Httpd | 2518261554 | f4v | f4v | video/x-f4v |
+| Httpd | 2522134023 | pics rules | prf | application/pics-rules |
+| Httpd | 2530088001 | voicexml xml | vxml | application/voicexml+xml |
+| Httpd | 2539465323 | png | png | image/png |
+| Httpd | 2549361154 | authorware seg | aas | application/x-authorware-seg |
+| Httpd | 2551238913 | prs btif | btif | image/prs.btif |
+| Httpd | 2559453962 | calendar | ics, ifb | text/calendar |
+| Httpd | 2559689858 | fujitsu oasysgp | fg5 | application/vnd.fujitsu.oasysgp |
+| Httpd | 2560071141 | yin xml | yin | application/yin+xml |
+| Httpd | 2560879221 | kde kspread | ksp | application/vnd.kde.kspread |
+| Httpd | 2565652218 | previewsystems box | box | application/vnd.previewsystems.box |
+| Httpd | 2570068954 | pg format | str | application/vnd.pg.format |
+| Httpd | 2572352895 | freehand | fh, fhc, fh4, fh5, fh7 | image/x-freehand |
+| Httpd | 2572911062 | kde kivio | flw | application/vnd.kde.kivio |
+| Httpd | 2578533012 | kde kontour | kon | application/vnd.kde.kontour |
+| Httpd | 2586104738 | dece ttml xml | uvt, uvvt | application/vnd.dece.ttml+xml |
+| Httpd | 2590679499 | xm | xm | audio/xm |
+| Httpd | 2593032692 | sun xml calc template | stc | application/vnd.sun.xml.calc.template |
+| Httpd | 2595581998 | ms wax | wax | audio/x-ms-wax |
+| Httpd | 2596484608 | 3ds | 3ds | image/x-3ds |
+| Httpd | 2596531980 | rgb | rgb | image/x-rgb |
+| Httpd | 2620857507 | matroska | mkv, mk3d, mks | video/x-matroska |
+| Httpd | 2625552424 | wolfram player | nbp | application/vnd.wolfram.player |
+| Httpd | 2626880621 | fluxtime clip | ftc | application/vnd.fluxtime.clip |
+| Httpd | 2638993316 | hp hpid | hpid | application/vnd.hp-hpid |
+| Httpd | 2645641524 | mxf | mxf | application/mxf |
+| Httpd | 2652912783 | jsonml json | jsonml | application/jsonml+json |
+| Httpd | 2657255065 | icon | ico | image/x-icon |
+| Httpd | 2662883759 | adobe photoshop | psd | image/vnd.adobe.photoshop |
+| Httpd | 2671377131 | smart teacher | teacher | application/vnd.smart.teacher |
+| Httpd | 2677900451 | acucorp | atc, acutc | application/vnd.acucorp |
+| Httpd | 2684918881 | collada xml | dae | model/vnd.collada+xml |
+| Httpd | 2685217944 | palm | pdb, pqa, oprc | application/vnd.palm |
+| Httpd | 2696839422 | openxmlformats officedocument spreadsheetml sheet | xlsx | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
+| Httpd | 2699558500 | hp hps | hps | application/vnd.hp-hps |
+| Httpd | 2699999072 | chat | chat | application/x-chat |
+| Httpd | 2707319756 | wap wmlscriptc | wmlsc | application/vnd.wap.wmlscriptc |
+| Httpd | 2721635507 | micrografx igx | igx | application/vnd.micrografx.igx |
+| Httpd | 2721747258 | collection | ttc | font/collection |
+| Httpd | 2723193037 | kde kformula | kfo | application/vnd.kde.kformula |
+| Httpd | 2726424993 | oebps package xml | opf | application/oebps-package+xml |
+| Httpd | 2731755484 | csh | csh | application/x-csh |
+| Httpd | 2733447256 | crick clicker wordbank | clkw | application/vnd.crick.clicker.wordbank |
+| Httpd | 2734779849 | gtw | gtw | model/vnd.gtw |
+| Httpd | 2735829481 | quicktime | qt, mov | video/quicktime |
+| Httpd | 2735872475 | jam | jam | application/vnd.jam |
+| Httpd | 2758758858 | cmx | cmx | image/x-cmx |
+| Httpd | 2760154822 | epson esf | esf | application/vnd.epson.esf |
+| Httpd | 2764967758 | scvp cv request | scq | application/scvp-cv-request |
+| Httpd | 2764975073 | recordare musicxml xml | musicxml | application/vnd.recordare.musicxml+xml |
+| Httpd | 2767865714 | hp jlyt | jlt | application/vnd.hp-jlyt |
+| Httpd | 2769996487 | apple mpegurl | m3u8 | application/vnd.apple.mpegurl |
+| Httpd | 2775293850 | troff | t, tr, roff, man, me, ms | text/troff |
+| Httpd | 2779766884 | xz | xz | application/x-xz |
+| Httpd | 2780337060 | mfer | mwf | application/vnd.mfer |
+| Httpd | 2780337072 | sfv | sfv | text/x-sfv |
+| Httpd | 2785079285 | immervision ivp | ivp | application/vnd.immervision-ivp |
+| Httpd | 2796510911 | oasis opendocument image | odi | application/vnd.oasis.opendocument.image |
+| Httpd | 2799942788 | dvb subtitle | sub | image/vnd.dvb.subtitle |
+| Httpd | 2803185257 | cdmi queue | cdmiq | application/cdmi-queue |
+| Httpd | 2803882134 | hbci | hbci | application/vnd.hbci |
+| Httpd | 2805301633 | curl mcurl | mcurl | text/vnd.curl.mcurl |
+| Httpd | 2812998300 | x509 ca cert | der, crt | application/x-x509-ca-cert |
+| Httpd | 2819658116 | amazon ebook | azw | application/vnd.amazon.ebook |
+| Httpd | 2831585141 | mads xml | mads | application/mads+xml |
+| Httpd | 2837889784 | djvu | djvu, djv | image/vnd.djvu |
+| Httpd | 2845035249 | stuffitx | sitx | application/x-stuffitx |
+| Httpd | 2846680230 | mets xml | mets | application/mets+xml |
+| Httpd | 2857331556 | openxmlformats officedocument wordprocessingml template | dotx | application/vnd.openxmlformats-officedocument.wordprocessingml.template |
+| Httpd | 2857477114 | kahootz | ktz, ktr | application/vnd.kahootz |
+| Httpd | 2859263887 | lotus approach | apr | application/vnd.lotus-approach |
+| Httpd | 2866207433 | mediastation cdkey | cdkey | application/vnd.mediastation.cdkey |
+| Httpd | 2875419295 | asm | s, asm | text/x-asm |
+| Httpd | 2883439864 | enliven | nml | application/vnd.enliven |
+| Httpd | 2890360434 | curl car | car | application/vnd.curl.car |
+| Httpd | 2892537491 | smaf | mmf | application/vnd.smaf |
+| Httpd | 2901791305 | ms wmx | wmx | video/x-ms-wmx |
+| Httpd | 2904866414 | jisp | jisp | application/vnd.jisp |
+| Httpd | 2905229348 | oasis opendocument chart | odc | application/vnd.oasis.opendocument.chart |
+| Httpd | 2925459675 | pkix attr cert | ac | application/pkix-attr-cert |
+| Httpd | 2939067479 | gml xml | gml | application/gml+xml |
+| Httpd | 2942315901 | dpgraph | dpg | application/vnd.dpgraph |
+| Httpd | 2973898951 | portable pixmap | ppm | image/x-portable-pixmap |
+| Httpd | 2976010174 | mswrite | wri | application/x-mswrite |
+| Httpd | 2978665677 | claymore | cla | application/vnd.claymore |
+| Httpd | 2981984339 | powerbuilder6 | pbd | application/vnd.powerbuilder6 |
+| Httpd | 2984238633 | x3d xml | x3d, x3dz | model/x3d+xml |
+| Httpd | 2985206074 | octet stream | bin, dms, lrf, mar, so, dist, distz, pkg, bpk, dump, elc, deploy | application/octet-stream |
+| Httpd | 2985677434 | audiograph | aep | application/vnd.audiograph |
+| Httpd | 2988350570 | font ghostscript | gsf | application/x-font-ghostscript |
+| Httpd | 2991155642 | ipunplugged rcprofile | rcprofile | application/vnd.ipunplugged.rcprofile |
+| Httpd | 2996336798 | lotus screencam | scm | application/vnd.lotus-screencam |
+| Httpd | 3000733719 | rfc822 | eml, mime | message/rfc822 |
+| Httpd | 3002875504 | uuencode | uu | text/x-uuencode |
+| Httpd | 3003002017 | solent sdkm xml | sdkm, sdkd | application/vnd.solent.sdkm+xml |
+| Httpd | 3008781912 | oasis opendocument formula template | odft | application/vnd.oasis.opendocument.formula-template |
+| Httpd | 3019556387 | thraud xml | tfi | application/thraud+xml |
+| Httpd | 3022955634 | novadigm edm | edm | application/vnd.novadigm.edm |
+| Httpd | 3024262940 | geoplan | g2w | application/vnd.geoplan |
+| Httpd | 3033241452 | director | dir, dcr, dxr, cst, cct, cxt, w3d, fgd, swa | application/x-director |
+| Httpd | 3038042093 | portable anymap | pnm | image/x-portable-anymap |
+| Httpd | 3039970627 | net fpx | npx | image/vnd.net-fpx |
+| Httpd | 3047948639 | bmi | bmi | application/vnd.bmi |
+| Httpd | 3057648254 | contact cmsg | cdbcmsg | application/vnd.contact.cmsg |
+| Httpd | 3065629133 | cloanto rp9 | rp9 | application/vnd.cloanto.rp9 |
+| Httpd | 3068637523 | gxf | gxf | application/gxf |
+| Httpd | 3069556335 | sun xml math | sxm | application/vnd.sun.xml.math |
+| Httpd | 3076879620 | kde kword | kwd, kwt | application/vnd.kde.kword |
+| Httpd | 3083309523 | businessobjects | rep | application/vnd.businessobjects |
+| Httpd | 3085967537 | andrew inset | ez | application/andrew-inset |
+| Httpd | 3086374288 | dece graphic | uvi, uvvi, uvg, uvvg | image/vnd.dece.graphic |
+| Httpd | 3086943397 | oasis opendocument spreadsheet template | ots | application/vnd.oasis.opendocument.spreadsheet-template |
+| Httpd | 3092235440 | ssdl xml | ssdl | application/ssdl+xml |
+| Httpd | 3099389957 | abiword | abw | application/x-abiword |
+| Httpd | 3101228311 | lost xml | lostxml | application/lost+xml |
+| Httpd | 3106227398 | stardivision impress | sdd | application/vnd.stardivision.impress |
+| Httpd | 3108272377 | xyz | xyz | chemical/x-xyz |
+| Httpd | 3118572384 | sun xml writer | sxw | application/vnd.sun.xml.writer |
+| Httpd | 3132406847 | latex | latex | application/x-latex |
+| Httpd | 3133352226 | jpeg | jpeg, jpg, jpe | image/jpeg |
+| Httpd | 3134068814 | sv4crc | sv4crc | application/x-sv4crc |
+| Httpd | 3145740509 | umajin | umj | application/vnd.umajin |
+| Httpd | 3148619445 | msclip | clp | application/x-msclip |
+| Httpd | 3149094282 | pn realaudio | ram, ra | audio/x-pn-realaudio |
+| Httpd | 3150059966 | gif | gif | image/gif |
+| Httpd | 3159007645 | sun xml draw | sxd | application/vnd.sun.xml.draw |
+| Httpd | 3161366850 | ms lrm | lrm | application/vnd.ms-lrm |
+| Httpd | 3166445898 | mesh | msh, mesh, silo | model/mesh |
+| Httpd | 3168124663 | gnumeric | gnumeric | application/x-gnumeric |
+| Httpd | 3174363614 | ms asf | asf, asx | video/x-ms-asf |
+| Httpd | 3178205595 | iso9660 image | iso | application/x-iso9660-image |
+| Httpd | 3181687882 | groove tool message | gtm | application/vnd.groove-tool-message |
+| Httpd | 3186144488 | plain | txt, text, conf, def, list, log, in | text/plain |
+| Httpd | 3191008066 | shana informed formdata | ifm | application/vnd.shana.informed.formdata |
+| Httpd | 3201493925 | pgp encrypted | pgp | application/pgp-encrypted |
+| Httpd | 3207609300 | wt stf | stf | application/vnd.wt.stf |
+| Httpd | 3207700065 | symbian install | sis, sisx | application/vnd.symbian.install |
+| Httpd | 3210916577 | curl dcurl | dcurl | text/vnd.curl.dcurl |
+| Httpd | 3223149000 | tga | tga | image/x-tga |
+| Httpd | 3225988671 | 3gpp2 | 3g2 | video/3gpp2 |
+| Httpd | 3227546503 | shockwave flash | swf | application/x-shockwave-flash |
+| Httpd | 3229630693 | lotus organizer | org | application/vnd.lotus-organizer |
+| Httpd | 3240668558 | spotfire sfs | sfs | application/vnd.spotfire.sfs |
+| Httpd | 3259195021 | dna | dna | application/vnd.dna |
+| Httpd | 3263140954 | ms excel sheet macroenabled 12 | xlsm | application/vnd.ms-excel.sheet.macroenabled.12 |
+| Httpd | 3264258890 | yamaha smaf audio | saf | application/vnd.yamaha.smaf-audio |
+| Httpd | 3275176756 | nokia radio presets | rpss | application/vnd.nokia.radio-presets |
+| Httpd | 3278359110 | fdf | fdf | application/vnd.fdf |
+| Httpd | 3278585447 | groove vcard | vcg | application/vnd.groove-vcard |
+| Httpd | 3278948029 | fujitsu oasysprs | bh2 | application/vnd.fujitsu.oasysprs |
+| Httpd | 3279796176 | oxps | oxps | application/oxps |
+| Httpd | 3280513078 | turtle | ttl | text/turtle |
+| Httpd | 3280650409 | scvp cv response | scs | application/scvp-cv-response |
+| Httpd | 3281459987 | ief | ief | image/ief |
+| Httpd | 3288976212 | pmi widget | wg | application/vnd.pmi.widget |
+| Httpd | 3293002092 | portable graymap | pgm | image/x-portable-graymap |
+| Httpd | 3293007286 | font type1 | pfa, pfb, pfm, afm | application/x-font-type1 |
+| Httpd | 3296089372 | curl pcurl | pcurl | application/vnd.curl.pcurl |
+| Httpd | 3305084242 | dssc xml | xdssc | application/dssc+xml |
+| Httpd | 3306561401 | tao intent module archive | tao | application/vnd.tao.intent-module-archive |
+| Httpd | 3315827232 | oasis opendocument text template | ott | application/vnd.oasis.opendocument.text-template |
+| Httpd | 3315894249 | tar | tar | application/x-tar |
+| Httpd | 3328258557 | mp4 | m4a, mp4a | audio/mp4 |
+| Httpd | 3334640110 | chemdraw xml | cdxml | application/vnd.chemdraw+xml |
+| Httpd | 3337385297 | timestamped data | tsd | application/timestamped-data |
+| Httpd | 3345539637 | marc | mrc | application/marc |
+| Httpd | 3350827943 | gramps xml | gramps | application/x-gramps-xml |
+| Httpd | 3352933827 | llamagraphics life balance desktop | lbd | application/vnd.llamagraphics.life-balance.desktop |
+| Httpd | 3353041256 | mobius mbk | mbk | application/vnd.mobius.mbk |
+| Httpd | 3368099385 | mathml xml | mathml | application/mathml+xml |
+| Httpd | 3368114516 | yamaha openscoreformat | osf | application/vnd.yamaha.openscoreformat |
+| Httpd | 3376783372 | digital winds | eol | audio/vnd.digital-winds |
+| Httpd | 3386034869 | pkcs7 certreqresp | p7r | application/x-pkcs7-certreqresp |
+| Httpd | 3387561077 | wqd | wqd | application/vnd.wqd |
+| Httpd | 3392309837 | rss xml | rss | application/rss+xml |
+| Httpd | 3398646579 | lzh compressed | lzh, lha | application/x-lzh-compressed |
+| Httpd | 3408491255 | msschedule | scd | application/x-msschedule |
+| Httpd | 3415345080 | silverlight app | xap | application/x-silverlight-app |
+| Httpd | 3417755242 | oasis opendocument formula | odf | application/vnd.oasis.opendocument.formula |
+| Httpd | 3427035306 | ms wmz | wmz | application/x-ms-wmz |
+| Httpd | 3430275081 | ustar | ustar | application/x-ustar |
+| Httpd | 3431652971 | nuera ecelp7470 | ecelp7470 | audio/vnd.nuera.ecelp7470 |
+| Httpd | 3433652685 | openxmlformats officedocument presentationml slideshow | ppsx | application/vnd.openxmlformats-officedocument.presentationml.slideshow |
+| Httpd | 3437709368 | syncml xml | xsm | application/vnd.syncml+xml |
+| Httpd | 3449934334 | shana informed formtemplate | itp | application/vnd.shana.informed.formtemplate |
+| Httpd | 3450423353 | cluetrust cartomobile config pkg | c11amz | application/vnd.cluetrust.cartomobile-config-pkg |
+| Httpd | 3458060688 | winhlp | hlp | application/winhlp |
+| Httpd | 3460806808 | xpixmap | xpm | image/x-xpixmap |
+| Httpd | 3464493903 | msbinder | obd | application/x-msbinder |
+| Httpd | 3473425801 | clonk c4group | c4g, c4d, c4f, c4p, c4u | application/vnd.clonk.c4group |
+| Httpd | 3477347748 | java source | java | text/x-java-source |
+| Httpd | 3478496005 | astraea software iota | iota | application/vnd.astraea-software.iota |
+| Httpd | 3483875492 | fujitsu oasys2 | oa2 | application/vnd.fujitsu.oasys2 |
+| Httpd | 3488368421 | msmoney | mny | application/x-msmoney |
+| Httpd | 3489337069 | hp pclxl | pclxl | application/vnd.hp-pclxl |
+| Httpd | 3491555857 | cdlink | vcd | application/x-cdlink |
+| Httpd | 3496799771 | tcpdump pcap | pcap, cap, dmp | application/vnd.tcpdump.pcap |
+| Httpd | 3497392718 | sun xml writer template | stw | application/vnd.sun.xml.writer.template |
+| Httpd | 3497436453 | anser web certificate issue initiation | cii | application/vnd.anser-web-certificate-issue-initiation |
+| Httpd | 3506818511 | ms playready media pya | pya | audio/vnd.ms-playready.media.pya |
+| Httpd | 3509367414 | mods xml | mods | application/mods+xml |
+| Httpd | 3510859036 | pkcs7 mime | p7m, p7c | application/pkcs7-mime |
+| Httpd | 3523163259 | insors igm | igm | application/vnd.insors.igm |
+| Httpd | 3537265699 | lotus freelance | pre | application/vnd.lotus-freelance |
+| Httpd | 3537351692 | dece mobile | uvm, uvvm | video/vnd.dece.mobile |
+| Httpd | 3539896745 | oma dd2 xml | dd2 | application/vnd.oma.dd2+xml |
+| Httpd | 3540445723 | font snf | snf | application/x-font-snf |
+| Httpd | 3541623162 | mathematica | ma, nb, mb | application/mathematica |
+| Httpd | 3543003675 | cache manifest | appcache | text/cache-manifest |
+| Httpd | 3546824522 | groove injector | grv | application/vnd.groove-injector |
+| Httpd | 3547006861 | dtbresource xml | res | application/x-dtbresource+xml |
+| Httpd | 3549948928 | pls xml | pls | application/pls+xml |
+| Httpd | 3563335895 | rpki roa | roa | application/rpki-roa |
+| Httpd | 3572122093 | chipnuts karaoke mmd | mmd | application/vnd.chipnuts.karaoke-mmd |
+| Httpd | 3583731876 | nokia n gage symbian install | n-gage | application/vnd.nokia.n-gage.symbian.install |
+| Httpd | 3593012719 | ms vob | vob | video/x-ms-vob |
+| Httpd | 3603794039 | font pcf | pcf | application/x-font-pcf |
+| Httpd | 3622233423 | openofficeorg extension | oxt | application/vnd.openofficeorg.extension |
+| Httpd | 3627480143 | webm | weba | audio/webm |
+| Httpd | 3629759553 | dvi | dvi | application/x-dvi |
+| Httpd | 3630199126 | vcx | vcx | application/vnd.vcx |
+| Httpd | 3636894964 | graphviz | gv | text/vnd.graphviz |
+| Httpd | 3638789432 | anser web funds transfer initiation | fti | application/vnd.anser-web-funds-transfer-initiation |
+| Httpd | 3640433183 | scvp vp request | spq | application/scvp-vp-request |
+| Httpd | 3641071795 | ibm secure container | sc | application/vnd.ibm.secure-container |
+| Httpd | 3651541187 | immervision ivu | ivu | application/vnd.immervision-ivu |
+| Httpd | 3655629976 | triscape mxs | mxs | application/vnd.triscape.mxs |
+| Httpd | 3678724516 | dvb file | dvb | video/vnd.dvb.file |
+| Httpd | 3679007507 | conference | nsc | application/x-conference |
+| Httpd | 3679311052 | fly | fly | text/vnd.fly |
+| Httpd | 3683296436 | adobe formscentral fcdt | fcdt | application/vnd.adobe.formscentral.fcdt |
+| Httpd | 3688512902 | sh | sh | application/x-sh |
+| Httpd | 3692448857 | pg osasli | ei6 | application/vnd.pg.osasli |
+| Httpd | 3699803402 | wav | wav | audio/x-wav |
+| Httpd | 3701790503 | dynageo | geo | application/vnd.dynageo |
+| Httpd | 3705711648 | epson ssf | ssf | application/vnd.epson.ssf |
+| Httpd | 3708497332 | srgs | gram | application/srgs |
+| Httpd | 3709208966 | dece pd | uvp, uvvp | video/vnd.dece.pd |
+| Httpd | 3710687909 | crick clicker template | clkt | application/vnd.crick.clicker.template |
+| Httpd | 3718262307 | s3m | s3m | audio/s3m |
+| Httpd | 3721838764 | shana informed package | ipk | application/vnd.shana.informed.package |
+| Httpd | 3729972083 | mrsid image | sid | image/x-mrsid-image |
+| Httpd | 3735194806 | sema | sema | application/vnd.sema |
+| Httpd | 3736026393 | xpinstall | xpi | application/x-xpinstall |
+| Httpd | 3742064704 | osgi subsystem | esa | application/vnd.osgi.subsystem |
+| Httpd | 3752520368 | pkcs7 signature | p7s | application/pkcs7-signature |
+| Httpd | 3759633579 | pkcs8 | p8 | application/pkcs8 |
+| Httpd | 3767960255 | ms excel | xls, xlm, xla, xlc, xlt, xlw | application/vnd.ms-excel |
+| Httpd | 3780084386 | zzazz deck xml | zaz | application/vnd.zzazz.deck+xml |
+| Httpd | 3782623085 | atom xml | atom | application/atom+xml |
+| Httpd | 3793119654 | ms officetheme | thmx | application/vnd.ms-officetheme |
+| Httpd | 3795678043 | ms wm | wm | video/x-ms-wm |
+| Httpd | 3800263245 | msmetafile | wmf, wmz, emf, emz | application/x-msmetafile |
+| Httpd | 3801187459 | mobius mqy | mqy | application/vnd.mobius.mqy |
+| Httpd | 3813384246 | aristanetworks swi | swi | application/vnd.aristanetworks.swi |
+| Httpd | 3824116529 | proteus magazine | mgz | application/vnd.proteus.magazine |
+| Httpd | 3827382622 | mac binhex40 | hqx | application/mac-binhex40 |
+| Httpd | 3831603838 | fvt | fvt | video/vnd.fvt |
+| Httpd | 3832133287 | xv xml | mxml, xhvml, xvml, xvm | application/xv+xml |
+| Httpd | 3834774403 | futuresplash | spl | application/x-futuresplash |
+| Httpd | 3834962646 | ssml xml | ssml | application/ssml+xml |
+| Httpd | 3842625997 | msdownload | exe, dll, com, bat, msi | application/x-msdownload |
+| Httpd | 3852266454 | wordperfect | wpd | application/vnd.wordperfect |
+| Httpd | 3884808644 | stardivision draw | sda | application/vnd.stardivision.draw |
+| Httpd | 3888332939 | pkcs7 certificates | p7b, spc | application/x-pkcs7-certificates |
+| Httpd | 3889997362 | jpm | jpm, jpgm | video/jpm |
+| Httpd | 3905661247 | oasis opendocument graphics | odg | application/vnd.oasis.opendocument.graphics |
+| Httpd | 3913716454 | subrip | srt | application/x-subrip |
+| Httpd | 3921585630 | mpegurl | mxu, m4u | video/vnd.mpegurl |
+| Httpd | 3923222572 | groove identity message | gim | application/vnd.groove-identity-message |
+| Httpd | 3932157629 | font tdpfr | pfr | application/font-tdpfr |
+| Httpd | 3938229820 | sus calendar | sus, susp | application/vnd.sus-calendar |
+| Httpd | 3939241073 | lotus wordpro | lwp | application/vnd.lotus-wordpro |
+| Httpd | 3942621849 | mobius txf | txf | application/vnd.mobius.txf |
+| Httpd | 3942882658 | prs lines tag | dsc | text/prs.lines.tag |
+| Httpd | 3956050975 | java jnlp file | jnlp | application/x-java-jnlp-file |
+| Httpd | 3958824751 | adobe air application installer package zip | air | application/vnd.adobe.air-application-installer-package+zip |
+| Httpd | 3959787308 | dece unspecified | uvx, uvvx | application/vnd.dece.unspecified |
+| Httpd | 3962761714 | osgeo mapguide package | mgp | application/vnd.osgeo.mapguide.package |
+| Httpd | 3970808669 | pkix crl | crl | application/pkix-crl |
+| Httpd | 3972709196 | adobe xdp xml | xdp | application/vnd.adobe.xdp+xml |
+| Httpd | 3973073844 | ace compressed | ace | application/x-ace-compressed |
+| Httpd | 3978301349 | dtbook xml | dtb | application/x-dtbook+xml |
+| Httpd | 3981745143 | webturbo | wtb | application/vnd.webturbo |
+| Httpd | 3998294856 | xaml xml | xaml | application/xaml+xml |
+| Httpd | 3999870255 | mophun application | mpn | application/vnd.mophun.application |
+| Httpd | 4008680505 | crick clicker | clkx | application/vnd.crick.clicker |
+| Httpd | 4008929422 | csml | csml | chemical/x-csml |
+| Httpd | 4012838875 | denovo fcselayout link | fe_launch | application/vnd.denovo.fcselayout-link |
+| Httpd | 4014908057 | mng | mng | video/x-mng |
+| Httpd | 4019441519 | airzip filesecure azs | azs | application/vnd.airzip.filesecure.azs |
+| Httpd | 4029004944 | xml | xml, xsl | application/xml |
+| Httpd | 4029535853 | webp | webp | image/webp |
+| Httpd | 4034161384 | h261 | h261 | video/h261 |
+| Httpd | 4036075207 | vsf | vsf | application/vnd.vsf |
+| Httpd | 4061926842 | dece zip | uvz, uvvz | application/vnd.dece.zip |
+| Httpd | 4062272235 | java vm | class | application/java-vm |
+| Httpd | 4066570451 | epson quickanime | qam | application/vnd.epson.quickanime |
+| Httpd | 4077824776 | commonspace | csp | application/vnd.commonspace |
+| Httpd | 4078358736 | ms powerpoint | ppt, pps, pot | application/vnd.ms-powerpoint |
+| Httpd | 4080586869 | epub zip | epub | application/epub+zip |
+| Httpd | 4082873929 | llamagraphics life balance exchange xml | lbe | application/vnd.llamagraphics.life-balance.exchange+xml |
+| Httpd | 4088672022 | cinderella | cdy | application/vnd.cinderella |
+| Httpd | 4090476332 | oasis opendocument database | odb | application/vnd.oasis.opendocument.database |
+| Httpd | 4100053721 | adobe fxp | fxp, fxpl | application/vnd.adobe.fxp |
+| Httpd | 4103675381 | epson salt | slt | application/vnd.epson.salt |
+| Httpd | 4104042877 | davmount xml | davmount | application/davmount+xml |
+| Httpd | 4108897201 | chess pgn | pgn | application/x-chess-pgn |
+| Httpd | 4109444628 | ms excel template macroenabled 12 | xltm | application/vnd.ms-excel.template.macroenabled.12 |
+| Httpd | 4115982219 | ibm minipay | mpy | application/vnd.ibm.minipay |
+| Httpd | 4129216099 | jpeg | jpgv | video/jpeg |
+| Httpd | 4131086905 | geometry explorer | gex, gre | application/vnd.geometry-explorer |
+| Httpd | 4134001168 | openxmlformats officedocument presentationml presentation | pptx | application/vnd.openxmlformats-officedocument.presentationml.presentation |
+| Httpd | 4144641364 | xliff xml | xlf | application/x-xliff+xml |
+| Httpd | 4147141993 | sgi movie | movie | video/x-sgi-movie |
+| Httpd | 4151826852 | quark quarkxpress | qxd, qxt, qwd, qwt, qxl, qxb | application/vnd.quark.quarkxpress |
+| Httpd | 4161244575 | ms pki stl | stl | application/vnd.ms-pki.stl |
+| Httpd | 4166067584 | mediaservercontrol xml | mscml | application/mediaservercontrol+xml |
+| Httpd | 4171612147 | sun xml calc | sxc | application/vnd.sun.xml.calc |
+| Httpd | 4174914276 | simtech mindmapper | twd, twds | application/vnd.simtech-mindmapper |
+| Httpd | 4187552977 | atomcat xml | atomcat | application/atomcat+xml |
+| Httpd | 4193206547 | hp hpgl | hpgl | application/vnd.hp-hpgl |
+| Httpd | 4204554576 | ms project | mpp, mpt | application/vnd.ms-project |
+| Httpd | 4211020277 | ms wma | wma | audio/x-ms-wma |
+| Httpd | 4225338956 | dxf | dxf | image/vnd.dxf |
+| Httpd | 4226246988 | envoy | evy | application/x-envoy |
+| Httpd | 4228335605 | osgi dp | dp | application/vnd.osgi.dp |
+| Httpd | 4229936947 | shana informed interchange | iif | application/vnd.shana.informed.interchange |
+| Httpd | 4240184811 | ms powerpoint presentation macroenabled 12 | pptm | application/vnd.ms-powerpoint.presentation.macroenabled.12 |
+| Httpd | 4246575942 | ms playready media pyv | pyv | video/vnd.ms-playready.media.pyv |
+| Httpd | 4261705580 | stuffit | sit | application/x-stuffit |
+| Httpd | 4266494892 | rls services xml | rs | application/rls-services+xml |
+| Httpd | 4267139476 | route66 link66 xml | link66 | application/vnd.route66.link66+xml |
+| Httpd | 4291861971 | cups ppd | ppd | application/vnd.cups-ppd |
+| Httpd | 4293215786 | acucobol | acu | application/vnd.acucobol |
+| Httpd | 4293499535 | dvb service | svc | application/vnd.dvb.service |
+| Iana | 1300491 | vnd.3gpp.mcdata-payload |  | application/vnd.3gpp.mcdata-payload |
+| Iana | 1564781 | flexfec |  | application/flexfec |
+| Iana | 1690715 | vnd.iccprofile |  | application/vnd.iccprofile |
+| Iana | 1703232 | vnd.geo+json (OBSOLETED by [RFC7946] in favor of application/geo+json) |  | application/vnd.geo+json |
+| Iana | 5616180 | vnd.collabio.xodocuments.document-template |  | application/vnd.collabio.xodocuments.document-template |
+| Iana | 5639650 | vnd.pco.b16 |  | image/vnd.pco.b16 |
+| Iana | 11715083 | vnd.visio |  | application/vnd.visio |
+| Iana | 11854517 | vnd.openxmlformats-officedocument.presentationml.presentation.main+xml |  | application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml |
+| Iana | 13400192 | prs.implied-structure |  | application/prs.implied-structure |
+| Iana | 14081048 | vnd.parasolid.transmit.text |  | model/vnd.parasolid.transmit.text |
+| Iana | 15491224 | vnd.gmx - DEPRECATED |  | application/vnd.gmx |
+| Iana | 15793840 | vnd.nervana |  | application/vnd.nervana |
+| Iana | 22565941 | vnd.oma.scidm.messages+xml |  | application/vnd.oma.scidm.messages+xml |
+| Iana | 25503902 | related |  | multipart/related |
+| Iana | 26941495 | vnd.3gpp.mcptt-user-profile+xml |  | application/vnd.3gpp.mcptt-user-profile+xml |
+| Iana | 27243476 | ohttp-req |  | message/ohttp-req |
+| Iana | 29465275 | vnd.trueapp |  | application/vnd.trueapp |
+| Iana | 29707939 | woff |  | font/woff |
+| Iana | 30119485 | vnd.tencent.tap |  | image/vnd.tencent.tap |
+| Iana | 32313589 | vnd.artisan+json |  | application/vnd.artisan+json |
+| Iana | 35181502 | vnd.century-systems.tcp_stream |  | application/vnd.century-systems.tcp_stream |
+| Iana | 38062218 | mrb-consumer+xml |  | application/mrb-consumer+xml |
+| Iana | 38441649 | sarif+json |  | application/sarif+json |
+| Iana | 39150697 | application/trust-chain+json |  | application/trust-chain+json |
+| Iana | 39470048 | pdf |  | application/pdf |
+| Iana | 40016195 | activity+json |  | application/activity+json |
+| Iana | 43235474 | vnd.oasis.opendocument.graphics-template |  | application/vnd.oasis.opendocument.graphics-template |
+| Iana | 48899670 | jls |  | image/jls |
+| Iana | 49797597 | mathml-content+xml |  | application/mathml-content+xml |
+| Iana | 51249193 | t38 |  | audio/t38 |
+| Iana | 53513821 | cose-x509 |  | application/cose-x509 |
+| Iana | 53912432 | vnd.uplanet.alert-wbxml |  | application/vnd.uplanet.alert-wbxml |
+| Iana | 60264007 | xcap-att+xml |  | application/xcap-att+xml |
+| Iana | 64343561 | vnd.radisys.msml-audit-conn+xml |  | application/vnd.radisys.msml-audit-conn+xml |
+| Iana | 68397272 | vnd.fastbidsheet |  | image/vnd.fastbidsheet |
+| Iana | 70571009 | dssc+der |  | application/dssc+der |
+| Iana | 70821616 | vnd.openxmlformats-officedocument.spreadsheetml.comments+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml |
+| Iana | 73971162 | provenance-notation |  | text/provenance-notation |
+| Iana | 74595847 | bmp |  | image/bmp |
+| Iana | 76178463 | vnd.amadeus+json |  | application/vnd.amadeus+json |
+| Iana | 76276134 | timestamp-reply |  | application/timestamp-reply |
+| Iana | 76626073 | rpki-updown |  | application/rpki-updown |
+| Iana | 78756907 | vnd.gs-gdl |  | model/vnd.gs-gdl |
+| Iana | 79411734 | svg+xml |  | image/svg+xml |
+| Iana | 80973015 | vnd.oasis.opendocument.presentation |  | application/vnd.oasis.opendocument.presentation |
+| Iana | 84177950 | vnd.uplanet.cacheop-wbxml |  | application/vnd.uplanet.cacheop-wbxml |
+| Iana | 84616920 | EVRCB |  | audio/EVRCB |
+| Iana | 86020751 | PDX |  | application/PDX |
+| Iana | 88110505 | vnd.motorola.flexsuite.kmr |  | application/vnd.motorola.flexsuite.kmr |
+| Iana | 93376454 | private-token-request |  | application/private-token-request |
+| Iana | 96918703 | vnd.3gpp.iufp |  | audio/vnd.3gpp.iufp |
+| Iana | 96929146 | vnd.iptvforum.1dparityfec-2005 |  | video/vnd.iptvforum.1dparityfec-2005 |
+| Iana | 97410562 | G719 |  | audio/G719 |
+| Iana | 98433844 | mbms-deregister+xml |  | application/mbms-deregister+xml |
+| Iana | 98475931 | manifest+json |  | application/manifest+json |
+| Iana | 101072836 | vnd.syncml.ds.notification |  | application/vnd.syncml.ds.notification |
+| Iana | 105059212 | ATXML |  | application/ATXML |
+| Iana | 108293076 | remote-printing (OBSOLETE) |  | application/remote-printing |
+| Iana | 108802647 | xhtml+xml |  | application/xhtml+xml |
+| Iana | 109053247 | vnd.collabio.xodocuments.spreadsheet |  | application/vnd.collabio.xodocuments.spreadsheet |
+| Iana | 110999883 | dsr-es202211 |  | audio/dsr-es202211 |
+| Iana | 111215525 | vnd.sealed.xls |  | application/vnd.sealed.xls |
+| Iana | 113777880 | vnd.infotech.project+xml |  | application/vnd.infotech.project+xml |
+| Iana | 113929155 | cwl |  | application/cwl |
+| Iana | 115736167 | vnd.wolfram.mathematica.package |  | application/vnd.wolfram.mathematica.package |
+| Iana | 116508161 | mosskey-request |  | application/mosskey-request |
+| Iana | 116732393 | alto-updatestreamparams+json |  | application/alto-updatestreamparams+json |
+| Iana | 120155765 | vnd.familysearch.gedcom+zip |  | application/vnd.familysearch.gedcom+zip |
+| Iana | 121497109 | vnd.piaccess.application-licence |  | application/vnd.piaccess.application-licence |
+| Iana | 122485070 | scip |  | audio/scip |
+| Iana | 123640991 | whoispp-query |  | application/whoispp-query |
+| Iana | 132065091 | iso.segment |  | video/iso.segment |
+| Iana | 132245930 | vnd.verimatrix.vcas |  | application/vnd.verimatrix.vcas |
+| Iana | 141898700 | vnd.3gpp.crs+xml |  | application/vnd.3gpp.crs+xml |
+| Iana | 146500985 | vnd.psfs |  | application/vnd.psfs |
+| Iana | 148294950 | vnd.mdl-mbsdf |  | application/vnd.mdl-mbsdf |
+| Iana | 150129542 | vnd.nokia.conml+xml |  | application/vnd.nokia.conml+xml |
+| Iana | 150445902 | vnd.onepagertatx |  | application/vnd.onepagertatx |
+| Iana | 151389392 | alto-error+json |  | application/alto-error+json |
+| Iana | 152753445 | SGML |  | text/SGML |
+| Iana | 152912554 | vnd.semf |  | application/vnd.semf |
+| Iana | 154740816 | vnd.geogebra.slides |  | application/vnd.geogebra.slides |
+| Iana | 154848389 | vnd.hgl |  | text/vnd.hgl |
+| Iana | 157902401 | vnd.fujixerox.edmics-mmr |  | image/vnd.fujixerox.edmics-mmr |
+| Iana | 159747167 | vnd.3gpp.pic-bw-small |  | application/vnd.3gpp.pic-bw-small |
+| Iana | 159891324 | msc-ivr+xml |  | application/msc-ivr+xml |
+| Iana | 163015464 | ibe-key-request+xml |  | application/ibe-key-request+xml |
+| Iana | 170630255 | vnd.3gpp.pic-bw-var |  | application/vnd.3gpp.pic-bw-var |
+| Iana | 171816475 | vnd.lucent.voice |  | audio/vnd.lucent.voice |
+| Iana | 174520680 | TETRA_ACELP |  | audio/TETRA_ACELP |
+| Iana | 182763210 | vnd.motorola.reflex |  | text/vnd.motorola.reflex |
+| Iana | 183454639 | vnd.ipld.car |  | application/vnd.ipld.car |
+| Iana | 187452905 | vnd.openeye.oeb |  | application/vnd.openeye.oeb |
+| Iana | 187716829 | vnd.cluetrust.cartomobile-config |  | application/vnd.cluetrust.cartomobile-config |
+| Iana | 191439868 | cql |  | text/cql |
+| Iana | 191805810 | vnd.banana-accounting |  | application/vnd.banana-accounting |
+| Iana | 193878515 | sdp |  | application/sdp |
+| Iana | 195837457 | dls |  | audio/dls |
+| Iana | 197872702 | atsc-held+xml |  | application/atsc-held+xml |
+| Iana | 200188636 | vnd.document+json |  | application/vnd.document+json |
+| Iana | 203444039 | vnd.panoply |  | application/vnd.panoply |
+| Iana | 205455127 | EVRC-QCP |  | audio/EVRC-QCP |
+| Iana | 209994165 | set-registration-initiation |  | application/set-registration-initiation |
+| Iana | 210326800 | VP8 |  | video/VP8 |
+| Iana | 210553567 | vnd.oasis.opendocument.presentation-template |  | application/vnd.oasis.opendocument.presentation-template |
+| Iana | 210859652 | vnd.fuzzysheet |  | application/vnd.fuzzysheet |
+| Iana | 211208613 | xcon-conference-info+xml |  | application/xcon-conference-info+xml |
+| Iana | 213517500 | vnd.mophun.certificate |  | application/vnd.mophun.certificate |
+| Iana | 213710802 | vnd.3gpp.mcvideo-ue-config+xml |  | application/vnd.3gpp.mcvideo-ue-config+xml |
+| Iana | 214077991 | j2c |  | image/j2c |
+| Iana | 214210857 | cfw |  | application/cfw |
+| Iana | 214394448 | vnd.wap.wmlscript |  | text/vnd.wap.wmlscript |
+| Iana | 218620019 | vnd.dolby.mobile.1 |  | application/vnd.dolby.mobile.1 |
+| Iana | 220079965 | vnd.ms-wmdrm.meter-resp |  | application/vnd.ms-wmdrm.meter-resp |
+| Iana | 223476613 | vnd.yellowriver-custom-menu |  | application/vnd.yellowriver-custom-menu |
+| Iana | 230681993 | vnd.3gpp.mcptt-location-info+xml |  | application/vnd.3gpp.mcptt-location-info+xml |
+| Iana | 233107679 | vnd.avalon+json |  | application/vnd.avalon+json |
+| Iana | 234051258 | raptorfec |  | text/raptorfec |
+| Iana | 234763682 | vnd.balsamiq.bmpr |  | application/vnd.balsamiq.bmpr |
+| Iana | 237827459 | imdn+xml |  | message/imdn+xml |
+| Iana | 238979253 | vnd.sqlite3 |  | application/vnd.sqlite3 |
+| Iana | 241505788 | vnd.nortel.vbk |  | audio/vnd.nortel.vbk |
+| Iana | 241995952 | vnd.onepagertamp |  | application/vnd.onepagertamp |
+| Iana | 243018749 | coap-payload |  | application/coap-payload |
+| Iana | 245146791 | xliff+xml |  | application/xliff+xml |
+| Iana | 245917095 | vnd.rainstor.data |  | application/vnd.rainstor.data |
+| Iana | 251540190 | vnd.intercon.formnet |  | application/vnd.intercon.formnet |
+| Iana | 257854243 | rpki-publication |  | application/rpki-publication |
+| Iana | 260369007 | sslkeylogfile |  | application/sslkeylogfile |
+| Iana | 262398669 | vnd.dvb.dvbisl+xml |  | application/vnd.dvb.dvbisl+xml |
+| Iana | 266187991 | vnd.dvb.notif-ia-registration-response+xml |  | application/vnd.dvb.notif-ia-registration-response+xml |
+| Iana | 267963725 | auth-policy+xml |  | application/auth-policy+xml |
+| Iana | 268653089 | vnd.oasis.opendocument.text-web |  | application/vnd.oasis.opendocument.text-web |
+| Iana | 268959593 | vnd.3gpp.mcdata-regroup+xml |  | application/vnd.3gpp.mcdata-regroup+xml |
+| Iana | 272313846 | vnd.ms-artgalry |  | application/vnd.ms-artgalry |
+| Iana | 272413369 | RED |  | audio/RED |
+| Iana | 276593833 | vnd.truedoc |  | application/vnd.truedoc |
+| Iana | 286380533 | vnd.oma.dcdc |  | application/vnd.oma.dcdc |
+| Iana | 290087393 | vnd.fujixerox.docuworks |  | application/vnd.fujixerox.docuworks |
+| Iana | 293173837 | problem+json |  | application/problem+json |
+| Iana | 293366493 | vnd.etsi.iptvsad-bc+xml |  | application/vnd.etsi.iptvsad-bc+xml |
+| Iana | 293757942 | vnd.xmi+xml |  | application/vnd.xmi+xml |
+| Iana | 294784067 | vnd.mermaid |  | application/vnd.mermaid |
+| Iana | 303387740 | multipart-core |  | application/multipart-core |
+| Iana | 306237589 | mbms-associated-procedure-description+xml |  | application/mbms-associated-procedure-description+xml |
+| Iana | 307107080 | prs.sid |  | audio/prs.sid |
+| Iana | 307290489 | vnd.cisco.nse |  | audio/vnd.cisco.nse |
+| Iana | 307400137 | vnd.igloader |  | application/vnd.igloader |
+| Iana | 309576543 | jxsi |  | image/jxsi |
+| Iana | 310539211 | ogg |  | audio/ogg |
+| Iana | 311323204 | vnd.nokia.iptv.config+xml |  | application/vnd.nokia.iptv.config+xml |
+| Iana | 311662341 | vnd.exstream-package |  | application/vnd.exstream-package |
+| Iana | 315120870 | vnd.geogebra.tool |  | application/vnd.geogebra.tool |
+| Iana | 316075578 | vnd.dbf |  | application/vnd.dbf |
+| Iana | 316812874 | multilingual |  | multipart/multilingual |
+| Iana | 320775819 | vnd.openxmlformats-officedocument.presentationml.slide |  | application/vnd.openxmlformats-officedocument.presentationml.slide |
+| Iana | 320775993 | vnd.dm.delegation+xml |  | application/vnd.dm.delegation+xml |
+| Iana | 324707210 | vnd.ms-powerpoint.slideshow.macroEnabled.12 |  | application/vnd.ms-powerpoint.slideshow.macroEnabled.12 |
+| Iana | 325264537 | vnd.radisys.msml-conf+xml |  | application/vnd.radisys.msml-conf+xml |
+| Iana | 330977383 | encaprtp |  | application/encaprtp |
+| Iana | 333915481 | enriched |  | text/enriched |
+| Iana | 334794876 | vnd.cncf.helm.chart.content.v1.tar+gzip |  | application/vnd.cncf.helm.chart.content.v1.tar+gzip |
+| Iana | 335161041 | vnd.hydrostatix.sof-data |  | application/vnd.hydrostatix.sof-data |
+| Iana | 337367164 | vnd.3gpp.mcptt-info+xml |  | application/vnd.3gpp.mcptt-info+xml |
+| Iana | 338748118 | vnd.informedcontrol.rms+xml |  | application/vnd.informedcontrol.rms+xml |
+| Iana | 340006506 | H264-SVC |  | video/H264-SVC |
+| Iana | 340917823 | vnd.oma.push |  | application/vnd.oma.push |
+| Iana | 340992391 | vnd.xecrets-encrypted |  | application/vnd.xecrets-encrypted |
+| Iana | 341496207 | ecmascript (OBSOLETED in favor of text/javascript) |  | application/ecmascript |
+| Iana | 343155648 | vnd.oma.bcast.sprov+xml |  | application/vnd.oma.bcast.sprov+xml |
+| Iana | 345349413 | vnd.powerbuilder6-s |  | application/vnd.powerbuilder6-s |
+| Iana | 348215381 | vnd.kde.kchart |  | application/vnd.kde.kchart |
+| Iana | 350026389 | MP4V-ES |  | video/MP4V-ES |
+| Iana | 351975492 | vnd.hdt |  | application/vnd.hdt |
+| Iana | 353142752 | media-policy-dataset+xml |  | application/media-policy-dataset+xml |
+| Iana | 353370408 | vnd.nato.openxmlformats-package.iepd+zip |  | application/vnd.nato.openxmlformats-package.iepd+zip |
+| Iana | 354905259 | sbml+xml |  | application/sbml+xml |
+| Iana | 358247048 | vnd.canon-cpdl |  | application/vnd.canon-cpdl |
+| Iana | 359796587 | vnd.noblenet-sealer |  | application/vnd.noblenet-sealer |
+| Iana | 361957890 | vnd.syncml.dm+wbxml |  | application/vnd.syncml.dm+wbxml |
+| Iana | 362916929 | vnd.syncml.dmddf+xml |  | application/vnd.syncml.dmddf+xml |
+| Iana | 363850190 | vnd.sealedmedia.softseal.jpg |  | image/vnd.sealedmedia.softseal.jpg |
+| Iana | 370260795 | vnd.oai.workflows |  | application/vnd.oai.workflows |
+| Iana | 371549797 | vnd.dece.video |  | video/vnd.dece.video |
+| Iana | 372437491 | yang-patch+xml |  | application/yang-patch+xml |
+| Iana | 372858196 | shf+xml |  | application/shf+xml |
+| Iana | 374945877 | xcap-el+xml |  | application/xcap-el+xml |
+| Iana | 376520231 | atsc-dwd+xml |  | application/atsc-dwd+xml |
+| Iana | 376588493 | rpki-ghostbusters |  | application/rpki-ghostbusters |
+| Iana | 376985049 | scaip+xml |  | application/scaip+xml |
+| Iana | 378980846 | vnd.3gpp.state-and-event-info+xml |  | application/vnd.3gpp.state-and-event-info+xml |
+| Iana | 379967318 | vnd.3gpp.mcvideo-info+xml |  | application/vnd.3gpp.mcvideo-info+xml |
+| Iana | 379983263 | aif+cbor |  | application/aif+cbor |
+| Iana | 380069356 | aces |  | image/aces |
+| Iana | 381753813 | mpeg4-generic |  | application/mpeg4-generic |
+| Iana | 383186215 | vc |  | application/vc |
+| Iana | 387630209 | vcard+xml |  | application/vcard+xml |
+| Iana | 388454346 | vnd.ms-windows.wsd.oob |  | application/vnd.ms-windows.wsd.oob |
+| Iana | 389201762 | vnd.xfdl.webform |  | application/vnd.xfdl.webform |
+| Iana | 390946750 | load-control+xml |  | application/load-control+xml |
+| Iana | 391104858 | reginfo+xml |  | application/reginfo+xml |
+| Iana | 391473714 | vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml |
+| Iana | 396279391 | vnd.collection.next+json |  | application/vnd.collection.next+json |
+| Iana | 398048020 | vnd.pocketlearn |  | application/vnd.pocketlearn |
+| Iana | 398300339 | vnd.hns.audio |  | audio/vnd.hns.audio |
+| Iana | 398590708 | vnd.oma.bcast.drm-trigger+xml |  | application/vnd.oma.bcast.drm-trigger+xml |
+| Iana | 398752703 | vnd.sycle+xml |  | application/vnd.sycle+xml |
+| Iana | 399630772 | vnd.ezpix-package |  | application/vnd.ezpix-package |
+| Iana | 399649029 | vnd.oma.bcast.stkm |  | application/vnd.oma.bcast.stkm |
+| Iana | 399766370 | vnd.ms-powerpoint.slide.macroEnabled.12 |  | application/vnd.ms-powerpoint.slide.macroEnabled.12 |
+| Iana | 400689417 | csv |  | text/csv |
+| Iana | 401990548 | vnd.wv.ssp+xml |  | application/vnd.wv.ssp+xml |
+| Iana | 403771798 | oblivious-dns-message |  | application/oblivious-dns-message |
+| Iana | 404372107 | vnd.3gpp.mcdata-ue-config+xml |  | application/vnd.3gpp.mcdata-ue-config+xml |
+| Iana | 418496381 | vnd.uplanet.signal |  | application/vnd.uplanet.signal |
+| Iana | 423816041 | wspolicy+xml |  | application/wspolicy+xml |
+| Iana | 426516203 | vnd.semd |  | application/vnd.semd |
+| Iana | 427393356 | vnd.unity |  | application/vnd.unity |
+| Iana | 428848062 | vnd.4SB |  | audio/vnd.4SB |
+| Iana | 430666742 | vnd.etsi.simservs+xml |  | application/vnd.etsi.simservs+xml |
+| Iana | 433835467 | news-groupinfo |  | application/news-groupinfo |
+| Iana | 434037104 | at+jwt |  | application/at+jwt |
+| Iana | 436281134 | vnd.curl |  | application/vnd.curl |
+| Iana | 437786028 | vnd.cmles.radio-events |  | audio/vnd.cmles.radio-events |
+| Iana | 440186036 | vnd.wap.wbmp |  | image/vnd.wap.wbmp |
+| Iana | 440480354 | vnd.3gpp.v2x |  | application/vnd.3gpp.v2x |
+| Iana | 441266579 | vnd.objectvideo |  | video/vnd.objectvideo |
+| Iana | 441798888 | vnd.apache.thrift.json |  | application/vnd.apache.thrift.json |
+| Iana | 441833144 | vnd.3gpp.5gsa2x-local-service-information |  | application/vnd.3gpp.5gsa2x-local-service-information |
+| Iana | 446836469 | vnd.wap.wbxml |  | application/vnd.wap.wbxml |
+| Iana | 446889072 | dns |  | application/dns |
+| Iana | 452082346 | pgp-keys |  | application/pgp-keys |
+| Iana | 454801860 | vnd.fst |  | image/vnd.fst |
+| Iana | 456286408 | route-s-tsid+xml |  | application/route-s-tsid+xml |
+| Iana | 459332121 | problem+xml |  | application/problem+xml |
+| Iana | 472064312 | cccex |  | application/cccex |
+| Iana | 472182639 | 1d-interleaved-parityfec |  | application/1d-interleaved-parityfec |
+| Iana | 475080157 | vnd.ecowin.series |  | application/vnd.ecowin.series |
+| Iana | 477639913 | alto-tips+json |  | application/alto-tips+json |
+| Iana | 480017980 | urc-targetdesc+xml |  | application/urc-targetdesc+xml |
+| Iana | 482269533 | vnd.uoml+xml |  | application/vnd.uoml+xml |
+| Iana | 482286266 | marcxml+xml |  | application/marcxml+xml |
+| Iana | 483127336 | mpeg |  | audio/mpeg |
+| Iana | 484148083 | vnd.muvee.style |  | application/vnd.muvee.style |
+| Iana | 484977096 | dns |  | text/dns |
+| Iana | 489923641 | vnd.syncml.dmddf+wbxml |  | application/vnd.syncml.dmddf+wbxml |
+| Iana | 490847206 | cose-key-set |  | application/cose-key-set |
+| Iana | 495324254 | mpeg4-iod |  | application/mpeg4-iod |
+| Iana | 496402490 | vnd.dece.audio |  | audio/vnd.dece.audio |
+| Iana | 497850446 | prs.implied-document+xml |  | application/prs.implied-document+xml |
+| Iana | 501697374 | dca-rft |  | application/dca-rft |
+| Iana | 501733551 | vnd.svd |  | application/vnd.svd |
+| Iana | 502801485 | vnd.openxmlformats-officedocument.spreadsheetml.calcChain+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.calcChain+xml |
+| Iana | 503630353 | mp21 |  | application/mp21 |
+| Iana | 505160760 | vnd.tmd.mediaflex.api+xml |  | application/vnd.tmd.mediaflex.api+xml |
+| Iana | 505998768 | cwt |  | application/cwt |
+| Iana | 509145227 | pidf+xml |  | application/pidf+xml |
+| Iana | 509235866 | vnd.ms-wpl |  | application/vnd.ms-wpl |
+| Iana | 510240730 | vnd.dvb.file |  | audio/vnd.dvb.file |
+| Iana | 510261994 | G728 |  | audio/G728 |
+| Iana | 510862015 | step+xml |  | model/step+xml |
+| Iana | 511107950 | vnd.nearst.inv+json |  | application/vnd.nearst.inv+json |
+| Iana | 511568138 | vnd.geogebra.file |  | application/vnd.geogebra.file |
+| Iana | 512588624 | vnd.iptc.g2.knowledgeitem+xml |  | application/vnd.iptc.g2.knowledgeitem+xml |
+| Iana | 513487635 | n3 |  | text/n3 |
+| Iana | 516315398 | ivs |  | haptics/ivs |
+| Iana | 518296308 | vnd.etsi.iptvsync+xml |  | application/vnd.etsi.iptvsync+xml |
+| Iana | 520781800 | vnd.nato.bindingdataobject+json |  | application/vnd.nato.bindingdataobject+json |
+| Iana | 520871466 | pkix-cert |  | application/pkix-cert |
+| Iana | 521683555 | vnd.oma.bcast.provisioningtrigger |  | application/vnd.oma.bcast.provisioningtrigger |
+| Iana | 521782095 | vnd.Mobius.MBK |  | application/vnd.Mobius.MBK |
+| Iana | 522531130 | vnd.openxmlformats-package.relationships+xml |  | application/vnd.openxmlformats-package.relationships+xml |
+| Iana | 523598520 | vnd.intertrust.digibox |  | application/vnd.intertrust.digibox |
+| Iana | 527928029 | java-archive |  | application/java-archive |
+| Iana | 528362505 | vnd.evolv.ecig.settings |  | application/vnd.evolv.ecig.settings |
+| Iana | 530427254 | applefile |  | application/applefile |
+| Iana | 530516509 | reputon+json |  | application/reputon+json |
+| Iana | 530731647 | atomdeleted+xml |  | application/atomdeleted+xml |
+| Iana | 533608977 | patch-ops-error+xml |  | application/patch-ops-error+xml |
+| Iana | 533974994 | vnd.oma.pal+xml |  | application/vnd.oma.pal+xml |
+| Iana | 537661535 | vnd.ipfs.ipns-record |  | application/vnd.ipfs.ipns-record |
+| Iana | 541997281 | vnd.opentimestamps.ots |  | application/vnd.opentimestamps.ots |
+| Iana | 543755811 | vnd.etsi.timestamp-token |  | application/vnd.etsi.timestamp-token |
+| Iana | 544993909 | cdni |  | application/cdni |
+| Iana | 545120659 | vnd.dts |  | audio/vnd.dts |
+| Iana | 545437284 | tamp-community-update-confirm |  | application/tamp-community-update-confirm |
+| Iana | 546384924 | vnd.medicalholodeck.recordxr |  | application/vnd.medicalholodeck.recordxr |
+| Iana | 552814135 | vnd.dataresource+json |  | application/vnd.dataresource+json |
+| Iana | 559288930 | vnd.ms-powerpoint.addin.macroEnabled.12 |  | application/vnd.ms-powerpoint.addin.macroEnabled.12 |
+| Iana | 560266554 | vnd.openxmlformats-officedocument.presentationml.slideUpdateInfo+xml |  | application/vnd.openxmlformats-officedocument.presentationml.slideUpdateInfo+xml |
+| Iana | 561111317 | vnd.3gpp-prose-pc3ch+xml |  | application/vnd.3gpp-prose-pc3ch+xml |
+| Iana | 562569549 | vnd.openxmlformats-officedocument.drawingml.diagramColors+xml |  | application/vnd.openxmlformats-officedocument.drawingml.diagramColors+xml |
+| Iana | 564146210 | macwriteii |  | application/macwriteii |
+| Iana | 565406949 | vnd.intergeo |  | application/vnd.intergeo |
+| Iana | 566649559 | ODX |  | application/ODX |
+| Iana | 567721668 | vnd.microsoft.icon |  | image/vnd.microsoft.icon |
+| Iana | 571581390 | vnd.accpac.simply.imp |  | application/vnd.accpac.simply.imp |
+| Iana | 572396452 | entity-statement+jwt |  | application/entity-statement+jwt |
+| Iana | 573500267 | parityfec |  | audio/parityfec |
+| Iana | 577779527 | bacnet-xdd+zip |  | application/bacnet-xdd+zip |
+| Iana | 579055640 | dsr-es201108 |  | audio/dsr-es201108 |
+| Iana | 580255865 | prs.fallenstein.rst |  | text/prs.fallenstein.rst |
+| Iana | 582798602 | MELP2400 |  | audio/MELP2400 |
+| Iana | 582845968 | H265 |  | video/H265 |
+| Iana | 588578662 | VP9 |  | video/VP9 |
+| Iana | 591863795 | vnd.openxmlformats-officedocument.presentationml.template |  | application/vnd.openxmlformats-officedocument.presentationml.template |
+| Iana | 592700294 | vnd.radisys.msml-audit+xml |  | application/vnd.radisys.msml-audit+xml |
+| Iana | 592837311 | simple-filter+xml |  | application/simple-filter+xml |
+| Iana | 595589789 | vnd.etsi.iptvcommand+xml |  | application/vnd.etsi.iptvcommand+xml |
+| Iana | 597049660 | srgs+xml |  | application/srgs+xml |
+| Iana | 599569029 | vnd.mitsubishi.misty-guard.trustweb |  | application/vnd.mitsubishi.misty-guard.trustweb |
+| Iana | 600292285 | prs.plucker |  | application/prs.plucker |
+| Iana | 600781183 | watcherinfo+xml |  | application/watcherinfo+xml |
+| Iana | 602521492 | tei+xml |  | application/tei+xml |
+| Iana | 604390837 | vnd.3gpp.mcptt-ue-config+xml |  | application/vnd.3gpp.mcptt-ue-config+xml |
+| Iana | 604682788 | gltf+json |  | model/gltf+json |
+| Iana | 608206328 | alto-updatestreamcontrol+json |  | application/alto-updatestreamcontrol+json |
+| Iana | 615101200 | vnd.veryant.thin |  | application/vnd.veryant.thin |
+| Iana | 617077046 | vnd.ms-htmlhelp |  | application/vnd.ms-htmlhelp |
+| Iana | 618204743 | EVRCWB0 |  | audio/EVRCWB0 |
+| Iana | 619722037 | hmpg |  | haptics/hmpg |
+| Iana | 620086286 | directory - DEPRECATED by RFC6350 |  | text/directory |
+| Iana | 620699404 | dialog-info+xml |  | application/dialog-info+xml |
+| Iana | 623061058 | mbms-protection-description+xml |  | application/mbms-protection-description+xml |
+| Iana | 625790876 | sep+xml |  | application/sep+xml |
+| Iana | 628719206 | tiff |  | image/tiff |
+| Iana | 633951952 | vnd.wmc |  | application/vnd.wmc |
+| Iana | 634751045 | vnd.cosmocaller |  | application/vnd.cosmocaller |
+| Iana | 636189500 | vnd.apothekende.reservation+json |  | application/vnd.apothekende.reservation+json |
+| Iana | 638640543 | csta+xml |  | application/csta+xml |
+| Iana | 640881317 | moss-signature |  | application/moss-signature |
+| Iana | 643161436 | EmergencyCallData.LegacyESN+json |  | application/EmergencyCallData.LegacyESN+json |
+| Iana | 646316398 | vnd.ffsns |  | application/vnd.ffsns |
+| Iana | 647269280 | mpeg4-iod-xmt |  | application/mpeg4-iod-xmt |
+| Iana | 649648847 | vnd.openxmlformats-package.digital-signature-xmlsignature+xml |  | application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml |
+| Iana | 649945256 | vnd.frogans.ltf (OBSOLETE) |  | application/vnd.frogans.ltf |
+| Iana | 650321585 | vnd.cncf.helm.config.v1+json |  | application/vnd.cncf.helm.config.v1+json |
+| Iana | 650905327 | xcon-conference-info-diff+xml |  | application/xcon-conference-info-diff+xml |
+| Iana | 650915217 | UEMCLIP |  | audio/UEMCLIP |
+| Iana | 652990908 | vnd.openxmlformats-officedocument.presentationml.tags+xml |  | application/vnd.openxmlformats-officedocument.presentationml.tags+xml |
+| Iana | 659177723 | vnd.3gpp.seal-user-profile-info+xml |  | application/vnd.3gpp.seal-user-profile-info+xml |
+| Iana | 660911672 | csvm+json |  | application/csvm+json |
+| Iana | 661875610 | vnd.belightsoft.lhzl+zip |  | application/vnd.belightsoft.lhzl+zip |
+| Iana | 662224272 | step |  | model/step |
+| Iana | 662330436 | EVRCB0 |  | audio/EVRCB0 |
+| Iana | 664677117 | vnd.nokia.radio-preset |  | application/vnd.nokia.radio-preset |
+| Iana | 665519283 | vnd.afpc.foca-codedfont |  | application/vnd.afpc.foca-codedfont |
+| Iana | 667863728 | vnd.etsi.overload-control-policy-dataset+xml |  | application/vnd.etsi.overload-control-policy-dataset+xml |
+| Iana | 668848572 | vnd.fujitsu.oasys3 |  | application/vnd.fujitsu.oasys3 |
+| Iana | 670376080 | sp-midi |  | audio/sp-midi |
+| Iana | 670748266 | ttf |  | font/ttf |
+| Iana | 672006244 | prs.prop.logic |  | text/prs.prop.logic |
+| Iana | 672123413 | digest |  | multipart/digest |
+| Iana | 673108048 | cdmi-domain |  | application/cdmi-domain |
+| Iana | 674377195 | vnd.3gpp2.sms |  | application/vnd.3gpp2.sms |
+| Iana | 675481075 | vnd.collection.doc+json |  | application/vnd.collection.doc+json |
+| Iana | 676122532 | jaii |  | image/jaii |
+| Iana | 676182775 | vnd.quobject-quoxdocument |  | application/vnd.quobject-quoxdocument |
+| Iana | 680212271 | vnd.fujixerox.edmics-rlc |  | image/vnd.fujixerox.edmics-rlc |
+| Iana | 681406187 | voice-message |  | multipart/voice-message |
+| Iana | 683669685 | secevent+jwt |  | application/secevent+jwt |
+| Iana | 686403110 | sofa |  | audio/sofa |
+| Iana | 689870117 | cea-2018+xml |  | application/cea-2018+xml |
+| Iana | 690981994 | vnd.artsquare |  | application/vnd.artsquare |
+| Iana | 692040152 | vnd.svf |  | image/vnd.svf |
+| Iana | 694257130 | vnd.ficlab.flt |  | text/vnd.ficlab.flt |
+| Iana | 695876004 | vnd.sss-ntf |  | application/vnd.sss-ntf |
+| Iana | 698862642 | vnd.d3m-problem |  | application/vnd.d3m-problem |
+| Iana | 699344826 | vnd.Quark.QuarkXPress |  | application/vnd.Quark.QuarkXPress |
+| Iana | 699603995 | external-body |  | message/external-body |
+| Iana | 702867348 | ATRAC-ADVANCED-LOSSLESS |  | audio/ATRAC-ADVANCED-LOSSLESS |
+| Iana | 703420198 | vnd.autopackage |  | application/vnd.autopackage |
+| Iana | 703786695 | MELP600 |  | audio/MELP600 |
+| Iana | 704715468 | G7221 |  | audio/G7221 |
+| Iana | 709074434 | heic |  | image/heic |
+| Iana | 711868225 | H264-RCDO |  | video/H264-RCDO |
+| Iana | 712815207 | efi |  | application/efi |
+| Iana | 713073804 | hl7v2 |  | text/hl7v2 |
+| Iana | 717604115 | vnd.oai.workflows+json |  | application/vnd.oai.workflows+json |
+| Iana | 719940166 | vnd.is-xpr |  | application/vnd.is-xpr |
+| Iana | 721217963 | vnd.neurolanguage.nlu |  | application/vnd.neurolanguage.nlu |
+| Iana | 723583282 | cdmi-object |  | application/cdmi-object |
+| Iana | 724433143 | ohttp-keys |  | application/ohttp-keys |
+| Iana | 728656917 | G723 |  | audio/G723 |
+| Iana | 730164878 | vnd.amazon.mobi8-ebook |  | application/vnd.amazon.mobi8-ebook |
+| Iana | 733753614 | vnd.trid.tpt |  | application/vnd.trid.tpt |
+| Iana | 734796685 | jscontact+json |  | application/jscontact+json |
+| Iana | 734953880 | vorbis-config |  | audio/vorbis-config |
+| Iana | 740017048 | node |  | application/node |
+| Iana | 740040417 | vnd.etsi.iptvsad-npvr+xml |  | application/vnd.etsi.iptvsad-npvr+xml |
+| Iana | 741089846 | fdt+xml |  | application/fdt+xml |
+| Iana | 743725154 | vnd.oma.lwm2m+cbor |  | application/vnd.oma.lwm2m+cbor |
+| Iana | 745244408 | vnd.aether.imp |  | application/vnd.aether.imp |
+| Iana | 745551567 | vnd.restful+json |  | application/vnd.restful+json |
+| Iana | 746376700 | vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml |  | application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml |
+| Iana | 746845900 | vnd.canon-lips |  | application/vnd.canon-lips |
+| Iana | 747456878 | vnd.macports.portpkg |  | application/vnd.macports.portpkg |
+| Iana | 747778669 | vnd.visionary |  | application/vnd.visionary |
+| Iana | 747798136 | tzif |  | application/tzif |
+| Iana | 748682461 | vnd.doremir.scorecloud-binary-document |  | application/vnd.doremir.scorecloud-binary-document |
+| Iana | 757834169 | vnd.ncd.reference |  | application/vnd.ncd.reference |
+| Iana | 758803624 | vnd.openxmlformats-officedocument.spreadsheetml.userNames+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.userNames+xml |
+| Iana | 763411276 | vnd.ms-PrintDeviceCapabilities+xml |  | application/vnd.ms-PrintDeviceCapabilities+xml |
+| Iana | 766797499 | vnd.ufdl |  | application/vnd.ufdl |
+| Iana | 769171922 | vnd.ascii-art |  | text/vnd.ascii-art |
+| Iana | 771348131 | jwk+json |  | application/jwk+json |
+| Iana | 775281352 | vnd.3gpp-prose-pc3a+xml |  | application/vnd.3gpp-prose-pc3a+xml |
+| Iana | 776095572 | vc2 |  | video/vc2 |
+| Iana | 779014290 | vnd.japannet-registration-wakeup |  | application/vnd.japannet-registration-wakeup |
+| Iana | 783502289 | index.cmd |  | application/index.cmd |
+| Iana | 783851439 | uri-list |  | text/uri-list |
+| Iana | 791486801 | exi |  | application/exi |
+| Iana | 792947184 | vrml |  | model/vrml |
+| Iana | 795993604 | vnd.latex-z |  | text/vnd.latex-z |
+| Iana | 802613624 | EVRCWB |  | audio/EVRCWB |
+| Iana | 803759576 | vnd.mozilla.xul+xml |  | application/vnd.mozilla.xul+xml |
+| Iana | 804952774 | sipc |  | application/sipc |
+| Iana | 806059163 | vnd.sealedmedia.softseal.gif |  | image/vnd.sealedmedia.softseal.gif |
+| Iana | 807436031 | held+xml |  | application/held+xml |
+| Iana | 808640727 | vnd.powerbuilder7-s |  | application/vnd.powerbuilder7-s |
+| Iana | 811145391 | dsr-es202212 |  | audio/dsr-es202212 |
+| Iana | 812449347 | vnd.yamaha.openscoreformat.osfpvg+xml |  | application/vnd.yamaha.openscoreformat.osfpvg+xml |
+| Iana | 814842370 | vnd.yamaha.smaf-phrase |  | application/vnd.yamaha.smaf-phrase |
+| Iana | 816441770 | rtp-enc-aescm128 |  | video/rtp-enc-aescm128 |
+| Iana | 817442074 | vnd.3gpp.seal-network-QoS-management-info+xml |  | application/vnd.3gpp.seal-network-QoS-management-info+xml |
+| Iana | 820780064 | vnd.kenameaapp |  | application/vnd.kenameaapp |
+| Iana | 821312728 | vnd.cirpack.isdn-ext |  | application/vnd.cirpack.isdn-ext |
+| Iana | 825782436 | wasm |  | application/wasm |
+| Iana | 826043110 | LPC |  | audio/LPC |
+| Iana | 826223537 | vnd.font-fontforge-sfd |  | application/vnd.font-fontforge-sfd |
+| Iana | 827039157 | vnd.Mobius.TXF |  | application/vnd.Mobius.TXF |
+| Iana | 827296418 | jxl |  | image/jxl |
+| Iana | 835573590 | vnd.yamaha.hv-voice |  | application/vnd.yamaha.hv-voice |
+| Iana | 837519450 | dpop+jwt |  | application/dpop+jwt |
+| Iana | 838250481 | G726-32 |  | audio/G726-32 |
+| Iana | 842202839 | vnd.openxmlformats-officedocument.spreadsheetml.table+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml |
+| Iana | 843590016 | vnd.openxmlformats-officedocument.wordprocessingml.document |  | application/vnd.openxmlformats-officedocument.wordprocessingml.document |
+| Iana | 844572820 | elm+xml |  | application/elm+xml |
+| Iana | 845986989 | vnd.dvb.notif-aggregate-root+xml |  | application/vnd.dvb.notif-aggregate-root+xml |
+| Iana | 847390359 | vnd.easykaraoke.cdgdownload |  | application/vnd.easykaraoke.cdgdownload |
+| Iana | 848068996 | vnd.3gpp.mcvideo-service-config+xml |  | application/vnd.3gpp.mcvideo-service-config+xml |
+| Iana | 849097741 | vnd.omads-file+xml |  | application/vnd.omads-file+xml |
+| Iana | 851865356 | vnd.mdl |  | application/vnd.mdl |
+| Iana | 854397495 | parameters |  | text/parameters |
+| Iana | 855119395 | vnd.uiq.theme |  | application/vnd.uiq.theme |
+| Iana | 858546125 | vnd.blink-idb-value-wrapper |  | application/vnd.blink-idb-value-wrapper |
+| Iana | 858598615 | vnd.micro+json |  | application/vnd.micro+json |
+| Iana | 858961326 | eat+cwt |  | application/eat+cwt |
+| Iana | 861307175 | alto-networkmapfilter+json |  | application/alto-networkmapfilter+json |
+| Iana | 863031821 | vnd.3gpp.gtpc |  | application/vnd.3gpp.gtpc |
+| Iana | 863358936 | cnrp+xml |  | application/cnrp+xml |
+| Iana | 863547179 | xml-dtd |  | application/xml-dtd |
+| Iana | 864231027 | vnd.ocf+cbor |  | application/vnd.ocf+cbor |
+| Iana | 866342943 | xcap-error+xml |  | application/xcap-error+xml |
+| Iana | 868618244 | vnd.ahead.space |  | application/vnd.ahead.space |
+| Iana | 875380544 | DII |  | application/DII |
+| Iana | 875961514 | application/jwk-set+jwt |  | application/jwk-set+jwt |
+| Iana | 878295361 | vnd.desmume.movie |  | application/vnd.desmume.movie |
+| Iana | 878383878 | vnd.motorola.videop |  | video/vnd.motorola.videop |
+| Iana | 880276053 | vnd.yamaha.tunnel-udpencap |  | application/vnd.yamaha.tunnel-udpencap |
+| Iana | 883060521 | vnd.3gpp.interworking-data |  | application/vnd.3gpp.interworking-data |
+| Iana | 884904136 | vnd.3gpp.mcptt-signed+xml |  | application/vnd.3gpp.mcptt-signed+xml |
+| Iana | 885871429 | vnd.etsi.sci+xml |  | application/vnd.etsi.sci+xml |
+| Iana | 886513491 | emma+xml |  | application/emma+xml |
+| Iana | 887473226 | vorbis |  | audio/vorbis |
+| Iana | 887928429 | vnd.clip |  | image/vnd.clip |
+| Iana | 888323059 | vnd.seis+json |  | application/vnd.seis+json |
+| Iana | 891056696 | vnd.MFER |  | application/vnd.MFER |
+| Iana | 891511949 | vnd.ecip.rlp |  | application/vnd.ecip.rlp |
+| Iana | 891857693 | vnd.minisoft-hp3000-save |  | application/vnd.minisoft-hp3000-save |
+| Iana | 896475446 | vnd.collabio.xodocuments.presentation |  | application/vnd.collabio.xodocuments.presentation |
+| Iana | 900299791 | kpml-response+xml |  | application/kpml-response+xml |
+| Iana | 900799277 | vnd.nokia.iSDS-radio-presets |  | application/vnd.nokia.iSDS-radio-presets |
+| Iana | 903062961 | vnd.oracle.resource+json |  | application/vnd.oracle.resource+json |
+| Iana | 910732762 | vnd.kidspiration |  | application/vnd.kidspiration |
+| Iana | 910939751 | vnd.3gpp.mc-signalling-ear |  | application/vnd.3gpp.mc-signalling-ear |
+| Iana | 911453044 | vnd.biopax.rdf+xml |  | application/vnd.biopax.rdf+xml |
+| Iana | 912766839 | G7291 |  | audio/G7291 |
+| Iana | 913650795 | vnd.relpipe |  | application/vnd.relpipe |
+| Iana | 914146169 | vnd.seemail |  | application/vnd.seemail |
+| Iana | 915515483 | html |  | text/html |
+| Iana | 919373872 | vnd.radisys.msml-dialog-fax-detect+xml |  | application/vnd.radisys.msml-dialog-fax-detect+xml |
+| Iana | 919687982 | alto-endpointcost+json |  | application/alto-endpointcost+json |
+| Iana | 920020894 | vnd.nokia.landmark+wbxml |  | application/vnd.nokia.landmark+wbxml |
+| Iana | 920489276 | geopackage+sqlite3 |  | application/geopackage+sqlite3 |
+| Iana | 921628903 | vnd.ms-works |  | application/vnd.ms-works |
+| Iana | 923134596 | vnd.apple.numbers |  | application/vnd.apple.numbers |
+| Iana | 925464555 | vnd.rs-274x |  | application/vnd.rs-274x |
+| Iana | 930058366 | vnd.in3d.spot |  | text/vnd.in3d.spot |
+| Iana | 930957075 | vnd.mynfc |  | application/vnd.mynfc |
+| Iana | 933758247 | vc+cose |  | application/vc+cose |
+| Iana | 934032205 | vnd.openxmlformats-officedocument.presentationml.template.main+xml |  | application/vnd.openxmlformats-officedocument.presentationml.template.main+xml |
+| Iana | 934104408 | JPEG |  | video/JPEG |
+| Iana | 939688699 | ogg |  | video/ogg |
+| Iana | 940292226 | vnd.3gpp-v2x-local-service-information |  | application/vnd.3gpp-v2x-local-service-information |
+| Iana | 940373278 | cgm |  | image/cgm |
+| Iana | 940528273 | ace+cbor |  | application/ace+cbor |
+| Iana | 942105561 | rpki-manifest |  | application/rpki-manifest |
+| Iana | 942626101 | vnd.ms-3mfdocument |  | application/vnd.ms-3mfdocument |
+| Iana | 943390517 | vnd.oma.bcast.ltkm |  | application/vnd.oma.bcast.ltkm |
+| Iana | 948240628 | mpeg |  | video/mpeg |
+| Iana | 949062720 | vnd.afpc.foca-codepage |  | application/vnd.afpc.foca-codepage |
+| Iana | 949441120 | vnd.openxmlformats-officedocument.customXmlProperties+xml |  | application/vnd.openxmlformats-officedocument.customXmlProperties+xml |
+| Iana | 955665527 | parityfec |  | video/parityfec |
+| Iana | 960360071 | vnd.hyper-item+json |  | application/vnd.hyper-item+json |
+| Iana | 960549232 | vnd.syncml.dm.notification |  | application/vnd.syncml.dm.notification |
+| Iana | 960802919 | vnd.xara |  | application/vnd.xara |
+| Iana | 964127301 | pskc+xml |  | application/pskc+xml |
+| Iana | 964814527 | strings |  | text/strings |
+| Iana | 965470757 | vnd.bzip3 |  | application/vnd.bzip3 |
+| Iana | 968474296 | vnd.familysearch.gedcom |  | text/vnd.familysearch.gedcom |
+| Iana | 971985811 | clue+xml |  | application/clue+xml |
+| Iana | 972985342 | vnd.dvb.ipdcesgaccess2 |  | application/vnd.dvb.ipdcesgaccess2 |
+| Iana | 973156789 | vnd.Mobius.MSL |  | application/vnd.Mobius.MSL |
+| Iana | 975001307 | vnd.oma.poc.groups+xml |  | application/vnd.oma.poc.groups+xml |
+| Iana | 975017874 | vnd.sealed.csf |  | application/vnd.sealed.csf |
+| Iana | 981279644 | vnd.dvb.ait |  | application/vnd.dvb.ait |
+| Iana | 982533756 | vnd.openxmlformats-officedocument.custom-properties+xml |  | application/vnd.openxmlformats-officedocument.custom-properties+xml |
+| Iana | 982843725 | rdf+xml |  | application/rdf+xml |
+| Iana | 985337350 | vnd.loom |  | application/vnd.loom |
+| Iana | 985613281 | vnd.SimTech-MindMapper |  | application/vnd.SimTech-MindMapper |
+| Iana | 988896440 | vnd.3gpp.seal-ue-config-info+xml |  | application/vnd.3gpp.seal-ue-config-info+xml |
+| Iana | 992268927 | ac3 |  | audio/ac3 |
+| Iana | 992885034 | vnd.gov.sk.e-form+zip |  | application/vnd.gov.sk.e-form+zip |
+| Iana | 992891712 | vnd.3gpp.sms |  | application/vnd.3gpp.sms |
+| Iana | 993720141 | vnd.dvb.subtitle |  | text/vnd.dvb.subtitle |
+| Iana | 996033646 | vnd.mseq |  | application/vnd.mseq |
+| Iana | 998993833 | vnd.a |  | text/vnd.a |
+| Iana | 1003190918 | vnd.medcalcdata |  | application/vnd.medcalcdata |
+| Iana | 1004793834 | aac |  | audio/aac |
+| Iana | 1005064430 | gltf-buffer |  | application/gltf-buffer |
+| Iana | 1005760972 | vnd.epson.msf |  | application/vnd.epson.msf |
+| Iana | 1007674456 | vnd.sss-cod |  | application/vnd.sss-cod |
+| Iana | 1008820641 | PCMU-WB |  | audio/PCMU-WB |
+| Iana | 1011219020 | vnd.radisys.msml-dialog+xml |  | application/vnd.radisys.msml-dialog+xml |
+| Iana | 1013589051 | wordperfect5.1 |  | application/wordperfect5.1 |
+| Iana | 1013763948 | vnd.openblox.game+xml |  | application/vnd.openblox.game+xml |
+| Iana | 1016304514 | tamp-update-confirm |  | application/tamp-update-confirm |
+| Iana | 1016595786 | inkml+xml |  | application/inkml+xml |
+| Iana | 1018447787 | vnd.oasis.opendocument.base |  | application/vnd.oasis.opendocument.base |
+| Iana | 1022638803 | vnd.openxmlformats-officedocument.drawingml.diagramLayout+xml |  | application/vnd.openxmlformats-officedocument.drawingml.diagramLayout+xml |
+| Iana | 1023933872 | vnd.dolby.pl2 |  | audio/vnd.dolby.pl2 |
+| Iana | 1024029615 | vnd.commerce-battelle |  | application/vnd.commerce-battelle |
+| Iana | 1032815495 | atsc-dynamic-event-message |  | application/atsc-dynamic-event-message |
+| Iana | 1035090139 | rdap+json |  | application/rdap+json |
+| Iana | 1037674256 | vnd.oma.poc.invocation-descriptor+xml |  | application/vnd.oma.poc.invocation-descriptor+xml |
+| Iana | 1038149599 | vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml |  | application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml |
+| Iana | 1041686558 | webpush-options+json |  | application/webpush-options+json |
+| Iana | 1045587053 | BV16 |  | audio/BV16 |
+| Iana | 1046049563 | vnd.3lightssoftware.imagescal |  | application/vnd.3lightssoftware.imagescal |
+| Iana | 1048917476 | xcap-diff+xml |  | application/xcap-diff+xml |
+| Iana | 1049248689 | vnd.dece.hd |  | video/vnd.dece.hd |
+| Iana | 1049349370 | atomsvc+xml |  | application/atomsvc+xml |
+| Iana | 1050342415 | vcard |  | text/vcard |
+| Iana | 1053113605 | vnd.afpc.foca-charset |  | application/vnd.afpc.foca-charset |
+| Iana | 1054093816 | vnd.oma.bcast.simple-symbol-container |  | application/vnd.oma.bcast.simple-symbol-container |
+| Iana | 1054297770 | vnd.oma.lwm2m+json |  | application/vnd.oma.lwm2m+json |
+| Iana | 1058998624 | vnd.motorola.flexsuite |  | application/vnd.motorola.flexsuite |
+| Iana | 1060508302 | vp+jwt |  | application/vp+jwt |
+| Iana | 1061990033 | mosskey-data |  | application/mosskey-data |
+| Iana | 1063419560 | vnd.ims.lis.v2.result+json |  | application/vnd.ims.lis.v2.result+json |
+| Iana | 1063909402 | vnd.criticaltools.wbs+xml |  | application/vnd.criticaltools.wbs+xml |
+| Iana | 1066913277 | vnd.ncd.control |  | application/vnd.ncd.control |
+| Iana | 1071533059 | vnd.stepmania.package |  | application/vnd.stepmania.package |
+| Iana | 1071869234 | relax-ng-compact-syntax |  | application/relax-ng-compact-syntax |
+| Iana | 1072032137 | vnd.motorola.flexsuite.adsi |  | application/vnd.motorola.flexsuite.adsi |
+| Iana | 1075391890 | vnd.ezpix-album |  | application/vnd.ezpix-album |
+| Iana | 1078078001 | vnd.groove-help |  | application/vnd.groove-help |
+| Iana | 1078770558 | x-emf - DEPRECATED in favor of image/emf |  | image/x-emf |
+| Iana | 1079094050 | hsj2 (OBSOLETE) |  | image/hsj2 |
+| Iana | 1080111604 | vnd.otps.ct-kip+xml |  | application/vnd.otps.ct-kip+xml |
+| Iana | 1080843780 | vnd.wolfram.mathematica |  | application/vnd.wolfram.mathematica |
+| Iana | 1081730756 | vnd.oma.bcast.sgdd+xml |  | application/vnd.oma.bcast.sgdd+xml |
+| Iana | 1082371926 | vnd.gov.sk.e-form+xml (OBSOLETED by request) |  | application/vnd.gov.sk.e-form+xml |
+| Iana | 1084097919 | vnd.wrq-hp3000-labelled |  | application/vnd.wrq-hp3000-labelled |
+| Iana | 1087953579 | vnd.3gpp-prose+xml |  | application/vnd.3gpp-prose+xml |
+| Iana | 1088321248 | vnd.openvpi.dspx+json |  | application/vnd.openvpi.dspx+json |
+| Iana | 1089237792 | postscript |  | application/postscript |
+| Iana | 1089999549 | csv-schema |  | text/csv-schema |
+| Iana | 1091729195 | partial |  | message/partial |
+| Iana | 1091992668 | vnd.nuera.ecelp9600 |  | audio/vnd.nuera.ecelp9600 |
+| Iana | 1092520586 | vnd.vocalshaper.vsp4 |  | application/vnd.vocalshaper.vsp4 |
+| Iana | 1094271942 | mbms-register-response+xml |  | application/mbms-register-response+xml |
+| Iana | 1096262999 | avcs |  | image/avcs |
+| Iana | 1096371228 | vnd.IPTC.NITF |  | text/vnd.IPTC.NITF |
+| Iana | 1102824002 | vnd.vivo |  | video/vnd.vivo |
+| Iana | 1104570417 | disposition-notification |  | message/disposition-notification |
+| Iana | 1105128667 | vnd.usdz+zip |  | model/vnd.usdz+zip |
+| Iana | 1105824498 | 3gpp-ims+xml |  | application/3gpp-ims+xml |
+| Iana | 1107365668 | vnd.oasis.opendocument.spreadsheet |  | application/vnd.oasis.opendocument.spreadsheet |
+| Iana | 1108063713 | prs.rdf-xml-crypt |  | application/prs.rdf-xml-crypt |
+| Iana | 1109068416 | dicom-rle |  | image/dicom-rle |
+| Iana | 1110936070 | vnd.ms-word.template.macroEnabled.12 |  | application/vnd.ms-word.template.macroEnabled.12 |
+| Iana | 1115896451 | vnd.keyman.kmp+zip |  | application/vnd.keyman.kmp+zip |
+| Iana | 1119094700 | odm+xml |  | application/odm+xml |
+| Iana | 1119995327 | vnd.vel+json |  | application/vnd.vel+json |
+| Iana | 1122188876 | vnd.dra |  | audio/vnd.dra |
+| Iana | 1122457956 | vnd.3gpp.seal-mbms-usage-info+xml |  | application/vnd.3gpp.seal-mbms-usage-info+xml |
+| Iana | 1125684053 | resource-lists-diff+xml |  | application/resource-lists-diff+xml |
+| Iana | 1127499818 | edhoc+cbor-seq |  | application/edhoc+cbor-seq |
+| Iana | 1132854721 | avci |  | image/avci |
+| Iana | 1133956420 | soap+fastinfoset |  | application/soap+fastinfoset |
+| Iana | 1139084425 | vnd.trolltech.linguist |  | text/vnd.trolltech.linguist |
+| Iana | 1141083706 | simpleSymbolContainer |  | application/simpleSymbolContainer |
+| Iana | 1142814227 | vnd.crick.clicker.palette |  | application/vnd.crick.clicker.palette |
+| Iana | 1146816463 | vnd.globalplatform.card-content-mgt |  | application/vnd.globalplatform.card-content-mgt |
+| Iana | 1147522885 | EDI-X12 |  | application/EDI-X12 |
+| Iana | 1148648632 | vnd.openxmlformats-officedocument.presentationml.slide+xml |  | application/vnd.openxmlformats-officedocument.presentationml.slide+xml |
+| Iana | 1149861895 | tamp-sequence-adjust |  | application/tamp-sequence-adjust |
+| Iana | 1151597811 | ktx |  | image/ktx |
+| Iana | 1156879722 | prs.implied-executable |  | application/prs.implied-executable |
+| Iana | 1157551608 | mipc |  | application/mipc |
+| Iana | 1159758451 | 3gpp-tt |  | video/3gpp-tt |
+| Iana | 1160699760 | vnd.openxmlformats-officedocument.wordprocessingml.comments+xml |  | application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml |
+| Iana | 1161045142 | yang |  | application/yang |
+| Iana | 1162286966 | vnd.geogebra.pinboard |  | application/vnd.geogebra.pinboard |
+| Iana | 1162461536 | vnd.airzip.accelerator.azv |  | image/vnd.airzip.accelerator.azv |
+| Iana | 1164361106 | fits |  | application/fits |
+| Iana | 1166187818 | vnd.nokia.pcd+wbxml |  | application/vnd.nokia.pcd+wbxml |
+| Iana | 1167296258 | vnd.openxmlformats-officedocument.spreadsheetml.tableSingleCells+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.tableSingleCells+xml |
+| Iana | 1169399934 | heic-sequence |  | image/heic-sequence |
+| Iana | 1170351643 | vnd.uplanet.listcmd |  | application/vnd.uplanet.listcmd |
+| Iana | 1181333921 | vnd.ves.encrypted |  | application/vnd.ves.encrypted |
+| Iana | 1181609888 | senml+json |  | application/senml+json |
+| Iana | 1182008171 | vnd.novadigm.EDM |  | application/vnd.novadigm.EDM |
+| Iana | 1182453069 | vnd.3gpp.pinapp-info+xml |  | application/vnd.3gpp.pinapp-info+xml |
+| Iana | 1184282371 | ccxml+xml |  | application/ccxml+xml |
+| Iana | 1185389084 | vnd.spotfire.dxp |  | application/vnd.spotfire.dxp |
+| Iana | 1187587104 | tzif-leap |  | application/tzif-leap |
+| Iana | 1187861090 | vnd.3gpp.lpp |  | application/vnd.3gpp.lpp |
+| Iana | 1194196596 | ulpfec |  | audio/ulpfec |
+| Iana | 1195271443 | vnd.ms-modi |  | image/vnd.ms-modi |
+| Iana | 1204394635 | vnd.ms-fontobject |  | application/vnd.ms-fontobject |
+| Iana | 1206787573 | vnd.nokia.landmark+xml |  | application/vnd.nokia.landmark+xml |
+| Iana | 1207355911 | vnd.multiad.creator |  | application/vnd.multiad.creator |
+| Iana | 1209759489 | sbe |  | application/sbe |
+| Iana | 1210000402 | vnd.capasystems-pg+json |  | application/vnd.capasystems-pg+json |
+| Iana | 1211156865 | vnd.miele+json |  | application/vnd.miele+json |
+| Iana | 1211430670 | vnd.oasis.opendocument.text |  | application/vnd.oasis.opendocument.text |
+| Iana | 1213052401 | vnd.openxmlformats-officedocument.presentationml.comments+xml |  | application/vnd.openxmlformats-officedocument.presentationml.comments+xml |
+| Iana | 1215761775 | vnd.3gpp.pic-bw-large |  | application/vnd.3gpp.pic-bw-large |
+| Iana | 1217839522 | set-payment |  | application/set-payment |
+| Iana | 1218352227 | vnd.realvnc.bed |  | application/vnd.realvnc.bed |
+| Iana | 1219453126 | vnd.dart |  | application/vnd.dart |
+| Iana | 1219722515 | xcap-ns+xml |  | application/xcap-ns+xml |
+| Iana | 1220007935 | richtext |  | text/richtext |
+| Iana | 1222670581 | vnd.dece.sd |  | video/vnd.dece.sd |
+| Iana | 1223779917 | smil+xml |  | application/smil+xml |
+| Iana | 1223968204 | telephone-event |  | audio/telephone-event |
+| Iana | 1224104050 | vnd.3gpp.5gsa2x |  | application/vnd.3gpp.5gsa2x |
+| Iana | 1225196153 | vnd.globalgraphics.pgb |  | image/vnd.globalgraphics.pgb |
+| Iana | 1229145838 | vnd.amiga.ami |  | application/vnd.amiga.ami |
+| Iana | 1232099675 | vnd.syncml.dmtnds+xml |  | application/vnd.syncml.dmtnds+xml |
+| Iana | 1233087473 | vnd.ms-windows.devicepairing |  | application/vnd.ms-windows.devicepairing |
+| Iana | 1235227822 | vnd.3gpp2.tcap |  | application/vnd.3gpp2.tcap |
+| Iana | 1236131182 | vnd.joost.joda-archive |  | application/vnd.joost.joda-archive |
+| Iana | 1239487562 | MELP1200 |  | audio/MELP1200 |
+| Iana | 1242535117 | vnd.siren+json |  | application/vnd.siren+json |
+| Iana | 1242882989 | jose+json |  | application/jose+json |
+| Iana | 1244006042 | vnd.etsi.pstn+xml |  | application/vnd.etsi.pstn+xml |
+| Iana | 1246631980 | vnd.fdsn.seed |  | application/vnd.fdsn.seed |
+| Iana | 1246830443 | vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml |  | application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml |
+| Iana | 1249405747 | vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml |
+| Iana | 1250972188 | scvp-vp-response |  | application/scvp-vp-response |
+| Iana | 1251073663 | vnd.nitf |  | application/vnd.nitf |
+| Iana | 1251956507 | 3gppHalForms+json |  | application/3gppHalForms+json |
+| Iana | 1252750347 | fwdred |  | text/fwdred |
+| Iana | 1253126997 | vnd.yamaha.remote-setup |  | application/vnd.yamaha.remote-setup |
+| Iana | 1253575532 | vnd.fujixerox.HBPL |  | application/vnd.fujixerox.HBPL |
+| Iana | 1253658823 | vnd.evolv.ecig.theme |  | application/vnd.evolv.ecig.theme |
+| Iana | 1254362572 | vnd.dtg.local.html |  | application/vnd.dtg.local.html |
+| Iana | 1255195553 | 3gpp |  | video/3gpp |
+| Iana | 1255250193 | vnd.3gpp.mcdata-msgstore-ctrl-request+xml |  | application/vnd.3gpp.mcdata-msgstore-ctrl-request+xml |
+| Iana | 1258888362 | vnd.radisys.msml-audit-stream+xml |  | application/vnd.radisys.msml-audit-stream+xml |
+| Iana | 1261083918 | vnd.HandHeld-Entertainment+xml |  | application/vnd.HandHeld-Entertainment+xml |
+| Iana | 1261369801 | ogg |  | application/ogg |
+| Iana | 1264270521 | vnd.iptc.g2.packageitem+xml |  | application/vnd.iptc.g2.packageitem+xml |
+| Iana | 1267216869 | vnd.CCTV |  | video/vnd.CCTV |
+| Iana | 1269969670 | vnd.RenLearn.rlprint |  | application/vnd.RenLearn.rlprint |
+| Iana | 1270605119 | vnd.stepmania.stepchart |  | application/vnd.stepmania.stepchart |
+| Iana | 1271532125 | vnd.3gpp.mcvideo-affiliation-info+xml (OBSOLETED in favor of application/vnd.3gpp.mcvideo-info+xml) |  | application/vnd.3gpp.mcvideo-affiliation-info+xml |
+| Iana | 1272260793 | cql-identifier |  | text/cql-identifier |
+| Iana | 1283070147 | vnd.xmpie.ppkg |  | application/vnd.xmpie.ppkg |
+| Iana | 1283475108 | prs.alvestrand.titrax-sheet |  | application/prs.alvestrand.titrax-sheet |
+| Iana | 1290871586 | opus |  | audio/opus |
+| Iana | 1291226241 | vnd.onepager |  | application/vnd.onepager |
+| Iana | 1291751644 | vnd.fujixerox.docuworks.binder |  | application/vnd.fujixerox.docuworks.binder |
+| Iana | 1292805617 | alto-directory+json |  | application/alto-directory+json |
+| Iana | 1294551089 | EVRC1 |  | audio/EVRC1 |
+| Iana | 1298535354 | vnd.jcp.javame.midlet-rms |  | application/vnd.jcp.javame.midlet-rms |
+| Iana | 1298869663 | vnd.think-cell.ppttc+json |  | application/vnd.think-cell.ppttc+json |
+| Iana | 1308395743 | basic |  | audio/basic |
+| Iana | 1308820138 | vnd.motorola.flexsuite.fis |  | application/vnd.motorola.flexsuite.fis |
+| Iana | 1309734648 | vnd.acm.chatbot+json |  | application/vnd.acm.chatbot+json |
+| Iana | 1311001763 | ohttp-res |  | message/ohttp-res |
+| Iana | 1312911509 | vnd.oipf.cspg-hexbinary |  | application/vnd.oipf.cspg-hexbinary |
+| Iana | 1314571476 | vnd.nokia.mp4vr |  | video/vnd.nokia.mp4vr |
+| Iana | 1314711206 | vnd.pvi.ptid1 |  | application/vnd.pvi.ptid1 |
+| Iana | 1316700297 | wmf |  | image/wmf |
+| Iana | 1317871171 | vnd.fmi.flexstor |  | text/vnd.fmi.flexstor |
+| Iana | 1319735287 | sparql-results+xml |  | application/sparql-results+xml |
+| Iana | 1321857294 | vnd.iptc.g2.catalogitem+xml |  | application/vnd.iptc.g2.catalogitem+xml |
+| Iana | 1322499123 | xenc+xml |  | application/xenc+xml |
+| Iana | 1329015423 | ipfix |  | application/ipfix |
+| Iana | 1331721474 | dec-dx |  | application/dec-dx |
+| Iana | 1332168616 | vnd.ms-playready.initiator+xml |  | application/vnd.ms-playready.initiator+xml |
+| Iana | 1332246415 | x-wmf - DEPRECATED in favor of image/wmf |  | image/x-wmf |
+| Iana | 1335481394 | vnd.noblenet-directory |  | application/vnd.noblenet-directory |
+| Iana | 1336228622 | vnd.3gpp.mcdata-service-config+xml |  | application/vnd.3gpp.mcdata-service-config+xml |
+| Iana | 1337992840 | vnd.mix |  | image/vnd.mix |
+| Iana | 1341779795 | DV |  | video/DV |
+| Iana | 1345522184 | ppsp-tracker+json |  | application/ppsp-tracker+json |
+| Iana | 1346528962 | vnd.oai.workflows+yaml |  | application/vnd.oai.workflows+yaml |
+| Iana | 1347227717 | vnd.oma.bcast.associated-procedure-parameter+xml |  | application/vnd.oma.bcast.associated-procedure-parameter+xml |
+| Iana | 1347231439 | vnd.marlin.drm.license+xml |  | application/vnd.marlin.drm.license+xml |
+| Iana | 1349067412 | G729E |  | audio/G729E |
+| Iana | 1349874601 | vnd.ecowin.chart |  | application/vnd.ecowin.chart |
+| Iana | 1353407983 | vnd.wap.wml |  | text/vnd.wap.wml |
+| Iana | 1358713128 | vnd.qualcomm.brew-app-res |  | application/vnd.qualcomm.brew-app-res |
+| Iana | 1359614180 | vnd.gdl |  | model/vnd.gdl |
+| Iana | 1365633832 | vnd.abc |  | text/vnd.abc |
+| Iana | 1367197292 | oauth-authz-req+jwt |  | application/oauth-authz-req+jwt |
+| Iana | 1368694713 | msword |  | application/msword |
+| Iana | 1369005814 | SMV0 |  | audio/SMV0 |
+| Iana | 1370014260 | vnd.oma.cab-feature-handler+xml |  | application/vnd.oma.cab-feature-handler+xml |
+| Iana | 1372627786 | vnd.3gpp.mcvideo-affiliation-command+xml |  | application/vnd.3gpp.mcvideo-affiliation-command+xml |
+| Iana | 1376676215 | msc-mixer+xml |  | application/msc-mixer+xml |
+| Iana | 1377983452 | vnd.apache.arrow.file |  | application/vnd.apache.arrow.file |
+| Iana | 1378612574 | vnd.ms-windows.printerpairing |  | application/vnd.ms-windows.printerpairing |
+| Iana | 1378989873 | pvd+json |  | application/pvd+json |
+| Iana | 1386974738 | calendar+xml |  | application/calendar+xml |
+| Iana | 1389473401 | vnd.kde.kpresenter |  | application/vnd.kde.kpresenter |
+| Iana | 1392872326 | route-apd+xml |  | application/route-apd+xml |
+| Iana | 1393458892 | vnd.logipipe.circuit+zip |  | application/vnd.logipipe.circuit+zip |
+| Iana | 1395083076 | vnd.collabio.xodocuments.spreadsheet-template |  | application/vnd.collabio.xodocuments.spreadsheet-template |
+| Iana | 1396004198 | vnd.modl |  | application/vnd.modl |
+| Iana | 1396309803 | vnd.hhe.lesson-player |  | application/vnd.hhe.lesson-player |
+| Iana | 1397127342 | SGML |  | application/SGML |
+| Iana | 1397586722 | vnd.frogans.fnc (OBSOLETE) |  | application/vnd.frogans.fnc |
+| Iana | 1398477285 | vnd.firemonkeys.cloudcell |  | application/vnd.firemonkeys.cloudcell |
+| Iana | 1399920820 | prs.vcfbzip2 |  | application/prs.vcfbzip2 |
+| Iana | 1400753887 | css |  | text/css |
+| Iana | 1402953507 | amr-wb+ |  | audio/amr-wb+ |
+| Iana | 1402999297 | matroska |  | video/matroska |
+| Iana | 1403183265 | vnd.americandynamics.acc |  | application/vnd.americandynamics.acc |
+| Iana | 1404343267 | sep-exi |  | application/sep-exi |
+| Iana | 1406852421 | vnd.opengex |  | model/vnd.opengex |
+| Iana | 1407101828 | vnd.dece.data |  | application/vnd.dece.data |
+| Iana | 1407868785 | vnd.age |  | application/vnd.age |
+| Iana | 1411370496 | SMV |  | audio/SMV |
+| Iana | 1411985480 | vnd.infotech.project |  | application/vnd.infotech.project |
+| Iana | 1413817025 | vnd.openxmlformats-officedocument.wordprocessingml.footer+xml |  | application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml |
+| Iana | 1414196563 | zip |  | application/zip |
+| Iana | 1414686593 | vnd.comicbook+zip |  | application/vnd.comicbook+zip |
+| Iana | 1416691203 | CDFX+XML |  | application/CDFX+XML |
+| Iana | 1419891179 | vnd.IPTC.NewsML |  | text/vnd.IPTC.NewsML |
+| Iana | 1423843955 | alto-tipsparams+json |  | application/alto-tipsparams+json |
+| Iana | 1423901882 | vnd.dolby.mps |  | audio/vnd.dolby.mps |
+| Iana | 1425699405 | vnd.radisys.msml-dialog-speech+xml |  | application/vnd.radisys.msml-dialog-speech+xml |
+| Iana | 1426958033 | vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheRecords+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheRecords+xml |
+| Iana | 1427603842 | vnd.heroku+json |  | application/vnd.heroku+json |
+| Iana | 1428508957 | 3gpp2 |  | audio/3gpp2 |
+| Iana | 1430809522 | global-delivery-status |  | message/global-delivery-status |
+| Iana | 1431669032 | vnd.hns.video |  | video/vnd.hns.video |
+| Iana | 1432323856 | vnd.paos.xml |  | application/vnd.paos.xml |
+| Iana | 1432336035 | lpf+zip |  | application/lpf+zip |
+| Iana | 1434422002 | example |  | image/example |
+| Iana | 1435102575 | vnd.yamaha.hv-dic |  | application/vnd.yamaha.hv-dic |
+| Iana | 1437839697 | LXF |  | application/LXF |
+| Iana | 1438392271 | jpeg2000 |  | video/jpeg2000 |
+| Iana | 1441612472 | vnd.eszigno3+xml |  | application/vnd.eszigno3+xml |
+| Iana | 1442136583 | vnd.patentdive |  | application/vnd.patentdive |
+| Iana | 1442777660 | vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml |
+| Iana | 1443796901 | vnd.wfa.wsc |  | application/vnd.wfa.wsc |
+| Iana | 1447934773 | vnd.iptvforum.ttsavc |  | video/vnd.iptvforum.ttsavc |
+| Iana | 1452186027 | dashdelta |  | application/dashdelta |
+| Iana | 1455075526 | obj |  | model/obj |
+| Iana | 1458445620 | step-xml+zip |  | model/step-xml+zip |
+| Iana | 1460453601 | mbms-envelope+xml |  | application/mbms-envelope+xml |
+| Iana | 1462109934 | mbox |  | application/mbox |
+| Iana | 1463413795 | vnd.futoin+json |  | application/vnd.futoin+json |
+| Iana | 1466308906 | grammar-ref-list |  | text/grammar-ref-list |
+| Iana | 1468214095 | vnd.gentoo.pkgmetadata+xml |  | application/vnd.gentoo.pkgmetadata+xml |
+| Iana | 1469526728 | jp2 |  | image/jp2 |
+| Iana | 1472873323 | swid+xml |  | application/swid+xml |
+| Iana | 1474921673 | vnd.omads-folder+xml |  | application/vnd.omads-folder+xml |
+| Iana | 1475930477 | alto-networkmap+json |  | application/alto-networkmap+json |
+| Iana | 1478743956 | vnd.gentoo.gpkg |  | application/vnd.gentoo.gpkg |
+| Iana | 1479428782 | vnd.dvb.iptv.alfec-enhancement |  | application/vnd.dvb.iptv.alfec-enhancement |
+| Iana | 1480088256 | vnd.3gpp.access-transfer-events+xml |  | application/vnd.3gpp.access-transfer-events+xml |
+| Iana | 1485226161 | vnd.collabio.xodocuments.document |  | application/vnd.collabio.xodocuments.document |
+| Iana | 1485532216 | prs.cww |  | application/prs.cww |
+| Iana | 1489174872 | vnd.cryptomator.vault |  | application/vnd.cryptomator.vault |
+| Iana | 1490533465 | sensml+cbor |  | application/sensml+cbor |
+| Iana | 1504920749 | vnd.google-earth.kml+xml |  | application/vnd.google-earth.kml+xml |
+| Iana | 1505034774 | vnd.micrografx.flo |  | application/vnd.micrografx.flo |
+| Iana | 1514583043 | vnd.nintendo.snes.rom |  | application/vnd.nintendo.snes.rom |
+| Iana | 1516953976 | vnd.ecowin.seriesupdate |  | application/vnd.ecowin.seriesupdate |
+| Iana | 1517315218 | vnd.afpc.modca-mediummap |  | application/vnd.afpc.modca-mediummap |
+| Iana | 1528773834 | vnd.3gpp.mcptt-affiliation-command+xml |  | application/vnd.3gpp.mcptt-affiliation-command+xml |
+| Iana | 1530930667 | mbms-schedule+xml |  | application/mbms-schedule+xml |
+| Iana | 1531716268 | vnd.oma.bcast.notification+xml |  | application/vnd.oma.bcast.notification+xml |
+| Iana | 1533721519 | G711-0 |  | audio/G711-0 |
+| Iana | 1537757002 | EDIFACT |  | application/EDIFACT |
+| Iana | 1537825499 | vnd.zoo.kcl |  | text/vnd.zoo.kcl |
+| Iana | 1541299051 | vnd.oasis.opendocument.image-template |  | application/vnd.oasis.opendocument.image-template |
+| Iana | 1550746427 | pkixcmp |  | application/pkixcmp |
+| Iana | 1553098306 | vnd.leap+json |  | application/vnd.leap+json |
+| Iana | 1553350424 | vnd.apache.parquet |  | application/vnd.apache.parquet |
+| Iana | 1554586014 | token-introspection+jwt |  | application/token-introspection+jwt |
+| Iana | 1555320114 | heif-sequence |  | image/heif-sequence |
+| Iana | 1556358890 | jxsc |  | image/jxsc |
+| Iana | 1560688967 | vnd.japannet-verification-wakeup |  | application/vnd.japannet-verification-wakeup |
+| Iana | 1561541638 | vnd.in3d.3dml |  | text/vnd.in3d.3dml |
+| Iana | 1564300650 | EVRCNW1 |  | audio/EVRCNW1 |
+| Iana | 1565024009 | rtploopback |  | application/rtploopback |
+| Iana | 1568461348 | vnd.data-vision.rdz |  | application/vnd.data-vision.rdz |
+| Iana | 1573981518 | private-token-response |  | application/private-token-response |
+| Iana | 1574026710 | ipp |  | application/ipp |
+| Iana | 1574748413 | vnd.api+json |  | application/vnd.api+json |
+| Iana | 1583301881 | vnd.intu.qfx |  | application/vnd.intu.qfx |
+| Iana | 1585678573 | moss-keys |  | application/moss-keys |
+| Iana | 1586454784 | vnd.vmx.cvsd |  | audio/vnd.vmx.cvsd |
+| Iana | 1589663858 | vnd.wordlift |  | application/vnd.wordlift |
+| Iana | 1593479457 | pidf-diff+xml |  | application/pidf-diff+xml |
+| Iana | 1593720423 | vnd.koan |  | application/vnd.koan |
+| Iana | 1596643479 | GSM-EFR |  | audio/GSM-EFR |
+| Iana | 1598499066 | vnd.dvb.esgcontainer |  | application/vnd.dvb.esgcontainer |
+| Iana | 1598516405 | xop+xml |  | application/xop+xml |
+| Iana | 1601272524 | vnd.sbm.mid2 |  | application/vnd.sbm.mid2 |
+| Iana | 1606271475 | vnd.japannet-registration |  | application/vnd.japannet-registration |
+| Iana | 1607319386 | vp+cose |  | application/vp+cose |
+| Iana | 1607493878 | MPV |  | video/MPV |
+| Iana | 1608585000 | vnd.valve.source.compiled-map |  | model/vnd.valve.source.compiled-map |
+| Iana | 1610331905 | vnd.valve.source.material |  | application/vnd.valve.source.material |
+| Iana | 1612059717 | vnd.dts.uhd |  | audio/vnd.dts.uhd |
+| Iana | 1616122750 | pkcs10 |  | application/pkcs10 |
+| Iana | 1618248985 | tamp-update |  | application/tamp-update |
+| Iana | 1621031589 | vnd.dolby.mlp |  | audio/vnd.dolby.mlp |
+| Iana | 1621518846 | ulpfec |  | application/ulpfec |
+| Iana | 1621583018 | t140c |  | audio/t140c |
+| Iana | 1623329905 | vnd.wap.si |  | text/vnd.wap.si |
+| Iana | 1623729236 | vnd.lotus-1-2-3 |  | application/vnd.lotus-1-2-3 |
+| Iana | 1623839138 | 1d-interleaved-parityfec |  | text/1d-interleaved-parityfec |
+| Iana | 1624322153 | vnd.ibm.modcap (OBSOLETED in favor of application/vnd.afpc.modca) |  | application/vnd.ibm.modcap |
+| Iana | 1626546553 | vnd.isac.fcs |  | application/vnd.isac.fcs |
+| Iana | 1627534647 | vnd.bpf |  | application/vnd.bpf |
+| Iana | 1628407127 | mathml-presentation+xml |  | application/mathml-presentation+xml |
+| Iana | 1628556655 | vnd.hyperdrive+json |  | application/vnd.hyperdrive+json |
+| Iana | 1629407822 | example |  | model/example |
+| Iana | 1630469437 | vnd.software602.filler.form-xml-zip |  | application/vnd.software602.filler.form-xml-zip |
+| Iana | 1631935144 | vnd.freelog.comic |  | application/vnd.freelog.comic |
+| Iana | 1632682905 | expect-ct-report+json |  | application/expect-ct-report+json |
+| Iana | 1632936163 | tamp-apex-update |  | application/tamp-apex-update |
+| Iana | 1633720624 | tlsrpt+json |  | application/tlsrpt+json |
+| Iana | 1637186388 | vnd.music-niff |  | application/vnd.music-niff |
+| Iana | 1637610671 | MPA |  | audio/MPA |
+| Iana | 1642725723 | CEA |  | application/CEA |
+| Iana | 1643328057 | stix+json |  | application/stix+json |
+| Iana | 1647999219 | RED |  | text/RED |
+| Iana | 1648625350 | vnd.sailingtracker.track |  | application/vnd.sailingtracker.track |
+| Iana | 1650119804 | vnd.ims.imsccv1p1 |  | application/vnd.ims.imsccv1p1 |
+| Iana | 1650765870 | vnd.mfmp |  | application/vnd.mfmp |
+| Iana | 1651655840 | vc1 |  | video/vc1 |
+| Iana | 1651757293 | vnd.ms-word.document.macroEnabled.12 |  | application/vnd.ms-word.document.macroEnabled.12 |
+| Iana | 1652132669 | geoxacml+xml |  | application/geoxacml+xml |
+| Iana | 1655456439 | news (OBSOLETED by [RFC5537]) |  | message/news |
+| Iana | 1660650536 | rtx |  | application/rtx |
+| Iana | 1661538476 | vnd.crick.clicker.keyboard |  | application/vnd.crick.clicker.keyboard |
+| Iana | 1663033906 | vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml |  | application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml |
+| Iana | 1665161502 | dash+xml |  | application/dash+xml |
+| Iana | 1670429068 | iges |  | model/iges |
+| Iana | 1671264184 | epp+xml |  | application/epp+xml |
+| Iana | 1673297055 | tiff-fx |  | image/tiff-fx |
+| Iana | 1674093862 | vnd.Mobius.DAF |  | application/vnd.Mobius.DAF |
+| Iana | 1675095755 | 3gpdash-qoe-report+xml |  | application/3gpdash-qoe-report+xml |
+| Iana | 1675515245 | vnd.blueice.multipass |  | application/vnd.blueice.multipass |
+| Iana | 1681935774 | vnd.si.uricatalogue (OBSOLETED by request) |  | text/vnd.si.uricatalogue |
+| Iana | 1682527214 | vnd.openxmlformats-officedocument.presentationml.notesMaster+xml |  | application/vnd.openxmlformats-officedocument.presentationml.notesMaster+xml |
+| Iana | 1684578751 | fwdred |  | audio/fwdred |
+| Iana | 1685005414 | tab-separated-values |  | text/tab-separated-values |
+| Iana | 1685128235 | city+json |  | application/city+json |
+| Iana | 1685356633 | vnd.ms-powerpoint.template.macroEnabled.12 |  | application/vnd.ms-powerpoint.template.macroEnabled.12 |
+| Iana | 1687570688 | mp4 |  | video/mp4 |
+| Iana | 1689960738 | vnd.bbf.usp.msg+json |  | application/vnd.bbf.usp.msg+json |
+| Iana | 1690481899 | vnd.shootproof+json |  | application/vnd.shootproof+json |
+| Iana | 1692368822 | vnd.genomatix.tuxedo |  | application/vnd.genomatix.tuxedo |
+| Iana | 1695147511 | vnd.CELP |  | audio/vnd.CELP |
+| Iana | 1698179595 | route-usd+xml |  | application/route-usd+xml |
+| Iana | 1701026926 | clr |  | application/clr |
+| Iana | 1702047748 | vnd.las.las+xml |  | application/vnd.las.las+xml |
+| Iana | 1702118066 | vnd.gentoo.catmetadata+xml |  | application/vnd.gentoo.catmetadata+xml |
+| Iana | 1704586580 | vnd.cendio.thinlinc.clientconf |  | application/vnd.cendio.thinlinc.clientconf |
+| Iana | 1706692797 | vnd.3gpp.sms+xml |  | application/vnd.3gpp.sms+xml |
+| Iana | 1714512529 | ocsp-response |  | application/ocsp-response |
+| Iana | 1716357897 | vnd.openxmlformats-officedocument.presentationml.slideMaster+xml |  | application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml |
+| Iana | 1717549863 | vnd.dolby.pulse.1 |  | audio/vnd.dolby.pulse.1 |
+| Iana | 1717841530 | tamp-error |  | application/tamp-error |
+| Iana | 1718042351 | vnd.3gpp.pfcp |  | application/vnd.3gpp.pfcp |
+| Iana | 1719636634 | alto-cdni+json |  | application/alto-cdni+json |
+| Iana | 1720057282 | vnd.gentics.grd+json |  | application/vnd.gentics.grd+json |
+| Iana | 1721268295 | metalink4+xml |  | application/metalink4+xml |
+| Iana | 1722242485 | vnd.google-earth.kmz |  | application/vnd.google-earth.kmz |
+| Iana | 1723591648 | vnd.openxmlformats-officedocument.drawingml.chartshapes+xml |  | application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml |
+| Iana | 1724265822 | vnd.nokia.mobile-xmf |  | audio/vnd.nokia.mobile-xmf |
+| Iana | 1724508731 | vnd.sun.j2me.app-descriptor |  | text/vnd.sun.j2me.app-descriptor |
+| Iana | 1724910760 | vnd.powerbuilder75-s |  | application/vnd.powerbuilder75-s |
+| Iana | 1727175336 | vnd.dts.hd |  | audio/vnd.dts.hd |
+| Iana | 1729556303 | GSM-HR-08 |  | audio/GSM-HR-08 |
+| Iana | 1730947935 | vnd.ntt-local.content-share |  | application/vnd.ntt-local.content-share |
+| Iana | 1735976981 | vnd.nato.bindingdataobject+xml |  | application/vnd.nato.bindingdataobject+xml |
+| Iana | 1737548538 | vnd.openxmlformats-officedocument.presentationml.notesSlide+xml |  | application/vnd.openxmlformats-officedocument.presentationml.notesSlide+xml |
+| Iana | 1739691841 | zstd |  | application/zstd |
+| Iana | 1747625988 | set-payment-initiation |  | application/set-payment-initiation |
+| Iana | 1748682753 | vnd.laszip |  | application/vnd.laszip |
+| Iana | 1750670724 | vnd.hzn-3d-crossword |  | application/vnd.hzn-3d-crossword |
+| Iana | 1754328778 | vnd.japannet-jpnstore-wakeup |  | application/vnd.japannet-jpnstore-wakeup |
+| Iana | 1755453350 | L24 |  | audio/L24 |
+| Iana | 1756920313 | encaprtp |  | video/encaprtp |
+| Iana | 1764878474 | vnd.dwf |  | model/vnd.dwf |
+| Iana | 1765471557 | aptx |  | audio/aptx |
+| Iana | 1767270444 | vnd.drive+json |  | application/vnd.drive+json |
+| Iana | 1770438795 | vnd.fujifilm.fb.docuworks |  | application/vnd.fujifilm.fb.docuworks |
+| Iana | 1770716747 | vnd.3gpp.mcvideo-location-info+xml |  | application/vnd.3gpp.mcvideo-location-info+xml |
+| Iana | 1771736547 | vnd.bbf.usp.error |  | application/vnd.bbf.usp.error |
+| Iana | 1773995914 | sensml-exi |  | application/sensml-exi |
+| Iana | 1774385812 | geo+json |  | application/geo+json |
+| Iana | 1779423644 | commonground |  | application/commonground |
+| Iana | 1780460061 | mmt-usd+xml |  | application/mmt-usd+xml |
+| Iana | 1783359439 | wita |  | application/wita |
+| Iana | 1785152264 | vnd.ctc-posml |  | application/vnd.ctc-posml |
+| Iana | 1786091475 | CelB |  | video/CelB |
+| Iana | 1789479840 | vnd.vividence.scriptfile |  | application/vnd.vividence.scriptfile |
+| Iana | 1792524990 | vnd.antix.game-component |  | application/vnd.antix.game-component |
+| Iana | 1794933711 | jcr-cnd |  | text/jcr-cnd |
+| Iana | 1796523586 | alto-endpointprop+json |  | application/alto-endpointprop+json |
+| Iana | 1797176887 | jpm |  | image/jpm |
+| Iana | 1798117158 | vnd.powerbuilder75 |  | application/vnd.powerbuilder75 |
+| Iana | 1800208423 | vnd.gpxsee.map+xml |  | application/vnd.gpxsee.map+xml |
+| Iana | 1800243101 | vnd.3gpp.mcvideo-mbms-usage-info+xml |  | application/vnd.3gpp.mcvideo-mbms-usage-info+xml |
+| Iana | 1800969323 | vnd.ecowin.seriesrequest |  | application/vnd.ecowin.seriesrequest |
+| Iana | 1802856897 | vnd.hcl-bireports |  | application/vnd.hcl-bireports |
+| Iana | 1803756610 | vnd.globalplatform.card-content-mgt-response |  | application/vnd.globalplatform.card-content-mgt-response |
+| Iana | 1803827993 | gnap-binding-rotation-jws |  | application/gnap-binding-rotation-jws |
+| Iana | 1804860659 | vnd.ms-cab-compressed |  | application/vnd.ms-cab-compressed |
+| Iana | 1806405536 | vnd.etsi.iptvdiscovery+xml |  | application/vnd.etsi.iptvdiscovery+xml |
+| Iana | 1807990718 | mbms-register+xml |  | application/mbms-register+xml |
+| Iana | 1808196427 | vnd.keyman.kmx |  | application/vnd.keyman.kmx |
+| Iana | 1811286897 | media_control+xml |  | application/media_control+xml |
+| Iana | 1813270382 | xslt+xml |  | application/xslt+xml |
+| Iana | 1813900545 | x-x509-next-ca-cert |  | application/x-x509-next-ca-cert |
+| Iana | 1815187387 | vnd.datapackage+json |  | application/vnd.datapackage+json |
+| Iana | 1819549456 | SMV-QCP |  | audio/SMV-QCP |
+| Iana | 1820735799 | toc+cbor |  | application/toc+cbor |
+| Iana | 1821449361 | vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml |
+| Iana | 1822006688 | raptorfec |  | application/raptorfec |
+| Iana | 1823253405 | vnd.orange.indata |  | application/vnd.orange.indata |
+| Iana | 1823613896 | vnd.oipf.spdiscovery+xml |  | application/vnd.oipf.spdiscovery+xml |
+| Iana | 1824501475 | alto-propmapparams+json |  | application/alto-propmapparams+json |
+| Iana | 1825022136 | vnd.informix-visionary (OBSOLETED in favor of application/vnd.visionary) |  | application/vnd.informix-visionary |
+| Iana | 1825051104 | vnd.bluetooth.ep.oob |  | application/vnd.bluetooth.ep.oob |
+| Iana | 1825399547 | mj2 |  | video/mj2 |
+| Iana | 1827486075 | vnd.openxmlformats-officedocument.spreadsheetml.queryTable+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.queryTable+xml |
+| Iana | 1838254950 | vnd.oipf.ueprofile+xml |  | application/vnd.oipf.ueprofile+xml |
+| Iana | 1841200561 | sru+xml |  | application/sru+xml |
+| Iana | 1847117660 | vp |  | application/vp |
+| Iana | 1847799466 | vnd.ims.imsccv1p3 |  | application/vnd.ims.imsccv1p3 |
+| Iana | 1848133025 | x3d-vrml |  | model/x3d-vrml |
+| Iana | 1849379916 | x-www-form-urlencoded |  | application/x-www-form-urlencoded |
+| Iana | 1855357811 | nlsml+xml |  | application/nlsml+xml |
+| Iana | 1863300727 | ip-mr_v2.5 |  | audio/ip-mr_v2.5 |
+| Iana | 1863426116 | vnd.oma.dcd |  | application/vnd.oma.dcd |
+| Iana | 1867547459 | vnd.3gpp.mcdata-signalling |  | application/vnd.3gpp.mcdata-signalling |
+| Iana | 1870918813 | vnd.radisys.msml-dialog-transform+xml |  | application/vnd.radisys.msml-dialog-transform+xml |
+| Iana | 1873372395 | vnd.ibm.afplinedata (OBSOLETED in favor of vnd.afpc.afplinedata) |  | application/vnd.ibm.afplinedata |
+| Iana | 1873908550 | vnd.ims.lti.v2.toolsettings.simple+json |  | application/vnd.ims.lti.v2.toolsettings.simple+json |
+| Iana | 1874272716 | mpeg4-generic |  | audio/mpeg4-generic |
+| Iana | 1877580679 | GSM |  | audio/GSM |
+| Iana | 1877781678 | vnd.oma.xcap-directory+xml |  | application/vnd.oma.xcap-directory+xml |
+| Iana | 1880924644 | TSVCIS |  | audio/TSVCIS |
+| Iana | 1884683619 | pgp-signature |  | application/pgp-signature |
+| Iana | 1884967282 | vnd.snesdev-page-table |  | application/vnd.snesdev-page-table |
+| Iana | 1885045792 | prs.cyn |  | application/prs.cyn |
+| Iana | 1886613558 | vnd.ubisoft.webplayer |  | application/vnd.ubisoft.webplayer |
+| Iana | 1888920778 | evc |  | video/evc |
+| Iana | 1893947460 | cose-key |  | application/cose-key |
+| Iana | 1894544846 | vnd.sun.wadl+xml |  | application/vnd.sun.wadl+xml |
+| Iana | 1894883382 | vnd.erofs |  | application/vnd.erofs |
+| Iana | 1902469027 | JT |  | model/JT |
+| Iana | 1902630665 | EmergencyCallData.Comment+xml |  | application/EmergencyCallData.Comment+xml |
+| Iana | 1914911530 | iLBC |  | audio/iLBC |
+| Iana | 1916595166 | riscos |  | application/riscos |
+| Iana | 1917324059 | vnd.ah-barcode |  | application/vnd.ah-barcode |
+| Iana | 1919128391 | vnd.microsoft.portable-executable |  | application/vnd.microsoft.portable-executable |
+| Iana | 1926351755 | H263-1998 |  | video/H263-1998 |
+| Iana | 1929696087 | vnd.uri-map |  | application/vnd.uri-map |
+| Iana | 1930812415 | simple-message-summary |  | application/simple-message-summary |
+| Iana | 1930820961 | fhir+xml |  | application/fhir+xml |
+| Iana | 1934041989 | vnd.ms-xpsdocument |  | application/vnd.ms-xpsdocument |
+| Iana | 1935310105 | vnd.etsi.aoc+xml |  | application/vnd.etsi.aoc+xml |
+| Iana | 1936061579 | vnd.marlin.drm.actiontoken+xml |  | application/vnd.marlin.drm.actiontoken+xml |
+| Iana | 1936666943 | vnd.kodak-descriptor |  | application/vnd.kodak-descriptor |
+| Iana | 1938163232 | vnd.zul |  | application/vnd.zul |
+| Iana | 1940771396 | vnd.rar |  | application/vnd.rar |
+| Iana | 1943386155 | vnd.tmobile-livetv |  | application/vnd.tmobile-livetv |
+| Iana | 1945881547 | vnd.oma.lwm2m+tlv |  | application/vnd.oma.lwm2m+tlv |
+| Iana | 1946006846 | alto-cdnifilter+json |  | application/alto-cdnifilter+json |
+| Iana | 1946098896 | vnd.yamaha.hv-script |  | application/vnd.yamaha.hv-script |
+| Iana | 1948177638 | tone |  | audio/tone |
+| Iana | 1954516825 | EVRCNW0 |  | audio/EVRCNW0 |
+| Iana | 1958789691 | vnd.motorola.video |  | video/vnd.motorola.video |
+| Iana | 1961475553 | vnd.Mobius.DIS |  | application/vnd.Mobius.DIS |
+| Iana | 1964730960 | ATRAC-X |  | audio/ATRAC-X |
+| Iana | 1968309032 | vnd.recordare.musicxml |  | application/vnd.recordare.musicxml |
+| Iana | 1968757943 | vnd.oma.bcast.sgdu |  | application/vnd.oma.bcast.sgdu |
+| Iana | 1970025208 | vnd.s3sms |  | application/vnd.s3sms |
+| Iana | 1970132485 | rtx |  | video/rtx |
+| Iana | 1970225990 | vnd.ms-excel.addin.macroEnabled.12 |  | application/vnd.ms-excel.addin.macroEnabled.12 |
+| Iana | 1971868232 | mhas |  | audio/mhas |
+| Iana | 1979343886 | mp4 |  | application/mp4 |
+| Iana | 1984804763 | vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml |  | application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml |
+| Iana | 1985331204 | vnd.novadigm.EDX |  | application/vnd.novadigm.EDX |
+| Iana | 1988814640 | EmergencyCallData.Control+xml |  | application/EmergencyCallData.Control+xml |
+| Iana | 1993893760 | vnd.cyclonedx+json |  | application/vnd.cyclonedx+json |
+| Iana | 1994162708 | x-x509-ca-ra-cert |  | application/x-x509-ca-ra-cert |
+| Iana | 1996196873 | bhttp |  | message/bhttp |
+| Iana | 1999796314 | vnd.sigrok.session |  | application/vnd.sigrok.session |
+| Iana | 2006452535 | tracking-status |  | message/tracking-status |
+| Iana | 2007977406 | ibe-pp-data |  | application/ibe-pp-data |
+| Iana | 2008268890 | vnd.anki |  | application/vnd.anki |
+| Iana | 2008460097 | batch-SMTP |  | application/batch-SMTP |
+| Iana | 2009488547 | sparql-query |  | application/sparql-query |
+| Iana | 2013311122 | vnd.3gpp.mcptt-ue-init-config+xml |  | application/vnd.3gpp.mcptt-ue-init-config+xml |
+| Iana | 2018120566 | vnd.ms-excel.sheet.binary.macroEnabled.12 |  | application/vnd.ms-excel.sheet.binary.macroEnabled.12 |
+| Iana | 2018760936 | sipfrag |  | message/sipfrag |
+| Iana | 2019995601 | vnd.Mobius.MQY |  | application/vnd.Mobius.MQY |
+| Iana | 2022828087 | vnd.framemaker |  | application/vnd.framemaker |
+| Iana | 2028473068 | vnd.radisys.msml-dialog-base+xml |  | application/vnd.radisys.msml-dialog-base+xml |
+| Iana | 2028719513 | vnd.sealed.tiff |  | application/vnd.sealed.tiff |
+| Iana | 2030495307 | vnd.apple.installer+xml |  | application/vnd.apple.installer+xml |
+| Iana | 2034259047 | vnd.oipf.mippvcontrolmessage+xml |  | application/vnd.oipf.mippvcontrolmessage+xml |
+| Iana | 2035115041 | cdmi-container |  | application/cdmi-container |
+| Iana | 2036133841 | vnd.3gpp.GMOP+xml |  | application/vnd.3gpp.GMOP+xml |
+| Iana | 2037645994 | vnd.ga4gh.passport+jwt |  | application/vnd.ga4gh.passport+jwt |
+| Iana | 2037854732 | prs.xsf+xml |  | application/prs.xsf+xml |
+| Iana | 2038814550 | 1d-interleaved-parityfec |  | video/1d-interleaved-parityfec |
+| Iana | 2039821742 | cwl+yaml |  | application/cwl+yaml |
+| Iana | 2043506452 | vnd.wfa.dpp |  | application/vnd.wfa.dpp |
+| Iana | 2044835952 | raptorfec |  | audio/raptorfec |
+| Iana | 2049626357 | vnd.shp |  | application/vnd.shp |
+| Iana | 2056859347 | BT656 |  | video/BT656 |
+| Iana | 2057474973 | g3fax |  | image/g3fax |
+| Iana | 2059809139 | vnd.adobe.flash.movie |  | application/vnd.adobe.flash.movie |
+| Iana | 2061607266 | geopose+json |  | application/geopose+json |
+| Iana | 2063648569 | vnd.groove-tool-template |  | application/vnd.groove-tool-template |
+| Iana | 2066517752 | vnd.oipf.contentaccessstreaming+xml |  | application/vnd.oipf.contentaccessstreaming+xml |
+| Iana | 2066627270 | vnd.mif |  | application/vnd.mif |
+| Iana | 2067272457 | vnd.cld |  | model/vnd.cld |
+| Iana | 2070717028 | javascript |  | text/javascript |
+| Iana | 2071630442 | vnd.hsl |  | application/vnd.hsl |
+| Iana | 2074214691 | rtf |  | application/rtf |
+| Iana | 2077993683 | vnd.ibm.electronic-media |  | application/vnd.ibm.electronic-media |
+| Iana | 2078685981 | vnd.intertrust.nncp |  | application/vnd.intertrust.nncp |
+| Iana | 2086806946 | index.obj |  | application/index.obj |
+| Iana | 2087793084 | vnd.vtu |  | model/vnd.vtu |
+| Iana | 2090440813 | whoispp-response |  | application/whoispp-response |
+| Iana | 2091321435 | vnd.windows.devicepairing |  | application/vnd.windows.devicepairing |
+| Iana | 2091601761 | 3mf |  | model/3mf |
+| Iana | 2093684979 | vnd.avistar+xml |  | application/vnd.avistar+xml |
+| Iana | 2097038630 | markdown |  | text/markdown |
+| Iana | 2109898018 | woff2 |  | font/woff2 |
+| Iana | 2111746954 | vnd.iptc.g2.newsmessage+xml |  | application/vnd.iptc.g2.newsmessage+xml |
+| Iana | 2117373776 | vnd.android.ota |  | application/vnd.android.ota |
+| Iana | 2118978808 | vnd.syncml.dm+xml |  | application/vnd.syncml.dm+xml |
+| Iana | 2120271273 | MF4 |  | application/MF4 |
+| Iana | 2123153113 | vnd.ecowin.filerequest |  | application/vnd.ecowin.filerequest |
+| Iana | 2125042282 | vnd.ibm.rights-management |  | application/vnd.ibm.rights-management |
+| Iana | 2125697201 | vnd.3M.Post-it-Notes |  | application/vnd.3M.Post-it-Notes |
+| Iana | 2126140606 | vnd.nokia.n-gage.ac+xml |  | application/vnd.nokia.n-gage.ac+xml |
+| Iana | 2126647565 | vnd.xiff |  | image/vnd.xiff |
+| Iana | 2137429668 | vnd.wmf.bootstrap |  | application/vnd.wmf.bootstrap |
+| Iana | 2141005017 | vnd.imagemeter.folder+zip |  | application/vnd.imagemeter.folder+zip |
+| Iana | 2147915676 | vnd.xmpie.xlim |  | application/vnd.xmpie.xlim |
+| Iana | 2150627582 | resource-lists+xml |  | application/resource-lists+xml |
+| Iana | 2154978208 | vnd.scribus |  | application/vnd.scribus |
+| Iana | 2155103555 | vnd.sbm.cid |  | application/vnd.sbm.cid |
+| Iana | 2156414134 | vnd.3gpp.ussd+xml |  | application/vnd.3gpp.ussd+xml |
+| Iana | 2158082698 | vnd.sealed.doc |  | application/vnd.sealed.doc |
+| Iana | 2159550589 | vnd.openxmlformats-officedocument.presentationml.tableStyles+xml |  | application/vnd.openxmlformats-officedocument.presentationml.tableStyles+xml |
+| Iana | 2166160279 | vnd.cybank |  | application/vnd.cybank |
+| Iana | 2166384575 | xml |  | text/xml |
+| Iana | 2166834726 | sip |  | message/sip |
+| Iana | 2167279598 | vnd.veritone.aion+json |  | application/vnd.veritone.aion+json |
+| Iana | 2167490047 | apng |  | image/apng |
+| Iana | 2167893303 | pkix-pkipath |  | application/pkix-pkipath |
+| Iana | 2168312813 | SMPTE292M |  | video/SMPTE292M |
+| Iana | 2170054828 | vnd.mason+json |  | application/vnd.mason+json |
+| Iana | 2170371035 | vnd.dolby.pl2x |  | audio/vnd.dolby.pl2x |
+| Iana | 2170628950 | vnd.usda |  | model/vnd.usda |
+| Iana | 2173042511 | rpki-checklist |  | application/rpki-checklist |
+| Iana | 2175160977 | ATF |  | application/ATF |
+| Iana | 2175298543 | cybercash |  | application/cybercash |
+| Iana | 2175810726 | appledouble |  | multipart/appledouble |
+| Iana | 2179273523 | vnd.hal+xml |  | application/vnd.hal+xml |
+| Iana | 2182987234 | json |  | application/json |
+| Iana | 2183993078 | vnd.uplanet.bearer-choice |  | application/vnd.uplanet.bearer-choice |
+| Iana | 2186089726 | vnd.cyan.dean.root+xml |  | application/vnd.cyan.dean.root+xml |
+| Iana | 2188523083 | vnd.oma-scws-config |  | application/vnd.oma-scws-config |
+| Iana | 2188619739 | vnd.noblenet-web |  | application/vnd.noblenet-web |
+| Iana | 2189485322 | vnd.octel.sbc |  | audio/vnd.octel.sbc |
+| Iana | 2189656763 | vnd.collection+json |  | application/vnd.collection+json |
+| Iana | 2189723454 | vnd.3gpp.mcptt-floor-request+xml |  | application/vnd.3gpp.mcptt-floor-request+xml |
+| Iana | 2190611199 | vnd.intu.qbo |  | application/vnd.intu.qbo |
+| Iana | 2190910405 | vnd.pawaafile |  | application/vnd.pawaafile |
+| Iana | 2195732661 | gnap-binding-rotation-jwsd |  | application/gnap-binding-rotation-jwsd |
+| Iana | 2196028526 | prs.hpub+zip |  | application/prs.hpub+zip |
+| Iana | 2199317801 | QSIG |  | application/QSIG |
+| Iana | 2202086007 | jpx |  | image/jpx |
+| Iana | 2204373978 | vnd.ims.imsccv1p2 |  | application/vnd.ims.imsccv1p2 |
+| Iana | 2204954176 | vnd.1ob |  | application/vnd.1ob |
+| Iana | 2205295552 | vnd.dvb.ipdcesgaccess |  | application/vnd.dvb.ipdcesgaccess |
+| Iana | 2205754082 | xacml+xml |  | application/xacml+xml |
+| Iana | 2205828326 | vnd.jsk.isdn-ngn |  | application/vnd.jsk.isdn-ngn |
+| Iana | 2208458702 | urc-grpsheet+xml |  | application/urc-grpsheet+xml |
+| Iana | 2209306868 | rtp-enc-aescm128 |  | text/rtp-enc-aescm128 |
+| Iana | 2210814693 | vnd.aplextor.warrp+json |  | application/vnd.aplextor.warrp+json |
+| Iana | 2211731750 | flexfec |  | audio/flexfec |
+| Iana | 2212252381 | vnd.etsi.iptvsad-cod+xml |  | application/vnd.etsi.iptvsad-cod+xml |
+| Iana | 2212794734 | vnd.rig.cryptonote |  | application/vnd.rig.cryptonote |
+| Iana | 2213303567 | vnd.openxmlformats-officedocument.spreadsheetml.template |  | application/vnd.openxmlformats-officedocument.spreadsheetml.template |
+| Iana | 2215690392 | widget |  | application/widget |
+| Iana | 2220125132 | vnd.xmpie.plan |  | application/vnd.xmpie.plan |
+| Iana | 2220320885 | t140 |  | text/t140 |
+| Iana | 2221037869 | encaprtp |  | text/encaprtp |
+| Iana | 2222656293 | application/trust-mark+jwt |  | application/trust-mark+jwt |
+| Iana | 2225459057 | vnd.openxmlformats-officedocument.presentationml.viewProps+xml |  | application/vnd.openxmlformats-officedocument.presentationml.viewProps+xml |
+| Iana | 2227453058 | vnd.ericsson.quickcall |  | application/vnd.ericsson.quickcall |
+| Iana | 2229859570 | sensml+xml |  | application/sensml+xml |
+| Iana | 2230729471 | vnd.grafeq |  | application/vnd.grafeq |
+| Iana | 2233227456 | vnd.fdsn.mseed |  | application/vnd.fdsn.mseed |
+| Iana | 2234765886 | encrypted |  | multipart/encrypted |
+| Iana | 2238037173 | wsdl+xml |  | application/wsdl+xml |
+| Iana | 2240299724 | vnd.cns.anp1 |  | audio/vnd.cns.anp1 |
+| Iana | 2240914490 | parallel |  | multipart/parallel |
+| Iana | 2241674470 | vnd.motorola.flexsuite.gotap |  | application/vnd.motorola.flexsuite.gotap |
+| Iana | 2248538436 | flexfec |  | video/flexfec |
+| Iana | 2250067783 | vnd.oipf.dae.svg+xml |  | application/vnd.oipf.dae.svg+xml |
+| Iana | 2250103003 | vnd.3gpp.s1ap |  | application/vnd.3gpp.s1ap |
+| Iana | 2250922050 | vnd.fpx |  | image/vnd.fpx |
+| Iana | 2252083475 | vnd.musician |  | application/vnd.musician |
+| Iana | 2252256664 | scim+json |  | application/scim+json |
+| Iana | 2258762926 | vnd.ims.lti.v2.toolproxy+json |  | application/vnd.ims.lti.v2.toolproxy+json |
+| Iana | 2262689688 | vq-rtcpxr |  | application/vq-rtcpxr |
+| Iana | 2265180570 | vnd.wap.wmlc |  | application/vnd.wap.wmlc |
+| Iana | 2265585215 | trig |  | application/trig |
+| Iana | 2266263228 | TETRA_ACELP_BB |  | audio/TETRA_ACELP_BB |
+| Iana | 2269607461 | vnd.fujixerox.ddd |  | application/vnd.fujixerox.ddd |
+| Iana | 2269888961 | vnd.dvb.iptv.alfec-base |  | application/vnd.dvb.iptv.alfec-base |
+| Iana | 2272512056 | hyperstudio |  | application/hyperstudio |
+| Iana | 2274858653 | vnd.dece.mp4 |  | video/vnd.dece.mp4 |
+| Iana | 2280676910 | vnd.publishare-delta-tree |  | application/vnd.publishare-delta-tree |
+| Iana | 2282658075 | vnd.dvb.notif-ia-msglist+xml |  | application/vnd.dvb.notif-ia-msglist+xml |
+| Iana | 2283615656 | vnd.nuera.ecelp4800 |  | audio/vnd.nuera.ecelp4800 |
+| Iana | 2283985454 | nasdata |  | application/nasdata |
+| Iana | 2284098760 | u3d |  | model/u3d |
+| Iana | 2284811522 | spdx+json |  | application/spdx+json |
+| Iana | 2285752049 | tnauthlist |  | application/tnauthlist |
+| Iana | 2288013072 | http |  | application/http |
+| Iana | 2288395329 | vnd.curl |  | text/vnd.curl |
+| Iana | 2296385429 | vnd.irepository.package+xml |  | application/vnd.irepository.package+xml |
+| Iana | 2298246905 | vnd.fdsn.stationxml+xml |  | application/vnd.fdsn.stationxml+xml |
+| Iana | 2300672639 | vnd.iptvforum.2dparityfec-1010 |  | video/vnd.iptvforum.2dparityfec-1010 |
+| Iana | 2302340809 | fits |  | image/fits |
+| Iana | 2303840961 | vnd.3gpp.SRVCC-info+xml |  | application/vnd.3gpp.SRVCC-info+xml |
+| Iana | 2305552647 | http |  | message/http |
+| Iana | 2307739859 | dsr-es202050 |  | audio/dsr-es202050 |
+| Iana | 2317069174 | CSTAdata+xml |  | application/CSTAdata+xml |
+| Iana | 2317675339 | vnd.oasis.opendocument.chart-template |  | application/vnd.oasis.opendocument.chart-template |
+| Iana | 2319413121 | parityfec |  | text/parityfec |
+| Iana | 2321142532 | vnd.dreamfactory |  | application/vnd.dreamfactory |
+| Iana | 2321520595 | example |  | multipart/example |
+| Iana | 2322671784 | vnd.oma.poc.optimized-progress-report+xml |  | application/vnd.oma.poc.optimized-progress-report+xml |
+| Iana | 2323981258 | vnd.nokia.pcd+xml |  | application/vnd.nokia.pcd+xml |
+| Iana | 2325445972 | QCELP |  | audio/QCELP |
+| Iana | 2325811780 | senml-etch+json |  | application/senml-etch+json |
+| Iana | 2333141689 | vnd.gnu.taler.merchant+json |  | application/vnd.gnu.taler.merchant+json |
+| Iana | 2333343507 | samlassertion+xml |  | application/samlassertion+xml |
+| Iana | 2334225744 | vnd.radisys.msml-basic-layout |  | text/vnd.radisys.msml-basic-layout |
+| Iana | 2335759688 | vnd.veraison.tsm-report+json |  | application/vnd.veraison.tsm-report+json |
+| Iana | 2338089597 | scip |  | video/scip |
+| Iana | 2338209272 | G722 |  | audio/G722 |
+| Iana | 2339108390 | emotionml+xml |  | application/emotionml+xml |
+| Iana | 2341024932 | vnd.senx.warpscript |  | text/vnd.senx.warpscript |
+| Iana | 2342890306 | vnd.picsel |  | application/vnd.picsel |
+| Iana | 2344313610 | vnd.ciedi |  | application/vnd.ciedi |
+| Iana | 2346253552 | vnd.comicbook-rar |  | application/vnd.comicbook-rar |
+| Iana | 2346625709 | vnd.geonext |  | application/vnd.geonext |
+| Iana | 2346650687 | vnd.japannet-verification |  | application/vnd.japannet-verification |
+| Iana | 2347897612 | MP2T |  | video/MP2T |
+| Iana | 2349492241 | vnd.hans |  | text/vnd.hans |
+| Iana | 2349685866 | vnd.groove-account |  | application/vnd.groove-account |
+| Iana | 2350179153 | jxs |  | image/jxs |
+| Iana | 2358701609 | its+xml |  | application/its+xml |
+| Iana | 2360896668 | vnd.iptvforum.ttsmpeg2 |  | video/vnd.iptvforum.ttsmpeg2 |
+| Iana | 2362650979 | CN |  | audio/CN |
+| Iana | 2363579130 | vnd.dwg |  | image/vnd.dwg |
+| Iana | 2365643101 | sensml+json |  | application/sensml+json |
+| Iana | 2372075112 | vc+jwt |  | application/vc+jwt |
+| Iana | 2372650813 | cdmi-capability |  | application/cdmi-capability |
+| Iana | 2372984300 | json-patch+json |  | application/json-patch+json |
+| Iana | 2373428654 | vnd.xfdl |  | application/vnd.xfdl |
+| Iana | 2375393172 | vnd.presonus.multitrack |  | audio/vnd.presonus.multitrack |
+| Iana | 2377153967 | IOTP |  | application/IOTP |
+| Iana | 2379975098 | vnd.ipld.dag-cbor |  | application/vnd.ipld.dag-cbor |
+| Iana | 2383623582 | vnd.openxmlformats-officedocument.themeOverride+xml |  | application/vnd.openxmlformats-officedocument.themeOverride+xml |
+| Iana | 2386711820 | vnd.citationstyles.style+xml |  | application/vnd.citationstyles.style+xml |
+| Iana | 2386834460 | raptorfec |  | video/raptorfec |
+| Iana | 2389939401 | vnd.ms-powerpoint.presentation.macroEnabled.12 |  | application/vnd.ms-powerpoint.presentation.macroEnabled.12 |
+| Iana | 2391033626 | xml-patch+xml |  | application/xml-patch+xml |
+| Iana | 2394236616 | vnd.sealed.ppt |  | application/vnd.sealed.ppt |
+| Iana | 2395536891 | vnd.ms-ims |  | application/vnd.ms-ims |
+| Iana | 2396751051 | smpte336m |  | application/smpte336m |
+| Iana | 2397439993 | vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml |  | application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml |
+| Iana | 2400235716 | vnd.3gpp.mcptt-service-config+xml |  | application/vnd.3gpp.mcptt-service-config+xml |
+| Iana | 2401825161 | avif |  | image/avif |
+| Iana | 2403512592 | automationml-aml+xml |  | application/automationml-aml+xml |
+| Iana | 2403846871 | vnd.oma-scws-http-request |  | application/vnd.oma-scws-http-request |
+| Iana | 2411103515 | vnd.syft+json |  | application/vnd.syft+json |
+| Iana | 2413794113 | EVRCWB1 |  | audio/EVRCWB1 |
+| Iana | 2413884375 | vnd.uvvu.mp4 |  | video/vnd.uvvu.mp4 |
+| Iana | 2420641689 | vnd.c3voc.schedule+xml |  | application/vnd.c3voc.schedule+xml |
+| Iana | 2420936636 | provided-claims+jwt |  | application/provided-claims+jwt |
+| Iana | 2421251805 | aif+json |  | application/aif+json |
+| Iana | 2426105805 | vnd.dvb.ipdcesgpdd |  | application/vnd.dvb.ipdcesgpdd |
+| Iana | 2426304290 | vnd.nokia.n-gage.data |  | application/vnd.nokia.n-gage.data |
+| Iana | 2429208373 | vnd.3gpp.srvcc-ext+xml |  | application/vnd.3gpp.srvcc-ext+xml |
+| Iana | 2429679128 | vnd.mcd |  | application/vnd.mcd |
+| Iana | 2430076316 | vnd.fujitsu.oasys |  | application/vnd.fujitsu.oasys |
+| Iana | 2434472940 | vnd.airzip.filesecure.azf |  | application/vnd.airzip.filesecure.azf |
+| Iana | 2434998181 | vnd.sealed.3df |  | application/vnd.sealed.3df |
+| Iana | 2436336104 | vnd.onvif.metadata |  | application/vnd.onvif.metadata |
+| Iana | 2437446151 | geoxacml+json |  | application/geoxacml+json |
+| Iana | 2437831108 | vnd.kde.karbon |  | application/vnd.kde.karbon |
+| Iana | 2438353208 | vnd.bint.med-plus |  | multipart/vnd.bint.med-plus |
+| Iana | 2439968924 | vnd.gml |  | text/vnd.gml |
+| Iana | 2441655252 | vnd.oma.drm.risd+xml |  | application/vnd.oma.drm.risd+xml |
+| Iana | 2442714746 | iges |  | application/iges |
+| Iana | 2445824637 | vnd.parasolid.transmit.binary |  | model/vnd.parasolid.transmit.binary |
+| Iana | 2447158225 | vnd.openxmlformats-officedocument.drawing+xml |  | application/vnd.openxmlformats-officedocument.drawing+xml |
+| Iana | 2452209651 | vnd.geospace |  | application/vnd.geospace |
+| Iana | 2452848747 | vnd.iptvforum.2dparityfec-2005 |  | video/vnd.iptvforum.2dparityfec-2005 |
+| Iana | 2453250016 | kpml-request+xml |  | application/kpml-request+xml |
+| Iana | 2455841734 | dash-patch+xml |  | application/dash-patch+xml |
+| Iana | 2456605975 | stl |  | model/stl |
+| Iana | 2457510778 | prs.implied-object+json-seq |  | application/prs.implied-object+json-seq |
+| Iana | 2459910717 | vnd.openxmlformats-officedocument.vmlDrawing |  | application/vnd.openxmlformats-officedocument.vmlDrawing |
+| Iana | 2461764934 | vnd.openxmlformats-officedocument.presentationml.slideLayout+xml |  | application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml |
+| Iana | 2464609837 | vnd.rip |  | audio/vnd.rip |
+| Iana | 2465153865 | vnd.oipf.pae.gem |  | application/vnd.oipf.pae.gem |
+| Iana | 2466606380 | vnd.hp-HPGL |  | application/vnd.hp-HPGL |
+| Iana | 2466998176 | jxss |  | image/jxss |
+| Iana | 2468360867 | td+json |  | application/td+json |
+| Iana | 2468904557 | vnd.radisys.moml+xml |  | application/vnd.radisys.moml+xml |
+| Iana | 2472612683 | vnd.accpac.simply.aso |  | application/vnd.accpac.simply.aso |
+| Iana | 2477907789 | vnd.lotus-notes |  | application/vnd.lotus-notes |
+| Iana | 2478575557 | vnd.ibm.MiniPay |  | application/vnd.ibm.MiniPay |
+| Iana | 2478971919 | vnd.sealedmedia.softseal.mov |  | video/vnd.sealedmedia.softseal.mov |
+| Iana | 2479691554 | spirits-event+xml |  | application/spirits-event+xml |
+| Iana | 2480952760 | eat-bun+json |  | application/eat-bun+json |
+| Iana | 2483291978 | vnd.planar |  | video/vnd.planar |
+| Iana | 2489989862 | vnd.ms-excel.sheet.macroEnabled.12 |  | application/vnd.ms-excel.sheet.macroEnabled.12 |
+| Iana | 2491657332 | beep+xml |  | application/beep+xml |
+| Iana | 2495225850 | H264 |  | video/H264 |
+| Iana | 2495353376 | vnd.oasis.opendocument.text-master |  | application/vnd.oasis.opendocument.text-master |
+| Iana | 2496902356 | soap+xml |  | application/soap+xml |
+| Iana | 2500032212 | vnd.geocube+xml (OBSOLETED by request) |  | application/vnd.geocube+xml |
+| Iana | 2500122023 | otf |  | font/otf |
+| Iana | 2503186602 | vnd.cab-jscript |  | application/vnd.cab-jscript |
+| Iana | 2503422432 | vnd.sketchometry |  | application/vnd.sketchometry |
+| Iana | 2508876996 | vnd.pytha.pyox |  | model/vnd.pytha.pyox |
+| Iana | 2508911387 | tamp-status-response |  | application/tamp-status-response |
+| Iana | 2509110589 | jrd+json |  | application/jrd+json |
+| Iana | 2515620141 | x3d+fastinfoset |  | model/x3d+fastinfoset |
+| Iana | 2515690866 | vnd.olpc-sugar |  | application/vnd.olpc-sugar |
+| Iana | 2516803572 | vnd.etsi.asic-s+zip |  | application/vnd.etsi.asic-s+zip |
+| Iana | 2517232495 | vnd.fsc.weblaunch |  | application/vnd.fsc.weblaunch |
+| Iana | 2519989976 | zlib |  | application/zlib |
+| Iana | 2520563939 | vnd.gridmp |  | application/vnd.gridmp |
+| Iana | 2524115795 | xfdf |  | application/xfdf |
+| Iana | 2526815010 | vnd.Mobius.PLC |  | application/vnd.Mobius.PLC |
+| Iana | 2528424326 | p2p-overlay+xml |  | application/p2p-overlay+xml |
+| Iana | 2530088001 | voicexml+xml |  | application/voicexml+xml |
+| Iana | 2539465323 | png |  | image/png |
+| Iana | 2542359355 | dots+cbor |  | application/dots+cbor |
+| Iana | 2544030405 | fhirpath |  | text/fhirpath |
+| Iana | 2544845359 | vnd.cns.inf1 |  | audio/vnd.cns.inf1 |
+| Iana | 2551238913 | prs.btif |  | image/prs.btif |
+| Iana | 2551344389 | elm+json |  | application/elm+json |
+| Iana | 2554140704 | vnd.3gpp.bsf+xml |  | application/vnd.3gpp.bsf+xml |
+| Iana | 2558731352 | mizar |  | text/mizar |
+| Iana | 2559453962 | calendar |  | text/calendar |
+| Iana | 2559689858 | vnd.fujitsu.oasysgp |  | application/vnd.fujitsu.oasysgp |
+| Iana | 2560071141 | yin+xml |  | application/yin+xml |
+| Iana | 2560879221 | vnd.kde.kspread |  | application/vnd.kde.kspread |
+| Iana | 2563513024 | p21+zip |  | application/p21+zip |
+| Iana | 2565652218 | vnd.previewsystems.box |  | application/vnd.previewsystems.box |
+| Iana | 2567268996 | vnd.iptc.g2.conceptitem+xml |  | application/vnd.iptc.g2.conceptitem+xml |
+| Iana | 2570068954 | vnd.pg.format |  | application/vnd.pg.format |
+| Iana | 2570913583 | delivery-status |  | message/delivery-status |
+| Iana | 2572911062 | vnd.kde.kivio |  | application/vnd.kde.kivio |
+| Iana | 2576353381 | vnd.gnu.taler.exchange+json |  | application/vnd.gnu.taler.exchange+json |
+| Iana | 2578533012 | vnd.kde.kontour |  | application/vnd.kde.kontour |
+| Iana | 2581167842 | EVRCNW |  | audio/EVRCNW |
+| Iana | 2581876382 | cms |  | application/cms |
+| Iana | 2582906171 | cql-expression |  | text/cql-expression |
+| Iana | 2584451512 | PCMA-WB |  | audio/PCMA-WB |
+| Iana | 2584743258 | AML |  | application/AML |
+| Iana | 2586104738 | vnd.dece.ttml+xml |  | application/vnd.dece.ttml+xml |
+| Iana | 2588237014 | yang-data+xml |  | application/yang-data+xml |
+| Iana | 2588333714 | sgml-open-catalog |  | application/sgml-open-catalog |
+| Iana | 2589900362 | ktx2 |  | image/ktx2 |
+| Iana | 2592267841 | sarif-external-properties+json |  | application/sarif-external-properties+json |
+| Iana | 2596127697 | vnd.rapid |  | application/vnd.rapid |
+| Iana | 2598024112 | rtploopback |  | video/rtploopback |
+| Iana | 2599515299 | vnd.oma.bcast.sgboot |  | application/vnd.oma.bcast.sgboot |
+| Iana | 2600554048 | mikey |  | application/mikey |
+| Iana | 2608284529 | yang-patch+json |  | application/yang-patch+json |
+| Iana | 2609581193 | vnd.esmertec.theme-descriptor |  | text/vnd.esmertec.theme-descriptor |
+| Iana | 2609693029 | automationml-amlx+zip |  | application/automationml-amlx+zip |
+| Iana | 2610229657 | vnd.bbf.usp.msg |  | application/vnd.bbf.usp.msg |
+| Iana | 2612689806 | vnd.adobe.partial-upload |  | application/vnd.adobe.partial-upload |
+| Iana | 2613145387 | hej2k |  | image/hej2k |
+| Iana | 2619251320 | gltf-binary |  | model/gltf-binary |
+| Iana | 2620488527 | trickle-ice-sdpfrag |  | application/trickle-ice-sdpfrag |
+| Iana | 2625552424 | vnd.wolfram.player |  | application/vnd.wolfram.player |
+| Iana | 2626880621 | vnd.fluxtime.clip |  | application/vnd.fluxtime.clip |
+| Iana | 2627890512 | vnd.smart.notebook |  | application/vnd.smart.notebook |
+| Iana | 2628327227 | senml+xml |  | application/senml+xml |
+| Iana | 2638713880 | vnd.sealed.net |  | application/vnd.sealed.net |
+| Iana | 2638993316 | vnd.hp-hpid |  | application/vnd.hp-hpid |
+| Iana | 2640148687 | vnd.filmit.zfc |  | application/vnd.filmit.zfc |
+| Iana | 2643175794 | AV1 |  | video/AV1 |
+| Iana | 2645641524 | mxf |  | application/mxf |
+| Iana | 2645702580 | EmergencyCallData.DeviceInfo+xml |  | application/EmergencyCallData.DeviceInfo+xml |
+| Iana | 2650455745 | captive+json |  | application/captive+json |
+| Iana | 2652684279 | EmergencyCallData.eCall.MSD |  | application/EmergencyCallData.eCall.MSD |
+| Iana | 2655630561 | vnd.syncml.dmtnds+wbxml |  | application/vnd.syncml.dmtnds+wbxml |
+| Iana | 2655715097 | vnd.msgpack |  | application/vnd.msgpack |
+| Iana | 2662883759 | vnd.adobe.photoshop |  | image/vnd.adobe.photoshop |
+| Iana | 2663312110 | xcap-caps+xml |  | application/xcap-caps+xml |
+| Iana | 2666576622 | vnd.rhetorex.32kadpcm |  | audio/vnd.rhetorex.32kadpcm |
+| Iana | 2667311118 | EVRC |  | audio/EVRC |
+| Iana | 2671296419 | jose |  | application/jose |
+| Iana | 2671377131 | vnd.smart.teacher |  | application/vnd.smart.teacher |
+| Iana | 2676856122 | vnd.directv.mpeg-tts |  | video/vnd.directv.mpeg-tts |
+| Iana | 2677900451 | vnd.acucorp |  | application/vnd.acucorp |
+| Iana | 2678541341 | vnd.tml |  | application/vnd.tml |
+| Iana | 2679962195 | vnd.amundsen.maze+xml |  | application/vnd.amundsen.maze+xml |
+| Iana | 2684918881 | vnd.collada+xml |  | model/vnd.collada+xml |
+| Iana | 2685217944 | vnd.palm |  | application/vnd.palm |
+| Iana | 2689802737 | rtploopback |  | audio/rtploopback |
+| Iana | 2690122210 | vnd.tableschema+json |  | application/vnd.tableschema+json |
+| Iana | 2691004045 | eshop |  | application/eshop |
+| Iana | 2691041342 | eat-ucs+cbor |  | application/eat-ucs+cbor |
+| Iana | 2692532981 | vnd.3gpp.seal-location-info+xml |  | application/vnd.3gpp.seal-location-info+xml |
+| Iana | 2693170543 | sfnt |  | font/sfnt |
+| Iana | 2693916822 | vnd.gentoo.eclass |  | application/vnd.gentoo.eclass |
+| Iana | 2696839422 | vnd.openxmlformats-officedocument.spreadsheetml.sheet |  | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet |
+| Iana | 2699209894 | vnd.powerbuilder7 |  | application/vnd.powerbuilder7 |
+| Iana | 2699558500 | vnd.hp-hps |  | application/vnd.hp-hps |
+| Iana | 2699770000 | vnd.omaloc-supl-init |  | application/vnd.omaloc-supl-init |
+| Iana | 2704290828 | cpl+xml |  | application/cpl+xml |
+| Iana | 2707319756 | vnd.wap.wmlscriptc |  | application/vnd.wap.wmlscriptc |
+| Iana | 2708273204 | vnd.uic.osdm+json |  | application/vnd.uic.osdm+json |
+| Iana | 2709085623 | vnd.dvb.pfr |  | application/vnd.dvb.pfr |
+| Iana | 2710550582 | vnd.nokia.interleaved-multimedia |  | video/vnd.nokia.interleaved-multimedia |
+| Iana | 2717533667 | example |  | text/example |
+| Iana | 2720852336 | vnd.radgamettools.bink |  | video/vnd.radgamettools.bink |
+| Iana | 2721635507 | vnd.micrografx.igx |  | application/vnd.micrografx.igx |
+| Iana | 2721747258 | collection |  | font/collection |
+| Iana | 2723193037 | vnd.kde.kformula |  | application/vnd.kde.kformula |
+| Iana | 2726424993 | oebps-package+xml |  | application/oebps-package+xml |
+| Iana | 2726800377 | gff3 |  | text/gff3 |
+| Iana | 2727265353 | alto-costmap+json |  | application/alto-costmap+json |
+| Iana | 2730545713 | merge-patch+json |  | application/merge-patch+json |
+| Iana | 2731887612 | pkcs8-encrypted |  | application/pkcs8-encrypted |
+| Iana | 2733296093 | vnd.nimn |  | application/vnd.nimn |
+| Iana | 2733447256 | vnd.crick.clicker.wordbank |  | application/vnd.crick.clicker.wordbank |
+| Iana | 2734779849 | vnd.gtw |  | model/vnd.gtw |
+| Iana | 2734964684 | vnd.ntt-local.file-transfer |  | application/vnd.ntt-local.file-transfer |
+| Iana | 2735829481 | quicktime |  | video/quicktime |
+| Iana | 2735872475 | vnd.jam |  | application/vnd.jam |
+| Iana | 2737601670 | vnd.afpc.cmoca-cmresource |  | application/vnd.afpc.cmoca-cmresource |
+| Iana | 2738674935 | EmergencyCallData.VEDS+xml |  | application/EmergencyCallData.VEDS+xml |
+| Iana | 2740546604 | cose |  | application/cose |
+| Iana | 2740977079 | vnd.3gpp.mcdata-affiliation-command+xml |  | application/vnd.3gpp.mcdata-affiliation-command+xml |
+| Iana | 2742158866 | vnd.wap.sl |  | text/vnd.wap.sl |
+| Iana | 2742726075 | vnd.moml+xml |  | model/vnd.moml+xml |
+| Iana | 2743500474 | vnd.maxar.archive.3tz+zip |  | application/vnd.maxar.archive.3tz+zip |
+| Iana | 2747021224 | jwt |  | application/jwt |
+| Iana | 2750313342 | vnd.oma.bcast.imd+xml |  | application/vnd.oma.bcast.imd+xml |
+| Iana | 2753039250 | vnd.youtube.yt |  | video/vnd.youtube.yt |
+| Iana | 2755533877 | vnd.oipf.userprofile+xml |  | application/vnd.oipf.userprofile+xml |
+| Iana | 2755564633 | shaclc |  | text/shaclc |
+| Iana | 2759718441 | tamp-community-update |  | application/tamp-community-update |
+| Iana | 2760154822 | vnd.epson.esf |  | application/vnd.epson.esf |
+| Iana | 2762449500 | vnd.iptc.g2.newsitem+xml |  | application/vnd.iptc.g2.newsitem+xml |
+| Iana | 2763672296 | call-completion |  | application/call-completion |
+| Iana | 2764815568 | report |  | multipart/report |
+| Iana | 2764967758 | scvp-cv-request |  | application/scvp-cv-request |
+| Iana | 2764975073 | vnd.recordare.musicxml+xml |  | application/vnd.recordare.musicxml+xml |
+| Iana | 2767319262 | vnd.ms-asf |  | application/vnd.ms-asf |
+| Iana | 2767865714 | vnd.hp-jlyt |  | application/vnd.hp-jlyt |
+| Iana | 2769996487 | vnd.apple.mpegurl |  | application/vnd.apple.mpegurl |
+| Iana | 2773031209 | vnd.afpc.afplinedata |  | application/vnd.afpc.afplinedata |
+| Iana | 2775136682 | vnd.radisys.msml-dialog-fax-sendrecv+xml |  | application/vnd.radisys.msml-dialog-fax-sendrecv+xml |
+| Iana | 2775293850 | troff |  | text/troff |
+| Iana | 2775591539 | vnd.ecdis-update |  | application/vnd.ecdis-update |
+| Iana | 2776365282 | vnd.uplanet.channel |  | application/vnd.uplanet.channel |
+| Iana | 2777984863 | vnd.3gpp.vae-info+xml |  | application/vnd.3gpp.vae-info+xml |
+| Iana | 2784645113 | vnd.eln+zip |  | application/vnd.eln+zip |
+| Iana | 2785079285 | vnd.immervision-ivp |  | application/vnd.immervision-ivp |
+| Iana | 2787045701 | vnd.zbrush.pcx |  | image/vnd.zbrush.pcx |
+| Iana | 2790389749 | private-token-issuer-directory |  | application/private-token-issuer-directory |
+| Iana | 2796510911 | vnd.oasis.opendocument.image |  | application/vnd.oasis.opendocument.image |
+| Iana | 2799942788 | vnd.dvb.subtitle |  | image/vnd.dvb.subtitle |
+| Iana | 2801055025 | H261 |  | video/H261 |
+| Iana | 2802590849 | mpeg4-generic |  | video/mpeg4-generic |
+| Iana | 2802667052 | vnd.ieee.1905 |  | application/vnd.ieee.1905 |
+| Iana | 2803185257 | cdmi-queue |  | application/cdmi-queue |
+| Iana | 2803451356 | ATFX |  | application/ATFX |
+| Iana | 2803882134 | vnd.hbci |  | application/vnd.hbci |
+| Iana | 2806789601 | vnd.poc.group-advertisement+xml |  | application/vnd.poc.group-advertisement+xml |
+| Iana | 2811351098 | calendar+json |  | application/calendar+json |
+| Iana | 2812015058 | vnd.uplanet.listcmd-wbxml |  | application/vnd.uplanet.listcmd-wbxml |
+| Iana | 2812998300 | x-x509-ca-cert |  | application/x-x509-ca-cert |
+| Iana | 2814014795 | jwk-set+json |  | application/jwk-set+json |
+| Iana | 2814730858 | jxrA |  | image/jxrA |
+| Iana | 2816237978 | prc |  | model/prc |
+| Iana | 2823079662 | grib |  | application/grib |
+| Iana | 2823327473 | vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml |
+| Iana | 2824234492 | vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml |
+| Iana | 2829476850 | vnd.si.simp (OBSOLETED by request) |  | message/vnd.si.simp |
+| Iana | 2829941986 | taxii+json |  | application/taxii+json |
+| Iana | 2831585141 | mads+xml |  | application/mads+xml |
+| Iana | 2837789170 | vnd.genozip |  | application/vnd.genozip |
+| Iana | 2837889784 | vnd.djvu |  | image/vnd.djvu |
+| Iana | 2838883210 | CALS-1840 |  | application/CALS-1840 |
+| Iana | 2840703623 | EmergencyCallData.cap+xml |  | application/EmergencyCallData.cap+xml |
+| Iana | 2842089512 | vnd.nintendo.nitro.rom |  | application/vnd.nintendo.nitro.rom |
+| Iana | 2842844821 | session-info |  | application/session-info |
+| Iana | 2843860669 | vnd.msa-disk-image |  | application/vnd.msa-disk-image |
+| Iana | 2846680230 | mets+xml |  | application/mets+xml |
+| Iana | 2849086587 | vnd.vd-study |  | application/vnd.vd-study |
+| Iana | 2851502712 | vnd.ruckus.download |  | application/vnd.ruckus.download |
+| Iana | 2853877227 | jphc |  | image/jphc |
+| Iana | 2857331556 | vnd.openxmlformats-officedocument.wordprocessingml.template |  | application/vnd.openxmlformats-officedocument.wordprocessingml.template |
+| Iana | 2857477114 | vnd.kahootz |  | application/vnd.kahootz |
+| Iana | 2859263887 | vnd.lotus-approach |  | application/vnd.lotus-approach |
+| Iana | 2860056698 | usac |  | audio/usac |
+| Iana | 2862882080 | vnd.pt.mundusmundi |  | application/vnd.pt.mundusmundi |
+| Iana | 2865871100 | vnd.sap.vds |  | model/vnd.sap.vds |
+| Iana | 2866207433 | vnd.mediastation.cdkey |  | application/vnd.mediastation.cdkey |
+| Iana | 2866723734 | byteranges |  | multipart/byteranges |
+| Iana | 2866779612 | index.vnd |  | application/index.vnd |
+| Iana | 2872910889 | vnd.onepagertatp |  | application/vnd.onepagertatp |
+| Iana | 2873474993 | vnd.wfa.p2p |  | application/vnd.wfa.p2p |
+| Iana | 2875710756 | vnd.ficlab.flb+zip |  | application/vnd.ficlab.flb+zip |
+| Iana | 2877491882 | A2L |  | application/A2L |
+| Iana | 2880863704 | tlsrpt+gzip |  | application/tlsrpt+gzip |
+| Iana | 2883188696 | activemessage |  | application/activemessage |
+| Iana | 2883439864 | vnd.enliven |  | application/vnd.enliven |
+| Iana | 2884893317 | vnd.motorola.iprm |  | application/vnd.motorola.iprm |
+| Iana | 2885619378 | vnd.youtube.yt (OBSOLETED in favor of video/vnd.youtube.yt) |  | application/vnd.youtube.yt |
+| Iana | 2887931485 | yang-sid+json |  | application/yang-sid+json |
+| Iana | 2888274652 | AMR |  | audio/AMR |
+| Iana | 2891073491 | cellml+xml |  | application/cellml+xml |
+| Iana | 2892537491 | vnd.smaf |  | application/vnd.smaf |
+| Iana | 2898430558 | jais |  | image/jais |
+| Iana | 2899183557 | vnd.crypto-shade-file |  | application/vnd.crypto-shade-file |
+| Iana | 2903377527 | geo+json-seq |  | application/geo+json-seq |
+| Iana | 2904866414 | vnd.jisp |  | application/vnd.jisp |
+| Iana | 2905229348 | vnd.oasis.opendocument.chart |  | application/vnd.oasis.opendocument.chart |
+| Iana | 2905316759 | vnd.hal+json |  | application/vnd.hal+json |
+| Iana | 2909660000 | vnd.openxmlformats-officedocument.spreadsheetml.sheetMetadata+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.sheetMetadata+xml |
+| Iana | 2914830363 | vnd.iptc.g2.planningitem+xml |  | application/vnd.iptc.g2.planningitem+xml |
+| Iana | 2917306439 | global-headers |  | message/global-headers |
+| Iana | 2917391844 | stratum |  | application/stratum |
+| Iana | 2918110073 | bufr |  | application/bufr |
+| Iana | 2919490800 | vnd.mts |  | model/vnd.mts |
+| Iana | 2922032133 | feedback-report |  | message/feedback-report |
+| Iana | 2922182229 | vnd.dlna.mpeg-tts |  | video/vnd.dlna.mpeg-tts |
+| Iana | 2923392260 | vnd.hyper+json |  | application/vnd.hyper+json |
+| Iana | 2925459675 | pkix-attr-cert |  | application/pkix-attr-cert |
+| Iana | 2927980230 | vnd.oma.group-usage-list+xml |  | application/vnd.oma.group-usage-list+xml |
+| Iana | 2928483447 | vnd.openxmlformats-officedocument.wordprocessingml.settings+xml |  | application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml |
+| Iana | 2929592017 | ttml+xml |  | application/ttml+xml |
+| Iana | 2929887612 | urc-uisocketdesc+xml |  | application/urc-uisocketdesc+xml |
+| Iana | 2931975007 | vnd.motorola.flexsuite.ttc |  | application/vnd.motorola.flexsuite.ttc |
+| Iana | 2937817768 | vnd.dvb.notif-generic+xml |  | application/vnd.dvb.notif-generic+xml |
+| Iana | 2939067479 | gml+xml |  | application/gml+xml |
+| Iana | 2941966566 | prs.texi |  | text/prs.texi |
+| Iana | 2942086789 | prs.pti |  | image/prs.pti |
+| Iana | 2942315901 | vnd.dpgraph |  | application/vnd.dpgraph |
+| Iana | 2944319513 | vnd.pwg-xhtml-print+xml |  | application/vnd.pwg-xhtml-print+xml |
+| Iana | 2944600447 | wgsl |  | text/wgsl |
+| Iana | 2948043618 | fastsoap |  | application/fastsoap |
+| Iana | 2953193598 | yang-data+json |  | application/yang-data+json |
+| Iana | 2954147763 | vnd.uplanet.bearer-choice-wbxml |  | application/vnd.uplanet.bearer-choice-wbxml |
+| Iana | 2959859865 | vnd.software602.filler.form+xml |  | application/vnd.software602.filler.form+xml |
+| Iana | 2964301109 | sieve |  | application/sieve |
+| Iana | 2965536988 | javascript (OBSOLETED in favor of text/javascript) |  | application/javascript |
+| Iana | 2969229277 | jf2feed+json |  | application/jf2feed+json |
+| Iana | 2978006526 | rtx |  | text/rtx |
+| Iana | 2978665677 | vnd.claymore |  | application/vnd.claymore |
+| Iana | 2980547604 | vnd.uplanet.alert |  | application/vnd.uplanet.alert |
+| Iana | 2981225743 | tamp-apex-update-confirm |  | application/tamp-apex-update-confirm |
+| Iana | 2981984339 | vnd.powerbuilder6 |  | application/vnd.powerbuilder6 |
+| Iana | 2984238633 | x3d+xml |  | model/x3d+xml |
+| Iana | 2984449870 | vnd.sar |  | application/vnd.sar |
+| Iana | 2985206074 | octet-stream |  | application/octet-stream |
+| Iana | 2985677434 | vnd.audiograph |  | application/vnd.audiograph |
+| Iana | 2986419294 | vnd.afpc.modca |  | application/vnd.afpc.modca |
+| Iana | 2988840305 | lottie+json |  | video/lottie+json |
+| Iana | 2991155642 | vnd.ipunplugged.rcprofile |  | application/vnd.ipunplugged.rcprofile |
+| Iana | 2996033275 | vnd.pagerduty+json |  | application/vnd.pagerduty+json |
+| Iana | 2996336798 | vnd.lotus-screencam |  | application/vnd.lotus-screencam |
+| Iana | 2996835525 | vnd.eu.kasparian.car+json |  | application/vnd.eu.kasparian.car+json |
+| Iana | 3000218838 | city+json-seq |  | application/city+json-seq |
+| Iana | 3000375204 | vnd.oma.poc.detailed-progress-report+xml |  | application/vnd.oma.poc.detailed-progress-report+xml |
+| Iana | 3000733719 | rfc822 |  | message/rfc822 |
+| Iana | 3003002017 | vnd.solent.sdkm+xml |  | application/vnd.solent.sdkm+xml |
+| Iana | 3004210508 | ecmascript (OBSOLETED in favor of text/javascript) |  | text/ecmascript |
+| Iana | 3005571972 | vnd.byu.uapi+json |  | application/vnd.byu.uapi+json |
+| Iana | 3007137721 | mbms-reception-report+xml |  | application/mbms-reception-report+xml |
+| Iana | 3007328698 | vnd.motorola.flexsuite.wem |  | application/vnd.motorola.flexsuite.wem |
+| Iana | 3008497538 | vnd.ntt-local.sip-ta_tcp_stream |  | application/vnd.ntt-local.sip-ta_tcp_stream |
+| Iana | 3008781912 | vnd.oasis.opendocument.formula-template |  | application/vnd.oasis.opendocument.formula-template |
+| Iana | 3010079007 | eat-ucs+json |  | application/eat-ucs+json |
+| Iana | 3010902088 | vnd.3gpp.mcptt-regroup+xml |  | application/vnd.3gpp.mcptt-regroup+xml |
+| Iana | 3017018011 | header-set |  | multipart/header-set |
+| Iana | 3018718273 | n-quads |  | application/n-quads |
+| Iana | 3019298279 | vnd.nokia.landmarkcollection+xml |  | application/vnd.nokia.landmarkcollection+xml |
+| Iana | 3019556387 | thraud+xml |  | application/thraud+xml |
+| Iana | 3024262940 | vnd.geoplan |  | application/vnd.geoplan |
+| Iana | 3025077792 | global-disposition-notification |  | message/global-disposition-notification |
+| Iana | 3029052439 | eac3 |  | audio/eac3 |
+| Iana | 3037433719 | vnd.gerber |  | application/vnd.gerber |
+| Iana | 3039503997 | link-format |  | application/link-format |
+| Iana | 3039970627 | vnd.net-fpx |  | image/vnd.net-fpx |
+| Iana | 3042212010 | ibe-pkg-reply+xml |  | application/ibe-pkg-reply+xml |
+| Iana | 3043571002 | coap-group+json |  | application/coap-group+json |
+| Iana | 3043835493 | MP2P |  | video/MP2P |
+| Iana | 3044277680 | gnap-binding-jws |  | application/gnap-binding-jws |
+| Iana | 3047948639 | vnd.bmi |  | application/vnd.bmi |
+| Iana | 3057474112 | smpte291 |  | video/smpte291 |
+| Iana | 3057648254 | vnd.contact.cmsg |  | application/vnd.contact.cmsg |
+| Iana | 3061890077 | vnd.xarin.cpj |  | application/vnd.xarin.cpj |
+| Iana | 3062216814 | prs.mayfile |  | application/prs.mayfile |
+| Iana | 3063913671 | vnd.imagemeter.image+zip |  | application/vnd.imagemeter.image+zip |
+| Iana | 3065629133 | vnd.cloanto.rp9 |  | application/vnd.cloanto.rp9 |
+| Iana | 3065746585 | vnd.etsi.asic-e+zip |  | application/vnd.etsi.asic-e+zip |
+| Iana | 3073138743 | EVRC0 |  | audio/EVRC0 |
+| Iana | 3075306099 | EDI-consent |  | application/EDI-consent |
+| Iana | 3076879620 | vnd.kde.kword |  | application/vnd.kde.kword |
+| Iana | 3079201304 | vnd.oma-scws-http-response |  | application/vnd.oma-scws-http-response |
+| Iana | 3081340385 | vnd.xacml+json |  | application/vnd.xacml+json |
+| Iana | 3082485375 | vnd.datalog |  | application/vnd.datalog |
+| Iana | 3083309523 | vnd.businessobjects |  | application/vnd.businessobjects |
+| Iana | 3083364676 | vnd.dtg.local |  | application/vnd.dtg.local |
+| Iana | 3083546734 | dicom+xml |  | application/dicom+xml |
+| Iana | 3083798485 | vnd.ms-excel.template.macroEnabled.12 |  | application/vnd.ms-excel.template.macroEnabled.12 |
+| Iana | 3085967537 | andrew-inset |  | application/andrew-inset |
+| Iana | 3086100026 | vnd.oxli.countgraph |  | application/vnd.oxli.countgraph |
+| Iana | 3086374288 | vnd.dece.graphic |  | image/vnd.dece.graphic |
+| Iana | 3086943397 | vnd.oasis.opendocument.spreadsheet-template |  | application/vnd.oasis.opendocument.spreadsheet-template |
+| Iana | 3088498302 | L20 |  | audio/L20 |
+| Iana | 3089008901 | vnd.d2l.coursepackage1p0+zip |  | application/vnd.d2l.coursepackage1p0+zip |
+| Iana | 3090842320 | step+zip |  | model/step+zip |
+| Iana | 3092404058 | voucher-jws+json |  | application/voucher-jws+json |
+| Iana | 3093602065 | vnd.cncf.helm.chart.provenance.v1.prov |  | application/vnd.cncf.helm.chart.provenance.v1.prov |
+| Iana | 3096134704 | vtt |  | text/vtt |
+| Iana | 3097317368 | vnd.cups-pdf |  | application/vnd.cups-pdf |
+| Iana | 3097428701 | concise-problem-details+cbor |  | application/concise-problem-details+cbor |
+| Iana | 3099405177 | vnd.everad.plj |  | audio/vnd.everad.plj |
+| Iana | 3101228311 | lost+xml |  | application/lost+xml |
+| Iana | 3102304575 | EmergencyCallData.ProviderInfo+xml |  | application/EmergencyCallData.ProviderInfo+xml |
+| Iana | 3109186030 | BV32 |  | audio/BV32 |
+| Iana | 3110119314 | jph |  | image/jph |
+| Iana | 3111506699 | vnd.iptvforum.1dparityfec-1010 |  | video/vnd.iptvforum.1dparityfec-1010 |
+| Iana | 3111558661 | senml-etch+cbor |  | application/senml-etch+cbor |
+| Iana | 3112925738 | lgr+xml |  | application/lgr+xml |
+| Iana | 3124490391 | xml-external-parsed-entity |  | application/xml-external-parsed-entity |
+| Iana | 3125026937 | vnd.dvb.notif-init+xml |  | application/vnd.dvb.notif-init+xml |
+| Iana | 3127172354 | c2pa |  | application/c2pa |
+| Iana | 3128901905 | vnd.efi.img |  | application/vnd.efi.img |
+| Iana | 3129244361 | vnd.etsi.mheg5 |  | application/vnd.etsi.mheg5 |
+| Iana | 3131680240 | H263 |  | video/H263 |
+| Iana | 3133352226 | jpeg |  | image/jpeg |
+| Iana | 3141922845 | MP1S |  | video/MP1S |
+| Iana | 3145090338 | vnd.cups-raw |  | application/vnd.cups-raw |
+| Iana | 3145740509 | vnd.umajin |  | application/vnd.umajin |
+| Iana | 3150059966 | gif |  | image/gif |
+| Iana | 3151184436 | vnd.marlin.drm.conftoken+xml |  | application/vnd.marlin.drm.conftoken+xml |
+| Iana | 3152345083 | senml-exi |  | application/senml-exi |
+| Iana | 3153850747 | vnd.exstream-empower+zip |  | application/vnd.exstream-empower+zip |
+| Iana | 3158562477 | vnd.3gpp.current-location-discovery+xml |  | application/vnd.3gpp.current-location-discovery+xml |
+| Iana | 3159702842 | vnd.microsoft.windows.thumbnail-cache |  | application/vnd.microsoft.windows.thumbnail-cache |
+| Iana | 3160205525 | index |  | application/index |
+| Iana | 3160782084 | rtf |  | text/rtf |
+| Iana | 3161118794 | cwl+json |  | application/cwl+json |
+| Iana | 3161366850 | vnd.ms-lrm |  | application/vnd.ms-lrm |
+| Iana | 3162926511 | pkcs12 |  | application/pkcs12 |
+| Iana | 3163242823 | vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheDefinition+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheDefinition+xml |
+| Iana | 3163454889 | alto-costmapfilter+json |  | application/alto-costmapfilter+json |
+| Iana | 3163566314 | vnd.dxr |  | application/vnd.dxr |
+| Iana | 3164266266 | cda+xml |  | application/cda+xml |
+| Iana | 3164374345 | vnd.3gpp-prose-pc3ach+xml |  | application/vnd.3gpp-prose-pc3ach+xml |
+| Iana | 3164453447 | rlmi+xml |  | application/rlmi+xml |
+| Iana | 3166445898 | mesh |  | model/mesh |
+| Iana | 3171097430 | missing-blocks+cbor-seq |  | application/missing-blocks+cbor-seq |
+| Iana | 3175738690 | vnd.cups-raster |  | application/vnd.cups-raster |
+| Iana | 3180556862 | vnd.yamaha.through-ngn |  | application/vnd.yamaha.through-ngn |
+| Iana | 3181687882 | vnd.groove-tool-message |  | application/vnd.groove-tool-message |
+| Iana | 3186144488 | plain |  | text/plain |
+| Iana | 3188101872 | emf |  | image/emf |
+| Iana | 3189065653 | vnd.uplanet.list |  | application/vnd.uplanet.list |
+| Iana | 3191008066 | vnd.shana.informed.formdata |  | application/vnd.shana.informed.formdata |
+| Iana | 3191076715 | example |  | message/example |
+| Iana | 3192798696 | vnd.msign |  | application/vnd.msign |
+| Iana | 3193316013 | mbms-user-service-description+xml |  | application/mbms-user-service-description+xml |
+| Iana | 3199675479 | DIT |  | application/DIT |
+| Iana | 3200229369 | flexfec |  | text/flexfec |
+| Iana | 3201493925 | pgp-encrypted |  | application/pgp-encrypted |
+| Iana | 3202991632 | vnd.balsamiq.bmml+xml |  | application/vnd.balsamiq.bmml+xml |
+| Iana | 3205304064 | senml+cbor |  | application/senml+cbor |
+| Iana | 3205597145 | vnd.sosi |  | text/vnd.sosi |
+| Iana | 3207609300 | vnd.wt.stf |  | application/vnd.wt.stf |
+| Iana | 3209860863 | vnd.nokia.videovoip |  | video/vnd.nokia.videovoip |
+| Iana | 3212002651 | vnd.yaoweme |  | application/vnd.yaoweme |
+| Iana | 3214346991 | vnd.fujifilm.fb.docuworks.container |  | application/vnd.fujifilm.fb.docuworks.container |
+| Iana | 3216745495 | vnd.audiokoz |  | audio/vnd.audiokoz |
+| Iana | 3217232403 | vnd.ntt-local.sip-ta_remote |  | application/vnd.ntt-local.sip-ta_remote |
+| Iana | 3220007017 | pointer |  | video/pointer |
+| Iana | 3221485192 | vnd.afpc.modca-objectcontainer |  | application/vnd.afpc.modca-objectcontainer |
+| Iana | 3223127030 | mbms-msk+xml |  | application/mbms-msk+xml |
+| Iana | 3225988671 | 3gpp2 |  | video/3gpp2 |
+| Iana | 3228159214 | coap-eap |  | application/coap-eap |
+| Iana | 3229630693 | vnd.lotus-organizer |  | application/vnd.lotus-organizer |
+| Iana | 3232900560 | TETRA_ISI |  | application/TETRA_ISI |
+| Iana | 3233709893 | vnd.wap.slc |  | application/vnd.wap.slc |
+| Iana | 3236082836 | vnd.radisys.msml-dialog-group+xml |  | application/vnd.radisys.msml-dialog-group+xml |
+| Iana | 3240668558 | vnd.spotfire.sfs |  | application/vnd.spotfire.sfs |
+| Iana | 3241319755 | vnd.radisys.msml+xml |  | application/vnd.radisys.msml+xml |
+| Iana | 3245366757 | vnd.sealed.mpeg1 |  | video/vnd.sealed.mpeg1 |
+| Iana | 3246778510 | ccmp+xml |  | application/ccmp+xml |
+| Iana | 3248030970 | vnd.3gpp.ngap |  | application/vnd.3gpp.ngap |
+| Iana | 3248699242 | vnd.openxmlformats-officedocument.spreadsheetml.connections+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml |
+| Iana | 3250196835 | ATRAC3 |  | audio/ATRAC3 |
+| Iana | 3251275829 | vnd.FloGraphIt |  | application/vnd.FloGraphIt |
+| Iana | 3251497569 | vnd.nacamar.ybrid+json |  | application/vnd.nacamar.ybrid+json |
+| Iana | 3257052792 | DAT12 |  | audio/DAT12 |
+| Iana | 3257320635 | vnd.debian.binary-package |  | application/vnd.debian.binary-package |
+| Iana | 3259195021 | vnd.dna |  | application/vnd.dna |
+| Iana | 3259703181 | vnd.wasmflow.wafl |  | application/vnd.wasmflow.wafl |
+| Iana | 3264258890 | vnd.yamaha.smaf-audio |  | application/vnd.yamaha.smaf-audio |
+| Iana | 3265419834 | vnd.openxmlformats-officedocument.theme+xml |  | application/vnd.openxmlformats-officedocument.theme+xml |
+| Iana | 3268047355 | vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml |  | application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml |
+| Iana | 3268673863 | vnd.afpc.afplinedata-pagedef |  | application/vnd.afpc.afplinedata-pagedef |
+| Iana | 3268892248 | vnd.3gpp.mid-call+xml |  | application/vnd.3gpp.mid-call+xml |
+| Iana | 3270654971 | vnd.bpf3 |  | application/vnd.bpf3 |
+| Iana | 3274470052 | uccs+cbor |  | application/uccs+cbor |
+| Iana | 3274693461 | nss |  | application/nss |
+| Iana | 3275176756 | vnd.nokia.radio-presets |  | application/vnd.nokia.radio-presets |
+| Iana | 3277354743 | vnd.apple.keynote |  | application/vnd.apple.keynote |
+| Iana | 3278585447 | vnd.groove-vcard |  | application/vnd.groove-vcard |
+| Iana | 3278948029 | vnd.fujitsu.oasysprs |  | application/vnd.fujitsu.oasysprs |
+| Iana | 3279796176 | oxps |  | application/oxps |
+| Iana | 3280513078 | turtle |  | text/turtle |
+| Iana | 3280650409 | scvp-cv-response |  | application/scvp-cv-response |
+| Iana | 3281129742 | vnd.etsi.iptvueprofile+xml |  | application/vnd.etsi.iptvueprofile+xml |
+| Iana | 3281459987 | ief |  | image/ief |
+| Iana | 3287889921 | vnd.dolby.pl2z |  | audio/vnd.dolby.pl2z |
+| Iana | 3288643789 | x-pki-message |  | application/x-pki-message |
+| Iana | 3288976212 | vnd.pmi.widget |  | application/vnd.pmi.widget |
+| Iana | 3296732317 | spdx |  | text/spdx |
+| Iana | 3297309654 | G729D |  | audio/G729D |
+| Iana | 3297666299 | vnd.afpc.modca-formdef |  | application/vnd.afpc.modca-formdef |
+| Iana | 3300626483 | vnd.iso11783-10+zip |  | application/vnd.iso11783-10+zip |
+| Iana | 3301166835 | vnd.radiance |  | image/vnd.radiance |
+| Iana | 3302833616 | vnd.openxmlformats-officedocument.spreadsheetml.pivotTable+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.pivotTable+xml |
+| Iana | 3305084242 | dssc+xml |  | application/dssc+xml |
+| Iana | 3305095848 | passport |  | application/passport |
+| Iana | 3306561401 | vnd.tao.intent-module-archive |  | application/vnd.tao.intent-module-archive |
+| Iana | 3307403234 | vnd.Kinar |  | application/vnd.Kinar |
+| Iana | 3309143788 | vnd.apache.thrift.binary |  | application/vnd.apache.thrift.binary |
+| Iana | 3309875328 | G726-40 |  | audio/G726-40 |
+| Iana | 3311782725 | vnd.DMClientScript |  | text/vnd.DMClientScript |
+| Iana | 3315716607 | vnd.enphase.envoy |  | application/vnd.enphase.envoy |
+| Iana | 3315827232 | vnd.oasis.opendocument.text-template |  | application/vnd.oasis.opendocument.text-template |
+| Iana | 3316713668 | vnd.etsi.tsl+xml |  | application/vnd.etsi.tsl+xml |
+| Iana | 3318388259 | rtploopback |  | text/rtploopback |
+| Iana | 3320182908 | vnd.oma.cab-subs-invite+xml |  | application/vnd.oma.cab-subs-invite+xml |
+| Iana | 3326048280 | vnd.multiad.creator.cif |  | application/vnd.multiad.creator.cif |
+| Iana | 3327632904 | vnd.vectorworks |  | application/vnd.vectorworks |
+| Iana | 3327694988 | vnd.sealed.swf |  | video/vnd.sealed.swf |
+| Iana | 3328258557 | mp4 |  | audio/mp4 |
+| Iana | 3334640110 | vnd.chemdraw+xml |  | application/vnd.chemdraw+xml |
+| Iana | 3335845233 | ODA |  | application/ODA |
+| Iana | 3336330106 | vnd.dvb.ipdcdftnotifaccess |  | application/vnd.dvb.ipdcdftnotifaccess |
+| Iana | 3337385297 | timestamped-data |  | application/timestamped-data |
+| Iana | 3337832519 | vnd.japannet-payment-wakeup |  | application/vnd.japannet-payment-wakeup |
+| Iana | 3338420964 | vnd.maxmind.maxmind-db |  | application/vnd.maxmind.maxmind-db |
+| Iana | 3340204496 | slate |  | application/slate |
+| Iana | 3342305888 | vnd.openxmlformats-officedocument.presentationml.handoutMaster+xml |  | application/vnd.openxmlformats-officedocument.presentationml.handoutMaster+xml |
+| Iana | 3342397200 | vnd.net2phone.commcenter.command |  | text/vnd.net2phone.commcenter.command |
+| Iana | 3345539637 | marc |  | application/marc |
+| Iana | 3351686268 | vnd.japannet-setstore-wakeup |  | application/vnd.japannet-setstore-wakeup |
+| Iana | 3352102566 | H266 |  | video/H266 |
+| Iana | 3352753080 | vnd.sealedmedia.softseal.mpeg |  | audio/vnd.sealedmedia.softseal.mpeg |
+| Iana | 3352933827 | vnd.llamagraphics.life-balance.desktop |  | application/vnd.llamagraphics.life-balance.desktop |
+| Iana | 3354284595 | mpa-robust |  | audio/mpa-robust |
+| Iana | 3355017942 | midi-clip |  | audio/midi-clip |
+| Iana | 3356811342 | dicom |  | application/dicom |
+| Iana | 3366619709 | vnd.ims.lti.v2.toolconsumerprofile+json |  | application/vnd.ims.lti.v2.toolconsumerprofile+json |
+| Iana | 3368099385 | mathml+xml |  | application/mathml+xml |
+| Iana | 3368114516 | vnd.yamaha.openscoreformat |  | application/vnd.yamaha.openscoreformat |
+| Iana | 3373238147 | vnd.1000minds.decision-model+xml |  | application/vnd.1000minds.decision-model+xml |
+| Iana | 3374034597 | dicom+json |  | application/dicom+json |
+| Iana | 3376783372 | vnd.digital-winds |  | audio/vnd.digital-winds |
+| Iana | 3382036996 | vnd.oma.cab-address-book+xml |  | application/vnd.oma.cab-address-book+xml |
+| Iana | 3384046918 | vnd.openxmlformats-officedocument.presentationml.commentAuthors+xml |  | application/vnd.openxmlformats-officedocument.presentationml.commentAuthors+xml |
+| Iana | 3386406444 | matroska-3d |  | video/matroska-3d |
+| Iana | 3386827006 | ujcs+json |  | application/ujcs+json |
+| Iana | 3386887635 | vnd.obn |  | application/vnd.obn |
+| Iana | 3387561077 | vnd.wqd |  | application/vnd.wqd |
+| Iana | 3391896951 | CPIM |  | message/CPIM |
+| Iana | 3395190901 | ISUP |  | application/ISUP |
+| Iana | 3396801964 | atsc-rsat+xml |  | application/atsc-rsat+xml |
+| Iana | 3396894759 | rpki-signed-tal |  | application/rpki-signed-tal |
+| Iana | 3399265095 | xml-external-parsed-entity |  | text/xml-external-parsed-entity |
+| Iana | 3399306493 | vnd.openxmlformats-officedocument.drawingml.chart+xml |  | application/vnd.openxmlformats-officedocument.drawingml.chart+xml |
+| Iana | 3400805137 | vnd.osa.netdeploy |  | application/vnd.osa.netdeploy |
+| Iana | 3400961159 | vnd.openblox.game-binary |  | application/vnd.openblox.game-binary |
+| Iana | 3409486063 | vnd.dcmp+xml |  | application/vnd.dcmp+xml |
+| Iana | 3411046439 | vnd.fujifilm.fb.jfi+xml |  | application/vnd.fujifilm.fb.jfi+xml |
+| Iana | 3414676129 | ocsp-request |  | application/ocsp-request |
+| Iana | 3415200755 | vnd.mapbox-vector-tile |  | application/vnd.mapbox-vector-tile |
+| Iana | 3416960060 | vnd.3gpp.5gsv2x |  | application/vnd.3gpp.5gsv2x |
+| Iana | 3417755242 | vnd.oasis.opendocument.formula |  | application/vnd.oasis.opendocument.formula |
+| Iana | 3429254293 | vnd.3gpp.mcvideo-transmission-request+xml |  | application/vnd.3gpp.mcvideo-transmission-request+xml |
+| Iana | 3431652971 | vnd.nuera.ecelp7470 |  | audio/vnd.nuera.ecelp7470 |
+| Iana | 3433583701 | vnd.eclipse.ditto+json |  | application/vnd.eclipse.ditto+json |
+| Iana | 3433652685 | vnd.openxmlformats-officedocument.presentationml.slideshow |  | application/vnd.openxmlformats-officedocument.presentationml.slideshow |
+| Iana | 3433762130 | rfc+xml |  | application/rfc+xml |
+| Iana | 3434348798 | vnd.eprints.data+xml |  | application/vnd.eprints.data+xml |
+| Iana | 3435203577 | eat+jwt |  | application/eat+jwt |
+| Iana | 3437709368 | vnd.syncml+xml |  | application/vnd.syncml+xml |
+| Iana | 3439380299 | vnd.apache.arrow.stream |  | application/vnd.apache.arrow.stream |
+| Iana | 3439810779 | toml |  | application/toml |
+| Iana | 3444082853 | poc-settings+xml |  | application/poc-settings+xml |
+| Iana | 3445500873 | vnd.ms-tnef |  | application/vnd.ms-tnef |
+| Iana | 3449603082 | vnd.fujixerox.ART-EX |  | application/vnd.fujixerox.ART-EX |
+| Iana | 3449934334 | vnd.shana.informed.formtemplate |  | application/vnd.shana.informed.formtemplate |
+| Iana | 3450423353 | vnd.cluetrust.cartomobile-config-pkg |  | application/vnd.cluetrust.cartomobile-config-pkg |
+| Iana | 3450804934 | vnd.dolby.heaac.2 |  | audio/vnd.dolby.heaac.2 |
+| Iana | 3451820887 | p21 |  | application/p21 |
+| Iana | 3452622185 | example |  | video/example |
+| Iana | 3459753370 | smil (OBSOLETED in favor of application/smil+xml) |  | application/smil |
+| Iana | 3459914175 | vnd.sealedmedia.softseal.html |  | application/vnd.sealedmedia.softseal.html |
+| Iana | 3461016671 | vnd.hc+json |  | application/vnd.hc+json |
+| Iana | 3461028734 | samlmetadata+xml |  | application/samlmetadata+xml |
+| Iana | 3461058363 | vnd.openxmlformats-officedocument.presentationml.presProps+xml |  | application/vnd.openxmlformats-officedocument.presentationml.presProps+xml |
+| Iana | 3461787872 | tm+json |  | application/tm+json |
+| Iana | 3467076426 | parityfec |  | application/parityfec |
+| Iana | 3467211893 | application/trust-mark-delegation+jwt |  | application/trust-mark-delegation+jwt |
+| Iana | 3471520697 | vnd.uplanet.channel-wbxml |  | application/vnd.uplanet.channel-wbxml |
+| Iana | 3471874279 | jsonpath |  | application/jsonpath |
+| Iana | 3473343428 | naplps |  | image/naplps |
+| Iana | 3473425801 | vnd.clonk.c4group |  | application/vnd.clonk.c4group |
+| Iana | 3474271712 | vnd.openxmlformats-officedocument.spreadsheetml.externalLink+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.externalLink+xml |
+| Iana | 3474980907 | ce+cbor |  | application/ce+cbor |
+| Iana | 3475858282 | vnd.wap.sic |  | application/vnd.wap.sic |
+| Iana | 3477608633 | vnd.radgamettools.smacker |  | video/vnd.radgamettools.smacker |
+| Iana | 3478496005 | vnd.astraea-software.iota |  | application/vnd.astraea-software.iota |
+| Iana | 3482003446 | atomicmail |  | application/atomicmail |
+| Iana | 3483784792 | conference-info+xml |  | application/conference-info+xml |
+| Iana | 3483875492 | vnd.fujitsu.oasys2 |  | application/vnd.fujitsu.oasys2 |
+| Iana | 3485778358 | vnd.hp-PCLXL |  | application/vnd.hp-PCLXL |
+| Iana | 3490406699 | signed |  | multipart/signed |
+| Iana | 3496799771 | vnd.tcpdump.pcap |  | application/vnd.tcpdump.pcap |
+| Iana | 3497436453 | vnd.anser-web-certificate-issue-initiation |  | application/vnd.anser-web-certificate-issue-initiation |
+| Iana | 3498786448 | vnd.3gpp.mcdata-info+xml |  | application/vnd.3gpp.mcdata-info+xml |
+| Iana | 3504459710 | logout+jwt |  | application/logout+jwt |
+| Iana | 3506818511 | vnd.ms-playready.media.pya |  | audio/vnd.ms-playready.media.pya |
+| Iana | 3507283135 | vnd.afpc.modca-pagesegment |  | application/vnd.afpc.modca-pagesegment |
+| Iana | 3509367414 | mods+xml |  | application/mods+xml |
+| Iana | 3510790454 | vnd.vidsoft.vidconference |  | application/vnd.vidsoft.vidconference |
+| Iana | 3510859036 | pkcs7-mime |  | application/pkcs7-mime |
+| Iana | 3511919391 | vnd.qcelp - DEPRECATED in favor of audio/qcelp |  | audio/vnd.qcelp |
+| Iana | 3513520853 | vnd.exchangeable |  | text/vnd.exchangeable |
+| Iana | 3513742129 | vnd.japannet-directory-service |  | application/vnd.japannet-directory-service |
+| Iana | 3514429168 | vnd.street-stream |  | application/vnd.street-stream |
+| Iana | 3519038486 | csrattrs |  | application/csrattrs |
+| Iana | 3519971946 | mmt-aei+xml |  | application/mmt-aei+xml |
+| Iana | 3523163259 | vnd.insors.igm |  | application/vnd.insors.igm |
+| Iana | 3528713880 | voucher-cms+json |  | application/voucher-cms+json |
+| Iana | 3529104613 | vnd.ntt-local.ogw_remote-access |  | application/vnd.ntt-local.ogw_remote-access |
+| Iana | 3530430086 | vnd.coreos.ignition+json |  | application/vnd.coreos.ignition+json |
+| Iana | 3530494109 | vnd.uplanet.cacheop |  | application/vnd.uplanet.cacheop |
+| Iana | 3530913644 | vnd.vcf |  | text/vnd.vcf |
+| Iana | 3537265699 | vnd.lotus-freelance |  | application/vnd.lotus-freelance |
+| Iana | 3537351692 | vnd.dece.mobile |  | video/vnd.dece.mobile |
+| Iana | 3539317545 | atsc-rdt+json |  | application/atsc-rdt+json |
+| Iana | 3539896745 | vnd.oma.dd2+xml |  | application/vnd.oma.dd2+xml |
+| Iana | 3540040203 | vnd.xmpie.cpkg |  | application/vnd.xmpie.cpkg |
+| Iana | 3541623162 | mathematica |  | application/mathematica |
+| Iana | 3543003675 | cache-manifest |  | text/cache-manifest |
+| Iana | 3546824522 | vnd.groove-injector |  | application/vnd.groove-injector |
+| Iana | 3547753569 | s-http (OBSOLETE) |  | message/s-http |
+| Iana | 3549948928 | pls+xml |  | application/pls+xml |
+| Iana | 3554138563 | vnd.meridian-slingshot |  | application/vnd.meridian-slingshot |
+| Iana | 3554366985 | dns+json |  | application/dns+json |
+| Iana | 3556509107 | clearmode |  | audio/clearmode |
+| Iana | 3558600132 | vnd.openxmlformats-officedocument.extended-properties+xml |  | application/vnd.openxmlformats-officedocument.extended-properties+xml |
+| Iana | 3559334345 | news-transmission |  | application/news-transmission |
+| Iana | 3560121387 | L16 |  | audio/L16 |
+| Iana | 3562786460 | H224 |  | application/H224 |
+| Iana | 3563335895 | rpki-roa |  | application/rpki-roa |
+| Iana | 3568396003 | vnd.coffeescript |  | application/vnd.coffeescript |
+| Iana | 3572122093 | vnd.chipnuts.karaoke-mmd |  | application/vnd.chipnuts.karaoke-mmd |
+| Iana | 3579740779 | vnd.dir-bi.plate-dl-nosuffix |  | application/vnd.dir-bi.plate-dl-nosuffix |
+| Iana | 3579819166 | vnd.kdl |  | application/vnd.kdl |
+| Iana | 3583731876 | vnd.nokia.n-gage.symbian.install (OBSOLETE; no replacement given) |  | application/vnd.nokia.n-gage.symbian.install |
+| Iana | 3585126838 | ulpfec |  | text/ulpfec |
+| Iana | 3587406333 | MELP |  | audio/MELP |
+| Iana | 3588544249 | express |  | application/express |
+| Iana | 3603688327 | vnd.evolv.ecig.profile |  | application/vnd.evolv.ecig.profile |
+| Iana | 3611738959 | eat-bun+cbor |  | application/eat-bun+cbor |
+| Iana | 3612023431 | vnd.oci.image.manifest.v1+json |  | application/vnd.oci.image.manifest.v1+json |
+| Iana | 3620682676 | vnd.xmpie.dpkg |  | application/vnd.xmpie.dpkg |
+| Iana | 3621718850 | mtl |  | model/mtl |
+| Iana | 3624082526 | vnd.oipf.contentaccessdownload+xml |  | application/vnd.oipf.contentaccessdownload+xml |
+| Iana | 3624318744 | vnd.openxmlformats-officedocument.spreadsheetml.volatileDependencies+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.volatileDependencies+xml |
+| Iana | 3627282021 | vnd.dvb.dvbj |  | application/vnd.dvb.dvbj |
+| Iana | 3628822850 | G726-24 |  | audio/G726-24 |
+| Iana | 3630199126 | vnd.vcx |  | application/vnd.vcx |
+| Iana | 3631207344 | vnd.radisys.msml-audit-dialog+xml |  | application/vnd.radisys.msml-audit-dialog+xml |
+| Iana | 3636894964 | vnd.graphviz |  | text/vnd.graphviz |
+| Iana | 3639768131 | mbms-msk-response+xml |  | application/mbms-msk-response+xml |
+| Iana | 3640433183 | scvp-vp-request |  | application/scvp-vp-request |
+| Iana | 3641071795 | vnd.ibm.secure-container |  | application/vnd.ibm.secure-container |
+| Iana | 3644124055 | vnd.fujixerox.ART4 |  | application/vnd.fujixerox.ART4 |
+| Iana | 3644915766 | nv |  | video/nv |
+| Iana | 3646403891 | vemmi |  | application/vemmi |
+| Iana | 3651541187 | vnd.immervision-ivu |  | application/vnd.immervision-ivu |
+| Iana | 3653512415 | dpx |  | image/dpx |
+| Iana | 3655629976 | vnd.triscape.mxs |  | application/vnd.triscape.mxs |
+| Iana | 3659884886 | vnd.bary |  | model/vnd.bary |
+| Iana | 3662360634 | vnd.openxmlformats-officedocument.wordprocessingml.styles+xml |  | application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml |
+| Iana | 3664925685 | vnd.espass-espass+zip |  | application/vnd.espass-espass+zip |
+| Iana | 3665539775 | fhir+json |  | application/fhir+json |
+| Iana | 3666863878 | vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml |  | application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml |
+| Iana | 3667432099 | vnd.afpc.modca-cmtable |  | application/vnd.afpc.modca-cmtable |
+| Iana | 3667895505 | tamp-status-query |  | application/tamp-status-query |
+| Iana | 3671283767 | form-data |  | multipart/form-data |
+| Iana | 3673584085 | vnd.uplanet.list-wbxml |  | application/vnd.uplanet.list-wbxml |
+| Iana | 3673695122 | vnd.fujixerox.docuworks.container |  | application/vnd.fujixerox.docuworks.container |
+| Iana | 3675216483 | vnd.novadigm.EXT |  | application/vnd.novadigm.EXT |
+| Iana | 3678127052 | vnd.patientecommsdoc |  | application/vnd.patientecommsdoc |
+| Iana | 3678724516 | vnd.dvb.file |  | video/vnd.dvb.file |
+| Iana | 3679311052 | vnd.fly |  | text/vnd.fly |
+| Iana | 3679450364 | vnd.3gpp.mcvideo-regroup+xml |  | application/vnd.3gpp.mcvideo-regroup+xml |
+| Iana | 3680692499 | vnd.shopkick+json |  | application/vnd.shopkick+json |
+| Iana | 3681756992 | lostsync+xml |  | application/lostsync+xml |
+| Iana | 3683296436 | vnd.adobe.formscentral.fcdt |  | application/vnd.adobe.formscentral.fcdt |
+| Iana | 3686060264 | vnd.ms-wmdrm.lic-chlg-req |  | application/vnd.ms-wmdrm.lic-chlg-req |
+| Iana | 3688277181 | flac |  | audio/flac |
+| Iana | 3690701309 | vnd.ms-mediapackage |  | text/vnd.ms-mediapackage |
+| Iana | 3692448857 | vnd.pg.osasli |  | application/vnd.pg.osasli |
+| Iana | 3693945932 | vnd.ipld.dag-json |  | application/vnd.ipld.dag-json |
+| Iana | 3695052418 | vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml |
+| Iana | 3697061469 | vnd.gentoo.xpak |  | application/vnd.gentoo.xpak |
+| Iana | 3701790503 | vnd.dynageo |  | application/vnd.dynageo |
+| Iana | 3701836703 | vnd.openstreetmap.data+xml |  | application/vnd.openstreetmap.data+xml |
+| Iana | 3702053010 | vnd.ctct.ws+xml |  | application/vnd.ctct.ws+xml |
+| Iana | 3705711648 | vnd.epson.ssf |  | application/vnd.epson.ssf |
+| Iana | 3708497332 | srgs |  | application/srgs |
+| Iana | 3709208966 | vnd.dece.pd |  | video/vnd.dece.pd |
+| Iana | 3710687909 | vnd.crick.clicker.template |  | application/vnd.crick.clicker.template |
+| Iana | 3715368118 | vnd.dlna.adts |  | audio/vnd.dlna.adts |
+| Iana | 3718926673 | vnd.f-secure.mobile |  | application/vnd.f-secure.mobile |
+| Iana | 3719430059 | application/resolve-response+jwt |  | application/resolve-response+jwt |
+| Iana | 3721838764 | vnd.shana.informed.package |  | application/vnd.shana.informed.package |
+| Iana | 3725293865 | EVRCB1 |  | audio/EVRCB1 |
+| Iana | 3732056058 | vnd.openxmlformats-officedocument.drawingml.diagramData+xml |  | application/vnd.openxmlformats-officedocument.drawingml.diagramData+xml |
+| Iana | 3733576067 | dns-message |  | application/dns-message |
+| Iana | 3733737336 | H263-2000 |  | video/H263-2000 |
+| Iana | 3735194806 | vnd.sema |  | application/vnd.sema |
+| Iana | 3736312629 | rtx |  | audio/rtx |
+| Iana | 3736746635 | prs.implied-object+json |  | application/prs.implied-object+json |
+| Iana | 3739179471 | dskpp+xml |  | application/dskpp+xml |
+| Iana | 3741954711 | vnd.las |  | application/vnd.las |
+| Iana | 3742064704 | vnd.osgi.subsystem |  | application/vnd.osgi.subsystem |
+| Iana | 3745496398 | vnd.sss-dtf |  | application/vnd.sss-dtf |
+| Iana | 3745771565 | BMPEG |  | video/BMPEG |
+| Iana | 3745813829 | alto-endpointpropparams+json |  | application/alto-endpointpropparams+json |
+| Iana | 3748108668 | vnd.sealedmedia.softseal.pdf |  | application/vnd.sealedmedia.softseal.pdf |
+| Iana | 3748682725 | vnd.collabio.xodocuments.presentation-template |  | application/vnd.collabio.xodocuments.presentation-template |
+| Iana | 3749448474 | vnd.ms-windows.nwprinting.oob |  | application/vnd.ms-windows.nwprinting.oob |
+| Iana | 3752320099 | vnd.dvb.notif-ia-registration-request+xml |  | application/vnd.dvb.notif-ia-registration-request+xml |
+| Iana | 3752520368 | pkcs7-signature |  | application/pkcs7-signature |
+| Iana | 3753645915 | yang-data+cbor |  | application/yang-data+cbor |
+| Iana | 3757341750 | vnd.innopath.wamp.notification |  | application/vnd.innopath.wamp.notification |
+| Iana | 3757765885 | vnd.flatland.3dml |  | model/vnd.flatland.3dml |
+| Iana | 3759633579 | pkcs8 |  | application/pkcs8 |
+| Iana | 3762653956 | vnd.oasis.opendocument.text-master-template |  | application/vnd.oasis.opendocument.text-master-template |
+| Iana | 3767960255 | vnd.ms-excel |  | application/vnd.ms-excel |
+| Iana | 3768247999 | vnd.bekitzur-stech+json |  | application/vnd.bekitzur-stech+json |
+| Iana | 3769103005 | vnd.ms-wmdrm.meter-chlg-req |  | application/vnd.ms-wmdrm.meter-chlg-req |
+| Iana | 3770995111 | vnd.ecowin.fileupdate |  | application/vnd.ecowin.fileupdate |
+| Iana | 3772764379 | vnd.dolby.heaac.1 |  | audio/vnd.dolby.heaac.1 |
+| Iana | 3776309532 | vnd.cns.inf2 |  | image/vnd.cns.inf2 |
+| Iana | 3776417872 | gzip |  | application/gzip |
+| Iana | 3780084386 | vnd.zzazz.deck+xml |  | application/vnd.zzazz.deck+xml |
+| Iana | 3782623085 | atom+xml |  | application/atom+xml |
+| Iana | 3783078191 | vnd.belightsoft.lhzd+zip |  | application/vnd.belightsoft.lhzd+zip |
+| Iana | 3784283486 | example |  | audio/example |
+| Iana | 3785618288 | xmpp+xml |  | application/xmpp+xml |
+| Iana | 3787592242 | vnd.onepagertamx |  | application/vnd.onepagertamx |
+| Iana | 3793119654 | vnd.ms-officetheme |  | application/vnd.ms-officetheme |
+| Iana | 3796410060 | vnd.pwg-multiplexed |  | application/vnd.pwg-multiplexed |
+| Iana | 3796939888 | urc-ressheet+xml |  | application/urc-ressheet+xml |
+| Iana | 3801623768 | vnd.d3m-dataset |  | application/vnd.d3m-dataset |
+| Iana | 3810885982 | linkset+json |  | application/linkset+json |
+| Iana | 3811794466 | vnd.hp-PCL |  | application/vnd.hp-PCL |
+| Iana | 3813384246 | vnd.aristanetworks.swi |  | application/vnd.aristanetworks.swi |
+| Iana | 3813641127 | vnd.3gpp-prose-pc8+xml |  | application/vnd.3gpp-prose-pc8+xml |
+| Iana | 3814459377 | alternative |  | multipart/alternative |
+| Iana | 3814590938 | vnd.3gpp.seal-info+xml |  | application/vnd.3gpp.seal-info+xml |
+| Iana | 3815365048 | EmergencyCallData.ServiceInfo+xml |  | application/EmergencyCallData.ServiceInfo+xml |
+| Iana | 3817748831 | vnd.liberty-request+xml |  | application/vnd.liberty-request+xml |
+| Iana | 3818381341 | vnd.openxmlformats-package.core-properties+xml |  | application/vnd.openxmlformats-package.core-properties+xml |
+| Iana | 3820781765 | shex |  | text/shex |
+| Iana | 3824116529 | vnd.proteus.magazine |  | application/vnd.proteus.magazine |
+| Iana | 3827382622 | mac-binhex40 |  | application/mac-binhex40 |
+| Iana | 3830143595 | yaml |  | application/yaml |
+| Iana | 3831603838 | vnd.fvt |  | video/vnd.fvt |
+| Iana | 3832133287 | xv+xml |  | application/xv+xml |
+| Iana | 3834896132 | json-seq |  | application/json-seq |
+| Iana | 3834962646 | ssml+xml |  | application/ssml+xml |
+| Iana | 3836321158 | vnd.marlin.drm.mdcf |  | application/vnd.marlin.drm.mdcf |
+| Iana | 3836671704 | index.response |  | application/index.response |
+| Iana | 3838445211 | vnd.ipld.raw |  | application/vnd.ipld.raw |
+| Iana | 3839189262 | vnd.onepagertat |  | application/vnd.onepagertat |
+| Iana | 3841211511 | dvcs |  | application/dvcs |
+| Iana | 3841727505 | vnd.sealed.mht |  | application/vnd.sealed.mht |
+| Iana | 3841788090 | vnd.arastra.swi (OBSOLETED in favor of application/vnd.aristanetworks.swi) |  | application/vnd.arastra.swi |
+| Iana | 3841805673 | vnd.3gpp.5gsv2x-local-service-information |  | application/vnd.3gpp.5gsv2x-local-service-information |
+| Iana | 3841882188 | vnd.wv.csp+wbxml |  | application/vnd.wv.csp+wbxml |
+| Iana | 3842196211 | vnd.ms-wmdrm.lic-resp |  | application/vnd.ms-wmdrm.lic-resp |
+| Iana | 3846578976 | vnd.gov.sk.xmldatacontainer+xml |  | application/vnd.gov.sk.xmldatacontainer+xml |
+| Iana | 3848466485 | font-sfnt - DEPRECATED in favor of font/sfnt |  | application/font-sfnt |
+| Iana | 3848805117 | vnd.acm.addressxfer+json |  | application/vnd.acm.addressxfer+json |
+| Iana | 3850662786 | vnd.netfpx |  | application/vnd.netfpx |
+| Iana | 3851688408 | x400-bp |  | application/x400-bp |
+| Iana | 3852266454 | vnd.wordperfect |  | application/vnd.wordperfect |
+| Iana | 3852298904 | vnd.radisys.msml-audit-conf+xml |  | application/vnd.radisys.msml-audit-conf+xml |
+| Iana | 3852988807 | tve-trigger |  | application/tve-trigger |
+| Iana | 3857626357 | G729 |  | audio/G729 |
+| Iana | 3859408122 | vnd.cups-postscript |  | application/vnd.cups-postscript |
+| Iana | 3859418788 | n-triples |  | application/n-triples |
+| Iana | 3864329248 | vnd.debian.copyright |  | text/vnd.debian.copyright |
+| Iana | 3877603713 | prs.implied-object+yaml |  | application/prs.implied-object+yaml |
+| Iana | 3879647465 | PCMA |  | audio/PCMA |
+| Iana | 3880250710 | vnd.shade-save-file |  | application/vnd.shade-save-file |
+| Iana | 3880584458 | vnd.wv.csp+xml |  | application/vnd.wv.csp+xml |
+| Iana | 3880754931 | vnd.etsi.cug+xml |  | application/vnd.etsi.cug+xml |
+| Iana | 3888498501 | vnd.etsi.iptvservice+xml |  | application/vnd.etsi.iptvservice+xml |
+| Iana | 3889899261 | 3gppHal+json |  | application/3gppHal+json |
+| Iana | 3893484041 | ld+json |  | application/ld+json |
+| Iana | 3895004823 | AMR-WB |  | audio/AMR-WB |
+| Iana | 3895195455 | vnd.afpc.modca-overlay |  | application/vnd.afpc.modca-overlay |
+| Iana | 3896998504 | encaprtp |  | audio/encaprtp |
+| Iana | 3899272655 | speex |  | audio/speex |
+| Iana | 3905468255 | vnd.httphone |  | application/vnd.httphone |
+| Iana | 3905661247 | vnd.oasis.opendocument.graphics |  | application/vnd.oasis.opendocument.graphics |
+| Iana | 3907791614 | vnd.cyclonedx+xml |  | application/vnd.cyclonedx+xml |
+| Iana | 3908223514 | vnd.sealed.png |  | image/vnd.sealed.png |
+| Iana | 3909547953 | vnd.3gpp.5gnas |  | application/vnd.3gpp.5gnas |
+| Iana | 3910194067 | vnd.fastcopy-disk-image |  | application/vnd.fastcopy-disk-image |
+| Iana | 3910326790 | VMR-WB |  | audio/VMR-WB |
+| Iana | 3910774729 | vnd.tri.onesource |  | application/vnd.tri.onesource |
+| Iana | 3911605352 | DCD |  | application/DCD |
+| Iana | 3915112689 | vnd.swiftview-ics |  | application/vnd.swiftview-ics |
+| Iana | 3917093790 | vnd.rosette.annotated-data-model |  | model/vnd.rosette.annotated-data-model |
+| Iana | 3917983015 | vnd.dolby.mobile.2 |  | application/vnd.dolby.mobile.2 |
+| Iana | 3921585630 | vnd.mpegurl |  | video/vnd.mpegurl |
+| Iana | 3922324027 | VDVI |  | audio/VDVI |
+| Iana | 3923222572 | vnd.groove-identity-message |  | application/vnd.groove-identity-message |
+| Iana | 3924954871 | prs.nprend |  | application/prs.nprend |
+| Iana | 3927726869 | framework-attributes+xml |  | application/framework-attributes+xml |
+| Iana | 3930646908 | example |  | application/example |
+| Iana | 3930885569 | mixed |  | multipart/mixed |
+| Iana | 3932124695 | vnd.dzr |  | application/vnd.dzr |
+| Iana | 3932157629 | font-tdpfr |  | application/font-tdpfr |
+| Iana | 3932422767 | x-mixed-replace |  | multipart/x-mixed-replace |
+| Iana | 3933323083 | 1d-interleaved-parityfec |  | audio/1d-interleaved-parityfec |
+| Iana | 3938229820 | vnd.sus-calendar |  | application/vnd.sus-calendar |
+| Iana | 3938668571 | vnd.pcos |  | application/vnd.pcos |
+| Iana | 3939241073 | vnd.lotus-wordpro |  | application/vnd.lotus-wordpro |
+| Iana | 3942882658 | prs.lines.tag |  | text/prs.lines.tag |
+| Iana | 3959787308 | vnd.dece.unspecified |  | application/vnd.dece.unspecified |
+| Iana | 3961277196 | timestamp-query |  | application/timestamp-query |
+| Iana | 3962761714 | vnd.osgeo.mapguide.package |  | application/vnd.osgeo.mapguide.package |
+| Iana | 3963433202 | vnd.apexlang |  | application/vnd.apexlang |
+| Iana | 3966587680 | vnd.directv.mpeg |  | video/vnd.directv.mpeg |
+| Iana | 3966680831 | ulpfec |  | video/ulpfec |
+| Iana | 3967535666 | vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml |
+| Iana | 3968739321 | vnd.3gpp.mcptt-mbms-usage-info+xml |  | application/vnd.3gpp.mcptt-mbms-usage-info+xml |
+| Iana | 3968993458 | EmergencyCallData.SubscriberInfo+xml |  | application/EmergencyCallData.SubscriberInfo+xml |
+| Iana | 3969471112 | vnd.oma.cab-user-prefs+xml |  | application/vnd.oma.cab-user-prefs+xml |
+| Iana | 3970808669 | pkix-crl |  | application/pkix-crl |
+| Iana | 3972709196 | vnd.adobe.xdp+xml |  | application/vnd.adobe.xdp+xml |
+| Iana | 3976978134 | vnd.oma.cab-pcc+xml |  | application/vnd.oma.cab-pcc+xml |
+| Iana | 3978310969 | vnd.3gpp.mcvideo-user-profile+xml |  | application/vnd.3gpp.mcvideo-user-profile+xml |
+| Iana | 3979406238 | jxrS |  | image/jxrS |
+| Iana | 3979434712 | heif |  | image/heif |
+| Iana | 3980809349 | vnd.nebumind.line |  | application/vnd.nebumind.line |
+| Iana | 3981745143 | vnd.webturbo |  | application/vnd.webturbo |
+| Iana | 3987383493 | jxr |  | image/jxr |
+| Iana | 3987977577 | vnd.bint.med-content |  | application/vnd.bint.med-content |
+| Iana | 3988587278 | vnd.sealed.mpeg4 |  | video/vnd.sealed.mpeg4 |
+| Iana | 3992177239 | vnd.openxmlformats-officedocument.drawingml.diagramStyle+xml |  | application/vnd.openxmlformats-officedocument.drawingml.diagramStyle+xml |
+| Iana | 3994462513 | font-woff - DEPRECATED in favor of font/woff |  | application/font-woff |
+| Iana | 3999870255 | vnd.mophun.application |  | application/vnd.mophun.application |
+| Iana | 4001673838 | vnd.efi.iso |  | application/vnd.efi.iso |
+| Iana | 4002364190 | e57 |  | model/e57 |
+| Iana | 4002410025 | tamp-sequence-adjust-confirm |  | application/tamp-sequence-adjust-confirm |
+| Iana | 4004639731 | vnd.bluetooth.le.oob |  | application/vnd.bluetooth.le.oob |
+| Iana | 4008059398 | mud+json |  | application/mud+json |
+| Iana | 4008680505 | vnd.crick.clicker |  | application/vnd.crick.clicker |
+| Iana | 4009336474 | DVI4 |  | audio/DVI4 |
+| Iana | 4010447833 | vnd.quarantainenet |  | application/vnd.quarantainenet |
+| Iana | 4012223761 | hl7v2+xml |  | application/hl7v2+xml |
+| Iana | 4012838875 | vnd.denovo.fcselayout-link |  | application/vnd.denovo.fcselayout-link |
+| Iana | 4015111843 | vnd.ms-PrintSchemaTicket+xml |  | application/vnd.ms-PrintSchemaTicket+xml |
+| Iana | 4016775256 | linkset |  | application/linkset |
+| Iana | 4017108161 | swid+cbor |  | application/swid+cbor |
+| Iana | 4019441519 | vnd.airzip.filesecure.azs |  | application/vnd.airzip.filesecure.azs |
+| Iana | 4028023470 | rfc822-headers |  | text/rfc822-headers |
+| Iana | 4029004944 | xml |  | application/xml |
+| Iana | 4029535853 | webp |  | image/webp |
+| Iana | 4030836309 | vnd.fut-misnet |  | application/vnd.fut-misnet |
+| Iana | 4034476122 | vnd.apple.pages |  | application/vnd.apple.pages |
+| Iana | 4034944540 | FFV1 |  | video/FFV1 |
+| Iana | 4036075207 | vnd.vsf |  | application/vnd.vsf |
+| Iana | 4036195416 | vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml |  | application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml |
+| Iana | 4037192836 | vnd.openxmlformats-officedocument.spreadsheetml.styles+xml |  | application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml |
+| Iana | 4039763246 | mrb-publish+xml |  | application/mrb-publish+xml |
+| Iana | 4039823969 | vnd.oipf.spdlist+xml |  | application/vnd.oipf.spdlist+xml |
+| Iana | 4043725404 | 3gpp |  | audio/3gpp |
+| Iana | 4048314563 | vnd.oipf.dae.xhtml+xml |  | application/vnd.oipf.dae.xhtml+xml |
+| Iana | 4050748151 | vnd.ims.lti.v2.toolsettings+json |  | application/vnd.ims.lti.v2.toolsettings+json |
+| Iana | 4050793986 | vnd.smintio.portals.archive |  | application/vnd.smintio.portals.archive |
+| Iana | 4052101019 | news-checkgroups |  | application/news-checkgroups |
+| Iana | 4052293624 | vnd.3gpp.seal-unicast-info+xml |  | application/vnd.3gpp.seal-unicast-info+xml |
+| Iana | 4055930185 | ace+json |  | application/ace+json |
+| Iana | 4056169505 | hjif |  | haptics/hjif |
+| Iana | 4059428465 | vcard+json |  | application/vcard+json |
+| Iana | 4060300356 | vnd.nato.bindingdataobject+cbor |  | application/vnd.nato.bindingdataobject+cbor |
+| Iana | 4061354234 | vnd.sybyl.mol2 |  | application/vnd.sybyl.mol2 |
+| Iana | 4061926842 | vnd.dece.zip |  | application/vnd.dece.zip |
+| Iana | 4064727687 | vnd.cryptomator.encrypted |  | application/vnd.cryptomator.encrypted |
+| Iana | 4066570451 | vnd.epson.quickanime |  | application/vnd.epson.quickanime |
+| Iana | 4067341931 | vnd.ldev.productlicensing |  | application/vnd.ldev.productlicensing |
+| Iana | 4069468730 | vnd.oma.bcast.smartcard-trigger+xml |  | application/vnd.oma.bcast.smartcard-trigger+xml |
+| Iana | 4070898466 | vnd.mozilla.apng |  | image/vnd.mozilla.apng |
+| Iana | 4070986358 | vnd.chess-pgn |  | application/vnd.chess-pgn |
+| Iana | 4071059936 | global |  | message/global |
+| Iana | 4077756694 | vnd.valve.source.texture |  | image/vnd.valve.source.texture |
+| Iana | 4077824776 | vnd.commonspace |  | application/vnd.commonspace |
+| Iana | 4077927361 | ace-trl+cbor |  | application/ace-trl+cbor |
+| Iana | 4078358736 | vnd.ms-powerpoint |  | application/vnd.ms-powerpoint |
+| Iana | 4080586869 | epub+zip |  | application/epub+zip |
+| Iana | 4082801855 | vnd.dvb.notif-container+xml |  | application/vnd.dvb.notif-container+xml |
+| Iana | 4082873929 | vnd.llamagraphics.life-balance.exchange+xml |  | application/vnd.llamagraphics.life-balance.exchange+xml |
+| Iana | 4083711601 | vnd.3gpp.mcdata-user-profile+xml |  | application/vnd.3gpp.mcdata-user-profile+xml |
+| Iana | 4083988200 | raw |  | video/raw |
+| Iana | 4088672022 | vnd.cinderella |  | application/vnd.cinderella |
+| Iana | 4088769950 | sql |  | application/sql |
+| Iana | 4090476332 | vnd.oasis.opendocument.database (OBSOLETED in favor of application/vnd.oasis.opendocument.base) |  | application/vnd.oasis.opendocument.database |
+| Iana | 4090732028 | EVS |  | audio/EVS |
+| Iana | 4100053721 | vnd.adobe.fxp |  | application/vnd.adobe.fxp |
+| Iana | 4102308401 | alto-endpointcostparams+json |  | application/alto-endpointcostparams+json |
+| Iana | 4102381814 | vnd.etsi.iptvprofile+xml |  | application/vnd.etsi.iptvprofile+xml |
+| Iana | 4102443812 | vnd.fints |  | application/vnd.fints |
+| Iana | 4103675381 | vnd.epson.salt |  | application/vnd.epson.salt |
+| Iana | 4104042877 | davmount+xml |  | application/davmount+xml |
+| Iana | 4105062942 | matroska |  | audio/matroska |
+| Iana | 4105604214 | vnd.veraison.tsm-report+cbor |  | application/vnd.veraison.tsm-report+cbor |
+| Iana | 4108383220 | vnd.dtg.local.flash |  | application/vnd.dtg.local.flash |
+| Iana | 4114026415 | vnd.apache.thrift.compact |  | application/vnd.apache.thrift.compact |
+| Iana | 4115313787 | vnd.preminet |  | application/vnd.preminet |
+| Iana | 4115926298 | vnd.sealed.eml |  | application/vnd.sealed.eml |
+| Iana | 4117756571 | vnd.gentoo.manifest |  | application/vnd.gentoo.manifest |
+| Iana | 4118131962 | vnd.oma.poc.final-report+xml |  | application/vnd.oma.poc.final-report+xml |
+| Iana | 4121617177 | im-iscomposing+xml |  | application/im-iscomposing+xml |
+| Iana | 4122375952 | DV |  | audio/DV |
+| Iana | 4126781220 | vnd.nokia.catalogs |  | application/vnd.nokia.catalogs |
+| Iana | 4130112704 | cbor-seq |  | application/cbor-seq |
+| Iana | 4131086905 | vnd.geometry-explorer |  | application/vnd.geometry-explorer |
+| Iana | 4132604366 | t38 |  | image/t38 |
+| Iana | 4134001168 | vnd.openxmlformats-officedocument.presentationml.presentation |  | application/vnd.openxmlformats-officedocument.presentationml.presentation |
+| Iana | 4139332458 | vnd.fujifilm.fb.docuworks.binder |  | application/vnd.fujifilm.fb.docuworks.binder |
+| Iana | 4142369363 | MP4A-LATM |  | audio/MP4A-LATM |
+| Iana | 4149901353 | vnd.omads-email+xml |  | application/vnd.omads-email+xml |
+| Iana | 4150371756 | vnd.futoin+cbor |  | application/vnd.futoin+cbor |
+| Iana | 4153744506 | vnd.dvb.ipdcroaming |  | application/vnd.dvb.ipdcroaming |
+| Iana | 4154079289 | clue_info+xml |  | application/clue_info+xml |
+| Iana | 4157603134 | PCMU |  | audio/PCMU |
+| Iana | 4161761819 | fdf |  | application/fdf |
+| Iana | 4166011330 | rtp-enc-aescm128 |  | audio/rtp-enc-aescm128 |
+| Iana | 4166067584 | mediaservercontrol+xml |  | application/mediaservercontrol+xml |
+| Iana | 4171331758 | oscore |  | application/oscore |
+| Iana | 4172189399 | vnd.3gpp2.bcmcsinfo+xml |  | application/vnd.3gpp2.bcmcsinfo+xml |
+| Iana | 4178770917 | L8 |  | audio/L8 |
+| Iana | 4180165785 | mobile-xmf |  | audio/mobile-xmf |
+| Iana | 4185802974 | alto-propmap+json |  | application/alto-propmap+json |
+| Iana | 4187552977 | atomcat+xml |  | application/atomcat+xml |
+| Iana | 4189331919 | vnd.resilient.logic |  | application/vnd.resilient.logic |
+| Iana | 4192310636 | vnd.shx |  | application/vnd.shx |
+| Iana | 4192850660 | rtp-midi |  | audio/rtp-midi |
+| Iana | 4196913877 | vnd.osgi.bundle |  | application/vnd.osgi.bundle |
+| Iana | 4199425162 | vnd.ms-office.activeX+xml |  | application/vnd.ms-office.activeX+xml |
+| Iana | 4200633700 | cid-edhoc+cbor-seq |  | application/cid-edhoc+cbor-seq |
+| Iana | 4204554576 | vnd.ms-project |  | application/vnd.ms-project |
+| Iana | 4207666045 | vnd.las.las+json |  | application/vnd.las.las+json |
+| Iana | 4208389163 | jscalendar+json |  | application/jscalendar+json |
+| Iana | 4210995188 | vnd.ims.lti.v2.toolproxy.id+json |  | application/vnd.ims.lti.v2.toolproxy.id+json |
+| Iana | 4212993566 | vnd.etsi.tsl.der |  | application/vnd.etsi.tsl.der |
+| Iana | 4214365311 | vnd.wfa.wsc |  | message/vnd.wfa.wsc |
+| Iana | 4215538110 | fastinfoset |  | application/fastinfoset |
+| Iana | 4225338956 | vnd.dxf |  | image/vnd.dxf |
+| Iana | 4228335605 | vnd.osgi.dp |  | application/vnd.osgi.dp |
+| Iana | 4229936947 | vnd.shana.informed.interchange |  | application/vnd.shana.informed.interchange |
+| Iana | 4231354016 | 32kadpcm |  | audio/32kadpcm |
+| Iana | 4234194098 | vnd.emclient.accessrequest+xml |  | application/vnd.emclient.accessrequest+xml |
+| Iana | 4235591232 | vnd.eudora.data |  | application/vnd.eudora.data |
+| Iana | 4236266180 | mls |  | message/mls |
+| Iana | 4236885712 | asc |  | audio/asc |
+| Iana | 4239642423 | vnd.etsi.mcid+xml |  | application/vnd.etsi.mcid+xml |
+| Iana | 4241698981 | set-registration |  | application/set-registration |
+| Iana | 4246575942 | vnd.ms-playready.media.pyv |  | video/vnd.ms-playready.media.pyv |
+| Iana | 4247668993 | vnd.3gpp.seal-group-doc+xml |  | application/vnd.3gpp.seal-group-doc+xml |
+| Iana | 4248394186 | gnap-binding-jwsd |  | application/gnap-binding-jwsd |
+| Iana | 4251501848 | opc-nodeset+xml |  | application/opc-nodeset+xml |
+| Iana | 4254515506 | vnd.oftn.l10n+json |  | application/vnd.oftn.l10n+json |
+| Iana | 4255329489 | ace-groupcomm+cbor |  | application/ace-groupcomm+cbor |
+| Iana | 4260785652 | vnd.cryptii.pipe+json |  | application/vnd.cryptii.pipe+json |
+| Iana | 4263354093 | jxsv |  | video/jxsv |
+| Iana | 4264138929 | pwg-raster |  | image/pwg-raster |
+| Iana | 4265724990 | vnd.gentoo.ebuild |  | application/vnd.gentoo.ebuild |
+| Iana | 4266494892 | rls-services+xml |  | application/rls-services+xml |
+| Iana | 4266951372 | vnd.nokia.ncd |  | application/vnd.nokia.ncd |
+| Iana | 4267139476 | vnd.route66.link66+xml |  | application/vnd.route66.link66+xml |
+| Iana | 4273659658 | ST2110-41 |  | application/ST2110-41 |
+| Iana | 4274586742 | vnd.nokia.conml+wbxml |  | application/vnd.nokia.conml+wbxml |
+| Iana | 4280693460 | pem-certificate-chain |  | application/pem-certificate-chain |
+| Iana | 4288107160 | cbor |  | application/cbor |
+| Iana | 4291861971 | vnd.cups-ppd |  | application/vnd.cups-ppd |
+| Iana | 4292083979 | provenance+xml |  | application/provenance+xml |
+| Iana | 4293215786 | vnd.acucobol |  | application/vnd.acucobol |
+| Iana | 4293424542 | G726-16 |  | audio/G726-16 |
+| Iana | 4293499535 | vnd.dvb.service |  | application/vnd.dvb.service |

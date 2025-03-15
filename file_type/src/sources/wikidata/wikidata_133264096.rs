@@ -1,12 +1,12 @@
 use crate::FileType;
 use crate::format::{FileFormat, SourceType};
 
-pub(crate) const WIKIDATA_1587964: FileType = FileType {
+pub(crate) const WIKIDATA_133264096: FileType = FileType {
     file_format: &FileFormat {
-        id: 1_587_964,
+        id: 133_264_096,
         source_type: SourceType::Wikidata,
-        name: "Harwell-Boeing file format",
-        extensions: &["hb", "rua"],
+        name: "Plextalk Project File (imdn)",
+        extensions: &["imdn"],
         media_types: &[],
         signatures: &[],
         related_formats: &[],

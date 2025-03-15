@@ -4,7 +4,6 @@ use core::cmp::Ordering;
 /// The source of the file format
 #[derive(Clone, Debug, Default, PartialEq, Eq)]
 pub enum SourceType {
-    Custom,
     #[default]
     Default,
     Httpd,
@@ -19,13 +18,12 @@ impl SourceType {
     #[must_use]
     pub fn priority(&self) -> usize {
         match self {
-            SourceType::Custom => 1,
             SourceType::Default => 0,
-            SourceType::Httpd => 5,
-            SourceType::Iana => 6,
-            SourceType::Linguist => 4,
+            SourceType::Httpd => 4,
+            SourceType::Iana => 5,
+            SourceType::Linguist => 3,
             SourceType::Pronom => 2,
-            SourceType::Wikidata => 3,
+            SourceType::Wikidata => 1,
         }
     }
 }
@@ -87,38 +85,43 @@ mod tests {
 
     #[test]
     fn test_priority() {
-        assert_eq!(SourceType::Custom.priority(), 1);
         assert_eq!(SourceType::Default.priority(), 0);
-        assert_eq!(SourceType::Httpd.priority(), 5);
-        assert_eq!(SourceType::Iana.priority(), 6);
-        assert_eq!(SourceType::Linguist.priority(), 4);
+        assert_eq!(SourceType::Httpd.priority(), 4);
+        assert_eq!(SourceType::Iana.priority(), 5);
+        assert_eq!(SourceType::Linguist.priority(), 3);
         assert_eq!(SourceType::Pronom.priority(), 2);
-        assert_eq!(SourceType::Wikidata.priority(), 3);
+        assert_eq!(SourceType::Wikidata.priority(), 1);
     }
 
     #[test]
     fn test_partial_cmp() {
         assert_eq!(
-            SourceType::Custom.partial_cmp(&SourceType::Custom),
+            SourceType::Wikidata.partial_cmp(&SourceType::Wikidata),
             Some(Ordering::Equal)
         );
         assert_eq!(
-            SourceType::Custom.partial_cmp(&SourceType::Default),
+            SourceType::Wikidata.partial_cmp(&SourceType::Default),
             Some(Ordering::Greater)
         );
         assert_eq!(
-            SourceType::Default.partial_cmp(&SourceType::Custom),
+            SourceType::Default.partial_cmp(&SourceType::Wikidata),
             Some(Ordering::Less)
         );
     }
 
     #[test]
     fn test_cmp() {
-        assert_eq!(SourceType::Custom.cmp(&SourceType::Custom), Ordering::Equal);
         assert_eq!(
-            SourceType::Custom.cmp(&SourceType::Default),
+            SourceType::Wikidata.cmp(&SourceType::Wikidata),
+            Ordering::Equal
+        );
+        assert_eq!(
+            SourceType::Wikidata.cmp(&SourceType::Default),
             Ordering::Greater
         );
-        assert_eq!(SourceType::Default.cmp(&SourceType::Custom), Ordering::Less);
+        assert_eq!(
+            SourceType::Default.cmp(&SourceType::Wikidata),
+            Ordering::Less
+        );
     }
 }

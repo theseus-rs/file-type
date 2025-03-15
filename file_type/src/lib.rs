@@ -24,7 +24,7 @@
 //! use file_type::FileType;
 //!
 //! let file_type = FileType::from_bytes(b"\xCA\xFE\xBA\xBE");
-//! assert_eq!(file_type.name(), "Java Class File");
+//! assert_eq!(file_type.name(), "Java class file");
 //! assert_eq!(file_type.extensions(), vec!["class"]);
 //! ```
 //!
@@ -50,7 +50,6 @@
 //!
 //! | Name       | Description                                                                                                                | Default? |
 //! |------------|----------------------------------------------------------------------------------------------------------------------------|----------|
-//! | `custom`   | Enables custom file types                                                                                                  | Yes      |
 //! | `httpd`    | Enables [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types) file types                         | No       |
 //! | `iana`     | Enables [IANA](https://www.iana.org/assignments/media-types/media-types.xml) file types                                    | No       |
 //! | `linguist` | Enables [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) file types            | No       |
