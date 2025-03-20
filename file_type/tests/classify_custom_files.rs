@@ -183,3 +183,85 @@ fn test_yaml_file() -> anyhow::Result<()> {
     )?;
     Ok(())
 }
+
+//
+// Compression formats
+//
+
+#[cfg(feature = "wikidata")]
+#[test]
+fn test_compression_bz2() -> anyhow::Result<()> {
+    // Wikidata is currently mis-classifying this file as wikidata/25822040 instead of wikidata/27866052
+    test_file(
+        "users.csv.bz2",
+        25_822_040,
+        &SourceType::Wikidata,
+        Some("application/vnd.openstreetmap.data+xml"),
+    )
+}
+
+#[cfg(feature = "wikidata")]
+#[test]
+fn test_compression_gz() -> anyhow::Result<()> {
+    test_file(
+        "users.csv.gz",
+        10_287_816,
+        &SourceType::Wikidata,
+        Some("application/gzip"),
+    )
+}
+
+#[cfg(feature = "wikidata")]
+#[test]
+fn test_compression_lz() -> anyhow::Result<()> {
+    test_file(
+        "users.csv.lz",
+        105_854_729,
+        &SourceType::Wikidata,
+        Some("application/x-lzip"),
+    )
+}
+
+#[cfg(feature = "wikidata")]
+#[test]
+fn test_compression_lz4() -> anyhow::Result<()> {
+    test_file(
+        "users.csv.lz4",
+        28_770_292,
+        &SourceType::Wikidata,
+        Some("application/x-lz4"),
+    )
+}
+
+#[cfg(feature = "wikidata")]
+#[test]
+fn test_compression_xz() -> anyhow::Result<()> {
+    test_file(
+        "users.csv.xz",
+        162_839,
+        &SourceType::Wikidata,
+        Some("application/x-xz"),
+    )
+}
+
+#[cfg(feature = "wikidata")]
+#[test]
+fn test_compression_z() -> anyhow::Result<()> {
+    test_file(
+        "users.csv.z",
+        29_209_269,
+        &SourceType::Wikidata,
+        Some("application/x-compress"),
+    )
+}
+
+#[cfg(feature = "wikidata")]
+#[test]
+fn test_compression_zst() -> anyhow::Result<()> {
+    test_file(
+        "users.csv.zst",
+        105_853_477,
+        &SourceType::Wikidata,
+        Some("application/octet-stream"),
+    )
+}
