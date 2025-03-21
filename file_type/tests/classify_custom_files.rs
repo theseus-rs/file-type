@@ -190,6 +190,17 @@ fn test_yaml_file() -> anyhow::Result<()> {
 
 #[cfg(feature = "wikidata")]
 #[test]
+fn test_compression_br() -> anyhow::Result<()> {
+    test_file(
+        "users.csv.br",
+        133_452_018,
+        &SourceType::Wikidata,
+        Some("application/x-br"),
+    )
+}
+
+#[cfg(feature = "wikidata")]
+#[test]
 fn test_compression_bz2() -> anyhow::Result<()> {
     // Wikidata is currently mis-classifying this file as wikidata/25822040 instead of wikidata/27866052
     test_file(
@@ -248,7 +259,7 @@ fn test_compression_xz() -> anyhow::Result<()> {
 #[test]
 fn test_compression_z() -> anyhow::Result<()> {
     test_file(
-        "users.csv.z",
+        "users.csv.Z",
         29_209_269,
         &SourceType::Wikidata,
         Some("application/x-compress"),

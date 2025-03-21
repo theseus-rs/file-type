@@ -1051,6 +1051,7 @@ pub(crate) mod iana_2898430558;
 pub(crate) mod iana_2899183557;
 pub(crate) mod iana_290087393;
 pub(crate) mod iana_2903377527;
+pub(crate) mod iana_2903592947;
 pub(crate) mod iana_2904866414;
 pub(crate) mod iana_2905229348;
 pub(crate) mod iana_2905316759;
@@ -3657,6 +3658,7 @@ pub(crate) use iana_2892537491::IANA_2892537491;
 pub(crate) use iana_2898430558::IANA_2898430558;
 pub(crate) use iana_2899183557::IANA_2899183557;
 pub(crate) use iana_2903377527::IANA_2903377527;
+pub(crate) use iana_2903592947::IANA_2903592947;
 pub(crate) use iana_2904866414::IANA_2904866414;
 pub(crate) use iana_2905229348::IANA_2905229348;
 pub(crate) use iana_2905316759::IANA_2905316759;
@@ -5835,6 +5837,7 @@ pub const FILE_TYPES: &[&FileType] = &[
     &IANA_2898430558,
     &IANA_2899183557,
     &IANA_2903377527,
+    &IANA_2903592947,
     &IANA_2904866414,
     &IANA_2905229348,
     &IANA_2905316759,

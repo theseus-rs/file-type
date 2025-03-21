@@ -1,13 +1,13 @@
 use crate::FileType;
 use crate::format::{FileFormat, SourceType};
 
-pub(crate) const WIKIDATA_28205661: FileType = FileType {
+pub(crate) const WIKIDATA_2099055: FileType = FileType {
     file_format: &FileFormat {
-        id: 28_205_661,
+        id: 2_099_055,
         source_type: SourceType::Wikidata,
-        name: "Acorn Sprite",
-        extensions: &["acorn"],
-        media_types: &["image/x-riscos-sprite"],
+        name: "Playstation Patch File",
+        extensions: &["ppf"],
+        media_types: &[],
         signatures: &[],
         related_formats: &[],
     },

@@ -55232,7 +55232,7 @@ pub(crate) static MAP: phf::Map<u64, &'static [&'static FileType]> = ::phf::Map 
             4848498072608571392,
             &[
                 #[cfg(feature = "wikidata")]
-                &wikidata::WIKIDATA_105850022,
+                &wikidata::WIKIDATA_2347127,
             ],
         ),
         (
