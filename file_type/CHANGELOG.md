@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.1](https://github.com/theseus-rs/file-type/compare/v0.8.0...v0.8.1) - 2025-03-21
+
+### Added
+- update file types
+
+### Other
+- add custom compression tests
+
 ## [0.8.0](https://github.com/theseus-rs/file-type/compare/v0.7.6...v0.8.0) - 2025-03-15
 
 ### Other

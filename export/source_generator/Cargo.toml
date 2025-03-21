@@ -7,5 +7,5 @@ version = "0.1.0"
 
 [dependencies]
 anyhow = { workspace = true }
-file_type = { path = "../../file_type", version = "0.8.0" }
+file_type = { path = "../../file_type", version = "0.8.1" }
 tracing = { workspace = true }
