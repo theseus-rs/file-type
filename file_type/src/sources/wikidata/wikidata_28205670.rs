@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28205670: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Alias PIX",
         extensions: &["als", "img", "pix"],
-        media_types: &[],
+        media_types: &["image/x-alias-pix"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

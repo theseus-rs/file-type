@@ -142,6 +142,7 @@ where
     match file_types.len() {
         0 => {
             if let Some(extension) = extension {
+                let extension = extension.to_lowercase();
                 // The extensions are pre-sorted; return the first one found as the best match
                 if let Some(file_type) = FileType::from_extension(extension).first() {
                     return file_type;
@@ -151,7 +152,8 @@ where
         1 => {}
         _ => {
             if let Some(extension) = extension {
-                file_types.retain(|file_type| file_type.extensions().contains(&extension));
+                let extension = extension.to_lowercase();
+                file_types.retain(|file_type| file_type.extensions().contains(&&*extension));
             }
             sort_by(&mut file_types, cmp_file_types);
         }

@@ -631,7 +631,6 @@ pub(crate) mod wikidata_105850015;
 pub(crate) mod wikidata_105850018;
 pub(crate) mod wikidata_105850019;
 pub(crate) mod wikidata_105850020;
-pub(crate) mod wikidata_105850022;
 pub(crate) mod wikidata_105850024;
 pub(crate) mod wikidata_105850025;
 pub(crate) mod wikidata_105850027;
@@ -10327,6 +10326,7 @@ pub(crate) mod wikidata_133269479;
 pub(crate) mod wikidata_133270072;
 pub(crate) mod wikidata_133271766;
 pub(crate) mod wikidata_133285299;
+pub(crate) mod wikidata_133452018;
 pub(crate) mod wikidata_1340077;
 pub(crate) mod wikidata_13422998;
 pub(crate) mod wikidata_13454995;
@@ -10450,6 +10450,7 @@ pub(crate) mod wikidata_20748783;
 pub(crate) mod wikidata_207819;
 pub(crate) mod wikidata_209054;
 pub(crate) mod wikidata_20965861;
+pub(crate) mod wikidata_2099055;
 pub(crate) mod wikidata_21039273;
 pub(crate) mod wikidata_21040751;
 pub(crate) mod wikidata_21040799;
@@ -11989,7 +11990,6 @@ pub(crate) mod wikidata_2997216;
 pub(crate) mod wikidata_3008299;
 pub(crate) mod wikidata_30102323;
 pub(crate) mod wikidata_30102407;
-pub(crate) mod wikidata_3011110;
 pub(crate) mod wikidata_3027596;
 pub(crate) mod wikidata_305941;
 pub(crate) mod wikidata_305976;
@@ -13874,6 +13874,7 @@ pub(crate) use wikidata_2011664::WIKIDATA_2011664;
 pub(crate) use wikidata_2043681::WIKIDATA_2043681;
 pub(crate) use wikidata_2043942::WIKIDATA_2043942;
 pub(crate) use wikidata_2044200::WIKIDATA_2044200;
+pub(crate) use wikidata_2099055::WIKIDATA_2099055;
 pub(crate) use wikidata_2104918::WIKIDATA_2104918;
 pub(crate) use wikidata_2119595::WIKIDATA_2119595;
 pub(crate) use wikidata_2127640::WIKIDATA_2127640;
@@ -13907,7 +13908,6 @@ pub(crate) use wikidata_2931409::WIKIDATA_2931409;
 pub(crate) use wikidata_2996704::WIKIDATA_2996704;
 pub(crate) use wikidata_2997216::WIKIDATA_2997216;
 pub(crate) use wikidata_3008299::WIKIDATA_3008299;
-pub(crate) use wikidata_3011110::WIKIDATA_3011110;
 pub(crate) use wikidata_3027596::WIKIDATA_3027596;
 pub(crate) use wikidata_3063023::WIKIDATA_3063023;
 pub(crate) use wikidata_3063041::WIKIDATA_3063041;
@@ -17649,7 +17649,6 @@ pub(crate) use wikidata_105850015::WIKIDATA_105850015;
 pub(crate) use wikidata_105850018::WIKIDATA_105850018;
 pub(crate) use wikidata_105850019::WIKIDATA_105850019;
 pub(crate) use wikidata_105850020::WIKIDATA_105850020;
-pub(crate) use wikidata_105850022::WIKIDATA_105850022;
 pub(crate) use wikidata_105850024::WIKIDATA_105850024;
 pub(crate) use wikidata_105850025::WIKIDATA_105850025;
 pub(crate) use wikidata_105850027::WIKIDATA_105850027;
@@ -27291,6 +27290,7 @@ pub(crate) use wikidata_133269479::WIKIDATA_133269479;
 pub(crate) use wikidata_133270072::WIKIDATA_133270072;
 pub(crate) use wikidata_133271766::WIKIDATA_133271766;
 pub(crate) use wikidata_133285299::WIKIDATA_133285299;
+pub(crate) use wikidata_133452018::WIKIDATA_133452018;
 
 #[doc(hidden)]
 pub const FILE_TYPES: &[&FileType] = &[
@@ -27522,6 +27522,7 @@ pub const FILE_TYPES: &[&FileType] = &[
     &WIKIDATA_2043681,
     &WIKIDATA_2043942,
     &WIKIDATA_2044200,
+    &WIKIDATA_2099055,
     &WIKIDATA_2104918,
     &WIKIDATA_2119595,
     &WIKIDATA_2127640,
@@ -27555,7 +27556,6 @@ pub const FILE_TYPES: &[&FileType] = &[
     &WIKIDATA_2996704,
     &WIKIDATA_2997216,
     &WIKIDATA_3008299,
-    &WIKIDATA_3011110,
     &WIKIDATA_3027596,
     &WIKIDATA_3063023,
     &WIKIDATA_3063041,
@@ -31297,7 +31297,6 @@ pub const FILE_TYPES: &[&FileType] = &[
     &WIKIDATA_105850018,
     &WIKIDATA_105850019,
     &WIKIDATA_105850020,
-    &WIKIDATA_105850022,
     &WIKIDATA_105850024,
     &WIKIDATA_105850025,
     &WIKIDATA_105850027,
@@ -40939,4 +40938,5 @@ pub const FILE_TYPES: &[&FileType] = &[
     &WIKIDATA_133270072,
     &WIKIDATA_133271766,
     &WIKIDATA_133285299,
+    &WIKIDATA_133452018,
 ];

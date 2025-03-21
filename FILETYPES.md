@@ -232,6 +232,7 @@
 | Wikidata | 2043681 | PAK | pak |  |
 | Wikidata | 2043942 | Portable Document Format for Engineering | pdf | application/pdf |
 | Wikidata | 2044200 | PICT | pct, pict | image/x-pict |
+| Wikidata | 2099055 | Playstation Patch File | ppf |  |
 | Wikidata | 2104918 | Portable Sound Format | minipsf, psf, psflib |  |
 | Wikidata | 2119595 | Wavefront .obj file | object | model/obj, text/plain |
 | Wikidata | 2127640 | Railway Markup Language | railml, railmlx | application/xml, application/zip, text/xml |
@@ -247,7 +248,7 @@
 | Wikidata | 2313301 | SpreadsheetML | xml |  |
 | Wikidata | 2328734 | JISP | jisp | application/vnd.jisp |
 | Wikidata | 2332937 | Windows Media Player Playlist | wpl | application/vnd.ms-wpl |
-| Wikidata | 2347127 | Compressed image format | cso | application/x-compressed-iso |
+| Wikidata | 2347127 | Compressed image format | ciso, cso, wbi | application/octet-stream, application/x-compressed-iso |
 | Wikidata | 2357210 | Structured Fax File | sff | image/x-sff |
 | Wikidata | 2371344 | TeX font metric | tfm | application/x-tex-tfm |
 | Wikidata | 2375766 | Synchronized Accessible Media Interchange | sami, smi |  |
@@ -265,7 +266,6 @@
 | Wikidata | 2996704 | .htpasswd | htpasswd |  |
 | Wikidata | 2997216 | Core Audio Format | caf | audio/x-caf |
 | Wikidata | 3008299 | xorg.conf | xorg.conf |  |
-| Wikidata | 3011110 | DAR |  | application/octet-stream |
 | Wikidata | 3027596 | DGN | dgn |  |
 | Wikidata | 3063023 | FASTQ format | fastq, fq | text/plain |
 | Wikidata | 3063041 | Filmbox | fbx | application/octet-stream |
@@ -1265,9 +1265,9 @@
 | Wikidata | 28205649 | AAI | aai |  |
 | Wikidata | 28205653 | Abekas YUV | yuv |  |
 | Wikidata | 28205659 | Ability Office PhotoPaint | apx | application/octet-stream |
-| Wikidata | 28205661 | Acorn Sprite | acorn |  |
+| Wikidata | 28205661 | Acorn Sprite | acorn | image/x-riscos-sprite |
 | Wikidata | 28205667 | Public Key Cryptography Standard 10 | csr, p10, pem | application/pkcs10 |
-| Wikidata | 28205670 | Alias PIX | als, img, pix |  |
+| Wikidata | 28205670 | Alias PIX | als, img, pix | image/x-alias-pix |
 | Wikidata | 28205674 | Alpha Microsystems BMP | bmp | application/octet-stream |
 | Wikidata | 28205679 | Amber ARR Bitmap Image | arr |  |
 | Wikidata | 28205685 | AMOS Picture Bank | abk |  |
@@ -4007,7 +4007,6 @@
 | Wikidata | 105850018 | TheC64 Config/Joystick/Mode settings (V) | cjm | text/plain |
 | Wikidata | 105850019 | ComicRack plugin | crplugin | application/octet-stream |
 | Wikidata | 105850020 | CXF Vector Map Format (v2.x) | cxf |  |
-| Wikidata | 105850022 | CISO Compressed ISO CD image | ciso, cso, wbi | application/octet-stream |
 | Wikidata | 105850024 | Civilization 5 Project | civ5proj | text/xml |
 | Wikidata | 105850025 | Compact Receiver Independent Exchange Format |  | text/plain |
 | Wikidata | 105850027 | Calamus Vector Document | cvd | application/octet-stream |
@@ -13649,6 +13648,7 @@
 | Wikidata | 133270072 | GeoConcept text file | gxt |  |
 | Wikidata | 133271766 | DuckDB database file | ddb, duckdb |  |
 | Wikidata | 133285299 | Apache Arrow | arrow | application/vnd.apache.arrow.file |
+| Wikidata | 133452018 | brotli Archive | br | application/x-br |
 | Pronom | 8 | Microsoft Word for Macintosh Document | mcw | application/msword |
 | Pronom | 11 | Microsoft Word for Macintosh Document |  |  |
 | Pronom | 13 | Online Description Tool Format | odt |  |
