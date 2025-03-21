@@ -7,4 +7,4 @@ version.workspace = true
 
 [dependencies]
 anyhow = { workspace = true }
-file_type = { path = "../file_type", version = "0.8.0", features = ["pronom", "wikidata"] }
+file_type = { path = "../file_type", version = "0.8.1", features = ["pronom", "wikidata"] }
