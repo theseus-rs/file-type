@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_113085760: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "CB7",
         extensions: &["cb7"],
-        media_types: &[],
+        media_types: &["application/x-cb7"],
         signatures: &[],
         related_formats: &[],
     },

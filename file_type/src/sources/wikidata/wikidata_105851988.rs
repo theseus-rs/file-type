@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_105851988: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Ani ST Script",
         extensions: &["scr", "str"],
-        media_types: &["text/plain"],
+        media_types: &["image/x-ani-st", "text/plain"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

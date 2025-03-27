@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_27979154: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "ArtWorx Data Format",
         extensions: &["adf"],
-        media_types: &[],
+        media_types: &["image/x-artworx"],
         signatures: &[],
         related_formats: &[],
     },

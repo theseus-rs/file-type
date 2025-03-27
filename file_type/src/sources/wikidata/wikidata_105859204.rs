@@ -6,8 +6,8 @@ pub(crate) const WIKIDATA_105859204: FileType = FileType {
         id: 105_859_204,
         source_type: SourceType::Wikidata,
         name: "Drazpaint (C64) bitmap",
-        extensions: &["drz"],
-        media_types: &[],
+        extensions: &["drp", "drz"],
+        media_types: &["image/x-draz-paint"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

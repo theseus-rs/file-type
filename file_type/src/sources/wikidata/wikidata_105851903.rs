@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_105851903: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "DataShow Sprite",
         extensions: &["spr"],
-        media_types: &["application/octet-stream"],
+        media_types: &["application/octet-stream", "image/x-datashow-sprite"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

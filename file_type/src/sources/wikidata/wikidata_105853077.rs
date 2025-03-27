@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105853077: FileType = FileType {
     file_format: &FileFormat {
         id: 105_853_077,
         source_type: SourceType::Wikidata,
-        name: "phpMyAdmin SQL dump",
+        name: "phpMyAdmin SQL dumpTRUM",
         extensions: &["sql"],
         media_types: &[],
         signatures: &[Signature {

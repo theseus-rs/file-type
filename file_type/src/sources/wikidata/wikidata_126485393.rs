@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_126485393: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Comic Book ACE Archive",
         extensions: &["cba"],
-        media_types: &[],
+        media_types: &["application/x-cba"],
         signatures: &[],
         related_formats: &[],
     },

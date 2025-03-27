@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_105851006: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Cebra Teletext page",
         extensions: &["ttx"],
-        media_types: &["application/octet-stream"],
+        media_types: &["application/octet-stream", "application/x.teletext.ttx"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

@@ -6,8 +6,8 @@ pub(crate) const WIKIDATA_28049418: FileType = FileType {
         id: 28_049_418,
         source_type: SourceType::Wikidata,
         name: "DEGAS image, high resolution",
-        extensions: &["PI3"],
-        media_types: &["application/octet-stream"],
+        extensions: &["PI3", "pi3"],
+        media_types: &["application/octet-stream", "image/x-pi3"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
