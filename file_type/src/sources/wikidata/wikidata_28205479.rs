@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28205479: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Amiga Workbench icon",
         extensions: &["info"],
-        media_types: &[],
+        media_types: &["image/x-amiga-icon"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

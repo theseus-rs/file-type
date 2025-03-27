@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_105858581: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "ArtMaster88 bitmap",
         extensions: &["img"],
-        media_types: &["application/octet-stream"],
+        media_types: &["application/octet-stream", "image/x-artmaster"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

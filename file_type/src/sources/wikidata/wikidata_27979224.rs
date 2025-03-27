@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_27979224: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Advanced Video Attribute Terminal Assembler and Recreator",
         extensions: &["avt", "bbs"],
-        media_types: &[],
+        media_types: &["text/x-avatar0"],
         signatures: &[],
         related_formats: &[],
     },

@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_28049414: FileType = FileType {
         id: 28_049_414,
         source_type: SourceType::Wikidata,
         name: "DEGAS image, medium resolution",
-        extensions: &["PI2"],
+        extensions: &["PI2", "pi2"],
         media_types: &["application/octet-stream"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

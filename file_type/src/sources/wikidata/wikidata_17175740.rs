@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_17175740: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "comic book archive, tar container",
         extensions: &["cbt"],
-        media_types: &[],
+        media_types: &["application/x-cbt"],
         signatures: &[],
         related_formats: &[],
     },

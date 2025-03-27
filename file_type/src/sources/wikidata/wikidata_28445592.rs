@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28445592: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "AMOS Memory Bank",
         extensions: &["abk"],
-        media_types: &[],
+        media_types: &["application/x-amos-memorybank"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

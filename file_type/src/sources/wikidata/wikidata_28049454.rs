@@ -6,8 +6,8 @@ pub(crate) const WIKIDATA_28049454: FileType = FileType {
         id: 28_049_454,
         source_type: SourceType::Wikidata,
         name: "DEGAS Elite Compressed, medium resolution",
-        extensions: &["PC2"],
-        media_types: &["application/octet-stream"],
+        extensions: &["PC2", "pc2"],
+        media_types: &["application/octet-stream", "image/x-pc2"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

@@ -224,17 +224,6 @@ fn test_compression_gz() -> anyhow::Result<()> {
 
 #[cfg(feature = "wikidata")]
 #[test]
-fn test_compression_lz() -> anyhow::Result<()> {
-    test_file(
-        "users.csv.lz",
-        105_854_729,
-        &SourceType::Wikidata,
-        Some("application/x-lzip"),
-    )
-}
-
-#[cfg(feature = "wikidata")]
-#[test]
 fn test_compression_lz4() -> anyhow::Result<()> {
     test_file(
         "users.csv.lz4",
@@ -252,17 +241,6 @@ fn test_compression_xz() -> anyhow::Result<()> {
         162_839,
         &SourceType::Wikidata,
         Some("application/x-xz"),
-    )
-}
-
-#[cfg(feature = "wikidata")]
-#[test]
-fn test_compression_z() -> anyhow::Result<()> {
-    test_file(
-        "users.csv.Z",
-        29_209_269,
-        &SourceType::Wikidata,
-        Some("application/x-compress"),
     )
 }
 

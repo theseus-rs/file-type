@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_741654: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "DirectDraw Surface",
         extensions: &["dds"],
-        media_types: &["image/vnd-ms.dds"],
+        media_types: &["image/vnd-ms.dds", "image/x-direct-draw-surface"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
