@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28206471: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "KoalaPainter compressed",
         extensions: &["gg"],
-        media_types: &[],
+        media_types: &["image/x-koa", "image/x-koala"],
         signatures: &[],
         related_formats: &[],
     },

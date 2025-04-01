@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_113652622: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "G3 1-D encoded FAX file format",
         extensions: &["fax"],
-        media_types: &[],
+        media_types: &["image/g3fax"],
         signatures: &[],
         related_formats: &[],
     },

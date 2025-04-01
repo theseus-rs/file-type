@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28206109: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "farbfeld",
         extensions: &["ff"],
-        media_types: &["application/octet-stream"],
+        media_types: &["application/octet-stream", "image/x-farbfeld"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

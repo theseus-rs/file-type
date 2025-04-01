@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28058372: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "IFF-FAXX",
         extensions: &["faxx"],
-        media_types: &[],
+        media_types: &["image/x-faxx"],
         signatures: &[],
         related_formats: &[],
     },
