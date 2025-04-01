@@ -44,7 +44,7 @@ magic = "0.16.2"
 mime_guess = "2.0.5"
 phf = { version = "0.11.3", default-features = false }
 phf_codegen = "0.11.3"
-quick-xml = "0.37.2"
+quick-xml = "0.37.4"
 rayon = "1.5.1"
 reqwest = "0.12.14"
 serde = "1.0.219"
