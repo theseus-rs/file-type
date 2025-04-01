@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_27979411: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "iCEDraw",
         extensions: &["idf"],
-        media_types: &["application/octet-stream"],
+        media_types: &["application/octet-stream", "image/x-icedraw"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

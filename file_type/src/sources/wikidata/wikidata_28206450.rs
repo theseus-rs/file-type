@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28206450: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "KiSS CEL 8-bit",
         extensions: &["cel"],
-        media_types: &[],
+        media_types: &["image/x-kiss-cel"],
         signatures: &[],
         related_formats: &[],
     },

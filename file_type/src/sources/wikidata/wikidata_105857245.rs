@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_105857245: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "HomeBrew Icon",
         extensions: &["hic"],
-        media_types: &["application/octet-stream"],
+        media_types: &["application/octet-stream", "image/x-homebrew-icon"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

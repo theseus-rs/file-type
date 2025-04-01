@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_72886200: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Free Universal Image Format",
         extensions: &["fuif"],
-        media_types: &[],
+        media_types: &["image/x-fuif"],
         signatures: &[],
         related_formats: &[],
     },

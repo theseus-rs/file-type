@@ -6,8 +6,8 @@ pub(crate) const WIKIDATA_105859067: FileType = FileType {
         id: 105_859_067,
         source_type: SourceType::Wikidata,
         name: "ImageLab bitmap",
-        extensions: &["b_w"],
-        media_types: &["application/octet-stream"],
+        extensions: &["b&w", "b_w"],
+        media_types: &["application/octet-stream", "image/x-imagelab"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

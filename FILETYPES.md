@@ -1,4 +1,4 @@
-# File Types (20377)
+# File Types (20381)
 
 | Source | Id | Name | Extensions | Media Types |
 | ---- | ---- | ---- | ----------- | ---------- |
@@ -456,7 +456,7 @@
 | Wikidata | 4545483 | X File Format | x |  |
 | Wikidata | 4645195 | 8-Bit Sampled Voice | 8svx, iff | audio/8svx, audio/x-8svx |
 | Wikidata | 4650636 | ACE file format | ace |  |
-| Wikidata | 4652973 | ANIM | anim |  |
+| Wikidata | 4652973 | ANIM | anim | video/x-anim |
 | Wikidata | 4670672 | Abuse Reporting Format |  | message/feedback-report |
 | Wikidata | 4676210 | Adaptive Multi-Rate audio codec | 3ga, amr | audio/AMR |
 | Wikidata | 4677626 | Activity Streams | json | application/activity+json |
@@ -594,7 +594,7 @@
 | Wikidata | 7915770 | Variant Call Format | vcf |  |
 | Wikidata | 7917813 | Vector Product Format | vpf |  |
 | Wikidata | 7956490 | Windows Recorded TV Show | wtv | application/octet-stream |
-| Wikidata | 7978505 | Web ARChive | warc | application/warc |
+| Wikidata | 7978505 | Web ARChive | warc, warc.gz | application/warc |
 | Wikidata | 7978519 | Web Integration Compound Document |  | application/cdf+xml |
 | Wikidata | 7978630 | Webarchive | webarchive | application/x-webarchive |
 | Wikidata | 8024450 | Windows Script File | wsf | text/xml |
@@ -1346,7 +1346,7 @@
 | Wikidata | 27979407 | Spectrum 512 Anispec | sps | application/octet-stream |
 | Wikidata | 27979408 | XNG | xng |  |
 | Wikidata | 27979410 | Binary Text | bin |  |
-| Wikidata | 27979411 | iCEDraw | idf | application/octet-stream |
+| Wikidata | 27979411 | iCEDraw | idf | application/octet-stream, image/x-icedraw |
 | Wikidata | 27979412 | RIPscrip | rip | application/octet-stream |
 | Wikidata | 27979413 | TUNDRA | tnd | application/octet-stream |
 | Wikidata | 27979502 | DNG camera profile | dcp |  |
@@ -1371,7 +1371,6 @@
 | Wikidata | 27996230 | FileMaker Pro Database, version 5 | fp5 | application/x-filemaker |
 | Wikidata | 27996235 | FileMaker Pro Database, version 3 | fp3 | application/x-filemaker |
 | Wikidata | 27996239 | Faster than Light saved game | sav |  |
-| Wikidata | 27996244 | HyperCard stack | pdf, tif |  |
 | Wikidata | 27996251 | InnoDB database file | ibd |  |
 | Wikidata | 27996279 | MOBI | mobi, prc | application/x-mobipocket-ebook |
 | Wikidata | 28009435 | PCAP | pcap | application/vnd.tcpdump.pcap |
@@ -1415,7 +1414,7 @@
 | Wikidata | 28052884 | RRDC | rdc |  |
 | Wikidata | 28055391 | Printfox bitmap | bin, bs, gb, pg |  |
 | Wikidata | 28057842 | Axon Raw Format | arf |  |
-| Wikidata | 28058372 | IFF-FAXX | faxx |  |
+| Wikidata | 28058372 | IFF-FAXX | faxx | image/x-faxx |
 | Wikidata | 28106114 | GRASP font | fnt, set |  |
 | Wikidata | 28106121 | PXM | pxm | application/octet-stream |
 | Wikidata | 28106135 | Pi | pi | application/octet-stream |
@@ -1445,7 +1444,7 @@
 | Wikidata | 28205424 | Rawzor | rwz | image/x-raw-rawzor |
 | Wikidata | 28205434 | Samsung SRW | srw | image/x-samsung-srw |
 | Wikidata | 28205439 | Sony ARW | arw | image/x-sony-arw |
-| Wikidata | 28205442 | GX2 | gx2 | application/octet-stream |
+| Wikidata | 28205442 | GX2 | gx2 | application/octet-stream, image/x-gx2 |
 | Wikidata | 28205445 | X3F | x3f | image/x-raw-sigma |
 | Wikidata | 28205449 | Design rule for Camera File system THM | thm |  |
 | Wikidata | 28205452 | J6I | j6i |  |
@@ -1579,7 +1578,7 @@
 | Wikidata | 28206095 | Fuckpaint PI9 | PI9 |  |
 | Wikidata | 28206101 | FaceSaver | fac, face |  |
 | Wikidata | 28206105 | Falcon True Color | ftc |  |
-| Wikidata | 28206109 | farbfeld | ff | application/octet-stream |
+| Wikidata | 28206109 | farbfeld | ff | application/octet-stream, image/x-farbfeld |
 | Wikidata | 28206114 | Fuzzy Bitmap | cbm, fbm | application/octet-stream |
 | Wikidata | 28206120 | Flickering Flexible Line Interpratation | ffli | application/octet-stream |
 | Wikidata | 28206125 | Flexible Line Interpretation | fli | application/octet-stream |
@@ -1603,7 +1602,7 @@
 | Wikidata | 28206229 | Gridded Binary | grb |  |
 | Wikidata | 28206232 | HP Paintjet | pjx1 |  |
 | Wikidata | 28206237 | GROB | grb, gro |  |
-| Wikidata | 28206242 | GX1 | gx1 | application/octet-stream |
+| Wikidata | 28206242 | GX1 | gx1 | application/octet-stream, image/x-gx1 |
 | Wikidata | 28206252 | HMR | hmr |  |
 | Wikidata | 28206262 | HSI JPEG | hsi, jpg |  |
 | Wikidata | 28206265 | HSI Raw | hst, raw |  |
@@ -1637,12 +1636,12 @@
 | Wikidata | 28206433 | JPEG 2000 compound image | jpm | image/jpm |
 | Wikidata | 28206436 | JPS | jps | image/jpeg |
 | Wikidata | 28206443 | Kt Interchange File Format | kif, kiff |  |
-| Wikidata | 28206446 | KiSS CEL 4-bit | cel |  |
-| Wikidata | 28206450 | KiSS CEL 8-bit | cel |  |
+| Wikidata | 28206446 | KiSS CEL 4-bit | cel | image/x-kiss-cel |
+| Wikidata | 28206450 | KiSS CEL 8-bit | cel | image/x-kiss-cel |
 | Wikidata | 28206455 | CKiSS | cel |  |
 | Wikidata | 28206460 | KiSS color file | kcf | application/octet-stream |
 | Wikidata | 28206465 | KoalaPainter uncompressed | koa |  |
-| Wikidata | 28206471 | KoalaPainter compressed | gg |  |
+| Wikidata | 28206471 | KoalaPainter compressed | gg | image/x-koa, image/x-koala |
 | Wikidata | 28206476 | Kolor Raw | kro | application/octet-stream |
 | Wikidata | 28206481 | Krita document | kra | application/x-krita |
 | Wikidata | 28206485 | Khronos Texture | ktx | image/ktx |
@@ -3500,7 +3499,7 @@
 | Wikidata | 72825661 | Open Chromatography binary | ocb |  |
 | Wikidata | 72825855 | OpenCanvas Image | oci |  |
 | Wikidata | 72885392 | JPEG XL | jxl | image/jxl |
-| Wikidata | 72886200 | Free Universal Image Format | fuif |  |
+| Wikidata | 72886200 | Free Universal Image Format | fuif | image/x-fuif |
 | Wikidata | 72886365 | PIK | pik |  |
 | Wikidata | 72959001 | PrintArtist project | pa |  |
 | Wikidata | 72959401 | Panorama database | pan |  |
@@ -8521,7 +8520,7 @@
 | Wikidata | 105857241 | Canadian Product Incident Report form | hcxs | text/json |
 | Wikidata | 105857242 | Altera Hierarchy Interconnect File | hif | text/plain |
 | Wikidata | 105857243 | OS/2 Help (alternate) | hlp | application/octet-stream |
-| Wikidata | 105857245 | HomeBrew Icon | hic | application/octet-stream |
+| Wikidata | 105857245 | HomeBrew Icon | hic | application/octet-stream, image/x-homebrew-icon |
 | Wikidata | 105857246 | MaxonMAGIC Sound sample (v1.0) | hsn | application/octet-stream |
 | Wikidata | 105857248 | Hi-MD Minidisc track index | hma | application/octet-stream |
 | Wikidata | 105857249 | Hudson Soft game data (generic) | hsf | application/octet-stream |
@@ -9823,7 +9822,7 @@
 | Wikidata | 105859059 | Warrior Kings game data | bcp |  |
 | Wikidata | 105859062 | DualPhoto JPEG bitmap | jpg | application/octet-stream |
 | Wikidata | 105859064 | NASA PDS labeled bitmap | ibg | application/octet-stream |
-| Wikidata | 105859067 | ImageLab bitmap | b_w | application/octet-stream |
+| Wikidata | 105859067 | ImageLab bitmap | b&w, b_w | application/octet-stream, image/x-imagelab |
 | Wikidata | 105859072 | AVG update package | bin |  |
 | Wikidata | 105859078 | BALTRAD data |  |  |
 | Wikidata | 105859083 | Babylon Dictionary | bdc |  |
@@ -12858,7 +12857,7 @@
 | Wikidata | 113644684 | Ulead File For Photo Projects | ufp |  |
 | Wikidata | 113644754 | Hayes JT FAX | 001 |  |
 | Wikidata | 113644918 | Intel SatisFAXtion | dcx |  |
-| Wikidata | 113652622 | G3 1-D encoded FAX file format | fax |  |
+| Wikidata | 113652622 | G3 1-D encoded FAX file format | fax | image/g3fax |
 | Wikidata | 113661597 | Casio RAW Image | bay | image/x-raw-casio |
 | Wikidata | 113661747 | SciFax file | sci |  |
 | Wikidata | 113663059 | Coordinate 3D | c3d |  |
@@ -14177,6 +14176,11 @@
 | Wikidata | 133567365 | Draw256 VGA Format | vga | image/x-draw256-vga |
 | Wikidata | 133567482 | Dune Image | aii | image/x-dune |
 | Wikidata | 133568174 | DUO file | du1, du2, duo | image/x-atari-duo |
+| Wikidata | 133575413 | Face Painter file | fcp, fpt | image/x-face-painter |
+| Wikidata | 133575950 | GFA Artist | art | image/x-gfa-artist |
+| Wikidata | 133576410 | Hi-Eddi file | hed | image/x-hi-eddi |
+| Wikidata | 133756343 | Hires Player Missile file | hpm | image/x-hires-player-missile |
+| Wikidata | 133789864 | Portfolio Document | fdb |  |
 | Pronom | 8 | Microsoft Word for Macintosh Document | mcw | application/msword |
 | Pronom | 11 | Microsoft Word for Macintosh Document |  |  |
 | Pronom | 13 | Online Description Tool Format | odt |  |
