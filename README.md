@@ -19,8 +19,8 @@ Signature, extension and media type data are provided by:
 * [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List)
 
 If you need a format that is not supported, please provide your submission to the
-[PRONOM](https://www.nationalarchives.gov.uk/pronom/submitinfo.htm) database and include the reference id when opening
-a feature request for this project.
+[Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List) and include the
+reference when opening a feature request for this project.
 
 ## Getting Started
 
