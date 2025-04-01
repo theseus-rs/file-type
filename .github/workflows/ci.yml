@@ -56,6 +56,11 @@ jobs:
             target: wasm32-wasip1-threads
 
     steps:
+      - name: Disable Windows Defender
+        if: ${{ startsWith(matrix.platform, 'windows-') }}
+        shell: powershell
+        run: Set-MpPreference -DisableRealtimeMonitoring $true
+
       - name: Checkout source code
         uses: actions/checkout@v4
 
