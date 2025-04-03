@@ -166,7 +166,7 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
                 extensions.push(extension);
                 extensions.sort_unstable();
             }
-        };
+        }
 
         if let Some(media_type) = binding
             .get("mediaType")
