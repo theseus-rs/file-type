@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.4](https://github.com/theseus-rs/file-type/compare/v0.8.3...v0.8.4) - 2025-04-03
+
+### Other
+- update to Rust 1.86.0
+
 ## [0.8.3](https://github.com/theseus-rs/file-type/compare/v0.8.2...v0.8.3) - 2025-04-01
 
 ### Added
