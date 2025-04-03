@@ -866,7 +866,7 @@ mod tests {
             let character = char::from_u32(u32::from(c)).unwrap_or_default();
             match character {
                 '0'..='9' | 'A'..='F' | 'a'..='f' | '(' | '[' | '{' | '?' | '*' => {
-                    continue;
+                    // valid character
                 }
                 _ => {
                     let pattern = character.to_string();

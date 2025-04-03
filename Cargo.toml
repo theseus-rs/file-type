@@ -30,7 +30,7 @@ edition = "2024"
 keywords = ["file", "file-type", "format"]
 license = "Apache-2.0 OR MIT"
 repository = "https://github.com/theseus-rs/file-type"
-rust-version = "1.85.0"
+rust-version = "1.86.0"
 version = "0.8.3"
 
 [workspace.dependencies]

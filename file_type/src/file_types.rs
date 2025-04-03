@@ -146,7 +146,7 @@ where
                 // The extensions are pre-sorted; return the first one found as the best match
                 if let Some(file_type) = FileType::from_extension(extension).first() {
                     return file_type;
-                };
+                }
             }
         }
         1 => {}
