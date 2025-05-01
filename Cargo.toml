@@ -34,7 +34,7 @@ rust-version = "1.86.0"
 version = "0.8.4"
 
 [workspace.dependencies]
-anyhow = "1.0.97"
+anyhow = "1.0.98"
 criterion = "0.5.1"
 csv = "1.3.1"
 file-format = "0.26.0"
