@@ -20,7 +20,6 @@ allow = [
     "BSL-1.0",
     "ISC",
     "MIT",
-    "OGL-UK-3.0",
     "Unicode-3.0",
     "Unlicense",
 ]
