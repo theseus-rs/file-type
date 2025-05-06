@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28207261: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Seattle FilmWorks",
         extensions: &["alb", "pwm", "pwp", "sfw"],
-        media_types: &[],
+        media_types: &["image/x-seattle-filmworks"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_27979253: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "PCBoard",
         extensions: &["pcb"],
-        media_types: &[],
+        media_types: &["text/x-pcboard"],
         signatures: &[],
         related_formats: &[],
     },

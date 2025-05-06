@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28205727: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "AVS X image",
         extensions: &["avs", "mbfavs", "x"],
-        media_types: &[],
+        media_types: &["image/x-avsx"],
         signatures: &[],
         related_formats: &[],
     },

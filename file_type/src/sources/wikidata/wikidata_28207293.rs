@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28207293: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Softimage PIC",
         extensions: &["pic"],
-        media_types: &[],
+        media_types: &["image/x-softimage-pic"],
         signatures: &[],
         related_formats: &[],
     },

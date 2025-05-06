@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_27979413: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "TUNDRA",
         extensions: &["tnd"],
-        media_types: &["application/octet-stream"],
+        media_types: &["application/octet-stream", "text/x-tundra"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28207252: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "SCR",
         extensions: &["scr"],
-        media_types: &[],
+        media_types: &["image/x-zx-spectrum-standard-screen"],
         signatures: &[],
         related_formats: &[],
     },

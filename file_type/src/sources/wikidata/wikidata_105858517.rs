@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_105858517: FileType = FileType {
         id: 105_858_517,
         source_type: SourceType::Wikidata,
         name: "Naive Image format NIE bitmap",
-        extensions: &["nie"],
+        extensions: &["image/nie", "nie"],
         media_types: &["application/octet-stream"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

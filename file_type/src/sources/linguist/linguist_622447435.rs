@@ -6,7 +6,7 @@ pub(crate) const LINGUIST_622447435: FileType = FileType {
         id: 622_447_435,
         source_type: SourceType::Linguist,
         name: "KiCad Schematic",
-        extensions: &["kicad_sch", "sch"],
+        extensions: &["kicad_sch", "kicad_sym", "sch"],
         media_types: &[],
         signatures: &[],
         related_formats: &[],

@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_27979270: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "TheDraw Save File",
         extensions: &["td"],
-        media_types: &[],
+        media_types: &["image/x-thedraw"],
         signatures: &[],
         related_formats: &[],
     },

@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_27967108: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "STOS memory bank",
         extensions: &["mbk", "mbs"],
-        media_types: &[],
+        media_types: &["application/x-stos-memorybank"],
         signatures: &[],
         related_formats: &[],
     },

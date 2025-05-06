@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28049547: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "STAD image",
         extensions: &["pac", "seq"],
-        media_types: &[],
+        media_types: &["image/x-stad"],
         signatures: &[],
         related_formats: &[],
     },

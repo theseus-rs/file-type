@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28206646: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Multi Palette Picture",
         extensions: &["mpp"],
-        media_types: &["application/octet-stream"],
+        media_types: &["application/octet-stream", "image/x-multi-palette-picture"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
