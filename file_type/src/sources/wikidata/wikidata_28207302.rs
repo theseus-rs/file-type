@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28207302: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "True Colour Sprite",
         extensions: &["trs"],
-        media_types: &["application/octet-stream"],
+        media_types: &["application/octet-stream", "image/x-spooky-sprites"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

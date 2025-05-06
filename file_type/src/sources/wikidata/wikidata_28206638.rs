@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28206638: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "MTV ray tracer bitmap",
         extensions: &["mtv", "pic"],
-        media_types: &[],
+        media_types: &["image/x-mtv"],
         signatures: &[],
         related_formats: &[],
     },

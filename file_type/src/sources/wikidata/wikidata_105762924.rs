@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_105762924: FileType = FileType {
         id: 105_762_924,
         source_type: SourceType::Wikidata,
         name: "X-Windows Screen Dump (X10)",
-        extensions: &[],
+        extensions: &["xwd"],
         media_types: &["image/x-xwindowdump"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

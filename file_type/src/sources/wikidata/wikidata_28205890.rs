@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28205890: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Multipage Z-Soft Paintbrush Bitmap Graphics",
         extensions: &["dcx"],
-        media_types: &[],
+        media_types: &["image/x-dcx"],
         signatures: &[],
         related_formats: &[],
     },

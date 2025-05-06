@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_105857365: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "MAME plugin config",
         extensions: &["json"],
-        media_types: &["text/json"],
+        media_types: &["application/json"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

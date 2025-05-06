@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_1952321: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Multi Picture Object",
         extensions: &["jpg", "mpo"],
-        media_types: &[],
+        media_types: &["image/x-mpo"],
         signatures: &[],
         related_formats: &[],
     },

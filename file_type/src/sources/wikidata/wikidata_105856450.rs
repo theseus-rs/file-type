@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105856450: FileType = FileType {
     file_format: &FileFormat {
         id: 105_856_450,
         source_type: SourceType::Wikidata,
-        name: "Wireless Markup Language",
+        name: "Wireless Markup Language file",
         extensions: &["wml"],
         media_types: &["text/vnd.wap.wml"],
         signatures: &[Signature {

@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_27978800: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Spectrum 512 Smooshed",
         extensions: &["sps"],
-        media_types: &[],
+        media_types: &["image/x-spectrum512-smooshed"],
         signatures: &[],
         related_formats: &[],
     },

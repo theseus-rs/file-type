@@ -7,7 +7,10 @@ pub(crate) const WIKIDATA_124080600: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "CSL-JSON",
         extensions: &["json"],
-        media_types: &["application/vnd.citationstyles.csl+json"],
+        media_types: &[
+            "application/json",
+            "application/vnd.citationstyles.csl+json",
+        ],
         signatures: &[],
         related_formats: &[],
     },

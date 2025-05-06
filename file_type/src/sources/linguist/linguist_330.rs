@@ -6,7 +6,7 @@ pub(crate) const LINGUIST_330: FileType = FileType {
         id: 330,
         source_type: SourceType::Linguist,
         name: "SMT",
-        extensions: &["smt", "smt2"],
+        extensions: &["smt", "smt2", "z3"],
         media_types: &[],
         signatures: &[],
         related_formats: &[],

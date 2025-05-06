@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_6731061: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Magick Image File Format",
         extensions: &["mif", "miff"],
-        media_types: &[],
+        media_types: &["image/miff", "image/x-miff"],
         signatures: &[],
         related_formats: &[],
     },

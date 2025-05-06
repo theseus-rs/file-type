@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28205541: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "NeoDesk icon",
         extensions: &["nic"],
-        media_types: &[],
+        media_types: &["image/x-neodesk-icon"],
         signatures: &[],
         related_formats: &[],
     },

@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_105849952: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Coriolis.io ship loadout",
         extensions: &["json"],
-        media_types: &["application/octet-stream"],
+        media_types: &["application/json"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

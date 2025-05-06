@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28049507: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "NEOchrome",
         extensions: &["neo"],
-        media_types: &[],
+        media_types: &["image/x-neo", "image/x-neochrome"],
         signatures: &[],
         related_formats: &[],
     },

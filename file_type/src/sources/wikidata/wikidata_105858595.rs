@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_105858595: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Naive Image format NIA animated bitmaps",
         extensions: &["nia"],
-        media_types: &["application/octet-stream"],
+        media_types: &["application/octet-stream", "image/nia"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

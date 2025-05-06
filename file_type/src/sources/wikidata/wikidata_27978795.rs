@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_27978795: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Spectrum 512 Uncompressed",
         extensions: &["spu"],
-        media_types: &[],
+        media_types: &["image/x-spectrum512-uncompressed"],
         signatures: &[],
         related_formats: &[],
     },
