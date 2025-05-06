@@ -345,7 +345,7 @@ checksum = "e7ef3d5e8ae27277c8285ac43ed153158178ef0f79567f32024ca8140a0c7cd8"
 
 [[package]]
 name = "file_type"
-version = "0.8.4"
+version = "0.8.5"
 dependencies = [
  "anyhow",
  "criterion",
@@ -548,7 +548,7 @@ checksum = "6dbf3de79e51f3d586ab4cb9d5c3e2c14aa28ed23d180cf89b4df0454a69cc87"
 
 [[package]]
 name = "httpd"
-version = "0.8.4"
+version = "0.8.5"
 dependencies = [
  "anyhow",
  "file_type",
@@ -633,7 +633,7 @@ dependencies = [
 
 [[package]]
 name = "iana"
-version = "0.8.4"
+version = "0.8.5"
 dependencies = [
  "anyhow",
  "csv",
@@ -864,7 +864,7 @@ checksum = "d750af042f7ef4f724306de029d18836c26c1765a54a6a3f094cbd23a7267ffa"
 
 [[package]]
 name = "linguist"
-version = "0.8.4"
+version = "0.8.5"
 dependencies = [
  "anyhow",
  "file_type",
@@ -919,7 +919,7 @@ dependencies = [
 
 [[package]]
 name = "map_generator"
-version = "0.8.4"
+version = "0.8.5"
 dependencies = [
  "anyhow",
  "file_type",
@@ -1186,7 +1186,7 @@ dependencies = [
 
 [[package]]
 name = "pronom"
-version = "0.8.4"
+version = "0.8.5"
 dependencies = [
  "anyhow",
  "file_type",
@@ -1665,7 +1665,7 @@ dependencies = [
 
 [[package]]
 name = "test_data"
-version = "0.8.4"
+version = "0.8.5"
 dependencies = [
  "anyhow",
  "file_type",
@@ -2045,7 +2045,7 @@ dependencies = [
 
 [[package]]
 name = "wikidata"
-version = "0.8.4"
+version = "0.8.5"
 dependencies = [
  "anyhow",
  "file_type",
