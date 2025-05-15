@@ -30,14 +30,14 @@ edition = "2024"
 keywords = ["file", "file-type", "format"]
 license = "Apache-2.0 OR MIT"
 repository = "https://github.com/theseus-rs/file-type"
-rust-version = "1.86.0"
+rust-version = "1.87.0"
 version = "0.8.5"
 
 [workspace.dependencies]
 anyhow = "1.0.98"
 criterion = "0.5.1"
 csv = "1.3.1"
-file-format = "0.26.0"
+file-format = "0.27.0"
 infer = "0.19.0"
 indoc = "2.0.6"
 magic = "0.16.2"

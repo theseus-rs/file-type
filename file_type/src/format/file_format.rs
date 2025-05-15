@@ -56,11 +56,9 @@ impl FileFormat {
     /// Check if this file format is a match for the given bytes
     #[must_use]
     pub fn is_match(&self, bytes: &[u8]) -> bool {
-        let matched = self
-            .signatures
+        self.signatures
             .iter()
-            .any(|signature| signature.is_match(bytes));
-        matched
+            .any(|signature| signature.is_match(bytes))
     }
 }
 

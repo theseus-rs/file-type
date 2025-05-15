@@ -22,7 +22,7 @@ pub(crate) fn generate(source_type: &SourceType, file_types: &[&FileType]) -> Re
 
             let path = test_data_path.join(format!("{source_type_name}-{id}.{extension}"));
             if File::create(&path).is_err() {
-                eprintln!("Failed to create extension file: {path:?}");
+                eprintln!("Failed to create extension file: {}", path.display());
             }
         }
 
@@ -41,7 +41,7 @@ pub(crate) fn generate(source_type: &SourceType, file_types: &[&FileType]) -> Re
                     file.write_all(&test_data_signature)?;
                 }
                 Err(_) => {
-                    eprintln!("Failed to create signature file: {path:?}");
+                    eprintln!("Failed to create signature file: {}", path.display());
                 }
             }
         }

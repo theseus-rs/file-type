@@ -7,7 +7,6 @@ pub trait TestSignature {
 
 impl TestSignature for Signature {
     /// Generate matching test data for the signature
-    #[must_use]
     fn to_test_signature(&self) -> Vec<u8> {
         let mut signature = Vec::new();
         for byte_sequence in self.byte_sequences {
@@ -21,7 +20,6 @@ impl TestSignature for Signature {
 
 impl TestSignature for Regex {
     /// Generate matching test data for the regex
-    #[must_use]
     fn to_test_signature(&self) -> Vec<u8> {
         let mut data = Vec::new();
         for token in self.tokens {
@@ -33,7 +31,6 @@ impl TestSignature for Regex {
 
 impl TestSignature for Token {
     /// Generate matching test data for the token
-    #[must_use]
     fn to_test_signature(&self) -> Vec<u8> {
         match self {
             Token::Any(any_tokens) => {
