@@ -14,10 +14,7 @@ pub(crate) const WIKIDATA_1047541: FileType = FileType {
                     position_type: PositionType::BOF,
                     offset: Some(0),
                     regex: Regex {
-                        tokens: &[Token::Literal(&[
-                            0x25, 0x21, 0x50, 0x53, 0x2D, 0x41, 0x64, 0x6F, 0x62, 0x65, 0x2D, 0x33,
-                            0x2E, 0x30, 0x20, 0x45, 0x50, 0x53, 0x46, 0x2D, 0x33, 0x20, 0x30,
-                        ])],
+                        tokens: &[Token::Literal(&[0xC5, 0xD0, 0xD3, 0xC6])],
                     },
                 }],
             },
@@ -26,7 +23,10 @@ pub(crate) const WIKIDATA_1047541: FileType = FileType {
                     position_type: PositionType::BOF,
                     offset: Some(0),
                     regex: Regex {
-                        tokens: &[Token::Literal(&[0xC5, 0xD0, 0xD3, 0xC6])],
+                        tokens: &[Token::Literal(&[
+                            0x25, 0x21, 0x50, 0x53, 0x2D, 0x41, 0x64, 0x6F, 0x62, 0x65, 0x2D, 0x33,
+                            0x2E, 0x30, 0x20, 0x45, 0x50, 0x53, 0x46, 0x2D, 0x33, 0x20, 0x30,
+                        ])],
                     },
                 }],
             },

@@ -1,13 +1,13 @@
 use crate::FileType;
 use crate::format::{FileFormat, SourceType};
 
-pub(crate) const IANA_3719430059: FileType = FileType {
+pub(crate) const IANA_667822579: FileType = FileType {
     file_format: &FileFormat {
-        id: 3_719_430_059,
+        id: 667_822_579,
         source_type: SourceType::Iana,
-        name: "resolve-response+jwt",
+        name: "vnd.3gpp.seal-mbs-usage-info+xml",
         extensions: &[],
-        media_types: &["application/resolve-response+jwt"],
+        media_types: &["application/vnd.3gpp.seal-mbs-usage-info+xml"],
         signatures: &[],
         related_formats: &[],
     },

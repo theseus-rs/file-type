@@ -1,13 +1,13 @@
 use crate::FileType;
 use crate::format::{FileFormat, SourceType};
 
-pub(crate) const WIKIDATA_370344: FileType = FileType {
+pub(crate) const WIKIDATA_134387907: FileType = FileType {
     file_format: &FileFormat {
-        id: 370_344,
+        id: 134_387_907,
         source_type: SourceType::Wikidata,
-        name: "OPDS",
-        extensions: &[],
-        media_types: &["application/atom+xml;profile=opds-catalog"],
+        name: "SOFA Scene file",
+        extensions: &["scn"],
+        media_types: &[],
         signatures: &[],
         related_formats: &[],
     },
