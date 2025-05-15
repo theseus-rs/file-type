@@ -10480,7 +10480,13 @@ pub(crate) mod wikidata_134292868;
 pub(crate) mod wikidata_134293012;
 pub(crate) mod wikidata_134293362;
 pub(crate) mod wikidata_1343830;
+pub(crate) mod wikidata_134387907;
+pub(crate) mod wikidata_134392922;
+pub(crate) mod wikidata_134395037;
 pub(crate) mod wikidata_1343954;
+pub(crate) mod wikidata_134396038;
+pub(crate) mod wikidata_134468895;
+pub(crate) mod wikidata_134468925;
 pub(crate) mod wikidata_13454995;
 pub(crate) mod wikidata_135299;
 pub(crate) mod wikidata_1353763;
@@ -28425,6 +28431,12 @@ pub(crate) use wikidata_134292256::WIKIDATA_134292256;
 pub(crate) use wikidata_134292868::WIKIDATA_134292868;
 pub(crate) use wikidata_134293012::WIKIDATA_134293012;
 pub(crate) use wikidata_134293362::WIKIDATA_134293362;
+pub(crate) use wikidata_134387907::WIKIDATA_134387907;
+pub(crate) use wikidata_134392922::WIKIDATA_134392922;
+pub(crate) use wikidata_134395037::WIKIDATA_134395037;
+pub(crate) use wikidata_134396038::WIKIDATA_134396038;
+pub(crate) use wikidata_134468895::WIKIDATA_134468895;
+pub(crate) use wikidata_134468925::WIKIDATA_134468925;
 
 #[doc(hidden)]
 pub const FILE_TYPES: &[&FileType] = &[
@@ -42640,4 +42652,10 @@ pub const FILE_TYPES: &[&FileType] = &[
     &WIKIDATA_134292868,
     &WIKIDATA_134293012,
     &WIKIDATA_134293362,
+    &WIKIDATA_134387907,
+    &WIKIDATA_134392922,
+    &WIKIDATA_134395037,
+    &WIKIDATA_134396038,
+    &WIKIDATA_134468895,
+    &WIKIDATA_134468925,
 ];

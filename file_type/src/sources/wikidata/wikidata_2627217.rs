@@ -14,7 +14,7 @@ pub(crate) const WIKIDATA_2627217: FileType = FileType {
                     position_type: PositionType::BOF,
                     offset: Some(0),
                     regex: Regex {
-                        tokens: &[Token::Literal(&[0xFE, 0xED, 0xFA, 0xCF])],
+                        tokens: &[Token::Literal(&[0xFE, 0xED, 0xFA, 0xCE])],
                     },
                 }],
             },
@@ -23,7 +23,7 @@ pub(crate) const WIKIDATA_2627217: FileType = FileType {
                     position_type: PositionType::BOF,
                     offset: Some(0),
                     regex: Regex {
-                        tokens: &[Token::Literal(&[0xFE, 0xED, 0xFA, 0xCE])],
+                        tokens: &[Token::Literal(&[0xFE, 0xED, 0xFA, 0xCF])],
                     },
                 }],
             },

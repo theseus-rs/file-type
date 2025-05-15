@@ -1,13 +1,13 @@
 use crate::FileType;
 use crate::format::{FileFormat, SourceType};
 
-pub(crate) const IANA_3719430059: FileType = FileType {
+pub(crate) const IANA_346966926: FileType = FileType {
     file_format: &FileFormat {
-        id: 3_719_430_059,
+        id: 346_966_926,
         source_type: SourceType::Iana,
-        name: "resolve-response+jwt",
+        name: "vnd.blockfact.facta",
         extensions: &[],
-        media_types: &["application/resolve-response+jwt"],
+        media_types: &["audio/vnd.blockfact.facta"],
         signatures: &[],
         related_formats: &[],
     },
