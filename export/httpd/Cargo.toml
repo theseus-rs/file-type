@@ -7,7 +7,7 @@ version.workspace = true
 
 [dependencies]
 anyhow = { workspace = true }
-file_type = { path = "../../file_type", version = "0.8.5" }
+file_type = { path = "../../file_type", version = "0.8.6" }
 reqwest = { workspace = true, features = ["blocking"] }
 source_generator = { path = "../source_generator", version = "0.1.0" }
 tracing = { workspace = true }
