@@ -35,7 +35,7 @@ version = "0.8.6"
 
 [workspace.dependencies]
 anyhow = "1.0.98"
-criterion = "0.5.1"
+criterion = "0.6.0"
 csv = "1.3.1"
 file-format = "0.27.0"
 infer = "0.19.0"
@@ -46,7 +46,7 @@ phf = { version = "0.11.3", default-features = false }
 phf_codegen = "0.11.3"
 quick-xml = "0.37.5"
 rayon = "1.10.0"
-reqwest = "0.12.15"
+reqwest = "0.12.18"
 serde = "1.0.219"
 serde_json = "1.0.140"
 serde_yaml = "0.9.34"

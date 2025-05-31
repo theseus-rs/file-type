@@ -1,4 +1,4 @@
-# File Types (20441)
+# File Types (20449)
 
 | Source | Id | Name | Extensions | Media Types |
 | ---- | ---- | ---- | ----------- | ---------- |
@@ -594,7 +594,7 @@
 | Wikidata | 7915770 | Variant Call Format | vcf |  |
 | Wikidata | 7917813 | Vector Product Format | vpf |  |
 | Wikidata | 7956490 | Windows Recorded TV Show | wtv | application/octet-stream |
-| Wikidata | 7978505 | Web ARChive | warc, warc.gz | application/warc |
+| Wikidata | 7978505 | Web ARChive | warc | application/warc |
 | Wikidata | 7978519 | Web Integration Compound Document |  | application/cdf+xml |
 | Wikidata | 7978630 | Webarchive | webarchive | application/x-webarchive |
 | Wikidata | 8024450 | Windows Script File | wsf | text/xml |
@@ -856,6 +856,7 @@
 | Wikidata | 27355592 | ADRG Geo Data File | img |  |
 | Wikidata | 27355642 | ADRG Source File | sou |  |
 | Wikidata | 27355769 | ADRG Legend Image File | lgg |  |
+| Wikidata | 27441566 | LAS file format | las, laz | application/vnd.las |
 | Wikidata | 27473250 | Raster Product Format Table of Contents File | toc |  |
 | Wikidata | 27473282 | CADRG Legend File | lgd |  |
 | Wikidata | 27473293 | CADRG Overview Image | ovr |  |
@@ -2885,7 +2886,7 @@
 | Wikidata | 51802605 | OS/2 Change Control File | cin |  |
 | Wikidata | 51837120 | Scitex Continuous Tone Bitmap | ct | application/octet-stream |
 | Wikidata | 51837224 | Paradox Database Table, version 7 | db |  |
-| Wikidata | 51837307 | IBM DisplayWrite DCA Text File | dca | application/dca-rft |
+| Wikidata | 51837307 | IBM DisplayWrite DCA Text File | dca, rft | application/dca-rft, application/octet-stream |
 | Wikidata | 51837533 | Visual FoxPro Database Container File | dcx |  |
 | Wikidata | 51837664 | Micrografx Designer format | dsf | application/x-mgx-designer |
 | Wikidata | 51839112 | AutoCAD Film Roll | flm |  |
@@ -7542,7 +7543,6 @@
 | Wikidata | 105856026 | Dungeon Siege 2 data | ds2res |  |
 | Wikidata | 105856028 | Document Safer marked |  | application/octet-stream |
 | Wikidata | 105856029 | AutoCAD R2.05 Drawing | dwg | application/x-autocad |
-| Wikidata | 105856030 | IBM Document Content Architecture / Revisable Form Text | dca, rft | application/octet-stream |
 | Wikidata | 105856031 | Directed Graph XML document | dgml |  |
 | Wikidata | 105856032 | DemoShield Demo (v5.x) | dbd | application/octet-stream |
 | Wikidata | 105856033 | SPECCTRA Design | dsn | text/plain |
@@ -8539,7 +8539,7 @@
 | Wikidata | 105857265 | Hollywood Applet | hwa | application/octet-stream |
 | Wikidata | 105857267 | Help Magician Project | hmp |  |
 | Wikidata | 105857268 | PC-Bibliothek Hierarchy Compressed | hic |  |
-| Wikidata | 105857269 | Horizon Project | hprj | text/json |
+| Wikidata | 105857269 | Horizon EDA Project | hprj | text/json |
 | Wikidata | 105857270 | HXTape image |  | application/octet-stream |
 | Wikidata | 105857271 | HydroCAD Project | hcp |  |
 | Wikidata | 105857273 | Quick Help | hlp | application/octet-stream |
@@ -8599,7 +8599,6 @@
 | Wikidata | 105857340 | JBuilder Project | jpx |  |
 | Wikidata | 105857341 | Java SunJCE KeyStore | jceks |  |
 | Wikidata | 105857342 | JRun Server Application | jsa | application/octet-stream |
-| Wikidata | 105857344 | QMK keymap (UTF-8) | json | application/json |
 | Wikidata | 105857345 | WITCH-DOS Job Control | joc | application/octet-stream |
 | Wikidata | 105857346 | Jacksum fingerprints | jacksum |  |
 | Wikidata | 105857347 | Pro Video Job | job | application/octet-stream |
@@ -8624,7 +8623,7 @@
 | Wikidata | 105857373 | JQuiz quiz | jqz |  |
 | Wikidata | 105857374 | JPC snapsot |  | application/octet-stream |
 | Wikidata | 105857375 | Cura extruder definition | json | application/json |
-| Wikidata | 105857377 | Trizbort.io map | json | application/json |
+| Wikidata | 105857377 | Trizbort.io Adventure Game Map | json | application/json |
 | Wikidata | 105857378 | PALASM (var.3) | jed | text/plain |
 | Wikidata | 105857379 | CryENGINE DBATable | json | application/json |
 | Wikidata | 105857380 | BeamNG vehicle definition format | jbeam | application/octet-stream |
@@ -14222,6 +14221,8 @@
 | Wikidata | 134396038 | TreeDraw chart | tdr |  |
 | Wikidata | 134468895 | Microsoft Macro Assembler file | masm |  |
 | Wikidata | 134468925 | Flat Assembler file | fasm |  |
+| Wikidata | 134589258 | Pyspread save file | pysu |  |
+| Wikidata | 134596947 | Pyspread compressed file | pys |  |
 | Pronom | 8 | Microsoft Word for Macintosh Document | mcw | application/msword |
 | Pronom | 11 | Microsoft Word for Macintosh Document |  |  |
 | Pronom | 13 | Online Description Tool Format | odt |  |
@@ -16876,7 +16877,7 @@
 | Linguist | 160 | HyPhy | bf |  |
 | Linguist | 161 | IDL | dlm, pro | text/x-idl |
 | Linguist | 162 | IGOR Pro | ipf |  |
-| Linguist | 163 | INI | cfg, cnf, dof, ini, lektorproject, prefs, pro, properties, url | text/x-properties |
+| Linguist | 163 | INI | cfg, cnf, dof, frm, ini, lektorproject, prefs, pro, properties, url | text/x-properties |
 | Linguist | 164 | IRC log | irclog, weechatlog | text/mirc |
 | Linguist | 165 | Idris | idr, lidr |  |
 | Linguist | 166 | Inform 7 | i7x, ni |  |
@@ -17161,6 +17162,7 @@
 | Linguist | 75622871 | XML Property List | plist, stTheme, tmCommand, tmLanguage, tmPreferences, tmSnippet, tmTheme | text/xml |
 | Linguist | 81265970 | Vim Snippet | snip, snippet, snippets |  |
 | Linguist | 81442128 | PEG.js | peggy, pegjs | text/javascript |
+| Linguist | 84359046 | BuildStream | bst |  |
 | Linguist | 89289301 | TSPLIB data | tsp |  |
 | Linguist | 89638692 | M3U | m3u, m3u8 |  |
 | Linguist | 89855901 | StringTemplate | st | text/html |
@@ -17464,6 +17466,7 @@
 | Linguist | 997665271 | Glyph Bitmap Distribution Format | bdf |  |
 | Linguist | 998078858 | Jolie | iol, ol |  |
 | Linguist | 1013566805 | LTspice Symbol | asy | text/x-spreadsheet |
+| Linguist | 1016912802 | Tor Config |  |  |
 | Linguist | 1020148948 | Redirect Rules |  |  |
 | Linguist | 1027892786 | Smithy | smithy | text/x-csrc |
 | Linguist | 1028705371 | Janet | janet | text/x-scheme |
@@ -18913,6 +18916,7 @@
 | Iana | 1233087473 | vnd.ms-windows.devicepairing |  | application/vnd.ms-windows.devicepairing |
 | Iana | 1235227822 | vnd.3gpp2.tcap |  | application/vnd.3gpp2.tcap |
 | Iana | 1236131182 | vnd.joost.joda-archive |  | application/vnd.joost.joda-archive |
+| Iana | 1238387917 | sd-jwt+json |  | application/sd-jwt+json |
 | Iana | 1239487562 | MELP1200 |  | audio/MELP1200 |
 | Iana | 1242535117 | vnd.siren+json |  | application/vnd.siren+json |
 | Iana | 1242882989 | jose+json |  | application/jose+json |
@@ -19259,6 +19263,7 @@
 | Iana | 1935310105 | vnd.etsi.aoc+xml |  | application/vnd.etsi.aoc+xml |
 | Iana | 1936061579 | vnd.marlin.drm.actiontoken+xml |  | application/vnd.marlin.drm.actiontoken+xml |
 | Iana | 1936666943 | vnd.kodak-descriptor |  | application/vnd.kodak-descriptor |
+| Iana | 1937543065 | rs-metadata+xml |  | application/rs-metadata+xml |
 | Iana | 1938163232 | vnd.zul |  | application/vnd.zul |
 | Iana | 1940771396 | vnd.rar |  | application/vnd.rar |
 | Iana | 1943386155 | vnd.tmobile-livetv |  | application/vnd.tmobile-livetv |
@@ -20343,6 +20348,7 @@
 | Iana | 4064727687 | vnd.cryptomator.encrypted |  | application/vnd.cryptomator.encrypted |
 | Iana | 4066570451 | vnd.epson.quickanime |  | application/vnd.epson.quickanime |
 | Iana | 4067341931 | vnd.ldev.productlicensing |  | application/vnd.ldev.productlicensing |
+| Iana | 4069413977 | suit-envelope+cose |  | application/suit-envelope+cose |
 | Iana | 4069468730 | vnd.oma.bcast.smartcard-trigger+xml |  | application/vnd.oma.bcast.smartcard-trigger+xml |
 | Iana | 4070898466 | vnd.mozilla.apng |  | image/vnd.mozilla.apng |
 | Iana | 4070986358 | vnd.chess-pgn |  | application/vnd.chess-pgn |
@@ -20383,6 +20389,7 @@
 | Iana | 4134001168 | vnd.openxmlformats-officedocument.presentationml.presentation |  | application/vnd.openxmlformats-officedocument.presentationml.presentation |
 | Iana | 4139332458 | vnd.fujifilm.fb.docuworks.binder |  | application/vnd.fujifilm.fb.docuworks.binder |
 | Iana | 4142369363 | MP4A-LATM |  | audio/MP4A-LATM |
+| Iana | 4144705952 | sd-jwt |  | application/sd-jwt |
 | Iana | 4149901353 | vnd.omads-email+xml |  | application/vnd.omads-email+xml |
 | Iana | 4150371756 | vnd.futoin+cbor |  | application/vnd.futoin+cbor |
 | Iana | 4153744506 | vnd.dvb.ipdcroaming |  | application/vnd.dvb.ipdcroaming |
@@ -20428,6 +20435,7 @@
 | Iana | 4254515506 | vnd.oftn.l10n+json |  | application/vnd.oftn.l10n+json |
 | Iana | 4255329489 | ace-groupcomm+cbor |  | application/ace-groupcomm+cbor |
 | Iana | 4260785652 | vnd.cryptii.pipe+json |  | application/vnd.cryptii.pipe+json |
+| Iana | 4262695533 | kb+jwt |  | application/kb+jwt |
 | Iana | 4263354093 | jxsv |  | video/jxsv |
 | Iana | 4264138929 | pwg-raster |  | image/pwg-raster |
 | Iana | 4265724990 | vnd.gentoo.ebuild |  | application/vnd.gentoo.ebuild |
