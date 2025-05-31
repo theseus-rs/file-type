@@ -1,12 +1,12 @@
 use crate::FileType;
 use crate::format::{FileFormat, SourceType};
 
-pub(crate) const WIKIDATA_105852854: FileType = FileType {
+pub(crate) const WIKIDATA_134589258: FileType = FileType {
     file_format: &FileFormat {
-        id: 105_852_854,
+        id: 134_589_258,
         source_type: SourceType::Wikidata,
-        name: "Sublime Text Project",
-        extensions: &["sublime-project"],
+        name: "Pyspread save file",
+        extensions: &["pysu"],
         media_types: &[],
         signatures: &[],
         related_formats: &[],

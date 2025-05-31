@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_7978505: FileType = FileType {
         id: 7_978_505,
         source_type: SourceType::Wikidata,
         name: "Web ARChive",
-        extensions: &["warc", "warc.gz"],
+        extensions: &["warc"],
         media_types: &["application/warc"],
         signatures: &[],
         related_formats: &[],

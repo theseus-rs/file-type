@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105857377: FileType = FileType {
     file_format: &FileFormat {
         id: 105_857_377,
         source_type: SourceType::Wikidata,
-        name: "Trizbort.io map",
+        name: "Trizbort.io Adventure Game Map",
         extensions: &["json"],
         media_types: &["application/json"],
         signatures: &[Signature {

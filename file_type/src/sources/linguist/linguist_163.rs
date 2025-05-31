@@ -10,6 +10,7 @@ pub(crate) const LINGUIST_163: FileType = FileType {
             "cfg",
             "cnf",
             "dof",
+            "frm",
             "ini",
             "lektorproject",
             "prefs",

@@ -6,6 +6,7 @@ pub(crate) mod linguist_10;
 pub(crate) mod linguist_100;
 pub(crate) mod linguist_101;
 pub(crate) mod linguist_1013566805;
+pub(crate) mod linguist_1016912802;
 pub(crate) mod linguist_102;
 pub(crate) mod linguist_1020148948;
 pub(crate) mod linguist_1027892786;
@@ -674,6 +675,7 @@ pub(crate) mod linguist_839112914;
 pub(crate) mod linguist_84;
 pub(crate) mod linguist_840372442;
 pub(crate) mod linguist_840483232;
+pub(crate) mod linguist_84359046;
 pub(crate) mod linguist_844766630;
 pub(crate) mod linguist_847830017;
 pub(crate) mod linguist_848295328;
@@ -1214,6 +1216,7 @@ pub(crate) use linguist_74444240::LINGUIST_74444240;
 pub(crate) use linguist_75622871::LINGUIST_75622871;
 pub(crate) use linguist_81265970::LINGUIST_81265970;
 pub(crate) use linguist_81442128::LINGUIST_81442128;
+pub(crate) use linguist_84359046::LINGUIST_84359046;
 pub(crate) use linguist_89289301::LINGUIST_89289301;
 pub(crate) use linguist_89638692::LINGUIST_89638692;
 pub(crate) use linguist_89855901::LINGUIST_89855901;
@@ -1517,6 +1520,7 @@ pub(crate) use linguist_992375436::LINGUIST_992375436;
 pub(crate) use linguist_997665271::LINGUIST_997665271;
 pub(crate) use linguist_998078858::LINGUIST_998078858;
 pub(crate) use linguist_1013566805::LINGUIST_1013566805;
+pub(crate) use linguist_1016912802::LINGUIST_1016912802;
 pub(crate) use linguist_1020148948::LINGUIST_1020148948;
 pub(crate) use linguist_1027892786::LINGUIST_1027892786;
 pub(crate) use linguist_1028705371::LINGUIST_1028705371;
@@ -1983,6 +1987,7 @@ pub const FILE_TYPES: &[&FileType] = &[
     &LINGUIST_75622871,
     &LINGUIST_81265970,
     &LINGUIST_81442128,
+    &LINGUIST_84359046,
     &LINGUIST_89289301,
     &LINGUIST_89638692,
     &LINGUIST_89855901,
@@ -2286,6 +2291,7 @@ pub const FILE_TYPES: &[&FileType] = &[
     &LINGUIST_997665271,
     &LINGUIST_998078858,
     &LINGUIST_1013566805,
+    &LINGUIST_1016912802,
     &LINGUIST_1020148948,
     &LINGUIST_1027892786,
     &LINGUIST_1028705371,
