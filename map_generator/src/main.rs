@@ -57,7 +57,7 @@ fn generate_signatures_map(source_dir: &Path) -> Result<()> {
             .map(file_type_reference)
             .collect::<Vec<String>>();
         let references = format!("&[{}]", references.join(", "));
-        map = map.entry(signature, references.as_str());
+        map = map.entry(signature, references);
     }
 
     let path = source_dir.join("signatures.rs");
@@ -103,7 +103,7 @@ fn generate_extension_map(source_dir: &Path) -> Result<()> {
             .map(file_type_reference)
             .collect::<Vec<String>>();
         let references = format!("&[{}]", references.join(", "));
-        map = map.entry(extension, references.as_str());
+        map = map.entry(extension, references);
     }
 
     let path = source_dir.join("extensions.rs");
@@ -153,7 +153,7 @@ fn generate_media_types_map(source_dir: &Path) -> Result<()> {
             .map(file_type_reference)
             .collect::<Vec<String>>();
         let references = format!("&[{}]", references.join(", "));
-        map = map.entry(media_type, references.as_str());
+        map = map.entry(media_type, references);
     }
 
     let path = source_dir.join("media_types.rs");
