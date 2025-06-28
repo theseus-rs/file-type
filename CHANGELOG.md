@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.8](https://github.com/theseus-rs/file-type/compare/v0.8.7...v0.8.8) - 2025-06-28
+
+### Other
+- optimize default binary file check
+- update file formats
+
 ## [0.8.7](https://github.com/theseus-rs/file-type/compare/v0.8.6...v0.8.7) - 2025-05-31
 
 ### Other
