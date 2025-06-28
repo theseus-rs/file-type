@@ -108,7 +108,15 @@ fn cmp_file_type_extensions(a: &FileType, b: &FileType) -> Ordering {
 
 /// Determines if a byte slice is binary or text data.
 fn is_binary(bytes: &[u8]) -> bool {
-    bytes.is_empty()
+    if bytes.is_empty() {
+        return true;
+    }
+
+    // Check only the first portion of the file for performance
+    let check_length = bytes.len().min(8192);
+    let bytes_to_check = &bytes[..check_length];
+
+    bytes_to_check.is_empty()
         || bytes
             .iter()
             .any(|&byte| matches!(byte, 0..=31 if !matches!(byte, b'\n' | b'\r' | b'\t')))
