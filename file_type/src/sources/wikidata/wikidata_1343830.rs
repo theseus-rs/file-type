@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_1343830: FileType = FileType {
         id: 1_343_830,
         source_type: SourceType::Wikidata,
         name: "Executable and Linkable Format",
-        extensions: &["axf", "bin", "elf", "exe", "o", "prx", "so"],
+        extensions: &["axf", "bin", "elf", "o", "prx", "so"],
         media_types: &[],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
