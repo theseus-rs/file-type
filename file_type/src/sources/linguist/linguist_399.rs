@@ -74,6 +74,7 @@ pub(crate) const LINGUIST_399: FileType = FileType {
             "scxml",
             "sfproj",
             "shproj",
+            "slnx",
             "srdf",
             "storyboard",
             "sublime-snippet",

@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_9332294: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "SubRip text file format",
         extensions: &["srt"],
-        media_types: &["application/x-subrip", "text/plain"],
+        media_types: &["application/x-subrip"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

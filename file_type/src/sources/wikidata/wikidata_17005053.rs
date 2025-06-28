@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_17005053: FileType = FileType {
         id: 17_005_053,
         source_type: SourceType::Wikidata,
         name: "B1",
-        extensions: &[],
+        extensions: &["b1"],
         media_types: &["application/x-b1"],
         signatures: &[],
         related_formats: &[],
