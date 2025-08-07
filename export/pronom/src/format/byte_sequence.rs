@@ -82,10 +82,11 @@ where
     D: Deserializer<'de>,
 {
     let value = String::deserialize(deserializer)?;
-    if value.is_empty() {
+    let trimmed = value.trim();
+    if trimmed.is_empty() {
         Ok(None)
     } else {
-        let value: usize = value.parse().map_err(Error::custom)?;
+        let value: usize = trimmed.parse().map_err(Error::custom)?;
         Ok(Some(value))
     }
 }
@@ -95,10 +96,11 @@ where
     D: Deserializer<'de>,
 {
     let value = String::deserialize(deserializer)?;
-    if value.is_empty() {
+    let trimmed = value.trim();
+    if trimmed.is_empty() {
         Ok(None)
     } else {
-        match value.as_str() {
+        match trimmed {
             "Big-endian" => Ok(Some(Endianness::BigEndian)),
             "Little-endian" => Ok(Some(Endianness::LittleEndian)),
             _ => Err(Error::custom("Invalid endianness")),

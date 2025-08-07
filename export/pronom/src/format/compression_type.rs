@@ -1,6 +1,15 @@
 use crate::format::document_identifier::DocumentIdentifier;
 use serde::{Deserialize, Serialize};
 
+/// Custom deserializer that trims whitespace and converts whitespace-only strings to empty strings
+fn deserialize_trimmed_string<'de, D>(deserializer: D) -> Result<String, D::Error>
+where
+    D: serde::Deserializer<'de>,
+{
+    let s = String::deserialize(deserializer)?;
+    Ok(s.trim().to_string())
+}
+
 /// The lossiness of a compression type
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
 pub(crate) enum Lossiness {
@@ -15,29 +24,46 @@ pub(crate) enum Lossiness {
 pub(crate) struct CompressionType {
     #[serde(rename = "CompressionID")]
     pub(crate) id: usize,
-    #[serde(rename = "CompressionName")]
+    #[serde(
+        rename = "CompressionName",
+        deserialize_with = "deserialize_trimmed_string"
+    )]
     pub(crate) name: String,
     #[serde(
         skip_serializing_if = "String::is_empty",
-        rename = "CompressionAliases"
+        rename = "CompressionAliases",
+        deserialize_with = "deserialize_trimmed_string"
     )]
     pub(crate) aliases: String,
     #[serde(
         skip_serializing_if = "String::is_empty",
-        rename = "CompressionFamilies"
+        rename = "CompressionFamilies",
+        deserialize_with = "deserialize_trimmed_string"
     )]
     pub(crate) families: String,
-    #[serde(skip_serializing_if = "String::is_empty")]
+    #[serde(
+        skip_serializing_if = "String::is_empty",
+        deserialize_with = "deserialize_trimmed_string"
+    )]
     pub(crate) description: String,
     pub(crate) lossiness: Lossiness,
     #[serde(
         skip_serializing_if = "String::is_empty",
-        rename = "CompressionDocumentation"
+        rename = "CompressionDocumentation",
+        deserialize_with = "deserialize_trimmed_string"
     )]
     pub(crate) documentation: String,
-    #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionIpr")]
+    #[serde(
+        skip_serializing_if = "String::is_empty",
+        rename = "CompressionIpr",
+        deserialize_with = "deserialize_trimmed_string"
+    )]
     pub(crate) ipr: String,
-    #[serde(skip_serializing_if = "String::is_empty", rename = "CompressionNote")]
+    #[serde(
+        skip_serializing_if = "String::is_empty",
+        rename = "CompressionNote",
+        deserialize_with = "deserialize_trimmed_string"
+    )]
     pub(crate) note: String,
     #[serde(rename = "CompressionIdentifier")]
     pub(crate) identifiers: Vec<DocumentIdentifier>,
