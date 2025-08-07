@@ -225,7 +225,7 @@ impl Ord for FileType {
 
 impl PartialOrd for FileType {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        Some(self.file_format.cmp(other.file_format))
+        Some(self.cmp(other))
     }
 }
 

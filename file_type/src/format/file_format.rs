@@ -30,7 +30,7 @@ impl SourceType {
 
 impl PartialOrd for SourceType {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
-        Some(self.priority().cmp(&other.priority()))
+        Some(self.cmp(other))
     }
 }
 
