@@ -160,24 +160,22 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
             .get("extension")
             .and_then(|extension| extension.get("value"))
             .and_then(|extension| extension.as_str())
+            && !extensions.contains(&extension)
         {
-            if !extensions.contains(&extension) {
-                let extension = Box::leak(extension.to_string().into_boxed_str());
-                extensions.push(extension);
-                extensions.sort_unstable();
-            }
+            let extension = Box::leak(extension.to_string().into_boxed_str());
+            extensions.push(extension);
+            extensions.sort_unstable();
         }
 
         if let Some(media_type) = binding
             .get("mediaType")
             .and_then(|media_type| media_type.get("value"))
             .and_then(|media_type| media_type.as_str())
+            && !media_types.contains(&media_type)
         {
-            if !media_types.contains(&media_type) {
-                let media_type = Box::leak(media_type.to_string().into_boxed_str());
-                media_types.push(media_type);
-                media_types.sort_unstable();
-            }
+            let media_type = Box::leak(media_type.to_string().into_boxed_str());
+            media_types.push(media_type);
+            media_types.sort_unstable();
         }
 
         if let Some(file_signature) = binding
