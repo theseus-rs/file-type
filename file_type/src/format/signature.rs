@@ -15,12 +15,12 @@ impl Signature {
     #[must_use]
     pub fn key(&self) -> u64 {
         for byte_sequence in self.byte_sequences {
-            if byte_sequence.position_type == PositionType::BOF {
-                if let Some(0) = byte_sequence.offset {
-                    let key = byte_sequence.regex.key();
-                    if key != 0 {
-                        return key;
-                    }
+            if byte_sequence.position_type == PositionType::BOF
+                && let Some(0) = byte_sequence.offset
+            {
+                let key = byte_sequence.regex.key();
+                if key != 0 {
+                    return key;
                 }
             }
         }

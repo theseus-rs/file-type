@@ -30,17 +30,17 @@ fn main() -> Result<()> {
     initialize_tracing();
 
     let mut max_fmt_puid = 2039;
-    if let Ok(fmt_puid) = env::var("MAX_FMT_PUID") {
-        if let Ok(fmt_puid) = fmt_puid.parse::<i64>() {
-            max_fmt_puid = fmt_puid;
-        }
+    if let Ok(fmt_puid) = env::var("MAX_FMT_PUID")
+        && let Ok(fmt_puid) = fmt_puid.parse::<i64>()
+    {
+        max_fmt_puid = fmt_puid;
     }
 
     let mut max_x_fmt_puid = 455;
-    if let Ok(x_fmt_puid) = env::var("MAX_X_FMT_PUID") {
-        if let Ok(x_fmt_puid) = x_fmt_puid.parse::<i64>() {
-            max_x_fmt_puid = x_fmt_puid;
-        }
+    if let Ok(x_fmt_puid) = env::var("MAX_X_FMT_PUID")
+        && let Ok(x_fmt_puid) = x_fmt_puid.parse::<i64>()
+    {
+        max_x_fmt_puid = x_fmt_puid;
     }
 
     let puid_ids = HashMap::from([("fmt", max_fmt_puid), ("x-fmt", max_x_fmt_puid)]);
