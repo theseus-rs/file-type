@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.9](https://github.com/theseus-rs/file-type/compare/v0.8.8...v0.8.9) - 2025-08-18
+
+### Other
+- Merge pull request #145 from theseus-rs/update-definitions
+- remove devcontainer
+- correct lint errors
+
 ## [0.8.8](https://github.com/theseus-rs/file-type/compare/v0.8.7...v0.8.8) - 2025-06-28
 
 ### Other
