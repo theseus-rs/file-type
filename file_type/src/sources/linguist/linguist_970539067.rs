@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_970539067: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "q",
         extensions: &["q"],
-        media_types: &[],
+        media_types: &["text/x-q"],
         signatures: &[],
         related_formats: &[],
     },

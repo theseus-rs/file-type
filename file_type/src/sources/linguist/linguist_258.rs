@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_258: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "Objective-C++",
         extensions: &["mm"],
-        media_types: &["text/x-objectivec"],
+        media_types: &["text/x-objectivec++"],
         signatures: &[],
         related_formats: &[],
     },

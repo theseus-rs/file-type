@@ -6,7 +6,7 @@ pub(crate) const LINGUIST_1066250075: FileType = FileType {
         id: 1_066_250_075,
         source_type: SourceType::Linguist,
         name: "SWIG",
-        extensions: &["i"],
+        extensions: &["i", "swg", "swig"],
         media_types: &["text/x-c++src"],
         signatures: &[],
         related_formats: &[],

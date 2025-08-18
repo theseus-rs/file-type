@@ -8,7 +8,7 @@ pub(crate) const WIKIDATA_121298941: FileType = FileType {
         name: "age",
         extensions: &["age"],
         media_types: &[
-            "http://www.wikidata.org/.well-known/genid/028d13312180600533e8423e63a85aa1",
+            "http://www.wikidata.org/.well-known/genid/dde11df646562c62d3d538844b250354",
         ],
         signatures: &[],
         related_formats: &[],

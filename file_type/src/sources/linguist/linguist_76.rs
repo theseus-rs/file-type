@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_76: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "Gherkin",
         extensions: &["feature", "story"],
-        media_types: &[],
+        media_types: &["text/x-feature"],
         signatures: &[],
         related_formats: &[],
     },

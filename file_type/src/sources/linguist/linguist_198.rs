@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_198: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "Less",
         extensions: &["less"],
-        media_types: &["text/css"],
+        media_types: &["text/x-less"],
         signatures: &[],
         related_formats: &[],
     },

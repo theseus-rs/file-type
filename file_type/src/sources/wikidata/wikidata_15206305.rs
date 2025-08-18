@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_15206305: FileType = FileType {
     file_format: &FileFormat {
         id: 15_206_305,
         source_type: SourceType::Wikidata,
-        name: "Docker",
+        name: "Q15206305",
         extensions: &[],
         media_types: &[
             "application/vnd.docker.container.image.v1+json",

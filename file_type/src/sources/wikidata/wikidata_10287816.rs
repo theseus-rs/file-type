@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_10287816: FileType = FileType {
         id: 10_287_816,
         source_type: SourceType::Wikidata,
         name: "GZIP",
-        extensions: &["gz", "gzip"],
+        extensions: &["gz", "gzip", "tgz"],
         media_types: &["application/gzip"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

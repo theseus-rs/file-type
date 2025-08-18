@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105851473: FileType = FileType {
     file_format: &FileFormat {
         id: 105_851_473,
         source_type: SourceType::Wikidata,
-        name: "GObject introspection Type Libray data",
+        name: "Q105851473",
         extensions: &["typelib"],
         media_types: &["application/octet-stream"],
         signatures: &[Signature {

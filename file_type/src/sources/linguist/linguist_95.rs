@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_95: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "EJS",
         extensions: &["ect", "ejs", "ejs.t", "jst"],
-        media_types: &[],
+        media_types: &["application/x-ejs"],
         signatures: &[],
         related_formats: &[],
     },

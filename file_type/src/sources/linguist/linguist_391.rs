@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_391: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "Vue",
         extensions: &["vue"],
-        media_types: &[],
+        media_types: &["text/x-vue"],
         signatures: &[],
         related_formats: &[],
     },

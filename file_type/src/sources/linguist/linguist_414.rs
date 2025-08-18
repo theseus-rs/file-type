@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_414: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "edn",
         extensions: &["edn"],
-        media_types: &["text/x-clojure"],
+        media_types: &["application/edn"],
         signatures: &[],
         related_formats: &[],
     },

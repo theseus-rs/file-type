@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_359: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "Stylus",
         extensions: &["styl"],
-        media_types: &[],
+        media_types: &["text/x-styl"],
         signatures: &[],
         related_formats: &[],
     },

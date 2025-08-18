@@ -6,8 +6,8 @@ pub(crate) const WIKIDATA_15838827: FileType = FileType {
         id: 15_838_827,
         source_type: SourceType::Wikidata,
         name: "TopoJSON",
-        extensions: &["topojson"],
-        media_types: &["application/xml"],
+        extensions: &["json"],
+        media_types: &["application/json"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

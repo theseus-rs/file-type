@@ -8,7 +8,7 @@ pub(crate) const WIKIDATA_116625837: FileType = FileType {
         name: "Quite OK Audio Format",
         extensions: &["qoa"],
         media_types: &[
-            "http://www.wikidata.org/.well-known/genid/b158173902ebf2b59c9d83758c150d49",
+            "http://www.wikidata.org/.well-known/genid/90adfd1420c611e66b3faab1fbdacd67",
         ],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

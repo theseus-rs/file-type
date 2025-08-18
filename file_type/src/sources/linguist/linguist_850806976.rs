@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_850806976: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "Cypher",
         extensions: &["cyp", "cypher"],
-        media_types: &[],
+        media_types: &["application/x-cypher-query"],
         signatures: &[],
         related_formats: &[],
     },

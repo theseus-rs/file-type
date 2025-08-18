@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_176: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "JSONLD",
         extensions: &["jsonld"],
-        media_types: &["application/json"],
+        media_types: &["application/ld+json"],
         signatures: &[],
         related_formats: &[],
     },
