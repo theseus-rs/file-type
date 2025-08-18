@@ -6,8 +6,8 @@ pub(crate) const WIKIDATA_105857379: FileType = FileType {
         id: 105_857_379,
         source_type: SourceType::Wikidata,
         name: "CryENGINE DBATable",
-        extensions: &["json"],
-        media_types: &["application/json"],
+        extensions: &["json", "xml"],
+        media_types: &["application/json", "application/xml"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

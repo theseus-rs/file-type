@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_355: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "Squirrel",
         extensions: &["nut"],
-        media_types: &["text/x-c++src"],
+        media_types: &["text/x-squirrel"],
         signatures: &[],
         related_formats: &[],
     },

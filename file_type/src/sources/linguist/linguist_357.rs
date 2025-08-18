@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_357: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "Standard ML",
         extensions: &["fun", "ml", "sig", "sml"],
-        media_types: &["text/x-ocaml"],
+        media_types: &["text/x-sml"],
         signatures: &[],
         related_formats: &[],
     },

@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_147: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "Jinja",
         extensions: &["j2", "jinja", "jinja2"],
-        media_types: &["text/x-django"],
+        media_types: &["text/jinja2"],
         signatures: &[],
         related_formats: &[],
     },

@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_786683730: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "HXML",
         extensions: &["hxml"],
-        media_types: &[],
+        media_types: &["text/x-hxml"],
         signatures: &[],
         related_formats: &[],
     },

@@ -8,7 +8,7 @@ pub(crate) const WIKIDATA_113487415: FileType = FileType {
         name: "Djot",
         extensions: &["dj"],
         media_types: &[
-            "http://www.wikidata.org/.well-known/genid/bb007ac03487166e2fef40173ae68e6f",
+            "http://www.wikidata.org/.well-known/genid/07ddce858d714e74c6f43dccd9b06352",
         ],
         signatures: &[],
         related_formats: &[],

@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_94901924: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "TSX",
         extensions: &["tsx"],
-        media_types: &["text/jsx"],
+        media_types: &["text/typescript-jsx"],
         signatures: &[],
         related_formats: &[],
     },

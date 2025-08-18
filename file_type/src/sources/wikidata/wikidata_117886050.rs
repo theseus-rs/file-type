@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_117886050: FileType = FileType {
     file_format: &FileFormat {
         id: 117_886_050,
         source_type: SourceType::Wikidata,
-        name: "BZip3",
+        name: "Q117886050",
         extensions: &["bz3"],
         media_types: &["application/x-bzip3"],
         signatures: &[],

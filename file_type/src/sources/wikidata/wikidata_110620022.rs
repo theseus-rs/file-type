@@ -8,7 +8,7 @@ pub(crate) const WIKIDATA_110620022: FileType = FileType {
         name: "Adobe Atmosphere world (.aer)",
         extensions: &["aer"],
         media_types: &[
-            "http://www.wikidata.org/.well-known/genid/64e48b81d07f7c6707af81a93ee3a882",
+            "http://www.wikidata.org/.well-known/genid/68fffe8f4cc632865d28f1bb3c569daa",
         ],
         signatures: &[],
         related_formats: &[],

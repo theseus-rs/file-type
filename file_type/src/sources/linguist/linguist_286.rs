@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_286: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "PigLatin",
         extensions: &["pig"],
-        media_types: &[],
+        media_types: &["text/x-pig"],
         signatures: &[],
         related_formats: &[],
     },

@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_105858720: FileType = FileType {
         id: 105_858_720,
         source_type: SourceType::Wikidata,
         name: "BizHawk movie capture",
-        extensions: &["bk2"],
+        extensions: &["bk2", "tasproj"],
         media_types: &["application/octet-stream"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

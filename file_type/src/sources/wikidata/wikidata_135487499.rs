@@ -1,12 +1,12 @@
 use crate::FileType;
 use crate::format::{FileFormat, SourceType};
 
-pub(crate) const WIKIDATA_40410022: FileType = FileType {
+pub(crate) const WIKIDATA_135487499: FileType = FileType {
     file_format: &FileFormat {
-        id: 40_410_022,
+        id: 135_487_499,
         source_type: SourceType::Wikidata,
-        name: "Feather",
-        extensions: &["feather"],
+        name: "M-Tx file format",
+        extensions: &["mtx"],
         media_types: &[],
         signatures: &[],
         related_formats: &[],

@@ -7,7 +7,7 @@ pub(crate) const LINGUIST_956556503: FileType = FileType {
         source_type: SourceType::Linguist,
         name: "WebAssembly",
         extensions: &["wast", "wat"],
-        media_types: &["text/x-common-lisp"],
+        media_types: &["text/webassembly"],
         signatures: &[],
         related_formats: &[],
     },

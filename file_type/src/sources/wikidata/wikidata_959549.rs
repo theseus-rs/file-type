@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_959549: FileType = FileType {
         id: 959_549,
         source_type: SourceType::Wikidata,
         name: "shell script",
-        extensions: &[],
+        extensions: &["sh"],
         media_types: &["application/x-sh", "application/x-shellscript", "text/x-sh"],
         signatures: &[],
         related_formats: &[],
