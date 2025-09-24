@@ -1,13 +1,13 @@
 use crate::FileType;
 use crate::format::{FileFormat, SourceType};
 
-pub(crate) const WIKIDATA_28777707: FileType = FileType {
+pub(crate) const WIKIDATA_136162964: FileType = FileType {
     file_format: &FileFormat {
-        id: 28_777_707,
+        id: 136_162_964,
         source_type: SourceType::Wikidata,
-        name: "Q28777707",
-        extensions: &["mxml", "mzML", "mzml"],
-        media_types: &["text/xml"],
+        name: "Moose file",
+        extensions: &["mse"],
+        media_types: &[],
         signatures: &[],
         related_formats: &[],
     },

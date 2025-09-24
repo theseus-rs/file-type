@@ -1,13 +1,13 @@
 use crate::FileType;
 use crate::format::{FileFormat, SourceType};
 
-pub(crate) const LINGUIST_365: FileType = FileType {
+pub(crate) const LINGUIST_472308069: FileType = FileType {
     file_format: &FileFormat {
-        id: 365,
+        id: 472_308_069,
         source_type: SourceType::Linguist,
-        name: "TOML",
-        extensions: &["toml", "toml.example"],
-        media_types: &["text/x-toml"],
+        name: "QuakeC",
+        extensions: &["qc"],
+        media_types: &[],
         signatures: &[],
         related_formats: &[],
     },

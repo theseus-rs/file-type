@@ -180,6 +180,7 @@ pub(crate) mod iana_1283070147;
 pub(crate) mod iana_1283475108;
 pub(crate) mod iana_1290871586;
 pub(crate) mod iana_1291226241;
+pub(crate) mod iana_1291725594;
 pub(crate) mod iana_1291751644;
 pub(crate) mod iana_1292805617;
 pub(crate) mod iana_1294551089;
@@ -1263,6 +1264,7 @@ pub(crate) mod iana_3229630693;
 pub(crate) mod iana_32313589;
 pub(crate) mod iana_3232900560;
 pub(crate) mod iana_3233709893;
+pub(crate) mod iana_3235921983;
 pub(crate) mod iana_3236082836;
 pub(crate) mod iana_3240668558;
 pub(crate) mod iana_3241319755;
@@ -1479,6 +1481,7 @@ pub(crate) mod iana_359796587;
 pub(crate) mod iana_3603688327;
 pub(crate) mod iana_3611738959;
 pub(crate) mod iana_3612023431;
+pub(crate) mod iana_3613076564;
 pub(crate) mod iana_361957890;
 pub(crate) mod iana_3620682676;
 pub(crate) mod iana_3621718850;
@@ -2079,6 +2082,7 @@ pub(crate) mod iana_779014290;
 pub(crate) mod iana_783502289;
 pub(crate) mod iana_783851439;
 pub(crate) mod iana_78756907;
+pub(crate) mod iana_788009465;
 pub(crate) mod iana_791486801;
 pub(crate) mod iana_792947184;
 pub(crate) mod iana_79411734;
@@ -2626,6 +2630,7 @@ pub(crate) use iana_776095572::IANA_776095572;
 pub(crate) use iana_779014290::IANA_779014290;
 pub(crate) use iana_783502289::IANA_783502289;
 pub(crate) use iana_783851439::IANA_783851439;
+pub(crate) use iana_788009465::IANA_788009465;
 pub(crate) use iana_791486801::IANA_791486801;
 pub(crate) use iana_792947184::IANA_792947184;
 pub(crate) use iana_795993604::IANA_795993604;
@@ -2906,6 +2911,7 @@ pub(crate) use iana_1283070147::IANA_1283070147;
 pub(crate) use iana_1283475108::IANA_1283475108;
 pub(crate) use iana_1290871586::IANA_1290871586;
 pub(crate) use iana_1291226241::IANA_1291226241;
+pub(crate) use iana_1291725594::IANA_1291725594;
 pub(crate) use iana_1291751644::IANA_1291751644;
 pub(crate) use iana_1292805617::IANA_1292805617;
 pub(crate) use iana_1294551089::IANA_1294551089;
@@ -3887,6 +3893,7 @@ pub(crate) use iana_3228159214::IANA_3228159214;
 pub(crate) use iana_3229630693::IANA_3229630693;
 pub(crate) use iana_3232900560::IANA_3232900560;
 pub(crate) use iana_3233709893::IANA_3233709893;
+pub(crate) use iana_3235921983::IANA_3235921983;
 pub(crate) use iana_3236082836::IANA_3236082836;
 pub(crate) use iana_3240668558::IANA_3240668558;
 pub(crate) use iana_3241319755::IANA_3241319755;
@@ -4079,6 +4086,7 @@ pub(crate) use iana_3588544249::IANA_3588544249;
 pub(crate) use iana_3603688327::IANA_3603688327;
 pub(crate) use iana_3611738959::IANA_3611738959;
 pub(crate) use iana_3612023431::IANA_3612023431;
+pub(crate) use iana_3613076564::IANA_3613076564;
 pub(crate) use iana_3620682676::IANA_3620682676;
 pub(crate) use iana_3621718850::IANA_3621718850;
 pub(crate) use iana_3624082526::IANA_3624082526;
@@ -4838,6 +4846,7 @@ pub const FILE_TYPES: &[&FileType] = &[
     &IANA_779014290,
     &IANA_783502289,
     &IANA_783851439,
+    &IANA_788009465,
     &IANA_791486801,
     &IANA_792947184,
     &IANA_795993604,
@@ -5118,6 +5127,7 @@ pub const FILE_TYPES: &[&FileType] = &[
     &IANA_1283475108,
     &IANA_1290871586,
     &IANA_1291226241,
+    &IANA_1291725594,
     &IANA_1291751644,
     &IANA_1292805617,
     &IANA_1294551089,
@@ -6099,6 +6109,7 @@ pub const FILE_TYPES: &[&FileType] = &[
     &IANA_3229630693,
     &IANA_3232900560,
     &IANA_3233709893,
+    &IANA_3235921983,
     &IANA_3236082836,
     &IANA_3240668558,
     &IANA_3241319755,
@@ -6291,6 +6302,7 @@ pub const FILE_TYPES: &[&FileType] = &[
     &IANA_3603688327,
     &IANA_3611738959,
     &IANA_3612023431,
+    &IANA_3613076564,
     &IANA_3620682676,
     &IANA_3621718850,
     &IANA_3624082526,

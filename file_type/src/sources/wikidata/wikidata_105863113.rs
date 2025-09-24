@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105863113: FileType = FileType {
     file_format: &FileFormat {
         id: 105_863_113,
         source_type: SourceType::Wikidata,
-        name: "mzXML",
+        name: "Q105863113",
         extensions: &["mzXML"],
         media_types: &["text/xml"],
         signatures: &[],

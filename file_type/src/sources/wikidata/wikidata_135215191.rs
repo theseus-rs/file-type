@@ -1,19 +1,19 @@
 use crate::FileType;
 use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
 
-pub(crate) const WIKIDATA_596391: FileType = FileType {
+pub(crate) const WIKIDATA_135215191: FileType = FileType {
     file_format: &FileFormat {
-        id: 596_391,
+        id: 135_215_191,
         source_type: SourceType::Wikidata,
-        name: "APK",
-        extensions: &["aab", "abb", "apk", "apkm", "apks", "xapk"],
-        media_types: &["application/vnd.android.package-archive"],
+        name: "Visual Basic Extension",
+        extensions: &["vbx"],
+        media_types: &["application/octet-stream"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
                 regex: Regex {
-                    tokens: &[Token::Literal(&[0x50, 0x4B, 0x03, 0x04])],
+                    tokens: &[Token::Literal(&[0x4D, 0x5A])],
                 },
             }],
         }],
