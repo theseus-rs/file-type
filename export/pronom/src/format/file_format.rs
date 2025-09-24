@@ -6,6 +6,7 @@ use crate::format::related_format::RelatedFormat;
 use serde::{Deserialize, Serialize};
 
 /// The types of file format
+#[allow(dead_code)]
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
 pub(crate) enum FormatTypes {
     Aggregate,
