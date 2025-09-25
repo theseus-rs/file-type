@@ -7,6 +7,6 @@ version.workspace = true
 
 [dependencies]
 anyhow = { workspace = true }
-file_type = { path = "../file_type", version = "0.8.9", features = ["all"] }
+file_type = { path = "../file_type", version = "0.8.10", features = ["all"] }
 phf = { workspace = true }
 phf_codegen = { workspace = true }
