@@ -66,12 +66,6 @@
 //! This crate uses `#![forbid(unsafe_code)]` to ensure everything is implemented in 100% safe Rust.
 
 #![cfg_attr(not(feature = "std"), no_std)]
-#![forbid(unsafe_code)]
-#![forbid(clippy::allow_attributes)]
-#![allow(dead_code)]
-#![deny(clippy::pedantic)]
-#![deny(clippy::unwrap_in_result)]
-#![deny(clippy::unwrap_used)]
 extern crate alloc;
 extern crate core;
 

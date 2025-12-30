@@ -1,8 +1,3 @@
-#![forbid(unsafe_code)]
-#![deny(clippy::pedantic)]
-#![deny(clippy::unwrap_in_result)]
-#![deny(clippy::unwrap_used)]
-
 use anyhow::Result;
 use csv::ReaderBuilder;
 use file_type::format::{FileFormat, SourceType};

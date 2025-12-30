@@ -62,50 +62,6 @@ fn cmp_file_types(a: &FileType, b: &FileType) -> Ordering {
     a_file_format.cmp(b_file_format)
 }
 
-/// Compare the file types based on their priority and id.  The most general file type should be
-/// sorted first since these file types were not identified by signature. The order of the file
-/// types is determined by the relationship between the file formats.
-fn cmp_file_type_extensions(a: &FileType, b: &FileType) -> Ordering {
-    let a_file_format = a.file_format();
-    let b_file_format = b.file_format();
-    let a_id = a_file_format.id;
-    let b_id = b_file_format.id;
-
-    for related_format in a_file_format.related_formats {
-        if b_id != related_format.id {
-            continue;
-        }
-
-        match related_format.relationship_type {
-            RelationshipType::HasLowerPriorityThan => {
-                return Ordering::Less;
-            }
-            RelationshipType::HasPriorityOver => {
-                return Ordering::Greater;
-            }
-            _ => {}
-        }
-    }
-
-    for related_format in b_file_format.related_formats {
-        if a_id != related_format.id {
-            continue;
-        }
-
-        match related_format.relationship_type {
-            RelationshipType::HasLowerPriorityThan => {
-                return Ordering::Greater;
-            }
-            RelationshipType::HasPriorityOver => {
-                return Ordering::Less;
-            }
-            _ => {}
-        }
-    }
-
-    a_file_format.cmp(b_file_format)
-}
-
 /// Determines if a byte slice is binary or text data.
 fn is_binary(bytes: &[u8]) -> bool {
     if bytes.is_empty() {
@@ -218,20 +174,5 @@ mod tests {
         assert_eq!(file_types[0].id(), 1507);
         assert_eq!(file_types[1].id(), 1314);
         assert_eq!(file_types[2].id(), 654);
-    }
-
-    #[cfg(feature = "pronom")]
-    #[test]
-    fn test_cmp_file_type_extensions() {
-        let pronom_940 = find_file_type(&SourceType::Pronom, 940);
-        let pronom_1281 = find_file_type(&SourceType::Pronom, 1281);
-        let pronom_2679 = find_file_type(&SourceType::Pronom, 2679);
-        let mut file_types = [pronom_2679, pronom_940, pronom_1281];
-
-        sort_by(&mut file_types, cmp_file_type_extensions);
-
-        assert_eq!(file_types[0].id(), 940);
-        assert_eq!(file_types[1].id(), 1281);
-        assert_eq!(file_types[2].id(), 2679);
     }
 }

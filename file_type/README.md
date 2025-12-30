@@ -67,10 +67,6 @@ assert_eq!(file_type.extensions(), vec!["png"]);
 
 [List of supported file types](https://github.com/theseus-rs/file-type/blob/main/FILETYPES.md)
 
-## Safety
-
-This crate uses `#![forbid(unsafe_code)]` to ensure everything is implemented in 100% safe Rust.
-
 ## Performance
 
 ### Comparative performance determining file type from bytes

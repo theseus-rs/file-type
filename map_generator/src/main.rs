@@ -3,11 +3,6 @@
 //! This crate generates the maps used by the `file_type` module to reduce build times and increase
 //! runtime performance.
 
-#![forbid(unsafe_code)]
-#![deny(clippy::pedantic)]
-#![deny(clippy::unwrap_in_result)]
-#![deny(clippy::unwrap_used)]
-
 use anyhow::Result;
 use file_type::FileType;
 use file_type::format::{Signature, SourceType};

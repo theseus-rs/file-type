@@ -39,11 +39,6 @@ pub struct FileType {
 }
 
 impl FileType {
-    /// Create a new `FileType` from a `FileFormat`.
-    pub(crate) fn new(file_format: &'static FileFormat) -> Self {
-        FileType { file_format }
-    }
-
     /// Get the file type identifier.
     #[must_use]
     pub fn id(&self) -> usize {
