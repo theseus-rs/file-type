@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_28757903: FileType = FileType {
         id: 28_757_903,
         source_type: SourceType::Wikidata,
         name: "Gnumeric file format",
-        extensions: &[],
+        extensions: &["gnumeric"],
         media_types: &["application/x-gnumeric"],
         signatures: &[],
         related_formats: &[],

@@ -7,7 +7,7 @@ pub(crate) const PRONOM_2583: FileType = FileType {
         source_type: SourceType::Pronom,
         name: "Flow Cytometry Standard File",
         extensions: &["fcs"],
-        media_types: &["application/vnd.isac.fcs"],
+        media_types: &["\tapplication/vnd.isac.fcs"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

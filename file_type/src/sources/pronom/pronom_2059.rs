@@ -10,7 +10,7 @@ pub(crate) const PRONOM_2059: FileType = FileType {
         source_type: SourceType::Pronom,
         name: "FO File",
         extensions: &["fo"],
-        media_types: &["application/vnd.software602.filler.form+xml"],
+        media_types: &["\tapplication/vnd.software602.filler.form+xml"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

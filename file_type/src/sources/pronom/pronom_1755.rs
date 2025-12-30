@@ -65,9 +65,15 @@ pub(crate) const PRONOM_1755: FileType = FileType {
                 },
             ],
         }],
-        related_formats: &[RelatedFormat {
-            relationship_type: RelationshipType::HasPriorityOver,
-            id: 1_018,
-        }],
+        related_formats: &[
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 3_930,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasPriorityOver,
+                id: 1_018,
+            },
+        ],
     },
 };

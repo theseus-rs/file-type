@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_479833: FileType = FileType {
         id: 479_833,
         source_type: SourceType::Wikidata,
         name: "batch file",
-        extensions: &["bat", "btm", "cmd", "vbs"],
+        extensions: &["bat", "btm", "cmd"],
         media_types: &["application/x-bat"],
         signatures: &[],
         related_formats: &[],

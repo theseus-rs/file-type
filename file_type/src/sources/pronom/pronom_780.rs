@@ -42,7 +42,7 @@ pub(crate) const PRONOM_780: FileType = FileType {
             },
             RelatedFormat {
                 relationship_type: RelationshipType::HasPriorityOver,
-                id: 1_037,
+                id: 1_033,
             },
             RelatedFormat {
                 relationship_type: RelationshipType::IsSubtypeOf,

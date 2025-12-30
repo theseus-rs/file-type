@@ -99,6 +99,35 @@ pub(crate) const PRONOM_2129: FileType = FileType {
                     },
                 ],
             },
+            Signature {
+                byte_sequences: &[
+                    ByteSequence {
+                        position_type: PositionType::BOF,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[
+                                Token::Literal(&[0x7B]),
+                                Token::AnyWildcard,
+                                Token::Literal(&[
+                                    0x22, 0x72, 0x65, 0x74, 0x77, 0x65, 0x65, 0x74, 0x65, 0x64,
+                                    0x22, 0x3A,
+                                ]),
+                                Token::AnyWildcard,
+                                Token::Literal(&[
+                                    0x22, 0x69, 0x64, 0x5F, 0x73, 0x74, 0x72, 0x22, 0x3A,
+                                ]),
+                            ],
+                        },
+                    },
+                    ByteSequence {
+                        position_type: PositionType::EOF,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[Token::Literal(&[0x7D])],
+                        },
+                    },
+                ],
+            },
         ],
         related_formats: &[RelatedFormat {
             relationship_type: RelationshipType::HasPriorityOver,

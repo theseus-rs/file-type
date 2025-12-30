@@ -1,4 +1,4 @@
-# File Types (16778)
+# File Types (16874)
 
 | Source | Id | Name | Extensions | Media Types |
 | ---- | ---- | ---- | ----------- | ---------- |
@@ -28,7 +28,6 @@
 | Wikidata | 126685 | Call Control eXtensible Markup Language | ccxml | application/ccxml+xml |
 | Wikidata | 135299 | Dynamic Adaptive Streaming over HTTP | mpd | application/dash+xml |
 | Wikidata | 137496 | Java bytecode | class |  |
-| Wikidata | 159900 | .htaccess | htaccess |  |
 | Wikidata | 162839 | xz | xz | application/x-xz |
 | Wikidata | 166074 | Extensible HyperText Markup Language | htm, html, xht, xhtml, xml | application/xhtml+xml |
 | Wikidata | 171045 | Open Virtualization Format |  | application/ovf |
@@ -37,7 +36,7 @@
 | Wikidata | 182293 | LIT | lit | application/x-ms-reader |
 | Wikidata | 183169 | Jakarta Server Pages | jsp | application/jsp |
 | Wikidata | 184473 | OpenDocument | fodt, odt | application/vnd.oasis.opendocument.text |
-| Wikidata | 188199 | Ogg | oga, ogg, ogv, ogx, opus, spx | application/ogg, video/ogg |
+| Wikidata | 188199 | Q188199 | oga, ogg, ogv, ogx, opus, spx | application/ogg, video/ogg |
 | Wikidata | 194831 | Cabinet | cab | application/vnd.ms-cab-compressed |
 | Wikidata | 196765 | revocation list | crl | application/pkix-crl |
 | Wikidata | 197972 | AMV video format | amv, mtv | video/x-amv |
@@ -63,6 +62,7 @@
 | Wikidata | 283579 | tar | tar | application/x-tar |
 | Wikidata | 284651 | iCalendar | iCal, iFBf, icalendar, ics, ifb | text/calendar |
 | Wikidata | 285972 | Mbox | mbox, mbx | application/mbox |
+| Wikidata | 287315 | reStructuredText |  | text/x-rst |
 | Wikidata | 288256 | ACE | ace | application/x-ace-compressed |
 | Wikidata | 288405 | hOCR | hocr, html | text/html, text/vnd.hocr+html |
 | Wikidata | 292565 | vCalendar | vcs | text/x-vcalendar |
@@ -102,7 +102,7 @@
 | Wikidata | 474112 | JHTML | jhtml | java-internal/java-html |
 | Wikidata | 475488 | EPUB | epub | application/epub+zip |
 | Wikidata | 478705 | proxy auto-config | pac | application/x-javascript-config, application/x-ns-proxy-autoconfig |
-| Wikidata | 479833 | batch file | bat, btm, cmd, vbs | application/x-bat |
+| Wikidata | 479833 | batch file | bat, btm, cmd | application/x-bat |
 | Wikidata | 507339 | Web Application Description Language | wadl |  |
 | Wikidata | 524090 | MT9 | mt9 |  |
 | Wikidata | 535473 | PCX file format family | pcc, pcx | image/vnd.zbrush.pcx |
@@ -115,6 +115,7 @@
 | Wikidata | 604279 | Dirac | drc |  |
 | Wikidata | 605258 | Gerber format | gbr | application/vnd.gerber |
 | Wikidata | 616714 | Initial Graphics Exchange Specification | iges, igs | application/iges, model/iges |
+| Wikidata | 617770 | BBCode |  | text/x-bbcode |
 | Wikidata | 621277 | Apple Lossless | caf, m4a |  |
 | Wikidata | 623338 | Web Services Description Language | wsdl | application/wsdl+xml |
 | Wikidata | 627554 | certificate signing request | csr, p10 | application/pkcs10 |
@@ -204,7 +205,7 @@
 | Wikidata | 1066897 | LDAP Data Interchange Format | ldif | text/plain, text/x-ldif |
 | Wikidata | 1067761 | Windows Media Audio 9 Lossless | wma |  |
 | Wikidata | 1068805 | .properties | properties | text/plain |
-| Wikidata | 1069211 | Chemical Markup Language | cml | chemical/x-cml |
+| Wikidata | 1069211 | Q1069211 | cml | chemical/x-cml |
 | Wikidata | 1072083 | Windows Metafile | wmf, wmz | image/wmf |
 | Wikidata | 1072180 | Synchronized Multimedia Integration Language | smi, smil | application/smil+xml |
 | Wikidata | 1074835 | SyncML |  | application/vnd.syncml+xml |
@@ -238,7 +239,7 @@
 | Wikidata | 1228757 | Apple Disk Image | dmg, image, img, smi | application/x-apple-diskimage |
 | Wikidata | 1228770 | Disk Masher System | dms |  |
 | Wikidata | 1238229 | STL | stl | model/stl |
-| Wikidata | 1241738 | M3U | m3u8 | audio/x-mpegurl |
+| Wikidata | 1241738 | M3U | m3u, m3u8 | application/mpegurl, application/vnd.apple.mpegurl, application/x-mpegurl, audio/mpegurl, audio/x-mpegurl |
 | Wikidata | 1250383 | XYZ file format | xyz | chemical/x-xyz |
 | Wikidata | 1258721 | NFO | nfo | text/x-nfo |
 | Wikidata | 1260547 | LyRiCs | lrc |  |
@@ -307,6 +308,7 @@
 | Wikidata | 1798121 | Microsoft Library | lib |  |
 | Wikidata | 1810849 | XLIFF | xlf | application/xliff+xml |
 | Wikidata | 1817318 | X BitMap | xbm | image/x-xbitmap |
+| Wikidata | 1840684 | Privacy-enhanced Electronic Mail | pem | application/x-pem-file |
 | Wikidata | 1882110 | DOS MZ executable | dll, exe | application/x-dosexec, application/x-ms-dos-executable, application/x-msdos-program |
 | Wikidata | 1884715 | Video Object | vob | video/dvd, video/mpeg, video/x-ms-vob |
 | Wikidata | 1886335 | Maker Interchange Format | mif | application/vnd.mif |
@@ -325,6 +327,7 @@
 | Wikidata | 1952321 | Multi Picture Object | jpg, mpo | image/x-mpo |
 | Wikidata | 1952708 | FILE_ID.DIZ | diz | text/plain |
 | Wikidata | 1970420 | Simple file verification | sfv | text/x-sfv |
+| Wikidata | 1970847 | two-line element set | tle |  |
 | Wikidata | 1983918 | Nexus file | nex, nxs, nxz | application/octet-stream |
 | Wikidata | 2001898 | Notation Interchange File Format | nif | application/vnd.music-niff |
 | Wikidata | 2007437 | ODX |  | text/xml |
@@ -363,7 +366,7 @@
 | Wikidata | 2623363 | ANSI art | ans | text/x-ansi |
 | Wikidata | 2627217 | Mach-O | bundle, dylib, o |  |
 | Wikidata | 2658179 | Virtual Machine Disk | vmdk | application/x-virtualbox-vmdk, application/x-vmdk-disk |
-| Wikidata | 2661480 | BSON | bson | application/bson |
+| Wikidata | 2661480 | Q2661480 | bson | application/bson |
 | Wikidata | 2679202 | nds | nds |  |
 | Wikidata | 2693033 | ARJ | arj | application/arj |
 | Wikidata | 2701652 | BSP | bsp | model/vnd.valve.source.compiled-map |
@@ -561,7 +564,6 @@
 | Wikidata | 7268194 | Qtch | qtch |  |
 | Wikidata | 7271522 | Question Object File Format | quiz, quox | application/vnd.quobject-quoxdocument |
 | Wikidata | 7271574 | Quetzal file format | glksave, sav | application/x-glksave |
-| Wikidata | 7276305 | RED digital pictures | r3d |  |
 | Wikidata | 7276404 | REX2 | rex, rx2 |  |
 | Wikidata | 7295259 | Raster Document Object | rdo |  |
 | Wikidata | 7311459 | Relocatable Object Module Format | obj |  |
@@ -727,6 +729,7 @@
 | Wikidata | 25038455 | Advanced Scientific Data Format |  | application/octet-stream |
 | Wikidata | 25098907 | PC Screen Font | psf, psfu | application/x-font-linux-psf |
 | Wikidata | 25099931 | Scratch Project SB2 | sb2 |  |
+| Wikidata | 25100386 | NeXML | nexml |  |
 | Wikidata | 25101636 | IVUE | ivue |  |
 | Wikidata | 25103897 | Dynamic Text Document | dtxt |  |
 | Wikidata | 25110402 | Personal Filing Cabinet | pfc |  |
@@ -1008,7 +1011,7 @@
 | Wikidata | 27863136 | AutoCAD Drawing, version 2007-2008 | dwg | image/vnd.dwg |
 | Wikidata | 27863142 | AutoCAD Drawing, version 2010-2012 | dwg | application/x-autocad, image/vnd.dwg |
 | Wikidata | 27863143 | AutoCAD Drawing, version 2013-2014 | dwg | image/vnd.dwg |
-| Wikidata | 27863188 | Audio Data Transport Stream | aac, adts | audio/vnd.dlna.adts |
+| Wikidata | 27863188 | Q27863188 | aac, adts | audio/vnd.dlna.adts |
 | Wikidata | 27863192 | Audio Data Interchange Format | aac | audio/aac |
 | Wikidata | 27863257 | Audio Interchange File Format, version 1.2 | aif, aiff | audio/aiff, audio/x-aiff |
 | Wikidata | 27863259 | Audio Interchange File Format, version 1.3 | aif, aiff | audio/aiff, audio/x-aiff |
@@ -1111,7 +1114,7 @@
 | Wikidata | 27960023 | Tom's lossless Audio Kompressor | tak | audio/x-tak |
 | Wikidata | 27960028 | VocPack | vp | application/octet-stream |
 | Wikidata | 27960038 | Windows Media Audio Lossless | wma, wmal |  |
-| Wikidata | 27960055 | Audible Audiobook | aa | audio/vnd.audible, audio/x-pn-audibleaudio |
+| Wikidata | 27960055 | Audible audiobook | aa, aax | audio/vnd.audible, audio/x-pn-audibleaudio |
 | Wikidata | 27960082 | DCT | dct, wav |  |
 | Wikidata | 27960087 | Memory Stick Voice | msv |  |
 | Wikidata | 27960099 | Stems | stem.mp4 | video/audio |
@@ -1179,7 +1182,7 @@
 | Wikidata | 27967111 | Aley's Module | alm |  |
 | Wikidata | 27967112 | All Sound Tracker module | ast | audio/x-mod |
 | Wikidata | 27967113 | AProSys module | aps | audio/x-mod |
-| Wikidata | 27967114 | Arkos Tracker | aks |  |
+| Wikidata | 27967114 | Arkos Tracker | aks | application/octet-stream |
 | Wikidata | 27967115 | Art of Noise module | aon |  |
 | Wikidata | 27967116 | ASC Sound Master module | asc |  |
 | Wikidata | 27967117 | B's Pro Tracker module | bpm, bps |  |
@@ -1300,7 +1303,6 @@
 | Wikidata | 27967512 | Matroska Video | mkv | video/matroska, video/x-matroska |
 | Wikidata | 27967518 | Matroska Subtitles | mks |  |
 | Wikidata | 27967520 | Matroska 3D Stereoscopic video | mk3d |  |
-| Wikidata | 27967532 | DVD Information File | bup, ifo |  |
 | Wikidata | 27967539 | Advanced Video Coding | mp4 |  |
 | Wikidata | 27967540 | Cyber Paint Sequence | seq | application/octet-stream |
 | Wikidata | 27967541 | IFF-DEEP | deep |  |
@@ -1855,6 +1857,7 @@
 | Wikidata | 28449155 | JSON Patch | json-patch | application/json-patch+json |
 | Wikidata | 28449455 | TOML | toml | application/toml |
 | Wikidata | 28452000 | TERSE | trs |  |
+| Wikidata | 28455556 | CBOR | cbor | application/cbor |
 | Wikidata | 28517914 | Sony SR2 | sr2 | image/x-sony-sr2 |
 | Wikidata | 28530466 | HyperChem Input File | hin |  |
 | Wikidata | 28530510 | Structure-data file | sdf | chemical/x-mdl-sdfile |
@@ -1963,7 +1966,7 @@
 | Wikidata | 28757841 | Genecyst Save State |  |  |
 | Wikidata | 28757880 | git packfile | pack |  |
 | Wikidata | 28757900 | Glyph Interchange Format | glif |  |
-| Wikidata | 28757903 | Gnumeric file format |  | application/x-gnumeric |
+| Wikidata | 28757903 | Gnumeric file format | gnumeric | application/x-gnumeric |
 | Wikidata | 28757904 | Go script | go | text/x-gosrc |
 | Wikidata | 28757910 | Google Document | gdoc |  |
 | Wikidata | 28757918 | Google Sheet | gsheet |  |
@@ -2013,7 +2016,7 @@
 | Wikidata | 28771221 | MAT-file, Level 5, version 7.3 | mat | application/x-matlab-data |
 | Wikidata | 28771225 | MAX (3ds Max) | max |  |
 | Wikidata | 28771233 | MINC | mnc | application/x-minc |
-| Wikidata | 28771266 | MIX (PhotoDraw) | mix | image/vnd.mix |
+| Wikidata | 28771266 | MIX | mix | image/vnd.mix |
 | Wikidata | 28771267 | MLM | mlm |  |
 | Wikidata | 28771271 | MSA (Magic Shadow Archiver) | msa | application/vnd.msa-disk-image |
 | Wikidata | 28771272 | MVG | mvg |  |
@@ -2052,6 +2055,7 @@
 | Wikidata | 28830544 | Adobe filmstrip | flm |  |
 | Wikidata | 28846076 | Classification Results File Format | clr |  |
 | Wikidata | 28848214 | Statistical Package for the Social Sciences data file | sav | application/x-spss-sav |
+| Wikidata | 28858002 | Compound File Format, version 3 |  |  |
 | Wikidata | 28858035 | Word Binary File Format, version nFib=0x00C1 | doc |  |
 | Wikidata | 28858037 | Word Binary File Format, version nFib=0x00C0 | doc |  |
 | Wikidata | 28858038 | Word Binary File Format, version nFib=0x00C2 | doc |  |
@@ -2240,7 +2244,7 @@
 | Wikidata | 29167470 | Open Virtualization Format Descriptor | ovf | text/xml |
 | Wikidata | 29167502 | Open Web App Manifest | webapp | application/x-web-app-manifest+json |
 | Wikidata | 29167841 | Outerra | otx |  |
-| Wikidata | 29167848 | Outlook Express Database | dbx |  |
+| Wikidata | 29167848 | Outlook Express Message Database | dbx |  |
 | Wikidata | 29167850 | P-touch Editor Label | lbx |  |
 | Wikidata | 29167857 | P-touch Editor Lite Label | lbt |  |
 | Wikidata | 29167864 | Pittsburgh Supercomputing Center 3D Metafile | p3d |  |
@@ -2279,7 +2283,7 @@
 | Wikidata | 29650311 | POV-Ray scene description | inc, pov | model/x-pov, text/x-povray |
 | Wikidata | 29650312 | PMA | pma |  |
 | Wikidata | 29650316 | Packed Font File Format | pk |  |
-| Wikidata | 29650318 | PKPass | pkpass | application/vnd.apple.pkpass |
+| Wikidata | 29650318 | PKPass | pkpass, pkpasses | application/vnd.apple.pkpass |
 | Wikidata | 29650319 | PIM | pim |  |
 | Wikidata | 29650322 | PKCS#7 certificate | p7b, p7c, pem, spc | application/pkcs7-mime, application/x-pkcs7-certificates, application/x-pkcs7-certreqresp |
 | Wikidata | 29650336 | Personal Information Exchange | p12, pfx |  |
@@ -2971,7 +2975,6 @@
 | Wikidata | 53844499 | BibTeX style file | bst |  |
 | Wikidata | 54809843 | usdz file format | usdz | application/octet-stream, model/vnd.usdz+zip |
 | Wikidata | 55020067 | Reflectance Transformation Imaging file format | rti |  |
-| Wikidata | 55089059 | Drawing Interchange Format, version 2013/2014 | dxf |  |
 | Wikidata | 55239129 | CBOR Web Token format | cwt | application/cwt |
 | Wikidata | 55378071 | Marvin Document format | mrv |  |
 | Wikidata | 55387922 | Visual Molecular Dynamics file format | vmd | chemical/x-vmd |
@@ -3137,11 +3140,11 @@
 | Wikidata | 60478916 | Qsplat Model | qs |  |
 | Wikidata | 60479192 | Quattro Pro Spreadsheet for Windows | wb1 |  |
 | Wikidata | 60480274 | Quattro Pro Spreadsheet for Windows, version 6 | wb2 |  |
-| Wikidata | 60558525 | ClarisWorks Drawing file format, version 2 | cwk |  |
+| Wikidata | 60558525 | ClarisWorks Drawing file format, version 2-3 | cwk |  |
 | Wikidata | 60558566 | ClarisWorks Word Processor | cwk |  |
-| Wikidata | 60558665 | ClarisWorks Spreadsheet, version 2 | cwk |  |
-| Wikidata | 60558690 | ClarisWorks Database, version 2 | cwk |  |
-| Wikidata | 60558729 | ClarisWorks Painting, version 2 | cwk |  |
+| Wikidata | 60558665 | ClarisWorks Spreadsheet, version 2-3 | cwk |  |
+| Wikidata | 60558690 | ClarisWorks Database, version 2-3 | cwk |  |
+| Wikidata | 60558729 | ClarisWorks Painting, version 2-3 | cwk |  |
 | Wikidata | 60558754 | NuFile Exchange Archival Library | bxy, sdk, shk |  |
 | Wikidata | 60614979 | Serif DrawPlus Drawing, version 4 | dpp |  |
 | Wikidata | 60615177 | Serif DrawPlus Drawing, version 5 | dpp |  |
@@ -6067,6 +6070,7 @@
 | Wikidata | 105853393 | Panda Signature file system | sig |  |
 | Wikidata | 105853395 | Superbase Program (var 3) | sbp | application/octet-stream |
 | Wikidata | 105853397 | Yamaha EX5 waveforms format | s1m | application/octet-stream |
+| Wikidata | 105853398 | Super Magicom ROM | smc |  |
 | Wikidata | 105853400 | MicroHelp Library | slb | application/octet-stream |
 | Wikidata | 105853402 | 3DVIA Composer View definitions | smgview | text/xml |
 | Wikidata | 105853404 | CloudCompare STereoLithography (binary) | stl | model/x.stl-binary |
@@ -6146,7 +6150,7 @@
 | Wikidata | 105853548 | ZenGL Font | zfi | application/octet-stream |
 | Wikidata | 105853550 | ZDA game data archive | zda | application/octet-stream |
 | Wikidata | 105853552 | ZBrush License | zlic | text/xml |
-| Wikidata | 105853554 | Magisk Modul | zip | application/octet-stream |
+| Wikidata | 105853554 | Magisk module | zip | application/octet-stream |
 | Wikidata | 105853555 | Zeppelin ransomware encrypted |  | application/octet-stream |
 | Wikidata | 105853557 | Cinnamon extension | zip | application/octet-stream |
 | Wikidata | 105853558 | SCO compress LZH compressed data | z | application/octet-stream |
@@ -6609,7 +6613,6 @@
 | Wikidata | 105854604 | Zzip compressed archive | zz | application/octet-stream |
 | Wikidata | 105854605 | Artlantis Object File | aof | text/xml |
 | Wikidata | 105854606 | AIX Small indexed archive (AIX prior to v4.3) | ar |  |
-| Wikidata | 105854607 | Arkos Tracker binary music (v1.0) |  | application/octet-stream |
 | Wikidata | 105854609 | AptiQuiz quiz data | aq1 |  |
 | Wikidata | 105854611 | Norton pcAnywhere Automated Procedures | ap6 | application/octet-stream |
 | Wikidata | 105854613 | Avast! Soundpack | avastsounds |  |
@@ -7135,7 +7138,7 @@
 | Wikidata | 105855470 | Dynamic Publisher Font II | fnt | application/octet-stream |
 | Wikidata | 105855471 | Full Impact spreadsheet |  | application/octet-stream |
 | Wikidata | 105855472 | Activstudio Flipchart | flp |  |
-| Wikidata | 105855473 | FL Studio Track | flp, fst | application/octet-stream |
+| Wikidata | 105855473 | FL Studio Track | fst | application/octet-stream |
 | Wikidata | 105855474 | FinalBuilder 7 Project | fbp7 |  |
 | Wikidata | 105855477 | PLS-CADD Feature code | fea | text/plain |
 | Wikidata | 105855478 | Beyond Words Composer Font | fon | application/octet-stream |
@@ -8247,7 +8250,7 @@
 | Wikidata | 105856894 | Guitar Pro v3 tablature | gp3 |  |
 | Wikidata | 105856895 | GenePix Array List | gal |  |
 | Wikidata | 105856896 | GFI Backup Task | gbt | text/xml |
-| Wikidata | 105856897 | Q105856897 | gir | text/xml |
+| Wikidata | 105856897 | GObject Introspection gir file | gir | text/xml |
 | Wikidata | 105856898 | Geometer's Sketchpad Document | gsp |  |
 | Wikidata | 105856899 | Microsoft Word for DOS Glossary | glx, gly | application/msword, application/octet-stream |
 | Wikidata | 105856900 | Ishi Format Go game | go, prb | text/plain |
@@ -8382,7 +8385,7 @@
 | Wikidata | 105857063 | GIMP Gradient | ggr |  |
 | Wikidata | 105857065 | Vectrex game ROM | gam, vec | application/octet-stream |
 | Wikidata | 105857066 | GNUMERIC spreedshet (XML, ungzipped) | gnumeric, xml |  |
-| Wikidata | 105857067 | Greenfish Icon Editor Pro | gfi, gfie |  |
+| Wikidata | 105857067 | Q105857067 | gfi, gfie |  |
 | Wikidata | 105857068 | FlashPrint XG-Code | gx | application/octet-stream |
 | Wikidata | 105857070 | Xbox Game Profile Data | gpd | application/octet-stream |
 | Wikidata | 105857071 | Samsung document | bkg, gul |  |
@@ -8407,7 +8410,6 @@
 | Wikidata | 105857096 | DeScribe glossary |  | application/octet-stream |
 | Wikidata | 105857097 | GPS Tuner map calibration data | gmi |  |
 | Wikidata | 105857098 | Storage card file segments Tiger Tree Hash | gltth | application/octet-stream |
-| Wikidata | 105857099 | Guitar Pro v5 tablature | gp5 |  |
 | Wikidata | 105857100 | gretl Data | gdt | application/xml |
 | Wikidata | 105857101 | STK database update information | gd | text/plain |
 | Wikidata | 105857102 | Allegro MIDI music | gro |  |
@@ -10766,7 +10768,7 @@
 | Wikidata | 105861634 | Linux Software Map entry (v2) | lsm | text/plain |
 | Wikidata | 105861637 | LUKS encrypted |  |  |
 | Wikidata | 105861645 | Lego Digital Designer data | lif | application/octet-stream |
-| Wikidata | 105861649 | Logic Pro X project | logicx | application/octet-stream |
+| Wikidata | 105861649 | Logic Pro X project | logic, logicx | application/octet-stream |
 | Wikidata | 105861653 | CP/M-86 library | l86 | application/octet-stream |
 | Wikidata | 105861657 | Visual Studio LoadTest project | loadtest | text/xml |
 | Wikidata | 105861666 | LisaEm configuration | lisaem | text/plain |
@@ -10878,7 +10880,7 @@
 | Wikidata | 105862064 | MicroMag 2900/3900 data |  |  |
 | Wikidata | 105862068 | Magic Draw UML model | mdxml |  |
 | Wikidata | 105862073 | L3DT Map Group File | mgf | text/plain |
-| Wikidata | 105862076 | mzTab format (with comment) | mztab | text/plain |
+| Wikidata | 105862076 | mzTab-M format | mztab | text/plain |
 | Wikidata | 105862083 | Meta Raster Format XML metadata | mrf | text/xml |
 | Wikidata | 105862087 | Minecraft World file | mcworld | application/octet-stream |
 | Wikidata | 105862091 | Mutation Annotation Format (with rem) | maf | text/plain |
@@ -11758,7 +11760,7 @@
 | Wikidata | 105865602 | P-Suite format (compressed) |  | application/octet-stream |
 | Wikidata | 105865606 | Casio Prizm add-in | g3a |  |
 | Wikidata | 105865611 | PVM Volume format | pvm | application/octet-stream |
-| Wikidata | 105865614 | ZSoft Palette | pal | application/octet-stream |
+| Wikidata | 105865614 | Q105865614 | pal | application/octet-stream |
 | Wikidata | 105865620 | Ashampoo Magical Security encrypted | ppenc |  |
 | Wikidata | 105865623 | Professional Sound Artists module | psa | audio/x-mod |
 | Wikidata | 105865628 | Pacific Warrior 2: Dogfight game data archive | pak | application/octet-stream |
@@ -11806,7 +11808,6 @@
 | Wikidata | 105865838 | Previous emulator configuration |  | text/plain |
 | Wikidata | 105865839 | Mobipocket - PRC Palm e-Book | mobi, prc | application/x-mobipocket-ebook |
 | Wikidata | 105865840 | Quake 3 game data | pk3 |  |
-| Wikidata | 105865841 | Power Tab Guitar and Bass Tablature Editor | ptb |  |
 | Wikidata | 105865846 | PowerVR PVR texture format (v2.x) | pvr | application/octet-stream |
 | Wikidata | 105865849 | MediaShow Production (v1.0) | prod | application/octet-stream |
 | Wikidata | 105865852 | Visual Studio PHP Project | phpproj | text/xml |
@@ -12962,6 +12963,7 @@
 | Wikidata | 115116023 | Funpaint Image File | fp2, fun, vic |  |
 | Wikidata | 115116796 | Gunpaint Image File | gun |  |
 | Wikidata | 115117519 | Help Librarian File | dat, dta, hlp |  |
+| Wikidata | 115213964 | EditorConfig | editorconfig |  |
 | Wikidata | 115241368 | 3D Builder Project | b3d |  |
 | Wikidata | 115331958 | Premiere project, version 1.0 - 4.2 | ppj |  |
 | Wikidata | 115606990 | VCD Layout File | vcl |  |
@@ -13431,7 +13433,6 @@
 | Wikidata | 122947210 | Windows Enhanced Metafile, version 1.0 | emf, emz |  |
 | Wikidata | 122947259 | Windows Enhanced Metafile, version 2.0 | emf, emz |  |
 | Wikidata | 122947391 | Windows Enhanced Metafile, version 3.0 | emf, emz |  |
-| Wikidata | 122974666 | CAMP | camp |  |
 | Wikidata | 123002751 | Scalable Vector Graphics 1.0 | svg | image/svg+xml |
 | Wikidata | 123002780 | Scalable Vector Graphics 1.1 | svg | image/svg+xml |
 | Wikidata | 123003172 | Truevision TGA 1.0 | icb, tga, vda, vst | image/x-targa, image/x-tga |
@@ -14117,7 +14118,6 @@
 | Wikidata | 132232221 | Next Byte Codes file format | nbc |  |
 | Wikidata | 132291887 | functional mock-up unit | fmu |  |
 | Wikidata | 132348514 | React TypeScript File format | tsx |  |
-| Wikidata | 132427122 | CBOR | cbor | application/cbor |
 | Wikidata | 132527367 | LEGO Mindstorms EV3 Data Logging Experiment file | ev3e |  |
 | Wikidata | 132527397 | LEGO Mindstorms EV3 Sound File | rsf |  |
 | Wikidata | 132527425 | LEGO Mindstorms EV3 Graphics and Images file format | rgf |  |
@@ -14283,11 +14283,78 @@
 | Wikidata | 136088385 | Celtx file format | celtx |  |
 | Wikidata | 136088459 | Celtx Script Document file | cxscript |  |
 | Wikidata | 136093233 | Storyist file format | story |  |
-| Wikidata | 136095526 | Audio-only MPEG-4 | m4a | audio/mp4 |
+| Wikidata | 136095526 | Audio-only MPEG-4 | m4a, m4b | audio/mp4 |
 | Wikidata | 136160357 | Practical Scriptwriter File | fsc |  |
 | Wikidata | 136162964 | Moose file | mse |  |
 | Wikidata | 136165258 | Serif Transparent Video file | stv |  |
 | Wikidata | 136294868 | Notion file format | notion |  |
+| Wikidata | 136400228 | CityGML file format | gml, xml |  |
+| Wikidata | 136400450 | Android Archive file format | aar |  |
+| Wikidata | 136405540 | OpenDocument Text, version 1.4 | odt | application/vnd.oasis.opendocument.text |
+| Wikidata | 136405659 | OpenDocument Spreadsheet, version 1.4 | ods | application/vnd.oasis.opendocument.spreadsheet |
+| Wikidata | 136405906 | OpenDocument Presentation, version 1.4 | odp | application/vnd.oasis.opendocument.presentation |
+| Wikidata | 136411110 | OpenDocument Database, version 1.4 | odb | application/vnd.oasis.opendocument.base |
+| Wikidata | 136411400 | OpenDocument Graphics, version 1.4 | odg | application/vnd.oasis.opendocument.graphics |
+| Wikidata | 136418380 | PDF/UA Portable Document Format | pdf | application/pdf |
+| Wikidata | 136418572 | PDF/UA Portable Document Format 2 | pdf | application/pdf |
+| Wikidata | 136431699 | Immersive Audio Model Format | iamf |  |
+| Wikidata | 136442756 | Textor document | TAL |  |
+| Wikidata | 136451134 | DaVinci Resolve Timeline File | drt |  |
+| Wikidata | 136451631 | DaVinci Resolve Project File | drp |  |
+| Wikidata | 136457589 | XYZ Point Cloud file format | xyz |  |
+| Wikidata | 136464298 | PyTorch Serialized File Format | pt, pth |  |
+| Wikidata | 136468748 | Dolby Atmos Master File | damf |  |
+| Wikidata | 136526352 | Q136526352 | bs |  |
+| Wikidata | 136536178 | Microsoft Paint Project File | paint |  |
+| Wikidata | 136539560 | MIX | mix |  |
+| Wikidata | 136539755 | GRAPHITE File | GRAPHITE |  |
+| Wikidata | 136543231 | Westwood Studios Animation | wsa |  |
+| Wikidata | 136555875 | iNES | nes | application/x-nes-rom |
+| Wikidata | 136555932 | NES 2.0 | nes | application/x-nes-rom |
+| Wikidata | 136555964 | Citrus Card Image | 3ds, cci |  |
+| Wikidata | 136556031 | NX Card Image | xci |  |
+| Wikidata | 136556064 | Wii U Compressed | wux |  |
+| Wikidata | 136653980 | Raku script file | raku |  |
+| Wikidata | 136654161 | Raku module file | rakumod |  |
+| Wikidata | 136654648 | Raku documentation file | rakudoc |  |
+| Wikidata | 136654849 | Raku test file | rakutest |  |
+| Wikidata | 136658899 | Not Quite Perl file | nqp |  |
+| Wikidata | 136659712 | OpenDX file | dx |  |
+| Wikidata | 136670548 | Blue Iris Video | bvr |  |
+| Wikidata | 136675645 | ConceptDraw Library | cdl |  |
+| Wikidata | 136678464 | Celtx, Screenwriting & Media Pre-production file | celtex |  |
+| Wikidata | 136678574 | Compucon EOS Design File | che |  |
+| Wikidata | 136678671 | Comic Life file | comicdoc |  |
+| Wikidata | 136679848 | Photobook Designer file | dp |  |
+| Wikidata | 136697327 | HTTP Cache | http |  |
+| Wikidata | 136697861 | MIDI Instrument Definition File | idf |  |
+| Wikidata | 136700618 | Super Nintendo Entertainment System ROM | sfc | application/x-snes-rom |
+| Wikidata | 136700635 | Nintendo GameCube Game Disc image | gcm, iso |  |
+| Wikidata | 136700672 | Nintendo Wii Optical Disc image | iso |  |
+| Wikidata | 136714229 | Enhanced Metafile Format Plus Extensions | emf, emz | image/emf |
+| Wikidata | 136717765 | Redcode RAW (R3D) Media File 1 | r3d |  |
+| Wikidata | 136717835 | Redcode RAW (R3D) Media File 2 | r3d |  |
+| Wikidata | 136723030 | REAPER project file | rpp |  |
+| Wikidata | 136723623 | Mikron Infrared Thermal Imaging Camera SIT file format | sit |  |
+| Wikidata | 136723704 | AutoSketch file format | skd |  |
+| Wikidata | 136753455 | Adobe Tool Preset | tpl |  |
+| Wikidata | 136756104 | VirtualDJ file | vdj |  |
+| Wikidata | 136756932 | Adobe XD file format | xd |  |
+| Wikidata | 136759359 | FlatBuffers format | tflite |  |
+| Wikidata | 136786007 | Windows Sticky Note file | snt |  |
+| Wikidata | 136813679 | Ahnenblatt genealogy file | ahn |  |
+| Wikidata | 136813991 | Pro/ENGINEER Assembly file | asm |  |
+| Wikidata | 136825734 | Freeway file | freeway |  |
+| Wikidata | 136841330 | Heredis file format | hmw |  |
+| Wikidata | 136973553 | Harvard Montage Album | abm |  |
+| Wikidata | 137039604 | Tldraw file | tldr | application/json |
+| Wikidata | 137178183 | MySQL MISAM compressed data | myi |  |
+| Wikidata | 137196163 | Minecraft Schematic File | schematic |  |
+| Wikidata | 137212249 | ProDiscover Image | eve |  |
+| Wikidata | 137295873 | Universal Data Link | udl |  |
+| Wikidata | 137440805 | Dendroscope file format | dendro |  |
+| Wikidata | 137536492 | Stellarium script file | ssc |  |
+| Wikidata | 137556315 | JMulTi data file | dta |  |
 | Pronom | 8 | Microsoft Word for Macintosh Document | mcw | application/msword |
 | Pronom | 11 | Microsoft Word for Macintosh Document |  |  |
 | Pronom | 13 | Online Description Tool Format | odt |  |
@@ -14594,7 +14661,7 @@
 | Pronom | 452 | X-Windows Bitmap Image | xbm | image/x-xbitmap |
 | Pronom | 453 | X-Windows Screen Dump File | xdm, xwd | image/x-xwindowdump |
 | Pronom | 455 | ACBM Graphics | acb |  |
-| Pronom | 456 | Visualization Toolkit | fm | application/vnd.framemaker |
+| Pronom | 456 | Adobe FrameMaker Document | fm | application/vnd.framemaker |
 | Pronom | 457 | Aldus Freehand Drawing | fh3 |  |
 | Pronom | 458 | Aldus Freehand Drawing | fh4 |  |
 | Pronom | 463 | Apple Sound | afc |  |
@@ -15670,7 +15737,7 @@
 | Pronom | 1732 | Microsoft Visio Macro-Enabled Drawing | vsdm | application/vnd.ms-visio.drawing.macroEnabled.main+xml |
 | Pronom | 1733 | Microsoft Visio Macro-Enabled Stencil | vssm | application/vnd.ms-visio.stencil.macroEnabled.main+xml |
 | Pronom | 1734 | Microsoft Visio Macro-Enabled Template | vstm | application/vnd.ms-visio.template.macroEnabled.main+xml |
-| Pronom | 1735 | Magick Image File Format | mif |  |
+| Pronom | 1735 | Magick Image File Format | mif, miff |  |
 | Pronom | 1736 | Mathcad Document | mcd |  |
 | Pronom | 1737 | Mathcad Document | xmcd |  |
 | Pronom | 1738 | Simple Vector Format | svf | image/vnd-svf |
@@ -15786,7 +15853,7 @@
 | Pronom | 1848 | Microsoft PRX File | prx |  |
 | Pronom | 1849 | AutoShade Rendering Slide | rnd |  |
 | Pronom | 1850 | Q&A Word Processor Document |  |  |
-| Pronom | 1851 | Draco File Format | drc |  |
+| Pronom | 1851 | Draco 1 | drc |  |
 | Pronom | 1852 | Geography Markup Language | gml | application/gml+xml |
 | Pronom | 1853 | OGR GFS File | gfs |  |
 | Pronom | 1854 | QuickDraw 3D Metafile (ASCII) | 3dmf |  |
@@ -15981,7 +16048,7 @@
 | Pronom | 2056 | Band Interleaved By Line (BIL) Image Encoding | bil |  |
 | Pronom | 2057 | Band Interleaved By Pixel (BIP) Image Encoding | bip |  |
 | Pronom | 2058 | Band Sequential (BSQ) Image Encoding | bsq |  |
-| Pronom | 2059 | FO File | fo | application/vnd.software602.filler.form+xml |
+| Pronom | 2059 | FO File | fo | 	application/vnd.software602.filler.form+xml |
 | Pronom | 2060 | ZFO (Form) File | zfo | application/vnd.software602.filler.form-xml-zip |
 | Pronom | 2061 | ZFO (Message) File | zfo | application/vnd.software602.filler.form-xml-zip |
 | Pronom | 2062 | ZFO (Sent Message) File | zfo | application/vnd.software602.filler.form-xml-zip |
@@ -16477,7 +16544,7 @@
 | Pronom | 2579 | Portfolio Graphics Compressed File | pgc |  |
 | Pronom | 2580 | C/C++ Header File | h, hpp, hxx |  |
 | Pronom | 2581 | Creative Voice File | voc |  |
-| Pronom | 2583 | Flow Cytometry Standard File | fcs | application/vnd.isac.fcs |
+| Pronom | 2583 | Flow Cytometry Standard File | fcs | 	application/vnd.isac.fcs |
 | Pronom | 2584 | UDF Disc Image | toast, iso, cdr, dmg |  |
 | Pronom | 2585 | UDF-ISO 9660 Bridge Disc | toast, iso, cdr, dmg |  |
 | Pronom | 2586 | Apple Partition Map Disk Image | toast, iso, cdr, dmg, bin, img |  |
@@ -16780,3 +16847,32 @@
 | Pronom | 3912 | Plextalk Project File (imtt) | imtt |  |
 | Pronom | 3913 | HxC Floppy Emulator Disk Image | hfe |  |
 | Pronom | 3914 | HxC Floppy Emulator Stream Image | hfe |  |
+| Pronom | 3915 | CityGML File | gml, xml |  |
+| Pronom | 3916 | Android Package File | apk |  |
+| Pronom | 3917 | Android App Bundle File | aab |  |
+| Pronom | 3918 | Android Archive File | aar |  |
+| Pronom | 3919 | OpenDocument Text | odt | application/vnd.oasis.opendocument.text |
+| Pronom | 3920 | OpenDocument Spreadsheet | ods | application/vnd.oasis.opendocument.spreadsheet |
+| Pronom | 3921 | OpenDocument Presentation | odp | application/vnd.oasis.opendocument.presentation |
+| Pronom | 3922 | OpenDocument Database | odb | application/vnd.oasis.opendocument.base |
+| Pronom | 3923 | OpenDocument Graphics | odg | application/vnd.oasis.opendocument.graphics |
+| Pronom | 3924 | ArcGIS Pro Layer File | lyrx |  |
+| Pronom | 3925 | PDF/UA Portable Document Format | pdf | application/pdf |
+| Pronom | 3926 | PDF/UA Portable Document Format | pdf | application/pdf |
+| Pronom | 3927 | Cineon | cin |  |
+| Pronom | 3928 | Apache Arrow IPC Format | arrow | vnd.apache.arrow.file |
+| Pronom | 3929 | JSON Lines Text Format | jsonl |  |
+| Pronom | 3930 | Apple Mail EMLX Format | emlx |  |
+| Pronom | 3931 | Immersive Audio Model Format | iamf |  |
+| Pronom | 3932 | A2R Disk Image File | a2r |  |
+| Pronom | 3933 | A2R Disk Image File | a2r |  |
+| Pronom | 3934 | WOZ Disk Image File | woz |  |
+| Pronom | 3935 | WOZ Disk Image File | woz |  |
+| Pronom | 3936 | MOOF Disk Image File | moof |  |
+| Pronom | 3937 | AV1 Image File Format | avif |  |
+| Pronom | 3938 | DaVinci Resolve Timeline File | drt |  |
+| Pronom | 3939 | DaVinci Resolve Project File | drp |  |
+| Pronom | 3940 | TOML | toml |  |
+| Pronom | 3941 | Rust Source File | rs |  |
+| Pronom | 3942 | XYZ Coordinate Data | xyz |  |
+| Pronom | 3943 | Macintosh File System | mfs |  |

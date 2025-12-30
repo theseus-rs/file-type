@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_1069211: FileType = FileType {
     file_format: &FileFormat {
         id: 1_069_211,
         source_type: SourceType::Wikidata,
-        name: "Chemical Markup Language",
+        name: "Q1069211",
         extensions: &["cml"],
         media_types: &["chemical/x-cml"],
         signatures: &[Signature {

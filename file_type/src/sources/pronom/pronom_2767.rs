@@ -82,6 +82,58 @@ pub(crate) const PRONOM_2767: FileType = FileType {
                     },
                 ],
             },
+            Signature {
+                byte_sequences: &[
+                    ByteSequence {
+                        position_type: PositionType::BOF,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[
+                                Token::Literal(&[0x25, 0x50, 0x44, 0x46, 0x2D, 0x32, 0x2E]),
+                                Token::Range(&[0x30], &[0x39]),
+                            ],
+                        },
+                    },
+                    ByteSequence {
+                        position_type: PositionType::Variable,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[Token::Literal(&[
+                                0x70, 0x64, 0x66, 0x61, 0x69, 0x64, 0x3A, 0x70, 0x61, 0x72, 0x74,
+                                0x3D, 0x22, 0x34, 0x22, 0x20, 0x70, 0x64, 0x66, 0x61, 0x69, 0x64,
+                                0x3A, 0x63, 0x6F, 0x6E, 0x66, 0x6F, 0x72, 0x6D, 0x61, 0x6E, 0x63,
+                                0x65, 0x3D, 0x22, 0x45, 0x22,
+                            ])],
+                        },
+                    },
+                ],
+            },
+            Signature {
+                byte_sequences: &[
+                    ByteSequence {
+                        position_type: PositionType::BOF,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[
+                                Token::Literal(&[0x25, 0x50, 0x44, 0x46, 0x2D, 0x32, 0x2E]),
+                                Token::Range(&[0x30], &[0x39]),
+                            ],
+                        },
+                    },
+                    ByteSequence {
+                        position_type: PositionType::Variable,
+                        offset: Some(0),
+                        regex: Regex {
+                            tokens: &[Token::Literal(&[
+                                0x70, 0x64, 0x66, 0x61, 0x69, 0x64, 0x3A, 0x63, 0x6F, 0x6E, 0x66,
+                                0x6F, 0x72, 0x6D, 0x61, 0x6E, 0x63, 0x65, 0x3D, 0x22, 0x45, 0x22,
+                                0x20, 0x70, 0x64, 0x66, 0x61, 0x69, 0x64, 0x3A, 0x70, 0x61, 0x72,
+                                0x74, 0x3D, 0x22, 0x34, 0x22,
+                            ])],
+                        },
+                    },
+                ],
+            },
         ],
         related_formats: &[
             RelatedFormat {

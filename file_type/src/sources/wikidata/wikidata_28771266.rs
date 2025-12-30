@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_28771266: FileType = FileType {
     file_format: &FileFormat {
         id: 28_771_266,
         source_type: SourceType::Wikidata,
-        name: "MIX (PhotoDraw)",
+        name: "MIX",
         extensions: &["mix"],
         media_types: &["image/vnd.mix"],
         signatures: &[Signature {

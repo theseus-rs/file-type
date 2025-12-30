@@ -6,7 +6,7 @@ pub(crate) const PRONOM_1735: FileType = FileType {
         id: 1_735,
         source_type: SourceType::Pronom,
         name: "Magick Image File Format",
-        extensions: &["mif"],
+        extensions: &["mif", "miff"],
         media_types: &[],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

@@ -2004,6 +2004,35 @@ pub(crate) mod pronom_3911;
 pub(crate) mod pronom_3912;
 pub(crate) mod pronom_3913;
 pub(crate) mod pronom_3914;
+pub(crate) mod pronom_3915;
+pub(crate) mod pronom_3916;
+pub(crate) mod pronom_3917;
+pub(crate) mod pronom_3918;
+pub(crate) mod pronom_3919;
+pub(crate) mod pronom_3920;
+pub(crate) mod pronom_3921;
+pub(crate) mod pronom_3922;
+pub(crate) mod pronom_3923;
+pub(crate) mod pronom_3924;
+pub(crate) mod pronom_3925;
+pub(crate) mod pronom_3926;
+pub(crate) mod pronom_3927;
+pub(crate) mod pronom_3928;
+pub(crate) mod pronom_3929;
+pub(crate) mod pronom_3930;
+pub(crate) mod pronom_3931;
+pub(crate) mod pronom_3932;
+pub(crate) mod pronom_3933;
+pub(crate) mod pronom_3934;
+pub(crate) mod pronom_3935;
+pub(crate) mod pronom_3936;
+pub(crate) mod pronom_3937;
+pub(crate) mod pronom_3938;
+pub(crate) mod pronom_3939;
+pub(crate) mod pronom_3940;
+pub(crate) mod pronom_3941;
+pub(crate) mod pronom_3942;
+pub(crate) mod pronom_3943;
 pub(crate) mod pronom_40;
 pub(crate) mod pronom_402;
 pub(crate) mod pronom_403;
@@ -4985,6 +5014,35 @@ pub(crate) use pronom_3911::PRONOM_3911;
 pub(crate) use pronom_3912::PRONOM_3912;
 pub(crate) use pronom_3913::PRONOM_3913;
 pub(crate) use pronom_3914::PRONOM_3914;
+pub(crate) use pronom_3915::PRONOM_3915;
+pub(crate) use pronom_3916::PRONOM_3916;
+pub(crate) use pronom_3917::PRONOM_3917;
+pub(crate) use pronom_3918::PRONOM_3918;
+pub(crate) use pronom_3919::PRONOM_3919;
+pub(crate) use pronom_3920::PRONOM_3920;
+pub(crate) use pronom_3921::PRONOM_3921;
+pub(crate) use pronom_3922::PRONOM_3922;
+pub(crate) use pronom_3923::PRONOM_3923;
+pub(crate) use pronom_3924::PRONOM_3924;
+pub(crate) use pronom_3925::PRONOM_3925;
+pub(crate) use pronom_3926::PRONOM_3926;
+pub(crate) use pronom_3927::PRONOM_3927;
+pub(crate) use pronom_3928::PRONOM_3928;
+pub(crate) use pronom_3929::PRONOM_3929;
+pub(crate) use pronom_3930::PRONOM_3930;
+pub(crate) use pronom_3931::PRONOM_3931;
+pub(crate) use pronom_3932::PRONOM_3932;
+pub(crate) use pronom_3933::PRONOM_3933;
+pub(crate) use pronom_3934::PRONOM_3934;
+pub(crate) use pronom_3935::PRONOM_3935;
+pub(crate) use pronom_3936::PRONOM_3936;
+pub(crate) use pronom_3937::PRONOM_3937;
+pub(crate) use pronom_3938::PRONOM_3938;
+pub(crate) use pronom_3939::PRONOM_3939;
+pub(crate) use pronom_3940::PRONOM_3940;
+pub(crate) use pronom_3941::PRONOM_3941;
+pub(crate) use pronom_3942::PRONOM_3942;
+pub(crate) use pronom_3943::PRONOM_3943;
 
 #[doc(hidden)]
 pub const FILE_TYPES: &[&FileType] = &[
@@ -7480,4 +7538,33 @@ pub const FILE_TYPES: &[&FileType] = &[
     &PRONOM_3912,
     &PRONOM_3913,
     &PRONOM_3914,
+    &PRONOM_3915,
+    &PRONOM_3916,
+    &PRONOM_3917,
+    &PRONOM_3918,
+    &PRONOM_3919,
+    &PRONOM_3920,
+    &PRONOM_3921,
+    &PRONOM_3922,
+    &PRONOM_3923,
+    &PRONOM_3924,
+    &PRONOM_3925,
+    &PRONOM_3926,
+    &PRONOM_3927,
+    &PRONOM_3928,
+    &PRONOM_3929,
+    &PRONOM_3930,
+    &PRONOM_3931,
+    &PRONOM_3932,
+    &PRONOM_3933,
+    &PRONOM_3934,
+    &PRONOM_3935,
+    &PRONOM_3936,
+    &PRONOM_3937,
+    &PRONOM_3938,
+    &PRONOM_3939,
+    &PRONOM_3940,
+    &PRONOM_3941,
+    &PRONOM_3942,
+    &PRONOM_3943,
 ];

@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_105855473: FileType = FileType {
         id: 105_855_473,
         source_type: SourceType::Wikidata,
         name: "FL Studio Track",
-        extensions: &["flp", "fst"],
+        extensions: &["fst"],
         media_types: &["application/octet-stream"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

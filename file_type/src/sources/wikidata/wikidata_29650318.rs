@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_29650318: FileType = FileType {
         id: 29_650_318,
         source_type: SourceType::Wikidata,
         name: "PKPass",
-        extensions: &["pkpass"],
+        extensions: &["pkpass", "pkpasses"],
         media_types: &["application/vnd.apple.pkpass"],
         signatures: &[],
         related_formats: &[],

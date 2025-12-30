@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105857067: FileType = FileType {
     file_format: &FileFormat {
         id: 105_857_067,
         source_type: SourceType::Wikidata,
-        name: "Greenfish Icon Editor Pro",
+        name: "Q105857067",
         extensions: &["gfi", "gfie"],
         media_types: &[],
         signatures: &[Signature {
