@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.8.11](https://github.com/theseus-rs/file-type/compare/v0.8.10...v0.8.11) - 2025-12-30
+
+### Other
+- update file formats
+- update rust to 1.92.0
+
 ## [0.8.10](https://github.com/theseus-rs/file-type/compare/v0.8.9...v0.8.10) - 2025-09-24
 
 ### Other
