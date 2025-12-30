@@ -63,6 +63,10 @@ pub(crate) const PRONOM_1033: FileType = FileType {
             },
             RelatedFormat {
                 relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 780,
+            },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
                 id: 1_034,
             },
             RelatedFormat {

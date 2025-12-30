@@ -5,7 +5,7 @@ pub(crate) const LINGUIST_224: FileType = FileType {
     file_format: &FileFormat {
         id: 224,
         source_type: SourceType::Linguist,
-        name: "Mathematica",
+        name: "Wolfram Language",
         extensions: &[
             "cdf",
             "m",
@@ -15,6 +15,7 @@ pub(crate) const LINGUIST_224: FileType = FileType {
             "nb",
             "nbp",
             "wl",
+            "wls",
             "wlt",
         ],
         media_types: &["text/x-mathematica"],

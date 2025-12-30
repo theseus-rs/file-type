@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105853554: FileType = FileType {
     file_format: &FileFormat {
         id: 105_853_554,
         source_type: SourceType::Wikidata,
-        name: "Magisk Modul",
+        name: "Magisk module",
         extensions: &["zip"],
         media_types: &["application/octet-stream"],
         signatures: &[Signature {

@@ -11,9 +11,9 @@ pub(crate) const PRONOM_2478: FileType = FileType {
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
-                offset: Some(9),
+                offset: Some(8),
                 regex: Regex {
-                    tokens: &[Token::Literal(&[0x46, 0x49, 0x54])],
+                    tokens: &[Token::Literal(&[0x2E, 0x46, 0x49, 0x54])],
                 },
             }],
         }],

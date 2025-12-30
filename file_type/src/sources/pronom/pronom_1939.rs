@@ -44,6 +44,10 @@ pub(crate) const PRONOM_1939: FileType = FileType {
                 relationship_type: RelationshipType::HasLowerPriorityThan,
                 id: 2_770,
             },
+            RelatedFormat {
+                relationship_type: RelationshipType::HasLowerPriorityThan,
+                id: 3_926,
+            },
         ],
     },
 };

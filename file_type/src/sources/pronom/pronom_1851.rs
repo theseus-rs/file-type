@@ -5,7 +5,7 @@ pub(crate) const PRONOM_1851: FileType = FileType {
     file_format: &FileFormat {
         id: 1_851,
         source_type: SourceType::Pronom,
-        name: "Draco File Format",
+        name: "Draco 1",
         extensions: &["drc"],
         media_types: &[],
         signatures: &[Signature {

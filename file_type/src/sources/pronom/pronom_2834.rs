@@ -12,9 +12,13 @@ pub(crate) const PRONOM_2834: FileType = FileType {
             byte_sequences: &[
                 ByteSequence {
                     position_type: PositionType::BOF,
-                    offset: Some(2_896),
+                    offset: Some(0),
                     regex: Regex {
-                        tokens: &[Token::Literal(&[0xAC])],
+                        tokens: &[
+                            Token::Literal(&[0x00, 0x08, 0x00, 0x00]),
+                            Token::WildcardCount(260),
+                            Token::Any(&[&[Token::Literal(&[0x01])], &[Token::Literal(&[0x02])]]),
+                        ],
                     },
                 },
                 ByteSequence {

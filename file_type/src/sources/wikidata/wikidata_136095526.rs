@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_136095526: FileType = FileType {
         id: 136_095_526,
         source_type: SourceType::Wikidata,
         name: "Audio-only MPEG-4",
-        extensions: &["m4a"],
+        extensions: &["m4a", "m4b"],
         media_types: &["audio/mp4"],
         signatures: &[],
         related_formats: &[],

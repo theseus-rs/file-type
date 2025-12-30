@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_105861649: FileType = FileType {
         id: 105_861_649,
         source_type: SourceType::Wikidata,
         name: "Logic Pro X project",
-        extensions: &["logicx"],
+        extensions: &["logic", "logicx"],
         media_types: &["application/octet-stream"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

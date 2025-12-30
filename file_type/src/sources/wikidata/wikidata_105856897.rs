@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105856897: FileType = FileType {
     file_format: &FileFormat {
         id: 105_856_897,
         source_type: SourceType::Wikidata,
-        name: "Q105856897",
+        name: "GObject Introspection gir file",
         extensions: &["gir"],
         media_types: &["text/xml"],
         signatures: &[Signature {

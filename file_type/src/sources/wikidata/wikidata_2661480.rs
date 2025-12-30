@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_2661480: FileType = FileType {
     file_format: &FileFormat {
         id: 2_661_480,
         source_type: SourceType::Wikidata,
-        name: "BSON",
+        name: "Q2661480",
         extensions: &["bson"],
         media_types: &["application/bson"],
         signatures: &[],

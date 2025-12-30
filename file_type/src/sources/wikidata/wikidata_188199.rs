@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_188199: FileType = FileType {
     file_format: &FileFormat {
         id: 188_199,
         source_type: SourceType::Wikidata,
-        name: "Ogg",
+        name: "Q188199",
         extensions: &["oga", "ogg", "ogv", "ogx", "opus", "spx"],
         media_types: &["application/ogg", "video/ogg"],
         signatures: &[Signature {

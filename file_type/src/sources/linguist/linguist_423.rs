@@ -24,6 +24,7 @@ pub(crate) const LINGUIST_423: FileType = FileType {
             "sublime-workspace",
             "sublime_metrics",
             "sublime_session",
+            "tsconfig.json",
         ],
         media_types: &["text/javascript"],
         signatures: &[],

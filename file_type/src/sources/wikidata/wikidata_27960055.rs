@@ -5,8 +5,8 @@ pub(crate) const WIKIDATA_27960055: FileType = FileType {
     file_format: &FileFormat {
         id: 27_960_055,
         source_type: SourceType::Wikidata,
-        name: "Audible Audiobook",
-        extensions: &["aa"],
+        name: "Audible audiobook",
+        extensions: &["aa", "aax"],
         media_types: &["audio/vnd.audible", "audio/x-pn-audibleaudio"],
         signatures: &[],
         related_formats: &[],

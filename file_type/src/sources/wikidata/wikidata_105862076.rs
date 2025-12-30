@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105862076: FileType = FileType {
     file_format: &FileFormat {
         id: 105_862_076,
         source_type: SourceType::Wikidata,
-        name: "mzTab format (with comment)",
+        name: "mzTab-M format",
         extensions: &["mztab"],
         media_types: &["text/plain"],
         signatures: &[Signature {

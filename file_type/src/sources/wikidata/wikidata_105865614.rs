@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105865614: FileType = FileType {
     file_format: &FileFormat {
         id: 105_865_614,
         source_type: SourceType::Wikidata,
-        name: "ZSoft Palette",
+        name: "Q105865614",
         extensions: &["pal"],
         media_types: &["application/octet-stream"],
         signatures: &[Signature {

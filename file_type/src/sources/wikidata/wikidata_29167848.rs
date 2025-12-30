@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_29167848: FileType = FileType {
     file_format: &FileFormat {
         id: 29_167_848,
         source_type: SourceType::Wikidata,
-        name: "Outlook Express Database",
+        name: "Outlook Express Message Database",
         extensions: &["dbx"],
         media_types: &[],
         signatures: &[Signature {
