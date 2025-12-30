@@ -1,8 +1,3 @@
-#![forbid(unsafe_code)]
-#![deny(clippy::pedantic)]
-#![deny(clippy::unwrap_in_result)]
-#![deny(clippy::unwrap_used)]
-
 use anyhow::Result;
 use file_type::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType};
 use reqwest::blocking::Client;

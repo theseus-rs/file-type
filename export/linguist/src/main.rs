@@ -1,8 +1,3 @@
-#![forbid(unsafe_code)]
-#![deny(clippy::pedantic)]
-#![deny(clippy::unwrap_in_result)]
-#![deny(clippy::unwrap_used)]
-
 use anyhow::Result;
 use file_type::format::{FileFormat, SourceType};
 use reqwest::blocking::Client;
@@ -109,7 +104,7 @@ fn parse_languages<S: AsRef<str>>(yaml: S) -> Result<Vec<Language>> {
 
         let language = Language {
             id: usize::try_from(id)?,
-            name: name.to_string(),
+            name: name.clone(),
             mime_type,
             extensions,
         };
@@ -134,7 +129,7 @@ fn process_languages(languages: Vec<Language>) -> Vec<FileFormat> {
         let mime_type = &language.mime_type;
         let mut media_types = Vec::new();
         if !mime_type.is_empty() {
-            media_types.push(mime_type.to_string());
+            media_types.push(mime_type.clone());
         }
         let media_types = media_types
             .iter()

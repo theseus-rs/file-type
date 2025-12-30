@@ -1,8 +1,3 @@
-#![forbid(unsafe_code)]
-#![deny(clippy::pedantic)]
-#![deny(clippy::unwrap_in_result)]
-#![deny(clippy::unwrap_used)]
-
 use anyhow::Result;
 use file_type::format::{FileFormat, SourceType};
 use reqwest::blocking::Client;
@@ -113,7 +108,7 @@ fn process_mime_types(mime_types: HashMap<String, Vec<String>>) -> Vec<FileForma
                 extension
             })
             .collect::<Vec<&str>>();
-        let media_types = vec![mime_type.to_string()]
+        let media_types = vec![mime_type.clone()]
             .into_iter()
             .map(|media_type| {
                 let media_type: &'static str = Box::leak(media_type.into_boxed_str());

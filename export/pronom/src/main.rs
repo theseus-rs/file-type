@@ -1,8 +1,3 @@
-#![forbid(unsafe_code)]
-#![deny(clippy::pedantic)]
-#![deny(clippy::unwrap_in_result)]
-#![deny(clippy::unwrap_used)]
-
 mod format;
 
 use crate::format::pronom_report::PronomReport;
