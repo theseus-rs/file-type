@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105858402: FileType = FileType {
     file_format: &FileFormat {
         id: 105_858_402,
         source_type: SourceType::Wikidata,
-        name: "FRITZ!Box configuration backup",
+        name: "Fritz!Box configuration backup",
         extensions: &["export"],
         media_types: &["application/x-avm-export"],
         signatures: &[Signature {

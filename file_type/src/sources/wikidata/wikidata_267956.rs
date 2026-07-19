@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_267956: FileType = FileType {
     file_format: &FileFormat {
         id: 267_956,
         source_type: SourceType::Wikidata,
-        name: "Atom",
+        name: "Q267956",
         extensions: &["atom"],
         media_types: &["application/atom+xml"],
         signatures: &[],

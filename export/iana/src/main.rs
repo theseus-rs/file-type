@@ -38,7 +38,7 @@ fn main() -> Result<()> {
 }
 
 fn initialize_tracing() {
-    let format = tracing_subscriber::fmt::format()
+    let format = fmt::format()
         .with_level(true)
         .with_target(false)
         .with_thread_names(true)
@@ -49,7 +49,7 @@ fn initialize_tracing() {
         .with_env_var("IANA_LOG")
         .from_env_lossy();
 
-    tracing_subscriber::fmt()
+    fmt()
         .with_env_filter(env_filter)
         .fmt_fields(fmt::format::DefaultFields::new())
         .event_format(format)
@@ -98,8 +98,10 @@ fn parse_media_types<S: AsRef<str>>(
             continue;
         }
 
-        let name = record.get(0).expect("missing name");
-        let media_type = record.get(1).expect("missing media type").to_string();
+        let (Some(name), Some(media_type)) = (record.get(0), record.get(1)) else {
+            continue;
+        };
+        let media_type = media_type.to_string();
 
         let mut hasher = DefaultHasher::new();
         media_type.hash(&mut hasher);

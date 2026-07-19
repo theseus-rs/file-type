@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_475488: FileType = FileType {
     file_format: &FileFormat {
         id: 475_488,
         source_type: SourceType::Wikidata,
-        name: "EPUB",
+        name: "Q475488",
         extensions: &["epub"],
         media_types: &["application/epub+zip"],
         signatures: &[Signature {

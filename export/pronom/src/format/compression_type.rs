@@ -72,12 +72,11 @@ pub(crate) struct CompressionType {
 #[cfg(test)]
 mod test {
     use super::*;
+    use crate::format::test_utils::round_trip;
     use indoc::indoc;
-    use quick_xml::de::from_str;
-    use quick_xml::se::to_string;
 
     #[test]
-    fn test_serde() -> anyhow::Result<()> {
+    fn test_serde() {
         let xml = indoc! {r"
           <CompressionType>
             <CompressionID>3</CompressionID>
@@ -105,11 +104,9 @@ mod test {
             </CompressionIdentifier>
           </CompressionType>
         "};
-        let compression_types: CompressionType = from_str(xml)?;
-
-        // Test serialization
-        let xml = to_string(&compression_types)?;
-        let compression_types: CompressionType = from_str(xml.as_str())?;
+        let compression_types: anyhow::Result<CompressionType> = round_trip(xml);
+        assert!(compression_types.is_ok());
+        let compression_types = compression_types.unwrap();
 
         assert_eq!(compression_types.id, 3);
         assert_eq!(compression_types.name, "Pulse Code Modulation");
@@ -126,9 +123,8 @@ mod test {
 
         let identifiers = compression_types.identifiers;
         assert_eq!(identifiers.len(), 1);
-        let identifier = &identifiers[0];
-        assert_eq!(identifier.identifier, "x-cmp/3");
-        assert_eq!(identifier.r#type, "PUID");
-        Ok(())
+        assert!(identifiers.first().is_some_and(|identifier| {
+            identifier.identifier == "x-cmp/3" && identifier.r#type == "PUID"
+        }));
     }
 }

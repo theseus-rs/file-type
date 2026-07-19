@@ -6,7 +6,7 @@ pub(crate) const LINGUIST_144: FileType = FileType {
         id: 144,
         source_type: SourceType::Linguist,
         name: "HCL",
-        extensions: &["hcl", "nomad", "tf", "tfvars", "workflow"],
+        extensions: &["hcl", "nomad", "tf", "tfvars", "tofu", "workflow"],
         media_types: &["text/x-ruby"],
         signatures: &[],
         related_formats: &[],

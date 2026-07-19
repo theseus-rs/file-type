@@ -6,7 +6,7 @@ pub(crate) const LINGUIST_436568854: FileType = FileType {
         id: 436_568_854,
         source_type: SourceType::Linguist,
         name: "Protocol Buffer Text Format",
-        extensions: &["pbt", "pbtxt", "textproto"],
+        extensions: &["pbt", "pbtxt", "textproto", "txtpb"],
         media_types: &[],
         signatures: &[],
         related_formats: &[],

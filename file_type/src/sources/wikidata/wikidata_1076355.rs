@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_1076355: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Portable Executable",
         extensions: &[
-            "acm", "ax", "dll", "drv", "efi", "exe", "mui", "scr", "sys", "tsp",
+            "acm", "dll", "drv", "efi", "exe", "ime", "mui", "scr", "sys", "tsp",
         ],
         media_types: &[
             "application/efi",

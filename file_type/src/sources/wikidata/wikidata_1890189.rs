@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_1890189: FileType = FileType {
         id: 1_890_189,
         source_type: SourceType::Wikidata,
         name: "Translation Memory eXchange",
-        extensions: &[],
+        extensions: &["tmx"],
         media_types: &[],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

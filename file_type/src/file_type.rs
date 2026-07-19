@@ -170,7 +170,7 @@ impl FileType {
     /// assert_eq!(file_type.extensions(), vec!["class"]);
     /// ```
     #[cfg(feature = "std")]
-    pub fn try_from_reader<R: std::io::Read>(mut reader: R) -> crate::Result<&'static Self> {
+    pub fn try_from_reader<R: Read>(mut reader: R) -> crate::Result<&'static Self> {
         let mut buffer = Vec::new();
         reader
             .read_to_end(&mut buffer)
@@ -236,11 +236,12 @@ mod tests {
     #[test]
     fn test_from_extension() {
         let file_types = FileType::from_extension("duckdb");
-        let file_type = file_types.first().expect("file format");
-        assert_eq!(file_type.id(), 133_271_766);
-        assert_eq!(file_type.name(), "DuckDB database file");
-        assert_eq!(file_type.media_types(), Vec::<String>::new());
-        assert_eq!(file_type.extensions(), vec!["ddb", "duckdb"]);
+        assert!(file_types.first().is_some_and(|file_type| {
+            file_type.id() == 133_271_766
+                && file_type.name() == "DuckDB database file"
+                && file_type.media_types() == Vec::<String>::new()
+                && file_type.extensions() == ["ddb", "duckdb"]
+        }));
     }
 
     #[test]
@@ -252,8 +253,11 @@ mod tests {
     #[test]
     fn test_from_media_type() {
         let file_types = FileType::from_media_type("image/png");
-        let file_type = file_types.first().expect("file format");
-        assert_eq!(file_type.extensions(), vec!["png"]);
+        assert!(
+            file_types
+                .first()
+                .is_some_and(|file_type| file_type.extensions() == ["png"])
+        );
     }
 
     #[test]
@@ -301,40 +305,41 @@ mod tests {
 
     #[cfg(feature = "std")]
     #[test]
-    fn test_try_from_reader() -> crate::Result<()> {
+    fn test_try_from_reader() {
         let bytes = b"\xCA\xFE\xBA\xBE";
         let reader = std::io::BufReader::new(&bytes[..]);
-        let file_type = FileType::try_from_reader(reader)?;
-        assert_eq!(file_type.extensions(), vec!["class"]);
-        Ok(())
+        let file_type = FileType::try_from_reader(reader);
+        assert!(
+            file_type
+                .as_ref()
+                .is_ok_and(|file_type| file_type.extensions() == vec!["class"])
+        );
     }
 
     #[cfg(feature = "std")]
     #[test]
-    fn test_try_from_file() -> crate::Result<()> {
+    fn test_try_from_file() {
         let crate_dir = env!("CARGO_MANIFEST_DIR");
         let file_path = std::path::PathBuf::from(crate_dir)
             .join("..")
             .join("test_data")
             .join("pronom")
             .join("pronom-664-signature-0.png");
-        let file_type = FileType::try_from_file(file_path)?;
-        assert_eq!(file_type.extensions(), vec!["png"]);
-        assert_eq!(file_type.media_types(), vec!["image/png"]);
-        Ok(())
+        let file_type = FileType::try_from_file(file_path);
+        assert!(file_type.as_ref().is_ok_and(|file_type| {
+            file_type.extensions() == vec!["png"] && file_type.media_types() == vec!["image/png"]
+        }));
     }
 
     fn large_bytes() -> Vec<u8> {
         let length = 1 << 31;
         let mut bytes = vec![0; length];
-        bytes[0] = 0xFD;
-        bytes[1] = 0x37;
-        bytes[2] = 0x7A;
-        bytes[3] = 0x58;
-        bytes[4] = 0x5A;
-        bytes[5] = 0x00;
-        bytes[length - 2] = 0x59;
-        bytes[length - 1] = 0x5A;
+        if let Some(prefix) = bytes.get_mut(..6) {
+            prefix.copy_from_slice(&[0xFD, 0x37, 0x7A, 0x58, 0x5A, 0x00]);
+        }
+        if let Some(suffix) = bytes.get_mut(length - 2..) {
+            suffix.copy_from_slice(&[0x59, 0x5A]);
+        }
         bytes
     }
 

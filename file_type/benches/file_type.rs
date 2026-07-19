@@ -14,14 +14,12 @@ fn benchmarks(criterion: &mut Criterion) {
 fn large_bytes() -> Vec<u8> {
     let length = 1 << 31;
     let mut bytes = vec![0; length];
-    bytes[0] = 0xFD;
-    bytes[1] = 0x37;
-    bytes[2] = 0x7A;
-    bytes[3] = 0x58;
-    bytes[4] = 0x5A;
-    bytes[5] = 0x00;
-    bytes[length - 2] = 0x59;
-    bytes[length - 1] = 0x5A;
+    if let Some(prefix) = bytes.get_mut(..6) {
+        prefix.copy_from_slice(&[0xFD, 0x37, 0x7A, 0x58, 0x5A, 0x00]);
+    }
+    if let Some(suffix) = bytes.get_mut(length - 2..) {
+        suffix.copy_from_slice(&[0x59, 0x5A]);
+    }
     bytes
 }
 
@@ -101,28 +99,25 @@ fn bench_lifecycle(criterion: &mut Criterion) -> anyhow::Result<()> {
     //
     #[cfg(target_os = "linux")]
     {
-        let cookie = magic::Cookie::open(Default::default())?;
+        let cookie = magic::Cookie::open(magic::cookie::Flags::default())?;
         let cookie = cookie
-            .load(&Default::default())
-            .expect("failed to load magic database");
+            .load(&magic::cookie::DatabasePaths::default())
+            .map_err(|error| anyhow::anyhow!(error.to_string()))?;
 
         criterion.bench_function("magic::from_bytes", |bencher| {
-            bencher.iter(|| {
+            bencher.iter(|| -> anyhow::Result<()> {
                 // human-readable description, more than a static name
-                cookie.set_flags(magic::cookie::Flags::ERROR).unwrap();
-                let _ = cookie.buffer(&bytes).unwrap();
+                cookie.set_flags(magic::cookie::Flags::ERROR)?;
+                let _ = cookie.buffer(&bytes)?;
 
                 // file type extensions
-                cookie
-                    .set_flags(magic::cookie::Flags::ERROR | magic::cookie::Flags::EXTENSION)
-                    .unwrap();
-                let _ = cookie.buffer(&bytes).unwrap();
+                cookie.set_flags(magic::cookie::Flags::ERROR | magic::cookie::Flags::EXTENSION)?;
+                let _ = cookie.buffer(&bytes)?;
 
                 // media type
-                cookie
-                    .set_flags(magic::cookie::Flags::ERROR | magic::cookie::Flags::MIME_TYPE)
-                    .unwrap();
-                let _ = cookie.buffer(&bytes).unwrap();
+                cookie.set_flags(magic::cookie::Flags::ERROR | magic::cookie::Flags::MIME_TYPE)?;
+                let _ = cookie.buffer(&bytes)?;
+                Ok(())
             });
         });
     }

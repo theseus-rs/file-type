@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_61080677: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "HDF5",
         extensions: &["h5", "hdf", "hdf5", "he5"],
-        media_types: &["application/x-hdf5"],
+        media_types: &["application/vnd.hdfgroup.hdf5"],
         signatures: &[],
         related_formats: &[],
     },

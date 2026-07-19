@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_288256: FileType = FileType {
     file_format: &FileFormat {
         id: 288_256,
         source_type: SourceType::Wikidata,
-        name: "ACE",
+        name: "ACE 1",
         extensions: &["ace"],
         media_types: &["application/x-ace-compressed"],
         signatures: &[],

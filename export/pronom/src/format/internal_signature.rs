@@ -53,13 +53,11 @@ where
 #[cfg(test)]
 mod test {
     use super::*;
-    use anyhow::Result;
+    use crate::format::test_utils::round_trip;
     use indoc::indoc;
-    use quick_xml::de::from_str;
-    use quick_xml::se::to_string;
 
     #[test]
-    fn test_serde() -> Result<()> {
+    fn test_serde() {
         let xml = indoc! {r"
           <InternalSignature>
             <SignatureID>1687</SignatureID>
@@ -67,11 +65,9 @@ mod test {
             <SignatureNote>The signature assumes a starting { character</SignatureNote>
           </InternalSignature>
         "};
-        let internal_signature: InternalSignature = from_str(xml)?;
-
-        // Test serialization
-        let xml = to_string(&internal_signature)?;
-        let internal_signature: InternalSignature = from_str(xml.as_str())?;
+        let internal_signature: anyhow::Result<InternalSignature> = round_trip(xml);
+        assert!(internal_signature.is_ok());
+        let internal_signature = internal_signature.unwrap();
 
         assert_eq!(internal_signature.id, 1687);
         assert_eq!(internal_signature.name, "Tweet JSON (Raw JSON)");
@@ -82,6 +78,5 @@ mod test {
 
         let byte_sequences = internal_signature.byte_sequences;
         assert_eq!(byte_sequences.len(), 0);
-        Ok(())
     }
 }

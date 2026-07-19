@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_596391: FileType = FileType {
     file_format: &FileFormat {
         id: 596_391,
         source_type: SourceType::Wikidata,
-        name: "APK",
+        name: "Q596391",
         extensions: &["aab", "abb", "apk", "apkm", "apks", "xapk"],
         media_types: &["application/vnd.android.package-archive"],
         signatures: &[Signature {

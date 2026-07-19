@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105849619: FileType = FileType {
     file_format: &FileFormat {
         id: 105_849_619,
         source_type: SourceType::Wikidata,
-        name: "Common Ground Digital Paper document",
+        name: "Common Ground Digital Paper 1",
         extensions: &["dp"],
         media_types: &["application/octet-stream"],
         signatures: &[Signature {

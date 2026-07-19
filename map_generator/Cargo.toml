@@ -5,8 +5,10 @@ publish = false
 license.workspace = true
 version.workspace = true
 
+[lints]
+workspace = true
+
 [dependencies]
 anyhow = { workspace = true }
 file_type = { path = "../file_type", version = "0.8.11", features = ["all"] }
-phf = { workspace = true }
-phf_codegen = { workspace = true }
+source_generator = { path = "../export/source_generator", version = "0.1.0" }

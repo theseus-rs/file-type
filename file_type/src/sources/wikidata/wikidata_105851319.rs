@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105851319: FileType = FileType {
     file_format: &FileFormat {
         id: 105_851_319,
         source_type: SourceType::Wikidata,
-        name: "TrID definition! :-)",
+        name: "TrID definition",
         extensions: &["xml"],
         media_types: &["text/xml"],
         signatures: &[Signature {

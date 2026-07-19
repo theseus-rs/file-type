@@ -71,13 +71,11 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_regex_test_data() -> file_type::Result<()> {
-        let regex = Regex::new("0102[!03]{1-2}07??42")?;
+    fn test_regex_test_data() {
         assert_eq!(
-            regex.to_test_signature(),
-            vec![0x01, 0x02, 0x04, 0x00, 0x07, 0x00, 0x42]
+            Regex::new("0102[!03]{1-2}07??42").map(|regex| regex.to_test_signature()),
+            Ok(vec![0x01, 0x02, 0x04, 0x00, 0x07, 0x00, 0x42])
         );
-        Ok(())
     }
 
     #[test]

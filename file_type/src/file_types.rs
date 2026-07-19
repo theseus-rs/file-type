@@ -5,6 +5,10 @@ use core::cmp::Ordering;
 use sources::default::{DEFAULT_1, DEFAULT_2};
 
 /// Sort the file types without requiring a total order.
+#[expect(
+    clippy::indexing_slicing,
+    reason = "j starts at a valid index and stays in bounds while it is greater than zero"
+)]
 fn sort_by<F, T>(file_types: &mut [&T], mut compare: F)
 where
     F: FnMut(&T, &T) -> Ordering,
@@ -69,13 +73,10 @@ fn is_binary(bytes: &[u8]) -> bool {
     }
 
     // Check only the first portion of the file for performance
-    let check_length = bytes.len().min(8192);
-    let bytes_to_check = &bytes[..check_length];
-
-    bytes_to_check.is_empty()
-        || bytes
-            .iter()
-            .any(|&byte| matches!(byte, 0..=31 if !matches!(byte, b'\n' | b'\r' | b'\t')))
+    bytes
+        .iter()
+        .take(8192)
+        .any(|&byte| matches!(byte, 0..=31 if !matches!(byte, b'\n' | b'\r' | b'\t')))
 }
 
 /// Attempt to determine the `FileType` from a byte slice.
@@ -139,19 +140,22 @@ mod tests {
     use crate::sources::file_types;
     use alloc::vec;
 
-    fn find_file_type(source_type: &SourceType, id: usize) -> &'static FileType {
-        let file_type = file_types().find(|file_type| {
+    fn find_file_type(source_type: &SourceType, id: usize) -> Option<&'static FileType> {
+        file_types().find(|file_type| {
             file_type.file_format().source_type == *source_type && file_type.file_format().id == id
-        });
-        file_type.expect("file type not found")
+        })
     }
 
     #[test]
     fn test_file_formats() {
-        let default_1 = find_file_type(&SourceType::Default, 1);
-        assert_eq!(default_1.id(), 1);
-        let default_2 = find_file_type(&SourceType::Default, 2);
-        assert_eq!(default_2.id(), 2);
+        assert_eq!(
+            find_file_type(&SourceType::Default, 1).map(FileType::id),
+            Some(1)
+        );
+        assert_eq!(
+            find_file_type(&SourceType::Default, 2).map(FileType::id),
+            Some(2)
+        );
     }
 
     #[test]
@@ -164,15 +168,20 @@ mod tests {
     #[cfg(feature = "pronom")]
     #[test]
     fn test_cmp_file_types() {
-        let pronom_654 = find_file_type(&SourceType::Pronom, 654);
-        let pronom_1314 = find_file_type(&SourceType::Pronom, 1314);
-        let pronom_1507 = find_file_type(&SourceType::Pronom, 1507);
-        let mut file_types = [pronom_654, pronom_1314, pronom_1507];
+        let mut file_types = [654, 1314]
+            .into_iter()
+            .filter_map(|id| find_file_type(&SourceType::Pronom, id))
+            .collect::<Vec<_>>();
+        assert_eq!(file_types.len(), 2);
 
         sort_by(&mut file_types, cmp_file_types);
 
-        assert_eq!(file_types[0].id(), 1507);
-        assert_eq!(file_types[1].id(), 1314);
-        assert_eq!(file_types[2].id(), 654);
+        assert_eq!(
+            file_types
+                .iter()
+                .map(|file_type| file_type.id())
+                .collect::<Vec<_>>(),
+            vec![1314, 654]
+        );
     }
 }

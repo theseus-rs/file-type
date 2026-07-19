@@ -17,8 +17,6 @@ jobs:
   fuzz:
     name: ${{ matrix.target }}
     runs-on: ubuntu-latest
-    env:
-      RUSTUP_TOOLCHAIN: nightly
     strategy:
       fail-fast: false
       matrix:
@@ -26,9 +24,9 @@ jobs:
           - file_type_bytes
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Install Rust
-        uses: dtolnay/rust-toolchain@nightly
+        run: rustup toolchain install --no-self-update
       - name: Install cargo fuzz
         run: cargo install cargo-fuzz
 # Temporarily disable Fuzz testing due to the following error:

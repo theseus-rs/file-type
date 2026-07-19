@@ -5,15 +5,15 @@ pub(crate) const WIKIDATA_105862952: FileType = FileType {
     file_format: &FileFormat {
         id: 105_862_952,
         source_type: SourceType::Wikidata,
-        name: "TROFF markup",
+        name: "troff markup",
         extensions: &["me"],
-        media_types: &[],
+        media_types: &["text/troff"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,
                 offset: Some(0),
                 regex: Regex {
-                    tokens: &[Token::Literal(&[0x2E, 0x5C, 0x22, 0x20])],
+                    tokens: &[Token::Literal(&[0x2E, 0x54, 0x48, 0x20])],
                 },
             }],
         }],

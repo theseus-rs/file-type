@@ -9,7 +9,13 @@ pub(crate) const WIKIDATA_336284: FileType = FileType {
         extensions: &[
             "m1a", "m1v", "m2a", "mp1", "mp2", "mp3", "mpa", "mpeg", "mpg", "mpv",
         ],
-        media_types: &["audio/mpeg", "video/mpeg"],
+        media_types: &[
+            "audio/mpeg",
+            "video/mpeg",
+            "video/mpg",
+            "video/x-mpeg",
+            "video/x-mpeg2a",
+        ],
         signatures: &[],
         related_formats: &[],
     },

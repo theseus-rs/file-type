@@ -1,22 +1,14 @@
 use crate::FileType;
-use crate::format::{ByteSequence, FileFormat, PositionType, Regex, Signature, SourceType, Token};
+use crate::format::{FileFormat, SourceType};
 
 pub(crate) const WIKIDATA_105861080: FileType = FileType {
     file_format: &FileFormat {
         id: 105_861_080,
         source_type: SourceType::Wikidata,
-        name: "Windows application log",
+        name: "Windows Application Log",
         extensions: &["lgc", "lgd"],
-        media_types: &["application/octet-stream"],
-        signatures: &[Signature {
-            byte_sequences: &[ByteSequence {
-                position_type: PositionType::BOF,
-                offset: Some(0),
-                regex: Regex {
-                    tokens: &[Token::Literal(&[0x7B, 0x0D, 0x0A, 0x6F, 0x20])],
-                },
-            }],
-        }],
+        media_types: &["application/json", "text/csv", "text/xml"],
+        signatures: &[],
         related_formats: &[],
     },
 };

@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_2297620: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Software Package Data Exchange",
         extensions: &[],
-        media_types: &["text/spdx"],
+        media_types: &["application/spdx+json", "text/spdx"],
         signatures: &[],
         related_formats: &[],
     },

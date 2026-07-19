@@ -1,9 +1,11 @@
 mod generator;
+mod maps;
 mod source;
 
 use file_type::format::{ByteSequence, FileFormat, Regex, RelatedFormat, Signature, Token};
 
 pub use generator::generate;
+pub use maps::generate_maps;
 pub use source::Source;
 
 impl Source for ByteSequence {
@@ -146,16 +148,24 @@ mod test {
 
     #[test]
     fn test_byte_sequence_to_source() {
-        let regex = Regex::new("*").expect("Invalid regex");
-        let byte_sequence = ByteSequence {
-            position_type: PositionType::BOF,
-            offset: Some(0),
-            regex,
-        };
-        assert_eq!(
-            byte_sequence.to_source(),
-            "ByteSequence { position_type: PositionType::BOF, offset: Some(0), regex: Regex { tokens: &[Token::AnyWildcard] } }"
-        );
+        let regex = Regex::new("*");
+        assert!(regex.is_ok());
+        if let Ok(regex) = regex {
+            let mut byte_sequence = ByteSequence {
+                position_type: PositionType::BOF,
+                offset: Some(0),
+                regex,
+            };
+            assert_eq!(
+                byte_sequence.to_source(),
+                "ByteSequence { position_type: PositionType::BOF, offset: Some(0), regex: Regex { tokens: &[Token::AnyWildcard] } }"
+            );
+            byte_sequence.offset = None;
+            assert_eq!(
+                byte_sequence.to_source(),
+                "ByteSequence { position_type: PositionType::BOF, offset: None, regex: Regex { tokens: &[Token::AnyWildcard] } }"
+            );
+        }
     }
 
     #[test]
@@ -177,14 +187,16 @@ mod test {
     }
 
     #[test]
-    fn test_regex_source() -> file_type::Result<()> {
+    fn test_regex_source() {
         let pattern = "(01)";
-        let regex = Regex::new(pattern)?;
-        assert_eq!(
-            regex.to_source(),
-            "Regex { tokens: &[Token::Any(&[&[Token::Literal(&[0x01])]])] }"
-        );
-        Ok(())
+        let regex = Regex::new(pattern);
+        assert!(regex.is_ok());
+        if let Ok(regex) = regex {
+            assert_eq!(
+                regex.to_source(),
+                "Regex { tokens: &[Token::Any(&[&[Token::Literal(&[0x01])]])] }"
+            );
+        }
     }
 
     #[test]

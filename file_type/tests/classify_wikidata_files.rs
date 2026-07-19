@@ -14,14 +14,11 @@ fn data_dir() -> std::path::PathBuf {
 fn test_file(file_name: &str) -> anyhow::Result<(usize, &FileType)> {
     let data_dir = data_dir();
     let path = data_dir.join(file_name);
-    let file_name = path
-        .file_name()
-        .expect("file name")
-        .to_string_lossy()
-        .to_string();
-    let file_name = file_name.split('.').next().expect("split").to_string();
-    let parts: Vec<&str> = file_name.split('-').collect();
-    let id: usize = parts[1].parse()?;
+    let id: usize = file_name
+        .strip_prefix("wikidata-")
+        .and_then(|name| name.split(['-', '.']).next())
+        .ok_or_else(|| anyhow::Error::msg("file id not found"))?
+        .parse()?;
     let file_type = FileType::try_from_file(path)?;
     Ok((id, file_type))
 }
@@ -41,9 +38,8 @@ fn test_file_classification() -> anyhow::Result<()> {
 
         let file_name = path
             .file_name()
-            .expect("file name")
-            .to_string_lossy()
-            .to_string();
+            .ok_or_else(|| anyhow::Error::msg("file name not found"))?
+            .to_string_lossy();
         let (id, file_type) = test_file(&file_name)?;
 
         if file_type.id() == id && matches!(file_type.source_type(), &SourceType::Wikidata) {
@@ -59,6 +55,8 @@ fn test_file_classification() -> anyhow::Result<()> {
 
     println!("Passed: {passed_tests}");
     println!("Errored: {errored_tests}");
-    assert!(passed_tests > 15_000);
+    if passed_tests <= 15_000 {
+        return Err(anyhow::Error::msg("too few files were classified"));
+    }
     Ok(())
 }

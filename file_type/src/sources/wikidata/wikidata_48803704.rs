@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_48803704: FileType = FileType {
         id: 48_803_704,
         source_type: SourceType::Wikidata,
         name: "AutoSketch Drawing",
-        extensions: &["skf"],
+        extensions: &["skd"],
         media_types: &["application/octet-stream"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

@@ -72,12 +72,11 @@ impl RelatedFormat {
 #[cfg(test)]
 mod test {
     use super::*;
+    use crate::format::test_utils::round_trip;
     use indoc::indoc;
-    use quick_xml::de::from_str;
-    use quick_xml::se::to_string;
 
     #[test]
-    fn test_serde() -> anyhow::Result<()> {
+    fn test_serde() {
         let xml = indoc! {r"
           <RelatedFormat>
             <RelationshipType>Has priority over</RelationshipType>
@@ -87,11 +86,9 @@ mod test {
             </RelatedFormatVersion>
           </RelatedFormat>
         "};
-        let related_format: RelatedFormat = from_str(xml)?;
-
-        // Test serialization
-        let xml = to_string(&related_format)?;
-        let related_format: RelatedFormat = from_str(xml.as_str())?;
+        let related_format: anyhow::Result<RelatedFormat> = round_trip(xml);
+        assert!(related_format.is_ok());
+        let related_format = related_format.unwrap();
 
         assert!(matches!(
             related_format.relationship_type,
@@ -99,6 +96,5 @@ mod test {
         ));
         assert_eq!(related_format.id, 1617);
         assert_eq!(related_format.name, "JSON Data Interchange Format");
-        Ok(())
     }
 }

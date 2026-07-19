@@ -5,8 +5,8 @@ pub(crate) const WIKIDATA_79587: FileType = FileType {
     file_format: &FileFormat {
         id: 79_587,
         source_type: SourceType::Wikidata,
-        name: "Keyhole Markup Language",
-        extensions: &["kml", "kmz"],
+        name: "paul et maelia couple goal",
+        extensions: &["kkk", "kml"],
         media_types: &[
             "application/vnd.google-earth.kml+xml",
             "application/vnd.google-earth.kmz",

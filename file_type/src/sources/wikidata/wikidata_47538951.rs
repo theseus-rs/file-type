@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_47538951: FileType = FileType {
         id: 47_538_951,
         source_type: SourceType::Wikidata,
         name: "AutoCAD Compiled Menu",
-        extensions: &["met"],
+        extensions: &["mnc"],
         media_types: &[],
         signatures: &[],
         related_formats: &[],

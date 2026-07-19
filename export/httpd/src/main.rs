@@ -26,7 +26,7 @@ fn main() -> Result<()> {
 }
 
 fn initialize_tracing() {
-    let format = tracing_subscriber::fmt::format()
+    let format = fmt::format()
         .with_level(true)
         .with_target(false)
         .with_thread_names(true)
@@ -37,7 +37,7 @@ fn initialize_tracing() {
         .with_env_var("HTTPD_LOG")
         .from_env_lossy();
 
-    tracing_subscriber::fmt()
+    fmt()
         .with_env_filter(env_filter)
         .fmt_fields(fmt::format::DefaultFields::new())
         .event_format(format)
@@ -77,19 +77,16 @@ fn parse_mime_types<S: AsRef<str>>(data: S) -> HashMap<String, Vec<String>> {
             continue;
         }
 
-        let parts: Vec<&str> = line.split_whitespace().collect();
-        if parts.len() < 2 {
+        let mut parts = line.split_whitespace();
+        let Some(mime_type) = parts.next() else {
+            warn!("Invalid line: {line}");
+            continue;
+        };
+        let extensions = parts.map(ToString::to_string).collect::<Vec<String>>();
+        if extensions.is_empty() {
             warn!("Invalid line: {line}");
             continue;
         }
-
-        let mime_type = parts[0];
-        let extensions = &parts[1..];
-
-        let extensions = extensions
-            .iter()
-            .map(ToString::to_string)
-            .collect::<Vec<String>>();
 
         mime_types.insert(mime_type.to_string(), extensions);
     }

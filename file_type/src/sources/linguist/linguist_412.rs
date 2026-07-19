@@ -6,7 +6,7 @@ pub(crate) const LINGUIST_412: FileType = FileType {
         id: 412,
         source_type: SourceType::Linguist,
         name: "desktop",
-        extensions: &["desktop", "desktop.in", "service"],
+        extensions: &["desktop", "desktop.in"],
         media_types: &[],
         signatures: &[],
         related_formats: &[],

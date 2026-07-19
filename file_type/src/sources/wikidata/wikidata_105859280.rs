@@ -13,7 +13,7 @@ pub(crate) const WIKIDATA_105859280: FileType = FileType {
                 position_type: PositionType::BOF,
                 offset: Some(0),
                 regex: Regex {
-                    tokens: &[Token::Literal(&[0xEF, 0xBB, 0xBF, 0xE4, 0xB4, 0x80])],
+                    tokens: &[Token::Literal(&[0xFE, 0xFF, 0x4D, 0x00])],
                 },
             }],
         }],

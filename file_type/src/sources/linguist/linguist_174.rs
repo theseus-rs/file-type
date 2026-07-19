@@ -20,6 +20,7 @@ pub(crate) const LINGUIST_174: FileType = FileType {
             "jsonl",
             "mcmeta",
             "sarif",
+            "slnlaunch",
             "tact",
             "tfstate",
             "tfstate.backup",

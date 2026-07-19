@@ -5,7 +5,7 @@ pub(crate) const IANA_376588493: FileType = FileType {
     file_format: &FileFormat {
         id: 376_588_493,
         source_type: SourceType::Iana,
-        name: "rpki-ghostbusters",
+        name: "rpki-ghostbusters (DEPRECATED)",
         extensions: &[],
         media_types: &["application/rpki-ghostbusters"],
         signatures: &[],

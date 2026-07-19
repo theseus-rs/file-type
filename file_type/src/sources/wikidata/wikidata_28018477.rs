@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28018477: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Indeo Video Format",
         extensions: &["ivf"],
-        media_types: &[],
+        media_types: &["video/x-ivf"],
         signatures: &[],
         related_formats: &[],
     },
