@@ -42,8 +42,6 @@ fn generate_signatures_map(
 
     let imports = [
         "use crate::FileType;",
-        "#[cfg(feature = \"pronom\")]",
-        "use crate::sources::pronom;",
         "#[cfg(feature = \"wikidata\")]",
         "use crate::sources::wikidata;",
     ];
@@ -81,8 +79,6 @@ fn generate_extension_map(
         "use crate::sources::httpd;",
         "#[cfg(feature = \"linguist\")]",
         "use crate::sources::linguist;",
-        "#[cfg(feature = \"pronom\")]",
-        "use crate::sources::pronom;",
         "#[cfg(feature = \"wikidata\")]",
         "use crate::sources::wikidata;",
     ];
@@ -123,8 +119,6 @@ fn generate_media_types_map(
         "use crate::sources::iana;",
         "#[cfg(feature = \"linguist\")]",
         "use crate::sources::linguist;",
-        "#[cfg(feature = \"pronom\")]",
-        "use crate::sources::pronom;",
         "#[cfg(feature = \"wikidata\")]",
         "use crate::sources::wikidata;",
     ];

@@ -1,1 +1,0 @@
-MicroStation Resource File -

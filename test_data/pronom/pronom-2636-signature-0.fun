@@ -1,1 +1,0 @@
-ð?FUNPAINT (MT) 

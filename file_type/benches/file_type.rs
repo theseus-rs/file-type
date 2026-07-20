@@ -27,8 +27,8 @@ fn bench_lifecycle(criterion: &mut Criterion) -> anyhow::Result<()> {
     let file = PathBuf::from(CRATE_DIR)
         .join("..")
         .join("test_data")
-        .join("pronom")
-        .join("pronom-382-signature-0.zip");
+        .join("wikidata")
+        .join("wikidata-178051-signature-0.png");
     let bytes = fs::read(&file)?;
     let large_bytes = large_bytes();
 

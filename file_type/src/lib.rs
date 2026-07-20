@@ -14,7 +14,6 @@
 //! * [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types)
 //! * [IANA](https://www.iana.org/assignments/media-types/media-types.xml)
 //! * [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml)
-//! * [The National Archives PRONOM](https://www.nationalarchives.gov.uk/pronom/)
 //! * [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List)
 //!
 //! # Example
@@ -53,7 +52,6 @@
 //! | `httpd`    | Enables [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types) file types                         | No       |
 //! | `iana`     | Enables [IANA](https://www.iana.org/assignments/media-types/media-types.xml) file types                                    | No       |
 //! | `linguist` | Enables [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) file types            | No       |
-//! | `pronom`   | Enables [PRONOM](https://www.nationalarchives.gov.uk/PRONOM) file types                                                    | No       |
 //! | `std`      | Enables support for the Rust standard library                                                                              | Yes      |
 //! | `wikidata` | Enables [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List) file types | Yes      |
 //!

@@ -707,7 +707,6 @@ mod tests {
         assert_pattern("0102(03|04|05)", "0102FF", false);
         assert_pattern("(01[00:33]|00)", "01FFAA", false);
 
-        // PRONOM examples
         assert_pattern("0E(FF|FE)17", "0EFF17", true);
         assert_pattern("0E(FF|FE)17", "0EFE17", true);
     }
@@ -724,7 +723,6 @@ mod tests {
         assert_pattern("*01", "FF", false);
         assert_pattern("01*03", "0102FF", false);
 
-        // PRONOM examples
         assert_pattern("0AFF*FE", "0AFF6CFE", true);
         assert_pattern("0AFF*FE", "0AFF11FE", true);
     }
@@ -773,7 +771,6 @@ mod tests {
         assert_pattern("01[!00:FF]03", "010203", false);
         assert_pattern("0102[!00:FF]04", "01020304", false);
 
-        // PRONOM examples
         assert_pattern("FF[!01:02]FF", "FF00FF", true);
         assert_pattern("FF[!01:02]FF", "FF03FF", true);
         assert_pattern("FF[!01:02]FF", "FF01FF", false);
@@ -795,7 +792,6 @@ mod tests {
         assert_pattern("[00:FF]01", "01", false);
         assert_pattern("[00:FF]01", "FF", false);
 
-        // PRONOM examples
         assert_pattern("FF[09:0B]FF", "FF09FF", true);
         assert_pattern("FF[09:0B]FF", "FF0AFF", true);
         assert_pattern("FF[09:0B]FF", "FF0BFF", true);
@@ -811,7 +807,6 @@ mod tests {
         assert_pattern("??", "", false);
         assert_pattern("00??", "FF", false);
 
-        // PRONOM examples
         assert_pattern("0AFF??FE", "0AFF6CFE", true);
         assert_pattern("0AFF??FE", "0AFF11FE", true);
     }
@@ -830,7 +825,6 @@ mod tests {
         assert_pattern("01{1}", "01", false);
         assert_pattern("{1}01", "01", false);
 
-        // PRONOM examples
         assert_pattern("1C20{2}4E12", "1C20FF154E12", true);
     }
 
@@ -850,7 +844,6 @@ mod tests {
         assert_pattern("01{1-2}", "01", false);
         assert_pattern("01{1-2}02", "0102030405", false);
 
-        // PRONOM examples
         assert_pattern("03{1-2}4D", "033C4D", true);
         assert_pattern("03{1-2}4D", "033C884D", true);
         assert_pattern("03{2-*}4D", "033C884D", true);

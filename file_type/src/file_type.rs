@@ -1,6 +1,7 @@
 use crate::format::{FileFormat, SourceType};
 use crate::{extensions, file_types, media_types};
 use core::cmp::Ordering;
+#[cfg(feature = "std")]
 use std::io::Read;
 
 /// A file type.  The file type is determined by examining the file or bytes against known file
@@ -323,8 +324,8 @@ mod tests {
         let file_path = std::path::PathBuf::from(crate_dir)
             .join("..")
             .join("test_data")
-            .join("pronom")
-            .join("pronom-664-signature-0.png");
+            .join("wikidata")
+            .join("wikidata-178051-signature-0.png");
         let file_type = FileType::try_from_file(file_path);
         assert!(file_type.as_ref().is_ok_and(|file_type| {
             file_type.extensions() == vec!["png"] && file_type.media_types() == vec!["image/png"]

@@ -15,7 +15,6 @@ Signature, extension and media type data are provided by:
 * [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types)
 * [IANA](https://www.iana.org/assignments/media-types/media-types.xml)
 * [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml)
-* [The National Archives PRONOM](https://www.nationalarchives.gov.uk/pronom/)
 * [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List)
 
 If you need a format that is not supported, please provide your submission to the
@@ -60,7 +59,6 @@ assert_eq!(file_type.extensions(), vec!["png"]);
 | `httpd`    | Enables [Apache HTTPD](https://github.com/apache/httpd/blob/trunk/docs/conf/mime.types) file types                         | No       |
 | `iana`     | Enables [IANA](https://www.iana.org/assignments/media-types/media-types.xml) file types                                    | No       |
 | `linguist` | Enables [Linguist](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) file types            | No       |
-| `pronom`   | Enables [PRONOM](https://www.nationalarchives.gov.uk/PRONOM) file types                                                    | No       |
 | `std`      | Enables support for the Rust standard library                                                                              | Yes      |
 | `wikidata` | Enables [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Informatics/Structures/File_formats/List) file types | Yes      |
 
@@ -99,8 +97,6 @@ Data is licensed under the following licenses:
   [Apache License 2.0](https://github.com/apache/httpd/blob/trunk/LICENSE).
 * The IANA definitions are provided by the Internet Assigned Numbers Authority under the
   [Creative Commons Zero (CC0)](https://www.iana.org/help/licensing-terms) license.
-* The PRONOM definitions are provided by The National Archives (UK) under the
-  [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 * The Wikidata definitions are provided by the Wikidata project under the
   [Creative Commons Zero (CC0)](https://www.wikidata.org/wiki/Wikidata:Licensing) license.
 

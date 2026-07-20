@@ -1,1 +1,0 @@
-<?xml version="'1.0"'<:CityModelxmlns="'http://www.opengis.net/citygml/1.0"'

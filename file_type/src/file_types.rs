@@ -136,9 +136,37 @@ where
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::format::SourceType;
+    use crate::format::{FileFormat, RelatedFormat, RelationshipType, SourceType};
     use crate::sources::file_types;
     use alloc::vec;
+
+    static LOWER_PRIORITY_FORMAT: FileFormat = FileFormat {
+        id: 1,
+        source_type: SourceType::Default,
+        name: "Lower priority",
+        extensions: &[],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[RelatedFormat {
+            relationship_type: RelationshipType::HasLowerPriorityThan,
+            id: 2,
+        }],
+    };
+    static LOWER_PRIORITY: FileType = FileType {
+        file_format: &LOWER_PRIORITY_FORMAT,
+    };
+    static HIGHER_PRIORITY_FORMAT: FileFormat = FileFormat {
+        id: 2,
+        source_type: SourceType::Default,
+        name: "Higher priority",
+        extensions: &[],
+        media_types: &[],
+        signatures: &[],
+        related_formats: &[],
+    };
+    static HIGHER_PRIORITY: FileType = FileType {
+        file_format: &HIGHER_PRIORITY_FORMAT,
+    };
 
     fn find_file_type(source_type: &SourceType, id: usize) -> Option<&'static FileType> {
         file_types().find(|file_type| {
@@ -165,14 +193,54 @@ mod tests {
         assert_eq!(file_type.extensions(), vec!["class"]);
     }
 
-    #[cfg(feature = "pronom")]
+    #[test]
+    fn test_lookup_maps_are_complete_and_sorted() {
+        for file_type in file_types() {
+            let file_format = file_type.file_format();
+
+            for extension in file_format.extensions {
+                assert!(
+                    crate::extensions::MAP
+                        .get(extension)
+                        .is_some_and(|matches| matches.contains(&file_type)),
+                    "missing extension {extension:?} for {file_format:?}",
+                );
+            }
+
+            for media_type in file_format.media_types {
+                assert!(
+                    crate::media_types::MAP
+                        .get(media_type)
+                        .is_some_and(|matches| matches.contains(&file_type)),
+                    "missing media type {media_type:?} for {file_format:?}",
+                );
+            }
+
+            for signature in file_format.signatures {
+                let key = signature.key();
+                assert!(
+                    signatures::MAP
+                        .get(&key)
+                        .is_some_and(|matches| matches.contains(&file_type)),
+                    "missing signature key {key} for {file_format:?}",
+                );
+            }
+        }
+
+        for matches in crate::extensions::MAP.values() {
+            assert!(matches.is_sorted());
+        }
+        for matches in crate::media_types::MAP.values() {
+            assert!(matches.is_sorted());
+        }
+        for matches in signatures::MAP.values() {
+            assert!(matches.is_sorted());
+        }
+    }
+
     #[test]
     fn test_cmp_file_types() {
-        let mut file_types = [654, 1314]
-            .into_iter()
-            .filter_map(|id| find_file_type(&SourceType::Pronom, id))
-            .collect::<Vec<_>>();
-        assert_eq!(file_types.len(), 2);
+        let mut file_types = [&LOWER_PRIORITY, &HIGHER_PRIORITY];
 
         sort_by(&mut file_types, cmp_file_types);
 
@@ -181,7 +249,7 @@ mod tests {
                 .iter()
                 .map(|file_type| file_type.id())
                 .collect::<Vec<_>>(),
-            vec![1314, 654]
+            vec![2, 1]
         );
     }
 }
