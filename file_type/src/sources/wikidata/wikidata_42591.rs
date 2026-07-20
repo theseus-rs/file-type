@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_42591: FileType = FileType {
     file_format: &FileFormat {
         id: 42_591,
         source_type: SourceType::Wikidata,
-        name: "MP3",
+        name: "Q42591",
         extensions: &["mp3"],
         media_types: &["audio/mpeg"],
         signatures: &[Signature {

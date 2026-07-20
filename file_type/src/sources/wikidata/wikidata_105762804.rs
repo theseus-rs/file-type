@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_105762804: FileType = FileType {
         id: 105_762_804,
         source_type: SourceType::Wikidata,
         name: "Final Cut Pro XML Interchange Format",
-        extensions: &[],
+        extensions: &["xml"],
         media_types: &["text/xml"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

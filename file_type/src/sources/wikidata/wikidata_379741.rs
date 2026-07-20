@@ -10,7 +10,10 @@ pub(crate) const WIKIDATA_379741: FileType = FileType {
         media_types: &[
             "application/ms-asf",
             "application/vnd.ms-asf",
+            "application/x-mplayer2",
+            "video/x-la-asf",
             "video/x-ms-asf",
+            "video/x-ms-asf-plugin",
         ],
         signatures: &[],
         related_formats: &[],

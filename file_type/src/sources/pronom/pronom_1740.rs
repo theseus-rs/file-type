@@ -10,7 +10,7 @@ pub(crate) const PRONOM_1740: FileType = FileType {
         source_type: SourceType::Pronom,
         name: "Animated Portable Network Graphics",
         extensions: &["png", "apng"],
-        media_types: &["image/vnd.mozilla.apng"],
+        media_types: &["image/apng"],
         signatures: &[Signature {
             byte_sequences: &[
                 ByteSequence {
@@ -33,6 +33,15 @@ pub(crate) const PRONOM_1740: FileType = FileType {
                     regex: Regex {
                         tokens: &[Token::Literal(&[
                             0x00, 0x00, 0x00, 0x00, 0x49, 0x45, 0x4E, 0x44, 0xAE, 0x42, 0x60, 0x82,
+                        ])],
+                    },
+                },
+                ByteSequence {
+                    position_type: PositionType::Variable,
+                    offset: None,
+                    regex: Regex {
+                        tokens: &[Token::Literal(&[
+                            0x66, 0x63, 0x54, 0x4C, 0x00, 0x00, 0x00, 0x00,
                         ])],
                     },
                 },

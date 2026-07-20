@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105866268: FileType = FileType {
     file_format: &FileFormat {
         id: 105_866_268,
         source_type: SourceType::Wikidata,
-        name: "First Choice Pubblication",
+        name: "First Choice Publication",
         extensions: &["pub"],
         media_types: &["application/octet-stream"],
         signatures: &[Signature {

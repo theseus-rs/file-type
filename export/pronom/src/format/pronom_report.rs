@@ -11,13 +11,12 @@ pub(crate) struct PronomReport {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use anyhow::Result;
     use indoc::indoc;
     use quick_xml::de::from_str;
 
     #[expect(clippy::too_many_lines)]
     #[test]
-    fn test_deserialize() -> Result<()> {
+    fn test_deserialize() {
         let xml = indoc! {r#"
             <?xml version="1.0" encoding="utf-8"?>
             <PRONOM-Report xmlns="http://pronom.nationalarchives.gov.uk">
@@ -241,10 +240,11 @@ mod tests {
               </report_format_detail>
             </PRONOM-Report>
         "#};
-        let report: PronomReport = from_str(xml)?;
+        let report = from_str::<PronomReport>(xml);
+        assert!(report.is_ok());
+        let report = report.unwrap();
         let detail = report.detail;
         let file_format = detail.file_format;
         assert_eq!(file_format.id, 766);
-        Ok(())
     }
 }

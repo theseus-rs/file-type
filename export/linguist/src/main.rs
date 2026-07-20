@@ -1,4 +1,4 @@
-use anyhow::Result;
+use anyhow::{Context, Result};
 use file_type::format::{FileFormat, SourceType};
 use reqwest::blocking::Client;
 use serde_json::Value;
@@ -30,7 +30,7 @@ fn main() -> Result<()> {
 }
 
 fn initialize_tracing() {
-    let format = tracing_subscriber::fmt::format()
+    let format = fmt::format()
         .with_level(true)
         .with_target(false)
         .with_thread_names(true)
@@ -41,7 +41,7 @@ fn initialize_tracing() {
         .with_env_var("LINGUIST_LOG")
         .from_env_lossy();
 
-    tracing_subscriber::fmt()
+    fmt()
         .with_env_filter(env_filter)
         .fmt_fields(fmt::format::DefaultFields::new())
         .event_format(format)
@@ -73,31 +73,33 @@ fn execute(dry_run: bool) -> Result<()> {
 }
 
 fn convert_yaml_to_json<S: AsRef<str>>(yaml: S) -> Result<Value> {
-    let json: Value = serde_yaml::from_str(yaml.as_ref())?;
+    let json: Value = serde_saphyr::from_str(yaml.as_ref())?;
     Ok(json)
 }
 
 fn parse_languages<S: AsRef<str>>(yaml: S) -> Result<Vec<Language>> {
     let mut languages = Vec::new();
     let json = convert_yaml_to_json(yaml)?;
-    let language_map = json.as_object().expect("Invalid JSON");
+    let language_map = json.as_object().context("Invalid JSON")?;
 
     for (name, language) in language_map {
-        let language = language.as_object().expect("Invalid language map");
-        let id = language.get("language_id").expect("Invalid language id");
-        let id = id.as_u64().expect("Invalid language id");
+        let language = language.as_object().context("Invalid language map")?;
+        let id = language
+            .get("language_id")
+            .and_then(Value::as_u64)
+            .context("Invalid language id")?;
         let mime_type = match language.get("codemirror_mime_type") {
-            Some(mime_type) => mime_type.as_str().expect("Invalid mime type").to_string(),
+            Some(mime_type) => mime_type.as_str().context("Invalid mime type")?.to_string(),
             None => String::new(),
         };
         let mut extensions = match language.get("extensions") {
             Some(Value::Array(extensions)) => extensions
                 .iter()
                 .map(|extension| {
-                    let extension = extension.as_str().expect("Invalid extension").to_string();
-                    extension.trim_start_matches('.').to_string()
+                    let extension = extension.as_str().context("Invalid extension")?;
+                    Ok(extension.trim_start_matches('.').to_string())
                 })
-                .collect(),
+                .collect::<Result<Vec<_>>>()?,
             _ => Vec::new(),
         };
         extensions.sort();

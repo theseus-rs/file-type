@@ -6,7 +6,7 @@ pub(crate) const WIKIDATA_71837258: FileType = FileType {
         id: 71_837_258,
         source_type: SourceType::Wikidata,
         name: "CorelDraw Compressed Drawing file format",
-        extensions: &["cdx"],
+        extensions: &["cdx", "cjw"],
         media_types: &[],
         signatures: &[],
         related_formats: &[],

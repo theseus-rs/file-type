@@ -8,6 +8,10 @@ use core::str::from_utf8;
 
 pub const UNIDENTIFIED_KEY: u64 = 0x42;
 
+fn slice_at(bytes: &[u8], start: usize, length: usize) -> Option<&[u8]> {
+    bytes.get(start..)?.get(..length)
+}
+
 /// A token to match against a byte stream
 #[derive(Clone, Debug, Eq, PartialEq)]
 pub enum Token {
@@ -172,8 +176,8 @@ impl Regex {
     #[must_use]
     pub fn key_from_bytes(bytes: &[u8]) -> u64 {
         let mut array = [0u8; 8];
-        for (i, &byte) in bytes.iter().take(8).enumerate() {
-            array[i] = byte;
+        for (slot, byte) in array.iter_mut().zip(bytes.iter()) {
+            *slot = *byte;
         }
         u64::from_be_bytes(array)
     }
@@ -195,18 +199,20 @@ impl Regex {
     fn tokenize(bytes: &[u8], tokens: &mut Vec<Token>) -> Result<()> {
         let mut byte_index = 0;
 
-        while byte_index < bytes.len() {
-            match bytes[byte_index] {
+        while let Some(&byte) = bytes.get(byte_index) {
+            match byte {
                 b'(' => {
                     let start = byte_index + 1;
-                    let end = bytes[start..]
-                        .iter()
+                    let mut remaining = bytes.iter().skip(start);
+                    let end = remaining
                         .position(|b| *b == b')')
                         .map(|pos| start + pos)
                         .ok_or(Error::new(format!(
                             "Invalid pattern [{byte_index}]; expected ')' after '('"
                         )))?;
-                    let values = bytes[start..end]
+                    let values = bytes
+                        .get(start..end)
+                        .ok_or_else(|| Error::new("Invalid alternatives range"))?
                         .split(|byte| *byte == b'|')
                         .map(<[u8]>::to_vec)
                         .collect::<Vec<Vec<u8>>>();
@@ -222,17 +228,23 @@ impl Regex {
                 b'*' => tokens.push(Token::AnyWildcard),
                 b'0'..=b'9' | b'A'..=b'F' | b'a'..=b'f' => {
                     let start = byte_index;
-                    let end = bytes[start..]
+                    let remaining = bytes
+                        .get(start..)
+                        .ok_or_else(|| Error::new("Invalid literal range"))?;
+                    let end = remaining
                         .iter()
                         .position(|b| !b.is_ascii_hexdigit())
                         .map_or(bytes.len(), |pos| start + pos);
                     byte_index = end - 1;
-                    let literal_bytes = hex_to_bytes(&bytes[start..end]);
+                    let literal = bytes
+                        .get(start..end)
+                        .ok_or_else(|| Error::new("Invalid literal range"))?;
+                    let literal_bytes = hex_to_bytes(literal);
                     tokens.push(Token::Literal(literal_bytes));
                 }
                 b'[' => {
                     let mut start = byte_index + 1;
-                    let negated = if bytes[start] == b'!' {
+                    let negated = if bytes.get(start).copied() == Some(b'!') {
                         start += 1;
                         true
                     } else {
@@ -242,7 +254,8 @@ impl Regex {
                     let mut end = 0;
                     let mut separator = 0;
 
-                    for (index, byte) in bytes[start..].iter().enumerate() {
+                    let remaining = bytes.iter().skip(start);
+                    for (index, byte) in remaining.enumerate() {
                         if *byte == b':' {
                             separator = index;
                         } else if *byte == b']' {
@@ -256,12 +269,18 @@ impl Regex {
                             "Invalid pattern [{byte_index}]; expected ']' after '['"
                         )));
                     }
-                    let slice = &bytes[start..end];
+                    let slice = bytes
+                        .get(start..end)
+                        .ok_or_else(|| Error::new("Invalid range bounds"))?;
 
                     if negated {
                         if separator > 0 {
-                            let start_range = &slice[0..separator];
-                            let end_range = &slice[separator + 1..];
+                            let start_range = slice
+                                .get(..separator)
+                                .ok_or_else(|| Error::new("Invalid range start"))?;
+                            let end_range = slice
+                                .get(separator + 1..)
+                                .ok_or_else(|| Error::new("Invalid range end"))?;
                             let start_range = hex_to_bytes(start_range);
                             let end_range = hex_to_bytes(end_range);
                             tokens.push(Token::NotRange(start_range, end_range));
@@ -270,8 +289,12 @@ impl Regex {
                             tokens.push(Token::NotLiteral(literal_bytes));
                         }
                     } else if separator > 0 {
-                        let start_range = &slice[0..separator];
-                        let end_range = &slice[separator + 1..];
+                        let start_range = slice
+                            .get(..separator)
+                            .ok_or_else(|| Error::new("Invalid range start"))?;
+                        let end_range = slice
+                            .get(separator + 1..)
+                            .ok_or_else(|| Error::new("Invalid range end"))?;
                         let start_range = hex_to_bytes(start_range);
                         let end_range = hex_to_bytes(end_range);
                         tokens.push(Token::Range(start_range, end_range));
@@ -283,7 +306,7 @@ impl Regex {
                 }
                 b'?' => {
                     byte_index += 1;
-                    if byte_index >= bytes.len() || bytes[byte_index] != b'?' {
+                    if bytes.get(byte_index).copied() != Some(b'?') {
                         return Err(Error::new(format!(
                             "Invalid pattern [{byte_index}]; expected '?' after '?'"
                         )));
@@ -295,7 +318,8 @@ impl Regex {
                     let mut end = 0;
                     let mut separator = 0;
 
-                    for (index, byte) in bytes[start..].iter().enumerate() {
+                    let remaining = bytes.iter().skip(start);
+                    for (index, byte) in remaining.enumerate() {
                         if *byte == b'-' {
                             separator = index;
                         } else if *byte == b'}' {
@@ -309,11 +333,17 @@ impl Regex {
                             "Invalid pattern [{byte_index}]; expected '}}' after '{{'"
                         )));
                     }
-                    let slice = &bytes[start..end];
+                    let slice = bytes
+                        .get(start..end)
+                        .ok_or_else(|| Error::new("Invalid wildcard bounds"))?;
 
                     if separator > 0 {
-                        let min_range = &slice[0..separator];
-                        let max_range = &slice[separator + 1..];
+                        let min_range = slice
+                            .get(..separator)
+                            .ok_or_else(|| Error::new("Invalid wildcard minimum"))?;
+                        let max_range = slice
+                            .get(separator + 1..)
+                            .ok_or_else(|| Error::new("Invalid wildcard maximum"))?;
                         let min_value =
                             from_utf8(min_range).map_err(|error| Error::new(error.to_string()))?;
                         let max_value =
@@ -338,8 +368,8 @@ impl Regex {
                             tokens.push(Token::WildcardCountRange(min_count, max_count));
                         }
                     } else {
-                        let value = from_utf8(&bytes[start..end])
-                            .map_err(|error| Error::new(error.to_string()))?;
+                        let value =
+                            from_utf8(slice).map_err(|error| Error::new(error.to_string()))?;
                         let count = value
                             .parse()
                             .map_err(|_| {
@@ -352,8 +382,7 @@ impl Regex {
                 }
                 _ => {
                     return Err(Error::new(format!(
-                        "Invalid pattern [{byte_index}]; unexpected character [{}]",
-                        bytes[byte_index]
+                        "Invalid pattern [{byte_index}]; unexpected character [{byte}]"
                     )));
                 }
             }
@@ -401,61 +430,60 @@ impl Regex {
                     }
                 }
                 Token::AnyWildcard => {
-                    if token_index == tokens.len() - 1 {
+                    if token_index + 1 == tokens.len() {
                         return (true, haystack_index);
                     }
-                    let remaining_tokens = &tokens[token_index + 1..];
-                    while haystack_index < haystack.len() {
+                    let (_, remaining_tokens) = tokens.split_at(token_index + 1);
+                    loop {
                         let (matched, new_haystack_index) =
                             Self::tokens_match_at(remaining_tokens, haystack, haystack_index);
                         if matched {
                             return (true, new_haystack_index);
+                        }
+                        if haystack_index >= haystack.len() {
+                            break;
                         }
                         haystack_index += 1;
                     }
                     return (false, 0);
                 }
                 Token::Literal(bytes) => {
-                    if haystack_index + bytes.len() > haystack.len() {
+                    let Some(data_slice) = slice_at(haystack, haystack_index, bytes.len()) else {
                         return (false, 0);
-                    }
-                    let data_slice = &haystack[haystack_index..haystack_index + bytes.len()];
+                    };
                     if data_slice != *bytes {
                         return (false, 0);
                     }
                     haystack_index += bytes.len();
                 }
                 Token::NotLiteral(bytes) => {
-                    if haystack_index + bytes.len() > haystack.len() {
+                    let Some(data_slice) = slice_at(haystack, haystack_index, bytes.len()) else {
                         return (false, 0);
-                    }
-                    let data_slice = &haystack[haystack_index..haystack_index + bytes.len()];
+                    };
                     if data_slice == *bytes {
                         return (false, 0);
                     }
                     haystack_index += bytes.len();
                 }
                 Token::Range(start, end) => {
-                    if haystack_index >= haystack.len() {
-                        return (false, 0);
-                    }
                     let value_length = start.len();
-                    let value = &haystack[haystack_index..haystack_index + value_length];
+                    let Some(value) = slice_at(haystack, haystack_index, value_length) else {
+                        return (false, 0);
+                    };
                     if value.cmp(start).is_lt() || value.cmp(end).is_gt() {
                         return (false, 0);
                     }
-                    haystack_index += 1;
+                    haystack_index += value_length;
                 }
                 Token::NotRange(start, end) => {
-                    if haystack_index >= haystack.len() {
-                        return (false, 0);
-                    }
                     let value_length = start.len();
-                    let value = &haystack[haystack_index..haystack_index + value_length];
+                    let Some(value) = slice_at(haystack, haystack_index, value_length) else {
+                        return (false, 0);
+                    };
                     if value.cmp(start).is_ge() && value.cmp(end).is_le() {
                         return (false, 0);
                     }
-                    haystack_index += 1;
+                    haystack_index += value_length;
                 }
                 Token::SingleWildcard => {
                     if haystack_index >= haystack.len() {
@@ -464,29 +492,40 @@ impl Regex {
                     haystack_index += 1;
                 }
                 Token::WildcardCount(count) => {
-                    if haystack_index + count > haystack.len() {
+                    let Some(end) = haystack_index.checked_add(*count) else {
+                        return (false, 0);
+                    };
+                    if end > haystack.len() {
                         return (false, 0);
                     }
-                    haystack_index += count;
+                    haystack_index = end;
                 }
                 Token::WildcardCountRange(min_count, max_count) => {
                     let data_length = haystack.len();
-                    if data_length < haystack_index + *min_count {
+                    let range_start = haystack_index;
+                    let Some(min_index) = range_start.checked_add(*min_count) else {
+                        return (false, 0);
+                    };
+                    if data_length < min_index {
                         return (false, 0);
                     }
-                    haystack_index += *min_count;
+                    haystack_index = min_index;
                     let max_index = if *max_count == usize::MAX {
                         data_length
                     } else {
-                        haystack_index + *max_count
+                        range_start
+                            .checked_add(*max_count)
+                            .map_or(data_length, |index| index.min(data_length))
                     };
-                    let remaining_tokens = &tokens[token_index + 1..];
-                    while haystack_index < max_index {
+                    let (_, remaining_tokens) = tokens.split_at(token_index + 1);
+                    loop {
                         let (matched, matched_haystack_index) =
                             Self::tokens_match_at(remaining_tokens, haystack, haystack_index);
                         if matched {
-                            haystack_index += matched_haystack_index;
-                            return (true, haystack_index);
+                            return (true, matched_haystack_index);
+                        }
+                        if haystack_index >= max_index {
+                            break;
                         }
                         haystack_index += 1;
                     }
@@ -608,27 +647,32 @@ mod tests {
     }
 
     #[test]
-    fn test_regex_key() -> Result<()> {
-        assert_eq!(Regex::new("")?.key(), UNIDENTIFIED_KEY);
-        assert_eq!(Regex::new("00")?.key(), 0);
-        assert_eq!(Regex::new("0000000000000001")?.key(), 1);
-        assert_eq!(Regex::new("01")?.key(), 72_057_594_037_927_936);
-        assert_eq!(Regex::new("00000000000000FF")?.key(), u64::from(u8::MAX));
-        assert_eq!(Regex::new("FF")?.key(), 18_374_686_479_671_623_680);
-        assert_eq!(Regex::new("000000000000FFFF")?.key(), u64::from(u16::MAX));
-        assert_eq!(Regex::new("FFFF")?.key(), 18_446_462_598_732_840_960);
-        assert_eq!(Regex::new("00000000FFFFFFFF")?.key(), u64::from(u32::MAX));
-        assert_eq!(Regex::new("FFFFFFFF")?.key(), 18_446_744_069_414_584_320);
-        assert_eq!(Regex::new("FFFFFFFFFFFFFFFF")?.key(), u64::MAX);
-        Ok(())
+    fn test_regex_key() {
+        let cases = [
+            ("", UNIDENTIFIED_KEY),
+            ("00", 0),
+            ("0000000000000001", 1),
+            ("01", 72_057_594_037_927_936),
+            ("00000000000000FF", u64::from(u8::MAX)),
+            ("FF", 18_374_686_479_671_623_680),
+            ("000000000000FFFF", u64::from(u16::MAX)),
+            ("FFFF", 18_446_462_598_732_840_960),
+            ("00000000FFFFFFFF", u64::from(u32::MAX)),
+            ("FFFFFFFF", 18_446_744_069_414_584_320),
+            ("FFFFFFFFFFFFFFFF", u64::MAX),
+        ];
+        for (pattern, expected) in cases {
+            assert_eq!(Regex::new(pattern).map(|regex| regex.key()), Ok(expected));
+        }
     }
 
     #[test]
-    fn test_regex_display_all_tokens() -> Result<()> {
+    fn test_regex_display_all_tokens() {
         let pattern = "(0102|0304|[05:06])*010203[!01][!00:FF][00:FF]??{1}{1-2}{42-*}";
-        let regex = Regex::new(pattern)?;
-        assert_eq!(regex.to_string(), pattern);
-        Ok(())
+        assert_eq!(
+            Regex::new(pattern).map(|regex| regex.to_string()),
+            Ok(pattern.to_string())
+        );
     }
 
     fn matches_pattern(pattern: &str, data: &str) -> Result<bool> {
@@ -638,181 +682,195 @@ mod tests {
         Ok(result)
     }
 
+    fn assert_pattern(pattern: &str, data: &str, expected: bool) {
+        assert!(matches!(
+            matches_pattern(pattern, data),
+            Ok(actual) if actual == expected
+        ));
+    }
+
     #[test]
-    fn test_match_any() -> Result<()> {
-        assert!(matches_pattern("(00)", "00")?);
-        assert!(matches_pattern("(00|01)02", "0102")?);
-        assert!(matches_pattern("01(00|02)", "0102")?);
-        assert!(matches_pattern("0102(03|04)", "010203")?);
-        assert!(matches_pattern("0102(03|FF)", "01020304")?);
-        assert!(matches_pattern("(01|02|03|FF)", "FF")?);
-        assert!(matches_pattern("(010203|FF)", "010203AA")?);
-        assert!(matches_pattern("(010203|FF)", "FFAA")?);
-        assert!(matches_pattern("(01[00:33]|FF)", "0102AA")?);
-        assert!(!matches_pattern("(00|01)", "")?);
-        assert!(!matches_pattern("(00|01)", "FF")?);
-        assert!(!matches_pattern("01(02|03)", "01FF")?);
-        assert!(!matches_pattern("01(02|03)03", "01FF03")?);
-        assert!(!matches_pattern("0102(03|04|05)", "0102FF")?);
-        assert!(!matches_pattern("(01[00:33]|00)", "01FFAA")?);
+    fn test_match_any() {
+        assert_pattern("(00)", "00", true);
+        assert_pattern("(00|01)02", "0102", true);
+        assert_pattern("01(00|02)", "0102", true);
+        assert_pattern("0102(03|04)", "010203", true);
+        assert_pattern("0102(03|FF)", "01020304", true);
+        assert_pattern("(01|02|03|FF)", "FF", true);
+        assert_pattern("(010203|FF)", "010203AA", true);
+        assert_pattern("(010203|FF)", "FFAA", true);
+        assert_pattern("(01[00:33]|FF)", "0102AA", true);
+        assert_pattern("(00|01)", "", false);
+        assert_pattern("(00|01)", "FF", false);
+        assert_pattern("01(02|03)", "01FF", false);
+        assert_pattern("01(02|03)03", "01FF03", false);
+        assert_pattern("0102(03|04|05)", "0102FF", false);
+        assert_pattern("(01[00:33]|00)", "01FFAA", false);
 
         // PRONOM examples
-        assert!(matches_pattern("0E(FF|FE)17", "0EFF17")?);
-        assert!(matches_pattern("0E(FF|FE)17", "0EFE17")?);
-        Ok(())
+        assert_pattern("0E(FF|FE)17", "0EFF17", true);
+        assert_pattern("0E(FF|FE)17", "0EFE17", true);
     }
 
     #[test]
-    fn test_match_any_wildcard() -> Result<()> {
-        assert!(matches_pattern("*", "")?);
-        assert!(matches_pattern("*", "00")?);
-        assert!(matches_pattern("*02", "0102")?);
-        assert!(matches_pattern("01*", "0102")?);
-        assert!(matches_pattern("01*02", "0102")?);
-        assert!(matches_pattern("0102*", "010203")?);
-        assert!(matches_pattern("01*04", "01020304")?);
-        assert!(!matches_pattern("*01", "FF")?);
-        assert!(!matches_pattern("01*03", "0102FF")?);
+    fn test_match_any_wildcard() {
+        assert_pattern("*", "", true);
+        assert_pattern("*", "00", true);
+        assert_pattern("*02", "0102", true);
+        assert_pattern("01*", "0102", true);
+        assert_pattern("01*02", "0102", true);
+        assert_pattern("0102*", "010203", true);
+        assert_pattern("01*04", "01020304", true);
+        assert_pattern("*01", "FF", false);
+        assert_pattern("01*03", "0102FF", false);
 
         // PRONOM examples
-        assert!(matches_pattern("0AFF*FE", "0AFF6CFE")?);
-        assert!(matches_pattern("0AFF*FE", "0AFF11FE")?);
-        Ok(())
+        assert_pattern("0AFF*FE", "0AFF6CFE", true);
+        assert_pattern("0AFF*FE", "0AFF11FE", true);
     }
 
     #[test]
-    fn test_match_literal() -> Result<()> {
-        assert!(matches_pattern("00", "00")?);
-        assert!(matches_pattern("0102", "0102")?);
-        assert!(matches_pattern("010203", "010203")?);
-        assert!(matches_pattern("010203", "01020304")?);
-        assert!(!matches_pattern("00", "")?);
-        assert!(!matches_pattern("00", "FF")?);
-        assert!(!matches_pattern("0102", "01FF")?);
-        assert!(!matches_pattern("010203", "01FF03")?);
-        assert!(!matches_pattern("010203", "0102FF")?);
-        Ok(())
+    fn test_match_literal() {
+        assert_pattern("00", "00", true);
+        assert_pattern("0102", "0102", true);
+        assert_pattern("010203", "010203", true);
+        assert_pattern("010203", "01020304", true);
+        assert_pattern("00", "", false);
+        assert_pattern("00", "FF", false);
+        assert_pattern("0102", "01FF", false);
+        assert_pattern("010203", "01FF03", false);
+        assert_pattern("010203", "0102FF", false);
     }
 
     #[test]
-    fn test_match_not_literal_sequence() -> Result<()> {
-        assert!(matches_pattern("[!00]", "FF")?);
-        assert!(matches_pattern("[!00]02", "0102")?);
-        assert!(matches_pattern("01[!00]", "01FF02")?);
-        assert!(matches_pattern("0102[!00]", "01020304")?);
-        assert!(matches_pattern("01[!00]03", "01FF03")?);
-        assert!(matches_pattern("0102[!00]04", "01020304")?);
-        assert!(!matches_pattern("[!00]", "")?);
-        assert!(!matches_pattern("[!00]", "00")?);
-        assert!(!matches_pattern("[!01]02", "01FF02")?);
-        assert!(!matches_pattern("[!01]02", "01FF02")?);
-        assert!(!matches_pattern("[!01]02", "01FF02")?);
-        assert!(!matches_pattern("[!010203]FF", "010203FF")?);
-        Ok(())
+    fn test_match_not_literal_sequence() {
+        assert_pattern("[!00]", "FF", true);
+        assert_pattern("[!00]02", "0102", true);
+        assert_pattern("01[!00]", "01FF02", true);
+        assert_pattern("0102[!00]", "01020304", true);
+        assert_pattern("01[!00]03", "01FF03", true);
+        assert_pattern("0102[!00]04", "01020304", true);
+        assert_pattern("[!00]", "", false);
+        assert_pattern("[!00]", "00", false);
+        assert_pattern("[!01]02", "01FF02", false);
+        assert_pattern("[!01]02", "01FF02", false);
+        assert_pattern("[!01]02", "01FF02", false);
+        assert_pattern("[!010203]FF", "010203FF", false);
     }
 
     #[test]
-    fn test_match_not_range() -> Result<()> {
-        assert!(matches_pattern("[!AA:FF]", "01")?);
-        assert!(matches_pattern("01[!AA:FF]", "0102")?);
-        assert!(matches_pattern("[!AA:FF]01", "0101")?);
-        assert!(matches_pattern("[!AA:FF]02", "010203")?);
-        assert!(!matches_pattern("[!00:FF]", "")?);
-        assert!(!matches_pattern("[!00:FF]", "00")?);
-        assert!(!matches_pattern("[!00:FF]02", "0102")?);
-        assert!(!matches_pattern("01[!02:03]", "0102")?);
-        assert!(!matches_pattern("01[!01:02]", "0102")?);
-        assert!(!matches_pattern("0102[!00:FF]", "010203")?);
-        assert!(!matches_pattern("01[!00:FF]03", "010203")?);
-        assert!(!matches_pattern("0102[!00:FF]04", "01020304")?);
+    fn test_match_not_range() {
+        assert_pattern("[!AA:FF]", "01", true);
+        assert_pattern("01[!AA:FF]", "0102", true);
+        assert_pattern("[!AA:FF]01", "0101", true);
+        assert_pattern("[!AA:FF]02", "010203", true);
+        assert_pattern("[!00:FF]", "", false);
+        assert_pattern("[!00:FF]", "00", false);
+        assert_pattern("[!00:FF]02", "0102", false);
+        assert_pattern("01[!02:03]", "0102", false);
+        assert_pattern("01[!01:02]", "0102", false);
+        assert_pattern("0102[!00:FF]", "010203", false);
+        assert_pattern("01[!00:FF]03", "010203", false);
+        assert_pattern("0102[!00:FF]04", "01020304", false);
 
         // PRONOM examples
-        assert!(matches_pattern("FF[!01:02]FF", "FF00FF")?);
-        assert!(matches_pattern("FF[!01:02]FF", "FF03FF")?);
-        assert!(!matches_pattern("FF[!01:02]FF", "FF01FF")?);
-        assert!(!matches_pattern("FF[!01:02]FF", "FF02FF")?);
-        Ok(())
+        assert_pattern("FF[!01:02]FF", "FF00FF", true);
+        assert_pattern("FF[!01:02]FF", "FF03FF", true);
+        assert_pattern("FF[!01:02]FF", "FF01FF", false);
+        assert_pattern("FF[!01:02]FF", "FF02FF", false);
     }
 
     #[test]
-    fn test_match_range() -> Result<()> {
-        assert!(matches_pattern("[00:FF]", "00")?);
-        assert!(matches_pattern("[00:FF]02", "0102")?);
-        assert!(matches_pattern("01[02:03]", "0102")?);
-        assert!(matches_pattern("01[01:02]", "0102")?);
-        assert!(matches_pattern("0102[00:FF]", "010203")?);
-        assert!(matches_pattern("01[00:FF]03", "010203")?);
-        assert!(matches_pattern("0102[00:FF]04", "01020304")?);
-        assert!(!matches_pattern("[00:FF]", "")?);
-        assert!(!matches_pattern("[10:FF]", "01")?);
-        assert!(!matches_pattern("01[00:FF]", "01")?);
-        assert!(!matches_pattern("[00:FF]01", "01")?);
-        assert!(!matches_pattern("[00:FF]01", "FF")?);
+    fn test_match_range() {
+        assert_pattern("[00:FF]", "00", true);
+        assert_pattern("[00:FF]02", "0102", true);
+        assert_pattern("01[02:03]", "0102", true);
+        assert_pattern("01[01:02]", "0102", true);
+        assert_pattern("0102[00:FF]", "010203", true);
+        assert_pattern("01[00:FF]03", "010203", true);
+        assert_pattern("0102[00:FF]04", "01020304", true);
+        assert_pattern("[00:FF]", "", false);
+        assert_pattern("[10:FF]", "01", false);
+        assert_pattern("01[00:FF]", "01", false);
+        assert_pattern("[00:FF]01", "01", false);
+        assert_pattern("[00:FF]01", "FF", false);
 
         // PRONOM examples
-        assert!(matches_pattern("FF[09:0B]FF", "FF09FF")?);
-        assert!(matches_pattern("FF[09:0B]FF", "FF0AFF")?);
-        assert!(matches_pattern("FF[09:0B]FF", "FF0BFF")?);
-        Ok(())
+        assert_pattern("FF[09:0B]FF", "FF09FF", true);
+        assert_pattern("FF[09:0B]FF", "FF0AFF", true);
+        assert_pattern("FF[09:0B]FF", "FF0BFF", true);
     }
 
     #[test]
-    fn test_match_single_wildcard() -> Result<()> {
-        assert!(matches_pattern("??", "00")?);
-        assert!(matches_pattern("??02", "0102")?);
-        assert!(matches_pattern("01??", "0102")?);
-        assert!(matches_pattern("0102??", "010203")?);
-        assert!(matches_pattern("??0203", "01020304")?);
-        assert!(!matches_pattern("??", "")?);
-        assert!(!matches_pattern("00??", "FF")?);
+    fn test_match_single_wildcard() {
+        assert_pattern("??", "00", true);
+        assert_pattern("??02", "0102", true);
+        assert_pattern("01??", "0102", true);
+        assert_pattern("0102??", "010203", true);
+        assert_pattern("??0203", "01020304", true);
+        assert_pattern("??", "", false);
+        assert_pattern("00??", "FF", false);
 
         // PRONOM examples
-        assert!(matches_pattern("0AFF??FE", "0AFF6CFE")?);
-        assert!(matches_pattern("0AFF??FE", "0AFF11FE")?);
-        Ok(())
+        assert_pattern("0AFF??FE", "0AFF6CFE", true);
+        assert_pattern("0AFF??FE", "0AFF11FE", true);
     }
 
     #[test]
-    fn test_match_wildcard_count() -> Result<()> {
-        assert!(matches_pattern("{1}", "00")?);
-        assert!(matches_pattern("{1}02", "0102")?);
-        assert!(matches_pattern("{2}", "0102")?);
-        assert!(matches_pattern("01{1}", "0102")?);
-        assert!(matches_pattern("01{1}03", "010203")?);
-        assert!(matches_pattern("0102{1}", "010203")?);
-        assert!(matches_pattern("01{2}04", "01020304")?);
-        assert!(!matches_pattern("{1}", "")?);
-        assert!(!matches_pattern("{2}", "01")?);
-        assert!(!matches_pattern("01{1}", "01")?);
-        assert!(!matches_pattern("{1}01", "01")?);
+    fn test_match_wildcard_count() {
+        assert_pattern("{1}", "00", true);
+        assert_pattern("{1}02", "0102", true);
+        assert_pattern("{2}", "0102", true);
+        assert_pattern("01{1}", "0102", true);
+        assert_pattern("01{1}03", "010203", true);
+        assert_pattern("0102{1}", "010203", true);
+        assert_pattern("01{2}04", "01020304", true);
+        assert_pattern("{1}", "", false);
+        assert_pattern("{2}", "01", false);
+        assert_pattern("01{1}", "01", false);
+        assert_pattern("{1}01", "01", false);
 
         // PRONOM examples
-        assert!(matches_pattern("1C20{2}4E12", "1C20FF154E12")?);
-        Ok(())
+        assert_pattern("1C20{2}4E12", "1C20FF154E12", true);
     }
 
     #[test]
-    fn test_match_wildcard_count_range() -> Result<()> {
-        assert!(matches_pattern("{1-2}", "00")?);
-        assert!(matches_pattern("{1-2}02", "0102")?);
-        assert!(matches_pattern("{1-2}03", "010203")?);
-        assert!(matches_pattern("{2-*}", "01020304")?);
-        assert!(matches_pattern("01{1-2}", "0102")?);
-        assert!(matches_pattern("01{1-2}03", "010203")?);
-        assert!(matches_pattern("0102{1-2}", "010203")?);
-        assert!(matches_pattern("01{1-*}04", "01020304")?);
-        assert!(matches_pattern("01{2-*}04", "01020304")?);
-        assert!(!matches_pattern("{1-2}", "")?);
-        assert!(!matches_pattern("{1-2}01", "01")?);
-        assert!(!matches_pattern("01{1-2}", "01")?);
-        assert!(!matches_pattern("01{1-2}02", "0102030405")?);
+    fn test_match_wildcard_count_range() {
+        assert_pattern("{1-2}", "00", true);
+        assert_pattern("{1-2}02", "0102", true);
+        assert_pattern("{1-2}03", "010203", true);
+        assert_pattern("{2-*}", "01020304", true);
+        assert_pattern("01{1-2}", "0102", true);
+        assert_pattern("01{1-2}03", "010203", true);
+        assert_pattern("0102{1-2}", "010203", true);
+        assert_pattern("01{1-*}04", "01020304", true);
+        assert_pattern("01{2-*}04", "01020304", true);
+        assert_pattern("{1-2}", "", false);
+        assert_pattern("{1-2}01", "01", false);
+        assert_pattern("01{1-2}", "01", false);
+        assert_pattern("01{1-2}02", "0102030405", false);
 
         // PRONOM examples
-        assert!(matches_pattern("03{1-2}4D", "033C4D")?);
-        assert!(matches_pattern("03{1-2}4D", "033C884D")?);
-        assert!(matches_pattern("03{2-*}4D", "033C884D")?);
-        assert!(matches_pattern("03{2-*}4D", "033C883F4D")?);
-        Ok(())
+        assert_pattern("03{1-2}4D", "033C4D", true);
+        assert_pattern("03{1-2}4D", "033C884D", true);
+        assert_pattern("03{2-*}4D", "033C884D", true);
+        assert_pattern("03{2-*}4D", "033C883F4D", true);
+    }
+
+    #[test]
+    fn test_match_wildcard_count_overflow() {
+        let wildcard_count = Regex {
+            tokens: &[Token::SingleWildcard, Token::WildcardCount(usize::MAX)],
+        };
+        assert!(!wildcard_count.is_match(&[0]));
+
+        let wildcard_range = Regex {
+            tokens: &[
+                Token::SingleWildcard,
+                Token::WildcardCountRange(usize::MAX, usize::MAX),
+            ],
+        };
+        assert!(!wildcard_range.is_match(&[0]));
     }
 
     #[test]

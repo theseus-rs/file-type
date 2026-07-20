@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_260180: FileType = FileType {
     file_format: &FileFormat {
         id: 260_180,
         source_type: SourceType::Wikidata,
-        name: "OpenType Font",
+        name: "Q260180",
         extensions: &["otc", "otf", "ttc", "ttf"],
         media_types: &["font/otf"],
         signatures: &[Signature {

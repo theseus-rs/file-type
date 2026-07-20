@@ -60,14 +60,18 @@ const SPARQL_URL: &str = "https://query.wikidata.org/sparql?query=SELECT%20DISTI
 
 /// Downloads Wikidata file format data and saves it to the `file_type` crate data directory.
 fn main() -> Result<()> {
-    initialize_tracing();
     let dry_run = env::var("DRY_RUN").is_ok();
-    execute(dry_run)?;
+    run(SPARQL_URL, dry_run)?;
     Ok(())
 }
 
+fn run(sparql_url: &str, dry_run: bool) -> Result<()> {
+    initialize_tracing();
+    execute(sparql_url, dry_run)
+}
+
 fn initialize_tracing() {
-    let format = tracing_subscriber::fmt::format()
+    let format = fmt::format()
         .with_level(true)
         .with_target(false)
         .with_thread_names(true)
@@ -78,14 +82,14 @@ fn initialize_tracing() {
         .with_env_var("WIKIDATA_LOG")
         .from_env_lossy();
 
-    tracing_subscriber::fmt()
+    fmt()
         .with_env_filter(env_filter)
         .fmt_fields(fmt::format::DefaultFields::new())
         .event_format(format)
         .init();
 }
 
-fn execute(dry_run: bool) -> Result<()> {
+fn execute(sparql_url: &str, dry_run: bool) -> Result<()> {
     let source_dir = PathBuf::from(CRATE_DIR)
         .join("..")
         .join("..")
@@ -96,7 +100,7 @@ fn execute(dry_run: bool) -> Result<()> {
 
     let client = Client::new();
     let response = client
-        .get(SPARQL_URL)
+        .get(sparql_url)
         .header("Accept", "application/json")
         .header("User-Agent", format!("{CRATE_NAME}/{CRATE_VERSION}"))
         .timeout(Duration::from_secs(30))
@@ -222,10 +226,67 @@ fn parse_json(json: &Value) -> Vec<FileFormat> {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use std::io::{Read, Write};
+    use std::net::TcpListener;
+    use std::thread;
+
+    fn sample_json() -> Value {
+        serde_json::json!({
+            "results": {
+                "bindings": [{
+                    "idExtension": { "value": "http://www.wikidata.org/entity/Q42" },
+                    "extension": { "value": "example" },
+                    "mediaType": { "value": "application/example" },
+                    "idExtensionLabel": { "value": "Example format" },
+                    "fileSignature": { "value": "89 50 4E 47" }
+                }, {
+                    "idExtension": { "value": "http://www.wikidata.org/entity/Q42" },
+                    "extension": { "value": "example2" },
+                    "mediaType": { "value": "application/example2" },
+                    "idExtensionLabel": { "value": "Example format" },
+                    "fileSignature": { "value": "invalid" }
+                }, {
+                    "idExtension": { "value": "invalid" },
+                    "idExtensionLabel": { "value": "No identifiers" }
+                }]
+            }
+        })
+    }
 
     #[test]
     fn test_main() {
-        let result = main();
+        let listener = TcpListener::bind("127.0.0.1:0").unwrap();
+        let address = listener.local_addr().unwrap();
+        let body = sample_json().to_string();
+        let server = thread::spawn(move || {
+            let (mut stream, _) = listener.accept().unwrap();
+            let mut request = [0; 1024];
+            let bytes_read = stream.read(&mut request).unwrap();
+            assert!(bytes_read > 0);
+            write!(
+                stream,
+                "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\nContent-Length: {}\r\nConnection: close\r\n\r\n{body}",
+                body.len()
+            )
+            .unwrap();
+        });
+
+        let result = run(&format!("http://{address}"), true);
+        server.join().unwrap();
         assert!(result.is_ok());
+    }
+
+    #[test]
+    fn test_parse_json() {
+        let file_formats = parse_json(&sample_json());
+
+        assert!(file_formats.first().is_some_and(|file_format| {
+            file_format.id == 42
+                && file_format.name == "Example format"
+                && file_format.extensions == ["example", "example2"]
+                && file_format.media_types == ["application/example", "application/example2"]
+                && file_format.signatures.len() == 1
+        }));
+        assert!(parse_json(&serde_json::json!({})).is_empty());
     }
 }

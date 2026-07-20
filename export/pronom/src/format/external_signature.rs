@@ -22,13 +22,11 @@ pub(crate) struct ExternalSignature {
 #[cfg(test)]
 mod test {
     use super::*;
-    use anyhow::Result;
+    use crate::format::test_utils::round_trip;
     use indoc::indoc;
-    use quick_xml::de::from_str;
-    use quick_xml::se::to_string;
 
     #[test]
-    fn test_serde() -> Result<()> {
+    fn test_serde() {
         let xml = indoc! {r"
           <ExternalSignature>
             <ExternalSignatureID>2421</ExternalSignatureID>
@@ -36,11 +34,9 @@ mod test {
             <SignatureType>File extension</SignatureType>
           </ExternalSignature>
         "};
-        let external_signature: ExternalSignature = from_str(xml)?;
-
-        // Test serialization
-        let xml = to_string(&external_signature)?;
-        let external_signature: ExternalSignature = from_str(xml.as_str())?;
+        let external_signature: anyhow::Result<ExternalSignature> = round_trip(xml);
+        assert!(external_signature.is_ok());
+        let external_signature = external_signature.unwrap();
 
         assert_eq!(external_signature.id, 2421);
         assert!(matches!(
@@ -48,6 +44,5 @@ mod test {
             SignatureType::FileExtension
         ));
         assert_eq!(external_signature.signature, "json");
-        Ok(())
     }
 }

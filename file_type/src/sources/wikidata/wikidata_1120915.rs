@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_1120915: FileType = FileType {
     file_format: &FileFormat {
         id: 1_120_915,
         source_type: SourceType::Wikidata,
-        name: "Compact Disc Audio track",
+        name: "Compact Disc Audio track file",
         extensions: &["cda"],
         media_types: &[],
         signatures: &[],

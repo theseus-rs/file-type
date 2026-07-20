@@ -24,7 +24,7 @@ const BASE_URL: &str = "https://www.nationalarchives.gov.uk/PRONOM/";
 fn main() -> Result<()> {
     initialize_tracing();
 
-    let mut max_fmt_puid = 2068;
+    let mut max_fmt_puid = 2104;
     if let Ok(fmt_puid) = env::var("MAX_FMT_PUID")
         && let Ok(fmt_puid) = fmt_puid.parse::<i64>()
     {
@@ -45,7 +45,7 @@ fn main() -> Result<()> {
 }
 
 fn initialize_tracing() {
-    let format = tracing_subscriber::fmt::format()
+    let format = fmt::format()
         .with_level(true)
         .with_target(false)
         .with_thread_names(true)
@@ -56,7 +56,7 @@ fn initialize_tracing() {
         .with_env_var("PRONOM_EXPORT_LOG")
         .from_env_lossy();
 
-    tracing_subscriber::fmt()
+    fmt()
         .with_env_filter(env_filter)
         .fmt_fields(fmt::format::DefaultFields::new())
         .event_format(format)

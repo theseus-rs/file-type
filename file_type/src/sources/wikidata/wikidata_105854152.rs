@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_105854152: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "HS2 zipped bitmap(s) archive",
         extensions: &["hsz"],
-        media_types: &["application/octet-stream"],
+        media_types: &[],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

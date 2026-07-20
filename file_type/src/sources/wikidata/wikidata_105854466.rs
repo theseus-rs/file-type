@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_105854466: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "asciicast (v2)",
         extensions: &["cast"],
-        media_types: &["application/octet-stream"],
+        media_types: &["application/x-asciicast"],
         signatures: &[],
         related_formats: &[],
     },

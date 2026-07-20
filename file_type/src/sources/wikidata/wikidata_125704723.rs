@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_125704723: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "OpenOffice.org 1.0 Master Document",
         extensions: &["sxg"],
-        media_types: &[],
+        media_types: &["application/vnd.sun.xml.writer.global"],
         signatures: &[],
         related_formats: &[],
     },

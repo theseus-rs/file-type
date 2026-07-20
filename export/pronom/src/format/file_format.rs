@@ -6,7 +6,7 @@ use crate::format::related_format::RelatedFormat;
 use serde::{Deserialize, Serialize};
 
 /// The types of file format
-#[allow(dead_code)]
+#[expect(dead_code, reason = "all PRONOM format variants must deserialize")]
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
 pub(crate) enum FormatTypes {
     Aggregate,
@@ -115,12 +115,11 @@ impl FileFormat {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::format::test_utils::round_trip;
     use indoc::indoc;
-    use quick_xml::de::from_str;
-    use quick_xml::se::to_string;
 
     #[test]
-    fn test_serde() -> anyhow::Result<()> {
+    fn test_serde() {
         let xml = indoc! {r"
             <FileFormat>
               <FormatID>664</FormatID>
@@ -197,11 +196,9 @@ mod tests {
               </RelatedFormat>
             </FileFormat>
         "};
-        let file_format: FileFormat = from_str(xml)?;
-
-        // Test serialization
-        let xml = to_string(&file_format)?;
-        let file_format: FileFormat = from_str(xml.as_str())?;
+        let file_format: anyhow::Result<FileFormat> = round_trip(xml);
+        assert!(file_format.is_ok());
+        let file_format = file_format.unwrap();
         assert_eq!(file_format.id, 664);
         assert_eq!(file_format.name, "Portable Network Graphics");
         assert_eq!(file_format.version, "1.0");
@@ -220,6 +217,5 @@ mod tests {
         assert_eq!(file_format.internal_signatures.len(), 1);
         assert_eq!(file_format.related_formats.len(), 4);
         assert_eq!(file_format.compression_types.len(), 0);
-        Ok(())
     }
 }

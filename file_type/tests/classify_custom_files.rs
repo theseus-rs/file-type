@@ -20,17 +20,19 @@ fn test_file(
     let data_dir = data_dir();
     let path = data_dir.join(file_name);
     let file_type = FileType::try_from_file(path)?;
-    assert_eq!(file_type.id(), expected_id);
-    assert_eq!(file_type.source_type(), expected_source_type);
+    if file_type.id() != expected_id {
+        return Err(anyhow::Error::msg("unexpected file type id"));
+    }
+    if file_type.source_type() != expected_source_type {
+        return Err(anyhow::Error::msg("unexpected source type"));
+    }
     let media_types = file_type.media_types();
-    match expected_media_type {
-        Some(expected_media_type) => {
-            assert!(media_types.contains(&expected_media_type));
+    if let Some(expected_media_type) = expected_media_type {
+        if !media_types.contains(&expected_media_type) {
+            return Err(anyhow::Error::msg("expected media type not found"));
         }
-        None => {
-            let empty: Vec<&str> = Vec::new();
-            assert_eq!(media_types, empty);
-        }
+    } else if !media_types.is_empty() {
+        return Err(anyhow::Error::msg("unexpected media type found"));
     }
     Ok(())
 }

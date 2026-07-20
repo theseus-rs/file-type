@@ -13,26 +13,22 @@ pub(crate) struct DocumentIdentifier {
 #[cfg(test)]
 mod test {
     use super::*;
+    use crate::format::test_utils::round_trip;
     use indoc::indoc;
-    use quick_xml::de::from_str;
-    use quick_xml::se::to_string;
 
     #[test]
-    fn test_serde() -> anyhow::Result<()> {
+    fn test_serde() {
         let xml = indoc! {r"
           <DocumentIdentifier>
             <Identifier>application/json</Identifier>
             <IdentifierType>MIME</IdentifierType>
           </DocumentIdentifier>
         "};
-        let document_identifier: DocumentIdentifier = from_str(xml)?;
-
-        // Test serialization
-        let xml = to_string(&document_identifier)?;
-        let document_identifier: DocumentIdentifier = from_str(xml.as_str())?;
+        let document_identifier: anyhow::Result<DocumentIdentifier> = round_trip(xml);
+        assert!(document_identifier.is_ok());
+        let document_identifier = document_identifier.unwrap();
 
         assert_eq!(document_identifier.identifier, "application/json");
         assert_eq!(document_identifier.r#type, "MIME");
-        Ok(())
     }
 }

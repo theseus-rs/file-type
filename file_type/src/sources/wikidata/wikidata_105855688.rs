@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_105855688: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "OpenShot profile",
         extensions: &[],
-        media_types: &["yexy/plain"],
+        media_types: &["text/plain"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

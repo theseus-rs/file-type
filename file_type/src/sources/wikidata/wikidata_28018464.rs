@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28018464: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Windows Media Download Package",
         extensions: &["wmd"],
-        media_types: &[],
+        media_types: &["application/x-ms-wmd"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

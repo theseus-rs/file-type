@@ -5,7 +5,7 @@ pub(crate) const LINGUIST_674736065: FileType = FileType {
     file_format: &FileFormat {
         id: 674_736_065,
         source_type: SourceType::Linguist,
-        name: "robots.txt",
+        name: "Robots Exclusion Rules",
         extensions: &[],
         media_types: &[],
         signatures: &[],

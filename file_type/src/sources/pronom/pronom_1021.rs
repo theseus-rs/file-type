@@ -9,7 +9,7 @@ pub(crate) const PRONOM_1021: FileType = FileType {
         id: 1_021,
         source_type: SourceType::Pronom,
         name: "LaTeX (Subdocument)",
-        extensions: &[],
+        extensions: &["tex"],
         media_types: &[],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {

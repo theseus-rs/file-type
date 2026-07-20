@@ -6,7 +6,7 @@ pub(crate) const LINGUIST_544060961: FileType = FileType {
         id: 544_060_961,
         source_type: SourceType::Linguist,
         name: "Valve Data Format",
-        extensions: &["vdf"],
+        extensions: &["vdf", "vmf"],
         media_types: &[],
         signatures: &[],
         related_formats: &[],

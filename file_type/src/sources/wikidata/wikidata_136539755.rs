@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_136539755: FileType = FileType {
     file_format: &FileFormat {
         id: 136_539_755,
         source_type: SourceType::Wikidata,
-        name: "GRAPHITE File",
+        name: "Q136539755",
         extensions: &["GRAPHITE"],
         media_types: &[],
         signatures: &[],

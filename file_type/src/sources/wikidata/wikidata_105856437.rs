@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_105856437: FileType = FileType {
     file_format: &FileFormat {
         id: 105_856_437,
         source_type: SourceType::Wikidata,
-        name: "Wind4Deap 2 project",
+        name: "Wind4Deap 2 Project",
         extensions: &["wdjson"],
         media_types: &["text/plain"],
         signatures: &[Signature {

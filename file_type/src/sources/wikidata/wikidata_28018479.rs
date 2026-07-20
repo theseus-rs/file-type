@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_28018479: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "Windows Media Player Skin Package",
         extensions: &["wms", "wmz"],
-        media_types: &[],
+        media_types: &["application/x-ms-wms", "application/x-ms-wmz"],
         signatures: &[Signature {
             byte_sequences: &[ByteSequence {
                 position_type: PositionType::BOF,

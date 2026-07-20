@@ -6,9 +6,7 @@ pub(crate) const LINGUIST_333: FileType = FileType {
         id: 333,
         source_type: SourceType::Linguist,
         name: "SQL",
-        extensions: &[
-            "cql", "ddl", "inc", "mysql", "prc", "sql", "tab", "udf", "viw",
-        ],
+        extensions: &["ddl", "inc", "mysql", "prc", "sql", "tab", "udf", "viw"],
         media_types: &["text/x-sql"],
         signatures: &[],
         related_formats: &[],

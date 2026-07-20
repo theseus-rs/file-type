@@ -7,7 +7,7 @@ pub(crate) const WIKIDATA_117401724: FileType = FileType {
         source_type: SourceType::Wikidata,
         name: "NBT",
         extensions: &["dat", "nbt"],
-        media_types: &["application/octet-stream"],
+        media_types: &[],
         signatures: &[],
         related_formats: &[],
     },

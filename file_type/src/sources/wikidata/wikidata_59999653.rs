@@ -5,7 +5,7 @@ pub(crate) const WIKIDATA_59999653: FileType = FileType {
     file_format: &FileFormat {
         id: 59_999_653,
         source_type: SourceType::Wikidata,
-        name: "ESRI Arc/View Project",
+        name: "ESRI Arc/View Project 3",
         extensions: &["apr"],
         media_types: &[],
         signatures: &[],

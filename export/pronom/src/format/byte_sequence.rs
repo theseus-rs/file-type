@@ -111,12 +111,11 @@ where
 #[cfg(test)]
 mod test {
     use super::*;
+    use crate::format::test_utils::round_trip;
     use indoc::indoc;
-    use quick_xml::de::from_str;
-    use quick_xml::se::to_string;
 
     #[test]
-    fn test_serde() -> anyhow::Result<()> {
+    fn test_serde() {
         let xml = indoc! {r"
           <ByteSequence>
             <ByteSequenceID>1955</ByteSequenceID>
@@ -131,11 +130,9 @@ mod test {
             <ByteSequenceValue>7B*2269645F737472223A*22726574776565746564223A</ByteSequenceValue>
           </ByteSequence>
         "};
-        let byte_sequence: ByteSequence = from_str(xml)?;
-
-        // Test serialization
-        let xml = to_string(&byte_sequence)?;
-        let byte_sequence: ByteSequence = from_str(xml.as_str())?;
+        let byte_sequence: anyhow::Result<ByteSequence> = round_trip(xml);
+        assert!(byte_sequence.is_ok());
+        let byte_sequence = byte_sequence.unwrap();
 
         assert_eq!(byte_sequence.id, 1955);
         assert!(matches!(
@@ -146,12 +143,13 @@ mod test {
         assert_eq!(byte_sequence.max_offset, Some(0));
         assert!(byte_sequence.indirect_offset_location.is_none());
         assert!(byte_sequence.indirect_offset_length.is_none());
-        let endianness = byte_sequence.endianness.expect("Endianness is None");
-        assert!(matches!(endianness, Endianness::BigEndian));
+        assert!(matches!(
+            byte_sequence.endianness,
+            Some(Endianness::BigEndian)
+        ));
         assert_eq!(
             byte_sequence.regex,
             "7B*2269645F737472223A*22726574776565746564223A"
         );
-        Ok(())
     }
 }
