@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.9.0](https://github.com/theseus-rs/file-type/compare/v0.8.11...v0.9.0) - 2026-07-20
+
+### Other
+- remove pronom support
+- update to Rust 1.97.1
+
 ## [0.8.11](https://github.com/theseus-rs/file-type/compare/v0.8.10...v0.8.11) - 2025-12-30
 
 ### Other
