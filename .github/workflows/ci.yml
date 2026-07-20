@@ -16,6 +16,19 @@ jobs:
     name: Checks
     uses: ./.github/workflows/checks.yml
 
+  no-std:
+    name: no_std
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v7
+
+      - name: Install Rust
+        run: rustup toolchain install --no-self-update
+
+      - name: Build without the standard library
+        run: cargo build --package file_type --no-default-features
+
   build:
     name: ${{ matrix.platform }}
     needs: [ checks ]

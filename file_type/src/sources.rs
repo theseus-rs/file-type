@@ -11,9 +11,6 @@ pub mod iana;
 #[cfg(feature = "linguist")]
 #[doc(hidden)]
 pub mod linguist;
-#[cfg(feature = "pronom")]
-#[doc(hidden)]
-pub mod pronom;
 #[cfg(feature = "wikidata")]
 #[doc(hidden)]
 pub mod wikidata;
@@ -28,8 +25,6 @@ pub fn file_types() -> impl Iterator<Item = &'static FileType> {
     let chained = chained.chain(iana::FILE_TYPES.iter().copied());
     #[cfg(feature = "linguist")]
     let chained = chained.chain(linguist::FILE_TYPES.iter().copied());
-    #[cfg(feature = "pronom")]
-    let chained = chained.chain(pronom::FILE_TYPES.iter().copied());
     #[cfg(feature = "wikidata")]
     let chained = chained.chain(wikidata::FILE_TYPES.iter().copied());
 

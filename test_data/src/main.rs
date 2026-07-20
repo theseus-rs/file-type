@@ -6,7 +6,7 @@
 #![deny(clippy::unwrap_used)]
 
 use file_type::format::SourceType;
-use file_type::sources::{pronom, wikidata};
+use file_type::sources::wikidata;
 
 mod generator;
 mod supported_formats;
@@ -14,7 +14,6 @@ mod test_signature;
 
 fn main() -> anyhow::Result<()> {
     supported_formats::generate()?;
-    generator::generate(&SourceType::Pronom, pronom::FILE_TYPES)?;
     generator::generate(&SourceType::Wikidata, wikidata::FILE_TYPES)
 }
 

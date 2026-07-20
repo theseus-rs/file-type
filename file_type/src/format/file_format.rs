@@ -9,7 +9,6 @@ pub enum SourceType {
     Httpd,
     Iana,
     Linguist,
-    Pronom,
     Wikidata,
 }
 
@@ -19,10 +18,9 @@ impl SourceType {
     pub fn priority(&self) -> usize {
         match self {
             SourceType::Default => 0,
-            SourceType::Httpd => 4,
-            SourceType::Iana => 5,
-            SourceType::Linguist => 3,
-            SourceType::Pronom => 2,
+            SourceType::Httpd => 3,
+            SourceType::Iana => 4,
+            SourceType::Linguist => 2,
             SourceType::Wikidata => 1,
         }
     }
@@ -84,10 +82,9 @@ mod tests {
     #[test]
     fn test_priority() {
         assert_eq!(SourceType::Default.priority(), 0);
-        assert_eq!(SourceType::Httpd.priority(), 4);
-        assert_eq!(SourceType::Iana.priority(), 5);
-        assert_eq!(SourceType::Linguist.priority(), 3);
-        assert_eq!(SourceType::Pronom.priority(), 2);
+        assert_eq!(SourceType::Httpd.priority(), 3);
+        assert_eq!(SourceType::Iana.priority(), 4);
+        assert_eq!(SourceType::Linguist.priority(), 2);
         assert_eq!(SourceType::Wikidata.priority(), 1);
     }
 
